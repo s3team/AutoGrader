@@ -1,0 +1,276 @@
+"ast_suite.ml" 5 61 65 "ast_suite.ml" 5 61 72
+type(
+  Ast.exp -> bool
+)
+ident(
+  def is_true "ast_suite.ml" 6 104 104 --
+)
+"ast_suite.ml" 5 61 75 "ast_suite.ml" 5 61 90
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Ast.full_exp_eq
+)
+"ast_suite.ml" 5 61 91 "ast_suite.ml" 5 61 103
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_true
+)
+"ast_suite.ml" 5 61 75 "ast_suite.ml" 5 61 103
+call(
+  stack
+)
+type(
+  Ast.exp -> bool
+)
+"ast_suite.ml" 6 104 108 "ast_suite.ml" 6 104 116
+type(
+  Ast.exp -> bool
+)
+ident(
+  def is_false "ast_suite.ml" 8 150 150 --
+)
+"ast_suite.ml" 6 104 119 "ast_suite.ml" 6 104 134
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Ast.full_exp_eq
+)
+"ast_suite.ml" 6 104 135 "ast_suite.ml" 6 104 148
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_false
+)
+"ast_suite.ml" 6 104 119 "ast_suite.ml" 6 104 148
+call(
+  stack
+)
+type(
+  Ast.exp -> bool
+)
+"ast_suite.ml" 8 150 154 "ast_suite.ml" 8 150 167
+type(
+  'a -> unit
+)
+ident(
+  def test_truth_id "ast_suite.ml" 13 271 271 --
+)
+"ast_suite.ml" 8 150 168 "ast_suite.ml" 8 150 169
+type(
+  'a
+)
+"ast_suite.ml" 9 173 179 "ast_suite.ml" 9 173 180
+type(
+  string
+)
+"ast_suite.ml" 9 173 183 "ast_suite.ml" 9 173 224
+type(
+  string
+)
+"ast_suite.ml" 10 228 230 "ast_suite.ml" 10 228 241
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref OUnit.assert_bool
+)
+"ast_suite.ml" 10 228 242 "ast_suite.ml" 10 228 243
+type(
+  string
+)
+ident(
+  int_ref s "ast_suite.ml" 9 173 179 "ast_suite.ml" 9 173 180
+)
+"ast_suite.ml" 10 228 245 "ast_suite.ml" 10 228 252
+type(
+  Ast.exp -> bool
+)
+ident(
+  int_ref is_true "ast_suite.ml" 5 61 65 "ast_suite.ml" 5 61 72
+)
+"ast_suite.ml" 10 228 253 "ast_suite.ml" 10 228 265
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_true
+)
+"ast_suite.ml" 10 228 244 "ast_suite.ml" 10 228 266
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_suite.ml" 10 228 230 "ast_suite.ml" 10 228 266
+call(
+  tail
+)
+type(
+  unit
+)
+"ast_suite.ml" 9 173 175 "ast_suite.ml" 10 228 266
+type(
+  unit
+)
+"ast_suite.ml" 13 271 275 "ast_suite.ml" 13 271 288
+type(
+  'a -> unit
+)
+ident(
+  def test_false_id "ast_suite.ml" 18 398 398 --
+)
+"ast_suite.ml" 13 271 289 "ast_suite.ml" 13 271 290
+type(
+  'a
+)
+"ast_suite.ml" 14 294 300 "ast_suite.ml" 14 294 301
+type(
+  string
+)
+"ast_suite.ml" 14 294 304 "ast_suite.ml" 14 294 345
+type(
+  string
+)
+"ast_suite.ml" 15 349 351 "ast_suite.ml" 15 349 362
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref OUnit.assert_bool
+)
+"ast_suite.ml" 15 349 363 "ast_suite.ml" 15 349 364
+type(
+  string
+)
+ident(
+  int_ref s "ast_suite.ml" 14 294 300 "ast_suite.ml" 14 294 301
+)
+"ast_suite.ml" 15 349 366 "ast_suite.ml" 15 349 369
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ast_suite.ml" 15 349 370 "ast_suite.ml" 15 349 378
+type(
+  Ast.exp -> bool
+)
+ident(
+  int_ref is_false "ast_suite.ml" 6 104 108 "ast_suite.ml" 6 104 116
+)
+"ast_suite.ml" 15 349 379 "ast_suite.ml" 15 349 391
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_true
+)
+"ast_suite.ml" 15 349 369 "ast_suite.ml" 15 349 392
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_suite.ml" 15 349 365 "ast_suite.ml" 15 349 393
+type(
+  bool
+)
+"ast_suite.ml" 15 349 351 "ast_suite.ml" 15 349 393
+call(
+  tail
+)
+type(
+  unit
+)
+"ast_suite.ml" 14 294 296 "ast_suite.ml" 15 349 393
+type(
+  unit
+)
+"ast_suite.ml" 18 398 402 "ast_suite.ml" 18 398 407
+type(
+  OUnit.test
+)
+ident(
+  def suite "ast_suite.ml" 22 498 501 --
+)
+"ast_suite.ml" 18 398 410 "ast_suite.ml" 18 398 415
+type(
+  string
+)
+"ast_suite.ml" 18 398 416 "ast_suite.ml" 18 398 420
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"ast_suite.ml" 20 426 427 "ast_suite.ml" 20 426 442
+type(
+  string
+)
+"ast_suite.ml" 20 426 443 "ast_suite.ml" 20 426 446
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"ast_suite.ml" 20 426 447 "ast_suite.ml" 20 426 460
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test_truth_id "ast_suite.ml" 8 150 154 "ast_suite.ml" 8 150 167
+)
+"ast_suite.ml" 20 426 427 "ast_suite.ml" 20 426 460
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"ast_suite.ml" 21 462 463 "ast_suite.ml" 21 462 478
+type(
+  string
+)
+"ast_suite.ml" 21 462 479 "ast_suite.ml" 21 462 482
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"ast_suite.ml" 21 462 483 "ast_suite.ml" 21 462 496
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test_false_id "ast_suite.ml" 13 271 275 "ast_suite.ml" 13 271 288
+)
+"ast_suite.ml" 21 462 463 "ast_suite.ml" 21 462 496
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"ast_suite.ml" 19 422 424 "ast_suite.ml" 22 498 501
+type(
+  OUnit.test list
+)
+"ast_suite.ml" 18 398 410 "ast_suite.ml" 22 498 501
+call(
+  stack
+)
+type(
+  OUnit.test
+)

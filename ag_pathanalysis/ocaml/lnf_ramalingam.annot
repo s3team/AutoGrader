@@ -1,0 +1,1429 @@
+"lnf_ramalingam.ml" 1 0 33 "lnf_ramalingam.ml" 1 0 37
+type(
+  string
+)
+ident(
+  def name "lnf_ramalingam.ml" 1 0 76 "lnf_ramalingam.ml" 1 0 80
+)
+"lnf_ramalingam.ml" 1 0 40 "lnf_ramalingam.ml" 1 0 55
+type(
+  string
+)
+"lnf_ramalingam.ml" 1 0 60 "lnf_ramalingam.ml" 1 0 67
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "lnf_ramalingam.ml" 1 0 76 "lnf_ramalingam.ml" 1 0 80
+)
+"lnf_ramalingam.ml" 1 0 68 "lnf_ramalingam.ml" 1 0 76
+type(
+  [> `NoDebug ] as 'a
+)
+"lnf_ramalingam.ml" 1 0 11 "lnf_ramalingam.ml" 1 0 81
+call(
+  stack
+)
+"lnf_ramalingam.ml" 15 362 375 "lnf_ramalingam.ml" 15 362 380
+call(
+  stack
+)
+"lnf_ramalingam.ml" 18 440 446 "lnf_ramalingam.ml" 18 440 449
+type(
+  C.G.t -> C.G.V.t -> C.G.V.t Lnf.lnt list
+)
+ident(
+  def lnf "lnf_ramalingam.ml" 77 2607 2616 "lnf_ramalingam.ml" 80 2619 2622
+)
+"lnf_ramalingam.ml" 18 440 450 "lnf_ramalingam.ml" 18 440 453
+type(
+  C.G.t
+)
+ident(
+  def cfg "lnf_ramalingam.ml" 18 440 454 "lnf_ramalingam.ml" 77 2607 2616
+)
+"lnf_ramalingam.ml" 18 440 454 "lnf_ramalingam.ml" 18 440 456
+type(
+  C.G.V.t
+)
+ident(
+  def v0 "lnf_ramalingam.ml" 19 459 463 "lnf_ramalingam.ml" 77 2607 2616
+)
+"lnf_ramalingam.ml" 19 459 481 "lnf_ramalingam.ml" 19 459 507
+call(
+  stack
+)
+"lnf_ramalingam.ml" 20 511 531 "lnf_ramalingam.ml" 20 511 546
+call(
+  stack
+)
+"lnf_ramalingam.ml" 22 551 559 "lnf_ramalingam.ml" 22 551 562
+type(
+  C.G.t
+)
+ident(
+  def cfg "lnf_ramalingam.ml" 23 579 583 "lnf_ramalingam.ml" 77 2607 2616
+)
+"lnf_ramalingam.ml" 22 551 565 "lnf_ramalingam.ml" 22 551 571
+type(
+  C.G.t -> C.G.t
+)
+ident(
+  ext_ref C.copy
+)
+"lnf_ramalingam.ml" 22 551 572 "lnf_ramalingam.ml" 22 551 575
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 18 440 450 "lnf_ramalingam.ml" 18 440 453
+)
+"lnf_ramalingam.ml" 22 551 565 "lnf_ramalingam.ml" 22 551 575
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"lnf_ramalingam.ml" 23 579 587 "lnf_ramalingam.ml" 23 579 590
+type(
+  R.t
+)
+ident(
+  def r_t "lnf_ramalingam.ml" 25 611 615 "lnf_ramalingam.ml" 77 2607 2616
+)
+"lnf_ramalingam.ml" 23 579 593 "lnf_ramalingam.ml" 23 579 599
+type(
+  C.G.t -> C.G.V.t -> R.t
+)
+ident(
+  ext_ref R.init
+)
+"lnf_ramalingam.ml" 23 579 600 "lnf_ramalingam.ml" 23 579 603
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 22 551 559 "lnf_ramalingam.ml" 22 551 562
+)
+"lnf_ramalingam.ml" 23 579 604 "lnf_ramalingam.ml" 23 579 606
+type(
+  C.G.V.t
+)
+ident(
+  int_ref v0 "lnf_ramalingam.ml" 18 440 454 "lnf_ramalingam.ml" 18 440 456
+)
+"lnf_ramalingam.ml" 23 579 593 "lnf_ramalingam.ml" 23 579 606
+call(
+  stack
+)
+type(
+  R.t
+)
+"lnf_ramalingam.ml" 25 611 619 "lnf_ramalingam.ml" 25 611 620
+type(
+  C.G.t -> VS.elt Lnf.lnt list
+)
+ident(
+  def f "lnf_ramalingam.ml" 77 2607 2611 "lnf_ramalingam.ml" 77 2607 2616
+)
+"lnf_ramalingam.ml" 25 611 621 "lnf_ramalingam.ml" 25 611 624
+type(
+  C.G.t
+)
+ident(
+  def cfg "lnf_ramalingam.ml" 30 798 804 "lnf_ramalingam.ml" 75 2535 2599
+)
+"lnf_ramalingam.ml" 30 798 808 "lnf_ramalingam.ml" 30 798 812
+type(
+  C.G.vertex list list
+)
+"lnf_ramalingam.ml" 30 798 815 "lnf_ramalingam.ml" 30 798 826
+type(
+  (C.G.vertex list -> bool) -> C.G.vertex list list -> C.G.vertex list list
+)
+ident(
+  ext_ref List.filter
+)
+"lnf_ramalingam.ml" 30 798 832 "lnf_ramalingam.ml" 30 798 835
+type(
+  C.G.vertex list
+)
+ident(
+  def scc "lnf_ramalingam.ml" 31 839 847 "lnf_ramalingam.ml" 33 900 919
+)
+"lnf_ramalingam.ml" 31 839 853 "lnf_ramalingam.ml" 31 839 856
+type(
+  C.G.vertex list
+)
+ident(
+  int_ref scc "lnf_ramalingam.ml" 30 798 832 "lnf_ramalingam.ml" 30 798 835
+)
+"lnf_ramalingam.ml" 32 862 873 "lnf_ramalingam.ml" 32 862 874
+type(
+  C.G.vertex
+)
+ident(
+  def x "lnf_ramalingam.ml" 32 862 879 "lnf_ramalingam.ml" 32 862 899
+)
+"lnf_ramalingam.ml" 32 862 872 "lnf_ramalingam.ml" 32 862 875
+type(
+  C.G.vertex list
+)
+"lnf_ramalingam.ml" 32 862 879 "lnf_ramalingam.ml" 32 862 891
+type(
+  C.G.t -> C.G.vertex -> C.G.vertex -> bool
+)
+ident(
+  ext_ref C.G.mem_edge
+)
+"lnf_ramalingam.ml" 32 862 892 "lnf_ramalingam.ml" 32 862 895
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 25 611 621 "lnf_ramalingam.ml" 25 611 624
+)
+"lnf_ramalingam.ml" 32 862 896 "lnf_ramalingam.ml" 32 862 897
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "lnf_ramalingam.ml" 32 862 873 "lnf_ramalingam.ml" 32 862 874
+)
+"lnf_ramalingam.ml" 32 862 898 "lnf_ramalingam.ml" 32 862 899
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "lnf_ramalingam.ml" 32 862 873 "lnf_ramalingam.ml" 32 862 874
+)
+"lnf_ramalingam.ml" 32 862 879 "lnf_ramalingam.ml" 32 862 899
+call(
+  tail
+)
+type(
+  bool
+)
+"lnf_ramalingam.ml" 33 900 910 "lnf_ramalingam.ml" 33 900 911
+type(
+  C.G.vertex list
+)
+"lnf_ramalingam.ml" 33 900 915 "lnf_ramalingam.ml" 33 900 919
+type(
+  bool
+)
+"lnf_ramalingam.ml" 31 839 847 "lnf_ramalingam.ml" 33 900 919
+type(
+  bool
+)
+"lnf_ramalingam.ml" 30 798 827 "lnf_ramalingam.ml" 33 900 920
+type(
+  C.G.vertex list -> bool
+)
+"lnf_ramalingam.ml" 33 900 922 "lnf_ramalingam.ml" 33 900 935
+type(
+  C.G.t -> C.G.vertex list list
+)
+ident(
+  ext_ref Comp.scc_list
+)
+"lnf_ramalingam.ml" 33 900 936 "lnf_ramalingam.ml" 33 900 939
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 25 611 621 "lnf_ramalingam.ml" 25 611 624
+)
+"lnf_ramalingam.ml" 33 900 921 "lnf_ramalingam.ml" 33 900 940
+call(
+  stack
+)
+type(
+  C.G.vertex list list
+)
+"lnf_ramalingam.ml" 30 798 815 "lnf_ramalingam.ml" 33 900 940
+call(
+  stack
+)
+type(
+  C.G.vertex list list
+)
+"lnf_ramalingam.ml" 34 944 958 "lnf_ramalingam.ml" 34 944 969
+type(
+  C.G.t -> C.G.E.vertex list -> VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 34 944 970 "lnf_ramalingam.ml" 34 944 973
+type(
+  C.G.t
+)
+ident(
+  def cfg "lnf_ramalingam.ml" 34 944 974 "lnf_ramalingam.ml" 70 2411 2485
+)
+"lnf_ramalingam.ml" 34 944 974 "lnf_ramalingam.ml" 34 944 977
+type(
+  C.G.E.vertex list
+)
+ident(
+  def scc "lnf_ramalingam.ml" 35 980 988 "lnf_ramalingam.ml" 70 2411 2485
+)
+"lnf_ramalingam.ml" 35 980 988 "lnf_ramalingam.ml" 35 980 995
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"lnf_ramalingam.ml" 35 980 996 "lnf_ramalingam.ml" 35 980 1009
+type(
+  (unit, unit, string, unit) format4
+)
+"lnf_ramalingam.ml" 35 980 988 "lnf_ramalingam.ml" 35 980 1009
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_ramalingam.ml" 36 1011 1025 "lnf_ramalingam.ml" 36 1011 1028
+type(
+  C.G.E.vertex list
+)
+ident(
+  int_ref scc "lnf_ramalingam.ml" 34 944 974 "lnf_ramalingam.ml" 34 944 977
+)
+"lnf_ramalingam.ml" 37 1034 1044 "lnf_ramalingam.ml" 37 1034 1046
+type(
+  C.G.E.vertex list
+)
+"lnf_ramalingam.ml" 37 1034 1050 "lnf_ramalingam.ml" 37 1034 1058
+type(
+  string -> VS.elt Lnf.lnt
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"lnf_ramalingam.ml" 37 1034 1059 "lnf_ramalingam.ml" 37 1034 1097
+type(
+  string
+)
+"lnf_ramalingam.ml" 37 1034 1050 "lnf_ramalingam.ml" 37 1034 1097
+call(
+  tail
+)
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 38 1098 1109 "lnf_ramalingam.ml" 38 1098 1110
+type(
+  C.G.E.vertex
+)
+ident(
+  def x "lnf_ramalingam.ml" 38 1098 1115 "lnf_ramalingam.ml" 39 1152 1200
+)
+"lnf_ramalingam.ml" 38 1098 1108 "lnf_ramalingam.ml" 38 1098 1111
+type(
+  C.G.E.vertex list
+)
+"lnf_ramalingam.ml" 38 1098 1115 "lnf_ramalingam.ml" 38 1098 1122
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"lnf_ramalingam.ml" 38 1098 1123 "lnf_ramalingam.ml" 38 1098 1140
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"lnf_ramalingam.ml" 38 1098 1142 "lnf_ramalingam.ml" 38 1098 1147
+type(
+  C.G.E.vertex -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"lnf_ramalingam.ml" 38 1098 1148 "lnf_ramalingam.ml" 38 1098 1149
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref x "lnf_ramalingam.ml" 38 1098 1109 "lnf_ramalingam.ml" 38 1098 1110
+)
+"lnf_ramalingam.ml" 38 1098 1141 "lnf_ramalingam.ml" 38 1098 1150
+call(
+  stack
+)
+type(
+  string
+)
+"lnf_ramalingam.ml" 38 1098 1115 "lnf_ramalingam.ml" 38 1098 1150
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_ramalingam.ml" 39 1152 1172 "lnf_ramalingam.ml" 39 1152 1175
+type(
+  C.G.E.vertex list
+)
+ident(
+  int_ref scc "lnf_ramalingam.ml" 34 944 974 "lnf_ramalingam.ml" 34 944 977
+)
+"lnf_ramalingam.ml" 39 1152 1182 "lnf_ramalingam.ml" 39 1152 1185
+type(
+  C.G.E.vertex list
+)
+ident(
+  int_ref scc "lnf_ramalingam.ml" 34 944 974 "lnf_ramalingam.ml" 34 944 977
+)
+"lnf_ramalingam.ml" 39 1152 1196 "lnf_ramalingam.ml" 39 1152 1198
+type(
+  C.G.E.vertex Lnf.lnf
+)
+"lnf_ramalingam.ml" 39 1152 1162 "lnf_ramalingam.ml" 39 1152 1200
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 38 1098 1115 "lnf_ramalingam.ml" 39 1152 1200
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 40 1201 1211 "lnf_ramalingam.ml" 40 1201 1212
+type(
+  C.G.E.vertex list
+)
+"lnf_ramalingam.ml" 41 1216 1230 "lnf_ramalingam.ml" 41 1216 1231
+type(
+  (C.G.E.vertex, unit) Hashtbl.t
+)
+"lnf_ramalingam.ml" 41 1216 1234 "lnf_ramalingam.ml" 41 1216 1248
+type(
+  int -> (C.G.E.vertex, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"lnf_ramalingam.ml" 41 1216 1250 "lnf_ramalingam.ml" 41 1216 1261
+type(
+  C.G.E.vertex list -> int
+)
+ident(
+  ext_ref List.length
+)
+"lnf_ramalingam.ml" 41 1216 1262 "lnf_ramalingam.ml" 41 1216 1265
+type(
+  C.G.E.vertex list
+)
+ident(
+  int_ref scc "lnf_ramalingam.ml" 34 944 974 "lnf_ramalingam.ml" 34 944 977
+)
+"lnf_ramalingam.ml" 41 1216 1249 "lnf_ramalingam.ml" 41 1216 1266
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_ramalingam.ml" 41 1216 1234 "lnf_ramalingam.ml" 41 1216 1266
+call(
+  stack
+)
+type(
+  (C.G.E.vertex, unit) Hashtbl.t
+)
+"lnf_ramalingam.ml" 42 1270 1280 "lnf_ramalingam.ml" 42 1270 1289
+type(
+  (C.G.E.vertex -> unit) -> C.G.E.vertex list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"lnf_ramalingam.ml" 42 1270 1295 "lnf_ramalingam.ml" 42 1270 1296
+type(
+  C.G.E.vertex
+)
+ident(
+  def v "lnf_ramalingam.ml" 42 1270 1300 "lnf_ramalingam.ml" 42 1270 1346
+)
+"lnf_ramalingam.ml" 42 1270 1300 "lnf_ramalingam.ml" 42 1270 1307
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"lnf_ramalingam.ml" 42 1270 1308 "lnf_ramalingam.ml" 42 1270 1316
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"lnf_ramalingam.ml" 42 1270 1318 "lnf_ramalingam.ml" 42 1270 1323
+type(
+  C.G.E.vertex -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"lnf_ramalingam.ml" 42 1270 1324 "lnf_ramalingam.ml" 42 1270 1325
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref v "lnf_ramalingam.ml" 42 1270 1295 "lnf_ramalingam.ml" 42 1270 1296
+)
+"lnf_ramalingam.ml" 42 1270 1317 "lnf_ramalingam.ml" 42 1270 1326
+call(
+  stack
+)
+type(
+  string
+)
+"lnf_ramalingam.ml" 42 1270 1300 "lnf_ramalingam.ml" 42 1270 1326
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_ramalingam.ml" 42 1270 1328 "lnf_ramalingam.ml" 42 1270 1339
+type(
+  (C.G.E.vertex, unit) Hashtbl.t -> C.G.E.vertex -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"lnf_ramalingam.ml" 42 1270 1340 "lnf_ramalingam.ml" 42 1270 1341
+type(
+  (C.G.E.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref h "lnf_ramalingam.ml" 41 1216 1230 "lnf_ramalingam.ml" 41 1216 1231
+)
+"lnf_ramalingam.ml" 42 1270 1342 "lnf_ramalingam.ml" 42 1270 1343
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref v "lnf_ramalingam.ml" 42 1270 1295 "lnf_ramalingam.ml" 42 1270 1296
+)
+"lnf_ramalingam.ml" 42 1270 1344 "lnf_ramalingam.ml" 42 1270 1346
+type(
+  unit
+)
+"lnf_ramalingam.ml" 42 1270 1328 "lnf_ramalingam.ml" 42 1270 1346
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_ramalingam.ml" 42 1270 1300 "lnf_ramalingam.ml" 42 1270 1346
+type(
+  unit
+)
+"lnf_ramalingam.ml" 42 1270 1290 "lnf_ramalingam.ml" 42 1270 1347
+type(
+  C.G.E.vertex -> unit
+)
+"lnf_ramalingam.ml" 42 1270 1348 "lnf_ramalingam.ml" 42 1270 1351
+type(
+  C.G.E.vertex list
+)
+ident(
+  int_ref scc "lnf_ramalingam.ml" 34 944 974 "lnf_ramalingam.ml" 34 944 977
+)
+"lnf_ramalingam.ml" 42 1270 1280 "lnf_ramalingam.ml" 42 1270 1351
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_ramalingam.ml" 43 1353 1367 "lnf_ramalingam.ml" 43 1353 1370
+type(
+  C.G.t
+)
+"lnf_ramalingam.ml" 43 1353 1373 "lnf_ramalingam.ml" 43 1353 1376
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 34 944 970 "lnf_ramalingam.ml" 34 944 973
+)
+"lnf_ramalingam.ml" 45 1381 1395 "lnf_ramalingam.ml" 45 1381 1406
+type(
+  VS.t
+)
+"lnf_ramalingam.ml" 45 1381 1409 "lnf_ramalingam.ml" 45 1381 1424
+type(
+  (VS.elt -> VS.t -> VS.t) -> VS.elt list -> VS.t -> VS.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"lnf_ramalingam.ml" 45 1381 1425 "lnf_ramalingam.ml" 45 1381 1431
+type(
+  VS.elt -> VS.t -> VS.t
+)
+ident(
+  ext_ref VS.add
+)
+"lnf_ramalingam.ml" 45 1381 1433 "lnf_ramalingam.ml" 45 1381 1447
+type(
+  R.t -> C.G.E.vertex list -> VS.elt list
+)
+ident(
+  ext_ref R.find_headers
+)
+"lnf_ramalingam.ml" 45 1381 1448 "lnf_ramalingam.ml" 45 1381 1451
+type(
+  R.t
+)
+ident(
+  int_ref r_t "lnf_ramalingam.ml" 23 579 587 "lnf_ramalingam.ml" 23 579 590
+)
+"lnf_ramalingam.ml" 45 1381 1452 "lnf_ramalingam.ml" 45 1381 1455
+type(
+  C.G.E.vertex list
+)
+ident(
+  int_ref scc "lnf_ramalingam.ml" 34 944 974 "lnf_ramalingam.ml" 34 944 977
+)
+"lnf_ramalingam.ml" 45 1381 1432 "lnf_ramalingam.ml" 45 1381 1456
+call(
+  stack
+)
+type(
+  VS.elt list
+)
+"lnf_ramalingam.ml" 45 1381 1457 "lnf_ramalingam.ml" 45 1381 1465
+type(
+  VS.t
+)
+ident(
+  ext_ref VS.empty
+)
+"lnf_ramalingam.ml" 45 1381 1409 "lnf_ramalingam.ml" 45 1381 1465
+call(
+  stack
+)
+type(
+  VS.t
+)
+"lnf_ramalingam.ml" 47 1470 1484 "lnf_ramalingam.ml" 47 1470 1497
+type(
+  C.G.edge list
+)
+"lnf_ramalingam.ml" 47 1470 1500 "lnf_ramalingam.ml" 47 1470 1516
+type(
+  (C.G.edge -> C.G.edge list -> C.G.edge list) ->
+  C.G.t -> C.G.edge list -> C.G.edge list
+)
+ident(
+  ext_ref C.G.fold_edges_e
+)
+"lnf_ramalingam.ml" 47 1470 1522 "lnf_ramalingam.ml" 47 1470 1523
+type(
+  C.G.edge
+)
+ident(
+  def e "lnf_ramalingam.ml" 47 1470 1524 "lnf_ramalingam.ml" 50 1644 1662
+)
+"lnf_ramalingam.ml" 47 1470 1524 "lnf_ramalingam.ml" 47 1470 1525
+type(
+  C.G.edge list
+)
+ident(
+  def l "lnf_ramalingam.ml" 48 1529 1541 "lnf_ramalingam.ml" 50 1644 1662
+)
+"lnf_ramalingam.ml" 48 1529 1544 "lnf_ramalingam.ml" 48 1529 1555
+type(
+  (C.G.E.vertex, unit) Hashtbl.t -> C.G.E.vertex -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"lnf_ramalingam.ml" 48 1529 1556 "lnf_ramalingam.ml" 48 1529 1557
+type(
+  (C.G.E.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref h "lnf_ramalingam.ml" 41 1216 1230 "lnf_ramalingam.ml" 41 1216 1231
+)
+"lnf_ramalingam.ml" 48 1529 1559 "lnf_ramalingam.ml" 48 1529 1568
+type(
+  C.G.edge -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.src
+)
+"lnf_ramalingam.ml" 48 1529 1569 "lnf_ramalingam.ml" 48 1529 1570
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "lnf_ramalingam.ml" 47 1470 1522 "lnf_ramalingam.ml" 47 1470 1523
+)
+"lnf_ramalingam.ml" 48 1529 1558 "lnf_ramalingam.ml" 48 1529 1571
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"lnf_ramalingam.ml" 48 1529 1544 "lnf_ramalingam.ml" 48 1529 1571
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_ramalingam.ml" 48 1529 1572 "lnf_ramalingam.ml" 48 1529 1573
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"lnf_ramalingam.ml" 48 1529 1574 "lnf_ramalingam.ml" 48 1529 1578
+type(
+  bool
+)
+"lnf_ramalingam.ml" 48 1529 1544 "lnf_ramalingam.ml" 48 1529 1578
+type(
+  bool
+)
+"lnf_ramalingam.ml" 48 1529 1579 "lnf_ramalingam.ml" 48 1529 1581
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"lnf_ramalingam.ml" 48 1529 1582 "lnf_ramalingam.ml" 48 1529 1588
+type(
+  VS.elt -> VS.t -> bool
+)
+ident(
+  ext_ref VS.mem
+)
+"lnf_ramalingam.ml" 48 1529 1590 "lnf_ramalingam.ml" 48 1529 1599
+type(
+  C.G.edge -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.dst
+)
+"lnf_ramalingam.ml" 48 1529 1600 "lnf_ramalingam.ml" 48 1529 1601
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "lnf_ramalingam.ml" 47 1470 1522 "lnf_ramalingam.ml" 47 1470 1523
+)
+"lnf_ramalingam.ml" 48 1529 1589 "lnf_ramalingam.ml" 48 1529 1602
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"lnf_ramalingam.ml" 48 1529 1603 "lnf_ramalingam.ml" 48 1529 1614
+type(
+  VS.t
+)
+ident(
+  int_ref entry_nodes "lnf_ramalingam.ml" 45 1381 1395 "lnf_ramalingam.ml" 45 1381 1406
+)
+"lnf_ramalingam.ml" 48 1529 1582 "lnf_ramalingam.ml" 48 1529 1614
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_ramalingam.ml" 48 1529 1615 "lnf_ramalingam.ml" 48 1529 1616
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"lnf_ramalingam.ml" 48 1529 1617 "lnf_ramalingam.ml" 48 1529 1621
+type(
+  bool
+)
+"lnf_ramalingam.ml" 48 1529 1582 "lnf_ramalingam.ml" 48 1529 1621
+type(
+  bool
+)
+"lnf_ramalingam.ml" 48 1529 1544 "lnf_ramalingam.ml" 48 1529 1621
+type(
+  bool
+)
+"lnf_ramalingam.ml" 49 1622 1639 "lnf_ramalingam.ml" 49 1622 1640
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "lnf_ramalingam.ml" 47 1470 1522 "lnf_ramalingam.ml" 47 1470 1523
+)
+"lnf_ramalingam.ml" 49 1622 1642 "lnf_ramalingam.ml" 49 1622 1643
+type(
+  C.G.edge list
+)
+ident(
+  int_ref l "lnf_ramalingam.ml" 47 1470 1524 "lnf_ramalingam.ml" 47 1470 1525
+)
+"lnf_ramalingam.ml" 49 1622 1639 "lnf_ramalingam.ml" 49 1622 1643
+type(
+  C.G.edge list
+)
+"lnf_ramalingam.ml" 50 1644 1661 "lnf_ramalingam.ml" 50 1644 1662
+type(
+  C.G.edge list
+)
+ident(
+  int_ref l "lnf_ramalingam.ml" 47 1470 1524 "lnf_ramalingam.ml" 47 1470 1525
+)
+"lnf_ramalingam.ml" 48 1529 1541 "lnf_ramalingam.ml" 50 1644 1662
+type(
+  C.G.edge list
+)
+"lnf_ramalingam.ml" 47 1470 1517 "lnf_ramalingam.ml" 51 1663 1674
+type(
+  C.G.edge -> C.G.edge list -> C.G.edge list
+)
+"lnf_ramalingam.ml" 51 1663 1675 "lnf_ramalingam.ml" 51 1663 1678
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 43 1353 1367 "lnf_ramalingam.ml" 43 1353 1370
+)
+"lnf_ramalingam.ml" 51 1663 1679 "lnf_ramalingam.ml" 51 1663 1681
+type(
+  C.G.edge list
+)
+"lnf_ramalingam.ml" 47 1470 1500 "lnf_ramalingam.ml" 51 1663 1681
+call(
+  stack
+)
+type(
+  C.G.edge list
+)
+"lnf_ramalingam.ml" 53 1686 1696 "lnf_ramalingam.ml" 53 1686 1703
+type(
+  (int -> int -> unit, unit, string, unit) format4 -> int -> int -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"lnf_ramalingam.ml" 53 1686 1704 "lnf_ramalingam.ml" 53 1686 1737
+type(
+  (int -> int -> unit, unit, string, unit) format4
+)
+"lnf_ramalingam.ml" 53 1686 1739 "lnf_ramalingam.ml" 53 1686 1750
+type(
+  VS.t -> int
+)
+ident(
+  ext_ref VS.cardinal
+)
+"lnf_ramalingam.ml" 53 1686 1751 "lnf_ramalingam.ml" 53 1686 1762
+type(
+  VS.t
+)
+ident(
+  int_ref entry_nodes "lnf_ramalingam.ml" 45 1381 1395 "lnf_ramalingam.ml" 45 1381 1406
+)
+"lnf_ramalingam.ml" 53 1686 1738 "lnf_ramalingam.ml" 53 1686 1763
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_ramalingam.ml" 53 1686 1765 "lnf_ramalingam.ml" 53 1686 1776
+type(
+  C.G.edge list -> int
+)
+ident(
+  ext_ref List.length
+)
+"lnf_ramalingam.ml" 53 1686 1777 "lnf_ramalingam.ml" 53 1686 1790
+type(
+  C.G.edge list
+)
+ident(
+  int_ref closing_edges "lnf_ramalingam.ml" 47 1470 1484 "lnf_ramalingam.ml" 47 1470 1497
+)
+"lnf_ramalingam.ml" 53 1686 1764 "lnf_ramalingam.ml" 53 1686 1791
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_ramalingam.ml" 53 1686 1696 "lnf_ramalingam.ml" 53 1686 1791
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_ramalingam.ml" 56 1825 1843 "lnf_ramalingam.ml" 56 1825 1856
+type(
+  C.G.edge list
+)
+ident(
+  int_ref closing_edges "lnf_ramalingam.ml" 47 1470 1484 "lnf_ramalingam.ml" 47 1470 1497
+)
+"lnf_ramalingam.ml" 56 1825 1857 "lnf_ramalingam.ml" 56 1825 1859
+type(
+  C.G.edge list -> C.G.edge list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"lnf_ramalingam.ml" 56 1825 1860 "lnf_ramalingam.ml" 56 1825 1862
+type(
+  C.G.edge list
+)
+"lnf_ramalingam.ml" 56 1825 1842 "lnf_ramalingam.ml" 56 1825 1863
+type(
+  bool
+)
+"lnf_ramalingam.ml" 56 1825 1835 "lnf_ramalingam.ml" 56 1825 1863
+type(
+  unit
+)
+"lnf_ramalingam.ml" 59 1903 1917 "lnf_ramalingam.ml" 59 1903 1920
+type(
+  C.G.t
+)
+"lnf_ramalingam.ml" 59 1903 1923 "lnf_ramalingam.ml" 59 1903 1937
+type(
+  (C.G.t -> C.G.edge -> C.G.t) -> C.G.t -> C.G.edge list -> C.G.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"lnf_ramalingam.ml" 59 1903 1938 "lnf_ramalingam.ml" 59 1903 1953
+type(
+  C.G.t -> C.G.edge -> C.G.t
+)
+ident(
+  ext_ref C.remove_edge_e
+)
+"lnf_ramalingam.ml" 59 1903 1954 "lnf_ramalingam.ml" 59 1903 1957
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 43 1353 1367 "lnf_ramalingam.ml" 43 1353 1370
+)
+"lnf_ramalingam.ml" 59 1903 1958 "lnf_ramalingam.ml" 59 1903 1971
+type(
+  C.G.edge list
+)
+ident(
+  int_ref closing_edges "lnf_ramalingam.ml" 47 1470 1484 "lnf_ramalingam.ml" 47 1470 1497
+)
+"lnf_ramalingam.ml" 59 1903 1923 "lnf_ramalingam.ml" 59 1903 1971
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"lnf_ramalingam.ml" 62 2026 2040 "lnf_ramalingam.ml" 62 2026 2044
+type(
+  C.G.E.vertex list list
+)
+"lnf_ramalingam.ml" 62 2026 2047 "lnf_ramalingam.ml" 62 2026 2058
+type(
+  (C.G.E.vertex list -> bool) ->
+  C.G.E.vertex list list -> C.G.E.vertex list list
+)
+ident(
+  ext_ref List.filter
+)
+"lnf_ramalingam.ml" 62 2026 2064 "lnf_ramalingam.ml" 62 2026 2067
+type(
+  C.G.E.vertex list
+)
+ident(
+  def scc "lnf_ramalingam.ml" 63 2071 2083 "lnf_ramalingam.ml" 65 2212 2271
+)
+"lnf_ramalingam.ml" 63 2071 2083 "lnf_ramalingam.ml" 63 2071 2095
+type(
+  (C.G.E.vertex -> bool) -> C.G.E.vertex list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"lnf_ramalingam.ml" 63 2071 2097 "lnf_ramalingam.ml" 63 2071 2108
+type(
+  (C.G.E.vertex, unit) Hashtbl.t -> C.G.E.vertex -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"lnf_ramalingam.ml" 63 2071 2109 "lnf_ramalingam.ml" 63 2071 2110
+type(
+  (C.G.E.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref h "lnf_ramalingam.ml" 41 1216 1230 "lnf_ramalingam.ml" 41 1216 1231
+)
+"lnf_ramalingam.ml" 63 2071 2096 "lnf_ramalingam.ml" 63 2071 2111
+call(
+  stack
+)
+type(
+  C.G.E.vertex -> bool
+)
+"lnf_ramalingam.ml" 63 2071 2112 "lnf_ramalingam.ml" 63 2071 2115
+type(
+  C.G.E.vertex list
+)
+ident(
+  int_ref scc "lnf_ramalingam.ml" 62 2026 2064 "lnf_ramalingam.ml" 62 2026 2067
+)
+"lnf_ramalingam.ml" 63 2071 2083 "lnf_ramalingam.ml" 63 2071 2115
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_ramalingam.ml" 63 2071 2116 "lnf_ramalingam.ml" 63 2071 2118
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"lnf_ramalingam.ml" 63 2071 2125 "lnf_ramalingam.ml" 63 2071 2128
+type(
+  C.G.E.vertex list
+)
+ident(
+  int_ref scc "lnf_ramalingam.ml" 62 2026 2064 "lnf_ramalingam.ml" 62 2026 2067
+)
+"lnf_ramalingam.ml" 64 2134 2185 "lnf_ramalingam.ml" 64 2134 2186
+type(
+  C.G.E.vertex
+)
+ident(
+  def x "lnf_ramalingam.ml" 64 2134 2191 "lnf_ramalingam.ml" 64 2134 2211
+)
+"lnf_ramalingam.ml" 64 2134 2184 "lnf_ramalingam.ml" 64 2134 2187
+type(
+  C.G.E.vertex list
+)
+"lnf_ramalingam.ml" 64 2134 2191 "lnf_ramalingam.ml" 64 2134 2203
+type(
+  C.G.t -> C.G.vertex -> C.G.vertex -> bool
+)
+ident(
+  ext_ref C.G.mem_edge
+)
+"lnf_ramalingam.ml" 64 2134 2204 "lnf_ramalingam.ml" 64 2134 2207
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 59 1903 1917 "lnf_ramalingam.ml" 59 1903 1920
+)
+"lnf_ramalingam.ml" 64 2134 2208 "lnf_ramalingam.ml" 64 2134 2209
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref x "lnf_ramalingam.ml" 64 2134 2185 "lnf_ramalingam.ml" 64 2134 2186
+)
+"lnf_ramalingam.ml" 64 2134 2210 "lnf_ramalingam.ml" 64 2134 2211
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref x "lnf_ramalingam.ml" 64 2134 2185 "lnf_ramalingam.ml" 64 2134 2186
+)
+"lnf_ramalingam.ml" 64 2134 2191 "lnf_ramalingam.ml" 64 2134 2211
+call(
+  tail
+)
+type(
+  bool
+)
+"lnf_ramalingam.ml" 65 2212 2262 "lnf_ramalingam.ml" 65 2212 2263
+type(
+  C.G.E.vertex list
+)
+"lnf_ramalingam.ml" 65 2212 2267 "lnf_ramalingam.ml" 65 2212 2271
+type(
+  bool
+)
+"lnf_ramalingam.ml" 63 2071 2119 "lnf_ramalingam.ml" 65 2212 2271
+type(
+  bool
+)
+"lnf_ramalingam.ml" 63 2071 2083 "lnf_ramalingam.ml" 65 2212 2271
+type(
+  bool
+)
+"lnf_ramalingam.ml" 62 2026 2059 "lnf_ramalingam.ml" 66 2272 2283
+type(
+  C.G.E.vertex list -> bool
+)
+"lnf_ramalingam.ml" 66 2272 2285 "lnf_ramalingam.ml" 66 2272 2298
+type(
+  C.G.t -> C.G.E.vertex list list
+)
+ident(
+  ext_ref Comp.scc_list
+)
+"lnf_ramalingam.ml" 66 2272 2299 "lnf_ramalingam.ml" 66 2272 2302
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 59 1903 1917 "lnf_ramalingam.ml" 59 1903 1920
+)
+"lnf_ramalingam.ml" 66 2272 2284 "lnf_ramalingam.ml" 66 2272 2303
+call(
+  stack
+)
+type(
+  C.G.E.vertex list list
+)
+"lnf_ramalingam.ml" 62 2026 2047 "lnf_ramalingam.ml" 66 2272 2303
+call(
+  stack
+)
+type(
+  C.G.E.vertex list list
+)
+"lnf_ramalingam.ml" 68 2308 2328 "lnf_ramalingam.ml" 68 2308 2337
+type(
+  (VS.elt -> VS.elt -> int) -> VS.elt list -> VS.elt list
+)
+ident(
+  ext_ref List.sort
+)
+"lnf_ramalingam.ml" 68 2308 2338 "lnf_ramalingam.ml" 68 2308 2345
+type(
+  VS.elt -> VS.elt -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lnf_ramalingam.ml" 68 2308 2347 "lnf_ramalingam.ml" 68 2308 2358
+type(
+  VS.t -> VS.elt list
+)
+ident(
+  ext_ref VS.elements
+)
+"lnf_ramalingam.ml" 68 2308 2359 "lnf_ramalingam.ml" 68 2308 2370
+type(
+  VS.t
+)
+ident(
+  int_ref entry_nodes "lnf_ramalingam.ml" 45 1381 1395 "lnf_ramalingam.ml" 45 1381 1406
+)
+"lnf_ramalingam.ml" 68 2308 2346 "lnf_ramalingam.ml" 68 2308 2371
+call(
+  stack
+)
+type(
+  VS.elt list
+)
+"lnf_ramalingam.ml" 68 2308 2328 "lnf_ramalingam.ml" 68 2308 2371
+call(
+  stack
+)
+type(
+  VS.elt list
+)
+"lnf_ramalingam.ml" 69 2372 2389 "lnf_ramalingam.ml" 69 2372 2398
+type(
+  (C.G.E.vertex -> C.G.E.vertex -> int) -> C.G.E.vertex list -> VS.elt list
+)
+ident(
+  ext_ref List.sort
+)
+"lnf_ramalingam.ml" 69 2372 2399 "lnf_ramalingam.ml" 69 2372 2406
+type(
+  C.G.E.vertex -> C.G.E.vertex -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lnf_ramalingam.ml" 69 2372 2407 "lnf_ramalingam.ml" 69 2372 2410
+type(
+  C.G.E.vertex list
+)
+ident(
+  int_ref scc "lnf_ramalingam.ml" 34 944 974 "lnf_ramalingam.ml" 34 944 977
+)
+"lnf_ramalingam.ml" 69 2372 2389 "lnf_ramalingam.ml" 69 2372 2410
+call(
+  stack
+)
+type(
+  VS.elt list
+)
+"lnf_ramalingam.ml" 70 2411 2432 "lnf_ramalingam.ml" 70 2411 2441
+type(
+  (VS.elt Lnf.lnt -> VS.elt Lnf.lnt -> int) ->
+  VS.elt Lnf.lnt list -> VS.elt Lnf.lnf
+)
+ident(
+  ext_ref List.sort
+)
+"lnf_ramalingam.ml" 70 2411 2442 "lnf_ramalingam.ml" 70 2411 2449
+type(
+  VS.elt Lnf.lnt -> VS.elt Lnf.lnt -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lnf_ramalingam.ml" 70 2411 2451 "lnf_ramalingam.ml" 70 2411 2459
+type(
+  (C.G.E.vertex list -> VS.elt Lnf.lnt) ->
+  C.G.E.vertex list list -> VS.elt Lnf.lnt list
+)
+ident(
+  ext_ref List.map
+)
+"lnf_ramalingam.ml" 70 2411 2461 "lnf_ramalingam.ml" 70 2411 2472
+type(
+  C.G.t -> C.G.E.vertex list -> VS.elt Lnf.lnt
+)
+ident(
+  int_ref process_scc "lnf_ramalingam.ml" 34 944 958 "lnf_ramalingam.ml" 34 944 969
+)
+"lnf_ramalingam.ml" 70 2411 2473 "lnf_ramalingam.ml" 70 2411 2476
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 59 1903 1917 "lnf_ramalingam.ml" 59 1903 1920
+)
+"lnf_ramalingam.ml" 70 2411 2460 "lnf_ramalingam.ml" 70 2411 2477
+call(
+  stack
+)
+type(
+  C.G.E.vertex list -> VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 70 2411 2478 "lnf_ramalingam.ml" 70 2411 2482
+type(
+  C.G.E.vertex list list
+)
+ident(
+  int_ref sccs "lnf_ramalingam.ml" 62 2026 2040 "lnf_ramalingam.ml" 62 2026 2044
+)
+"lnf_ramalingam.ml" 70 2411 2450 "lnf_ramalingam.ml" 70 2411 2483
+call(
+  stack
+)
+type(
+  VS.elt Lnf.lnt list
+)
+"lnf_ramalingam.ml" 70 2411 2432 "lnf_ramalingam.ml" 70 2411 2483
+call(
+  stack
+)
+type(
+  VS.elt Lnf.lnf
+)
+"lnf_ramalingam.ml" 68 2308 2318 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 62 2026 2036 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 59 1903 1913 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 56 1825 1835 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 53 1686 1696 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 47 1470 1480 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 45 1381 1391 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 43 1353 1363 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 42 1270 1280 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 41 1216 1226 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 36 1011 1019 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 35 980 988 "lnf_ramalingam.ml" 70 2411 2485
+type(
+  VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 73 2496 2508 "lnf_ramalingam.ml" 73 2496 2512
+type(
+  C.G.vertex list list
+)
+ident(
+  int_ref sccs "lnf_ramalingam.ml" 30 798 808 "lnf_ramalingam.ml" 30 798 812
+)
+"lnf_ramalingam.ml" 74 2518 2526 "lnf_ramalingam.ml" 74 2518 2528
+type(
+  C.G.vertex list list
+)
+"lnf_ramalingam.ml" 74 2518 2532 "lnf_ramalingam.ml" 74 2518 2534
+type(
+  VS.elt Lnf.lnt list
+)
+"lnf_ramalingam.ml" 75 2535 2543 "lnf_ramalingam.ml" 75 2535 2544
+type(
+  C.G.vertex list list
+)
+"lnf_ramalingam.ml" 75 2535 2548 "lnf_ramalingam.ml" 75 2535 2557
+type(
+  (VS.elt Lnf.lnt -> VS.elt Lnf.lnt -> int) ->
+  VS.elt Lnf.lnt list -> VS.elt Lnf.lnt list
+)
+ident(
+  ext_ref List.sort
+)
+"lnf_ramalingam.ml" 75 2535 2558 "lnf_ramalingam.ml" 75 2535 2565
+type(
+  VS.elt Lnf.lnt -> VS.elt Lnf.lnt -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lnf_ramalingam.ml" 75 2535 2567 "lnf_ramalingam.ml" 75 2535 2575
+type(
+  (C.G.E.vertex list -> VS.elt Lnf.lnt) ->
+  C.G.E.vertex list list -> VS.elt Lnf.lnt list
+)
+ident(
+  ext_ref List.map
+)
+"lnf_ramalingam.ml" 75 2535 2577 "lnf_ramalingam.ml" 75 2535 2588
+type(
+  C.G.t -> C.G.E.vertex list -> VS.elt Lnf.lnt
+)
+ident(
+  int_ref process_scc "lnf_ramalingam.ml" 34 944 958 "lnf_ramalingam.ml" 34 944 969
+)
+"lnf_ramalingam.ml" 75 2535 2589 "lnf_ramalingam.ml" 75 2535 2592
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 25 611 621 "lnf_ramalingam.ml" 25 611 624
+)
+"lnf_ramalingam.ml" 75 2535 2576 "lnf_ramalingam.ml" 75 2535 2593
+call(
+  stack
+)
+type(
+  C.G.E.vertex list -> VS.elt Lnf.lnt
+)
+"lnf_ramalingam.ml" 75 2535 2594 "lnf_ramalingam.ml" 75 2535 2598
+type(
+  C.G.E.vertex list list
+)
+ident(
+  int_ref sccs "lnf_ramalingam.ml" 30 798 808 "lnf_ramalingam.ml" 30 798 812
+)
+"lnf_ramalingam.ml" 75 2535 2566 "lnf_ramalingam.ml" 75 2535 2599
+call(
+  stack
+)
+type(
+  VS.elt Lnf.lnt list
+)
+"lnf_ramalingam.ml" 75 2535 2548 "lnf_ramalingam.ml" 75 2535 2599
+call(
+  tail
+)
+type(
+  VS.elt Lnf.lnt list
+)
+"lnf_ramalingam.ml" 73 2496 2502 "lnf_ramalingam.ml" 75 2535 2599
+type(
+  VS.elt Lnf.lnt list
+)
+"lnf_ramalingam.ml" 34 944 950 "lnf_ramalingam.ml" 75 2535 2599
+type(
+  VS.elt Lnf.lnt list
+)
+"lnf_ramalingam.ml" 30 798 804 "lnf_ramalingam.ml" 75 2535 2599
+type(
+  VS.elt Lnf.lnt list
+)
+"lnf_ramalingam.ml" 77 2607 2611 "lnf_ramalingam.ml" 77 2607 2612
+type(
+  C.G.t -> C.G.V.t Lnf.lnt list
+)
+ident(
+  int_ref f "lnf_ramalingam.ml" 25 611 619 "lnf_ramalingam.ml" 25 611 620
+)
+"lnf_ramalingam.ml" 77 2607 2613 "lnf_ramalingam.ml" 77 2607 2616
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_ramalingam.ml" 22 551 559 "lnf_ramalingam.ml" 22 551 562
+)
+"lnf_ramalingam.ml" 77 2607 2611 "lnf_ramalingam.ml" 77 2607 2616
+call(
+  tail
+)
+type(
+  C.G.V.t Lnf.lnt list
+)
+"lnf_ramalingam.ml" 25 611 615 "lnf_ramalingam.ml" 77 2607 2616
+type(
+  C.G.V.t Lnf.lnt list
+)
+"lnf_ramalingam.ml" 23 579 583 "lnf_ramalingam.ml" 77 2607 2616
+type(
+  C.G.V.t Lnf.lnt list
+)
+"lnf_ramalingam.ml" 22 551 555 "lnf_ramalingam.ml" 77 2607 2616
+type(
+  C.G.V.t Lnf.lnt list
+)
+"lnf_ramalingam.ml" 20 511 515 "lnf_ramalingam.ml" 77 2607 2616
+type(
+  C.G.V.t Lnf.lnt list
+)
+"lnf_ramalingam.ml" 19 459 463 "lnf_ramalingam.ml" 77 2607 2616
+type(
+  C.G.V.t Lnf.lnt list
+)

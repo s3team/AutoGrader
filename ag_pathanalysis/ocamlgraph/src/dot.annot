@@ -1,0 +1,3791 @@
+"src/dot.ml" 22 1282 1286 "src/dot.ml" 22 1282 1309
+type(
+  in_channel -> Dot_ast.file
+)
+ident(
+  def parse_dot_ast_from_chan "src/dot.ml" 34 1581 1581 --
+)
+"src/dot.ml" 22 1282 1310 "src/dot.ml" 22 1282 1311
+type(
+  in_channel
+)
+ident(
+  def c "src/dot.ml" 23 1314 1316 "src/dot.ml" 32 1574 1579
+)
+"src/dot.ml" 23 1314 1320 "src/dot.ml" 23 1314 1322
+type(
+  Lexing.lexbuf
+)
+"src/dot.ml" 23 1314 1325 "src/dot.ml" 23 1314 1344
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"src/dot.ml" 23 1314 1345 "src/dot.ml" 23 1314 1346
+type(
+  in_channel
+)
+ident(
+  int_ref c "src/dot.ml" 22 1282 1310 "src/dot.ml" 22 1282 1311
+)
+"src/dot.ml" 23 1314 1325 "src/dot.ml" 23 1314 1346
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"src/dot.ml" 24 1350 1356 "src/dot.ml" 24 1350 1359
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 26 1370 1376 "src/dot.ml" 26 1370 1391
+type(
+  (Lexing.lexbuf -> Dot_parser.token) -> Lexing.lexbuf -> Dot_ast.file
+)
+ident(
+  ext_ref Dot_parser.file
+)
+"src/dot.ml" 26 1370 1392 "src/dot.ml" 26 1370 1407
+type(
+  Lexing.lexbuf -> Dot_parser.token
+)
+ident(
+  ext_ref Dot_lexer.token
+)
+"src/dot.ml" 26 1370 1408 "src/dot.ml" 26 1370 1410
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "src/dot.ml" 23 1314 1320 "src/dot.ml" 23 1314 1322
+)
+"src/dot.ml" 26 1370 1376 "src/dot.ml" 26 1370 1410
+call(
+  stack
+)
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 27 1411 1420 "src/dot.ml" 27 1411 1439
+type(
+  exn
+)
+"src/dot.ml" 28 1443 1453 "src/dot.ml" 28 1443 1454
+type(
+  int
+)
+"src/dot.ml" 28 1443 1457 "src/dot.ml" 28 1443 1476
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"src/dot.ml" 28 1443 1477 "src/dot.ml" 28 1443 1479
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "src/dot.ml" 23 1314 1320 "src/dot.ml" 23 1314 1322
+)
+"src/dot.ml" 28 1443 1457 "src/dot.ml" 28 1443 1479
+call(
+  stack
+)
+type(
+  int
+)
+"src/dot.ml" 29 1483 1489 "src/dot.ml" 29 1483 1497
+type(
+  string -> Dot_ast.file
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/dot.ml" 29 1483 1499 "src/dot.ml" 29 1483 1513
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/dot.ml" 29 1483 1514 "src/dot.ml" 29 1483 1551
+type(
+  (int -> string, unit, string) format
+)
+"src/dot.ml" 29 1483 1552 "src/dot.ml" 29 1483 1553
+type(
+  int
+)
+ident(
+  int_ref n "src/dot.ml" 28 1443 1453 "src/dot.ml" 28 1443 1454
+)
+"src/dot.ml" 29 1483 1498 "src/dot.ml" 29 1483 1554
+call(
+  stack
+)
+type(
+  string
+)
+"src/dot.ml" 29 1483 1489 "src/dot.ml" 29 1483 1554
+call(
+  stack
+)
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 28 1443 1449 "src/dot.ml" 29 1483 1554
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 25 1362 1366 "src/dot.ml" 29 1483 1554
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 31 1560 1562 "src/dot.ml" 31 1560 1570
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/dot.ml" 31 1560 1571 "src/dot.ml" 31 1560 1572
+type(
+  in_channel
+)
+ident(
+  int_ref c "src/dot.ml" 22 1282 1310 "src/dot.ml" 22 1282 1311
+)
+"src/dot.ml" 31 1560 1562 "src/dot.ml" 31 1560 1572
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot.ml" 32 1574 1576 "src/dot.ml" 32 1574 1579
+type(
+  Dot_ast.file
+)
+ident(
+  int_ref dot "src/dot.ml" 24 1350 1356 "src/dot.ml" 24 1350 1359
+)
+"src/dot.ml" 31 1560 1562 "src/dot.ml" 32 1574 1579
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 24 1350 1352 "src/dot.ml" 32 1574 1579
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 23 1314 1316 "src/dot.ml" 32 1574 1579
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 34 1581 1585 "src/dot.ml" 34 1581 1598
+type(
+  string -> Dot_ast.file
+)
+ident(
+  def parse_dot_ast "src/dot.ml" 38 1655 1655 --
+)
+"src/dot.ml" 34 1581 1599 "src/dot.ml" 34 1581 1600
+type(
+  string
+)
+ident(
+  def f "src/dot.ml" 35 1603 1605 "src/dot.ml" 36 1626 1653
+)
+"src/dot.ml" 35 1603 1609 "src/dot.ml" 35 1603 1610
+type(
+  in_channel
+)
+"src/dot.ml" 35 1603 1613 "src/dot.ml" 35 1603 1620
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/dot.ml" 35 1603 1621 "src/dot.ml" 35 1603 1622
+type(
+  string
+)
+ident(
+  int_ref f "src/dot.ml" 34 1581 1599 "src/dot.ml" 34 1581 1600
+)
+"src/dot.ml" 35 1603 1613 "src/dot.ml" 35 1603 1622
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/dot.ml" 36 1626 1628 "src/dot.ml" 36 1626 1651
+type(
+  in_channel -> Dot_ast.file
+)
+ident(
+  int_ref parse_dot_ast_from_chan "src/dot.ml" 22 1282 1286 "src/dot.ml" 22 1282 1309
+)
+"src/dot.ml" 36 1626 1652 "src/dot.ml" 36 1626 1653
+type(
+  in_channel
+)
+ident(
+  int_ref c "src/dot.ml" 35 1603 1609 "src/dot.ml" 35 1603 1610
+)
+"src/dot.ml" 36 1626 1628 "src/dot.ml" 36 1626 1653
+call(
+  tail
+)
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 35 1603 1605 "src/dot.ml" 36 1626 1653
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 40 1707 1711 "src/dot.ml" 40 1707 1721
+type(
+  Dot_ast.id -> string
+)
+ident(
+  def get_string "src/dot.ml" 46 1803 1803 --
+)
+"src/dot.ml" 41 1733 1744 "src/dot.ml" 41 1733 1745
+type(
+  string
+)
+ident(
+  def s "src/dot.ml" 41 1733 1749 "src/dot.ml" 41 1733 1750
+)
+"src/dot.ml" 41 1733 1737 "src/dot.ml" 41 1733 1745
+type(
+  Dot_ast.id
+)
+"src/dot.ml" 41 1733 1749 "src/dot.ml" 41 1733 1750
+type(
+  string
+)
+ident(
+  int_ref s "src/dot.ml" 41 1733 1744 "src/dot.ml" 41 1733 1745
+)
+"src/dot.ml" 42 1751 1761 "src/dot.ml" 42 1751 1762
+type(
+  string
+)
+ident(
+  def s "src/dot.ml" 42 1751 1766 "src/dot.ml" 42 1751 1767
+)
+"src/dot.ml" 42 1751 1755 "src/dot.ml" 42 1751 1762
+type(
+  Dot_ast.id
+)
+"src/dot.ml" 42 1751 1766 "src/dot.ml" 42 1751 1767
+type(
+  string
+)
+ident(
+  int_ref s "src/dot.ml" 42 1751 1761 "src/dot.ml" 42 1751 1762
+)
+"src/dot.ml" 43 1768 1779 "src/dot.ml" 43 1768 1780
+type(
+  string
+)
+ident(
+  def s "src/dot.ml" 43 1768 1784 "src/dot.ml" 43 1768 1785
+)
+"src/dot.ml" 43 1768 1772 "src/dot.ml" 43 1768 1780
+type(
+  Dot_ast.id
+)
+"src/dot.ml" 43 1768 1784 "src/dot.ml" 43 1768 1785
+type(
+  string
+)
+ident(
+  int_ref s "src/dot.ml" 43 1768 1779 "src/dot.ml" 43 1768 1780
+)
+"src/dot.ml" 44 1786 1795 "src/dot.ml" 44 1786 1796
+type(
+  string
+)
+ident(
+  def s "src/dot.ml" 44 1786 1800 "src/dot.ml" 44 1786 1801
+)
+"src/dot.ml" 44 1786 1790 "src/dot.ml" 44 1786 1796
+type(
+  Dot_ast.id
+)
+"src/dot.ml" 44 1786 1800 "src/dot.ml" 44 1786 1801
+type(
+  string
+)
+ident(
+  int_ref s "src/dot.ml" 44 1786 1795 "src/dot.ml" 44 1786 1796
+)
+"src/dot.ml" 40 1707 1724 "src/dot.ml" 44 1786 1801
+type(
+  Dot_ast.id -> string
+)
+"src/dot.ml" 61 2191 2206 "src/dot.ml" 61 2191 2213
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/dot.ml" 61 2191 2250 "src/dot.ml" 62 2251 2263
+)
+"src/dot.ml" 61 2191 2232 "src/dot.ml" 61 2191 2250
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/dot.ml" 58 2137 2143 "src/dot.ml" 62 2251 2264
+call(
+  stack
+)
+"src/dot.ml" 64 2292 2300 "src/dot.ml" 64 2292 2305
+type(
+  'a M.t
+)
+ident(
+  def empty "src/dot.ml" 65 2316 2320 "src/dot.ml" 68 2463 2468
+)
+"src/dot.ml" 64 2292 2308 "src/dot.ml" 64 2292 2315
+type(
+  'a M.t
+)
+ident(
+  ext_ref M.empty
+)
+"src/dot.ml" 65 2316 2324 "src/dot.ml" 65 2316 2327
+type(
+  Dot_ast.id option M.t ->
+  (M.key * Dot_ast.id option) list -> Dot_ast.id option M.t
+)
+ident(
+  def add "src/dot.ml" 66 2374 2378 "src/dot.ml" 68 2463 2468
+)
+"src/dot.ml" 65 2316 2330 "src/dot.ml" 65 2316 2344
+type(
+  (Dot_ast.id option M.t ->
+   M.key * Dot_ast.id option -> Dot_ast.id option M.t) ->
+  Dot_ast.id option M.t ->
+  (M.key * Dot_ast.id option) list -> Dot_ast.id option M.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/dot.ml" 65 2316 2350 "src/dot.ml" 65 2316 2351
+type(
+  Dot_ast.id option M.t
+)
+ident(
+  def a "src/dot.ml" 65 2316 2352 "src/dot.ml" 65 2316 2372
+)
+"src/dot.ml" 65 2316 2353 "src/dot.ml" 65 2316 2354
+type(
+  M.key
+)
+ident(
+  def x "src/dot.ml" 65 2316 2361 "src/dot.ml" 65 2316 2372
+)
+"src/dot.ml" 65 2316 2355 "src/dot.ml" 65 2316 2356
+type(
+  Dot_ast.id option
+)
+ident(
+  def v "src/dot.ml" 65 2316 2361 "src/dot.ml" 65 2316 2372
+)
+"src/dot.ml" 65 2316 2352 "src/dot.ml" 65 2316 2357
+type(
+  M.key * Dot_ast.id option
+)
+"src/dot.ml" 65 2316 2361 "src/dot.ml" 65 2316 2366
+type(
+  M.key ->
+  Dot_ast.id option -> Dot_ast.id option M.t -> Dot_ast.id option M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/dot.ml" 65 2316 2367 "src/dot.ml" 65 2316 2368
+type(
+  M.key
+)
+ident(
+  int_ref x "src/dot.ml" 65 2316 2353 "src/dot.ml" 65 2316 2354
+)
+"src/dot.ml" 65 2316 2369 "src/dot.ml" 65 2316 2370
+type(
+  Dot_ast.id option
+)
+ident(
+  int_ref v "src/dot.ml" 65 2316 2355 "src/dot.ml" 65 2316 2356
+)
+"src/dot.ml" 65 2316 2371 "src/dot.ml" 65 2316 2372
+type(
+  Dot_ast.id option M.t
+)
+ident(
+  int_ref a "src/dot.ml" 65 2316 2350 "src/dot.ml" 65 2316 2351
+)
+"src/dot.ml" 65 2316 2361 "src/dot.ml" 65 2316 2372
+call(
+  tail
+)
+type(
+  Dot_ast.id option M.t
+)
+"src/dot.ml" 65 2316 2345 "src/dot.ml" 65 2316 2373
+type(
+  Dot_ast.id option M.t -> M.key * Dot_ast.id option -> Dot_ast.id option M.t
+)
+"src/dot.ml" 65 2316 2330 "src/dot.ml" 65 2316 2373
+call(
+  stack
+)
+type(
+  Dot_ast.id option M.t ->
+  (M.key * Dot_ast.id option) list -> Dot_ast.id option M.t
+)
+"src/dot.ml" 66 2374 2382 "src/dot.ml" 66 2374 2386
+type(
+  Dot_ast.id option M.t ->
+  (M.key * Dot_ast.id option) list list -> Dot_ast.id option M.t
+)
+ident(
+  def addl "src/dot.ml" 67 2408 2412 "src/dot.ml" 68 2463 2468
+)
+"src/dot.ml" 66 2374 2389 "src/dot.ml" 66 2374 2403
+type(
+  (Dot_ast.id option M.t ->
+   (M.key * Dot_ast.id option) list -> Dot_ast.id option M.t) ->
+  Dot_ast.id option M.t ->
+  (M.key * Dot_ast.id option) list list -> Dot_ast.id option M.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/dot.ml" 66 2374 2404 "src/dot.ml" 66 2374 2407
+type(
+  Dot_ast.id option M.t ->
+  (M.key * Dot_ast.id option) list -> Dot_ast.id option M.t
+)
+ident(
+  int_ref add "src/dot.ml" 65 2316 2324 "src/dot.ml" 65 2316 2327
+)
+"src/dot.ml" 66 2374 2389 "src/dot.ml" 66 2374 2407
+call(
+  stack
+)
+type(
+  Dot_ast.id option M.t ->
+  (M.key * Dot_ast.id option) list list -> Dot_ast.id option M.t
+)
+"src/dot.ml" 67 2408 2416 "src/dot.ml" 67 2408 2420
+type(
+  'b M.t -> (M.key * 'b) list
+)
+ident(
+  def list "src/dot.ml" 67 2408 2462 "src/dot.ml" 68 2463 2468
+)
+"src/dot.ml" 67 2408 2421 "src/dot.ml" 67 2408 2422
+type(
+  'b M.t
+)
+ident(
+  def a "src/dot.ml" 67 2408 2425 "src/dot.ml" 67 2408 2462
+)
+"src/dot.ml" 67 2408 2425 "src/dot.ml" 67 2408 2431
+type(
+  (M.key -> 'b -> (M.key * 'b) list -> (M.key * 'b) list) ->
+  'b M.t -> (M.key * 'b) list -> (M.key * 'b) list
+)
+ident(
+  ext_ref M.fold
+)
+"src/dot.ml" 67 2408 2437 "src/dot.ml" 67 2408 2438
+type(
+  M.key
+)
+ident(
+  def x "src/dot.ml" 67 2408 2439 "src/dot.ml" 67 2408 2456
+)
+"src/dot.ml" 67 2408 2439 "src/dot.ml" 67 2408 2440
+type(
+  'b
+)
+ident(
+  def v "src/dot.ml" 67 2408 2441 "src/dot.ml" 67 2408 2456
+)
+"src/dot.ml" 67 2408 2441 "src/dot.ml" 67 2408 2442
+type(
+  (M.key * 'b) list
+)
+ident(
+  def l "src/dot.ml" 67 2408 2446 "src/dot.ml" 67 2408 2456
+)
+"src/dot.ml" 67 2408 2447 "src/dot.ml" 67 2408 2448
+type(
+  M.key
+)
+ident(
+  int_ref x "src/dot.ml" 67 2408 2437 "src/dot.ml" 67 2408 2438
+)
+"src/dot.ml" 67 2408 2449 "src/dot.ml" 67 2408 2450
+type(
+  'b
+)
+ident(
+  int_ref v "src/dot.ml" 67 2408 2439 "src/dot.ml" 67 2408 2440
+)
+"src/dot.ml" 67 2408 2446 "src/dot.ml" 67 2408 2451
+type(
+  M.key * 'b
+)
+"src/dot.ml" 67 2408 2455 "src/dot.ml" 67 2408 2456
+type(
+  (M.key * 'b) list
+)
+ident(
+  int_ref l "src/dot.ml" 67 2408 2441 "src/dot.ml" 67 2408 2442
+)
+"src/dot.ml" 67 2408 2446 "src/dot.ml" 67 2408 2456
+type(
+  (M.key * 'b) list
+)
+"src/dot.ml" 67 2408 2432 "src/dot.ml" 67 2408 2457
+type(
+  M.key -> 'b -> (M.key * 'b) list -> (M.key * 'b) list
+)
+"src/dot.ml" 67 2408 2458 "src/dot.ml" 67 2408 2459
+type(
+  'b M.t
+)
+ident(
+  int_ref a "src/dot.ml" 67 2408 2421 "src/dot.ml" 67 2408 2422
+)
+"src/dot.ml" 67 2408 2460 "src/dot.ml" 67 2408 2462
+type(
+  (M.key * 'b) list
+)
+"src/dot.ml" 67 2408 2425 "src/dot.ml" 67 2408 2462
+call(
+  tail
+)
+type(
+  (M.key * 'b) list
+)
+"src/dot.ml" 70 2470 2478 "src/dot.ml" 70 2470 2503
+type(
+  Dot_ast.file ->
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  def create_graph_and_clusters "src/dot.ml" 176 5907 5909 "src/dot.ml" 219 7102 7105
+)
+"src/dot.ml" 70 2470 2504 "src/dot.ml" 70 2470 2507
+type(
+  Dot_ast.file
+)
+ident(
+  def dot "src/dot.ml" 74 2561 2565 "src/dot.ml" 174 5881 5905
+)
+"src/dot.ml" 74 2561 2569 "src/dot.ml" 74 2561 2582
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+"src/dot.ml" 74 2561 2585 "src/dot.ml" 74 2561 2588
+type(
+  Dot_ast.id option Attr.M.t -> Dot_ast.id option Attr.M.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/dot.ml" 74 2561 2589 "src/dot.ml" 74 2561 2599
+type(
+  Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Attr.empty
+)
+"src/dot.ml" 74 2561 2585 "src/dot.ml" 74 2561 2599
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+"src/dot.ml" 75 2603 2611 "src/dot.ml" 75 2603 2620
+type(
+  (Dot_ast.node_id, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+"src/dot.ml" 75 2603 2623 "src/dot.ml" 75 2603 2637
+type(
+  int -> (Dot_ast.node_id, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/dot.ml" 75 2603 2638 "src/dot.ml" 75 2603 2640
+type(
+  int
+)
+"src/dot.ml" 75 2603 2623 "src/dot.ml" 75 2603 2640
+call(
+  stack
+)
+type(
+  (Dot_ast.node_id, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+"src/dot.ml" 78 2682 2690 "src/dot.ml" 78 2682 2704
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+"src/dot.ml" 78 2682 2707 "src/dot.ml" 78 2682 2710
+type(
+  Dot_ast.id option Attr.M.t -> Dot_ast.id option Attr.M.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/dot.ml" 78 2682 2711 "src/dot.ml" 78 2682 2721
+type(
+  Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Attr.empty
+)
+"src/dot.ml" 78 2682 2707 "src/dot.ml" 78 2682 2721
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+"src/dot.ml" 79 2725 2733 "src/dot.ml" 79 2725 2743
+type(
+  (string, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+"src/dot.ml" 79 2725 2746 "src/dot.ml" 79 2725 2760
+type(
+  int -> (string, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/dot.ml" 79 2725 2761 "src/dot.ml" 79 2725 2763
+type(
+  int
+)
+"src/dot.ml" 79 2725 2746 "src/dot.ml" 79 2725 2763
+call(
+  stack
+)
+type(
+  (string, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+"src/dot.ml" 82 2801 2809 "src/dot.ml" 82 2801 2820
+type(
+  (Dot_ast.id option, Dot_ast.node_id list) Hashtbl.t
+)
+"src/dot.ml" 82 2801 2823 "src/dot.ml" 82 2801 2837
+type(
+  int -> (Dot_ast.id option, Dot_ast.node_id list) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/dot.ml" 82 2801 2838 "src/dot.ml" 82 2801 2840
+type(
+  int
+)
+"src/dot.ml" 82 2801 2823 "src/dot.ml" 82 2801 2840
+call(
+  stack
+)
+type(
+  (Dot_ast.id option, Dot_ast.node_id list) Hashtbl.t
+)
+"src/dot.ml" 84 2845 2853 "src/dot.ml" 84 2845 2866
+type(
+  Dot_ast.node_id -> (Attr.M.key * Dot_ast.id option) list list -> unit
+)
+"src/dot.ml" 84 2845 2867 "src/dot.ml" 84 2845 2869
+type(
+  Dot_ast.node_id
+)
+ident(
+  def id "src/dot.ml" 84 2845 2870 "src/dot.ml" 87 2969 3020
+)
+"src/dot.ml" 84 2845 2870 "src/dot.ml" 84 2845 2872
+type(
+  (Attr.M.key * Dot_ast.id option) list list
+)
+ident(
+  def al "src/dot.ml" 85 2875 2881 "src/dot.ml" 87 2969 3020
+)
+"src/dot.ml" 85 2875 2885 "src/dot.ml" 85 2875 2886
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 85 2875 2893 "src/dot.ml" 85 2875 2905
+type(
+  (Dot_ast.node_id, Dot_ast.id option Attr.M.t) Hashtbl.t ->
+  Dot_ast.node_id -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/dot.ml" 85 2875 2906 "src/dot.ml" 85 2875 2915
+type(
+  (Dot_ast.node_id, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+ident(
+  int_ref node_attr "src/dot.ml" 75 2603 2611 "src/dot.ml" 75 2603 2620
+)
+"src/dot.ml" 85 2875 2916 "src/dot.ml" 85 2875 2918
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 84 2845 2867 "src/dot.ml" 84 2845 2869
+)
+"src/dot.ml" 85 2875 2893 "src/dot.ml" 85 2875 2918
+call(
+  stack
+)
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 86 2919 2938 "src/dot.ml" 86 2919 2947
+type(
+  exn
+)
+"src/dot.ml" 86 2919 2951 "src/dot.ml" 86 2919 2952
+type(
+  Dot_ast.id option Attr.M.t ref -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/dot.ml" 86 2919 2952 "src/dot.ml" 86 2919 2965
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+ident(
+  int_ref def_node_attr "src/dot.ml" 74 2561 2569 "src/dot.ml" 74 2561 2582
+)
+"src/dot.ml" 86 2919 2951 "src/dot.ml" 86 2919 2965
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 85 2875 2889 "src/dot.ml" 86 2919 2965
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 87 2969 2975 "src/dot.ml" 87 2969 2990
+type(
+  (Dot_ast.node_id, Dot_ast.id option Attr.M.t) Hashtbl.t ->
+  Dot_ast.node_id -> Dot_ast.id option Attr.M.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"src/dot.ml" 87 2969 2991 "src/dot.ml" 87 2969 3000
+type(
+  (Dot_ast.node_id, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+ident(
+  int_ref node_attr "src/dot.ml" 75 2603 2611 "src/dot.ml" 75 2603 2620
+)
+"src/dot.ml" 87 2969 3001 "src/dot.ml" 87 2969 3003
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 84 2845 2867 "src/dot.ml" 84 2845 2869
+)
+"src/dot.ml" 87 2969 3005 "src/dot.ml" 87 2969 3014
+type(
+  Dot_ast.id option Attr.M.t ->
+  (Attr.M.key * Dot_ast.id option) list list -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Attr.addl
+)
+"src/dot.ml" 87 2969 3015 "src/dot.ml" 87 2969 3016
+type(
+  Dot_ast.id option Attr.M.t
+)
+ident(
+  int_ref l "src/dot.ml" 85 2875 2885 "src/dot.ml" 85 2875 2886
+)
+"src/dot.ml" 87 2969 3017 "src/dot.ml" 87 2969 3019
+type(
+  (Attr.M.key * Dot_ast.id option) list list
+)
+ident(
+  int_ref al "src/dot.ml" 84 2845 2870 "src/dot.ml" 84 2845 2872
+)
+"src/dot.ml" 87 2969 3004 "src/dot.ml" 87 2969 3020
+call(
+  stack
+)
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 87 2969 2975 "src/dot.ml" 87 2969 3020
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 85 2875 2881 "src/dot.ml" 87 2969 3020
+type(
+  unit
+)
+"src/dot.ml" 89 3025 3033 "src/dot.ml" 89 3025 3047
+type(
+  Dot_ast.id option -> (Attr.M.key * Dot_ast.id option) list list -> unit
+)
+"src/dot.ml" 89 3025 3048 "src/dot.ml" 89 3025 3054
+type(
+  Dot_ast.id option
+)
+ident(
+  def id_opt "src/dot.ml" 89 3025 3055 "src/dot.ml" 96 3279 3289
+)
+"src/dot.ml" 89 3025 3055 "src/dot.ml" 89 3025 3057
+type(
+  (Attr.M.key * Dot_ast.id option) list list
+)
+ident(
+  def al "src/dot.ml" 90 3060 3066 "src/dot.ml" 96 3279 3289
+)
+"src/dot.ml" 90 3060 3072 "src/dot.ml" 90 3060 3078
+type(
+  Dot_ast.id option
+)
+ident(
+  int_ref id_opt "src/dot.ml" 89 3025 3048 "src/dot.ml" 89 3025 3054
+)
+"src/dot.ml" 91 3084 3092 "src/dot.ml" 91 3084 3094
+type(
+  Dot_ast.id
+)
+ident(
+  def id "src/dot.ml" 92 3098 3103 "src/dot.ml" 95 3228 3278
+)
+"src/dot.ml" 91 3084 3087 "src/dot.ml" 91 3084 3094
+type(
+  Dot_ast.id option
+)
+"src/dot.ml" 92 3098 3107 "src/dot.ml" 92 3098 3108
+type(
+  string
+)
+"src/dot.ml" 92 3098 3111 "src/dot.ml" 92 3098 3121
+type(
+  Dot_ast.id -> string
+)
+ident(
+  int_ref get_string "src/dot.ml" 40 1707 1711 "src/dot.ml" 40 1707 1721
+)
+"src/dot.ml" 92 3098 3122 "src/dot.ml" 92 3098 3124
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref id "src/dot.ml" 91 3084 3092 "src/dot.ml" 91 3084 3094
+)
+"src/dot.ml" 92 3098 3111 "src/dot.ml" 92 3098 3124
+call(
+  stack
+)
+type(
+  string
+)
+"src/dot.ml" 93 3128 3137 "src/dot.ml" 93 3128 3138
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 93 3128 3145 "src/dot.ml" 93 3128 3157
+type(
+  (string, Dot_ast.id option Attr.M.t) Hashtbl.t ->
+  string -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/dot.ml" 93 3128 3158 "src/dot.ml" 93 3128 3168
+type(
+  (string, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+ident(
+  int_ref clust_attr "src/dot.ml" 79 2725 2733 "src/dot.ml" 79 2725 2743
+)
+"src/dot.ml" 93 3128 3169 "src/dot.ml" 93 3128 3170
+type(
+  string
+)
+ident(
+  int_ref s "src/dot.ml" 92 3098 3107 "src/dot.ml" 92 3098 3108
+)
+"src/dot.ml" 93 3128 3145 "src/dot.ml" 93 3128 3170
+call(
+  stack
+)
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 94 3171 3196 "src/dot.ml" 94 3171 3205
+type(
+  exn
+)
+"src/dot.ml" 94 3171 3209 "src/dot.ml" 94 3171 3210
+type(
+  Dot_ast.id option Attr.M.t ref -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/dot.ml" 94 3171 3210 "src/dot.ml" 94 3171 3224
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+ident(
+  int_ref def_clust_attr "src/dot.ml" 78 2682 2690 "src/dot.ml" 78 2682 2704
+)
+"src/dot.ml" 94 3171 3209 "src/dot.ml" 94 3171 3224
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 93 3128 3141 "src/dot.ml" 94 3171 3224
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 95 3228 3233 "src/dot.ml" 95 3228 3248
+type(
+  (string, Dot_ast.id option Attr.M.t) Hashtbl.t ->
+  string -> Dot_ast.id option Attr.M.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"src/dot.ml" 95 3228 3249 "src/dot.ml" 95 3228 3259
+type(
+  (string, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+ident(
+  int_ref clust_attr "src/dot.ml" 79 2725 2733 "src/dot.ml" 79 2725 2743
+)
+"src/dot.ml" 95 3228 3260 "src/dot.ml" 95 3228 3261
+type(
+  string
+)
+ident(
+  int_ref s "src/dot.ml" 92 3098 3107 "src/dot.ml" 92 3098 3108
+)
+"src/dot.ml" 95 3228 3263 "src/dot.ml" 95 3228 3272
+type(
+  Dot_ast.id option Attr.M.t ->
+  (Attr.M.key * Dot_ast.id option) list list -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Attr.addl
+)
+"src/dot.ml" 95 3228 3273 "src/dot.ml" 95 3228 3274
+type(
+  Dot_ast.id option Attr.M.t
+)
+ident(
+  int_ref l "src/dot.ml" 93 3128 3137 "src/dot.ml" 93 3128 3138
+)
+"src/dot.ml" 95 3228 3275 "src/dot.ml" 95 3228 3277
+type(
+  (Attr.M.key * Dot_ast.id option) list list
+)
+ident(
+  int_ref al "src/dot.ml" 89 3025 3055 "src/dot.ml" 89 3025 3057
+)
+"src/dot.ml" 95 3228 3262 "src/dot.ml" 95 3228 3278
+call(
+  stack
+)
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 95 3228 3233 "src/dot.ml" 95 3228 3278
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 93 3128 3133 "src/dot.ml" 95 3228 3278
+type(
+  unit
+)
+"src/dot.ml" 92 3098 3103 "src/dot.ml" 95 3228 3278
+type(
+  unit
+)
+"src/dot.ml" 96 3279 3282 "src/dot.ml" 96 3279 3283
+type(
+  Dot_ast.id option
+)
+"src/dot.ml" 96 3279 3287 "src/dot.ml" 96 3279 3289
+type(
+  unit
+)
+"src/dot.ml" 90 3060 3066 "src/dot.ml" 96 3279 3289
+type(
+  unit
+)
+"src/dot.ml" 98 3294 3302 "src/dot.ml" 98 3294 3316
+type(
+  Dot_ast.id option -> Dot_ast.node_id -> unit
+)
+"src/dot.ml" 98 3294 3317 "src/dot.ml" 98 3294 3327
+type(
+  Dot_ast.id option
+)
+ident(
+  def id_cluster "src/dot.ml" 98 3294 3328 "src/dot.ml" 101 3429 3491
+)
+"src/dot.ml" 98 3294 3328 "src/dot.ml" 98 3294 3335
+type(
+  Dot_ast.node_id
+)
+ident(
+  def id_node "src/dot.ml" 99 3338 3344 "src/dot.ml" 101 3429 3491
+)
+"src/dot.ml" 99 3338 3348 "src/dot.ml" 99 3338 3356
+type(
+  Dot_ast.node_id list
+)
+"src/dot.ml" 99 3338 3363 "src/dot.ml" 99 3338 3375
+type(
+  (Dot_ast.id option, Dot_ast.node_id list) Hashtbl.t ->
+  Dot_ast.id option -> Dot_ast.node_id list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/dot.ml" 99 3338 3376 "src/dot.ml" 99 3338 3387
+type(
+  (Dot_ast.id option, Dot_ast.node_id list) Hashtbl.t
+)
+ident(
+  int_ref clust_nodes "src/dot.ml" 82 2801 2809 "src/dot.ml" 82 2801 2820
+)
+"src/dot.ml" 99 3338 3388 "src/dot.ml" 99 3338 3398
+type(
+  Dot_ast.id option
+)
+ident(
+  int_ref id_cluster "src/dot.ml" 98 3294 3317 "src/dot.ml" 98 3294 3327
+)
+"src/dot.ml" 99 3338 3363 "src/dot.ml" 99 3338 3398
+call(
+  stack
+)
+type(
+  Dot_ast.node_id list
+)
+"src/dot.ml" 100 3399 3410 "src/dot.ml" 100 3399 3419
+type(
+  exn
+)
+"src/dot.ml" 100 3399 3423 "src/dot.ml" 100 3399 3425
+type(
+  Dot_ast.node_id list
+)
+"src/dot.ml" 99 3338 3359 "src/dot.ml" 100 3399 3425
+type(
+  Dot_ast.node_id list
+)
+"src/dot.ml" 101 3429 3435 "src/dot.ml" 101 3429 3446
+type(
+  (Dot_ast.id option, Dot_ast.node_id list) Hashtbl.t ->
+  Dot_ast.id option -> Dot_ast.node_id list -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/dot.ml" 101 3429 3447 "src/dot.ml" 101 3429 3458
+type(
+  (Dot_ast.id option, Dot_ast.node_id list) Hashtbl.t
+)
+ident(
+  int_ref clust_nodes "src/dot.ml" 82 2801 2809 "src/dot.ml" 82 2801 2820
+)
+"src/dot.ml" 101 3429 3459 "src/dot.ml" 101 3429 3469
+type(
+  Dot_ast.id option
+)
+ident(
+  int_ref id_cluster "src/dot.ml" 98 3294 3317 "src/dot.ml" 98 3294 3327
+)
+"src/dot.ml" 101 3429 3471 "src/dot.ml" 101 3429 3478
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id_node "src/dot.ml" 98 3294 3328 "src/dot.ml" 98 3294 3335
+)
+"src/dot.ml" 101 3429 3482 "src/dot.ml" 101 3429 3490
+type(
+  Dot_ast.node_id list
+)
+ident(
+  int_ref id_nodes "src/dot.ml" 99 3338 3348 "src/dot.ml" 99 3338 3356
+)
+"src/dot.ml" 101 3429 3470 "src/dot.ml" 101 3429 3491
+type(
+  Dot_ast.node_id list
+)
+"src/dot.ml" 101 3429 3435 "src/dot.ml" 101 3429 3491
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 99 3338 3344 "src/dot.ml" 101 3429 3491
+type(
+  unit
+)
+"src/dot.ml" 103 3496 3508 "src/dot.ml" 103 3496 3525
+type(
+  Dot_ast.id option option -> Dot_ast.stmt list -> unit
+)
+"src/dot.ml" 103 3496 3526 "src/dot.ml" 103 3496 3536
+type(
+  Dot_ast.id option option
+)
+ident(
+  def cluster_op "src/dot.ml" 103 3496 3537 "src/dot.ml" 125 4230 4243
+)
+"src/dot.ml" 103 3496 3537 "src/dot.ml" 103 3496 3542
+type(
+  Dot_ast.stmt list
+)
+ident(
+  def stmts "src/dot.ml" 104 3545 3551 "src/dot.ml" 125 4230 4243
+)
+"src/dot.ml" 104 3545 3551 "src/dot.ml" 104 3545 3560
+type(
+  (Dot_ast.stmt -> unit) -> Dot_ast.stmt list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/dot.ml" 106 3580 3603 "src/dot.ml" 106 3580 3605
+type(
+  Dot_ast.node_id
+)
+ident(
+  def id "src/dot.ml" 107 3614 3621 "src/dot.ml" 111 3741 3751
+)
+"src/dot.ml" 106 3580 3607 "src/dot.ml" 106 3580 3609
+type(
+  Dot_ast.attr list
+)
+ident(
+  def al "src/dot.ml" 107 3614 3621 "src/dot.ml" 111 3741 3751
+)
+"src/dot.ml" 106 3580 3592 "src/dot.ml" 106 3580 3610
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 107 3614 3621 "src/dot.ml" 107 3614 3634
+type(
+  Dot_ast.node_id -> Dot_ast.attr list -> unit
+)
+ident(
+  int_ref add_node_attr "src/dot.ml" 84 2845 2853 "src/dot.ml" 84 2845 2866
+)
+"src/dot.ml" 107 3614 3635 "src/dot.ml" 107 3614 3637
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 106 3580 3603 "src/dot.ml" 106 3580 3605
+)
+"src/dot.ml" 107 3614 3638 "src/dot.ml" 107 3614 3640
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref al "src/dot.ml" 106 3580 3607 "src/dot.ml" 106 3580 3609
+)
+"src/dot.ml" 107 3614 3621 "src/dot.ml" 107 3614 3640
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot.ml" 108 3642 3661 "src/dot.ml" 108 3642 3671
+type(
+  Dot_ast.id option option
+)
+ident(
+  int_ref cluster_op "src/dot.ml" 103 3496 3526 "src/dot.ml" 103 3496 3536
+)
+"src/dot.ml" 109 3677 3686 "src/dot.ml" 109 3677 3696
+type(
+  Dot_ast.id option
+)
+ident(
+  def id_cluster "src/dot.ml" 109 3677 3700 "src/dot.ml" 109 3677 3728
+)
+"src/dot.ml" 109 3677 3681 "src/dot.ml" 109 3677 3696
+type(
+  Dot_ast.id option option
+)
+"src/dot.ml" 109 3677 3700 "src/dot.ml" 109 3677 3714
+type(
+  Dot_ast.id option -> Dot_ast.node_id -> unit
+)
+ident(
+  int_ref add_clust_node "src/dot.ml" 98 3294 3302 "src/dot.ml" 98 3294 3316
+)
+"src/dot.ml" 109 3677 3715 "src/dot.ml" 109 3677 3725
+type(
+  Dot_ast.id option
+)
+ident(
+  int_ref id_cluster "src/dot.ml" 109 3677 3686 "src/dot.ml" 109 3677 3696
+)
+"src/dot.ml" 109 3677 3726 "src/dot.ml" 109 3677 3728
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 106 3580 3603 "src/dot.ml" 106 3580 3605
+)
+"src/dot.ml" 109 3677 3700 "src/dot.ml" 109 3677 3728
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 110 3729 3733 "src/dot.ml" 110 3729 3734
+type(
+  Dot_ast.id option option
+)
+"src/dot.ml" 110 3729 3738 "src/dot.ml" 110 3729 3740
+type(
+  unit
+)
+"src/dot.ml" 108 3642 3649 "src/dot.ml" 111 3741 3751
+type(
+  unit
+)
+"src/dot.ml" 107 3614 3621 "src/dot.ml" 111 3741 3751
+type(
+  unit
+)
+"src/dot.ml" 112 3752 3774 "src/dot.ml" 112 3752 3776
+type(
+  Dot_ast.attr list
+)
+ident(
+  def al "src/dot.ml" 112 3752 3780 "src/dot.ml" 112 3752 3824
+)
+"src/dot.ml" 112 3752 3764 "src/dot.ml" 112 3752 3776
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 112 3752 3780 "src/dot.ml" 112 3752 3793
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+ident(
+  int_ref def_node_attr "src/dot.ml" 74 2561 2569 "src/dot.ml" 74 2561 2582
+)
+"src/dot.ml" 112 3752 3794 "src/dot.ml" 112 3752 3796
+type(
+  Dot_ast.id option Attr.M.t ref -> Dot_ast.id option Attr.M.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/dot.ml" 112 3752 3797 "src/dot.ml" 112 3752 3806
+type(
+  Dot_ast.id option Attr.M.t ->
+  Dot_ast.attr list -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Attr.addl
+)
+"src/dot.ml" 112 3752 3807 "src/dot.ml" 112 3752 3808
+type(
+  Dot_ast.id option Attr.M.t ref -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/dot.ml" 112 3752 3808 "src/dot.ml" 112 3752 3821
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+ident(
+  int_ref def_node_attr "src/dot.ml" 74 2561 2569 "src/dot.ml" 74 2561 2582
+)
+"src/dot.ml" 112 3752 3807 "src/dot.ml" 112 3752 3821
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 112 3752 3822 "src/dot.ml" 112 3752 3824
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref al "src/dot.ml" 112 3752 3774 "src/dot.ml" 112 3752 3776
+)
+"src/dot.ml" 112 3752 3797 "src/dot.ml" 112 3752 3824
+call(
+  stack
+)
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 112 3752 3780 "src/dot.ml" 112 3752 3824
+type(
+  unit
+)
+"src/dot.ml" 113 3825 3855 "src/dot.ml" 113 3825 3857
+type(
+  Dot_ast.node_id
+)
+ident(
+  def id "src/dot.ml" 114 3869 3883 "src/dot.ml" 116 3973 3999
+)
+"src/dot.ml" 113 3825 3848 "src/dot.ml" 113 3825 3857
+type(
+  Dot_ast.node
+)
+"src/dot.ml" 113 3825 3859 "src/dot.ml" 113 3825 3861
+type(
+  Dot_ast.node list
+)
+ident(
+  def nl "src/dot.ml" 114 3869 3883 "src/dot.ml" 116 3973 3999
+)
+"src/dot.ml" 113 3825 3863 "src/dot.ml" 113 3825 3864
+type(
+  Dot_ast.attr list
+)
+"src/dot.ml" 113 3825 3837 "src/dot.ml" 113 3825 3865
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 114 3869 3883 "src/dot.ml" 114 3869 3896
+type(
+  Dot_ast.node_id -> (Attr.M.key * Dot_ast.id option) list list -> unit
+)
+ident(
+  int_ref add_node_attr "src/dot.ml" 84 2845 2853 "src/dot.ml" 84 2845 2866
+)
+"src/dot.ml" 114 3869 3897 "src/dot.ml" 114 3869 3899
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 113 3825 3855 "src/dot.ml" 113 3825 3857
+)
+"src/dot.ml" 114 3869 3900 "src/dot.ml" 114 3869 3902
+type(
+  (Attr.M.key * Dot_ast.id option) list list
+)
+"src/dot.ml" 114 3869 3883 "src/dot.ml" 114 3869 3902
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot.ml" 115 3904 3918 "src/dot.ml" 115 3904 3927
+type(
+  (Dot_ast.node -> unit) -> Dot_ast.node list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/dot.ml" 115 3904 3947 "src/dot.ml" 115 3904 3949
+type(
+  Dot_ast.node_id
+)
+ident(
+  def id "src/dot.ml" 115 3904 3953 "src/dot.ml" 115 3904 3972
+)
+"src/dot.ml" 115 3904 3940 "src/dot.ml" 115 3904 3949
+type(
+  Dot_ast.node
+)
+"src/dot.ml" 115 3904 3953 "src/dot.ml" 115 3904 3966
+type(
+  Dot_ast.node_id -> (Attr.M.key * Dot_ast.id option) list list -> unit
+)
+ident(
+  int_ref add_node_attr "src/dot.ml" 84 2845 2853 "src/dot.ml" 84 2845 2866
+)
+"src/dot.ml" 115 3904 3967 "src/dot.ml" 115 3904 3969
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 115 3904 3947 "src/dot.ml" 115 3904 3949
+)
+"src/dot.ml" 115 3904 3970 "src/dot.ml" 115 3904 3972
+type(
+  (Attr.M.key * Dot_ast.id option) list list
+)
+"src/dot.ml" 115 3904 3953 "src/dot.ml" 115 3904 3972
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 116 3973 3988 "src/dot.ml" 116 3973 3989
+type(
+  Dot_ast.node
+)
+"src/dot.ml" 116 3973 3993 "src/dot.ml" 116 3973 3995
+type(
+  unit
+)
+"src/dot.ml" 115 3904 3928 "src/dot.ml" 116 3973 3996
+type(
+  Dot_ast.node -> unit
+)
+"src/dot.ml" 116 3973 3997 "src/dot.ml" 116 3973 3999
+type(
+  Dot_ast.node list
+)
+ident(
+  int_ref nl "src/dot.ml" 113 3825 3859 "src/dot.ml" 113 3825 3861
+)
+"src/dot.ml" 115 3904 3918 "src/dot.ml" 116 3973 3999
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 114 3869 3883 "src/dot.ml" 116 3973 3999
+type(
+  unit
+)
+"src/dot.ml" 117 4000 4035 "src/dot.ml" 117 4000 4037
+type(
+  Dot_ast.id option
+)
+ident(
+  def id "src/dot.ml" 118 4050 4057 "src/dot.ml" 118 4050 4090
+)
+"src/dot.ml" 117 4000 4039 "src/dot.ml" 117 4000 4044
+type(
+  Dot_ast.stmt list
+)
+ident(
+  def stmts "src/dot.ml" 118 4050 4057 "src/dot.ml" 118 4050 4090
+)
+"src/dot.ml" 117 4000 4021 "src/dot.ml" 117 4000 4046
+type(
+  Dot_ast.subgraph
+)
+"src/dot.ml" 117 4000 4012 "src/dot.ml" 117 4000 4046
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 118 4050 4057 "src/dot.ml" 118 4050 4074
+type(
+  Dot_ast.id option option -> Dot_ast.stmt list -> unit
+)
+ident(
+  int_ref collect_node_attr "src/dot.ml" 103 3496 3508 "src/dot.ml" 103 3496 3525
+)
+"src/dot.ml" 118 4050 4081 "src/dot.ml" 118 4050 4083
+type(
+  Dot_ast.id option
+)
+ident(
+  int_ref id "src/dot.ml" 117 4000 4035 "src/dot.ml" 117 4000 4037
+)
+"src/dot.ml" 118 4050 4075 "src/dot.ml" 118 4050 4084
+type(
+  Dot_ast.id option option
+)
+"src/dot.ml" 118 4050 4085 "src/dot.ml" 118 4050 4090
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref stmts "src/dot.ml" 117 4000 4039 "src/dot.ml" 117 4000 4044
+)
+"src/dot.ml" 118 4050 4057 "src/dot.ml" 118 4050 4090
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 119 4091 4107 "src/dot.ml" 119 4091 4109
+type(
+  Dot_ast.attr list
+)
+ident(
+  def al "src/dot.ml" 120 4113 4120 "src/dot.ml" 123 4199 4209
+)
+"src/dot.ml" 119 4091 4096 "src/dot.ml" 119 4091 4109
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 120 4113 4132 "src/dot.ml" 120 4113 4142
+type(
+  Dot_ast.id option option
+)
+ident(
+  int_ref cluster_op "src/dot.ml" 103 3496 3526 "src/dot.ml" 103 3496 3536
+)
+"src/dot.ml" 121 4148 4157 "src/dot.ml" 121 4148 4159
+type(
+  Dot_ast.id option
+)
+ident(
+  def id "src/dot.ml" 121 4148 4163 "src/dot.ml" 121 4148 4183
+)
+"src/dot.ml" 121 4148 4152 "src/dot.ml" 121 4148 4159
+type(
+  Dot_ast.id option option
+)
+"src/dot.ml" 121 4148 4163 "src/dot.ml" 121 4148 4177
+type(
+  Dot_ast.id option -> Dot_ast.attr list -> unit
+)
+ident(
+  int_ref add_clust_attr "src/dot.ml" 89 3025 3033 "src/dot.ml" 89 3025 3047
+)
+"src/dot.ml" 121 4148 4178 "src/dot.ml" 121 4148 4180
+type(
+  Dot_ast.id option
+)
+ident(
+  int_ref id "src/dot.ml" 121 4148 4157 "src/dot.ml" 121 4148 4159
+)
+"src/dot.ml" 121 4148 4181 "src/dot.ml" 121 4148 4183
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref al "src/dot.ml" 119 4091 4107 "src/dot.ml" 119 4091 4109
+)
+"src/dot.ml" 121 4148 4163 "src/dot.ml" 121 4148 4183
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 122 4184 4188 "src/dot.ml" 122 4184 4192
+type(
+  Dot_ast.id option option
+)
+"src/dot.ml" 122 4184 4196 "src/dot.ml" 122 4184 4198
+type(
+  unit
+)
+"src/dot.ml" 120 4113 4120 "src/dot.ml" 123 4199 4209
+type(
+  unit
+)
+"src/dot.ml" 124 4210 4222 "src/dot.ml" 124 4210 4223
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 124 4210 4227 "src/dot.ml" 124 4210 4229
+type(
+  unit
+)
+"src/dot.ml" 104 3545 3561 "src/dot.ml" 125 4230 4237
+type(
+  Dot_ast.stmt -> unit
+)
+"src/dot.ml" 125 4230 4238 "src/dot.ml" 125 4230 4243
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref stmts "src/dot.ml" 103 3496 3537 "src/dot.ml" 103 3496 3542
+)
+"src/dot.ml" 104 3545 3551 "src/dot.ml" 125 4230 4243
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 127 4251 4255 "src/dot.ml" 127 4251 4272
+type(
+  Dot_ast.id option option -> Dot_ast.stmt list -> unit
+)
+ident(
+  int_ref collect_node_attr "src/dot.ml" 103 3496 3508 "src/dot.ml" 103 3496 3525
+)
+"src/dot.ml" 127 4251 4273 "src/dot.ml" 127 4251 4277
+type(
+  Dot_ast.id option option
+)
+"src/dot.ml" 127 4251 4278 "src/dot.ml" 127 4251 4281
+type(
+  Dot_ast.file
+)
+ident(
+  int_ref dot "src/dot.ml" 70 2470 2504 "src/dot.ml" 70 2470 2507
+)
+"src/dot.ml" 127 4251 4278 "src/dot.ml" 127 4251 4287
+type(
+  Dot_ast.stmt list
+)
+"src/dot.ml" 127 4251 4255 "src/dot.ml" 127 4251 4287
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot.ml" 130 4341 4349 "src/dot.ml" 130 4341 4362
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+"src/dot.ml" 130 4341 4365 "src/dot.ml" 130 4341 4368
+type(
+  Dot_ast.id option Attr.M.t -> Dot_ast.id option Attr.M.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/dot.ml" 130 4341 4369 "src/dot.ml" 130 4341 4379
+type(
+  Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Attr.empty
+)
+"src/dot.ml" 130 4341 4365 "src/dot.ml" 130 4341 4379
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+"src/dot.ml" 131 4383 4391 "src/dot.ml" 131 4383 4396
+type(
+  (Dot_ast.node_id, B.G.E.vertex) Hashtbl.t
+)
+"src/dot.ml" 131 4383 4399 "src/dot.ml" 131 4383 4413
+type(
+  int -> (Dot_ast.node_id, B.G.E.vertex) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/dot.ml" 131 4383 4414 "src/dot.ml" 131 4383 4416
+type(
+  int
+)
+"src/dot.ml" 131 4383 4399 "src/dot.ml" 131 4383 4416
+call(
+  stack
+)
+type(
+  (Dot_ast.node_id, B.G.E.vertex) Hashtbl.t
+)
+"src/dot.ml" 132 4420 4428 "src/dot.ml" 132 4420 4432
+type(
+  B.G.t -> Dot_ast.node_id -> 'c -> B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 132 4420 4433 "src/dot.ml" 132 4420 4434
+type(
+  B.G.t
+)
+ident(
+  def g "src/dot.ml" 132 4420 4435 "src/dot.ml" 139 4649 4669
+)
+"src/dot.ml" 132 4420 4435 "src/dot.ml" 132 4420 4437
+type(
+  Dot_ast.node_id
+)
+ident(
+  def id "src/dot.ml" 132 4420 4438 "src/dot.ml" 139 4649 4669
+)
+"src/dot.ml" 132 4420 4438 "src/dot.ml" 132 4420 4439
+type(
+  'c
+)
+ident(
+  def l "src/dot.ml" 133 4442 4448 "src/dot.ml" 139 4649 4669
+)
+"src/dot.ml" 134 4452 4453 "src/dot.ml" 134 4452 4454
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 132 4420 4433 "src/dot.ml" 132 4420 4434
+)
+"src/dot.ml" 134 4452 4456 "src/dot.ml" 134 4452 4468
+type(
+  (Dot_ast.node_id, B.G.E.vertex) Hashtbl.t ->
+  Dot_ast.node_id -> B.G.E.vertex
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/dot.ml" 134 4452 4469 "src/dot.ml" 134 4452 4474
+type(
+  (Dot_ast.node_id, B.G.E.vertex) Hashtbl.t
+)
+ident(
+  int_ref nodes "src/dot.ml" 131 4383 4391 "src/dot.ml" 131 4383 4396
+)
+"src/dot.ml" 134 4452 4475 "src/dot.ml" 134 4452 4477
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 132 4420 4435 "src/dot.ml" 132 4420 4437
+)
+"src/dot.ml" 134 4452 4456 "src/dot.ml" 134 4452 4477
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"src/dot.ml" 134 4452 4453 "src/dot.ml" 134 4452 4477
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 135 4478 4489 "src/dot.ml" 135 4478 4498
+type(
+  exn
+)
+"src/dot.ml" 136 4502 4507 "src/dot.ml" 136 4502 4508
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 136 4502 4515 "src/dot.ml" 136 4502 4527
+type(
+  (Dot_ast.node_id, Dot_ast.id option Attr.M.t) Hashtbl.t ->
+  Dot_ast.node_id -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/dot.ml" 136 4502 4528 "src/dot.ml" 136 4502 4537
+type(
+  (Dot_ast.node_id, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+ident(
+  int_ref node_attr "src/dot.ml" 75 2603 2611 "src/dot.ml" 75 2603 2620
+)
+"src/dot.ml" 136 4502 4538 "src/dot.ml" 136 4502 4540
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 132 4420 4435 "src/dot.ml" 132 4420 4437
+)
+"src/dot.ml" 136 4502 4515 "src/dot.ml" 136 4502 4540
+call(
+  stack
+)
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 136 4502 4546 "src/dot.ml" 136 4502 4555
+type(
+  exn
+)
+"src/dot.ml" 136 4502 4559 "src/dot.ml" 136 4502 4569
+type(
+  Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Attr.empty
+)
+"src/dot.ml" 136 4502 4511 "src/dot.ml" 136 4502 4569
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 137 4573 4578 "src/dot.ml" 137 4573 4579
+type(
+  B.G.V.t
+)
+"src/dot.ml" 137 4573 4582 "src/dot.ml" 137 4573 4594
+type(
+  B.G.V.label -> B.G.V.t
+)
+ident(
+  ext_ref B.G.V.create
+)
+"src/dot.ml" 137 4573 4596 "src/dot.ml" 137 4573 4602
+type(
+  Dot_ast.node_id -> Dot_ast.attr list -> B.G.V.label
+)
+ident(
+  ext_ref L.node
+)
+"src/dot.ml" 137 4573 4603 "src/dot.ml" 137 4573 4605
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 132 4420 4435 "src/dot.ml" 132 4420 4437
+)
+"src/dot.ml" 137 4573 4607 "src/dot.ml" 137 4573 4616
+type(
+  Dot_ast.id option Attr.M.t -> Dot_ast.attr
+)
+ident(
+  ext_ref Attr.list
+)
+"src/dot.ml" 137 4573 4617 "src/dot.ml" 137 4573 4618
+type(
+  Dot_ast.id option Attr.M.t
+)
+ident(
+  int_ref l "src/dot.ml" 136 4502 4507 "src/dot.ml" 136 4502 4508
+)
+"src/dot.ml" 137 4573 4607 "src/dot.ml" 137 4573 4618
+call(
+  stack
+)
+type(
+  Dot_ast.attr
+)
+"src/dot.ml" 137 4573 4606 "src/dot.ml" 137 4573 4619
+type(
+  Dot_ast.attr list
+)
+"src/dot.ml" 137 4573 4595 "src/dot.ml" 137 4573 4620
+call(
+  stack
+)
+type(
+  B.G.V.label
+)
+"src/dot.ml" 137 4573 4582 "src/dot.ml" 137 4573 4620
+call(
+  stack
+)
+type(
+  B.G.V.t
+)
+"src/dot.ml" 138 4624 4625 "src/dot.ml" 138 4624 4636
+type(
+  (Dot_ast.node_id, B.G.E.vertex) Hashtbl.t ->
+  Dot_ast.node_id -> B.G.E.vertex -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/dot.ml" 138 4624 4637 "src/dot.ml" 138 4624 4642
+type(
+  (Dot_ast.node_id, B.G.E.vertex) Hashtbl.t
+)
+ident(
+  int_ref nodes "src/dot.ml" 131 4383 4391 "src/dot.ml" 131 4383 4396
+)
+"src/dot.ml" 138 4624 4643 "src/dot.ml" 138 4624 4645
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 132 4420 4435 "src/dot.ml" 132 4420 4437
+)
+"src/dot.ml" 138 4624 4646 "src/dot.ml" 138 4624 4647
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref n "src/dot.ml" 137 4573 4578 "src/dot.ml" 137 4573 4579
+)
+"src/dot.ml" 138 4624 4625 "src/dot.ml" 138 4624 4647
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot.ml" 139 4649 4650 "src/dot.ml" 139 4649 4662
+type(
+  B.G.t -> B.G.V.t -> B.G.t
+)
+ident(
+  ext_ref B.add_vertex
+)
+"src/dot.ml" 139 4649 4663 "src/dot.ml" 139 4649 4664
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 132 4420 4433 "src/dot.ml" 132 4420 4434
+)
+"src/dot.ml" 139 4649 4665 "src/dot.ml" 139 4649 4666
+type(
+  B.G.V.t
+)
+ident(
+  int_ref n "src/dot.ml" 137 4573 4578 "src/dot.ml" 137 4573 4579
+)
+"src/dot.ml" 139 4649 4650 "src/dot.ml" 139 4649 4666
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/dot.ml" 139 4649 4668 "src/dot.ml" 139 4649 4669
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref n "src/dot.ml" 137 4573 4578 "src/dot.ml" 137 4573 4579
+)
+"src/dot.ml" 139 4649 4650 "src/dot.ml" 139 4649 4669
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 138 4624 4625 "src/dot.ml" 139 4649 4669
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 137 4573 4574 "src/dot.ml" 139 4649 4669
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 136 4502 4503 "src/dot.ml" 139 4649 4669
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 133 4442 4448 "src/dot.ml" 139 4649 4669
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 141 4677 4689 "src/dot.ml" 141 4677 4698
+type(
+  B.G.t -> Dot_ast.stmt list -> B.G.t
+)
+"src/dot.ml" 141 4677 4699 "src/dot.ml" 141 4677 4700
+type(
+  B.G.t
+)
+ident(
+  def g "src/dot.ml" 141 4677 4701 "src/dot.ml" 165 5663 5678
+)
+"src/dot.ml" 141 4677 4701 "src/dot.ml" 141 4677 4706
+type(
+  Dot_ast.stmt list
+)
+ident(
+  def stmts "src/dot.ml" 142 4709 4715 "src/dot.ml" 165 5663 5678
+)
+"src/dot.ml" 142 4709 4715 "src/dot.ml" 142 4709 4729
+type(
+  (B.G.t -> Dot_ast.stmt -> B.G.t) -> B.G.t -> Dot_ast.stmt list -> B.G.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/dot.ml" 143 4730 4743 "src/dot.ml" 143 4730 4744
+type(
+  B.G.t
+)
+ident(
+  def g "src/dot.ml" 143 4730 4745 "src/dot.ml" 163 5633 5652
+)
+"src/dot.ml" 143 4730 4745 "src/dot.ml" 143 4730 4746
+type(
+  Dot_ast.stmt
+)
+ident(
+  def s "src/dot.ml" 143 4730 4750 "src/dot.ml" 163 5633 5652
+)
+"src/dot.ml" 143 4730 4756 "src/dot.ml" 143 4730 4757
+type(
+  Dot_ast.stmt
+)
+ident(
+  int_ref s "src/dot.ml" 143 4730 4745 "src/dot.ml" 143 4730 4746
+)
+"src/dot.ml" 144 4763 4787 "src/dot.ml" 144 4763 4789
+type(
+  Dot_ast.node_id
+)
+ident(
+  def id "src/dot.ml" 145 4798 4813 "src/dot.ml" 145 4798 4840
+)
+"src/dot.ml" 144 4763 4791 "src/dot.ml" 144 4763 4793
+type(
+  Dot_ast.attr list
+)
+ident(
+  def al "src/dot.ml" 145 4798 4813 "src/dot.ml" 145 4798 4840
+)
+"src/dot.ml" 144 4763 4776 "src/dot.ml" 144 4763 4794
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 145 4798 4817 "src/dot.ml" 145 4798 4818
+type(
+  B.G.t
+)
+"src/dot.ml" 145 4798 4819 "src/dot.ml" 145 4798 4820
+type(
+  B.G.E.vertex
+)
+"src/dot.ml" 145 4798 4817 "src/dot.ml" 145 4798 4820
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 145 4798 4823 "src/dot.ml" 145 4798 4827
+type(
+  B.G.t -> Dot_ast.node_id -> Dot_ast.attr list -> B.G.t * B.G.E.vertex
+)
+ident(
+  int_ref node "src/dot.ml" 132 4420 4428 "src/dot.ml" 132 4420 4432
+)
+"src/dot.ml" 145 4798 4828 "src/dot.ml" 145 4798 4829
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 143 4730 4743 "src/dot.ml" 143 4730 4744
+)
+"src/dot.ml" 145 4798 4830 "src/dot.ml" 145 4798 4832
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 144 4763 4787 "src/dot.ml" 144 4763 4789
+)
+"src/dot.ml" 145 4798 4833 "src/dot.ml" 145 4798 4835
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref al "src/dot.ml" 144 4763 4791 "src/dot.ml" 144 4763 4793
+)
+"src/dot.ml" 145 4798 4823 "src/dot.ml" 145 4798 4835
+call(
+  stack
+)
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 145 4798 4839 "src/dot.ml" 145 4798 4840
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 145 4798 4817 "src/dot.ml" 145 4798 4818
+)
+"src/dot.ml" 145 4798 4813 "src/dot.ml" 145 4798 4840
+type(
+  B.G.t
+)
+"src/dot.ml" 146 4841 4872 "src/dot.ml" 146 4841 4874
+type(
+  Dot_ast.node_id
+)
+ident(
+  def id "src/dot.ml" 147 4887 4902 "src/dot.ml" 158 5424 5457
+)
+"src/dot.ml" 146 4841 4865 "src/dot.ml" 146 4841 4874
+type(
+  Dot_ast.node
+)
+"src/dot.ml" 146 4841 4876 "src/dot.ml" 146 4841 4878
+type(
+  Dot_ast.node list
+)
+ident(
+  def nl "src/dot.ml" 147 4887 4902 "src/dot.ml" 158 5424 5457
+)
+"src/dot.ml" 146 4841 4880 "src/dot.ml" 146 4841 4882
+type(
+  Dot_ast.attr list
+)
+ident(
+  def al "src/dot.ml" 147 4887 4902 "src/dot.ml" 158 5424 5457
+)
+"src/dot.ml" 146 4841 4854 "src/dot.ml" 146 4841 4883
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 147 4887 4906 "src/dot.ml" 147 4887 4908
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 147 4887 4911 "src/dot.ml" 147 4887 4920
+type(
+  Dot_ast.id option Attr.M.t ->
+  Dot_ast.attr list -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Attr.addl
+)
+"src/dot.ml" 147 4887 4921 "src/dot.ml" 147 4887 4922
+type(
+  Dot_ast.id option Attr.M.t ref -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/dot.ml" 147 4887 4922 "src/dot.ml" 147 4887 4935
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+ident(
+  int_ref def_edge_attr "src/dot.ml" 130 4341 4349 "src/dot.ml" 130 4341 4362
+)
+"src/dot.ml" 147 4887 4921 "src/dot.ml" 147 4887 4935
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 147 4887 4936 "src/dot.ml" 147 4887 4938
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref al "src/dot.ml" 146 4841 4880 "src/dot.ml" 146 4841 4882
+)
+"src/dot.ml" 147 4887 4911 "src/dot.ml" 147 4887 4938
+call(
+  stack
+)
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 148 4942 4961 "src/dot.ml" 148 4942 4963
+type(
+  B.G.E.label
+)
+"src/dot.ml" 148 4942 4966 "src/dot.ml" 148 4942 4972
+type(
+  Dot_ast.attr list -> B.G.E.label
+)
+ident(
+  ext_ref L.edge
+)
+"src/dot.ml" 148 4942 4974 "src/dot.ml" 148 4942 4983
+type(
+  Dot_ast.id option Attr.M.t -> Dot_ast.attr
+)
+ident(
+  ext_ref Attr.list
+)
+"src/dot.ml" 148 4942 4984 "src/dot.ml" 148 4942 4986
+type(
+  Dot_ast.id option Attr.M.t
+)
+ident(
+  int_ref al "src/dot.ml" 147 4887 4906 "src/dot.ml" 147 4887 4908
+)
+"src/dot.ml" 148 4942 4974 "src/dot.ml" 148 4942 4986
+call(
+  stack
+)
+type(
+  Dot_ast.attr
+)
+"src/dot.ml" 148 4942 4973 "src/dot.ml" 148 4942 4987
+type(
+  Dot_ast.attr list
+)
+"src/dot.ml" 148 4942 4966 "src/dot.ml" 148 4942 4987
+call(
+  stack
+)
+type(
+  B.G.E.label
+)
+"src/dot.ml" 149 4991 5010 "src/dot.ml" 149 4991 5011
+type(
+  B.G.t
+)
+"src/dot.ml" 149 4991 5012 "src/dot.ml" 149 4991 5014
+type(
+  B.G.E.vertex
+)
+"src/dot.ml" 149 4991 5010 "src/dot.ml" 149 4991 5014
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 149 4991 5017 "src/dot.ml" 149 4991 5021
+type(
+  B.G.t -> Dot_ast.node_id -> '_d list -> B.G.t * B.G.E.vertex
+)
+ident(
+  int_ref node "src/dot.ml" 132 4420 4428 "src/dot.ml" 132 4420 4432
+)
+"src/dot.ml" 149 4991 5022 "src/dot.ml" 149 4991 5023
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 143 4730 4743 "src/dot.ml" 143 4730 4744
+)
+"src/dot.ml" 149 4991 5024 "src/dot.ml" 149 4991 5026
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref id "src/dot.ml" 146 4841 4872 "src/dot.ml" 146 4841 4874
+)
+"src/dot.ml" 149 4991 5027 "src/dot.ml" 149 4991 5029
+type(
+  '_d list
+)
+"src/dot.ml" 149 4991 5017 "src/dot.ml" 149 4991 5029
+call(
+  stack
+)
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 150 5033 5050 "src/dot.ml" 150 5033 5053
+type(
+  B.G.t * B.G.E.vertex -> B.G.t
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/dot.ml" 150 5033 5055 "src/dot.ml" 150 5033 5069
+type(
+  (B.G.t * B.G.E.vertex -> Dot_ast.node -> B.G.t * B.G.E.vertex) ->
+  B.G.t * B.G.E.vertex -> Dot_ast.node list -> B.G.t * B.G.E.vertex
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/dot.ml" 151 5070 5099 "src/dot.ml" 151 5070 5100
+type(
+  B.G.t
+)
+ident(
+  def g "src/dot.ml" 151 5070 5106 "src/dot.ml" 157 5385 5422
+)
+"src/dot.ml" 151 5070 5101 "src/dot.ml" 151 5070 5104
+type(
+  B.G.E.vertex
+)
+ident(
+  def pvn "src/dot.ml" 151 5070 5106 "src/dot.ml" 157 5385 5422
+)
+"src/dot.ml" 151 5070 5098 "src/dot.ml" 151 5070 5105
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 151 5070 5106 "src/dot.ml" 151 5070 5107
+type(
+  Dot_ast.node
+)
+ident(
+  def m "src/dot.ml" 151 5070 5111 "src/dot.ml" 157 5385 5422
+)
+"src/dot.ml" 151 5070 5117 "src/dot.ml" 151 5070 5118
+type(
+  Dot_ast.node
+)
+ident(
+  int_ref m "src/dot.ml" 151 5070 5106 "src/dot.ml" 151 5070 5107
+)
+"src/dot.ml" 152 5124 5159 "src/dot.ml" 152 5124 5162
+type(
+  Dot_ast.node_id
+)
+ident(
+  def idm "src/dot.ml" 153 5166 5196 "src/dot.ml" 155 5288 5343
+)
+"src/dot.ml" 152 5124 5152 "src/dot.ml" 152 5124 5162
+type(
+  Dot_ast.node
+)
+"src/dot.ml" 153 5166 5200 "src/dot.ml" 153 5166 5201
+type(
+  B.G.t
+)
+"src/dot.ml" 153 5166 5202 "src/dot.ml" 153 5166 5204
+type(
+  B.G.E.vertex
+)
+"src/dot.ml" 153 5166 5200 "src/dot.ml" 153 5166 5204
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 153 5166 5207 "src/dot.ml" 153 5166 5211
+type(
+  B.G.t -> Dot_ast.node_id -> '_e list -> B.G.t * B.G.E.vertex
+)
+ident(
+  int_ref node "src/dot.ml" 132 4420 4428 "src/dot.ml" 132 4420 4432
+)
+"src/dot.ml" 153 5166 5212 "src/dot.ml" 153 5166 5213
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 151 5070 5099 "src/dot.ml" 151 5070 5100
+)
+"src/dot.ml" 153 5166 5214 "src/dot.ml" 153 5166 5217
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref idm "src/dot.ml" 152 5124 5159 "src/dot.ml" 152 5124 5162
+)
+"src/dot.ml" 153 5166 5218 "src/dot.ml" 153 5166 5220
+type(
+  '_e list
+)
+"src/dot.ml" 153 5166 5207 "src/dot.ml" 153 5166 5220
+call(
+  stack
+)
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 154 5224 5258 "src/dot.ml" 154 5224 5259
+type(
+  B.G.E.t
+)
+"src/dot.ml" 154 5224 5262 "src/dot.ml" 154 5224 5274
+type(
+  B.G.E.vertex -> B.G.E.label -> B.G.E.vertex -> B.G.E.t
+)
+ident(
+  ext_ref B.G.E.create
+)
+"src/dot.ml" 154 5224 5275 "src/dot.ml" 154 5224 5278
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref pvn "src/dot.ml" 151 5070 5101 "src/dot.ml" 151 5070 5104
+)
+"src/dot.ml" 154 5224 5279 "src/dot.ml" 154 5224 5281
+type(
+  B.G.E.label
+)
+ident(
+  int_ref el "src/dot.ml" 148 4942 4961 "src/dot.ml" 148 4942 4963
+)
+"src/dot.ml" 154 5224 5282 "src/dot.ml" 154 5224 5284
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref vm "src/dot.ml" 153 5166 5202 "src/dot.ml" 153 5166 5204
+)
+"src/dot.ml" 154 5224 5262 "src/dot.ml" 154 5224 5284
+call(
+  stack
+)
+type(
+  B.G.E.t
+)
+"src/dot.ml" 155 5288 5322 "src/dot.ml" 155 5288 5334
+type(
+  B.G.t -> B.G.E.t -> B.G.t
+)
+ident(
+  ext_ref B.add_edge_e
+)
+"src/dot.ml" 155 5288 5335 "src/dot.ml" 155 5288 5336
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 153 5166 5200 "src/dot.ml" 153 5166 5201
+)
+"src/dot.ml" 155 5288 5337 "src/dot.ml" 155 5288 5338
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e "src/dot.ml" 154 5224 5258 "src/dot.ml" 154 5224 5259
+)
+"src/dot.ml" 155 5288 5321 "src/dot.ml" 155 5288 5339
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/dot.ml" 155 5288 5340 "src/dot.ml" 155 5288 5342
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref vm "src/dot.ml" 153 5166 5202 "src/dot.ml" 153 5166 5204
+)
+"src/dot.ml" 155 5288 5320 "src/dot.ml" 155 5288 5343
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 154 5224 5254 "src/dot.ml" 155 5288 5343
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 153 5166 5196 "src/dot.ml" 155 5288 5343
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 156 5344 5380 "src/dot.ml" 156 5344 5381
+type(
+  Dot_ast.subgraph
+)
+"src/dot.ml" 156 5344 5372 "src/dot.ml" 156 5344 5381
+type(
+  Dot_ast.node
+)
+"src/dot.ml" 157 5385 5416 "src/dot.ml" 157 5385 5417
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 151 5070 5099 "src/dot.ml" 151 5070 5100
+)
+"src/dot.ml" 157 5385 5418 "src/dot.ml" 157 5385 5421
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref pvn "src/dot.ml" 151 5070 5101 "src/dot.ml" 151 5070 5104
+)
+"src/dot.ml" 157 5385 5415 "src/dot.ml" 157 5385 5422
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 151 5070 5111 "src/dot.ml" 157 5385 5422
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 151 5070 5093 "src/dot.ml" 157 5385 5423
+type(
+  B.G.t * B.G.E.vertex -> Dot_ast.node -> B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 158 5424 5448 "src/dot.ml" 158 5424 5449
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 149 4991 5010 "src/dot.ml" 149 4991 5011
+)
+"src/dot.ml" 158 5424 5450 "src/dot.ml" 158 5424 5452
+type(
+  B.G.E.vertex
+)
+ident(
+  int_ref vn "src/dot.ml" 149 4991 5012 "src/dot.ml" 149 4991 5014
+)
+"src/dot.ml" 158 5424 5447 "src/dot.ml" 158 5424 5453
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 158 5424 5454 "src/dot.ml" 158 5424 5456
+type(
+  Dot_ast.node list
+)
+ident(
+  int_ref nl "src/dot.ml" 146 4841 4876 "src/dot.ml" 146 4841 4878
+)
+"src/dot.ml" 150 5033 5054 "src/dot.ml" 158 5424 5457
+call(
+  stack
+)
+type(
+  B.G.t * B.G.E.vertex
+)
+"src/dot.ml" 150 5033 5050 "src/dot.ml" 158 5424 5457
+type(
+  B.G.t
+)
+"src/dot.ml" 149 4991 5006 "src/dot.ml" 158 5424 5457
+type(
+  B.G.t
+)
+"src/dot.ml" 148 4942 4957 "src/dot.ml" 158 5424 5457
+type(
+  B.G.t
+)
+"src/dot.ml" 147 4887 4902 "src/dot.ml" 158 5424 5457
+type(
+  B.G.t
+)
+"src/dot.ml" 159 5458 5481 "src/dot.ml" 159 5458 5483
+type(
+  Dot_ast.attr list
+)
+ident(
+  def al "src/dot.ml" 160 5487 5502 "src/dot.ml" 160 5487 5549
+)
+"src/dot.ml" 159 5458 5471 "src/dot.ml" 159 5458 5483
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 160 5487 5502 "src/dot.ml" 160 5487 5515
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+ident(
+  int_ref def_edge_attr "src/dot.ml" 130 4341 4349 "src/dot.ml" 130 4341 4362
+)
+"src/dot.ml" 160 5487 5516 "src/dot.ml" 160 5487 5518
+type(
+  Dot_ast.id option Attr.M.t ref -> Dot_ast.id option Attr.M.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/dot.ml" 160 5487 5519 "src/dot.ml" 160 5487 5528
+type(
+  Dot_ast.id option Attr.M.t ->
+  Dot_ast.attr list -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Attr.addl
+)
+"src/dot.ml" 160 5487 5529 "src/dot.ml" 160 5487 5530
+type(
+  Dot_ast.id option Attr.M.t ref -> Dot_ast.id option Attr.M.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/dot.ml" 160 5487 5530 "src/dot.ml" 160 5487 5543
+type(
+  Dot_ast.id option Attr.M.t ref
+)
+ident(
+  int_ref def_edge_attr "src/dot.ml" 130 4341 4349 "src/dot.ml" 130 4341 4362
+)
+"src/dot.ml" 160 5487 5529 "src/dot.ml" 160 5487 5543
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 160 5487 5544 "src/dot.ml" 160 5487 5546
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref al "src/dot.ml" 159 5458 5481 "src/dot.ml" 159 5458 5483
+)
+"src/dot.ml" 160 5487 5519 "src/dot.ml" 160 5487 5546
+call(
+  stack
+)
+type(
+  Dot_ast.id option Attr.M.t
+)
+"src/dot.ml" 160 5487 5502 "src/dot.ml" 160 5487 5546
+type(
+  unit
+)
+"src/dot.ml" 160 5487 5548 "src/dot.ml" 160 5487 5549
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 143 4730 4743 "src/dot.ml" 143 4730 4744
+)
+"src/dot.ml" 160 5487 5502 "src/dot.ml" 160 5487 5549
+type(
+  B.G.t
+)
+"src/dot.ml" 161 5550 5586 "src/dot.ml" 161 5550 5587
+type(
+  Dot_ast.id option
+)
+"src/dot.ml" 161 5550 5589 "src/dot.ml" 161 5550 5594
+type(
+  Dot_ast.stmt list
+)
+ident(
+  def stmts "src/dot.ml" 162 5600 5615 "src/dot.ml" 162 5600 5632
+)
+"src/dot.ml" 161 5550 5572 "src/dot.ml" 161 5550 5596
+type(
+  Dot_ast.subgraph
+)
+"src/dot.ml" 161 5550 5563 "src/dot.ml" 161 5550 5596
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 162 5600 5615 "src/dot.ml" 162 5600 5624
+type(
+  B.G.t -> Dot_ast.stmt list -> B.G.t
+)
+ident(
+  int_ref add_stmts "src/dot.ml" 141 4677 4689 "src/dot.ml" 141 4677 4698
+)
+"src/dot.ml" 162 5600 5625 "src/dot.ml" 162 5600 5626
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 143 4730 4743 "src/dot.ml" 143 4730 4744
+)
+"src/dot.ml" 162 5600 5627 "src/dot.ml" 162 5600 5632
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref stmts "src/dot.ml" 161 5550 5589 "src/dot.ml" 161 5550 5594
+)
+"src/dot.ml" 162 5600 5615 "src/dot.ml" 162 5600 5632
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/dot.ml" 163 5633 5646 "src/dot.ml" 163 5633 5647
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 163 5633 5651 "src/dot.ml" 163 5633 5652
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 143 4730 4743 "src/dot.ml" 143 4730 4744
+)
+"src/dot.ml" 143 4730 4750 "src/dot.ml" 163 5633 5652
+type(
+  B.G.t
+)
+"src/dot.ml" 143 4730 4738 "src/dot.ml" 164 5653 5662
+type(
+  B.G.t -> Dot_ast.stmt -> B.G.t
+)
+"src/dot.ml" 165 5663 5671 "src/dot.ml" 165 5663 5672
+type(
+  B.G.t
+)
+ident(
+  int_ref g "src/dot.ml" 141 4677 4699 "src/dot.ml" 141 4677 4700
+)
+"src/dot.ml" 165 5663 5673 "src/dot.ml" 165 5663 5678
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref stmts "src/dot.ml" 141 4677 4701 "src/dot.ml" 141 4677 4706
+)
+"src/dot.ml" 142 4709 4715 "src/dot.ml" 165 5663 5678
+call(
+  tail
+)
+type(
+  B.G.t
+)
+"src/dot.ml" 167 5683 5691 "src/dot.ml" 167 5683 5696
+type(
+  B.G.t
+)
+"src/dot.ml" 167 5683 5699 "src/dot.ml" 167 5683 5708
+type(
+  B.G.t -> Dot_ast.stmt list -> B.G.t
+)
+ident(
+  int_ref add_stmts "src/dot.ml" 141 4677 4689 "src/dot.ml" 141 4677 4698
+)
+"src/dot.ml" 167 5683 5710 "src/dot.ml" 167 5683 5717
+type(
+  unit -> B.G.t
+)
+ident(
+  ext_ref B.empty
+)
+"src/dot.ml" 167 5683 5718 "src/dot.ml" 167 5683 5720
+type(
+  unit
+)
+"src/dot.ml" 167 5683 5709 "src/dot.ml" 167 5683 5721
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/dot.ml" 167 5683 5722 "src/dot.ml" 167 5683 5725
+type(
+  Dot_ast.file
+)
+ident(
+  int_ref dot "src/dot.ml" 70 2470 2504 "src/dot.ml" 70 2470 2507
+)
+"src/dot.ml" 167 5683 5722 "src/dot.ml" 167 5683 5731
+type(
+  Dot_ast.stmt list
+)
+"src/dot.ml" 167 5683 5699 "src/dot.ml" 167 5683 5731
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"src/dot.ml" 169 5736 5744 "src/dot.ml" 169 5736 5757
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 170 5760 5770 "src/dot.ml" 170 5760 5771
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 170 5760 5774 "src/dot.ml" 170 5760 5788
+type(
+  int -> (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/dot.ml" 170 5760 5789 "src/dot.ml" 170 5760 5791
+type(
+  int
+)
+"src/dot.ml" 170 5760 5774 "src/dot.ml" 170 5760 5791
+call(
+  stack
+)
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 171 5795 5801 "src/dot.ml" 171 5795 5813
+type(
+  (string -> Dot_ast.id option Attr.M.t -> unit) ->
+  (string, Dot_ast.id option Attr.M.t) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"src/dot.ml" 171 5795 5819 "src/dot.ml" 171 5795 5820
+type(
+  string
+)
+ident(
+  def k "src/dot.ml" 171 5795 5821 "src/dot.ml" 171 5795 5855
+)
+"src/dot.ml" 171 5795 5821 "src/dot.ml" 171 5795 5822
+type(
+  Dot_ast.id option Attr.M.t
+)
+ident(
+  def a "src/dot.ml" 171 5795 5826 "src/dot.ml" 171 5795 5855
+)
+"src/dot.ml" 171 5795 5826 "src/dot.ml" 171 5795 5837
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t ->
+  string -> (Attr.M.key * Dot_ast.id option) list list -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/dot.ml" 171 5795 5838 "src/dot.ml" 171 5795 5839
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  int_ref h "src/dot.ml" 170 5760 5770 "src/dot.ml" 170 5760 5771
+)
+"src/dot.ml" 171 5795 5840 "src/dot.ml" 171 5795 5841
+type(
+  string
+)
+ident(
+  int_ref k "src/dot.ml" 171 5795 5819 "src/dot.ml" 171 5795 5820
+)
+"src/dot.ml" 171 5795 5843 "src/dot.ml" 171 5795 5852
+type(
+  Dot_ast.id option Attr.M.t -> (Attr.M.key * Dot_ast.id option) list
+)
+ident(
+  ext_ref Attr.list
+)
+"src/dot.ml" 171 5795 5853 "src/dot.ml" 171 5795 5854
+type(
+  Dot_ast.id option Attr.M.t
+)
+ident(
+  int_ref a "src/dot.ml" 171 5795 5821 "src/dot.ml" 171 5795 5822
+)
+"src/dot.ml" 171 5795 5843 "src/dot.ml" 171 5795 5854
+call(
+  stack
+)
+type(
+  (Attr.M.key * Dot_ast.id option) list
+)
+"src/dot.ml" 171 5795 5842 "src/dot.ml" 171 5795 5855
+type(
+  (Attr.M.key * Dot_ast.id option) list list
+)
+"src/dot.ml" 171 5795 5826 "src/dot.ml" 171 5795 5855
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 171 5795 5814 "src/dot.ml" 171 5795 5856
+type(
+  string -> Dot_ast.id option Attr.M.t -> unit
+)
+"src/dot.ml" 171 5795 5857 "src/dot.ml" 171 5795 5867
+type(
+  (string, Dot_ast.id option Attr.M.t) Hashtbl.t
+)
+ident(
+  int_ref clust_attr "src/dot.ml" 79 2725 2733 "src/dot.ml" 79 2725 2743
+)
+"src/dot.ml" 171 5795 5801 "src/dot.ml" 171 5795 5867
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot.ml" 172 5869 5875 "src/dot.ml" 172 5869 5876
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  int_ref h "src/dot.ml" 170 5760 5770 "src/dot.ml" 170 5760 5771
+)
+"src/dot.ml" 171 5795 5801 "src/dot.ml" 172 5869 5876
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 170 5760 5766 "src/dot.ml" 172 5869 5876
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 174 5881 5885 "src/dot.ml" 174 5881 5890
+type(
+  B.G.t
+)
+ident(
+  int_ref graph "src/dot.ml" 167 5683 5691 "src/dot.ml" 167 5683 5696
+)
+"src/dot.ml" 174 5881 5892 "src/dot.ml" 174 5881 5905
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  int_ref clusters_hash "src/dot.ml" 169 5736 5744 "src/dot.ml" 169 5736 5757
+)
+"src/dot.ml" 174 5881 5885 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 169 5736 5740 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 167 5683 5687 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 141 4677 4681 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 132 4420 4424 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 131 4383 4387 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 130 4341 4345 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 127 4251 4255 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 103 3496 3500 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 98 3294 3298 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 89 3025 3029 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 84 2845 2849 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 82 2801 2805 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 79 2725 2729 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 78 2682 2686 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 75 2603 2607 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 74 2561 2565 "src/dot.ml" 174 5881 5905
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 176 5907 5913 "src/dot.ml" 176 5907 5925
+type(
+  Dot_ast.stmt list -> string option
+)
+ident(
+  def get_graph_bb "src/dot.ml" 187 6236 6238 "src/dot.ml" 219 7102 7105
+)
+"src/dot.ml" 176 5907 5926 "src/dot.ml" 176 5907 5931
+type(
+  Dot_ast.stmt list
+)
+ident(
+  def stmts "src/dot.ml" 177 5934 5938 "src/dot.ml" 185 6221 6234
+)
+"src/dot.ml" 177 5934 5942 "src/dot.ml" 177 5934 5950
+type(
+  string option ref
+)
+"src/dot.ml" 177 5934 5953 "src/dot.ml" 177 5934 5956
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/dot.ml" 177 5934 5957 "src/dot.ml" 177 5934 5961
+type(
+  string option
+)
+"src/dot.ml" 177 5934 5953 "src/dot.ml" 177 5934 5961
+type(
+  string option ref
+)
+"src/dot.ml" 178 5965 5973 "src/dot.ml" 178 5965 5982
+type(
+  Dot_ast.id * Dot_ast.id option -> unit
+)
+"src/dot.ml" 179 5994 6009 "src/dot.ml" 179 5994 6013
+type(
+  string
+)
+"src/dot.ml" 179 5994 6003 "src/dot.ml" 179 5994 6013
+type(
+  Dot_ast.id
+)
+"src/dot.ml" 179 5994 6029 "src/dot.ml" 179 5994 6031
+type(
+  string
+)
+ident(
+  def bb "src/dot.ml" 179 5994 6037 "src/dot.ml" 179 5994 6056
+)
+"src/dot.ml" 179 5994 6021 "src/dot.ml" 179 5994 6032
+type(
+  Dot_ast.id
+)
+"src/dot.ml" 179 5994 6016 "src/dot.ml" 179 5994 6032
+type(
+  Dot_ast.id option
+)
+"src/dot.ml" 179 5994 6002 "src/dot.ml" 179 5994 6033
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+"src/dot.ml" 179 5994 6037 "src/dot.ml" 179 5994 6045
+type(
+  string option ref
+)
+ident(
+  int_ref graph_bb "src/dot.ml" 177 5934 5942 "src/dot.ml" 177 5934 5950
+)
+"src/dot.ml" 179 5994 6046 "src/dot.ml" 179 5994 6048
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/dot.ml" 179 5994 6054 "src/dot.ml" 179 5994 6056
+type(
+  string
+)
+ident(
+  int_ref bb "src/dot.ml" 179 5994 6029 "src/dot.ml" 179 5994 6031
+)
+"src/dot.ml" 179 5994 6049 "src/dot.ml" 179 5994 6056
+type(
+  string option
+)
+"src/dot.ml" 179 5994 6037 "src/dot.ml" 179 5994 6056
+type(
+  unit
+)
+"src/dot.ml" 180 6057 6065 "src/dot.ml" 180 6057 6066
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+"src/dot.ml" 180 6057 6070 "src/dot.ml" 180 6057 6072
+type(
+  unit
+)
+"src/dot.ml" 178 5965 5985 "src/dot.ml" 180 6057 6072
+type(
+  Dot_ast.id * Dot_ast.id option -> unit
+)
+"src/dot.ml" 181 6076 6084 "src/dot.ml" 181 6076 6093
+type(
+  Dot_ast.stmt -> unit
+)
+"src/dot.ml" 182 6105 6124 "src/dot.ml" 182 6105 6129
+type(
+  Dot_ast.attr list
+)
+ident(
+  def attrs "src/dot.ml" 182 6105 6133 "src/dot.ml" 182 6105 6170
+)
+"src/dot.ml" 182 6105 6113 "src/dot.ml" 182 6105 6129
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 182 6105 6133 "src/dot.ml" 182 6105 6142
+type(
+  (Dot_ast.attr -> unit) -> Dot_ast.attr list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/dot.ml" 182 6105 6144 "src/dot.ml" 182 6105 6153
+type(
+  (Dot_ast.id * Dot_ast.id option -> unit) -> Dot_ast.attr -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/dot.ml" 182 6105 6154 "src/dot.ml" 182 6105 6163
+type(
+  Dot_ast.id * Dot_ast.id option -> unit
+)
+ident(
+  int_ref read_attr "src/dot.ml" 178 5965 5973 "src/dot.ml" 178 5965 5982
+)
+"src/dot.ml" 182 6105 6143 "src/dot.ml" 182 6105 6164
+call(
+  stack
+)
+type(
+  Dot_ast.attr -> unit
+)
+"src/dot.ml" 182 6105 6165 "src/dot.ml" 182 6105 6170
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref attrs "src/dot.ml" 182 6105 6124 "src/dot.ml" 182 6105 6129
+)
+"src/dot.ml" 182 6105 6133 "src/dot.ml" 182 6105 6170
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dot.ml" 183 6171 6179 "src/dot.ml" 183 6171 6180
+type(
+  Dot_ast.stmt
+)
+"src/dot.ml" 183 6171 6184 "src/dot.ml" 183 6171 6186
+type(
+  unit
+)
+"src/dot.ml" 181 6076 6096 "src/dot.ml" 183 6171 6186
+type(
+  Dot_ast.stmt -> unit
+)
+"src/dot.ml" 184 6190 6194 "src/dot.ml" 184 6190 6203
+type(
+  (Dot_ast.stmt -> unit) -> Dot_ast.stmt list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/dot.ml" 184 6190 6204 "src/dot.ml" 184 6190 6213
+type(
+  Dot_ast.stmt -> unit
+)
+ident(
+  int_ref read_stmt "src/dot.ml" 181 6076 6084 "src/dot.ml" 181 6076 6093
+)
+"src/dot.ml" 184 6190 6214 "src/dot.ml" 184 6190 6219
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref stmts "src/dot.ml" 176 5907 5926 "src/dot.ml" 176 5907 5931
+)
+"src/dot.ml" 184 6190 6194 "src/dot.ml" 184 6190 6219
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot.ml" 185 6221 6225 "src/dot.ml" 185 6221 6226
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/dot.ml" 185 6221 6226 "src/dot.ml" 185 6221 6234
+type(
+  string option ref
+)
+ident(
+  int_ref graph_bb "src/dot.ml" 177 5934 5942 "src/dot.ml" 177 5934 5950
+)
+"src/dot.ml" 185 6221 6225 "src/dot.ml" 185 6221 6234
+type(
+  string option
+)
+"src/dot.ml" 184 6190 6194 "src/dot.ml" 185 6221 6234
+type(
+  string option
+)
+"src/dot.ml" 181 6076 6080 "src/dot.ml" 185 6221 6234
+type(
+  string option
+)
+"src/dot.ml" 178 5965 5969 "src/dot.ml" 185 6221 6234
+type(
+  string option
+)
+"src/dot.ml" 177 5934 5938 "src/dot.ml" 185 6221 6234
+type(
+  string option
+)
+"src/dot.ml" 187 6236 6242 "src/dot.ml" 187 6236 6261
+type(
+  in_channel -> Dot_ast.file
+)
+ident(
+  def parse_dot_from_chan "src/dot.ml" 199 6532 6534 "src/dot.ml" 219 7102 7105
+)
+"src/dot.ml" 187 6236 6262 "src/dot.ml" 187 6236 6263
+type(
+  in_channel
+)
+ident(
+  def c "src/dot.ml" 188 6266 6270 "src/dot.ml" 197 6523 6530
+)
+"src/dot.ml" 188 6266 6274 "src/dot.ml" 188 6266 6276
+type(
+  Lexing.lexbuf
+)
+"src/dot.ml" 188 6266 6279 "src/dot.ml" 188 6266 6298
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"src/dot.ml" 188 6266 6299 "src/dot.ml" 188 6266 6300
+type(
+  in_channel
+)
+ident(
+  int_ref c "src/dot.ml" 187 6236 6262 "src/dot.ml" 187 6236 6263
+)
+"src/dot.ml" 188 6266 6279 "src/dot.ml" 188 6266 6300
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"src/dot.ml" 189 6304 6312 "src/dot.ml" 189 6304 6315
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 191 6328 6329 "src/dot.ml" 191 6328 6344
+type(
+  (Lexing.lexbuf -> Dot_parser.token) -> Lexing.lexbuf -> Dot_ast.file
+)
+ident(
+  ext_ref Dot_parser.file
+)
+"src/dot.ml" 191 6328 6345 "src/dot.ml" 191 6328 6360
+type(
+  Lexing.lexbuf -> Dot_parser.token
+)
+ident(
+  ext_ref Dot_lexer.token
+)
+"src/dot.ml" 191 6328 6361 "src/dot.ml" 191 6328 6363
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "src/dot.ml" 188 6266 6274 "src/dot.ml" 188 6266 6276
+)
+"src/dot.ml" 191 6328 6329 "src/dot.ml" 191 6328 6363
+call(
+  stack
+)
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 192 6364 6375 "src/dot.ml" 192 6364 6394
+type(
+  exn
+)
+"src/dot.ml" 193 6398 6403 "src/dot.ml" 193 6398 6404
+type(
+  int
+)
+"src/dot.ml" 193 6398 6407 "src/dot.ml" 193 6398 6426
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"src/dot.ml" 193 6398 6427 "src/dot.ml" 193 6398 6429
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "src/dot.ml" 188 6266 6274 "src/dot.ml" 188 6266 6276
+)
+"src/dot.ml" 193 6398 6407 "src/dot.ml" 193 6398 6429
+call(
+  stack
+)
+type(
+  int
+)
+"src/dot.ml" 194 6433 6434 "src/dot.ml" 194 6433 6442
+type(
+  string -> Dot_ast.file
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/dot.ml" 194 6433 6444 "src/dot.ml" 194 6433 6458
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/dot.ml" 194 6433 6459 "src/dot.ml" 194 6433 6496
+type(
+  (int -> string, unit, string) format
+)
+"src/dot.ml" 194 6433 6497 "src/dot.ml" 194 6433 6498
+type(
+  int
+)
+ident(
+  int_ref n "src/dot.ml" 193 6398 6403 "src/dot.ml" 193 6398 6404
+)
+"src/dot.ml" 194 6433 6443 "src/dot.ml" 194 6433 6499
+call(
+  stack
+)
+type(
+  string
+)
+"src/dot.ml" 194 6433 6434 "src/dot.ml" 194 6433 6499
+call(
+  stack
+)
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 193 6398 6399 "src/dot.ml" 194 6433 6499
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 190 6318 6324 "src/dot.ml" 194 6433 6499
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 196 6507 6511 "src/dot.ml" 196 6507 6519
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/dot.ml" 196 6507 6520 "src/dot.ml" 196 6507 6521
+type(
+  in_channel
+)
+ident(
+  int_ref c "src/dot.ml" 187 6236 6262 "src/dot.ml" 187 6236 6263
+)
+"src/dot.ml" 196 6507 6511 "src/dot.ml" 196 6507 6521
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dot.ml" 197 6523 6527 "src/dot.ml" 197 6523 6530
+type(
+  Dot_ast.file
+)
+ident(
+  int_ref dot "src/dot.ml" 189 6304 6312 "src/dot.ml" 189 6304 6315
+)
+"src/dot.ml" 196 6507 6511 "src/dot.ml" 197 6523 6530
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 189 6304 6308 "src/dot.ml" 197 6523 6530
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 188 6266 6270 "src/dot.ml" 197 6523 6530
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 199 6532 6538 "src/dot.ml" 199 6532 6547
+type(
+  string -> Dot_ast.file
+)
+ident(
+  def parse_dot "src/dot.ml" 203 6604 6606 "src/dot.ml" 219 7102 7105
+)
+"src/dot.ml" 199 6532 6548 "src/dot.ml" 199 6532 6549
+type(
+  string
+)
+ident(
+  def f "src/dot.ml" 200 6552 6556 "src/dot.ml" 201 6577 6602
+)
+"src/dot.ml" 200 6552 6560 "src/dot.ml" 200 6552 6561
+type(
+  in_channel
+)
+"src/dot.ml" 200 6552 6564 "src/dot.ml" 200 6552 6571
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/dot.ml" 200 6552 6572 "src/dot.ml" 200 6552 6573
+type(
+  string
+)
+ident(
+  int_ref f "src/dot.ml" 199 6532 6548 "src/dot.ml" 199 6532 6549
+)
+"src/dot.ml" 200 6552 6564 "src/dot.ml" 200 6552 6573
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/dot.ml" 201 6577 6581 "src/dot.ml" 201 6577 6600
+type(
+  in_channel -> Dot_ast.file
+)
+ident(
+  int_ref parse_dot_from_chan "src/dot.ml" 187 6236 6242 "src/dot.ml" 187 6236 6261
+)
+"src/dot.ml" 201 6577 6601 "src/dot.ml" 201 6577 6602
+type(
+  in_channel
+)
+ident(
+  int_ref c "src/dot.ml" 200 6552 6560 "src/dot.ml" 200 6552 6561
+)
+"src/dot.ml" 201 6577 6581 "src/dot.ml" 201 6577 6602
+call(
+  tail
+)
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 200 6552 6556 "src/dot.ml" 201 6577 6602
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 203 6604 6610 "src/dot.ml" 203 6604 6615
+type(
+  string -> B.G.t
+)
+ident(
+  def parse "src/dot.ml" 206 6671 6673 "src/dot.ml" 219 7102 7105
+)
+"src/dot.ml" 203 6604 6616 "src/dot.ml" 203 6604 6617
+type(
+  string
+)
+ident(
+  def f "src/dot.ml" 204 6620 6624 "src/dot.ml" 204 6620 6669
+)
+"src/dot.ml" 204 6620 6624 "src/dot.ml" 204 6620 6627
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t ->
+  B.G.t
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/dot.ml" 204 6620 6629 "src/dot.ml" 204 6620 6654
+type(
+  Dot_ast.file ->
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  int_ref create_graph_and_clusters "src/dot.ml" 70 2470 2478 "src/dot.ml" 70 2470 2503
+)
+"src/dot.ml" 204 6620 6656 "src/dot.ml" 204 6620 6665
+type(
+  string -> Dot_ast.file
+)
+ident(
+  int_ref parse_dot "src/dot.ml" 199 6532 6538 "src/dot.ml" 199 6532 6547
+)
+"src/dot.ml" 204 6620 6666 "src/dot.ml" 204 6620 6667
+type(
+  string
+)
+ident(
+  int_ref f "src/dot.ml" 203 6604 6616 "src/dot.ml" 203 6604 6617
+)
+"src/dot.ml" 204 6620 6655 "src/dot.ml" 204 6620 6668
+call(
+  stack
+)
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 204 6620 6628 "src/dot.ml" 204 6620 6669
+call(
+  stack
+)
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 204 6620 6624 "src/dot.ml" 204 6620 6669
+type(
+  B.G.t
+)
+"src/dot.ml" 206 6671 6677 "src/dot.ml" 206 6671 6700
+type(
+  in_channel ->
+  (B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t) *
+  string option
+)
+ident(
+  def parse_with_bb_from_chan "src/dot.ml" 210 6803 6805 "src/dot.ml" 219 7102 7105
+)
+"src/dot.ml" 206 6671 6701 "src/dot.ml" 206 6671 6702
+type(
+  in_channel
+)
+ident(
+  def c "src/dot.ml" 207 6705 6709 "src/dot.ml" 208 6744 6801
+)
+"src/dot.ml" 207 6705 6713 "src/dot.ml" 207 6705 6716
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 207 6705 6719 "src/dot.ml" 207 6705 6738
+type(
+  in_channel -> Dot_ast.file
+)
+ident(
+  int_ref parse_dot_from_chan "src/dot.ml" 187 6236 6242 "src/dot.ml" 187 6236 6261
+)
+"src/dot.ml" 207 6705 6739 "src/dot.ml" 207 6705 6740
+type(
+  in_channel
+)
+ident(
+  int_ref c "src/dot.ml" 206 6671 6701 "src/dot.ml" 206 6671 6702
+)
+"src/dot.ml" 207 6705 6719 "src/dot.ml" 207 6705 6740
+call(
+  stack
+)
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 208 6744 6748 "src/dot.ml" 208 6744 6773
+type(
+  Dot_ast.file ->
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  int_ref create_graph_and_clusters "src/dot.ml" 70 2470 2478 "src/dot.ml" 70 2470 2503
+)
+"src/dot.ml" 208 6744 6774 "src/dot.ml" 208 6744 6777
+type(
+  Dot_ast.file
+)
+ident(
+  int_ref dot "src/dot.ml" 207 6705 6713 "src/dot.ml" 207 6705 6716
+)
+"src/dot.ml" 208 6744 6748 "src/dot.ml" 208 6744 6777
+call(
+  stack
+)
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 208 6744 6779 "src/dot.ml" 208 6744 6791
+type(
+  Dot_ast.stmt list -> string option
+)
+ident(
+  int_ref get_graph_bb "src/dot.ml" 176 5907 5913 "src/dot.ml" 176 5907 5925
+)
+"src/dot.ml" 208 6744 6792 "src/dot.ml" 208 6744 6795
+type(
+  Dot_ast.file
+)
+ident(
+  int_ref dot "src/dot.ml" 207 6705 6713 "src/dot.ml" 207 6705 6716
+)
+"src/dot.ml" 208 6744 6792 "src/dot.ml" 208 6744 6801
+type(
+  Dot_ast.stmt list
+)
+"src/dot.ml" 208 6744 6779 "src/dot.ml" 208 6744 6801
+call(
+  stack
+)
+type(
+  string option
+)
+"src/dot.ml" 208 6744 6748 "src/dot.ml" 208 6744 6801
+type(
+  (B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t) *
+  string option
+)
+"src/dot.ml" 207 6705 6709 "src/dot.ml" 208 6744 6801
+type(
+  (B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t) *
+  string option
+)
+"src/dot.ml" 210 6803 6809 "src/dot.ml" 210 6803 6840
+type(
+  string ->
+  B.G.t * string *
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  def parse_bounding_box_and_clusters "src/dot.ml" 217 7049 7100 "src/dot.ml" 219 7102 7105
+)
+"src/dot.ml" 210 6803 6841 "src/dot.ml" 210 6803 6842
+type(
+  string
+)
+ident(
+  def f "src/dot.ml" 211 6845 6849 "src/dot.ml" 217 7049 7100
+)
+"src/dot.ml" 211 6845 6853 "src/dot.ml" 211 6845 6856
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 211 6845 6859 "src/dot.ml" 211 6845 6868
+type(
+  string -> Dot_ast.file
+)
+ident(
+  int_ref parse_dot "src/dot.ml" 199 6532 6538 "src/dot.ml" 199 6532 6547
+)
+"src/dot.ml" 211 6845 6869 "src/dot.ml" 211 6845 6870
+type(
+  string
+)
+ident(
+  int_ref f "src/dot.ml" 210 6803 6841 "src/dot.ml" 210 6803 6842
+)
+"src/dot.ml" 211 6845 6859 "src/dot.ml" 211 6845 6870
+call(
+  stack
+)
+type(
+  Dot_ast.file
+)
+"src/dot.ml" 212 6874 6882 "src/dot.ml" 212 6874 6887
+type(
+  B.G.t
+)
+"src/dot.ml" 212 6874 6889 "src/dot.ml" 212 6874 6897
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 212 6874 6882 "src/dot.ml" 212 6874 6897
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 212 6874 6900 "src/dot.ml" 212 6874 6925
+type(
+  Dot_ast.file ->
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  int_ref create_graph_and_clusters "src/dot.ml" 70 2470 2478 "src/dot.ml" 70 2470 2503
+)
+"src/dot.ml" 212 6874 6926 "src/dot.ml" 212 6874 6929
+type(
+  Dot_ast.file
+)
+ident(
+  int_ref dot "src/dot.ml" 211 6845 6853 "src/dot.ml" 211 6845 6856
+)
+"src/dot.ml" 212 6874 6900 "src/dot.ml" 212 6874 6929
+call(
+  stack
+)
+type(
+  B.G.t * (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 213 6933 6943 "src/dot.ml" 213 6933 6955
+type(
+  Dot_ast.stmt list -> string option
+)
+ident(
+  int_ref get_graph_bb "src/dot.ml" 176 5907 5913 "src/dot.ml" 176 5907 5925
+)
+"src/dot.ml" 213 6933 6956 "src/dot.ml" 213 6933 6959
+type(
+  Dot_ast.file
+)
+ident(
+  int_ref dot "src/dot.ml" 211 6845 6853 "src/dot.ml" 211 6845 6856
+)
+"src/dot.ml" 213 6933 6956 "src/dot.ml" 213 6933 6965
+type(
+  Dot_ast.stmt list
+)
+"src/dot.ml" 213 6933 6943 "src/dot.ml" 213 6933 6965
+call(
+  stack
+)
+type(
+  string option
+)
+"src/dot.ml" 214 6971 6984 "src/dot.ml" 214 6971 6996
+type(
+  string
+)
+ident(
+  def bounding_box "src/dot.ml" 215 7000 7003 "src/dot.ml" 215 7000 7032
+)
+"src/dot.ml" 214 6971 6979 "src/dot.ml" 214 6971 6996
+type(
+  string option
+)
+"src/dot.ml" 215 7000 7003 "src/dot.ml" 215 7000 7008
+type(
+  B.G.t
+)
+ident(
+  int_ref graph "src/dot.ml" 212 6874 6882 "src/dot.ml" 212 6874 6887
+)
+"src/dot.ml" 215 7000 7010 "src/dot.ml" 215 7000 7022
+type(
+  string
+)
+ident(
+  int_ref bounding_box "src/dot.ml" 214 6971 6984 "src/dot.ml" 214 6971 6996
+)
+"src/dot.ml" 215 7000 7024 "src/dot.ml" 215 7000 7032
+type(
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  int_ref clusters "src/dot.ml" 212 6874 6889 "src/dot.ml" 212 6874 6897
+)
+"src/dot.ml" 215 7000 7003 "src/dot.ml" 215 7000 7032
+type(
+  B.G.t * string *
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 216 7033 7041 "src/dot.ml" 216 7033 7045
+type(
+  string option
+)
+"src/dot.ml" 217 7049 7052 "src/dot.ml" 217 7049 7060
+type(
+  string ->
+  B.G.t * string *
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/dot.ml" 217 7049 7061 "src/dot.ml" 217 7049 7100
+type(
+  string
+)
+"src/dot.ml" 217 7049 7052 "src/dot.ml" 217 7049 7100
+call(
+  tail
+)
+type(
+  B.G.t * string *
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 213 6933 6937 "src/dot.ml" 217 7049 7100
+type(
+  B.G.t * string *
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 212 6874 6878 "src/dot.ml" 217 7049 7100
+type(
+  B.G.t * string *
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)
+"src/dot.ml" 211 6845 6849 "src/dot.ml" 217 7049 7100
+type(
+  B.G.t * string *
+  (string, (Attr.M.key * Dot_ast.id option) list list) Hashtbl.t
+)

@@ -1,0 +1,182 @@
+"grammar_private_scope.ml" 5 91 95 "grammar_private_scope.ml" 5 91 108
+type(
+  unit -> (string, Var.t) Hashtbl.t * 'a Stack.t
+)
+ident(
+  def default_scope "grammar_private_scope.ml" 6 168 168 --
+)
+"grammar_private_scope.ml" 5 91 109 "grammar_private_scope.ml" 5 91 111
+type(
+  unit
+)
+"grammar_private_scope.ml" 5 91 114 "grammar_private_scope.ml" 5 91 137
+type(
+  Var.t list -> (string, Var.t) Hashtbl.t * 'a Stack.t
+)
+ident(
+  ext_ref Grammar_scope.create_scope_from_decls
+)
+"grammar_private_scope.ml" 5 91 138 "grammar_private_scope.ml" 5 91 167
+type(
+  Var.t list
+)
+ident(
+  ext_ref Asmir_vars.multiarch_all_regs
+)
+"grammar_private_scope.ml" 5 91 114 "grammar_private_scope.ml" 5 91 167
+call(
+  tail
+)
+type(
+  (string, Var.t) Hashtbl.t * 'a Stack.t
+)
+"grammar_private_scope.ml" 6 168 172 "grammar_private_scope.ml" 6 168 181
+type(
+  Grammar_scope.Scope.t ref
+)
+ident(
+  def cur_scope "grammar_private_scope.ml" 8 222 222 --
+)
+"grammar_private_scope.ml" 6 168 198 "grammar_private_scope.ml" 6 168 201
+type(
+  Grammar_scope.Scope.t -> Grammar_scope.Scope.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"grammar_private_scope.ml" 6 168 203 "grammar_private_scope.ml" 6 168 216
+type(
+  unit -> Grammar_scope.Scope.t
+)
+ident(
+  int_ref default_scope "grammar_private_scope.ml" 5 91 95 "grammar_private_scope.ml" 5 91 108
+)
+"grammar_private_scope.ml" 6 168 217 "grammar_private_scope.ml" 6 168 219
+type(
+  unit
+)
+"grammar_private_scope.ml" 6 168 202 "grammar_private_scope.ml" 6 168 220
+call(
+  stack
+)
+type(
+  Grammar_scope.Scope.t
+)
+"grammar_private_scope.ml" 6 168 198 "grammar_private_scope.ml" 6 168 220
+type(
+  Grammar_scope.Scope.t ref
+)
+type(
+  Grammar_scope.Scope.t ref
+)
+"grammar_private_scope.ml" 8 222 226 "grammar_private_scope.ml" 8 222 235
+type(
+  unit -> Grammar_scope.Scope.t
+)
+ident(
+  def get_scope "grammar_private_scope.ml" 9 252 252 --
+)
+"grammar_private_scope.ml" 8 222 236 "grammar_private_scope.ml" 8 222 238
+type(
+  unit
+)
+"grammar_private_scope.ml" 8 222 241 "grammar_private_scope.ml" 8 222 242
+type(
+  Grammar_scope.Scope.t ref -> Grammar_scope.Scope.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"grammar_private_scope.ml" 8 222 242 "grammar_private_scope.ml" 8 222 251
+type(
+  Grammar_scope.Scope.t ref
+)
+ident(
+  int_ref cur_scope "grammar_private_scope.ml" 6 168 172 "grammar_private_scope.ml" 6 168 181
+)
+"grammar_private_scope.ml" 8 222 241 "grammar_private_scope.ml" 8 222 251
+type(
+  Grammar_scope.Scope.t
+)
+"grammar_private_scope.ml" 9 252 256 "grammar_private_scope.ml" 9 252 265
+type(
+  Grammar_scope.Scope.t -> unit
+)
+ident(
+  def set_scope "grammar_private_scope.ml" 10 285 285 --
+)
+"grammar_private_scope.ml" 9 252 266 "grammar_private_scope.ml" 9 252 267
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  def s "grammar_private_scope.ml" 9 252 270 "grammar_private_scope.ml" 9 252 284
+)
+"grammar_private_scope.ml" 9 252 270 "grammar_private_scope.ml" 9 252 279
+type(
+  Grammar_scope.Scope.t ref
+)
+ident(
+  int_ref cur_scope "grammar_private_scope.ml" 6 168 172 "grammar_private_scope.ml" 6 168 181
+)
+"grammar_private_scope.ml" 9 252 280 "grammar_private_scope.ml" 9 252 282
+type(
+  Grammar_scope.Scope.t ref -> Grammar_scope.Scope.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"grammar_private_scope.ml" 9 252 283 "grammar_private_scope.ml" 9 252 284
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref s "grammar_private_scope.ml" 9 252 266 "grammar_private_scope.ml" 9 252 267
+)
+"grammar_private_scope.ml" 9 252 270 "grammar_private_scope.ml" 9 252 284
+type(
+  unit
+)
+"grammar_private_scope.ml" 10 285 289 "grammar_private_scope.ml" 10 285 300
+type(
+  unit -> unit
+)
+ident(
+  def reset_scope "grammar_private_scope.ml" 10 285 334 --
+)
+"grammar_private_scope.ml" 10 285 301 "grammar_private_scope.ml" 10 285 303
+type(
+  unit
+)
+"grammar_private_scope.ml" 10 285 306 "grammar_private_scope.ml" 10 285 315
+type(
+  Grammar_scope.Scope.t -> unit
+)
+ident(
+  int_ref set_scope "grammar_private_scope.ml" 9 252 256 "grammar_private_scope.ml" 9 252 265
+)
+"grammar_private_scope.ml" 10 285 317 "grammar_private_scope.ml" 10 285 330
+type(
+  unit -> Grammar_scope.Scope.t
+)
+ident(
+  int_ref default_scope "grammar_private_scope.ml" 5 91 95 "grammar_private_scope.ml" 5 91 108
+)
+"grammar_private_scope.ml" 10 285 331 "grammar_private_scope.ml" 10 285 333
+type(
+  unit
+)
+"grammar_private_scope.ml" 10 285 316 "grammar_private_scope.ml" 10 285 334
+call(
+  stack
+)
+type(
+  Grammar_scope.Scope.t
+)
+"grammar_private_scope.ml" 10 285 306 "grammar_private_scope.ml" 10 285 334
+call(
+  tail
+)
+type(
+  unit
+)

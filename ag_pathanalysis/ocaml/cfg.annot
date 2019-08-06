@@ -1,0 +1,5921 @@
+"cfg.ml" 4 28 61 "cfg.ml" 4 28 65
+type(
+  string
+)
+ident(
+  def name "cfg.ml" 4 28 94 "cfg.ml" 4 28 98
+)
+"cfg.ml" 4 28 68 "cfg.ml" 4 28 73
+type(
+  string
+)
+"cfg.ml" 4 28 78 "cfg.ml" 4 28 85
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "cfg.ml" 4 28 94 "cfg.ml" 4 28 98
+)
+"cfg.ml" 4 28 86 "cfg.ml" 4 28 94
+type(
+  [> `NoDebug ] as 'a
+)
+"cfg.ml" 4 28 39 "cfg.ml" 4 28 99
+call(
+  stack
+)
+"cfg.ml" 8 126 173 "cfg.ml" 8 126 180
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "cfg.ml" 8 126 188 "cfg.ml" 8 126 192
+)
+"cfg.ml" 8 126 181 "cfg.ml" 8 126 188
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"cfg.ml" 8 126 138 "cfg.ml" 8 126 193
+call(
+  stack
+)
+"cfg.ml" 17 276 280 "cfg.ml" 17 276 294
+type(
+  bbid -> string
+)
+ident(
+  def bbid_to_string "cfg.ml" 24 475 475 --
+)
+"cfg.ml" 18 306 310 "cfg.ml" 18 306 318
+type(
+  bbid
+)
+"cfg.ml" 18 306 326 "cfg.ml" 18 306 336
+type(
+  string
+)
+"cfg.ml" 19 337 341 "cfg.ml" 19 337 348
+type(
+  bbid
+)
+"cfg.ml" 19 337 357 "cfg.ml" 19 337 366
+type(
+  string
+)
+"cfg.ml" 20 367 371 "cfg.ml" 20 367 382
+type(
+  bbid
+)
+"cfg.ml" 20 367 387 "cfg.ml" 20 367 400
+type(
+  string
+)
+"cfg.ml" 21 401 405 "cfg.ml" 21 401 413
+type(
+  bbid
+)
+"cfg.ml" 21 401 421 "cfg.ml" 21 401 431
+type(
+  string
+)
+"cfg.ml" 22 432 439 "cfg.ml" 22 432 440
+type(
+  int
+)
+ident(
+  def n "cfg.ml" 22 432 452 "cfg.ml" 22 432 473
+)
+"cfg.ml" 22 432 436 "cfg.ml" 22 432 440
+type(
+  bbid
+)
+"cfg.ml" 22 432 452 "cfg.ml" 22 432 457
+type(
+  string
+)
+"cfg.ml" 22 432 457 "cfg.ml" 22 432 458
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cfg.ml" 22 432 458 "cfg.ml" 22 432 471
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"cfg.ml" 22 432 472 "cfg.ml" 22 432 473
+type(
+  int
+)
+ident(
+  int_ref n "cfg.ml" 22 432 439 "cfg.ml" 22 432 440
+)
+"cfg.ml" 22 432 458 "cfg.ml" 22 432 473
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 22 432 452 "cfg.ml" 22 432 473
+call(
+  tail
+)
+type(
+  string
+)
+"cfg.ml" 17 276 297 "cfg.ml" 22 432 473
+type(
+  bbid -> string
+)
+"cfg.ml" 24 475 479 "cfg.ml" 24 475 493
+type(
+  ('a option * 'b) option -> 'a option
+)
+ident(
+  def edge_direction "cfg.ml" 28 543 543 --
+)
+"cfg.ml" 25 505 514 "cfg.ml" 25 505 515
+type(
+  'a option
+)
+ident(
+  def b "cfg.ml" 25 505 523 "cfg.ml" 25 505 524
+)
+"cfg.ml" 25 505 517 "cfg.ml" 25 505 518
+type(
+  'b
+)
+"cfg.ml" 25 505 513 "cfg.ml" 25 505 519
+type(
+  'a option * 'b
+)
+"cfg.ml" 25 505 509 "cfg.ml" 25 505 519
+type(
+  ('a option * 'b) option
+)
+"cfg.ml" 25 505 523 "cfg.ml" 25 505 524
+type(
+  'a option
+)
+ident(
+  int_ref b "cfg.ml" 25 505 514 "cfg.ml" 25 505 515
+)
+"cfg.ml" 26 525 529 "cfg.ml" 26 525 533
+type(
+  ('a option * 'b) option
+)
+"cfg.ml" 26 525 537 "cfg.ml" 26 525 541
+type(
+  'a option
+)
+"cfg.ml" 24 475 496 "cfg.ml" 26 525 541
+type(
+  ('a option * 'b) option -> 'a option
+)
+"cfg.ml" 31 580 586 "cfg.ml" 31 580 593
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "cfg.ml" 32 604 606 "cfg.ml" 39 774 777
+)
+"cfg.ml" 31 580 596 "cfg.ml" 31 580 603
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"cfg.ml" 32 604 610 "cfg.ml" 32 604 614
+type(
+  bbid -> int
+)
+ident(
+  def hash "cfg.ml" 38 756 758 "cfg.ml" 39 774 777
+)
+"cfg.ml" 33 626 632 "cfg.ml" 33 626 640
+type(
+  bbid
+)
+"cfg.ml" 33 626 649 "cfg.ml" 33 626 651
+type(
+  int
+)
+"cfg.ml" 34 652 658 "cfg.ml" 34 652 665
+type(
+  bbid
+)
+"cfg.ml" 34 652 675 "cfg.ml" 34 652 677
+type(
+  int
+)
+"cfg.ml" 35 678 684 "cfg.ml" 35 678 695
+type(
+  bbid
+)
+"cfg.ml" 35 678 701 "cfg.ml" 35 678 703
+type(
+  int
+)
+"cfg.ml" 36 704 710 "cfg.ml" 36 704 718
+type(
+  bbid
+)
+"cfg.ml" 36 704 727 "cfg.ml" 36 704 729
+type(
+  int
+)
+"cfg.ml" 37 730 739 "cfg.ml" 37 730 740
+type(
+  int
+)
+ident(
+  def n "cfg.ml" 37 730 754 "cfg.ml" 37 730 755
+)
+"cfg.ml" 37 730 736 "cfg.ml" 37 730 740
+type(
+  bbid
+)
+"cfg.ml" 37 730 754 "cfg.ml" 37 730 755
+type(
+  int
+)
+ident(
+  int_ref n "cfg.ml" 37 730 739 "cfg.ml" 37 730 740
+)
+"cfg.ml" 32 604 617 "cfg.ml" 37 730 755
+type(
+  bbid -> int
+)
+"cfg.ml" 38 756 762 "cfg.ml" 38 756 767
+type(
+  'b -> 'b -> bool
+)
+ident(
+  def equal "cfg.ml" 38 756 773 "cfg.ml" 39 774 777
+)
+"cfg.ml" 38 756 770 "cfg.ml" 38 756 773
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"cfg.ml" 41 779 791 "cfg.ml" 41 779 805
+call(
+  stack
+)
+"cfg.ml" 42 806 818 "cfg.ml" 42 806 836
+call(
+  stack
+)
+"cfg.ml" 43 837 849 "cfg.ml" 43 837 863
+call(
+  stack
+)
+"cfg.ml" 100 2065 2071 "cfg.ml" 100 2065 2078
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "cfg.ml" 101 2089 2091 "cfg.ml" 102 2110 2113
+)
+"cfg.ml" 100 2065 2081 "cfg.ml" 100 2065 2088
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"cfg.ml" 101 2089 2095 "cfg.ml" 101 2089 2102
+type(
+  'b option
+)
+ident(
+  def default "cfg.ml" 101 2089 2109 "cfg.ml" 102 2110 2113
+)
+"cfg.ml" 101 2089 2105 "cfg.ml" 101 2089 2109
+type(
+  'b option
+)
+"cfg.ml" 108 2272 2346 "cfg.ml" 108 2272 2353
+call(
+  stack
+)
+"cfg.ml" 108 2272 2286 "cfg.ml" 108 2272 2354
+call(
+  stack
+)
+"cfg.ml" 132 2686 2694 "cfg.ml" 132 2686 2705
+type(
+  bool
+)
+ident(
+  def is_directed "cfg.ml" 137 2742 2746 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 132 2686 2708 "cfg.ml" 132 2686 2712
+type(
+  bool
+)
+"cfg.ml" 137 2742 2750 "cfg.ml" 137 2742 2758
+type(
+  (G'.t, 'a, 'b) pcfg -> bool
+)
+ident(
+  def is_empty "cfg.ml" 138 2794 2798 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 137 2742 2767 "cfg.ml" 137 2742 2768
+type(
+  (G'.t, 'a, 'b) pcfg
+)
+ident(
+  def x "cfg.ml" 137 2742 2771 "cfg.ml" 137 2742 2793
+)
+"cfg.ml" 137 2742 2771 "cfg.ml" 137 2742 2782
+type(
+  G'.t -> bool
+)
+ident(
+  ext_ref G'.is_empty
+)
+"cfg.ml" 137 2742 2790 "cfg.ml" 137 2742 2791
+type(
+  (G'.t, 'a, 'b) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 137 2742 2767 "cfg.ml" 137 2742 2768
+)
+"cfg.ml" 137 2742 2790 "cfg.ml" 137 2742 2793
+type(
+  G'.t
+)
+"cfg.ml" 137 2742 2771 "cfg.ml" 137 2742 2793
+call(
+  tail
+)
+type(
+  bool
+)
+"cfg.ml" 138 2794 2802 "cfg.ml" 138 2794 2811
+type(
+  (G'.t, 'c, 'd) pcfg -> int
+)
+ident(
+  def nb_vertex "cfg.ml" 139 2846 2850 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 138 2794 2819 "cfg.ml" 138 2794 2820
+type(
+  (G'.t, 'c, 'd) pcfg
+)
+ident(
+  def x "cfg.ml" 138 2794 2823 "cfg.ml" 138 2794 2845
+)
+"cfg.ml" 138 2794 2823 "cfg.ml" 138 2794 2835
+type(
+  G'.t -> int
+)
+ident(
+  ext_ref G'.nb_vertex
+)
+"cfg.ml" 138 2794 2842 "cfg.ml" 138 2794 2843
+type(
+  (G'.t, 'c, 'd) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 138 2794 2819 "cfg.ml" 138 2794 2820
+)
+"cfg.ml" 138 2794 2842 "cfg.ml" 138 2794 2845
+type(
+  G'.t
+)
+"cfg.ml" 138 2794 2823 "cfg.ml" 138 2794 2845
+call(
+  tail
+)
+type(
+  int
+)
+"cfg.ml" 139 2846 2854 "cfg.ml" 139 2846 2862
+type(
+  (G'.t, 'e, 'f) pcfg -> int
+)
+ident(
+  def nb_edges "cfg.ml" 140 2898 2902 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 139 2846 2871 "cfg.ml" 139 2846 2872
+type(
+  (G'.t, 'e, 'f) pcfg
+)
+ident(
+  def x "cfg.ml" 139 2846 2875 "cfg.ml" 139 2846 2897
+)
+"cfg.ml" 139 2846 2875 "cfg.ml" 139 2846 2886
+type(
+  G'.t -> int
+)
+ident(
+  ext_ref G'.nb_edges
+)
+"cfg.ml" 139 2846 2894 "cfg.ml" 139 2846 2895
+type(
+  (G'.t, 'e, 'f) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 139 2846 2871 "cfg.ml" 139 2846 2872
+)
+"cfg.ml" 139 2846 2894 "cfg.ml" 139 2846 2897
+type(
+  G'.t
+)
+"cfg.ml" 139 2846 2875 "cfg.ml" 139 2846 2897
+call(
+  tail
+)
+type(
+  int
+)
+"cfg.ml" 140 2898 2906 "cfg.ml" 140 2898 2916
+type(
+  (G'.t, 'g, 'h) pcfg -> G'.vertex -> int
+)
+ident(
+  def out_degree "cfg.ml" 141 2950 2954 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 140 2898 2923 "cfg.ml" 140 2898 2924
+type(
+  (G'.t, 'g, 'h) pcfg
+)
+ident(
+  def x "cfg.ml" 140 2898 2927 "cfg.ml" 140 2898 2949
+)
+"cfg.ml" 140 2898 2927 "cfg.ml" 140 2898 2940
+type(
+  G'.t -> G'.vertex -> int
+)
+ident(
+  ext_ref G'.out_degree
+)
+"cfg.ml" 140 2898 2946 "cfg.ml" 140 2898 2947
+type(
+  (G'.t, 'g, 'h) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 140 2898 2923 "cfg.ml" 140 2898 2924
+)
+"cfg.ml" 140 2898 2946 "cfg.ml" 140 2898 2949
+type(
+  G'.t
+)
+"cfg.ml" 140 2898 2927 "cfg.ml" 140 2898 2949
+call(
+  tail
+)
+type(
+  G'.vertex -> int
+)
+"cfg.ml" 141 2950 2958 "cfg.ml" 141 2950 2967
+type(
+  (G'.t, 'i, 'j) pcfg -> G'.vertex -> int
+)
+ident(
+  def in_degree "cfg.ml" 142 3002 3006 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 141 2950 2975 "cfg.ml" 141 2950 2976
+type(
+  (G'.t, 'i, 'j) pcfg
+)
+ident(
+  def x "cfg.ml" 141 2950 2979 "cfg.ml" 141 2950 3001
+)
+"cfg.ml" 141 2950 2979 "cfg.ml" 141 2950 2991
+type(
+  G'.t -> G'.vertex -> int
+)
+ident(
+  ext_ref G'.in_degree
+)
+"cfg.ml" 141 2950 2998 "cfg.ml" 141 2950 2999
+type(
+  (G'.t, 'i, 'j) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 141 2950 2975 "cfg.ml" 141 2950 2976
+)
+"cfg.ml" 141 2950 2998 "cfg.ml" 141 2950 3001
+type(
+  G'.t
+)
+"cfg.ml" 141 2950 2979 "cfg.ml" 141 2950 3001
+call(
+  tail
+)
+type(
+  G'.vertex -> int
+)
+"cfg.ml" 142 3002 3010 "cfg.ml" 142 3002 3020
+type(
+  (G'.t, 'k, 'l) pcfg -> G'.vertex -> bool
+)
+ident(
+  def mem_vertex "cfg.ml" 143 3054 3058 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 142 3002 3027 "cfg.ml" 142 3002 3028
+type(
+  (G'.t, 'k, 'l) pcfg
+)
+ident(
+  def x "cfg.ml" 142 3002 3031 "cfg.ml" 142 3002 3053
+)
+"cfg.ml" 142 3002 3031 "cfg.ml" 142 3002 3044
+type(
+  G'.t -> G'.vertex -> bool
+)
+ident(
+  ext_ref G'.mem_vertex
+)
+"cfg.ml" 142 3002 3050 "cfg.ml" 142 3002 3051
+type(
+  (G'.t, 'k, 'l) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 142 3002 3027 "cfg.ml" 142 3002 3028
+)
+"cfg.ml" 142 3002 3050 "cfg.ml" 142 3002 3053
+type(
+  G'.t
+)
+"cfg.ml" 142 3002 3031 "cfg.ml" 142 3002 3053
+call(
+  tail
+)
+type(
+  G'.vertex -> bool
+)
+"cfg.ml" 143 3054 3062 "cfg.ml" 143 3054 3070
+type(
+  (G'.t, 'm, 'n) pcfg -> G'.vertex -> G'.vertex -> bool
+)
+ident(
+  def mem_edge "cfg.ml" 144 3106 3110 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 143 3054 3079 "cfg.ml" 143 3054 3080
+type(
+  (G'.t, 'm, 'n) pcfg
+)
+ident(
+  def x "cfg.ml" 143 3054 3083 "cfg.ml" 143 3054 3105
+)
+"cfg.ml" 143 3054 3083 "cfg.ml" 143 3054 3094
+type(
+  G'.t -> G'.vertex -> G'.vertex -> bool
+)
+ident(
+  ext_ref G'.mem_edge
+)
+"cfg.ml" 143 3054 3102 "cfg.ml" 143 3054 3103
+type(
+  (G'.t, 'm, 'n) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 143 3054 3079 "cfg.ml" 143 3054 3080
+)
+"cfg.ml" 143 3054 3102 "cfg.ml" 143 3054 3105
+type(
+  G'.t
+)
+"cfg.ml" 143 3054 3083 "cfg.ml" 143 3054 3105
+call(
+  tail
+)
+type(
+  G'.vertex -> G'.vertex -> bool
+)
+"cfg.ml" 144 3106 3114 "cfg.ml" 144 3106 3124
+type(
+  (G'.t, 'o, 'p) pcfg -> G'.edge -> bool
+)
+ident(
+  def mem_edge_e "cfg.ml" 145 3158 3162 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 144 3106 3131 "cfg.ml" 144 3106 3132
+type(
+  (G'.t, 'o, 'p) pcfg
+)
+ident(
+  def x "cfg.ml" 144 3106 3135 "cfg.ml" 144 3106 3157
+)
+"cfg.ml" 144 3106 3135 "cfg.ml" 144 3106 3148
+type(
+  G'.t -> G'.edge -> bool
+)
+ident(
+  ext_ref G'.mem_edge_e
+)
+"cfg.ml" 144 3106 3154 "cfg.ml" 144 3106 3155
+type(
+  (G'.t, 'o, 'p) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 144 3106 3131 "cfg.ml" 144 3106 3132
+)
+"cfg.ml" 144 3106 3154 "cfg.ml" 144 3106 3157
+type(
+  G'.t
+)
+"cfg.ml" 144 3106 3135 "cfg.ml" 144 3106 3157
+call(
+  tail
+)
+type(
+  G'.edge -> bool
+)
+"cfg.ml" 145 3158 3166 "cfg.ml" 145 3158 3175
+type(
+  (G'.t, 'q, 'r) pcfg -> G'.vertex -> G'.vertex -> G'.edge
+)
+ident(
+  def find_edge "cfg.ml" 146 3210 3214 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 145 3158 3183 "cfg.ml" 145 3158 3184
+type(
+  (G'.t, 'q, 'r) pcfg
+)
+ident(
+  def x "cfg.ml" 145 3158 3187 "cfg.ml" 145 3158 3209
+)
+"cfg.ml" 145 3158 3187 "cfg.ml" 145 3158 3199
+type(
+  G'.t -> G'.vertex -> G'.vertex -> G'.edge
+)
+ident(
+  ext_ref G'.find_edge
+)
+"cfg.ml" 145 3158 3206 "cfg.ml" 145 3158 3207
+type(
+  (G'.t, 'q, 'r) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 145 3158 3183 "cfg.ml" 145 3158 3184
+)
+"cfg.ml" 145 3158 3206 "cfg.ml" 145 3158 3209
+type(
+  G'.t
+)
+"cfg.ml" 145 3158 3187 "cfg.ml" 145 3158 3209
+call(
+  tail
+)
+type(
+  G'.vertex -> G'.vertex -> G'.edge
+)
+"cfg.ml" 146 3210 3218 "cfg.ml" 146 3210 3232
+type(
+  (G'.t, 's, 't) pcfg -> G'.vertex -> G'.vertex -> G'.edge list
+)
+ident(
+  def find_all_edges "cfg.ml" 147 3262 3266 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 146 3210 3235 "cfg.ml" 146 3210 3236
+type(
+  (G'.t, 's, 't) pcfg
+)
+ident(
+  def x "cfg.ml" 146 3210 3239 "cfg.ml" 146 3210 3261
+)
+"cfg.ml" 146 3210 3239 "cfg.ml" 146 3210 3256
+type(
+  G'.t -> G'.vertex -> G'.vertex -> G'.edge list
+)
+ident(
+  ext_ref G'.find_all_edges
+)
+"cfg.ml" 146 3210 3258 "cfg.ml" 146 3210 3259
+type(
+  (G'.t, 's, 't) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 146 3210 3235 "cfg.ml" 146 3210 3236
+)
+"cfg.ml" 146 3210 3258 "cfg.ml" 146 3210 3261
+type(
+  G'.t
+)
+"cfg.ml" 146 3210 3239 "cfg.ml" 146 3210 3261
+call(
+  tail
+)
+type(
+  G'.vertex -> G'.vertex -> G'.edge list
+)
+"cfg.ml" 147 3262 3270 "cfg.ml" 147 3262 3274
+type(
+  (G'.t, 'u, 'v) pcfg -> G'.vertex -> G'.vertex list
+)
+ident(
+  def succ "cfg.ml" 148 3314 3318 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 147 3262 3287 "cfg.ml" 147 3262 3288
+type(
+  (G'.t, 'u, 'v) pcfg
+)
+ident(
+  def x "cfg.ml" 147 3262 3291 "cfg.ml" 147 3262 3313
+)
+"cfg.ml" 147 3262 3291 "cfg.ml" 147 3262 3298
+type(
+  G'.t -> G'.vertex -> G'.vertex list
+)
+ident(
+  ext_ref G'.succ
+)
+"cfg.ml" 147 3262 3310 "cfg.ml" 147 3262 3311
+type(
+  (G'.t, 'u, 'v) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 147 3262 3287 "cfg.ml" 147 3262 3288
+)
+"cfg.ml" 147 3262 3310 "cfg.ml" 147 3262 3313
+type(
+  G'.t
+)
+"cfg.ml" 147 3262 3291 "cfg.ml" 147 3262 3313
+call(
+  tail
+)
+type(
+  G'.vertex -> G'.vertex list
+)
+"cfg.ml" 148 3314 3322 "cfg.ml" 148 3314 3326
+type(
+  (G'.t, 'w, 'x) pcfg -> G'.vertex -> G'.vertex list
+)
+ident(
+  def pred "cfg.ml" 149 3366 3370 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 148 3314 3339 "cfg.ml" 148 3314 3340
+type(
+  (G'.t, 'w, 'x) pcfg
+)
+ident(
+  def x "cfg.ml" 148 3314 3343 "cfg.ml" 148 3314 3365
+)
+"cfg.ml" 148 3314 3343 "cfg.ml" 148 3314 3350
+type(
+  G'.t -> G'.vertex -> G'.vertex list
+)
+ident(
+  ext_ref G'.pred
+)
+"cfg.ml" 148 3314 3362 "cfg.ml" 148 3314 3363
+type(
+  (G'.t, 'w, 'x) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 148 3314 3339 "cfg.ml" 148 3314 3340
+)
+"cfg.ml" 148 3314 3362 "cfg.ml" 148 3314 3365
+type(
+  G'.t
+)
+"cfg.ml" 148 3314 3343 "cfg.ml" 148 3314 3365
+call(
+  tail
+)
+type(
+  G'.vertex -> G'.vertex list
+)
+"cfg.ml" 149 3366 3374 "cfg.ml" 149 3366 3380
+type(
+  (G'.t, 'y, 'z) pcfg -> G'.vertex -> G'.edge list
+)
+ident(
+  def succ_e "cfg.ml" 150 3418 3422 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 149 3366 3391 "cfg.ml" 149 3366 3392
+type(
+  (G'.t, 'y, 'z) pcfg
+)
+ident(
+  def x "cfg.ml" 149 3366 3395 "cfg.ml" 149 3366 3417
+)
+"cfg.ml" 149 3366 3395 "cfg.ml" 149 3366 3404
+type(
+  G'.t -> G'.vertex -> G'.edge list
+)
+ident(
+  ext_ref G'.succ_e
+)
+"cfg.ml" 149 3366 3414 "cfg.ml" 149 3366 3415
+type(
+  (G'.t, 'y, 'z) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 149 3366 3391 "cfg.ml" 149 3366 3392
+)
+"cfg.ml" 149 3366 3414 "cfg.ml" 149 3366 3417
+type(
+  G'.t
+)
+"cfg.ml" 149 3366 3395 "cfg.ml" 149 3366 3417
+call(
+  tail
+)
+type(
+  G'.vertex -> G'.edge list
+)
+"cfg.ml" 150 3418 3426 "cfg.ml" 150 3418 3432
+type(
+  (G'.t, 'a1, 'b1) pcfg -> G'.vertex -> G'.edge list
+)
+ident(
+  def pred_e "cfg.ml" 152 3471 3475 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 150 3418 3443 "cfg.ml" 150 3418 3444
+type(
+  (G'.t, 'a1, 'b1) pcfg
+)
+ident(
+  def x "cfg.ml" 150 3418 3447 "cfg.ml" 150 3418 3469
+)
+"cfg.ml" 150 3418 3447 "cfg.ml" 150 3418 3456
+type(
+  G'.t -> G'.vertex -> G'.edge list
+)
+ident(
+  ext_ref G'.pred_e
+)
+"cfg.ml" 150 3418 3466 "cfg.ml" 150 3418 3467
+type(
+  (G'.t, 'a1, 'b1) pcfg
+)
+ident(
+  int_ref x "cfg.ml" 150 3418 3443 "cfg.ml" 150 3418 3444
+)
+"cfg.ml" 150 3418 3466 "cfg.ml" 150 3418 3469
+type(
+  G'.t
+)
+"cfg.ml" 150 3418 3447 "cfg.ml" 150 3418 3469
+call(
+  tail
+)
+type(
+  G'.vertex -> G'.edge list
+)
+"cfg.ml" 152 3471 3479 "cfg.ml" 152 3471 3490
+type(
+  (G'.vertex -> unit) -> (G'.t, 'c1, 'd1) pcfg -> unit
+)
+ident(
+  def iter_vertex "cfg.ml" 153 3519 3523 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 152 3471 3492 "cfg.ml" 152 3471 3493
+type(
+  G'.vertex -> unit
+)
+ident(
+  def x "cfg.ml" 152 3471 3494 "cfg.ml" 152 3471 3518
+)
+"cfg.ml" 152 3471 3494 "cfg.ml" 152 3471 3495
+type(
+  (G'.t, 'c1, 'd1) pcfg
+)
+ident(
+  def y "cfg.ml" 152 3471 3498 "cfg.ml" 152 3471 3518
+)
+"cfg.ml" 152 3471 3498 "cfg.ml" 152 3471 3512
+type(
+  (G'.vertex -> unit) -> G'.t -> unit
+)
+ident(
+  ext_ref G'.iter_vertex
+)
+"cfg.ml" 152 3471 3513 "cfg.ml" 152 3471 3514
+type(
+  G'.vertex -> unit
+)
+ident(
+  int_ref x "cfg.ml" 152 3471 3492 "cfg.ml" 152 3471 3493
+)
+"cfg.ml" 152 3471 3515 "cfg.ml" 152 3471 3516
+type(
+  (G'.t, 'c1, 'd1) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 152 3471 3494 "cfg.ml" 152 3471 3495
+)
+"cfg.ml" 152 3471 3515 "cfg.ml" 152 3471 3518
+type(
+  G'.t
+)
+"cfg.ml" 152 3471 3498 "cfg.ml" 152 3471 3518
+call(
+  tail
+)
+type(
+  unit
+)
+"cfg.ml" 153 3519 3527 "cfg.ml" 153 3519 3537
+type(
+  (G'.vertex -> G'.vertex -> unit) -> (G'.t, 'e1, 'f1) pcfg -> unit
+)
+ident(
+  def iter_edges "cfg.ml" 154 3567 3571 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 153 3519 3540 "cfg.ml" 153 3519 3541
+type(
+  G'.vertex -> G'.vertex -> unit
+)
+ident(
+  def x "cfg.ml" 153 3519 3542 "cfg.ml" 153 3519 3566
+)
+"cfg.ml" 153 3519 3542 "cfg.ml" 153 3519 3543
+type(
+  (G'.t, 'e1, 'f1) pcfg
+)
+ident(
+  def y "cfg.ml" 153 3519 3546 "cfg.ml" 153 3519 3566
+)
+"cfg.ml" 153 3519 3546 "cfg.ml" 153 3519 3559
+type(
+  (G'.vertex -> G'.vertex -> unit) -> G'.t -> unit
+)
+ident(
+  ext_ref G'.iter_edges
+)
+"cfg.ml" 153 3519 3561 "cfg.ml" 153 3519 3562
+type(
+  G'.vertex -> G'.vertex -> unit
+)
+ident(
+  int_ref x "cfg.ml" 153 3519 3540 "cfg.ml" 153 3519 3541
+)
+"cfg.ml" 153 3519 3563 "cfg.ml" 153 3519 3564
+type(
+  (G'.t, 'e1, 'f1) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 153 3519 3542 "cfg.ml" 153 3519 3543
+)
+"cfg.ml" 153 3519 3563 "cfg.ml" 153 3519 3566
+type(
+  G'.t
+)
+"cfg.ml" 153 3519 3546 "cfg.ml" 153 3519 3566
+call(
+  tail
+)
+type(
+  unit
+)
+"cfg.ml" 154 3567 3575 "cfg.ml" 154 3567 3586
+type(
+  (G'.vertex -> 'g1 -> 'g1) -> (G'.t, 'h1, 'i1) pcfg -> 'g1 -> 'g1
+)
+ident(
+  def fold_vertex "cfg.ml" 155 3615 3619 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 154 3567 3588 "cfg.ml" 154 3567 3589
+type(
+  G'.vertex -> 'g1 -> 'g1
+)
+ident(
+  def x "cfg.ml" 154 3567 3590 "cfg.ml" 154 3567 3614
+)
+"cfg.ml" 154 3567 3590 "cfg.ml" 154 3567 3591
+type(
+  (G'.t, 'h1, 'i1) pcfg
+)
+ident(
+  def y "cfg.ml" 154 3567 3594 "cfg.ml" 154 3567 3614
+)
+"cfg.ml" 154 3567 3594 "cfg.ml" 154 3567 3608
+type(
+  (G'.vertex -> 'g1 -> 'g1) -> G'.t -> 'g1 -> 'g1
+)
+ident(
+  ext_ref G'.fold_vertex
+)
+"cfg.ml" 154 3567 3609 "cfg.ml" 154 3567 3610
+type(
+  G'.vertex -> 'g1 -> 'g1
+)
+ident(
+  int_ref x "cfg.ml" 154 3567 3588 "cfg.ml" 154 3567 3589
+)
+"cfg.ml" 154 3567 3611 "cfg.ml" 154 3567 3612
+type(
+  (G'.t, 'h1, 'i1) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 154 3567 3590 "cfg.ml" 154 3567 3591
+)
+"cfg.ml" 154 3567 3611 "cfg.ml" 154 3567 3614
+type(
+  G'.t
+)
+"cfg.ml" 154 3567 3594 "cfg.ml" 154 3567 3614
+call(
+  tail
+)
+type(
+  'g1 -> 'g1
+)
+"cfg.ml" 155 3615 3623 "cfg.ml" 155 3615 3633
+type(
+  (G'.vertex -> G'.vertex -> 'j1 -> 'j1) ->
+  (G'.t, 'k1, 'l1) pcfg -> 'j1 -> 'j1
+)
+ident(
+  def fold_edges "cfg.ml" 156 3663 3667 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 155 3615 3636 "cfg.ml" 155 3615 3637
+type(
+  G'.vertex -> G'.vertex -> 'j1 -> 'j1
+)
+ident(
+  def x "cfg.ml" 155 3615 3638 "cfg.ml" 155 3615 3662
+)
+"cfg.ml" 155 3615 3638 "cfg.ml" 155 3615 3639
+type(
+  (G'.t, 'k1, 'l1) pcfg
+)
+ident(
+  def y "cfg.ml" 155 3615 3642 "cfg.ml" 155 3615 3662
+)
+"cfg.ml" 155 3615 3642 "cfg.ml" 155 3615 3655
+type(
+  (G'.vertex -> G'.vertex -> 'j1 -> 'j1) -> G'.t -> 'j1 -> 'j1
+)
+ident(
+  ext_ref G'.fold_edges
+)
+"cfg.ml" 155 3615 3657 "cfg.ml" 155 3615 3658
+type(
+  G'.vertex -> G'.vertex -> 'j1 -> 'j1
+)
+ident(
+  int_ref x "cfg.ml" 155 3615 3636 "cfg.ml" 155 3615 3637
+)
+"cfg.ml" 155 3615 3659 "cfg.ml" 155 3615 3660
+type(
+  (G'.t, 'k1, 'l1) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 155 3615 3638 "cfg.ml" 155 3615 3639
+)
+"cfg.ml" 155 3615 3659 "cfg.ml" 155 3615 3662
+type(
+  G'.t
+)
+"cfg.ml" 155 3615 3642 "cfg.ml" 155 3615 3662
+call(
+  tail
+)
+type(
+  'j1 -> 'j1
+)
+"cfg.ml" 156 3663 3671 "cfg.ml" 156 3663 3683
+type(
+  (G'.edge -> unit) -> (G'.t, 'm1, 'n1) pcfg -> unit
+)
+ident(
+  def iter_edges_e "cfg.ml" 157 3712 3716 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 156 3663 3684 "cfg.ml" 156 3663 3685
+type(
+  G'.edge -> unit
+)
+ident(
+  def x "cfg.ml" 156 3663 3686 "cfg.ml" 156 3663 3711
+)
+"cfg.ml" 156 3663 3686 "cfg.ml" 156 3663 3687
+type(
+  (G'.t, 'm1, 'n1) pcfg
+)
+ident(
+  def y "cfg.ml" 156 3663 3690 "cfg.ml" 156 3663 3711
+)
+"cfg.ml" 156 3663 3690 "cfg.ml" 156 3663 3705
+type(
+  (G'.edge -> unit) -> G'.t -> unit
+)
+ident(
+  ext_ref G'.iter_edges_e
+)
+"cfg.ml" 156 3663 3706 "cfg.ml" 156 3663 3707
+type(
+  G'.edge -> unit
+)
+ident(
+  int_ref x "cfg.ml" 156 3663 3684 "cfg.ml" 156 3663 3685
+)
+"cfg.ml" 156 3663 3708 "cfg.ml" 156 3663 3709
+type(
+  (G'.t, 'm1, 'n1) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 156 3663 3686 "cfg.ml" 156 3663 3687
+)
+"cfg.ml" 156 3663 3708 "cfg.ml" 156 3663 3711
+type(
+  G'.t
+)
+"cfg.ml" 156 3663 3690 "cfg.ml" 156 3663 3711
+call(
+  tail
+)
+type(
+  unit
+)
+"cfg.ml" 157 3712 3720 "cfg.ml" 157 3712 3732
+type(
+  (G'.edge -> 'o1 -> 'o1) -> (G'.t, 'p1, 'q1) pcfg -> 'o1 -> 'o1
+)
+ident(
+  def fold_edges_e "cfg.ml" 158 3761 3765 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 157 3712 3733 "cfg.ml" 157 3712 3734
+type(
+  G'.edge -> 'o1 -> 'o1
+)
+ident(
+  def x "cfg.ml" 157 3712 3735 "cfg.ml" 157 3712 3760
+)
+"cfg.ml" 157 3712 3735 "cfg.ml" 157 3712 3736
+type(
+  (G'.t, 'p1, 'q1) pcfg
+)
+ident(
+  def y "cfg.ml" 157 3712 3739 "cfg.ml" 157 3712 3760
+)
+"cfg.ml" 157 3712 3739 "cfg.ml" 157 3712 3754
+type(
+  (G'.edge -> 'o1 -> 'o1) -> G'.t -> 'o1 -> 'o1
+)
+ident(
+  ext_ref G'.fold_edges_e
+)
+"cfg.ml" 157 3712 3755 "cfg.ml" 157 3712 3756
+type(
+  G'.edge -> 'o1 -> 'o1
+)
+ident(
+  int_ref x "cfg.ml" 157 3712 3733 "cfg.ml" 157 3712 3734
+)
+"cfg.ml" 157 3712 3757 "cfg.ml" 157 3712 3758
+type(
+  (G'.t, 'p1, 'q1) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 157 3712 3735 "cfg.ml" 157 3712 3736
+)
+"cfg.ml" 157 3712 3757 "cfg.ml" 157 3712 3760
+type(
+  G'.t
+)
+"cfg.ml" 157 3712 3739 "cfg.ml" 157 3712 3760
+call(
+  tail
+)
+type(
+  'o1 -> 'o1
+)
+"cfg.ml" 158 3761 3769 "cfg.ml" 158 3761 3778
+type(
+  (G'.vertex -> unit) -> (G'.t, 'r1, 's1) pcfg -> G'.vertex -> unit
+)
+ident(
+  def iter_succ "cfg.ml" 159 3809 3813 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 158 3761 3782 "cfg.ml" 158 3761 3783
+type(
+  G'.vertex -> unit
+)
+ident(
+  def x "cfg.ml" 158 3761 3784 "cfg.ml" 158 3761 3808
+)
+"cfg.ml" 158 3761 3784 "cfg.ml" 158 3761 3785
+type(
+  (G'.t, 'r1, 's1) pcfg
+)
+ident(
+  def y "cfg.ml" 158 3761 3788 "cfg.ml" 158 3761 3808
+)
+"cfg.ml" 158 3761 3788 "cfg.ml" 158 3761 3800
+type(
+  (G'.vertex -> unit) -> G'.t -> G'.vertex -> unit
+)
+ident(
+  ext_ref G'.iter_succ
+)
+"cfg.ml" 158 3761 3803 "cfg.ml" 158 3761 3804
+type(
+  G'.vertex -> unit
+)
+ident(
+  int_ref x "cfg.ml" 158 3761 3782 "cfg.ml" 158 3761 3783
+)
+"cfg.ml" 158 3761 3805 "cfg.ml" 158 3761 3806
+type(
+  (G'.t, 'r1, 's1) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 158 3761 3784 "cfg.ml" 158 3761 3785
+)
+"cfg.ml" 158 3761 3805 "cfg.ml" 158 3761 3808
+type(
+  G'.t
+)
+"cfg.ml" 158 3761 3788 "cfg.ml" 158 3761 3808
+call(
+  tail
+)
+type(
+  G'.vertex -> unit
+)
+"cfg.ml" 159 3809 3817 "cfg.ml" 159 3809 3826
+type(
+  (G'.vertex -> unit) -> (G'.t, 't1, 'u1) pcfg -> G'.vertex -> unit
+)
+ident(
+  def iter_pred "cfg.ml" 160 3857 3861 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 159 3809 3830 "cfg.ml" 159 3809 3831
+type(
+  G'.vertex -> unit
+)
+ident(
+  def x "cfg.ml" 159 3809 3832 "cfg.ml" 159 3809 3856
+)
+"cfg.ml" 159 3809 3832 "cfg.ml" 159 3809 3833
+type(
+  (G'.t, 't1, 'u1) pcfg
+)
+ident(
+  def y "cfg.ml" 159 3809 3836 "cfg.ml" 159 3809 3856
+)
+"cfg.ml" 159 3809 3836 "cfg.ml" 159 3809 3848
+type(
+  (G'.vertex -> unit) -> G'.t -> G'.vertex -> unit
+)
+ident(
+  ext_ref G'.iter_pred
+)
+"cfg.ml" 159 3809 3851 "cfg.ml" 159 3809 3852
+type(
+  G'.vertex -> unit
+)
+ident(
+  int_ref x "cfg.ml" 159 3809 3830 "cfg.ml" 159 3809 3831
+)
+"cfg.ml" 159 3809 3853 "cfg.ml" 159 3809 3854
+type(
+  (G'.t, 't1, 'u1) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 159 3809 3832 "cfg.ml" 159 3809 3833
+)
+"cfg.ml" 159 3809 3853 "cfg.ml" 159 3809 3856
+type(
+  G'.t
+)
+"cfg.ml" 159 3809 3836 "cfg.ml" 159 3809 3856
+call(
+  tail
+)
+type(
+  G'.vertex -> unit
+)
+"cfg.ml" 160 3857 3865 "cfg.ml" 160 3857 3874
+type(
+  (G'.vertex -> 'v1 -> 'v1) ->
+  (G'.t, 'w1, 'x1) pcfg -> G'.vertex -> 'v1 -> 'v1
+)
+ident(
+  def fold_succ "cfg.ml" 161 3905 3909 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 160 3857 3878 "cfg.ml" 160 3857 3879
+type(
+  G'.vertex -> 'v1 -> 'v1
+)
+ident(
+  def x "cfg.ml" 160 3857 3880 "cfg.ml" 160 3857 3904
+)
+"cfg.ml" 160 3857 3880 "cfg.ml" 160 3857 3881
+type(
+  (G'.t, 'w1, 'x1) pcfg
+)
+ident(
+  def y "cfg.ml" 160 3857 3884 "cfg.ml" 160 3857 3904
+)
+"cfg.ml" 160 3857 3884 "cfg.ml" 160 3857 3896
+type(
+  (G'.vertex -> 'v1 -> 'v1) -> G'.t -> G'.vertex -> 'v1 -> 'v1
+)
+ident(
+  ext_ref G'.fold_succ
+)
+"cfg.ml" 160 3857 3899 "cfg.ml" 160 3857 3900
+type(
+  G'.vertex -> 'v1 -> 'v1
+)
+ident(
+  int_ref x "cfg.ml" 160 3857 3878 "cfg.ml" 160 3857 3879
+)
+"cfg.ml" 160 3857 3901 "cfg.ml" 160 3857 3902
+type(
+  (G'.t, 'w1, 'x1) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 160 3857 3880 "cfg.ml" 160 3857 3881
+)
+"cfg.ml" 160 3857 3901 "cfg.ml" 160 3857 3904
+type(
+  G'.t
+)
+"cfg.ml" 160 3857 3884 "cfg.ml" 160 3857 3904
+call(
+  tail
+)
+type(
+  G'.vertex -> 'v1 -> 'v1
+)
+"cfg.ml" 161 3905 3913 "cfg.ml" 161 3905 3922
+type(
+  (G'.vertex -> 'y1 -> 'y1) ->
+  (G'.t, 'z1, 'a2) pcfg -> G'.vertex -> 'y1 -> 'y1
+)
+ident(
+  def fold_pred "cfg.ml" 162 3953 3957 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 161 3905 3926 "cfg.ml" 161 3905 3927
+type(
+  G'.vertex -> 'y1 -> 'y1
+)
+ident(
+  def x "cfg.ml" 161 3905 3928 "cfg.ml" 161 3905 3952
+)
+"cfg.ml" 161 3905 3928 "cfg.ml" 161 3905 3929
+type(
+  (G'.t, 'z1, 'a2) pcfg
+)
+ident(
+  def y "cfg.ml" 161 3905 3932 "cfg.ml" 161 3905 3952
+)
+"cfg.ml" 161 3905 3932 "cfg.ml" 161 3905 3944
+type(
+  (G'.vertex -> 'y1 -> 'y1) -> G'.t -> G'.vertex -> 'y1 -> 'y1
+)
+ident(
+  ext_ref G'.fold_pred
+)
+"cfg.ml" 161 3905 3947 "cfg.ml" 161 3905 3948
+type(
+  G'.vertex -> 'y1 -> 'y1
+)
+ident(
+  int_ref x "cfg.ml" 161 3905 3926 "cfg.ml" 161 3905 3927
+)
+"cfg.ml" 161 3905 3949 "cfg.ml" 161 3905 3950
+type(
+  (G'.t, 'z1, 'a2) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 161 3905 3928 "cfg.ml" 161 3905 3929
+)
+"cfg.ml" 161 3905 3949 "cfg.ml" 161 3905 3952
+type(
+  G'.t
+)
+"cfg.ml" 161 3905 3932 "cfg.ml" 161 3905 3952
+call(
+  tail
+)
+type(
+  G'.vertex -> 'y1 -> 'y1
+)
+"cfg.ml" 162 3953 3961 "cfg.ml" 162 3953 3972
+type(
+  (G'.edge -> unit) -> (G'.t, 'b2, 'c2) pcfg -> G'.vertex -> unit
+)
+ident(
+  def iter_succ_e "cfg.ml" 163 4001 4005 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 162 3953 3974 "cfg.ml" 162 3953 3975
+type(
+  G'.edge -> unit
+)
+ident(
+  def x "cfg.ml" 162 3953 3976 "cfg.ml" 162 3953 4000
+)
+"cfg.ml" 162 3953 3976 "cfg.ml" 162 3953 3977
+type(
+  (G'.t, 'b2, 'c2) pcfg
+)
+ident(
+  def y "cfg.ml" 162 3953 3980 "cfg.ml" 162 3953 4000
+)
+"cfg.ml" 162 3953 3980 "cfg.ml" 162 3953 3994
+type(
+  (G'.edge -> unit) -> G'.t -> G'.vertex -> unit
+)
+ident(
+  ext_ref G'.iter_succ_e
+)
+"cfg.ml" 162 3953 3995 "cfg.ml" 162 3953 3996
+type(
+  G'.edge -> unit
+)
+ident(
+  int_ref x "cfg.ml" 162 3953 3974 "cfg.ml" 162 3953 3975
+)
+"cfg.ml" 162 3953 3997 "cfg.ml" 162 3953 3998
+type(
+  (G'.t, 'b2, 'c2) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 162 3953 3976 "cfg.ml" 162 3953 3977
+)
+"cfg.ml" 162 3953 3997 "cfg.ml" 162 3953 4000
+type(
+  G'.t
+)
+"cfg.ml" 162 3953 3980 "cfg.ml" 162 3953 4000
+call(
+  tail
+)
+type(
+  G'.vertex -> unit
+)
+"cfg.ml" 163 4001 4009 "cfg.ml" 163 4001 4020
+type(
+  (G'.edge -> 'd2 -> 'd2) -> (G'.t, 'e2, 'f2) pcfg -> G'.vertex -> 'd2 -> 'd2
+)
+ident(
+  def fold_succ_e "cfg.ml" 164 4049 4053 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 163 4001 4022 "cfg.ml" 163 4001 4023
+type(
+  G'.edge -> 'd2 -> 'd2
+)
+ident(
+  def x "cfg.ml" 163 4001 4024 "cfg.ml" 163 4001 4048
+)
+"cfg.ml" 163 4001 4024 "cfg.ml" 163 4001 4025
+type(
+  (G'.t, 'e2, 'f2) pcfg
+)
+ident(
+  def y "cfg.ml" 163 4001 4028 "cfg.ml" 163 4001 4048
+)
+"cfg.ml" 163 4001 4028 "cfg.ml" 163 4001 4042
+type(
+  (G'.edge -> 'd2 -> 'd2) -> G'.t -> G'.vertex -> 'd2 -> 'd2
+)
+ident(
+  ext_ref G'.fold_succ_e
+)
+"cfg.ml" 163 4001 4043 "cfg.ml" 163 4001 4044
+type(
+  G'.edge -> 'd2 -> 'd2
+)
+ident(
+  int_ref x "cfg.ml" 163 4001 4022 "cfg.ml" 163 4001 4023
+)
+"cfg.ml" 163 4001 4045 "cfg.ml" 163 4001 4046
+type(
+  (G'.t, 'e2, 'f2) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 163 4001 4024 "cfg.ml" 163 4001 4025
+)
+"cfg.ml" 163 4001 4045 "cfg.ml" 163 4001 4048
+type(
+  G'.t
+)
+"cfg.ml" 163 4001 4028 "cfg.ml" 163 4001 4048
+call(
+  tail
+)
+type(
+  G'.vertex -> 'd2 -> 'd2
+)
+"cfg.ml" 164 4049 4057 "cfg.ml" 164 4049 4068
+type(
+  (G'.edge -> unit) -> (G'.t, 'g2, 'h2) pcfg -> G'.vertex -> unit
+)
+ident(
+  def iter_pred_e "cfg.ml" 165 4097 4101 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 164 4049 4070 "cfg.ml" 164 4049 4071
+type(
+  G'.edge -> unit
+)
+ident(
+  def x "cfg.ml" 164 4049 4072 "cfg.ml" 164 4049 4096
+)
+"cfg.ml" 164 4049 4072 "cfg.ml" 164 4049 4073
+type(
+  (G'.t, 'g2, 'h2) pcfg
+)
+ident(
+  def y "cfg.ml" 164 4049 4076 "cfg.ml" 164 4049 4096
+)
+"cfg.ml" 164 4049 4076 "cfg.ml" 164 4049 4090
+type(
+  (G'.edge -> unit) -> G'.t -> G'.vertex -> unit
+)
+ident(
+  ext_ref G'.iter_pred_e
+)
+"cfg.ml" 164 4049 4091 "cfg.ml" 164 4049 4092
+type(
+  G'.edge -> unit
+)
+ident(
+  int_ref x "cfg.ml" 164 4049 4070 "cfg.ml" 164 4049 4071
+)
+"cfg.ml" 164 4049 4093 "cfg.ml" 164 4049 4094
+type(
+  (G'.t, 'g2, 'h2) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 164 4049 4072 "cfg.ml" 164 4049 4073
+)
+"cfg.ml" 164 4049 4093 "cfg.ml" 164 4049 4096
+type(
+  G'.t
+)
+"cfg.ml" 164 4049 4076 "cfg.ml" 164 4049 4096
+call(
+  tail
+)
+type(
+  G'.vertex -> unit
+)
+"cfg.ml" 165 4097 4105 "cfg.ml" 165 4097 4116
+type(
+  (G'.edge -> 'i2 -> 'i2) -> (G'.t, 'j2, 'k2) pcfg -> G'.vertex -> 'i2 -> 'i2
+)
+ident(
+  def fold_pred_e "cfg.ml" 168 4147 4151 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 165 4097 4118 "cfg.ml" 165 4097 4119
+type(
+  G'.edge -> 'i2 -> 'i2
+)
+ident(
+  def x "cfg.ml" 165 4097 4120 "cfg.ml" 165 4097 4144
+)
+"cfg.ml" 165 4097 4120 "cfg.ml" 165 4097 4121
+type(
+  (G'.t, 'j2, 'k2) pcfg
+)
+ident(
+  def y "cfg.ml" 165 4097 4124 "cfg.ml" 165 4097 4144
+)
+"cfg.ml" 165 4097 4124 "cfg.ml" 165 4097 4138
+type(
+  (G'.edge -> 'i2 -> 'i2) -> G'.t -> G'.vertex -> 'i2 -> 'i2
+)
+ident(
+  ext_ref G'.fold_pred_e
+)
+"cfg.ml" 165 4097 4139 "cfg.ml" 165 4097 4140
+type(
+  G'.edge -> 'i2 -> 'i2
+)
+ident(
+  int_ref x "cfg.ml" 165 4097 4118 "cfg.ml" 165 4097 4119
+)
+"cfg.ml" 165 4097 4141 "cfg.ml" 165 4097 4142
+type(
+  (G'.t, 'j2, 'k2) pcfg
+)
+ident(
+  int_ref y "cfg.ml" 165 4097 4120 "cfg.ml" 165 4097 4121
+)
+"cfg.ml" 165 4097 4141 "cfg.ml" 165 4097 4144
+type(
+  G'.t
+)
+"cfg.ml" 165 4097 4124 "cfg.ml" 165 4097 4144
+call(
+  tail
+)
+type(
+  G'.vertex -> 'i2 -> 'i2
+)
+"cfg.ml" 168 4147 4155 "cfg.ml" 168 4147 4163
+type(
+  (G'.t, 'l2, 'm2) pcfg -> G'.vertex -> G'.vertex -> (G'.t, 'l2, 'm2) pcfg
+)
+ident(
+  def add_edge "cfg.ml" 169 4214 4218 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 168 4147 4164 "cfg.ml" 168 4147 4165
+type(
+  (G'.t, 'l2, 'm2) pcfg
+)
+ident(
+  def c "cfg.ml" 168 4147 4166 "cfg.ml" 168 4147 4213
+)
+"cfg.ml" 168 4147 4166 "cfg.ml" 168 4147 4168
+type(
+  G'.vertex
+)
+ident(
+  def v1 "cfg.ml" 168 4147 4169 "cfg.ml" 168 4147 4213
+)
+"cfg.ml" 168 4147 4169 "cfg.ml" 168 4147 4171
+type(
+  G'.vertex
+)
+ident(
+  def v2 "cfg.ml" 168 4147 4177 "cfg.ml" 168 4147 4213
+)
+"cfg.ml" 168 4147 4179 "cfg.ml" 168 4147 4180
+type(
+  (G'.t, 'l2, 'm2) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 168 4147 4164 "cfg.ml" 168 4147 4165
+)
+"cfg.ml" 168 4147 4190 "cfg.ml" 168 4147 4201
+type(
+  G'.t -> G'.vertex -> G'.vertex -> G'.t
+)
+ident(
+  ext_ref G'.add_edge
+)
+"cfg.ml" 168 4147 4202 "cfg.ml" 168 4147 4203
+type(
+  (G'.t, 'l2, 'm2) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 168 4147 4164 "cfg.ml" 168 4147 4165
+)
+"cfg.ml" 168 4147 4202 "cfg.ml" 168 4147 4205
+type(
+  G'.t
+)
+"cfg.ml" 168 4147 4206 "cfg.ml" 168 4147 4208
+type(
+  G'.vertex
+)
+ident(
+  int_ref v1 "cfg.ml" 168 4147 4166 "cfg.ml" 168 4147 4168
+)
+"cfg.ml" 168 4147 4209 "cfg.ml" 168 4147 4211
+type(
+  G'.vertex
+)
+ident(
+  int_ref v2 "cfg.ml" 168 4147 4169 "cfg.ml" 168 4147 4171
+)
+"cfg.ml" 168 4147 4190 "cfg.ml" 168 4147 4211
+call(
+  stack
+)
+type(
+  G'.t
+)
+"cfg.ml" 168 4147 4177 "cfg.ml" 168 4147 4213
+type(
+  (G'.t, 'l2, 'm2) pcfg
+)
+"cfg.ml" 169 4214 4222 "cfg.ml" 169 4214 4232
+type(
+  (G'.t, 'n2, 'o2) pcfg -> G'.edge -> (G'.t, 'n2, 'o2) pcfg
+)
+ident(
+  def add_edge_e "cfg.ml" 170 4279 4283 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 169 4214 4233 "cfg.ml" 169 4214 4234
+type(
+  (G'.t, 'n2, 'o2) pcfg
+)
+ident(
+  def c "cfg.ml" 169 4214 4235 "cfg.ml" 169 4214 4278
+)
+"cfg.ml" 169 4214 4235 "cfg.ml" 169 4214 4236
+type(
+  G'.edge
+)
+ident(
+  def e "cfg.ml" 169 4214 4244 "cfg.ml" 169 4214 4278
+)
+"cfg.ml" 169 4214 4246 "cfg.ml" 169 4214 4247
+type(
+  (G'.t, 'n2, 'o2) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 169 4214 4233 "cfg.ml" 169 4214 4234
+)
+"cfg.ml" 169 4214 4257 "cfg.ml" 169 4214 4270
+type(
+  G'.t -> G'.edge -> G'.t
+)
+ident(
+  ext_ref G'.add_edge_e
+)
+"cfg.ml" 169 4214 4271 "cfg.ml" 169 4214 4272
+type(
+  (G'.t, 'n2, 'o2) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 169 4214 4233 "cfg.ml" 169 4214 4234
+)
+"cfg.ml" 169 4214 4271 "cfg.ml" 169 4214 4274
+type(
+  G'.t
+)
+"cfg.ml" 169 4214 4275 "cfg.ml" 169 4214 4276
+type(
+  G'.edge
+)
+ident(
+  int_ref e "cfg.ml" 169 4214 4235 "cfg.ml" 169 4214 4236
+)
+"cfg.ml" 169 4214 4257 "cfg.ml" 169 4214 4276
+call(
+  stack
+)
+type(
+  G'.t
+)
+"cfg.ml" 169 4214 4244 "cfg.ml" 169 4214 4278
+type(
+  (G'.t, 'n2, 'o2) pcfg
+)
+"cfg.ml" 170 4279 4287 "cfg.ml" 170 4279 4298
+type(
+  (G'.t, 'p2, 'q2) pcfg -> G'.vertex -> G'.vertex -> (G'.t, 'p2, 'q2) pcfg
+)
+ident(
+  def remove_edge "cfg.ml" 171 4349 4353 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 170 4279 4299 "cfg.ml" 170 4279 4300
+type(
+  (G'.t, 'p2, 'q2) pcfg
+)
+ident(
+  def c "cfg.ml" 170 4279 4301 "cfg.ml" 170 4279 4348
+)
+"cfg.ml" 170 4279 4301 "cfg.ml" 170 4279 4303
+type(
+  G'.vertex
+)
+ident(
+  def v1 "cfg.ml" 170 4279 4304 "cfg.ml" 170 4279 4348
+)
+"cfg.ml" 170 4279 4304 "cfg.ml" 170 4279 4306
+type(
+  G'.vertex
+)
+ident(
+  def v2 "cfg.ml" 170 4279 4309 "cfg.ml" 170 4279 4348
+)
+"cfg.ml" 170 4279 4311 "cfg.ml" 170 4279 4312
+type(
+  (G'.t, 'p2, 'q2) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 170 4279 4299 "cfg.ml" 170 4279 4300
+)
+"cfg.ml" 170 4279 4322 "cfg.ml" 170 4279 4336
+type(
+  G'.t -> G'.vertex -> G'.vertex -> G'.t
+)
+ident(
+  ext_ref G'.remove_edge
+)
+"cfg.ml" 170 4279 4337 "cfg.ml" 170 4279 4338
+type(
+  (G'.t, 'p2, 'q2) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 170 4279 4299 "cfg.ml" 170 4279 4300
+)
+"cfg.ml" 170 4279 4337 "cfg.ml" 170 4279 4340
+type(
+  G'.t
+)
+"cfg.ml" 170 4279 4341 "cfg.ml" 170 4279 4343
+type(
+  G'.vertex
+)
+ident(
+  int_ref v1 "cfg.ml" 170 4279 4301 "cfg.ml" 170 4279 4303
+)
+"cfg.ml" 170 4279 4344 "cfg.ml" 170 4279 4346
+type(
+  G'.vertex
+)
+ident(
+  int_ref v2 "cfg.ml" 170 4279 4304 "cfg.ml" 170 4279 4306
+)
+"cfg.ml" 170 4279 4322 "cfg.ml" 170 4279 4346
+call(
+  stack
+)
+type(
+  G'.t
+)
+"cfg.ml" 170 4279 4309 "cfg.ml" 170 4279 4348
+type(
+  (G'.t, 'p2, 'q2) pcfg
+)
+"cfg.ml" 171 4349 4357 "cfg.ml" 171 4349 4370
+type(
+  (G'.t, 'r2, 's2) pcfg -> G'.edge -> (G'.t, 'r2, 's2) pcfg
+)
+ident(
+  def remove_edge_e "cfg.ml" 172 4417 4421 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 171 4349 4371 "cfg.ml" 171 4349 4372
+type(
+  (G'.t, 'r2, 's2) pcfg
+)
+ident(
+  def c "cfg.ml" 171 4349 4373 "cfg.ml" 171 4349 4416
+)
+"cfg.ml" 171 4349 4373 "cfg.ml" 171 4349 4374
+type(
+  G'.edge
+)
+ident(
+  def e "cfg.ml" 171 4349 4379 "cfg.ml" 171 4349 4416
+)
+"cfg.ml" 171 4349 4381 "cfg.ml" 171 4349 4382
+type(
+  (G'.t, 'r2, 's2) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 171 4349 4371 "cfg.ml" 171 4349 4372
+)
+"cfg.ml" 171 4349 4392 "cfg.ml" 171 4349 4408
+type(
+  G'.t -> G'.edge -> G'.t
+)
+ident(
+  ext_ref G'.remove_edge_e
+)
+"cfg.ml" 171 4349 4409 "cfg.ml" 171 4349 4410
+type(
+  (G'.t, 'r2, 's2) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 171 4349 4371 "cfg.ml" 171 4349 4372
+)
+"cfg.ml" 171 4349 4409 "cfg.ml" 171 4349 4412
+type(
+  G'.t
+)
+"cfg.ml" 171 4349 4413 "cfg.ml" 171 4349 4414
+type(
+  G'.edge
+)
+ident(
+  int_ref e "cfg.ml" 171 4349 4373 "cfg.ml" 171 4349 4374
+)
+"cfg.ml" 171 4349 4392 "cfg.ml" 171 4349 4414
+call(
+  stack
+)
+type(
+  G'.t
+)
+"cfg.ml" 171 4349 4379 "cfg.ml" 171 4349 4416
+type(
+  (G'.t, 'r2, 's2) pcfg
+)
+"cfg.ml" 172 4417 4425 "cfg.ml" 172 4417 4435
+type(
+  (G'.t, 't2, 'u2) pcfg -> G'.vertex -> (G'.t, 't2, 'u2) pcfg
+)
+ident(
+  def add_vertex "cfg.ml" 175 4514 4518 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 172 4417 4436 "cfg.ml" 172 4417 4437
+type(
+  (G'.t, 't2, 'u2) pcfg
+)
+ident(
+  def c "cfg.ml" 172 4417 4438 "cfg.ml" 172 4417 4481
+)
+"cfg.ml" 172 4417 4438 "cfg.ml" 172 4417 4439
+type(
+  G'.vertex
+)
+ident(
+  def v "cfg.ml" 172 4417 4447 "cfg.ml" 172 4417 4481
+)
+"cfg.ml" 172 4417 4449 "cfg.ml" 172 4417 4450
+type(
+  (G'.t, 't2, 'u2) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 172 4417 4436 "cfg.ml" 172 4417 4437
+)
+"cfg.ml" 172 4417 4460 "cfg.ml" 172 4417 4473
+type(
+  G'.t -> G'.vertex -> G'.t
+)
+ident(
+  ext_ref G'.add_vertex
+)
+"cfg.ml" 172 4417 4474 "cfg.ml" 172 4417 4475
+type(
+  (G'.t, 't2, 'u2) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 172 4417 4436 "cfg.ml" 172 4417 4437
+)
+"cfg.ml" 172 4417 4474 "cfg.ml" 172 4417 4477
+type(
+  G'.t
+)
+"cfg.ml" 172 4417 4478 "cfg.ml" 172 4417 4479
+type(
+  G'.vertex
+)
+ident(
+  int_ref v "cfg.ml" 172 4417 4438 "cfg.ml" 172 4417 4439
+)
+"cfg.ml" 172 4417 4460 "cfg.ml" 172 4417 4479
+call(
+  stack
+)
+type(
+  G'.t
+)
+"cfg.ml" 172 4417 4447 "cfg.ml" 172 4417 4481
+type(
+  (G'.t, 't2, 'u2) pcfg
+)
+"cfg.ml" 175 4514 4522 "cfg.ml" 175 4514 4527
+type(
+  (G'.t, 'v2 BM.t, 'w2 LM.t) pcfg
+)
+ident(
+  def empty "cfg.ml" 183 4633 4637 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 177 4538 4550 "cfg.ml" 177 4538 4558
+type(
+  G'.t
+)
+ident(
+  ext_ref G'.empty
+)
+"cfg.ml" 178 4560 4572 "cfg.ml" 178 4560 4580
+type(
+  'v2 BM.t
+)
+ident(
+  ext_ref BM.empty
+)
+"cfg.ml" 179 4582 4594 "cfg.ml" 179 4582 4602
+type(
+  'w2 LM.t
+)
+ident(
+  ext_ref LM.empty
+)
+"cfg.ml" 180 4604 4621 "cfg.ml" 180 4604 4622
+type(
+  int
+)
+"cfg.ml" 176 4530 4536 "cfg.ml" 181 4624 4631
+type(
+  (G'.t, 'v2 BM.t, 'w2 LM.t) pcfg
+)
+"cfg.ml" 183 4633 4641 "cfg.ml" 183 4633 4651
+type(
+  'x2 -> 'y2 -> 'z2
+)
+ident(
+  def map_vertex "cfg.ml" 186 4702 4706 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 183 4633 4652 "cfg.ml" 183 4633 4653
+type(
+  'x2
+)
+ident(
+  def f "cfg.ml" 183 4633 4654 "cfg.ml" 184 4658 4700
+)
+"cfg.ml" 183 4633 4654 "cfg.ml" 183 4633 4655
+type(
+  'y2
+)
+ident(
+  def c "cfg.ml" 184 4658 4664 "cfg.ml" 184 4658 4700
+)
+"cfg.ml" 184 4658 4664 "cfg.ml" 184 4658 4672
+type(
+  string -> 'z2
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"cfg.ml" 184 4658 4673 "cfg.ml" 184 4658 4700
+type(
+  string
+)
+"cfg.ml" 184 4658 4664 "cfg.ml" 184 4658 4700
+call(
+  tail
+)
+type(
+  'z2
+)
+"cfg.ml" 186 4702 4710 "cfg.ml" 186 4702 4718
+type(
+  ('a3, 'b3, 'c3) pcfg -> (G'.t, 'b3, 'c3) pcfg
+)
+ident(
+  def copy_map "cfg.ml" 186 4702 4788 "cfg.ml" 188 4790 4795
+)
+"cfg.ml" 186 4702 4722 "cfg.ml" 186 4702 4723
+type(
+  'b3
+)
+ident(
+  def s "cfg.ml" 186 4702 4749 "cfg.ml" 186 4702 4788
+)
+"cfg.ml" 186 4702 4727 "cfg.ml" 186 4702 4728
+type(
+  'c3
+)
+ident(
+  def l "cfg.ml" 186 4702 4749 "cfg.ml" 186 4702 4788
+)
+"cfg.ml" 186 4702 4739 "cfg.ml" 186 4702 4745
+type(
+  int
+)
+ident(
+  def nextid "cfg.ml" 186 4702 4749 "cfg.ml" 186 4702 4788
+)
+"cfg.ml" 186 4702 4719 "cfg.ml" 186 4702 4746
+type(
+  ('a3, 'b3, 'c3) pcfg
+)
+"cfg.ml" 186 4702 4754 "cfg.ml" 186 4702 4762
+type(
+  G'.t
+)
+ident(
+  ext_ref G'.empty
+)
+"cfg.ml" 186 4702 4766 "cfg.ml" 186 4702 4767
+type(
+  'b3
+)
+ident(
+  int_ref s "cfg.ml" 186 4702 4722 "cfg.ml" 186 4702 4723
+)
+"cfg.ml" 186 4702 4771 "cfg.ml" 186 4702 4772
+type(
+  'c3
+)
+ident(
+  int_ref l "cfg.ml" 186 4702 4727 "cfg.ml" 186 4702 4728
+)
+"cfg.ml" 186 4702 4781 "cfg.ml" 186 4702 4787
+type(
+  int
+)
+ident(
+  int_ref nextid "cfg.ml" 186 4702 4739 "cfg.ml" 186 4702 4745
+)
+"cfg.ml" 186 4702 4749 "cfg.ml" 186 4702 4788
+type(
+  (G'.t, 'b3, 'c3) pcfg
+)
+"cfg.ml" 191 4853 4859 "cfg.ml" 191 4853 4870
+type(
+  (G'.t, 'd3, 'e3) pcfg -> G.V.label -> G.V.t
+)
+ident(
+  def find_vertex "cfg.ml" 195 4960 4962 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 191 4853 4871 "cfg.ml" 191 4853 4872
+type(
+  (G'.t, 'd3, 'e3) pcfg
+)
+ident(
+  def c "cfg.ml" 191 4853 4873 "cfg.ml" 193 4907 4958
+)
+"cfg.ml" 191 4853 4873 "cfg.ml" 191 4853 4875
+type(
+  G.V.label
+)
+ident(
+  def id "cfg.ml" 192 4878 4882 "cfg.ml" 193 4907 4958
+)
+"cfg.ml" 192 4878 4886 "cfg.ml" 192 4878 4887
+type(
+  G.V.t
+)
+"cfg.ml" 192 4878 4890 "cfg.ml" 192 4878 4900
+type(
+  G.V.label -> G.V.t
+)
+ident(
+  ext_ref G.V.create
+)
+"cfg.ml" 192 4878 4901 "cfg.ml" 192 4878 4903
+type(
+  G.V.label
+)
+ident(
+  int_ref id "cfg.ml" 191 4853 4873 "cfg.ml" 191 4853 4875
+)
+"cfg.ml" 192 4878 4890 "cfg.ml" 192 4878 4903
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"cfg.ml" 193 4907 4914 "cfg.ml" 193 4907 4926
+type(
+  (G'.t, 'd3, 'e3) pcfg -> G'.vertex -> bool
+)
+ident(
+  ext_ref G.mem_vertex
+)
+"cfg.ml" 193 4907 4927 "cfg.ml" 193 4907 4928
+type(
+  (G'.t, 'd3, 'e3) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 191 4853 4871 "cfg.ml" 191 4853 4872
+)
+"cfg.ml" 193 4907 4929 "cfg.ml" 193 4907 4930
+type(
+  G.V.t
+)
+ident(
+  int_ref v "cfg.ml" 192 4878 4886 "cfg.ml" 192 4878 4887
+)
+"cfg.ml" 193 4907 4914 "cfg.ml" 193 4907 4930
+call(
+  stack
+)
+type(
+  bool
+)
+"cfg.ml" 193 4907 4936 "cfg.ml" 193 4907 4937
+type(
+  G.V.t
+)
+ident(
+  int_ref v "cfg.ml" 192 4878 4886 "cfg.ml" 192 4878 4887
+)
+"cfg.ml" 193 4907 4943 "cfg.ml" 193 4907 4948
+type(
+  exn -> G.V.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"cfg.ml" 193 4907 4949 "cfg.ml" 193 4907 4958
+type(
+  exn
+)
+"cfg.ml" 193 4907 4943 "cfg.ml" 193 4907 4958
+type(
+  G.V.t
+)
+"cfg.ml" 193 4907 4911 "cfg.ml" 193 4907 4958
+type(
+  G.V.t
+)
+"cfg.ml" 192 4878 4882 "cfg.ml" 193 4907 4958
+type(
+  G.V.t
+)
+"cfg.ml" 195 4960 4966 "cfg.ml" 195 4960 4976
+type(
+  ('f3, 'g3, 'h3 LM.t) pcfg -> LM.key -> 'h3
+)
+ident(
+  def find_label "cfg.ml" 197 4998 5000 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 195 4960 4977 "cfg.ml" 195 4960 4978
+type(
+  ('f3, 'g3, 'h3 LM.t) pcfg
+)
+ident(
+  def c "cfg.ml" 195 4960 4979 "cfg.ml" 195 4960 4996
+)
+"cfg.ml" 195 4960 4979 "cfg.ml" 195 4960 4980
+type(
+  LM.key
+)
+ident(
+  def l "cfg.ml" 195 4960 4983 "cfg.ml" 195 4960 4996
+)
+"cfg.ml" 195 4960 4983 "cfg.ml" 195 4960 4990
+type(
+  LM.key -> 'h3 LM.t -> 'h3
+)
+ident(
+  ext_ref LM.find
+)
+"cfg.ml" 195 4960 4991 "cfg.ml" 195 4960 4992
+type(
+  LM.key
+)
+ident(
+  int_ref l "cfg.ml" 195 4960 4979 "cfg.ml" 195 4960 4980
+)
+"cfg.ml" 195 4960 4993 "cfg.ml" 195 4960 4994
+type(
+  ('f3, 'g3, 'h3 LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 195 4960 4977 "cfg.ml" 195 4960 4978
+)
+"cfg.ml" 195 4960 4993 "cfg.ml" 195 4960 4996
+type(
+  'h3 LM.t
+)
+"cfg.ml" 195 4960 4983 "cfg.ml" 195 4960 4996
+call(
+  tail
+)
+type(
+  'h3
+)
+"cfg.ml" 197 4998 5004 "cfg.ml" 197 4998 5013
+type(
+  ('i3, Lang.lang BM.t, 'j3) pcfg -> BM.key -> Lang.lang
+)
+ident(
+  def get_stmts "cfg.ml" 201 5078 5080 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 197 4998 5014 "cfg.ml" 197 4998 5015
+type(
+  ('i3, Lang.lang BM.t, 'j3) pcfg
+)
+ident(
+  def c "cfg.ml" 197 4998 5016 "cfg.ml" 199 5042 5076
+)
+"cfg.ml" 197 4998 5016 "cfg.ml" 197 4998 5017
+type(
+  BM.key
+)
+ident(
+  def v "cfg.ml" 198 5020 5024 "cfg.ml" 199 5042 5076
+)
+"cfg.ml" 198 5020 5028 "cfg.ml" 198 5020 5035
+type(
+  BM.key -> Lang.lang BM.t -> Lang.lang
+)
+ident(
+  ext_ref BM.find
+)
+"cfg.ml" 198 5020 5036 "cfg.ml" 198 5020 5037
+type(
+  BM.key
+)
+ident(
+  int_ref v "cfg.ml" 197 4998 5016 "cfg.ml" 197 4998 5017
+)
+"cfg.ml" 198 5020 5038 "cfg.ml" 198 5020 5039
+type(
+  ('i3, Lang.lang BM.t, 'j3) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 197 4998 5014 "cfg.ml" 197 4998 5015
+)
+"cfg.ml" 198 5020 5038 "cfg.ml" 198 5020 5041
+type(
+  Lang.lang BM.t
+)
+"cfg.ml" 198 5020 5028 "cfg.ml" 198 5020 5041
+call(
+  stack
+)
+type(
+  Lang.lang
+)
+"cfg.ml" 199 5042 5051 "cfg.ml" 199 5042 5060
+type(
+  exn
+)
+"cfg.ml" 199 5042 5064 "cfg.ml" 199 5042 5076
+type(
+  Lang.lang
+)
+ident(
+  ext_ref Lang.default
+)
+"cfg.ml" 198 5020 5024 "cfg.ml" 199 5042 5076
+type(
+  Lang.lang
+)
+"cfg.ml" 201 5078 5084 "cfg.ml" 201 5078 5091
+type(
+  Lang.lang
+)
+ident(
+  def default "cfg.ml" 203 5108 5110 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 201 5078 5094 "cfg.ml" 201 5078 5106
+type(
+  Lang.lang
+)
+ident(
+  ext_ref Lang.default
+)
+"cfg.ml" 203 5108 5114 "cfg.ml" 203 5108 5124
+type(
+  Lang.lang -> Lang.lang -> Lang.lang
+)
+ident(
+  def join_stmts "cfg.ml" 205 5138 5140 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 203 5108 5127 "cfg.ml" 203 5108 5136
+type(
+  Lang.lang -> Lang.lang -> Lang.lang
+)
+ident(
+  ext_ref Lang.join
+)
+"cfg.ml" 205 5138 5144 "cfg.ml" 205 5138 5158
+type(
+  Lang.lang -> string
+)
+ident(
+  def lang_to_string "cfg.ml" 208 5194 5196 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 205 5138 5161 "cfg.ml" 205 5138 5175
+type(
+  Lang.lang -> string
+)
+ident(
+  ext_ref Lang.to_string
+)
+"cfg.ml" 208 5194 5200 "cfg.ml" 208 5194 5211
+type(
+  (Type.label -> 'k3 -> 'k3) -> Lang.lang -> 'k3 -> 'k3
+)
+ident(
+  def fold_labels "cfg.ml" 212 5295 5297 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 208 5194 5212 "cfg.ml" 208 5194 5213
+type(
+  Type.label -> 'k3 -> 'k3
+)
+ident(
+  def f "cfg.ml" 208 5194 5214 "cfg.ml" 211 5288 5294
+)
+"cfg.ml" 208 5194 5214 "cfg.ml" 208 5194 5215
+type(
+  Lang.lang
+)
+ident(
+  def l "cfg.ml" 208 5194 5216 "cfg.ml" 211 5288 5294
+)
+"cfg.ml" 208 5194 5216 "cfg.ml" 208 5194 5217
+type(
+  'k3
+)
+ident(
+  def a "cfg.ml" 209 5220 5224 "cfg.ml" 211 5288 5294
+)
+"cfg.ml" 209 5220 5228 "cfg.ml" 209 5220 5229
+type(
+  'k3 ref
+)
+"cfg.ml" 209 5220 5232 "cfg.ml" 209 5220 5235
+type(
+  'k3 -> 'k3 ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"cfg.ml" 209 5220 5236 "cfg.ml" 209 5220 5237
+type(
+  'k3
+)
+ident(
+  int_ref a "cfg.ml" 208 5194 5216 "cfg.ml" 208 5194 5217
+)
+"cfg.ml" 209 5220 5232 "cfg.ml" 209 5220 5237
+type(
+  'k3 ref
+)
+"cfg.ml" 210 5241 5245 "cfg.ml" 210 5241 5261
+type(
+  (Type.label -> unit) -> Lang.lang -> unit
+)
+ident(
+  ext_ref Lang.iter_labels
+)
+"cfg.ml" 210 5241 5267 "cfg.ml" 210 5241 5268
+type(
+  Type.label
+)
+ident(
+  def l "cfg.ml" 210 5241 5272 "cfg.ml" 210 5241 5283
+)
+"cfg.ml" 210 5241 5272 "cfg.ml" 210 5241 5273
+type(
+  'k3 ref
+)
+ident(
+  int_ref r "cfg.ml" 209 5220 5228 "cfg.ml" 209 5220 5229
+)
+"cfg.ml" 210 5241 5274 "cfg.ml" 210 5241 5276
+type(
+  'k3 ref -> 'k3 -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"cfg.ml" 210 5241 5277 "cfg.ml" 210 5241 5278
+type(
+  Type.label -> 'k3 -> 'k3
+)
+ident(
+  int_ref f "cfg.ml" 208 5194 5212 "cfg.ml" 208 5194 5213
+)
+"cfg.ml" 210 5241 5279 "cfg.ml" 210 5241 5280
+type(
+  Type.label
+)
+ident(
+  int_ref l "cfg.ml" 210 5241 5267 "cfg.ml" 210 5241 5268
+)
+"cfg.ml" 210 5241 5281 "cfg.ml" 210 5241 5282
+type(
+  'k3 ref -> 'k3
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"cfg.ml" 210 5241 5282 "cfg.ml" 210 5241 5283
+type(
+  'k3 ref
+)
+ident(
+  int_ref r "cfg.ml" 209 5220 5228 "cfg.ml" 209 5220 5229
+)
+"cfg.ml" 210 5241 5281 "cfg.ml" 210 5241 5283
+type(
+  'k3
+)
+"cfg.ml" 210 5241 5277 "cfg.ml" 210 5241 5283
+call(
+  stack
+)
+type(
+  'k3
+)
+"cfg.ml" 210 5241 5272 "cfg.ml" 210 5241 5283
+type(
+  unit
+)
+"cfg.ml" 210 5241 5262 "cfg.ml" 210 5241 5284
+type(
+  Type.label -> unit
+)
+"cfg.ml" 210 5241 5285 "cfg.ml" 210 5241 5286
+type(
+  Lang.lang
+)
+ident(
+  int_ref l "cfg.ml" 208 5194 5214 "cfg.ml" 208 5194 5215
+)
+"cfg.ml" 210 5241 5245 "cfg.ml" 210 5241 5286
+call(
+  stack
+)
+type(
+  unit
+)
+"cfg.ml" 211 5288 5292 "cfg.ml" 211 5288 5293
+type(
+  'k3 ref -> 'k3
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"cfg.ml" 211 5288 5293 "cfg.ml" 211 5288 5294
+type(
+  'k3 ref
+)
+ident(
+  int_ref r "cfg.ml" 209 5220 5228 "cfg.ml" 209 5220 5229
+)
+"cfg.ml" 211 5288 5292 "cfg.ml" 211 5288 5294
+type(
+  'k3
+)
+"cfg.ml" 210 5241 5245 "cfg.ml" 211 5288 5294
+type(
+  'k3
+)
+"cfg.ml" 209 5220 5224 "cfg.ml" 211 5288 5294
+type(
+  'k3
+)
+"cfg.ml" 212 5295 5301 "cfg.ml" 212 5295 5314
+type(
+  ('l3, Lang.lang BM.t, 'm3 LM.t) pcfg ->
+  BM.key -> ('l3, Lang.lang BM.t, 'm3 LM.t) pcfg
+)
+ident(
+  def remove_labels "cfg.ml" 217 5412 5414 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 212 5295 5315 "cfg.ml" 212 5295 5316
+type(
+  ('l3, Lang.lang BM.t, 'm3 LM.t) pcfg
+)
+ident(
+  def c "cfg.ml" 212 5295 5317 "cfg.ml" 215 5405 5410
+)
+"cfg.ml" 212 5295 5317 "cfg.ml" 212 5295 5318
+type(
+  BM.key
+)
+ident(
+  def v "cfg.ml" 213 5321 5325 "cfg.ml" 215 5405 5410
+)
+"cfg.ml" 213 5321 5327 "cfg.ml" 213 5321 5328
+type(
+  ('l3, Lang.lang BM.t, 'm3 LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 212 5295 5315 "cfg.ml" 212 5295 5316
+)
+"cfg.ml" 214 5334 5344 "cfg.ml" 214 5334 5355
+type(
+  (LM.key -> 'm3 LM.t -> 'm3 LM.t) -> Lang.lang -> 'm3 LM.t -> 'm3 LM.t
+)
+ident(
+  int_ref fold_labels "cfg.ml" 208 5194 5200 "cfg.ml" 208 5194 5211
+)
+"cfg.ml" 214 5334 5361 "cfg.ml" 214 5334 5362
+type(
+  LM.key
+)
+ident(
+  def l "cfg.ml" 214 5334 5363 "cfg.ml" 214 5334 5383
+)
+"cfg.ml" 214 5334 5363 "cfg.ml" 214 5334 5365
+type(
+  'm3 LM.t
+)
+ident(
+  def lm "cfg.ml" 214 5334 5369 "cfg.ml" 214 5334 5383
+)
+"cfg.ml" 214 5334 5369 "cfg.ml" 214 5334 5378
+type(
+  LM.key -> 'm3 LM.t -> 'm3 LM.t
+)
+ident(
+  ext_ref LM.remove
+)
+"cfg.ml" 214 5334 5379 "cfg.ml" 214 5334 5380
+type(
+  LM.key
+)
+ident(
+  int_ref l "cfg.ml" 214 5334 5361 "cfg.ml" 214 5334 5362
+)
+"cfg.ml" 214 5334 5381 "cfg.ml" 214 5334 5383
+type(
+  'm3 LM.t
+)
+ident(
+  int_ref lm "cfg.ml" 214 5334 5363 "cfg.ml" 214 5334 5365
+)
+"cfg.ml" 214 5334 5369 "cfg.ml" 214 5334 5383
+call(
+  tail
+)
+type(
+  'm3 LM.t
+)
+"cfg.ml" 214 5334 5356 "cfg.ml" 214 5334 5384
+type(
+  LM.key -> 'm3 LM.t -> 'm3 LM.t
+)
+"cfg.ml" 214 5334 5386 "cfg.ml" 214 5334 5395
+type(
+  ('l3, Lang.lang BM.t, 'm3 LM.t) pcfg -> BM.key -> Lang.lang
+)
+ident(
+  int_ref get_stmts "cfg.ml" 197 4998 5004 "cfg.ml" 197 4998 5013
+)
+"cfg.ml" 214 5334 5396 "cfg.ml" 214 5334 5397
+type(
+  ('l3, Lang.lang BM.t, 'm3 LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 212 5295 5315 "cfg.ml" 212 5295 5316
+)
+"cfg.ml" 214 5334 5398 "cfg.ml" 214 5334 5399
+type(
+  BM.key
+)
+ident(
+  int_ref v "cfg.ml" 212 5295 5317 "cfg.ml" 212 5295 5318
+)
+"cfg.ml" 214 5334 5385 "cfg.ml" 214 5334 5400
+call(
+  stack
+)
+type(
+  Lang.lang
+)
+"cfg.ml" 214 5334 5401 "cfg.ml" 214 5334 5402
+type(
+  ('l3, Lang.lang BM.t, 'm3 LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 212 5295 5315 "cfg.ml" 212 5295 5316
+)
+"cfg.ml" 214 5334 5401 "cfg.ml" 214 5334 5404
+type(
+  'm3 LM.t
+)
+"cfg.ml" 214 5334 5344 "cfg.ml" 214 5334 5404
+call(
+  stack
+)
+type(
+  'm3 LM.t
+)
+"cfg.ml" 213 5321 5325 "cfg.ml" 215 5405 5410
+type(
+  ('l3, Lang.lang BM.t, 'm3 LM.t) pcfg
+)
+"cfg.ml" 217 5412 5418 "cfg.ml" 217 5412 5427
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg ->
+  BM.key -> Lang.lang -> ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  def set_stmts "cfg.ml" 233 6130 6132 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 217 5412 5428 "cfg.ml" 217 5412 5429
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  def c "cfg.ml" 217 5412 5430 "cfg.ml" 231 6103 6128
+)
+"cfg.ml" 217 5412 5430 "cfg.ml" 217 5412 5431
+type(
+  BM.key
+)
+ident(
+  def v "cfg.ml" 217 5412 5432 "cfg.ml" 231 6103 6128
+)
+"cfg.ml" 217 5412 5432 "cfg.ml" 217 5412 5433
+type(
+  Lang.lang
+)
+ident(
+  def s "cfg.ml" 218 5436 5440 "cfg.ml" 231 6103 6128
+)
+"cfg.ml" 218 5436 5444 "cfg.ml" 218 5436 5445
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 218 5436 5448 "cfg.ml" 218 5436 5461
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg ->
+  BM.key -> ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref remove_labels "cfg.ml" 212 5295 5301 "cfg.ml" 212 5295 5314
+)
+"cfg.ml" 218 5436 5462 "cfg.ml" 218 5436 5463
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 217 5412 5428 "cfg.ml" 217 5412 5429
+)
+"cfg.ml" 218 5436 5464 "cfg.ml" 218 5436 5465
+type(
+  BM.key
+)
+ident(
+  int_ref v "cfg.ml" 217 5412 5430 "cfg.ml" 217 5412 5431
+)
+"cfg.ml" 218 5436 5448 "cfg.ml" 218 5436 5465
+call(
+  stack
+)
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 219 5469 5477 "cfg.ml" 219 5469 5479
+type(
+  Lang.lang BM.t
+)
+"cfg.ml" 219 5469 5482 "cfg.ml" 219 5469 5488
+type(
+  BM.key -> Lang.lang -> Lang.lang BM.t -> Lang.lang BM.t
+)
+ident(
+  ext_ref BM.add
+)
+"cfg.ml" 219 5469 5489 "cfg.ml" 219 5469 5490
+type(
+  BM.key
+)
+ident(
+  int_ref v "cfg.ml" 217 5412 5430 "cfg.ml" 217 5412 5431
+)
+"cfg.ml" 219 5469 5491 "cfg.ml" 219 5469 5492
+type(
+  Lang.lang
+)
+ident(
+  int_ref s "cfg.ml" 217 5412 5432 "cfg.ml" 217 5412 5433
+)
+"cfg.ml" 219 5469 5493 "cfg.ml" 219 5469 5494
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 218 5436 5444 "cfg.ml" 218 5436 5445
+)
+"cfg.ml" 219 5469 5493 "cfg.ml" 219 5469 5496
+type(
+  Lang.lang BM.t
+)
+"cfg.ml" 219 5469 5482 "cfg.ml" 219 5469 5496
+call(
+  stack
+)
+type(
+  Lang.lang BM.t
+)
+"cfg.ml" 220 5500 5508 "cfg.ml" 220 5500 5510
+type(
+  BM.key LM.t
+)
+"cfg.ml" 220 5500 5513 "cfg.ml" 220 5500 5524
+type(
+  (LM.key -> BM.key LM.t -> BM.key LM.t) ->
+  Lang.lang -> BM.key LM.t -> BM.key LM.t
+)
+ident(
+  int_ref fold_labels "cfg.ml" 208 5194 5200 "cfg.ml" 208 5194 5211
+)
+"cfg.ml" 221 5525 5536 "cfg.ml" 221 5525 5537
+type(
+  LM.key
+)
+ident(
+  def l "cfg.ml" 221 5525 5538 "cfg.ml" 229 6064 6085
+)
+"cfg.ml" 221 5525 5538 "cfg.ml" 221 5525 5540
+type(
+  BM.key LM.t
+)
+ident(
+  def lm "cfg.ml" 223 5648 5656 "cfg.ml" 229 6064 6085
+)
+"cfg.ml" 223 5648 5659 "cfg.ml" 223 5648 5664
+type(
+  unit -> bool
+)
+ident(
+  ext_ref D.debug
+)
+"cfg.ml" 223 5648 5664 "cfg.ml" 223 5648 5666
+type(
+  unit
+)
+"cfg.ml" 223 5648 5659 "cfg.ml" 223 5648 5666
+call(
+  stack
+)
+type(
+  bool
+)
+"cfg.ml" 223 5648 5667 "cfg.ml" 223 5648 5669
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"cfg.ml" 223 5648 5670 "cfg.ml" 223 5648 5676
+type(
+  LM.key -> BM.key LM.t -> bool
+)
+ident(
+  ext_ref LM.mem
+)
+"cfg.ml" 223 5648 5677 "cfg.ml" 223 5648 5678
+type(
+  LM.key
+)
+ident(
+  int_ref l "cfg.ml" 221 5525 5536 "cfg.ml" 221 5525 5537
+)
+"cfg.ml" 223 5648 5679 "cfg.ml" 223 5648 5681
+type(
+  BM.key LM.t
+)
+ident(
+  int_ref lm "cfg.ml" 221 5525 5538 "cfg.ml" 221 5525 5540
+)
+"cfg.ml" 223 5648 5670 "cfg.ml" 223 5648 5681
+call(
+  stack
+)
+type(
+  bool
+)
+"cfg.ml" 223 5648 5659 "cfg.ml" 223 5648 5681
+type(
+  bool
+)
+"cfg.ml" 225 5746 5762 "cfg.ml" 225 5746 5770
+type(
+  Lang.lang
+)
+"cfg.ml" 225 5746 5773 "cfg.ml" 225 5746 5782
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg -> BM.key -> Lang.lang
+)
+ident(
+  int_ref get_stmts "cfg.ml" 197 4998 5004 "cfg.ml" 197 4998 5013
+)
+"cfg.ml" 225 5746 5783 "cfg.ml" 225 5746 5784
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 218 5436 5444 "cfg.ml" 218 5436 5445
+)
+"cfg.ml" 225 5746 5786 "cfg.ml" 225 5746 5793
+type(
+  LM.key -> BM.key LM.t -> BM.key
+)
+ident(
+  ext_ref LM.find
+)
+"cfg.ml" 225 5746 5794 "cfg.ml" 225 5746 5795
+type(
+  LM.key
+)
+ident(
+  int_ref l "cfg.ml" 221 5525 5536 "cfg.ml" 221 5525 5537
+)
+"cfg.ml" 225 5746 5796 "cfg.ml" 225 5746 5798
+type(
+  BM.key LM.t
+)
+ident(
+  int_ref lm "cfg.ml" 221 5525 5538 "cfg.ml" 221 5525 5540
+)
+"cfg.ml" 225 5746 5785 "cfg.ml" 225 5746 5799
+call(
+  stack
+)
+type(
+  BM.key
+)
+"cfg.ml" 225 5746 5773 "cfg.ml" 225 5746 5799
+call(
+  stack
+)
+type(
+  Lang.lang
+)
+"cfg.ml" 226 5803 5819 "cfg.ml" 226 5803 5827
+type(
+  Lang.lang
+)
+"cfg.ml" 226 5803 5830 "cfg.ml" 226 5803 5831
+type(
+  Lang.lang
+)
+ident(
+  int_ref s "cfg.ml" 217 5412 5432 "cfg.ml" 217 5412 5433
+)
+"cfg.ml" 227 5835 5847 "cfg.ml" 227 5835 5854
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> string -> unit
+)
+ident(
+  ext_ref D.wprintf
+)
+"cfg.ml" 227 5835 5855 "cfg.ml" 227 5835 5906
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4
+)
+"cfg.ml" 227 5835 5908 "cfg.ml" 227 5835 5926
+type(
+  LM.key -> string
+)
+ident(
+  ext_ref Pp.label_to_string
+)
+"cfg.ml" 227 5835 5927 "cfg.ml" 227 5835 5928
+type(
+  LM.key
+)
+ident(
+  int_ref l "cfg.ml" 221 5525 5536 "cfg.ml" 221 5525 5537
+)
+"cfg.ml" 227 5835 5907 "cfg.ml" 227 5835 5929
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 227 5835 5931 "cfg.ml" 227 5835 5945
+type(
+  Lang.lang -> string
+)
+ident(
+  ext_ref Lang.to_string
+)
+"cfg.ml" 227 5835 5946 "cfg.ml" 227 5835 5954
+type(
+  Lang.lang
+)
+ident(
+  int_ref oldstmts "cfg.ml" 225 5746 5762 "cfg.ml" 225 5746 5770
+)
+"cfg.ml" 227 5835 5930 "cfg.ml" 227 5835 5955
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 227 5835 5957 "cfg.ml" 227 5835 5971
+type(
+  Lang.lang -> string
+)
+ident(
+  ext_ref Lang.to_string
+)
+"cfg.ml" 227 5835 5972 "cfg.ml" 227 5835 5980
+type(
+  Lang.lang
+)
+ident(
+  int_ref newstmts "cfg.ml" 226 5803 5819 "cfg.ml" 226 5803 5827
+)
+"cfg.ml" 227 5835 5956 "cfg.ml" 227 5835 5981
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 227 5835 5847 "cfg.ml" 227 5835 5981
+call(
+  stack
+)
+type(
+  unit
+)
+"cfg.ml" 228 5983 5995 "cfg.ml" 228 5983 6003
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"cfg.ml" 228 5983 6005 "cfg.ml" 228 5983 6019
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"cfg.ml" 228 5983 6020 "cfg.ml" 228 5983 6037
+type(
+  (string -> string, unit, string) format
+)
+"cfg.ml" 228 5983 6039 "cfg.ml" 228 5983 6057
+type(
+  LM.key -> string
+)
+ident(
+  ext_ref Pp.label_to_string
+)
+"cfg.ml" 228 5983 6058 "cfg.ml" 228 5983 6059
+type(
+  LM.key
+)
+ident(
+  int_ref l "cfg.ml" 221 5525 5536 "cfg.ml" 221 5525 5537
+)
+"cfg.ml" 228 5983 6038 "cfg.ml" 228 5983 6060
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 228 5983 6004 "cfg.ml" 228 5983 6061
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 228 5983 5995 "cfg.ml" 228 5983 6061
+call(
+  stack
+)
+type(
+  unit
+)
+"cfg.ml" 227 5835 5847 "cfg.ml" 228 5983 6061
+type(
+  unit
+)
+"cfg.ml" 226 5803 5815 "cfg.ml" 228 5983 6061
+type(
+  unit
+)
+"cfg.ml" 223 5648 5687 "cfg.ml" 228 5983 6062
+type(
+  unit
+)
+"cfg.ml" 223 5648 5656 "cfg.ml" 228 5983 6062
+type(
+  unit
+)
+"cfg.ml" 229 6064 6072 "cfg.ml" 229 6064 6078
+type(
+  LM.key -> BM.key -> BM.key LM.t -> BM.key LM.t
+)
+ident(
+  ext_ref LM.add
+)
+"cfg.ml" 229 6064 6079 "cfg.ml" 229 6064 6080
+type(
+  LM.key
+)
+ident(
+  int_ref l "cfg.ml" 221 5525 5536 "cfg.ml" 221 5525 5537
+)
+"cfg.ml" 229 6064 6081 "cfg.ml" 229 6064 6082
+type(
+  BM.key
+)
+ident(
+  int_ref v "cfg.ml" 217 5412 5430 "cfg.ml" 217 5412 5431
+)
+"cfg.ml" 229 6064 6083 "cfg.ml" 229 6064 6085
+type(
+  BM.key LM.t
+)
+ident(
+  int_ref lm "cfg.ml" 221 5525 5538 "cfg.ml" 221 5525 5540
+)
+"cfg.ml" 229 6064 6072 "cfg.ml" 229 6064 6085
+call(
+  tail
+)
+type(
+  BM.key LM.t
+)
+"cfg.ml" 223 5648 5656 "cfg.ml" 229 6064 6085
+type(
+  BM.key LM.t
+)
+"cfg.ml" 221 5525 5531 "cfg.ml" 230 6086 6093
+type(
+  LM.key -> BM.key LM.t -> BM.key LM.t
+)
+"cfg.ml" 230 6086 6094 "cfg.ml" 230 6086 6095
+type(
+  Lang.lang
+)
+ident(
+  int_ref s "cfg.ml" 217 5412 5432 "cfg.ml" 217 5412 5433
+)
+"cfg.ml" 230 6086 6096 "cfg.ml" 230 6086 6097
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 218 5436 5444 "cfg.ml" 218 5436 5445
+)
+"cfg.ml" 230 6086 6096 "cfg.ml" 230 6086 6099
+type(
+  BM.key LM.t
+)
+"cfg.ml" 220 5500 5513 "cfg.ml" 230 6086 6099
+call(
+  stack
+)
+type(
+  BM.key LM.t
+)
+"cfg.ml" 231 6103 6109 "cfg.ml" 231 6103 6110
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 218 5436 5444 "cfg.ml" 218 5436 5445
+)
+"cfg.ml" 231 6103 6118 "cfg.ml" 231 6103 6120
+type(
+  BM.key LM.t
+)
+ident(
+  int_ref lm "cfg.ml" 220 5500 5508 "cfg.ml" 220 5500 5510
+)
+"cfg.ml" 231 6103 6124 "cfg.ml" 231 6103 6126
+type(
+  Lang.lang BM.t
+)
+ident(
+  int_ref sm "cfg.ml" 219 5469 5477 "cfg.ml" 219 5469 5479
+)
+"cfg.ml" 231 6103 6107 "cfg.ml" 231 6103 6128
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 220 5500 5504 "cfg.ml" 231 6103 6128
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 219 5469 5473 "cfg.ml" 231 6103 6128
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 218 5436 5440 "cfg.ml" 231 6103 6128
+type(
+  ('n3, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 233 6130 6136 "cfg.ml" 233 6130 6141
+type(
+  ('o3, 'p3, 'q3) pcfg -> bbid * ('o3, 'p3, 'q3) pcfg
+)
+ident(
+  def newid "cfg.ml" 238 6265 6267 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 233 6130 6142 "cfg.ml" 233 6130 6143
+type(
+  ('o3, 'p3, 'q3) pcfg
+)
+ident(
+  def c "cfg.ml" 234 6146 6150 "cfg.ml" 236 6225 6263
+)
+"cfg.ml" 234 6146 6154 "cfg.ml" 234 6146 6156
+type(
+  int
+)
+"cfg.ml" 234 6146 6159 "cfg.ml" 234 6146 6160
+type(
+  ('o3, 'p3, 'q3) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 233 6130 6142 "cfg.ml" 233 6130 6143
+)
+"cfg.ml" 234 6146 6159 "cfg.ml" 234 6146 6167
+type(
+  int
+)
+"cfg.ml" 235 6171 6178 "cfg.ml" 235 6171 6180
+type(
+  int
+)
+ident(
+  int_ref id "cfg.ml" 234 6146 6154 "cfg.ml" 234 6146 6156
+)
+"cfg.ml" 235 6171 6181 "cfg.ml" 235 6171 6182
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"cfg.ml" 235 6171 6183 "cfg.ml" 235 6171 6185
+type(
+  int
+)
+"cfg.ml" 235 6171 6178 "cfg.ml" 235 6171 6185
+type(
+  bool
+)
+"cfg.ml" 235 6171 6191 "cfg.ml" 235 6171 6199
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"cfg.ml" 235 6171 6200 "cfg.ml" 235 6171 6223
+type(
+  string
+)
+"cfg.ml" 235 6171 6191 "cfg.ml" 235 6171 6223
+call(
+  stack
+)
+type(
+  unit
+)
+"cfg.ml" 235 6171 6175 "cfg.ml" 235 6171 6223
+type(
+  unit
+)
+"cfg.ml" 236 6225 6233 "cfg.ml" 236 6225 6235
+type(
+  int
+)
+ident(
+  int_ref id "cfg.ml" 234 6146 6154 "cfg.ml" 234 6146 6156
+)
+"cfg.ml" 236 6225 6230 "cfg.ml" 236 6225 6235
+type(
+  bbid
+)
+"cfg.ml" 236 6225 6238 "cfg.ml" 236 6225 6239
+type(
+  ('o3, 'p3, 'q3) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 233 6130 6142 "cfg.ml" 233 6130 6143
+)
+"cfg.ml" 236 6225 6254 "cfg.ml" 236 6225 6256
+type(
+  int
+)
+ident(
+  int_ref id "cfg.ml" 234 6146 6154 "cfg.ml" 234 6146 6156
+)
+"cfg.ml" 236 6225 6257 "cfg.ml" 236 6225 6258
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"cfg.ml" 236 6225 6259 "cfg.ml" 236 6225 6260
+type(
+  int
+)
+"cfg.ml" 236 6225 6254 "cfg.ml" 236 6225 6260
+type(
+  int
+)
+"cfg.ml" 236 6225 6237 "cfg.ml" 236 6225 6262
+type(
+  ('o3, 'p3, 'q3) pcfg
+)
+"cfg.ml" 236 6225 6229 "cfg.ml" 236 6225 6263
+type(
+  bbid * ('o3, 'p3, 'q3) pcfg
+)
+"cfg.ml" 235 6171 6175 "cfg.ml" 236 6225 6263
+type(
+  bbid * ('o3, 'p3, 'q3) pcfg
+)
+"cfg.ml" 234 6146 6150 "cfg.ml" 236 6225 6263
+type(
+  bbid * ('o3, 'p3, 'q3) pcfg
+)
+"cfg.ml" 238 6265 6271 "cfg.ml" 238 6265 6284
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg ->
+  Lang.lang -> (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg * G.V.t
+)
+ident(
+  def create_vertex "cfg.ml" 244 6412 6414 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 238 6265 6285 "cfg.ml" 238 6265 6286
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  def c "cfg.ml" 238 6265 6287 "cfg.ml" 242 6382 6410
+)
+"cfg.ml" 238 6265 6287 "cfg.ml" 238 6265 6292
+type(
+  Lang.lang
+)
+ident(
+  def stmts "cfg.ml" 239 6295 6299 "cfg.ml" 242 6382 6410
+)
+"cfg.ml" 239 6295 6304 "cfg.ml" 239 6295 6305
+type(
+  bbid
+)
+"cfg.ml" 239 6295 6306 "cfg.ml" 239 6295 6307
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 239 6295 6303 "cfg.ml" 239 6295 6308
+type(
+  bbid * (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 239 6295 6311 "cfg.ml" 239 6295 6316
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg ->
+  bbid * (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref newid "cfg.ml" 233 6130 6136 "cfg.ml" 233 6130 6141
+)
+"cfg.ml" 239 6295 6317 "cfg.ml" 239 6295 6318
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 238 6265 6285 "cfg.ml" 238 6265 6286
+)
+"cfg.ml" 239 6295 6311 "cfg.ml" 239 6295 6318
+call(
+  stack
+)
+type(
+  bbid * (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 240 6322 6330 "cfg.ml" 240 6322 6331
+type(
+  G.V.t
+)
+"cfg.ml" 240 6322 6334 "cfg.ml" 240 6322 6344
+type(
+  G.V.label -> G.V.t
+)
+ident(
+  ext_ref G.V.create
+)
+"cfg.ml" 240 6322 6345 "cfg.ml" 240 6322 6346
+type(
+  G.V.label
+)
+ident(
+  int_ref i "cfg.ml" 239 6295 6304 "cfg.ml" 239 6295 6305
+)
+"cfg.ml" 240 6322 6334 "cfg.ml" 240 6322 6346
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"cfg.ml" 241 6350 6358 "cfg.ml" 241 6350 6359
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 241 6350 6362 "cfg.ml" 241 6350 6374
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg ->
+  G'.vertex -> (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  ext_ref G.add_vertex
+)
+"cfg.ml" 241 6350 6375 "cfg.ml" 241 6350 6376
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 239 6295 6306 "cfg.ml" 239 6295 6307
+)
+"cfg.ml" 241 6350 6377 "cfg.ml" 241 6350 6378
+type(
+  G.V.t
+)
+ident(
+  int_ref v "cfg.ml" 240 6322 6330 "cfg.ml" 240 6322 6331
+)
+"cfg.ml" 241 6350 6362 "cfg.ml" 241 6350 6378
+call(
+  stack
+)
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 242 6382 6387 "cfg.ml" 242 6382 6396
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg ->
+  BM.key -> Lang.lang -> (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref set_stmts "cfg.ml" 217 5412 5418 "cfg.ml" 217 5412 5427
+)
+"cfg.ml" 242 6382 6397 "cfg.ml" 242 6382 6398
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 241 6350 6358 "cfg.ml" 241 6350 6359
+)
+"cfg.ml" 242 6382 6399 "cfg.ml" 242 6382 6400
+type(
+  G.V.t
+)
+ident(
+  int_ref v "cfg.ml" 240 6322 6330 "cfg.ml" 240 6322 6331
+)
+"cfg.ml" 242 6382 6401 "cfg.ml" 242 6382 6406
+type(
+  Lang.lang
+)
+ident(
+  int_ref stmts "cfg.ml" 238 6265 6287 "cfg.ml" 238 6265 6292
+)
+"cfg.ml" 242 6382 6387 "cfg.ml" 242 6382 6406
+call(
+  stack
+)
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg
+)
+"cfg.ml" 242 6382 6408 "cfg.ml" 242 6382 6409
+type(
+  G.V.t
+)
+ident(
+  int_ref v "cfg.ml" 240 6322 6330 "cfg.ml" 240 6322 6331
+)
+"cfg.ml" 242 6382 6386 "cfg.ml" 242 6382 6410
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg * G.V.t
+)
+"cfg.ml" 241 6350 6354 "cfg.ml" 242 6382 6410
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg * G.V.t
+)
+"cfg.ml" 240 6322 6326 "cfg.ml" 242 6382 6410
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg * G.V.t
+)
+"cfg.ml" 239 6295 6299 "cfg.ml" 242 6382 6410
+type(
+  (G'.t, Lang.lang BM.t, BM.key LM.t) pcfg * G.V.t
+)
+"cfg.ml" 244 6412 6418 "cfg.ml" 244 6412 6431
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg ->
+  BM.key -> (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+ident(
+  def remove_vertex "cfg.ml" 253 6649 6651 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 244 6412 6432 "cfg.ml" 244 6412 6433
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+ident(
+  def c "cfg.ml" 244 6412 6434 "cfg.ml" 248 6541 6565
+)
+"cfg.ml" 244 6412 6434 "cfg.ml" 244 6412 6435
+type(
+  BM.key
+)
+ident(
+  def v "cfg.ml" 245 6438 6442 "cfg.ml" 248 6541 6565
+)
+"cfg.ml" 245 6438 6446 "cfg.ml" 245 6438 6447
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+"cfg.ml" 245 6438 6450 "cfg.ml" 245 6438 6463
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg ->
+  BM.key -> (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+ident(
+  int_ref remove_labels "cfg.ml" 212 5295 5301 "cfg.ml" 212 5295 5314
+)
+"cfg.ml" 245 6438 6464 "cfg.ml" 245 6438 6465
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 244 6412 6432 "cfg.ml" 244 6412 6433
+)
+"cfg.ml" 245 6438 6466 "cfg.ml" 245 6438 6467
+type(
+  BM.key
+)
+ident(
+  int_ref v "cfg.ml" 244 6412 6434 "cfg.ml" 244 6412 6435
+)
+"cfg.ml" 245 6438 6450 "cfg.ml" 245 6438 6467
+call(
+  stack
+)
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+"cfg.ml" 246 6471 6479 "cfg.ml" 246 6471 6481
+type(
+  Lang.lang BM.t
+)
+"cfg.ml" 246 6471 6484 "cfg.ml" 246 6471 6493
+type(
+  BM.key -> Lang.lang BM.t -> Lang.lang BM.t
+)
+ident(
+  ext_ref BM.remove
+)
+"cfg.ml" 246 6471 6494 "cfg.ml" 246 6471 6495
+type(
+  BM.key
+)
+ident(
+  int_ref v "cfg.ml" 244 6412 6434 "cfg.ml" 244 6412 6435
+)
+"cfg.ml" 246 6471 6496 "cfg.ml" 246 6471 6497
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 245 6438 6446 "cfg.ml" 245 6438 6447
+)
+"cfg.ml" 246 6471 6496 "cfg.ml" 246 6471 6499
+type(
+  Lang.lang BM.t
+)
+"cfg.ml" 246 6471 6484 "cfg.ml" 246 6471 6499
+call(
+  stack
+)
+type(
+  Lang.lang BM.t
+)
+"cfg.ml" 247 6503 6511 "cfg.ml" 247 6503 6512
+type(
+  G'.t
+)
+"cfg.ml" 247 6503 6515 "cfg.ml" 247 6503 6531
+type(
+  G'.t -> G'.vertex -> G'.t
+)
+ident(
+  ext_ref G'.remove_vertex
+)
+"cfg.ml" 247 6503 6532 "cfg.ml" 247 6503 6533
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 245 6438 6446 "cfg.ml" 245 6438 6447
+)
+"cfg.ml" 247 6503 6532 "cfg.ml" 247 6503 6535
+type(
+  G'.t
+)
+"cfg.ml" 247 6503 6536 "cfg.ml" 247 6503 6537
+type(
+  BM.key
+)
+ident(
+  int_ref v "cfg.ml" 244 6412 6434 "cfg.ml" 244 6412 6435
+)
+"cfg.ml" 247 6503 6515 "cfg.ml" 247 6503 6537
+call(
+  stack
+)
+type(
+  G'.t
+)
+"cfg.ml" 248 6541 6547 "cfg.ml" 248 6541 6548
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+ident(
+  int_ref c "cfg.ml" 245 6438 6446 "cfg.ml" 245 6438 6447
+)
+"cfg.ml" 248 6541 6556 "cfg.ml" 248 6541 6557
+type(
+  G'.t
+)
+ident(
+  int_ref g "cfg.ml" 247 6503 6511 "cfg.ml" 247 6503 6512
+)
+"cfg.ml" 248 6541 6561 "cfg.ml" 248 6541 6563
+type(
+  Lang.lang BM.t
+)
+ident(
+  int_ref sm "cfg.ml" 246 6471 6479 "cfg.ml" 246 6471 6481
+)
+"cfg.ml" 248 6541 6545 "cfg.ml" 248 6541 6565
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+"cfg.ml" 247 6503 6507 "cfg.ml" 248 6541 6565
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+"cfg.ml" 246 6471 6475 "cfg.ml" 248 6541 6565
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+"cfg.ml" 245 6438 6442 "cfg.ml" 248 6541 6565
+type(
+  (G'.t, Lang.lang BM.t, 'r3 LM.t) pcfg
+)
+"cfg.ml" 253 6649 6655 "cfg.ml" 253 6649 6660
+type(
+  unit -> (G'.t, 's3 BM.t, 't3 LM.t) pcfg
+)
+ident(
+  def empty "cfg.ml" 254 6674 6676 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 253 6649 6661 "cfg.ml" 253 6649 6663
+type(
+  unit
+)
+"cfg.ml" 253 6649 6666 "cfg.ml" 253 6649 6673
+type(
+  (G'.t, 's3 BM.t, 't3 LM.t) pcfg
+)
+ident(
+  ext_ref G.empty
+)
+"cfg.ml" 254 6674 6680 "cfg.ml" 254 6674 6684
+type(
+  'u3 -> 'u3
+)
+ident(
+  def copy "cfg.ml" 255 6691 6693 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 254 6674 6685 "cfg.ml" 254 6674 6686
+type(
+  'u3
+)
+ident(
+  def g "cfg.ml" 254 6674 6689 "cfg.ml" 254 6674 6690
+)
+"cfg.ml" 254 6674 6689 "cfg.ml" 254 6674 6690
+type(
+  'u3
+)
+ident(
+  int_ref g "cfg.ml" 254 6674 6685 "cfg.ml" 254 6674 6686
+)
+"cfg.ml" 255 6691 6697 "cfg.ml" 255 6691 6707
+type(
+  (G'.t, 'v3, 'w3) pcfg -> G'.vertex -> (G'.t, 'v3, 'w3) pcfg
+)
+ident(
+  def add_vertex "cfg.ml" 256 6723 6725 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 255 6691 6710 "cfg.ml" 255 6691 6722
+type(
+  (G'.t, 'v3, 'w3) pcfg -> G'.vertex -> (G'.t, 'v3, 'w3) pcfg
+)
+ident(
+  ext_ref G.add_vertex
+)
+"cfg.ml" 256 6723 6729 "cfg.ml" 256 6723 6737
+type(
+  (G'.t, 'x3, 'y3) pcfg -> G'.vertex -> G'.vertex -> (G'.t, 'x3, 'y3) pcfg
+)
+ident(
+  def add_edge "cfg.ml" 257 6751 6753 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 256 6723 6740 "cfg.ml" 256 6723 6750
+type(
+  (G'.t, 'x3, 'y3) pcfg -> G'.vertex -> G'.vertex -> (G'.t, 'x3, 'y3) pcfg
+)
+ident(
+  ext_ref G.add_edge
+)
+"cfg.ml" 257 6751 6757 "cfg.ml" 257 6751 6767
+type(
+  (G'.t, 'z3, 'a4) pcfg -> G'.edge -> (G'.t, 'z3, 'a4) pcfg
+)
+ident(
+  def add_edge_e "cfg.ml" 260 6818 6820 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 257 6751 6770 "cfg.ml" 257 6751 6782
+type(
+  (G'.t, 'z3, 'a4) pcfg -> G'.edge -> (G'.t, 'z3, 'a4) pcfg
+)
+ident(
+  ext_ref G.add_edge_e
+)
+"cfg.ml" 260 6818 6824 "cfg.ml" 260 6818 6835
+type(
+  (G'.t, 'b4, 'c4) pcfg -> G'.vertex -> G'.vertex -> (G'.t, 'b4, 'c4) pcfg
+)
+ident(
+  def remove_edge "cfg.ml" 261 6852 6854 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 260 6818 6838 "cfg.ml" 260 6818 6851
+type(
+  (G'.t, 'b4, 'c4) pcfg -> G'.vertex -> G'.vertex -> (G'.t, 'b4, 'c4) pcfg
+)
+ident(
+  ext_ref G.remove_edge
+)
+"cfg.ml" 261 6852 6858 "cfg.ml" 261 6852 6871
+type(
+  (G'.t, 'd4, 'e4) pcfg -> G'.edge -> (G'.t, 'd4, 'e4) pcfg
+)
+ident(
+  def remove_edge_e "cfg.ml" 263 6891 6893 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 261 6852 6874 "cfg.ml" 261 6852 6889
+type(
+  (G'.t, 'd4, 'e4) pcfg -> G'.edge -> (G'.t, 'd4, 'e4) pcfg
+)
+ident(
+  ext_ref G.remove_edge_e
+)
+"cfg.ml" 263 6891 6897 "cfg.ml" 263 6891 6905
+type(
+  ('f4, 'g4, 'h4) pcfg -> (G'.t, 'g4, 'h4) pcfg
+)
+ident(
+  def copy_map "cfg.ml" 265 6920 6922 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 263 6891 6908 "cfg.ml" 263 6891 6918
+type(
+  ('f4, 'g4, 'h4) pcfg -> (G'.t, 'g4, 'h4) pcfg
+)
+ident(
+  ext_ref G.copy_map
+)
+"cfg.ml" 265 6920 6926 "cfg.ml" 265 6920 6929
+type(
+  G.V.t -> string
+)
+ident(
+  def v2s "cfg.ml" 265 6920 6962 "cfg.ml" 267 6964 6967
+)
+"cfg.ml" 265 6920 6930 "cfg.ml" 265 6920 6931
+type(
+  G.V.t
+)
+ident(
+  def v "cfg.ml" 265 6920 6934 "cfg.ml" 265 6920 6962
+)
+"cfg.ml" 265 6920 6934 "cfg.ml" 265 6920 6948
+type(
+  G.V.label -> string
+)
+ident(
+  int_ref bbid_to_string "cfg.ml" 17 276 280 "cfg.ml" 17 276 294
+)
+"cfg.ml" 265 6920 6950 "cfg.ml" 265 6920 6959
+type(
+  G.V.t -> G.V.label
+)
+ident(
+  ext_ref G.V.label
+)
+"cfg.ml" 265 6920 6960 "cfg.ml" 265 6920 6961
+type(
+  G.V.t
+)
+ident(
+  int_ref v "cfg.ml" 265 6920 6930 "cfg.ml" 265 6920 6931
+)
+"cfg.ml" 265 6920 6949 "cfg.ml" 265 6920 6962
+call(
+  stack
+)
+type(
+  G.V.label
+)
+"cfg.ml" 265 6920 6934 "cfg.ml" 265 6920 6962
+call(
+  tail
+)
+type(
+  string
+)
+"cfg.ml" 277 7122 7128 "cfg.ml" 277 7122 7135
+type(
+  'a list
+)
+ident(
+  def default "cfg.ml" 278 7141 7143 "cfg.ml" 287 7712 7715
+)
+"cfg.ml" 277 7122 7138 "cfg.ml" 277 7122 7140
+type(
+  'a list
+)
+"cfg.ml" 278 7141 7147 "cfg.ml" 278 7141 7151
+type(
+  Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  def join "cfg.ml" 284 7533 7535 "cfg.ml" 287 7712 7715
+)
+"cfg.ml" 278 7141 7152 "cfg.ml" 278 7141 7155
+type(
+  Ast.stmt list
+)
+ident(
+  def sl1 "cfg.ml" 278 7141 7156 "cfg.ml" 283 7499 7532
+)
+"cfg.ml" 278 7141 7156 "cfg.ml" 278 7141 7159
+type(
+  Ast.stmt list
+)
+ident(
+  def sl2 "cfg.ml" 278 7141 7162 "cfg.ml" 283 7499 7532
+)
+"cfg.ml" 278 7141 7168 "cfg.ml" 278 7141 7176
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"cfg.ml" 278 7141 7177 "cfg.ml" 278 7141 7180
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref sl1 "cfg.ml" 278 7141 7152 "cfg.ml" 278 7141 7155
+)
+"cfg.ml" 278 7141 7168 "cfg.ml" 278 7141 7180
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"cfg.ml" 279 7186 7201 "cfg.ml" 279 7186 7202
+type(
+  Ast.exp
+)
+ident(
+  def e "cfg.ml" 279 7186 7215 "cfg.ml" 279 7186 7279
+)
+"cfg.ml" 279 7186 7204 "cfg.ml" 279 7186 7205
+type(
+  Ast.attrs
+)
+"cfg.ml" 279 7186 7200 "cfg.ml" 279 7186 7206
+type(
+  Ast.exp * Ast.attrs
+)
+"cfg.ml" 279 7186 7192 "cfg.ml" 279 7186 7206
+type(
+  Ast.stmt
+)
+"cfg.ml" 279 7186 7210 "cfg.ml" 279 7186 7214
+type(
+  Ast.stmt list
+)
+ident(
+  def sl1' "cfg.ml" 279 7186 7215 "cfg.ml" 279 7186 7279
+)
+"cfg.ml" 279 7186 7192 "cfg.ml" 279 7186 7214
+type(
+  Ast.stmt list
+)
+"cfg.ml" 279 7186 7220 "cfg.ml" 279 7186 7234
+type(
+  Ast.exp -> Type.label option
+)
+ident(
+  ext_ref Ast.lab_of_exp
+)
+"cfg.ml" 279 7186 7235 "cfg.ml" 279 7186 7236
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "cfg.ml" 279 7186 7201 "cfg.ml" 279 7186 7202
+)
+"cfg.ml" 279 7186 7220 "cfg.ml" 279 7186 7236
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"cfg.ml" 279 7186 7237 "cfg.ml" 279 7186 7239
+type(
+  Type.label option -> Type.label option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"cfg.ml" 279 7186 7240 "cfg.ml" 279 7186 7244
+type(
+  Type.label option
+)
+"cfg.ml" 279 7186 7220 "cfg.ml" 279 7186 7244
+type(
+  bool
+)
+"cfg.ml" 279 7186 7248 "cfg.ml" 279 7186 7259
+type(
+  Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.append
+)
+"cfg.ml" 279 7186 7261 "cfg.ml" 279 7186 7269
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"cfg.ml" 279 7186 7270 "cfg.ml" 279 7186 7274
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref sl1' "cfg.ml" 279 7186 7210 "cfg.ml" 279 7186 7214
+)
+"cfg.ml" 279 7186 7260 "cfg.ml" 279 7186 7275
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"cfg.ml" 279 7186 7276 "cfg.ml" 279 7186 7279
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref sl2 "cfg.ml" 278 7141 7156 "cfg.ml" 278 7141 7159
+)
+"cfg.ml" 279 7186 7248 "cfg.ml" 279 7186 7279
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"cfg.ml" 279 7186 7215 "cfg.ml" 279 7186 7279
+type(
+  Ast.stmt list
+)
+"cfg.ml" 280 7280 7295 "cfg.ml" 280 7280 7296
+type(
+  Ast.exp * Ast.attrs
+)
+"cfg.ml" 280 7280 7287 "cfg.ml" 280 7280 7296
+type(
+  Ast.stmt
+)
+"cfg.ml" 280 7280 7286 "cfg.ml" 280 7280 7304
+type(
+  Ast.stmt
+)
+ident(
+  def jmp "cfg.ml" 281 7316 7322 "cfg.ml" 282 7453 7498
+)
+"cfg.ml" 280 7280 7308 "cfg.ml" 280 7280 7312
+type(
+  Ast.stmt list
+)
+ident(
+  def sl1' "cfg.ml" 281 7316 7322 "cfg.ml" 282 7453 7498
+)
+"cfg.ml" 280 7280 7286 "cfg.ml" 280 7280 7312
+type(
+  Ast.stmt list
+)
+"cfg.ml" 281 7316 7326 "cfg.ml" 281 7316 7327
+type(
+  Ast.stmt
+)
+"cfg.ml" 281 7316 7342 "cfg.ml" 281 7316 7356
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"cfg.ml" 281 7316 7357 "cfg.ml" 281 7316 7407
+type(
+  (string -> string, unit, string) format
+)
+"cfg.ml" 281 7316 7409 "cfg.ml" 281 7316 7430
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"cfg.ml" 281 7316 7431 "cfg.ml" 281 7316 7434
+type(
+  Ast.stmt
+)
+ident(
+  int_ref jmp "cfg.ml" 280 7280 7286 "cfg.ml" 280 7280 7304
+)
+"cfg.ml" 281 7316 7408 "cfg.ml" 281 7316 7435
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 281 7316 7342 "cfg.ml" 281 7316 7435
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 281 7316 7438 "cfg.ml" 281 7316 7447
+type(
+  Type.attribute
+)
+"cfg.ml" 281 7316 7437 "cfg.ml" 281 7316 7448
+type(
+  Ast.attrs
+)
+"cfg.ml" 281 7316 7341 "cfg.ml" 281 7316 7449
+type(
+  string * Ast.attrs
+)
+"cfg.ml" 281 7316 7330 "cfg.ml" 281 7316 7449
+type(
+  Ast.stmt
+)
+"cfg.ml" 282 7453 7459 "cfg.ml" 282 7453 7473
+type(
+  Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatList.append
+)
+"cfg.ml" 282 7453 7475 "cfg.ml" 282 7453 7483
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"cfg.ml" 282 7453 7485 "cfg.ml" 282 7453 7486
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "cfg.ml" 281 7316 7326 "cfg.ml" 281 7316 7327
+)
+"cfg.ml" 282 7453 7488 "cfg.ml" 282 7453 7492
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref sl1' "cfg.ml" 280 7280 7308 "cfg.ml" 280 7280 7312
+)
+"cfg.ml" 282 7453 7484 "cfg.ml" 282 7453 7493
+type(
+  Ast.stmt list
+)
+"cfg.ml" 282 7453 7474 "cfg.ml" 282 7453 7494
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"cfg.ml" 282 7453 7495 "cfg.ml" 282 7453 7498
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref sl2 "cfg.ml" 278 7141 7156 "cfg.ml" 278 7141 7159
+)
+"cfg.ml" 282 7453 7459 "cfg.ml" 282 7453 7498
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"cfg.ml" 281 7316 7322 "cfg.ml" 282 7453 7498
+type(
+  Ast.stmt list
+)
+"cfg.ml" 283 7499 7505 "cfg.ml" 283 7499 7506
+type(
+  Ast.stmt list
+)
+"cfg.ml" 283 7499 7510 "cfg.ml" 283 7499 7524
+type(
+  Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatList.append
+)
+"cfg.ml" 283 7499 7525 "cfg.ml" 283 7499 7528
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref sl1 "cfg.ml" 278 7141 7152 "cfg.ml" 278 7141 7155
+)
+"cfg.ml" 283 7499 7529 "cfg.ml" 283 7499 7532
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref sl2 "cfg.ml" 278 7141 7156 "cfg.ml" 278 7141 7159
+)
+"cfg.ml" 283 7499 7510 "cfg.ml" 283 7499 7532
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"cfg.ml" 278 7141 7162 "cfg.ml" 283 7499 7532
+type(
+  Ast.stmt list
+)
+"cfg.ml" 284 7533 7539 "cfg.ml" 284 7533 7550
+type(
+  (Type.label -> unit) -> Ast.stmt list -> unit
+)
+ident(
+  def iter_labels "cfg.ml" 286 7615 7617 "cfg.ml" 287 7712 7715
+)
+"cfg.ml" 284 7533 7551 "cfg.ml" 284 7533 7552
+type(
+  Type.label -> unit
+)
+ident(
+  def f "cfg.ml" 285 7555 7559 "cfg.ml" 285 7555 7614
+)
+"cfg.ml" 285 7555 7559 "cfg.ml" 285 7555 7568
+type(
+  (Ast.stmt -> unit) -> Ast.stmt list -> unit
+)
+ident(
+  ext_ref BatListFull.List.iter
+)
+"cfg.ml" 285 7555 7589 "cfg.ml" 285 7555 7590
+type(
+  Type.label
+)
+ident(
+  def l "cfg.ml" 285 7555 7598 "cfg.ml" 285 7555 7601
+)
+"cfg.ml" 285 7555 7592 "cfg.ml" 285 7555 7593
+type(
+  Ast.attrs
+)
+"cfg.ml" 285 7555 7588 "cfg.ml" 285 7555 7594
+type(
+  Type.label * Ast.attrs
+)
+"cfg.ml" 285 7555 7579 "cfg.ml" 285 7555 7594
+type(
+  Ast.stmt
+)
+"cfg.ml" 285 7555 7598 "cfg.ml" 285 7555 7599
+type(
+  Type.label -> unit
+)
+ident(
+  int_ref f "cfg.ml" 284 7533 7551 "cfg.ml" 284 7533 7552
+)
+"cfg.ml" 285 7555 7600 "cfg.ml" 285 7555 7601
+type(
+  Type.label
+)
+ident(
+  int_ref l "cfg.ml" 285 7555 7589 "cfg.ml" 285 7555 7590
+)
+"cfg.ml" 285 7555 7598 "cfg.ml" 285 7555 7601
+call(
+  tail
+)
+type(
+  unit
+)
+"cfg.ml" 285 7555 7605 "cfg.ml" 285 7555 7606
+type(
+  Ast.stmt
+)
+"cfg.ml" 285 7555 7610 "cfg.ml" 285 7555 7612
+type(
+  unit
+)
+"cfg.ml" 285 7555 7569 "cfg.ml" 285 7555 7614
+type(
+  Ast.stmt -> unit
+)
+"cfg.ml" 285 7555 7559 "cfg.ml" 285 7555 7614
+call(
+  tail
+)
+type(
+  Ast.stmt list -> unit
+)
+"cfg.ml" 286 7615 7621 "cfg.ml" 286 7615 7630
+type(
+  Ast.stmt list -> string
+)
+ident(
+  def to_string "cfg.ml" 286 7615 7711 "cfg.ml" 287 7712 7715
+)
+"cfg.ml" 286 7615 7631 "cfg.ml" 286 7615 7636
+type(
+  Ast.stmt list
+)
+ident(
+  def stmts "cfg.ml" 286 7615 7639 "cfg.ml" 286 7615 7711
+)
+"cfg.ml" 286 7615 7639 "cfg.ml" 286 7615 7653
+type(
+  (string -> Ast.stmt -> string) -> string -> Ast.stmt list -> string
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"cfg.ml" 286 7615 7659 "cfg.ml" 286 7615 7662
+type(
+  string
+)
+ident(
+  def acc "cfg.ml" 286 7615 7663 "cfg.ml" 286 7615 7701
+)
+"cfg.ml" 286 7615 7663 "cfg.ml" 286 7615 7664
+type(
+  Ast.stmt
+)
+ident(
+  def s "cfg.ml" 286 7615 7668 "cfg.ml" 286 7615 7701
+)
+"cfg.ml" 286 7615 7668 "cfg.ml" 286 7615 7671
+type(
+  string
+)
+ident(
+  int_ref acc "cfg.ml" 286 7615 7659 "cfg.ml" 286 7615 7662
+)
+"cfg.ml" 286 7615 7671 "cfg.ml" 286 7615 7672
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cfg.ml" 286 7615 7672 "cfg.ml" 286 7615 7675
+type(
+  string
+)
+"cfg.ml" 286 7615 7675 "cfg.ml" 286 7615 7676
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cfg.ml" 286 7615 7677 "cfg.ml" 286 7615 7698
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"cfg.ml" 286 7615 7699 "cfg.ml" 286 7615 7700
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "cfg.ml" 286 7615 7663 "cfg.ml" 286 7615 7664
+)
+"cfg.ml" 286 7615 7676 "cfg.ml" 286 7615 7701
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 286 7615 7672 "cfg.ml" 286 7615 7701
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 286 7615 7668 "cfg.ml" 286 7615 7701
+call(
+  tail
+)
+type(
+  string
+)
+"cfg.ml" 286 7615 7654 "cfg.ml" 286 7615 7702
+type(
+  string -> Ast.stmt -> string
+)
+"cfg.ml" 286 7615 7703 "cfg.ml" 286 7615 7705
+type(
+  string
+)
+"cfg.ml" 286 7615 7706 "cfg.ml" 286 7615 7711
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref stmts "cfg.ml" 286 7615 7631 "cfg.ml" 286 7615 7636
+)
+"cfg.ml" 286 7615 7639 "cfg.ml" 286 7615 7711
+call(
+  tail
+)
+type(
+  string
+)
+"cfg.ml" 294 7813 7819 "cfg.ml" 294 7813 7826
+type(
+  'a list
+)
+ident(
+  def default "cfg.ml" 295 7832 7834 "cfg.ml" 309 8530 8533
+)
+"cfg.ml" 294 7813 7829 "cfg.ml" 294 7813 7831
+type(
+  'a list
+)
+"cfg.ml" 295 7832 7838 "cfg.ml" 295 7832 7842
+type(
+  Ssa.stmt list -> Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  def join "cfg.ml" 301 8224 8226 "cfg.ml" 309 8530 8533
+)
+"cfg.ml" 295 7832 7843 "cfg.ml" 295 7832 7846
+type(
+  Ssa.stmt list
+)
+ident(
+  def sl1 "cfg.ml" 295 7832 7847 "cfg.ml" 300 8190 8223
+)
+"cfg.ml" 295 7832 7847 "cfg.ml" 295 7832 7850
+type(
+  Ssa.stmt list
+)
+ident(
+  def sl2 "cfg.ml" 295 7832 7853 "cfg.ml" 300 8190 8223
+)
+"cfg.ml" 295 7832 7859 "cfg.ml" 295 7832 7867
+type(
+  Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"cfg.ml" 295 7832 7868 "cfg.ml" 295 7832 7871
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref sl1 "cfg.ml" 295 7832 7843 "cfg.ml" 295 7832 7846
+)
+"cfg.ml" 295 7832 7859 "cfg.ml" 295 7832 7871
+call(
+  stack
+)
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 296 7877 7892 "cfg.ml" 296 7877 7893
+type(
+  Ssa.exp
+)
+ident(
+  def e "cfg.ml" 296 7877 7906 "cfg.ml" 296 7877 7970
+)
+"cfg.ml" 296 7877 7895 "cfg.ml" 296 7877 7896
+type(
+  Ssa.attrs
+)
+"cfg.ml" 296 7877 7883 "cfg.ml" 296 7877 7897
+type(
+  Ssa.stmt
+)
+"cfg.ml" 296 7877 7901 "cfg.ml" 296 7877 7905
+type(
+  Ssa.stmt list
+)
+ident(
+  def sl1' "cfg.ml" 296 7877 7906 "cfg.ml" 296 7877 7970
+)
+"cfg.ml" 296 7877 7883 "cfg.ml" 296 7877 7905
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 296 7877 7911 "cfg.ml" 296 7877 7925
+type(
+  Ssa.exp -> Type.label option
+)
+ident(
+  ext_ref Ssa.lab_of_exp
+)
+"cfg.ml" 296 7877 7926 "cfg.ml" 296 7877 7927
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "cfg.ml" 296 7877 7892 "cfg.ml" 296 7877 7893
+)
+"cfg.ml" 296 7877 7911 "cfg.ml" 296 7877 7927
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"cfg.ml" 296 7877 7928 "cfg.ml" 296 7877 7930
+type(
+  Type.label option -> Type.label option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"cfg.ml" 296 7877 7931 "cfg.ml" 296 7877 7935
+type(
+  Type.label option
+)
+"cfg.ml" 296 7877 7911 "cfg.ml" 296 7877 7935
+type(
+  bool
+)
+"cfg.ml" 296 7877 7939 "cfg.ml" 296 7877 7950
+type(
+  Ssa.stmt list -> Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  ext_ref BatListFull.List.append
+)
+"cfg.ml" 296 7877 7952 "cfg.ml" 296 7877 7960
+type(
+  Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"cfg.ml" 296 7877 7961 "cfg.ml" 296 7877 7965
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref sl1' "cfg.ml" 296 7877 7901 "cfg.ml" 296 7877 7905
+)
+"cfg.ml" 296 7877 7951 "cfg.ml" 296 7877 7966
+call(
+  stack
+)
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 296 7877 7967 "cfg.ml" 296 7877 7970
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref sl2 "cfg.ml" 295 7832 7847 "cfg.ml" 295 7832 7850
+)
+"cfg.ml" 296 7877 7939 "cfg.ml" 296 7877 7970
+call(
+  tail
+)
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 296 7877 7906 "cfg.ml" 296 7877 7970
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 297 7971 7986 "cfg.ml" 297 7971 7987
+type(
+  Ssa.attrs
+)
+type(
+  Ssa.exp
+)
+"cfg.ml" 297 7971 7978 "cfg.ml" 297 7971 7987
+type(
+  Ssa.stmt
+)
+"cfg.ml" 297 7971 7977 "cfg.ml" 297 7971 7995
+type(
+  Ssa.stmt
+)
+ident(
+  def jmp "cfg.ml" 298 8007 8013 "cfg.ml" 299 8144 8189
+)
+"cfg.ml" 297 7971 7999 "cfg.ml" 297 7971 8003
+type(
+  Ssa.stmt list
+)
+ident(
+  def sl1' "cfg.ml" 298 8007 8013 "cfg.ml" 299 8144 8189
+)
+"cfg.ml" 297 7971 7977 "cfg.ml" 297 7971 8003
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 298 8007 8017 "cfg.ml" 298 8007 8018
+type(
+  Ssa.stmt
+)
+"cfg.ml" 298 8007 8033 "cfg.ml" 298 8007 8047
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"cfg.ml" 298 8007 8048 "cfg.ml" 298 8007 8098
+type(
+  (string -> string, unit, string) format
+)
+"cfg.ml" 298 8007 8100 "cfg.ml" 298 8007 8121
+type(
+  Ssa.stmt -> string
+)
+ident(
+  ext_ref Pp.ssa_stmt_to_string
+)
+"cfg.ml" 298 8007 8122 "cfg.ml" 298 8007 8125
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref jmp "cfg.ml" 297 7971 7977 "cfg.ml" 297 7971 7995
+)
+"cfg.ml" 298 8007 8099 "cfg.ml" 298 8007 8126
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 298 8007 8033 "cfg.ml" 298 8007 8126
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 298 8007 8129 "cfg.ml" 298 8007 8138
+type(
+  Type.attribute
+)
+"cfg.ml" 298 8007 8128 "cfg.ml" 298 8007 8139
+type(
+  Ssa.attrs
+)
+"cfg.ml" 298 8007 8021 "cfg.ml" 298 8007 8140
+type(
+  Ssa.stmt
+)
+"cfg.ml" 299 8144 8150 "cfg.ml" 299 8144 8164
+type(
+  Ssa.stmt list -> Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  ext_ref BatList.append
+)
+"cfg.ml" 299 8144 8166 "cfg.ml" 299 8144 8174
+type(
+  Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"cfg.ml" 299 8144 8176 "cfg.ml" 299 8144 8177
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref s "cfg.ml" 298 8007 8017 "cfg.ml" 298 8007 8018
+)
+"cfg.ml" 299 8144 8179 "cfg.ml" 299 8144 8183
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref sl1' "cfg.ml" 297 7971 7999 "cfg.ml" 297 7971 8003
+)
+"cfg.ml" 299 8144 8175 "cfg.ml" 299 8144 8184
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 299 8144 8165 "cfg.ml" 299 8144 8185
+call(
+  stack
+)
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 299 8144 8186 "cfg.ml" 299 8144 8189
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref sl2 "cfg.ml" 295 7832 7847 "cfg.ml" 295 7832 7850
+)
+"cfg.ml" 299 8144 8150 "cfg.ml" 299 8144 8189
+call(
+  tail
+)
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 298 8007 8013 "cfg.ml" 299 8144 8189
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 300 8190 8196 "cfg.ml" 300 8190 8197
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 300 8190 8201 "cfg.ml" 300 8190 8215
+type(
+  Ssa.stmt list -> Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  ext_ref BatList.append
+)
+"cfg.ml" 300 8190 8216 "cfg.ml" 300 8190 8219
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref sl1 "cfg.ml" 295 7832 7843 "cfg.ml" 295 7832 7846
+)
+"cfg.ml" 300 8190 8220 "cfg.ml" 300 8190 8223
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref sl2 "cfg.ml" 295 7832 7847 "cfg.ml" 295 7832 7850
+)
+"cfg.ml" 300 8190 8201 "cfg.ml" 300 8190 8223
+call(
+  tail
+)
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 295 7832 7853 "cfg.ml" 300 8190 8223
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 301 8224 8230 "cfg.ml" 301 8224 8241
+type(
+  (Type.label -> 'b) -> Ssa.stmt list -> unit
+)
+ident(
+  def iter_labels "cfg.ml" 308 8433 8435 "cfg.ml" 309 8530 8533
+)
+"cfg.ml" 301 8224 8242 "cfg.ml" 301 8224 8243
+type(
+  Type.label -> 'b
+)
+ident(
+  def f "cfg.ml" 303 8305 8309 "cfg.ml" 307 8424 8432
+)
+"cfg.ml" 303 8305 8317 "cfg.ml" 303 8305 8318
+type(
+  Ssa.stmt list -> unit
+)
+"cfg.ml" 304 8330 8348 "cfg.ml" 304 8330 8349
+type(
+  Type.label
+)
+ident(
+  def l "cfg.ml" 304 8330 8362 "cfg.ml" 304 8330 8371
+)
+"cfg.ml" 304 8330 8350 "cfg.ml" 304 8330 8351
+type(
+  Ssa.attrs
+)
+"cfg.ml" 304 8330 8338 "cfg.ml" 304 8330 8352
+type(
+  Ssa.stmt
+)
+"cfg.ml" 304 8330 8356 "cfg.ml" 304 8330 8358
+type(
+  Ssa.stmt list
+)
+ident(
+  def xs "cfg.ml" 304 8330 8362 "cfg.ml" 304 8330 8371
+)
+"cfg.ml" 304 8330 8338 "cfg.ml" 304 8330 8358
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 304 8330 8362 "cfg.ml" 304 8330 8363
+type(
+  Type.label -> 'b
+)
+ident(
+  int_ref f "cfg.ml" 301 8224 8242 "cfg.ml" 301 8224 8243
+)
+"cfg.ml" 304 8330 8364 "cfg.ml" 304 8330 8365
+type(
+  Type.label
+)
+ident(
+  int_ref l "cfg.ml" 304 8330 8348 "cfg.ml" 304 8330 8349
+)
+"cfg.ml" 304 8330 8362 "cfg.ml" 304 8330 8365
+call(
+  stack
+)
+type(
+  'b
+)
+"cfg.ml" 304 8330 8367 "cfg.ml" 304 8330 8368
+type(
+  Ssa.stmt list -> unit
+)
+ident(
+  int_ref g "cfg.ml" 303 8305 8317 "cfg.ml" 303 8305 8318
+)
+"cfg.ml" 304 8330 8369 "cfg.ml" 304 8330 8371
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref xs "cfg.ml" 304 8330 8356 "cfg.ml" 304 8330 8358
+)
+"cfg.ml" 304 8330 8367 "cfg.ml" 304 8330 8371
+call(
+  tail
+)
+type(
+  unit
+)
+"cfg.ml" 304 8330 8362 "cfg.ml" 304 8330 8371
+type(
+  unit
+)
+"cfg.ml" 305 8372 8392 "cfg.ml" 305 8372 8393
+type(
+  Ssa.attrs
+)
+type(
+  string
+)
+"cfg.ml" 305 8372 8380 "cfg.ml" 305 8372 8393
+type(
+  Ssa.stmt
+)
+"cfg.ml" 305 8372 8397 "cfg.ml" 305 8372 8399
+type(
+  Ssa.stmt list
+)
+ident(
+  def xs "cfg.ml" 305 8372 8403 "cfg.ml" 305 8372 8407
+)
+"cfg.ml" 305 8372 8380 "cfg.ml" 305 8372 8399
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 305 8372 8403 "cfg.ml" 305 8372 8404
+type(
+  Ssa.stmt list -> unit
+)
+ident(
+  int_ref g "cfg.ml" 303 8305 8317 "cfg.ml" 303 8305 8318
+)
+"cfg.ml" 305 8372 8405 "cfg.ml" 305 8372 8407
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref xs "cfg.ml" 305 8372 8397 "cfg.ml" 305 8372 8399
+)
+"cfg.ml" 305 8372 8403 "cfg.ml" 305 8372 8407
+call(
+  tail
+)
+type(
+  unit
+)
+"cfg.ml" 306 8408 8416 "cfg.ml" 306 8408 8417
+type(
+  Ssa.stmt list
+)
+"cfg.ml" 306 8408 8421 "cfg.ml" 306 8408 8423
+type(
+  unit
+)
+"cfg.ml" 303 8305 8321 "cfg.ml" 306 8408 8423
+type(
+  Ssa.stmt list -> unit
+)
+"cfg.ml" 307 8424 8431 "cfg.ml" 307 8424 8432
+type(
+  Ssa.stmt list -> unit
+)
+ident(
+  int_ref g "cfg.ml" 303 8305 8317 "cfg.ml" 303 8305 8318
+)
+"cfg.ml" 303 8305 8309 "cfg.ml" 307 8424 8432
+type(
+  Ssa.stmt list -> unit
+)
+"cfg.ml" 308 8433 8439 "cfg.ml" 308 8433 8448
+type(
+  Ssa.stmt list -> string
+)
+ident(
+  def to_string "cfg.ml" 308 8433 8529 "cfg.ml" 309 8530 8533
+)
+"cfg.ml" 308 8433 8449 "cfg.ml" 308 8433 8454
+type(
+  Ssa.stmt list
+)
+ident(
+  def stmts "cfg.ml" 308 8433 8457 "cfg.ml" 308 8433 8529
+)
+"cfg.ml" 308 8433 8457 "cfg.ml" 308 8433 8471
+type(
+  (string -> Ssa.stmt -> string) -> string -> Ssa.stmt list -> string
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"cfg.ml" 308 8433 8477 "cfg.ml" 308 8433 8480
+type(
+  string
+)
+ident(
+  def acc "cfg.ml" 308 8433 8481 "cfg.ml" 308 8433 8519
+)
+"cfg.ml" 308 8433 8481 "cfg.ml" 308 8433 8482
+type(
+  Ssa.stmt
+)
+ident(
+  def s "cfg.ml" 308 8433 8486 "cfg.ml" 308 8433 8519
+)
+"cfg.ml" 308 8433 8486 "cfg.ml" 308 8433 8489
+type(
+  string
+)
+ident(
+  int_ref acc "cfg.ml" 308 8433 8477 "cfg.ml" 308 8433 8480
+)
+"cfg.ml" 308 8433 8489 "cfg.ml" 308 8433 8490
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cfg.ml" 308 8433 8490 "cfg.ml" 308 8433 8493
+type(
+  string
+)
+"cfg.ml" 308 8433 8493 "cfg.ml" 308 8433 8494
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cfg.ml" 308 8433 8495 "cfg.ml" 308 8433 8516
+type(
+  Ssa.stmt -> string
+)
+ident(
+  ext_ref Pp.ssa_stmt_to_string
+)
+"cfg.ml" 308 8433 8517 "cfg.ml" 308 8433 8518
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref s "cfg.ml" 308 8433 8481 "cfg.ml" 308 8433 8482
+)
+"cfg.ml" 308 8433 8494 "cfg.ml" 308 8433 8519
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 308 8433 8490 "cfg.ml" 308 8433 8519
+call(
+  stack
+)
+type(
+  string
+)
+"cfg.ml" 308 8433 8486 "cfg.ml" 308 8433 8519
+call(
+  tail
+)
+type(
+  string
+)
+"cfg.ml" 308 8433 8472 "cfg.ml" 308 8433 8520
+type(
+  string -> Ssa.stmt -> string
+)
+"cfg.ml" 308 8433 8521 "cfg.ml" 308 8433 8523
+type(
+  string
+)
+"cfg.ml" 308 8433 8524 "cfg.ml" 308 8433 8529
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref stmts "cfg.ml" 308 8433 8449 "cfg.ml" 308 8433 8454
+)
+"cfg.ml" 308 8433 8457 "cfg.ml" 308 8433 8529
+call(
+  tail
+)
+type(
+  string
+)
+"cfg.ml" 311 8535 8548 "cfg.ml" 311 8535 8561
+call(
+  stack
+)
+"cfg.ml" 312 8562 8575 "cfg.ml" 312 8562 8588
+call(
+  stack
+)
+"cfg.ml" 335 9063 9077 "cfg.ml" 335 9063 9092
+call(
+  stack
+)
+"cfg.ml" 336 9093 9107 "cfg.ml" 336 9093 9122
+call(
+  stack
+)
+"cfg.ml" 337 9123 9129 "cfg.ml" 337 9123 9132
+type(
+  (A.lang -> B.lang) ->
+  (A.exp -> B.exp) ->
+  (A.G'.t, A.lang BM.t, A.G'.V.t LM.t) pcfg ->
+  (B.G'.t, B.lang BM.t, B.G'.V.t LM.t) pcfg * (VM.key -> A.G.vertex) *
+  (EM.key -> A.G.edge)
+)
+ident(
+  def map "cfg.ml" 357 9864 9939 "cfg.ml" 358 9940 9943
+)
+"cfg.ml" 337 9123 9133 "cfg.ml" 337 9123 9143
+type(
+  A.lang -> B.lang
+)
+ident(
+  def conv_stmts "cfg.ml" 337 9123 9144 "cfg.ml" 357 9864 9939
+)
+"cfg.ml" 337 9123 9144 "cfg.ml" 337 9123 9152
+type(
+  A.exp -> B.exp
+)
+ident(
+  def conv_exp "cfg.ml" 337 9123 9153 "cfg.ml" 357 9864 9939
+)
+"cfg.ml" 337 9123 9162 "cfg.ml" 337 9123 9163
+type(
+  int
+)
+ident(
+  def n "cfg.ml" 338 9175 9179 "cfg.ml" 357 9864 9939
+)
+"cfg.ml" 337 9123 9154 "cfg.ml" 337 9123 9164
+type(
+  (A.G'.t, A.lang BM.t, A.G'.V.t LM.t) pcfg
+)
+"cfg.ml" 337 9123 9153 "cfg.ml" 337 9123 9172
+type(
+  (A.G'.t, A.lang BM.t, A.G'.V.t LM.t) pcfg
+)
+ident(
+  def cfg "cfg.ml" 338 9175 9179 "cfg.ml" 357 9864 9939
+)
+"cfg.ml" 338 9175 9183 "cfg.ml" 338 9175 9184
+type(
+  B.G.t
+)
+"cfg.ml" 338 9175 9187 "cfg.ml" 338 9175 9194
+type(
+  unit -> B.G.t
+)
+ident(
+  ext_ref B.empty
+)
+"cfg.ml" 338 9175 9194 "cfg.ml" 338 9175 9196
+type(
+  unit
+)
+"cfg.ml" 338 9175 9187 "cfg.ml" 338 9175 9196
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"cfg.ml" 339 9200 9208 "cfg.ml" 339 9200 9209
+type(
+  A.G.V.t -> B.G.V.t
+)
+"cfg.ml" 339 9200 9210 "cfg.ml" 339 9200 9216
+type(
+  A.G.V.t
+)
+ident(
+  def vertex "cfg.ml" 339 9200 9219 "cfg.ml" 339 9200 9252
+)
+"cfg.ml" 339 9200 9219 "cfg.ml" 339 9200 9231
+type(
+  B.G.V.label -> B.G.V.t
+)
+ident(
+  ext_ref B.G.V.create
+)
+"cfg.ml" 339 9200 9233 "cfg.ml" 339 9200 9244
+type(
+  A.G.V.t -> A.G.V.label
+)
+ident(
+  ext_ref A.G.V.label
+)
+"cfg.ml" 339 9200 9245 "cfg.ml" 339 9200 9251
+type(
+  A.G.V.t
+)
+ident(
+  int_ref vertex "cfg.ml" 339 9200 9210 "cfg.ml" 339 9200 9216
+)
+"cfg.ml" 339 9200 9232 "cfg.ml" 339 9200 9252
+call(
+  stack
+)
+type(
+  A.G.V.label
+)
+"cfg.ml" 339 9200 9219 "cfg.ml" 339 9200 9252
+call(
+  tail
+)
+type(
+  B.G.V.t
+)
+"cfg.ml" 340 9256 9264 "cfg.ml" 340 9256 9272
+type(
+  A.G.E.t -> B.G.t * A.G.E.t EM.t -> B.G.t * A.G.E.t EM.t
+)
+"cfg.ml" 340 9256 9273 "cfg.ml" 340 9256 9274
+type(
+  A.G.E.t
+)
+ident(
+  def e "cfg.ml" 340 9256 9275 "cfg.ml" 347 9514 9541
+)
+"cfg.ml" 340 9256 9276 "cfg.ml" 340 9256 9277
+type(
+  B.G.t
+)
+ident(
+  def g "cfg.ml" 341 9285 9291 "cfg.ml" 347 9514 9541
+)
+"cfg.ml" 340 9256 9279 "cfg.ml" 340 9256 9281
+type(
+  A.G.E.t EM.t
+)
+ident(
+  def em "cfg.ml" 341 9285 9291 "cfg.ml" 347 9514 9541
+)
+"cfg.ml" 340 9256 9275 "cfg.ml" 340 9256 9282
+type(
+  B.G.t * A.G.E.t EM.t
+)
+"cfg.ml" 341 9285 9295 "cfg.ml" 341 9285 9302
+type(
+  (bool option * B.exp) option
+)
+"cfg.ml" 341 9285 9311 "cfg.ml" 341 9285 9322
+type(
+  A.G.E.t -> A.G.E.label
+)
+ident(
+  ext_ref A.G.E.label
+)
+"cfg.ml" 341 9285 9323 "cfg.ml" 341 9285 9324
+type(
+  A.G.E.t
+)
+ident(
+  int_ref e "cfg.ml" 340 9256 9273 "cfg.ml" 340 9256 9274
+)
+"cfg.ml" 341 9285 9311 "cfg.ml" 341 9285 9324
+call(
+  stack
+)
+type(
+  A.G.E.label
+)
+"cfg.ml" 342 9330 9345 "cfg.ml" 342 9330 9346
+type(
+  bool option
+)
+ident(
+  def b "cfg.ml" 342 9330 9354 "cfg.ml" 342 9330 9373
+)
+"cfg.ml" 342 9330 9348 "cfg.ml" 342 9330 9349
+type(
+  A.exp
+)
+ident(
+  def e "cfg.ml" 342 9330 9354 "cfg.ml" 342 9330 9373
+)
+"cfg.ml" 342 9330 9344 "cfg.ml" 342 9330 9350
+type(
+  bool option * A.exp
+)
+"cfg.ml" 342 9330 9340 "cfg.ml" 342 9330 9350
+type(
+  A.G.E.label
+)
+"cfg.ml" 342 9330 9359 "cfg.ml" 342 9330 9360
+type(
+  bool option
+)
+ident(
+  int_ref b "cfg.ml" 342 9330 9345 "cfg.ml" 342 9330 9346
+)
+"cfg.ml" 342 9330 9362 "cfg.ml" 342 9330 9370
+type(
+  A.exp -> B.exp
+)
+ident(
+  int_ref conv_exp "cfg.ml" 337 9123 9144 "cfg.ml" 337 9123 9152
+)
+"cfg.ml" 342 9330 9371 "cfg.ml" 342 9330 9372
+type(
+  A.exp
+)
+ident(
+  int_ref e "cfg.ml" 342 9330 9348 "cfg.ml" 342 9330 9349
+)
+"cfg.ml" 342 9330 9362 "cfg.ml" 342 9330 9372
+call(
+  stack
+)
+type(
+  B.exp
+)
+"cfg.ml" 342 9330 9358 "cfg.ml" 342 9330 9373
+type(
+  bool option * B.exp
+)
+"cfg.ml" 342 9330 9354 "cfg.ml" 342 9330 9373
+type(
+  (bool option * B.exp) option
+)
+"cfg.ml" 343 9374 9384 "cfg.ml" 343 9374 9388
+type(
+  A.G.E.label
+)
+"cfg.ml" 343 9374 9392 "cfg.ml" 343 9374 9396
+type(
+  (bool option * B.exp) option
+)
+"cfg.ml" 341 9285 9305 "cfg.ml" 343 9374 9396
+type(
+  (bool option * B.exp) option
+)
+"cfg.ml" 345 9406 9416 "cfg.ml" 345 9406 9418
+type(
+  B.G.E.t
+)
+"cfg.ml" 345 9406 9421 "cfg.ml" 345 9406 9433
+type(
+  B.G.E.vertex -> B.G.E.label -> B.G.E.vertex -> B.G.E.t
+)
+ident(
+  ext_ref B.G.E.create
+)
+"cfg.ml" 345 9406 9435 "cfg.ml" 345 9406 9436
+type(
+  A.G.E.vertex -> B.G.E.vertex
+)
+ident(
+  int_ref t "cfg.ml" 339 9200 9208 "cfg.ml" 339 9200 9209
+)
+"cfg.ml" 345 9406 9438 "cfg.ml" 345 9406 9447
+type(
+  A.G.E.t -> A.G.E.vertex
+)
+ident(
+  ext_ref A.G.E.src
+)
+"cfg.ml" 345 9406 9448 "cfg.ml" 345 9406 9449
+type(
+  A.G.E.t
+)
+ident(
+  int_ref e "cfg.ml" 340 9256 9273 "cfg.ml" 340 9256 9274
+)
+"cfg.ml" 345 9406 9437 "cfg.ml" 345 9406 9450
+call(
+  stack
+)
+type(
+  A.G.E.vertex
+)
+"cfg.ml" 345 9406 9434 "cfg.ml" 345 9406 9451
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"cfg.ml" 345 9406 9452 "cfg.ml" 345 9406 9459
+type(
+  B.G.E.label
+)
+ident(
+  int_ref new_lab "cfg.ml" 341 9285 9295 "cfg.ml" 341 9285 9302
+)
+"cfg.ml" 345 9406 9461 "cfg.ml" 345 9406 9462
+type(
+  A.G.E.vertex -> B.G.E.vertex
+)
+ident(
+  int_ref t "cfg.ml" 339 9200 9208 "cfg.ml" 339 9200 9209
+)
+"cfg.ml" 345 9406 9464 "cfg.ml" 345 9406 9473
+type(
+  A.G.E.t -> A.G.E.vertex
+)
+ident(
+  ext_ref A.G.E.dst
+)
+"cfg.ml" 345 9406 9474 "cfg.ml" 345 9406 9475
+type(
+  A.G.E.t
+)
+ident(
+  int_ref e "cfg.ml" 340 9256 9273 "cfg.ml" 340 9256 9274
+)
+"cfg.ml" 345 9406 9463 "cfg.ml" 345 9406 9476
+call(
+  stack
+)
+type(
+  A.G.E.vertex
+)
+"cfg.ml" 345 9406 9460 "cfg.ml" 345 9406 9477
+call(
+  stack
+)
+type(
+  B.G.E.vertex
+)
+"cfg.ml" 345 9406 9421 "cfg.ml" 345 9406 9477
+call(
+  stack
+)
+type(
+  B.G.E.t
+)
+"cfg.ml" 346 9481 9491 "cfg.ml" 346 9481 9493
+type(
+  A.G.E.t EM.t
+)
+"cfg.ml" 346 9481 9496 "cfg.ml" 346 9481 9502
+type(
+  EM.key -> A.G.E.t -> A.G.E.t EM.t -> A.G.E.t EM.t
+)
+ident(
+  ext_ref EM.add
+)
+"cfg.ml" 346 9481 9503 "cfg.ml" 346 9481 9505
+type(
+  EM.key
+)
+ident(
+  int_ref e' "cfg.ml" 345 9406 9416 "cfg.ml" 345 9406 9418
+)
+"cfg.ml" 346 9481 9506 "cfg.ml" 346 9481 9507
+type(
+  A.G.E.t
+)
+ident(
+  int_ref e "cfg.ml" 340 9256 9273 "cfg.ml" 340 9256 9274
+)
+"cfg.ml" 346 9481 9508 "cfg.ml" 346 9481 9510
+type(
+  A.G.E.t EM.t
+)
+ident(
+  int_ref em "cfg.ml" 340 9256 9279 "cfg.ml" 340 9256 9281
+)
+"cfg.ml" 346 9481 9496 "cfg.ml" 346 9481 9510
+call(
+  stack
+)
+type(
+  A.G.E.t EM.t
+)
+"cfg.ml" 347 9514 9520 "cfg.ml" 347 9514 9532
+type(
+  B.G.t -> B.G.E.t -> B.G.t
+)
+ident(
+  ext_ref B.add_edge_e
+)
+"cfg.ml" 347 9514 9533 "cfg.ml" 347 9514 9534
+type(
+  B.G.t
+)
+ident(
+  int_ref g "cfg.ml" 340 9256 9276 "cfg.ml" 340 9256 9277
+)
+"cfg.ml" 347 9514 9535 "cfg.ml" 347 9514 9537
+type(
+  B.G.E.t
+)
+ident(
+  int_ref e' "cfg.ml" 345 9406 9416 "cfg.ml" 345 9406 9418
+)
+"cfg.ml" 347 9514 9520 "cfg.ml" 347 9514 9537
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"cfg.ml" 347 9514 9539 "cfg.ml" 347 9514 9541
+type(
+  A.G.E.t EM.t
+)
+ident(
+  int_ref em "cfg.ml" 346 9481 9491 "cfg.ml" 346 9481 9493
+)
+"cfg.ml" 347 9514 9520 "cfg.ml" 347 9514 9541
+type(
+  B.G.t * A.G.E.t EM.t
+)
+"cfg.ml" 346 9481 9487 "cfg.ml" 347 9514 9541
+type(
+  B.G.t * A.G.E.t EM.t
+)
+"cfg.ml" 345 9406 9412 "cfg.ml" 347 9514 9541
+type(
+  B.G.t * A.G.E.t EM.t
+)
+"cfg.ml" 341 9285 9291 "cfg.ml" 347 9514 9541
+type(
+  B.G.t * A.G.E.t EM.t
+)
+"cfg.ml" 349 9549 9557 "cfg.ml" 349 9549 9567
+type(
+  A.G.V.t -> B.G.t * A.G.V.t VM.t -> B.G.t * A.G.V.t VM.t
+)
+"cfg.ml" 349 9549 9568 "cfg.ml" 349 9549 9569
+type(
+  A.G.V.t
+)
+ident(
+  def v "cfg.ml" 349 9549 9570 "cfg.ml" 353 9670 9729
+)
+"cfg.ml" 349 9549 9571 "cfg.ml" 349 9549 9572
+type(
+  B.G.t
+)
+ident(
+  def g "cfg.ml" 350 9580 9586 "cfg.ml" 353 9670 9729
+)
+"cfg.ml" 349 9549 9574 "cfg.ml" 349 9549 9576
+type(
+  A.G.V.t VM.t
+)
+ident(
+  def vm "cfg.ml" 350 9580 9586 "cfg.ml" 353 9670 9729
+)
+"cfg.ml" 349 9549 9570 "cfg.ml" 349 9549 9577
+type(
+  B.G.t * A.G.V.t VM.t
+)
+"cfg.ml" 350 9580 9590 "cfg.ml" 350 9580 9592
+type(
+  B.G.V.t
+)
+"cfg.ml" 350 9580 9595 "cfg.ml" 350 9580 9596
+type(
+  A.G.V.t -> B.G.V.t
+)
+ident(
+  int_ref t "cfg.ml" 339 9200 9208 "cfg.ml" 339 9200 9209
+)
+"cfg.ml" 350 9580 9597 "cfg.ml" 350 9580 9598
+type(
+  A.G.V.t
+)
+ident(
+  int_ref v "cfg.ml" 349 9549 9568 "cfg.ml" 349 9549 9569
+)
+"cfg.ml" 350 9580 9595 "cfg.ml" 350 9580 9598
+call(
+  stack
+)
+type(
+  B.G.V.t
+)
+"cfg.ml" 351 9602 9612 "cfg.ml" 351 9602 9613
+type(
+  B.G.t
+)
+"cfg.ml" 351 9602 9616 "cfg.ml" 351 9602 9628
+type(
+  B.G.t -> B.G.V.t -> B.G.t
+)
+ident(
+  ext_ref B.add_vertex
+)
+"cfg.ml" 351 9602 9629 "cfg.ml" 351 9602 9630
+type(
+  B.G.t
+)
+ident(
+  int_ref g "cfg.ml" 349 9549 9571 "cfg.ml" 349 9549 9572
+)
+"cfg.ml" 351 9602 9631 "cfg.ml" 351 9602 9633
+type(
+  B.G.V.t
+)
+ident(
+  int_ref v' "cfg.ml" 350 9580 9590 "cfg.ml" 350 9580 9592
+)
+"cfg.ml" 351 9602 9616 "cfg.ml" 351 9602 9633
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"cfg.ml" 352 9637 9647 "cfg.ml" 352 9637 9649
+type(
+  A.G.V.t VM.t
+)
+"cfg.ml" 352 9637 9652 "cfg.ml" 352 9637 9658
+type(
+  VM.key -> A.G.V.t -> A.G.V.t VM.t -> A.G.V.t VM.t
+)
+ident(
+  ext_ref VM.add
+)
+"cfg.ml" 352 9637 9659 "cfg.ml" 352 9637 9661
+type(
+  VM.key
+)
+ident(
+  int_ref v' "cfg.ml" 350 9580 9590 "cfg.ml" 350 9580 9592
+)
+"cfg.ml" 352 9637 9662 "cfg.ml" 352 9637 9663
+type(
+  A.G.V.t
+)
+ident(
+  int_ref v "cfg.ml" 349 9549 9568 "cfg.ml" 349 9549 9569
+)
+"cfg.ml" 352 9637 9664 "cfg.ml" 352 9637 9666
+type(
+  A.G.V.t VM.t
+)
+ident(
+  int_ref vm "cfg.ml" 349 9549 9574 "cfg.ml" 349 9549 9576
+)
+"cfg.ml" 352 9637 9652 "cfg.ml" 352 9637 9666
+call(
+  stack
+)
+type(
+  A.G.V.t VM.t
+)
+"cfg.ml" 353 9670 9676 "cfg.ml" 353 9670 9687
+type(
+  B.G.t -> B.G.V.t -> B.lang -> B.G.t
+)
+ident(
+  ext_ref B.set_stmts
+)
+"cfg.ml" 353 9670 9688 "cfg.ml" 353 9670 9689
+type(
+  B.G.t
+)
+ident(
+  int_ref g "cfg.ml" 351 9602 9612 "cfg.ml" 351 9602 9613
+)
+"cfg.ml" 353 9670 9690 "cfg.ml" 353 9670 9692
+type(
+  B.G.V.t
+)
+ident(
+  int_ref v' "cfg.ml" 350 9580 9590 "cfg.ml" 350 9580 9592
+)
+"cfg.ml" 353 9670 9694 "cfg.ml" 353 9670 9704
+type(
+  A.lang -> B.lang
+)
+ident(
+  int_ref conv_stmts "cfg.ml" 337 9123 9133 "cfg.ml" 337 9123 9143
+)
+"cfg.ml" 353 9670 9706 "cfg.ml" 353 9670 9717
+type(
+  A.G.t -> A.G.V.t -> A.lang
+)
+ident(
+  ext_ref A.get_stmts
+)
+"cfg.ml" 353 9670 9718 "cfg.ml" 353 9670 9721
+type(
+  A.G.t
+)
+ident(
+  int_ref cfg "cfg.ml" 337 9123 9153 "cfg.ml" 337 9123 9172
+)
+"cfg.ml" 353 9670 9722 "cfg.ml" 353 9670 9723
+type(
+  A.G.V.t
+)
+ident(
+  int_ref v "cfg.ml" 349 9549 9568 "cfg.ml" 349 9549 9569
+)
+"cfg.ml" 353 9670 9705 "cfg.ml" 353 9670 9724
+call(
+  stack
+)
+type(
+  A.lang
+)
+"cfg.ml" 353 9670 9693 "cfg.ml" 353 9670 9725
+call(
+  stack
+)
+type(
+  B.lang
+)
+"cfg.ml" 353 9670 9676 "cfg.ml" 353 9670 9725
+call(
+  stack
+)
+type(
+  B.G.t
+)
+"cfg.ml" 353 9670 9727 "cfg.ml" 353 9670 9729
+type(
+  A.G.V.t VM.t
+)
+ident(
+  int_ref vm "cfg.ml" 352 9637 9647 "cfg.ml" 352 9637 9649
+)
+"cfg.ml" 353 9670 9676 "cfg.ml" 353 9670 9729
+type(
+  B.G.t * A.G.V.t VM.t
+)
+"cfg.ml" 352 9637 9643 "cfg.ml" 353 9670 9729
+type(
+  B.G.t * A.G.V.t VM.t
+)
+"cfg.ml" 351 9602 9608 "cfg.ml" 353 9670 9729
+type(
+  B.G.t * A.G.V.t VM.t
+)
+"cfg.ml" 350 9580 9586 "cfg.ml" 353 9670 9729
+type(
+  B.G.t * A.G.V.t VM.t
+)
+"cfg.ml" 355 9737 9745 "cfg.ml" 355 9737 9746
+type(
+  B.G.t
+)
+"cfg.ml" 355 9737 9748 "cfg.ml" 355 9737 9750
+type(
+  A.G.vertex VM.t
+)
+"cfg.ml" 355 9737 9745 "cfg.ml" 355 9737 9750
+type(
+  B.G.t * A.G.vertex VM.t
+)
+"cfg.ml" 355 9737 9753 "cfg.ml" 355 9737 9768
+type(
+  (A.G.vertex -> B.G.t * A.G.vertex VM.t -> B.G.t * A.G.vertex VM.t) ->
+  A.G.t -> B.G.t * A.G.vertex VM.t -> B.G.t * A.G.vertex VM.t
+)
+ident(
+  ext_ref A.G.fold_vertex
+)
+"cfg.ml" 355 9737 9769 "cfg.ml" 355 9737 9779
+type(
+  A.G.vertex -> B.G.t * A.G.vertex VM.t -> B.G.t * A.G.vertex VM.t
+)
+ident(
+  int_ref per_vertex "cfg.ml" 349 9549 9557 "cfg.ml" 349 9549 9567
+)
+"cfg.ml" 355 9737 9780 "cfg.ml" 355 9737 9783
+type(
+  A.G.t
+)
+ident(
+  int_ref cfg "cfg.ml" 337 9123 9153 "cfg.ml" 337 9123 9172
+)
+"cfg.ml" 355 9737 9785 "cfg.ml" 355 9737 9786
+type(
+  B.G.t
+)
+ident(
+  int_ref s "cfg.ml" 338 9175 9183 "cfg.ml" 338 9175 9184
+)
+"cfg.ml" 355 9737 9788 "cfg.ml" 355 9737 9796
+type(
+  A.G.vertex VM.t
+)
+ident(
+  ext_ref VM.empty
+)
+"cfg.ml" 355 9737 9784 "cfg.ml" 355 9737 9797
+type(
+  B.G.t * A.G.vertex VM.t
+)
+"cfg.ml" 355 9737 9753 "cfg.ml" 355 9737 9797
+call(
+  stack
+)
+type(
+  B.G.t * A.G.vertex VM.t
+)
+"cfg.ml" 356 9801 9809 "cfg.ml" 356 9801 9810
+type(
+  B.G.t
+)
+"cfg.ml" 356 9801 9812 "cfg.ml" 356 9801 9814
+type(
+  A.G.edge EM.t
+)
+"cfg.ml" 356 9801 9809 "cfg.ml" 356 9801 9814
+type(
+  B.G.t * A.G.edge EM.t
+)
+"cfg.ml" 356 9801 9817 "cfg.ml" 356 9801 9833
+type(
+  (A.G.edge -> B.G.t * A.G.edge EM.t -> B.G.t * A.G.edge EM.t) ->
+  A.G.t -> B.G.t * A.G.edge EM.t -> B.G.t * A.G.edge EM.t
+)
+ident(
+  ext_ref A.G.fold_edges_e
+)
+"cfg.ml" 356 9801 9834 "cfg.ml" 356 9801 9842
+type(
+  A.G.edge -> B.G.t * A.G.edge EM.t -> B.G.t * A.G.edge EM.t
+)
+ident(
+  int_ref per_edge "cfg.ml" 340 9256 9264 "cfg.ml" 340 9256 9272
+)
+"cfg.ml" 356 9801 9843 "cfg.ml" 356 9801 9846
+type(
+  A.G.t
+)
+ident(
+  int_ref cfg "cfg.ml" 337 9123 9153 "cfg.ml" 337 9123 9172
+)
+"cfg.ml" 356 9801 9848 "cfg.ml" 356 9801 9849
+type(
+  B.G.t
+)
+ident(
+  int_ref s "cfg.ml" 355 9737 9745 "cfg.ml" 355 9737 9746
+)
+"cfg.ml" 356 9801 9851 "cfg.ml" 356 9801 9859
+type(
+  A.G.edge EM.t
+)
+ident(
+  ext_ref EM.empty
+)
+"cfg.ml" 356 9801 9847 "cfg.ml" 356 9801 9860
+type(
+  B.G.t * A.G.edge EM.t
+)
+"cfg.ml" 356 9801 9817 "cfg.ml" 356 9801 9860
+call(
+  stack
+)
+type(
+  B.G.t * A.G.edge EM.t
+)
+"cfg.ml" 357 9864 9870 "cfg.ml" 357 9864 9871
+type(
+  B.G.t
+)
+ident(
+  int_ref s "cfg.ml" 356 9801 9809 "cfg.ml" 356 9801 9810
+)
+"cfg.ml" 357 9864 9886 "cfg.ml" 357 9864 9887
+type(
+  int
+)
+ident(
+  int_ref n "cfg.ml" 337 9123 9162 "cfg.ml" 337 9123 9163
+)
+"cfg.ml" 357 9864 9868 "cfg.ml" 357 9864 9889
+type(
+  (B.G'.t, B.lang BM.t, B.G'.V.t LM.t) pcfg
+)
+"cfg.ml" 357 9864 9896 "cfg.ml" 357 9864 9897
+type(
+  VM.key
+)
+ident(
+  def v "cfg.ml" 357 9864 9901 "cfg.ml" 357 9864 9913
+)
+"cfg.ml" 357 9864 9901 "cfg.ml" 357 9864 9908
+type(
+  VM.key -> A.G.vertex VM.t -> A.G.vertex
+)
+ident(
+  ext_ref VM.find
+)
+"cfg.ml" 357 9864 9909 "cfg.ml" 357 9864 9910
+type(
+  VM.key
+)
+ident(
+  int_ref v "cfg.ml" 357 9864 9896 "cfg.ml" 357 9864 9897
+)
+"cfg.ml" 357 9864 9911 "cfg.ml" 357 9864 9913
+type(
+  A.G.vertex VM.t
+)
+ident(
+  int_ref vm "cfg.ml" 355 9737 9748 "cfg.ml" 355 9737 9750
+)
+"cfg.ml" 357 9864 9901 "cfg.ml" 357 9864 9913
+call(
+  tail
+)
+type(
+  A.G.vertex
+)
+"cfg.ml" 357 9864 9891 "cfg.ml" 357 9864 9914
+type(
+  VM.key -> A.G.vertex
+)
+"cfg.ml" 357 9864 9921 "cfg.ml" 357 9864 9922
+type(
+  EM.key
+)
+ident(
+  def e "cfg.ml" 357 9864 9926 "cfg.ml" 357 9864 9938
+)
+"cfg.ml" 357 9864 9926 "cfg.ml" 357 9864 9933
+type(
+  EM.key -> A.G.edge EM.t -> A.G.edge
+)
+ident(
+  ext_ref EM.find
+)
+"cfg.ml" 357 9864 9934 "cfg.ml" 357 9864 9935
+type(
+  EM.key
+)
+ident(
+  int_ref e "cfg.ml" 357 9864 9921 "cfg.ml" 357 9864 9922
+)
+"cfg.ml" 357 9864 9936 "cfg.ml" 357 9864 9938
+type(
+  A.G.edge EM.t
+)
+ident(
+  int_ref em "cfg.ml" 356 9801 9812 "cfg.ml" 356 9801 9814
+)
+"cfg.ml" 357 9864 9926 "cfg.ml" 357 9864 9938
+call(
+  tail
+)
+type(
+  A.G.edge
+)
+"cfg.ml" 357 9864 9916 "cfg.ml" 357 9864 9939
+type(
+  EM.key -> A.G.edge
+)
+"cfg.ml" 357 9864 9868 "cfg.ml" 357 9864 9939
+type(
+  (B.G'.t, B.lang BM.t, B.G'.V.t LM.t) pcfg * (VM.key -> A.G.vertex) *
+  (EM.key -> A.G.edge)
+)
+"cfg.ml" 356 9801 9805 "cfg.ml" 357 9864 9939
+type(
+  (B.G'.t, B.lang BM.t, B.G'.V.t LM.t) pcfg * (VM.key -> A.G.vertex) *
+  (EM.key -> A.G.edge)
+)
+"cfg.ml" 355 9737 9741 "cfg.ml" 357 9864 9939
+type(
+  (B.G'.t, B.lang BM.t, B.G'.V.t LM.t) pcfg * (VM.key -> A.G.vertex) *
+  (EM.key -> A.G.edge)
+)
+"cfg.ml" 349 9549 9553 "cfg.ml" 357 9864 9939
+type(
+  (B.G'.t, B.lang BM.t, B.G'.V.t LM.t) pcfg * (VM.key -> A.G.vertex) *
+  (EM.key -> A.G.edge)
+)
+"cfg.ml" 340 9256 9260 "cfg.ml" 357 9864 9939
+type(
+  (B.G'.t, B.lang BM.t, B.G'.V.t LM.t) pcfg * (VM.key -> A.G.vertex) *
+  (EM.key -> A.G.edge)
+)
+"cfg.ml" 339 9200 9204 "cfg.ml" 357 9864 9939
+type(
+  (B.G'.t, B.lang BM.t, B.G'.V.t LM.t) pcfg * (VM.key -> A.G.vertex) *
+  (EM.key -> A.G.edge)
+)
+"cfg.ml" 338 9175 9179 "cfg.ml" 357 9864 9939
+type(
+  (B.G'.t, B.lang BM.t, B.G'.V.t LM.t) pcfg * (VM.key -> A.G.vertex) *
+  (EM.key -> A.G.edge)
+)
+"cfg.ml" 360 9945 9960 "cfg.ml" 360 9945 9975
+call(
+  stack
+)
+"cfg.ml" 361 9976 9991 "cfg.ml" 361 9976 10006
+call(
+  stack
+)
+"cfg.ml" 363 10008 10012 "cfg.ml" 363 10008 10023
+type(
+  (AST.lang -> SSA.lang) ->
+  (AST.exp -> SSA.exp) ->
+  (AST.G'.t, AST.lang BM.t, AST.G'.V.t LM.t) pcfg ->
+  (SSA.G'.t, SSA.lang BM.t, SSA.G'.V.t LM.t) pcfg *
+  (M2ssa.VM.key -> AST.G.vertex) * (M2ssa.EM.key -> AST.G.edge)
+)
+ident(
+  def map_ast2ssa "cfg.ml" 364 10036 10036 --
+)
+"cfg.ml" 363 10008 10026 "cfg.ml" 363 10008 10035
+type(
+  (AST.lang -> SSA.lang) ->
+  (AST.exp -> SSA.exp) ->
+  (AST.G'.t, AST.lang BM.t, AST.G'.V.t LM.t) pcfg ->
+  (SSA.G'.t, SSA.lang BM.t, SSA.G'.V.t LM.t) pcfg *
+  (M2ssa.VM.key -> AST.G.vertex) * (M2ssa.EM.key -> AST.G.edge)
+)
+ident(
+  ext_ref M2ssa.map
+)
+"cfg.ml" 364 10036 10040 "cfg.ml" 364 10036 10051
+type(
+  (SSA.lang -> AST.lang) ->
+  (SSA.exp -> AST.exp) ->
+  (SSA.G'.t, SSA.lang BM.t, SSA.G'.V.t LM.t) pcfg ->
+  (AST.G'.t, AST.lang BM.t, AST.G'.V.t LM.t) pcfg *
+  (M2ast.VM.key -> SSA.G.vertex) * (M2ast.EM.key -> SSA.G.edge)
+)
+ident(
+  def map_ssa2ast "cfg.ml" 364 10036 10063 --
+)
+"cfg.ml" 364 10036 10054 "cfg.ml" 364 10036 10063
+type(
+  (SSA.lang -> AST.lang) ->
+  (SSA.exp -> AST.exp) ->
+  (SSA.G'.t, SSA.lang BM.t, SSA.G'.V.t LM.t) pcfg ->
+  (AST.G'.t, AST.lang BM.t, AST.G'.V.t LM.t) pcfg *
+  (M2ast.VM.key -> SSA.G.vertex) * (M2ast.EM.key -> SSA.G.edge)
+)
+ident(
+  ext_ref M2ast.map
+)

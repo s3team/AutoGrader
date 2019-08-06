@@ -1,0 +1,7059 @@
+"deadcode.ml" 8 124 157 "deadcode.ml" 8 124 161
+type(
+  string
+)
+ident(
+  def name "deadcode.ml" 8 124 195 "deadcode.ml" 8 124 199
+)
+"deadcode.ml" 8 124 164 "deadcode.ml" 8 124 174
+type(
+  string
+)
+"deadcode.ml" 8 124 179 "deadcode.ml" 8 124 186
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "deadcode.ml" 8 124 195 "deadcode.ml" 8 124 199
+)
+"deadcode.ml" 8 124 187 "deadcode.ml" 8 124 195
+type(
+  [> `NoDebug ] as 'a
+)
+"deadcode.ml" 8 124 135 "deadcode.ml" 8 124 200
+call(
+  stack
+)
+"deadcode.ml" 12 251 263 "deadcode.ml" 12 251 282
+call(
+  stack
+)
+"deadcode.ml" 20 416 420 "deadcode.ml" 20 416 428
+type(
+  Ssa.stmt
+)
+ident(
+  def deadstmt "deadcode.ml" 29 844 844 --
+)
+"deadcode.ml" 20 416 439 "deadcode.ml" 20 416 450
+type(
+  string
+)
+"deadcode.ml" 20 416 452 "deadcode.ml" 20 416 454
+type(
+  Ssa.attrs
+)
+"deadcode.ml" 20 416 431 "deadcode.ml" 20 416 455
+type(
+  Ssa.stmt
+)
+"deadcode.ml" 29 844 848 "deadcode.ml" 29 844 856
+type(
+  Ssa.stmt -> Ssa.var list * Ssa.var list * Ssa.var list
+)
+ident(
+  def def_uses "deadcode.ml" 47 1291 1291 --
+)
+"deadcode.ml" 29 844 857 "deadcode.ml" 29 844 858
+type(
+  Ssa.stmt
+)
+ident(
+  def s "deadcode.ml" 30 861 863 "deadcode.ml" 44 1217 1239
+)
+"deadcode.ml" 30 861 867 "deadcode.ml" 30 861 869
+type(
+  Ssa.var list
+)
+"deadcode.ml" 30 861 871 "deadcode.ml" 30 861 878
+type(
+  Ssa.var list
+)
+"deadcode.ml" 30 861 867 "deadcode.ml" 30 861 878
+type(
+  Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 31 882 892 "deadcode.ml" 31 882 893
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 29 844 857 "deadcode.ml" 29 844 858
+)
+"deadcode.ml" 32 899 911 "deadcode.ml" 32 899 913
+type(
+  Ssa.var
+)
+ident(
+  def lv "deadcode.ml" 32 899 921 "deadcode.ml" 32 899 964
+)
+"deadcode.ml" 32 899 915 "deadcode.ml" 32 899 916
+type(
+  Ssa.exp
+)
+"deadcode.ml" 32 899 918 "deadcode.ml" 32 899 919
+type(
+  Ssa.attrs
+)
+ident(
+  def a "deadcode.ml" 32 899 921 "deadcode.ml" 32 899 964
+)
+"deadcode.ml" 32 899 905 "deadcode.ml" 32 899 920
+type(
+  Ssa.stmt
+)
+"deadcode.ml" 32 899 926 "deadcode.ml" 32 899 934
+type(
+  Type.attribute -> Ssa.attrs -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"deadcode.ml" 32 899 935 "deadcode.ml" 32 899 947
+type(
+  Type.attribute
+)
+"deadcode.ml" 32 899 948 "deadcode.ml" 32 899 949
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref a "deadcode.ml" 32 899 918 "deadcode.ml" 32 899 919
+)
+"deadcode.ml" 32 899 926 "deadcode.ml" 32 899 949
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 32 899 955 "deadcode.ml" 32 899 957
+type(
+  Ssa.var
+)
+ident(
+  int_ref lv "deadcode.ml" 32 899 911 "deadcode.ml" 32 899 913
+)
+"deadcode.ml" 32 899 954 "deadcode.ml" 32 899 958
+type(
+  Ssa.var list
+)
+"deadcode.ml" 32 899 960 "deadcode.ml" 32 899 962
+type(
+  Ssa.var
+)
+ident(
+  int_ref lv "deadcode.ml" 32 899 911 "deadcode.ml" 32 899 913
+)
+"deadcode.ml" 32 899 959 "deadcode.ml" 32 899 963
+type(
+  Ssa.var list
+)
+"deadcode.ml" 32 899 953 "deadcode.ml" 32 899 964
+type(
+  Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 32 899 921 "deadcode.ml" 32 899 964
+type(
+  Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 33 965 977 "deadcode.ml" 33 965 979
+type(
+  Ssa.var
+)
+ident(
+  def lv "deadcode.ml" 33 965 990 "deadcode.ml" 33 965 999
+)
+"deadcode.ml" 33 965 981 "deadcode.ml" 33 965 982
+type(
+  Ssa.exp
+)
+"deadcode.ml" 33 965 984 "deadcode.ml" 33 965 985
+type(
+  Ssa.attrs
+)
+"deadcode.ml" 33 965 971 "deadcode.ml" 33 965 986
+type(
+  Ssa.stmt
+)
+"deadcode.ml" 33 965 992 "deadcode.ml" 33 965 994
+type(
+  Ssa.var
+)
+ident(
+  int_ref lv "deadcode.ml" 33 965 977 "deadcode.ml" 33 965 979
+)
+"deadcode.ml" 33 965 991 "deadcode.ml" 33 965 995
+type(
+  Ssa.var list
+)
+"deadcode.ml" 33 965 996 "deadcode.ml" 33 965 998
+type(
+  Ssa.var list
+)
+"deadcode.ml" 33 965 990 "deadcode.ml" 33 965 999
+type(
+  Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 34 1000 1006 "deadcode.ml" 34 1000 1007
+type(
+  Ssa.stmt
+)
+"deadcode.ml" 34 1000 1012 "deadcode.ml" 34 1000 1014
+type(
+  Ssa.var list
+)
+"deadcode.ml" 34 1000 1015 "deadcode.ml" 34 1000 1017
+type(
+  Ssa.var list
+)
+"deadcode.ml" 34 1000 1011 "deadcode.ml" 34 1000 1018
+type(
+  Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 31 882 886 "deadcode.ml" 34 1000 1018
+type(
+  Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 36 1024 1030 "deadcode.ml" 36 1024 1034
+type(
+  Ssa.var list ref
+)
+"deadcode.ml" 36 1024 1037 "deadcode.ml" 36 1024 1040
+type(
+  Ssa.var list -> Ssa.var list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"deadcode.ml" 36 1024 1041 "deadcode.ml" 36 1024 1043
+type(
+  Ssa.var list
+)
+"deadcode.ml" 36 1024 1037 "deadcode.ml" 36 1024 1043
+type(
+  Ssa.var list ref
+)
+"deadcode.ml" 37 1047 1053 "deadcode.ml" 37 1047 1056
+type(
+  Ssa_visitor.nop
+)
+"deadcode.ml" 37 1047 1066 "deadcode.ml" 37 1047 1072
+type(
+  Ssa_visitor.nop
+)
+"deadcode.ml" 39 1101 1123 "deadcode.ml" 39 1101 1124
+type(
+  Ssa.var
+)
+ident(
+  def v "deadcode.ml" 39 1101 1127 "deadcode.ml" 40 1147 1163
+)
+"deadcode.ml" 39 1101 1127 "deadcode.ml" 39 1101 1131
+type(
+  Ssa.var list ref
+)
+ident(
+  int_ref uses "deadcode.ml" 36 1024 1030 "deadcode.ml" 36 1024 1034
+)
+"deadcode.ml" 39 1101 1132 "deadcode.ml" 39 1101 1134
+type(
+  Ssa.var list ref -> Ssa.var list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"deadcode.ml" 39 1101 1135 "deadcode.ml" 39 1101 1136
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "deadcode.ml" 39 1101 1123 "deadcode.ml" 39 1101 1124
+)
+"deadcode.ml" 39 1101 1140 "deadcode.ml" 39 1101 1141
+type(
+  Ssa.var list ref -> Ssa.var list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 39 1101 1141 "deadcode.ml" 39 1101 1145
+type(
+  Ssa.var list ref
+)
+ident(
+  int_ref uses "deadcode.ml" 36 1024 1030 "deadcode.ml" 36 1024 1034
+)
+"deadcode.ml" 39 1101 1140 "deadcode.ml" 39 1101 1145
+type(
+  Ssa.var list
+)
+"deadcode.ml" 39 1101 1135 "deadcode.ml" 39 1101 1145
+type(
+  Ssa.var list
+)
+"deadcode.ml" 39 1101 1127 "deadcode.ml" 39 1101 1145
+type(
+  unit
+)
+"deadcode.ml" 40 1147 1153 "deadcode.ml" 40 1147 1163
+type(
+  Ssa.var Type.visit_action
+)
+"deadcode.ml" 39 1101 1127 "deadcode.ml" 40 1147 1163
+type(
+  Ssa.var Type.visit_action
+)
+"deadcode.ml" 37 1047 1060 "deadcode.ml" 41 1164 1169
+type(
+  Ssa_visitor.nop
+)
+"deadcode.ml" 43 1175 1177 "deadcode.ml" 43 1175 1183
+type(
+  Ssa.stmt -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"deadcode.ml" 43 1175 1185 "deadcode.ml" 43 1175 1208
+type(
+  Ssa_visitor.t -> Ssa.stmt -> Ssa.stmt
+)
+ident(
+  ext_ref Ssa_visitor.stmt_accept
+)
+"deadcode.ml" 43 1175 1209 "deadcode.ml" 43 1175 1212
+type(
+  Ssa_visitor.t
+)
+ident(
+  int_ref vis "deadcode.ml" 37 1047 1053 "deadcode.ml" 37 1047 1056
+)
+"deadcode.ml" 43 1175 1213 "deadcode.ml" 43 1175 1214
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 29 844 857 "deadcode.ml" 29 844 858
+)
+"deadcode.ml" 43 1175 1184 "deadcode.ml" 43 1175 1215
+call(
+  stack
+)
+type(
+  Ssa.stmt
+)
+"deadcode.ml" 43 1175 1177 "deadcode.ml" 43 1175 1215
+type(
+  unit
+)
+"deadcode.ml" 44 1217 1220 "deadcode.ml" 44 1217 1222
+type(
+  Ssa.var list
+)
+ident(
+  int_ref lv "deadcode.ml" 30 861 867 "deadcode.ml" 30 861 869
+)
+"deadcode.ml" 44 1217 1224 "deadcode.ml" 44 1217 1225
+type(
+  Ssa.var list ref -> Ssa.var list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 44 1217 1225 "deadcode.ml" 44 1217 1229
+type(
+  Ssa.var list ref
+)
+ident(
+  int_ref uses "deadcode.ml" 36 1024 1030 "deadcode.ml" 36 1024 1034
+)
+"deadcode.ml" 44 1217 1224 "deadcode.ml" 44 1217 1229
+type(
+  Ssa.var list
+)
+"deadcode.ml" 44 1217 1231 "deadcode.ml" 44 1217 1238
+type(
+  Ssa.var list
+)
+ident(
+  int_ref liveout "deadcode.ml" 30 861 871 "deadcode.ml" 30 861 878
+)
+"deadcode.ml" 44 1217 1219 "deadcode.ml" 44 1217 1239
+type(
+  Ssa.var list * Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 43 1175 1177 "deadcode.ml" 44 1217 1239
+type(
+  Ssa.var list * Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 37 1047 1049 "deadcode.ml" 44 1217 1239
+type(
+  Ssa.var list * Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 36 1024 1026 "deadcode.ml" 44 1217 1239
+type(
+  Ssa.var list * Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 30 861 863 "deadcode.ml" 44 1217 1239
+type(
+  Ssa.var list * Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 47 1291 1295 "deadcode.ml" 47 1291 1299
+type(
+  Ssa.exp -> Ssa.var list
+)
+ident(
+  def uses "deadcode.ml" 66 1928 1928 --
+)
+"deadcode.ml" 47 1291 1300 "deadcode.ml" 47 1291 1301
+type(
+  Ssa.exp
+)
+ident(
+  def e "deadcode.ml" 48 1304 1306 "deadcode.ml" 56 1496 1503
+)
+"deadcode.ml" 48 1304 1310 "deadcode.ml" 48 1304 1314
+type(
+  Ssa.var list ref
+)
+"deadcode.ml" 48 1304 1317 "deadcode.ml" 48 1304 1320
+type(
+  Ssa.var list -> Ssa.var list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"deadcode.ml" 48 1304 1321 "deadcode.ml" 48 1304 1323
+type(
+  Ssa.var list
+)
+"deadcode.ml" 48 1304 1317 "deadcode.ml" 48 1304 1323
+type(
+  Ssa.var list ref
+)
+"deadcode.ml" 49 1327 1333 "deadcode.ml" 49 1327 1336
+type(
+  Ssa_visitor.nop
+)
+"deadcode.ml" 49 1327 1346 "deadcode.ml" 49 1327 1352
+type(
+  Ssa_visitor.nop
+)
+"deadcode.ml" 51 1381 1403 "deadcode.ml" 51 1381 1404
+type(
+  Ssa.var
+)
+ident(
+  def v "deadcode.ml" 51 1381 1407 "deadcode.ml" 52 1427 1443
+)
+"deadcode.ml" 51 1381 1407 "deadcode.ml" 51 1381 1411
+type(
+  Ssa.var list ref
+)
+ident(
+  int_ref uses "deadcode.ml" 48 1304 1310 "deadcode.ml" 48 1304 1314
+)
+"deadcode.ml" 51 1381 1412 "deadcode.ml" 51 1381 1414
+type(
+  Ssa.var list ref -> Ssa.var list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"deadcode.ml" 51 1381 1415 "deadcode.ml" 51 1381 1416
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "deadcode.ml" 51 1381 1403 "deadcode.ml" 51 1381 1404
+)
+"deadcode.ml" 51 1381 1420 "deadcode.ml" 51 1381 1421
+type(
+  Ssa.var list ref -> Ssa.var list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 51 1381 1421 "deadcode.ml" 51 1381 1425
+type(
+  Ssa.var list ref
+)
+ident(
+  int_ref uses "deadcode.ml" 48 1304 1310 "deadcode.ml" 48 1304 1314
+)
+"deadcode.ml" 51 1381 1420 "deadcode.ml" 51 1381 1425
+type(
+  Ssa.var list
+)
+"deadcode.ml" 51 1381 1415 "deadcode.ml" 51 1381 1425
+type(
+  Ssa.var list
+)
+"deadcode.ml" 51 1381 1407 "deadcode.ml" 51 1381 1425
+type(
+  unit
+)
+"deadcode.ml" 52 1427 1433 "deadcode.ml" 52 1427 1443
+type(
+  Ssa.var Type.visit_action
+)
+"deadcode.ml" 51 1381 1407 "deadcode.ml" 52 1427 1443
+type(
+  Ssa.var Type.visit_action
+)
+"deadcode.ml" 49 1327 1340 "deadcode.ml" 53 1444 1449
+type(
+  Ssa_visitor.nop
+)
+"deadcode.ml" 55 1455 1457 "deadcode.ml" 55 1455 1463
+type(
+  Ssa.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"deadcode.ml" 55 1455 1465 "deadcode.ml" 55 1455 1487
+type(
+  Ssa_visitor.t -> Ssa.exp -> Ssa.exp
+)
+ident(
+  ext_ref Ssa_visitor.exp_accept
+)
+"deadcode.ml" 55 1455 1488 "deadcode.ml" 55 1455 1491
+type(
+  Ssa_visitor.t
+)
+ident(
+  int_ref vis "deadcode.ml" 49 1327 1333 "deadcode.ml" 49 1327 1336
+)
+"deadcode.ml" 55 1455 1492 "deadcode.ml" 55 1455 1493
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "deadcode.ml" 47 1291 1300 "deadcode.ml" 47 1291 1301
+)
+"deadcode.ml" 55 1455 1464 "deadcode.ml" 55 1455 1494
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"deadcode.ml" 55 1455 1457 "deadcode.ml" 55 1455 1494
+type(
+  unit
+)
+"deadcode.ml" 56 1496 1498 "deadcode.ml" 56 1496 1499
+type(
+  Ssa.var list ref -> Ssa.var list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 56 1496 1499 "deadcode.ml" 56 1496 1503
+type(
+  Ssa.var list ref
+)
+ident(
+  int_ref uses "deadcode.ml" 48 1304 1310 "deadcode.ml" 48 1304 1314
+)
+"deadcode.ml" 56 1496 1498 "deadcode.ml" 56 1496 1503
+type(
+  Ssa.var list
+)
+"deadcode.ml" 55 1455 1457 "deadcode.ml" 56 1496 1503
+type(
+  Ssa.var list
+)
+"deadcode.ml" 49 1327 1329 "deadcode.ml" 56 1496 1503
+type(
+  Ssa.var list
+)
+"deadcode.ml" 48 1304 1306 "deadcode.ml" 56 1496 1503
+type(
+  Ssa.var list
+)
+"deadcode.ml" 66 1928 1932 "deadcode.ml" 66 1928 1938
+type(
+  ?globals:VH.key list -> C.G.t -> C.G.t * bool
+)
+ident(
+  def do_dce "deadcode.ml" 191 6010 6010 --
+)
+"deadcode.ml" 66 1928 1941 "deadcode.ml" 66 1928 1948
+type(
+  VH.key list
+)
+"deadcode.ml" 66 1928 1949 "deadcode.ml" 66 1928 1951
+type(
+  VH.key list
+)
+type(
+  VH.key list
+)
+ident(
+  int_ref *sth* "deadcode.ml" 66 1928 1949 "deadcode.ml" 66 1928 1951
+)
+type(
+  VH.key list option
+)
+type(
+  VH.key list option
+)
+type(
+  VH.key list
+)
+ident(
+  def *sth* "deadcode.ml" 66 1928 1949 "deadcode.ml" 66 1928 1951
+)
+"deadcode.ml" 66 1928 1953 "deadcode.ml" 66 1928 1958
+type(
+  C.G.t
+)
+ident(
+  def graph "deadcode.ml" 67 1961 1963 "deadcode.ml" 174 5355 5377
+)
+"deadcode.ml" 67 1961 1968 "deadcode.ml" 67 1961 1979
+type(
+  VH.key list VH.t
+)
+"deadcode.ml" 67 1961 2002 "deadcode.ml" 67 1961 2011
+type(
+  int -> VH.key list VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"deadcode.ml" 67 1961 2012 "deadcode.ml" 67 1961 2014
+type(
+  int
+)
+"deadcode.ml" 67 1961 2002 "deadcode.ml" 67 1961 2014
+call(
+  stack
+)
+type(
+  VH.key list VH.t
+)
+"deadcode.ml" 68 2018 2025 "deadcode.ml" 68 2018 2039
+type(
+  site VH.t
+)
+"deadcode.ml" 68 2018 2054 "deadcode.ml" 68 2018 2063
+type(
+  int -> site VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"deadcode.ml" 68 2018 2064 "deadcode.ml" 68 2018 2066
+type(
+  int
+)
+"deadcode.ml" 68 2018 2054 "deadcode.ml" 68 2018 2066
+call(
+  stack
+)
+type(
+  site VH.t
+)
+"deadcode.ml" 69 2070 2077 "deadcode.ml" 69 2070 2086
+type(
+  int ref VH.t
+)
+"deadcode.ml" 69 2070 2104 "deadcode.ml" 69 2070 2113
+type(
+  int -> int ref VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"deadcode.ml" 69 2070 2114 "deadcode.ml" 69 2070 2116
+type(
+  int
+)
+"deadcode.ml" 69 2070 2104 "deadcode.ml" 69 2070 2116
+call(
+  stack
+)
+type(
+  int ref VH.t
+)
+"deadcode.ml" 70 2120 2126 "deadcode.ml" 70 2120 2134
+type(
+  VH.key -> int ref
+)
+"deadcode.ml" 70 2120 2135 "deadcode.ml" 70 2120 2136
+type(
+  VH.key
+)
+ident(
+  def v "deadcode.ml" 71 2139 2143 "deadcode.ml" 75 2240 2247
+)
+"deadcode.ml" 71 2139 2147 "deadcode.ml" 71 2139 2154
+type(
+  int ref VH.t -> VH.key -> int ref
+)
+ident(
+  ext_ref VH.find
+)
+"deadcode.ml" 71 2139 2155 "deadcode.ml" 71 2139 2164
+type(
+  int ref VH.t
+)
+ident(
+  int_ref usecounts "deadcode.ml" 69 2070 2077 "deadcode.ml" 69 2070 2086
+)
+"deadcode.ml" 71 2139 2165 "deadcode.ml" 71 2139 2166
+type(
+  VH.key
+)
+ident(
+  int_ref v "deadcode.ml" 70 2120 2135 "deadcode.ml" 70 2120 2136
+)
+"deadcode.ml" 71 2139 2147 "deadcode.ml" 71 2139 2166
+call(
+  stack
+)
+type(
+  int ref
+)
+"deadcode.ml" 72 2167 2176 "deadcode.ml" 72 2167 2185
+type(
+  exn
+)
+"deadcode.ml" 73 2189 2199 "deadcode.ml" 73 2189 2200
+type(
+  int ref
+)
+"deadcode.ml" 73 2189 2203 "deadcode.ml" 73 2189 2206
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"deadcode.ml" 73 2189 2207 "deadcode.ml" 73 2189 2208
+type(
+  int
+)
+"deadcode.ml" 73 2189 2203 "deadcode.ml" 73 2189 2208
+type(
+  int ref
+)
+"deadcode.ml" 74 2212 2218 "deadcode.ml" 74 2212 2224
+type(
+  int ref VH.t -> VH.key -> int ref -> unit
+)
+ident(
+  ext_ref VH.add
+)
+"deadcode.ml" 74 2212 2225 "deadcode.ml" 74 2212 2234
+type(
+  int ref VH.t
+)
+ident(
+  int_ref usecounts "deadcode.ml" 69 2070 2077 "deadcode.ml" 69 2070 2086
+)
+"deadcode.ml" 74 2212 2235 "deadcode.ml" 74 2212 2236
+type(
+  VH.key
+)
+ident(
+  int_ref v "deadcode.ml" 70 2120 2135 "deadcode.ml" 70 2120 2136
+)
+"deadcode.ml" 74 2212 2237 "deadcode.ml" 74 2212 2238
+type(
+  int ref
+)
+ident(
+  int_ref r "deadcode.ml" 73 2189 2199 "deadcode.ml" 73 2189 2200
+)
+"deadcode.ml" 74 2212 2218 "deadcode.ml" 74 2212 2238
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 75 2240 2246 "deadcode.ml" 75 2240 2247
+type(
+  int ref
+)
+ident(
+  int_ref r "deadcode.ml" 73 2189 2199 "deadcode.ml" 73 2189 2200
+)
+"deadcode.ml" 74 2212 2218 "deadcode.ml" 75 2240 2247
+type(
+  int ref
+)
+"deadcode.ml" 73 2189 2195 "deadcode.ml" 75 2240 2247
+type(
+  int ref
+)
+"deadcode.ml" 71 2139 2143 "deadcode.ml" 75 2240 2247
+type(
+  int ref
+)
+"deadcode.ml" 77 2253 2259 "deadcode.ml" 77 2253 2263
+type(
+  VH.key -> VH.key list
+)
+"deadcode.ml" 77 2253 2266 "deadcode.ml" 77 2253 2273
+type(
+  VH.key list VH.t -> VH.key -> VH.key list
+)
+ident(
+  ext_ref VH.find
+)
+"deadcode.ml" 77 2253 2274 "deadcode.ml" 77 2253 2285
+type(
+  VH.key list VH.t
+)
+ident(
+  int_ref var_to_deps "deadcode.ml" 67 1961 1968 "deadcode.ml" 67 1961 1979
+)
+"deadcode.ml" 77 2253 2266 "deadcode.ml" 77 2253 2285
+call(
+  stack
+)
+type(
+  VH.key -> VH.key list
+)
+"deadcode.ml" 79 2318 2320 "deadcode.ml" 79 2318 2335
+type(
+  (C.G.vertex -> unit) -> C.G.t -> unit
+)
+ident(
+  ext_ref C.G.iter_vertex
+)
+"deadcode.ml" 80 2336 2345 "deadcode.ml" 80 2336 2347
+type(
+  C.G.vertex
+)
+ident(
+  def bb "deadcode.ml" 81 2351 2358 "deadcode.ml" 103 3195 3209
+)
+"deadcode.ml" 81 2351 2362 "deadcode.ml" 81 2351 2367
+type(
+  C.lang
+)
+"deadcode.ml" 81 2351 2370 "deadcode.ml" 81 2351 2381
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"deadcode.ml" 81 2351 2382 "deadcode.ml" 81 2351 2387
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 66 1928 1953 "deadcode.ml" 66 1928 1958
+)
+"deadcode.ml" 81 2351 2388 "deadcode.ml" 81 2351 2390
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 80 2336 2345 "deadcode.ml" 80 2336 2347
+)
+"deadcode.ml" 81 2351 2370 "deadcode.ml" 81 2351 2390
+call(
+  stack
+)
+type(
+  C.lang
+)
+"deadcode.ml" 82 2394 2401 "deadcode.ml" 82 2394 2410
+type(
+  (C.stmt -> unit) -> C.lang -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"deadcode.ml" 83 2411 2425 "deadcode.ml" 83 2411 2426
+type(
+  C.stmt
+)
+ident(
+  def s "deadcode.ml" 84 2430 2442 "deadcode.ml" 101 3124 3183
+)
+"deadcode.ml" 84 2430 2446 "deadcode.ml" 84 2430 2450
+type(
+  C.G.vertex * C.stmt
+)
+"deadcode.ml" 84 2430 2454 "deadcode.ml" 84 2430 2456
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 80 2336 2345 "deadcode.ml" 80 2336 2347
+)
+"deadcode.ml" 84 2430 2458 "deadcode.ml" 84 2430 2459
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 83 2411 2425 "deadcode.ml" 83 2411 2426
+)
+"deadcode.ml" 84 2430 2453 "deadcode.ml" 84 2430 2460
+type(
+  C.G.vertex * C.stmt
+)
+"deadcode.ml" 85 2464 2480 "deadcode.ml" 85 2464 2484
+type(
+  Ssa.var list
+)
+"deadcode.ml" 85 2464 2486 "deadcode.ml" 85 2464 2490
+type(
+  Ssa.var list
+)
+"deadcode.ml" 85 2464 2492 "deadcode.ml" 85 2464 2499
+type(
+  Ssa.var list
+)
+"deadcode.ml" 85 2464 2480 "deadcode.ml" 85 2464 2499
+type(
+  Ssa.var list * Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 85 2464 2502 "deadcode.ml" 85 2464 2510
+type(
+  C.stmt -> Ssa.var list * Ssa.var list * Ssa.var list
+)
+ident(
+  int_ref def_uses "deadcode.ml" 29 844 848 "deadcode.ml" 29 844 856
+)
+"deadcode.ml" 85 2464 2511 "deadcode.ml" 85 2464 2512
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 83 2411 2425 "deadcode.ml" 83 2411 2426
+)
+"deadcode.ml" 85 2464 2502 "deadcode.ml" 85 2464 2512
+call(
+  stack
+)
+type(
+  Ssa.var list * Ssa.var list * Ssa.var list
+)
+"deadcode.ml" 88 2568 2580 "deadcode.ml" 88 2568 2589
+type(
+  (VH.key -> unit) -> VH.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"deadcode.ml" 89 2590 2609 "deadcode.ml" 89 2590 2617
+type(
+  VH.key
+)
+ident(
+  def defd_var "deadcode.ml" 90 2621 2638 "deadcode.ml" 94 2849 2892
+)
+"deadcode.ml" 90 2621 2645 "deadcode.ml" 90 2621 2648
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"deadcode.ml" 90 2621 2650 "deadcode.ml" 90 2621 2656
+type(
+  VH.key list VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"deadcode.ml" 90 2621 2657 "deadcode.ml" 90 2621 2668
+type(
+  VH.key list VH.t
+)
+ident(
+  int_ref var_to_deps "deadcode.ml" 67 1961 1968 "deadcode.ml" 67 1961 1979
+)
+"deadcode.ml" 90 2621 2669 "deadcode.ml" 90 2621 2677
+type(
+  VH.key
+)
+ident(
+  int_ref defd_var "deadcode.ml" 89 2590 2609 "deadcode.ml" 89 2590 2617
+)
+"deadcode.ml" 90 2621 2649 "deadcode.ml" 90 2621 2678
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 90 2621 2644 "deadcode.ml" 90 2621 2679
+type(
+  bool
+)
+"deadcode.ml" 90 2621 2638 "deadcode.ml" 90 2621 2679
+type(
+  unit
+)
+"deadcode.ml" 91 2681 2705 "deadcode.ml" 91 2681 2708
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"deadcode.ml" 91 2681 2710 "deadcode.ml" 91 2681 2716
+type(
+  site VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"deadcode.ml" 91 2681 2717 "deadcode.ml" 91 2681 2731
+type(
+  site VH.t
+)
+ident(
+  int_ref var_to_defsite "deadcode.ml" 68 2018 2025 "deadcode.ml" 68 2018 2039
+)
+"deadcode.ml" 91 2681 2732 "deadcode.ml" 91 2681 2740
+type(
+  VH.key
+)
+ident(
+  int_ref defd_var "deadcode.ml" 89 2590 2609 "deadcode.ml" 89 2590 2617
+)
+"deadcode.ml" 91 2681 2709 "deadcode.ml" 91 2681 2741
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 91 2681 2704 "deadcode.ml" 91 2681 2742
+type(
+  bool
+)
+"deadcode.ml" 91 2681 2698 "deadcode.ml" 91 2681 2742
+type(
+  unit
+)
+"deadcode.ml" 92 2744 2761 "deadcode.ml" 92 2744 2767
+type(
+  VH.key list VH.t -> VH.key -> VH.key list -> unit
+)
+ident(
+  ext_ref VH.add
+)
+"deadcode.ml" 92 2744 2768 "deadcode.ml" 92 2744 2779
+type(
+  VH.key list VH.t
+)
+ident(
+  int_ref var_to_deps "deadcode.ml" 67 1961 1968 "deadcode.ml" 67 1961 1979
+)
+"deadcode.ml" 92 2744 2780 "deadcode.ml" 92 2744 2788
+type(
+  VH.key
+)
+ident(
+  int_ref defd_var "deadcode.ml" 89 2590 2609 "deadcode.ml" 89 2590 2617
+)
+"deadcode.ml" 92 2744 2789 "deadcode.ml" 92 2744 2793
+type(
+  VH.key list
+)
+ident(
+  int_ref deps "deadcode.ml" 85 2464 2486 "deadcode.ml" 85 2464 2490
+)
+"deadcode.ml" 92 2744 2761 "deadcode.ml" 92 2744 2793
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 93 2795 2812 "deadcode.ml" 93 2795 2818
+type(
+  site VH.t -> VH.key -> site -> unit
+)
+ident(
+  ext_ref VH.add
+)
+"deadcode.ml" 93 2795 2819 "deadcode.ml" 93 2795 2833
+type(
+  site VH.t
+)
+ident(
+  int_ref var_to_defsite "deadcode.ml" 68 2018 2025 "deadcode.ml" 68 2018 2039
+)
+"deadcode.ml" 93 2795 2834 "deadcode.ml" 93 2795 2842
+type(
+  VH.key
+)
+ident(
+  int_ref defd_var "deadcode.ml" 89 2590 2609 "deadcode.ml" 89 2590 2617
+)
+"deadcode.ml" 93 2795 2843 "deadcode.ml" 93 2795 2847
+type(
+  site
+)
+ident(
+  int_ref site "deadcode.ml" 84 2430 2446 "deadcode.ml" 84 2430 2450
+)
+"deadcode.ml" 93 2795 2812 "deadcode.ml" 93 2795 2847
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 94 2849 2866 "deadcode.ml" 94 2849 2872
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"deadcode.ml" 94 2849 2873 "deadcode.ml" 94 2849 2881
+type(
+  VH.key -> int ref
+)
+ident(
+  int_ref usecount "deadcode.ml" 70 2120 2126 "deadcode.ml" 70 2120 2134
+)
+"deadcode.ml" 94 2849 2882 "deadcode.ml" 94 2849 2890
+type(
+  VH.key
+)
+ident(
+  int_ref defd_var "deadcode.ml" 89 2590 2609 "deadcode.ml" 89 2590 2617
+)
+"deadcode.ml" 94 2849 2872 "deadcode.ml" 94 2849 2891
+call(
+  stack
+)
+type(
+  int ref
+)
+"deadcode.ml" 94 2849 2866 "deadcode.ml" 94 2849 2892
+type(
+  unit
+)
+"deadcode.ml" 93 2795 2812 "deadcode.ml" 94 2849 2892
+type(
+  unit
+)
+"deadcode.ml" 92 2744 2761 "deadcode.ml" 94 2849 2892
+type(
+  unit
+)
+"deadcode.ml" 91 2681 2698 "deadcode.ml" 94 2849 2892
+type(
+  unit
+)
+"deadcode.ml" 90 2621 2638 "deadcode.ml" 94 2849 2892
+type(
+  unit
+)
+"deadcode.ml" 89 2590 2604 "deadcode.ml" 95 2915 2930
+type(
+  VH.key -> unit
+)
+"deadcode.ml" 96 2931 2945 "deadcode.ml" 96 2931 2949
+type(
+  VH.key list
+)
+ident(
+  int_ref defs "deadcode.ml" 85 2464 2480 "deadcode.ml" 85 2464 2484
+)
+"deadcode.ml" 88 2568 2580 "deadcode.ml" 96 2931 2949
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 99 2995 3007 "deadcode.ml" 99 2995 3016
+type(
+  (VH.key -> unit) -> VH.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"deadcode.ml" 99 2995 3022 "deadcode.ml" 99 2995 3023
+type(
+  VH.key
+)
+ident(
+  def v "deadcode.ml" 99 2995 3027 "deadcode.ml" 99 2995 3044
+)
+"deadcode.ml" 99 2995 3027 "deadcode.ml" 99 2995 3031
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"deadcode.ml" 99 2995 3033 "deadcode.ml" 99 2995 3041
+type(
+  VH.key -> int ref
+)
+ident(
+  int_ref usecount "deadcode.ml" 70 2120 2126 "deadcode.ml" 70 2120 2134
+)
+"deadcode.ml" 99 2995 3042 "deadcode.ml" 99 2995 3043
+type(
+  VH.key
+)
+ident(
+  int_ref v "deadcode.ml" 99 2995 3022 "deadcode.ml" 99 2995 3023
+)
+"deadcode.ml" 99 2995 3032 "deadcode.ml" 99 2995 3044
+call(
+  stack
+)
+type(
+  int ref
+)
+"deadcode.ml" 99 2995 3027 "deadcode.ml" 99 2995 3044
+type(
+  unit
+)
+"deadcode.ml" 99 2995 3017 "deadcode.ml" 99 2995 3045
+type(
+  VH.key -> unit
+)
+"deadcode.ml" 99 2995 3046 "deadcode.ml" 99 2995 3050
+type(
+  VH.key list
+)
+ident(
+  int_ref deps "deadcode.ml" 85 2464 2486 "deadcode.ml" 85 2464 2490
+)
+"deadcode.ml" 99 2995 3007 "deadcode.ml" 99 2995 3050
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 101 3124 3136 "deadcode.ml" 101 3124 3145
+type(
+  (VH.key -> unit) -> VH.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"deadcode.ml" 101 3124 3151 "deadcode.ml" 101 3124 3152
+type(
+  VH.key
+)
+ident(
+  def v "deadcode.ml" 101 3124 3156 "deadcode.ml" 101 3124 3173
+)
+"deadcode.ml" 101 3124 3156 "deadcode.ml" 101 3124 3160
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"deadcode.ml" 101 3124 3162 "deadcode.ml" 101 3124 3170
+type(
+  VH.key -> int ref
+)
+ident(
+  int_ref usecount "deadcode.ml" 70 2120 2126 "deadcode.ml" 70 2120 2134
+)
+"deadcode.ml" 101 3124 3171 "deadcode.ml" 101 3124 3172
+type(
+  VH.key
+)
+ident(
+  int_ref v "deadcode.ml" 101 3124 3151 "deadcode.ml" 101 3124 3152
+)
+"deadcode.ml" 101 3124 3161 "deadcode.ml" 101 3124 3173
+call(
+  stack
+)
+type(
+  int ref
+)
+"deadcode.ml" 101 3124 3156 "deadcode.ml" 101 3124 3173
+type(
+  unit
+)
+"deadcode.ml" 101 3124 3146 "deadcode.ml" 101 3124 3174
+type(
+  VH.key -> unit
+)
+"deadcode.ml" 101 3124 3175 "deadcode.ml" 101 3124 3182
+type(
+  VH.key list
+)
+ident(
+  int_ref liveout "deadcode.ml" 85 2464 2492 "deadcode.ml" 85 2464 2499
+)
+"deadcode.ml" 101 3124 3136 "deadcode.ml" 101 3124 3183
+call(
+  tail
+)
+type(
+  unit
+)
+"deadcode.ml" 99 2995 3007 "deadcode.ml" 101 3124 3183
+type(
+  unit
+)
+"deadcode.ml" 88 2568 2580 "deadcode.ml" 101 3124 3183
+type(
+  unit
+)
+"deadcode.ml" 85 2464 2476 "deadcode.ml" 101 3124 3183
+type(
+  unit
+)
+"deadcode.ml" 84 2430 2442 "deadcode.ml" 101 3124 3183
+type(
+  unit
+)
+"deadcode.ml" 83 2411 2420 "deadcode.ml" 102 3184 3194
+type(
+  C.stmt -> unit
+)
+"deadcode.ml" 103 3195 3204 "deadcode.ml" 103 3195 3209
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "deadcode.ml" 81 2351 2362 "deadcode.ml" 81 2351 2367
+)
+"deadcode.ml" 82 2394 2401 "deadcode.ml" 103 3195 3209
+call(
+  tail
+)
+type(
+  unit
+)
+"deadcode.ml" 81 2351 2358 "deadcode.ml" 103 3195 3209
+type(
+  unit
+)
+"deadcode.ml" 80 2336 2340 "deadcode.ml" 104 3210 3215
+type(
+  C.G.vertex -> unit
+)
+"deadcode.ml" 105 3216 3220 "deadcode.ml" 105 3216 3225
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 66 1928 1953 "deadcode.ml" 66 1928 1958
+)
+"deadcode.ml" 79 2318 2320 "deadcode.ml" 105 3216 3225
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 111 3325 3327 "deadcode.ml" 111 3325 3343
+type(
+  (C.G.edge -> unit) -> C.G.t -> unit
+)
+ident(
+  ext_ref C.G.iter_edges_e
+)
+"deadcode.ml" 112 3344 3353 "deadcode.ml" 112 3344 3354
+type(
+  C.G.edge
+)
+ident(
+  def e "deadcode.ml" 114 3359 3365 "deadcode.ml" 118 3463 3516
+)
+"deadcode.ml" 114 3359 3371 "deadcode.ml" 114 3359 3382
+type(
+  C.G.E.t -> C.G.E.label
+)
+ident(
+  ext_ref C.G.E.label
+)
+"deadcode.ml" 114 3359 3383 "deadcode.ml" 114 3359 3384
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "deadcode.ml" 112 3344 3353 "deadcode.ml" 112 3344 3354
+)
+"deadcode.ml" 114 3359 3371 "deadcode.ml" 114 3359 3384
+call(
+  stack
+)
+type(
+  C.G.E.label
+)
+"deadcode.ml" 115 3390 3398 "deadcode.ml" 115 3390 3402
+type(
+  C.G.E.label
+)
+"deadcode.ml" 115 3390 3406 "deadcode.ml" 115 3390 3408
+type(
+  unit
+)
+"deadcode.ml" 116 3409 3423 "deadcode.ml" 116 3409 3424
+type(
+  bool option
+)
+"deadcode.ml" 116 3409 3426 "deadcode.ml" 116 3409 3427
+type(
+  C.exp
+)
+ident(
+  def e "deadcode.ml" 117 3432 3440 "deadcode.ml" 118 3463 3516
+)
+"deadcode.ml" 116 3409 3422 "deadcode.ml" 116 3409 3428
+type(
+  bool option * C.exp
+)
+"deadcode.ml" 116 3409 3417 "deadcode.ml" 116 3409 3428
+type(
+  C.G.E.label
+)
+"deadcode.ml" 117 3432 3444 "deadcode.ml" 117 3432 3450
+type(
+  Ssa.var list
+)
+"deadcode.ml" 117 3432 3453 "deadcode.ml" 117 3432 3457
+type(
+  C.exp -> Ssa.var list
+)
+ident(
+  int_ref uses "deadcode.ml" 47 1291 1295 "deadcode.ml" 47 1291 1299
+)
+"deadcode.ml" 117 3432 3458 "deadcode.ml" 117 3432 3459
+type(
+  C.exp
+)
+ident(
+  int_ref e "deadcode.ml" 116 3409 3426 "deadcode.ml" 116 3409 3427
+)
+"deadcode.ml" 117 3432 3453 "deadcode.ml" 117 3432 3459
+call(
+  stack
+)
+type(
+  Ssa.var list
+)
+"deadcode.ml" 118 3463 3471 "deadcode.ml" 118 3463 3480
+type(
+  (VH.key -> unit) -> VH.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"deadcode.ml" 118 3463 3486 "deadcode.ml" 118 3463 3487
+type(
+  VH.key
+)
+ident(
+  def v "deadcode.ml" 118 3463 3491 "deadcode.ml" 118 3463 3508
+)
+"deadcode.ml" 118 3463 3491 "deadcode.ml" 118 3463 3495
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"deadcode.ml" 118 3463 3497 "deadcode.ml" 118 3463 3505
+type(
+  VH.key -> int ref
+)
+ident(
+  int_ref usecount "deadcode.ml" 70 2120 2126 "deadcode.ml" 70 2120 2134
+)
+"deadcode.ml" 118 3463 3506 "deadcode.ml" 118 3463 3507
+type(
+  VH.key
+)
+ident(
+  int_ref v "deadcode.ml" 118 3463 3486 "deadcode.ml" 118 3463 3487
+)
+"deadcode.ml" 118 3463 3496 "deadcode.ml" 118 3463 3508
+call(
+  stack
+)
+type(
+  int ref
+)
+"deadcode.ml" 118 3463 3491 "deadcode.ml" 118 3463 3508
+type(
+  unit
+)
+"deadcode.ml" 118 3463 3481 "deadcode.ml" 118 3463 3509
+type(
+  VH.key -> unit
+)
+"deadcode.ml" 118 3463 3510 "deadcode.ml" 118 3463 3516
+type(
+  VH.key list
+)
+ident(
+  int_ref uses_e "deadcode.ml" 117 3432 3444 "deadcode.ml" 117 3432 3450
+)
+"deadcode.ml" 118 3463 3471 "deadcode.ml" 118 3463 3516
+call(
+  tail
+)
+type(
+  unit
+)
+"deadcode.ml" 117 3432 3440 "deadcode.ml" 118 3463 3516
+type(
+  unit
+)
+"deadcode.ml" 114 3359 3365 "deadcode.ml" 118 3463 3516
+type(
+  unit
+)
+"deadcode.ml" 112 3344 3348 "deadcode.ml" 119 3517 3522
+type(
+  C.G.edge -> unit
+)
+"deadcode.ml" 120 3523 3527 "deadcode.ml" 120 3523 3532
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 66 1928 1953 "deadcode.ml" 66 1928 1958
+)
+"deadcode.ml" 111 3325 3327 "deadcode.ml" 120 3523 3532
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 123 3576 3578 "deadcode.ml" 123 3576 3587
+type(
+  (VH.key -> unit) -> VH.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"deadcode.ml" 123 3576 3593 "deadcode.ml" 123 3576 3594
+type(
+  VH.key
+)
+ident(
+  def g "deadcode.ml" 123 3576 3598 "deadcode.ml" 123 3576 3615
+)
+"deadcode.ml" 123 3576 3598 "deadcode.ml" 123 3576 3602
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"deadcode.ml" 123 3576 3604 "deadcode.ml" 123 3576 3612
+type(
+  VH.key -> int ref
+)
+ident(
+  int_ref usecount "deadcode.ml" 70 2120 2126 "deadcode.ml" 70 2120 2134
+)
+"deadcode.ml" 123 3576 3613 "deadcode.ml" 123 3576 3614
+type(
+  VH.key
+)
+ident(
+  int_ref g "deadcode.ml" 123 3576 3593 "deadcode.ml" 123 3576 3594
+)
+"deadcode.ml" 123 3576 3603 "deadcode.ml" 123 3576 3615
+call(
+  stack
+)
+type(
+  int ref
+)
+"deadcode.ml" 123 3576 3598 "deadcode.ml" 123 3576 3615
+type(
+  unit
+)
+"deadcode.ml" 123 3576 3588 "deadcode.ml" 123 3576 3616
+type(
+  VH.key -> unit
+)
+"deadcode.ml" 123 3576 3618 "deadcode.ml" 123 3576 3625
+type(
+  VH.key list
+)
+ident(
+  int_ref globals "deadcode.ml" 66 1928 1941 "deadcode.ml" 66 1928 1948
+)
+"deadcode.ml" 123 3576 3578 "deadcode.ml" 123 3576 3625
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 126 3674 3680 "deadcode.ml" 126 3674 3687
+type(
+  VH.key Stack.t
+)
+"deadcode.ml" 126 3674 3690 "deadcode.ml" 126 3674 3702
+type(
+  unit -> VH.key Stack.t
+)
+ident(
+  ext_ref Stack.create
+)
+"deadcode.ml" 126 3674 3702 "deadcode.ml" 126 3674 3704
+type(
+  unit
+)
+"deadcode.ml" 126 3674 3690 "deadcode.ml" 126 3674 3704
+call(
+  stack
+)
+type(
+  VH.key Stack.t
+)
+"deadcode.ml" 127 3708 3710 "deadcode.ml" 127 3708 3717
+type(
+  (VH.key -> int ref -> unit) -> int ref VH.t -> unit
+)
+ident(
+  ext_ref VH.iter
+)
+"deadcode.ml" 127 3708 3723 "deadcode.ml" 127 3708 3724
+type(
+  VH.key
+)
+ident(
+  def v "deadcode.ml" 127 3708 3725 "deadcode.ml" 127 3708 3765
+)
+"deadcode.ml" 127 3708 3725 "deadcode.ml" 127 3708 3726
+type(
+  int ref
+)
+ident(
+  def c "deadcode.ml" 127 3708 3730 "deadcode.ml" 127 3708 3765
+)
+"deadcode.ml" 127 3708 3733 "deadcode.ml" 127 3708 3734
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 127 3708 3734 "deadcode.ml" 127 3708 3735
+type(
+  int ref
+)
+ident(
+  int_ref c "deadcode.ml" 127 3708 3725 "deadcode.ml" 127 3708 3726
+)
+"deadcode.ml" 127 3708 3733 "deadcode.ml" 127 3708 3735
+type(
+  int
+)
+"deadcode.ml" 127 3708 3736 "deadcode.ml" 127 3708 3737
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"deadcode.ml" 127 3708 3738 "deadcode.ml" 127 3708 3739
+type(
+  int
+)
+"deadcode.ml" 127 3708 3733 "deadcode.ml" 127 3708 3739
+type(
+  bool
+)
+"deadcode.ml" 127 3708 3745 "deadcode.ml" 127 3708 3755
+type(
+  VH.key -> VH.key Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"deadcode.ml" 127 3708 3756 "deadcode.ml" 127 3708 3757
+type(
+  VH.key
+)
+ident(
+  int_ref v "deadcode.ml" 127 3708 3723 "deadcode.ml" 127 3708 3724
+)
+"deadcode.ml" 127 3708 3758 "deadcode.ml" 127 3708 3765
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref to_kill "deadcode.ml" 126 3674 3680 "deadcode.ml" 126 3674 3687
+)
+"deadcode.ml" 127 3708 3745 "deadcode.ml" 127 3708 3765
+call(
+  tail
+)
+type(
+  unit
+)
+"deadcode.ml" 127 3708 3730 "deadcode.ml" 127 3708 3765
+type(
+  unit
+)
+"deadcode.ml" 127 3708 3718 "deadcode.ml" 127 3708 3766
+type(
+  VH.key -> int ref -> unit
+)
+"deadcode.ml" 127 3708 3767 "deadcode.ml" 127 3708 3776
+type(
+  int ref VH.t
+)
+ident(
+  int_ref usecounts "deadcode.ml" 69 2070 2077 "deadcode.ml" 69 2070 2086
+)
+"deadcode.ml" 127 3708 3710 "deadcode.ml" 127 3708 3776
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 130 3852 3858 "deadcode.ml" 130 3852 3869
+type(
+  bool
+)
+"deadcode.ml" 130 3852 3872 "deadcode.ml" 130 3852 3875
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"deadcode.ml" 130 3852 3876 "deadcode.ml" 130 3852 3890
+type(
+  VH.key Stack.t -> bool
+)
+ident(
+  ext_ref Stack.is_empty
+)
+"deadcode.ml" 130 3852 3891 "deadcode.ml" 130 3852 3898
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref to_kill "deadcode.ml" 126 3674 3680 "deadcode.ml" 126 3674 3687
+)
+"deadcode.ml" 130 3852 3875 "deadcode.ml" 130 3852 3899
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 130 3852 3872 "deadcode.ml" 130 3852 3899
+type(
+  bool
+)
+"deadcode.ml" 134 4029 4036 "deadcode.ml" 134 4029 4046
+type(
+  (site, unit) Hashtbl.t
+)
+"deadcode.ml" 134 4029 4073 "deadcode.ml" 134 4029 4087
+type(
+  int -> (site, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"deadcode.ml" 134 4029 4088 "deadcode.ml" 134 4029 4092
+type(
+  int
+)
+"deadcode.ml" 134 4029 4073 "deadcode.ml" 134 4029 4092
+call(
+  stack
+)
+type(
+  (site, unit) Hashtbl.t
+)
+"deadcode.ml" 135 4096 4102 "deadcode.ml" 135 4096 4118
+type(
+  unit BH.t
+)
+"deadcode.ml" 135 4096 4121 "deadcode.ml" 135 4096 4130
+type(
+  int -> unit BH.t
+)
+ident(
+  ext_ref BH.create
+)
+"deadcode.ml" 135 4096 4131 "deadcode.ml" 135 4096 4132
+type(
+  int
+)
+"deadcode.ml" 135 4096 4121 "deadcode.ml" 135 4096 4132
+call(
+  stack
+)
+type(
+  unit BH.t
+)
+"deadcode.ml" 136 4136 4144 "deadcode.ml" 136 4136 4147
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"deadcode.ml" 136 4136 4148 "deadcode.ml" 136 4136 4162
+type(
+  VH.key Stack.t -> bool
+)
+ident(
+  ext_ref Stack.is_empty
+)
+"deadcode.ml" 136 4136 4163 "deadcode.ml" 136 4136 4170
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref to_kill "deadcode.ml" 126 3674 3680 "deadcode.ml" 126 3674 3687
+)
+"deadcode.ml" 136 4136 4147 "deadcode.ml" 136 4136 4171
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 136 4136 4144 "deadcode.ml" 136 4136 4171
+type(
+  bool
+)
+"deadcode.ml" 137 4176 4184 "deadcode.ml" 137 4176 4195
+type(
+  VH.key
+)
+ident(
+  def var_to_kill "deadcode.ml" 139 4220 4224 "deadcode.ml" 157 4882 4953
+)
+"deadcode.ml" 137 4176 4198 "deadcode.ml" 137 4176 4207
+type(
+  VH.key Stack.t -> VH.key
+)
+ident(
+  ext_ref Stack.pop
+)
+"deadcode.ml" 137 4176 4208 "deadcode.ml" 137 4176 4215
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref to_kill "deadcode.ml" 126 3674 3680 "deadcode.ml" 126 3674 3687
+)
+"deadcode.ml" 137 4176 4198 "deadcode.ml" 137 4176 4215
+call(
+  stack
+)
+type(
+  VH.key
+)
+"deadcode.ml" 139 4220 4227 "deadcode.ml" 139 4220 4233
+type(
+  site VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"deadcode.ml" 139 4220 4234 "deadcode.ml" 139 4220 4248
+type(
+  site VH.t
+)
+ident(
+  int_ref var_to_defsite "deadcode.ml" 68 2018 2025 "deadcode.ml" 68 2018 2039
+)
+"deadcode.ml" 139 4220 4249 "deadcode.ml" 139 4220 4260
+type(
+  VH.key
+)
+ident(
+  int_ref var_to_kill "deadcode.ml" 137 4176 4184 "deadcode.ml" 137 4176 4195
+)
+"deadcode.ml" 139 4220 4227 "deadcode.ml" 139 4220 4260
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 141 4311 4322 "deadcode.ml" 141 4311 4324
+type(
+  C.G.V.t
+)
+ident(
+  def bb "deadcode.ml" 142 4387 4393 "deadcode.ml" 155 4844 4870
+)
+"deadcode.ml" 141 4311 4325 "deadcode.ml" 141 4311 4329
+type(
+  Ssa.stmt
+)
+ident(
+  def stmt "deadcode.ml" 142 4387 4393 "deadcode.ml" 155 4844 4870
+)
+"deadcode.ml" 141 4311 4321 "deadcode.ml" 141 4311 4330
+type(
+  site
+)
+"deadcode.ml" 141 4311 4321 "deadcode.ml" 141 4311 4346
+type(
+  site
+)
+ident(
+  def site_to_kill "deadcode.ml" 142 4387 4393 "deadcode.ml" 155 4844 4870
+)
+"deadcode.ml" 141 4311 4349 "deadcode.ml" 141 4311 4356
+type(
+  site VH.t -> VH.key -> site
+)
+ident(
+  ext_ref VH.find
+)
+"deadcode.ml" 141 4311 4357 "deadcode.ml" 141 4311 4371
+type(
+  site VH.t
+)
+ident(
+  int_ref var_to_defsite "deadcode.ml" 68 2018 2025 "deadcode.ml" 68 2018 2039
+)
+"deadcode.ml" 141 4311 4372 "deadcode.ml" 141 4311 4383
+type(
+  VH.key
+)
+ident(
+  int_ref var_to_kill "deadcode.ml" 137 4176 4184 "deadcode.ml" 137 4176 4195
+)
+"deadcode.ml" 141 4311 4349 "deadcode.ml" 141 4311 4383
+call(
+  stack
+)
+type(
+  site
+)
+"deadcode.ml" 142 4387 4400 "deadcode.ml" 142 4387 4403
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"deadcode.ml" 142 4387 4405 "deadcode.ml" 142 4387 4416
+type(
+  (site, unit) Hashtbl.t -> site -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"deadcode.ml" 142 4387 4417 "deadcode.ml" 142 4387 4427
+type(
+  (site, unit) Hashtbl.t
+)
+ident(
+  int_ref dead_sites "deadcode.ml" 134 4029 4036 "deadcode.ml" 134 4029 4046
+)
+"deadcode.ml" 142 4387 4428 "deadcode.ml" 142 4387 4440
+type(
+  site
+)
+ident(
+  int_ref site_to_kill "deadcode.ml" 141 4311 4321 "deadcode.ml" 141 4311 4346
+)
+"deadcode.ml" 142 4387 4404 "deadcode.ml" 142 4387 4441
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 142 4387 4399 "deadcode.ml" 142 4387 4442
+type(
+  bool
+)
+"deadcode.ml" 142 4387 4393 "deadcode.ml" 142 4387 4442
+type(
+  unit
+)
+"deadcode.ml" 143 4444 4450 "deadcode.ml" 143 4444 4461
+type(
+  (site, unit) Hashtbl.t -> site -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"deadcode.ml" 143 4444 4462 "deadcode.ml" 143 4444 4472
+type(
+  (site, unit) Hashtbl.t
+)
+ident(
+  int_ref dead_sites "deadcode.ml" 134 4029 4036 "deadcode.ml" 134 4029 4046
+)
+"deadcode.ml" 143 4444 4473 "deadcode.ml" 143 4444 4485
+type(
+  site
+)
+ident(
+  int_ref site_to_kill "deadcode.ml" 141 4311 4321 "deadcode.ml" 141 4311 4346
+)
+"deadcode.ml" 143 4444 4486 "deadcode.ml" 143 4444 4488
+type(
+  unit
+)
+"deadcode.ml" 143 4444 4450 "deadcode.ml" 143 4444 4488
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 144 4490 4496 "deadcode.ml" 144 4490 4506
+type(
+  unit BH.t -> BH.key -> unit -> unit
+)
+ident(
+  ext_ref BH.replace
+)
+"deadcode.ml" 144 4490 4507 "deadcode.ml" 144 4490 4523
+type(
+  unit BH.t
+)
+ident(
+  int_ref blocks_to_update "deadcode.ml" 135 4096 4102 "deadcode.ml" 135 4096 4118
+)
+"deadcode.ml" 144 4490 4524 "deadcode.ml" 144 4490 4526
+type(
+  C.G.V.t
+)
+ident(
+  int_ref bb "deadcode.ml" 141 4311 4322 "deadcode.ml" 141 4311 4324
+)
+"deadcode.ml" 144 4490 4527 "deadcode.ml" 144 4490 4529
+type(
+  unit
+)
+"deadcode.ml" 144 4490 4496 "deadcode.ml" 144 4490 4529
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 148 4620 4626 "deadcode.ml" 148 4620 4635
+type(
+  (VH.key -> unit) -> VH.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"deadcode.ml" 149 4636 4649 "deadcode.ml" 149 4636 4657
+type(
+  VH.key
+)
+ident(
+  def used_var "deadcode.ml" 150 4661 4672 "deadcode.ml" 153 4771 4833
+)
+"deadcode.ml" 150 4661 4676 "deadcode.ml" 150 4661 4685
+type(
+  int ref
+)
+"deadcode.ml" 150 4661 4688 "deadcode.ml" 150 4661 4696
+type(
+  VH.key -> int ref
+)
+ident(
+  int_ref usecount "deadcode.ml" 70 2120 2126 "deadcode.ml" 70 2120 2134
+)
+"deadcode.ml" 150 4661 4697 "deadcode.ml" 150 4661 4705
+type(
+  VH.key
+)
+ident(
+  int_ref used_var "deadcode.ml" 149 4636 4649 "deadcode.ml" 149 4636 4657
+)
+"deadcode.ml" 150 4661 4688 "deadcode.ml" 150 4661 4705
+call(
+  stack
+)
+type(
+  int ref
+)
+"deadcode.ml" 151 4709 4727 "deadcode.ml" 151 4709 4728
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 151 4709 4728 "deadcode.ml" 151 4709 4737
+type(
+  int ref
+)
+ident(
+  int_ref use_count "deadcode.ml" 150 4661 4676 "deadcode.ml" 150 4661 4685
+)
+"deadcode.ml" 151 4709 4727 "deadcode.ml" 151 4709 4737
+type(
+  int
+)
+"deadcode.ml" 151 4709 4738 "deadcode.ml" 151 4709 4739
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"deadcode.ml" 151 4709 4740 "deadcode.ml" 151 4709 4741
+type(
+  int
+)
+"deadcode.ml" 151 4709 4726 "deadcode.ml" 151 4709 4742
+type(
+  bool
+)
+"deadcode.ml" 151 4709 4720 "deadcode.ml" 151 4709 4742
+type(
+  unit
+)
+"deadcode.ml" 152 4744 4755 "deadcode.ml" 152 4744 4759
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"deadcode.ml" 152 4744 4760 "deadcode.ml" 152 4744 4769
+type(
+  int ref
+)
+ident(
+  int_ref use_count "deadcode.ml" 150 4661 4676 "deadcode.ml" 150 4661 4685
+)
+"deadcode.ml" 152 4744 4755 "deadcode.ml" 152 4744 4769
+type(
+  unit
+)
+"deadcode.ml" 153 4771 4785 "deadcode.ml" 153 4771 4786
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 153 4771 4786 "deadcode.ml" 153 4771 4795
+type(
+  int ref
+)
+ident(
+  int_ref use_count "deadcode.ml" 150 4661 4676 "deadcode.ml" 150 4661 4685
+)
+"deadcode.ml" 153 4771 4785 "deadcode.ml" 153 4771 4795
+type(
+  int
+)
+"deadcode.ml" 153 4771 4796 "deadcode.ml" 153 4771 4797
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"deadcode.ml" 153 4771 4798 "deadcode.ml" 153 4771 4799
+type(
+  int
+)
+"deadcode.ml" 153 4771 4785 "deadcode.ml" 153 4771 4799
+type(
+  bool
+)
+"deadcode.ml" 153 4771 4805 "deadcode.ml" 153 4771 4815
+type(
+  VH.key -> VH.key Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"deadcode.ml" 153 4771 4816 "deadcode.ml" 153 4771 4824
+type(
+  VH.key
+)
+ident(
+  int_ref used_var "deadcode.ml" 149 4636 4649 "deadcode.ml" 149 4636 4657
+)
+"deadcode.ml" 153 4771 4825 "deadcode.ml" 153 4771 4832
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref to_kill "deadcode.ml" 126 3674 3680 "deadcode.ml" 126 3674 3687
+)
+"deadcode.ml" 153 4771 4805 "deadcode.ml" 153 4771 4832
+call(
+  tail
+)
+type(
+  unit
+)
+"deadcode.ml" 153 4771 4782 "deadcode.ml" 153 4771 4833
+type(
+  unit
+)
+"deadcode.ml" 152 4744 4755 "deadcode.ml" 153 4771 4833
+type(
+  unit
+)
+"deadcode.ml" 151 4709 4720 "deadcode.ml" 153 4771 4833
+type(
+  unit
+)
+"deadcode.ml" 150 4661 4672 "deadcode.ml" 153 4771 4833
+type(
+  unit
+)
+"deadcode.ml" 149 4636 4644 "deadcode.ml" 154 4834 4843
+type(
+  VH.key -> unit
+)
+"deadcode.ml" 155 4844 4853 "deadcode.ml" 155 4844 4857
+type(
+  VH.key -> VH.key list
+)
+ident(
+  int_ref deps "deadcode.ml" 77 2253 2259 "deadcode.ml" 77 2253 2263
+)
+"deadcode.ml" 155 4844 4858 "deadcode.ml" 155 4844 4869
+type(
+  VH.key
+)
+ident(
+  int_ref var_to_kill "deadcode.ml" 137 4176 4184 "deadcode.ml" 137 4176 4195
+)
+"deadcode.ml" 155 4844 4852 "deadcode.ml" 155 4844 4870
+call(
+  stack
+)
+type(
+  VH.key list
+)
+"deadcode.ml" 148 4620 4626 "deadcode.ml" 155 4844 4870
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 144 4490 4496 "deadcode.ml" 155 4844 4870
+type(
+  unit
+)
+"deadcode.ml" 143 4444 4450 "deadcode.ml" 155 4844 4870
+type(
+  unit
+)
+"deadcode.ml" 142 4387 4393 "deadcode.ml" 155 4844 4870
+type(
+  unit
+)
+"deadcode.ml" 139 4220 4266 "deadcode.ml" 156 4871 4876
+type(
+  unit
+)
+"deadcode.ml" 157 4882 4888 "deadcode.ml" 157 4882 4895
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"deadcode.ml" 157 4882 4896 "deadcode.ml" 157 4882 4922
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"deadcode.ml" 157 4882 4924 "deadcode.ml" 157 4882 4940
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"deadcode.ml" 157 4882 4941 "deadcode.ml" 157 4882 4952
+type(
+  VH.key
+)
+ident(
+  int_ref var_to_kill "deadcode.ml" 137 4176 4184 "deadcode.ml" 137 4176 4195
+)
+"deadcode.ml" 157 4882 4923 "deadcode.ml" 157 4882 4953
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 157 4882 4888 "deadcode.ml" 157 4882 4953
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 139 4220 4224 "deadcode.ml" 157 4882 4953
+type(
+  unit
+)
+"deadcode.ml" 137 4176 4180 "deadcode.ml" 157 4882 4953
+type(
+  unit
+)
+"deadcode.ml" 136 4136 4138 "deadcode.ml" 158 4954 4960
+type(
+  unit
+)
+"deadcode.ml" 161 5008 5010 "deadcode.ml" 161 5008 5017
+type(
+  (int -> unit, unit, string, unit) format4 -> int -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"deadcode.ml" 161 5008 5018 "deadcode.ml" 161 5008 5042
+type(
+  (int -> unit, unit, string, unit) format4
+)
+"deadcode.ml" 161 5008 5044 "deadcode.ml" 161 5008 5058
+type(
+  (site, unit) Hashtbl.t -> int
+)
+ident(
+  ext_ref Hashtbl.length
+)
+"deadcode.ml" 161 5008 5059 "deadcode.ml" 161 5008 5069
+type(
+  (site, unit) Hashtbl.t
+)
+ident(
+  int_ref dead_sites "deadcode.ml" 134 4029 4036 "deadcode.ml" 134 4029 4046
+)
+"deadcode.ml" 161 5008 5043 "deadcode.ml" 161 5008 5070
+call(
+  stack
+)
+type(
+  int
+)
+"deadcode.ml" 161 5008 5010 "deadcode.ml" 161 5008 5070
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 162 5072 5078 "deadcode.ml" 162 5072 5083
+type(
+  C.G.t
+)
+"deadcode.ml" 163 5086 5090 "deadcode.ml" 163 5086 5097
+type(
+  (BH.key -> unit -> C.G.t -> C.G.t) -> unit BH.t -> C.G.t -> C.G.t
+)
+ident(
+  ext_ref BH.fold
+)
+"deadcode.ml" 164 5098 5109 "deadcode.ml" 164 5098 5111
+type(
+  BH.key
+)
+ident(
+  def bb "deadcode.ml" 164 5098 5112 "deadcode.ml" 169 5276 5312
+)
+"deadcode.ml" 164 5098 5112 "deadcode.ml" 164 5098 5114
+type(
+  unit
+)
+"deadcode.ml" 164 5098 5115 "deadcode.ml" 164 5098 5120
+type(
+  C.G.t
+)
+ident(
+  def graph "deadcode.ml" 165 5123 5132 "deadcode.ml" 169 5276 5312
+)
+"deadcode.ml" 165 5123 5136 "deadcode.ml" 165 5123 5141
+type(
+  C.lang
+)
+"deadcode.ml" 165 5123 5144 "deadcode.ml" 165 5123 5155
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"deadcode.ml" 165 5123 5156 "deadcode.ml" 165 5123 5161
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 164 5098 5115 "deadcode.ml" 164 5098 5120
+)
+"deadcode.ml" 165 5123 5162 "deadcode.ml" 165 5123 5164
+type(
+  BH.key
+)
+ident(
+  int_ref bb "deadcode.ml" 164 5098 5109 "deadcode.ml" 164 5098 5111
+)
+"deadcode.ml" 165 5123 5144 "deadcode.ml" 165 5123 5164
+call(
+  stack
+)
+type(
+  C.lang
+)
+"deadcode.ml" 166 5168 5181 "deadcode.ml" 166 5168 5187
+type(
+  C.stmt list
+)
+"deadcode.ml" 167 5190 5201 "deadcode.ml" 167 5190 5212
+type(
+  (C.stmt -> bool) -> C.lang -> C.stmt list
+)
+ident(
+  ext_ref List.filter
+)
+"deadcode.ml" 167 5190 5218 "deadcode.ml" 167 5190 5219
+type(
+  C.stmt
+)
+ident(
+  def s "deadcode.ml" 167 5190 5223 "deadcode.ml" 167 5190 5258
+)
+"deadcode.ml" 167 5190 5223 "deadcode.ml" 167 5190 5226
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"deadcode.ml" 167 5190 5228 "deadcode.ml" 167 5190 5239
+type(
+  (site, unit) Hashtbl.t -> site -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"deadcode.ml" 167 5190 5240 "deadcode.ml" 167 5190 5250
+type(
+  (site, unit) Hashtbl.t
+)
+ident(
+  int_ref dead_sites "deadcode.ml" 134 4029 4036 "deadcode.ml" 134 4029 4046
+)
+"deadcode.ml" 167 5190 5252 "deadcode.ml" 167 5190 5254
+type(
+  BH.key
+)
+ident(
+  int_ref bb "deadcode.ml" 164 5098 5109 "deadcode.ml" 164 5098 5111
+)
+"deadcode.ml" 167 5190 5255 "deadcode.ml" 167 5190 5256
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 167 5190 5218 "deadcode.ml" 167 5190 5219
+)
+"deadcode.ml" 167 5190 5251 "deadcode.ml" 167 5190 5257
+type(
+  site
+)
+"deadcode.ml" 167 5190 5227 "deadcode.ml" 167 5190 5258
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 167 5190 5223 "deadcode.ml" 167 5190 5258
+type(
+  bool
+)
+"deadcode.ml" 167 5190 5213 "deadcode.ml" 167 5190 5259
+type(
+  C.stmt -> bool
+)
+"deadcode.ml" 167 5190 5260 "deadcode.ml" 167 5190 5265
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "deadcode.ml" 165 5123 5136 "deadcode.ml" 165 5123 5141
+)
+"deadcode.ml" 167 5190 5201 "deadcode.ml" 167 5190 5265
+call(
+  stack
+)
+type(
+  C.stmt list
+)
+"deadcode.ml" 169 5276 5285 "deadcode.ml" 169 5276 5296
+type(
+  C.G.t -> C.G.V.t -> C.lang -> C.G.t
+)
+ident(
+  ext_ref C.set_stmts
+)
+"deadcode.ml" 169 5276 5297 "deadcode.ml" 169 5276 5302
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 164 5098 5115 "deadcode.ml" 164 5098 5120
+)
+"deadcode.ml" 169 5276 5303 "deadcode.ml" 169 5276 5305
+type(
+  BH.key
+)
+ident(
+  int_ref bb "deadcode.ml" 164 5098 5109 "deadcode.ml" 164 5098 5111
+)
+"deadcode.ml" 169 5276 5306 "deadcode.ml" 169 5276 5312
+type(
+  C.lang
+)
+ident(
+  int_ref stmts' "deadcode.ml" 166 5168 5181 "deadcode.ml" 166 5168 5187
+)
+"deadcode.ml" 169 5276 5285 "deadcode.ml" 169 5276 5312
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 166 5168 5177 "deadcode.ml" 169 5276 5312
+type(
+  C.G.t
+)
+"deadcode.ml" 165 5123 5132 "deadcode.ml" 169 5276 5312
+type(
+  C.G.t
+)
+"deadcode.ml" 164 5098 5104 "deadcode.ml" 170 5313 5318
+type(
+  BH.key -> unit -> C.G.t -> C.G.t
+)
+"deadcode.ml" 171 5319 5323 "deadcode.ml" 171 5319 5339
+type(
+  unit BH.t
+)
+ident(
+  int_ref blocks_to_update "deadcode.ml" 135 4096 4102 "deadcode.ml" 135 4096 4118
+)
+"deadcode.ml" 172 5340 5344 "deadcode.ml" 172 5340 5349
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 66 1928 1953 "deadcode.ml" 66 1928 1958
+)
+"deadcode.ml" 163 5086 5090 "deadcode.ml" 172 5340 5349
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 174 5355 5358 "deadcode.ml" 174 5355 5363
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 162 5072 5078 "deadcode.ml" 162 5072 5083
+)
+"deadcode.ml" 174 5355 5365 "deadcode.ml" 174 5355 5376
+type(
+  bool
+)
+ident(
+  int_ref has_changed "deadcode.ml" 130 3852 3858 "deadcode.ml" 130 3852 3869
+)
+"deadcode.ml" 174 5355 5357 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 162 5072 5074 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 161 5008 5010 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 136 4136 4138 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 135 4096 4098 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 134 4029 4031 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 130 3852 3854 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 127 3708 3710 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 126 3674 3676 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 123 3576 3578 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 111 3325 3327 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 79 2318 2320 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 77 2253 2255 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 70 2120 2122 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 69 2070 2072 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 68 2018 2020 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 67 1961 1963 "deadcode.ml" 174 5355 5377
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 191 6010 6014 "deadcode.ml" 191 6010 6031
+type(
+  ?globals:Ssa.var list -> C.G.t -> C.G.t * bool
+)
+ident(
+  def do_aggressive_dce "deadcode.ml" 428 14691 14712 --
+)
+"deadcode.ml" 191 6010 6034 "deadcode.ml" 191 6010 6041
+type(
+  Ssa.var list
+)
+"deadcode.ml" 191 6010 6044 "deadcode.ml" 191 6010 6046
+type(
+  Ssa.var list
+)
+type(
+  Ssa.var list
+)
+ident(
+  int_ref *sth* "deadcode.ml" 191 6010 6044 "deadcode.ml" 191 6010 6046
+)
+type(
+  Ssa.var list option
+)
+type(
+  Ssa.var list option
+)
+type(
+  Ssa.var list
+)
+ident(
+  def *sth* "deadcode.ml" 191 6010 6044 "deadcode.ml" 191 6010 6046
+)
+"deadcode.ml" 191 6010 6048 "deadcode.ml" 191 6010 6053
+type(
+  C.G.t
+)
+ident(
+  def graph "deadcode.ml" 194 6085 6087 "deadcode.ml" 428 14691 14712
+)
+"deadcode.ml" 194 6085 6091 "deadcode.ml" 194 6085 6096
+type(
+  C.G.V.t
+)
+"deadcode.ml" 194 6085 6099 "deadcode.ml" 194 6085 6111
+type(
+  C.G.V.label -> C.G.V.t
+)
+ident(
+  ext_ref C.G.V.create
+)
+"deadcode.ml" 194 6085 6112 "deadcode.ml" 194 6085 6123
+type(
+  C.G.V.label
+)
+"deadcode.ml" 194 6085 6099 "deadcode.ml" 194 6085 6123
+call(
+  stack
+)
+type(
+  C.G.V.t
+)
+"deadcode.ml" 195 6127 6133 "deadcode.ml" 195 6127 6143
+type(
+  C.stmt list
+)
+"deadcode.ml" 195 6127 6159 "deadcode.ml" 195 6127 6165
+type(
+  string
+)
+"deadcode.ml" 195 6127 6168 "deadcode.ml" 195 6127 6180
+type(
+  Type.attribute
+)
+"deadcode.ml" 195 6127 6167 "deadcode.ml" 195 6127 6181
+type(
+  Ssa.attrs
+)
+"deadcode.ml" 195 6127 6146 "deadcode.ml" 195 6127 6182
+type(
+  C.stmt
+)
+"deadcode.ml" 195 6127 6185 "deadcode.ml" 195 6127 6196
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"deadcode.ml" 195 6127 6197 "deadcode.ml" 195 6127 6202
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 191 6010 6048 "deadcode.ml" 191 6010 6053
+)
+"deadcode.ml" 195 6127 6203 "deadcode.ml" 195 6127 6208
+type(
+  C.G.V.t
+)
+ident(
+  int_ref exitv "deadcode.ml" 194 6085 6091 "deadcode.ml" 194 6085 6096
+)
+"deadcode.ml" 195 6127 6184 "deadcode.ml" 195 6127 6209
+call(
+  stack
+)
+type(
+  C.lang
+)
+"deadcode.ml" 195 6127 6146 "deadcode.ml" 195 6127 6209
+type(
+  C.stmt list
+)
+"deadcode.ml" 196 6213 6219 "deadcode.ml" 196 6213 6224
+type(
+  C.G.t
+)
+"deadcode.ml" 196 6213 6227 "deadcode.ml" 196 6213 6238
+type(
+  C.G.t -> C.G.V.t -> C.lang -> C.G.t
+)
+ident(
+  ext_ref C.set_stmts
+)
+"deadcode.ml" 196 6213 6239 "deadcode.ml" 196 6213 6244
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 191 6010 6048 "deadcode.ml" 191 6010 6053
+)
+"deadcode.ml" 196 6213 6245 "deadcode.ml" 196 6213 6250
+type(
+  C.G.V.t
+)
+ident(
+  int_ref exitv "deadcode.ml" 194 6085 6091 "deadcode.ml" 194 6085 6096
+)
+"deadcode.ml" 196 6213 6251 "deadcode.ml" 196 6213 6261
+type(
+  C.lang
+)
+ident(
+  int_ref exit_stmts "deadcode.ml" 195 6127 6133 "deadcode.ml" 195 6127 6143
+)
+"deadcode.ml" 196 6213 6227 "deadcode.ml" 196 6213 6261
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 198 6266 6272 "deadcode.ml" 198 6266 6276
+type(
+  C.G.V.t * int -> C.stmt
+)
+"deadcode.ml" 198 6266 6278 "deadcode.ml" 198 6266 6280
+type(
+  C.G.V.t
+)
+ident(
+  def bb "deadcode.ml" 199 6289 6293 "deadcode.ml" 200 6329 6352
+)
+"deadcode.ml" 198 6266 6281 "deadcode.ml" 198 6266 6285
+type(
+  int
+)
+ident(
+  def snum "deadcode.ml" 199 6289 6293 "deadcode.ml" 200 6329 6352
+)
+"deadcode.ml" 198 6266 6277 "deadcode.ml" 198 6266 6286
+type(
+  C.G.V.t * int
+)
+"deadcode.ml" 199 6289 6297 "deadcode.ml" 199 6289 6302
+type(
+  C.lang
+)
+"deadcode.ml" 199 6289 6305 "deadcode.ml" 199 6289 6316
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"deadcode.ml" 199 6289 6317 "deadcode.ml" 199 6289 6322
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 196 6213 6219 "deadcode.ml" 196 6213 6224
+)
+"deadcode.ml" 199 6289 6323 "deadcode.ml" 199 6289 6325
+type(
+  C.G.V.t
+)
+ident(
+  int_ref bb "deadcode.ml" 198 6266 6278 "deadcode.ml" 198 6266 6280
+)
+"deadcode.ml" 199 6289 6305 "deadcode.ml" 199 6289 6325
+call(
+  stack
+)
+type(
+  C.lang
+)
+"deadcode.ml" 200 6329 6333 "deadcode.ml" 200 6329 6341
+type(
+  C.lang -> int -> C.stmt
+)
+ident(
+  ext_ref List.nth
+)
+"deadcode.ml" 200 6329 6342 "deadcode.ml" 200 6329 6347
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "deadcode.ml" 199 6289 6297 "deadcode.ml" 199 6289 6302
+)
+"deadcode.ml" 200 6329 6348 "deadcode.ml" 200 6329 6352
+type(
+  int
+)
+ident(
+  int_ref snum "deadcode.ml" 198 6266 6281 "deadcode.ml" 198 6266 6285
+)
+"deadcode.ml" 200 6329 6333 "deadcode.ml" 200 6329 6352
+call(
+  tail
+)
+type(
+  C.stmt
+)
+"deadcode.ml" 199 6289 6293 "deadcode.ml" 200 6329 6352
+type(
+  C.stmt
+)
+"deadcode.ml" 202 6358 6364 "deadcode.ml" 202 6358 6367
+type(
+  Depgraphs.CDG_SSA.G.t
+)
+"deadcode.ml" 202 6358 6370 "deadcode.ml" 202 6358 6399
+type(
+  Depgraphs.CDG_SSA.G.t -> Depgraphs.CDG_SSA.G.t
+)
+ident(
+  ext_ref Depgraphs.CDG_SSA.compute_cdg
+)
+"deadcode.ml" 202 6358 6400 "deadcode.ml" 202 6358 6405
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 196 6213 6219 "deadcode.ml" 196 6213 6224
+)
+"deadcode.ml" 202 6358 6370 "deadcode.ml" 202 6358 6405
+call(
+  stack
+)
+type(
+  Depgraphs.CDG_SSA.G.t
+)
+"deadcode.ml" 217 6910 6917 "deadcode.ml" 217 6910 6929
+type(
+  (newsite, newsite list) Hashtbl.t
+)
+"deadcode.ml" 217 6910 6968 "deadcode.ml" 217 6910 6982
+type(
+  int -> (newsite, newsite list) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"deadcode.ml" 217 6910 6983 "deadcode.ml" 217 6910 6985
+type(
+  int
+)
+"deadcode.ml" 217 6910 6968 "deadcode.ml" 217 6910 6985
+call(
+  stack
+)
+type(
+  (newsite, newsite list) Hashtbl.t
+)
+"deadcode.ml" 218 6989 6996 "deadcode.ml" 218 6989 7010
+type(
+  newsite VH.t
+)
+"deadcode.ml" 218 6989 7028 "deadcode.ml" 218 6989 7037
+type(
+  int -> newsite VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"deadcode.ml" 218 6989 7038 "deadcode.ml" 218 6989 7040
+type(
+  int
+)
+"deadcode.ml" 218 6989 7028 "deadcode.ml" 218 6989 7040
+call(
+  stack
+)
+type(
+  newsite VH.t
+)
+"deadcode.ml" 219 7044 7050 "deadcode.ml" 219 7044 7062
+type(
+  newsite -> bool
+)
+"deadcode.ml" 219 7044 7064 "deadcode.ml" 219 7044 7081
+type(
+  newsite -> unit
+)
+"deadcode.ml" 219 7044 7050 "deadcode.ml" 219 7044 7081
+type(
+  (newsite -> bool) * (newsite -> unit)
+)
+"deadcode.ml" 220 7084 7092 "deadcode.ml" 220 7084 7097
+type(
+  (newsite, unit) Hashtbl.t
+)
+"deadcode.ml" 220 7084 7128 "deadcode.ml" 220 7084 7142
+type(
+  int -> (newsite, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"deadcode.ml" 220 7084 7143 "deadcode.ml" 220 7084 7145
+type(
+  int
+)
+"deadcode.ml" 220 7084 7128 "deadcode.ml" 220 7084 7145
+call(
+  stack
+)
+type(
+  (newsite, unit) Hashtbl.t
+)
+type(
+  (newsite, unit) Hashtbl.t
+)
+"deadcode.ml" 221 7149 7158 "deadcode.ml" 221 7149 7162
+type(
+  newsite
+)
+ident(
+  def site "deadcode.ml" 221 7149 7166 "deadcode.ml" 221 7149 7188
+)
+"deadcode.ml" 221 7149 7166 "deadcode.ml" 221 7149 7177
+type(
+  (newsite, unit) Hashtbl.t -> newsite -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"deadcode.ml" 221 7149 7178 "deadcode.ml" 221 7149 7183
+type(
+  (newsite, unit) Hashtbl.t
+)
+ident(
+  int_ref liveh "deadcode.ml" 220 7084 7092 "deadcode.ml" 220 7084 7097
+)
+"deadcode.ml" 221 7149 7184 "deadcode.ml" 221 7149 7188
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 221 7149 7158 "deadcode.ml" 221 7149 7162
+)
+"deadcode.ml" 221 7149 7166 "deadcode.ml" 221 7149 7188
+call(
+  tail
+)
+type(
+  bool
+)
+"deadcode.ml" 221 7149 7153 "deadcode.ml" 221 7149 7189
+type(
+  newsite -> bool
+)
+"deadcode.ml" 222 7191 7200 "deadcode.ml" 222 7191 7204
+type(
+  newsite
+)
+ident(
+  def site "deadcode.ml" 222 7191 7208 "deadcode.ml" 222 7191 7237
+)
+"deadcode.ml" 222 7191 7208 "deadcode.ml" 222 7191 7223
+type(
+  (newsite, unit) Hashtbl.t -> newsite -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"deadcode.ml" 222 7191 7224 "deadcode.ml" 222 7191 7229
+type(
+  (newsite, unit) Hashtbl.t
+)
+ident(
+  int_ref liveh "deadcode.ml" 220 7084 7092 "deadcode.ml" 220 7084 7097
+)
+"deadcode.ml" 222 7191 7230 "deadcode.ml" 222 7191 7234
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 222 7191 7200 "deadcode.ml" 222 7191 7204
+)
+"deadcode.ml" 222 7191 7235 "deadcode.ml" 222 7191 7237
+type(
+  unit
+)
+"deadcode.ml" 222 7191 7208 "deadcode.ml" 222 7191 7237
+call(
+  tail
+)
+type(
+  unit
+)
+"deadcode.ml" 222 7191 7195 "deadcode.ml" 222 7191 7238
+type(
+  newsite -> unit
+)
+"deadcode.ml" 221 7149 7153 "deadcode.ml" 222 7191 7238
+type(
+  (newsite -> bool) * (newsite -> unit)
+)
+"deadcode.ml" 220 7084 7088 "deadcode.ml" 222 7191 7238
+type(
+  (newsite -> bool) * (newsite -> unit)
+)
+"deadcode.ml" 224 7244 7250 "deadcode.ml" 224 7244 7277
+type(
+  newsite -> unit
+)
+"deadcode.ml" 224 7244 7279 "deadcode.ml" 224 7244 7297
+type(
+  unit -> newsite list
+)
+"deadcode.ml" 224 7244 7250 "deadcode.ml" 224 7244 7297
+type(
+  (newsite -> unit) * (unit -> newsite list)
+)
+"deadcode.ml" 225 7300 7308 "deadcode.ml" 225 7300 7320
+type(
+  newsite list ref
+)
+"deadcode.ml" 225 7300 7323 "deadcode.ml" 225 7300 7326
+type(
+  newsite list -> newsite list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"deadcode.ml" 225 7300 7327 "deadcode.ml" 225 7300 7329
+type(
+  newsite list
+)
+"deadcode.ml" 225 7300 7323 "deadcode.ml" 225 7300 7329
+type(
+  newsite list ref
+)
+"deadcode.ml" 226 7333 7342 "deadcode.ml" 226 7333 7346
+type(
+  newsite
+)
+ident(
+  def site "deadcode.ml" 226 7333 7350 "deadcode.ml" 226 7333 7387
+)
+"deadcode.ml" 226 7333 7350 "deadcode.ml" 226 7333 7362
+type(
+  newsite list ref
+)
+ident(
+  int_ref initial_live "deadcode.ml" 225 7300 7308 "deadcode.ml" 225 7300 7320
+)
+"deadcode.ml" 226 7333 7363 "deadcode.ml" 226 7333 7365
+type(
+  newsite list ref -> newsite list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"deadcode.ml" 226 7333 7366 "deadcode.ml" 226 7333 7370
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 226 7333 7342 "deadcode.ml" 226 7333 7346
+)
+"deadcode.ml" 226 7333 7374 "deadcode.ml" 226 7333 7375
+type(
+  newsite list ref -> newsite list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 226 7333 7375 "deadcode.ml" 226 7333 7387
+type(
+  newsite list ref
+)
+ident(
+  int_ref initial_live "deadcode.ml" 225 7300 7308 "deadcode.ml" 225 7300 7320
+)
+"deadcode.ml" 226 7333 7374 "deadcode.ml" 226 7333 7387
+type(
+  newsite list
+)
+"deadcode.ml" 226 7333 7366 "deadcode.ml" 226 7333 7387
+type(
+  newsite list
+)
+"deadcode.ml" 226 7333 7350 "deadcode.ml" 226 7333 7387
+type(
+  unit
+)
+"deadcode.ml" 226 7333 7337 "deadcode.ml" 226 7333 7388
+type(
+  newsite -> unit
+)
+"deadcode.ml" 227 7390 7399 "deadcode.ml" 227 7390 7401
+type(
+  unit
+)
+"deadcode.ml" 227 7390 7405 "deadcode.ml" 227 7390 7406
+type(
+  newsite list ref -> newsite list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 227 7390 7406 "deadcode.ml" 227 7390 7418
+type(
+  newsite list ref
+)
+ident(
+  int_ref initial_live "deadcode.ml" 225 7300 7308 "deadcode.ml" 225 7300 7320
+)
+"deadcode.ml" 227 7390 7405 "deadcode.ml" 227 7390 7418
+type(
+  newsite list
+)
+"deadcode.ml" 227 7390 7394 "deadcode.ml" 227 7390 7419
+type(
+  unit -> newsite list
+)
+"deadcode.ml" 226 7333 7337 "deadcode.ml" 227 7390 7419
+type(
+  (newsite -> unit) * (unit -> newsite list)
+)
+"deadcode.ml" 225 7300 7304 "deadcode.ml" 227 7390 7419
+type(
+  (newsite -> unit) * (unit -> newsite list)
+)
+"deadcode.ml" 231 7535 7537 "deadcode.ml" 231 7535 7552
+type(
+  (C.G.vertex -> unit) -> C.G.t -> unit
+)
+ident(
+  ext_ref C.G.iter_vertex
+)
+"deadcode.ml" 232 7553 7562 "deadcode.ml" 232 7553 7564
+type(
+  C.G.vertex
+)
+ident(
+  def bb "deadcode.ml" 233 7568 7574 "deadcode.ml" 264 8511 8532
+)
+"deadcode.ml" 233 7568 7578 "deadcode.ml" 233 7568 7583
+type(
+  C.lang
+)
+"deadcode.ml" 233 7568 7586 "deadcode.ml" 233 7568 7597
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"deadcode.ml" 233 7568 7598 "deadcode.ml" 233 7568 7603
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 196 6213 6219 "deadcode.ml" 196 6213 6224
+)
+"deadcode.ml" 233 7568 7604 "deadcode.ml" 233 7568 7606
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 232 7553 7562 "deadcode.ml" 232 7553 7564
+)
+"deadcode.ml" 233 7568 7586 "deadcode.ml" 233 7568 7606
+call(
+  stack
+)
+type(
+  C.lang
+)
+"deadcode.ml" 234 7610 7620 "deadcode.ml" 234 7610 7621
+type(
+  int
+)
+"deadcode.ml" 234 7610 7624 "deadcode.ml" 234 7610 7638
+type(
+  (int -> C.stmt -> int) -> int -> C.lang -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"deadcode.ml" 235 7639 7652 "deadcode.ml" 235 7639 7656
+type(
+  int
+)
+ident(
+  def snum "deadcode.ml" 235 7639 7657 "deadcode.ml" 261 8483 8499
+)
+"deadcode.ml" 235 7639 7657 "deadcode.ml" 235 7639 7658
+type(
+  C.stmt
+)
+ident(
+  def s "deadcode.ml" 236 7662 7672 "deadcode.ml" 261 8483 8499
+)
+"deadcode.ml" 236 7662 7676 "deadcode.ml" 236 7662 7680
+type(
+  C.G.vertex * int
+)
+"deadcode.ml" 236 7662 7684 "deadcode.ml" 236 7662 7686
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 232 7553 7562 "deadcode.ml" 232 7553 7564
+)
+"deadcode.ml" 236 7662 7688 "deadcode.ml" 236 7662 7692
+type(
+  int
+)
+ident(
+  int_ref snum "deadcode.ml" 235 7639 7652 "deadcode.ml" 235 7639 7656
+)
+"deadcode.ml" 236 7662 7683 "deadcode.ml" 236 7662 7693
+type(
+  C.G.vertex * int
+)
+"deadcode.ml" 237 7697 7714 "deadcode.ml" 237 7697 7715
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 235 7639 7657 "deadcode.ml" 235 7639 7658
+)
+"deadcode.ml" 238 7721 7738 "deadcode.ml" 238 7721 7740
+type(
+  Ssa.var
+)
+ident(
+  def lv "deadcode.ml" 239 7751 7763 "deadcode.ml" 241 7846 7918
+)
+"deadcode.ml" 238 7721 7742 "deadcode.ml" 238 7721 7743
+type(
+  Ssa.exp
+)
+"deadcode.ml" 238 7721 7745 "deadcode.ml" 238 7721 7746
+type(
+  Ssa.attrs
+)
+ident(
+  def a "deadcode.ml" 239 7751 7763 "deadcode.ml" 241 7846 7918
+)
+"deadcode.ml" 238 7721 7733 "deadcode.ml" 238 7721 7747
+type(
+  C.stmt
+)
+"deadcode.ml" 239 7751 7770 "deadcode.ml" 239 7751 7773
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"deadcode.ml" 239 7751 7775 "deadcode.ml" 239 7751 7781
+type(
+  newsite VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"deadcode.ml" 239 7751 7782 "deadcode.ml" 239 7751 7796
+type(
+  newsite VH.t
+)
+ident(
+  int_ref var_to_defsite "deadcode.ml" 218 6989 6996 "deadcode.ml" 218 6989 7010
+)
+"deadcode.ml" 239 7751 7797 "deadcode.ml" 239 7751 7799
+type(
+  Ssa.var
+)
+ident(
+  int_ref lv "deadcode.ml" 238 7721 7738 "deadcode.ml" 238 7721 7740
+)
+"deadcode.ml" 239 7751 7774 "deadcode.ml" 239 7751 7800
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 239 7751 7769 "deadcode.ml" 239 7751 7801
+type(
+  bool
+)
+"deadcode.ml" 239 7751 7763 "deadcode.ml" 239 7751 7801
+type(
+  unit
+)
+"deadcode.ml" 240 7803 7815 "deadcode.ml" 240 7803 7821
+type(
+  newsite VH.t -> VH.key -> newsite -> unit
+)
+ident(
+  ext_ref VH.add
+)
+"deadcode.ml" 240 7803 7822 "deadcode.ml" 240 7803 7836
+type(
+  newsite VH.t
+)
+ident(
+  int_ref var_to_defsite "deadcode.ml" 218 6989 6996 "deadcode.ml" 218 6989 7010
+)
+"deadcode.ml" 240 7803 7837 "deadcode.ml" 240 7803 7839
+type(
+  Ssa.var
+)
+ident(
+  int_ref lv "deadcode.ml" 238 7721 7738 "deadcode.ml" 238 7721 7740
+)
+"deadcode.ml" 240 7803 7840 "deadcode.ml" 240 7803 7844
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 236 7662 7676 "deadcode.ml" 236 7662 7680
+)
+"deadcode.ml" 240 7803 7815 "deadcode.ml" 240 7803 7844
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 241 7846 7861 "deadcode.ml" 241 7846 7869
+type(
+  Ssa.var -> Ssa.var list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"deadcode.ml" 241 7846 7870 "deadcode.ml" 241 7846 7872
+type(
+  Ssa.var
+)
+ident(
+  int_ref lv "deadcode.ml" 238 7721 7738 "deadcode.ml" 238 7721 7740
+)
+"deadcode.ml" 241 7846 7873 "deadcode.ml" 241 7846 7880
+type(
+  Ssa.var list
+)
+ident(
+  int_ref globals "deadcode.ml" 191 6010 6034 "deadcode.ml" 191 6010 6041
+)
+"deadcode.ml" 241 7846 7861 "deadcode.ml" 241 7846 7880
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 241 7846 7886 "deadcode.ml" 241 7846 7913
+type(
+  newsite -> unit
+)
+ident(
+  int_ref mark_site_as_initially_live "deadcode.ml" 224 7244 7250 "deadcode.ml" 224 7244 7277
+)
+"deadcode.ml" 241 7846 7914 "deadcode.ml" 241 7846 7918
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 236 7662 7676 "deadcode.ml" 236 7662 7680
+)
+"deadcode.ml" 241 7846 7886 "deadcode.ml" 241 7846 7918
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 241 7846 7858 "deadcode.ml" 241 7846 7918
+type(
+  unit
+)
+"deadcode.ml" 240 7803 7815 "deadcode.ml" 241 7846 7918
+type(
+  unit
+)
+"deadcode.ml" 239 7751 7763 "deadcode.ml" 241 7846 7918
+type(
+  unit
+)
+"deadcode.ml" 246 8103 8122 "deadcode.ml" 246 8103 8123
+type(
+  Ssa.attrs
+)
+type(
+  Ssa.exp
+)
+"deadcode.ml" 246 8103 8115 "deadcode.ml" 246 8103 8123
+type(
+  C.stmt
+)
+"deadcode.ml" 247 8124 8141 "deadcode.ml" 247 8124 8142
+type(
+  Ssa.attrs
+)
+type(
+  Ssa.exp
+)
+"deadcode.ml" 247 8124 8136 "deadcode.ml" 247 8124 8142
+type(
+  C.stmt
+)
+"deadcode.ml" 246 8103 8115 "deadcode.ml" 247 8124 8142
+type(
+  C.stmt
+)
+"deadcode.ml" 248 8143 8163 "deadcode.ml" 248 8143 8164
+type(
+  Ssa.attrs
+)
+type(
+  string
+)
+"deadcode.ml" 248 8143 8155 "deadcode.ml" 248 8143 8164
+type(
+  C.stmt
+)
+"deadcode.ml" 246 8103 8115 "deadcode.ml" 248 8143 8164
+type(
+  C.stmt
+)
+"deadcode.ml" 249 8165 8184 "deadcode.ml" 249 8165 8185
+type(
+  Ssa.attrs
+)
+type(
+  Ssa.exp
+)
+"deadcode.ml" 249 8165 8177 "deadcode.ml" 249 8165 8185
+type(
+  C.stmt
+)
+"deadcode.ml" 246 8103 8115 "deadcode.ml" 249 8165 8185
+type(
+  C.stmt
+)
+"deadcode.ml" 250 8186 8204 "deadcode.ml" 250 8186 8205
+type(
+  Ssa.attrs
+)
+type(
+  Type.label
+)
+"deadcode.ml" 250 8186 8198 "deadcode.ml" 250 8186 8205
+type(
+  C.stmt
+)
+"deadcode.ml" 246 8103 8115 "deadcode.ml" 250 8186 8205
+type(
+  C.stmt
+)
+"deadcode.ml" 251 8206 8226 "deadcode.ml" 251 8206 8227
+type(
+  Ssa.attrs
+)
+type(
+  Var.defuse
+)
+type(
+  string
+)
+"deadcode.ml" 251 8206 8218 "deadcode.ml" 251 8206 8227
+type(
+  C.stmt
+)
+"deadcode.ml" 246 8103 8115 "deadcode.ml" 251 8206 8227
+type(
+  C.stmt
+)
+"deadcode.ml" 252 8228 8244 "deadcode.ml" 252 8228 8245
+type(
+  Ssa.attrs
+)
+type(
+  Ssa.exp
+)
+"deadcode.ml" 252 8228 8240 "deadcode.ml" 252 8228 8245
+type(
+  C.stmt
+)
+"deadcode.ml" 246 8103 8115 "deadcode.ml" 252 8228 8245
+type(
+  C.stmt
+)
+"deadcode.ml" 254 8250 8262 "deadcode.ml" 254 8250 8289
+type(
+  newsite -> unit
+)
+ident(
+  int_ref mark_site_as_initially_live "deadcode.ml" 224 7244 7250 "deadcode.ml" 224 7244 7277
+)
+"deadcode.ml" 254 8250 8290 "deadcode.ml" 254 8250 8294
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 236 7662 7676 "deadcode.ml" 236 7662 7680
+)
+"deadcode.ml" 254 8250 8262 "deadcode.ml" 254 8250 8294
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 255 8295 8312 "deadcode.ml" 255 8295 8313
+type(
+  Ssa.attrs
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+"deadcode.ml" 255 8295 8307 "deadcode.ml" 255 8295 8313
+type(
+  C.stmt
+)
+"deadcode.ml" 255 8295 8317 "deadcode.ml" 255 8295 8319
+type(
+  unit
+)
+"deadcode.ml" 237 7697 7707 "deadcode.ml" 255 8295 8320
+type(
+  unit
+)
+"deadcode.ml" 258 8382 8395 "deadcode.ml" 258 8382 8403
+type(
+  Type.attribute -> Ssa.attrs -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"deadcode.ml" 258 8382 8404 "deadcode.ml" 258 8382 8416
+type(
+  Type.attribute
+)
+"deadcode.ml" 258 8382 8418 "deadcode.ml" 258 8382 8427
+type(
+  C.stmt -> Ssa.attrs
+)
+ident(
+  ext_ref Ssa.get_attrs
+)
+"deadcode.ml" 258 8382 8428 "deadcode.ml" 258 8382 8429
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 235 7639 7657 "deadcode.ml" 235 7639 7658
+)
+"deadcode.ml" 258 8382 8417 "deadcode.ml" 258 8382 8430
+call(
+  stack
+)
+type(
+  Ssa.attrs
+)
+"deadcode.ml" 258 8382 8395 "deadcode.ml" 258 8382 8430
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 259 8436 8448 "deadcode.ml" 259 8436 8475
+type(
+  newsite -> unit
+)
+ident(
+  int_ref mark_site_as_initially_live "deadcode.ml" 224 7244 7250 "deadcode.ml" 224 7244 7277
+)
+"deadcode.ml" 259 8436 8476 "deadcode.ml" 259 8436 8480
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 236 7662 7676 "deadcode.ml" 236 7662 7680
+)
+"deadcode.ml" 259 8436 8448 "deadcode.ml" 259 8436 8480
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 258 8382 8392 "deadcode.ml" 259 8436 8480
+type(
+  unit
+)
+"deadcode.ml" 261 8483 8493 "deadcode.ml" 261 8483 8497
+type(
+  int
+)
+ident(
+  int_ref snum "deadcode.ml" 235 7639 7652 "deadcode.ml" 235 7639 7656
+)
+"deadcode.ml" 261 8483 8497 "deadcode.ml" 261 8483 8498
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"deadcode.ml" 261 8483 8498 "deadcode.ml" 261 8483 8499
+type(
+  int
+)
+"deadcode.ml" 261 8483 8493 "deadcode.ml" 261 8483 8499
+type(
+  int
+)
+"deadcode.ml" 258 8382 8392 "deadcode.ml" 261 8483 8499
+type(
+  int
+)
+"deadcode.ml" 237 7697 7707 "deadcode.ml" 261 8483 8499
+type(
+  int
+)
+"deadcode.ml" 236 7662 7672 "deadcode.ml" 261 8483 8499
+type(
+  int
+)
+"deadcode.ml" 235 7639 7647 "deadcode.ml" 263 8501 8510
+type(
+  int -> C.stmt -> int
+)
+"deadcode.ml" 264 8511 8519 "deadcode.ml" 264 8511 8520
+type(
+  int
+)
+"deadcode.ml" 264 8511 8521 "deadcode.ml" 264 8511 8526
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "deadcode.ml" 233 7568 7578 "deadcode.ml" 233 7568 7583
+)
+"deadcode.ml" 234 7610 7624 "deadcode.ml" 264 8511 8526
+call(
+  stack
+)
+type(
+  int
+)
+"deadcode.ml" 264 8511 8530 "deadcode.ml" 264 8511 8532
+type(
+  unit
+)
+"deadcode.ml" 234 7610 7616 "deadcode.ml" 264 8511 8532
+type(
+  unit
+)
+"deadcode.ml" 233 7568 7574 "deadcode.ml" 264 8511 8532
+type(
+  unit
+)
+"deadcode.ml" 232 7553 7557 "deadcode.ml" 265 8533 8538
+type(
+  C.G.vertex -> unit
+)
+"deadcode.ml" 266 8539 8543 "deadcode.ml" 266 8539 8548
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 196 6213 6219 "deadcode.ml" 196 6213 6224
+)
+"deadcode.ml" 231 7535 7537 "deadcode.ml" 266 8539 8548
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 268 8599 8605 "deadcode.ml" 268 8599 8617
+type(
+  C.G.V.t -> (C.G.E.vertex * int) list
+)
+"deadcode.ml" 269 8620 8628 "deadcode.ml" 269 8620 8631
+type(
+  (C.G.E.vertex * int) list Cfg.BH.t
+)
+"deadcode.ml" 269 8620 8634 "deadcode.ml" 269 8620 8647
+type(
+  int -> (C.G.E.vertex * int) list Cfg.BH.t
+)
+ident(
+  ext_ref Cfg.BH.create
+)
+"deadcode.ml" 269 8620 8648 "deadcode.ml" 269 8620 8650
+type(
+  int
+)
+"deadcode.ml" 269 8620 8634 "deadcode.ml" 269 8620 8650
+call(
+  stack
+)
+type(
+  (C.G.E.vertex * int) list Cfg.BH.t
+)
+"deadcode.ml" 270 8654 8663 "deadcode.ml" 270 8654 8665
+type(
+  C.G.V.t
+)
+ident(
+  def bb "deadcode.ml" 271 8669 8675 "deadcode.ml" 285 9491 9500
+)
+"deadcode.ml" 271 8669 8679 "deadcode.ml" 271 8669 8690
+type(
+  (C.G.E.vertex * int) list Cfg.BH.t ->
+  Cfg.BH.key -> (C.G.E.vertex * int) list
+)
+ident(
+  ext_ref Cfg.BH.find
+)
+"deadcode.ml" 271 8669 8691 "deadcode.ml" 271 8669 8694
+type(
+  (C.G.E.vertex * int) list Cfg.BH.t
+)
+ident(
+  int_ref cdh "deadcode.ml" 269 8620 8628 "deadcode.ml" 269 8620 8631
+)
+"deadcode.ml" 271 8669 8696 "deadcode.ml" 271 8669 8707
+type(
+  C.G.V.t -> C.G.V.label
+)
+ident(
+  ext_ref C.G.V.label
+)
+"deadcode.ml" 271 8669 8708 "deadcode.ml" 271 8669 8710
+type(
+  C.G.V.t
+)
+ident(
+  int_ref bb "deadcode.ml" 270 8654 8663 "deadcode.ml" 270 8654 8665
+)
+"deadcode.ml" 271 8669 8695 "deadcode.ml" 271 8669 8711
+call(
+  stack
+)
+type(
+  C.G.V.label
+)
+"deadcode.ml" 271 8669 8679 "deadcode.ml" 271 8669 8711
+call(
+  stack
+)
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 272 8712 8723 "deadcode.ml" 272 8712 8732
+type(
+  exn
+)
+"deadcode.ml" 273 8736 8748 "deadcode.ml" 273 8736 8749
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 274 8752 8762 "deadcode.ml" 274 8752 8777
+type(
+  (C.G.edge -> (C.G.E.vertex * int) list -> (C.G.E.vertex * int) list) ->
+  C.G.t ->
+  C.G.vertex -> (C.G.E.vertex * int) list -> (C.G.E.vertex * int) list
+)
+ident(
+  ext_ref C.G.fold_pred_e
+)
+"deadcode.ml" 275 8778 8795 "deadcode.ml" 275 8778 8796
+type(
+  C.G.edge
+)
+ident(
+  def e "deadcode.ml" 275 8778 8797 "deadcode.ml" 282 9248 9420
+)
+"deadcode.ml" 275 8778 8797 "deadcode.ml" 275 8778 8798
+type(
+  (C.G.E.vertex * int) list
+)
+ident(
+  def l "deadcode.ml" 276 8802 8816 "deadcode.ml" 282 9248 9420
+)
+"deadcode.ml" 276 8802 8820 "deadcode.ml" 276 8802 8823
+type(
+  C.G.E.vertex
+)
+"deadcode.ml" 276 8802 8826 "deadcode.ml" 276 8802 8835
+type(
+  C.G.E.t -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.src
+)
+"deadcode.ml" 276 8802 8836 "deadcode.ml" 276 8802 8837
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "deadcode.ml" 275 8778 8795 "deadcode.ml" 275 8778 8796
+)
+"deadcode.ml" 276 8802 8826 "deadcode.ml" 276 8802 8837
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"deadcode.ml" 277 8841 8859 "deadcode.ml" 277 8841 8864
+type(
+  C.lang
+)
+"deadcode.ml" 277 8841 8867 "deadcode.ml" 277 8841 8878
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"deadcode.ml" 277 8841 8879 "deadcode.ml" 277 8841 8884
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 196 6213 6219 "deadcode.ml" 196 6213 6224
+)
+"deadcode.ml" 277 8841 8885 "deadcode.ml" 277 8841 8888
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref src "deadcode.ml" 276 8802 8820 "deadcode.ml" 276 8802 8823
+)
+"deadcode.ml" 277 8841 8867 "deadcode.ml" 277 8841 8888
+call(
+  stack
+)
+type(
+  C.lang
+)
+"deadcode.ml" 278 8892 8912 "deadcode.ml" 278 8892 8920
+type(
+  C.lang -> C.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"deadcode.ml" 278 8892 8921 "deadcode.ml" 278 8892 8926
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "deadcode.ml" 277 8841 8859 "deadcode.ml" 277 8841 8864
+)
+"deadcode.ml" 278 8892 8912 "deadcode.ml" 278 8892 8926
+call(
+  stack
+)
+type(
+  C.stmt list
+)
+"deadcode.ml" 279 8932 8954 "deadcode.ml" 279 8932 8955
+type(
+  Ssa.attrs
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+"deadcode.ml" 279 8932 8949 "deadcode.ml" 279 8932 8955
+type(
+  C.stmt
+)
+"deadcode.ml" 279 8932 8962 "deadcode.ml" 279 8932 8963
+type(
+  Ssa.attrs
+)
+type(
+  Ssa.exp
+)
+"deadcode.ml" 279 8932 8958 "deadcode.ml" 279 8932 8963
+type(
+  C.stmt
+)
+"deadcode.ml" 279 8932 8948 "deadcode.ml" 279 8932 8964
+type(
+  C.stmt
+)
+"deadcode.ml" 279 8932 8966 "deadcode.ml" 279 8932 8967
+type(
+  C.stmt list
+)
+"deadcode.ml" 279 8932 8948 "deadcode.ml" 279 8932 8967
+type(
+  C.stmt list
+)
+"deadcode.ml" 279 8932 8972 "deadcode.ml" 279 8932 8975
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref src "deadcode.ml" 276 8802 8820 "deadcode.ml" 276 8802 8823
+)
+"deadcode.ml" 279 8932 8978 "deadcode.ml" 279 8932 8989
+type(
+  C.lang -> int
+)
+ident(
+  ext_ref List.length
+)
+"deadcode.ml" 279 8932 8990 "deadcode.ml" 279 8932 8995
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "deadcode.ml" 277 8841 8859 "deadcode.ml" 277 8841 8864
+)
+"deadcode.ml" 279 8932 8977 "deadcode.ml" 279 8932 8996
+call(
+  stack
+)
+type(
+  int
+)
+"deadcode.ml" 279 8932 8996 "deadcode.ml" 279 8932 8997
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"deadcode.ml" 279 8932 8997 "deadcode.ml" 279 8932 8998
+type(
+  int
+)
+"deadcode.ml" 279 8932 8977 "deadcode.ml" 279 8932 8998
+type(
+  int
+)
+"deadcode.ml" 279 8932 8971 "deadcode.ml" 279 8932 8999
+type(
+  C.G.E.vertex * int
+)
+"deadcode.ml" 279 8932 9003 "deadcode.ml" 279 8932 9004
+type(
+  (C.G.E.vertex * int) list
+)
+ident(
+  int_ref l "deadcode.ml" 275 8778 8797 "deadcode.ml" 275 8778 8798
+)
+"deadcode.ml" 279 8932 8971 "deadcode.ml" 279 8932 9004
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 280 9005 9021 "deadcode.ml" 280 9005 9022
+type(
+  C.stmt list
+)
+"deadcode.ml" 280 9005 9028 "deadcode.ml" 280 9005 9039
+type(
+  C.G.V.t -> C.G.V.label
+)
+ident(
+  ext_ref C.G.V.label
+)
+"deadcode.ml" 280 9005 9040 "deadcode.ml" 280 9005 9043
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref src "deadcode.ml" 276 8802 8820 "deadcode.ml" 276 8802 8823
+)
+"deadcode.ml" 280 9005 9028 "deadcode.ml" 280 9005 9043
+call(
+  stack
+)
+type(
+  C.G.V.label
+)
+"deadcode.ml" 280 9005 9044 "deadcode.ml" 280 9005 9045
+type(
+  C.G.V.label -> C.G.V.label -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"deadcode.ml" 280 9005 9046 "deadcode.ml" 280 9005 9058
+type(
+  C.G.V.label
+)
+"deadcode.ml" 280 9005 9028 "deadcode.ml" 280 9005 9058
+type(
+  bool
+)
+"deadcode.ml" 280 9005 9062 "deadcode.ml" 280 9005 9063
+type(
+  (C.G.E.vertex * int) list
+)
+ident(
+  int_ref l "deadcode.ml" 275 8778 8797 "deadcode.ml" 275 8778 8798
+)
+"deadcode.ml" 280 9005 9023 "deadcode.ml" 280 9005 9063
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 281 9106 9122 "deadcode.ml" 281 9106 9124
+type(
+  C.stmt list
+)
+"deadcode.ml" 281 9106 9128 "deadcode.ml" 281 9106 9136
+type(
+  string -> (C.G.E.vertex * int) list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"deadcode.ml" 281 9106 9138 "deadcode.ml" 281 9106 9152
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"deadcode.ml" 281 9106 9153 "deadcode.ml" 281 9106 9211
+type(
+  (string -> string -> string, unit, string) format
+)
+"deadcode.ml" 281 9106 9213 "deadcode.ml" 281 9106 9224
+type(
+  C.G.V.t -> string
+)
+ident(
+  ext_ref Cfg_ssa.v2s
+)
+"deadcode.ml" 281 9106 9225 "deadcode.ml" 281 9106 9227
+type(
+  C.G.V.t
+)
+ident(
+  int_ref bb "deadcode.ml" 270 8654 8663 "deadcode.ml" 270 8654 8665
+)
+"deadcode.ml" 281 9106 9212 "deadcode.ml" 281 9106 9228
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 281 9106 9230 "deadcode.ml" 281 9106 9241
+type(
+  C.G.E.vertex -> string
+)
+ident(
+  ext_ref Cfg_ssa.v2s
+)
+"deadcode.ml" 281 9106 9242 "deadcode.ml" 281 9106 9245
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref src "deadcode.ml" 276 8802 8820 "deadcode.ml" 276 8802 8823
+)
+"deadcode.ml" 281 9106 9229 "deadcode.ml" 281 9106 9246
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 281 9106 9137 "deadcode.ml" 281 9106 9247
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 281 9106 9128 "deadcode.ml" 281 9106 9247
+call(
+  tail
+)
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 282 9248 9264 "deadcode.ml" 282 9248 9265
+type(
+  C.stmt
+)
+ident(
+  def s "deadcode.ml" 282 9248 9272 "deadcode.ml" 282 9248 9420
+)
+"deadcode.ml" 282 9248 9267 "deadcode.ml" 282 9248 9268
+type(
+  C.stmt list
+)
+"deadcode.ml" 282 9248 9264 "deadcode.ml" 282 9248 9268
+type(
+  C.stmt list
+)
+"deadcode.ml" 282 9248 9272 "deadcode.ml" 282 9248 9280
+type(
+  string -> (C.G.E.vertex * int) list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"deadcode.ml" 282 9248 9282 "deadcode.ml" 282 9248 9296
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"deadcode.ml" 282 9248 9297 "deadcode.ml" 282 9248 9358
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"deadcode.ml" 282 9248 9360 "deadcode.ml" 282 9248 9371
+type(
+  C.G.V.t -> string
+)
+ident(
+  ext_ref Cfg_ssa.v2s
+)
+"deadcode.ml" 282 9248 9372 "deadcode.ml" 282 9248 9374
+type(
+  C.G.V.t
+)
+ident(
+  int_ref bb "deadcode.ml" 270 8654 8663 "deadcode.ml" 270 8654 8665
+)
+"deadcode.ml" 282 9248 9359 "deadcode.ml" 282 9248 9375
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 282 9248 9377 "deadcode.ml" 282 9248 9388
+type(
+  C.G.E.vertex -> string
+)
+ident(
+  ext_ref Cfg_ssa.v2s
+)
+"deadcode.ml" 282 9248 9389 "deadcode.ml" 282 9248 9392
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref src "deadcode.ml" 276 8802 8820 "deadcode.ml" 276 8802 8823
+)
+"deadcode.ml" 282 9248 9376 "deadcode.ml" 282 9248 9393
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 282 9248 9395 "deadcode.ml" 282 9248 9416
+type(
+  C.stmt -> string
+)
+ident(
+  ext_ref Pp.ssa_stmt_to_string
+)
+"deadcode.ml" 282 9248 9417 "deadcode.ml" 282 9248 9418
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 282 9248 9264 "deadcode.ml" 282 9248 9265
+)
+"deadcode.ml" 282 9248 9394 "deadcode.ml" 282 9248 9419
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 282 9248 9281 "deadcode.ml" 282 9248 9420
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 282 9248 9272 "deadcode.ml" 282 9248 9420
+call(
+  tail
+)
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 278 8892 8906 "deadcode.ml" 282 9248 9420
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 277 8841 8855 "deadcode.ml" 282 9248 9420
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 276 8802 8816 "deadcode.ml" 282 9248 9420
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 275 8778 8790 "deadcode.ml" 283 9421 9434
+type(
+  C.G.edge -> (C.G.E.vertex * int) list -> (C.G.E.vertex * int) list
+)
+"deadcode.ml" 283 9421 9435 "deadcode.ml" 283 9421 9438
+type(
+  Depgraphs.CDG_SSA.G.t
+)
+ident(
+  int_ref cdg "deadcode.ml" 202 6358 6364 "deadcode.ml" 202 6358 6367
+)
+"deadcode.ml" 283 9421 9439 "deadcode.ml" 283 9421 9441
+type(
+  C.G.V.t
+)
+ident(
+  int_ref bb "deadcode.ml" 270 8654 8663 "deadcode.ml" 270 8654 8665
+)
+"deadcode.ml" 283 9421 9442 "deadcode.ml" 283 9421 9444
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 274 8752 8762 "deadcode.ml" 283 9421 9444
+call(
+  stack
+)
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 284 9445 9456 "deadcode.ml" 284 9445 9466
+type(
+  (C.G.E.vertex * int) list Cfg.BH.t ->
+  Cfg.BH.key -> (C.G.E.vertex * int) list -> unit
+)
+ident(
+  ext_ref Cfg.BH.add
+)
+"deadcode.ml" 284 9445 9467 "deadcode.ml" 284 9445 9470
+type(
+  (C.G.E.vertex * int) list Cfg.BH.t
+)
+ident(
+  int_ref cdh "deadcode.ml" 269 8620 8628 "deadcode.ml" 269 8620 8631
+)
+"deadcode.ml" 284 9445 9472 "deadcode.ml" 284 9445 9483
+type(
+  C.G.V.t -> C.G.V.label
+)
+ident(
+  ext_ref C.G.V.label
+)
+"deadcode.ml" 284 9445 9484 "deadcode.ml" 284 9445 9486
+type(
+  C.G.V.t
+)
+ident(
+  int_ref bb "deadcode.ml" 270 8654 8663 "deadcode.ml" 270 8654 8665
+)
+"deadcode.ml" 284 9445 9471 "deadcode.ml" 284 9445 9487
+call(
+  stack
+)
+type(
+  C.G.V.label
+)
+"deadcode.ml" 284 9445 9488 "deadcode.ml" 284 9445 9489
+type(
+  (C.G.E.vertex * int) list
+)
+ident(
+  int_ref d "deadcode.ml" 273 8736 8748 "deadcode.ml" 273 8736 8749
+)
+"deadcode.ml" 284 9445 9456 "deadcode.ml" 284 9445 9489
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 285 9491 9499 "deadcode.ml" 285 9491 9500
+type(
+  (C.G.E.vertex * int) list
+)
+ident(
+  int_ref d "deadcode.ml" 273 8736 8748 "deadcode.ml" 273 8736 8749
+)
+"deadcode.ml" 284 9445 9456 "deadcode.ml" 285 9491 9500
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 273 8736 8744 "deadcode.ml" 285 9491 9500
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 271 8669 8675 "deadcode.ml" 285 9491 9500
+type(
+  (C.G.E.vertex * int) list
+)
+"deadcode.ml" 270 8654 8658 "deadcode.ml" 285 9491 9501
+type(
+  C.G.V.t -> (C.G.E.vertex * int) list
+)
+"deadcode.ml" 269 8620 8624 "deadcode.ml" 285 9491 9501
+type(
+  C.G.V.t -> (C.G.E.vertex * int) list
+)
+"deadcode.ml" 288 9545 9551 "deadcode.ml" 288 9545 9553
+type(
+  unit
+)
+"deadcode.ml" 289 9557 9565 "deadcode.ml" 289 9557 9573
+type(
+  C.G.V.t * int -> newsite list
+)
+"deadcode.ml" 289 9557 9576 "deadcode.ml" 289 9557 9578
+type(
+  C.G.V.t
+)
+ident(
+  def bb "deadcode.ml" 290 9596 9602 "deadcode.ml" 302 10103 10113
+)
+"deadcode.ml" 289 9557 9579 "deadcode.ml" 289 9557 9583
+type(
+  int
+)
+ident(
+  def snum "deadcode.ml" 290 9596 9602 "deadcode.ml" 302 10103 10113
+)
+"deadcode.ml" 289 9557 9575 "deadcode.ml" 289 9557 9584
+type(
+  C.G.V.t * int
+)
+"deadcode.ml" 289 9557 9574 "deadcode.ml" 289 9557 9593
+type(
+  C.G.V.t * int
+)
+ident(
+  def site "deadcode.ml" 290 9596 9602 "deadcode.ml" 302 10103 10113
+)
+"deadcode.ml" 290 9596 9606 "deadcode.ml" 290 9596 9610
+type(
+  newsite list ref
+)
+"deadcode.ml" 290 9596 9613 "deadcode.ml" 290 9596 9616
+type(
+  newsite list -> newsite list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"deadcode.ml" 290 9596 9617 "deadcode.ml" 290 9596 9619
+type(
+  newsite list
+)
+"deadcode.ml" 290 9596 9613 "deadcode.ml" 290 9596 9619
+type(
+  newsite list ref
+)
+"deadcode.ml" 291 9623 9633 "deadcode.ml" 291 9623 9636
+type(
+  Ssa_visitor.nop
+)
+"deadcode.ml" 291 9623 9645 "deadcode.ml" 291 9623 9651
+type(
+  Ssa_visitor.nop
+)
+"deadcode.ml" 293 9684 9710 "deadcode.ml" 293 9684 9711
+type(
+  Ssa.var
+)
+ident(
+  def v "deadcode.ml" 294 9714 9724 "deadcode.ml" 296 9806 9826
+)
+"deadcode.ml" 294 9714 9729 "deadcode.ml" 294 9714 9733
+type(
+  newsite list ref
+)
+ident(
+  int_ref uses "deadcode.ml" 290 9596 9606 "deadcode.ml" 290 9596 9610
+)
+"deadcode.ml" 294 9714 9734 "deadcode.ml" 294 9714 9736
+type(
+  newsite list ref -> newsite list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"deadcode.ml" 294 9714 9737 "deadcode.ml" 294 9714 9744
+type(
+  newsite VH.t -> VH.key -> newsite
+)
+ident(
+  ext_ref VH.find
+)
+"deadcode.ml" 294 9714 9745 "deadcode.ml" 294 9714 9759
+type(
+  newsite VH.t
+)
+ident(
+  int_ref var_to_defsite "deadcode.ml" 218 6989 6996 "deadcode.ml" 218 6989 7010
+)
+"deadcode.ml" 294 9714 9760 "deadcode.ml" 294 9714 9761
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "deadcode.ml" 293 9684 9710 "deadcode.ml" 293 9684 9711
+)
+"deadcode.ml" 294 9714 9737 "deadcode.ml" 294 9714 9761
+call(
+  stack
+)
+type(
+  newsite
+)
+"deadcode.ml" 294 9714 9765 "deadcode.ml" 294 9714 9766
+type(
+  newsite list ref -> newsite list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 294 9714 9766 "deadcode.ml" 294 9714 9770
+type(
+  newsite list ref
+)
+ident(
+  int_ref uses "deadcode.ml" 290 9596 9606 "deadcode.ml" 290 9596 9610
+)
+"deadcode.ml" 294 9714 9765 "deadcode.ml" 294 9714 9770
+type(
+  newsite list
+)
+"deadcode.ml" 294 9714 9737 "deadcode.ml" 294 9714 9770
+type(
+  newsite list
+)
+"deadcode.ml" 294 9714 9729 "deadcode.ml" 294 9714 9771
+type(
+  unit
+)
+"deadcode.ml" 295 9772 9788 "deadcode.ml" 295 9772 9797
+type(
+  exn
+)
+"deadcode.ml" 295 9772 9801 "deadcode.ml" 295 9772 9803
+type(
+  unit
+)
+"deadcode.ml" 294 9714 9724 "deadcode.ml" 295 9772 9804
+type(
+  unit
+)
+"deadcode.ml" 296 9806 9816 "deadcode.ml" 296 9806 9826
+type(
+  Ssa.var Type.visit_action
+)
+"deadcode.ml" 294 9714 9724 "deadcode.ml" 296 9806 9826
+type(
+  Ssa.var Type.visit_action
+)
+"deadcode.ml" 291 9623 9639 "deadcode.ml" 297 9827 9836
+type(
+  Ssa_visitor.nop
+)
+"deadcode.ml" 298 9840 9846 "deadcode.ml" 298 9840 9852
+type(
+  Ssa.stmt -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"deadcode.ml" 298 9840 9853 "deadcode.ml" 298 9840 9876
+type(
+  Ssa_visitor.t -> C.stmt -> Ssa.stmt
+)
+ident(
+  ext_ref Ssa_visitor.stmt_accept
+)
+"deadcode.ml" 298 9840 9877 "deadcode.ml" 298 9840 9880
+type(
+  Ssa_visitor.t
+)
+ident(
+  int_ref vis "deadcode.ml" 291 9623 9633 "deadcode.ml" 291 9623 9636
+)
+"deadcode.ml" 298 9840 9882 "deadcode.ml" 298 9840 9886
+type(
+  C.G.V.t * int -> C.stmt
+)
+ident(
+  int_ref gets "deadcode.ml" 198 6266 6272 "deadcode.ml" 198 6266 6276
+)
+"deadcode.ml" 298 9840 9887 "deadcode.ml" 298 9840 9891
+type(
+  C.G.V.t * int
+)
+ident(
+  int_ref site "deadcode.ml" 289 9557 9574 "deadcode.ml" 289 9557 9593
+)
+"deadcode.ml" 298 9840 9881 "deadcode.ml" 298 9840 9892
+call(
+  stack
+)
+type(
+  C.stmt
+)
+"deadcode.ml" 298 9840 9852 "deadcode.ml" 298 9840 9893
+call(
+  stack
+)
+type(
+  Ssa.stmt
+)
+"deadcode.ml" 298 9840 9846 "deadcode.ml" 298 9840 9893
+type(
+  unit
+)
+"deadcode.ml" 299 9895 9905 "deadcode.ml" 299 9895 9909
+type(
+  newsite list
+)
+"deadcode.ml" 299 9895 9912 "deadcode.ml" 299 9895 9913
+type(
+  newsite list ref -> newsite list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 299 9895 9913 "deadcode.ml" 299 9895 9917
+type(
+  newsite list ref
+)
+ident(
+  int_ref uses "deadcode.ml" 290 9596 9606 "deadcode.ml" 290 9596 9610
+)
+"deadcode.ml" 299 9895 9912 "deadcode.ml" 299 9895 9917
+type(
+  newsite list
+)
+"deadcode.ml" 299 9895 9918 "deadcode.ml" 299 9895 9919
+type(
+  newsite list -> newsite list -> newsite list
+)
+ident(
+  ext_ref BatPervasives.( @ )
+)
+"deadcode.ml" 299 9895 9921 "deadcode.ml" 299 9895 9933
+type(
+  C.G.V.t -> newsite list
+)
+ident(
+  int_ref control_deps "deadcode.ml" 268 8599 8605 "deadcode.ml" 268 8599 8617
+)
+"deadcode.ml" 299 9895 9934 "deadcode.ml" 299 9895 9936
+type(
+  C.G.V.t
+)
+ident(
+  int_ref bb "deadcode.ml" 289 9557 9576 "deadcode.ml" 289 9557 9578
+)
+"deadcode.ml" 299 9895 9920 "deadcode.ml" 299 9895 9937
+call(
+  stack
+)
+type(
+  newsite list
+)
+"deadcode.ml" 299 9895 9912 "deadcode.ml" 299 9895 9937
+call(
+  stack
+)
+type(
+  newsite list
+)
+"deadcode.ml" 302 10103 10109 "deadcode.ml" 302 10103 10113
+type(
+  newsite list
+)
+ident(
+  int_ref deps "deadcode.ml" 299 9895 9905 "deadcode.ml" 299 9895 9909
+)
+"deadcode.ml" 299 9895 9901 "deadcode.ml" 302 10103 10113
+type(
+  newsite list
+)
+"deadcode.ml" 298 9840 9846 "deadcode.ml" 302 10103 10113
+type(
+  newsite list
+)
+"deadcode.ml" 291 9623 9629 "deadcode.ml" 302 10103 10113
+type(
+  newsite list
+)
+"deadcode.ml" 290 9596 9602 "deadcode.ml" 302 10103 10113
+type(
+  newsite list
+)
+"deadcode.ml" 304 10121 10125 "deadcode.ml" 304 10121 10140
+type(
+  (C.G.vertex -> unit) -> C.G.t -> unit
+)
+ident(
+  ext_ref C.G.iter_vertex
+)
+"deadcode.ml" 305 10141 10152 "deadcode.ml" 305 10141 10154
+type(
+  C.G.vertex
+)
+ident(
+  def bb "deadcode.ml" 306 10158 10166 "deadcode.ml" 314 10443 10466
+)
+"deadcode.ml" 306 10158 10170 "deadcode.ml" 306 10158 10175
+type(
+  C.lang
+)
+"deadcode.ml" 306 10158 10178 "deadcode.ml" 306 10158 10189
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"deadcode.ml" 306 10158 10190 "deadcode.ml" 306 10158 10195
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 196 6213 6219 "deadcode.ml" 196 6213 6224
+)
+"deadcode.ml" 306 10158 10196 "deadcode.ml" 306 10158 10198
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 305 10141 10152 "deadcode.ml" 305 10141 10154
+)
+"deadcode.ml" 306 10158 10178 "deadcode.ml" 306 10158 10198
+call(
+  stack
+)
+type(
+  C.lang
+)
+"deadcode.ml" 307 10202 10214 "deadcode.ml" 307 10202 10215
+type(
+  int
+)
+"deadcode.ml" 307 10202 10218 "deadcode.ml" 307 10202 10232
+type(
+  (int -> C.stmt -> int) -> int -> C.lang -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"deadcode.ml" 308 10233 10248 "deadcode.ml" 308 10233 10252
+type(
+  int
+)
+ident(
+  def snum "deadcode.ml" 308 10233 10253 "deadcode.ml" 312 10412 10430
+)
+"deadcode.ml" 308 10233 10253 "deadcode.ml" 308 10233 10254
+type(
+  C.stmt
+)
+ident(
+  def s "deadcode.ml" 309 10258 10270 "deadcode.ml" 312 10412 10430
+)
+"deadcode.ml" 309 10258 10274 "deadcode.ml" 309 10258 10278
+type(
+  C.G.vertex * int
+)
+"deadcode.ml" 309 10258 10282 "deadcode.ml" 309 10258 10284
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 305 10141 10152 "deadcode.ml" 305 10141 10154
+)
+"deadcode.ml" 309 10258 10286 "deadcode.ml" 309 10258 10290
+type(
+  int
+)
+ident(
+  int_ref snum "deadcode.ml" 308 10233 10248 "deadcode.ml" 308 10233 10252
+)
+"deadcode.ml" 309 10258 10281 "deadcode.ml" 309 10258 10291
+type(
+  C.G.vertex * int
+)
+"deadcode.ml" 310 10295 10315 "deadcode.ml" 310 10295 10318
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"deadcode.ml" 310 10295 10320 "deadcode.ml" 310 10295 10331
+type(
+  (newsite, newsite list) Hashtbl.t -> newsite -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"deadcode.ml" 310 10295 10332 "deadcode.ml" 310 10295 10344
+type(
+  (newsite, newsite list) Hashtbl.t
+)
+ident(
+  int_ref site_to_deps "deadcode.ml" 217 6910 6917 "deadcode.ml" 217 6910 6929
+)
+"deadcode.ml" 310 10295 10345 "deadcode.ml" 310 10295 10349
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 309 10258 10274 "deadcode.ml" 309 10258 10278
+)
+"deadcode.ml" 310 10295 10319 "deadcode.ml" 310 10295 10350
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 310 10295 10314 "deadcode.ml" 310 10295 10351
+type(
+  bool
+)
+"deadcode.ml" 310 10295 10307 "deadcode.ml" 310 10295 10351
+type(
+  unit
+)
+"deadcode.ml" 311 10353 10365 "deadcode.ml" 311 10353 10376
+type(
+  (newsite, newsite list) Hashtbl.t -> newsite -> newsite list -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"deadcode.ml" 311 10353 10377 "deadcode.ml" 311 10353 10389
+type(
+  (newsite, newsite list) Hashtbl.t
+)
+ident(
+  int_ref site_to_deps "deadcode.ml" 217 6910 6917 "deadcode.ml" 217 6910 6929
+)
+"deadcode.ml" 311 10353 10390 "deadcode.ml" 311 10353 10394
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 309 10258 10274 "deadcode.ml" 309 10258 10278
+)
+"deadcode.ml" 311 10353 10396 "deadcode.ml" 311 10353 10404
+type(
+  C.G.V.t * int -> newsite list
+)
+ident(
+  int_ref gen_deps "deadcode.ml" 289 9557 9565 "deadcode.ml" 289 9557 9573
+)
+"deadcode.ml" 311 10353 10405 "deadcode.ml" 311 10353 10409
+type(
+  C.G.V.t * int
+)
+ident(
+  int_ref site "deadcode.ml" 309 10258 10274 "deadcode.ml" 309 10258 10278
+)
+"deadcode.ml" 311 10353 10395 "deadcode.ml" 311 10353 10410
+call(
+  stack
+)
+type(
+  newsite list
+)
+"deadcode.ml" 311 10353 10365 "deadcode.ml" 311 10353 10410
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 312 10412 10424 "deadcode.ml" 312 10412 10428
+type(
+  int
+)
+ident(
+  int_ref snum "deadcode.ml" 308 10233 10248 "deadcode.ml" 308 10233 10252
+)
+"deadcode.ml" 312 10412 10428 "deadcode.ml" 312 10412 10429
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"deadcode.ml" 312 10412 10429 "deadcode.ml" 312 10412 10430
+type(
+  int
+)
+"deadcode.ml" 312 10412 10424 "deadcode.ml" 312 10412 10430
+type(
+  int
+)
+"deadcode.ml" 311 10353 10365 "deadcode.ml" 312 10412 10430
+type(
+  int
+)
+"deadcode.ml" 310 10295 10307 "deadcode.ml" 312 10412 10430
+type(
+  int
+)
+"deadcode.ml" 309 10258 10270 "deadcode.ml" 312 10412 10430
+type(
+  int
+)
+"deadcode.ml" 308 10233 10243 "deadcode.ml" 313 10431 10442
+type(
+  int -> C.stmt -> int
+)
+"deadcode.ml" 314 10443 10453 "deadcode.ml" 314 10443 10454
+type(
+  int
+)
+"deadcode.ml" 314 10443 10455 "deadcode.ml" 314 10443 10460
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "deadcode.ml" 306 10158 10170 "deadcode.ml" 306 10158 10175
+)
+"deadcode.ml" 307 10202 10218 "deadcode.ml" 314 10443 10460
+call(
+  stack
+)
+type(
+  int
+)
+"deadcode.ml" 314 10443 10464 "deadcode.ml" 314 10443 10466
+type(
+  unit
+)
+"deadcode.ml" 307 10202 10210 "deadcode.ml" 314 10443 10466
+type(
+  unit
+)
+"deadcode.ml" 306 10158 10166 "deadcode.ml" 314 10443 10466
+type(
+  unit
+)
+"deadcode.ml" 305 10141 10147 "deadcode.ml" 315 10467 10474
+type(
+  C.G.vertex -> unit
+)
+"deadcode.ml" 316 10475 10481 "deadcode.ml" 316 10475 10486
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 196 6213 6219 "deadcode.ml" 196 6213 6224
+)
+"deadcode.ml" 304 10121 10125 "deadcode.ml" 316 10475 10486
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 289 9557 9561 "deadcode.ml" 316 10475 10486
+type(
+  unit
+)
+"deadcode.ml" 318 10492 10498 "deadcode.ml" 318 10492 10502
+type(
+  newsite -> newsite list
+)
+"deadcode.ml" 318 10492 10503 "deadcode.ml" 318 10492 10504
+type(
+  newsite
+)
+ident(
+  def s "deadcode.ml" 318 10492 10507 "deadcode.ml" 319 10539 10563
+)
+"deadcode.ml" 318 10492 10511 "deadcode.ml" 318 10492 10523
+type(
+  (newsite, newsite list) Hashtbl.t -> newsite -> newsite list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"deadcode.ml" 318 10492 10524 "deadcode.ml" 318 10492 10536
+type(
+  (newsite, newsite list) Hashtbl.t
+)
+ident(
+  int_ref site_to_deps "deadcode.ml" 217 6910 6917 "deadcode.ml" 217 6910 6929
+)
+"deadcode.ml" 318 10492 10537 "deadcode.ml" 318 10492 10538
+type(
+  newsite
+)
+ident(
+  int_ref s "deadcode.ml" 318 10492 10503 "deadcode.ml" 318 10492 10504
+)
+"deadcode.ml" 318 10492 10511 "deadcode.ml" 318 10492 10538
+call(
+  stack
+)
+type(
+  newsite list
+)
+"deadcode.ml" 319 10539 10548 "deadcode.ml" 319 10539 10557
+type(
+  exn
+)
+"deadcode.ml" 319 10539 10561 "deadcode.ml" 319 10539 10563
+type(
+  newsite list
+)
+"deadcode.ml" 318 10492 10507 "deadcode.ml" 319 10539 10563
+type(
+  newsite list
+)
+"deadcode.ml" 321 10568 10578 "deadcode.ml" 321 10568 10585
+type(
+  newsite list -> unit
+)
+"deadcode.ml" 321 10568 10586 "deadcode.ml" 321 10568 10594
+type(
+  newsite list
+)
+ident(
+  def worklist "deadcode.ml" 321 10568 10597 "deadcode.ml" 330 10996 11032
+)
+"deadcode.ml" 321 10568 10603 "deadcode.ml" 321 10568 10611
+type(
+  newsite list
+)
+ident(
+  int_ref worklist "deadcode.ml" 321 10568 10586 "deadcode.ml" 321 10568 10594
+)
+"deadcode.ml" 322 10617 10623 "deadcode.ml" 322 10617 10625
+type(
+  newsite list
+)
+"deadcode.ml" 322 10617 10629 "deadcode.ml" 322 10617 10631
+type(
+  unit
+)
+"deadcode.ml" 323 10632 10638 "deadcode.ml" 323 10632 10642
+type(
+  newsite
+)
+ident(
+  def site "deadcode.ml" 323 10632 10651 "deadcode.ml" 325 10721 10741
+)
+"deadcode.ml" 323 10632 10644 "deadcode.ml" 323 10632 10650
+type(
+  newsite list
+)
+ident(
+  def others "deadcode.ml" 323 10632 10651 "deadcode.ml" 325 10721 10741
+)
+"deadcode.ml" 323 10632 10638 "deadcode.ml" 323 10632 10650
+type(
+  newsite list
+)
+"deadcode.ml" 323 10632 10656 "deadcode.ml" 323 10632 10668
+type(
+  newsite -> bool
+)
+ident(
+  int_ref site_is_live "deadcode.ml" 219 7044 7050 "deadcode.ml" 219 7044 7062
+)
+"deadcode.ml" 323 10632 10669 "deadcode.ml" 323 10632 10673
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 323 10632 10638 "deadcode.ml" 323 10632 10642
+)
+"deadcode.ml" 323 10632 10656 "deadcode.ml" 323 10632 10673
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 325 10721 10727 "deadcode.ml" 325 10721 10734
+type(
+  newsite list -> unit
+)
+ident(
+  int_ref do_live "deadcode.ml" 321 10568 10578 "deadcode.ml" 321 10568 10585
+)
+"deadcode.ml" 325 10721 10735 "deadcode.ml" 325 10721 10741
+type(
+  newsite list
+)
+ident(
+  int_ref others "deadcode.ml" 323 10632 10644 "deadcode.ml" 323 10632 10650
+)
+"deadcode.ml" 325 10721 10727 "deadcode.ml" 325 10721 10741
+call(
+  tail
+)
+type(
+  unit
+)
+"deadcode.ml" 323 10632 10651 "deadcode.ml" 325 10721 10741
+type(
+  unit
+)
+"deadcode.ml" 326 10742 10749 "deadcode.ml" 326 10742 10751
+type(
+  C.G.V.t
+)
+ident(
+  def bb "deadcode.ml" 327 10774 10780 "deadcode.ml" 330 10996 11032
+)
+"deadcode.ml" 326 10742 10752 "deadcode.ml" 326 10742 10753
+type(
+  int
+)
+ident(
+  def s "deadcode.ml" 327 10774 10780 "deadcode.ml" 330 10996 11032
+)
+"deadcode.ml" 326 10742 10748 "deadcode.ml" 326 10742 10754
+type(
+  newsite
+)
+"deadcode.ml" 326 10742 10748 "deadcode.ml" 326 10742 10762
+type(
+  newsite
+)
+ident(
+  def site "deadcode.ml" 327 10774 10780 "deadcode.ml" 330 10996 11032
+)
+"deadcode.ml" 326 10742 10764 "deadcode.ml" 326 10742 10770
+type(
+  newsite list
+)
+ident(
+  def others "deadcode.ml" 327 10774 10780 "deadcode.ml" 330 10996 11032
+)
+"deadcode.ml" 326 10742 10748 "deadcode.ml" 326 10742 10770
+type(
+  newsite list
+)
+"deadcode.ml" 327 10774 10780 "deadcode.ml" 327 10774 10787
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"deadcode.ml" 327 10774 10788 "deadcode.ml" 327 10774 10811
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"deadcode.ml" 327 10774 10813 "deadcode.ml" 327 10774 10824
+type(
+  C.G.V.t -> string
+)
+ident(
+  ext_ref Cfg_ssa.v2s
+)
+"deadcode.ml" 327 10774 10825 "deadcode.ml" 327 10774 10827
+type(
+  C.G.V.t
+)
+ident(
+  int_ref bb "deadcode.ml" 326 10742 10749 "deadcode.ml" 326 10742 10751
+)
+"deadcode.ml" 327 10774 10812 "deadcode.ml" 327 10774 10828
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 327 10774 10830 "deadcode.ml" 327 10774 10851
+type(
+  C.stmt -> string
+)
+ident(
+  ext_ref Pp.ssa_stmt_to_string
+)
+"deadcode.ml" 327 10774 10853 "deadcode.ml" 327 10774 10857
+type(
+  C.G.V.t * int -> C.stmt
+)
+ident(
+  int_ref gets "deadcode.ml" 198 6266 6272 "deadcode.ml" 198 6266 6276
+)
+"deadcode.ml" 327 10774 10858 "deadcode.ml" 327 10774 10862
+type(
+  C.G.V.t * int
+)
+ident(
+  int_ref site "deadcode.ml" 326 10742 10748 "deadcode.ml" 326 10742 10762
+)
+"deadcode.ml" 327 10774 10852 "deadcode.ml" 327 10774 10863
+call(
+  stack
+)
+type(
+  C.stmt
+)
+"deadcode.ml" 327 10774 10829 "deadcode.ml" 327 10774 10864
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 327 10774 10780 "deadcode.ml" 327 10774 10864
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 329 10966 10972 "deadcode.ml" 329 10966 10989
+type(
+  newsite -> unit
+)
+ident(
+  int_ref mark_site_as_live "deadcode.ml" 219 7044 7064 "deadcode.ml" 219 7044 7081
+)
+"deadcode.ml" 329 10966 10990 "deadcode.ml" 329 10966 10994
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 326 10742 10748 "deadcode.ml" 326 10742 10762
+)
+"deadcode.ml" 329 10966 10972 "deadcode.ml" 329 10966 10994
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 330 10996 11002 "deadcode.ml" 330 10996 11009
+type(
+  newsite list -> unit
+)
+ident(
+  int_ref do_live "deadcode.ml" 321 10568 10578 "deadcode.ml" 321 10568 10585
+)
+"deadcode.ml" 330 10996 11011 "deadcode.ml" 330 10996 11019
+type(
+  newsite list
+)
+ident(
+  int_ref worklist "deadcode.ml" 321 10568 10586 "deadcode.ml" 321 10568 10594
+)
+"deadcode.ml" 330 10996 11019 "deadcode.ml" 330 10996 11020
+type(
+  newsite list -> newsite list -> newsite list
+)
+ident(
+  ext_ref BatPervasives.( @ )
+)
+"deadcode.ml" 330 10996 11021 "deadcode.ml" 330 10996 11025
+type(
+  newsite -> newsite list
+)
+ident(
+  int_ref deps "deadcode.ml" 318 10492 10498 "deadcode.ml" 318 10492 10502
+)
+"deadcode.ml" 330 10996 11026 "deadcode.ml" 330 10996 11030
+type(
+  newsite
+)
+ident(
+  int_ref site "deadcode.ml" 326 10742 10748 "deadcode.ml" 326 10742 10762
+)
+"deadcode.ml" 330 10996 11020 "deadcode.ml" 330 10996 11031
+call(
+  stack
+)
+type(
+  newsite list
+)
+"deadcode.ml" 330 10996 11010 "deadcode.ml" 330 10996 11032
+call(
+  stack
+)
+type(
+  newsite list
+)
+"deadcode.ml" 330 10996 11002 "deadcode.ml" 330 10996 11032
+call(
+  tail
+)
+type(
+  unit
+)
+"deadcode.ml" 329 10966 10972 "deadcode.ml" 330 10996 11032
+type(
+  unit
+)
+"deadcode.ml" 327 10774 10780 "deadcode.ml" 330 10996 11032
+type(
+  unit
+)
+"deadcode.ml" 321 10568 10597 "deadcode.ml" 330 10996 11032
+type(
+  unit
+)
+"deadcode.ml" 332 11038 11040 "deadcode.ml" 332 11038 11047
+type(
+  newsite list -> unit
+)
+ident(
+  int_ref do_live "deadcode.ml" 321 10568 10578 "deadcode.ml" 321 10568 10585
+)
+"deadcode.ml" 332 11038 11049 "deadcode.ml" 332 11038 11067
+type(
+  unit -> newsite list
+)
+ident(
+  int_ref all_initially_live "deadcode.ml" 224 7244 7279 "deadcode.ml" 224 7244 7297
+)
+"deadcode.ml" 332 11038 11068 "deadcode.ml" 332 11038 11070
+type(
+  unit
+)
+"deadcode.ml" 332 11038 11048 "deadcode.ml" 332 11038 11071
+call(
+  stack
+)
+type(
+  newsite list
+)
+"deadcode.ml" 332 11038 11040 "deadcode.ml" 332 11038 11071
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 334 11074 11080 "deadcode.ml" 334 11074 11091
+type(
+  bool ref
+)
+"deadcode.ml" 334 11074 11094 "deadcode.ml" 334 11074 11097
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"deadcode.ml" 334 11074 11098 "deadcode.ml" 334 11074 11103
+type(
+  bool
+)
+"deadcode.ml" 334 11074 11094 "deadcode.ml" 334 11074 11103
+type(
+  bool ref
+)
+"deadcode.ml" 339 11308 11314 "deadcode.ml" 339 11308 11319
+type(
+  C.G.t
+)
+"deadcode.ml" 339 11308 11322 "deadcode.ml" 339 11308 11337
+type(
+  (C.G.vertex -> C.G.t -> C.G.t) -> C.G.t -> C.G.t -> C.G.t
+)
+ident(
+  ext_ref C.G.fold_vertex
+)
+"deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+type(
+  C.G.vertex
+)
+ident(
+  def bb "deadcode.ml" 340 11338 11350 "deadcode.ml" 412 14324 14335
+)
+"deadcode.ml" 340 11338 11350 "deadcode.ml" 340 11338 11355
+type(
+  C.G.t
+)
+ident(
+  def graph "deadcode.ml" 341 11359 11365 "deadcode.ml" 412 14324 14335
+)
+"deadcode.ml" 341 11359 11369 "deadcode.ml" 341 11359 11374
+type(
+  C.lang
+)
+"deadcode.ml" 341 11359 11377 "deadcode.ml" 341 11359 11388
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"deadcode.ml" 341 11359 11389 "deadcode.ml" 341 11359 11394
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 340 11338 11350 "deadcode.ml" 340 11338 11355
+)
+"deadcode.ml" 341 11359 11395 "deadcode.ml" 341 11359 11397
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+)
+"deadcode.ml" 341 11359 11377 "deadcode.ml" 341 11359 11397
+call(
+  stack
+)
+type(
+  C.lang
+)
+"deadcode.ml" 342 11401 11411 "deadcode.ml" 342 11401 11422
+type(
+  C.stmt list
+)
+"deadcode.ml" 342 11401 11423 "deadcode.ml" 342 11401 11424
+type(
+  int
+)
+"deadcode.ml" 342 11401 11411 "deadcode.ml" 342 11401 11424
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 342 11401 11427 "deadcode.ml" 342 11401 11441
+type(
+  (C.stmt list * int -> C.stmt -> C.stmt list * int) ->
+  C.stmt list * int -> C.lang -> C.stmt list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"deadcode.ml" 342 11401 11448 "deadcode.ml" 342 11401 11449
+type(
+  C.stmt list
+)
+ident(
+  def l "deadcode.ml" 342 11401 11456 "deadcode.ml" 351 11763 11790
+)
+"deadcode.ml" 342 11401 11450 "deadcode.ml" 342 11401 11454
+type(
+  int
+)
+ident(
+  def snum "deadcode.ml" 342 11401 11456 "deadcode.ml" 351 11763 11790
+)
+"deadcode.ml" 342 11401 11447 "deadcode.ml" 342 11401 11455
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 342 11401 11456 "deadcode.ml" 342 11401 11457
+type(
+  C.stmt
+)
+ident(
+  def s "deadcode.ml" 342 11401 11461 "deadcode.ml" 351 11763 11790
+)
+"deadcode.ml" 342 11401 11467 "deadcode.ml" 342 11401 11468
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 342 11401 11456 "deadcode.ml" 342 11401 11457
+)
+"deadcode.ml" 343 11474 11489 "deadcode.ml" 343 11474 11490
+type(
+  Ssa.attrs
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.var
+)
+"deadcode.ml" 343 11474 11484 "deadcode.ml" 343 11474 11490
+type(
+  C.stmt
+)
+"deadcode.ml" 344 11494 11508 "deadcode.ml" 344 11494 11513
+type(
+  bool
+)
+"deadcode.ml" 344 11494 11516 "deadcode.ml" 344 11494 11528
+type(
+  newsite -> bool
+)
+ident(
+  int_ref site_is_live "deadcode.ml" 219 7044 7050 "deadcode.ml" 219 7044 7062
+)
+"deadcode.ml" 344 11494 11530 "deadcode.ml" 344 11494 11532
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+)
+"deadcode.ml" 344 11494 11534 "deadcode.ml" 344 11494 11538
+type(
+  int
+)
+ident(
+  int_ref snum "deadcode.ml" 342 11401 11450 "deadcode.ml" 342 11401 11454
+)
+"deadcode.ml" 344 11494 11529 "deadcode.ml" 344 11494 11539
+type(
+  newsite
+)
+"deadcode.ml" 344 11494 11516 "deadcode.ml" 344 11494 11539
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 345 11543 11556 "deadcode.ml" 345 11543 11559
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"deadcode.ml" 345 11543 11560 "deadcode.ml" 345 11543 11565
+type(
+  bool
+)
+ident(
+  int_ref alive "deadcode.ml" 344 11494 11508 "deadcode.ml" 344 11494 11513
+)
+"deadcode.ml" 345 11543 11556 "deadcode.ml" 345 11543 11565
+type(
+  bool
+)
+"deadcode.ml" 345 11543 11572 "deadcode.ml" 345 11543 11583
+type(
+  bool ref
+)
+ident(
+  int_ref has_changed "deadcode.ml" 334 11074 11080 "deadcode.ml" 334 11074 11091
+)
+"deadcode.ml" 345 11543 11584 "deadcode.ml" 345 11543 11586
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"deadcode.ml" 345 11543 11587 "deadcode.ml" 345 11543 11591
+type(
+  bool
+)
+"deadcode.ml" 345 11543 11572 "deadcode.ml" 345 11543 11591
+type(
+  unit
+)
+"deadcode.ml" 346 11593 11617 "deadcode.ml" 346 11593 11624
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"deadcode.ml" 346 11593 11625 "deadcode.ml" 346 11593 11635
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"deadcode.ml" 346 11593 11637 "deadcode.ml" 346 11593 11658
+type(
+  C.stmt -> string
+)
+ident(
+  ext_ref Pp.ssa_stmt_to_string
+)
+"deadcode.ml" 346 11593 11659 "deadcode.ml" 346 11593 11660
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 342 11401 11456 "deadcode.ml" 342 11401 11457
+)
+"deadcode.ml" 346 11593 11636 "deadcode.ml" 346 11593 11661
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 346 11593 11617 "deadcode.ml" 346 11593 11661
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 347 11663 11687 "deadcode.ml" 347 11663 11695
+type(
+  C.stmt
+)
+ident(
+  int_ref deadstmt "deadcode.ml" 20 416 420 "deadcode.ml" 20 416 428
+)
+"deadcode.ml" 347 11663 11697 "deadcode.ml" 347 11663 11698
+type(
+  C.stmt list
+)
+ident(
+  int_ref l "deadcode.ml" 342 11401 11448 "deadcode.ml" 342 11401 11449
+)
+"deadcode.ml" 347 11663 11687 "deadcode.ml" 347 11663 11698
+type(
+  C.stmt list
+)
+"deadcode.ml" 347 11663 11700 "deadcode.ml" 347 11663 11704
+type(
+  int
+)
+ident(
+  int_ref snum "deadcode.ml" 342 11401 11450 "deadcode.ml" 342 11401 11454
+)
+"deadcode.ml" 347 11663 11704 "deadcode.ml" 347 11663 11705
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"deadcode.ml" 347 11663 11705 "deadcode.ml" 347 11663 11706
+type(
+  int
+)
+"deadcode.ml" 347 11663 11700 "deadcode.ml" 347 11663 11706
+type(
+  int
+)
+"deadcode.ml" 347 11663 11687 "deadcode.ml" 347 11663 11706
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 346 11593 11617 "deadcode.ml" 347 11663 11706
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 345 11543 11571 "deadcode.ml" 348 11707 11718
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 349 11726 11738 "deadcode.ml" 349 11726 11739
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 342 11401 11456 "deadcode.ml" 342 11401 11457
+)
+"deadcode.ml" 349 11726 11741 "deadcode.ml" 349 11726 11742
+type(
+  C.stmt list
+)
+ident(
+  int_ref l "deadcode.ml" 342 11401 11448 "deadcode.ml" 342 11401 11449
+)
+"deadcode.ml" 349 11726 11738 "deadcode.ml" 349 11726 11742
+type(
+  C.stmt list
+)
+"deadcode.ml" 349 11726 11744 "deadcode.ml" 349 11726 11748
+type(
+  int
+)
+ident(
+  int_ref snum "deadcode.ml" 342 11401 11450 "deadcode.ml" 342 11401 11454
+)
+"deadcode.ml" 349 11726 11748 "deadcode.ml" 349 11726 11749
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"deadcode.ml" 349 11726 11749 "deadcode.ml" 349 11726 11750
+type(
+  int
+)
+"deadcode.ml" 349 11726 11744 "deadcode.ml" 349 11726 11750
+type(
+  int
+)
+"deadcode.ml" 348 11707 11724 "deadcode.ml" 350 11751 11762
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 345 11543 11553 "deadcode.ml" 350 11751 11762
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 344 11494 11504 "deadcode.ml" 350 11751 11762
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 351 11763 11773 "deadcode.ml" 351 11763 11774
+type(
+  C.stmt
+)
+"deadcode.ml" 351 11763 11778 "deadcode.ml" 351 11763 11779
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 342 11401 11456 "deadcode.ml" 342 11401 11457
+)
+"deadcode.ml" 351 11763 11781 "deadcode.ml" 351 11763 11782
+type(
+  C.stmt list
+)
+ident(
+  int_ref l "deadcode.ml" 342 11401 11448 "deadcode.ml" 342 11401 11449
+)
+"deadcode.ml" 351 11763 11778 "deadcode.ml" 351 11763 11782
+type(
+  C.stmt list
+)
+"deadcode.ml" 351 11763 11784 "deadcode.ml" 351 11763 11788
+type(
+  int
+)
+ident(
+  int_ref snum "deadcode.ml" 342 11401 11450 "deadcode.ml" 342 11401 11454
+)
+"deadcode.ml" 351 11763 11788 "deadcode.ml" 351 11763 11789
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"deadcode.ml" 351 11763 11789 "deadcode.ml" 351 11763 11790
+type(
+  int
+)
+"deadcode.ml" 351 11763 11784 "deadcode.ml" 351 11763 11790
+type(
+  int
+)
+"deadcode.ml" 351 11763 11778 "deadcode.ml" 351 11763 11790
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 342 11401 11461 "deadcode.ml" 351 11763 11790
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 342 11401 11442 "deadcode.ml" 352 11834 11841
+type(
+  C.stmt list * int -> C.stmt -> C.stmt list * int
+)
+"deadcode.ml" 352 11834 11843 "deadcode.ml" 352 11834 11845
+type(
+  C.stmt list
+)
+"deadcode.ml" 352 11834 11846 "deadcode.ml" 352 11834 11847
+type(
+  int
+)
+"deadcode.ml" 352 11834 11842 "deadcode.ml" 352 11834 11848
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 352 11834 11849 "deadcode.ml" 352 11834 11854
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "deadcode.ml" 341 11359 11369 "deadcode.ml" 341 11359 11374
+)
+"deadcode.ml" 342 11401 11427 "deadcode.ml" 352 11834 11854
+call(
+  stack
+)
+type(
+  C.stmt list * int
+)
+"deadcode.ml" 373 12632 12642 "deadcode.ml" 373 12632 12647
+type(
+  C.G.t
+)
+"deadcode.ml" 373 12632 12656 "deadcode.ml" 373 12632 12667
+type(
+  C.stmt list
+)
+ident(
+  int_ref revnewstmts "deadcode.ml" 342 11401 11411 "deadcode.ml" 342 11401 11422
+)
+"deadcode.ml" 374 12673 12689 "deadcode.ml" 374 12673 12690
+type(
+  Ssa.exp
+)
+"deadcode.ml" 374 12673 12692 "deadcode.ml" 374 12673 12694
+type(
+  Ssa.exp
+)
+ident(
+  def t1 "deadcode.ml" 374 12673 12720 "deadcode.ml" 409 14236 14255
+)
+"deadcode.ml" 374 12673 12696 "deadcode.ml" 374 12673 12698
+type(
+  Ssa.exp
+)
+ident(
+  def t2 "deadcode.ml" 374 12673 12720 "deadcode.ml" 409 14236 14255
+)
+"deadcode.ml" 374 12673 12700 "deadcode.ml" 374 12673 12705
+type(
+  Ssa.attrs
+)
+ident(
+  def attrs "deadcode.ml" 374 12673 12720 "deadcode.ml" 409 14236 14255
+)
+"deadcode.ml" 374 12673 12683 "deadcode.ml" 374 12673 12706
+type(
+  C.stmt
+)
+"deadcode.ml" 374 12673 12683 "deadcode.ml" 374 12673 12711
+type(
+  C.stmt
+)
+ident(
+  def s "deadcode.ml" 374 12673 12720 "deadcode.ml" 409 14236 14255
+)
+"deadcode.ml" 374 12673 12713 "deadcode.ml" 374 12673 12719
+type(
+  C.stmt list
+)
+ident(
+  def others "deadcode.ml" 374 12673 12720 "deadcode.ml" 409 14236 14255
+)
+"deadcode.ml" 374 12673 12683 "deadcode.ml" 374 12673 12719
+type(
+  C.stmt list
+)
+"deadcode.ml" 374 12673 12725 "deadcode.ml" 374 12673 12728
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"deadcode.ml" 374 12673 12730 "deadcode.ml" 374 12673 12742
+type(
+  newsite -> bool
+)
+ident(
+  int_ref site_is_live "deadcode.ml" 219 7044 7050 "deadcode.ml" 219 7044 7062
+)
+"deadcode.ml" 374 12673 12744 "deadcode.ml" 374 12673 12746
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+)
+"deadcode.ml" 374 12673 12749 "deadcode.ml" 374 12673 12760
+type(
+  C.stmt list -> int
+)
+ident(
+  ext_ref List.length
+)
+"deadcode.ml" 374 12673 12761 "deadcode.ml" 374 12673 12772
+type(
+  C.stmt list
+)
+ident(
+  int_ref revnewstmts "deadcode.ml" 342 11401 11411 "deadcode.ml" 342 11401 11422
+)
+"deadcode.ml" 374 12673 12748 "deadcode.ml" 374 12673 12773
+call(
+  stack
+)
+type(
+  int
+)
+"deadcode.ml" 374 12673 12773 "deadcode.ml" 374 12673 12774
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"deadcode.ml" 374 12673 12774 "deadcode.ml" 374 12673 12775
+type(
+  int
+)
+"deadcode.ml" 374 12673 12748 "deadcode.ml" 374 12673 12775
+type(
+  int
+)
+"deadcode.ml" 374 12673 12743 "deadcode.ml" 374 12673 12776
+type(
+  newsite
+)
+"deadcode.ml" 374 12673 12729 "deadcode.ml" 374 12673 12777
+call(
+  stack
+)
+type(
+  bool
+)
+"deadcode.ml" 374 12673 12725 "deadcode.ml" 374 12673 12777
+type(
+  bool
+)
+"deadcode.ml" 376 12796 12809 "deadcode.ml" 376 12796 12816
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"deadcode.ml" 376 12796 12817 "deadcode.ml" 376 12796 12838
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"deadcode.ml" 376 12796 12840 "deadcode.ml" 376 12796 12851
+type(
+  C.G.vertex -> string
+)
+ident(
+  ext_ref Cfg_ssa.v2s
+)
+"deadcode.ml" 376 12796 12852 "deadcode.ml" 376 12796 12854
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+)
+"deadcode.ml" 376 12796 12839 "deadcode.ml" 376 12796 12855
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 376 12796 12857 "deadcode.ml" 376 12796 12878
+type(
+  Ssa.stmt -> string
+)
+ident(
+  ext_ref Pp.ssa_stmt_to_string
+)
+"deadcode.ml" 376 12796 12879 "deadcode.ml" 376 12796 12880
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 374 12673 12683 "deadcode.ml" 374 12673 12711
+)
+"deadcode.ml" 376 12796 12856 "deadcode.ml" 376 12796 12881
+call(
+  stack
+)
+type(
+  string
+)
+"deadcode.ml" 376 12796 12809 "deadcode.ml" 376 12796 12881
+call(
+  stack
+)
+type(
+  unit
+)
+"deadcode.ml" 377 12883 12900 "deadcode.ml" 377 12883 12905
+type(
+  C.G.E.t
+)
+ident(
+  def truee "deadcode.ml" 383 13095 13108 "deadcode.ml" 405 14052 14070
+)
+"deadcode.ml" 377 12883 12908 "deadcode.ml" 377 12883 12917
+type(
+  (C.G.E.t -> bool) -> C.G.E.t list -> C.G.E.t
+)
+ident(
+  ext_ref List.find
+)
+"deadcode.ml" 377 12883 12923 "deadcode.ml" 377 12883 12924
+type(
+  C.G.E.t
+)
+ident(
+  def e "deadcode.ml" 378 12928 12943 "deadcode.ml" 380 13013 13040
+)
+"deadcode.ml" 378 12928 12949 "deadcode.ml" 378 12928 12960
+type(
+  C.G.E.t -> C.G.E.label
+)
+ident(
+  ext_ref C.G.E.label
+)
+"deadcode.ml" 378 12928 12961 "deadcode.ml" 378 12928 12962
+type(
+  C.G.E.t
+)
+ident(
+  int_ref e "deadcode.ml" 377 12883 12923 "deadcode.ml" 377 12883 12924
+)
+"deadcode.ml" 378 12928 12949 "deadcode.ml" 378 12928 12962
+call(
+  stack
+)
+type(
+  C.G.E.label
+)
+"deadcode.ml" 379 12968 12995 "deadcode.ml" 379 12968 12999
+type(
+  bool
+)
+"deadcode.ml" 379 12968 12990 "deadcode.ml" 379 12968 12999
+type(
+  bool option
+)
+"deadcode.ml" 379 12968 13001 "deadcode.ml" 379 12968 13002
+type(
+  C.exp
+)
+"deadcode.ml" 379 12968 12989 "deadcode.ml" 379 12968 13003
+type(
+  bool option * C.exp
+)
+"deadcode.ml" 379 12968 12985 "deadcode.ml" 379 12968 13003
+type(
+  C.G.E.label
+)
+"deadcode.ml" 379 12968 13007 "deadcode.ml" 379 12968 13011
+type(
+  bool
+)
+"deadcode.ml" 380 13013 13030 "deadcode.ml" 380 13013 13031
+type(
+  C.G.E.label
+)
+"deadcode.ml" 380 13013 13035 "deadcode.ml" 380 13013 13040
+type(
+  bool
+)
+"deadcode.ml" 378 12928 12943 "deadcode.ml" 380 13013 13040
+type(
+  bool
+)
+"deadcode.ml" 377 12883 12918 "deadcode.ml" 380 13013 13041
+type(
+  C.G.E.t -> bool
+)
+"deadcode.ml" 381 13042 13058 "deadcode.ml" 381 13042 13068
+type(
+  C.G.t -> C.G.vertex -> C.G.E.t list
+)
+ident(
+  ext_ref C.G.succ_e
+)
+"deadcode.ml" 381 13042 13069 "deadcode.ml" 381 13042 13074
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 340 11338 11350 "deadcode.ml" 340 11338 11355
+)
+"deadcode.ml" 381 13042 13075 "deadcode.ml" 381 13042 13077
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+)
+"deadcode.ml" 381 13042 13057 "deadcode.ml" 381 13042 13078
+call(
+  stack
+)
+type(
+  C.G.E.t list
+)
+"deadcode.ml" 377 12883 12908 "deadcode.ml" 381 13042 13078
+call(
+  stack
+)
+type(
+  C.G.E.t
+)
+"deadcode.ml" 383 13095 13112 "deadcode.ml" 383 13095 13118
+type(
+  C.G.E.t
+)
+ident(
+  def falsee "deadcode.ml" 391 13372 13385 "deadcode.ml" 405 14052 14070
+)
+"deadcode.ml" 383 13095 13121 "deadcode.ml" 383 13095 13130
+type(
+  (C.G.E.t -> bool) -> C.G.E.t list -> C.G.E.t
+)
+ident(
+  ext_ref List.find
+)
+"deadcode.ml" 383 13095 13136 "deadcode.ml" 383 13095 13137
+type(
+  C.G.E.t
+)
+ident(
+  def e "deadcode.ml" 384 13141 13156 "deadcode.ml" 386 13226 13253
+)
+"deadcode.ml" 384 13141 13162 "deadcode.ml" 384 13141 13173
+type(
+  C.G.E.t -> C.G.E.label
+)
+ident(
+  ext_ref C.G.E.label
+)
+"deadcode.ml" 384 13141 13174 "deadcode.ml" 384 13141 13175
+type(
+  C.G.E.t
+)
+ident(
+  int_ref e "deadcode.ml" 383 13095 13136 "deadcode.ml" 383 13095 13137
+)
+"deadcode.ml" 384 13141 13162 "deadcode.ml" 384 13141 13175
+call(
+  stack
+)
+type(
+  C.G.E.label
+)
+"deadcode.ml" 385 13181 13208 "deadcode.ml" 385 13181 13213
+type(
+  bool
+)
+"deadcode.ml" 385 13181 13203 "deadcode.ml" 385 13181 13213
+type(
+  bool option
+)
+"deadcode.ml" 385 13181 13215 "deadcode.ml" 385 13181 13216
+type(
+  C.exp
+)
+"deadcode.ml" 385 13181 13202 "deadcode.ml" 385 13181 13217
+type(
+  bool option * C.exp
+)
+"deadcode.ml" 385 13181 13198 "deadcode.ml" 385 13181 13217
+type(
+  C.G.E.label
+)
+"deadcode.ml" 385 13181 13221 "deadcode.ml" 385 13181 13225
+type(
+  bool
+)
+"deadcode.ml" 386 13226 13243 "deadcode.ml" 386 13226 13244
+type(
+  C.G.E.label
+)
+"deadcode.ml" 386 13226 13248 "deadcode.ml" 386 13226 13253
+type(
+  bool
+)
+"deadcode.ml" 384 13141 13156 "deadcode.ml" 386 13226 13253
+type(
+  bool
+)
+"deadcode.ml" 383 13095 13131 "deadcode.ml" 386 13226 13254
+type(
+  C.G.E.t -> bool
+)
+"deadcode.ml" 387 13255 13271 "deadcode.ml" 387 13255 13281
+type(
+  C.G.t -> C.G.vertex -> C.G.E.t list
+)
+ident(
+  ext_ref C.G.succ_e
+)
+"deadcode.ml" 387 13255 13282 "deadcode.ml" 387 13255 13287
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 340 11338 11350 "deadcode.ml" 340 11338 11355
+)
+"deadcode.ml" 387 13255 13288 "deadcode.ml" 387 13255 13290
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+)
+"deadcode.ml" 387 13255 13270 "deadcode.ml" 387 13255 13291
+call(
+  stack
+)
+type(
+  C.G.E.t list
+)
+"deadcode.ml" 383 13095 13121 "deadcode.ml" 387 13255 13291
+call(
+  stack
+)
+type(
+  C.G.E.t
+)
+"deadcode.ml" 391 13372 13389 "deadcode.ml" 391 13372 13394
+type(
+  C.G.t
+)
+ident(
+  def graph "deadcode.ml" 394 13489 13502 "deadcode.ml" 405 14052 14070
+)
+"deadcode.ml" 391 13372 13397 "deadcode.ml" 391 13372 13412
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  ext_ref C.remove_edge_e
+)
+"deadcode.ml" 391 13372 13413 "deadcode.ml" 391 13372 13418
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 340 11338 11350 "deadcode.ml" 340 11338 11355
+)
+"deadcode.ml" 391 13372 13419 "deadcode.ml" 391 13372 13424
+type(
+  C.G.E.t
+)
+ident(
+  int_ref truee "deadcode.ml" 377 12883 12900 "deadcode.ml" 377 12883 12905
+)
+"deadcode.ml" 391 13372 13397 "deadcode.ml" 391 13372 13424
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 394 13489 13506 "deadcode.ml" 394 13489 13514
+type(
+  C.stmt list
+)
+ident(
+  def newstmts "deadcode.ml" 395 13555 13568 "deadcode.ml" 405 14052 14070
+)
+"deadcode.ml" 394 13489 13517 "deadcode.ml" 394 13489 13525
+type(
+  C.stmt list -> C.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"deadcode.ml" 394 13489 13532 "deadcode.ml" 394 13489 13534
+type(
+  Ssa.exp
+)
+ident(
+  int_ref t2 "deadcode.ml" 374 12673 12696 "deadcode.ml" 374 12673 12698
+)
+"deadcode.ml" 394 13489 13536 "deadcode.ml" 394 13489 13541
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref attrs "deadcode.ml" 374 12673 12700 "deadcode.ml" 374 12673 12705
+)
+"deadcode.ml" 394 13489 13527 "deadcode.ml" 394 13489 13542
+type(
+  C.stmt
+)
+"deadcode.ml" 394 13489 13544 "deadcode.ml" 394 13489 13550
+type(
+  C.stmt list
+)
+ident(
+  int_ref others "deadcode.ml" 374 12673 12713 "deadcode.ml" 374 12673 12719
+)
+"deadcode.ml" 394 13489 13526 "deadcode.ml" 394 13489 13551
+type(
+  C.stmt list
+)
+"deadcode.ml" 394 13489 13517 "deadcode.ml" 394 13489 13551
+call(
+  stack
+)
+type(
+  C.stmt list
+)
+"deadcode.ml" 395 13555 13572 "deadcode.ml" 395 13555 13577
+type(
+  C.G.t
+)
+ident(
+  def graph "deadcode.ml" 397 13650 13663 "deadcode.ml" 405 14052 14070
+)
+"deadcode.ml" 395 13555 13580 "deadcode.ml" 395 13555 13591
+type(
+  C.G.t -> C.G.V.t -> C.lang -> C.G.t
+)
+ident(
+  ext_ref C.set_stmts
+)
+"deadcode.ml" 395 13555 13592 "deadcode.ml" 395 13555 13597
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 391 13372 13389 "deadcode.ml" 391 13372 13394
+)
+"deadcode.ml" 395 13555 13598 "deadcode.ml" 395 13555 13600
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+)
+"deadcode.ml" 395 13555 13601 "deadcode.ml" 395 13555 13609
+type(
+  C.lang
+)
+ident(
+  int_ref newstmts "deadcode.ml" 394 13489 13506 "deadcode.ml" 394 13489 13514
+)
+"deadcode.ml" 395 13555 13580 "deadcode.ml" 395 13555 13609
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 397 13650 13667 "deadcode.ml" 397 13650 13673
+type(
+  C.G.E.vertex
+)
+ident(
+  def newdst "deadcode.ml" 398 13696 13709 "deadcode.ml" 405 14052 14070
+)
+"deadcode.ml" 397 13650 13676 "deadcode.ml" 397 13650 13685
+type(
+  C.G.E.t -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.dst
+)
+"deadcode.ml" 397 13650 13686 "deadcode.ml" 397 13650 13692
+type(
+  C.G.E.t
+)
+ident(
+  int_ref falsee "deadcode.ml" 383 13095 13112 "deadcode.ml" 383 13095 13118
+)
+"deadcode.ml" 397 13650 13676 "deadcode.ml" 397 13650 13692
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"deadcode.ml" 398 13696 13713 "deadcode.ml" 398 13696 13721
+type(
+  C.G.E.t
+)
+ident(
+  def new_edge "deadcode.ml" 400 13800 13813 "deadcode.ml" 405 14052 14070
+)
+"deadcode.ml" 398 13696 13724 "deadcode.ml" 398 13696 13736
+type(
+  C.G.E.vertex -> C.G.E.label -> C.G.E.vertex -> C.G.E.t
+)
+ident(
+  ext_ref C.G.E.create
+)
+"deadcode.ml" 398 13696 13737 "deadcode.ml" 398 13696 13739
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+)
+"deadcode.ml" 398 13696 13740 "deadcode.ml" 398 13696 13744
+type(
+  C.G.E.label
+)
+"deadcode.ml" 398 13696 13745 "deadcode.ml" 398 13696 13751
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref newdst "deadcode.ml" 397 13650 13667 "deadcode.ml" 397 13650 13673
+)
+"deadcode.ml" 398 13696 13724 "deadcode.ml" 398 13696 13751
+call(
+  stack
+)
+type(
+  C.G.E.t
+)
+"deadcode.ml" 400 13800 13817 "deadcode.ml" 400 13800 13822
+type(
+  C.G.t
+)
+ident(
+  def graph "deadcode.ml" 403 13962 13975 "deadcode.ml" 405 14052 14070
+)
+"deadcode.ml" 400 13800 13825 "deadcode.ml" 400 13800 13840
+type(
+  (C.G.edge -> C.G.t -> C.G.t) -> C.G.t -> C.G.vertex -> C.G.t -> C.G.t
+)
+ident(
+  ext_ref C.G.fold_succ_e
+)
+"deadcode.ml" 401 13841 13861 "deadcode.ml" 401 13841 13862
+type(
+  C.G.edge
+)
+ident(
+  def e "deadcode.ml" 401 13841 13863 "deadcode.ml" 401 13841 13895
+)
+"deadcode.ml" 401 13841 13863 "deadcode.ml" 401 13841 13868
+type(
+  C.G.t
+)
+ident(
+  def graph "deadcode.ml" 401 13841 13872 "deadcode.ml" 401 13841 13895
+)
+"deadcode.ml" 401 13841 13872 "deadcode.ml" 401 13841 13887
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  ext_ref C.remove_edge_e
+)
+"deadcode.ml" 401 13841 13888 "deadcode.ml" 401 13841 13893
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 401 13841 13863 "deadcode.ml" 401 13841 13868
+)
+"deadcode.ml" 401 13841 13894 "deadcode.ml" 401 13841 13895
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "deadcode.ml" 401 13841 13861 "deadcode.ml" 401 13841 13862
+)
+"deadcode.ml" 401 13841 13872 "deadcode.ml" 401 13841 13895
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 401 13841 13856 "deadcode.ml" 401 13841 13896
+type(
+  C.G.edge -> C.G.t -> C.G.t
+)
+"deadcode.ml" 401 13841 13897 "deadcode.ml" 401 13841 13902
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 395 13555 13572 "deadcode.ml" 395 13555 13577
+)
+"deadcode.ml" 401 13841 13903 "deadcode.ml" 401 13841 13905
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+)
+"deadcode.ml" 401 13841 13906 "deadcode.ml" 401 13841 13911
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 395 13555 13572 "deadcode.ml" 395 13555 13577
+)
+"deadcode.ml" 400 13800 13825 "deadcode.ml" 401 13841 13911
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 403 13962 13979 "deadcode.ml" 403 13962 13984
+type(
+  C.G.t
+)
+ident(
+  def graph "deadcode.ml" 404 14018 14031 "deadcode.ml" 405 14052 14070
+)
+"deadcode.ml" 403 13962 13987 "deadcode.ml" 403 13962 13999
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  ext_ref C.add_edge_e
+)
+"deadcode.ml" 403 13962 14000 "deadcode.ml" 403 13962 14005
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 400 13800 13817 "deadcode.ml" 400 13800 13822
+)
+"deadcode.ml" 403 13962 14006 "deadcode.ml" 403 13962 14014
+type(
+  C.G.E.t
+)
+ident(
+  int_ref new_edge "deadcode.ml" 398 13696 13713 "deadcode.ml" 398 13696 13721
+)
+"deadcode.ml" 403 13962 13987 "deadcode.ml" 403 13962 14014
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 404 14018 14031 "deadcode.ml" 404 14018 14042
+type(
+  bool ref
+)
+ident(
+  int_ref has_changed "deadcode.ml" 334 11074 11080 "deadcode.ml" 334 11074 11091
+)
+"deadcode.ml" 404 14018 14043 "deadcode.ml" 404 14018 14045
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"deadcode.ml" 404 14018 14046 "deadcode.ml" 404 14018 14050
+type(
+  bool
+)
+"deadcode.ml" 404 14018 14031 "deadcode.ml" 404 14018 14050
+type(
+  unit
+)
+"deadcode.ml" 405 14052 14065 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 403 13962 13979 "deadcode.ml" 403 13962 13984
+)
+"deadcode.ml" 404 14018 14031 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 403 13962 13975 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 400 13800 13813 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 398 13696 13709 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 397 13650 13663 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 395 13555 13568 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 394 13489 13502 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 391 13372 13385 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 383 13095 13108 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 377 12883 12896 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 376 12796 12809 "deadcode.ml" 405 14052 14070
+type(
+  C.G.t
+)
+"deadcode.ml" 406 14071 14087 "deadcode.ml" 406 14071 14096
+type(
+  exn
+)
+"deadcode.ml" 409 14236 14249 "deadcode.ml" 409 14236 14254
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 340 11338 11350 "deadcode.ml" 340 11338 11355
+)
+"deadcode.ml" 375 12781 12791 "deadcode.ml" 409 14236 14255
+type(
+  C.G.t
+)
+"deadcode.ml" 374 12673 12720 "deadcode.ml" 409 14236 14255
+type(
+  C.G.t
+)
+"deadcode.ml" 410 14256 14266 "deadcode.ml" 410 14256 14267
+type(
+  C.stmt list
+)
+"deadcode.ml" 410 14256 14271 "deadcode.ml" 410 14256 14282
+type(
+  C.G.t -> C.G.V.t -> C.lang -> C.G.t
+)
+ident(
+  ext_ref C.set_stmts
+)
+"deadcode.ml" 410 14256 14283 "deadcode.ml" 410 14256 14288
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 340 11338 11350 "deadcode.ml" 340 11338 11355
+)
+"deadcode.ml" 410 14256 14289 "deadcode.ml" 410 14256 14291
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 340 11338 11347 "deadcode.ml" 340 11338 11349
+)
+"deadcode.ml" 410 14256 14293 "deadcode.ml" 410 14256 14301
+type(
+  C.stmt list -> C.lang
+)
+ident(
+  ext_ref List.rev
+)
+"deadcode.ml" 410 14256 14302 "deadcode.ml" 410 14256 14313
+type(
+  C.stmt list
+)
+ident(
+  int_ref revnewstmts "deadcode.ml" 342 11401 11411 "deadcode.ml" 342 11401 11422
+)
+"deadcode.ml" 410 14256 14292 "deadcode.ml" 410 14256 14314
+call(
+  stack
+)
+type(
+  C.lang
+)
+"deadcode.ml" 410 14256 14271 "deadcode.ml" 410 14256 14314
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 373 12632 12650 "deadcode.ml" 410 14256 14314
+type(
+  C.G.t
+)
+"deadcode.ml" 412 14324 14330 "deadcode.ml" 412 14324 14335
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 373 12632 12642 "deadcode.ml" 373 12632 12647
+)
+"deadcode.ml" 373 12632 12638 "deadcode.ml" 412 14324 14335
+type(
+  C.G.t
+)
+"deadcode.ml" 342 11401 11407 "deadcode.ml" 412 14324 14335
+type(
+  C.G.t
+)
+"deadcode.ml" 341 11359 11365 "deadcode.ml" 412 14324 14335
+type(
+  C.G.t
+)
+"deadcode.ml" 340 11338 11342 "deadcode.ml" 414 14345 14350
+type(
+  C.G.vertex -> C.G.t -> C.G.t
+)
+"deadcode.ml" 415 14351 14355 "deadcode.ml" 415 14351 14360
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 196 6213 6219 "deadcode.ml" 196 6213 6224
+)
+"deadcode.ml" 415 14351 14361 "deadcode.ml" 415 14351 14366
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 196 6213 6219 "deadcode.ml" 196 6213 6224
+)
+"deadcode.ml" 339 11308 11322 "deadcode.ml" 415 14351 14366
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 418 14415 14421 "deadcode.ml" 418 14415 14426
+type(
+  C.G.t
+)
+"deadcode.ml" 418 14415 14432 "deadcode.ml" 418 14415 14433
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 418 14415 14433 "deadcode.ml" 418 14415 14444
+type(
+  bool ref
+)
+ident(
+  int_ref has_changed "deadcode.ml" 334 11074 11080 "deadcode.ml" 334 11074 11091
+)
+"deadcode.ml" 418 14415 14432 "deadcode.ml" 418 14415 14444
+type(
+  bool
+)
+"deadcode.ml" 419 14450 14456 "deadcode.ml" 419 14450 14471
+type(
+  (C.G.vertex -> C.G.t -> C.G.t) -> C.G.t -> C.G.t -> C.G.t
+)
+ident(
+  ext_ref C.G.fold_vertex
+)
+"deadcode.ml" 420 14472 14485 "deadcode.ml" 420 14472 14487
+type(
+  C.G.vertex
+)
+ident(
+  def bb "deadcode.ml" 420 14472 14488 "deadcode.ml" 423 14611 14647
+)
+"deadcode.ml" 420 14472 14488 "deadcode.ml" 420 14472 14493
+type(
+  C.G.t
+)
+ident(
+  def graph "deadcode.ml" 421 14497 14507 "deadcode.ml" 423 14611 14647
+)
+"deadcode.ml" 421 14497 14511 "deadcode.ml" 421 14497 14516
+type(
+  C.lang
+)
+"deadcode.ml" 421 14497 14519 "deadcode.ml" 421 14497 14530
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"deadcode.ml" 421 14497 14531 "deadcode.ml" 421 14497 14536
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 420 14472 14488 "deadcode.ml" 420 14472 14493
+)
+"deadcode.ml" 421 14497 14537 "deadcode.ml" 421 14497 14539
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 420 14472 14485 "deadcode.ml" 420 14472 14487
+)
+"deadcode.ml" 421 14497 14519 "deadcode.ml" 421 14497 14539
+call(
+  stack
+)
+type(
+  C.lang
+)
+"deadcode.ml" 422 14543 14557 "deadcode.ml" 422 14543 14562
+type(
+  C.stmt list
+)
+"deadcode.ml" 422 14543 14565 "deadcode.ml" 422 14543 14576
+type(
+  (C.stmt -> bool) -> C.lang -> C.stmt list
+)
+ident(
+  ext_ref List.filter
+)
+"deadcode.ml" 422 14543 14582 "deadcode.ml" 422 14543 14583
+type(
+  C.stmt
+)
+ident(
+  def s "deadcode.ml" 422 14543 14587 "deadcode.ml" 422 14543 14600
+)
+"deadcode.ml" 422 14543 14587 "deadcode.ml" 422 14543 14588
+type(
+  C.stmt
+)
+ident(
+  int_ref s "deadcode.ml" 422 14543 14582 "deadcode.ml" 422 14543 14583
+)
+"deadcode.ml" 422 14543 14589 "deadcode.ml" 422 14543 14591
+type(
+  C.stmt -> C.stmt -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"deadcode.ml" 422 14543 14592 "deadcode.ml" 422 14543 14600
+type(
+  C.stmt
+)
+ident(
+  int_ref deadstmt "deadcode.ml" 20 416 420 "deadcode.ml" 20 416 428
+)
+"deadcode.ml" 422 14543 14587 "deadcode.ml" 422 14543 14600
+type(
+  bool
+)
+"deadcode.ml" 422 14543 14577 "deadcode.ml" 422 14543 14601
+type(
+  C.stmt -> bool
+)
+"deadcode.ml" 422 14543 14602 "deadcode.ml" 422 14543 14607
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "deadcode.ml" 421 14497 14511 "deadcode.ml" 421 14497 14516
+)
+"deadcode.ml" 422 14543 14565 "deadcode.ml" 422 14543 14607
+call(
+  stack
+)
+type(
+  C.stmt list
+)
+"deadcode.ml" 423 14611 14621 "deadcode.ml" 423 14611 14632
+type(
+  C.G.t -> C.G.V.t -> C.lang -> C.G.t
+)
+ident(
+  ext_ref C.set_stmts
+)
+"deadcode.ml" 423 14611 14633 "deadcode.ml" 423 14611 14638
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 420 14472 14488 "deadcode.ml" 420 14472 14493
+)
+"deadcode.ml" 423 14611 14639 "deadcode.ml" 423 14611 14641
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "deadcode.ml" 420 14472 14485 "deadcode.ml" 420 14472 14487
+)
+"deadcode.ml" 423 14611 14642 "deadcode.ml" 423 14611 14647
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "deadcode.ml" 422 14543 14557 "deadcode.ml" 422 14543 14562
+)
+"deadcode.ml" 423 14611 14621 "deadcode.ml" 423 14611 14647
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 422 14543 14553 "deadcode.ml" 423 14611 14647
+type(
+  C.G.t
+)
+"deadcode.ml" 421 14497 14507 "deadcode.ml" 423 14611 14647
+type(
+  C.G.t
+)
+"deadcode.ml" 420 14472 14480 "deadcode.ml" 424 14648 14657
+type(
+  C.G.vertex -> C.G.t -> C.G.t
+)
+"deadcode.ml" 424 14648 14658 "deadcode.ml" 424 14648 14663
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 339 11308 11314 "deadcode.ml" 339 11308 11319
+)
+"deadcode.ml" 424 14648 14664 "deadcode.ml" 424 14648 14669
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 339 11308 11314 "deadcode.ml" 339 11308 11319
+)
+"deadcode.ml" 419 14450 14456 "deadcode.ml" 424 14648 14669
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"deadcode.ml" 425 14670 14679 "deadcode.ml" 425 14670 14684
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 339 11308 11314 "deadcode.ml" 339 11308 11319
+)
+"deadcode.ml" 418 14415 14429 "deadcode.ml" 425 14670 14684
+type(
+  C.G.t
+)
+"deadcode.ml" 428 14691 14693 "deadcode.ml" 428 14691 14698
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "deadcode.ml" 418 14415 14421 "deadcode.ml" 418 14415 14426
+)
+"deadcode.ml" 428 14691 14700 "deadcode.ml" 428 14691 14701
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"deadcode.ml" 428 14691 14701 "deadcode.ml" 428 14691 14712
+type(
+  bool ref
+)
+ident(
+  int_ref has_changed "deadcode.ml" 334 11074 11080 "deadcode.ml" 334 11074 11091
+)
+"deadcode.ml" 428 14691 14700 "deadcode.ml" 428 14691 14712
+type(
+  bool
+)
+"deadcode.ml" 428 14691 14693 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 418 14415 14417 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 339 11308 11310 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 334 11074 11076 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 332 11038 11040 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 321 10568 10570 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 318 10492 10494 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 288 9545 9547 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 268 8599 8601 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 231 7535 7537 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 224 7244 7246 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 219 7044 7046 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 218 6989 6991 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 217 6910 6912 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 202 6358 6360 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 198 6266 6268 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 196 6213 6215 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 195 6127 6129 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)
+"deadcode.ml" 194 6085 6087 "deadcode.ml" 428 14691 14712
+type(
+  C.G.t * bool
+)

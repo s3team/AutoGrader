@@ -1,0 +1,1215 @@
+"traces_stream.ml" 1 0 33 "traces_stream.ml" 1 0 37
+type(
+  string
+)
+ident(
+  def name "traces_stream.ml" 1 0 74 "traces_stream.ml" 1 0 78
+)
+"traces_stream.ml" 1 0 40 "traces_stream.ml" 1 0 55
+type(
+  string
+)
+"traces_stream.ml" 1 0 60 "traces_stream.ml" 1 0 67
+type(
+  [> `Debug ]
+)
+ident(
+  def default "traces_stream.ml" 1 0 74 "traces_stream.ml" 1 0 78
+)
+"traces_stream.ml" 1 0 68 "traces_stream.ml" 1 0 74
+type(
+  [> `Debug ] as 'a
+)
+"traces_stream.ml" 1 0 11 "traces_stream.ml" 1 0 79
+call(
+  stack
+)
+"traces_stream.ml" 5 139 143 "traces_stream.ml" 5 139 158
+type(
+  Memory2array.state ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Ast.var Traces.TVHash.t ->
+  Arch.arch -> Ast.program -> bool -> Symbeval.instr list
+)
+ident(
+  def concrete_stream "traces_stream.ml" 17 626 626 --
+)
+"traces_stream.ml" 5 139 159 "traces_stream.ml" 5 139 167
+type(
+  Memory2array.state
+)
+ident(
+  def mem_hash "traces_stream.ml" 5 139 168 "traces_stream.ml" 15 621 624
+)
+"traces_stream.ml" 5 139 168 "traces_stream.ml" 5 139 182
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  def concrete_state "traces_stream.ml" 5 139 183 "traces_stream.ml" 15 621 624
+)
+"traces_stream.ml" 5 139 183 "traces_stream.ml" 5 139 193
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  def thread_map "traces_stream.ml" 5 139 194 "traces_stream.ml" 15 621 624
+)
+"traces_stream.ml" 5 139 194 "traces_stream.ml" 5 139 198
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_stream.ml" 5 139 199 "traces_stream.ml" 15 621 624
+)
+"traces_stream.ml" 5 139 199 "traces_stream.ml" 5 139 204
+type(
+  Ast.program
+)
+ident(
+  def block "traces_stream.ml" 5 139 205 "traces_stream.ml" 15 621 624
+)
+"traces_stream.ml" 5 139 205 "traces_stream.ml" 5 139 211
+type(
+  bool
+)
+ident(
+  def return "traces_stream.ml" 6 214 216 "traces_stream.ml" 15 621 624
+)
+"traces_stream.ml" 7 235 241 "traces_stream.ml" 7 235 246
+type(
+  Ast.program
+)
+ident(
+  def block "traces_stream.ml" 8 298 300 "traces_stream.ml" 15 621 624
+)
+"traces_stream.ml" 7 235 249 "traces_stream.ml" 7 235 279
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * '_a ->
+  Memory2array.state -> Ast.program -> Ast.program
+)
+ident(
+  ext_ref Memory2array.coerce_prog_state
+)
+"traces_stream.ml" 7 235 280 "traces_stream.ml" 7 235 288
+type(
+  Memory2array.state
+)
+ident(
+  int_ref mem_hash "traces_stream.ml" 5 139 159 "traces_stream.ml" 5 139 167
+)
+"traces_stream.ml" 7 235 289 "traces_stream.ml" 7 235 294
+type(
+  Ast.program
+)
+ident(
+  int_ref block "traces_stream.ml" 5 139 199 "traces_stream.ml" 5 139 204
+)
+"traces_stream.ml" 7 235 249 "traces_stream.ml" 7 235 294
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"traces_stream.ml" 8 298 304 "traces_stream.ml" 8 298 308
+type(
+  Ast.var
+)
+ident(
+  def memv "traces_stream.ml" 9 378 380 "traces_stream.ml" 15 621 624
+)
+"traces_stream.ml" 8 298 311 "traces_stream.ml" 8 298 341
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * '_b ->
+  Memory2array.state -> Ast.var -> Ast.var
+)
+ident(
+  ext_ref Memory2array.coerce_rvar_state
+)
+"traces_stream.ml" 8 298 342 "traces_stream.ml" 8 298 350
+type(
+  Memory2array.state
+)
+ident(
+  int_ref mem_hash "traces_stream.ml" 5 139 159 "traces_stream.ml" 5 139 167
+)
+"traces_stream.ml" 8 298 352 "traces_stream.ml" 8 298 368
+type(
+  Arch.arch -> Ast.var
+)
+ident(
+  ext_ref Arch.mem_of_arch
+)
+"traces_stream.ml" 8 298 369 "traces_stream.ml" 8 298 373
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_stream.ml" 5 139 194 "traces_stream.ml" 5 139 198
+)
+"traces_stream.ml" 8 298 351 "traces_stream.ml" 8 298 374
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_stream.ml" 8 298 311 "traces_stream.ml" 8 298 374
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_stream.ml" 9 378 384 "traces_stream.ml" 9 378 389
+type(
+  Ast.program
+)
+ident(
+  def block "traces_stream.ml" 10 434 436 "traces_stream.ml" 15 621 624
+)
+"traces_stream.ml" 9 378 392 "traces_stream.ml" 9 378 413
+type(
+  Ast.program -> Ast.var Traces.TVHash.t -> Ast.program
+)
+ident(
+  ext_ref Traces.explicit_thread_stmts
+)
+"traces_stream.ml" 9 378 414 "traces_stream.ml" 9 378 419
+type(
+  Ast.program
+)
+ident(
+  int_ref block "traces_stream.ml" 7 235 241 "traces_stream.ml" 7 235 246
+)
+"traces_stream.ml" 9 378 420 "traces_stream.ml" 9 378 430
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  int_ref thread_map "traces_stream.ml" 5 139 183 "traces_stream.ml" 5 139 193
+)
+"traces_stream.ml" 9 378 392 "traces_stream.ml" 9 378 430
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"traces_stream.ml" 10 434 439 "traces_stream.ml" 10 434 445
+type(
+  bool
+)
+ident(
+  int_ref return "traces_stream.ml" 5 139 205 "traces_stream.ml" 5 139 211
+)
+"traces_stream.ml" 11 451 455 "traces_stream.ml" 11 451 464
+type(
+  Arch.arch ->
+  ?next_label:Z.t option ->
+  ?transformf:(Symbeval.instr -> (Ast.exp -> Ast.exp) -> Symbeval.instr list) ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Ast.var -> Ast.var Traces.TVHash.t -> Ast.program -> Symbeval.instr list
+)
+ident(
+  ext_ref Traces.run_block
+)
+"traces_stream.ml" 11 451 465 "traces_stream.ml" 11 451 469
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_stream.ml" 5 139 194 "traces_stream.ml" 5 139 198
+)
+"traces_stream.ml" 11 451 482 "traces_stream.ml" 11 451 502
+type(
+  Symbeval.instr -> (Ast.exp -> Ast.exp) -> Symbeval.instr list
+)
+ident(
+  ext_ref Traces.trace_transform_stmt
+)
+"traces_stream.ml" 11 451 503 "traces_stream.ml" 11 451 517
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref concrete_state "traces_stream.ml" 5 139 168 "traces_stream.ml" 5 139 182
+)
+"traces_stream.ml" 11 451 518 "traces_stream.ml" 11 451 522
+type(
+  Ast.var
+)
+ident(
+  int_ref memv "traces_stream.ml" 8 298 304 "traces_stream.ml" 8 298 308
+)
+"traces_stream.ml" 11 451 523 "traces_stream.ml" 11 451 533
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  int_ref thread_map "traces_stream.ml" 5 139 183 "traces_stream.ml" 5 139 193
+)
+"traces_stream.ml" 11 451 534 "traces_stream.ml" 11 451 539
+type(
+  Ast.program
+)
+ident(
+  int_ref block "traces_stream.ml" 9 378 384 "traces_stream.ml" 9 378 389
+)
+"traces_stream.ml" 11 451 455 "traces_stream.ml" 11 451 539
+call(
+  tail
+)
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 13 549 553 "traces_stream.ml" 13 549 559
+type(
+  Symbeval.instr list -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_stream.ml" 13 549 560 "traces_stream.ml" 13 549 569
+type(
+  Arch.arch ->
+  ?next_label:Z.t option ->
+  ?transformf:(Symbeval.instr -> (Ast.exp -> Ast.exp) -> Symbeval.instr list) ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Ast.var -> Ast.var Traces.TVHash.t -> Ast.program -> Symbeval.instr list
+)
+ident(
+  ext_ref Traces.run_block
+)
+"traces_stream.ml" 13 549 570 "traces_stream.ml" 13 549 574
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_stream.ml" 5 139 194 "traces_stream.ml" 5 139 198
+)
+"traces_stream.ml" 13 549 575 "traces_stream.ml" 13 549 589
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref concrete_state "traces_stream.ml" 5 139 168 "traces_stream.ml" 5 139 182
+)
+"traces_stream.ml" 13 549 590 "traces_stream.ml" 13 549 594
+type(
+  Ast.var
+)
+ident(
+  int_ref memv "traces_stream.ml" 8 298 304 "traces_stream.ml" 8 298 308
+)
+"traces_stream.ml" 13 549 595 "traces_stream.ml" 13 549 605
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  int_ref thread_map "traces_stream.ml" 5 139 183 "traces_stream.ml" 5 139 193
+)
+"traces_stream.ml" 13 549 606 "traces_stream.ml" 13 549 611
+type(
+  Ast.program
+)
+ident(
+  int_ref block "traces_stream.ml" 9 378 384 "traces_stream.ml" 9 378 389
+)
+"traces_stream.ml" 13 549 559 "traces_stream.ml" 13 549 612
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 13 549 553 "traces_stream.ml" 13 549 612
+type(
+  unit
+)
+"traces_stream.ml" 14 614 618 "traces_stream.ml" 14 614 620
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 12 540 547 "traces_stream.ml" 15 621 624
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 10 434 436 "traces_stream.ml" 15 621 624
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 9 378 380 "traces_stream.ml" 15 621 624
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 8 298 300 "traces_stream.ml" 15 621 624
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 7 235 237 "traces_stream.ml" 15 621 624
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 17 626 630 "traces_stream.ml" 17 626 638
+type(
+  bool -> Arch.arch -> Ast.program -> Symbeval.instr list
+)
+ident(
+  def concrete "traces_stream.ml" 25 1067 1067 --
+)
+"traces_stream.ml" 17 626 639 "traces_stream.ml" 17 626 645
+type(
+  bool
+)
+ident(
+  def return "traces_stream.ml" 17 626 646 "traces_stream.ml" 23 978 1065
+)
+"traces_stream.ml" 17 626 646 "traces_stream.ml" 17 626 650
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_stream.ml" 18 653 657 "traces_stream.ml" 23 978 1065
+)
+"traces_stream.ml" 18 653 661 "traces_stream.ml" 18 653 669
+type(
+  Memory2array.state
+)
+"traces_stream.ml" 18 653 672 "traces_stream.ml" 18 653 697
+type(
+  unit -> Memory2array.state
+)
+ident(
+  ext_ref Memory2array.create_state
+)
+"traces_stream.ml" 18 653 698 "traces_stream.ml" 18 653 700
+type(
+  unit
+)
+"traces_stream.ml" 18 653 672 "traces_stream.ml" 18 653 700
+call(
+  stack
+)
+type(
+  Memory2array.state
+)
+"traces_stream.ml" 19 704 712 "traces_stream.ml" 19 704 726
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+"traces_stream.ml" 19 704 729 "traces_stream.ml" 19 704 762
+type(
+  Traces.TraceConcrete.Form.init ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  ext_ref Traces.TraceConcrete.create_state
+)
+"traces_stream.ml" 19 704 763 "traces_stream.ml" 19 704 765
+type(
+  Traces.TraceConcrete.Form.init
+)
+"traces_stream.ml" 19 704 729 "traces_stream.ml" 19 704 765
+call(
+  stack
+)
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+"traces_stream.ml" 20 769 777 "traces_stream.ml" 20 769 787
+type(
+  Ast.var Traces.TVHash.t
+)
+"traces_stream.ml" 20 769 790 "traces_stream.ml" 20 769 820
+type(
+  unit -> Ast.var Traces.TVHash.t
+)
+ident(
+  ext_ref Traces.create_thread_map_state
+)
+"traces_stream.ml" 20 769 821 "traces_stream.ml" 20 769 823
+type(
+  unit
+)
+"traces_stream.ml" 20 769 790 "traces_stream.ml" 20 769 823
+call(
+  stack
+)
+type(
+  Ast.var Traces.TVHash.t
+)
+"traces_stream.ml" 22 901 905 "traces_stream.ml" 22 901 911
+type(
+  Ast.var -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_stream.ml" 22 901 912 "traces_stream.ml" 22 901 942
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * '_a ->
+  Memory2array.state -> Ast.var -> Ast.var
+)
+ident(
+  ext_ref Memory2array.coerce_rvar_state
+)
+"traces_stream.ml" 22 901 943 "traces_stream.ml" 22 901 951
+type(
+  Memory2array.state
+)
+ident(
+  int_ref mem_hash "traces_stream.ml" 18 653 661 "traces_stream.ml" 18 653 669
+)
+"traces_stream.ml" 22 901 953 "traces_stream.ml" 22 901 969
+type(
+  Arch.arch -> Ast.var
+)
+ident(
+  ext_ref Arch.mem_of_arch
+)
+"traces_stream.ml" 22 901 970 "traces_stream.ml" 22 901 974
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_stream.ml" 17 626 646 "traces_stream.ml" 17 626 650
+)
+"traces_stream.ml" 22 901 952 "traces_stream.ml" 22 901 975
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_stream.ml" 22 901 911 "traces_stream.ml" 22 901 976
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_stream.ml" 22 901 905 "traces_stream.ml" 22 901 976
+type(
+  unit
+)
+"traces_stream.ml" 23 978 987 "traces_stream.ml" 23 978 992
+type(
+  Ast.program
+)
+ident(
+  def block "traces_stream.ml" 23 978 996 "traces_stream.ml" 23 978 1064
+)
+"traces_stream.ml" 23 978 996 "traces_stream.ml" 23 978 1011
+type(
+  Memory2array.state ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Ast.var Traces.TVHash.t ->
+  Arch.arch -> Ast.program -> bool -> Symbeval.instr list
+)
+ident(
+  int_ref concrete_stream "traces_stream.ml" 5 139 143 "traces_stream.ml" 5 139 158
+)
+"traces_stream.ml" 23 978 1012 "traces_stream.ml" 23 978 1020
+type(
+  Memory2array.state
+)
+ident(
+  int_ref mem_hash "traces_stream.ml" 18 653 661 "traces_stream.ml" 18 653 669
+)
+"traces_stream.ml" 23 978 1021 "traces_stream.ml" 23 978 1035
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref concrete_state "traces_stream.ml" 19 704 712 "traces_stream.ml" 19 704 726
+)
+"traces_stream.ml" 23 978 1036 "traces_stream.ml" 23 978 1046
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  int_ref thread_map "traces_stream.ml" 20 769 777 "traces_stream.ml" 20 769 787
+)
+"traces_stream.ml" 23 978 1047 "traces_stream.ml" 23 978 1051
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_stream.ml" 17 626 646 "traces_stream.ml" 17 626 650
+)
+"traces_stream.ml" 23 978 1052 "traces_stream.ml" 23 978 1057
+type(
+  Ast.program
+)
+ident(
+  int_ref block "traces_stream.ml" 23 978 987 "traces_stream.ml" 23 978 992
+)
+"traces_stream.ml" 23 978 1058 "traces_stream.ml" 23 978 1064
+type(
+  bool
+)
+ident(
+  int_ref return "traces_stream.ml" 17 626 639 "traces_stream.ml" 17 626 645
+)
+"traces_stream.ml" 23 978 996 "traces_stream.ml" 23 978 1064
+call(
+  tail
+)
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 23 978 982 "traces_stream.ml" 23 978 1065
+type(
+  Ast.program -> Symbeval.instr list
+)
+"traces_stream.ml" 22 901 905 "traces_stream.ml" 23 978 1065
+type(
+  Ast.program -> Symbeval.instr list
+)
+"traces_stream.ml" 20 769 773 "traces_stream.ml" 23 978 1065
+type(
+  Ast.program -> Symbeval.instr list
+)
+"traces_stream.ml" 19 704 708 "traces_stream.ml" 23 978 1065
+type(
+  Ast.program -> Symbeval.instr list
+)
+"traces_stream.ml" 18 653 657 "traces_stream.ml" 23 978 1065
+type(
+  Ast.program -> Symbeval.instr list
+)
+"traces_stream.ml" 28 1212 1218 "traces_stream.ml" 28 1212 1240
+type(
+  Memory2array.state ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Ast.var Traces.TVHash.t -> Arch.arch -> Ast.program -> Symbeval.instr list
+)
+ident(
+  def generate_formula_setup "traces_stream.ml" 41 1783 1785 "traces_stream.ml" 68 2898 2901
+)
+"traces_stream.ml" 28 1212 1241 "traces_stream.ml" 28 1212 1249
+type(
+  Memory2array.state
+)
+ident(
+  def mem_hash "traces_stream.ml" 28 1212 1250 "traces_stream.ml" 34 1493 1502
+)
+"traces_stream.ml" 28 1212 1250 "traces_stream.ml" 28 1212 1264
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  def concrete_state "traces_stream.ml" 28 1212 1265 "traces_stream.ml" 34 1493 1502
+)
+"traces_stream.ml" 28 1212 1265 "traces_stream.ml" 28 1212 1275
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  def thread_map "traces_stream.ml" 28 1212 1276 "traces_stream.ml" 34 1493 1502
+)
+"traces_stream.ml" 28 1212 1276 "traces_stream.ml" 28 1212 1280
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_stream.ml" 28 1212 1281 "traces_stream.ml" 34 1493 1502
+)
+"traces_stream.ml" 28 1212 1281 "traces_stream.ml" 28 1212 1286
+type(
+  Ast.program
+)
+ident(
+  def block "traces_stream.ml" 29 1289 1293 "traces_stream.ml" 34 1493 1502
+)
+"traces_stream.ml" 29 1289 1297 "traces_stream.ml" 29 1289 1302
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 30 1305 1311 "traces_stream.ml" 30 1305 1326
+type(
+  Memory2array.state ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Ast.var Traces.TVHash.t ->
+  Arch.arch -> Ast.program -> bool -> Symbeval.instr list
+)
+ident(
+  int_ref concrete_stream "traces_stream.ml" 5 139 143 "traces_stream.ml" 5 139 158
+)
+"traces_stream.ml" 30 1305 1327 "traces_stream.ml" 30 1305 1335
+type(
+  Memory2array.state
+)
+ident(
+  int_ref mem_hash "traces_stream.ml" 28 1212 1241 "traces_stream.ml" 28 1212 1249
+)
+"traces_stream.ml" 30 1305 1336 "traces_stream.ml" 30 1305 1350
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref concrete_state "traces_stream.ml" 28 1212 1250 "traces_stream.ml" 28 1212 1264
+)
+"traces_stream.ml" 30 1305 1351 "traces_stream.ml" 30 1305 1361
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  int_ref thread_map "traces_stream.ml" 28 1212 1265 "traces_stream.ml" 28 1212 1275
+)
+"traces_stream.ml" 30 1305 1362 "traces_stream.ml" 30 1305 1366
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_stream.ml" 28 1212 1276 "traces_stream.ml" 28 1212 1280
+)
+"traces_stream.ml" 30 1305 1367 "traces_stream.ml" 30 1305 1372
+type(
+  Ast.program
+)
+ident(
+  int_ref block "traces_stream.ml" 28 1212 1281 "traces_stream.ml" 28 1212 1286
+)
+"traces_stream.ml" 30 1305 1373 "traces_stream.ml" 30 1305 1377
+type(
+  bool
+)
+"traces_stream.ml" 30 1305 1311 "traces_stream.ml" 30 1305 1377
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 34 1493 1497 "traces_stream.ml" 34 1493 1502
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_stream.ml" 29 1289 1297 "traces_stream.ml" 29 1289 1302
+)
+"traces_stream.ml" 29 1289 1293 "traces_stream.ml" 34 1493 1502
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 41 1783 1789 "traces_stream.ml" 41 1783 1805
+type(
+  string ->
+  Smtexec.smtexec ->
+  (Arch.arch -> Ast.program -> unit) * (unit -> TraceSymbolic.output)
+)
+ident(
+  def generate_formula "traces_stream.ml" 67 2830 2897 "traces_stream.ml" 68 2898 2901
+)
+"traces_stream.ml" 41 1783 1806 "traces_stream.ml" 41 1783 1814
+type(
+  string
+)
+ident(
+  def filename "traces_stream.ml" 41 1783 1815 "traces_stream.ml" 67 2830 2897
+)
+"traces_stream.ml" 41 1783 1815 "traces_stream.ml" 41 1783 1821
+type(
+  Smtexec.smtexec
+)
+ident(
+  def solver "traces_stream.ml" 42 1824 1828 "traces_stream.ml" 67 2830 2897
+)
+"traces_stream.ml" 42 1824 1832 "traces_stream.ml" 42 1824 1842
+type(
+  TraceSymbolic.state option ref
+)
+"traces_stream.ml" 42 1824 1845 "traces_stream.ml" 42 1824 1848
+type(
+  TraceSymbolic.state option -> TraceSymbolic.state option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_stream.ml" 42 1824 1849 "traces_stream.ml" 42 1824 1853
+type(
+  TraceSymbolic.state option
+)
+"traces_stream.ml" 42 1824 1845 "traces_stream.ml" 42 1824 1853
+type(
+  TraceSymbolic.state option ref
+)
+"traces_stream.ml" 43 1857 1865 "traces_stream.ml" 43 1857 1873
+type(
+  Memory2array.state
+)
+"traces_stream.ml" 43 1857 1876 "traces_stream.ml" 43 1857 1901
+type(
+  unit -> Memory2array.state
+)
+ident(
+  ext_ref Memory2array.create_state
+)
+"traces_stream.ml" 43 1857 1902 "traces_stream.ml" 43 1857 1904
+type(
+  unit
+)
+"traces_stream.ml" 43 1857 1876 "traces_stream.ml" 43 1857 1904
+call(
+  stack
+)
+type(
+  Memory2array.state
+)
+"traces_stream.ml" 44 1908 1916 "traces_stream.ml" 44 1908 1930
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+"traces_stream.ml" 44 1908 1933 "traces_stream.ml" 44 1908 1966
+type(
+  Traces.TraceConcrete.Form.init ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  ext_ref Traces.TraceConcrete.create_state
+)
+"traces_stream.ml" 44 1908 1967 "traces_stream.ml" 44 1908 1969
+type(
+  Traces.TraceConcrete.Form.init
+)
+"traces_stream.ml" 44 1908 1933 "traces_stream.ml" 44 1908 1969
+call(
+  stack
+)
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+"traces_stream.ml" 45 1973 1981 "traces_stream.ml" 45 1973 1991
+type(
+  Ast.var Traces.TVHash.t
+)
+"traces_stream.ml" 45 1973 1994 "traces_stream.ml" 45 1973 2024
+type(
+  unit -> Ast.var Traces.TVHash.t
+)
+ident(
+  ext_ref Traces.create_thread_map_state
+)
+"traces_stream.ml" 45 1973 2025 "traces_stream.ml" 45 1973 2027
+type(
+  unit
+)
+"traces_stream.ml" 45 1973 1994 "traces_stream.ml" 45 1973 2027
+call(
+  stack
+)
+type(
+  Ast.var Traces.TVHash.t
+)
+"traces_stream.ml" 47 2032 2041 "traces_stream.ml" 47 2032 2045
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_stream.ml" 49 2125 2131 "traces_stream.ml" 61 2640 2708
+)
+"traces_stream.ml" 49 2125 2131 "traces_stream.ml" 49 2125 2137
+type(
+  Ast.var -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_stream.ml" 49 2125 2138 "traces_stream.ml" 49 2125 2168
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * '_a ->
+  Memory2array.state -> Ast.var -> Ast.var
+)
+ident(
+  ext_ref Memory2array.coerce_rvar_state
+)
+"traces_stream.ml" 49 2125 2169 "traces_stream.ml" 49 2125 2177
+type(
+  Memory2array.state
+)
+ident(
+  int_ref mem_hash "traces_stream.ml" 43 1857 1865 "traces_stream.ml" 43 1857 1873
+)
+"traces_stream.ml" 49 2125 2179 "traces_stream.ml" 49 2125 2195
+type(
+  Arch.arch -> Ast.var
+)
+ident(
+  ext_ref Arch.mem_of_arch
+)
+"traces_stream.ml" 49 2125 2196 "traces_stream.ml" 49 2125 2200
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_stream.ml" 47 2032 2041 "traces_stream.ml" 47 2032 2045
+)
+"traces_stream.ml" 49 2125 2178 "traces_stream.ml" 49 2125 2201
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_stream.ml" 49 2125 2137 "traces_stream.ml" 49 2125 2202
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_stream.ml" 49 2125 2131 "traces_stream.ml" 49 2125 2202
+type(
+  unit
+)
+"traces_stream.ml" 51 2235 2246 "traces_stream.ml" 51 2235 2251
+type(
+  Ast.program
+)
+ident(
+  def block "traces_stream.ml" 52 2255 2263 "traces_stream.ml" 61 2640 2707
+)
+"traces_stream.ml" 52 2255 2267 "traces_stream.ml" 52 2255 2272
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 52 2255 2275 "traces_stream.ml" 52 2255 2297
+type(
+  Memory2array.state ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Ast.var Traces.TVHash.t -> Arch.arch -> Ast.program -> Symbeval.instr list
+)
+ident(
+  int_ref generate_formula_setup "traces_stream.ml" 28 1212 1218 "traces_stream.ml" 28 1212 1240
+)
+"traces_stream.ml" 52 2255 2298 "traces_stream.ml" 52 2255 2306
+type(
+  Memory2array.state
+)
+ident(
+  int_ref mem_hash "traces_stream.ml" 43 1857 1865 "traces_stream.ml" 43 1857 1873
+)
+"traces_stream.ml" 52 2255 2307 "traces_stream.ml" 52 2255 2321
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref concrete_state "traces_stream.ml" 44 1908 1916 "traces_stream.ml" 44 1908 1930
+)
+"traces_stream.ml" 52 2255 2322 "traces_stream.ml" 52 2255 2332
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  int_ref thread_map "traces_stream.ml" 45 1973 1981 "traces_stream.ml" 45 1973 1991
+)
+"traces_stream.ml" 52 2255 2333 "traces_stream.ml" 52 2255 2337
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_stream.ml" 47 2032 2041 "traces_stream.ml" 47 2032 2045
+)
+"traces_stream.ml" 52 2255 2338 "traces_stream.ml" 52 2255 2343
+type(
+  Ast.program
+)
+ident(
+  int_ref block "traces_stream.ml" 51 2235 2246 "traces_stream.ml" 51 2235 2251
+)
+"traces_stream.ml" 52 2255 2275 "traces_stream.ml" 52 2255 2343
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_stream.ml" 53 2347 2359 "traces_stream.ml" 53 2347 2364
+type(
+  TraceSymbolic.state
+)
+"traces_stream.ml" 53 2347 2373 "traces_stream.ml" 53 2347 2374
+type(
+  TraceSymbolic.state option ref -> TraceSymbolic.state option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_stream.ml" 53 2347 2374 "traces_stream.ml" 53 2347 2384
+type(
+  TraceSymbolic.state option ref
+)
+ident(
+  int_ref last_state "traces_stream.ml" 42 1824 1832 "traces_stream.ml" 42 1824 1842
+)
+"traces_stream.ml" 53 2347 2373 "traces_stream.ml" 53 2347 2384
+type(
+  TraceSymbolic.state option
+)
+"traces_stream.ml" 54 2390 2407 "traces_stream.ml" 54 2390 2408
+type(
+  TraceSymbolic.state
+)
+ident(
+  def s "traces_stream.ml" 54 2390 2412 "traces_stream.ml" 54 2390 2413
+)
+"traces_stream.ml" 54 2390 2402 "traces_stream.ml" 54 2390 2408
+type(
+  TraceSymbolic.state option
+)
+"traces_stream.ml" 54 2390 2412 "traces_stream.ml" 54 2390 2413
+type(
+  TraceSymbolic.state
+)
+ident(
+  int_ref s "traces_stream.ml" 54 2390 2407 "traces_stream.ml" 54 2390 2408
+)
+"traces_stream.ml" 55 2414 2426 "traces_stream.ml" 55 2414 2430
+type(
+  TraceSymbolic.state option
+)
+"traces_stream.ml" 58 2550 2562 "traces_stream.ml" 58 2550 2588
+type(
+  TraceSymbolic.user_init -> TraceSymbolic.state
+)
+ident(
+  ext_ref TraceSymbolic.create_state
+)
+"traces_stream.ml" 58 2550 2590 "traces_stream.ml" 58 2550 2598
+type(
+  string
+)
+ident(
+  int_ref filename "traces_stream.ml" 41 1783 1806 "traces_stream.ml" 41 1783 1814
+)
+"traces_stream.ml" 58 2550 2599 "traces_stream.ml" 58 2550 2605
+type(
+  Smtexec.smtexec
+)
+ident(
+  int_ref solver "traces_stream.ml" 41 1783 1815 "traces_stream.ml" 41 1783 1821
+)
+"traces_stream.ml" 58 2550 2589 "traces_stream.ml" 58 2550 2606
+type(
+  TraceSymbolic.user_init
+)
+"traces_stream.ml" 58 2550 2562 "traces_stream.ml" 58 2550 2606
+call(
+  stack
+)
+type(
+  TraceSymbolic.state
+)
+"traces_stream.ml" 53 2347 2367 "traces_stream.ml" 58 2550 2606
+type(
+  TraceSymbolic.state
+)
+"traces_stream.ml" 60 2618 2626 "traces_stream.ml" 60 2618 2636
+type(
+  TraceSymbolic.state option ref
+)
+ident(
+  int_ref last_state "traces_stream.ml" 42 1824 1832 "traces_stream.ml" 42 1824 1842
+)
+"traces_stream.ml" 60 2618 2637 "traces_stream.ml" 60 2618 2639
+type(
+  TraceSymbolic.state option ref -> TraceSymbolic.state option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_stream.ml" 61 2640 2656 "traces_stream.ml" 61 2640 2689
+type(
+  TraceSymbolic.state ->
+  Arch.arch -> Symbeval.instr list -> TraceSymbolic.state
+)
+ident(
+  ext_ref TraceSymbolic.symbolic_run_blocks
+)
+"traces_stream.ml" 61 2640 2690 "traces_stream.ml" 61 2640 2695
+type(
+  TraceSymbolic.state
+)
+ident(
+  int_ref state "traces_stream.ml" 53 2347 2359 "traces_stream.ml" 53 2347 2364
+)
+"traces_stream.ml" 61 2640 2696 "traces_stream.ml" 61 2640 2700
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_stream.ml" 47 2032 2041 "traces_stream.ml" 47 2032 2045
+)
+"traces_stream.ml" 61 2640 2701 "traces_stream.ml" 61 2640 2706
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_stream.ml" 52 2255 2267 "traces_stream.ml" 52 2255 2272
+)
+"traces_stream.ml" 61 2640 2655 "traces_stream.ml" 61 2640 2707
+call(
+  stack
+)
+type(
+  TraceSymbolic.state
+)
+"traces_stream.ml" 61 2640 2650 "traces_stream.ml" 61 2640 2707
+type(
+  TraceSymbolic.state option
+)
+"traces_stream.ml" 60 2618 2626 "traces_stream.ml" 61 2640 2707
+type(
+  unit
+)
+"traces_stream.ml" 53 2347 2355 "traces_stream.ml" 61 2640 2707
+type(
+  unit
+)
+"traces_stream.ml" 52 2255 2263 "traces_stream.ml" 61 2640 2707
+type(
+  unit
+)
+"traces_stream.ml" 51 2235 2241 "traces_stream.ml" 61 2640 2708
+type(
+  Ast.program -> unit
+)
+"traces_stream.ml" 49 2125 2131 "traces_stream.ml" 61 2640 2708
+type(
+  Ast.program -> unit
+)
+"traces_stream.ml" 47 2032 2036 "traces_stream.ml" 61 2640 2709
+type(
+  Arch.arch -> Ast.program -> unit
+)
+"traces_stream.ml" 64 2737 2746 "traces_stream.ml" 64 2737 2748
+type(
+  unit
+)
+"traces_stream.ml" 65 2752 2764 "traces_stream.ml" 65 2752 2765
+type(
+  TraceSymbolic.state option ref -> TraceSymbolic.state option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_stream.ml" 65 2752 2765 "traces_stream.ml" 65 2752 2775
+type(
+  TraceSymbolic.state option ref
+)
+ident(
+  int_ref last_state "traces_stream.ml" 42 1824 1832 "traces_stream.ml" 42 1824 1842
+)
+"traces_stream.ml" 65 2752 2764 "traces_stream.ml" 65 2752 2775
+type(
+  TraceSymbolic.state option
+)
+"traces_stream.ml" 66 2781 2794 "traces_stream.ml" 66 2781 2795
+type(
+  TraceSymbolic.state
+)
+ident(
+  def s "traces_stream.ml" 66 2781 2799 "traces_stream.ml" 66 2781 2829
+)
+"traces_stream.ml" 66 2781 2789 "traces_stream.ml" 66 2781 2795
+type(
+  TraceSymbolic.state option
+)
+"traces_stream.ml" 66 2781 2799 "traces_stream.ml" 66 2781 2827
+type(
+  TraceSymbolic.state -> TraceSymbolic.output
+)
+ident(
+  ext_ref TraceSymbolic.output_formula
+)
+"traces_stream.ml" 66 2781 2828 "traces_stream.ml" 66 2781 2829
+type(
+  TraceSymbolic.state
+)
+ident(
+  int_ref s "traces_stream.ml" 66 2781 2794 "traces_stream.ml" 66 2781 2795
+)
+"traces_stream.ml" 66 2781 2799 "traces_stream.ml" 66 2781 2829
+call(
+  tail
+)
+type(
+  TraceSymbolic.output
+)
+"traces_stream.ml" 67 2830 2838 "traces_stream.ml" 67 2830 2842
+type(
+  TraceSymbolic.state option
+)
+"traces_stream.ml" 67 2830 2846 "traces_stream.ml" 67 2830 2854
+type(
+  string -> TraceSymbolic.output
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_stream.ml" 67 2830 2855 "traces_stream.ml" 67 2830 2896
+type(
+  string
+)
+"traces_stream.ml" 67 2830 2846 "traces_stream.ml" 67 2830 2896
+call(
+  tail
+)
+type(
+  TraceSymbolic.output
+)
+"traces_stream.ml" 65 2752 2758 "traces_stream.ml" 67 2830 2896
+type(
+  TraceSymbolic.output
+)
+"traces_stream.ml" 64 2737 2741 "traces_stream.ml" 67 2830 2897
+type(
+  unit -> TraceSymbolic.output
+)
+"traces_stream.ml" 47 2032 2036 "traces_stream.ml" 67 2830 2897
+type(
+  (Arch.arch -> Ast.program -> unit) * (unit -> TraceSymbolic.output)
+)
+"traces_stream.ml" 45 1973 1977 "traces_stream.ml" 67 2830 2897
+type(
+  (Arch.arch -> Ast.program -> unit) * (unit -> TraceSymbolic.output)
+)
+"traces_stream.ml" 44 1908 1912 "traces_stream.ml" 67 2830 2897
+type(
+  (Arch.arch -> Ast.program -> unit) * (unit -> TraceSymbolic.output)
+)
+"traces_stream.ml" 43 1857 1861 "traces_stream.ml" 67 2830 2897
+type(
+  (Arch.arch -> Ast.program -> unit) * (unit -> TraceSymbolic.output)
+)
+"traces_stream.ml" 42 1824 1828 "traces_stream.ml" 67 2830 2897
+type(
+  (Arch.arch -> Ast.program -> unit) * (unit -> TraceSymbolic.output)
+)
+"traces_stream.ml" 71 2927 2929 "traces_stream.ml" 71 2927 2975
+call(
+  stack
+)
+"traces_stream.ml" 73 2977 2981 "traces_stream.ml" 73 2977 2997
+type(
+  string ->
+  Smtexec.smtexec ->
+  (Arch.arch -> Ast.program -> unit) *
+  (unit -> Traces.TraceSymbolicStream.output)
+)
+ident(
+  def generate_formula "traces_stream.ml" 73 2977 3031 --
+)
+"traces_stream.ml" 73 2977 3000 "traces_stream.ml" 73 2977 3031
+type(
+  string ->
+  Smtexec.smtexec ->
+  (Arch.arch -> Ast.program -> unit) *
+  (unit -> Traces.TraceSymbolicStream.output)
+)
+ident(
+  ext_ref StreamSymbolic.generate_formula
+)

@@ -1,0 +1,674 @@
+"arch.ml" 10 114 118 "arch.ml" 10 114 132
+type(
+  arch -> string
+)
+ident(
+  def arch_to_string "arch.ml" 14 191 191 --
+)
+"arch.ml" 11 144 148 "arch.ml" 11 144 154
+type(
+  arch
+)
+"arch.ml" 11 144 158 "arch.ml" 11 144 166
+type(
+  string
+)
+"arch.ml" 12 167 171 "arch.ml" 12 167 177
+type(
+  arch
+)
+"arch.ml" 12 167 181 "arch.ml" 12 167 189
+type(
+  string
+)
+"arch.ml" 10 114 135 "arch.ml" 12 167 189
+type(
+  arch -> string
+)
+"arch.ml" 14 191 195 "arch.ml" 14 191 209
+type(
+  string -> arch
+)
+ident(
+  def arch_of_string "arch.ml" 19 347 347 --
+)
+"arch.ml" 15 221 225 "arch.ml" 15 221 230
+type(
+  string
+)
+"arch.ml" 15 221 233 "arch.ml" 15 221 241
+type(
+  string
+)
+"arch.ml" 15 221 225 "arch.ml" 15 221 241
+type(
+  string
+)
+"arch.ml" 15 221 244 "arch.ml" 15 221 252
+type(
+  string
+)
+"arch.ml" 15 221 225 "arch.ml" 15 221 252
+type(
+  string
+)
+"arch.ml" 15 221 256 "arch.ml" 15 221 262
+type(
+  arch
+)
+"arch.ml" 16 263 267 "arch.ml" 16 263 275
+type(
+  string
+)
+"arch.ml" 16 263 278 "arch.ml" 16 263 286
+type(
+  string
+)
+"arch.ml" 16 263 267 "arch.ml" 16 263 286
+type(
+  string
+)
+"arch.ml" 16 263 290 "arch.ml" 16 263 296
+type(
+  arch
+)
+"arch.ml" 17 297 301 "arch.ml" 17 297 302
+type(
+  string
+)
+"arch.ml" 17 297 306 "arch.ml" 17 297 314
+type(
+  string -> arch
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"arch.ml" 17 297 315 "arch.ml" 17 297 345
+type(
+  string
+)
+"arch.ml" 17 297 306 "arch.ml" 17 297 345
+call(
+  tail
+)
+type(
+  arch
+)
+"arch.ml" 14 191 212 "arch.ml" 17 297 345
+type(
+  string -> arch
+)
+"arch.ml" 19 347 351 "arch.ml" 19 347 363
+type(
+  arch -> Type.typ
+)
+ident(
+  def type_of_arch "arch.ml" 23 428 428 --
+)
+"arch.ml" 20 375 379 "arch.ml" 20 375 385
+type(
+  arch
+)
+"arch.ml" 20 375 398 "arch.ml" 20 375 400
+type(
+  int
+)
+"arch.ml" 20 375 389 "arch.ml" 20 375 400
+type(
+  Type.typ
+)
+"arch.ml" 21 401 405 "arch.ml" 21 401 411
+type(
+  arch
+)
+"arch.ml" 21 401 424 "arch.ml" 21 401 426
+type(
+  int
+)
+"arch.ml" 21 401 415 "arch.ml" 21 401 426
+type(
+  Type.typ
+)
+"arch.ml" 19 347 366 "arch.ml" 21 401 426
+type(
+  arch -> Type.typ
+)
+"arch.ml" 23 428 432 "arch.ml" 23 428 444
+type(
+  arch -> int
+)
+ident(
+  def bits_of_arch "arch.ml" 27 543 543 --
+)
+"arch.ml" 23 428 445 "arch.ml" 23 428 446
+type(
+  arch
+)
+ident(
+  def a "arch.ml" 23 428 449 "arch.ml" 25 497 541
+)
+"arch.ml" 23 428 456 "arch.ml" 23 428 468
+type(
+  arch -> Type.typ
+)
+ident(
+  int_ref type_of_arch "arch.ml" 19 347 351 "arch.ml" 19 347 363
+)
+"arch.ml" 23 428 469 "arch.ml" 23 428 470
+type(
+  arch
+)
+ident(
+  int_ref a "arch.ml" 23 428 445 "arch.ml" 23 428 446
+)
+"arch.ml" 23 428 455 "arch.ml" 23 428 471
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"arch.ml" 24 477 490 "arch.ml" 24 477 491
+type(
+  int
+)
+ident(
+  def n "arch.ml" 24 477 495 "arch.ml" 24 477 496
+)
+"arch.ml" 24 477 481 "arch.ml" 24 477 491
+type(
+  Type.typ
+)
+"arch.ml" 24 477 495 "arch.ml" 24 477 496
+type(
+  int
+)
+ident(
+  int_ref n "arch.ml" 24 477 490 "arch.ml" 24 477 491
+)
+"arch.ml" 25 497 501 "arch.ml" 25 497 502
+type(
+  Type.typ
+)
+"arch.ml" 25 497 506 "arch.ml" 25 497 514
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"arch.ml" 25 497 515 "arch.ml" 25 497 541
+type(
+  string
+)
+"arch.ml" 25 497 506 "arch.ml" 25 497 541
+type(
+  int
+)
+"arch.ml" 23 428 449 "arch.ml" 25 497 541
+type(
+  int
+)
+"arch.ml" 27 543 547 "arch.ml" 27 543 560
+type(
+  arch -> int
+)
+ident(
+  def bytes_of_arch "arch.ml" 32 636 636 --
+)
+"arch.ml" 27 543 561 "arch.ml" 27 543 562
+type(
+  arch
+)
+ident(
+  def a "arch.ml" 28 565 567 "arch.ml" 30 624 634
+)
+"arch.ml" 28 565 571 "arch.ml" 28 565 575
+type(
+  int
+)
+"arch.ml" 28 565 578 "arch.ml" 28 565 590
+type(
+  arch -> int
+)
+ident(
+  int_ref bits_of_arch "arch.ml" 23 428 432 "arch.ml" 23 428 444
+)
+"arch.ml" 28 565 591 "arch.ml" 28 565 592
+type(
+  arch
+)
+ident(
+  int_ref a "arch.ml" 27 543 561 "arch.ml" 27 543 562
+)
+"arch.ml" 28 565 578 "arch.ml" 28 565 592
+call(
+  stack
+)
+type(
+  int
+)
+"arch.ml" 29 596 606 "arch.ml" 29 596 610
+type(
+  int
+)
+ident(
+  int_ref bits "arch.ml" 28 565 571 "arch.ml" 28 565 575
+)
+"arch.ml" 29 596 611 "arch.ml" 29 596 614
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"arch.ml" 29 596 615 "arch.ml" 29 596 616
+type(
+  int
+)
+"arch.ml" 29 596 606 "arch.ml" 29 596 616
+type(
+  int
+)
+"arch.ml" 29 596 617 "arch.ml" 29 596 619
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"arch.ml" 29 596 620 "arch.ml" 29 596 621
+type(
+  int
+)
+"arch.ml" 29 596 605 "arch.ml" 29 596 622
+type(
+  bool
+)
+"arch.ml" 29 596 598 "arch.ml" 29 596 622
+type(
+  unit
+)
+"arch.ml" 30 624 626 "arch.ml" 30 624 630
+type(
+  int
+)
+ident(
+  int_ref bits "arch.ml" 28 565 571 "arch.ml" 28 565 575
+)
+"arch.ml" 30 624 631 "arch.ml" 30 624 632
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"arch.ml" 30 624 633 "arch.ml" 30 624 634
+type(
+  int
+)
+"arch.ml" 30 624 626 "arch.ml" 30 624 634
+type(
+  int
+)
+"arch.ml" 29 596 598 "arch.ml" 30 624 634
+type(
+  int
+)
+"arch.ml" 28 565 567 "arch.ml" 30 624 634
+type(
+  int
+)
+"arch.ml" 32 636 640 "arch.ml" 32 636 652
+type(
+  arch -> Disasm_i386.mode
+)
+ident(
+  def mode_of_arch "arch.ml" 36 727 727 --
+)
+"arch.ml" 33 664 668 "arch.ml" 33 664 674
+type(
+  arch
+)
+"arch.ml" 33 664 678 "arch.ml" 33 664 693
+type(
+  Disasm_i386.mode
+)
+"arch.ml" 34 694 698 "arch.ml" 34 694 704
+type(
+  arch
+)
+"arch.ml" 34 694 708 "arch.ml" 34 694 725
+type(
+  Disasm_i386.mode
+)
+"arch.ml" 32 636 655 "arch.ml" 34 694 725
+type(
+  arch -> Disasm_i386.mode
+)
+"arch.ml" 36 727 731 "arch.ml" 36 727 742
+type(
+  arch -> Var.t
+)
+ident(
+  def mem_of_arch "arch.ml" 40 823 823 --
+)
+"arch.ml" 37 754 758 "arch.ml" 37 754 764
+type(
+  arch
+)
+"arch.ml" 37 754 768 "arch.ml" 37 754 787
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.mem
+)
+"arch.ml" 38 788 792 "arch.ml" 38 788 798
+type(
+  arch
+)
+"arch.ml" 38 788 802 "arch.ml" 38 788 821
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R64.mem
+)
+"arch.ml" 36 727 745 "arch.ml" 38 788 821
+type(
+  arch -> Var.t
+)
+"arch.ml" 40 823 827 "arch.ml" 40 823 837
+type(
+  arch -> Var.t
+)
+ident(
+  def sp_of_arch "arch.ml" 44 918 918 --
+)
+"arch.ml" 41 849 853 "arch.ml" 41 849 859
+type(
+  arch
+)
+"arch.ml" 41 849 863 "arch.ml" 41 849 882
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.esp
+)
+"arch.ml" 42 883 887 "arch.ml" 42 883 893
+type(
+  arch
+)
+"arch.ml" 42 883 897 "arch.ml" 42 883 916
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R64.rsp
+)
+"arch.ml" 40 823 840 "arch.ml" 42 883 916
+type(
+  arch -> Var.t
+)
+"arch.ml" 44 918 922 "arch.ml" 44 918 929
+type(
+  Var.defuse
+)
+ident(
+  def x64conv "arch.ml" 47 1142 1142 --
+)
+"arch.ml" 44 918 945 "arch.ml" 44 918 952
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.mem
+)
+"arch.ml" 44 918 954 "arch.ml" 44 918 961
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rsp
+)
+"arch.ml" 44 918 963 "arch.ml" 44 918 970
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rdi
+)
+"arch.ml" 44 918 972 "arch.ml" 44 918 979
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rsi
+)
+"arch.ml" 44 918 981 "arch.ml" 44 918 988
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rdx
+)
+"arch.ml" 44 918 990 "arch.ml" 44 918 997
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rcx
+)
+"arch.ml" 44 918 999 "arch.ml" 44 918 1005
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.r8
+)
+"arch.ml" 44 918 1007 "arch.ml" 44 918 1013
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.r9
+)
+"arch.ml" 44 918 1015 "arch.ml" 44 918 1022
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.r10
+)
+"arch.ml" 44 918 944 "arch.ml" 44 918 1023
+type(
+  Var.t list
+)
+"arch.ml" 45 1025 1052 "arch.ml" 45 1025 1059
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.mem
+)
+"arch.ml" 45 1025 1061 "arch.ml" 45 1025 1068
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rax
+)
+"arch.ml" 45 1025 1070 "arch.ml" 45 1025 1077
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rcx
+)
+"arch.ml" 45 1025 1079 "arch.ml" 45 1025 1086
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rdx
+)
+"arch.ml" 45 1025 1088 "arch.ml" 45 1025 1095
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rdi
+)
+"arch.ml" 45 1025 1097 "arch.ml" 45 1025 1104
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rsi
+)
+"arch.ml" 45 1025 1106 "arch.ml" 45 1025 1112
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.r8
+)
+"arch.ml" 45 1025 1114 "arch.ml" 45 1025 1120
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.r9
+)
+"arch.ml" 45 1025 1122 "arch.ml" 45 1025 1129
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.r10
+)
+"arch.ml" 45 1025 1131 "arch.ml" 45 1025 1138
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.r11
+)
+"arch.ml" 45 1025 1051 "arch.ml" 45 1025 1139
+type(
+  Var.t list
+)
+"arch.ml" 44 918 932 "arch.ml" 45 1025 1140
+type(
+  Var.defuse
+)
+"arch.ml" 47 1142 1146 "arch.ml" 47 1142 1153
+type(
+  Var.defuse
+)
+ident(
+  def x86conv "arch.ml" 52 1338 1338 --
+)
+"arch.ml" 47 1142 1169 "arch.ml" 47 1142 1176
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.mem
+)
+"arch.ml" 47 1142 1178 "arch.ml" 47 1142 1185
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.esp
+)
+"arch.ml" 47 1142 1168 "arch.ml" 47 1142 1186
+type(
+  Var.t list
+)
+"arch.ml" 48 1188 1215 "arch.ml" 48 1188 1222
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.mem
+)
+"arch.ml" 48 1188 1224 "arch.ml" 48 1188 1231
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.eax
+)
+"arch.ml" 48 1188 1233 "arch.ml" 48 1188 1240
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.ecx
+)
+"arch.ml" 48 1188 1242 "arch.ml" 48 1188 1249
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.edx
+)
+"arch.ml" 48 1188 1214 "arch.ml" 48 1188 1250
+type(
+  Var.t list
+)
+"arch.ml" 47 1142 1156 "arch.ml" 48 1188 1251
+type(
+  Var.defuse
+)
+"arch.ml" 52 1338 1342 "arch.ml" 52 1338 1354
+type(
+  arch -> Var.defuse
+)
+ident(
+  def conv_of_arch "arch.ml" 54 1400 1421 --
+)
+"arch.ml" 52 1338 1355 "arch.ml" 52 1338 1359
+type(
+  arch
+)
+ident(
+  def arch "arch.ml" 52 1338 1362 "arch.ml" 54 1400 1421
+)
+"arch.ml" 52 1338 1368 "arch.ml" 52 1338 1372
+type(
+  arch
+)
+ident(
+  int_ref arch "arch.ml" 52 1338 1355 "arch.ml" 52 1338 1359
+)
+"arch.ml" 53 1378 1382 "arch.ml" 53 1378 1388
+type(
+  arch
+)
+"arch.ml" 53 1378 1392 "arch.ml" 53 1378 1399
+type(
+  Var.defuse
+)
+ident(
+  int_ref x86conv "arch.ml" 47 1142 1146 "arch.ml" 47 1142 1153
+)
+"arch.ml" 54 1400 1404 "arch.ml" 54 1400 1410
+type(
+  arch
+)
+"arch.ml" 54 1400 1414 "arch.ml" 54 1400 1421
+type(
+  Var.defuse
+)
+ident(
+  int_ref x64conv "arch.ml" 44 918 922 "arch.ml" 44 918 929
+)
+"arch.ml" 52 1338 1362 "arch.ml" 54 1400 1421
+type(
+  Var.defuse
+)

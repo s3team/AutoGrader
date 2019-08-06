@@ -1,0 +1,6017 @@
+"ast.ml" 56 1879 1883 "ast.ml" 56 1879 1893
+type(
+  Type.label -> exp
+)
+ident(
+  def exp_of_lab "ast.ml" 67 2238 2238 --
+)
+"ast.ml" 57 1897 1903 "ast.ml" 57 1897 1905
+type(
+  Str.regexp
+)
+"ast.ml" 57 1897 1908 "ast.ml" 57 1897 1918
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"ast.ml" 57 1897 1919 "ast.ml" 57 1897 1934
+type(
+  string
+)
+"ast.ml" 57 1897 1908 "ast.ml" 57 1897 1934
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"ast.ml" 60 1986 1997 "ast.ml" 60 1986 1998
+type(
+  string
+)
+ident(
+  def s "ast.ml" 60 1986 1999 "ast.ml" 61 2031 2096
+)
+"ast.ml" 60 1986 1992 "ast.ml" 60 1986 1998
+type(
+  Type.label
+)
+"ast.ml" 60 1986 2004 "ast.ml" 60 1986 2020
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"ast.ml" 60 1986 2021 "ast.ml" 60 1986 2023
+type(
+  Str.regexp
+)
+ident(
+  int_ref re "ast.ml" 57 1897 1903 "ast.ml" 57 1897 1905
+)
+"ast.ml" 60 1986 2024 "ast.ml" 60 1986 2025
+type(
+  string
+)
+ident(
+  int_ref s "ast.ml" 60 1986 1997 "ast.ml" 60 1986 1998
+)
+"ast.ml" 60 1986 2026 "ast.ml" 60 1986 2027
+type(
+  int
+)
+"ast.ml" 60 1986 2004 "ast.ml" 60 1986 2027
+call(
+  stack
+)
+type(
+  bool
+)
+"ast.ml" 61 2031 2041 "ast.ml" 61 2031 2063
+type(
+  string -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Util.big_int_of_string
+)
+"ast.ml" 61 2031 2065 "ast.ml" 61 2031 2082
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"ast.ml" 61 2031 2083 "ast.ml" 61 2031 2084
+type(
+  int
+)
+"ast.ml" 61 2031 2085 "ast.ml" 61 2031 2086
+type(
+  string
+)
+ident(
+  int_ref s "ast.ml" 60 1986 1997 "ast.ml" 60 1986 1998
+)
+"ast.ml" 61 2031 2064 "ast.ml" 61 2031 2087
+call(
+  stack
+)
+type(
+  string
+)
+"ast.ml" 61 2031 2041 "ast.ml" 61 2031 2087
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"ast.ml" 61 2031 2093 "ast.ml" 61 2031 2095
+type(
+  int
+)
+"ast.ml" 61 2031 2089 "ast.ml" 61 2031 2095
+type(
+  Type.typ
+)
+"ast.ml" 61 2031 2040 "ast.ml" 61 2031 2096
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast.ml" 61 2031 2037 "ast.ml" 61 2031 2096
+type(
+  exp
+)
+"ast.ml" 60 1986 1999 "ast.ml" 61 2031 2096
+type(
+  exp
+)
+"ast.ml" 62 2097 2108 "ast.ml" 62 2097 2109
+type(
+  string
+)
+ident(
+  def s "ast.ml" 62 2097 2113 "ast.ml" 62 2097 2118
+)
+"ast.ml" 62 2097 2103 "ast.ml" 62 2097 2109
+type(
+  Type.label
+)
+"ast.ml" 62 2097 2117 "ast.ml" 62 2097 2118
+type(
+  string
+)
+ident(
+  int_ref s "ast.ml" 62 2097 2108 "ast.ml" 62 2097 2109
+)
+"ast.ml" 62 2097 2113 "ast.ml" 62 2097 2118
+type(
+  exp
+)
+"ast.ml" 63 2119 2130 "ast.ml" 63 2119 2131
+type(
+  Type.addr
+)
+ident(
+  def a "ast.ml" 63 2119 2135 "ast.ml" 63 2119 2149
+)
+"ast.ml" 63 2119 2125 "ast.ml" 63 2119 2131
+type(
+  Type.label
+)
+"ast.ml" 63 2119 2139 "ast.ml" 63 2119 2140
+type(
+  Type.addr
+)
+ident(
+  int_ref a "ast.ml" 63 2119 2130 "ast.ml" 63 2119 2131
+)
+"ast.ml" 63 2119 2146 "ast.ml" 63 2119 2148
+type(
+  int
+)
+"ast.ml" 63 2119 2142 "ast.ml" 63 2119 2148
+type(
+  Type.typ
+)
+"ast.ml" 63 2119 2138 "ast.ml" 63 2119 2149
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast.ml" 63 2119 2135 "ast.ml" 63 2119 2149
+type(
+  exp
+)
+"ast.ml" 58 1938 1940 "ast.ml" 63 2119 2149
+type(
+  Type.label -> exp
+)
+"ast.ml" 57 1897 1899 "ast.ml" 63 2119 2149
+type(
+  Type.label -> exp
+)
+"ast.ml" 67 2238 2242 "ast.ml" 67 2238 2252
+type(
+  exp -> Type.label option
+)
+ident(
+  def lab_of_exp "ast.ml" 79 2648 2648 --
+)
+"ast.ml" 68 2255 2261 "ast.ml" 68 2255 2263
+type(
+  Str.regexp
+)
+"ast.ml" 68 2255 2266 "ast.ml" 68 2255 2276
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"ast.ml" 68 2255 2277 "ast.ml" 68 2255 2292
+type(
+  string
+)
+"ast.ml" 68 2255 2266 "ast.ml" 68 2255 2292
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"ast.ml" 71 2344 2354 "ast.ml" 71 2344 2355
+type(
+  string
+)
+ident(
+  def s "ast.ml" 71 2344 2356 "ast.ml" 72 2388 2452
+)
+"ast.ml" 71 2344 2350 "ast.ml" 71 2344 2355
+type(
+  exp
+)
+"ast.ml" 71 2344 2361 "ast.ml" 71 2344 2377
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"ast.ml" 71 2344 2378 "ast.ml" 71 2344 2380
+type(
+  Str.regexp
+)
+ident(
+  int_ref re "ast.ml" 68 2255 2261 "ast.ml" 68 2255 2263
+)
+"ast.ml" 71 2344 2381 "ast.ml" 71 2344 2382
+type(
+  string
+)
+ident(
+  int_ref s "ast.ml" 71 2344 2354 "ast.ml" 71 2344 2355
+)
+"ast.ml" 71 2344 2383 "ast.ml" 71 2344 2384
+type(
+  int
+)
+"ast.ml" 71 2344 2361 "ast.ml" 71 2344 2384
+call(
+  stack
+)
+type(
+  bool
+)
+"ast.ml" 72 2388 2404 "ast.ml" 72 2388 2426
+type(
+  string -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Util.big_int_of_string
+)
+"ast.ml" 72 2388 2428 "ast.ml" 72 2388 2445
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"ast.ml" 72 2388 2446 "ast.ml" 72 2388 2447
+type(
+  int
+)
+"ast.ml" 72 2388 2448 "ast.ml" 72 2388 2449
+type(
+  string
+)
+ident(
+  int_ref s "ast.ml" 71 2344 2354 "ast.ml" 71 2344 2355
+)
+"ast.ml" 72 2388 2427 "ast.ml" 72 2388 2450
+call(
+  stack
+)
+type(
+  string
+)
+"ast.ml" 72 2388 2403 "ast.ml" 72 2388 2451
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"ast.ml" 72 2388 2398 "ast.ml" 72 2388 2452
+type(
+  Type.label
+)
+"ast.ml" 72 2388 2394 "ast.ml" 72 2388 2452
+type(
+  Type.label option
+)
+"ast.ml" 71 2344 2356 "ast.ml" 72 2388 2452
+type(
+  Type.label option
+)
+"ast.ml" 73 2453 2463 "ast.ml" 73 2453 2464
+type(
+  string
+)
+ident(
+  def s "ast.ml" 73 2453 2468 "ast.ml" 73 2453 2480
+)
+"ast.ml" 73 2453 2459 "ast.ml" 73 2453 2464
+type(
+  exp
+)
+"ast.ml" 73 2453 2478 "ast.ml" 73 2453 2479
+type(
+  string
+)
+ident(
+  int_ref s "ast.ml" 73 2453 2463 "ast.ml" 73 2453 2464
+)
+"ast.ml" 73 2453 2472 "ast.ml" 73 2453 2480
+type(
+  Type.label
+)
+"ast.ml" 73 2453 2468 "ast.ml" 73 2453 2480
+type(
+  Type.label option
+)
+"ast.ml" 74 2481 2491 "ast.ml" 74 2481 2492
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ast.ml" 75 2500 2506 "ast.ml" 75 2500 2545
+)
+"ast.ml" 74 2481 2494 "ast.ml" 74 2481 2495
+type(
+  Type.typ
+)
+ident(
+  def t "ast.ml" 75 2500 2506 "ast.ml" 75 2500 2545
+)
+"ast.ml" 74 2481 2490 "ast.ml" 74 2481 2496
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast.ml" 74 2481 2487 "ast.ml" 74 2481 2496
+type(
+  exp
+)
+"ast.ml" 75 2500 2516 "ast.ml" 75 2500 2537
+type(
+  Big_int_Z.big_int * Type.typ -> Type.addr
+)
+ident(
+  ext_ref Arithmetic.to_big_int
+)
+"ast.ml" 75 2500 2539 "ast.ml" 75 2500 2540
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ast.ml" 74 2481 2491 "ast.ml" 74 2481 2492
+)
+"ast.ml" 75 2500 2541 "ast.ml" 75 2500 2542
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ast.ml" 74 2481 2494 "ast.ml" 74 2481 2495
+)
+"ast.ml" 75 2500 2538 "ast.ml" 75 2500 2543
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast.ml" 75 2500 2515 "ast.ml" 75 2500 2544
+call(
+  stack
+)
+type(
+  Type.addr
+)
+"ast.ml" 75 2500 2510 "ast.ml" 75 2500 2545
+type(
+  Type.label
+)
+"ast.ml" 75 2500 2506 "ast.ml" 75 2500 2545
+type(
+  Type.label option
+)
+"ast.ml" 76 2546 2552 "ast.ml" 76 2546 2553
+type(
+  exp
+)
+"ast.ml" 76 2546 2557 "ast.ml" 76 2546 2561
+type(
+  Type.label option
+)
+"ast.ml" 69 2296 2298 "ast.ml" 76 2546 2561
+type(
+  exp -> Type.label option
+)
+"ast.ml" 68 2255 2257 "ast.ml" 76 2546 2561
+type(
+  exp -> Type.label option
+)
+"ast.ml" 79 2648 2652 "ast.ml" 79 2648 2661
+type(
+  exp
+)
+ident(
+  def exp_false "ast.ml" 81 2702 2702 --
+)
+"ast.ml" 79 2648 2668 "ast.ml" 79 2648 2671
+type(
+  Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"ast.ml" 79 2648 2673 "ast.ml" 79 2648 2678
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_1
+)
+"ast.ml" 79 2648 2667 "ast.ml" 79 2648 2679
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast.ml" 79 2648 2664 "ast.ml" 79 2648 2679
+type(
+  exp
+)
+"ast.ml" 81 2702 2706 "ast.ml" 81 2702 2714
+type(
+  exp
+)
+ident(
+  def exp_true "ast.ml" 83 2734 2734 --
+)
+"ast.ml" 81 2702 2721 "ast.ml" 81 2702 2724
+type(
+  Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"ast.ml" 81 2702 2726 "ast.ml" 81 2702 2731
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_1
+)
+"ast.ml" 81 2702 2720 "ast.ml" 81 2702 2732
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast.ml" 81 2702 2717 "ast.ml" 81 2702 2732
+type(
+  exp
+)
+"ast.ml" 83 2734 2738 "ast.ml" 83 2734 2751
+type(
+  exp
+)
+ident(
+  def little_endian "ast.ml" 84 2764 2764 --
+)
+"ast.ml" 83 2734 2754 "ast.ml" 83 2734 2763
+type(
+  exp
+)
+ident(
+  int_ref exp_false "ast.ml" 79 2648 2652 "ast.ml" 79 2648 2661
+)
+"ast.ml" 84 2764 2768 "ast.ml" 84 2764 2778
+type(
+  exp
+)
+ident(
+  def big_endian "ast.ml" 86 2791 2791 --
+)
+"ast.ml" 84 2764 2781 "ast.ml" 84 2764 2789
+type(
+  exp
+)
+ident(
+  int_ref exp_true "ast.ml" 81 2702 2706 "ast.ml" 81 2702 2714
+)
+"ast.ml" 86 2791 2795 "ast.ml" 86 2791 2801
+type(
+  ?pref:string -> unit -> Type.label
+)
+ident(
+  def newlab "ast.ml" 93 2926 2926 --
+)
+"ast.ml" 87 2804 2810 "ast.ml" 87 2804 2811
+type(
+  int ref
+)
+"ast.ml" 87 2804 2814 "ast.ml" 87 2804 2817
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ast.ml" 87 2804 2818 "ast.ml" 87 2804 2819
+type(
+  int
+)
+"ast.ml" 87 2804 2814 "ast.ml" 87 2804 2819
+type(
+  int ref
+)
+"ast.ml" 88 2823 2832 "ast.ml" 88 2823 2836
+type(
+  string
+)
+"ast.ml" 88 2823 2837 "ast.ml" 88 2823 2848
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "ast.ml" 88 2823 2837 "ast.ml" 88 2823 2848
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "ast.ml" 88 2823 2837 "ast.ml" 88 2823 2848
+)
+"ast.ml" 88 2823 2850 "ast.ml" 88 2823 2852
+type(
+  unit
+)
+"ast.ml" 89 2856 2865 "ast.ml" 89 2856 2866
+type(
+  int
+)
+"ast.ml" 89 2856 2869 "ast.ml" 89 2856 2870
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ast.ml" 89 2856 2870 "ast.ml" 89 2856 2871
+type(
+  int ref
+)
+ident(
+  int_ref c "ast.ml" 87 2804 2810 "ast.ml" 87 2804 2811
+)
+"ast.ml" 89 2856 2869 "ast.ml" 89 2856 2871
+type(
+  int
+)
+"ast.ml" 90 2875 2880 "ast.ml" 90 2875 2881
+type(
+  int ref
+)
+ident(
+  int_ref c "ast.ml" 87 2804 2810 "ast.ml" 87 2804 2811
+)
+"ast.ml" 90 2875 2882 "ast.ml" 90 2875 2884
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ast.ml" 90 2875 2885 "ast.ml" 90 2875 2886
+type(
+  int
+)
+ident(
+  int_ref i "ast.ml" 89 2856 2865 "ast.ml" 89 2856 2866
+)
+"ast.ml" 90 2875 2887 "ast.ml" 90 2875 2888
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ast.ml" 90 2875 2889 "ast.ml" 90 2875 2890
+type(
+  int
+)
+"ast.ml" 90 2875 2885 "ast.ml" 90 2875 2890
+type(
+  int
+)
+"ast.ml" 90 2875 2880 "ast.ml" 90 2875 2890
+type(
+  unit
+)
+"ast.ml" 91 2892 2902 "ast.ml" 91 2892 2906
+type(
+  string
+)
+ident(
+  int_ref pref "ast.ml" 88 2823 2832 "ast.ml" 88 2823 2836
+)
+"ast.ml" 91 2892 2906 "ast.ml" 91 2892 2907
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ast.ml" 91 2892 2907 "ast.ml" 91 2892 2920
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ast.ml" 91 2892 2921 "ast.ml" 91 2892 2922
+type(
+  int
+)
+ident(
+  int_ref i "ast.ml" 89 2856 2865 "ast.ml" 89 2856 2866
+)
+"ast.ml" 91 2892 2907 "ast.ml" 91 2892 2922
+call(
+  stack
+)
+type(
+  string
+)
+"ast.ml" 91 2892 2901 "ast.ml" 91 2892 2923
+call(
+  stack
+)
+type(
+  string
+)
+"ast.ml" 91 2892 2897 "ast.ml" 91 2892 2923
+type(
+  Type.label
+)
+"ast.ml" 90 2875 2880 "ast.ml" 91 2892 2923
+type(
+  Type.label
+)
+"ast.ml" 89 2856 2861 "ast.ml" 91 2892 2923
+type(
+  Type.label
+)
+"ast.ml" 88 2823 2825 "ast.ml" 91 2892 2924
+type(
+  ?pref:string -> unit -> Type.label
+)
+type(
+  unit -> Type.label
+)
+type(
+  string
+)
+type(
+  string option
+)
+ident(
+  int_ref *opt* "ast.ml" 88 2823 2825 "ast.ml" 91 2892 2924
+)
+type(
+  string option
+)
+ident(
+  def *opt* "ast.ml" 88 2823 2825 "ast.ml" 91 2892 2924
+)
+"ast.ml" 87 2804 2806 "ast.ml" 91 2892 2924
+type(
+  ?pref:string -> unit -> Type.label
+)
+"ast.ml" 93 2926 2930 "ast.ml" 93 2926 2937
+type(
+  exp -> int
+)
+ident(
+  def num_exp "ast.ml" 109 3237 3237 --
+)
+"ast.ml" 94 2949 2958 "ast.ml" 94 2949 2959
+type(
+  exp * exp * exp * Type.typ
+)
+"ast.ml" 94 2949 2953 "ast.ml" 94 2949 2959
+type(
+  exp
+)
+"ast.ml" 94 2949 2963 "ast.ml" 94 2949 2964
+type(
+  int
+)
+"ast.ml" 95 2965 2975 "ast.ml" 95 2965 2976
+type(
+  exp * exp * exp * exp * Type.typ
+)
+"ast.ml" 95 2965 2969 "ast.ml" 95 2965 2976
+type(
+  exp
+)
+"ast.ml" 95 2965 2980 "ast.ml" 95 2965 2981
+type(
+  int
+)
+"ast.ml" 96 2982 2990 "ast.ml" 96 2982 2991
+type(
+  exp * exp * exp
+)
+"ast.ml" 96 2982 2986 "ast.ml" 96 2982 2991
+type(
+  exp
+)
+"ast.ml" 96 2982 2995 "ast.ml" 96 2982 2996
+type(
+  int
+)
+"ast.ml" 97 2997 3009 "ast.ml" 97 2997 3010
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int * exp
+)
+"ast.ml" 97 2997 3001 "ast.ml" 97 2997 3010
+type(
+  exp
+)
+"ast.ml" 97 2997 3014 "ast.ml" 97 2997 3015
+type(
+  int
+)
+"ast.ml" 98 3016 3027 "ast.ml" 98 3016 3028
+type(
+  exp * exp
+)
+"ast.ml" 98 3016 3020 "ast.ml" 98 3016 3028
+type(
+  exp
+)
+"ast.ml" 98 3016 3032 "ast.ml" 98 3016 3033
+type(
+  int
+)
+"ast.ml" 99 3034 3044 "ast.ml" 99 3034 3045
+type(
+  Type.binop_type * exp * exp
+)
+"ast.ml" 99 3034 3038 "ast.ml" 99 3034 3045
+type(
+  exp
+)
+"ast.ml" 99 3034 3049 "ast.ml" 99 3034 3050
+type(
+  int
+)
+"ast.ml" 100 3051 3060 "ast.ml" 100 3051 3061
+type(
+  Type.unop_type * exp
+)
+"ast.ml" 100 3051 3055 "ast.ml" 100 3051 3061
+type(
+  exp
+)
+"ast.ml" 100 3051 3065 "ast.ml" 100 3051 3066
+type(
+  int
+)
+"ast.ml" 101 3067 3075 "ast.ml" 101 3067 3076
+type(
+  var
+)
+"ast.ml" 101 3067 3071 "ast.ml" 101 3067 3076
+type(
+  exp
+)
+"ast.ml" 101 3067 3080 "ast.ml" 101 3067 3081
+type(
+  int
+)
+"ast.ml" 102 3082 3090 "ast.ml" 102 3082 3091
+type(
+  string
+)
+"ast.ml" 102 3082 3086 "ast.ml" 102 3082 3091
+type(
+  exp
+)
+"ast.ml" 102 3082 3095 "ast.ml" 102 3082 3096
+type(
+  int
+)
+"ast.ml" 103 3097 3105 "ast.ml" 103 3097 3106
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast.ml" 103 3097 3101 "ast.ml" 103 3097 3106
+type(
+  exp
+)
+"ast.ml" 103 3097 3110 "ast.ml" 103 3097 3111
+type(
+  int
+)
+"ast.ml" 104 3112 3121 "ast.ml" 104 3112 3122
+type(
+  Type.cast_type * Type.typ * exp
+)
+"ast.ml" 104 3112 3116 "ast.ml" 104 3112 3122
+type(
+  exp
+)
+"ast.ml" 104 3112 3126 "ast.ml" 104 3112 3128
+type(
+  int
+)
+"ast.ml" 105 3129 3137 "ast.ml" 105 3129 3138
+type(
+  var * exp * exp
+)
+"ast.ml" 105 3129 3133 "ast.ml" 105 3129 3138
+type(
+  exp
+)
+"ast.ml" 105 3129 3142 "ast.ml" 105 3129 3144
+type(
+  int
+)
+"ast.ml" 106 3145 3157 "ast.ml" 106 3145 3158
+type(
+  string * Type.typ
+)
+"ast.ml" 106 3145 3149 "ast.ml" 106 3145 3158
+type(
+  exp
+)
+"ast.ml" 106 3145 3162 "ast.ml" 106 3145 3164
+type(
+  int
+)
+"ast.ml" 93 2926 2940 "ast.ml" 106 3145 3164
+type(
+  exp -> int
+)
+"ast.ml" 109 3237 3241 "ast.ml" 109 3237 3248
+type(
+  exp ->
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+ident(
+  def getargs "ast.ml" 124 4014 4014 --
+)
+"ast.ml" 110 3260 3269 "ast.ml" 110 3260 3271
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 110 3260 3285 "ast.ml" 110 3260 3325
+)
+"ast.ml" 110 3260 3272 "ast.ml" 110 3260 3274
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 110 3260 3285 "ast.ml" 110 3260 3325
+)
+"ast.ml" 110 3260 3275 "ast.ml" 110 3260 3277
+type(
+  exp
+)
+ident(
+  def e3 "ast.ml" 110 3260 3285 "ast.ml" 110 3260 3325
+)
+"ast.ml" 110 3260 3278 "ast.ml" 110 3260 3280
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast.ml" 110 3260 3285 "ast.ml" 110 3260 3325
+)
+"ast.ml" 110 3260 3268 "ast.ml" 110 3260 3281
+type(
+  exp * exp * exp * Type.typ
+)
+"ast.ml" 110 3260 3264 "ast.ml" 110 3260 3281
+type(
+  exp
+)
+"ast.ml" 110 3260 3286 "ast.ml" 110 3260 3288
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 110 3260 3269 "ast.ml" 110 3260 3271
+)
+"ast.ml" 110 3260 3289 "ast.ml" 110 3260 3291
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 110 3260 3272 "ast.ml" 110 3260 3274
+)
+"ast.ml" 110 3260 3292 "ast.ml" 110 3260 3294
+type(
+  exp
+)
+ident(
+  int_ref e3 "ast.ml" 110 3260 3275 "ast.ml" 110 3260 3277
+)
+"ast.ml" 110 3260 3285 "ast.ml" 110 3260 3295
+type(
+  exp list
+)
+"ast.ml" 110 3260 3298 "ast.ml" 110 3260 3300
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast.ml" 110 3260 3278 "ast.ml" 110 3260 3280
+)
+"ast.ml" 110 3260 3297 "ast.ml" 110 3260 3301
+type(
+  Type.typ list
+)
+"ast.ml" 110 3260 3303 "ast.ml" 110 3260 3305
+type(
+  Type.binop_type list
+)
+"ast.ml" 110 3260 3307 "ast.ml" 110 3260 3309
+type(
+  Type.unop_type list
+)
+"ast.ml" 110 3260 3311 "ast.ml" 110 3260 3313
+type(
+  var list
+)
+"ast.ml" 110 3260 3315 "ast.ml" 110 3260 3317
+type(
+  string list
+)
+"ast.ml" 110 3260 3319 "ast.ml" 110 3260 3321
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 110 3260 3323 "ast.ml" 110 3260 3325
+type(
+  Type.cast_type list
+)
+"ast.ml" 110 3260 3285 "ast.ml" 110 3260 3325
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 111 3326 3336 "ast.ml" 111 3326 3338
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 111 3326 3355 "ast.ml" 111 3326 3398
+)
+"ast.ml" 111 3326 3339 "ast.ml" 111 3326 3341
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 111 3326 3355 "ast.ml" 111 3326 3398
+)
+"ast.ml" 111 3326 3342 "ast.ml" 111 3326 3344
+type(
+  exp
+)
+ident(
+  def e3 "ast.ml" 111 3326 3355 "ast.ml" 111 3326 3398
+)
+"ast.ml" 111 3326 3345 "ast.ml" 111 3326 3347
+type(
+  exp
+)
+ident(
+  def e4 "ast.ml" 111 3326 3355 "ast.ml" 111 3326 3398
+)
+"ast.ml" 111 3326 3348 "ast.ml" 111 3326 3350
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast.ml" 111 3326 3355 "ast.ml" 111 3326 3398
+)
+"ast.ml" 111 3326 3335 "ast.ml" 111 3326 3351
+type(
+  exp * exp * exp * exp * Type.typ
+)
+"ast.ml" 111 3326 3330 "ast.ml" 111 3326 3351
+type(
+  exp
+)
+"ast.ml" 111 3326 3356 "ast.ml" 111 3326 3358
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 111 3326 3336 "ast.ml" 111 3326 3338
+)
+"ast.ml" 111 3326 3359 "ast.ml" 111 3326 3361
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 111 3326 3339 "ast.ml" 111 3326 3341
+)
+"ast.ml" 111 3326 3362 "ast.ml" 111 3326 3364
+type(
+  exp
+)
+ident(
+  int_ref e3 "ast.ml" 111 3326 3342 "ast.ml" 111 3326 3344
+)
+"ast.ml" 111 3326 3365 "ast.ml" 111 3326 3367
+type(
+  exp
+)
+ident(
+  int_ref e4 "ast.ml" 111 3326 3345 "ast.ml" 111 3326 3347
+)
+"ast.ml" 111 3326 3355 "ast.ml" 111 3326 3368
+type(
+  exp list
+)
+"ast.ml" 111 3326 3371 "ast.ml" 111 3326 3373
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast.ml" 111 3326 3348 "ast.ml" 111 3326 3350
+)
+"ast.ml" 111 3326 3370 "ast.ml" 111 3326 3374
+type(
+  Type.typ list
+)
+"ast.ml" 111 3326 3376 "ast.ml" 111 3326 3378
+type(
+  Type.binop_type list
+)
+"ast.ml" 111 3326 3380 "ast.ml" 111 3326 3382
+type(
+  Type.unop_type list
+)
+"ast.ml" 111 3326 3384 "ast.ml" 111 3326 3386
+type(
+  var list
+)
+"ast.ml" 111 3326 3388 "ast.ml" 111 3326 3390
+type(
+  string list
+)
+"ast.ml" 111 3326 3392 "ast.ml" 111 3326 3394
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 111 3326 3396 "ast.ml" 111 3326 3398
+type(
+  Type.cast_type list
+)
+"ast.ml" 111 3326 3355 "ast.ml" 111 3326 3398
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 112 3399 3407 "ast.ml" 112 3399 3409
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 112 3399 3420 "ast.ml" 112 3399 3458
+)
+"ast.ml" 112 3399 3410 "ast.ml" 112 3399 3412
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 112 3399 3420 "ast.ml" 112 3399 3458
+)
+"ast.ml" 112 3399 3413 "ast.ml" 112 3399 3415
+type(
+  exp
+)
+ident(
+  def e3 "ast.ml" 112 3399 3420 "ast.ml" 112 3399 3458
+)
+"ast.ml" 112 3399 3406 "ast.ml" 112 3399 3416
+type(
+  exp * exp * exp
+)
+"ast.ml" 112 3399 3403 "ast.ml" 112 3399 3416
+type(
+  exp
+)
+"ast.ml" 112 3399 3421 "ast.ml" 112 3399 3423
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 112 3399 3407 "ast.ml" 112 3399 3409
+)
+"ast.ml" 112 3399 3424 "ast.ml" 112 3399 3426
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 112 3399 3410 "ast.ml" 112 3399 3412
+)
+"ast.ml" 112 3399 3427 "ast.ml" 112 3399 3429
+type(
+  exp
+)
+ident(
+  int_ref e3 "ast.ml" 112 3399 3413 "ast.ml" 112 3399 3415
+)
+"ast.ml" 112 3399 3420 "ast.ml" 112 3399 3430
+type(
+  exp list
+)
+"ast.ml" 112 3399 3432 "ast.ml" 112 3399 3434
+type(
+  Type.typ list
+)
+"ast.ml" 112 3399 3436 "ast.ml" 112 3399 3438
+type(
+  Type.binop_type list
+)
+"ast.ml" 112 3399 3440 "ast.ml" 112 3399 3442
+type(
+  Type.unop_type list
+)
+"ast.ml" 112 3399 3444 "ast.ml" 112 3399 3446
+type(
+  var list
+)
+"ast.ml" 112 3399 3448 "ast.ml" 112 3399 3450
+type(
+  string list
+)
+"ast.ml" 112 3399 3452 "ast.ml" 112 3399 3454
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 112 3399 3456 "ast.ml" 112 3399 3458
+type(
+  Type.cast_type list
+)
+"ast.ml" 112 3399 3420 "ast.ml" 112 3399 3458
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 113 3459 3471 "ast.ml" 113 3459 3472
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def h "ast.ml" 113 3459 3481 "ast.ml" 113 3459 3515
+)
+"ast.ml" 113 3459 3473 "ast.ml" 113 3459 3474
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def l "ast.ml" 113 3459 3481 "ast.ml" 113 3459 3515
+)
+"ast.ml" 113 3459 3475 "ast.ml" 113 3459 3476
+type(
+  exp
+)
+ident(
+  def e "ast.ml" 113 3459 3481 "ast.ml" 113 3459 3515
+)
+"ast.ml" 113 3459 3470 "ast.ml" 113 3459 3477
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int * exp
+)
+"ast.ml" 113 3459 3463 "ast.ml" 113 3459 3477
+type(
+  exp
+)
+"ast.ml" 113 3459 3482 "ast.ml" 113 3459 3483
+type(
+  exp
+)
+ident(
+  int_ref e "ast.ml" 113 3459 3475 "ast.ml" 113 3459 3476
+)
+"ast.ml" 113 3459 3481 "ast.ml" 113 3459 3484
+type(
+  exp list
+)
+"ast.ml" 113 3459 3486 "ast.ml" 113 3459 3488
+type(
+  Type.typ list
+)
+"ast.ml" 113 3459 3490 "ast.ml" 113 3459 3492
+type(
+  Type.binop_type list
+)
+"ast.ml" 113 3459 3494 "ast.ml" 113 3459 3496
+type(
+  Type.unop_type list
+)
+"ast.ml" 113 3459 3498 "ast.ml" 113 3459 3500
+type(
+  var list
+)
+"ast.ml" 113 3459 3502 "ast.ml" 113 3459 3504
+type(
+  string list
+)
+"ast.ml" 113 3459 3507 "ast.ml" 113 3459 3508
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "ast.ml" 113 3459 3471 "ast.ml" 113 3459 3472
+)
+"ast.ml" 113 3459 3509 "ast.ml" 113 3459 3510
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "ast.ml" 113 3459 3473 "ast.ml" 113 3459 3474
+)
+"ast.ml" 113 3459 3506 "ast.ml" 113 3459 3511
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 113 3459 3513 "ast.ml" 113 3459 3515
+type(
+  Type.cast_type list
+)
+"ast.ml" 113 3459 3481 "ast.ml" 113 3459 3515
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 114 3516 3527 "ast.ml" 114 3516 3529
+type(
+  exp
+)
+ident(
+  def le "ast.ml" 114 3516 3538 "ast.ml" 114 3516 3573
+)
+"ast.ml" 114 3516 3531 "ast.ml" 114 3516 3533
+type(
+  exp
+)
+ident(
+  def re "ast.ml" 114 3516 3538 "ast.ml" 114 3516 3573
+)
+"ast.ml" 114 3516 3526 "ast.ml" 114 3516 3534
+type(
+  exp * exp
+)
+"ast.ml" 114 3516 3520 "ast.ml" 114 3516 3534
+type(
+  exp
+)
+"ast.ml" 114 3516 3539 "ast.ml" 114 3516 3541
+type(
+  exp
+)
+ident(
+  int_ref le "ast.ml" 114 3516 3527 "ast.ml" 114 3516 3529
+)
+"ast.ml" 114 3516 3542 "ast.ml" 114 3516 3544
+type(
+  exp
+)
+ident(
+  int_ref re "ast.ml" 114 3516 3531 "ast.ml" 114 3516 3533
+)
+"ast.ml" 114 3516 3538 "ast.ml" 114 3516 3545
+type(
+  exp list
+)
+"ast.ml" 114 3516 3547 "ast.ml" 114 3516 3549
+type(
+  Type.typ list
+)
+"ast.ml" 114 3516 3551 "ast.ml" 114 3516 3553
+type(
+  Type.binop_type list
+)
+"ast.ml" 114 3516 3555 "ast.ml" 114 3516 3557
+type(
+  Type.unop_type list
+)
+"ast.ml" 114 3516 3559 "ast.ml" 114 3516 3561
+type(
+  var list
+)
+"ast.ml" 114 3516 3563 "ast.ml" 114 3516 3565
+type(
+  string list
+)
+"ast.ml" 114 3516 3567 "ast.ml" 114 3516 3569
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 114 3516 3571 "ast.ml" 114 3516 3573
+type(
+  Type.cast_type list
+)
+"ast.ml" 114 3516 3538 "ast.ml" 114 3516 3573
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 115 3574 3584 "ast.ml" 115 3574 3586
+type(
+  Type.binop_type
+)
+ident(
+  def bt "ast.ml" 115 3574 3597 "ast.ml" 115 3574 3634
+)
+"ast.ml" 115 3574 3587 "ast.ml" 115 3574 3589
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 115 3574 3597 "ast.ml" 115 3574 3634
+)
+"ast.ml" 115 3574 3590 "ast.ml" 115 3574 3592
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 115 3574 3597 "ast.ml" 115 3574 3634
+)
+"ast.ml" 115 3574 3583 "ast.ml" 115 3574 3593
+type(
+  Type.binop_type * exp * exp
+)
+"ast.ml" 115 3574 3578 "ast.ml" 115 3574 3593
+type(
+  exp
+)
+"ast.ml" 115 3574 3598 "ast.ml" 115 3574 3600
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 115 3574 3587 "ast.ml" 115 3574 3589
+)
+"ast.ml" 115 3574 3601 "ast.ml" 115 3574 3603
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 115 3574 3590 "ast.ml" 115 3574 3592
+)
+"ast.ml" 115 3574 3597 "ast.ml" 115 3574 3604
+type(
+  exp list
+)
+"ast.ml" 115 3574 3606 "ast.ml" 115 3574 3608
+type(
+  Type.typ list
+)
+"ast.ml" 115 3574 3611 "ast.ml" 115 3574 3613
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bt "ast.ml" 115 3574 3584 "ast.ml" 115 3574 3586
+)
+"ast.ml" 115 3574 3610 "ast.ml" 115 3574 3614
+type(
+  Type.binop_type list
+)
+"ast.ml" 115 3574 3616 "ast.ml" 115 3574 3618
+type(
+  Type.unop_type list
+)
+"ast.ml" 115 3574 3620 "ast.ml" 115 3574 3622
+type(
+  var list
+)
+"ast.ml" 115 3574 3624 "ast.ml" 115 3574 3626
+type(
+  string list
+)
+"ast.ml" 115 3574 3628 "ast.ml" 115 3574 3630
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 115 3574 3632 "ast.ml" 115 3574 3634
+type(
+  Type.cast_type list
+)
+"ast.ml" 115 3574 3597 "ast.ml" 115 3574 3634
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 116 3635 3644 "ast.ml" 116 3635 3646
+type(
+  Type.unop_type
+)
+ident(
+  def ut "ast.ml" 116 3635 3654 "ast.ml" 116 3635 3688
+)
+"ast.ml" 116 3635 3647 "ast.ml" 116 3635 3649
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 116 3635 3654 "ast.ml" 116 3635 3688
+)
+"ast.ml" 116 3635 3643 "ast.ml" 116 3635 3650
+type(
+  Type.unop_type * exp
+)
+"ast.ml" 116 3635 3639 "ast.ml" 116 3635 3650
+type(
+  exp
+)
+"ast.ml" 116 3635 3655 "ast.ml" 116 3635 3657
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 116 3635 3647 "ast.ml" 116 3635 3649
+)
+"ast.ml" 116 3635 3654 "ast.ml" 116 3635 3658
+type(
+  exp list
+)
+"ast.ml" 116 3635 3660 "ast.ml" 116 3635 3662
+type(
+  Type.typ list
+)
+"ast.ml" 116 3635 3664 "ast.ml" 116 3635 3666
+type(
+  Type.binop_type list
+)
+"ast.ml" 116 3635 3669 "ast.ml" 116 3635 3671
+type(
+  Type.unop_type
+)
+ident(
+  int_ref ut "ast.ml" 116 3635 3644 "ast.ml" 116 3635 3646
+)
+"ast.ml" 116 3635 3668 "ast.ml" 116 3635 3672
+type(
+  Type.unop_type list
+)
+"ast.ml" 116 3635 3674 "ast.ml" 116 3635 3676
+type(
+  var list
+)
+"ast.ml" 116 3635 3678 "ast.ml" 116 3635 3680
+type(
+  string list
+)
+"ast.ml" 116 3635 3682 "ast.ml" 116 3635 3684
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 116 3635 3686 "ast.ml" 116 3635 3688
+type(
+  Type.cast_type list
+)
+"ast.ml" 116 3635 3654 "ast.ml" 116 3635 3688
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 117 3689 3696 "ast.ml" 117 3689 3700
+type(
+  var
+)
+ident(
+  def v1 "ast.ml" 117 3689 3704 "ast.ml" 117 3689 3736
+)
+"ast.ml" 117 3689 3693 "ast.ml" 117 3689 3700
+type(
+  exp
+)
+"ast.ml" 117 3689 3704 "ast.ml" 117 3689 3706
+type(
+  exp list
+)
+"ast.ml" 117 3689 3708 "ast.ml" 117 3689 3710
+type(
+  Type.typ list
+)
+"ast.ml" 117 3689 3712 "ast.ml" 117 3689 3714
+type(
+  Type.binop_type list
+)
+"ast.ml" 117 3689 3716 "ast.ml" 117 3689 3718
+type(
+  Type.unop_type list
+)
+"ast.ml" 117 3689 3721 "ast.ml" 117 3689 3723
+type(
+  var
+)
+ident(
+  int_ref v1 "ast.ml" 117 3689 3696 "ast.ml" 117 3689 3700
+)
+"ast.ml" 117 3689 3720 "ast.ml" 117 3689 3724
+type(
+  var list
+)
+"ast.ml" 117 3689 3726 "ast.ml" 117 3689 3728
+type(
+  string list
+)
+"ast.ml" 117 3689 3730 "ast.ml" 117 3689 3732
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 117 3689 3734 "ast.ml" 117 3689 3736
+type(
+  Type.cast_type list
+)
+"ast.ml" 117 3689 3704 "ast.ml" 117 3689 3736
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 118 3737 3744 "ast.ml" 118 3737 3748
+type(
+  string
+)
+ident(
+  def s1 "ast.ml" 118 3737 3752 "ast.ml" 118 3737 3784
+)
+"ast.ml" 118 3737 3741 "ast.ml" 118 3737 3748
+type(
+  exp
+)
+"ast.ml" 118 3737 3752 "ast.ml" 118 3737 3754
+type(
+  exp list
+)
+"ast.ml" 118 3737 3756 "ast.ml" 118 3737 3758
+type(
+  Type.typ list
+)
+"ast.ml" 118 3737 3760 "ast.ml" 118 3737 3762
+type(
+  Type.binop_type list
+)
+"ast.ml" 118 3737 3764 "ast.ml" 118 3737 3766
+type(
+  Type.unop_type list
+)
+"ast.ml" 118 3737 3768 "ast.ml" 118 3737 3770
+type(
+  var list
+)
+"ast.ml" 118 3737 3773 "ast.ml" 118 3737 3775
+type(
+  string
+)
+ident(
+  int_ref s1 "ast.ml" 118 3737 3744 "ast.ml" 118 3737 3748
+)
+"ast.ml" 118 3737 3772 "ast.ml" 118 3737 3776
+type(
+  string list
+)
+"ast.ml" 118 3737 3778 "ast.ml" 118 3737 3780
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 118 3737 3782 "ast.ml" 118 3737 3784
+type(
+  Type.cast_type list
+)
+"ast.ml" 118 3737 3752 "ast.ml" 118 3737 3784
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 119 3785 3793 "ast.ml" 119 3785 3795
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i1 "ast.ml" 119 3785 3803 "ast.ml" 119 3785 3837
+)
+"ast.ml" 119 3785 3796 "ast.ml" 119 3785 3798
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast.ml" 119 3785 3803 "ast.ml" 119 3785 3837
+)
+"ast.ml" 119 3785 3792 "ast.ml" 119 3785 3799
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast.ml" 119 3785 3789 "ast.ml" 119 3785 3799
+type(
+  exp
+)
+"ast.ml" 119 3785 3803 "ast.ml" 119 3785 3805
+type(
+  exp list
+)
+"ast.ml" 119 3785 3808 "ast.ml" 119 3785 3810
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast.ml" 119 3785 3796 "ast.ml" 119 3785 3798
+)
+"ast.ml" 119 3785 3807 "ast.ml" 119 3785 3811
+type(
+  Type.typ list
+)
+"ast.ml" 119 3785 3813 "ast.ml" 119 3785 3815
+type(
+  Type.binop_type list
+)
+"ast.ml" 119 3785 3817 "ast.ml" 119 3785 3819
+type(
+  Type.unop_type list
+)
+"ast.ml" 119 3785 3821 "ast.ml" 119 3785 3823
+type(
+  var list
+)
+"ast.ml" 119 3785 3825 "ast.ml" 119 3785 3827
+type(
+  string list
+)
+"ast.ml" 119 3785 3830 "ast.ml" 119 3785 3832
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i1 "ast.ml" 119 3785 3793 "ast.ml" 119 3785 3795
+)
+"ast.ml" 119 3785 3829 "ast.ml" 119 3785 3833
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 119 3785 3835 "ast.ml" 119 3785 3837
+type(
+  Type.cast_type list
+)
+"ast.ml" 119 3785 3803 "ast.ml" 119 3785 3837
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 120 3838 3847 "ast.ml" 120 3838 3849
+type(
+  Type.cast_type
+)
+ident(
+  def c1 "ast.ml" 120 3838 3860 "ast.ml" 120 3838 3896
+)
+"ast.ml" 120 3838 3850 "ast.ml" 120 3838 3852
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast.ml" 120 3838 3860 "ast.ml" 120 3838 3896
+)
+"ast.ml" 120 3838 3853 "ast.ml" 120 3838 3855
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 120 3838 3860 "ast.ml" 120 3838 3896
+)
+"ast.ml" 120 3838 3846 "ast.ml" 120 3838 3856
+type(
+  Type.cast_type * Type.typ * exp
+)
+"ast.ml" 120 3838 3842 "ast.ml" 120 3838 3856
+type(
+  exp
+)
+"ast.ml" 120 3838 3861 "ast.ml" 120 3838 3863
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 120 3838 3853 "ast.ml" 120 3838 3855
+)
+"ast.ml" 120 3838 3860 "ast.ml" 120 3838 3864
+type(
+  exp list
+)
+"ast.ml" 120 3838 3867 "ast.ml" 120 3838 3869
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast.ml" 120 3838 3850 "ast.ml" 120 3838 3852
+)
+"ast.ml" 120 3838 3866 "ast.ml" 120 3838 3870
+type(
+  Type.typ list
+)
+"ast.ml" 120 3838 3872 "ast.ml" 120 3838 3874
+type(
+  Type.binop_type list
+)
+"ast.ml" 120 3838 3876 "ast.ml" 120 3838 3878
+type(
+  Type.unop_type list
+)
+"ast.ml" 120 3838 3880 "ast.ml" 120 3838 3882
+type(
+  var list
+)
+"ast.ml" 120 3838 3884 "ast.ml" 120 3838 3886
+type(
+  string list
+)
+"ast.ml" 120 3838 3888 "ast.ml" 120 3838 3890
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 120 3838 3893 "ast.ml" 120 3838 3895
+type(
+  Type.cast_type
+)
+ident(
+  int_ref c1 "ast.ml" 120 3838 3847 "ast.ml" 120 3838 3849
+)
+"ast.ml" 120 3838 3892 "ast.ml" 120 3838 3896
+type(
+  Type.cast_type list
+)
+"ast.ml" 120 3838 3860 "ast.ml" 120 3838 3896
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 121 3897 3905 "ast.ml" 121 3897 3907
+type(
+  var
+)
+ident(
+  def v1 "ast.ml" 121 3897 3918 "ast.ml" 121 3897 3955
+)
+"ast.ml" 121 3897 3908 "ast.ml" 121 3897 3910
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 121 3897 3918 "ast.ml" 121 3897 3955
+)
+"ast.ml" 121 3897 3911 "ast.ml" 121 3897 3913
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 121 3897 3918 "ast.ml" 121 3897 3955
+)
+"ast.ml" 121 3897 3904 "ast.ml" 121 3897 3914
+type(
+  var * exp * exp
+)
+"ast.ml" 121 3897 3901 "ast.ml" 121 3897 3914
+type(
+  exp
+)
+"ast.ml" 121 3897 3919 "ast.ml" 121 3897 3921
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 121 3897 3908 "ast.ml" 121 3897 3910
+)
+"ast.ml" 121 3897 3922 "ast.ml" 121 3897 3924
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 121 3897 3911 "ast.ml" 121 3897 3913
+)
+"ast.ml" 121 3897 3918 "ast.ml" 121 3897 3925
+type(
+  exp list
+)
+"ast.ml" 121 3897 3927 "ast.ml" 121 3897 3929
+type(
+  Type.typ list
+)
+"ast.ml" 121 3897 3931 "ast.ml" 121 3897 3933
+type(
+  Type.binop_type list
+)
+"ast.ml" 121 3897 3935 "ast.ml" 121 3897 3937
+type(
+  Type.unop_type list
+)
+"ast.ml" 121 3897 3940 "ast.ml" 121 3897 3942
+type(
+  var
+)
+ident(
+  int_ref v1 "ast.ml" 121 3897 3905 "ast.ml" 121 3897 3907
+)
+"ast.ml" 121 3897 3939 "ast.ml" 121 3897 3943
+type(
+  var list
+)
+"ast.ml" 121 3897 3945 "ast.ml" 121 3897 3947
+type(
+  string list
+)
+"ast.ml" 121 3897 3949 "ast.ml" 121 3897 3951
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 121 3897 3953 "ast.ml" 121 3897 3955
+type(
+  Type.cast_type list
+)
+"ast.ml" 121 3897 3918 "ast.ml" 121 3897 3955
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 122 3956 3968 "ast.ml" 122 3956 3970
+type(
+  string
+)
+ident(
+  def s1 "ast.ml" 122 3956 3978 "ast.ml" 122 3956 4012
+)
+"ast.ml" 122 3956 3971 "ast.ml" 122 3956 3973
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast.ml" 122 3956 3978 "ast.ml" 122 3956 4012
+)
+"ast.ml" 122 3956 3967 "ast.ml" 122 3956 3974
+type(
+  string * Type.typ
+)
+"ast.ml" 122 3956 3960 "ast.ml" 122 3956 3974
+type(
+  exp
+)
+"ast.ml" 122 3956 3978 "ast.ml" 122 3956 3980
+type(
+  exp list
+)
+"ast.ml" 122 3956 3983 "ast.ml" 122 3956 3985
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast.ml" 122 3956 3971 "ast.ml" 122 3956 3973
+)
+"ast.ml" 122 3956 3982 "ast.ml" 122 3956 3986
+type(
+  Type.typ list
+)
+"ast.ml" 122 3956 3988 "ast.ml" 122 3956 3990
+type(
+  Type.binop_type list
+)
+"ast.ml" 122 3956 3992 "ast.ml" 122 3956 3994
+type(
+  Type.unop_type list
+)
+"ast.ml" 122 3956 3996 "ast.ml" 122 3956 3998
+type(
+  var list
+)
+"ast.ml" 122 3956 4001 "ast.ml" 122 3956 4003
+type(
+  string
+)
+ident(
+  int_ref s1 "ast.ml" 122 3956 3968 "ast.ml" 122 3956 3970
+)
+"ast.ml" 122 3956 4000 "ast.ml" 122 3956 4004
+type(
+  string list
+)
+"ast.ml" 122 3956 4006 "ast.ml" 122 3956 4008
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 122 3956 4010 "ast.ml" 122 3956 4012
+type(
+  Type.cast_type list
+)
+"ast.ml" 122 3956 3978 "ast.ml" 122 3956 4012
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 109 3237 3251 "ast.ml" 122 3956 4012
+type(
+  exp ->
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 124 4014 4018 "ast.ml" 124 4014 4025
+type(
+  exp -> exp list
+)
+ident(
+  def subexps "ast.ml" 146 4783 4783 --
+)
+"ast.ml" 124 4014 4026 "ast.ml" 124 4014 4027
+type(
+  exp
+)
+ident(
+  def e "ast.ml" 124 4014 4030 "ast.ml" 125 4072 4089
+)
+"ast.ml" 124 4014 4034 "ast.ml" 124 4014 4035
+type(
+  exp list
+)
+"ast.ml" 124 4014 4037 "ast.ml" 124 4014 4038
+type(
+  Type.typ list
+)
+"ast.ml" 124 4014 4040 "ast.ml" 124 4014 4041
+type(
+  Type.binop_type list
+)
+"ast.ml" 124 4014 4043 "ast.ml" 124 4014 4044
+type(
+  Type.unop_type list
+)
+"ast.ml" 124 4014 4046 "ast.ml" 124 4014 4047
+type(
+  var list
+)
+"ast.ml" 124 4014 4049 "ast.ml" 124 4014 4050
+type(
+  string list
+)
+"ast.ml" 124 4014 4052 "ast.ml" 124 4014 4053
+type(
+  Big_int_Z.big_int list
+)
+"ast.ml" 124 4014 4055 "ast.ml" 124 4014 4056
+type(
+  Type.cast_type list
+)
+"ast.ml" 124 4014 4034 "ast.ml" 124 4014 4056
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 124 4014 4059 "ast.ml" 124 4014 4066
+type(
+  exp ->
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+ident(
+  int_ref getargs "ast.ml" 109 3237 3241 "ast.ml" 109 3237 3248
+)
+"ast.ml" 124 4014 4067 "ast.ml" 124 4014 4068
+type(
+  exp
+)
+ident(
+  int_ref e "ast.ml" 124 4014 4026 "ast.ml" 124 4014 4027
+)
+"ast.ml" 124 4014 4059 "ast.ml" 124 4014 4068
+call(
+  stack
+)
+type(
+  exp list * Type.typ list * Type.binop_type list * Type.unop_type list *
+  var list * string list * Big_int_Z.big_int list * Type.cast_type list
+)
+"ast.ml" 125 4072 4088 "ast.ml" 125 4072 4089
+type(
+  exp list
+)
+ident(
+  int_ref x "ast.ml" 124 4014 4034 "ast.ml" 124 4014 4035
+)
+"ast.ml" 124 4014 4030 "ast.ml" 125 4072 4089
+type(
+  exp list
+)
+"ast.ml" 146 4783 4787 "ast.ml" 146 4783 4799
+type(
+  exp -> exp -> bool
+)
+ident(
+  def quick_exp_eq "ast.ml" 179 6034 6034 --
+)
+"ast.ml" 146 4783 4800 "ast.ml" 146 4783 4802
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 146 4783 4803 "ast.ml" 175 5925 5936
+)
+"ast.ml" 146 4783 4803 "ast.ml" 146 4783 4805
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 147 4808 4810 "ast.ml" 175 5925 5936
+)
+"ast.ml" 147 4808 4816 "ast.ml" 147 4808 4818
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 146 4783 4800 "ast.ml" 146 4783 4802
+)
+"ast.ml" 147 4808 4820 "ast.ml" 147 4808 4822
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 146 4783 4803 "ast.ml" 146 4783 4805
+)
+"ast.ml" 147 4808 4816 "ast.ml" 147 4808 4822
+type(
+  exp * exp
+)
+"ast.ml" 148 4828 4839 "ast.ml" 148 4828 4841
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i1 "ast.ml" 149 4864 4870 "ast.ml" 149 4864 4890
+)
+"ast.ml" 148 4828 4843 "ast.ml" 148 4828 4845
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast.ml" 149 4864 4870 "ast.ml" 149 4864 4890
+)
+"ast.ml" 148 4828 4838 "ast.ml" 148 4828 4846
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast.ml" 148 4828 4834 "ast.ml" 148 4828 4846
+type(
+  exp
+)
+"ast.ml" 148 4828 4853 "ast.ml" 148 4828 4855
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i2 "ast.ml" 149 4864 4870 "ast.ml" 149 4864 4890
+)
+"ast.ml" 148 4828 4857 "ast.ml" 148 4828 4859
+type(
+  Type.typ
+)
+ident(
+  def t2 "ast.ml" 149 4864 4870 "ast.ml" 149 4864 4890
+)
+"ast.ml" 148 4828 4852 "ast.ml" 148 4828 4860
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast.ml" 148 4828 4848 "ast.ml" 148 4828 4860
+type(
+  exp
+)
+"ast.ml" 148 4828 4834 "ast.ml" 148 4828 4860
+type(
+  exp * exp
+)
+"ast.ml" 149 4864 4870 "ast.ml" 149 4864 4872
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast.ml" 148 4828 4843 "ast.ml" 148 4828 4845
+)
+"ast.ml" 149 4864 4873 "ast.ml" 149 4864 4875
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 149 4864 4876 "ast.ml" 149 4864 4878
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ast.ml" 148 4828 4857 "ast.ml" 148 4828 4859
+)
+"ast.ml" 149 4864 4870 "ast.ml" 149 4864 4878
+type(
+  bool
+)
+"ast.ml" 149 4864 4879 "ast.ml" 149 4864 4881
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 149 4864 4882 "ast.ml" 149 4864 4884
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i1 "ast.ml" 148 4828 4839 "ast.ml" 148 4828 4841
+)
+"ast.ml" 149 4864 4885 "ast.ml" 149 4864 4887
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 149 4864 4888 "ast.ml" 149 4864 4890
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i2 "ast.ml" 148 4828 4853 "ast.ml" 148 4828 4855
+)
+"ast.ml" 149 4864 4882 "ast.ml" 149 4864 4890
+type(
+  bool
+)
+"ast.ml" 149 4864 4870 "ast.ml" 149 4864 4890
+type(
+  bool
+)
+"ast.ml" 150 4891 4901 "ast.ml" 150 4891 4903
+type(
+  var
+)
+ident(
+  def v1 "ast.ml" 151 4915 4921 "ast.ml" 151 4915 4929
+)
+"ast.ml" 150 4891 4897 "ast.ml" 150 4891 4903
+type(
+  exp
+)
+"ast.ml" 150 4891 4909 "ast.ml" 150 4891 4911
+type(
+  var
+)
+ident(
+  def v2 "ast.ml" 151 4915 4921 "ast.ml" 151 4915 4929
+)
+"ast.ml" 150 4891 4905 "ast.ml" 150 4891 4911
+type(
+  exp
+)
+"ast.ml" 150 4891 4897 "ast.ml" 150 4891 4911
+type(
+  exp * exp
+)
+"ast.ml" 151 4915 4921 "ast.ml" 151 4915 4923
+type(
+  var
+)
+ident(
+  int_ref v1 "ast.ml" 150 4891 4901 "ast.ml" 150 4891 4903
+)
+"ast.ml" 151 4915 4924 "ast.ml" 151 4915 4926
+type(
+  var -> var -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 151 4915 4927 "ast.ml" 151 4915 4929
+type(
+  var
+)
+ident(
+  int_ref v2 "ast.ml" 150 4891 4909 "ast.ml" 150 4891 4911
+)
+"ast.ml" 151 4915 4921 "ast.ml" 151 4915 4929
+type(
+  bool
+)
+"ast.ml" 152 4930 4943 "ast.ml" 152 4930 4946
+type(
+  Type.binop_type
+)
+ident(
+  def op1 "ast.ml" 153 4984 4990 "ast.ml" 153 4984 5028
+)
+"ast.ml" 152 4930 4948 "ast.ml" 152 4930 4951
+type(
+  exp
+)
+ident(
+  def e11 "ast.ml" 153 4984 4990 "ast.ml" 153 4984 5028
+)
+"ast.ml" 152 4930 4953 "ast.ml" 152 4930 4956
+type(
+  exp
+)
+ident(
+  def e12 "ast.ml" 153 4984 4990 "ast.ml" 153 4984 5028
+)
+"ast.ml" 152 4930 4942 "ast.ml" 152 4930 4957
+type(
+  Type.binop_type * exp * exp
+)
+"ast.ml" 152 4930 4936 "ast.ml" 152 4930 4957
+type(
+  exp
+)
+"ast.ml" 152 4930 4966 "ast.ml" 152 4930 4969
+type(
+  Type.binop_type
+)
+ident(
+  def op2 "ast.ml" 153 4984 4990 "ast.ml" 153 4984 5028
+)
+"ast.ml" 152 4930 4971 "ast.ml" 152 4930 4974
+type(
+  exp
+)
+ident(
+  def e21 "ast.ml" 153 4984 4990 "ast.ml" 153 4984 5028
+)
+"ast.ml" 152 4930 4976 "ast.ml" 152 4930 4979
+type(
+  exp
+)
+ident(
+  def e22 "ast.ml" 153 4984 4990 "ast.ml" 153 4984 5028
+)
+"ast.ml" 152 4930 4965 "ast.ml" 152 4930 4980
+type(
+  Type.binop_type * exp * exp
+)
+"ast.ml" 152 4930 4959 "ast.ml" 152 4930 4980
+type(
+  exp
+)
+"ast.ml" 152 4930 4936 "ast.ml" 152 4930 4980
+type(
+  exp * exp
+)
+"ast.ml" 153 4984 4990 "ast.ml" 153 4984 4993
+type(
+  Type.binop_type
+)
+ident(
+  int_ref op1 "ast.ml" 152 4930 4943 "ast.ml" 152 4930 4946
+)
+"ast.ml" 153 4984 4994 "ast.ml" 153 4984 4996
+type(
+  Type.binop_type -> Type.binop_type -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 153 4984 4997 "ast.ml" 153 4984 5000
+type(
+  Type.binop_type
+)
+ident(
+  int_ref op2 "ast.ml" 152 4930 4966 "ast.ml" 152 4930 4969
+)
+"ast.ml" 153 4984 4990 "ast.ml" 153 4984 5000
+type(
+  bool
+)
+"ast.ml" 153 4984 5001 "ast.ml" 153 4984 5003
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 153 4984 5004 "ast.ml" 153 4984 5007
+type(
+  exp
+)
+ident(
+  int_ref e11 "ast.ml" 152 4930 4948 "ast.ml" 152 4930 4951
+)
+"ast.ml" 153 4984 5008 "ast.ml" 153 4984 5010
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 153 4984 5011 "ast.ml" 153 4984 5014
+type(
+  exp
+)
+ident(
+  int_ref e21 "ast.ml" 152 4930 4971 "ast.ml" 152 4930 4974
+)
+"ast.ml" 153 4984 5004 "ast.ml" 153 4984 5014
+type(
+  bool
+)
+"ast.ml" 153 4984 5015 "ast.ml" 153 4984 5017
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 153 4984 5018 "ast.ml" 153 4984 5021
+type(
+  exp
+)
+ident(
+  int_ref e12 "ast.ml" 152 4930 4953 "ast.ml" 152 4930 4956
+)
+"ast.ml" 153 4984 5022 "ast.ml" 153 4984 5024
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 153 4984 5025 "ast.ml" 153 4984 5028
+type(
+  exp
+)
+ident(
+  int_ref e22 "ast.ml" 152 4930 4976 "ast.ml" 152 4930 4979
+)
+"ast.ml" 153 4984 5018 "ast.ml" 153 4984 5028
+type(
+  bool
+)
+"ast.ml" 153 4984 5004 "ast.ml" 153 4984 5028
+type(
+  bool
+)
+"ast.ml" 153 4984 4990 "ast.ml" 153 4984 5028
+type(
+  bool
+)
+"ast.ml" 154 5029 5041 "ast.ml" 154 5029 5044
+type(
+  Type.unop_type
+)
+ident(
+  def op1 "ast.ml" 155 5069 5075 "ast.ml" 155 5069 5097
+)
+"ast.ml" 154 5029 5046 "ast.ml" 154 5029 5048
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 155 5069 5075 "ast.ml" 155 5069 5097
+)
+"ast.ml" 154 5029 5040 "ast.ml" 154 5029 5049
+type(
+  Type.unop_type * exp
+)
+"ast.ml" 154 5029 5035 "ast.ml" 154 5029 5049
+type(
+  exp
+)
+"ast.ml" 154 5029 5057 "ast.ml" 154 5029 5060
+type(
+  Type.unop_type
+)
+ident(
+  def op2 "ast.ml" 155 5069 5075 "ast.ml" 155 5069 5097
+)
+"ast.ml" 154 5029 5062 "ast.ml" 154 5029 5064
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 155 5069 5075 "ast.ml" 155 5069 5097
+)
+"ast.ml" 154 5029 5056 "ast.ml" 154 5029 5065
+type(
+  Type.unop_type * exp
+)
+"ast.ml" 154 5029 5051 "ast.ml" 154 5029 5065
+type(
+  exp
+)
+"ast.ml" 154 5029 5035 "ast.ml" 154 5029 5065
+type(
+  exp * exp
+)
+"ast.ml" 155 5069 5075 "ast.ml" 155 5069 5078
+type(
+  Type.unop_type
+)
+ident(
+  int_ref op1 "ast.ml" 154 5029 5041 "ast.ml" 154 5029 5044
+)
+"ast.ml" 155 5069 5079 "ast.ml" 155 5069 5081
+type(
+  Type.unop_type -> Type.unop_type -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 155 5069 5082 "ast.ml" 155 5069 5085
+type(
+  Type.unop_type
+)
+ident(
+  int_ref op2 "ast.ml" 154 5029 5057 "ast.ml" 154 5029 5060
+)
+"ast.ml" 155 5069 5075 "ast.ml" 155 5069 5085
+type(
+  bool
+)
+"ast.ml" 155 5069 5086 "ast.ml" 155 5069 5088
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 155 5069 5089 "ast.ml" 155 5069 5091
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 154 5029 5046 "ast.ml" 154 5029 5048
+)
+"ast.ml" 155 5069 5092 "ast.ml" 155 5069 5094
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 155 5069 5095 "ast.ml" 155 5069 5097
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 154 5029 5062 "ast.ml" 154 5029 5064
+)
+"ast.ml" 155 5069 5089 "ast.ml" 155 5069 5097
+type(
+  bool
+)
+"ast.ml" 155 5069 5075 "ast.ml" 155 5069 5097
+type(
+  bool
+)
+"ast.ml" 156 5098 5110 "ast.ml" 156 5098 5113
+type(
+  Type.cast_type
+)
+ident(
+  def ct1 "ast.ml" 157 5146 5152 "ast.ml" 157 5146 5186
+)
+"ast.ml" 156 5098 5115 "ast.ml" 156 5098 5117
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast.ml" 157 5146 5152 "ast.ml" 157 5146 5186
+)
+"ast.ml" 156 5098 5119 "ast.ml" 156 5098 5121
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 157 5146 5152 "ast.ml" 157 5146 5186
+)
+"ast.ml" 156 5098 5109 "ast.ml" 156 5098 5122
+type(
+  Type.cast_type * Type.typ * exp
+)
+"ast.ml" 156 5098 5104 "ast.ml" 156 5098 5122
+type(
+  exp
+)
+"ast.ml" 156 5098 5130 "ast.ml" 156 5098 5133
+type(
+  Type.cast_type
+)
+ident(
+  def ct2 "ast.ml" 157 5146 5152 "ast.ml" 157 5146 5186
+)
+"ast.ml" 156 5098 5135 "ast.ml" 156 5098 5137
+type(
+  Type.typ
+)
+ident(
+  def t2 "ast.ml" 157 5146 5152 "ast.ml" 157 5146 5186
+)
+"ast.ml" 156 5098 5139 "ast.ml" 156 5098 5141
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 157 5146 5152 "ast.ml" 157 5146 5186
+)
+"ast.ml" 156 5098 5129 "ast.ml" 156 5098 5142
+type(
+  Type.cast_type * Type.typ * exp
+)
+"ast.ml" 156 5098 5124 "ast.ml" 156 5098 5142
+type(
+  exp
+)
+"ast.ml" 156 5098 5104 "ast.ml" 156 5098 5142
+type(
+  exp * exp
+)
+"ast.ml" 157 5146 5152 "ast.ml" 157 5146 5155
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct1 "ast.ml" 156 5098 5110 "ast.ml" 156 5098 5113
+)
+"ast.ml" 157 5146 5156 "ast.ml" 157 5146 5158
+type(
+  Type.cast_type -> Type.cast_type -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 157 5146 5159 "ast.ml" 157 5146 5162
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct2 "ast.ml" 156 5098 5130 "ast.ml" 156 5098 5133
+)
+"ast.ml" 157 5146 5152 "ast.ml" 157 5146 5162
+type(
+  bool
+)
+"ast.ml" 157 5146 5163 "ast.ml" 157 5146 5165
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 157 5146 5166 "ast.ml" 157 5146 5168
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast.ml" 156 5098 5115 "ast.ml" 156 5098 5117
+)
+"ast.ml" 157 5146 5169 "ast.ml" 157 5146 5171
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 157 5146 5172 "ast.ml" 157 5146 5174
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ast.ml" 156 5098 5135 "ast.ml" 156 5098 5137
+)
+"ast.ml" 157 5146 5166 "ast.ml" 157 5146 5174
+type(
+  bool
+)
+"ast.ml" 157 5146 5175 "ast.ml" 157 5146 5177
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 157 5146 5178 "ast.ml" 157 5146 5180
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 156 5098 5119 "ast.ml" 156 5098 5121
+)
+"ast.ml" 157 5146 5181 "ast.ml" 157 5146 5183
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 157 5146 5184 "ast.ml" 157 5146 5186
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 156 5098 5139 "ast.ml" 156 5098 5141
+)
+"ast.ml" 157 5146 5178 "ast.ml" 157 5146 5186
+type(
+  bool
+)
+"ast.ml" 157 5146 5166 "ast.ml" 157 5146 5186
+type(
+  bool
+)
+"ast.ml" 157 5146 5152 "ast.ml" 157 5146 5186
+type(
+  bool
+)
+"ast.ml" 158 5187 5202 "ast.ml" 158 5187 5204
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def h1 "ast.ml" 159 5239 5245 "ast.ml" 159 5239 5277
+)
+"ast.ml" 158 5187 5206 "ast.ml" 158 5187 5208
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def l1 "ast.ml" 159 5239 5245 "ast.ml" 159 5239 5277
+)
+"ast.ml" 158 5187 5210 "ast.ml" 158 5187 5212
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 159 5239 5245 "ast.ml" 159 5239 5277
+)
+"ast.ml" 158 5187 5201 "ast.ml" 158 5187 5213
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int * exp
+)
+"ast.ml" 158 5187 5193 "ast.ml" 158 5187 5213
+type(
+  exp
+)
+"ast.ml" 158 5187 5224 "ast.ml" 158 5187 5226
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def h2 "ast.ml" 159 5239 5245 "ast.ml" 159 5239 5277
+)
+"ast.ml" 158 5187 5228 "ast.ml" 158 5187 5230
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def l2 "ast.ml" 159 5239 5245 "ast.ml" 159 5239 5277
+)
+"ast.ml" 158 5187 5232 "ast.ml" 158 5187 5234
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 159 5239 5245 "ast.ml" 159 5239 5277
+)
+"ast.ml" 158 5187 5223 "ast.ml" 158 5187 5235
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int * exp
+)
+"ast.ml" 158 5187 5215 "ast.ml" 158 5187 5235
+type(
+  exp
+)
+"ast.ml" 158 5187 5193 "ast.ml" 158 5187 5235
+type(
+  exp * exp
+)
+"ast.ml" 159 5239 5245 "ast.ml" 159 5239 5247
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h1 "ast.ml" 158 5187 5202 "ast.ml" 158 5187 5204
+)
+"ast.ml" 159 5239 5248 "ast.ml" 159 5239 5250
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 159 5239 5251 "ast.ml" 159 5239 5253
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h2 "ast.ml" 158 5187 5224 "ast.ml" 158 5187 5226
+)
+"ast.ml" 159 5239 5245 "ast.ml" 159 5239 5253
+type(
+  bool
+)
+"ast.ml" 159 5239 5254 "ast.ml" 159 5239 5256
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 159 5239 5257 "ast.ml" 159 5239 5259
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l1 "ast.ml" 158 5187 5206 "ast.ml" 158 5187 5208
+)
+"ast.ml" 159 5239 5260 "ast.ml" 159 5239 5262
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 159 5239 5263 "ast.ml" 159 5239 5265
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l2 "ast.ml" 158 5187 5228 "ast.ml" 158 5187 5230
+)
+"ast.ml" 159 5239 5257 "ast.ml" 159 5239 5265
+type(
+  bool
+)
+"ast.ml" 159 5239 5266 "ast.ml" 159 5239 5268
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 159 5239 5269 "ast.ml" 159 5239 5271
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 158 5187 5210 "ast.ml" 158 5187 5212
+)
+"ast.ml" 159 5239 5272 "ast.ml" 159 5239 5274
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 159 5239 5275 "ast.ml" 159 5239 5277
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 158 5187 5232 "ast.ml" 158 5187 5234
+)
+"ast.ml" 159 5239 5269 "ast.ml" 159 5239 5277
+type(
+  bool
+)
+"ast.ml" 159 5239 5257 "ast.ml" 159 5239 5277
+type(
+  bool
+)
+"ast.ml" 159 5239 5245 "ast.ml" 159 5239 5277
+type(
+  bool
+)
+"ast.ml" 160 5278 5292 "ast.ml" 160 5278 5295
+type(
+  exp
+)
+ident(
+  def e11 "ast.ml" 161 5324 5330 "ast.ml" 161 5324 5354
+)
+"ast.ml" 160 5278 5297 "ast.ml" 160 5278 5300
+type(
+  exp
+)
+ident(
+  def e12 "ast.ml" 161 5324 5330 "ast.ml" 161 5324 5354
+)
+"ast.ml" 160 5278 5291 "ast.ml" 160 5278 5301
+type(
+  exp * exp
+)
+"ast.ml" 160 5278 5284 "ast.ml" 160 5278 5301
+type(
+  exp
+)
+"ast.ml" 160 5278 5311 "ast.ml" 160 5278 5314
+type(
+  exp
+)
+ident(
+  def e21 "ast.ml" 161 5324 5330 "ast.ml" 161 5324 5354
+)
+"ast.ml" 160 5278 5316 "ast.ml" 160 5278 5319
+type(
+  exp
+)
+ident(
+  def e22 "ast.ml" 161 5324 5330 "ast.ml" 161 5324 5354
+)
+"ast.ml" 160 5278 5310 "ast.ml" 160 5278 5320
+type(
+  exp * exp
+)
+"ast.ml" 160 5278 5303 "ast.ml" 160 5278 5320
+type(
+  exp
+)
+"ast.ml" 160 5278 5284 "ast.ml" 160 5278 5320
+type(
+  exp * exp
+)
+"ast.ml" 161 5324 5330 "ast.ml" 161 5324 5333
+type(
+  exp
+)
+ident(
+  int_ref e11 "ast.ml" 160 5278 5292 "ast.ml" 160 5278 5295
+)
+"ast.ml" 161 5324 5334 "ast.ml" 161 5324 5336
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 161 5324 5337 "ast.ml" 161 5324 5340
+type(
+  exp
+)
+ident(
+  int_ref e21 "ast.ml" 160 5278 5311 "ast.ml" 160 5278 5314
+)
+"ast.ml" 161 5324 5330 "ast.ml" 161 5324 5340
+type(
+  bool
+)
+"ast.ml" 161 5324 5341 "ast.ml" 161 5324 5343
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 161 5324 5344 "ast.ml" 161 5324 5347
+type(
+  exp
+)
+ident(
+  int_ref e12 "ast.ml" 160 5278 5297 "ast.ml" 160 5278 5300
+)
+"ast.ml" 161 5324 5348 "ast.ml" 161 5324 5350
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 161 5324 5351 "ast.ml" 161 5324 5354
+type(
+  exp
+)
+ident(
+  int_ref e22 "ast.ml" 160 5278 5316 "ast.ml" 160 5278 5319
+)
+"ast.ml" 161 5324 5344 "ast.ml" 161 5324 5354
+type(
+  bool
+)
+"ast.ml" 161 5324 5330 "ast.ml" 161 5324 5354
+type(
+  bool
+)
+"ast.ml" 162 5355 5365 "ast.ml" 162 5355 5367
+type(
+  string
+)
+ident(
+  def l1 "ast.ml" 163 5379 5385 "ast.ml" 163 5379 5393
+)
+"ast.ml" 162 5355 5361 "ast.ml" 162 5355 5367
+type(
+  exp
+)
+"ast.ml" 162 5355 5373 "ast.ml" 162 5355 5375
+type(
+  string
+)
+ident(
+  def l2 "ast.ml" 163 5379 5385 "ast.ml" 163 5379 5393
+)
+"ast.ml" 162 5355 5369 "ast.ml" 162 5355 5375
+type(
+  exp
+)
+"ast.ml" 162 5355 5361 "ast.ml" 162 5355 5375
+type(
+  exp * exp
+)
+"ast.ml" 163 5379 5385 "ast.ml" 163 5379 5387
+type(
+  string
+)
+ident(
+  int_ref l1 "ast.ml" 162 5355 5365 "ast.ml" 162 5355 5367
+)
+"ast.ml" 163 5379 5388 "ast.ml" 163 5379 5390
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 163 5379 5391 "ast.ml" 163 5379 5393
+type(
+  string
+)
+ident(
+  int_ref l2 "ast.ml" 162 5355 5373 "ast.ml" 162 5355 5375
+)
+"ast.ml" 163 5379 5385 "ast.ml" 163 5379 5393
+type(
+  bool
+)
+"ast.ml" 164 5394 5405 "ast.ml" 164 5394 5408
+type(
+  exp
+)
+ident(
+  def b11 "ast.ml" 165 5444 5450 "ast.ml" 165 5444 5488
+)
+"ast.ml" 164 5394 5410 "ast.ml" 164 5394 5413
+type(
+  exp
+)
+ident(
+  def e11 "ast.ml" 165 5444 5450 "ast.ml" 165 5444 5488
+)
+"ast.ml" 164 5394 5415 "ast.ml" 164 5394 5418
+type(
+  exp
+)
+ident(
+  def e12 "ast.ml" 165 5444 5450 "ast.ml" 165 5444 5488
+)
+"ast.ml" 164 5394 5404 "ast.ml" 164 5394 5419
+type(
+  exp * exp * exp
+)
+"ast.ml" 164 5394 5400 "ast.ml" 164 5394 5419
+type(
+  exp
+)
+"ast.ml" 164 5394 5426 "ast.ml" 164 5394 5429
+type(
+  exp
+)
+ident(
+  def b21 "ast.ml" 165 5444 5450 "ast.ml" 165 5444 5488
+)
+"ast.ml" 164 5394 5431 "ast.ml" 164 5394 5434
+type(
+  exp
+)
+ident(
+  def e21 "ast.ml" 165 5444 5450 "ast.ml" 165 5444 5488
+)
+"ast.ml" 164 5394 5436 "ast.ml" 164 5394 5439
+type(
+  exp
+)
+ident(
+  def e22 "ast.ml" 165 5444 5450 "ast.ml" 165 5444 5488
+)
+"ast.ml" 164 5394 5425 "ast.ml" 164 5394 5440
+type(
+  exp * exp * exp
+)
+"ast.ml" 164 5394 5421 "ast.ml" 164 5394 5440
+type(
+  exp
+)
+"ast.ml" 164 5394 5400 "ast.ml" 164 5394 5440
+type(
+  exp * exp
+)
+"ast.ml" 165 5444 5450 "ast.ml" 165 5444 5453
+type(
+  exp
+)
+ident(
+  int_ref b11 "ast.ml" 164 5394 5405 "ast.ml" 164 5394 5408
+)
+"ast.ml" 165 5444 5454 "ast.ml" 165 5444 5456
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 165 5444 5457 "ast.ml" 165 5444 5460
+type(
+  exp
+)
+ident(
+  int_ref b21 "ast.ml" 164 5394 5426 "ast.ml" 164 5394 5429
+)
+"ast.ml" 165 5444 5450 "ast.ml" 165 5444 5460
+type(
+  bool
+)
+"ast.ml" 165 5444 5461 "ast.ml" 165 5444 5463
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 165 5444 5464 "ast.ml" 165 5444 5467
+type(
+  exp
+)
+ident(
+  int_ref e11 "ast.ml" 164 5394 5410 "ast.ml" 164 5394 5413
+)
+"ast.ml" 165 5444 5468 "ast.ml" 165 5444 5470
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 165 5444 5471 "ast.ml" 165 5444 5474
+type(
+  exp
+)
+ident(
+  int_ref e21 "ast.ml" 164 5394 5431 "ast.ml" 164 5394 5434
+)
+"ast.ml" 165 5444 5464 "ast.ml" 165 5444 5474
+type(
+  bool
+)
+"ast.ml" 165 5444 5475 "ast.ml" 165 5444 5477
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 165 5444 5478 "ast.ml" 165 5444 5481
+type(
+  exp
+)
+ident(
+  int_ref e12 "ast.ml" 164 5394 5415 "ast.ml" 164 5394 5418
+)
+"ast.ml" 165 5444 5482 "ast.ml" 165 5444 5484
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 165 5444 5485 "ast.ml" 165 5444 5488
+type(
+  exp
+)
+ident(
+  int_ref e22 "ast.ml" 164 5394 5436 "ast.ml" 164 5394 5439
+)
+"ast.ml" 165 5444 5478 "ast.ml" 165 5444 5488
+type(
+  bool
+)
+"ast.ml" 165 5444 5464 "ast.ml" 165 5444 5488
+type(
+  bool
+)
+"ast.ml" 165 5444 5450 "ast.ml" 165 5444 5488
+type(
+  bool
+)
+"ast.ml" 166 5489 5501 "ast.ml" 166 5489 5504
+type(
+  exp
+)
+ident(
+  def e11 "ast.ml" 167 5549 5555 "ast.ml" 167 5549 5605
+)
+"ast.ml" 166 5489 5506 "ast.ml" 166 5489 5509
+type(
+  exp
+)
+ident(
+  def e12 "ast.ml" 167 5549 5555 "ast.ml" 167 5549 5605
+)
+"ast.ml" 166 5489 5511 "ast.ml" 166 5489 5514
+type(
+  exp
+)
+ident(
+  def e13 "ast.ml" 167 5549 5555 "ast.ml" 167 5549 5605
+)
+"ast.ml" 166 5489 5516 "ast.ml" 166 5489 5518
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast.ml" 167 5549 5555 "ast.ml" 167 5549 5605
+)
+"ast.ml" 166 5489 5500 "ast.ml" 166 5489 5519
+type(
+  exp * exp * exp * Type.typ
+)
+"ast.ml" 166 5489 5495 "ast.ml" 166 5489 5519
+type(
+  exp
+)
+"ast.ml" 166 5489 5527 "ast.ml" 166 5489 5530
+type(
+  exp
+)
+ident(
+  def e21 "ast.ml" 167 5549 5555 "ast.ml" 167 5549 5605
+)
+"ast.ml" 166 5489 5532 "ast.ml" 166 5489 5535
+type(
+  exp
+)
+ident(
+  def e22 "ast.ml" 167 5549 5555 "ast.ml" 167 5549 5605
+)
+"ast.ml" 166 5489 5537 "ast.ml" 166 5489 5540
+type(
+  exp
+)
+ident(
+  def e23 "ast.ml" 167 5549 5555 "ast.ml" 167 5549 5605
+)
+"ast.ml" 166 5489 5542 "ast.ml" 166 5489 5544
+type(
+  Type.typ
+)
+ident(
+  def t2 "ast.ml" 167 5549 5555 "ast.ml" 167 5549 5605
+)
+"ast.ml" 166 5489 5526 "ast.ml" 166 5489 5545
+type(
+  exp * exp * exp * Type.typ
+)
+"ast.ml" 166 5489 5521 "ast.ml" 166 5489 5545
+type(
+  exp
+)
+"ast.ml" 166 5489 5495 "ast.ml" 166 5489 5545
+type(
+  exp * exp
+)
+"ast.ml" 167 5549 5555 "ast.ml" 167 5549 5557
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast.ml" 166 5489 5516 "ast.ml" 166 5489 5518
+)
+"ast.ml" 167 5549 5558 "ast.ml" 167 5549 5560
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 167 5549 5561 "ast.ml" 167 5549 5563
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ast.ml" 166 5489 5542 "ast.ml" 166 5489 5544
+)
+"ast.ml" 167 5549 5555 "ast.ml" 167 5549 5563
+type(
+  bool
+)
+"ast.ml" 167 5549 5564 "ast.ml" 167 5549 5566
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 167 5549 5567 "ast.ml" 167 5549 5570
+type(
+  exp
+)
+ident(
+  int_ref e11 "ast.ml" 166 5489 5501 "ast.ml" 166 5489 5504
+)
+"ast.ml" 167 5549 5571 "ast.ml" 167 5549 5573
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 167 5549 5574 "ast.ml" 167 5549 5577
+type(
+  exp
+)
+ident(
+  int_ref e21 "ast.ml" 166 5489 5527 "ast.ml" 166 5489 5530
+)
+"ast.ml" 167 5549 5567 "ast.ml" 167 5549 5577
+type(
+  bool
+)
+"ast.ml" 167 5549 5578 "ast.ml" 167 5549 5580
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 167 5549 5581 "ast.ml" 167 5549 5584
+type(
+  exp
+)
+ident(
+  int_ref e12 "ast.ml" 166 5489 5506 "ast.ml" 166 5489 5509
+)
+"ast.ml" 167 5549 5585 "ast.ml" 167 5549 5587
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 167 5549 5588 "ast.ml" 167 5549 5591
+type(
+  exp
+)
+ident(
+  int_ref e22 "ast.ml" 166 5489 5532 "ast.ml" 166 5489 5535
+)
+"ast.ml" 167 5549 5581 "ast.ml" 167 5549 5591
+type(
+  bool
+)
+"ast.ml" 167 5549 5592 "ast.ml" 167 5549 5594
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 167 5549 5595 "ast.ml" 167 5549 5598
+type(
+  exp
+)
+ident(
+  int_ref e13 "ast.ml" 166 5489 5511 "ast.ml" 166 5489 5514
+)
+"ast.ml" 167 5549 5599 "ast.ml" 167 5549 5601
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 167 5549 5602 "ast.ml" 167 5549 5605
+type(
+  exp
+)
+ident(
+  int_ref e23 "ast.ml" 166 5489 5537 "ast.ml" 166 5489 5540
+)
+"ast.ml" 167 5549 5595 "ast.ml" 167 5549 5605
+type(
+  bool
+)
+"ast.ml" 167 5549 5581 "ast.ml" 167 5549 5605
+type(
+  bool
+)
+"ast.ml" 167 5549 5567 "ast.ml" 167 5549 5605
+type(
+  bool
+)
+"ast.ml" 167 5549 5555 "ast.ml" 167 5549 5605
+type(
+  bool
+)
+"ast.ml" 168 5606 5619 "ast.ml" 168 5606 5622
+type(
+  exp
+)
+ident(
+  def e11 "ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+)
+"ast.ml" 168 5606 5624 "ast.ml" 168 5606 5627
+type(
+  exp
+)
+ident(
+  def e12 "ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+)
+"ast.ml" 168 5606 5629 "ast.ml" 168 5606 5632
+type(
+  exp
+)
+ident(
+  def e13 "ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+)
+"ast.ml" 168 5606 5634 "ast.ml" 168 5606 5637
+type(
+  exp
+)
+ident(
+  def e14 "ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+)
+"ast.ml" 168 5606 5639 "ast.ml" 168 5606 5641
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+)
+"ast.ml" 168 5606 5618 "ast.ml" 168 5606 5642
+type(
+  exp * exp * exp * exp * Type.typ
+)
+"ast.ml" 168 5606 5612 "ast.ml" 168 5606 5642
+type(
+  exp
+)
+"ast.ml" 168 5606 5651 "ast.ml" 168 5606 5654
+type(
+  exp
+)
+ident(
+  def e21 "ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+)
+"ast.ml" 168 5606 5656 "ast.ml" 168 5606 5659
+type(
+  exp
+)
+ident(
+  def e22 "ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+)
+"ast.ml" 168 5606 5661 "ast.ml" 168 5606 5664
+type(
+  exp
+)
+ident(
+  def e23 "ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+)
+"ast.ml" 168 5606 5666 "ast.ml" 168 5606 5669
+type(
+  exp
+)
+ident(
+  def e24 "ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+)
+"ast.ml" 168 5606 5671 "ast.ml" 168 5606 5673
+type(
+  Type.typ
+)
+ident(
+  def t2 "ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+)
+"ast.ml" 168 5606 5650 "ast.ml" 168 5606 5674
+type(
+  exp * exp * exp * exp * Type.typ
+)
+"ast.ml" 168 5606 5644 "ast.ml" 168 5606 5674
+type(
+  exp
+)
+"ast.ml" 168 5606 5612 "ast.ml" 168 5606 5674
+type(
+  exp * exp
+)
+"ast.ml" 169 5678 5684 "ast.ml" 169 5678 5686
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast.ml" 168 5606 5639 "ast.ml" 168 5606 5641
+)
+"ast.ml" 169 5678 5687 "ast.ml" 169 5678 5689
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 169 5678 5690 "ast.ml" 169 5678 5692
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ast.ml" 168 5606 5671 "ast.ml" 168 5606 5673
+)
+"ast.ml" 169 5678 5684 "ast.ml" 169 5678 5692
+type(
+  bool
+)
+"ast.ml" 169 5678 5693 "ast.ml" 169 5678 5695
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 169 5678 5696 "ast.ml" 169 5678 5699
+type(
+  exp
+)
+ident(
+  int_ref e11 "ast.ml" 168 5606 5619 "ast.ml" 168 5606 5622
+)
+"ast.ml" 169 5678 5700 "ast.ml" 169 5678 5702
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 169 5678 5703 "ast.ml" 169 5678 5706
+type(
+  exp
+)
+ident(
+  int_ref e21 "ast.ml" 168 5606 5651 "ast.ml" 168 5606 5654
+)
+"ast.ml" 169 5678 5696 "ast.ml" 169 5678 5706
+type(
+  bool
+)
+"ast.ml" 169 5678 5707 "ast.ml" 169 5678 5709
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 169 5678 5710 "ast.ml" 169 5678 5713
+type(
+  exp
+)
+ident(
+  int_ref e12 "ast.ml" 168 5606 5624 "ast.ml" 168 5606 5627
+)
+"ast.ml" 169 5678 5714 "ast.ml" 169 5678 5716
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 169 5678 5717 "ast.ml" 169 5678 5720
+type(
+  exp
+)
+ident(
+  int_ref e22 "ast.ml" 168 5606 5656 "ast.ml" 168 5606 5659
+)
+"ast.ml" 169 5678 5710 "ast.ml" 169 5678 5720
+type(
+  bool
+)
+"ast.ml" 169 5678 5721 "ast.ml" 169 5678 5723
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 169 5678 5724 "ast.ml" 169 5678 5727
+type(
+  exp
+)
+ident(
+  int_ref e13 "ast.ml" 168 5606 5629 "ast.ml" 168 5606 5632
+)
+"ast.ml" 169 5678 5728 "ast.ml" 169 5678 5730
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 169 5678 5731 "ast.ml" 169 5678 5734
+type(
+  exp
+)
+ident(
+  int_ref e23 "ast.ml" 168 5606 5661 "ast.ml" 168 5606 5664
+)
+"ast.ml" 169 5678 5724 "ast.ml" 169 5678 5734
+type(
+  bool
+)
+"ast.ml" 169 5678 5735 "ast.ml" 169 5678 5737
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 169 5678 5738 "ast.ml" 169 5678 5741
+type(
+  exp
+)
+ident(
+  int_ref e14 "ast.ml" 168 5606 5634 "ast.ml" 168 5606 5637
+)
+"ast.ml" 169 5678 5742 "ast.ml" 169 5678 5744
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 169 5678 5745 "ast.ml" 169 5678 5748
+type(
+  exp
+)
+ident(
+  int_ref e24 "ast.ml" 168 5606 5666 "ast.ml" 168 5606 5669
+)
+"ast.ml" 169 5678 5738 "ast.ml" 169 5678 5748
+type(
+  bool
+)
+"ast.ml" 169 5678 5724 "ast.ml" 169 5678 5748
+type(
+  bool
+)
+"ast.ml" 169 5678 5710 "ast.ml" 169 5678 5748
+type(
+  bool
+)
+"ast.ml" 169 5678 5696 "ast.ml" 169 5678 5748
+type(
+  bool
+)
+"ast.ml" 169 5678 5684 "ast.ml" 169 5678 5748
+type(
+  bool
+)
+"ast.ml" 170 5749 5760 "ast.ml" 170 5749 5762
+type(
+  var
+)
+ident(
+  def v1 "ast.ml" 171 5797 5803 "ast.ml" 171 5797 5839
+)
+"ast.ml" 170 5749 5764 "ast.ml" 170 5749 5767
+type(
+  exp
+)
+ident(
+  def e11 "ast.ml" 171 5797 5803 "ast.ml" 171 5797 5839
+)
+"ast.ml" 170 5749 5769 "ast.ml" 170 5749 5772
+type(
+  exp
+)
+ident(
+  def e12 "ast.ml" 171 5797 5803 "ast.ml" 171 5797 5839
+)
+"ast.ml" 170 5749 5759 "ast.ml" 170 5749 5773
+type(
+  var * exp * exp
+)
+"ast.ml" 170 5749 5755 "ast.ml" 170 5749 5773
+type(
+  exp
+)
+"ast.ml" 170 5749 5780 "ast.ml" 170 5749 5782
+type(
+  var
+)
+ident(
+  def v2 "ast.ml" 171 5797 5803 "ast.ml" 171 5797 5839
+)
+"ast.ml" 170 5749 5784 "ast.ml" 170 5749 5787
+type(
+  exp
+)
+ident(
+  def e21 "ast.ml" 171 5797 5803 "ast.ml" 171 5797 5839
+)
+"ast.ml" 170 5749 5789 "ast.ml" 170 5749 5792
+type(
+  exp
+)
+ident(
+  def e22 "ast.ml" 171 5797 5803 "ast.ml" 171 5797 5839
+)
+"ast.ml" 170 5749 5779 "ast.ml" 170 5749 5793
+type(
+  var * exp * exp
+)
+"ast.ml" 170 5749 5775 "ast.ml" 170 5749 5793
+type(
+  exp
+)
+"ast.ml" 170 5749 5755 "ast.ml" 170 5749 5793
+type(
+  exp * exp
+)
+"ast.ml" 171 5797 5803 "ast.ml" 171 5797 5805
+type(
+  var
+)
+ident(
+  int_ref v1 "ast.ml" 170 5749 5760 "ast.ml" 170 5749 5762
+)
+"ast.ml" 171 5797 5806 "ast.ml" 171 5797 5808
+type(
+  var -> var -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 171 5797 5809 "ast.ml" 171 5797 5811
+type(
+  var
+)
+ident(
+  int_ref v2 "ast.ml" 170 5749 5780 "ast.ml" 170 5749 5782
+)
+"ast.ml" 171 5797 5803 "ast.ml" 171 5797 5811
+type(
+  bool
+)
+"ast.ml" 171 5797 5812 "ast.ml" 171 5797 5814
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 171 5797 5815 "ast.ml" 171 5797 5818
+type(
+  exp
+)
+ident(
+  int_ref e11 "ast.ml" 170 5749 5764 "ast.ml" 170 5749 5767
+)
+"ast.ml" 171 5797 5819 "ast.ml" 171 5797 5821
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 171 5797 5822 "ast.ml" 171 5797 5825
+type(
+  exp
+)
+ident(
+  int_ref e21 "ast.ml" 170 5749 5784 "ast.ml" 170 5749 5787
+)
+"ast.ml" 171 5797 5815 "ast.ml" 171 5797 5825
+type(
+  bool
+)
+"ast.ml" 171 5797 5826 "ast.ml" 171 5797 5828
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 171 5797 5829 "ast.ml" 171 5797 5832
+type(
+  exp
+)
+ident(
+  int_ref e12 "ast.ml" 170 5749 5769 "ast.ml" 170 5749 5772
+)
+"ast.ml" 171 5797 5833 "ast.ml" 171 5797 5835
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 171 5797 5836 "ast.ml" 171 5797 5839
+type(
+  exp
+)
+ident(
+  int_ref e22 "ast.ml" 170 5749 5789 "ast.ml" 170 5749 5792
+)
+"ast.ml" 171 5797 5829 "ast.ml" 171 5797 5839
+type(
+  bool
+)
+"ast.ml" 171 5797 5815 "ast.ml" 171 5797 5839
+type(
+  bool
+)
+"ast.ml" 171 5797 5803 "ast.ml" 171 5797 5839
+type(
+  bool
+)
+"ast.ml" 172 5840 5855 "ast.ml" 172 5840 5857
+type(
+  string
+)
+ident(
+  def s1 "ast.ml" 173 5884 5890 "ast.ml" 173 5884 5910
+)
+"ast.ml" 172 5840 5859 "ast.ml" 172 5840 5861
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast.ml" 173 5884 5890 "ast.ml" 173 5884 5910
+)
+"ast.ml" 172 5840 5854 "ast.ml" 172 5840 5862
+type(
+  string * Type.typ
+)
+"ast.ml" 172 5840 5846 "ast.ml" 172 5840 5862
+type(
+  exp
+)
+"ast.ml" 172 5840 5873 "ast.ml" 172 5840 5875
+type(
+  string
+)
+ident(
+  def s2 "ast.ml" 173 5884 5890 "ast.ml" 173 5884 5910
+)
+"ast.ml" 172 5840 5877 "ast.ml" 172 5840 5879
+type(
+  Type.typ
+)
+ident(
+  def t2 "ast.ml" 173 5884 5890 "ast.ml" 173 5884 5910
+)
+"ast.ml" 172 5840 5872 "ast.ml" 172 5840 5880
+type(
+  string * Type.typ
+)
+"ast.ml" 172 5840 5864 "ast.ml" 172 5840 5880
+type(
+  exp
+)
+"ast.ml" 172 5840 5846 "ast.ml" 172 5840 5880
+type(
+  exp * exp
+)
+"ast.ml" 173 5884 5890 "ast.ml" 173 5884 5892
+type(
+  string
+)
+ident(
+  int_ref s1 "ast.ml" 172 5840 5855 "ast.ml" 172 5840 5857
+)
+"ast.ml" 173 5884 5893 "ast.ml" 173 5884 5895
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 173 5884 5896 "ast.ml" 173 5884 5898
+type(
+  string
+)
+ident(
+  int_ref s2 "ast.ml" 172 5840 5873 "ast.ml" 172 5840 5875
+)
+"ast.ml" 173 5884 5890 "ast.ml" 173 5884 5898
+type(
+  bool
+)
+"ast.ml" 173 5884 5899 "ast.ml" 173 5884 5901
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 173 5884 5902 "ast.ml" 173 5884 5904
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast.ml" 172 5840 5859 "ast.ml" 172 5840 5861
+)
+"ast.ml" 173 5884 5905 "ast.ml" 173 5884 5907
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 173 5884 5908 "ast.ml" 173 5884 5910
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ast.ml" 172 5840 5877 "ast.ml" 172 5840 5879
+)
+"ast.ml" 173 5884 5902 "ast.ml" 173 5884 5910
+type(
+  bool
+)
+"ast.ml" 173 5884 5890 "ast.ml" 173 5884 5910
+type(
+  bool
+)
+"ast.ml" 174 5911 5917 "ast.ml" 174 5911 5918
+type(
+  exp
+)
+"ast.ml" 174 5911 5920 "ast.ml" 174 5911 5921
+type(
+  exp
+)
+"ast.ml" 174 5911 5917 "ast.ml" 174 5911 5921
+type(
+  exp * exp
+)
+"ast.ml" 175 5925 5931 "ast.ml" 175 5925 5936
+type(
+  bool
+)
+"ast.ml" 147 4808 4810 "ast.ml" 175 5925 5936
+type(
+  bool
+)
+"ast.ml" 179 6034 6042 "ast.ml" 179 6034 6053
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def full_exp_eq "ast.ml" 179 6034 6034 --
+)
+"ast.ml" 179 6034 6054 "ast.ml" 179 6034 6056
+type(
+  'a
+)
+ident(
+  def e1 "ast.ml" 179 6034 6057 "ast.ml" 179 6034 6069
+)
+"ast.ml" 179 6034 6057 "ast.ml" 179 6034 6059
+type(
+  'a
+)
+ident(
+  def e2 "ast.ml" 179 6034 6062 "ast.ml" 179 6034 6069
+)
+"ast.ml" 179 6034 6062 "ast.ml" 179 6034 6064
+type(
+  'a
+)
+ident(
+  int_ref e1 "ast.ml" 179 6034 6054 "ast.ml" 179 6034 6056
+)
+"ast.ml" 179 6034 6065 "ast.ml" 179 6034 6066
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast.ml" 179 6034 6067 "ast.ml" 179 6034 6069
+type(
+  'a
+)
+ident(
+  int_ref e2 "ast.ml" 179 6034 6057 "ast.ml" 179 6034 6059
+)
+"ast.ml" 179 6034 6062 "ast.ml" 179 6034 6069
+type(
+  bool
+)
+"ast.ml" 200 7046 7050 "ast.ml" 200 7046 7055
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def === "ast.ml" 202 7071 7071 --
+)
+"ast.ml" 200 7046 7058 "ast.ml" 200 7046 7069
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref full_exp_eq "ast.ml" 179 6034 6042 "ast.ml" 179 6034 6053
+)
+"ast.ml" 202 7071 7075 "ast.ml" 202 7071 7086
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare_exp "ast.ml" 232 8144 8144 --
+)
+"ast.ml" 202 7071 7087 "ast.ml" 202 7071 7089
+type(
+  'a
+)
+ident(
+  def e1 "ast.ml" 202 7071 7090 "ast.ml" 202 7071 7119
+)
+"ast.ml" 202 7071 7090 "ast.ml" 202 7071 7092
+type(
+  'a
+)
+ident(
+  def e2 "ast.ml" 202 7071 7095 "ast.ml" 202 7071 7119
+)
+"ast.ml" 202 7071 7095 "ast.ml" 202 7071 7113
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"ast.ml" 202 7071 7114 "ast.ml" 202 7071 7116
+type(
+  'a
+)
+ident(
+  int_ref e1 "ast.ml" 202 7071 7087 "ast.ml" 202 7071 7089
+)
+"ast.ml" 202 7071 7117 "ast.ml" 202 7071 7119
+type(
+  'a
+)
+ident(
+  int_ref e2 "ast.ml" 202 7071 7090 "ast.ml" 202 7071 7092
+)
+"ast.ml" 202 7071 7095 "ast.ml" 202 7071 7119
+type(
+  int
+)
+"ast.ml" 232 8144 8148 "ast.ml" 232 8144 8156
+type(
+  stmt -> int
+)
+ident(
+  def num_stmt "ast.ml" 243 8323 8323 --
+)
+"ast.ml" 233 8168 8177 "ast.ml" 233 8168 8178
+type(
+  var * exp * attrs
+)
+"ast.ml" 233 8168 8172 "ast.ml" 233 8168 8178
+type(
+  stmt
+)
+"ast.ml" 233 8168 8182 "ast.ml" 233 8168 8183
+type(
+  int
+)
+"ast.ml" 234 8184 8192 "ast.ml" 234 8184 8193
+type(
+  exp * attrs
+)
+"ast.ml" 234 8184 8188 "ast.ml" 234 8184 8193
+type(
+  stmt
+)
+"ast.ml" 234 8184 8197 "ast.ml" 234 8184 8198
+type(
+  int
+)
+"ast.ml" 235 8199 8208 "ast.ml" 235 8199 8209
+type(
+  exp * exp * exp * attrs
+)
+"ast.ml" 235 8199 8203 "ast.ml" 235 8199 8209
+type(
+  stmt
+)
+"ast.ml" 235 8199 8213 "ast.ml" 235 8199 8214
+type(
+  int
+)
+"ast.ml" 236 8215 8225 "ast.ml" 236 8215 8226
+type(
+  Type.label * attrs
+)
+"ast.ml" 236 8215 8219 "ast.ml" 236 8215 8226
+type(
+  stmt
+)
+"ast.ml" 236 8215 8230 "ast.ml" 236 8215 8231
+type(
+  int
+)
+"ast.ml" 237 8232 8241 "ast.ml" 237 8232 8242
+type(
+  exp * attrs
+)
+"ast.ml" 237 8232 8236 "ast.ml" 237 8232 8242
+type(
+  stmt
+)
+"ast.ml" 237 8232 8246 "ast.ml" 237 8232 8247
+type(
+  int
+)
+"ast.ml" 238 8248 8259 "ast.ml" 238 8248 8260
+type(
+  exp * attrs
+)
+"ast.ml" 238 8248 8252 "ast.ml" 238 8248 8260
+type(
+  stmt
+)
+"ast.ml" 238 8248 8264 "ast.ml" 238 8248 8265
+type(
+  int
+)
+"ast.ml" 239 8266 8277 "ast.ml" 239 8266 8278
+type(
+  exp * attrs
+)
+"ast.ml" 239 8266 8270 "ast.ml" 239 8266 8278
+type(
+  stmt
+)
+"ast.ml" 239 8266 8282 "ast.ml" 239 8266 8283
+type(
+  int
+)
+"ast.ml" 240 8284 8296 "ast.ml" 240 8284 8297
+type(
+  string * attrs
+)
+"ast.ml" 240 8284 8288 "ast.ml" 240 8284 8297
+type(
+  stmt
+)
+"ast.ml" 240 8284 8301 "ast.ml" 240 8284 8302
+type(
+  int
+)
+"ast.ml" 241 8303 8315 "ast.ml" 241 8303 8316
+type(
+  string * Var.defuse option * attrs
+)
+"ast.ml" 241 8303 8307 "ast.ml" 241 8303 8316
+type(
+  stmt
+)
+"ast.ml" 241 8303 8320 "ast.ml" 241 8303 8321
+type(
+  int
+)
+"ast.ml" 232 8144 8159 "ast.ml" 241 8303 8321
+type(
+  stmt -> int
+)
+"ast.ml" 243 8323 8327 "ast.ml" 243 8323 8339
+type(
+  stmt -> exp list * var list * Type.label list * attrs list * string list
+)
+ident(
+  def getargs_stmt "ast.ml" 256 8804 8804 --
+)
+"ast.ml" 244 8351 8360 "ast.ml" 244 8351 8361
+type(
+  var
+)
+ident(
+  def v "ast.ml" 244 8351 8370 "ast.ml" 244 8351 8391
+)
+"ast.ml" 244 8351 8362 "ast.ml" 244 8351 8363
+type(
+  exp
+)
+ident(
+  def e "ast.ml" 244 8351 8370 "ast.ml" 244 8351 8391
+)
+"ast.ml" 244 8351 8364 "ast.ml" 244 8351 8365
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 244 8351 8370 "ast.ml" 244 8351 8391
+)
+"ast.ml" 244 8351 8359 "ast.ml" 244 8351 8366
+type(
+  var * exp * attrs
+)
+"ast.ml" 244 8351 8355 "ast.ml" 244 8351 8366
+type(
+  stmt
+)
+"ast.ml" 244 8351 8371 "ast.ml" 244 8351 8372
+type(
+  exp
+)
+ident(
+  int_ref e "ast.ml" 244 8351 8362 "ast.ml" 244 8351 8363
+)
+"ast.ml" 244 8351 8370 "ast.ml" 244 8351 8373
+type(
+  exp list
+)
+"ast.ml" 244 8351 8376 "ast.ml" 244 8351 8377
+type(
+  var
+)
+ident(
+  int_ref v "ast.ml" 244 8351 8360 "ast.ml" 244 8351 8361
+)
+"ast.ml" 244 8351 8375 "ast.ml" 244 8351 8378
+type(
+  var list
+)
+"ast.ml" 244 8351 8380 "ast.ml" 244 8351 8382
+type(
+  Type.label list
+)
+"ast.ml" 244 8351 8385 "ast.ml" 244 8351 8386
+type(
+  attrs
+)
+ident(
+  int_ref a "ast.ml" 244 8351 8364 "ast.ml" 244 8351 8365
+)
+"ast.ml" 244 8351 8384 "ast.ml" 244 8351 8387
+type(
+  attrs list
+)
+"ast.ml" 244 8351 8389 "ast.ml" 244 8351 8391
+type(
+  string list
+)
+"ast.ml" 244 8351 8370 "ast.ml" 244 8351 8391
+type(
+  exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 245 8392 8401 "ast.ml" 245 8392 8403
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 245 8392 8416 "ast.ml" 245 8392 8443
+)
+"ast.ml" 245 8392 8404 "ast.ml" 245 8392 8406
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 245 8392 8416 "ast.ml" 245 8392 8443
+)
+"ast.ml" 245 8392 8407 "ast.ml" 245 8392 8409
+type(
+  exp
+)
+ident(
+  def e3 "ast.ml" 245 8392 8416 "ast.ml" 245 8392 8443
+)
+"ast.ml" 245 8392 8410 "ast.ml" 245 8392 8411
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 245 8392 8416 "ast.ml" 245 8392 8443
+)
+"ast.ml" 245 8392 8400 "ast.ml" 245 8392 8412
+type(
+  exp * exp * exp * attrs
+)
+"ast.ml" 245 8392 8396 "ast.ml" 245 8392 8412
+type(
+  stmt
+)
+"ast.ml" 245 8392 8417 "ast.ml" 245 8392 8419
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 245 8392 8401 "ast.ml" 245 8392 8403
+)
+"ast.ml" 245 8392 8420 "ast.ml" 245 8392 8422
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 245 8392 8404 "ast.ml" 245 8392 8406
+)
+"ast.ml" 245 8392 8423 "ast.ml" 245 8392 8425
+type(
+  exp
+)
+ident(
+  int_ref e3 "ast.ml" 245 8392 8407 "ast.ml" 245 8392 8409
+)
+"ast.ml" 245 8392 8416 "ast.ml" 245 8392 8426
+type(
+  exp list
+)
+"ast.ml" 245 8392 8428 "ast.ml" 245 8392 8430
+type(
+  var list
+)
+"ast.ml" 245 8392 8432 "ast.ml" 245 8392 8434
+type(
+  Type.label list
+)
+"ast.ml" 245 8392 8437 "ast.ml" 245 8392 8438
+type(
+  attrs
+)
+ident(
+  int_ref a "ast.ml" 245 8392 8410 "ast.ml" 245 8392 8411
+)
+"ast.ml" 245 8392 8436 "ast.ml" 245 8392 8439
+type(
+  attrs list
+)
+"ast.ml" 245 8392 8441 "ast.ml" 245 8392 8443
+type(
+  string list
+)
+"ast.ml" 245 8392 8416 "ast.ml" 245 8392 8443
+type(
+  exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 246 8444 8454 "ast.ml" 246 8444 8455
+type(
+  Type.label
+)
+ident(
+  def l "ast.ml" 246 8444 8462 "ast.ml" 246 8444 8482
+)
+"ast.ml" 246 8444 8456 "ast.ml" 246 8444 8457
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 246 8444 8462 "ast.ml" 246 8444 8482
+)
+"ast.ml" 246 8444 8453 "ast.ml" 246 8444 8458
+type(
+  Type.label * attrs
+)
+"ast.ml" 246 8444 8448 "ast.ml" 246 8444 8458
+type(
+  stmt
+)
+"ast.ml" 246 8444 8462 "ast.ml" 246 8444 8464
+type(
+  exp list
+)
+"ast.ml" 246 8444 8466 "ast.ml" 246 8444 8468
+type(
+  var list
+)
+"ast.ml" 246 8444 8471 "ast.ml" 246 8444 8472
+type(
+  Type.label
+)
+ident(
+  int_ref l "ast.ml" 246 8444 8454 "ast.ml" 246 8444 8455
+)
+"ast.ml" 246 8444 8470 "ast.ml" 246 8444 8473
+type(
+  Type.label list
+)
+"ast.ml" 246 8444 8476 "ast.ml" 246 8444 8477
+type(
+  attrs
+)
+ident(
+  int_ref a "ast.ml" 246 8444 8456 "ast.ml" 246 8444 8457
+)
+"ast.ml" 246 8444 8475 "ast.ml" 246 8444 8478
+type(
+  attrs list
+)
+"ast.ml" 246 8444 8480 "ast.ml" 246 8444 8482
+type(
+  string list
+)
+"ast.ml" 246 8444 8462 "ast.ml" 246 8444 8482
+type(
+  exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 247 8483 8491 "ast.ml" 247 8483 8492
+type(
+  exp
+)
+ident(
+  def e "ast.ml" 250 8526 8545 "ast.ml" 250 8526 8565
+)
+"ast.ml" 247 8483 8493 "ast.ml" 247 8483 8494
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 250 8526 8545 "ast.ml" 250 8526 8565
+)
+"ast.ml" 247 8483 8490 "ast.ml" 247 8483 8495
+type(
+  exp * attrs
+)
+"ast.ml" 247 8483 8487 "ast.ml" 247 8483 8495
+type(
+  stmt
+)
+"ast.ml" 248 8496 8505 "ast.ml" 248 8496 8506
+type(
+  exp
+)
+ident(
+  def e "ast.ml" 250 8526 8545 "ast.ml" 250 8526 8565
+)
+"ast.ml" 248 8496 8507 "ast.ml" 248 8496 8508
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 250 8526 8545 "ast.ml" 250 8526 8565
+)
+"ast.ml" 248 8496 8504 "ast.ml" 248 8496 8509
+type(
+  exp * attrs
+)
+"ast.ml" 248 8496 8500 "ast.ml" 248 8496 8509
+type(
+  stmt
+)
+"ast.ml" 247 8483 8487 "ast.ml" 248 8496 8509
+type(
+  stmt
+)
+"ast.ml" 249 8510 8521 "ast.ml" 249 8510 8522
+type(
+  exp
+)
+ident(
+  def e "ast.ml" 250 8526 8545 "ast.ml" 250 8526 8565
+)
+"ast.ml" 249 8510 8523 "ast.ml" 249 8510 8524
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 250 8526 8545 "ast.ml" 250 8526 8565
+)
+"ast.ml" 249 8510 8520 "ast.ml" 249 8510 8525
+type(
+  exp * attrs
+)
+"ast.ml" 249 8510 8514 "ast.ml" 249 8510 8525
+type(
+  stmt
+)
+"ast.ml" 247 8483 8487 "ast.ml" 249 8510 8525
+type(
+  stmt
+)
+"ast.ml" 250 8526 8537 "ast.ml" 250 8526 8538
+type(
+  exp
+)
+ident(
+  def e "ast.ml" 250 8526 8545 "ast.ml" 250 8526 8565
+)
+"ast.ml" 250 8526 8539 "ast.ml" 250 8526 8540
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 250 8526 8545 "ast.ml" 250 8526 8565
+)
+"ast.ml" 250 8526 8536 "ast.ml" 250 8526 8541
+type(
+  exp * attrs
+)
+"ast.ml" 250 8526 8530 "ast.ml" 250 8526 8541
+type(
+  stmt
+)
+"ast.ml" 247 8483 8487 "ast.ml" 250 8526 8541
+type(
+  stmt
+)
+"ast.ml" 250 8526 8546 "ast.ml" 250 8526 8547
+type(
+  exp
+)
+ident(
+  int_ref e "ast.ml" 247 8483 8491 "ast.ml" 247 8483 8492
+)
+"ast.ml" 250 8526 8545 "ast.ml" 250 8526 8548
+type(
+  exp list
+)
+"ast.ml" 250 8526 8550 "ast.ml" 250 8526 8552
+type(
+  var list
+)
+"ast.ml" 250 8526 8554 "ast.ml" 250 8526 8556
+type(
+  Type.label list
+)
+"ast.ml" 250 8526 8559 "ast.ml" 250 8526 8560
+type(
+  attrs
+)
+ident(
+  int_ref a "ast.ml" 247 8483 8493 "ast.ml" 247 8483 8494
+)
+"ast.ml" 250 8526 8558 "ast.ml" 250 8526 8561
+type(
+  attrs list
+)
+"ast.ml" 250 8526 8563 "ast.ml" 250 8526 8565
+type(
+  string list
+)
+"ast.ml" 250 8526 8545 "ast.ml" 250 8526 8565
+type(
+  exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 251 8566 8578 "ast.ml" 251 8566 8579
+type(
+  string
+)
+ident(
+  def s "ast.ml" 251 8566 8604 "ast.ml" 251 8566 8631
+)
+"ast.ml" 251 8566 8586 "ast.ml" 251 8566 8590
+type(
+  var list
+)
+ident(
+  def defs "ast.ml" 251 8566 8604 "ast.ml" 251 8566 8631
+)
+"ast.ml" 251 8566 8586 "ast.ml" 251 8566 8596
+type(
+  var list
+)
+ident(
+  def uses "ast.ml" 251 8566 8604 "ast.ml" 251 8566 8631
+)
+"ast.ml" 251 8566 8585 "ast.ml" 251 8566 8597
+type(
+  Var.defuse
+)
+"ast.ml" 251 8566 8580 "ast.ml" 251 8566 8597
+type(
+  Var.defuse option
+)
+"ast.ml" 251 8566 8598 "ast.ml" 251 8566 8599
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 251 8566 8604 "ast.ml" 251 8566 8631
+)
+"ast.ml" 251 8566 8577 "ast.ml" 251 8566 8600
+type(
+  string * Var.defuse option * attrs
+)
+"ast.ml" 251 8566 8570 "ast.ml" 251 8566 8600
+type(
+  stmt
+)
+"ast.ml" 251 8566 8604 "ast.ml" 251 8566 8606
+type(
+  exp list
+)
+"ast.ml" 251 8566 8608 "ast.ml" 251 8566 8612
+type(
+  var list
+)
+ident(
+  int_ref defs "ast.ml" 251 8566 8586 "ast.ml" 251 8566 8590
+)
+"ast.ml" 251 8566 8612 "ast.ml" 251 8566 8613
+type(
+  var list -> var list -> var list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"ast.ml" 251 8566 8613 "ast.ml" 251 8566 8617
+type(
+  var list
+)
+ident(
+  int_ref uses "ast.ml" 251 8566 8586 "ast.ml" 251 8566 8596
+)
+"ast.ml" 251 8566 8608 "ast.ml" 251 8566 8617
+call(
+  stack
+)
+type(
+  var list
+)
+"ast.ml" 251 8566 8619 "ast.ml" 251 8566 8621
+type(
+  Type.label list
+)
+"ast.ml" 251 8566 8624 "ast.ml" 251 8566 8625
+type(
+  attrs
+)
+ident(
+  int_ref a "ast.ml" 251 8566 8598 "ast.ml" 251 8566 8599
+)
+"ast.ml" 251 8566 8623 "ast.ml" 251 8566 8626
+type(
+  attrs list
+)
+"ast.ml" 251 8566 8629 "ast.ml" 251 8566 8630
+type(
+  string
+)
+ident(
+  int_ref s "ast.ml" 251 8566 8578 "ast.ml" 251 8566 8579
+)
+"ast.ml" 251 8566 8628 "ast.ml" 251 8566 8631
+type(
+  string list
+)
+"ast.ml" 251 8566 8604 "ast.ml" 251 8566 8631
+type(
+  exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 252 8632 8644 "ast.ml" 252 8632 8645
+type(
+  string
+)
+ident(
+  def s "ast.ml" 253 8654 8674 "ast.ml" 253 8654 8694
+)
+"ast.ml" 252 8632 8646 "ast.ml" 252 8632 8650
+type(
+  Var.defuse option
+)
+"ast.ml" 252 8632 8651 "ast.ml" 252 8632 8652
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 253 8654 8674 "ast.ml" 253 8654 8694
+)
+"ast.ml" 252 8632 8643 "ast.ml" 252 8632 8653
+type(
+  string * Var.defuse option * attrs
+)
+"ast.ml" 252 8632 8636 "ast.ml" 252 8632 8653
+type(
+  stmt
+)
+"ast.ml" 253 8654 8666 "ast.ml" 253 8654 8667
+type(
+  string
+)
+ident(
+  def s "ast.ml" 253 8654 8674 "ast.ml" 253 8654 8694
+)
+"ast.ml" 253 8654 8668 "ast.ml" 253 8654 8669
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 253 8654 8674 "ast.ml" 253 8654 8694
+)
+"ast.ml" 253 8654 8665 "ast.ml" 253 8654 8670
+type(
+  string * attrs
+)
+"ast.ml" 253 8654 8658 "ast.ml" 253 8654 8670
+type(
+  stmt
+)
+"ast.ml" 252 8632 8636 "ast.ml" 253 8654 8670
+type(
+  stmt
+)
+"ast.ml" 253 8654 8674 "ast.ml" 253 8654 8676
+type(
+  exp list
+)
+"ast.ml" 253 8654 8678 "ast.ml" 253 8654 8680
+type(
+  var list
+)
+"ast.ml" 253 8654 8682 "ast.ml" 253 8654 8684
+type(
+  Type.label list
+)
+"ast.ml" 253 8654 8687 "ast.ml" 253 8654 8688
+type(
+  attrs
+)
+ident(
+  int_ref a "ast.ml" 252 8632 8651 "ast.ml" 252 8632 8652
+)
+"ast.ml" 253 8654 8686 "ast.ml" 253 8654 8689
+type(
+  attrs list
+)
+"ast.ml" 253 8654 8692 "ast.ml" 253 8654 8693
+type(
+  string
+)
+ident(
+  int_ref s "ast.ml" 252 8632 8644 "ast.ml" 252 8632 8645
+)
+"ast.ml" 253 8654 8691 "ast.ml" 253 8654 8694
+type(
+  string list
+)
+"ast.ml" 253 8654 8674 "ast.ml" 253 8654 8694
+type(
+  exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 243 8323 8342 "ast.ml" 253 8654 8694
+type(
+  stmt -> exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 256 8804 8808 "ast.ml" 256 8804 8821
+type(
+  stmt -> stmt -> bool
+)
+ident(
+  def quick_stmt_eq "ast.ml" 276 9526 9526 --
+)
+"ast.ml" 256 8804 8822 "ast.ml" 256 8804 8824
+type(
+  stmt
+)
+ident(
+  def s1 "ast.ml" 256 8804 8825 "ast.ml" 272 9422 9433
+)
+"ast.ml" 256 8804 8825 "ast.ml" 256 8804 8827
+type(
+  stmt
+)
+ident(
+  def s2 "ast.ml" 257 8830 8832 "ast.ml" 272 9422 9433
+)
+"ast.ml" 257 8830 8836 "ast.ml" 257 8830 8844
+type(
+  stmt -> int
+)
+ident(
+  int_ref num_stmt "ast.ml" 232 8144 8148 "ast.ml" 232 8144 8156
+)
+"ast.ml" 257 8830 8845 "ast.ml" 257 8830 8847
+type(
+  stmt
+)
+ident(
+  int_ref s1 "ast.ml" 256 8804 8822 "ast.ml" 256 8804 8824
+)
+"ast.ml" 257 8830 8835 "ast.ml" 257 8830 8848
+call(
+  stack
+)
+type(
+  int
+)
+"ast.ml" 257 8830 8849 "ast.ml" 257 8830 8851
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ast.ml" 257 8830 8853 "ast.ml" 257 8830 8861
+type(
+  stmt -> int
+)
+ident(
+  int_ref num_stmt "ast.ml" 232 8144 8148 "ast.ml" 232 8144 8156
+)
+"ast.ml" 257 8830 8862 "ast.ml" 257 8830 8864
+type(
+  stmt
+)
+ident(
+  int_ref s2 "ast.ml" 256 8804 8825 "ast.ml" 256 8804 8827
+)
+"ast.ml" 257 8830 8852 "ast.ml" 257 8830 8865
+call(
+  stack
+)
+type(
+  int
+)
+"ast.ml" 257 8830 8835 "ast.ml" 257 8830 8865
+type(
+  bool
+)
+"ast.ml" 257 8830 8871 "ast.ml" 257 8830 8876
+type(
+  bool
+)
+"ast.ml" 258 8882 8890 "ast.ml" 258 8882 8892
+type(
+  exp list
+)
+"ast.ml" 258 8882 8893 "ast.ml" 258 8882 8895
+type(
+  var list
+)
+"ast.ml" 258 8882 8896 "ast.ml" 258 8882 8898
+type(
+  Type.label list
+)
+"ast.ml" 258 8882 8899 "ast.ml" 258 8882 8901
+type(
+  attrs list
+)
+"ast.ml" 258 8882 8902 "ast.ml" 258 8882 8904
+type(
+  string list
+)
+"ast.ml" 258 8882 8890 "ast.ml" 258 8882 8904
+type(
+  exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 258 8882 8907 "ast.ml" 258 8882 8919
+type(
+  stmt -> exp list * var list * Type.label list * attrs list * string list
+)
+ident(
+  int_ref getargs_stmt "ast.ml" 243 8323 8327 "ast.ml" 243 8323 8339
+)
+"ast.ml" 258 8882 8920 "ast.ml" 258 8882 8922
+type(
+  stmt
+)
+ident(
+  int_ref s1 "ast.ml" 256 8804 8822 "ast.ml" 256 8804 8824
+)
+"ast.ml" 258 8882 8907 "ast.ml" 258 8882 8922
+call(
+  stack
+)
+type(
+  exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 259 8926 8934 "ast.ml" 259 8926 8936
+type(
+  exp list
+)
+"ast.ml" 259 8926 8937 "ast.ml" 259 8926 8939
+type(
+  var list
+)
+"ast.ml" 259 8926 8940 "ast.ml" 259 8926 8942
+type(
+  Type.label list
+)
+"ast.ml" 259 8926 8943 "ast.ml" 259 8926 8945
+type(
+  attrs list
+)
+"ast.ml" 259 8926 8946 "ast.ml" 259 8926 8948
+type(
+  string list
+)
+"ast.ml" 259 8926 8934 "ast.ml" 259 8926 8948
+type(
+  exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 259 8926 8951 "ast.ml" 259 8926 8963
+type(
+  stmt -> exp list * var list * Type.label list * attrs list * string list
+)
+ident(
+  int_ref getargs_stmt "ast.ml" 243 8323 8327 "ast.ml" 243 8323 8339
+)
+"ast.ml" 259 8926 8964 "ast.ml" 259 8926 8966
+type(
+  stmt
+)
+ident(
+  int_ref s2 "ast.ml" 256 8804 8825 "ast.ml" 256 8804 8827
+)
+"ast.ml" 259 8926 8951 "ast.ml" 259 8926 8966
+call(
+  stack
+)
+type(
+  exp list * var list * Type.label list * attrs list * string list
+)
+"ast.ml" 260 8970 8978 "ast.ml" 260 8970 8980
+type(
+  bool
+)
+"ast.ml" 260 8970 8983 "ast.ml" 260 8970 8996
+type(
+  (exp -> exp -> bool) -> exp list -> exp list -> bool
+)
+ident(
+  ext_ref BatListFull.List.for_all2
+)
+"ast.ml" 260 8970 8997 "ast.ml" 260 8970 9001
+type(
+  exp -> exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 260 8970 9002 "ast.ml" 260 8970 9004
+type(
+  exp list
+)
+ident(
+  int_ref l1 "ast.ml" 258 8882 8890 "ast.ml" 258 8882 8892
+)
+"ast.ml" 260 8970 9005 "ast.ml" 260 8970 9007
+type(
+  exp list
+)
+ident(
+  int_ref r1 "ast.ml" 259 8926 8934 "ast.ml" 259 8926 8936
+)
+"ast.ml" 260 8970 8983 "ast.ml" 260 8970 9007
+call(
+  stack
+)
+type(
+  bool
+)
+"ast.ml" 261 9011 9019 "ast.ml" 261 9011 9021
+type(
+  bool
+)
+"ast.ml" 261 9011 9024 "ast.ml" 261 9011 9037
+type(
+  (var -> var -> bool) -> var list -> var list -> bool
+)
+ident(
+  ext_ref BatListFull.List.for_all2
+)
+"ast.ml" 261 9011 9038 "ast.ml" 261 9011 9042
+type(
+  var -> var -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 261 9011 9043 "ast.ml" 261 9011 9045
+type(
+  var list
+)
+ident(
+  int_ref l2 "ast.ml" 258 8882 8893 "ast.ml" 258 8882 8895
+)
+"ast.ml" 261 9011 9046 "ast.ml" 261 9011 9048
+type(
+  var list
+)
+ident(
+  int_ref r2 "ast.ml" 259 8926 8937 "ast.ml" 259 8926 8939
+)
+"ast.ml" 261 9011 9024 "ast.ml" 261 9011 9048
+call(
+  stack
+)
+type(
+  bool
+)
+"ast.ml" 262 9052 9060 "ast.ml" 262 9052 9062
+type(
+  bool
+)
+"ast.ml" 262 9052 9065 "ast.ml" 262 9052 9078
+type(
+  (Type.label -> Type.label -> bool) ->
+  Type.label list -> Type.label list -> bool
+)
+ident(
+  ext_ref BatListFull.List.for_all2
+)
+"ast.ml" 262 9052 9079 "ast.ml" 262 9052 9083
+type(
+  Type.label -> Type.label -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 262 9052 9084 "ast.ml" 262 9052 9086
+type(
+  Type.label list
+)
+ident(
+  int_ref l3 "ast.ml" 258 8882 8896 "ast.ml" 258 8882 8898
+)
+"ast.ml" 262 9052 9087 "ast.ml" 262 9052 9089
+type(
+  Type.label list
+)
+ident(
+  int_ref r3 "ast.ml" 259 8926 8940 "ast.ml" 259 8926 8942
+)
+"ast.ml" 262 9052 9065 "ast.ml" 262 9052 9089
+call(
+  stack
+)
+type(
+  bool
+)
+"ast.ml" 263 9093 9101 "ast.ml" 263 9093 9103
+type(
+  bool
+)
+"ast.ml" 263 9093 9106 "ast.ml" 263 9093 9119
+type(
+  (attrs -> attrs -> bool) -> attrs list -> attrs list -> bool
+)
+ident(
+  ext_ref BatListFull.List.for_all2
+)
+"ast.ml" 263 9093 9120 "ast.ml" 263 9093 9124
+type(
+  attrs -> attrs -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 263 9093 9125 "ast.ml" 263 9093 9127
+type(
+  attrs list
+)
+ident(
+  int_ref l4 "ast.ml" 258 8882 8899 "ast.ml" 258 8882 8901
+)
+"ast.ml" 263 9093 9128 "ast.ml" 263 9093 9130
+type(
+  attrs list
+)
+ident(
+  int_ref r4 "ast.ml" 259 8926 8943 "ast.ml" 259 8926 8945
+)
+"ast.ml" 263 9093 9106 "ast.ml" 263 9093 9130
+call(
+  stack
+)
+type(
+  bool
+)
+"ast.ml" 264 9134 9142 "ast.ml" 264 9134 9144
+type(
+  bool
+)
+"ast.ml" 264 9134 9147 "ast.ml" 264 9134 9160
+type(
+  (string -> string -> bool) -> string list -> string list -> bool
+)
+ident(
+  ext_ref BatListFull.List.for_all2
+)
+"ast.ml" 264 9134 9161 "ast.ml" 264 9134 9165
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ast.ml" 264 9134 9166 "ast.ml" 264 9134 9168
+type(
+  string list
+)
+ident(
+  int_ref l5 "ast.ml" 258 8882 8902 "ast.ml" 258 8882 8904
+)
+"ast.ml" 264 9134 9169 "ast.ml" 264 9134 9171
+type(
+  string list
+)
+ident(
+  int_ref r5 "ast.ml" 259 8926 8946 "ast.ml" 259 8926 8948
+)
+"ast.ml" 264 9134 9147 "ast.ml" 264 9134 9171
+call(
+  stack
+)
+type(
+  bool
+)
+"ast.ml" 265 9175 9182 "ast.ml" 265 9175 9184
+type(
+  bool
+)
+ident(
+  int_ref b1 "ast.ml" 260 8970 8978 "ast.ml" 260 8970 8980
+)
+"ast.ml" 265 9175 9185 "ast.ml" 265 9175 9187
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 265 9175 9188 "ast.ml" 265 9175 9190
+type(
+  bool
+)
+ident(
+  int_ref b2 "ast.ml" 261 9011 9019 "ast.ml" 261 9011 9021
+)
+"ast.ml" 265 9175 9191 "ast.ml" 265 9175 9193
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 265 9175 9194 "ast.ml" 265 9175 9196
+type(
+  bool
+)
+ident(
+  int_ref b3 "ast.ml" 262 9052 9060 "ast.ml" 262 9052 9062
+)
+"ast.ml" 265 9175 9197 "ast.ml" 265 9175 9199
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 265 9175 9200 "ast.ml" 265 9175 9202
+type(
+  bool
+)
+ident(
+  int_ref b4 "ast.ml" 263 9093 9101 "ast.ml" 263 9093 9103
+)
+"ast.ml" 265 9175 9203 "ast.ml" 265 9175 9205
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 265 9175 9206 "ast.ml" 265 9175 9208
+type(
+  bool
+)
+ident(
+  int_ref b5 "ast.ml" 264 9134 9142 "ast.ml" 264 9134 9144
+)
+"ast.ml" 265 9175 9200 "ast.ml" 265 9175 9208
+type(
+  bool
+)
+"ast.ml" 265 9175 9194 "ast.ml" 265 9175 9208
+type(
+  bool
+)
+"ast.ml" 265 9175 9188 "ast.ml" 265 9175 9208
+type(
+  bool
+)
+"ast.ml" 265 9175 9182 "ast.ml" 265 9175 9208
+type(
+  bool
+)
+"ast.ml" 266 9214 9220 "ast.ml" 266 9214 9224
+type(
+  bool
+)
+"ast.ml" 267 9225 9237 "ast.ml" 267 9225 9239
+type(
+  bool
+)
+ident(
+  int_ref b2 "ast.ml" 261 9011 9019 "ast.ml" 261 9011 9021
+)
+"ast.ml" 267 9225 9240 "ast.ml" 267 9225 9242
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 267 9225 9243 "ast.ml" 267 9225 9245
+type(
+  bool
+)
+ident(
+  int_ref b3 "ast.ml" 262 9052 9060 "ast.ml" 262 9052 9062
+)
+"ast.ml" 267 9225 9246 "ast.ml" 267 9225 9248
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 267 9225 9249 "ast.ml" 267 9225 9251
+type(
+  bool
+)
+ident(
+  int_ref b4 "ast.ml" 263 9093 9101 "ast.ml" 263 9093 9103
+)
+"ast.ml" 267 9225 9252 "ast.ml" 267 9225 9254
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast.ml" 267 9225 9255 "ast.ml" 267 9225 9257
+type(
+  bool
+)
+ident(
+  int_ref b5 "ast.ml" 264 9134 9142 "ast.ml" 264 9134 9144
+)
+"ast.ml" 267 9225 9249 "ast.ml" 267 9225 9257
+type(
+  bool
+)
+"ast.ml" 267 9225 9243 "ast.ml" 267 9225 9257
+type(
+  bool
+)
+"ast.ml" 267 9225 9237 "ast.ml" 267 9225 9257
+type(
+  bool
+)
+"ast.ml" 270 9374 9380 "ast.ml" 270 9374 9393
+type(
+  (exp -> exp -> bool) -> exp list -> exp list -> bool
+)
+ident(
+  ext_ref BatListFull.List.for_all2
+)
+"ast.ml" 270 9374 9394 "ast.ml" 270 9374 9406
+type(
+  exp -> exp -> bool
+)
+ident(
+  int_ref quick_exp_eq "ast.ml" 146 4783 4787 "ast.ml" 146 4783 4799
+)
+"ast.ml" 270 9374 9407 "ast.ml" 270 9374 9409
+type(
+  exp list
+)
+ident(
+  int_ref l1 "ast.ml" 258 8882 8890 "ast.ml" 258 8882 8892
+)
+"ast.ml" 270 9374 9410 "ast.ml" 270 9374 9412
+type(
+  exp list
+)
+ident(
+  int_ref r1 "ast.ml" 259 8926 8934 "ast.ml" 259 8926 8936
+)
+"ast.ml" 270 9374 9380 "ast.ml" 270 9374 9412
+call(
+  tail
+)
+type(
+  bool
+)
+"ast.ml" 272 9422 9428 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 267 9225 9234 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 265 9175 9179 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 264 9134 9138 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 263 9093 9097 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 262 9052 9056 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 261 9011 9015 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 260 8970 8974 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 259 8926 8930 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 258 8882 8886 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 257 8830 8832 "ast.ml" 272 9422 9433
+type(
+  bool
+)
+"ast.ml" 276 9526 9530 "ast.ml" 276 9526 9542
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def full_stmt_eq "ast.ml" 294 10281 10281 --
+)
+"ast.ml" 276 9526 9543 "ast.ml" 276 9526 9545
+type(
+  'a
+)
+ident(
+  def s1 "ast.ml" 276 9526 9546 "ast.ml" 276 9526 9558
+)
+"ast.ml" 276 9526 9546 "ast.ml" 276 9526 9548
+type(
+  'a
+)
+ident(
+  def s2 "ast.ml" 276 9526 9551 "ast.ml" 276 9526 9558
+)
+"ast.ml" 276 9526 9551 "ast.ml" 276 9526 9553
+type(
+  'a
+)
+ident(
+  int_ref s1 "ast.ml" 276 9526 9543 "ast.ml" 276 9526 9545
+)
+"ast.ml" 276 9526 9554 "ast.ml" 276 9526 9555
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast.ml" 276 9526 9556 "ast.ml" 276 9526 9558
+type(
+  'a
+)
+ident(
+  int_ref s2 "ast.ml" 276 9526 9546 "ast.ml" 276 9526 9548
+)
+"ast.ml" 276 9526 9551 "ast.ml" 276 9526 9558
+type(
+  bool
+)
+"ast.ml" 294 10281 10285 "ast.ml" 294 10281 10300
+type(
+  stmt -> bool
+)
+ident(
+  def is_indirectjump "ast.ml" 304 10564 10564 --
+)
+"ast.ml" 294 10281 10301 "ast.ml" 294 10281 10302
+type(
+  stmt
+)
+ident(
+  def s "ast.ml" 295 10305 10307 "ast.ml" 302 10550 10562
+)
+"ast.ml" 295 10305 10311 "ast.ml" 295 10305 10326
+type(
+  exp -> bool
+)
+"ast.ml" 295 10305 10327 "ast.ml" 295 10305 10328
+type(
+  exp
+)
+ident(
+  def e "ast.ml" 295 10305 10331 "ast.ml" 297 10377 10395
+)
+"ast.ml" 295 10305 10337 "ast.ml" 295 10305 10347
+type(
+  exp -> Type.label option
+)
+ident(
+  int_ref lab_of_exp "ast.ml" 67 2238 2242 "ast.ml" 67 2238 2252
+)
+"ast.ml" 295 10305 10348 "ast.ml" 295 10305 10349
+type(
+  exp
+)
+ident(
+  int_ref e "ast.ml" 295 10305 10327 "ast.ml" 295 10305 10328
+)
+"ast.ml" 295 10305 10337 "ast.ml" 295 10305 10349
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"ast.ml" 296 10355 10366 "ast.ml" 296 10355 10367
+type(
+  Type.label
+)
+"ast.ml" 296 10355 10361 "ast.ml" 296 10355 10367
+type(
+  Type.label option
+)
+"ast.ml" 296 10355 10371 "ast.ml" 296 10355 10376
+type(
+  bool
+)
+"ast.ml" 297 10377 10383 "ast.ml" 297 10377 10387
+type(
+  Type.label option
+)
+"ast.ml" 297 10377 10391 "ast.ml" 297 10377 10395
+type(
+  bool
+)
+"ast.ml" 295 10305 10331 "ast.ml" 297 10377 10395
+type(
+  bool
+)
+"ast.ml" 299 10401 10407 "ast.ml" 299 10401 10408
+type(
+  stmt
+)
+ident(
+  int_ref s "ast.ml" 294 10281 10301 "ast.ml" 294 10281 10302
+)
+"ast.ml" 300 10414 10420 "ast.ml" 300 10414 10421
+type(
+  exp
+)
+ident(
+  def e "ast.ml" 300 10414 10429 "ast.ml" 300 10414 10446
+)
+"ast.ml" 300 10414 10423 "ast.ml" 300 10414 10424
+type(
+  attrs
+)
+"ast.ml" 300 10414 10419 "ast.ml" 300 10414 10425
+type(
+  exp * attrs
+)
+"ast.ml" 300 10414 10416 "ast.ml" 300 10414 10425
+type(
+  stmt
+)
+"ast.ml" 300 10414 10429 "ast.ml" 300 10414 10444
+type(
+  exp -> bool
+)
+ident(
+  int_ref is_indirect_exp "ast.ml" 295 10305 10311 "ast.ml" 295 10305 10326
+)
+"ast.ml" 300 10414 10445 "ast.ml" 300 10414 10446
+type(
+  exp
+)
+ident(
+  int_ref e "ast.ml" 300 10414 10420 "ast.ml" 300 10414 10421
+)
+"ast.ml" 300 10414 10429 "ast.ml" 300 10414 10446
+call(
+  tail
+)
+type(
+  bool
+)
+"ast.ml" 301 10485 10492 "ast.ml" 301 10485 10493
+type(
+  exp
+)
+"ast.ml" 301 10485 10495 "ast.ml" 301 10485 10497
+type(
+  exp
+)
+ident(
+  def e1 "ast.ml" 301 10485 10509 "ast.ml" 301 10485 10549
+)
+"ast.ml" 301 10485 10499 "ast.ml" 301 10485 10501
+type(
+  exp
+)
+ident(
+  def e2 "ast.ml" 301 10485 10509 "ast.ml" 301 10485 10549
+)
+"ast.ml" 301 10485 10503 "ast.ml" 301 10485 10504
+type(
+  attrs
+)
+"ast.ml" 301 10485 10491 "ast.ml" 301 10485 10505
+type(
+  exp * exp * exp * attrs
+)
+"ast.ml" 301 10485 10487 "ast.ml" 301 10485 10505
+type(
+  stmt
+)
+"ast.ml" 301 10485 10509 "ast.ml" 301 10485 10524
+type(
+  exp -> bool
+)
+ident(
+  int_ref is_indirect_exp "ast.ml" 295 10305 10311 "ast.ml" 295 10305 10326
+)
+"ast.ml" 301 10485 10525 "ast.ml" 301 10485 10527
+type(
+  exp
+)
+ident(
+  int_ref e1 "ast.ml" 301 10485 10495 "ast.ml" 301 10485 10497
+)
+"ast.ml" 301 10485 10509 "ast.ml" 301 10485 10527
+call(
+  stack
+)
+type(
+  bool
+)
+"ast.ml" 301 10485 10528 "ast.ml" 301 10485 10530
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ast.ml" 301 10485 10531 "ast.ml" 301 10485 10546
+type(
+  exp -> bool
+)
+ident(
+  int_ref is_indirect_exp "ast.ml" 295 10305 10311 "ast.ml" 295 10305 10326
+)
+"ast.ml" 301 10485 10547 "ast.ml" 301 10485 10549
+type(
+  exp
+)
+ident(
+  int_ref e2 "ast.ml" 301 10485 10499 "ast.ml" 301 10485 10501
+)
+"ast.ml" 301 10485 10531 "ast.ml" 301 10485 10549
+call(
+  tail
+)
+type(
+  bool
+)
+"ast.ml" 301 10485 10509 "ast.ml" 301 10485 10549
+type(
+  bool
+)
+"ast.ml" 302 10550 10552 "ast.ml" 302 10550 10553
+type(
+  stmt
+)
+"ast.ml" 302 10550 10557 "ast.ml" 302 10550 10562
+type(
+  bool
+)
+"ast.ml" 299 10401 10401 "ast.ml" 302 10550 10562
+type(
+  bool
+)
+"ast.ml" 295 10305 10307 "ast.ml" 302 10550 10562
+type(
+  bool
+)
+"ast.ml" 304 10564 10568 "ast.ml" 304 10564 10578
+type(
+  stmt -> bool
+)
+ident(
+  def is_syscall "ast.ml" 308 10656 10656 --
+)
+"ast.ml" 305 10590 10603 "ast.ml" 305 10590 10612
+type(
+  string
+)
+"ast.ml" 305 10590 10613 "ast.ml" 305 10590 10623
+type(
+  string
+)
+"ast.ml" 305 10590 10602 "ast.ml" 305 10590 10624
+type(
+  string
+)
+"ast.ml" 305 10590 10626 "ast.ml" 305 10590 10627
+type(
+  Var.defuse option
+)
+"ast.ml" 305 10590 10629 "ast.ml" 305 10590 10630
+type(
+  attrs
+)
+"ast.ml" 305 10590 10601 "ast.ml" 305 10590 10631
+type(
+  string * Var.defuse option * attrs
+)
+"ast.ml" 305 10590 10594 "ast.ml" 305 10590 10631
+type(
+  stmt
+)
+"ast.ml" 305 10590 10635 "ast.ml" 305 10590 10639
+type(
+  bool
+)
+"ast.ml" 306 10640 10644 "ast.ml" 306 10640 10645
+type(
+  stmt
+)
+"ast.ml" 306 10640 10649 "ast.ml" 306 10640 10654
+type(
+  bool
+)
+"ast.ml" 304 10564 10581 "ast.ml" 306 10640 10654
+type(
+  stmt -> bool
+)
+"ast.ml" 308 10656 10660 "ast.ml" 308 10656 10673
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  def full_stmts_eq "ast.ml" 312 10776 10776 --
+)
+"ast.ml" 308 10656 10674 "ast.ml" 308 10656 10676
+type(
+  'a list
+)
+ident(
+  def s1 "ast.ml" 308 10656 10677 "ast.ml" 310 10735 10774
+)
+"ast.ml" 308 10656 10677 "ast.ml" 308 10656 10679
+type(
+  'a list
+)
+ident(
+  def s2 "ast.ml" 309 10682 10684 "ast.ml" 310 10735 10774
+)
+"ast.ml" 309 10682 10688 "ast.ml" 309 10682 10699
+type(
+  'a list -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"ast.ml" 309 10682 10700 "ast.ml" 309 10682 10702
+type(
+  'a list
+)
+ident(
+  int_ref s1 "ast.ml" 308 10656 10674 "ast.ml" 308 10656 10676
+)
+"ast.ml" 309 10682 10687 "ast.ml" 309 10682 10703
+call(
+  stack
+)
+type(
+  int
+)
+"ast.ml" 309 10682 10704 "ast.ml" 309 10682 10706
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ast.ml" 309 10682 10708 "ast.ml" 309 10682 10719
+type(
+  'a list -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"ast.ml" 309 10682 10720 "ast.ml" 309 10682 10722
+type(
+  'a list
+)
+ident(
+  int_ref s2 "ast.ml" 308 10656 10677 "ast.ml" 308 10656 10679
+)
+"ast.ml" 309 10682 10707 "ast.ml" 309 10682 10723
+call(
+  stack
+)
+type(
+  int
+)
+"ast.ml" 309 10682 10687 "ast.ml" 309 10682 10723
+type(
+  bool
+)
+"ast.ml" 309 10682 10729 "ast.ml" 309 10682 10734
+type(
+  bool
+)
+"ast.ml" 310 10735 10742 "ast.ml" 310 10735 10755
+type(
+  ('a -> 'a -> bool) -> 'a list -> 'a list -> bool
+)
+ident(
+  ext_ref BatListFull.List.for_all2
+)
+"ast.ml" 310 10735 10756 "ast.ml" 310 10735 10768
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref full_stmt_eq "ast.ml" 276 9526 9530 "ast.ml" 276 9526 9542
+)
+"ast.ml" 310 10735 10769 "ast.ml" 310 10735 10771
+type(
+  'a list
+)
+ident(
+  int_ref s1 "ast.ml" 308 10656 10674 "ast.ml" 308 10656 10676
+)
+"ast.ml" 310 10735 10772 "ast.ml" 310 10735 10774
+type(
+  'a list
+)
+ident(
+  int_ref s2 "ast.ml" 308 10656 10677 "ast.ml" 308 10656 10679
+)
+"ast.ml" 310 10735 10742 "ast.ml" 310 10735 10774
+call(
+  tail
+)
+type(
+  bool
+)
+"ast.ml" 309 10682 10684 "ast.ml" 310 10735 10774
+type(
+  bool
+)
+"ast.ml" 312 10776 10780 "ast.ml" 312 10776 10787
+type(
+  exp -> bool
+)
+ident(
+  def is_true "ast.ml" 313 10807 10807 --
+)
+"ast.ml" 312 10776 10788 "ast.ml" 312 10776 10789
+type(
+  exp
+)
+ident(
+  def a "ast.ml" 312 10776 10792 "ast.ml" 312 10776 10806
+)
+"ast.ml" 312 10776 10792 "ast.ml" 312 10776 10793
+type(
+  exp
+)
+ident(
+  int_ref a "ast.ml" 312 10776 10788 "ast.ml" 312 10776 10789
+)
+"ast.ml" 312 10776 10794 "ast.ml" 312 10776 10797
+type(
+  exp -> exp -> bool
+)
+ident(
+  int_ref === "ast.ml" 200 7046 7050 "ast.ml" 200 7046 7055
+)
+"ast.ml" 312 10776 10798 "ast.ml" 312 10776 10806
+type(
+  exp
+)
+ident(
+  int_ref exp_true "ast.ml" 81 2702 2706 "ast.ml" 81 2702 2714
+)
+"ast.ml" 312 10776 10792 "ast.ml" 312 10776 10806
+call(
+  tail
+)
+type(
+  bool
+)
+"ast.ml" 313 10807 10811 "ast.ml" 313 10807 10819
+type(
+  exp -> bool
+)
+ident(
+  def is_false "ast.ml" 315 10841 10841 --
+)
+"ast.ml" 313 10807 10820 "ast.ml" 313 10807 10821
+type(
+  exp
+)
+ident(
+  def a "ast.ml" 313 10807 10824 "ast.ml" 313 10807 10839
+)
+"ast.ml" 313 10807 10824 "ast.ml" 313 10807 10825
+type(
+  exp
+)
+ident(
+  int_ref a "ast.ml" 313 10807 10820 "ast.ml" 313 10807 10821
+)
+"ast.ml" 313 10807 10826 "ast.ml" 313 10807 10829
+type(
+  exp -> exp -> bool
+)
+ident(
+  int_ref === "ast.ml" 200 7046 7050 "ast.ml" 200 7046 7055
+)
+"ast.ml" 313 10807 10830 "ast.ml" 313 10807 10839
+type(
+  exp
+)
+ident(
+  int_ref exp_false "ast.ml" 79 2648 2652 "ast.ml" 79 2648 2661
+)
+"ast.ml" 313 10807 10824 "ast.ml" 313 10807 10839
+call(
+  tail
+)
+type(
+  bool
+)
+"ast.ml" 315 10841 10845 "ast.ml" 315 10841 10854
+type(
+  stmt -> attrs
+)
+ident(
+  def get_attrs "ast.ml" 324 10991 11014 --
+)
+"ast.ml" 316 10866 10875 "ast.ml" 316 10866 10876
+type(
+  var
+)
+"ast.ml" 316 10866 10877 "ast.ml" 316 10866 10878
+type(
+  exp
+)
+"ast.ml" 316 10866 10879 "ast.ml" 316 10866 10880
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 324 10991 11013 "ast.ml" 324 10991 11014
+)
+"ast.ml" 316 10866 10874 "ast.ml" 316 10866 10881
+type(
+  var * exp * attrs
+)
+"ast.ml" 316 10866 10870 "ast.ml" 316 10866 10881
+type(
+  stmt
+)
+"ast.ml" 317 10882 10890 "ast.ml" 317 10882 10891
+type(
+  exp
+)
+"ast.ml" 317 10882 10892 "ast.ml" 317 10882 10893
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 324 10991 11013 "ast.ml" 324 10991 11014
+)
+"ast.ml" 317 10882 10889 "ast.ml" 317 10882 10894
+type(
+  exp * attrs
+)
+"ast.ml" 317 10882 10886 "ast.ml" 317 10882 10894
+type(
+  stmt
+)
+"ast.ml" 316 10866 10870 "ast.ml" 317 10882 10894
+type(
+  stmt
+)
+"ast.ml" 318 10895 10904 "ast.ml" 318 10895 10905
+type(
+  exp
+)
+"ast.ml" 318 10895 10906 "ast.ml" 318 10895 10907
+type(
+  exp
+)
+"ast.ml" 318 10895 10908 "ast.ml" 318 10895 10909
+type(
+  exp
+)
+"ast.ml" 318 10895 10910 "ast.ml" 318 10895 10911
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 324 10991 11013 "ast.ml" 324 10991 11014
+)
+"ast.ml" 318 10895 10903 "ast.ml" 318 10895 10912
+type(
+  exp * exp * exp * attrs
+)
+"ast.ml" 318 10895 10899 "ast.ml" 318 10895 10912
+type(
+  stmt
+)
+"ast.ml" 316 10866 10870 "ast.ml" 318 10895 10912
+type(
+  stmt
+)
+"ast.ml" 319 10913 10923 "ast.ml" 319 10913 10924
+type(
+  Type.label
+)
+"ast.ml" 319 10913 10925 "ast.ml" 319 10913 10926
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 324 10991 11013 "ast.ml" 324 10991 11014
+)
+"ast.ml" 319 10913 10922 "ast.ml" 319 10913 10927
+type(
+  Type.label * attrs
+)
+"ast.ml" 319 10913 10917 "ast.ml" 319 10913 10927
+type(
+  stmt
+)
+"ast.ml" 316 10866 10870 "ast.ml" 319 10913 10927
+type(
+  stmt
+)
+"ast.ml" 320 10928 10937 "ast.ml" 320 10928 10938
+type(
+  exp
+)
+"ast.ml" 320 10928 10939 "ast.ml" 320 10928 10940
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 324 10991 11013 "ast.ml" 324 10991 11014
+)
+"ast.ml" 320 10928 10936 "ast.ml" 320 10928 10941
+type(
+  exp * attrs
+)
+"ast.ml" 320 10928 10932 "ast.ml" 320 10928 10941
+type(
+  stmt
+)
+"ast.ml" 316 10866 10870 "ast.ml" 320 10928 10941
+type(
+  stmt
+)
+"ast.ml" 321 10942 10953 "ast.ml" 321 10942 10954
+type(
+  exp
+)
+"ast.ml" 321 10942 10955 "ast.ml" 321 10942 10956
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 324 10991 11013 "ast.ml" 324 10991 11014
+)
+"ast.ml" 321 10942 10952 "ast.ml" 321 10942 10957
+type(
+  exp * attrs
+)
+"ast.ml" 321 10942 10946 "ast.ml" 321 10942 10957
+type(
+  stmt
+)
+"ast.ml" 316 10866 10870 "ast.ml" 321 10942 10957
+type(
+  stmt
+)
+"ast.ml" 322 10958 10969 "ast.ml" 322 10958 10970
+type(
+  exp
+)
+"ast.ml" 322 10958 10971 "ast.ml" 322 10958 10972
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 324 10991 11013 "ast.ml" 324 10991 11014
+)
+"ast.ml" 322 10958 10968 "ast.ml" 322 10958 10973
+type(
+  exp * attrs
+)
+"ast.ml" 322 10958 10962 "ast.ml" 322 10958 10973
+type(
+  stmt
+)
+"ast.ml" 316 10866 10870 "ast.ml" 322 10958 10973
+type(
+  stmt
+)
+"ast.ml" 323 10974 10986 "ast.ml" 323 10974 10987
+type(
+  string
+)
+"ast.ml" 323 10974 10988 "ast.ml" 323 10974 10989
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 324 10991 11013 "ast.ml" 324 10991 11014
+)
+"ast.ml" 323 10974 10985 "ast.ml" 323 10974 10990
+type(
+  string * attrs
+)
+"ast.ml" 323 10974 10978 "ast.ml" 323 10974 10990
+type(
+  stmt
+)
+"ast.ml" 316 10866 10870 "ast.ml" 323 10974 10990
+type(
+  stmt
+)
+"ast.ml" 324 10991 11003 "ast.ml" 324 10991 11004
+type(
+  string
+)
+"ast.ml" 324 10991 11005 "ast.ml" 324 10991 11006
+type(
+  Var.defuse option
+)
+"ast.ml" 324 10991 11007 "ast.ml" 324 10991 11008
+type(
+  attrs
+)
+ident(
+  def a "ast.ml" 324 10991 11013 "ast.ml" 324 10991 11014
+)
+"ast.ml" 324 10991 11002 "ast.ml" 324 10991 11009
+type(
+  string * Var.defuse option * attrs
+)
+"ast.ml" 324 10991 10995 "ast.ml" 324 10991 11009
+type(
+  stmt
+)
+"ast.ml" 316 10866 10870 "ast.ml" 324 10991 11009
+type(
+  stmt
+)
+"ast.ml" 324 10991 11013 "ast.ml" 324 10991 11014
+type(
+  attrs
+)
+ident(
+  int_ref a "ast.ml" 316 10866 10879 "ast.ml" 316 10866 10880
+)
+"ast.ml" 315 10841 10857 "ast.ml" 324 10991 11014
+type(
+  stmt -> attrs
+)

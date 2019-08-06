@@ -1,0 +1,2848 @@
+"ssa_visitor.ml" 27 658 677 "ssa_visitor.ml" 27 658 678
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 27 658 683 "ssa_visitor.ml" 27 658 693
+type(
+  Ssa.exp Type.visit_action
+)
+"ssa_visitor.ml" 28 694 714 "ssa_visitor.ml" 28 694 715
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 28 694 719 "ssa_visitor.ml" 28 694 729
+type(
+  Ssa.stmt Type.visit_action
+)
+"ssa_visitor.ml" 29 730 750 "ssa_visitor.ml" 29 730 751
+type(
+  Ssa.var
+)
+"ssa_visitor.ml" 29 730 755 "ssa_visitor.ml" 29 730 765
+type(
+  Ssa.var Type.visit_action
+)
+"ssa_visitor.ml" 30 766 786 "ssa_visitor.ml" 30 766 787
+type(
+  Ssa.var
+)
+"ssa_visitor.ml" 30 766 791 "ssa_visitor.ml" 30 766 801
+type(
+  Ssa.var Type.visit_action
+)
+"ssa_visitor.ml" 34 808 816 "ssa_visitor.ml" 34 808 822
+type(
+  ('a -> 'a) -> ('a -> 'a Type.visit_action) -> 'a -> 'a
+)
+ident(
+  def action "ssa_visitor.ml" 34 808 808 --
+)
+"ssa_visitor.ml" 34 808 823 "ssa_visitor.ml" 34 808 830
+type(
+  'a -> 'a
+)
+ident(
+  def vischil "ssa_visitor.ml" 34 808 831 "ssa_visitor.ml" 39 983 1023
+)
+"ssa_visitor.ml" 34 808 831 "ssa_visitor.ml" 34 808 841
+type(
+  'a -> 'a Type.visit_action
+)
+ident(
+  def startvisit "ssa_visitor.ml" 34 808 842 "ssa_visitor.ml" 39 983 1023
+)
+"ssa_visitor.ml" 34 808 842 "ssa_visitor.ml" 34 808 846
+type(
+  'a
+)
+ident(
+  def node "ssa_visitor.ml" 35 848 850 "ssa_visitor.ml" 39 983 1023
+)
+"ssa_visitor.ml" 35 848 856 "ssa_visitor.ml" 35 848 866
+type(
+  'a -> 'a Type.visit_action
+)
+ident(
+  int_ref startvisit "ssa_visitor.ml" 34 808 831 "ssa_visitor.ml" 34 808 841
+)
+"ssa_visitor.ml" 35 848 867 "ssa_visitor.ml" 35 848 871
+type(
+  'a
+)
+ident(
+  int_ref node "ssa_visitor.ml" 34 808 842 "ssa_visitor.ml" 34 808 846
+)
+"ssa_visitor.ml" 35 848 856 "ssa_visitor.ml" 35 848 871
+call(
+  stack
+)
+type(
+  'a Type.visit_action
+)
+"ssa_visitor.ml" 36 877 881 "ssa_visitor.ml" 36 877 893
+type(
+  'a Type.visit_action
+)
+"ssa_visitor.ml" 36 877 897 "ssa_visitor.ml" 36 877 901
+type(
+  'a
+)
+ident(
+  int_ref node "ssa_visitor.ml" 34 808 842 "ssa_visitor.ml" 34 808 846
+)
+"ssa_visitor.ml" 37 902 915 "ssa_visitor.ml" 37 902 916
+type(
+  'a
+)
+ident(
+  def x "ssa_visitor.ml" 37 902 920 "ssa_visitor.ml" 37 902 921
+)
+"ssa_visitor.ml" 37 902 906 "ssa_visitor.ml" 37 902 916
+type(
+  'a Type.visit_action
+)
+"ssa_visitor.ml" 37 902 920 "ssa_visitor.ml" 37 902 921
+type(
+  'a
+)
+ident(
+  int_ref x "ssa_visitor.ml" 37 902 915 "ssa_visitor.ml" 37 902 916
+)
+"ssa_visitor.ml" 38 952 956 "ssa_visitor.ml" 38 952 966
+type(
+  'a Type.visit_action
+)
+"ssa_visitor.ml" 38 952 970 "ssa_visitor.ml" 38 952 977
+type(
+  'a -> 'a
+)
+ident(
+  int_ref vischil "ssa_visitor.ml" 34 808 823 "ssa_visitor.ml" 34 808 830
+)
+"ssa_visitor.ml" 38 952 978 "ssa_visitor.ml" 38 952 982
+type(
+  'a
+)
+ident(
+  int_ref node "ssa_visitor.ml" 34 808 842 "ssa_visitor.ml" 34 808 846
+)
+"ssa_visitor.ml" 38 952 970 "ssa_visitor.ml" 38 952 982
+call(
+  tail
+)
+type(
+  'a
+)
+"ssa_visitor.ml" 39 983 1009 "ssa_visitor.ml" 39 983 1010
+type(
+  'a
+)
+ident(
+  def x "ssa_visitor.ml" 39 983 1014 "ssa_visitor.ml" 39 983 1023
+)
+"ssa_visitor.ml" 39 983 987 "ssa_visitor.ml" 39 983 1010
+type(
+  'a Type.visit_action
+)
+"ssa_visitor.ml" 39 983 1014 "ssa_visitor.ml" 39 983 1021
+type(
+  'a -> 'a
+)
+ident(
+  int_ref vischil "ssa_visitor.ml" 34 808 823 "ssa_visitor.ml" 34 808 830
+)
+"ssa_visitor.ml" 39 983 1022 "ssa_visitor.ml" 39 983 1023
+type(
+  'a
+)
+ident(
+  int_ref x "ssa_visitor.ml" 39 983 1009 "ssa_visitor.ml" 39 983 1010
+)
+"ssa_visitor.ml" 39 983 1014 "ssa_visitor.ml" 39 983 1023
+call(
+  tail
+)
+type(
+  'a
+)
+"ssa_visitor.ml" 35 848 850 "ssa_visitor.ml" 39 983 1023
+type(
+  'a
+)
+"ssa_visitor.ml" 41 1025 1029 "ssa_visitor.ml" 41 1025 1037
+type(
+  (Ssa.stmt -> Ssa.stmt) -> Ssa.stmt -> Ssa.stmt
+)
+ident(
+  def wrapstmt "ssa_visitor.ml" 42 1097 1097 --
+)
+"ssa_visitor.ml" 41 1025 1038 "ssa_visitor.ml" 41 1025 1039
+type(
+  Ssa.stmt -> Ssa.stmt
+)
+ident(
+  def f "ssa_visitor.ml" 41 1025 1040 "ssa_visitor.ml" 41 1025 1096
+)
+"ssa_visitor.ml" 41 1025 1040 "ssa_visitor.ml" 41 1025 1041
+type(
+  Ssa.stmt
+)
+ident(
+  def v "ssa_visitor.ml" 41 1025 1044 "ssa_visitor.ml" 41 1025 1096
+)
+"ssa_visitor.ml" 41 1025 1048 "ssa_visitor.ml" 41 1025 1050
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 41 1025 1053 "ssa_visitor.ml" 41 1025 1054
+type(
+  Ssa.stmt -> Ssa.stmt
+)
+ident(
+  int_ref f "ssa_visitor.ml" 41 1025 1038 "ssa_visitor.ml" 41 1025 1039
+)
+"ssa_visitor.ml" 41 1025 1055 "ssa_visitor.ml" 41 1025 1056
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref v "ssa_visitor.ml" 41 1025 1040 "ssa_visitor.ml" 41 1025 1041
+)
+"ssa_visitor.ml" 41 1025 1053 "ssa_visitor.ml" 41 1025 1056
+call(
+  stack
+)
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 41 1025 1063 "ssa_visitor.ml" 41 1025 1076
+type(
+  Ssa.stmt -> Ssa.stmt -> bool
+)
+ident(
+  ext_ref Ssa.quick_stmt_eq
+)
+"ssa_visitor.ml" 41 1025 1077 "ssa_visitor.ml" 41 1025 1078
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref v "ssa_visitor.ml" 41 1025 1040 "ssa_visitor.ml" 41 1025 1041
+)
+"ssa_visitor.ml" 41 1025 1079 "ssa_visitor.ml" 41 1025 1081
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref v' "ssa_visitor.ml" 41 1025 1048 "ssa_visitor.ml" 41 1025 1050
+)
+"ssa_visitor.ml" 41 1025 1063 "ssa_visitor.ml" 41 1025 1081
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_visitor.ml" 41 1025 1087 "ssa_visitor.ml" 41 1025 1088
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref v "ssa_visitor.ml" 41 1025 1040 "ssa_visitor.ml" 41 1025 1041
+)
+"ssa_visitor.ml" 41 1025 1094 "ssa_visitor.ml" 41 1025 1096
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref v' "ssa_visitor.ml" 41 1025 1048 "ssa_visitor.ml" 41 1025 1050
+)
+"ssa_visitor.ml" 41 1025 1060 "ssa_visitor.ml" 41 1025 1096
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 41 1025 1044 "ssa_visitor.ml" 41 1025 1096
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 42 1097 1101 "ssa_visitor.ml" 42 1097 1108
+type(
+  (Ssa.exp -> Ssa.exp) -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def wrapexp "ssa_visitor.ml" 44 1168 1168 --
+)
+"ssa_visitor.ml" 42 1097 1109 "ssa_visitor.ml" 42 1097 1110
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def f "ssa_visitor.ml" 42 1097 1111 "ssa_visitor.ml" 42 1097 1166
+)
+"ssa_visitor.ml" 42 1097 1111 "ssa_visitor.ml" 42 1097 1112
+type(
+  Ssa.exp
+)
+ident(
+  def v "ssa_visitor.ml" 42 1097 1115 "ssa_visitor.ml" 42 1097 1166
+)
+"ssa_visitor.ml" 42 1097 1119 "ssa_visitor.ml" 42 1097 1121
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 42 1097 1124 "ssa_visitor.ml" 42 1097 1125
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref f "ssa_visitor.ml" 42 1097 1109 "ssa_visitor.ml" 42 1097 1110
+)
+"ssa_visitor.ml" 42 1097 1126 "ssa_visitor.ml" 42 1097 1127
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v "ssa_visitor.ml" 42 1097 1111 "ssa_visitor.ml" 42 1097 1112
+)
+"ssa_visitor.ml" 42 1097 1124 "ssa_visitor.ml" 42 1097 1127
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 42 1097 1134 "ssa_visitor.ml" 42 1097 1146
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Ssa.quick_exp_eq
+)
+"ssa_visitor.ml" 42 1097 1147 "ssa_visitor.ml" 42 1097 1148
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v "ssa_visitor.ml" 42 1097 1111 "ssa_visitor.ml" 42 1097 1112
+)
+"ssa_visitor.ml" 42 1097 1149 "ssa_visitor.ml" 42 1097 1151
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v' "ssa_visitor.ml" 42 1097 1119 "ssa_visitor.ml" 42 1097 1121
+)
+"ssa_visitor.ml" 42 1097 1134 "ssa_visitor.ml" 42 1097 1151
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_visitor.ml" 42 1097 1157 "ssa_visitor.ml" 42 1097 1158
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v "ssa_visitor.ml" 42 1097 1111 "ssa_visitor.ml" 42 1097 1112
+)
+"ssa_visitor.ml" 42 1097 1164 "ssa_visitor.ml" 42 1097 1166
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v' "ssa_visitor.ml" 42 1097 1119 "ssa_visitor.ml" 42 1097 1121
+)
+"ssa_visitor.ml" 42 1097 1131 "ssa_visitor.ml" 42 1097 1166
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 42 1097 1115 "ssa_visitor.ml" 42 1097 1166
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 44 1168 1172 "ssa_visitor.ml" 44 1168 1174
+type(
+  'a -> 'a
+)
+ident(
+  def id "ssa_visitor.ml" 46 1182 1182 --
+)
+"ssa_visitor.ml" 44 1168 1175 "ssa_visitor.ml" 44 1168 1176
+type(
+  'a
+)
+ident(
+  def x "ssa_visitor.ml" 44 1168 1179 "ssa_visitor.ml" 44 1168 1180
+)
+"ssa_visitor.ml" 44 1168 1179 "ssa_visitor.ml" 44 1168 1180
+type(
+  'a
+)
+ident(
+  int_ref x "ssa_visitor.ml" 44 1168 1175 "ssa_visitor.ml" 44 1168 1176
+)
+"ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+type(
+  < visit_avar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_exp : Ssa.exp -> Ssa.exp Type.visit_action;
+    visit_rvar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_stmt : Ssa.stmt -> Ssa.stmt Type.visit_action; .. > ->
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def exp_accept "ssa_visitor.ml" 46 1182 1182 --
+)
+"ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+type(
+  < visit_avar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_exp : Ssa.exp -> Ssa.exp Type.visit_action;
+    visit_rvar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_stmt : Ssa.stmt -> Ssa.stmt Type.visit_action; .. >
+  as 'a
+)
+ident(
+  def visitor "ssa_visitor.ml" 47 1212 1214 "ssa_visitor.ml" 89 2433 2479
+)
+"ssa_visitor.ml" 47 1212 1218 "ssa_visitor.ml" 47 1212 1225
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_visitor.ml" 48 1237 1248 "ssa_visitor.ml" 48 1237 1250
+type(
+  Ssa.exp
+)
+ident(
+  def v1 "ssa_visitor.ml" 49 1265 1266 "ssa_visitor.ml" 52 1376 1397
+)
+"ssa_visitor.ml" 48 1237 1251 "ssa_visitor.ml" 48 1237 1253
+type(
+  Ssa.exp
+)
+ident(
+  def v2 "ssa_visitor.ml" 49 1265 1266 "ssa_visitor.ml" 52 1376 1397
+)
+"ssa_visitor.ml" 48 1237 1254 "ssa_visitor.ml" 48 1237 1256
+type(
+  Ssa.exp
+)
+ident(
+  def v3 "ssa_visitor.ml" 49 1265 1266 "ssa_visitor.ml" 52 1376 1397
+)
+"ssa_visitor.ml" 48 1237 1258 "ssa_visitor.ml" 48 1237 1259
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_visitor.ml" 49 1265 1266 "ssa_visitor.ml" 52 1376 1397
+)
+"ssa_visitor.ml" 48 1237 1243 "ssa_visitor.ml" 48 1237 1260
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 49 1265 1270 "ssa_visitor.ml" 49 1265 1273
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 49 1265 1276 "ssa_visitor.ml" 49 1265 1286
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 49 1265 1287 "ssa_visitor.ml" 49 1265 1294
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 49 1265 1295 "ssa_visitor.ml" 49 1265 1297
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v1 "ssa_visitor.ml" 48 1237 1248 "ssa_visitor.ml" 48 1237 1250
+)
+"ssa_visitor.ml" 49 1265 1276 "ssa_visitor.ml" 49 1265 1297
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 50 1302 1307 "ssa_visitor.ml" 50 1302 1310
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 50 1302 1313 "ssa_visitor.ml" 50 1302 1323
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 50 1302 1324 "ssa_visitor.ml" 50 1302 1331
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 50 1302 1332 "ssa_visitor.ml" 50 1302 1334
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v2 "ssa_visitor.ml" 48 1237 1251 "ssa_visitor.ml" 48 1237 1253
+)
+"ssa_visitor.ml" 50 1302 1313 "ssa_visitor.ml" 50 1302 1334
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 51 1339 1344 "ssa_visitor.ml" 51 1339 1347
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 51 1339 1350 "ssa_visitor.ml" 51 1339 1360
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 51 1339 1361 "ssa_visitor.ml" 51 1339 1368
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 51 1339 1369 "ssa_visitor.ml" 51 1339 1371
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v3 "ssa_visitor.ml" 48 1237 1254 "ssa_visitor.ml" 48 1237 1256
+)
+"ssa_visitor.ml" 51 1339 1350 "ssa_visitor.ml" 51 1339 1371
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 52 1376 1382 "ssa_visitor.ml" 52 1376 1385
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v1' "ssa_visitor.ml" 49 1265 1270 "ssa_visitor.ml" 49 1265 1273
+)
+"ssa_visitor.ml" 52 1376 1386 "ssa_visitor.ml" 52 1376 1389
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v2' "ssa_visitor.ml" 50 1302 1307 "ssa_visitor.ml" 50 1302 1310
+)
+"ssa_visitor.ml" 52 1376 1390 "ssa_visitor.ml" 52 1376 1393
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v3' "ssa_visitor.ml" 51 1339 1344 "ssa_visitor.ml" 51 1339 1347
+)
+"ssa_visitor.ml" 52 1376 1395 "ssa_visitor.ml" 52 1376 1396
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_visitor.ml" 48 1237 1258 "ssa_visitor.ml" 48 1237 1259
+)
+"ssa_visitor.ml" 52 1376 1377 "ssa_visitor.ml" 52 1376 1397
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 51 1339 1340 "ssa_visitor.ml" 52 1376 1397
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 50 1302 1303 "ssa_visitor.ml" 52 1376 1397
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 49 1265 1266 "ssa_visitor.ml" 52 1376 1397
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 53 1398 1410 "ssa_visitor.ml" 53 1398 1412
+type(
+  Ssa.exp
+)
+ident(
+  def v1 "ssa_visitor.ml" 54 1429 1430 "ssa_visitor.ml" 58 1577 1602
+)
+"ssa_visitor.ml" 53 1398 1413 "ssa_visitor.ml" 53 1398 1415
+type(
+  Ssa.exp
+)
+ident(
+  def v2 "ssa_visitor.ml" 54 1429 1430 "ssa_visitor.ml" 58 1577 1602
+)
+"ssa_visitor.ml" 53 1398 1416 "ssa_visitor.ml" 53 1398 1418
+type(
+  Ssa.exp
+)
+ident(
+  def v3 "ssa_visitor.ml" 54 1429 1430 "ssa_visitor.ml" 58 1577 1602
+)
+"ssa_visitor.ml" 53 1398 1419 "ssa_visitor.ml" 53 1398 1421
+type(
+  Ssa.exp
+)
+ident(
+  def v4 "ssa_visitor.ml" 54 1429 1430 "ssa_visitor.ml" 58 1577 1602
+)
+"ssa_visitor.ml" 53 1398 1423 "ssa_visitor.ml" 53 1398 1424
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_visitor.ml" 54 1429 1430 "ssa_visitor.ml" 58 1577 1602
+)
+"ssa_visitor.ml" 53 1398 1404 "ssa_visitor.ml" 53 1398 1425
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 54 1429 1434 "ssa_visitor.ml" 54 1429 1437
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 54 1429 1440 "ssa_visitor.ml" 54 1429 1450
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 54 1429 1451 "ssa_visitor.ml" 54 1429 1458
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 54 1429 1459 "ssa_visitor.ml" 54 1429 1461
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v1 "ssa_visitor.ml" 53 1398 1410 "ssa_visitor.ml" 53 1398 1412
+)
+"ssa_visitor.ml" 54 1429 1440 "ssa_visitor.ml" 54 1429 1461
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 55 1466 1471 "ssa_visitor.ml" 55 1466 1474
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 55 1466 1477 "ssa_visitor.ml" 55 1466 1487
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 55 1466 1488 "ssa_visitor.ml" 55 1466 1495
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 55 1466 1496 "ssa_visitor.ml" 55 1466 1498
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v2 "ssa_visitor.ml" 53 1398 1413 "ssa_visitor.ml" 53 1398 1415
+)
+"ssa_visitor.ml" 55 1466 1477 "ssa_visitor.ml" 55 1466 1498
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 56 1503 1508 "ssa_visitor.ml" 56 1503 1511
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 56 1503 1514 "ssa_visitor.ml" 56 1503 1524
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 56 1503 1525 "ssa_visitor.ml" 56 1503 1532
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 56 1503 1533 "ssa_visitor.ml" 56 1503 1535
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v3 "ssa_visitor.ml" 53 1398 1416 "ssa_visitor.ml" 53 1398 1418
+)
+"ssa_visitor.ml" 56 1503 1514 "ssa_visitor.ml" 56 1503 1535
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 57 1540 1545 "ssa_visitor.ml" 57 1540 1548
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 57 1540 1551 "ssa_visitor.ml" 57 1540 1561
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 57 1540 1562 "ssa_visitor.ml" 57 1540 1569
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 57 1540 1570 "ssa_visitor.ml" 57 1540 1572
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v4 "ssa_visitor.ml" 53 1398 1419 "ssa_visitor.ml" 53 1398 1421
+)
+"ssa_visitor.ml" 57 1540 1551 "ssa_visitor.ml" 57 1540 1572
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 58 1577 1584 "ssa_visitor.ml" 58 1577 1587
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v1' "ssa_visitor.ml" 54 1429 1434 "ssa_visitor.ml" 54 1429 1437
+)
+"ssa_visitor.ml" 58 1577 1588 "ssa_visitor.ml" 58 1577 1591
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v2' "ssa_visitor.ml" 55 1466 1471 "ssa_visitor.ml" 55 1466 1474
+)
+"ssa_visitor.ml" 58 1577 1592 "ssa_visitor.ml" 58 1577 1595
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v3' "ssa_visitor.ml" 56 1503 1508 "ssa_visitor.ml" 56 1503 1511
+)
+"ssa_visitor.ml" 58 1577 1596 "ssa_visitor.ml" 58 1577 1599
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v4' "ssa_visitor.ml" 57 1540 1545 "ssa_visitor.ml" 57 1540 1548
+)
+"ssa_visitor.ml" 58 1577 1600 "ssa_visitor.ml" 58 1577 1601
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_visitor.ml" 53 1398 1423 "ssa_visitor.ml" 53 1398 1424
+)
+"ssa_visitor.ml" 58 1577 1578 "ssa_visitor.ml" 58 1577 1602
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 57 1540 1541 "ssa_visitor.ml" 58 1577 1602
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 56 1503 1504 "ssa_visitor.ml" 58 1577 1602
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 55 1466 1467 "ssa_visitor.ml" 58 1577 1602
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 54 1429 1430 "ssa_visitor.ml" 58 1577 1602
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 59 1603 1615 "ssa_visitor.ml" 59 1603 1618
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ssa_visitor.ml" 60 1632 1633 "ssa_visitor.ml" 62 1706 1727
+)
+"ssa_visitor.ml" 59 1603 1620 "ssa_visitor.ml" 59 1603 1622
+type(
+  Ssa.exp
+)
+ident(
+  def v1 "ssa_visitor.ml" 60 1632 1633 "ssa_visitor.ml" 62 1706 1727
+)
+"ssa_visitor.ml" 59 1603 1624 "ssa_visitor.ml" 59 1603 1626
+type(
+  Ssa.exp
+)
+ident(
+  def v2 "ssa_visitor.ml" 60 1632 1633 "ssa_visitor.ml" 62 1706 1727
+)
+"ssa_visitor.ml" 59 1603 1609 "ssa_visitor.ml" 59 1603 1627
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 60 1632 1637 "ssa_visitor.ml" 60 1632 1640
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 60 1632 1643 "ssa_visitor.ml" 60 1632 1653
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 60 1632 1654 "ssa_visitor.ml" 60 1632 1661
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 60 1632 1662 "ssa_visitor.ml" 60 1632 1664
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v1 "ssa_visitor.ml" 59 1603 1620 "ssa_visitor.ml" 59 1603 1622
+)
+"ssa_visitor.ml" 60 1632 1643 "ssa_visitor.ml" 60 1632 1664
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 61 1669 1674 "ssa_visitor.ml" 61 1669 1677
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 61 1669 1680 "ssa_visitor.ml" 61 1669 1690
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 61 1669 1691 "ssa_visitor.ml" 61 1669 1698
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 61 1669 1699 "ssa_visitor.ml" 61 1669 1701
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v2 "ssa_visitor.ml" 59 1603 1624 "ssa_visitor.ml" 59 1603 1626
+)
+"ssa_visitor.ml" 61 1669 1680 "ssa_visitor.ml" 61 1669 1701
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 62 1706 1713 "ssa_visitor.ml" 62 1706 1716
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ssa_visitor.ml" 59 1603 1615 "ssa_visitor.ml" 59 1603 1618
+)
+"ssa_visitor.ml" 62 1706 1718 "ssa_visitor.ml" 62 1706 1721
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v1' "ssa_visitor.ml" 60 1632 1637 "ssa_visitor.ml" 60 1632 1640
+)
+"ssa_visitor.ml" 62 1706 1723 "ssa_visitor.ml" 62 1706 1726
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v2' "ssa_visitor.ml" 61 1669 1674 "ssa_visitor.ml" 61 1669 1677
+)
+"ssa_visitor.ml" 62 1706 1707 "ssa_visitor.ml" 62 1706 1727
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 61 1669 1670 "ssa_visitor.ml" 62 1706 1727
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 60 1632 1633 "ssa_visitor.ml" 62 1706 1727
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 63 1728 1739 "ssa_visitor.ml" 63 1728 1741
+type(
+  Type.unop_type
+)
+ident(
+  def up "ssa_visitor.ml" 64 1750 1751 "ssa_visitor.ml" 65 1785 1798
+)
+"ssa_visitor.ml" 63 1728 1743 "ssa_visitor.ml" 63 1728 1744
+type(
+  Ssa.exp
+)
+ident(
+  def v "ssa_visitor.ml" 64 1750 1751 "ssa_visitor.ml" 65 1785 1798
+)
+"ssa_visitor.ml" 63 1728 1734 "ssa_visitor.ml" 63 1728 1745
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 64 1750 1755 "ssa_visitor.ml" 64 1750 1757
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 64 1750 1760 "ssa_visitor.ml" 64 1750 1770
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 64 1750 1771 "ssa_visitor.ml" 64 1750 1778
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 64 1750 1779 "ssa_visitor.ml" 64 1750 1780
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v "ssa_visitor.ml" 63 1728 1743 "ssa_visitor.ml" 63 1728 1744
+)
+"ssa_visitor.ml" 64 1750 1760 "ssa_visitor.ml" 64 1750 1780
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 65 1785 1791 "ssa_visitor.ml" 65 1785 1793
+type(
+  Type.unop_type
+)
+ident(
+  int_ref up "ssa_visitor.ml" 63 1728 1739 "ssa_visitor.ml" 63 1728 1741
+)
+"ssa_visitor.ml" 65 1785 1795 "ssa_visitor.ml" 65 1785 1797
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v' "ssa_visitor.ml" 64 1750 1755 "ssa_visitor.ml" 64 1750 1757
+)
+"ssa_visitor.ml" 65 1785 1786 "ssa_visitor.ml" 65 1785 1798
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 64 1750 1751 "ssa_visitor.ml" 65 1785 1798
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 66 1799 1808 "ssa_visitor.ml" 66 1799 1811
+type(
+  Ssa.var
+)
+ident(
+  def v "ssa_visitor.ml" 66 1799 1815 "ssa_visitor.ml" 66 1799 1841
+)
+"ssa_visitor.ml" 66 1799 1805 "ssa_visitor.ml" 66 1799 1811
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 66 1799 1819 "ssa_visitor.ml" 66 1799 1830
+type(
+  'a -> Ssa.var -> Ssa.var
+)
+ident(
+  int_ref rvar_accept "ssa_visitor.ml" 94 2541 2545 "ssa_visitor.ml" 94 2541 2556
+)
+"ssa_visitor.ml" 66 1799 1831 "ssa_visitor.ml" 66 1799 1838
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 66 1799 1839 "ssa_visitor.ml" 66 1799 1840
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "ssa_visitor.ml" 66 1799 1808 "ssa_visitor.ml" 66 1799 1811
+)
+"ssa_visitor.ml" 66 1799 1818 "ssa_visitor.ml" 66 1799 1841
+call(
+  stack
+)
+type(
+  Ssa.var
+)
+"ssa_visitor.ml" 66 1799 1815 "ssa_visitor.ml" 66 1799 1841
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 67 1842 1852 "ssa_visitor.ml" 67 1842 1853
+type(
+  string
+)
+"ssa_visitor.ml" 67 1842 1848 "ssa_visitor.ml" 67 1842 1853
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 67 1842 1848 "ssa_visitor.ml" 67 1842 1860
+type(
+  Ssa.exp
+)
+ident(
+  def exp "ssa_visitor.ml" 67 1842 1864 "ssa_visitor.ml" 67 1842 1867
+)
+"ssa_visitor.ml" 67 1842 1864 "ssa_visitor.ml" 67 1842 1867
+type(
+  Ssa.exp
+)
+ident(
+  int_ref exp "ssa_visitor.ml" 67 1842 1848 "ssa_visitor.ml" 67 1842 1860
+)
+"ssa_visitor.ml" 68 1868 1878 "ssa_visitor.ml" 68 1868 1879
+type(
+  Type.typ
+)
+type(
+  Big_int_Z.big_int
+)
+"ssa_visitor.ml" 68 1868 1874 "ssa_visitor.ml" 68 1868 1879
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 68 1868 1874 "ssa_visitor.ml" 68 1868 1886
+type(
+  Ssa.exp
+)
+ident(
+  def exp "ssa_visitor.ml" 68 1868 1890 "ssa_visitor.ml" 68 1868 1893
+)
+"ssa_visitor.ml" 68 1868 1890 "ssa_visitor.ml" 68 1868 1893
+type(
+  Ssa.exp
+)
+ident(
+  int_ref exp "ssa_visitor.ml" 68 1868 1874 "ssa_visitor.ml" 68 1868 1886
+)
+"ssa_visitor.ml" 69 1894 1905 "ssa_visitor.ml" 69 1894 1907
+type(
+  Type.cast_type
+)
+ident(
+  def ct "ssa_visitor.ml" 70 1918 1919 "ssa_visitor.ml" 71 1953 1967
+)
+"ssa_visitor.ml" 69 1894 1909 "ssa_visitor.ml" 69 1894 1910
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_visitor.ml" 70 1918 1919 "ssa_visitor.ml" 71 1953 1967
+)
+"ssa_visitor.ml" 69 1894 1912 "ssa_visitor.ml" 69 1894 1913
+type(
+  Ssa.exp
+)
+ident(
+  def v "ssa_visitor.ml" 70 1918 1919 "ssa_visitor.ml" 71 1953 1967
+)
+"ssa_visitor.ml" 69 1894 1900 "ssa_visitor.ml" 69 1894 1914
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 70 1918 1923 "ssa_visitor.ml" 70 1918 1925
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 70 1918 1928 "ssa_visitor.ml" 70 1918 1938
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 70 1918 1939 "ssa_visitor.ml" 70 1918 1946
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 70 1918 1947 "ssa_visitor.ml" 70 1918 1948
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v "ssa_visitor.ml" 69 1894 1912 "ssa_visitor.ml" 69 1894 1913
+)
+"ssa_visitor.ml" 70 1918 1928 "ssa_visitor.ml" 70 1918 1948
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 71 1953 1959 "ssa_visitor.ml" 71 1953 1961
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "ssa_visitor.ml" 69 1894 1905 "ssa_visitor.ml" 69 1894 1907
+)
+"ssa_visitor.ml" 71 1953 1962 "ssa_visitor.ml" 71 1953 1963
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_visitor.ml" 69 1894 1909 "ssa_visitor.ml" 69 1894 1910
+)
+"ssa_visitor.ml" 71 1953 1964 "ssa_visitor.ml" 71 1953 1966
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v' "ssa_visitor.ml" 70 1918 1923 "ssa_visitor.ml" 70 1918 1925
+)
+"ssa_visitor.ml" 71 1953 1954 "ssa_visitor.ml" 71 1953 1967
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 70 1918 1919 "ssa_visitor.ml" 71 1953 1967
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 72 1968 1982 "ssa_visitor.ml" 72 1968 1983
+type(
+  Type.typ
+)
+type(
+  string
+)
+"ssa_visitor.ml" 72 1968 1974 "ssa_visitor.ml" 72 1968 1983
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 72 1968 1974 "ssa_visitor.ml" 72 1968 1990
+type(
+  Ssa.exp
+)
+ident(
+  def exp "ssa_visitor.ml" 72 1968 1994 "ssa_visitor.ml" 72 1968 1997
+)
+"ssa_visitor.ml" 72 1968 1994 "ssa_visitor.ml" 72 1968 1997
+type(
+  Ssa.exp
+)
+ident(
+  int_ref exp "ssa_visitor.ml" 72 1968 1974 "ssa_visitor.ml" 72 1968 1990
+)
+"ssa_visitor.ml" 73 1998 2008 "ssa_visitor.ml" 73 1998 2012
+type(
+  Ssa.exp
+)
+ident(
+  def cond "ssa_visitor.ml" 74 2025 2026 "ssa_visitor.ml" 77 2138 2157
+)
+"ssa_visitor.ml" 73 1998 2014 "ssa_visitor.ml" 73 1998 2016
+type(
+  Ssa.exp
+)
+ident(
+  def v1 "ssa_visitor.ml" 74 2025 2026 "ssa_visitor.ml" 77 2138 2157
+)
+"ssa_visitor.ml" 73 1998 2018 "ssa_visitor.ml" 73 1998 2020
+type(
+  Ssa.exp
+)
+ident(
+  def v2 "ssa_visitor.ml" 74 2025 2026 "ssa_visitor.ml" 77 2138 2157
+)
+"ssa_visitor.ml" 73 1998 2004 "ssa_visitor.ml" 73 1998 2021
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 74 2025 2030 "ssa_visitor.ml" 74 2025 2033
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 74 2025 2036 "ssa_visitor.ml" 74 2025 2046
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 74 2025 2047 "ssa_visitor.ml" 74 2025 2054
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 74 2025 2055 "ssa_visitor.ml" 74 2025 2059
+type(
+  Ssa.exp
+)
+ident(
+  int_ref cond "ssa_visitor.ml" 73 1998 2008 "ssa_visitor.ml" 73 1998 2012
+)
+"ssa_visitor.ml" 74 2025 2036 "ssa_visitor.ml" 74 2025 2059
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 75 2064 2069 "ssa_visitor.ml" 75 2064 2072
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 75 2064 2075 "ssa_visitor.ml" 75 2064 2085
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 75 2064 2086 "ssa_visitor.ml" 75 2064 2093
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 75 2064 2094 "ssa_visitor.ml" 75 2064 2096
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v1 "ssa_visitor.ml" 73 1998 2014 "ssa_visitor.ml" 73 1998 2016
+)
+"ssa_visitor.ml" 75 2064 2075 "ssa_visitor.ml" 75 2064 2096
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 76 2101 2106 "ssa_visitor.ml" 76 2101 2109
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 76 2101 2112 "ssa_visitor.ml" 76 2101 2122
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 76 2101 2123 "ssa_visitor.ml" 76 2101 2130
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 76 2101 2131 "ssa_visitor.ml" 76 2101 2133
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v2 "ssa_visitor.ml" 73 1998 2018 "ssa_visitor.ml" 73 1998 2020
+)
+"ssa_visitor.ml" 76 2101 2112 "ssa_visitor.ml" 76 2101 2133
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 77 2138 2143 "ssa_visitor.ml" 77 2138 2146
+type(
+  Ssa.exp
+)
+ident(
+  int_ref vc' "ssa_visitor.ml" 74 2025 2030 "ssa_visitor.ml" 74 2025 2033
+)
+"ssa_visitor.ml" 77 2138 2148 "ssa_visitor.ml" 77 2138 2151
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v1' "ssa_visitor.ml" 75 2064 2069 "ssa_visitor.ml" 75 2064 2072
+)
+"ssa_visitor.ml" 77 2138 2153 "ssa_visitor.ml" 77 2138 2156
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v2' "ssa_visitor.ml" 76 2101 2106 "ssa_visitor.ml" 76 2101 2109
+)
+"ssa_visitor.ml" 77 2138 2139 "ssa_visitor.ml" 77 2138 2157
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 76 2101 2102 "ssa_visitor.ml" 77 2138 2157
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 75 2064 2065 "ssa_visitor.ml" 77 2138 2157
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 74 2025 2026 "ssa_visitor.ml" 77 2138 2157
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 78 2158 2172 "ssa_visitor.ml" 78 2158 2173
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def h "ssa_visitor.ml" 79 2184 2185 "ssa_visitor.ml" 80 2218 2236
+)
+"ssa_visitor.ml" 78 2158 2175 "ssa_visitor.ml" 78 2158 2176
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def l "ssa_visitor.ml" 79 2184 2185 "ssa_visitor.ml" 80 2218 2236
+)
+"ssa_visitor.ml" 78 2158 2178 "ssa_visitor.ml" 78 2158 2179
+type(
+  Ssa.exp
+)
+ident(
+  def v "ssa_visitor.ml" 79 2184 2185 "ssa_visitor.ml" 80 2218 2236
+)
+"ssa_visitor.ml" 78 2158 2164 "ssa_visitor.ml" 78 2158 2180
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 79 2184 2189 "ssa_visitor.ml" 79 2184 2191
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 79 2184 2194 "ssa_visitor.ml" 79 2184 2204
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 79 2184 2205 "ssa_visitor.ml" 79 2184 2212
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 79 2184 2213 "ssa_visitor.ml" 79 2184 2214
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v "ssa_visitor.ml" 78 2158 2178 "ssa_visitor.ml" 78 2158 2179
+)
+"ssa_visitor.ml" 79 2184 2194 "ssa_visitor.ml" 79 2184 2214
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 80 2218 2227 "ssa_visitor.ml" 80 2218 2228
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "ssa_visitor.ml" 78 2158 2172 "ssa_visitor.ml" 78 2158 2173
+)
+"ssa_visitor.ml" 80 2218 2230 "ssa_visitor.ml" 80 2218 2231
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "ssa_visitor.ml" 78 2158 2175 "ssa_visitor.ml" 78 2158 2176
+)
+"ssa_visitor.ml" 80 2218 2233 "ssa_visitor.ml" 80 2218 2235
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v' "ssa_visitor.ml" 79 2184 2189 "ssa_visitor.ml" 79 2184 2191
+)
+"ssa_visitor.ml" 80 2218 2219 "ssa_visitor.ml" 80 2218 2236
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 79 2184 2185 "ssa_visitor.ml" 80 2218 2236
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 81 2237 2250 "ssa_visitor.ml" 81 2237 2252
+type(
+  Ssa.exp
+)
+ident(
+  def lv "ssa_visitor.ml" 82 2261 2262 "ssa_visitor.ml" 84 2333 2350
+)
+"ssa_visitor.ml" 81 2237 2254 "ssa_visitor.ml" 81 2237 2256
+type(
+  Ssa.exp
+)
+ident(
+  def rv "ssa_visitor.ml" 82 2261 2262 "ssa_visitor.ml" 84 2333 2350
+)
+"ssa_visitor.ml" 81 2237 2243 "ssa_visitor.ml" 81 2237 2257
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 82 2261 2266 "ssa_visitor.ml" 82 2261 2269
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 82 2261 2272 "ssa_visitor.ml" 82 2261 2282
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 82 2261 2283 "ssa_visitor.ml" 82 2261 2290
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 82 2261 2291 "ssa_visitor.ml" 82 2261 2293
+type(
+  Ssa.exp
+)
+ident(
+  int_ref lv "ssa_visitor.ml" 81 2237 2250 "ssa_visitor.ml" 81 2237 2252
+)
+"ssa_visitor.ml" 82 2261 2272 "ssa_visitor.ml" 82 2261 2293
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 83 2297 2302 "ssa_visitor.ml" 83 2297 2305
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 83 2297 2308 "ssa_visitor.ml" 83 2297 2318
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 83 2297 2319 "ssa_visitor.ml" 83 2297 2326
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 83 2297 2327 "ssa_visitor.ml" 83 2297 2329
+type(
+  Ssa.exp
+)
+ident(
+  int_ref rv "ssa_visitor.ml" 81 2237 2254 "ssa_visitor.ml" 81 2237 2256
+)
+"ssa_visitor.ml" 83 2297 2308 "ssa_visitor.ml" 83 2297 2329
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 84 2333 2341 "ssa_visitor.ml" 84 2333 2344
+type(
+  Ssa.exp
+)
+ident(
+  int_ref lv' "ssa_visitor.ml" 82 2261 2266 "ssa_visitor.ml" 82 2261 2269
+)
+"ssa_visitor.ml" 84 2333 2346 "ssa_visitor.ml" 84 2333 2349
+type(
+  Ssa.exp
+)
+ident(
+  int_ref rv' "ssa_visitor.ml" 83 2297 2302 "ssa_visitor.ml" 83 2297 2305
+)
+"ssa_visitor.ml" 84 2333 2334 "ssa_visitor.ml" 84 2333 2350
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 83 2297 2298 "ssa_visitor.ml" 84 2333 2350
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 82 2261 2262 "ssa_visitor.ml" 84 2333 2350
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 85 2351 2360 "ssa_visitor.ml" 85 2351 2364
+type(
+  Ssa.var list
+)
+ident(
+  def vl "ssa_visitor.ml" 86 2368 2369 "ssa_visitor.ml" 87 2418 2427
+)
+"ssa_visitor.ml" 85 2351 2357 "ssa_visitor.ml" 85 2351 2364
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 86 2368 2373 "ssa_visitor.ml" 86 2368 2376
+type(
+  Ssa.var list
+)
+"ssa_visitor.ml" 86 2368 2379 "ssa_visitor.ml" 86 2368 2387
+type(
+  (Ssa.var -> Ssa.var) -> Ssa.var list -> Ssa.var list
+)
+ident(
+  ext_ref List.map
+)
+"ssa_visitor.ml" 86 2368 2389 "ssa_visitor.ml" 86 2368 2400
+type(
+  'a -> Ssa.var -> Ssa.var
+)
+ident(
+  int_ref rvar_accept "ssa_visitor.ml" 94 2541 2545 "ssa_visitor.ml" 94 2541 2556
+)
+"ssa_visitor.ml" 86 2368 2401 "ssa_visitor.ml" 86 2368 2408
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 86 2368 2388 "ssa_visitor.ml" 86 2368 2409
+call(
+  stack
+)
+type(
+  Ssa.var -> Ssa.var
+)
+"ssa_visitor.ml" 86 2368 2410 "ssa_visitor.ml" 86 2368 2412
+type(
+  Ssa.var list
+)
+ident(
+  int_ref vl "ssa_visitor.ml" 85 2351 2360 "ssa_visitor.ml" 85 2351 2364
+)
+"ssa_visitor.ml" 86 2368 2379 "ssa_visitor.ml" 86 2368 2412
+call(
+  stack
+)
+type(
+  Ssa.var list
+)
+"ssa_visitor.ml" 87 2418 2422 "ssa_visitor.ml" 87 2418 2427
+type(
+  Ssa.var list
+)
+ident(
+  int_ref vl' "ssa_visitor.ml" 86 2368 2373 "ssa_visitor.ml" 86 2368 2376
+)
+"ssa_visitor.ml" 87 2418 2419 "ssa_visitor.ml" 87 2418 2427
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 86 2368 2369 "ssa_visitor.ml" 87 2418 2427
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 47 1212 1228 "ssa_visitor.ml" 87 2418 2427
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_visitor.ml" 89 2433 2435 "ssa_visitor.ml" 89 2433 2441
+type(
+  (Ssa.exp -> Ssa.exp) ->
+  (Ssa.exp -> Ssa.exp Type.visit_action) -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref action "ssa_visitor.ml" 34 808 816 "ssa_visitor.ml" 34 808 822
+)
+"ssa_visitor.ml" 89 2433 2443 "ssa_visitor.ml" 89 2433 2450
+type(
+  (Ssa.exp -> Ssa.exp) -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref wrapexp "ssa_visitor.ml" 42 1097 1101 "ssa_visitor.ml" 42 1097 1108
+)
+"ssa_visitor.ml" 89 2433 2451 "ssa_visitor.ml" 89 2433 2458
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref vischil "ssa_visitor.ml" 47 1212 1218 "ssa_visitor.ml" 47 1212 1225
+)
+"ssa_visitor.ml" 89 2433 2442 "ssa_visitor.ml" 89 2433 2459
+call(
+  stack
+)
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_visitor.ml" 89 2433 2461 "ssa_visitor.ml" 89 2433 2468
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 46 1182 1201 "ssa_visitor.ml" 46 1182 1208
+)
+"ssa_visitor.ml" 89 2433 2460 "ssa_visitor.ml" 89 2433 2479
+call(
+  stack
+)
+type(
+  Ssa.exp -> Ssa.exp Type.visit_action
+)
+"ssa_visitor.ml" 89 2433 2435 "ssa_visitor.ml" 89 2433 2479
+call(
+  tail
+)
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_visitor.ml" 47 1212 1214 "ssa_visitor.ml" 89 2433 2479
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_visitor.ml" 92 2482 2486 "ssa_visitor.ml" 92 2482 2497
+type(
+  'a -> Ssa.var -> Ssa.var
+)
+ident(
+  def avar_accept "ssa_visitor.ml" 46 1182 1182 --
+)
+"ssa_visitor.ml" 92 2482 2498 "ssa_visitor.ml" 92 2482 2505
+type(
+  'a
+)
+ident(
+  def visitor "ssa_visitor.ml" 93 2508 2510 "ssa_visitor.ml" 93 2508 2540
+)
+"ssa_visitor.ml" 93 2508 2510 "ssa_visitor.ml" 93 2508 2516
+type(
+  (Ssa.var -> Ssa.var) ->
+  (Ssa.var -> Ssa.var Type.visit_action) -> Ssa.var -> Ssa.var
+)
+ident(
+  int_ref action "ssa_visitor.ml" 34 808 816 "ssa_visitor.ml" 34 808 822
+)
+"ssa_visitor.ml" 93 2508 2517 "ssa_visitor.ml" 93 2508 2519
+type(
+  Ssa.var -> Ssa.var
+)
+ident(
+  int_ref id "ssa_visitor.ml" 44 1168 1172 "ssa_visitor.ml" 44 1168 1174
+)
+"ssa_visitor.ml" 93 2508 2521 "ssa_visitor.ml" 93 2508 2528
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 92 2482 2498 "ssa_visitor.ml" 92 2482 2505
+)
+"ssa_visitor.ml" 93 2508 2520 "ssa_visitor.ml" 93 2508 2540
+call(
+  stack
+)
+type(
+  Ssa.var -> Ssa.var Type.visit_action
+)
+"ssa_visitor.ml" 93 2508 2510 "ssa_visitor.ml" 93 2508 2540
+call(
+  tail
+)
+type(
+  Ssa.var -> Ssa.var
+)
+"ssa_visitor.ml" 94 2541 2545 "ssa_visitor.ml" 94 2541 2556
+type(
+  'a -> Ssa.var -> Ssa.var
+)
+ident(
+  def rvar_accept "ssa_visitor.ml" 46 1182 1182 --
+)
+"ssa_visitor.ml" 94 2541 2557 "ssa_visitor.ml" 94 2541 2564
+type(
+  'a
+)
+ident(
+  def visitor "ssa_visitor.ml" 95 2568 2570 "ssa_visitor.ml" 95 2568 2600
+)
+"ssa_visitor.ml" 95 2568 2570 "ssa_visitor.ml" 95 2568 2576
+type(
+  (Ssa.var -> Ssa.var) ->
+  (Ssa.var -> Ssa.var Type.visit_action) -> Ssa.var -> Ssa.var
+)
+ident(
+  int_ref action "ssa_visitor.ml" 34 808 816 "ssa_visitor.ml" 34 808 822
+)
+"ssa_visitor.ml" 95 2568 2577 "ssa_visitor.ml" 95 2568 2579
+type(
+  Ssa.var -> Ssa.var
+)
+ident(
+  int_ref id "ssa_visitor.ml" 44 1168 1172 "ssa_visitor.ml" 44 1168 1174
+)
+"ssa_visitor.ml" 95 2568 2581 "ssa_visitor.ml" 95 2568 2588
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 94 2541 2557 "ssa_visitor.ml" 94 2541 2564
+)
+"ssa_visitor.ml" 95 2568 2580 "ssa_visitor.ml" 95 2568 2600
+call(
+  stack
+)
+type(
+  Ssa.var -> Ssa.var Type.visit_action
+)
+"ssa_visitor.ml" 95 2568 2570 "ssa_visitor.ml" 95 2568 2600
+call(
+  tail
+)
+type(
+  Ssa.var -> Ssa.var
+)
+"ssa_visitor.ml" 97 2602 2606 "ssa_visitor.ml" 97 2602 2617
+type(
+  'a -> Ssa.stmt -> Ssa.stmt
+)
+ident(
+  def stmt_accept "ssa_visitor.ml" 46 1182 1182 --
+)
+"ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+type(
+  'a
+)
+ident(
+  def visitor "ssa_visitor.ml" 98 2629 2631 "ssa_visitor.ml" 119 3389 3437
+)
+"ssa_visitor.ml" 98 2629 2635 "ssa_visitor.ml" 98 2629 2642
+type(
+  Ssa.stmt -> Ssa.stmt
+)
+"ssa_visitor.ml" 100 2685 2699 "ssa_visitor.ml" 100 2685 2700
+type(
+  string
+)
+ident(
+  def s "ssa_visitor.ml" 101 2720 2726 "ssa_visitor.ml" 102 2781 2844
+)
+"ssa_visitor.ml" 100 2685 2702 "ssa_visitor.ml" 100 2685 2706
+type(
+  Ssa.var list
+)
+ident(
+  def uses "ssa_visitor.ml" 101 2720 2726 "ssa_visitor.ml" 102 2781 2844
+)
+"ssa_visitor.ml" 100 2685 2702 "ssa_visitor.ml" 100 2685 2712
+type(
+  Ssa.var list
+)
+ident(
+  def defs "ssa_visitor.ml" 101 2720 2726 "ssa_visitor.ml" 102 2781 2844
+)
+"ssa_visitor.ml" 100 2685 2701 "ssa_visitor.ml" 100 2685 2713
+type(
+  Var.defuse
+)
+"ssa_visitor.ml" 100 2685 2714 "ssa_visitor.ml" 100 2685 2715
+type(
+  Ssa.attrs
+)
+ident(
+  def a "ssa_visitor.ml" 101 2720 2726 "ssa_visitor.ml" 102 2781 2844
+)
+"ssa_visitor.ml" 100 2685 2691 "ssa_visitor.ml" 100 2685 2716
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 101 2720 2734 "ssa_visitor.ml" 101 2720 2735
+type(
+  string
+)
+ident(
+  int_ref s "ssa_visitor.ml" 100 2685 2699 "ssa_visitor.ml" 100 2685 2700
+)
+"ssa_visitor.ml" 101 2720 2744 "ssa_visitor.ml" 101 2720 2752
+type(
+  (Ssa.var -> Ssa.var) -> Ssa.var list -> Ssa.var list
+)
+ident(
+  ext_ref List.map
+)
+"ssa_visitor.ml" 101 2720 2754 "ssa_visitor.ml" 101 2720 2765
+type(
+  'a -> Ssa.var -> Ssa.var
+)
+ident(
+  int_ref rvar_accept "ssa_visitor.ml" 94 2541 2545 "ssa_visitor.ml" 94 2541 2556
+)
+"ssa_visitor.ml" 101 2720 2766 "ssa_visitor.ml" 101 2720 2773
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 101 2720 2753 "ssa_visitor.ml" 101 2720 2774
+call(
+  stack
+)
+type(
+  Ssa.var -> Ssa.var
+)
+"ssa_visitor.ml" 101 2720 2775 "ssa_visitor.ml" 101 2720 2779
+type(
+  Ssa.var list
+)
+ident(
+  int_ref uses "ssa_visitor.ml" 100 2685 2702 "ssa_visitor.ml" 100 2685 2706
+)
+"ssa_visitor.ml" 101 2720 2744 "ssa_visitor.ml" 101 2720 2779
+call(
+  stack
+)
+type(
+  Ssa.var list
+)
+"ssa_visitor.ml" 102 2781 2805 "ssa_visitor.ml" 102 2781 2813
+type(
+  (Ssa.var -> Ssa.var) -> Ssa.var list -> Ssa.var list
+)
+ident(
+  ext_ref List.map
+)
+"ssa_visitor.ml" 102 2781 2815 "ssa_visitor.ml" 102 2781 2826
+type(
+  'a -> Ssa.var -> Ssa.var
+)
+ident(
+  int_ref avar_accept "ssa_visitor.ml" 92 2482 2486 "ssa_visitor.ml" 92 2482 2497
+)
+"ssa_visitor.ml" 102 2781 2827 "ssa_visitor.ml" 102 2781 2834
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 102 2781 2814 "ssa_visitor.ml" 102 2781 2835
+call(
+  stack
+)
+type(
+  Ssa.var -> Ssa.var
+)
+"ssa_visitor.ml" 102 2781 2836 "ssa_visitor.ml" 102 2781 2840
+type(
+  Ssa.var list
+)
+ident(
+  int_ref defs "ssa_visitor.ml" 100 2685 2702 "ssa_visitor.ml" 100 2685 2712
+)
+"ssa_visitor.ml" 102 2781 2805 "ssa_visitor.ml" 102 2781 2840
+call(
+  stack
+)
+type(
+  Ssa.var list
+)
+"ssa_visitor.ml" 101 2720 2736 "ssa_visitor.ml" 102 2781 2841
+type(
+  Var.defuse
+)
+"ssa_visitor.ml" 102 2781 2842 "ssa_visitor.ml" 102 2781 2843
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref a "ssa_visitor.ml" 100 2685 2714 "ssa_visitor.ml" 100 2685 2715
+)
+"ssa_visitor.ml" 101 2720 2726 "ssa_visitor.ml" 102 2781 2844
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 103 2845 2855 "ssa_visitor.ml" 103 2845 2856
+type(
+  Ssa.exp
+)
+ident(
+  def l "ssa_visitor.ml" 103 2845 2864 "ssa_visitor.ml" 103 2845 2892
+)
+"ssa_visitor.ml" 103 2845 2858 "ssa_visitor.ml" 103 2845 2859
+type(
+  Ssa.attrs
+)
+ident(
+  def a "ssa_visitor.ml" 103 2845 2864 "ssa_visitor.ml" 103 2845 2892
+)
+"ssa_visitor.ml" 103 2845 2851 "ssa_visitor.ml" 103 2845 2860
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 103 2845 2868 "ssa_visitor.ml" 103 2845 2878
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 103 2845 2879 "ssa_visitor.ml" 103 2845 2886
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 103 2845 2887 "ssa_visitor.ml" 103 2845 2888
+type(
+  Ssa.exp
+)
+ident(
+  int_ref l "ssa_visitor.ml" 103 2845 2855 "ssa_visitor.ml" 103 2845 2856
+)
+"ssa_visitor.ml" 103 2845 2868 "ssa_visitor.ml" 103 2845 2888
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 103 2845 2890 "ssa_visitor.ml" 103 2845 2891
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref a "ssa_visitor.ml" 103 2845 2858 "ssa_visitor.ml" 103 2845 2859
+)
+"ssa_visitor.ml" 103 2845 2864 "ssa_visitor.ml" 103 2845 2892
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 104 2893 2904 "ssa_visitor.ml" 104 2893 2905
+type(
+  Ssa.exp
+)
+ident(
+  def c "ssa_visitor.ml" 105 2921 2922 "ssa_visitor.ml" 108 3027 3049
+)
+"ssa_visitor.ml" 104 2893 2907 "ssa_visitor.ml" 104 2893 2909
+type(
+  Ssa.exp
+)
+ident(
+  def l1 "ssa_visitor.ml" 105 2921 2922 "ssa_visitor.ml" 108 3027 3049
+)
+"ssa_visitor.ml" 104 2893 2911 "ssa_visitor.ml" 104 2893 2913
+type(
+  Ssa.exp
+)
+ident(
+  def l2 "ssa_visitor.ml" 105 2921 2922 "ssa_visitor.ml" 108 3027 3049
+)
+"ssa_visitor.ml" 104 2893 2915 "ssa_visitor.ml" 104 2893 2916
+type(
+  Ssa.attrs
+)
+ident(
+  def a "ssa_visitor.ml" 105 2921 2922 "ssa_visitor.ml" 108 3027 3049
+)
+"ssa_visitor.ml" 104 2893 2899 "ssa_visitor.ml" 104 2893 2917
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 105 2921 2926 "ssa_visitor.ml" 105 2921 2928
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 105 2921 2931 "ssa_visitor.ml" 105 2921 2941
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 105 2921 2942 "ssa_visitor.ml" 105 2921 2949
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 105 2921 2950 "ssa_visitor.ml" 105 2921 2951
+type(
+  Ssa.exp
+)
+ident(
+  int_ref c "ssa_visitor.ml" 104 2893 2904 "ssa_visitor.ml" 104 2893 2905
+)
+"ssa_visitor.ml" 105 2921 2931 "ssa_visitor.ml" 105 2921 2951
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 106 2955 2960 "ssa_visitor.ml" 106 2955 2963
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 106 2955 2966 "ssa_visitor.ml" 106 2955 2976
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 106 2955 2977 "ssa_visitor.ml" 106 2955 2984
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 106 2955 2985 "ssa_visitor.ml" 106 2955 2987
+type(
+  Ssa.exp
+)
+ident(
+  int_ref l1 "ssa_visitor.ml" 104 2893 2907 "ssa_visitor.ml" 104 2893 2909
+)
+"ssa_visitor.ml" 106 2955 2966 "ssa_visitor.ml" 106 2955 2987
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 107 2991 2996 "ssa_visitor.ml" 107 2991 2999
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 107 2991 3002 "ssa_visitor.ml" 107 2991 3012
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 107 2991 3013 "ssa_visitor.ml" 107 2991 3020
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 107 2991 3021 "ssa_visitor.ml" 107 2991 3023
+type(
+  Ssa.exp
+)
+ident(
+  int_ref l2 "ssa_visitor.ml" 104 2893 2911 "ssa_visitor.ml" 104 2893 2913
+)
+"ssa_visitor.ml" 107 2991 3002 "ssa_visitor.ml" 107 2991 3023
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 108 3027 3033 "ssa_visitor.ml" 108 3027 3035
+type(
+  Ssa.exp
+)
+ident(
+  int_ref c' "ssa_visitor.ml" 105 2921 2926 "ssa_visitor.ml" 105 2921 2928
+)
+"ssa_visitor.ml" 108 3027 3037 "ssa_visitor.ml" 108 3027 3040
+type(
+  Ssa.exp
+)
+ident(
+  int_ref l1' "ssa_visitor.ml" 106 2955 2960 "ssa_visitor.ml" 106 2955 2963
+)
+"ssa_visitor.ml" 108 3027 3042 "ssa_visitor.ml" 108 3027 3045
+type(
+  Ssa.exp
+)
+ident(
+  int_ref l2' "ssa_visitor.ml" 107 2991 2996 "ssa_visitor.ml" 107 2991 2999
+)
+"ssa_visitor.ml" 108 3027 3047 "ssa_visitor.ml" 108 3027 3048
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref a "ssa_visitor.ml" 104 2893 2915 "ssa_visitor.ml" 104 2893 2916
+)
+"ssa_visitor.ml" 108 3027 3028 "ssa_visitor.ml" 108 3027 3049
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 107 2991 2992 "ssa_visitor.ml" 108 3027 3049
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 106 2955 2956 "ssa_visitor.ml" 108 3027 3049
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 105 2921 2922 "ssa_visitor.ml" 108 3027 3049
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 109 3050 3061 "ssa_visitor.ml" 109 3050 3063
+type(
+  Ssa.var
+)
+ident(
+  def lv "ssa_visitor.ml" 110 3074 3082 "ssa_visitor.ml" 112 3157 3179
+)
+"ssa_visitor.ml" 109 3050 3065 "ssa_visitor.ml" 109 3050 3066
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_visitor.ml" 110 3074 3082 "ssa_visitor.ml" 112 3157 3179
+)
+"ssa_visitor.ml" 109 3050 3068 "ssa_visitor.ml" 109 3050 3069
+type(
+  Ssa.attrs
+)
+ident(
+  def a "ssa_visitor.ml" 110 3074 3082 "ssa_visitor.ml" 112 3157 3179
+)
+"ssa_visitor.ml" 109 3050 3056 "ssa_visitor.ml" 109 3050 3070
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 110 3074 3086 "ssa_visitor.ml" 110 3074 3087
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 110 3074 3090 "ssa_visitor.ml" 110 3074 3100
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 110 3074 3101 "ssa_visitor.ml" 110 3074 3108
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 110 3074 3109 "ssa_visitor.ml" 110 3074 3110
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_visitor.ml" 109 3050 3065 "ssa_visitor.ml" 109 3050 3066
+)
+"ssa_visitor.ml" 110 3074 3090 "ssa_visitor.ml" 110 3074 3110
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 111 3114 3126 "ssa_visitor.ml" 111 3114 3128
+type(
+  Ssa.var
+)
+"ssa_visitor.ml" 111 3114 3131 "ssa_visitor.ml" 111 3114 3142
+type(
+  'a -> Ssa.var -> Ssa.var
+)
+ident(
+  int_ref avar_accept "ssa_visitor.ml" 92 2482 2486 "ssa_visitor.ml" 92 2482 2497
+)
+"ssa_visitor.ml" 111 3114 3143 "ssa_visitor.ml" 111 3114 3150
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 111 3114 3151 "ssa_visitor.ml" 111 3114 3153
+type(
+  Ssa.var
+)
+ident(
+  int_ref lv "ssa_visitor.ml" 109 3050 3061 "ssa_visitor.ml" 109 3050 3063
+)
+"ssa_visitor.ml" 111 3114 3131 "ssa_visitor.ml" 111 3114 3153
+call(
+  stack
+)
+type(
+  Ssa.var
+)
+"ssa_visitor.ml" 112 3157 3170 "ssa_visitor.ml" 112 3157 3172
+type(
+  Ssa.var
+)
+ident(
+  int_ref lv "ssa_visitor.ml" 111 3114 3126 "ssa_visitor.ml" 111 3114 3128
+)
+"ssa_visitor.ml" 112 3157 3174 "ssa_visitor.ml" 112 3157 3175
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_visitor.ml" 110 3074 3086 "ssa_visitor.ml" 110 3074 3087
+)
+"ssa_visitor.ml" 112 3157 3177 "ssa_visitor.ml" 112 3157 3178
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref a "ssa_visitor.ml" 109 3050 3068 "ssa_visitor.ml" 109 3050 3069
+)
+"ssa_visitor.ml" 112 3157 3165 "ssa_visitor.ml" 112 3157 3179
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 111 3114 3122 "ssa_visitor.ml" 112 3157 3179
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 110 3074 3082 "ssa_visitor.ml" 112 3157 3179
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 113 3180 3192 "ssa_visitor.ml" 113 3180 3193
+type(
+  Ssa.attrs
+)
+type(
+  Type.label
+)
+"ssa_visitor.ml" 113 3180 3186 "ssa_visitor.ml" 113 3180 3193
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 113 3180 3186 "ssa_visitor.ml" 113 3180 3198
+type(
+  Ssa.stmt
+)
+ident(
+  def s "ssa_visitor.ml" 113 3180 3202 "ssa_visitor.ml" 113 3180 3203
+)
+"ssa_visitor.ml" 113 3180 3202 "ssa_visitor.ml" 113 3180 3203
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref s "ssa_visitor.ml" 113 3180 3186 "ssa_visitor.ml" 113 3180 3198
+)
+"ssa_visitor.ml" 114 3204 3218 "ssa_visitor.ml" 114 3204 3219
+type(
+  Ssa.attrs
+)
+type(
+  string
+)
+"ssa_visitor.ml" 114 3204 3210 "ssa_visitor.ml" 114 3204 3219
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 114 3204 3210 "ssa_visitor.ml" 114 3204 3224
+type(
+  Ssa.stmt
+)
+ident(
+  def s "ssa_visitor.ml" 114 3204 3227 "ssa_visitor.ml" 114 3204 3228
+)
+"ssa_visitor.ml" 114 3204 3227 "ssa_visitor.ml" 114 3204 3228
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref s "ssa_visitor.ml" 114 3204 3210 "ssa_visitor.ml" 114 3204 3224
+)
+"ssa_visitor.ml" 115 3229 3242 "ssa_visitor.ml" 115 3229 3243
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_visitor.ml" 115 3229 3250 "ssa_visitor.ml" 115 3229 3281
+)
+"ssa_visitor.ml" 115 3229 3244 "ssa_visitor.ml" 115 3229 3245
+type(
+  Ssa.attrs
+)
+ident(
+  def a "ssa_visitor.ml" 115 3229 3250 "ssa_visitor.ml" 115 3229 3281
+)
+"ssa_visitor.ml" 115 3229 3235 "ssa_visitor.ml" 115 3229 3246
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 115 3229 3257 "ssa_visitor.ml" 115 3229 3267
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 115 3229 3268 "ssa_visitor.ml" 115 3229 3275
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 115 3229 3276 "ssa_visitor.ml" 115 3229 3277
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_visitor.ml" 115 3229 3242 "ssa_visitor.ml" 115 3229 3243
+)
+"ssa_visitor.ml" 115 3229 3257 "ssa_visitor.ml" 115 3229 3277
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 115 3229 3279 "ssa_visitor.ml" 115 3229 3280
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref a "ssa_visitor.ml" 115 3229 3244 "ssa_visitor.ml" 115 3229 3245
+)
+"ssa_visitor.ml" 115 3229 3250 "ssa_visitor.ml" 115 3229 3281
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 116 3282 3295 "ssa_visitor.ml" 116 3282 3296
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_visitor.ml" 116 3282 3303 "ssa_visitor.ml" 116 3282 3334
+)
+"ssa_visitor.ml" 116 3282 3297 "ssa_visitor.ml" 116 3282 3298
+type(
+  Ssa.attrs
+)
+ident(
+  def a "ssa_visitor.ml" 116 3282 3303 "ssa_visitor.ml" 116 3282 3334
+)
+"ssa_visitor.ml" 116 3282 3288 "ssa_visitor.ml" 116 3282 3299
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 116 3282 3310 "ssa_visitor.ml" 116 3282 3320
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 116 3282 3321 "ssa_visitor.ml" 116 3282 3328
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 116 3282 3329 "ssa_visitor.ml" 116 3282 3330
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_visitor.ml" 116 3282 3295 "ssa_visitor.ml" 116 3282 3296
+)
+"ssa_visitor.ml" 116 3282 3310 "ssa_visitor.ml" 116 3282 3330
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 116 3282 3332 "ssa_visitor.ml" 116 3282 3333
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref a "ssa_visitor.ml" 116 3282 3297 "ssa_visitor.ml" 116 3282 3298
+)
+"ssa_visitor.ml" 116 3282 3303 "ssa_visitor.ml" 116 3282 3334
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 117 3335 3346 "ssa_visitor.ml" 117 3335 3347
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_visitor.ml" 117 3335 3354 "ssa_visitor.ml" 117 3335 3383
+)
+"ssa_visitor.ml" 117 3335 3348 "ssa_visitor.ml" 117 3335 3349
+type(
+  Ssa.attrs
+)
+ident(
+  def a "ssa_visitor.ml" 117 3335 3354 "ssa_visitor.ml" 117 3335 3383
+)
+"ssa_visitor.ml" 117 3335 3341 "ssa_visitor.ml" 117 3335 3350
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 117 3335 3359 "ssa_visitor.ml" 117 3335 3369
+type(
+  'a -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_accept "ssa_visitor.ml" 46 1182 1190 "ssa_visitor.ml" 46 1182 1200
+)
+"ssa_visitor.ml" 117 3335 3370 "ssa_visitor.ml" 117 3335 3377
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 117 3335 3378 "ssa_visitor.ml" 117 3335 3379
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_visitor.ml" 117 3335 3346 "ssa_visitor.ml" 117 3335 3347
+)
+"ssa_visitor.ml" 117 3335 3359 "ssa_visitor.ml" 117 3335 3379
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_visitor.ml" 117 3335 3381 "ssa_visitor.ml" 117 3335 3382
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref a "ssa_visitor.ml" 117 3335 3348 "ssa_visitor.ml" 117 3335 3349
+)
+"ssa_visitor.ml" 117 3335 3354 "ssa_visitor.ml" 117 3335 3383
+type(
+  Ssa.stmt
+)
+"ssa_visitor.ml" 98 2629 2645 "ssa_visitor.ml" 117 3335 3383
+type(
+  Ssa.stmt -> Ssa.stmt
+)
+"ssa_visitor.ml" 119 3389 3391 "ssa_visitor.ml" 119 3389 3397
+type(
+  (Ssa.stmt -> Ssa.stmt) ->
+  (Ssa.stmt -> Ssa.stmt Type.visit_action) -> Ssa.stmt -> Ssa.stmt
+)
+ident(
+  int_ref action "ssa_visitor.ml" 34 808 816 "ssa_visitor.ml" 34 808 822
+)
+"ssa_visitor.ml" 119 3389 3399 "ssa_visitor.ml" 119 3389 3407
+type(
+  (Ssa.stmt -> Ssa.stmt) -> Ssa.stmt -> Ssa.stmt
+)
+ident(
+  int_ref wrapstmt "ssa_visitor.ml" 41 1025 1029 "ssa_visitor.ml" 41 1025 1037
+)
+"ssa_visitor.ml" 119 3389 3408 "ssa_visitor.ml" 119 3389 3415
+type(
+  Ssa.stmt -> Ssa.stmt
+)
+ident(
+  int_ref vischil "ssa_visitor.ml" 98 2629 2635 "ssa_visitor.ml" 98 2629 2642
+)
+"ssa_visitor.ml" 119 3389 3398 "ssa_visitor.ml" 119 3389 3416
+call(
+  stack
+)
+type(
+  Ssa.stmt -> Ssa.stmt
+)
+"ssa_visitor.ml" 119 3389 3418 "ssa_visitor.ml" 119 3389 3425
+type(
+  'a
+)
+ident(
+  int_ref visitor "ssa_visitor.ml" 97 2602 2618 "ssa_visitor.ml" 97 2602 2625
+)
+"ssa_visitor.ml" 119 3389 3417 "ssa_visitor.ml" 119 3389 3437
+call(
+  stack
+)
+type(
+  Ssa.stmt -> Ssa.stmt Type.visit_action
+)
+"ssa_visitor.ml" 119 3389 3391 "ssa_visitor.ml" 119 3389 3437
+call(
+  tail
+)
+type(
+  Ssa.stmt -> Ssa.stmt
+)
+"ssa_visitor.ml" 98 2629 2631 "ssa_visitor.ml" 119 3389 3437
+type(
+  Ssa.stmt -> Ssa.stmt
+)
+"ssa_visitor.ml" 121 3439 3443 "ssa_visitor.ml" 121 3439 3455
+type(
+  < visit_avar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_exp : Ssa.exp -> Ssa.exp Type.visit_action;
+    visit_rvar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_stmt : Ssa.stmt -> Ssa.stmt Type.visit_action; .. > ->
+  Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  def stmts_accept "ssa_visitor.ml" 124 3504 3504 --
+)
+"ssa_visitor.ml" 121 3439 3456 "ssa_visitor.ml" 121 3439 3459
+type(
+  < visit_avar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_exp : Ssa.exp -> Ssa.exp Type.visit_action;
+    visit_rvar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_stmt : Ssa.stmt -> Ssa.stmt Type.visit_action; .. >
+  as 'a
+)
+ident(
+  def vis "ssa_visitor.ml" 121 3439 3460 "ssa_visitor.ml" 122 3468 3502
+)
+"ssa_visitor.ml" 121 3439 3460 "ssa_visitor.ml" 121 3439 3465
+type(
+  Ssa.stmt list
+)
+ident(
+  def stmts "ssa_visitor.ml" 122 3468 3470 "ssa_visitor.ml" 122 3468 3502
+)
+"ssa_visitor.ml" 122 3468 3470 "ssa_visitor.ml" 122 3468 3478
+type(
+  (Ssa.stmt -> Ssa.stmt) -> Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  ext_ref List.map
+)
+"ssa_visitor.ml" 122 3468 3480 "ssa_visitor.ml" 122 3468 3491
+type(
+  'a -> Ssa.stmt -> Ssa.stmt
+)
+ident(
+  int_ref stmt_accept "ssa_visitor.ml" 97 2602 2606 "ssa_visitor.ml" 97 2602 2617
+)
+"ssa_visitor.ml" 122 3468 3492 "ssa_visitor.ml" 122 3468 3495
+type(
+  'a
+)
+ident(
+  int_ref vis "ssa_visitor.ml" 121 3439 3456 "ssa_visitor.ml" 121 3439 3459
+)
+"ssa_visitor.ml" 122 3468 3479 "ssa_visitor.ml" 122 3468 3496
+call(
+  stack
+)
+type(
+  Ssa.stmt -> Ssa.stmt
+)
+"ssa_visitor.ml" 122 3468 3497 "ssa_visitor.ml" 122 3468 3502
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref stmts "ssa_visitor.ml" 121 3439 3460 "ssa_visitor.ml" 121 3439 3465
+)
+"ssa_visitor.ml" 122 3468 3470 "ssa_visitor.ml" 122 3468 3502
+call(
+  tail
+)
+type(
+  Ssa.stmt list
+)
+"ssa_visitor.ml" 124 3504 3508 "ssa_visitor.ml" 124 3504 3519
+type(
+  < visit_avar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_exp : Ssa.exp -> Ssa.exp Type.visit_action;
+    visit_rvar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_stmt : Cfg.SSA.stmt -> Cfg.SSA.stmt Type.visit_action; .. > ->
+  Cfg.SSA.G.t -> Cfg.SSA.G.t
+)
+ident(
+  def prog_accept "ssa_visitor.ml" 131 3716 3716 --
+)
+"ssa_visitor.ml" 124 3504 3520 "ssa_visitor.ml" 124 3504 3523
+type(
+  < visit_avar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_exp : Ssa.exp -> Ssa.exp Type.visit_action;
+    visit_rvar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_stmt : Cfg.SSA.stmt -> Cfg.SSA.stmt Type.visit_action; .. >
+  as 'a
+)
+ident(
+  def vis "ssa_visitor.ml" 124 3504 3524 "ssa_visitor.ml" 129 3670 3714
+)
+"ssa_visitor.ml" 124 3504 3524 "ssa_visitor.ml" 124 3504 3525
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  def p "ssa_visitor.ml" 125 3528 3530 "ssa_visitor.ml" 129 3670 3714
+)
+"ssa_visitor.ml" 125 3528 3530 "ssa_visitor.ml" 125 3528 3551
+type(
+  (Cfg.SSA.G.vertex -> Cfg.SSA.G.t -> Cfg.SSA.G.t) ->
+  Cfg.SSA.G.t -> Cfg.SSA.G.t -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Cfg.SSA.G.fold_vertex
+)
+"ssa_visitor.ml" 126 3552 3561 "ssa_visitor.ml" 126 3552 3564
+type(
+  Cfg.SSA.G.vertex
+)
+ident(
+  def abb "ssa_visitor.ml" 126 3552 3565 "ssa_visitor.ml" 129 3670 3709
+)
+"ssa_visitor.ml" 126 3552 3565 "ssa_visitor.ml" 126 3552 3566
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  def g "ssa_visitor.ml" 127 3570 3577 "ssa_visitor.ml" 129 3670 3709
+)
+"ssa_visitor.ml" 127 3570 3581 "ssa_visitor.ml" 127 3570 3589
+type(
+  Cfg.SSA.lang
+)
+"ssa_visitor.ml" 127 3570 3592 "ssa_visitor.ml" 127 3570 3609
+type(
+  Cfg.SSA.G.t -> Cfg.SSA.G.vertex -> Cfg.SSA.lang
+)
+ident(
+  ext_ref Cfg.SSA.get_stmts
+)
+"ssa_visitor.ml" 127 3570 3610 "ssa_visitor.ml" 127 3570 3611
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref g "ssa_visitor.ml" 126 3552 3565 "ssa_visitor.ml" 126 3552 3566
+)
+"ssa_visitor.ml" 127 3570 3612 "ssa_visitor.ml" 127 3570 3615
+type(
+  Cfg.SSA.G.vertex
+)
+ident(
+  int_ref abb "ssa_visitor.ml" 126 3552 3561 "ssa_visitor.ml" 126 3552 3564
+)
+"ssa_visitor.ml" 127 3570 3592 "ssa_visitor.ml" 127 3570 3615
+call(
+  stack
+)
+type(
+  Cfg.SSA.lang
+)
+"ssa_visitor.ml" 128 3619 3630 "ssa_visitor.ml" 128 3619 3638
+type(
+  Cfg.SSA.stmt list
+)
+"ssa_visitor.ml" 128 3619 3641 "ssa_visitor.ml" 128 3619 3653
+type(
+  'a -> Cfg.SSA.lang -> Cfg.SSA.stmt list
+)
+ident(
+  int_ref stmts_accept "ssa_visitor.ml" 121 3439 3443 "ssa_visitor.ml" 121 3439 3455
+)
+"ssa_visitor.ml" 128 3619 3654 "ssa_visitor.ml" 128 3619 3657
+type(
+  'a
+)
+ident(
+  int_ref vis "ssa_visitor.ml" 124 3504 3520 "ssa_visitor.ml" 124 3504 3523
+)
+"ssa_visitor.ml" 128 3619 3658 "ssa_visitor.ml" 128 3619 3666
+type(
+  Cfg.SSA.lang
+)
+ident(
+  int_ref oldstmts "ssa_visitor.ml" 127 3570 3581 "ssa_visitor.ml" 127 3570 3589
+)
+"ssa_visitor.ml" 128 3619 3641 "ssa_visitor.ml" 128 3619 3666
+call(
+  stack
+)
+type(
+  Cfg.SSA.stmt list
+)
+"ssa_visitor.ml" 129 3670 3677 "ssa_visitor.ml" 129 3670 3694
+type(
+  Cfg.SSA.G.t -> Cfg.SSA.G.vertex -> Cfg.SSA.lang -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Cfg.SSA.set_stmts
+)
+"ssa_visitor.ml" 129 3670 3695 "ssa_visitor.ml" 129 3670 3696
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref g "ssa_visitor.ml" 126 3552 3565 "ssa_visitor.ml" 126 3552 3566
+)
+"ssa_visitor.ml" 129 3670 3697 "ssa_visitor.ml" 129 3670 3700
+type(
+  Cfg.SSA.G.vertex
+)
+ident(
+  int_ref abb "ssa_visitor.ml" 126 3552 3561 "ssa_visitor.ml" 126 3552 3564
+)
+"ssa_visitor.ml" 129 3670 3701 "ssa_visitor.ml" 129 3670 3709
+type(
+  Cfg.SSA.lang
+)
+ident(
+  int_ref newstmts "ssa_visitor.ml" 128 3619 3630 "ssa_visitor.ml" 128 3619 3638
+)
+"ssa_visitor.ml" 129 3670 3677 "ssa_visitor.ml" 129 3670 3709
+call(
+  tail
+)
+type(
+  Cfg.SSA.G.t
+)
+"ssa_visitor.ml" 128 3619 3626 "ssa_visitor.ml" 129 3670 3709
+type(
+  Cfg.SSA.G.t
+)
+"ssa_visitor.ml" 127 3570 3577 "ssa_visitor.ml" 129 3670 3709
+type(
+  Cfg.SSA.G.t
+)
+"ssa_visitor.ml" 126 3552 3556 "ssa_visitor.ml" 129 3670 3710
+type(
+  Cfg.SSA.G.vertex -> Cfg.SSA.G.t -> Cfg.SSA.G.t
+)
+"ssa_visitor.ml" 129 3670 3711 "ssa_visitor.ml" 129 3670 3712
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref p "ssa_visitor.ml" 124 3504 3524 "ssa_visitor.ml" 124 3504 3525
+)
+"ssa_visitor.ml" 129 3670 3713 "ssa_visitor.ml" 129 3670 3714
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref p "ssa_visitor.ml" 124 3504 3524 "ssa_visitor.ml" 124 3504 3525
+)
+"ssa_visitor.ml" 125 3528 3530 "ssa_visitor.ml" 129 3670 3714
+call(
+  tail
+)
+type(
+  Cfg.SSA.G.t
+)
+"ssa_visitor.ml" 131 3716 3720 "ssa_visitor.ml" 131 3716 3730
+type(
+  < visit_avar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_exp : Ssa.exp -> Ssa.exp Type.visit_action;
+    visit_rvar : Ssa.var -> Ssa.var Type.visit_action;
+    visit_stmt : Cfg.SSA.stmt -> Cfg.SSA.stmt Type.visit_action; .. > ->
+  Cfg.SSA.G.t -> Cfg.SSA.G.t
+)
+ident(
+  def cfg_accept "ssa_visitor.ml" 131 3716 3744 --
+)
+"ssa_visitor.ml" 131 3716 3733 "ssa_visitor.ml" 131 3716 3744
+type(
+  (< visit_avar : Ssa.var -> Ssa.var Type.visit_action;
+     visit_exp : Ssa.exp -> Ssa.exp Type.visit_action;
+     visit_rvar : Ssa.var -> Ssa.var Type.visit_action;
+     visit_stmt : Cfg.SSA.stmt -> Cfg.SSA.stmt Type.visit_action; .. >
+   as 'a) ->
+  Cfg.SSA.G.t -> Cfg.SSA.G.t
+)
+ident(
+  int_ref prog_accept "ssa_visitor.ml" 124 3504 3508 "ssa_visitor.ml" 124 3504 3519
+)

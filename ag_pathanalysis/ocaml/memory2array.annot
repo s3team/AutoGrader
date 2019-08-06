@@ -1,0 +1,3907 @@
+"memory2array.ml" 10 247 280 "memory2array.ml" 10 247 284
+type(
+  string
+)
+ident(
+  def name "memory2array.ml" 10 247 318 "memory2array.ml" 10 247 322
+)
+"memory2array.ml" 10 247 285 "memory2array.ml" 10 247 299
+type(
+  string
+)
+"memory2array.ml" 10 247 304 "memory2array.ml" 10 247 311
+type(
+  [> `Debug ]
+)
+ident(
+  def default "memory2array.ml" 10 247 318 "memory2array.ml" 10 247 322
+)
+"memory2array.ml" 10 247 312 "memory2array.ml" 10 247 318
+type(
+  [> `Debug ] as 'a
+)
+"memory2array.ml" 10 247 258 "memory2array.ml" 10 247 323
+call(
+  stack
+)
+"memory2array.ml" 22 443 447 "memory2array.ml" 22 443 455
+type(
+  Type.typ -> Type.typ -> int
+)
+ident(
+  def numelems "memory2array.ml" 28 680 680 --
+)
+"memory2array.ml" 22 443 456 "memory2array.ml" 22 443 457
+type(
+  Type.typ
+)
+ident(
+  def t "memory2array.ml" 22 443 458 "memory2array.ml" 26 662 678
+)
+"memory2array.ml" 22 443 458 "memory2array.ml" 22 443 460
+type(
+  Type.typ
+)
+ident(
+  def mt "memory2array.ml" 23 463 465 "memory2array.ml" 26 662 678
+)
+"memory2array.ml" 23 463 469 "memory2array.ml" 23 463 473
+type(
+  int
+)
+"memory2array.ml" 23 463 476 "memory2array.ml" 23 463 499
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"memory2array.ml" 23 463 500 "memory2array.ml" 23 463 501
+type(
+  Type.typ
+)
+ident(
+  int_ref t "memory2array.ml" 22 443 456 "memory2array.ml" 22 443 457
+)
+"memory2array.ml" 23 463 476 "memory2array.ml" 23 463 501
+call(
+  stack
+)
+type(
+  int
+)
+"memory2array.ml" 24 505 511 "memory2array.ml" 24 505 518
+type(
+  int
+)
+"memory2array.ml" 24 505 521 "memory2array.ml" 24 505 544
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"memory2array.ml" 24 505 545 "memory2array.ml" 24 505 547
+type(
+  Type.typ
+)
+ident(
+  int_ref mt "memory2array.ml" 22 443 458 "memory2array.ml" 22 443 460
+)
+"memory2array.ml" 24 505 521 "memory2array.ml" 24 505 547
+call(
+  stack
+)
+type(
+  int
+)
+"memory2array.ml" 25 551 557 "memory2array.ml" 25 551 561
+type(
+  int
+)
+ident(
+  int_ref bits "memory2array.ml" 23 463 469 "memory2array.ml" 23 463 473
+)
+"memory2array.ml" 25 551 562 "memory2array.ml" 25 551 565
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"memory2array.ml" 25 551 566 "memory2array.ml" 25 551 573
+type(
+  int
+)
+ident(
+  int_ref elebits "memory2array.ml" 24 505 511 "memory2array.ml" 24 505 518
+)
+"memory2array.ml" 25 551 556 "memory2array.ml" 25 551 574
+type(
+  int
+)
+"memory2array.ml" 25 551 575 "memory2array.ml" 25 551 577
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"memory2array.ml" 25 551 578 "memory2array.ml" 25 551 579
+type(
+  int
+)
+"memory2array.ml" 25 551 556 "memory2array.ml" 25 551 579
+type(
+  bool
+)
+"memory2array.ml" 25 551 585 "memory2array.ml" 25 551 593
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"memory2array.ml" 25 551 594 "memory2array.ml" 25 551 660
+type(
+  string
+)
+"memory2array.ml" 25 551 585 "memory2array.ml" 25 551 660
+call(
+  stack
+)
+type(
+  unit
+)
+"memory2array.ml" 25 551 553 "memory2array.ml" 25 551 660
+type(
+  unit
+)
+"memory2array.ml" 26 662 664 "memory2array.ml" 26 662 668
+type(
+  int
+)
+ident(
+  int_ref bits "memory2array.ml" 23 463 469 "memory2array.ml" 23 463 473
+)
+"memory2array.ml" 26 662 669 "memory2array.ml" 26 662 670
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"memory2array.ml" 26 662 671 "memory2array.ml" 26 662 678
+type(
+  int
+)
+ident(
+  int_ref elebits "memory2array.ml" 24 505 511 "memory2array.ml" 24 505 518
+)
+"memory2array.ml" 26 662 664 "memory2array.ml" 26 662 678
+type(
+  int
+)
+"memory2array.ml" 25 551 553 "memory2array.ml" 26 662 678
+type(
+  int
+)
+"memory2array.ml" 24 505 507 "memory2array.ml" 26 662 678
+type(
+  int
+)
+"memory2array.ml" 23 463 465 "memory2array.ml" 26 662 678
+type(
+  int
+)
+"memory2array.ml" 28 680 684 "memory2array.ml" 28 680 694
+type(
+  Ast.exp -> Ast.exp -> Type.typ -> Type.typ -> 'a -> int -> Ast.exp
+)
+ident(
+  def split_load "memory2array.ml" 33 934 934 --
+)
+"memory2array.ml" 28 680 695 "memory2array.ml" 28 680 700
+type(
+  Ast.exp
+)
+ident(
+  def array "memory2array.ml" 28 680 701 "memory2array.ml" 31 886 932
+)
+"memory2array.ml" 28 680 701 "memory2array.ml" 28 680 706
+type(
+  Ast.exp
+)
+ident(
+  def index "memory2array.ml" 28 680 707 "memory2array.ml" 31 886 932
+)
+"memory2array.ml" 28 680 707 "memory2array.ml" 28 680 716
+type(
+  Type.typ
+)
+ident(
+  def indextype "memory2array.ml" 28 680 717 "memory2array.ml" 31 886 932
+)
+"memory2array.ml" 28 680 717 "memory2array.ml" 28 680 726
+type(
+  Type.typ
+)
+ident(
+  def valuetype "memory2array.ml" 28 680 727 "memory2array.ml" 31 886 932
+)
+"memory2array.ml" 28 680 727 "memory2array.ml" 28 680 737
+type(
+  'a
+)
+ident(
+  def accesstype "memory2array.ml" 28 680 738 "memory2array.ml" 31 886 932
+)
+"memory2array.ml" 28 680 738 "memory2array.ml" 28 680 741
+type(
+  int
+)
+ident(
+  def num "memory2array.ml" 29 744 746 "memory2array.ml" 31 886 932
+)
+"memory2array.ml" 29 744 750 "memory2array.ml" 29 744 759
+type(
+  Ast.exp
+)
+"memory2array.ml" 29 744 768 "memory2array.ml" 29 744 772
+type(
+  Type.binop_type
+)
+"memory2array.ml" 29 744 774 "memory2array.ml" 29 744 779
+type(
+  Ast.exp
+)
+ident(
+  int_ref index "memory2array.ml" 28 680 701 "memory2array.ml" 28 680 706
+)
+"memory2array.ml" 29 744 785 "memory2array.ml" 29 744 799
+type(
+  int -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"memory2array.ml" 29 744 800 "memory2array.ml" 29 744 803
+type(
+  int
+)
+ident(
+  int_ref num "memory2array.ml" 28 680 738 "memory2array.ml" 28 680 741
+)
+"memory2array.ml" 29 744 785 "memory2array.ml" 29 744 803
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"memory2array.ml" 29 744 805 "memory2array.ml" 29 744 814
+type(
+  Type.typ
+)
+ident(
+  int_ref indextype "memory2array.ml" 28 680 707 "memory2array.ml" 28 680 716
+)
+"memory2array.ml" 29 744 784 "memory2array.ml" 29 744 815
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"memory2array.ml" 29 744 781 "memory2array.ml" 29 744 815
+type(
+  Ast.exp
+)
+"memory2array.ml" 29 744 767 "memory2array.ml" 29 744 816
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"memory2array.ml" 29 744 762 "memory2array.ml" 29 744 816
+type(
+  Ast.exp
+)
+"memory2array.ml" 31 886 893 "memory2array.ml" 31 886 898
+type(
+  Ast.exp
+)
+ident(
+  int_ref array "memory2array.ml" 28 680 695 "memory2array.ml" 28 680 700
+)
+"memory2array.ml" 31 886 900 "memory2array.ml" 31 886 909
+type(
+  Ast.exp
+)
+ident(
+  int_ref indexplus "memory2array.ml" 29 744 750 "memory2array.ml" 29 744 759
+)
+"memory2array.ml" 31 886 911 "memory2array.ml" 31 886 920
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_false
+)
+"memory2array.ml" 31 886 922 "memory2array.ml" 31 886 931
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 28 680 717 "memory2array.ml" 28 680 726
+)
+"memory2array.ml" 31 886 892 "memory2array.ml" 31 886 932
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"memory2array.ml" 31 886 888 "memory2array.ml" 31 886 932
+type(
+  Ast.exp
+)
+"memory2array.ml" 29 744 746 "memory2array.ml" 31 886 932
+type(
+  Ast.exp
+)
+"memory2array.ml" 33 934 938 "memory2array.ml" 33 934 953
+type(
+  Ast.var ->
+  Ast.exp -> Type.typ -> Type.typ -> Type.typ -> bool -> Ast.exp BatEnum.t
+)
+ident(
+  def split_load_list "memory2array.ml" 44 1284 1284 --
+)
+"memory2array.ml" 33 934 954 "memory2array.ml" 33 934 958
+type(
+  Ast.var
+)
+ident(
+  def mvar "memory2array.ml" 33 934 959 "memory2array.ml" 42 1273 1282
+)
+"memory2array.ml" 33 934 959 "memory2array.ml" 33 934 964
+type(
+  Ast.exp
+)
+ident(
+  def index "memory2array.ml" 33 934 965 "memory2array.ml" 42 1273 1282
+)
+"memory2array.ml" 33 934 965 "memory2array.ml" 33 934 974
+type(
+  Type.typ
+)
+ident(
+  def indextype "memory2array.ml" 33 934 975 "memory2array.ml" 42 1273 1282
+)
+"memory2array.ml" 33 934 975 "memory2array.ml" 33 934 984
+type(
+  Type.typ
+)
+ident(
+  def valuetype "memory2array.ml" 33 934 985 "memory2array.ml" 42 1273 1282
+)
+"memory2array.ml" 33 934 985 "memory2array.ml" 33 934 993
+type(
+  Type.typ
+)
+ident(
+  def loadtype "memory2array.ml" 33 934 994 "memory2array.ml" 42 1273 1282
+)
+"memory2array.ml" 33 934 994 "memory2array.ml" 33 934 1000
+type(
+  bool
+)
+ident(
+  def endian "memory2array.ml" 34 1003 1005 "memory2array.ml" 42 1273 1282
+)
+"memory2array.ml" 34 1003 1009 "memory2array.ml" 34 1003 1014
+type(
+  int
+)
+"memory2array.ml" 34 1003 1017 "memory2array.ml" 34 1003 1025
+type(
+  Type.typ -> Type.typ -> int
+)
+ident(
+  int_ref numelems "memory2array.ml" 22 443 447 "memory2array.ml" 22 443 455
+)
+"memory2array.ml" 34 1003 1026 "memory2array.ml" 34 1003 1034
+type(
+  Type.typ
+)
+ident(
+  int_ref loadtype "memory2array.ml" 33 934 985 "memory2array.ml" 33 934 993
+)
+"memory2array.ml" 34 1003 1035 "memory2array.ml" 34 1003 1044
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 33 934 975 "memory2array.ml" 33 934 984
+)
+"memory2array.ml" 34 1003 1017 "memory2array.ml" 34 1003 1044
+call(
+  stack
+)
+type(
+  int
+)
+"memory2array.ml" 36 1076 1082 "memory2array.ml" 36 1076 1086
+type(
+  int BatEnum.t
+)
+ident(
+  def enum "memory2array.ml" 41 1186 1188 "memory2array.ml" 42 1273 1282
+)
+"memory2array.ml" 37 1089 1096 "memory2array.ml" 37 1089 1102
+type(
+  bool
+)
+ident(
+  int_ref endian "memory2array.ml" 33 934 994 "memory2array.ml" 33 934 1000
+)
+"memory2array.ml" 38 1103 1112 "memory2array.ml" 38 1103 1113
+type(
+  int
+)
+"memory2array.ml" 38 1103 1114 "memory2array.ml" 38 1103 1116
+type(
+  int -> int -> int BatEnum.t
+)
+ident(
+  ext_ref BatPervasives.( -- )
+)
+"memory2array.ml" 38 1103 1118 "memory2array.ml" 38 1103 1123
+type(
+  int
+)
+ident(
+  int_ref nelem "memory2array.ml" 34 1003 1009 "memory2array.ml" 34 1003 1014
+)
+"memory2array.ml" 38 1103 1124 "memory2array.ml" 38 1103 1125
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"memory2array.ml" 38 1103 1126 "memory2array.ml" 38 1103 1127
+type(
+  int
+)
+"memory2array.ml" 38 1103 1117 "memory2array.ml" 38 1103 1128
+type(
+  int
+)
+"memory2array.ml" 38 1103 1112 "memory2array.ml" 38 1103 1128
+call(
+  stack
+)
+type(
+  int BatEnum.t
+)
+"memory2array.ml" 39 1139 1150 "memory2array.ml" 39 1139 1155
+type(
+  int
+)
+ident(
+  int_ref nelem "memory2array.ml" 34 1003 1009 "memory2array.ml" 34 1003 1014
+)
+"memory2array.ml" 39 1139 1156 "memory2array.ml" 39 1139 1157
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"memory2array.ml" 39 1139 1158 "memory2array.ml" 39 1139 1159
+type(
+  int
+)
+"memory2array.ml" 39 1139 1149 "memory2array.ml" 39 1139 1160
+type(
+  int
+)
+"memory2array.ml" 39 1139 1161 "memory2array.ml" 39 1139 1164
+type(
+  int -> int -> int BatEnum.t
+)
+ident(
+  ext_ref BatPervasives.( --- )
+)
+"memory2array.ml" 39 1139 1165 "memory2array.ml" 39 1139 1166
+type(
+  int
+)
+"memory2array.ml" 39 1139 1148 "memory2array.ml" 39 1139 1167
+call(
+  stack
+)
+type(
+  int BatEnum.t
+)
+"memory2array.ml" 37 1089 1093 "memory2array.ml" 39 1139 1167
+type(
+  int BatEnum.t
+)
+"memory2array.ml" 41 1186 1192 "memory2array.ml" 41 1186 1199
+type(
+  Ast.exp BatEnum.t
+)
+ident(
+  def explist "memory2array.ml" 42 1273 1275 "memory2array.ml" 42 1273 1282
+)
+"memory2array.ml" 41 1186 1202 "memory2array.ml" 41 1186 1205
+type(
+  (int -> Ast.exp) -> int BatEnum.t -> Ast.exp BatEnum.t
+)
+ident(
+  ext_ref BatPervasives.map
+)
+"memory2array.ml" 41 1186 1207 "memory2array.ml" 41 1186 1217
+type(
+  Ast.exp -> Ast.exp -> Type.typ -> Type.typ -> Type.typ -> int -> Ast.exp
+)
+ident(
+  int_ref split_load "memory2array.ml" 28 680 684 "memory2array.ml" 28 680 694
+)
+"memory2array.ml" 41 1186 1223 "memory2array.ml" 41 1186 1227
+type(
+  Ast.var
+)
+ident(
+  int_ref mvar "memory2array.ml" 33 934 954 "memory2array.ml" 33 934 958
+)
+"memory2array.ml" 41 1186 1218 "memory2array.ml" 41 1186 1228
+type(
+  Ast.exp
+)
+"memory2array.ml" 41 1186 1229 "memory2array.ml" 41 1186 1234
+type(
+  Ast.exp
+)
+ident(
+  int_ref index "memory2array.ml" 33 934 959 "memory2array.ml" 33 934 964
+)
+"memory2array.ml" 41 1186 1235 "memory2array.ml" 41 1186 1244
+type(
+  Type.typ
+)
+ident(
+  int_ref indextype "memory2array.ml" 33 934 965 "memory2array.ml" 33 934 974
+)
+"memory2array.ml" 41 1186 1245 "memory2array.ml" 41 1186 1254
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 33 934 975 "memory2array.ml" 33 934 984
+)
+"memory2array.ml" 41 1186 1255 "memory2array.ml" 41 1186 1263
+type(
+  Type.typ
+)
+ident(
+  int_ref loadtype "memory2array.ml" 33 934 985 "memory2array.ml" 33 934 993
+)
+"memory2array.ml" 41 1186 1206 "memory2array.ml" 41 1186 1264
+call(
+  stack
+)
+type(
+  int -> Ast.exp
+)
+"memory2array.ml" 41 1186 1265 "memory2array.ml" 41 1186 1269
+type(
+  int BatEnum.t
+)
+ident(
+  int_ref enum "memory2array.ml" 36 1076 1082 "memory2array.ml" 36 1076 1086
+)
+"memory2array.ml" 41 1186 1202 "memory2array.ml" 41 1186 1269
+call(
+  stack
+)
+type(
+  Ast.exp BatEnum.t
+)
+"memory2array.ml" 42 1273 1275 "memory2array.ml" 42 1273 1282
+type(
+  Ast.exp BatEnum.t
+)
+ident(
+  int_ref explist "memory2array.ml" 41 1186 1192 "memory2array.ml" 41 1186 1199
+)
+"memory2array.ml" 41 1186 1188 "memory2array.ml" 42 1273 1282
+type(
+  Ast.exp BatEnum.t
+)
+"memory2array.ml" 36 1076 1078 "memory2array.ml" 42 1273 1282
+type(
+  Ast.exp BatEnum.t
+)
+"memory2array.ml" 34 1003 1005 "memory2array.ml" 42 1273 1282
+type(
+  Ast.exp BatEnum.t
+)
+"memory2array.ml" 44 1284 1288 "memory2array.ml" 44 1284 1299
+type(
+  Ast.exp -> Ast.exp -> Type.typ -> Ast.exp -> Ast.exp
+)
+ident(
+  def split_loads "memory2array.ml" 57 1790 1790 --
+)
+"memory2array.ml" 44 1284 1300 "memory2array.ml" 44 1284 1305
+type(
+  Ast.exp
+)
+ident(
+  def array "memory2array.ml" 44 1284 1306 "memory2array.ml" 55 1765 1788
+)
+"memory2array.ml" 44 1284 1306 "memory2array.ml" 44 1284 1311
+type(
+  Ast.exp
+)
+ident(
+  def index "memory2array.ml" 44 1284 1312 "memory2array.ml" 55 1765 1788
+)
+"memory2array.ml" 44 1284 1312 "memory2array.ml" 44 1284 1320
+type(
+  Type.typ
+)
+ident(
+  def loadtype "memory2array.ml" 44 1284 1321 "memory2array.ml" 55 1765 1788
+)
+"memory2array.ml" 44 1284 1321 "memory2array.ml" 44 1284 1327
+type(
+  Ast.exp
+)
+ident(
+  def endian "memory2array.ml" 45 1330 1332 "memory2array.ml" 55 1765 1788
+)
+"memory2array.ml" 45 1330 1336 "memory2array.ml" 45 1330 1337
+type(
+  Type.typ
+)
+"memory2array.ml" 45 1330 1340 "memory2array.ml" 45 1330 1359
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"memory2array.ml" 45 1330 1360 "memory2array.ml" 45 1330 1365
+type(
+  Ast.exp
+)
+ident(
+  int_ref array "memory2array.ml" 44 1284 1300 "memory2array.ml" 44 1284 1305
+)
+"memory2array.ml" 45 1330 1340 "memory2array.ml" 45 1330 1365
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 46 1369 1375 "memory2array.ml" 46 1369 1384
+type(
+  Type.typ
+)
+"memory2array.ml" 46 1369 1387 "memory2array.ml" 46 1369 1410
+type(
+  Type.typ -> Type.typ
+)
+ident(
+  ext_ref Typecheck.index_type_of
+)
+"memory2array.ml" 46 1369 1411 "memory2array.ml" 46 1369 1412
+type(
+  Type.typ
+)
+ident(
+  int_ref t "memory2array.ml" 45 1330 1336 "memory2array.ml" 45 1330 1337
+)
+"memory2array.ml" 46 1369 1387 "memory2array.ml" 46 1369 1412
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 47 1416 1422 "memory2array.ml" 47 1416 1431
+type(
+  Type.typ
+)
+"memory2array.ml" 47 1416 1434 "memory2array.ml" 47 1416 1457
+type(
+  Type.typ -> Type.typ
+)
+ident(
+  ext_ref Typecheck.value_type_of
+)
+"memory2array.ml" 47 1416 1458 "memory2array.ml" 47 1416 1459
+type(
+  Type.typ
+)
+ident(
+  int_ref t "memory2array.ml" 45 1330 1336 "memory2array.ml" 45 1330 1337
+)
+"memory2array.ml" 47 1416 1434 "memory2array.ml" 47 1416 1459
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 48 1463 1469 "memory2array.ml" 48 1463 1473
+type(
+  Var.t
+)
+"memory2array.ml" 48 1463 1476 "memory2array.ml" 48 1463 1487
+type(
+  string -> Type.typ -> Var.t
+)
+ident(
+  ext_ref Var_temp.nt
+)
+"memory2array.ml" 48 1463 1488 "memory2array.ml" 48 1463 1498
+type(
+  string
+)
+"memory2array.ml" 48 1463 1506 "memory2array.ml" 48 1463 1515
+type(
+  Type.typ
+)
+ident(
+  int_ref indextype "memory2array.ml" 46 1369 1375 "memory2array.ml" 46 1369 1384
+)
+"memory2array.ml" 48 1463 1517 "memory2array.ml" 48 1463 1526
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 47 1416 1422 "memory2array.ml" 47 1416 1431
+)
+"memory2array.ml" 48 1463 1499 "memory2array.ml" 48 1463 1528
+type(
+  Type.typ
+)
+"memory2array.ml" 48 1463 1476 "memory2array.ml" 48 1463 1528
+call(
+  stack
+)
+type(
+  Var.t
+)
+"memory2array.ml" 50 1587 1593 "memory2array.ml" 50 1587 1594
+type(
+  bool -> Ast.exp
+)
+"memory2array.ml" 50 1587 1595 "memory2array.ml" 50 1587 1601
+type(
+  bool
+)
+ident(
+  def endian "memory2array.ml" 51 1604 1608 "memory2array.ml" 52 1686 1710
+)
+"memory2array.ml" 51 1604 1612 "memory2array.ml" 51 1604 1617
+type(
+  Ast.exp BatEnum.t
+)
+"memory2array.ml" 51 1604 1620 "memory2array.ml" 51 1604 1635
+type(
+  Ast.var ->
+  Ast.exp -> Type.typ -> Type.typ -> Type.typ -> bool -> Ast.exp BatEnum.t
+)
+ident(
+  int_ref split_load_list "memory2array.ml" 33 934 938 "memory2array.ml" 33 934 953
+)
+"memory2array.ml" 51 1604 1636 "memory2array.ml" 51 1604 1640
+type(
+  Ast.var
+)
+ident(
+  int_ref mvar "memory2array.ml" 48 1463 1469 "memory2array.ml" 48 1463 1473
+)
+"memory2array.ml" 51 1604 1641 "memory2array.ml" 51 1604 1646
+type(
+  Ast.exp
+)
+ident(
+  int_ref index "memory2array.ml" 44 1284 1306 "memory2array.ml" 44 1284 1311
+)
+"memory2array.ml" 51 1604 1647 "memory2array.ml" 51 1604 1656
+type(
+  Type.typ
+)
+ident(
+  int_ref indextype "memory2array.ml" 46 1369 1375 "memory2array.ml" 46 1369 1384
+)
+"memory2array.ml" 51 1604 1657 "memory2array.ml" 51 1604 1666
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 47 1416 1422 "memory2array.ml" 47 1416 1431
+)
+"memory2array.ml" 51 1604 1667 "memory2array.ml" 51 1604 1675
+type(
+  Type.typ
+)
+ident(
+  int_ref loadtype "memory2array.ml" 44 1284 1312 "memory2array.ml" 44 1284 1320
+)
+"memory2array.ml" 51 1604 1676 "memory2array.ml" 51 1604 1682
+type(
+  bool
+)
+ident(
+  int_ref endian "memory2array.ml" 50 1587 1595 "memory2array.ml" 50 1587 1601
+)
+"memory2array.ml" 51 1604 1620 "memory2array.ml" 51 1604 1682
+call(
+  stack
+)
+type(
+  Ast.exp BatEnum.t
+)
+"memory2array.ml" 52 1686 1690 "memory2array.ml" 52 1686 1704
+type(
+  Ast.exp BatEnum.t -> Ast.exp
+)
+ident(
+  ext_ref Ast_convenience.concat_explist
+)
+"memory2array.ml" 52 1686 1705 "memory2array.ml" 52 1686 1710
+type(
+  Ast.exp BatEnum.t
+)
+ident(
+  int_ref reads "memory2array.ml" 51 1604 1612 "memory2array.ml" 51 1604 1617
+)
+"memory2array.ml" 52 1686 1690 "memory2array.ml" 52 1686 1710
+call(
+  tail
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 51 1604 1608 "memory2array.ml" 52 1686 1710
+type(
+  Ast.exp
+)
+"memory2array.ml" 54 1716 1722 "memory2array.ml" 54 1716 1725
+type(
+  Ast.exp
+)
+"memory2array.ml" 54 1716 1728 "memory2array.ml" 54 1716 1735
+type(
+  ?t:Type.typ -> Ast.exp -> Ast.exp -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_convenience.exp_ite
+)
+"memory2array.ml" 54 1716 1736 "memory2array.ml" 54 1716 1742
+type(
+  Ast.exp
+)
+ident(
+  int_ref endian "memory2array.ml" 44 1284 1321 "memory2array.ml" 44 1284 1327
+)
+"memory2array.ml" 54 1716 1744 "memory2array.ml" 54 1716 1745
+type(
+  bool -> Ast.exp
+)
+ident(
+  int_ref f "memory2array.ml" 50 1587 1593 "memory2array.ml" 50 1587 1594
+)
+"memory2array.ml" 54 1716 1746 "memory2array.ml" 54 1716 1750
+type(
+  bool
+)
+"memory2array.ml" 54 1716 1743 "memory2array.ml" 54 1716 1751
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 54 1716 1753 "memory2array.ml" 54 1716 1754
+type(
+  bool -> Ast.exp
+)
+ident(
+  int_ref f "memory2array.ml" 50 1587 1593 "memory2array.ml" 50 1587 1594
+)
+"memory2array.ml" 54 1716 1755 "memory2array.ml" 54 1716 1760
+type(
+  bool
+)
+"memory2array.ml" 54 1716 1752 "memory2array.ml" 54 1716 1761
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 54 1716 1728 "memory2array.ml" 54 1716 1761
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 55 1765 1771 "memory2array.ml" 55 1765 1775
+type(
+  Ast.var
+)
+ident(
+  int_ref mvar "memory2array.ml" 48 1463 1469 "memory2array.ml" 48 1463 1473
+)
+"memory2array.ml" 55 1765 1777 "memory2array.ml" 55 1765 1782
+type(
+  Ast.exp
+)
+ident(
+  int_ref array "memory2array.ml" 44 1284 1300 "memory2array.ml" 44 1284 1305
+)
+"memory2array.ml" 55 1765 1784 "memory2array.ml" 55 1765 1787
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "memory2array.ml" 54 1716 1722 "memory2array.ml" 54 1716 1725
+)
+"memory2array.ml" 55 1765 1770 "memory2array.ml" 55 1765 1788
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"memory2array.ml" 55 1765 1767 "memory2array.ml" 55 1765 1788
+type(
+  Ast.exp
+)
+"memory2array.ml" 54 1716 1718 "memory2array.ml" 55 1765 1788
+type(
+  Ast.exp
+)
+"memory2array.ml" 50 1587 1589 "memory2array.ml" 55 1765 1788
+type(
+  Ast.exp
+)
+"memory2array.ml" 48 1463 1465 "memory2array.ml" 55 1765 1788
+type(
+  Ast.exp
+)
+"memory2array.ml" 47 1416 1418 "memory2array.ml" 55 1765 1788
+type(
+  Ast.exp
+)
+"memory2array.ml" 46 1369 1371 "memory2array.ml" 55 1765 1788
+type(
+  Ast.exp
+)
+"memory2array.ml" 45 1330 1332 "memory2array.ml" 55 1765 1788
+type(
+  Ast.exp
+)
+"memory2array.ml" 57 1790 1794 "memory2array.ml" 57 1790 1805
+type(
+  Ast.exp ->
+  Ast.exp ->
+  Type.typ -> Type.typ -> 'a -> Ast.exp -> int -> bool -> int -> Ast.exp
+)
+ident(
+  def split_write "memory2array.ml" 69 2287 2287 --
+)
+"memory2array.ml" 57 1790 1806 "memory2array.ml" 57 1790 1811
+type(
+  Ast.exp
+)
+ident(
+  def array "memory2array.ml" 57 1790 1812 "memory2array.ml" 67 2280 2285
+)
+"memory2array.ml" 57 1790 1812 "memory2array.ml" 57 1790 1817
+type(
+  Ast.exp
+)
+ident(
+  def index "memory2array.ml" 57 1790 1818 "memory2array.ml" 67 2280 2285
+)
+"memory2array.ml" 57 1790 1818 "memory2array.ml" 57 1790 1827
+type(
+  Type.typ
+)
+ident(
+  def indextype "memory2array.ml" 57 1790 1828 "memory2array.ml" 67 2280 2285
+)
+"memory2array.ml" 57 1790 1828 "memory2array.ml" 57 1790 1837
+type(
+  Type.typ
+)
+ident(
+  def valuetype "memory2array.ml" 57 1790 1838 "memory2array.ml" 67 2280 2285
+)
+"memory2array.ml" 57 1790 1838 "memory2array.ml" 57 1790 1848
+type(
+  'a
+)
+ident(
+  def accesstype "memory2array.ml" 57 1790 1849 "memory2array.ml" 67 2280 2285
+)
+"memory2array.ml" 57 1790 1849 "memory2array.ml" 57 1790 1853
+type(
+  Ast.exp
+)
+ident(
+  def data "memory2array.ml" 57 1790 1854 "memory2array.ml" 67 2280 2285
+)
+"memory2array.ml" 57 1790 1854 "memory2array.ml" 57 1790 1860
+type(
+  int
+)
+ident(
+  def nelems "memory2array.ml" 57 1790 1861 "memory2array.ml" 67 2280 2285
+)
+"memory2array.ml" 57 1790 1861 "memory2array.ml" 57 1790 1867
+type(
+  bool
+)
+ident(
+  def endian "memory2array.ml" 57 1790 1868 "memory2array.ml" 67 2280 2285
+)
+"memory2array.ml" 57 1790 1868 "memory2array.ml" 57 1790 1871
+type(
+  int
+)
+ident(
+  def num "memory2array.ml" 58 1874 1876 "memory2array.ml" 67 2280 2285
+)
+"memory2array.ml" 58 1874 1880 "memory2array.ml" 58 1874 1884
+type(
+  int
+)
+"memory2array.ml" 58 1874 1887 "memory2array.ml" 58 1874 1910
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"memory2array.ml" 58 1874 1911 "memory2array.ml" 58 1874 1920
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 57 1790 1828 "memory2array.ml" 57 1790 1837
+)
+"memory2array.ml" 58 1874 1887 "memory2array.ml" 58 1874 1920
+call(
+  stack
+)
+type(
+  int
+)
+"memory2array.ml" 59 1924 1930 "memory2array.ml" 59 1924 1933
+type(
+  Ast.exp
+)
+"memory2array.ml" 59 1924 1936 "memory2array.ml" 59 1924 1943
+type(
+  int -> int -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_convenience.extract
+)
+"memory2array.ml" 59 1924 1947 "memory2array.ml" 59 1924 1950
+type(
+  int
+)
+ident(
+  int_ref num "memory2array.ml" 57 1790 1868 "memory2array.ml" 57 1790 1871
+)
+"memory2array.ml" 59 1924 1950 "memory2array.ml" 59 1924 1951
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"memory2array.ml" 59 1924 1951 "memory2array.ml" 59 1924 1952
+type(
+  int
+)
+"memory2array.ml" 59 1924 1946 "memory2array.ml" 59 1924 1953
+type(
+  int
+)
+"memory2array.ml" 59 1924 1954 "memory2array.ml" 59 1924 1955
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"memory2array.ml" 59 1924 1956 "memory2array.ml" 59 1924 1960
+type(
+  int
+)
+ident(
+  int_ref bits "memory2array.ml" 58 1874 1880 "memory2array.ml" 58 1874 1884
+)
+"memory2array.ml" 59 1924 1945 "memory2array.ml" 59 1924 1961
+type(
+  int
+)
+"memory2array.ml" 59 1924 1962 "memory2array.ml" 59 1924 1963
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"memory2array.ml" 59 1924 1964 "memory2array.ml" 59 1924 1965
+type(
+  int
+)
+"memory2array.ml" 59 1924 1944 "memory2array.ml" 59 1924 1966
+type(
+  int
+)
+"memory2array.ml" 59 1924 1968 "memory2array.ml" 59 1924 1971
+type(
+  int
+)
+ident(
+  int_ref num "memory2array.ml" 57 1790 1868 "memory2array.ml" 57 1790 1871
+)
+"memory2array.ml" 59 1924 1971 "memory2array.ml" 59 1924 1972
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"memory2array.ml" 59 1924 1972 "memory2array.ml" 59 1924 1976
+type(
+  int
+)
+ident(
+  int_ref bits "memory2array.ml" 58 1874 1880 "memory2array.ml" 58 1874 1884
+)
+"memory2array.ml" 59 1924 1967 "memory2array.ml" 59 1924 1977
+type(
+  int
+)
+"memory2array.ml" 59 1924 1978 "memory2array.ml" 59 1924 1982
+type(
+  Ast.exp
+)
+ident(
+  int_ref data "memory2array.ml" 57 1790 1849 "memory2array.ml" 57 1790 1853
+)
+"memory2array.ml" 59 1924 1936 "memory2array.ml" 59 1924 1982
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 60 1986 1992 "memory2array.ml" 60 1986 2001
+type(
+  Ast.exp
+)
+"memory2array.ml" 61 2004 2011 "memory2array.ml" 61 2004 2017
+type(
+  bool
+)
+ident(
+  int_ref endian "memory2array.ml" 57 1790 1861 "memory2array.ml" 57 1790 1867
+)
+"memory2array.ml" 62 2018 2027 "memory2array.ml" 62 2018 2032
+type(
+  Ast.exp
+)
+ident(
+  int_ref index "memory2array.ml" 57 1790 1812 "memory2array.ml" 57 1790 1817
+)
+"memory2array.ml" 62 2018 2033 "memory2array.ml" 62 2018 2035
+type(
+  Ast.exp -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_convenience.( +* )
+)
+"memory2array.ml" 62 2018 2041 "memory2array.ml" 62 2018 2055
+type(
+  int -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"memory2array.ml" 62 2018 2057 "memory2array.ml" 62 2018 2063
+type(
+  int
+)
+ident(
+  int_ref nelems "memory2array.ml" 57 1790 1854 "memory2array.ml" 57 1790 1860
+)
+"memory2array.ml" 62 2018 2064 "memory2array.ml" 62 2018 2065
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"memory2array.ml" 62 2018 2066 "memory2array.ml" 62 2018 2067
+type(
+  int
+)
+"memory2array.ml" 62 2018 2057 "memory2array.ml" 62 2018 2067
+type(
+  int
+)
+"memory2array.ml" 62 2018 2068 "memory2array.ml" 62 2018 2069
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"memory2array.ml" 62 2018 2070 "memory2array.ml" 62 2018 2073
+type(
+  int
+)
+ident(
+  int_ref num "memory2array.ml" 57 1790 1868 "memory2array.ml" 57 1790 1871
+)
+"memory2array.ml" 62 2018 2056 "memory2array.ml" 62 2018 2074
+type(
+  int
+)
+"memory2array.ml" 62 2018 2041 "memory2array.ml" 62 2018 2074
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"memory2array.ml" 62 2018 2076 "memory2array.ml" 62 2018 2085
+type(
+  Type.typ
+)
+ident(
+  int_ref indextype "memory2array.ml" 57 1790 1818 "memory2array.ml" 57 1790 1827
+)
+"memory2array.ml" 62 2018 2040 "memory2array.ml" 62 2018 2086
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"memory2array.ml" 62 2018 2036 "memory2array.ml" 62 2018 2087
+type(
+  Ast.exp
+)
+"memory2array.ml" 62 2018 2027 "memory2array.ml" 62 2018 2087
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 63 2088 2097 "memory2array.ml" 63 2088 2102
+type(
+  Ast.exp
+)
+ident(
+  int_ref index "memory2array.ml" 57 1790 1812 "memory2array.ml" 57 1790 1817
+)
+"memory2array.ml" 63 2088 2103 "memory2array.ml" 63 2088 2105
+type(
+  Ast.exp -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_convenience.( +* )
+)
+"memory2array.ml" 63 2088 2111 "memory2array.ml" 63 2088 2125
+type(
+  int -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"memory2array.ml" 63 2088 2126 "memory2array.ml" 63 2088 2129
+type(
+  int
+)
+ident(
+  int_ref num "memory2array.ml" 57 1790 1868 "memory2array.ml" 57 1790 1871
+)
+"memory2array.ml" 63 2088 2111 "memory2array.ml" 63 2088 2129
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"memory2array.ml" 63 2088 2131 "memory2array.ml" 63 2088 2140
+type(
+  Type.typ
+)
+ident(
+  int_ref indextype "memory2array.ml" 57 1790 1818 "memory2array.ml" 57 1790 1827
+)
+"memory2array.ml" 63 2088 2110 "memory2array.ml" 63 2088 2141
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"memory2array.ml" 63 2088 2106 "memory2array.ml" 63 2088 2142
+type(
+  Ast.exp
+)
+"memory2array.ml" 63 2088 2097 "memory2array.ml" 63 2088 2142
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 61 2004 2008 "memory2array.ml" 63 2088 2142
+type(
+  Ast.exp
+)
+"memory2array.ml" 66 2214 2220 "memory2array.ml" 66 2214 2223
+type(
+  Ast.exp
+)
+"memory2array.ml" 66 2214 2232 "memory2array.ml" 66 2214 2237
+type(
+  Ast.exp
+)
+ident(
+  int_ref array "memory2array.ml" 57 1790 1806 "memory2array.ml" 57 1790 1811
+)
+"memory2array.ml" 66 2214 2239 "memory2array.ml" 66 2214 2248
+type(
+  Ast.exp
+)
+ident(
+  int_ref indexplus "memory2array.ml" 60 1986 1992 "memory2array.ml" 60 1986 2001
+)
+"memory2array.ml" 66 2214 2250 "memory2array.ml" 66 2214 2253
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "memory2array.ml" 59 1924 1930 "memory2array.ml" 59 1924 1933
+)
+"memory2array.ml" 66 2214 2255 "memory2array.ml" 66 2214 2264
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_false
+)
+"memory2array.ml" 66 2214 2266 "memory2array.ml" 66 2214 2275
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 57 1790 1828 "memory2array.ml" 57 1790 1837
+)
+"memory2array.ml" 66 2214 2231 "memory2array.ml" 66 2214 2276
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"memory2array.ml" 66 2214 2226 "memory2array.ml" 66 2214 2276
+type(
+  Ast.exp
+)
+"memory2array.ml" 67 2280 2282 "memory2array.ml" 67 2280 2285
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "memory2array.ml" 66 2214 2220 "memory2array.ml" 66 2214 2223
+)
+"memory2array.ml" 66 2214 2216 "memory2array.ml" 67 2280 2285
+type(
+  Ast.exp
+)
+"memory2array.ml" 60 1986 1988 "memory2array.ml" 67 2280 2285
+type(
+  Ast.exp
+)
+"memory2array.ml" 59 1924 1926 "memory2array.ml" 67 2280 2285
+type(
+  Ast.exp
+)
+"memory2array.ml" 58 1874 1876 "memory2array.ml" 67 2280 2285
+type(
+  Ast.exp
+)
+"memory2array.ml" 69 2287 2291 "memory2array.ml" 69 2287 2307
+type(
+  Ast.var ->
+  Ast.var ->
+  Ast.exp ->
+  Type.typ ->
+  Type.typ ->
+  'a -> int -> bool -> 'b -> Ast.exp BatEnum.t * Ast.var * Ast.var
+)
+ident(
+  def split_write_list "memory2array.ml" 74 2604 2604 --
+)
+"memory2array.ml" 69 2287 2308 "memory2array.ml" 69 2287 2318
+type(
+  Ast.var
+)
+ident(
+  def tempmemvar "memory2array.ml" 69 2287 2319 "memory2array.ml" 72 2562 2602
+)
+"memory2array.ml" 69 2287 2319 "memory2array.ml" 69 2287 2329
+type(
+  Ast.var
+)
+ident(
+  def tempvalvar "memory2array.ml" 69 2287 2330 "memory2array.ml" 72 2562 2602
+)
+"memory2array.ml" 69 2287 2330 "memory2array.ml" 69 2287 2335
+type(
+  Ast.exp
+)
+ident(
+  def index "memory2array.ml" 69 2287 2336 "memory2array.ml" 72 2562 2602
+)
+"memory2array.ml" 69 2287 2336 "memory2array.ml" 69 2287 2345
+type(
+  Type.typ
+)
+ident(
+  def indextype "memory2array.ml" 69 2287 2346 "memory2array.ml" 72 2562 2602
+)
+"memory2array.ml" 69 2287 2346 "memory2array.ml" 69 2287 2355
+type(
+  Type.typ
+)
+ident(
+  def valuetype "memory2array.ml" 69 2287 2356 "memory2array.ml" 72 2562 2602
+)
+"memory2array.ml" 69 2287 2356 "memory2array.ml" 69 2287 2365
+type(
+  'a
+)
+ident(
+  def storetype "memory2array.ml" 69 2287 2366 "memory2array.ml" 72 2562 2602
+)
+"memory2array.ml" 69 2287 2366 "memory2array.ml" 69 2287 2372
+type(
+  int
+)
+ident(
+  def nelems "memory2array.ml" 69 2287 2373 "memory2array.ml" 72 2562 2602
+)
+"memory2array.ml" 69 2287 2373 "memory2array.ml" 69 2287 2379
+type(
+  bool
+)
+ident(
+  def endian "memory2array.ml" 69 2287 2380 "memory2array.ml" 72 2562 2602
+)
+"memory2array.ml" 69 2287 2380 "memory2array.ml" 69 2287 2384
+type(
+  'b
+)
+ident(
+  def data "memory2array.ml" 70 2387 2389 "memory2array.ml" 72 2562 2602
+)
+"memory2array.ml" 71 2415 2421 "memory2array.ml" 71 2415 2433
+type(
+  Ast.exp BatEnum.t
+)
+ident(
+  def singlewrites "memory2array.ml" 72 2562 2564 "memory2array.ml" 72 2562 2602
+)
+"memory2array.ml" 71 2415 2436 "memory2array.ml" 71 2415 2439
+type(
+  (int -> Ast.exp) -> int BatEnum.t -> Ast.exp BatEnum.t
+)
+ident(
+  ext_ref BatPervasives.map
+)
+"memory2array.ml" 71 2415 2441 "memory2array.ml" 71 2415 2452
+type(
+  Ast.exp ->
+  Ast.exp ->
+  Type.typ -> Type.typ -> 'a -> Ast.exp -> int -> bool -> int -> Ast.exp
+)
+ident(
+  int_ref split_write "memory2array.ml" 57 1790 1794 "memory2array.ml" 57 1790 1805
+)
+"memory2array.ml" 71 2415 2458 "memory2array.ml" 71 2415 2468
+type(
+  Ast.var
+)
+ident(
+  int_ref tempmemvar "memory2array.ml" 69 2287 2308 "memory2array.ml" 69 2287 2318
+)
+"memory2array.ml" 71 2415 2453 "memory2array.ml" 71 2415 2469
+type(
+  Ast.exp
+)
+"memory2array.ml" 71 2415 2470 "memory2array.ml" 71 2415 2475
+type(
+  Ast.exp
+)
+ident(
+  int_ref index "memory2array.ml" 69 2287 2330 "memory2array.ml" 69 2287 2335
+)
+"memory2array.ml" 71 2415 2476 "memory2array.ml" 71 2415 2485
+type(
+  Type.typ
+)
+ident(
+  int_ref indextype "memory2array.ml" 69 2287 2336 "memory2array.ml" 69 2287 2345
+)
+"memory2array.ml" 71 2415 2486 "memory2array.ml" 71 2415 2495
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 69 2287 2346 "memory2array.ml" 69 2287 2355
+)
+"memory2array.ml" 71 2415 2496 "memory2array.ml" 71 2415 2505
+type(
+  'a
+)
+ident(
+  int_ref storetype "memory2array.ml" 69 2287 2356 "memory2array.ml" 69 2287 2365
+)
+"memory2array.ml" 71 2415 2511 "memory2array.ml" 71 2415 2521
+type(
+  Ast.var
+)
+ident(
+  int_ref tempvalvar "memory2array.ml" 69 2287 2319 "memory2array.ml" 69 2287 2329
+)
+"memory2array.ml" 71 2415 2506 "memory2array.ml" 71 2415 2522
+type(
+  Ast.exp
+)
+"memory2array.ml" 71 2415 2523 "memory2array.ml" 71 2415 2529
+type(
+  int
+)
+ident(
+  int_ref nelems "memory2array.ml" 69 2287 2366 "memory2array.ml" 69 2287 2372
+)
+"memory2array.ml" 71 2415 2530 "memory2array.ml" 71 2415 2536
+type(
+  bool
+)
+ident(
+  int_ref endian "memory2array.ml" 69 2287 2373 "memory2array.ml" 69 2287 2379
+)
+"memory2array.ml" 71 2415 2440 "memory2array.ml" 71 2415 2537
+call(
+  stack
+)
+type(
+  int -> Ast.exp
+)
+"memory2array.ml" 71 2415 2540 "memory2array.ml" 71 2415 2546
+type(
+  int
+)
+ident(
+  int_ref nelems "memory2array.ml" 69 2287 2366 "memory2array.ml" 69 2287 2372
+)
+"memory2array.ml" 71 2415 2547 "memory2array.ml" 71 2415 2548
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"memory2array.ml" 71 2415 2549 "memory2array.ml" 71 2415 2550
+type(
+  int
+)
+"memory2array.ml" 71 2415 2539 "memory2array.ml" 71 2415 2551
+type(
+  int
+)
+"memory2array.ml" 71 2415 2552 "memory2array.ml" 71 2415 2555
+type(
+  int -> int -> int BatEnum.t
+)
+ident(
+  ext_ref BatPervasives.( --- )
+)
+"memory2array.ml" 71 2415 2556 "memory2array.ml" 71 2415 2557
+type(
+  int
+)
+"memory2array.ml" 71 2415 2538 "memory2array.ml" 71 2415 2558
+call(
+  stack
+)
+type(
+  int BatEnum.t
+)
+"memory2array.ml" 71 2415 2436 "memory2array.ml" 71 2415 2558
+call(
+  stack
+)
+type(
+  Ast.exp BatEnum.t
+)
+"memory2array.ml" 72 2562 2565 "memory2array.ml" 72 2562 2577
+type(
+  Ast.exp BatEnum.t
+)
+ident(
+  int_ref singlewrites "memory2array.ml" 71 2415 2421 "memory2array.ml" 71 2415 2433
+)
+"memory2array.ml" 72 2562 2579 "memory2array.ml" 72 2562 2589
+type(
+  Ast.var
+)
+ident(
+  int_ref tempmemvar "memory2array.ml" 69 2287 2308 "memory2array.ml" 69 2287 2318
+)
+"memory2array.ml" 72 2562 2591 "memory2array.ml" 72 2562 2601
+type(
+  Ast.var
+)
+ident(
+  int_ref tempvalvar "memory2array.ml" 69 2287 2319 "memory2array.ml" 69 2287 2329
+)
+"memory2array.ml" 72 2562 2564 "memory2array.ml" 72 2562 2602
+type(
+  Ast.exp BatEnum.t * Ast.var * Ast.var
+)
+"memory2array.ml" 71 2415 2417 "memory2array.ml" 72 2562 2602
+type(
+  Ast.exp BatEnum.t * Ast.var * Ast.var
+)
+"memory2array.ml" 74 2604 2608 "memory2array.ml" 74 2604 2620
+type(
+  Ast.exp -> Ast.exp -> Type.typ -> Ast.exp -> Ast.exp -> Ast.exp
+)
+ident(
+  def split_writes "memory2array.ml" 91 3418 3418 --
+)
+"memory2array.ml" 74 2604 2621 "memory2array.ml" 74 2604 2626
+type(
+  Ast.exp
+)
+ident(
+  def array "memory2array.ml" 74 2604 2627 "memory2array.ml" 89 3384 3416
+)
+"memory2array.ml" 74 2604 2627 "memory2array.ml" 74 2604 2632
+type(
+  Ast.exp
+)
+ident(
+  def index "memory2array.ml" 74 2604 2633 "memory2array.ml" 89 3384 3416
+)
+"memory2array.ml" 74 2604 2633 "memory2array.ml" 74 2604 2642
+type(
+  Type.typ
+)
+ident(
+  def storetype "memory2array.ml" 74 2604 2643 "memory2array.ml" 89 3384 3416
+)
+"memory2array.ml" 74 2604 2643 "memory2array.ml" 74 2604 2649
+type(
+  Ast.exp
+)
+ident(
+  def endian "memory2array.ml" 74 2604 2650 "memory2array.ml" 89 3384 3416
+)
+"memory2array.ml" 74 2604 2650 "memory2array.ml" 74 2604 2654
+type(
+  Ast.exp
+)
+ident(
+  def data "memory2array.ml" 75 2657 2659 "memory2array.ml" 89 3384 3416
+)
+"memory2array.ml" 75 2657 2663 "memory2array.ml" 75 2657 2664
+type(
+  Type.typ
+)
+"memory2array.ml" 75 2657 2667 "memory2array.ml" 75 2657 2686
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"memory2array.ml" 75 2657 2687 "memory2array.ml" 75 2657 2692
+type(
+  Ast.exp
+)
+ident(
+  int_ref array "memory2array.ml" 74 2604 2621 "memory2array.ml" 74 2604 2626
+)
+"memory2array.ml" 75 2657 2667 "memory2array.ml" 75 2657 2692
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 76 2696 2702 "memory2array.ml" 76 2696 2711
+type(
+  Type.typ
+)
+"memory2array.ml" 76 2696 2714 "memory2array.ml" 76 2696 2737
+type(
+  Type.typ -> Type.typ
+)
+ident(
+  ext_ref Typecheck.index_type_of
+)
+"memory2array.ml" 76 2696 2738 "memory2array.ml" 76 2696 2739
+type(
+  Type.typ
+)
+ident(
+  int_ref t "memory2array.ml" 75 2657 2663 "memory2array.ml" 75 2657 2664
+)
+"memory2array.ml" 76 2696 2714 "memory2array.ml" 76 2696 2739
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 77 2743 2749 "memory2array.ml" 77 2743 2758
+type(
+  Type.typ
+)
+"memory2array.ml" 77 2743 2761 "memory2array.ml" 77 2743 2784
+type(
+  Type.typ -> Type.typ
+)
+ident(
+  ext_ref Typecheck.value_type_of
+)
+"memory2array.ml" 77 2743 2785 "memory2array.ml" 77 2743 2786
+type(
+  Type.typ
+)
+ident(
+  int_ref t "memory2array.ml" 75 2657 2663 "memory2array.ml" 75 2657 2664
+)
+"memory2array.ml" 77 2743 2761 "memory2array.ml" 77 2743 2786
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 78 2790 2796 "memory2array.ml" 78 2790 2802
+type(
+  int
+)
+"memory2array.ml" 78 2790 2805 "memory2array.ml" 78 2790 2813
+type(
+  Type.typ -> Type.typ -> int
+)
+ident(
+  int_ref numelems "memory2array.ml" 22 443 447 "memory2array.ml" 22 443 455
+)
+"memory2array.ml" 78 2790 2814 "memory2array.ml" 78 2790 2823
+type(
+  Type.typ
+)
+ident(
+  int_ref storetype "memory2array.ml" 74 2604 2633 "memory2array.ml" 74 2604 2642
+)
+"memory2array.ml" 78 2790 2824 "memory2array.ml" 78 2790 2833
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 77 2743 2749 "memory2array.ml" 77 2743 2758
+)
+"memory2array.ml" 78 2790 2805 "memory2array.ml" 78 2790 2833
+call(
+  stack
+)
+type(
+  int
+)
+"memory2array.ml" 79 2837 2843 "memory2array.ml" 79 2837 2853
+type(
+  Var.t
+)
+"memory2array.ml" 79 2837 2856 "memory2array.ml" 79 2837 2867
+type(
+  string -> Type.typ -> Var.t
+)
+ident(
+  ext_ref Var_temp.nt
+)
+"memory2array.ml" 79 2837 2868 "memory2array.ml" 79 2837 2877
+type(
+  string
+)
+"memory2array.ml" 79 2837 2885 "memory2array.ml" 79 2837 2894
+type(
+  Type.typ
+)
+ident(
+  int_ref indextype "memory2array.ml" 76 2696 2702 "memory2array.ml" 76 2696 2711
+)
+"memory2array.ml" 79 2837 2896 "memory2array.ml" 79 2837 2905
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 77 2743 2749 "memory2array.ml" 77 2743 2758
+)
+"memory2array.ml" 79 2837 2878 "memory2array.ml" 79 2837 2907
+type(
+  Type.typ
+)
+"memory2array.ml" 79 2837 2856 "memory2array.ml" 79 2837 2907
+call(
+  stack
+)
+type(
+  Var.t
+)
+"memory2array.ml" 80 2911 2917 "memory2array.ml" 80 2911 2927
+type(
+  Var.t
+)
+"memory2array.ml" 80 2911 2930 "memory2array.ml" 80 2911 2941
+type(
+  string -> Type.typ -> Var.t
+)
+ident(
+  ext_ref Var_temp.nt
+)
+"memory2array.ml" 80 2911 2942 "memory2array.ml" 80 2911 2951
+type(
+  string
+)
+"memory2array.ml" 80 2911 2952 "memory2array.ml" 80 2911 2961
+type(
+  Type.typ
+)
+ident(
+  int_ref storetype "memory2array.ml" 74 2604 2633 "memory2array.ml" 74 2604 2642
+)
+"memory2array.ml" 80 2911 2930 "memory2array.ml" 80 2911 2961
+call(
+  stack
+)
+type(
+  Var.t
+)
+"memory2array.ml" 81 2965 2971 "memory2array.ml" 81 2965 2972
+type(
+  bool -> Ast.exp
+)
+"memory2array.ml" 81 2965 2973 "memory2array.ml" 81 2965 2979
+type(
+  bool
+)
+ident(
+  def endian "memory2array.ml" 82 2982 2986 "memory2array.ml" 85 3268 3278
+)
+"memory2array.ml" 82 2982 2991 "memory2array.ml" 82 2982 3003
+type(
+  Ast.exp BatEnum.t
+)
+"memory2array.ml" 82 2982 3005 "memory2array.ml" 82 2982 3015
+type(
+  Ast.var
+)
+"memory2array.ml" 82 2982 3017 "memory2array.ml" 82 2982 3027
+type(
+  Ast.var
+)
+"memory2array.ml" 82 2982 2990 "memory2array.ml" 82 2982 3028
+type(
+  Ast.exp BatEnum.t * Ast.var * Ast.var
+)
+"memory2array.ml" 82 2982 3031 "memory2array.ml" 82 2982 3047
+type(
+  Ast.var ->
+  Ast.var ->
+  Ast.exp ->
+  Type.typ ->
+  Type.typ ->
+  Type.typ -> int -> bool -> Ast.exp -> Ast.exp BatEnum.t * Ast.var * Ast.var
+)
+ident(
+  int_ref split_write_list "memory2array.ml" 69 2287 2291 "memory2array.ml" 69 2287 2307
+)
+"memory2array.ml" 82 2982 3048 "memory2array.ml" 82 2982 3058
+type(
+  Ast.var
+)
+ident(
+  int_ref tempmemvar "memory2array.ml" 79 2837 2843 "memory2array.ml" 79 2837 2853
+)
+"memory2array.ml" 82 2982 3059 "memory2array.ml" 82 2982 3069
+type(
+  Ast.var
+)
+ident(
+  int_ref tempvalvar "memory2array.ml" 80 2911 2917 "memory2array.ml" 80 2911 2927
+)
+"memory2array.ml" 82 2982 3070 "memory2array.ml" 82 2982 3075
+type(
+  Ast.exp
+)
+ident(
+  int_ref index "memory2array.ml" 74 2604 2627 "memory2array.ml" 74 2604 2632
+)
+"memory2array.ml" 82 2982 3076 "memory2array.ml" 82 2982 3085
+type(
+  Type.typ
+)
+ident(
+  int_ref indextype "memory2array.ml" 76 2696 2702 "memory2array.ml" 76 2696 2711
+)
+"memory2array.ml" 82 2982 3086 "memory2array.ml" 82 2982 3095
+type(
+  Type.typ
+)
+ident(
+  int_ref valuetype "memory2array.ml" 77 2743 2749 "memory2array.ml" 77 2743 2758
+)
+"memory2array.ml" 82 2982 3096 "memory2array.ml" 82 2982 3105
+type(
+  Type.typ
+)
+ident(
+  int_ref storetype "memory2array.ml" 74 2604 2633 "memory2array.ml" 74 2604 2642
+)
+"memory2array.ml" 82 2982 3106 "memory2array.ml" 82 2982 3112
+type(
+  int
+)
+ident(
+  int_ref nelems "memory2array.ml" 78 2790 2796 "memory2array.ml" 78 2790 2802
+)
+"memory2array.ml" 82 2982 3113 "memory2array.ml" 82 2982 3119
+type(
+  bool
+)
+ident(
+  int_ref endian "memory2array.ml" 81 2965 2973 "memory2array.ml" 81 2965 2979
+)
+"memory2array.ml" 82 2982 3120 "memory2array.ml" 82 2982 3124
+type(
+  Ast.exp
+)
+ident(
+  int_ref data "memory2array.ml" 74 2604 2650 "memory2array.ml" 74 2604 2654
+)
+"memory2array.ml" 82 2982 3031 "memory2array.ml" 82 2982 3124
+call(
+  stack
+)
+type(
+  Ast.exp BatEnum.t * Ast.var * Ast.var
+)
+"memory2array.ml" 84 3158 3166 "memory2array.ml" 84 3158 3172
+type(
+  Ast.exp
+)
+ident(
+  def letexp "memory2array.ml" 85 3268 3272 "memory2array.ml" 85 3268 3278
+)
+"memory2array.ml" 84 3158 3175 "memory2array.ml" 84 3158 3179
+type(
+  (Ast.exp -> Ast.exp -> Ast.exp) -> Ast.exp -> Ast.exp BatEnum.t -> Ast.exp
+)
+ident(
+  ext_ref BatPervasives.fold
+)
+"memory2array.ml" 84 3158 3185 "memory2array.ml" 84 3158 3189
+type(
+  Ast.exp
+)
+ident(
+  def expr "memory2array.ml" 84 3158 3190 "memory2array.ml" 84 3158 3233
+)
+"memory2array.ml" 84 3158 3190 "memory2array.ml" 84 3158 3198
+type(
+  Ast.exp
+)
+ident(
+  def new_expr "memory2array.ml" 84 3158 3202 "memory2array.ml" 84 3158 3233
+)
+"memory2array.ml" 84 3158 3206 "memory2array.ml" 84 3158 3216
+type(
+  Ast.var
+)
+ident(
+  int_ref tempmemvar "memory2array.ml" 82 2982 3005 "memory2array.ml" 82 2982 3015
+)
+"memory2array.ml" 84 3158 3218 "memory2array.ml" 84 3158 3226
+type(
+  Ast.exp
+)
+ident(
+  int_ref new_expr "memory2array.ml" 84 3158 3190 "memory2array.ml" 84 3158 3198
+)
+"memory2array.ml" 84 3158 3228 "memory2array.ml" 84 3158 3232
+type(
+  Ast.exp
+)
+ident(
+  int_ref expr "memory2array.ml" 84 3158 3185 "memory2array.ml" 84 3158 3189
+)
+"memory2array.ml" 84 3158 3205 "memory2array.ml" 84 3158 3233
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"memory2array.ml" 84 3158 3202 "memory2array.ml" 84 3158 3233
+type(
+  Ast.exp
+)
+"memory2array.ml" 84 3158 3180 "memory2array.ml" 84 3158 3234
+type(
+  Ast.exp -> Ast.exp -> Ast.exp
+)
+"memory2array.ml" 84 3158 3240 "memory2array.ml" 84 3158 3250
+type(
+  Ast.var
+)
+ident(
+  int_ref tempmemvar "memory2array.ml" 82 2982 3005 "memory2array.ml" 82 2982 3015
+)
+"memory2array.ml" 84 3158 3235 "memory2array.ml" 84 3158 3251
+type(
+  Ast.exp
+)
+"memory2array.ml" 84 3158 3252 "memory2array.ml" 84 3158 3264
+type(
+  Ast.exp BatEnum.t
+)
+ident(
+  int_ref singlewrites "memory2array.ml" 82 2982 2991 "memory2array.ml" 82 2982 3003
+)
+"memory2array.ml" 84 3158 3175 "memory2array.ml" 84 3158 3264
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 85 3268 3272 "memory2array.ml" 85 3268 3278
+type(
+  Ast.exp
+)
+ident(
+  int_ref letexp "memory2array.ml" 84 3158 3166 "memory2array.ml" 84 3158 3172
+)
+"memory2array.ml" 84 3158 3162 "memory2array.ml" 85 3268 3278
+type(
+  Ast.exp
+)
+"memory2array.ml" 82 2982 2986 "memory2array.ml" 85 3268 3278
+type(
+  Ast.exp
+)
+"memory2array.ml" 87 3284 3290 "memory2array.ml" 87 3284 3296
+type(
+  Ast.exp
+)
+"memory2array.ml" 87 3284 3299 "memory2array.ml" 87 3284 3306
+type(
+  ?t:Type.typ -> Ast.exp -> Ast.exp -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_convenience.exp_ite
+)
+"memory2array.ml" 87 3284 3307 "memory2array.ml" 87 3284 3313
+type(
+  Ast.exp
+)
+ident(
+  int_ref endian "memory2array.ml" 74 2604 2643 "memory2array.ml" 74 2604 2649
+)
+"memory2array.ml" 87 3284 3315 "memory2array.ml" 87 3284 3316
+type(
+  bool -> Ast.exp
+)
+ident(
+  int_ref f "memory2array.ml" 81 2965 2971 "memory2array.ml" 81 2965 2972
+)
+"memory2array.ml" 87 3284 3317 "memory2array.ml" 87 3284 3321
+type(
+  bool
+)
+"memory2array.ml" 87 3284 3314 "memory2array.ml" 87 3284 3322
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 87 3284 3324 "memory2array.ml" 87 3284 3325
+type(
+  bool -> Ast.exp
+)
+ident(
+  int_ref f "memory2array.ml" 81 2965 2971 "memory2array.ml" 81 2965 2972
+)
+"memory2array.ml" 87 3284 3326 "memory2array.ml" 87 3284 3331
+type(
+  bool
+)
+"memory2array.ml" 87 3284 3323 "memory2array.ml" 87 3284 3332
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 87 3284 3299 "memory2array.ml" 87 3284 3332
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 88 3336 3342 "memory2array.ml" 88 3336 3348
+type(
+  Ast.exp
+)
+"memory2array.ml" 88 3336 3355 "memory2array.ml" 88 3336 3365
+type(
+  Ast.var
+)
+ident(
+  int_ref tempvalvar "memory2array.ml" 80 2911 2917 "memory2array.ml" 80 2911 2927
+)
+"memory2array.ml" 88 3336 3367 "memory2array.ml" 88 3336 3371
+type(
+  Ast.exp
+)
+ident(
+  int_ref data "memory2array.ml" 74 2604 2650 "memory2array.ml" 74 2604 2654
+)
+"memory2array.ml" 88 3336 3373 "memory2array.ml" 88 3336 3379
+type(
+  Ast.exp
+)
+ident(
+  int_ref letexp "memory2array.ml" 87 3284 3290 "memory2array.ml" 87 3284 3296
+)
+"memory2array.ml" 88 3336 3354 "memory2array.ml" 88 3336 3380
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"memory2array.ml" 88 3336 3351 "memory2array.ml" 88 3336 3380
+type(
+  Ast.exp
+)
+"memory2array.ml" 89 3384 3390 "memory2array.ml" 89 3384 3400
+type(
+  Ast.var
+)
+ident(
+  int_ref tempmemvar "memory2array.ml" 79 2837 2843 "memory2array.ml" 79 2837 2853
+)
+"memory2array.ml" 89 3384 3402 "memory2array.ml" 89 3384 3407
+type(
+  Ast.exp
+)
+ident(
+  int_ref array "memory2array.ml" 74 2604 2621 "memory2array.ml" 74 2604 2626
+)
+"memory2array.ml" 89 3384 3409 "memory2array.ml" 89 3384 3415
+type(
+  Ast.exp
+)
+ident(
+  int_ref letexp "memory2array.ml" 88 3336 3342 "memory2array.ml" 88 3336 3348
+)
+"memory2array.ml" 89 3384 3389 "memory2array.ml" 89 3384 3416
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"memory2array.ml" 89 3384 3386 "memory2array.ml" 89 3384 3416
+type(
+  Ast.exp
+)
+"memory2array.ml" 88 3336 3338 "memory2array.ml" 89 3384 3416
+type(
+  Ast.exp
+)
+"memory2array.ml" 87 3284 3286 "memory2array.ml" 89 3384 3416
+type(
+  Ast.exp
+)
+"memory2array.ml" 81 2965 2967 "memory2array.ml" 89 3384 3416
+type(
+  Ast.exp
+)
+"memory2array.ml" 80 2911 2913 "memory2array.ml" 89 3384 3416
+type(
+  Ast.exp
+)
+"memory2array.ml" 79 2837 2839 "memory2array.ml" 89 3384 3416
+type(
+  Ast.exp
+)
+"memory2array.ml" 78 2790 2792 "memory2array.ml" 89 3384 3416
+type(
+  Ast.exp
+)
+"memory2array.ml" 77 2743 2745 "memory2array.ml" 89 3384 3416
+type(
+  Ast.exp
+)
+"memory2array.ml" 76 2696 2698 "memory2array.ml" 89 3384 3416
+type(
+  Ast.exp
+)
+"memory2array.ml" 75 2657 2659 "memory2array.ml" 89 3384 3416
+type(
+  Ast.exp
+)
+"memory2array.ml" 91 3418 3446 "memory2array.ml" 91 3418 3451
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+"memory2array.ml" 91 3418 3452 "memory2array.ml" 91 3418 3456
+type(
+  Ast.var Var.VarHash.t
+)
+"memory2array.ml" 93 3460 3466 "memory2array.ml" 93 3460 3479
+type(
+  Var.VarHash.key -> Ast.var
+)
+"memory2array.ml" 93 3460 3487 "memory2array.ml" 93 3460 3488
+type(
+  int
+)
+"memory2array.ml" 93 3460 3490 "memory2array.ml" 93 3460 3491
+type(
+  string
+)
+"memory2array.ml" 93 3460 3493 "memory2array.ml" 93 3460 3494
+type(
+  Type.typ
+)
+ident(
+  def t "memory2array.ml" 94 3507 3511 "memory2array.ml" 134 4986 5050
+)
+"memory2array.ml" 93 3460 3481 "memory2array.ml" 93 3460 3495
+type(
+  Var.VarHash.key
+)
+"memory2array.ml" 93 3460 3480 "memory2array.ml" 93 3460 3504
+type(
+  Var.VarHash.key
+)
+ident(
+  def avar "memory2array.ml" 94 3507 3511 "memory2array.ml" 134 4986 5050
+)
+"memory2array.ml" 94 3507 3517 "memory2array.ml" 94 3507 3518
+type(
+  Type.typ
+)
+ident(
+  int_ref t "memory2array.ml" 93 3460 3493 "memory2array.ml" 93 3460 3494
+)
+"memory2array.ml" 95 3524 3536 "memory2array.ml" 95 3524 3540
+type(
+  Type.typ
+)
+ident(
+  def idxt "memory2array.ml" 96 3559 3565 "memory2array.ml" 133 4974 4985
+)
+"memory2array.ml" 95 3524 3546 "memory2array.ml" 95 3524 3554
+type(
+  int
+)
+ident(
+  def bitwidth "memory2array.ml" 96 3559 3565 "memory2array.ml" 133 4974 4985
+)
+"memory2array.ml" 95 3524 3542 "memory2array.ml" 95 3524 3554
+type(
+  Type.typ
+)
+"memory2array.ml" 95 3524 3530 "memory2array.ml" 95 3524 3555
+type(
+  Type.typ
+)
+"memory2array.ml" 96 3559 3569 "memory2array.ml" 96 3559 3574
+type(
+  Ast.var
+)
+"memory2array.ml" 97 3577 3589 "memory2array.ml" 97 3577 3601
+type(
+  Ast.var Var.VarHash.t -> Var.VarHash.key -> Ast.var
+)
+ident(
+  ext_ref Var.VarHash.find
+)
+"memory2array.ml" 97 3577 3602 "memory2array.ml" 97 3577 3606
+type(
+  Ast.var Var.VarHash.t
+)
+ident(
+  int_ref hash "memory2array.ml" 91 3418 3452 "memory2array.ml" 91 3418 3456
+)
+"memory2array.ml" 97 3577 3607 "memory2array.ml" 97 3577 3611
+type(
+  Var.VarHash.key
+)
+ident(
+  int_ref avar "memory2array.ml" 93 3460 3480 "memory2array.ml" 93 3460 3504
+)
+"memory2array.ml" 97 3577 3589 "memory2array.ml" 97 3577 3611
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"memory2array.ml" 98 3612 3625 "memory2array.ml" 98 3612 3634
+type(
+  exn
+)
+"memory2array.ml" 102 3789 3803 "memory2array.ml" 102 3789 3811
+type(
+  string
+)
+"memory2array.ml" 102 3789 3815 "memory2array.ml" 102 3789 3823
+type(
+  Var.VarHash.key -> string
+)
+ident(
+  ext_ref Var.name
+)
+"memory2array.ml" 102 3789 3824 "memory2array.ml" 102 3789 3828
+type(
+  Var.VarHash.key
+)
+ident(
+  int_ref avar "memory2array.ml" 93 3460 3480 "memory2array.ml" 93 3460 3504
+)
+"memory2array.ml" 102 3789 3814 "memory2array.ml" 102 3789 3829
+call(
+  stack
+)
+type(
+  string
+)
+"memory2array.ml" 102 3789 3829 "memory2array.ml" 102 3789 3830
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"memory2array.ml" 102 3789 3830 "memory2array.ml" 102 3789 3838
+type(
+  string
+)
+"memory2array.ml" 102 3789 3814 "memory2array.ml" 102 3789 3838
+call(
+  stack
+)
+type(
+  string
+)
+"memory2array.ml" 103 3842 3856 "memory2array.ml" 103 3842 3864
+type(
+  Type.typ
+)
+"memory2array.ml" 103 3842 3874 "memory2array.ml" 103 3842 3878
+type(
+  Type.typ
+)
+ident(
+  int_ref idxt "memory2array.ml" 95 3524 3536 "memory2array.ml" 95 3524 3540
+)
+"memory2array.ml" 103 3842 3884 "memory2array.ml" 103 3842 3892
+type(
+  int
+)
+ident(
+  int_ref bitwidth "memory2array.ml" 95 3524 3546 "memory2array.ml" 95 3524 3554
+)
+"memory2array.ml" 103 3842 3880 "memory2array.ml" 103 3842 3892
+type(
+  Type.typ
+)
+"memory2array.ml" 103 3842 3867 "memory2array.ml" 103 3842 3893
+type(
+  Type.typ
+)
+"memory2array.ml" 104 3897 3911 "memory2array.ml" 104 3897 3923
+type(
+  unit -> Var.t
+)
+"memory2array.ml" 104 3897 3924 "memory2array.ml" 104 3897 3926
+type(
+  unit
+)
+"memory2array.ml" 104 3897 3929 "memory2array.ml" 104 3897 3935
+type(
+  string -> Type.typ -> Var.t
+)
+ident(
+  ext_ref Var.newvar
+)
+"memory2array.ml" 104 3897 3936 "memory2array.ml" 104 3897 3944
+type(
+  string
+)
+ident(
+  int_ref new_name "memory2array.ml" 102 3789 3803 "memory2array.ml" 102 3789 3811
+)
+"memory2array.ml" 104 3897 3945 "memory2array.ml" 104 3897 3953
+type(
+  Type.typ
+)
+ident(
+  int_ref new_type "memory2array.ml" 103 3842 3856 "memory2array.ml" 103 3842 3864
+)
+"memory2array.ml" 104 3897 3929 "memory2array.ml" 104 3897 3953
+call(
+  tail
+)
+type(
+  Var.t
+)
+"memory2array.ml" 105 3957 3971 "memory2array.ml" 105 3957 3980
+type(
+  Ast.var
+)
+"memory2array.ml" 105 3957 3989 "memory2array.ml" 105 3957 3994
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+ident(
+  int_ref scope "memory2array.ml" 91 3418 3446 "memory2array.ml" 91 3418 3451
+)
+"memory2array.ml" 106 4000 4018 "memory2array.ml" 106 4000 4025
+type(
+  (string, Ast.var) Hashtbl.t * 'a
+)
+ident(
+  def scope "memory2array.ml" 107 4029 4043 "memory2array.ml" 108 4105 4154
+)
+"memory2array.ml" 106 4000 4014 "memory2array.ml" 106 4000 4025
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+"memory2array.ml" 107 4029 4048 "memory2array.ml" 107 4029 4073
+type(
+  (string, Ast.var) Hashtbl.t * 'a -> string -> Type.typ option -> Ast.var
+)
+ident(
+  ext_ref Grammar_scope.Scope.get_lval_if_defined
+)
+"memory2array.ml" 107 4029 4074 "memory2array.ml" 107 4029 4079
+type(
+  (string, Ast.var) Hashtbl.t * 'a
+)
+ident(
+  int_ref scope "memory2array.ml" 106 4000 4018 "memory2array.ml" 106 4000 4025
+)
+"memory2array.ml" 107 4029 4080 "memory2array.ml" 107 4029 4088
+type(
+  string
+)
+ident(
+  int_ref new_name "memory2array.ml" 102 3789 3803 "memory2array.ml" 102 3789 3811
+)
+"memory2array.ml" 107 4029 4095 "memory2array.ml" 107 4029 4103
+type(
+  Type.typ
+)
+ident(
+  int_ref new_type "memory2array.ml" 103 3842 3856 "memory2array.ml" 103 3842 3864
+)
+"memory2array.ml" 107 4029 4089 "memory2array.ml" 107 4029 4104
+type(
+  Type.typ option
+)
+"memory2array.ml" 107 4029 4048 "memory2array.ml" 107 4029 4104
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"memory2array.ml" 108 4105 4125 "memory2array.ml" 108 4105 4134
+type(
+  exn
+)
+"memory2array.ml" 108 4105 4138 "memory2array.ml" 108 4105 4150
+type(
+  unit -> Ast.var
+)
+ident(
+  int_ref make_new_var "memory2array.ml" 104 3897 3911 "memory2array.ml" 104 3897 3923
+)
+"memory2array.ml" 108 4105 4151 "memory2array.ml" 108 4105 4153
+type(
+  unit
+)
+"memory2array.ml" 108 4105 4138 "memory2array.ml" 108 4105 4153
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"memory2array.ml" 107 4029 4043 "memory2array.ml" 108 4105 4154
+type(
+  Ast.var
+)
+"memory2array.ml" 109 4155 4169 "memory2array.ml" 109 4155 4173
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+"memory2array.ml" 110 4177 4191 "memory2array.ml" 110 4177 4203
+type(
+  unit -> Ast.var
+)
+ident(
+  int_ref make_new_var "memory2array.ml" 104 3897 3911 "memory2array.ml" 104 3897 3923
+)
+"memory2array.ml" 110 4177 4204 "memory2array.ml" 110 4177 4206
+type(
+  unit
+)
+"memory2array.ml" 110 4177 4191 "memory2array.ml" 110 4177 4206
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"memory2array.ml" 105 3957 3983 "memory2array.ml" 110 4177 4206
+type(
+  Ast.var
+)
+"memory2array.ml" 114 4257 4267 "memory2array.ml" 114 4257 4278
+type(
+  Ast.var Var.VarHash.t -> Var.VarHash.key -> Ast.var -> unit
+)
+ident(
+  ext_ref Var.VarHash.add
+)
+"memory2array.ml" 114 4257 4279 "memory2array.ml" 114 4257 4283
+type(
+  Ast.var Var.VarHash.t
+)
+ident(
+  int_ref hash "memory2array.ml" 91 3418 3452 "memory2array.ml" 91 3418 3456
+)
+"memory2array.ml" 114 4257 4284 "memory2array.ml" 114 4257 4288
+type(
+  Var.VarHash.key
+)
+ident(
+  int_ref avar "memory2array.ml" 93 3460 3480 "memory2array.ml" 93 3460 3504
+)
+"memory2array.ml" 114 4257 4289 "memory2array.ml" 114 4257 4298
+type(
+  Ast.var
+)
+ident(
+  int_ref newarrvar "memory2array.ml" 105 3957 3971 "memory2array.ml" 105 3957 3980
+)
+"memory2array.ml" 114 4257 4267 "memory2array.ml" 114 4257 4298
+call(
+  stack
+)
+type(
+  unit
+)
+"memory2array.ml" 117 4345 4362 "memory2array.ml" 117 4345 4367
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+ident(
+  int_ref scope "memory2array.ml" 91 3418 3446 "memory2array.ml" 91 3418 3451
+)
+"memory2array.ml" 118 4373 4389 "memory2array.ml" 118 4373 4396
+type(
+  (string, Ast.var) Hashtbl.t * 'a
+)
+ident(
+  def scope "memory2array.ml" 123 4643 4655 "memory2array.ml" 127 4858 4917
+)
+"memory2array.ml" 118 4373 4385 "memory2array.ml" 118 4373 4396
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+"memory2array.ml" 123 4643 4668 "memory2array.ml" 123 4643 4677
+type(
+  Ast.var -> Ast.var -> bool
+)
+ident(
+  ext_ref Var.equal
+)
+"memory2array.ml" 123 4643 4679 "memory2array.ml" 123 4643 4704
+type(
+  (string, Ast.var) Hashtbl.t * 'a -> string -> Type.typ option -> Ast.var
+)
+ident(
+  ext_ref Grammar_scope.Scope.get_lval_if_defined
+)
+"memory2array.ml" 123 4643 4705 "memory2array.ml" 123 4643 4710
+type(
+  (string, Ast.var) Hashtbl.t * 'a
+)
+ident(
+  int_ref scope "memory2array.ml" 118 4373 4389 "memory2array.ml" 118 4373 4396
+)
+"memory2array.ml" 123 4643 4711 "memory2array.ml" 123 4643 4719
+type(
+  string
+)
+ident(
+  int_ref new_name "memory2array.ml" 102 3789 3803 "memory2array.ml" 102 3789 3811
+)
+"memory2array.ml" 123 4643 4726 "memory2array.ml" 123 4643 4734
+type(
+  Type.typ
+)
+ident(
+  int_ref new_type "memory2array.ml" 103 3842 3856 "memory2array.ml" 103 3842 3864
+)
+"memory2array.ml" 123 4643 4720 "memory2array.ml" 123 4643 4735
+type(
+  Type.typ option
+)
+"memory2array.ml" 123 4643 4678 "memory2array.ml" 123 4643 4736
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"memory2array.ml" 123 4643 4737 "memory2array.ml" 123 4643 4746
+type(
+  Ast.var
+)
+ident(
+  int_ref newarrvar "memory2array.ml" 105 3957 3971 "memory2array.ml" 105 3957 3980
+)
+"memory2array.ml" 123 4643 4667 "memory2array.ml" 123 4643 4747
+call(
+  stack
+)
+type(
+  bool
+)
+"memory2array.ml" 123 4643 4660 "memory2array.ml" 123 4643 4747
+type(
+  unit
+)
+"memory2array.ml" 124 4748 4766 "memory2array.ml" 124 4748 4775
+type(
+  exn
+)
+"memory2array.ml" 124 4748 4812 "memory2array.ml" 124 4748 4814
+type(
+  unit
+)
+"memory2array.ml" 123 4643 4655 "memory2array.ml" 124 4748 4815
+type(
+  unit
+)
+"memory2array.ml" 127 4858 4870 "memory2array.ml" 127 4858 4876
+type(
+  Ast.var -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"memory2array.ml" 127 4858 4877 "memory2array.ml" 127 4858 4890
+type(
+  (string, Ast.var) Hashtbl.t * 'a -> string -> Ast.var -> Ast.var
+)
+ident(
+  ext_ref Grammar_scope.Scope.add_var
+)
+"memory2array.ml" 127 4858 4891 "memory2array.ml" 127 4858 4896
+type(
+  (string, Ast.var) Hashtbl.t * 'a
+)
+ident(
+  int_ref scope "memory2array.ml" 118 4373 4389 "memory2array.ml" 118 4373 4396
+)
+"memory2array.ml" 127 4858 4897 "memory2array.ml" 127 4858 4905
+type(
+  string
+)
+ident(
+  int_ref new_name "memory2array.ml" 102 3789 3803 "memory2array.ml" 102 3789 3811
+)
+"memory2array.ml" 127 4858 4906 "memory2array.ml" 127 4858 4915
+type(
+  Ast.var
+)
+ident(
+  int_ref newarrvar "memory2array.ml" 105 3957 3971 "memory2array.ml" 105 3957 3980
+)
+"memory2array.ml" 127 4858 4876 "memory2array.ml" 127 4858 4916
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"memory2array.ml" 127 4858 4870 "memory2array.ml" 127 4858 4917
+type(
+  unit
+)
+"memory2array.ml" 123 4643 4655 "memory2array.ml" 127 4858 4917
+type(
+  unit
+)
+"memory2array.ml" 129 4919 4931 "memory2array.ml" 129 4919 4935
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+"memory2array.ml" 129 4919 4939 "memory2array.ml" 129 4919 4941
+type(
+  unit
+)
+"memory2array.ml" 117 4345 4355 "memory2array.ml" 129 4919 4942
+type(
+  unit
+)
+"memory2array.ml" 131 4945 4955 "memory2array.ml" 131 4945 4964
+type(
+  Ast.var
+)
+ident(
+  int_ref newarrvar "memory2array.ml" 105 3957 3971 "memory2array.ml" 105 3957 3980
+)
+"memory2array.ml" 117 4345 4355 "memory2array.ml" 131 4945 4964
+type(
+  Ast.var
+)
+"memory2array.ml" 114 4257 4267 "memory2array.ml" 131 4945 4964
+type(
+  Ast.var
+)
+"memory2array.ml" 105 3957 3967 "memory2array.ml" 131 4945 4964
+type(
+  Ast.var
+)
+"memory2array.ml" 104 3897 3907 "memory2array.ml" 131 4945 4964
+type(
+  Ast.var
+)
+"memory2array.ml" 103 3842 3852 "memory2array.ml" 131 4945 4964
+type(
+  Ast.var
+)
+"memory2array.ml" 102 3789 3799 "memory2array.ml" 131 4945 4964
+type(
+  Ast.var
+)
+"memory2array.ml" 97 3577 3585 "memory2array.ml" 131 4945 4964
+type(
+  Ast.var
+)
+"memory2array.ml" 133 4974 4980 "memory2array.ml" 133 4974 4985
+type(
+  Ast.var
+)
+ident(
+  int_ref array "memory2array.ml" 96 3559 3569 "memory2array.ml" 96 3559 3574
+)
+"memory2array.ml" 96 3559 3565 "memory2array.ml" 133 4974 4985
+type(
+  Ast.var
+)
+"memory2array.ml" 134 4986 4992 "memory2array.ml" 134 4986 4993
+type(
+  Type.typ
+)
+"memory2array.ml" 134 4986 4997 "memory2array.ml" 134 4986 5005
+type(
+  string -> Ast.var
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"memory2array.ml" 134 4986 5006 "memory2array.ml" 134 4986 5050
+type(
+  string
+)
+"memory2array.ml" 134 4986 4997 "memory2array.ml" 134 4986 5050
+call(
+  tail
+)
+type(
+  Ast.var
+)
+"memory2array.ml" 94 3507 3511 "memory2array.ml" 134 4986 5050
+type(
+  Ast.var
+)
+"memory2array.ml" 137 5057 5064 "memory2array.ml" 137 5057 5070
+type(
+  < visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action; .. >
+)
+"memory2array.ml" 140 5098 5118 "memory2array.ml" 140 5098 5122
+type(
+  Ast.var
+)
+ident(
+  def avar "memory2array.ml" 141 5125 5129 "memory2array.ml" 145 5231 5247
+)
+"memory2array.ml" 141 5125 5135 "memory2array.ml" 141 5125 5142
+type(
+  Ast.var -> Type.typ
+)
+ident(
+  ext_ref Var.typ
+)
+"memory2array.ml" 141 5125 5143 "memory2array.ml" 141 5125 5147
+type(
+  Ast.var
+)
+ident(
+  int_ref avar "memory2array.ml" 140 5098 5118 "memory2array.ml" 140 5098 5122
+)
+"memory2array.ml" 141 5125 5135 "memory2array.ml" 141 5125 5147
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 142 5153 5164 "memory2array.ml" 142 5153 5165
+type(
+  Type.typ
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 142 5153 5159 "memory2array.ml" 142 5153 5165
+type(
+  Type.typ
+)
+"memory2array.ml" 143 5169 5198 "memory2array.ml" 143 5169 5211
+type(
+  Var.VarHash.key -> Ast.var
+)
+"memory2array.ml" 143 5169 5212 "memory2array.ml" 143 5169 5216
+type(
+  Ast.var
+)
+ident(
+  int_ref avar "memory2array.ml" 140 5098 5118 "memory2array.ml" 140 5098 5122
+)
+"memory2array.ml" 143 5169 5197 "memory2array.ml" 143 5169 5217
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"memory2array.ml" 143 5169 5175 "memory2array.ml" 143 5169 5217
+type(
+  Ast.var Type.visit_action
+)
+"memory2array.ml" 144 5218 5226 "memory2array.ml" 144 5218 5227
+type(
+  Type.typ
+)
+"memory2array.ml" 145 5231 5237 "memory2array.ml" 145 5231 5247
+type(
+  Ast.var Type.visit_action
+)
+"memory2array.ml" 141 5125 5129 "memory2array.ml" 145 5231 5247
+type(
+  Ast.var Type.visit_action
+)
+"memory2array.ml" 147 5249 5271 "memory2array.ml" 147 5249 5275
+type(
+  < visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action; .. >
+  as 'b
+)
+"memory2array.ml" 147 5249 5271 "memory2array.ml" 147 5249 5286
+call(
+  tail
+)
+type(
+  Ast.var -> Ast.var Type.visit_action
+)
+type(
+  Ast.var -> Ast.var Type.visit_action
+)
+"memory2array.ml" 149 5288 5307 "memory2array.ml" 149 5288 5310
+type(
+  Ast.exp
+)
+ident(
+  def exp "memory2array.ml" 151 5392 5396 "memory2array.ml" 171 6095 6116
+)
+"memory2array.ml" 151 5392 5402 "memory2array.ml" 151 5392 5405
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "memory2array.ml" 149 5288 5307 "memory2array.ml" 149 5288 5310
+)
+"memory2array.ml" 152 5411 5422 "memory2array.ml" 152 5411 5425
+type(
+  Ast.exp
+)
+ident(
+  def arr "memory2array.ml" 152 5411 5443 "memory2array.ml" 161 5712 5750
+)
+"memory2array.ml" 152 5411 5426 "memory2array.ml" 152 5411 5429
+type(
+  Ast.exp
+)
+ident(
+  def idx "memory2array.ml" 152 5411 5443 "memory2array.ml" 161 5712 5750
+)
+"memory2array.ml" 152 5411 5430 "memory2array.ml" 152 5411 5436
+type(
+  Ast.exp
+)
+ident(
+  def endian "memory2array.ml" 152 5411 5443 "memory2array.ml" 161 5712 5750
+)
+"memory2array.ml" 152 5411 5437 "memory2array.ml" 152 5411 5438
+type(
+  Type.typ
+)
+ident(
+  def t "memory2array.ml" 152 5411 5443 "memory2array.ml" 161 5712 5750
+)
+"memory2array.ml" 152 5411 5421 "memory2array.ml" 152 5411 5439
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"memory2array.ml" 152 5411 5417 "memory2array.ml" 152 5411 5439
+type(
+  Ast.exp
+)
+"memory2array.ml" 153 5445 5455 "memory2array.ml" 153 5445 5460
+type(
+  int
+)
+"memory2array.ml" 153 5445 5463 "memory2array.ml" 153 5445 5471
+type(
+  Type.typ -> Type.typ -> int
+)
+ident(
+  int_ref numelems "memory2array.ml" 22 443 447 "memory2array.ml" 22 443 455
+)
+"memory2array.ml" 153 5445 5472 "memory2array.ml" 153 5445 5473
+type(
+  Type.typ
+)
+ident(
+  int_ref t "memory2array.ml" 152 5411 5437 "memory2array.ml" 152 5411 5438
+)
+"memory2array.ml" 153 5445 5475 "memory2array.ml" 153 5445 5498
+type(
+  Type.typ -> Type.typ
+)
+ident(
+  ext_ref Typecheck.value_type_of
+)
+"memory2array.ml" 153 5445 5500 "memory2array.ml" 153 5445 5519
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"memory2array.ml" 153 5445 5520 "memory2array.ml" 153 5445 5523
+type(
+  Ast.exp
+)
+ident(
+  int_ref arr "memory2array.ml" 152 5411 5422 "memory2array.ml" 152 5411 5425
+)
+"memory2array.ml" 153 5445 5499 "memory2array.ml" 153 5445 5524
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 153 5445 5474 "memory2array.ml" 153 5445 5525
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 153 5445 5463 "memory2array.ml" 153 5445 5525
+call(
+  stack
+)
+type(
+  int
+)
+"memory2array.ml" 154 5529 5541 "memory2array.ml" 154 5529 5546
+type(
+  int
+)
+ident(
+  int_ref width "memory2array.ml" 153 5445 5455 "memory2array.ml" 153 5445 5460
+)
+"memory2array.ml" 155 5552 5560 "memory2array.ml" 155 5552 5561
+type(
+  int
+)
+"memory2array.ml" 156 5565 5573 "memory2array.ml" 156 5565 5583
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 157 5584 5592 "memory2array.ml" 157 5584 5593
+type(
+  int
+)
+"memory2array.ml" 158 5597 5609 "memory2array.ml" 158 5597 5612
+type(
+  Ast.exp
+)
+"memory2array.ml" 158 5597 5615 "memory2array.ml" 158 5597 5637
+type(
+  'b -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"memory2array.ml" 158 5597 5638 "memory2array.ml" 158 5597 5642
+type(
+  'b
+)
+"memory2array.ml" 158 5597 5643 "memory2array.ml" 158 5597 5646
+type(
+  Ast.exp
+)
+ident(
+  int_ref arr "memory2array.ml" 152 5411 5422 "memory2array.ml" 152 5411 5425
+)
+"memory2array.ml" 158 5597 5615 "memory2array.ml" 158 5597 5646
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 159 5650 5662 "memory2array.ml" 159 5650 5669
+type(
+  Ast.exp
+)
+"memory2array.ml" 159 5650 5672 "memory2array.ml" 159 5650 5683
+type(
+  Ast.exp -> Ast.exp -> Type.typ -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref split_loads "memory2array.ml" 44 1284 1288 "memory2array.ml" 44 1284 1299
+)
+"memory2array.ml" 159 5650 5684 "memory2array.ml" 159 5650 5687
+type(
+  Ast.exp
+)
+ident(
+  int_ref arr "memory2array.ml" 158 5597 5609 "memory2array.ml" 158 5597 5612
+)
+"memory2array.ml" 159 5650 5688 "memory2array.ml" 159 5650 5691
+type(
+  Ast.exp
+)
+ident(
+  int_ref idx "memory2array.ml" 152 5411 5426 "memory2array.ml" 152 5411 5429
+)
+"memory2array.ml" 159 5650 5692 "memory2array.ml" 159 5650 5693
+type(
+  Type.typ
+)
+ident(
+  int_ref t "memory2array.ml" 152 5411 5437 "memory2array.ml" 152 5411 5438
+)
+"memory2array.ml" 159 5650 5694 "memory2array.ml" 159 5650 5700
+type(
+  Ast.exp
+)
+ident(
+  int_ref endian "memory2array.ml" 152 5411 5430 "memory2array.ml" 152 5411 5436
+)
+"memory2array.ml" 159 5650 5672 "memory2array.ml" 159 5650 5700
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 161 5712 5742 "memory2array.ml" 161 5712 5749
+type(
+  Ast.exp
+)
+ident(
+  int_ref newexpr "memory2array.ml" 159 5650 5662 "memory2array.ml" 159 5650 5669
+)
+"memory2array.ml" 161 5712 5720 "memory2array.ml" 161 5712 5749
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 159 5650 5658 "memory2array.ml" 161 5712 5749
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 158 5597 5605 "memory2array.ml" 161 5712 5749
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 154 5529 5535 "memory2array.ml" 161 5712 5749
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 152 5411 5443 "memory2array.ml" 161 5712 5750
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 162 5751 5763 "memory2array.ml" 162 5751 5766
+type(
+  Ast.exp
+)
+ident(
+  def arr "memory2array.ml" 162 5751 5789 "memory2array.ml" 170 6056 6094
+)
+"memory2array.ml" 162 5751 5767 "memory2array.ml" 162 5751 5770
+type(
+  Ast.exp
+)
+ident(
+  def idx "memory2array.ml" 162 5751 5789 "memory2array.ml" 170 6056 6094
+)
+"memory2array.ml" 162 5751 5771 "memory2array.ml" 162 5751 5775
+type(
+  Ast.exp
+)
+ident(
+  def data "memory2array.ml" 162 5751 5789 "memory2array.ml" 170 6056 6094
+)
+"memory2array.ml" 162 5751 5776 "memory2array.ml" 162 5751 5782
+type(
+  Ast.exp
+)
+ident(
+  def endian "memory2array.ml" 162 5751 5789 "memory2array.ml" 170 6056 6094
+)
+"memory2array.ml" 162 5751 5783 "memory2array.ml" 162 5751 5784
+type(
+  Type.typ
+)
+ident(
+  def t "memory2array.ml" 162 5751 5789 "memory2array.ml" 170 6056 6094
+)
+"memory2array.ml" 162 5751 5762 "memory2array.ml" 162 5751 5785
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"memory2array.ml" 162 5751 5757 "memory2array.ml" 162 5751 5785
+type(
+  Ast.exp
+)
+"memory2array.ml" 163 5791 5801 "memory2array.ml" 163 5791 5806
+type(
+  int
+)
+"memory2array.ml" 163 5791 5809 "memory2array.ml" 163 5791 5817
+type(
+  Type.typ -> Type.typ -> int
+)
+ident(
+  int_ref numelems "memory2array.ml" 22 443 447 "memory2array.ml" 22 443 455
+)
+"memory2array.ml" 163 5791 5818 "memory2array.ml" 163 5791 5819
+type(
+  Type.typ
+)
+ident(
+  int_ref t "memory2array.ml" 162 5751 5783 "memory2array.ml" 162 5751 5784
+)
+"memory2array.ml" 163 5791 5821 "memory2array.ml" 163 5791 5844
+type(
+  Type.typ -> Type.typ
+)
+ident(
+  ext_ref Typecheck.value_type_of
+)
+"memory2array.ml" 163 5791 5846 "memory2array.ml" 163 5791 5865
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"memory2array.ml" 163 5791 5866 "memory2array.ml" 163 5791 5869
+type(
+  Ast.exp
+)
+ident(
+  int_ref arr "memory2array.ml" 162 5751 5763 "memory2array.ml" 162 5751 5766
+)
+"memory2array.ml" 163 5791 5845 "memory2array.ml" 163 5791 5870
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 163 5791 5820 "memory2array.ml" 163 5791 5871
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"memory2array.ml" 163 5791 5809 "memory2array.ml" 163 5791 5871
+call(
+  stack
+)
+type(
+  int
+)
+"memory2array.ml" 164 5875 5887 "memory2array.ml" 164 5875 5892
+type(
+  int
+)
+ident(
+  int_ref width "memory2array.ml" 163 5791 5801 "memory2array.ml" 163 5791 5806
+)
+"memory2array.ml" 165 5898 5906 "memory2array.ml" 165 5898 5907
+type(
+  int
+)
+"memory2array.ml" 166 5911 5919 "memory2array.ml" 166 5911 5929
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 167 5930 5938 "memory2array.ml" 167 5930 5939
+type(
+  int
+)
+"memory2array.ml" 168 5943 5955 "memory2array.ml" 168 5943 5958
+type(
+  Ast.exp
+)
+"memory2array.ml" 168 5943 5961 "memory2array.ml" 168 5943 5983
+type(
+  'b -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"memory2array.ml" 168 5943 5984 "memory2array.ml" 168 5943 5988
+type(
+  'b
+)
+"memory2array.ml" 168 5943 5989 "memory2array.ml" 168 5943 5992
+type(
+  Ast.exp
+)
+ident(
+  int_ref arr "memory2array.ml" 162 5751 5763 "memory2array.ml" 162 5751 5766
+)
+"memory2array.ml" 168 5943 5961 "memory2array.ml" 168 5943 5992
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 169 5996 6008 "memory2array.ml" 169 5996 6015
+type(
+  Ast.exp
+)
+"memory2array.ml" 169 5996 6018 "memory2array.ml" 169 5996 6030
+type(
+  Ast.exp -> Ast.exp -> Type.typ -> Ast.exp -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref split_writes "memory2array.ml" 74 2604 2608 "memory2array.ml" 74 2604 2620
+)
+"memory2array.ml" 169 5996 6031 "memory2array.ml" 169 5996 6034
+type(
+  Ast.exp
+)
+ident(
+  int_ref arr "memory2array.ml" 168 5943 5955 "memory2array.ml" 168 5943 5958
+)
+"memory2array.ml" 169 5996 6035 "memory2array.ml" 169 5996 6038
+type(
+  Ast.exp
+)
+ident(
+  int_ref idx "memory2array.ml" 162 5751 5767 "memory2array.ml" 162 5751 5770
+)
+"memory2array.ml" 169 5996 6039 "memory2array.ml" 169 5996 6040
+type(
+  Type.typ
+)
+ident(
+  int_ref t "memory2array.ml" 162 5751 5783 "memory2array.ml" 162 5751 5784
+)
+"memory2array.ml" 169 5996 6041 "memory2array.ml" 169 5996 6047
+type(
+  Ast.exp
+)
+ident(
+  int_ref endian "memory2array.ml" 162 5751 5776 "memory2array.ml" 162 5751 5782
+)
+"memory2array.ml" 169 5996 6048 "memory2array.ml" 169 5996 6052
+type(
+  Ast.exp
+)
+ident(
+  int_ref data "memory2array.ml" 162 5751 5771 "memory2array.ml" 162 5751 5775
+)
+"memory2array.ml" 169 5996 6018 "memory2array.ml" 169 5996 6052
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 170 6056 6086 "memory2array.ml" 170 6056 6093
+type(
+  Ast.exp
+)
+ident(
+  int_ref newexpr "memory2array.ml" 169 5996 6008 "memory2array.ml" 169 5996 6015
+)
+"memory2array.ml" 170 6056 6064 "memory2array.ml" 170 6056 6093
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 169 5996 6004 "memory2array.ml" 170 6056 6093
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 168 5943 5951 "memory2array.ml" 170 6056 6093
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 164 5875 5881 "memory2array.ml" 170 6056 6093
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 162 5751 5789 "memory2array.ml" 170 6056 6094
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 171 6095 6101 "memory2array.ml" 171 6095 6102
+type(
+  Ast.exp
+)
+"memory2array.ml" 171 6095 6106 "memory2array.ml" 171 6095 6116
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 151 5392 5396 "memory2array.ml" 171 6095 6116
+type(
+  Ast.exp Type.visit_action
+)
+"memory2array.ml" 176 6156 6160 "memory2array.ml" 176 6156 6172
+type(
+  unit -> 'a Var.VarHash.t
+)
+ident(
+  def create_state "memory2array.ml" 178 6199 6199 --
+)
+"memory2array.ml" 176 6156 6173 "memory2array.ml" 176 6156 6175
+type(
+  unit
+)
+"memory2array.ml" 176 6156 6178 "memory2array.ml" 176 6156 6192
+type(
+  int -> 'a Var.VarHash.t
+)
+ident(
+  ext_ref Var.VarHash.create
+)
+"memory2array.ml" 176 6156 6193 "memory2array.ml" 176 6156 6197
+type(
+  int
+)
+"memory2array.ml" 176 6156 6178 "memory2array.ml" 176 6156 6197
+call(
+  tail
+)
+type(
+  'a Var.VarHash.t
+)
+"memory2array.ml" 178 6199 6203 "memory2array.ml" 178 6199 6214
+type(
+  Ast.program -> Ast.program
+)
+ident(
+  def coerce_prog "memory2array.ml" 183 6343 6343 --
+)
+"memory2array.ml" 178 6199 6215 "memory2array.ml" 178 6199 6219
+type(
+  Ast.program
+)
+ident(
+  def prog "memory2array.ml" 179 6222 6224 "memory2array.ml" 181 6303 6341
+)
+"memory2array.ml" 179 6222 6228 "memory2array.ml" 179 6222 6232
+type(
+  Ast.var Var.VarHash.t
+)
+"memory2array.ml" 179 6222 6235 "memory2array.ml" 179 6222 6247
+type(
+  unit -> Ast.var Var.VarHash.t
+)
+ident(
+  int_ref create_state "memory2array.ml" 176 6156 6160 "memory2array.ml" 176 6156 6172
+)
+"memory2array.ml" 179 6222 6248 "memory2array.ml" 179 6222 6250
+type(
+  unit
+)
+"memory2array.ml" 179 6222 6235 "memory2array.ml" 179 6222 6250
+call(
+  stack
+)
+type(
+  Ast.var Var.VarHash.t
+)
+"memory2array.ml" 180 6254 6260 "memory2array.ml" 180 6254 6267
+type(
+  memory2array_visitor
+)
+"memory2array.ml" 180 6254 6270 "memory2array.ml" 180 6254 6294
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * '_a ->
+  Ast.var Var.VarHash.t -> memory2array_visitor
+)
+"memory2array.ml" 180 6254 6295 "memory2array.ml" 180 6254 6299
+type(
+  Ast.var Var.VarHash.t
+)
+ident(
+  int_ref hash "memory2array.ml" 179 6222 6228 "memory2array.ml" 179 6222 6232
+)
+"memory2array.ml" 180 6254 6270 "memory2array.ml" 180 6254 6299
+call(
+  stack
+)
+type(
+  memory2array_visitor
+)
+"memory2array.ml" 181 6303 6305 "memory2array.ml" 181 6303 6328
+type(
+  memory2array_visitor -> Ast.program -> Ast.program
+)
+ident(
+  ext_ref Ast_visitor.prog_accept
+)
+"memory2array.ml" 181 6303 6329 "memory2array.ml" 181 6303 6336
+type(
+  memory2array_visitor
+)
+ident(
+  int_ref visitor "memory2array.ml" 180 6254 6260 "memory2array.ml" 180 6254 6267
+)
+"memory2array.ml" 181 6303 6337 "memory2array.ml" 181 6303 6341
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "memory2array.ml" 178 6199 6215 "memory2array.ml" 178 6199 6219
+)
+"memory2array.ml" 181 6303 6305 "memory2array.ml" 181 6303 6341
+call(
+  tail
+)
+type(
+  Ast.program
+)
+"memory2array.ml" 180 6254 6256 "memory2array.ml" 181 6303 6341
+type(
+  Ast.program
+)
+"memory2array.ml" 179 6222 6224 "memory2array.ml" 181 6303 6341
+type(
+  Ast.program
+)
+"memory2array.ml" 183 6343 6347 "memory2array.ml" 183 6343 6364
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * 'a ->
+  Ast.var Var.VarHash.t -> Ast.program -> Ast.program
+)
+ident(
+  def coerce_prog_state "memory2array.ml" 187 6480 6480 --
+)
+"memory2array.ml" 183 6343 6366 "memory2array.ml" 183 6343 6371
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+ident(
+  def scope "memory2array.ml" 183 6343 6372 "memory2array.ml" 185 6440 6478
+)
+"memory2array.ml" 183 6343 6372 "memory2array.ml" 183 6343 6376
+type(
+  Ast.var Var.VarHash.t
+)
+ident(
+  def hash "memory2array.ml" 183 6343 6377 "memory2array.ml" 185 6440 6478
+)
+"memory2array.ml" 183 6343 6377 "memory2array.ml" 183 6343 6381
+type(
+  Ast.program
+)
+ident(
+  def prog "memory2array.ml" 184 6384 6386 "memory2array.ml" 185 6440 6478
+)
+"memory2array.ml" 184 6384 6390 "memory2array.ml" 184 6384 6397
+type(
+  memory2array_visitor
+)
+"memory2array.ml" 184 6384 6400 "memory2array.ml" 184 6384 6424
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * 'a ->
+  Ast.var Var.VarHash.t -> memory2array_visitor
+)
+"memory2array.ml" 184 6384 6426 "memory2array.ml" 184 6384 6431
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+ident(
+  int_ref scope "memory2array.ml" 183 6343 6366 "memory2array.ml" 183 6343 6371
+)
+"memory2array.ml" 184 6384 6432 "memory2array.ml" 184 6384 6436
+type(
+  Ast.var Var.VarHash.t
+)
+ident(
+  int_ref hash "memory2array.ml" 183 6343 6372 "memory2array.ml" 183 6343 6376
+)
+"memory2array.ml" 184 6384 6400 "memory2array.ml" 184 6384 6436
+call(
+  stack
+)
+type(
+  memory2array_visitor
+)
+"memory2array.ml" 185 6440 6442 "memory2array.ml" 185 6440 6465
+type(
+  memory2array_visitor -> Ast.program -> Ast.program
+)
+ident(
+  ext_ref Ast_visitor.prog_accept
+)
+"memory2array.ml" 185 6440 6466 "memory2array.ml" 185 6440 6473
+type(
+  memory2array_visitor
+)
+ident(
+  int_ref visitor "memory2array.ml" 184 6384 6390 "memory2array.ml" 184 6384 6397
+)
+"memory2array.ml" 185 6440 6474 "memory2array.ml" 185 6440 6478
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "memory2array.ml" 183 6343 6377 "memory2array.ml" 183 6343 6381
+)
+"memory2array.ml" 185 6440 6442 "memory2array.ml" 185 6440 6478
+call(
+  tail
+)
+type(
+  Ast.program
+)
+"memory2array.ml" 184 6384 6386 "memory2array.ml" 185 6440 6478
+type(
+  Ast.program
+)
+"memory2array.ml" 187 6480 6484 "memory2array.ml" 187 6480 6494
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  def coerce_exp "memory2array.ml" 192 6620 6620 --
+)
+"memory2array.ml" 187 6480 6495 "memory2array.ml" 187 6480 6498
+type(
+  Ast.exp
+)
+ident(
+  def exp "memory2array.ml" 188 6501 6503 "memory2array.ml" 190 6582 6618
+)
+"memory2array.ml" 188 6501 6507 "memory2array.ml" 188 6501 6511
+type(
+  Ast.var Var.VarHash.t
+)
+"memory2array.ml" 188 6501 6514 "memory2array.ml" 188 6501 6526
+type(
+  unit -> Ast.var Var.VarHash.t
+)
+ident(
+  int_ref create_state "memory2array.ml" 176 6156 6160 "memory2array.ml" 176 6156 6172
+)
+"memory2array.ml" 188 6501 6527 "memory2array.ml" 188 6501 6529
+type(
+  unit
+)
+"memory2array.ml" 188 6501 6514 "memory2array.ml" 188 6501 6529
+call(
+  stack
+)
+type(
+  Ast.var Var.VarHash.t
+)
+"memory2array.ml" 189 6533 6539 "memory2array.ml" 189 6533 6546
+type(
+  memory2array_visitor
+)
+"memory2array.ml" 189 6533 6549 "memory2array.ml" 189 6533 6573
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * '_a ->
+  Ast.var Var.VarHash.t -> memory2array_visitor
+)
+"memory2array.ml" 189 6533 6574 "memory2array.ml" 189 6533 6578
+type(
+  Ast.var Var.VarHash.t
+)
+ident(
+  int_ref hash "memory2array.ml" 188 6501 6507 "memory2array.ml" 188 6501 6511
+)
+"memory2array.ml" 189 6533 6549 "memory2array.ml" 189 6533 6578
+call(
+  stack
+)
+type(
+  memory2array_visitor
+)
+"memory2array.ml" 190 6582 6584 "memory2array.ml" 190 6582 6606
+type(
+  memory2array_visitor -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"memory2array.ml" 190 6582 6607 "memory2array.ml" 190 6582 6614
+type(
+  memory2array_visitor
+)
+ident(
+  int_ref visitor "memory2array.ml" 189 6533 6539 "memory2array.ml" 189 6533 6546
+)
+"memory2array.ml" 190 6582 6615 "memory2array.ml" 190 6582 6618
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "memory2array.ml" 187 6480 6495 "memory2array.ml" 187 6480 6498
+)
+"memory2array.ml" 190 6582 6584 "memory2array.ml" 190 6582 6618
+call(
+  tail
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 189 6533 6535 "memory2array.ml" 190 6582 6618
+type(
+  Ast.exp
+)
+"memory2array.ml" 188 6501 6503 "memory2array.ml" 190 6582 6618
+type(
+  Ast.exp
+)
+"memory2array.ml" 192 6620 6624 "memory2array.ml" 192 6620 6640
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * 'a ->
+  Ast.var Var.VarHash.t -> Ast.exp -> Ast.exp
+)
+ident(
+  def coerce_exp_state "memory2array.ml" 196 6753 6753 --
+)
+"memory2array.ml" 192 6620 6642 "memory2array.ml" 192 6620 6647
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+ident(
+  def scope "memory2array.ml" 192 6620 6648 "memory2array.ml" 194 6715 6751
+)
+"memory2array.ml" 192 6620 6648 "memory2array.ml" 192 6620 6652
+type(
+  Ast.var Var.VarHash.t
+)
+ident(
+  def hash "memory2array.ml" 192 6620 6653 "memory2array.ml" 194 6715 6751
+)
+"memory2array.ml" 192 6620 6653 "memory2array.ml" 192 6620 6656
+type(
+  Ast.exp
+)
+ident(
+  def exp "memory2array.ml" 193 6659 6661 "memory2array.ml" 194 6715 6751
+)
+"memory2array.ml" 193 6659 6665 "memory2array.ml" 193 6659 6672
+type(
+  memory2array_visitor
+)
+"memory2array.ml" 193 6659 6675 "memory2array.ml" 193 6659 6699
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * 'a ->
+  Ast.var Var.VarHash.t -> memory2array_visitor
+)
+"memory2array.ml" 193 6659 6701 "memory2array.ml" 193 6659 6706
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+ident(
+  int_ref scope "memory2array.ml" 192 6620 6642 "memory2array.ml" 192 6620 6647
+)
+"memory2array.ml" 193 6659 6707 "memory2array.ml" 193 6659 6711
+type(
+  Ast.var Var.VarHash.t
+)
+ident(
+  int_ref hash "memory2array.ml" 192 6620 6648 "memory2array.ml" 192 6620 6652
+)
+"memory2array.ml" 193 6659 6675 "memory2array.ml" 193 6659 6711
+call(
+  stack
+)
+type(
+  memory2array_visitor
+)
+"memory2array.ml" 194 6715 6717 "memory2array.ml" 194 6715 6739
+type(
+  memory2array_visitor -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"memory2array.ml" 194 6715 6740 "memory2array.ml" 194 6715 6747
+type(
+  memory2array_visitor
+)
+ident(
+  int_ref visitor "memory2array.ml" 193 6659 6665 "memory2array.ml" 193 6659 6672
+)
+"memory2array.ml" 194 6715 6748 "memory2array.ml" 194 6715 6751
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "memory2array.ml" 192 6620 6653 "memory2array.ml" 192 6620 6656
+)
+"memory2array.ml" 194 6715 6717 "memory2array.ml" 194 6715 6751
+call(
+  tail
+)
+type(
+  Ast.exp
+)
+"memory2array.ml" 193 6659 6661 "memory2array.ml" 194 6715 6751
+type(
+  Ast.exp
+)
+"memory2array.ml" 196 6753 6757 "memory2array.ml" 196 6753 6774
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * 'a ->
+  Ast.var Var.VarHash.t -> Ast.var -> Ast.var
+)
+ident(
+  def coerce_rvar_state "memory2array.ml" 198 6847 6882 --
+)
+"memory2array.ml" 196 6753 6776 "memory2array.ml" 196 6753 6781
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+ident(
+  def scope "memory2array.ml" 196 6753 6782 "memory2array.ml" 198 6847 6882
+)
+"memory2array.ml" 196 6753 6782 "memory2array.ml" 196 6753 6786
+type(
+  Ast.var Var.VarHash.t
+)
+ident(
+  def hash "memory2array.ml" 196 6753 6787 "memory2array.ml" 198 6847 6882
+)
+"memory2array.ml" 196 6753 6787 "memory2array.ml" 196 6753 6788
+type(
+  Ast.var
+)
+ident(
+  def v "memory2array.ml" 197 6791 6793 "memory2array.ml" 198 6847 6882
+)
+"memory2array.ml" 197 6791 6797 "memory2array.ml" 197 6791 6804
+type(
+  memory2array_visitor
+)
+"memory2array.ml" 197 6791 6807 "memory2array.ml" 197 6791 6831
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * 'a ->
+  Ast.var Var.VarHash.t -> memory2array_visitor
+)
+"memory2array.ml" 197 6791 6833 "memory2array.ml" 197 6791 6838
+type(
+  ((string, Ast.var) Hashtbl.t * 'a) option
+)
+ident(
+  int_ref scope "memory2array.ml" 196 6753 6776 "memory2array.ml" 196 6753 6781
+)
+"memory2array.ml" 197 6791 6839 "memory2array.ml" 197 6791 6843
+type(
+  Ast.var Var.VarHash.t
+)
+ident(
+  int_ref hash "memory2array.ml" 196 6753 6782 "memory2array.ml" 196 6753 6786
+)
+"memory2array.ml" 197 6791 6807 "memory2array.ml" 197 6791 6843
+call(
+  stack
+)
+type(
+  memory2array_visitor
+)
+"memory2array.ml" 198 6847 6849 "memory2array.ml" 198 6847 6872
+type(
+  memory2array_visitor -> Ast.var -> Ast.var
+)
+ident(
+  ext_ref Ast_visitor.rvar_accept
+)
+"memory2array.ml" 198 6847 6873 "memory2array.ml" 198 6847 6880
+type(
+  memory2array_visitor
+)
+ident(
+  int_ref visitor "memory2array.ml" 197 6791 6797 "memory2array.ml" 197 6791 6804
+)
+"memory2array.ml" 198 6847 6881 "memory2array.ml" 198 6847 6882
+type(
+  Ast.var
+)
+ident(
+  int_ref v "memory2array.ml" 196 6753 6787 "memory2array.ml" 196 6753 6788
+)
+"memory2array.ml" 198 6847 6849 "memory2array.ml" 198 6847 6882
+call(
+  tail
+)
+type(
+  Ast.var
+)
+"memory2array.ml" 197 6791 6793 "memory2array.ml" 198 6847 6882
+type(
+  Ast.var
+)

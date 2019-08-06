@@ -1,0 +1,7949 @@
+"ssa_convenience.ml" 12 252 256 "ssa_convenience.ml" 12 252 263
+type(
+  Type.typ -> string -> Ssa.exp
+)
+ident(
+  def unknown "ssa_convenience.ml" 15 287 287 --
+)
+"ssa_convenience.ml" 12 252 264 "ssa_convenience.ml" 12 252 265
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 12 252 266 "ssa_convenience.ml" 13 270 285
+)
+"ssa_convenience.ml" 12 252 266 "ssa_convenience.ml" 12 252 267
+type(
+  string
+)
+ident(
+  def s "ssa_convenience.ml" 13 270 272 "ssa_convenience.ml" 13 270 285
+)
+"ssa_convenience.ml" 13 270 280 "ssa_convenience.ml" 13 270 281
+type(
+  string
+)
+ident(
+  int_ref s "ssa_convenience.ml" 12 252 266 "ssa_convenience.ml" 12 252 267
+)
+"ssa_convenience.ml" 13 270 283 "ssa_convenience.ml" 13 270 284
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 12 252 264 "ssa_convenience.ml" 12 252 265
+)
+"ssa_convenience.ml" 13 270 272 "ssa_convenience.ml" 13 270 285
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def binop "ssa_convenience.ml" 23 536 536 --
+)
+"ssa_convenience.ml" 15 287 297 "ssa_convenience.ml" 15 287 299
+type(
+  Type.binop_type
+)
+ident(
+  def op "ssa_convenience.ml" 15 287 300 "ssa_convenience.ml" 21 510 534
+)
+"ssa_convenience.ml" 15 287 300 "ssa_convenience.ml" 15 287 301
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 15 287 302 "ssa_convenience.ml" 21 510 534
+)
+"ssa_convenience.ml" 15 287 302 "ssa_convenience.ml" 15 287 303
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 15 287 306 "ssa_convenience.ml" 21 510 534
+)
+"ssa_convenience.ml" 15 287 312 "ssa_convenience.ml" 15 287 314
+type(
+  Type.binop_type
+)
+ident(
+  int_ref op "ssa_convenience.ml" 15 287 297 "ssa_convenience.ml" 15 287 299
+)
+"ssa_convenience.ml" 15 287 315 "ssa_convenience.ml" 15 287 316
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 15 287 300 "ssa_convenience.ml" 15 287 301
+)
+"ssa_convenience.ml" 15 287 317 "ssa_convenience.ml" 15 287 318
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 15 287 302 "ssa_convenience.ml" 15 287 303
+)
+"ssa_convenience.ml" 15 287 312 "ssa_convenience.ml" 15 287 318
+type(
+  Type.binop_type * Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 16 324 328 "ssa_convenience.ml" 16 324 329
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 16 324 335 "ssa_convenience.ml" 16 324 336
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def a "ssa_convenience.ml" 17 357 361 "ssa_convenience.ml" 19 432 444
+)
+"ssa_convenience.ml" 16 324 338 "ssa_convenience.ml" 16 324 340
+type(
+  Type.typ
+)
+ident(
+  def at "ssa_convenience.ml" 17 357 361 "ssa_convenience.ml" 19 432 444
+)
+"ssa_convenience.ml" 16 324 331 "ssa_convenience.ml" 16 324 341
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 16 324 347 "ssa_convenience.ml" 16 324 348
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def b "ssa_convenience.ml" 17 357 361 "ssa_convenience.ml" 19 432 444
+)
+"ssa_convenience.ml" 16 324 350 "ssa_convenience.ml" 16 324 352
+type(
+  Type.typ
+)
+ident(
+  def bt "ssa_convenience.ml" 17 357 361 "ssa_convenience.ml" 19 432 444
+)
+"ssa_convenience.ml" 16 324 343 "ssa_convenience.ml" 16 324 353
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 16 324 328 "ssa_convenience.ml" 16 324 353
+type(
+  Type.binop_type * Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 17 357 369 "ssa_convenience.ml" 17 357 371
+type(
+  Type.typ
+)
+ident(
+  int_ref at "ssa_convenience.ml" 16 324 338 "ssa_convenience.ml" 16 324 340
+)
+"ssa_convenience.ml" 17 357 372 "ssa_convenience.ml" 17 357 373
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 17 357 374 "ssa_convenience.ml" 17 357 376
+type(
+  Type.typ
+)
+ident(
+  int_ref bt "ssa_convenience.ml" 16 324 350 "ssa_convenience.ml" 16 324 352
+)
+"ssa_convenience.ml" 17 357 368 "ssa_convenience.ml" 17 357 377
+type(
+  bool
+)
+"ssa_convenience.ml" 17 357 361 "ssa_convenience.ml" 17 357 377
+type(
+  unit
+)
+"ssa_convenience.ml" 18 379 388 "ssa_convenience.ml" 18 379 389
+type(
+  Z.t
+)
+"ssa_convenience.ml" 18 379 390 "ssa_convenience.ml" 18 379 391
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 18 379 387 "ssa_convenience.ml" 18 379 392
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 18 379 395 "ssa_convenience.ml" 18 379 411
+type(
+  Type.binop_type ->
+  Big_int_Z.big_int * Type.typ ->
+  Big_int_Z.big_int * Type.typ -> Z.t * Type.typ
+)
+ident(
+  ext_ref Arithmetic.binop
+)
+"ssa_convenience.ml" 18 379 412 "ssa_convenience.ml" 18 379 414
+type(
+  Type.binop_type
+)
+ident(
+  int_ref op "ssa_convenience.ml" 15 287 297 "ssa_convenience.ml" 15 287 299
+)
+"ssa_convenience.ml" 18 379 416 "ssa_convenience.ml" 18 379 417
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref a "ssa_convenience.ml" 16 324 335 "ssa_convenience.ml" 16 324 336
+)
+"ssa_convenience.ml" 18 379 418 "ssa_convenience.ml" 18 379 420
+type(
+  Type.typ
+)
+ident(
+  int_ref at "ssa_convenience.ml" 16 324 338 "ssa_convenience.ml" 16 324 340
+)
+"ssa_convenience.ml" 18 379 415 "ssa_convenience.ml" 18 379 421
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_convenience.ml" 18 379 423 "ssa_convenience.ml" 18 379 424
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref b "ssa_convenience.ml" 16 324 347 "ssa_convenience.ml" 16 324 348
+)
+"ssa_convenience.ml" 18 379 425 "ssa_convenience.ml" 18 379 427
+type(
+  Type.typ
+)
+ident(
+  int_ref bt "ssa_convenience.ml" 16 324 350 "ssa_convenience.ml" 16 324 352
+)
+"ssa_convenience.ml" 18 379 422 "ssa_convenience.ml" 18 379 428
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_convenience.ml" 18 379 395 "ssa_convenience.ml" 18 379 428
+call(
+  stack
+)
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 19 432 440 "ssa_convenience.ml" 19 432 441
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 18 379 388 "ssa_convenience.ml" 18 379 389
+)
+"ssa_convenience.ml" 19 432 442 "ssa_convenience.ml" 19 432 443
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 18 379 390 "ssa_convenience.ml" 18 379 391
+)
+"ssa_convenience.ml" 19 432 436 "ssa_convenience.ml" 19 432 444
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 18 379 383 "ssa_convenience.ml" 19 432 444
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 17 357 361 "ssa_convenience.ml" 19 432 444
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 20 445 450 "ssa_convenience.ml" 20 445 456
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 20 445 457 "ssa_convenience.ml" 20 445 463
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 20 445 450 "ssa_convenience.ml" 20 445 463
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 20 445 464 "ssa_convenience.ml" 20 445 471
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 20 445 449 "ssa_convenience.ml" 20 445 472
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 20 445 474 "ssa_convenience.ml" 20 445 475
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 20 445 481 "ssa_convenience.ml" 20 445 482
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def z "ssa_convenience.ml" 20 445 487 "ssa_convenience.ml" 20 445 509
+)
+"ssa_convenience.ml" 20 445 484 "ssa_convenience.ml" 20 445 485
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 20 445 477 "ssa_convenience.ml" 20 445 486
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 20 445 449 "ssa_convenience.ml" 20 445 486
+type(
+  Type.binop_type * Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 20 445 492 "ssa_convenience.ml" 20 445 502
+type(
+  Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Big_int_convenience.bi_is_zero
+)
+"ssa_convenience.ml" 20 445 503 "ssa_convenience.ml" 20 445 504
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref z "ssa_convenience.ml" 20 445 481 "ssa_convenience.ml" 20 445 482
+)
+"ssa_convenience.ml" 20 445 492 "ssa_convenience.ml" 20 445 504
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_convenience.ml" 20 445 508 "ssa_convenience.ml" 20 445 509
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 15 287 300 "ssa_convenience.ml" 15 287 301
+)
+"ssa_convenience.ml" 20 445 487 "ssa_convenience.ml" 20 445 509
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 21 510 514 "ssa_convenience.ml" 21 510 515
+type(
+  Type.binop_type * Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 21 510 525 "ssa_convenience.ml" 21 510 527
+type(
+  Type.binop_type
+)
+ident(
+  int_ref op "ssa_convenience.ml" 15 287 297 "ssa_convenience.ml" 15 287 299
+)
+"ssa_convenience.ml" 21 510 529 "ssa_convenience.ml" 21 510 530
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 15 287 300 "ssa_convenience.ml" 15 287 301
+)
+"ssa_convenience.ml" 21 510 532 "ssa_convenience.ml" 21 510 533
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 15 287 302 "ssa_convenience.ml" 15 287 303
+)
+"ssa_convenience.ml" 21 510 519 "ssa_convenience.ml" 21 510 534
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 15 287 306 "ssa_convenience.ml" 21 510 534
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 23 536 540 "ssa_convenience.ml" 23 536 544
+type(
+  Type.unop_type -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def unop "ssa_convenience.ml" 29 667 667 --
+)
+"ssa_convenience.ml" 23 536 545 "ssa_convenience.ml" 23 536 547
+type(
+  Type.unop_type
+)
+ident(
+  def op "ssa_convenience.ml" 23 536 548 "ssa_convenience.ml" 27 645 665
+)
+"ssa_convenience.ml" 23 536 548 "ssa_convenience.ml" 23 536 549
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 23 536 552 "ssa_convenience.ml" 27 645 665
+)
+"ssa_convenience.ml" 23 536 558 "ssa_convenience.ml" 23 536 559
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 23 536 548 "ssa_convenience.ml" 23 536 549
+)
+"ssa_convenience.ml" 24 565 573 "ssa_convenience.ml" 24 565 574
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def a "ssa_convenience.ml" 25 583 589 "ssa_convenience.ml" 26 630 644
+)
+"ssa_convenience.ml" 24 565 576 "ssa_convenience.ml" 24 565 578
+type(
+  Type.typ
+)
+ident(
+  def at "ssa_convenience.ml" 25 583 589 "ssa_convenience.ml" 26 630 644
+)
+"ssa_convenience.ml" 24 565 569 "ssa_convenience.ml" 24 565 579
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 25 583 594 "ssa_convenience.ml" 25 583 595
+type(
+  Z.t
+)
+"ssa_convenience.ml" 25 583 596 "ssa_convenience.ml" 25 583 597
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 25 583 593 "ssa_convenience.ml" 25 583 598
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 25 583 601 "ssa_convenience.ml" 25 583 616
+type(
+  Type.unop_type -> Big_int_Z.big_int * Type.typ -> Z.t * Type.typ
+)
+ident(
+  ext_ref Arithmetic.unop
+)
+"ssa_convenience.ml" 25 583 617 "ssa_convenience.ml" 25 583 619
+type(
+  Type.unop_type
+)
+ident(
+  int_ref op "ssa_convenience.ml" 23 536 545 "ssa_convenience.ml" 23 536 547
+)
+"ssa_convenience.ml" 25 583 621 "ssa_convenience.ml" 25 583 622
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref a "ssa_convenience.ml" 24 565 573 "ssa_convenience.ml" 24 565 574
+)
+"ssa_convenience.ml" 25 583 623 "ssa_convenience.ml" 25 583 625
+type(
+  Type.typ
+)
+ident(
+  int_ref at "ssa_convenience.ml" 24 565 576 "ssa_convenience.ml" 24 565 578
+)
+"ssa_convenience.ml" 25 583 620 "ssa_convenience.ml" 25 583 626
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_convenience.ml" 25 583 601 "ssa_convenience.ml" 25 583 626
+call(
+  stack
+)
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 26 630 640 "ssa_convenience.ml" 26 630 641
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 25 583 594 "ssa_convenience.ml" 25 583 595
+)
+"ssa_convenience.ml" 26 630 642 "ssa_convenience.ml" 26 630 643
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 25 583 596 "ssa_convenience.ml" 25 583 597
+)
+"ssa_convenience.ml" 26 630 636 "ssa_convenience.ml" 26 630 644
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 25 583 589 "ssa_convenience.ml" 26 630 644
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 27 645 649 "ssa_convenience.ml" 27 645 650
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 27 645 659 "ssa_convenience.ml" 27 645 661
+type(
+  Type.unop_type
+)
+ident(
+  int_ref op "ssa_convenience.ml" 23 536 545 "ssa_convenience.ml" 23 536 547
+)
+"ssa_convenience.ml" 27 645 663 "ssa_convenience.ml" 27 645 664
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 23 536 548 "ssa_convenience.ml" 23 536 549
+)
+"ssa_convenience.ml" 27 645 654 "ssa_convenience.ml" 27 645 665
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 23 536 552 "ssa_convenience.ml" 27 645 665
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 29 667 671 "ssa_convenience.ml" 29 667 677
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def concat "ssa_convenience.ml" 35 816 816 --
+)
+"ssa_convenience.ml" 29 667 678 "ssa_convenience.ml" 29 667 679
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 29 667 680 "ssa_convenience.ml" 33 793 814
+)
+"ssa_convenience.ml" 29 667 680 "ssa_convenience.ml" 29 667 681
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 29 667 684 "ssa_convenience.ml" 33 793 814
+)
+"ssa_convenience.ml" 29 667 690 "ssa_convenience.ml" 29 667 691
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 29 667 678 "ssa_convenience.ml" 29 667 679
+)
+"ssa_convenience.ml" 29 667 692 "ssa_convenience.ml" 29 667 693
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 29 667 680 "ssa_convenience.ml" 29 667 681
+)
+"ssa_convenience.ml" 29 667 690 "ssa_convenience.ml" 29 667 693
+type(
+  Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 30 699 707 "ssa_convenience.ml" 30 699 708
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def a "ssa_convenience.ml" 31 729 733 "ssa_convenience.ml" 32 780 792
+)
+"ssa_convenience.ml" 30 699 710 "ssa_convenience.ml" 30 699 712
+type(
+  Type.typ
+)
+ident(
+  def at "ssa_convenience.ml" 31 729 733 "ssa_convenience.ml" 32 780 792
+)
+"ssa_convenience.ml" 30 699 703 "ssa_convenience.ml" 30 699 713
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 30 699 719 "ssa_convenience.ml" 30 699 720
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def b "ssa_convenience.ml" 31 729 733 "ssa_convenience.ml" 32 780 792
+)
+"ssa_convenience.ml" 30 699 722 "ssa_convenience.ml" 30 699 724
+type(
+  Type.typ
+)
+ident(
+  def bt "ssa_convenience.ml" 31 729 733 "ssa_convenience.ml" 32 780 792
+)
+"ssa_convenience.ml" 30 699 715 "ssa_convenience.ml" 30 699 725
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 30 699 703 "ssa_convenience.ml" 30 699 725
+type(
+  Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 31 729 738 "ssa_convenience.ml" 31 729 739
+type(
+  Z.t
+)
+"ssa_convenience.ml" 31 729 740 "ssa_convenience.ml" 31 729 741
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 31 729 737 "ssa_convenience.ml" 31 729 742
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 31 729 745 "ssa_convenience.ml" 31 729 762
+type(
+  Big_int_Z.big_int * Type.typ ->
+  Big_int_Z.big_int * Type.typ -> Z.t * Type.typ
+)
+ident(
+  ext_ref Arithmetic.concat
+)
+"ssa_convenience.ml" 31 729 764 "ssa_convenience.ml" 31 729 765
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref a "ssa_convenience.ml" 30 699 707 "ssa_convenience.ml" 30 699 708
+)
+"ssa_convenience.ml" 31 729 766 "ssa_convenience.ml" 31 729 768
+type(
+  Type.typ
+)
+ident(
+  int_ref at "ssa_convenience.ml" 30 699 710 "ssa_convenience.ml" 30 699 712
+)
+"ssa_convenience.ml" 31 729 763 "ssa_convenience.ml" 31 729 769
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_convenience.ml" 31 729 771 "ssa_convenience.ml" 31 729 772
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref b "ssa_convenience.ml" 30 699 719 "ssa_convenience.ml" 30 699 720
+)
+"ssa_convenience.ml" 31 729 773 "ssa_convenience.ml" 31 729 775
+type(
+  Type.typ
+)
+ident(
+  int_ref bt "ssa_convenience.ml" 30 699 722 "ssa_convenience.ml" 30 699 724
+)
+"ssa_convenience.ml" 31 729 770 "ssa_convenience.ml" 31 729 776
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_convenience.ml" 31 729 745 "ssa_convenience.ml" 31 729 776
+call(
+  stack
+)
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 32 780 788 "ssa_convenience.ml" 32 780 789
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 31 729 738 "ssa_convenience.ml" 31 729 739
+)
+"ssa_convenience.ml" 32 780 790 "ssa_convenience.ml" 32 780 791
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 31 729 740 "ssa_convenience.ml" 31 729 741
+)
+"ssa_convenience.ml" 32 780 784 "ssa_convenience.ml" 32 780 792
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 31 729 733 "ssa_convenience.ml" 32 780 792
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 33 793 797 "ssa_convenience.ml" 33 793 798
+type(
+  Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 33 793 809 "ssa_convenience.ml" 33 793 810
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 29 667 678 "ssa_convenience.ml" 29 667 679
+)
+"ssa_convenience.ml" 33 793 812 "ssa_convenience.ml" 33 793 813
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 29 667 680 "ssa_convenience.ml" 29 667 681
+)
+"ssa_convenience.ml" 33 793 802 "ssa_convenience.ml" 33 793 814
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 29 667 684 "ssa_convenience.ml" 33 793 814
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 35 816 820 "ssa_convenience.ml" 35 816 827
+type(
+  int -> int -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def extract "ssa_convenience.ml" 45 1102 1102 --
+)
+"ssa_convenience.ml" 35 816 828 "ssa_convenience.ml" 35 816 829
+type(
+  int
+)
+ident(
+  def h "ssa_convenience.ml" 35 816 830 "ssa_convenience.ml" 42 1009 1034
+)
+"ssa_convenience.ml" 35 816 830 "ssa_convenience.ml" 35 816 831
+type(
+  int
+)
+ident(
+  def l "ssa_convenience.ml" 35 816 832 "ssa_convenience.ml" 42 1009 1034
+)
+"ssa_convenience.ml" 35 816 832 "ssa_convenience.ml" 35 816 833
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 36 836 838 "ssa_convenience.ml" 42 1009 1034
+)
+"ssa_convenience.ml" 36 836 842 "ssa_convenience.ml" 36 836 843
+type(
+  Z.t
+)
+"ssa_convenience.ml" 36 836 846 "ssa_convenience.ml" 36 836 870
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"ssa_convenience.ml" 36 836 871 "ssa_convenience.ml" 36 836 872
+type(
+  int
+)
+ident(
+  int_ref h "ssa_convenience.ml" 35 816 828 "ssa_convenience.ml" 35 816 829
+)
+"ssa_convenience.ml" 36 836 846 "ssa_convenience.ml" 36 836 872
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 37 876 882 "ssa_convenience.ml" 37 876 883
+type(
+  Z.t
+)
+"ssa_convenience.ml" 37 876 886 "ssa_convenience.ml" 37 876 910
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"ssa_convenience.ml" 37 876 911 "ssa_convenience.ml" 37 876 912
+type(
+  int
+)
+ident(
+  int_ref l "ssa_convenience.ml" 35 816 830 "ssa_convenience.ml" 35 816 831
+)
+"ssa_convenience.ml" 37 876 886 "ssa_convenience.ml" 37 876 912
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 38 916 924 "ssa_convenience.ml" 38 916 925
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 35 816 832 "ssa_convenience.ml" 35 816 833
+)
+"ssa_convenience.ml" 39 931 939 "ssa_convenience.ml" 39 931 940
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_convenience.ml" 40 948 952 "ssa_convenience.ml" 41 996 1008
+)
+"ssa_convenience.ml" 39 931 942 "ssa_convenience.ml" 39 931 943
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 40 948 952 "ssa_convenience.ml" 41 996 1008
+)
+"ssa_convenience.ml" 39 931 935 "ssa_convenience.ml" 39 931 944
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 40 948 957 "ssa_convenience.ml" 40 948 958
+type(
+  Z.t
+)
+"ssa_convenience.ml" 40 948 959 "ssa_convenience.ml" 40 948 960
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 40 948 956 "ssa_convenience.ml" 40 948 961
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 40 948 964 "ssa_convenience.ml" 40 948 982
+type(
+  Z.t -> Z.t -> Big_int_Z.big_int * Type.typ -> Z.t * Type.typ
+)
+ident(
+  ext_ref Arithmetic.extract
+)
+"ssa_convenience.ml" 40 948 983 "ssa_convenience.ml" 40 948 984
+type(
+  Z.t
+)
+ident(
+  int_ref h "ssa_convenience.ml" 36 836 842 "ssa_convenience.ml" 36 836 843
+)
+"ssa_convenience.ml" 40 948 985 "ssa_convenience.ml" 40 948 986
+type(
+  Z.t
+)
+ident(
+  int_ref l "ssa_convenience.ml" 37 876 882 "ssa_convenience.ml" 37 876 883
+)
+"ssa_convenience.ml" 40 948 988 "ssa_convenience.ml" 40 948 989
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 39 931 939 "ssa_convenience.ml" 39 931 940
+)
+"ssa_convenience.ml" 40 948 990 "ssa_convenience.ml" 40 948 991
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 39 931 942 "ssa_convenience.ml" 39 931 943
+)
+"ssa_convenience.ml" 40 948 987 "ssa_convenience.ml" 40 948 992
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_convenience.ml" 40 948 964 "ssa_convenience.ml" 40 948 992
+call(
+  stack
+)
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 41 996 1004 "ssa_convenience.ml" 41 996 1005
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 40 948 957 "ssa_convenience.ml" 40 948 958
+)
+"ssa_convenience.ml" 41 996 1006 "ssa_convenience.ml" 41 996 1007
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 40 948 959 "ssa_convenience.ml" 40 948 960
+)
+"ssa_convenience.ml" 41 996 1000 "ssa_convenience.ml" 41 996 1008
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 40 948 952 "ssa_convenience.ml" 41 996 1008
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 42 1009 1013 "ssa_convenience.ml" 42 1009 1014
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 42 1009 1026 "ssa_convenience.ml" 42 1009 1027
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "ssa_convenience.ml" 36 836 842 "ssa_convenience.ml" 36 836 843
+)
+"ssa_convenience.ml" 42 1009 1029 "ssa_convenience.ml" 42 1009 1030
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "ssa_convenience.ml" 37 876 882 "ssa_convenience.ml" 37 876 883
+)
+"ssa_convenience.ml" 42 1009 1032 "ssa_convenience.ml" 42 1009 1033
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 35 816 832 "ssa_convenience.ml" 35 816 833
+)
+"ssa_convenience.ml" 42 1009 1018 "ssa_convenience.ml" 42 1009 1034
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 38 916 918 "ssa_convenience.ml" 42 1009 1034
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 37 876 878 "ssa_convenience.ml" 42 1009 1034
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 36 836 838 "ssa_convenience.ml" 42 1009 1034
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 45 1102 1106 "ssa_convenience.ml" 45 1102 1113
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def exp_and "ssa_convenience.ml" 46 1138 1138 --
+)
+"ssa_convenience.ml" 45 1102 1114 "ssa_convenience.ml" 45 1102 1116
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 45 1102 1117 "ssa_convenience.ml" 45 1102 1137
+)
+"ssa_convenience.ml" 45 1102 1117 "ssa_convenience.ml" 45 1102 1119
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 45 1102 1122 "ssa_convenience.ml" 45 1102 1137
+)
+"ssa_convenience.ml" 45 1102 1122 "ssa_convenience.ml" 45 1102 1127
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 45 1102 1128 "ssa_convenience.ml" 45 1102 1131
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 45 1102 1132 "ssa_convenience.ml" 45 1102 1134
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 45 1102 1114 "ssa_convenience.ml" 45 1102 1116
+)
+"ssa_convenience.ml" 45 1102 1135 "ssa_convenience.ml" 45 1102 1137
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 45 1102 1117 "ssa_convenience.ml" 45 1102 1119
+)
+"ssa_convenience.ml" 45 1102 1122 "ssa_convenience.ml" 45 1102 1137
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 46 1138 1142 "ssa_convenience.ml" 46 1138 1148
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def exp_or "ssa_convenience.ml" 47 1172 1172 --
+)
+"ssa_convenience.ml" 46 1138 1149 "ssa_convenience.ml" 46 1138 1151
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 46 1138 1152 "ssa_convenience.ml" 46 1138 1171
+)
+"ssa_convenience.ml" 46 1138 1152 "ssa_convenience.ml" 46 1138 1154
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 46 1138 1157 "ssa_convenience.ml" 46 1138 1171
+)
+"ssa_convenience.ml" 46 1138 1157 "ssa_convenience.ml" 46 1138 1162
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 46 1138 1163 "ssa_convenience.ml" 46 1138 1165
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 46 1138 1166 "ssa_convenience.ml" 46 1138 1168
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 46 1138 1149 "ssa_convenience.ml" 46 1138 1151
+)
+"ssa_convenience.ml" 46 1138 1169 "ssa_convenience.ml" 46 1138 1171
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 46 1138 1152 "ssa_convenience.ml" 46 1138 1154
+)
+"ssa_convenience.ml" 46 1138 1157 "ssa_convenience.ml" 46 1138 1171
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 47 1172 1176 "ssa_convenience.ml" 47 1172 1182
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def exp_eq "ssa_convenience.ml" 48 1206 1206 --
+)
+"ssa_convenience.ml" 47 1172 1183 "ssa_convenience.ml" 47 1172 1185
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 47 1172 1186 "ssa_convenience.ml" 47 1172 1205
+)
+"ssa_convenience.ml" 47 1172 1186 "ssa_convenience.ml" 47 1172 1188
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 47 1172 1191 "ssa_convenience.ml" 47 1172 1205
+)
+"ssa_convenience.ml" 47 1172 1191 "ssa_convenience.ml" 47 1172 1196
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 47 1172 1197 "ssa_convenience.ml" 47 1172 1199
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 47 1172 1200 "ssa_convenience.ml" 47 1172 1202
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 47 1172 1183 "ssa_convenience.ml" 47 1172 1185
+)
+"ssa_convenience.ml" 47 1172 1203 "ssa_convenience.ml" 47 1172 1205
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 47 1172 1186 "ssa_convenience.ml" 47 1172 1188
+)
+"ssa_convenience.ml" 47 1172 1191 "ssa_convenience.ml" 47 1172 1205
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 48 1206 1210 "ssa_convenience.ml" 48 1206 1217
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def exp_not "ssa_convenience.ml" 49 1233 1233 --
+)
+"ssa_convenience.ml" 48 1206 1218 "ssa_convenience.ml" 48 1206 1219
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 48 1206 1222 "ssa_convenience.ml" 48 1206 1232
+)
+"ssa_convenience.ml" 48 1206 1222 "ssa_convenience.ml" 48 1206 1226
+type(
+  Type.unop_type -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref unop "ssa_convenience.ml" 23 536 540 "ssa_convenience.ml" 23 536 544
+)
+"ssa_convenience.ml" 48 1206 1227 "ssa_convenience.ml" 48 1206 1230
+type(
+  Type.unop_type
+)
+"ssa_convenience.ml" 48 1206 1231 "ssa_convenience.ml" 48 1206 1232
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 48 1206 1218 "ssa_convenience.ml" 48 1206 1219
+)
+"ssa_convenience.ml" 48 1206 1222 "ssa_convenience.ml" 48 1206 1232
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 49 1233 1237 "ssa_convenience.ml" 49 1233 1248
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def exp_implies "ssa_convenience.ml" 51 1281 1281 --
+)
+"ssa_convenience.ml" 49 1233 1249 "ssa_convenience.ml" 49 1233 1251
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 49 1233 1252 "ssa_convenience.ml" 49 1233 1279
+)
+"ssa_convenience.ml" 49 1233 1252 "ssa_convenience.ml" 49 1233 1254
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 49 1233 1257 "ssa_convenience.ml" 49 1233 1279
+)
+"ssa_convenience.ml" 49 1233 1257 "ssa_convenience.ml" 49 1233 1263
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_or "ssa_convenience.ml" 46 1138 1142 "ssa_convenience.ml" 46 1138 1148
+)
+"ssa_convenience.ml" 49 1233 1265 "ssa_convenience.ml" 49 1233 1272
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_not "ssa_convenience.ml" 48 1206 1210 "ssa_convenience.ml" 48 1206 1217
+)
+"ssa_convenience.ml" 49 1233 1273 "ssa_convenience.ml" 49 1233 1275
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 49 1233 1249 "ssa_convenience.ml" 49 1233 1251
+)
+"ssa_convenience.ml" 49 1233 1264 "ssa_convenience.ml" 49 1233 1276
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 49 1233 1277 "ssa_convenience.ml" 49 1233 1279
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 49 1233 1252 "ssa_convenience.ml" 49 1233 1254
+)
+"ssa_convenience.ml" 49 1233 1257 "ssa_convenience.ml" 49 1233 1279
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 51 1281 1286 "ssa_convenience.ml" 51 1281 1293
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def exp_shl "ssa_convenience.ml" 58 1431 1431 --
+)
+"ssa_convenience.ml" 51 1281 1295 "ssa_convenience.ml" 51 1281 1302
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def exp_shr "ssa_convenience.ml" 58 1431 1431 --
+)
+"ssa_convenience.ml" 51 1281 1285 "ssa_convenience.ml" 51 1281 1303
+type(
+  (Ssa.exp -> Ssa.exp -> Ssa.exp) * (Ssa.exp -> Ssa.exp -> Ssa.exp)
+)
+"ssa_convenience.ml" 52 1306 1312 "ssa_convenience.ml" 52 1306 1313
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 52 1306 1314 "ssa_convenience.ml" 52 1306 1317
+type(
+  Type.binop_type
+)
+ident(
+  def dir "ssa_convenience.ml" 52 1306 1318 "ssa_convenience.ml" 54 1371 1401
+)
+"ssa_convenience.ml" 52 1306 1318 "ssa_convenience.ml" 52 1306 1320
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 52 1306 1323 "ssa_convenience.ml" 54 1371 1401
+)
+"ssa_convenience.ml" 53 1332 1342 "ssa_convenience.ml" 53 1332 1343
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_convenience.ml" 53 1332 1347 "ssa_convenience.ml" 53 1332 1370
+)
+"ssa_convenience.ml" 53 1332 1344 "ssa_convenience.ml" 53 1332 1345
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 53 1332 1338 "ssa_convenience.ml" 53 1332 1346
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 53 1332 1352 "ssa_convenience.ml" 53 1332 1362
+type(
+  Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Big_int_convenience.bi_is_zero
+)
+"ssa_convenience.ml" 53 1332 1363 "ssa_convenience.ml" 53 1332 1364
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 53 1332 1342 "ssa_convenience.ml" 53 1332 1343
+)
+"ssa_convenience.ml" 53 1332 1352 "ssa_convenience.ml" 53 1332 1364
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_convenience.ml" 53 1332 1368 "ssa_convenience.ml" 53 1332 1370
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 52 1306 1318 "ssa_convenience.ml" 52 1306 1320
+)
+"ssa_convenience.ml" 53 1332 1347 "ssa_convenience.ml" 53 1332 1370
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 54 1371 1377 "ssa_convenience.ml" 54 1371 1379
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 54 1371 1383 "ssa_convenience.ml" 54 1371 1401
+)
+"ssa_convenience.ml" 54 1371 1389 "ssa_convenience.ml" 54 1371 1392
+type(
+  Type.binop_type
+)
+ident(
+  int_ref dir "ssa_convenience.ml" 52 1306 1314 "ssa_convenience.ml" 52 1306 1317
+)
+"ssa_convenience.ml" 54 1371 1394 "ssa_convenience.ml" 54 1371 1396
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 52 1306 1318 "ssa_convenience.ml" 52 1306 1320
+)
+"ssa_convenience.ml" 54 1371 1398 "ssa_convenience.ml" 54 1371 1400
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 54 1371 1377 "ssa_convenience.ml" 54 1371 1379
+)
+"ssa_convenience.ml" 54 1371 1383 "ssa_convenience.ml" 54 1371 1401
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 52 1306 1323 "ssa_convenience.ml" 54 1371 1401
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 56 1407 1410 "ssa_convenience.ml" 56 1407 1411
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref s "ssa_convenience.ml" 52 1306 1312 "ssa_convenience.ml" 52 1306 1313
+)
+"ssa_convenience.ml" 56 1407 1412 "ssa_convenience.ml" 56 1407 1418
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 56 1407 1410 "ssa_convenience.ml" 56 1407 1418
+call(
+  stack
+)
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 56 1407 1420 "ssa_convenience.ml" 56 1407 1421
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref s "ssa_convenience.ml" 52 1306 1312 "ssa_convenience.ml" 52 1306 1313
+)
+"ssa_convenience.ml" 56 1407 1422 "ssa_convenience.ml" 56 1407 1428
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 56 1407 1420 "ssa_convenience.ml" 56 1407 1428
+call(
+  stack
+)
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 56 1407 1409 "ssa_convenience.ml" 56 1407 1429
+type(
+  (Ssa.exp -> Ssa.exp -> Ssa.exp) * (Ssa.exp -> Ssa.exp -> Ssa.exp)
+)
+"ssa_convenience.ml" 52 1306 1308 "ssa_convenience.ml" 56 1407 1429
+type(
+  (Ssa.exp -> Ssa.exp -> Ssa.exp) * (Ssa.exp -> Ssa.exp -> Ssa.exp)
+)
+"ssa_convenience.ml" 58 1431 1435 "ssa_convenience.ml" 58 1431 1441
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def +* "ssa_convenience.ml" 59 1465 1465 --
+)
+"ssa_convenience.ml" 58 1431 1442 "ssa_convenience.ml" 58 1431 1443
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 58 1431 1444 "ssa_convenience.ml" 58 1431 1464
+)
+"ssa_convenience.ml" 58 1431 1444 "ssa_convenience.ml" 58 1431 1445
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 58 1431 1450 "ssa_convenience.ml" 58 1431 1464
+)
+"ssa_convenience.ml" 58 1431 1450 "ssa_convenience.ml" 58 1431 1455
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 58 1431 1456 "ssa_convenience.ml" 58 1431 1460
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 58 1431 1461 "ssa_convenience.ml" 58 1431 1462
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 58 1431 1442 "ssa_convenience.ml" 58 1431 1443
+)
+"ssa_convenience.ml" 58 1431 1463 "ssa_convenience.ml" 58 1431 1464
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 58 1431 1444 "ssa_convenience.ml" 58 1431 1445
+)
+"ssa_convenience.ml" 58 1431 1450 "ssa_convenience.ml" 58 1431 1464
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 59 1465 1469 "ssa_convenience.ml" 59 1465 1475
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def -* "ssa_convenience.ml" 60 1500 1500 --
+)
+"ssa_convenience.ml" 59 1465 1476 "ssa_convenience.ml" 59 1465 1477
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 59 1465 1478 "ssa_convenience.ml" 59 1465 1499
+)
+"ssa_convenience.ml" 59 1465 1478 "ssa_convenience.ml" 59 1465 1479
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 59 1465 1484 "ssa_convenience.ml" 59 1465 1499
+)
+"ssa_convenience.ml" 59 1465 1484 "ssa_convenience.ml" 59 1465 1489
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 59 1465 1490 "ssa_convenience.ml" 59 1465 1495
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 59 1465 1496 "ssa_convenience.ml" 59 1465 1497
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 59 1465 1476 "ssa_convenience.ml" 59 1465 1477
+)
+"ssa_convenience.ml" 59 1465 1498 "ssa_convenience.ml" 59 1465 1499
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 59 1465 1478 "ssa_convenience.ml" 59 1465 1479
+)
+"ssa_convenience.ml" 59 1465 1484 "ssa_convenience.ml" 59 1465 1499
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 60 1500 1504 "ssa_convenience.ml" 60 1500 1510
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def ** "ssa_convenience.ml" 61 1535 1535 --
+)
+"ssa_convenience.ml" 60 1500 1511 "ssa_convenience.ml" 60 1500 1512
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 60 1500 1513 "ssa_convenience.ml" 60 1500 1534
+)
+"ssa_convenience.ml" 60 1500 1513 "ssa_convenience.ml" 60 1500 1514
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 60 1500 1519 "ssa_convenience.ml" 60 1500 1534
+)
+"ssa_convenience.ml" 60 1500 1519 "ssa_convenience.ml" 60 1500 1524
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 60 1500 1525 "ssa_convenience.ml" 60 1500 1530
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 60 1500 1531 "ssa_convenience.ml" 60 1500 1532
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 60 1500 1511 "ssa_convenience.ml" 60 1500 1512
+)
+"ssa_convenience.ml" 60 1500 1533 "ssa_convenience.ml" 60 1500 1534
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 60 1500 1513 "ssa_convenience.ml" 60 1500 1514
+)
+"ssa_convenience.ml" 60 1500 1519 "ssa_convenience.ml" 60 1500 1534
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 61 1535 1539 "ssa_convenience.ml" 61 1535 1546
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def <<* "ssa_convenience.ml" 62 1571 1571 --
+)
+"ssa_convenience.ml" 61 1535 1547 "ssa_convenience.ml" 61 1535 1548
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 61 1535 1549 "ssa_convenience.ml" 61 1535 1570
+)
+"ssa_convenience.ml" 61 1535 1549 "ssa_convenience.ml" 61 1535 1550
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 61 1535 1554 "ssa_convenience.ml" 61 1535 1570
+)
+"ssa_convenience.ml" 61 1535 1554 "ssa_convenience.ml" 61 1535 1559
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 61 1535 1560 "ssa_convenience.ml" 61 1535 1566
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 61 1535 1567 "ssa_convenience.ml" 61 1535 1568
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 61 1535 1547 "ssa_convenience.ml" 61 1535 1548
+)
+"ssa_convenience.ml" 61 1535 1569 "ssa_convenience.ml" 61 1535 1570
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 61 1535 1549 "ssa_convenience.ml" 61 1535 1550
+)
+"ssa_convenience.ml" 61 1535 1554 "ssa_convenience.ml" 61 1535 1570
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 62 1571 1575 "ssa_convenience.ml" 62 1571 1582
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def >>* "ssa_convenience.ml" 63 1607 1607 --
+)
+"ssa_convenience.ml" 62 1571 1583 "ssa_convenience.ml" 62 1571 1584
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 62 1571 1585 "ssa_convenience.ml" 62 1571 1606
+)
+"ssa_convenience.ml" 62 1571 1585 "ssa_convenience.ml" 62 1571 1586
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 62 1571 1590 "ssa_convenience.ml" 62 1571 1606
+)
+"ssa_convenience.ml" 62 1571 1590 "ssa_convenience.ml" 62 1571 1595
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 62 1571 1596 "ssa_convenience.ml" 62 1571 1602
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 62 1571 1603 "ssa_convenience.ml" 62 1571 1604
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 62 1571 1583 "ssa_convenience.ml" 62 1571 1584
+)
+"ssa_convenience.ml" 62 1571 1605 "ssa_convenience.ml" 62 1571 1606
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 62 1571 1585 "ssa_convenience.ml" 62 1571 1586
+)
+"ssa_convenience.ml" 62 1571 1590 "ssa_convenience.ml" 62 1571 1606
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 63 1607 1611 "ssa_convenience.ml" 63 1607 1619
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def >>>* "ssa_convenience.ml" 64 1644 1644 --
+)
+"ssa_convenience.ml" 63 1607 1620 "ssa_convenience.ml" 63 1607 1621
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 63 1607 1622 "ssa_convenience.ml" 63 1607 1643
+)
+"ssa_convenience.ml" 63 1607 1622 "ssa_convenience.ml" 63 1607 1623
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 63 1607 1626 "ssa_convenience.ml" 63 1607 1643
+)
+"ssa_convenience.ml" 63 1607 1626 "ssa_convenience.ml" 63 1607 1631
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 63 1607 1632 "ssa_convenience.ml" 63 1607 1639
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 63 1607 1640 "ssa_convenience.ml" 63 1607 1641
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 63 1607 1620 "ssa_convenience.ml" 63 1607 1621
+)
+"ssa_convenience.ml" 63 1607 1642 "ssa_convenience.ml" 63 1607 1643
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 63 1607 1622 "ssa_convenience.ml" 63 1607 1623
+)
+"ssa_convenience.ml" 63 1607 1626 "ssa_convenience.ml" 63 1607 1643
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 64 1644 1648 "ssa_convenience.ml" 64 1644 1654
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def &* "ssa_convenience.ml" 65 1677 1677 --
+)
+"ssa_convenience.ml" 64 1644 1655 "ssa_convenience.ml" 64 1644 1656
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 64 1644 1657 "ssa_convenience.ml" 64 1644 1676
+)
+"ssa_convenience.ml" 64 1644 1657 "ssa_convenience.ml" 64 1644 1658
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 64 1644 1663 "ssa_convenience.ml" 64 1644 1676
+)
+"ssa_convenience.ml" 64 1644 1663 "ssa_convenience.ml" 64 1644 1668
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 64 1644 1669 "ssa_convenience.ml" 64 1644 1672
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 64 1644 1673 "ssa_convenience.ml" 64 1644 1674
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 64 1644 1655 "ssa_convenience.ml" 64 1644 1656
+)
+"ssa_convenience.ml" 64 1644 1675 "ssa_convenience.ml" 64 1644 1676
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 64 1644 1657 "ssa_convenience.ml" 64 1644 1658
+)
+"ssa_convenience.ml" 64 1644 1663 "ssa_convenience.ml" 64 1644 1676
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 65 1677 1681 "ssa_convenience.ml" 65 1677 1687
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def |* "ssa_convenience.ml" 66 1709 1709 --
+)
+"ssa_convenience.ml" 65 1677 1688 "ssa_convenience.ml" 65 1677 1689
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 65 1677 1690 "ssa_convenience.ml" 65 1677 1708
+)
+"ssa_convenience.ml" 65 1677 1690 "ssa_convenience.ml" 65 1677 1691
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 65 1677 1696 "ssa_convenience.ml" 65 1677 1708
+)
+"ssa_convenience.ml" 65 1677 1696 "ssa_convenience.ml" 65 1677 1701
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 65 1677 1702 "ssa_convenience.ml" 65 1677 1704
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 65 1677 1705 "ssa_convenience.ml" 65 1677 1706
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 65 1677 1688 "ssa_convenience.ml" 65 1677 1689
+)
+"ssa_convenience.ml" 65 1677 1707 "ssa_convenience.ml" 65 1677 1708
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 65 1677 1690 "ssa_convenience.ml" 65 1677 1691
+)
+"ssa_convenience.ml" 65 1677 1696 "ssa_convenience.ml" 65 1677 1708
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 66 1709 1713 "ssa_convenience.ml" 66 1709 1719
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def ^* "ssa_convenience.ml" 67 1742 1742 --
+)
+"ssa_convenience.ml" 66 1709 1720 "ssa_convenience.ml" 66 1709 1721
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 66 1709 1722 "ssa_convenience.ml" 66 1709 1741
+)
+"ssa_convenience.ml" 66 1709 1722 "ssa_convenience.ml" 66 1709 1723
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 66 1709 1728 "ssa_convenience.ml" 66 1709 1741
+)
+"ssa_convenience.ml" 66 1709 1728 "ssa_convenience.ml" 66 1709 1733
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 66 1709 1734 "ssa_convenience.ml" 66 1709 1737
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 66 1709 1738 "ssa_convenience.ml" 66 1709 1739
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 66 1709 1720 "ssa_convenience.ml" 66 1709 1721
+)
+"ssa_convenience.ml" 66 1709 1740 "ssa_convenience.ml" 66 1709 1741
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 66 1709 1722 "ssa_convenience.ml" 66 1709 1723
+)
+"ssa_convenience.ml" 66 1709 1728 "ssa_convenience.ml" 66 1709 1741
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 67 1742 1746 "ssa_convenience.ml" 67 1742 1753
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def ==* "ssa_convenience.ml" 68 1774 1774 --
+)
+"ssa_convenience.ml" 67 1742 1754 "ssa_convenience.ml" 67 1742 1755
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 67 1742 1756 "ssa_convenience.ml" 67 1742 1773
+)
+"ssa_convenience.ml" 67 1742 1756 "ssa_convenience.ml" 67 1742 1757
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 67 1742 1761 "ssa_convenience.ml" 67 1742 1773
+)
+"ssa_convenience.ml" 67 1742 1761 "ssa_convenience.ml" 67 1742 1766
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 67 1742 1767 "ssa_convenience.ml" 67 1742 1769
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 67 1742 1770 "ssa_convenience.ml" 67 1742 1771
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 67 1742 1754 "ssa_convenience.ml" 67 1742 1755
+)
+"ssa_convenience.ml" 67 1742 1772 "ssa_convenience.ml" 67 1742 1773
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 67 1742 1756 "ssa_convenience.ml" 67 1742 1757
+)
+"ssa_convenience.ml" 67 1742 1761 "ssa_convenience.ml" 67 1742 1773
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 68 1774 1778 "ssa_convenience.ml" 68 1774 1785
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def <>* "ssa_convenience.ml" 69 1807 1807 --
+)
+"ssa_convenience.ml" 68 1774 1786 "ssa_convenience.ml" 68 1774 1787
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 68 1774 1788 "ssa_convenience.ml" 68 1774 1806
+)
+"ssa_convenience.ml" 68 1774 1788 "ssa_convenience.ml" 68 1774 1789
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 68 1774 1793 "ssa_convenience.ml" 68 1774 1806
+)
+"ssa_convenience.ml" 68 1774 1793 "ssa_convenience.ml" 68 1774 1798
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 68 1774 1799 "ssa_convenience.ml" 68 1774 1802
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 68 1774 1803 "ssa_convenience.ml" 68 1774 1804
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 68 1774 1786 "ssa_convenience.ml" 68 1774 1787
+)
+"ssa_convenience.ml" 68 1774 1805 "ssa_convenience.ml" 68 1774 1806
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 68 1774 1788 "ssa_convenience.ml" 68 1774 1789
+)
+"ssa_convenience.ml" 68 1774 1793 "ssa_convenience.ml" 68 1774 1806
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 69 1807 1811 "ssa_convenience.ml" 69 1807 1817
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def <* "ssa_convenience.ml" 70 1839 1839 --
+)
+"ssa_convenience.ml" 69 1807 1818 "ssa_convenience.ml" 69 1807 1819
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 69 1807 1820 "ssa_convenience.ml" 69 1807 1838
+)
+"ssa_convenience.ml" 69 1807 1820 "ssa_convenience.ml" 69 1807 1821
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 69 1807 1826 "ssa_convenience.ml" 69 1807 1838
+)
+"ssa_convenience.ml" 69 1807 1826 "ssa_convenience.ml" 69 1807 1831
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 69 1807 1832 "ssa_convenience.ml" 69 1807 1834
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 69 1807 1835 "ssa_convenience.ml" 69 1807 1836
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 69 1807 1818 "ssa_convenience.ml" 69 1807 1819
+)
+"ssa_convenience.ml" 69 1807 1837 "ssa_convenience.ml" 69 1807 1838
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 69 1807 1820 "ssa_convenience.ml" 69 1807 1821
+)
+"ssa_convenience.ml" 69 1807 1826 "ssa_convenience.ml" 69 1807 1838
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 70 1839 1843 "ssa_convenience.ml" 70 1839 1849
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def >* "ssa_convenience.ml" 71 1871 1871 --
+)
+"ssa_convenience.ml" 70 1839 1850 "ssa_convenience.ml" 70 1839 1851
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 70 1839 1852 "ssa_convenience.ml" 70 1839 1870
+)
+"ssa_convenience.ml" 70 1839 1852 "ssa_convenience.ml" 70 1839 1853
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 70 1839 1858 "ssa_convenience.ml" 70 1839 1870
+)
+"ssa_convenience.ml" 70 1839 1858 "ssa_convenience.ml" 70 1839 1863
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 70 1839 1864 "ssa_convenience.ml" 70 1839 1866
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 70 1839 1867 "ssa_convenience.ml" 70 1839 1868
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 70 1839 1852 "ssa_convenience.ml" 70 1839 1853
+)
+"ssa_convenience.ml" 70 1839 1869 "ssa_convenience.ml" 70 1839 1870
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 70 1839 1850 "ssa_convenience.ml" 70 1839 1851
+)
+"ssa_convenience.ml" 70 1839 1858 "ssa_convenience.ml" 70 1839 1870
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 71 1871 1875 "ssa_convenience.ml" 71 1871 1881
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def <=* "ssa_convenience.ml" 72 1903 1903 --
+)
+"ssa_convenience.ml" 71 1871 1882 "ssa_convenience.ml" 71 1871 1883
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 71 1871 1884 "ssa_convenience.ml" 71 1871 1902
+)
+"ssa_convenience.ml" 71 1871 1884 "ssa_convenience.ml" 71 1871 1885
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 71 1871 1890 "ssa_convenience.ml" 71 1871 1902
+)
+"ssa_convenience.ml" 71 1871 1890 "ssa_convenience.ml" 71 1871 1895
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 71 1871 1896 "ssa_convenience.ml" 71 1871 1898
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 71 1871 1899 "ssa_convenience.ml" 71 1871 1900
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 71 1871 1882 "ssa_convenience.ml" 71 1871 1883
+)
+"ssa_convenience.ml" 71 1871 1901 "ssa_convenience.ml" 71 1871 1902
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 71 1871 1884 "ssa_convenience.ml" 71 1871 1885
+)
+"ssa_convenience.ml" 71 1871 1890 "ssa_convenience.ml" 71 1871 1902
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 72 1903 1907 "ssa_convenience.ml" 72 1903 1913
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def >=* "ssa_convenience.ml" 74 1959 1959 --
+)
+"ssa_convenience.ml" 72 1903 1914 "ssa_convenience.ml" 72 1903 1915
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 72 1903 1916 "ssa_convenience.ml" 72 1903 1934
+)
+"ssa_convenience.ml" 72 1903 1916 "ssa_convenience.ml" 72 1903 1917
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 72 1903 1922 "ssa_convenience.ml" 72 1903 1934
+)
+"ssa_convenience.ml" 72 1903 1922 "ssa_convenience.ml" 72 1903 1927
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 72 1903 1928 "ssa_convenience.ml" 72 1903 1930
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 72 1903 1931 "ssa_convenience.ml" 72 1903 1932
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 72 1903 1916 "ssa_convenience.ml" 72 1903 1917
+)
+"ssa_convenience.ml" 72 1903 1933 "ssa_convenience.ml" 72 1903 1934
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 72 1903 1914 "ssa_convenience.ml" 72 1903 1915
+)
+"ssa_convenience.ml" 72 1903 1922 "ssa_convenience.ml" 72 1903 1934
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 74 1959 1963 "ssa_convenience.ml" 74 1959 1969
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def =* "ssa_convenience.ml" 76 2004 2004 --
+)
+"ssa_convenience.ml" 74 1959 1970 "ssa_convenience.ml" 74 1959 1971
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 74 1959 1972 "ssa_convenience.ml" 74 1959 2002
+)
+"ssa_convenience.ml" 74 1959 1972 "ssa_convenience.ml" 74 1959 1973
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 74 1959 1978 "ssa_convenience.ml" 74 1959 2002
+)
+"ssa_convenience.ml" 74 1959 1978 "ssa_convenience.ml" 74 1959 1983
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 74 1959 1984 "ssa_convenience.ml" 74 1959 1987
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 74 1959 1988 "ssa_convenience.ml" 74 1959 1989
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 74 1959 1970 "ssa_convenience.ml" 74 1959 1971
+)
+"ssa_convenience.ml" 74 1959 1991 "ssa_convenience.ml" 74 1959 1995
+type(
+  Type.unop_type -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref unop "ssa_convenience.ml" 23 536 540 "ssa_convenience.ml" 23 536 544
+)
+"ssa_convenience.ml" 74 1959 1996 "ssa_convenience.ml" 74 1959 1999
+type(
+  Type.unop_type
+)
+"ssa_convenience.ml" 74 1959 2000 "ssa_convenience.ml" 74 1959 2001
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 74 1959 1972 "ssa_convenience.ml" 74 1959 1973
+)
+"ssa_convenience.ml" 74 1959 1990 "ssa_convenience.ml" 74 1959 2002
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 74 1959 1978 "ssa_convenience.ml" 74 1959 2002
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 76 2004 2008 "ssa_convenience.ml" 76 2004 2015
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def ++* "ssa_convenience.ml" 77 2035 2035 --
+)
+"ssa_convenience.ml" 76 2004 2016 "ssa_convenience.ml" 76 2004 2017
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 76 2004 2018 "ssa_convenience.ml" 76 2004 2034
+)
+"ssa_convenience.ml" 76 2004 2018 "ssa_convenience.ml" 76 2004 2019
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 76 2004 2024 "ssa_convenience.ml" 76 2004 2034
+)
+"ssa_convenience.ml" 76 2004 2024 "ssa_convenience.ml" 76 2004 2030
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref concat "ssa_convenience.ml" 29 667 671 "ssa_convenience.ml" 29 667 677
+)
+"ssa_convenience.ml" 76 2004 2031 "ssa_convenience.ml" 76 2004 2032
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 76 2004 2016 "ssa_convenience.ml" 76 2004 2017
+)
+"ssa_convenience.ml" 76 2004 2033 "ssa_convenience.ml" 76 2004 2034
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 76 2004 2018 "ssa_convenience.ml" 76 2004 2019
+)
+"ssa_convenience.ml" 76 2004 2024 "ssa_convenience.ml" 76 2004 2034
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 77 2035 2039 "ssa_convenience.ml" 77 2035 2045
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def %* "ssa_convenience.ml" 78 2066 2066 --
+)
+"ssa_convenience.ml" 77 2035 2046 "ssa_convenience.ml" 77 2035 2047
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 77 2035 2048 "ssa_convenience.ml" 77 2035 2065
+)
+"ssa_convenience.ml" 77 2035 2048 "ssa_convenience.ml" 77 2035 2049
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 77 2035 2052 "ssa_convenience.ml" 77 2035 2065
+)
+"ssa_convenience.ml" 77 2035 2052 "ssa_convenience.ml" 77 2035 2057
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 77 2035 2058 "ssa_convenience.ml" 77 2035 2061
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 77 2035 2062 "ssa_convenience.ml" 77 2035 2063
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 77 2035 2046 "ssa_convenience.ml" 77 2035 2047
+)
+"ssa_convenience.ml" 77 2035 2064 "ssa_convenience.ml" 77 2035 2065
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 77 2035 2048 "ssa_convenience.ml" 77 2035 2049
+)
+"ssa_convenience.ml" 77 2035 2052 "ssa_convenience.ml" 77 2035 2065
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 78 2066 2070 "ssa_convenience.ml" 78 2066 2077
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def $%* "ssa_convenience.ml" 79 2099 2099 --
+)
+"ssa_convenience.ml" 78 2066 2078 "ssa_convenience.ml" 78 2066 2079
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 78 2066 2080 "ssa_convenience.ml" 78 2066 2098
+)
+"ssa_convenience.ml" 78 2066 2080 "ssa_convenience.ml" 78 2066 2081
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 78 2066 2084 "ssa_convenience.ml" 78 2066 2098
+)
+"ssa_convenience.ml" 78 2066 2084 "ssa_convenience.ml" 78 2066 2089
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 78 2066 2090 "ssa_convenience.ml" 78 2066 2094
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 78 2066 2095 "ssa_convenience.ml" 78 2066 2096
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 78 2066 2078 "ssa_convenience.ml" 78 2066 2079
+)
+"ssa_convenience.ml" 78 2066 2097 "ssa_convenience.ml" 78 2066 2098
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 78 2066 2080 "ssa_convenience.ml" 78 2066 2081
+)
+"ssa_convenience.ml" 78 2066 2084 "ssa_convenience.ml" 78 2066 2098
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 79 2099 2103 "ssa_convenience.ml" 79 2099 2109
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def /* "ssa_convenience.ml" 80 2133 2133 --
+)
+"ssa_convenience.ml" 79 2099 2110 "ssa_convenience.ml" 79 2099 2111
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 79 2099 2112 "ssa_convenience.ml" 79 2099 2132
+)
+"ssa_convenience.ml" 79 2099 2112 "ssa_convenience.ml" 79 2099 2113
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 79 2099 2116 "ssa_convenience.ml" 79 2099 2132
+)
+"ssa_convenience.ml" 79 2099 2116 "ssa_convenience.ml" 79 2099 2121
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 79 2099 2122 "ssa_convenience.ml" 79 2099 2128
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 79 2099 2129 "ssa_convenience.ml" 79 2099 2130
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 79 2099 2110 "ssa_convenience.ml" 79 2099 2111
+)
+"ssa_convenience.ml" 79 2099 2131 "ssa_convenience.ml" 79 2099 2132
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 79 2099 2112 "ssa_convenience.ml" 79 2099 2113
+)
+"ssa_convenience.ml" 79 2099 2116 "ssa_convenience.ml" 79 2099 2132
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 80 2133 2137 "ssa_convenience.ml" 80 2133 2144
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def $/* "ssa_convenience.ml" 82 2170 2170 --
+)
+"ssa_convenience.ml" 80 2133 2145 "ssa_convenience.ml" 80 2133 2146
+type(
+  Ssa.exp
+)
+ident(
+  def a "ssa_convenience.ml" 80 2133 2147 "ssa_convenience.ml" 80 2133 2168
+)
+"ssa_convenience.ml" 80 2133 2147 "ssa_convenience.ml" 80 2133 2148
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 80 2133 2151 "ssa_convenience.ml" 80 2133 2168
+)
+"ssa_convenience.ml" 80 2133 2151 "ssa_convenience.ml" 80 2133 2156
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 80 2133 2157 "ssa_convenience.ml" 80 2133 2164
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 80 2133 2165 "ssa_convenience.ml" 80 2133 2166
+type(
+  Ssa.exp
+)
+ident(
+  int_ref a "ssa_convenience.ml" 80 2133 2145 "ssa_convenience.ml" 80 2133 2146
+)
+"ssa_convenience.ml" 80 2133 2167 "ssa_convenience.ml" 80 2133 2168
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 80 2133 2147 "ssa_convenience.ml" 80 2133 2148
+)
+"ssa_convenience.ml" 80 2133 2151 "ssa_convenience.ml" 80 2133 2168
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 82 2170 2174 "ssa_convenience.ml" 82 2170 2178
+type(
+  Type.cast_type -> Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def cast "ssa_convenience.ml" 87 2316 2316 --
+)
+"ssa_convenience.ml" 82 2170 2179 "ssa_convenience.ml" 82 2170 2181
+type(
+  Type.cast_type
+)
+ident(
+  def ct "ssa_convenience.ml" 82 2170 2182 "ssa_convenience.ml" 85 2288 2314
+)
+"ssa_convenience.ml" 82 2170 2182 "ssa_convenience.ml" 82 2170 2186
+type(
+  Type.typ
+)
+ident(
+  def tnew "ssa_convenience.ml" 82 2170 2189 "ssa_convenience.ml" 85 2288 2314
+)
+"ssa_convenience.ml" 83 2198 2206 "ssa_convenience.ml" 83 2198 2207
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_convenience.ml" 83 2198 2214 "ssa_convenience.ml" 84 2261 2287
+)
+"ssa_convenience.ml" 83 2198 2208 "ssa_convenience.ml" 83 2198 2209
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 83 2198 2214 "ssa_convenience.ml" 84 2261 2287
+)
+"ssa_convenience.ml" 83 2198 2202 "ssa_convenience.ml" 83 2198 2210
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 83 2198 2219 "ssa_convenience.ml" 83 2198 2221
+type(
+  Z.t
+)
+"ssa_convenience.ml" 83 2198 2222 "ssa_convenience.ml" 83 2198 2224
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 83 2198 2218 "ssa_convenience.ml" 83 2198 2225
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 83 2198 2228 "ssa_convenience.ml" 83 2198 2243
+type(
+  Type.cast_type ->
+  Big_int_Z.big_int * Type.typ -> Type.typ -> Z.t * Type.typ
+)
+ident(
+  ext_ref Arithmetic.cast
+)
+"ssa_convenience.ml" 83 2198 2244 "ssa_convenience.ml" 83 2198 2246
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "ssa_convenience.ml" 82 2170 2179 "ssa_convenience.ml" 82 2170 2181
+)
+"ssa_convenience.ml" 83 2198 2248 "ssa_convenience.ml" 83 2198 2249
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 83 2198 2206 "ssa_convenience.ml" 83 2198 2207
+)
+"ssa_convenience.ml" 83 2198 2250 "ssa_convenience.ml" 83 2198 2251
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 83 2198 2208 "ssa_convenience.ml" 83 2198 2209
+)
+"ssa_convenience.ml" 83 2198 2247 "ssa_convenience.ml" 83 2198 2252
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_convenience.ml" 83 2198 2253 "ssa_convenience.ml" 83 2198 2257
+type(
+  Type.typ
+)
+ident(
+  int_ref tnew "ssa_convenience.ml" 82 2170 2182 "ssa_convenience.ml" 82 2170 2186
+)
+"ssa_convenience.ml" 83 2198 2228 "ssa_convenience.ml" 83 2198 2257
+call(
+  stack
+)
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 84 2261 2281 "ssa_convenience.ml" 84 2261 2283
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i' "ssa_convenience.ml" 83 2198 2219 "ssa_convenience.ml" 83 2198 2221
+)
+"ssa_convenience.ml" 84 2261 2284 "ssa_convenience.ml" 84 2261 2286
+type(
+  Type.typ
+)
+ident(
+  int_ref t' "ssa_convenience.ml" 83 2198 2222 "ssa_convenience.ml" 83 2198 2224
+)
+"ssa_convenience.ml" 84 2261 2277 "ssa_convenience.ml" 84 2261 2287
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 83 2198 2214 "ssa_convenience.ml" 84 2261 2287
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 85 2288 2292 "ssa_convenience.ml" 85 2288 2293
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 85 2288 2297 "ssa_convenience.ml" 85 2288 2314
+)
+"ssa_convenience.ml" 85 2288 2302 "ssa_convenience.ml" 85 2288 2304
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "ssa_convenience.ml" 82 2170 2179 "ssa_convenience.ml" 82 2170 2181
+)
+"ssa_convenience.ml" 85 2288 2306 "ssa_convenience.ml" 85 2288 2310
+type(
+  Type.typ
+)
+ident(
+  int_ref tnew "ssa_convenience.ml" 82 2170 2182 "ssa_convenience.ml" 82 2170 2186
+)
+"ssa_convenience.ml" 85 2288 2312 "ssa_convenience.ml" 85 2288 2313
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 85 2288 2292 "ssa_convenience.ml" 85 2288 2293
+)
+"ssa_convenience.ml" 85 2288 2297 "ssa_convenience.ml" 85 2288 2314
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 82 2170 2189 "ssa_convenience.ml" 85 2288 2314
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 87 2316 2320 "ssa_convenience.ml" 87 2316 2328
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def cast_low "ssa_convenience.ml" 88 2345 2345 --
+)
+"ssa_convenience.ml" 87 2316 2331 "ssa_convenience.ml" 87 2316 2335
+type(
+  Type.cast_type -> Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cast "ssa_convenience.ml" 82 2170 2174 "ssa_convenience.ml" 82 2170 2178
+)
+"ssa_convenience.ml" 87 2316 2336 "ssa_convenience.ml" 87 2316 2344
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 87 2316 2331 "ssa_convenience.ml" 87 2316 2344
+call(
+  stack
+)
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 88 2345 2349 "ssa_convenience.ml" 88 2345 2358
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def cast_high "ssa_convenience.ml" 89 2376 2376 --
+)
+"ssa_convenience.ml" 88 2345 2361 "ssa_convenience.ml" 88 2345 2365
+type(
+  Type.cast_type -> Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cast "ssa_convenience.ml" 82 2170 2174 "ssa_convenience.ml" 82 2170 2178
+)
+"ssa_convenience.ml" 88 2345 2366 "ssa_convenience.ml" 88 2345 2375
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 88 2345 2361 "ssa_convenience.ml" 88 2345 2375
+call(
+  stack
+)
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 89 2376 2380 "ssa_convenience.ml" 89 2376 2391
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def cast_signed "ssa_convenience.ml" 90 2411 2411 --
+)
+"ssa_convenience.ml" 89 2376 2394 "ssa_convenience.ml" 89 2376 2398
+type(
+  Type.cast_type -> Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cast "ssa_convenience.ml" 82 2170 2174 "ssa_convenience.ml" 82 2170 2178
+)
+"ssa_convenience.ml" 89 2376 2399 "ssa_convenience.ml" 89 2376 2410
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 89 2376 2394 "ssa_convenience.ml" 89 2376 2410
+call(
+  stack
+)
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 90 2411 2419 "ssa_convenience.ml" 90 2411 2432
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def cast_unsigned "ssa_convenience.ml" 90 2411 2411 --
+)
+"ssa_convenience.ml" 90 2411 2433 "ssa_convenience.ml" 90 2411 2437
+type(
+  Type.typ
+)
+ident(
+  def tnew "ssa_convenience.ml" 90 2411 2440 "ssa_convenience.ml" 97 2731 2763
+)
+"ssa_convenience.ml" 91 2449 2457 "ssa_convenience.ml" 91 2449 2458
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_convenience.ml" 91 2449 2465 "ssa_convenience.ml" 92 2523 2549
+)
+"ssa_convenience.ml" 91 2449 2459 "ssa_convenience.ml" 91 2449 2460
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 91 2449 2465 "ssa_convenience.ml" 92 2523 2549
+)
+"ssa_convenience.ml" 91 2449 2453 "ssa_convenience.ml" 91 2449 2461
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 91 2449 2470 "ssa_convenience.ml" 91 2449 2472
+type(
+  Z.t
+)
+"ssa_convenience.ml" 91 2449 2473 "ssa_convenience.ml" 91 2449 2475
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 91 2449 2469 "ssa_convenience.ml" 91 2449 2476
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 91 2449 2479 "ssa_convenience.ml" 91 2449 2494
+type(
+  Type.cast_type ->
+  Big_int_Z.big_int * Type.typ -> Type.typ -> Z.t * Type.typ
+)
+ident(
+  ext_ref Arithmetic.cast
+)
+"ssa_convenience.ml" 91 2449 2495 "ssa_convenience.ml" 91 2449 2508
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 91 2449 2510 "ssa_convenience.ml" 91 2449 2511
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 91 2449 2457 "ssa_convenience.ml" 91 2449 2458
+)
+"ssa_convenience.ml" 91 2449 2512 "ssa_convenience.ml" 91 2449 2513
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 91 2449 2459 "ssa_convenience.ml" 91 2449 2460
+)
+"ssa_convenience.ml" 91 2449 2509 "ssa_convenience.ml" 91 2449 2514
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_convenience.ml" 91 2449 2515 "ssa_convenience.ml" 91 2449 2519
+type(
+  Type.typ
+)
+ident(
+  int_ref tnew "ssa_convenience.ml" 90 2411 2433 "ssa_convenience.ml" 90 2411 2437
+)
+"ssa_convenience.ml" 91 2449 2479 "ssa_convenience.ml" 91 2449 2519
+call(
+  stack
+)
+type(
+  Z.t * Type.typ
+)
+"ssa_convenience.ml" 92 2523 2543 "ssa_convenience.ml" 92 2523 2545
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i' "ssa_convenience.ml" 91 2449 2470 "ssa_convenience.ml" 91 2449 2472
+)
+"ssa_convenience.ml" 92 2523 2546 "ssa_convenience.ml" 92 2523 2548
+type(
+  Type.typ
+)
+ident(
+  int_ref t' "ssa_convenience.ml" 91 2449 2473 "ssa_convenience.ml" 91 2449 2475
+)
+"ssa_convenience.ml" 92 2523 2539 "ssa_convenience.ml" 92 2523 2549
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 91 2449 2465 "ssa_convenience.ml" 92 2523 2549
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 93 2550 2559 "ssa_convenience.ml" 93 2550 2572
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 93 2550 2578 "ssa_convenience.ml" 93 2550 2580
+type(
+  int
+)
+ident(
+  def t' "ssa_convenience.ml" 93 2550 2585 "ssa_convenience.ml" 95 2697 2721
+)
+"ssa_convenience.ml" 93 2550 2574 "ssa_convenience.ml" 93 2550 2580
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 93 2550 2582 "ssa_convenience.ml" 93 2550 2583
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 93 2550 2585 "ssa_convenience.ml" 95 2697 2721
+)
+"ssa_convenience.ml" 93 2550 2554 "ssa_convenience.ml" 93 2550 2584
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 93 2550 2590 "ssa_convenience.ml" 93 2550 2614
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Arithmetic.bits_of_width
+)
+"ssa_convenience.ml" 93 2550 2615 "ssa_convenience.ml" 93 2550 2619
+type(
+  Type.typ
+)
+ident(
+  int_ref tnew "ssa_convenience.ml" 90 2411 2433 "ssa_convenience.ml" 90 2411 2437
+)
+"ssa_convenience.ml" 93 2550 2590 "ssa_convenience.ml" 93 2550 2619
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 93 2550 2620 "ssa_convenience.ml" 93 2550 2622
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ssa_convenience.ml" 93 2550 2623 "ssa_convenience.ml" 93 2550 2625
+type(
+  int
+)
+ident(
+  int_ref t' "ssa_convenience.ml" 93 2550 2578 "ssa_convenience.ml" 93 2550 2580
+)
+"ssa_convenience.ml" 93 2550 2590 "ssa_convenience.ml" 93 2550 2625
+type(
+  bool
+)
+"ssa_convenience.ml" 95 2697 2701 "ssa_convenience.ml" 95 2697 2714
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cast_unsigned "ssa_convenience.ml" 90 2411 2419 "ssa_convenience.ml" 90 2411 2432
+)
+"ssa_convenience.ml" 95 2697 2715 "ssa_convenience.ml" 95 2697 2719
+type(
+  Type.typ
+)
+ident(
+  int_ref tnew "ssa_convenience.ml" 90 2411 2433 "ssa_convenience.ml" 90 2411 2437
+)
+"ssa_convenience.ml" 95 2697 2720 "ssa_convenience.ml" 95 2697 2721
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 93 2550 2582 "ssa_convenience.ml" 93 2550 2583
+)
+"ssa_convenience.ml" 95 2697 2701 "ssa_convenience.ml" 95 2697 2721
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 93 2550 2585 "ssa_convenience.ml" 95 2697 2721
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 96 2722 2726 "ssa_convenience.ml" 96 2722 2727
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 97 2731 2735 "ssa_convenience.ml" 97 2731 2763
+)
+"ssa_convenience.ml" 97 2731 2740 "ssa_convenience.ml" 97 2731 2753
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 97 2731 2755 "ssa_convenience.ml" 97 2731 2759
+type(
+  Type.typ
+)
+ident(
+  int_ref tnew "ssa_convenience.ml" 90 2411 2433 "ssa_convenience.ml" 90 2411 2437
+)
+"ssa_convenience.ml" 97 2731 2761 "ssa_convenience.ml" 97 2731 2762
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 96 2722 2726 "ssa_convenience.ml" 96 2722 2727
+)
+"ssa_convenience.ml" 97 2731 2735 "ssa_convenience.ml" 97 2731 2763
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 90 2411 2440 "ssa_convenience.ml" 97 2731 2763
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 99 2765 2769 "ssa_convenience.ml" 99 2765 2776
+type(
+  Big_int_Z.big_int -> int -> Ssa.exp
+)
+ident(
+  def exp_int "ssa_convenience.ml" 100 2803 2803 --
+)
+"ssa_convenience.ml" 99 2765 2777 "ssa_convenience.ml" 99 2765 2778
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_convenience.ml" 99 2765 2779 "ssa_convenience.ml" 99 2765 2802
+)
+"ssa_convenience.ml" 99 2765 2779 "ssa_convenience.ml" 99 2765 2783
+type(
+  int
+)
+ident(
+  def bits "ssa_convenience.ml" 99 2765 2786 "ssa_convenience.ml" 99 2765 2802
+)
+"ssa_convenience.ml" 99 2765 2790 "ssa_convenience.ml" 99 2765 2791
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 99 2765 2777 "ssa_convenience.ml" 99 2765 2778
+)
+"ssa_convenience.ml" 99 2765 2797 "ssa_convenience.ml" 99 2765 2801
+type(
+  int
+)
+ident(
+  int_ref bits "ssa_convenience.ml" 99 2765 2779 "ssa_convenience.ml" 99 2765 2783
+)
+"ssa_convenience.ml" 99 2765 2793 "ssa_convenience.ml" 99 2765 2801
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 99 2765 2786 "ssa_convenience.ml" 99 2765 2802
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 100 2803 2807 "ssa_convenience.ml" 100 2803 2809
+type(
+  int -> Type.typ -> Ssa.exp
+)
+ident(
+  def it "ssa_convenience.ml" 102 2835 2835 --
+)
+"ssa_convenience.ml" 100 2803 2810 "ssa_convenience.ml" 100 2803 2811
+type(
+  int
+)
+ident(
+  def i "ssa_convenience.ml" 100 2803 2812 "ssa_convenience.ml" 100 2803 2833
+)
+"ssa_convenience.ml" 100 2803 2812 "ssa_convenience.ml" 100 2803 2813
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 100 2803 2816 "ssa_convenience.ml" 100 2803 2833
+)
+"ssa_convenience.ml" 100 2803 2820 "ssa_convenience.ml" 100 2803 2827
+type(
+  int -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.biconst
+)
+"ssa_convenience.ml" 100 2803 2828 "ssa_convenience.ml" 100 2803 2829
+type(
+  int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 100 2803 2810 "ssa_convenience.ml" 100 2803 2811
+)
+"ssa_convenience.ml" 100 2803 2820 "ssa_convenience.ml" 100 2803 2829
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"ssa_convenience.ml" 100 2803 2831 "ssa_convenience.ml" 100 2803 2832
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 100 2803 2812 "ssa_convenience.ml" 100 2803 2813
+)
+"ssa_convenience.ml" 100 2803 2816 "ssa_convenience.ml" 100 2803 2833
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 102 2835 2839 "ssa_convenience.ml" 102 2835 2846
+type(
+  ?t:Type.typ -> Ssa.exp -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def exp_ite "ssa_convenience.ml" 118 3245 3245 --
+)
+"ssa_convenience.ml" 102 2835 2848 "ssa_convenience.ml" 102 2835 2849
+type(
+  Type.typ option
+)
+ident(
+  def t "ssa_convenience.ml" 102 2835 2850 "ssa_convenience.ml" 116 3222 3243
+)
+"ssa_convenience.ml" 102 2835 2850 "ssa_convenience.ml" 102 2835 2851
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 102 2835 2852 "ssa_convenience.ml" 116 3222 3243
+)
+"ssa_convenience.ml" 102 2835 2852 "ssa_convenience.ml" 102 2835 2854
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 102 2835 2855 "ssa_convenience.ml" 116 3222 3243
+)
+"ssa_convenience.ml" 102 2835 2855 "ssa_convenience.ml" 102 2835 2857
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 104 2943 2945 "ssa_convenience.ml" 116 3222 3243
+)
+"ssa_convenience.ml" 104 2943 2949 "ssa_convenience.ml" 104 2943 2951
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 104 2943 2954 "ssa_convenience.ml" 104 2943 2973
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 104 2943 2974 "ssa_convenience.ml" 104 2943 2975
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 102 2835 2850 "ssa_convenience.ml" 102 2835 2851
+)
+"ssa_convenience.ml" 104 2943 2954 "ssa_convenience.ml" 104 2943 2975
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 105 2979 2985 "ssa_convenience.ml" 105 2979 2987
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 105 2979 2990 "ssa_convenience.ml" 105 2979 3009
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 105 2979 3010 "ssa_convenience.ml" 105 2979 3012
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 102 2835 2852 "ssa_convenience.ml" 102 2835 2854
+)
+"ssa_convenience.ml" 105 2979 2990 "ssa_convenience.ml" 105 2979 3012
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 106 3016 3022 "ssa_convenience.ml" 106 3016 3024
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 106 3016 3027 "ssa_convenience.ml" 106 3016 3046
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 106 3016 3047 "ssa_convenience.ml" 106 3016 3049
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 102 2835 2855 "ssa_convenience.ml" 102 2835 2857
+)
+"ssa_convenience.ml" 106 3016 3027 "ssa_convenience.ml" 106 3016 3049
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 107 3053 3063 "ssa_convenience.ml" 107 3053 3065
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ssa_convenience.ml" 105 2979 2985 "ssa_convenience.ml" 105 2979 2987
+)
+"ssa_convenience.ml" 107 3053 3066 "ssa_convenience.ml" 107 3053 3067
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 107 3053 3068 "ssa_convenience.ml" 107 3053 3070
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ssa_convenience.ml" 106 3016 3022 "ssa_convenience.ml" 106 3016 3024
+)
+"ssa_convenience.ml" 107 3053 3062 "ssa_convenience.ml" 107 3053 3071
+type(
+  bool
+)
+"ssa_convenience.ml" 107 3053 3055 "ssa_convenience.ml" 107 3053 3071
+type(
+  unit
+)
+"ssa_convenience.ml" 108 3073 3083 "ssa_convenience.ml" 108 3073 3085
+type(
+  Type.typ
+)
+ident(
+  int_ref tb "ssa_convenience.ml" 104 2943 2949 "ssa_convenience.ml" 104 2943 2951
+)
+"ssa_convenience.ml" 108 3073 3086 "ssa_convenience.ml" 108 3073 3087
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 108 3073 3091 "ssa_convenience.ml" 108 3073 3094
+type(
+  int
+)
+"ssa_convenience.ml" 108 3073 3088 "ssa_convenience.ml" 108 3073 3094
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 108 3073 3082 "ssa_convenience.ml" 108 3073 3095
+type(
+  bool
+)
+"ssa_convenience.ml" 108 3073 3075 "ssa_convenience.ml" 108 3073 3095
+type(
+  unit
+)
+"ssa_convenience.ml" 110 3098 3107 "ssa_convenience.ml" 110 3098 3108
+type(
+  Type.typ option
+)
+ident(
+  int_ref t "ssa_convenience.ml" 102 2835 2848 "ssa_convenience.ml" 102 2835 2849
+)
+"ssa_convenience.ml" 111 3114 3120 "ssa_convenience.ml" 111 3114 3124
+type(
+  Type.typ option
+)
+"ssa_convenience.ml" 111 3114 3128 "ssa_convenience.ml" 111 3114 3130
+type(
+  unit
+)
+"ssa_convenience.ml" 112 3131 3142 "ssa_convenience.ml" 112 3131 3143
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 112 3131 3147 "ssa_convenience.ml" 112 3131 3160
+)
+"ssa_convenience.ml" 112 3131 3137 "ssa_convenience.ml" 112 3131 3143
+type(
+  Type.typ option
+)
+"ssa_convenience.ml" 112 3131 3155 "ssa_convenience.ml" 112 3131 3156
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 112 3131 3142 "ssa_convenience.ml" 112 3131 3143
+)
+"ssa_convenience.ml" 112 3131 3156 "ssa_convenience.ml" 112 3131 3157
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 112 3131 3157 "ssa_convenience.ml" 112 3131 3159
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ssa_convenience.ml" 105 2979 2985 "ssa_convenience.ml" 105 2979 2987
+)
+"ssa_convenience.ml" 112 3131 3154 "ssa_convenience.ml" 112 3131 3160
+type(
+  bool
+)
+"ssa_convenience.ml" 112 3131 3147 "ssa_convenience.ml" 112 3131 3160
+type(
+  unit
+)
+"ssa_convenience.ml" 110 3098 3100 "ssa_convenience.ml" 112 3131 3161
+type(
+  unit
+)
+"ssa_convenience.ml" 114 3164 3169 "ssa_convenience.ml" 114 3164 3170
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 102 2835 2850 "ssa_convenience.ml" 102 2835 2851
+)
+"ssa_convenience.ml" 114 3164 3171 "ssa_convenience.ml" 114 3164 3172
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 114 3164 3173 "ssa_convenience.ml" 114 3164 3181
+type(
+  Ssa.exp
+)
+ident(
+  ext_ref Ssa.exp_true
+)
+"ssa_convenience.ml" 114 3164 3169 "ssa_convenience.ml" 114 3164 3181
+type(
+  bool
+)
+"ssa_convenience.ml" 114 3164 3187 "ssa_convenience.ml" 114 3164 3189
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 102 2835 2852 "ssa_convenience.ml" 102 2835 2854
+)
+"ssa_convenience.ml" 115 3190 3200 "ssa_convenience.ml" 115 3190 3201
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 102 2835 2850 "ssa_convenience.ml" 102 2835 2851
+)
+"ssa_convenience.ml" 115 3190 3202 "ssa_convenience.ml" 115 3190 3203
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 115 3190 3204 "ssa_convenience.ml" 115 3190 3213
+type(
+  Ssa.exp
+)
+ident(
+  ext_ref Ssa.exp_false
+)
+"ssa_convenience.ml" 115 3190 3200 "ssa_convenience.ml" 115 3190 3213
+type(
+  bool
+)
+"ssa_convenience.ml" 115 3190 3219 "ssa_convenience.ml" 115 3190 3221
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 102 2835 2855 "ssa_convenience.ml" 102 2835 2857
+)
+"ssa_convenience.ml" 116 3222 3233 "ssa_convenience.ml" 116 3222 3234
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 102 2835 2850 "ssa_convenience.ml" 102 2835 2851
+)
+"ssa_convenience.ml" 116 3222 3236 "ssa_convenience.ml" 116 3222 3238
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 102 2835 2852 "ssa_convenience.ml" 102 2835 2854
+)
+"ssa_convenience.ml" 116 3222 3240 "ssa_convenience.ml" 116 3222 3242
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 102 2835 2855 "ssa_convenience.ml" 102 2835 2857
+)
+"ssa_convenience.ml" 116 3222 3229 "ssa_convenience.ml" 116 3222 3243
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 115 3190 3197 "ssa_convenience.ml" 116 3222 3243
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 114 3164 3166 "ssa_convenience.ml" 116 3222 3243
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 110 3098 3100 "ssa_convenience.ml" 116 3222 3243
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 108 3073 3075 "ssa_convenience.ml" 116 3222 3243
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 107 3053 3055 "ssa_convenience.ml" 116 3222 3243
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 106 3016 3018 "ssa_convenience.ml" 116 3222 3243
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 105 2979 2981 "ssa_convenience.ml" 116 3222 3243
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 104 2943 2945 "ssa_convenience.ml" 116 3222 3243
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 118 3245 3249 "ssa_convenience.ml" 118 3245 3258
+type(
+  Ssa.exp -> (Ssa.exp * Ssa.exp * Ssa.exp) option
+)
+ident(
+  def parse_ite "ssa_convenience.ml" 135 3740 3740 --
+)
+"ssa_convenience.ml" 119 3270 3280 "ssa_convenience.ml" 119 3270 3282
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 120 3284 3293 "ssa_convenience.ml" 120 3284 3296
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 120 3284 3303 "ssa_convenience.ml" 120 3284 3314
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 120 3284 3316 "ssa_convenience.ml" 120 3284 3317
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 120 3284 3319 "ssa_convenience.ml" 120 3284 3321
+type(
+  Ssa.exp
+)
+ident(
+  def b1 "ssa_convenience.ml" 126 3458 3462 "ssa_convenience.ml" 127 3523 3543
+)
+"ssa_convenience.ml" 120 3284 3298 "ssa_convenience.ml" 120 3284 3322
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 120 3284 3324 "ssa_convenience.ml" 120 3284 3326
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 126 3458 3462 "ssa_convenience.ml" 127 3523 3543
+)
+"ssa_convenience.ml" 120 3284 3287 "ssa_convenience.ml" 120 3284 3327
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 121 3329 3338 "ssa_convenience.ml" 121 3329 3341
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 121 3329 3348 "ssa_convenience.ml" 121 3329 3359
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 121 3329 3361 "ssa_convenience.ml" 121 3329 3362
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 121 3329 3369 "ssa_convenience.ml" 121 3329 3372
+type(
+  Type.unop_type
+)
+"ssa_convenience.ml" 121 3329 3374 "ssa_convenience.ml" 121 3329 3376
+type(
+  Ssa.exp
+)
+ident(
+  def b2 "ssa_convenience.ml" 126 3458 3462 "ssa_convenience.ml" 127 3523 3543
+)
+"ssa_convenience.ml" 121 3329 3364 "ssa_convenience.ml" 121 3329 3377
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 121 3329 3343 "ssa_convenience.ml" 121 3329 3378
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 121 3329 3380 "ssa_convenience.ml" 121 3329 3382
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 126 3458 3462 "ssa_convenience.ml" 127 3523 3543
+)
+"ssa_convenience.ml" 121 3329 3332 "ssa_convenience.ml" 121 3329 3383
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 119 3270 3274 "ssa_convenience.ml" 122 3384 3387
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 123 3388 3398 "ssa_convenience.ml" 123 3388 3400
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 124 3402 3411 "ssa_convenience.ml" 124 3402 3414
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 124 3402 3416 "ssa_convenience.ml" 124 3402 3418
+type(
+  Ssa.exp
+)
+ident(
+  def b1 "ssa_convenience.ml" 126 3458 3462 "ssa_convenience.ml" 127 3523 3543
+)
+"ssa_convenience.ml" 124 3402 3420 "ssa_convenience.ml" 124 3402 3422
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 126 3458 3462 "ssa_convenience.ml" 127 3523 3543
+)
+"ssa_convenience.ml" 124 3402 3405 "ssa_convenience.ml" 124 3402 3423
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 125 3425 3434 "ssa_convenience.ml" 125 3425 3437
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 125 3425 3444 "ssa_convenience.ml" 125 3425 3447
+type(
+  Type.unop_type
+)
+"ssa_convenience.ml" 125 3425 3449 "ssa_convenience.ml" 125 3425 3451
+type(
+  Ssa.exp
+)
+ident(
+  def b2 "ssa_convenience.ml" 126 3458 3462 "ssa_convenience.ml" 127 3523 3543
+)
+"ssa_convenience.ml" 125 3425 3439 "ssa_convenience.ml" 125 3425 3452
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 125 3425 3454 "ssa_convenience.ml" 125 3425 3456
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 126 3458 3462 "ssa_convenience.ml" 127 3523 3543
+)
+"ssa_convenience.ml" 125 3425 3428 "ssa_convenience.ml" 125 3425 3457
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 123 3388 3392 "ssa_convenience.ml" 126 3458 3461
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 119 3270 3274 "ssa_convenience.ml" 126 3458 3461
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 126 3458 3467 "ssa_convenience.ml" 126 3458 3478
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Ssa.full_exp_eq
+)
+"ssa_convenience.ml" 126 3458 3479 "ssa_convenience.ml" 126 3458 3481
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b1 "ssa_convenience.ml" 120 3284 3319 "ssa_convenience.ml" 120 3284 3321
+)
+"ssa_convenience.ml" 126 3458 3482 "ssa_convenience.ml" 126 3458 3484
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b2 "ssa_convenience.ml" 121 3329 3374 "ssa_convenience.ml" 121 3329 3376
+)
+"ssa_convenience.ml" 126 3458 3467 "ssa_convenience.ml" 126 3458 3484
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_convenience.ml" 126 3458 3485 "ssa_convenience.ml" 126 3458 3487
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_convenience.ml" 126 3458 3488 "ssa_convenience.ml" 126 3458 3507
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 126 3458 3508 "ssa_convenience.ml" 126 3458 3510
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b1 "ssa_convenience.ml" 120 3284 3319 "ssa_convenience.ml" 120 3284 3321
+)
+"ssa_convenience.ml" 126 3458 3488 "ssa_convenience.ml" 126 3458 3510
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 126 3458 3511 "ssa_convenience.ml" 126 3458 3512
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 126 3458 3516 "ssa_convenience.ml" 126 3458 3519
+type(
+  int
+)
+"ssa_convenience.ml" 126 3458 3513 "ssa_convenience.ml" 126 3458 3519
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 126 3458 3488 "ssa_convenience.ml" 126 3458 3519
+type(
+  bool
+)
+"ssa_convenience.ml" 126 3458 3467 "ssa_convenience.ml" 126 3458 3519
+type(
+  bool
+)
+"ssa_convenience.ml" 127 3523 3532 "ssa_convenience.ml" 127 3523 3534
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b1 "ssa_convenience.ml" 120 3284 3319 "ssa_convenience.ml" 120 3284 3321
+)
+"ssa_convenience.ml" 127 3523 3536 "ssa_convenience.ml" 127 3523 3538
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 120 3284 3324 "ssa_convenience.ml" 120 3284 3326
+)
+"ssa_convenience.ml" 127 3523 3540 "ssa_convenience.ml" 127 3523 3542
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 121 3329 3380 "ssa_convenience.ml" 121 3329 3382
+)
+"ssa_convenience.ml" 127 3523 3531 "ssa_convenience.ml" 127 3523 3543
+type(
+  Ssa.exp * Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 127 3523 3527 "ssa_convenience.ml" 127 3523 3543
+type(
+  (Ssa.exp * Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 126 3458 3462 "ssa_convenience.ml" 127 3523 3543
+type(
+  (Ssa.exp * Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 129 3593 3603 "ssa_convenience.ml" 129 3593 3606
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 130 3608 3616 "ssa_convenience.ml" 130 3608 3627
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 130 3608 3629 "ssa_convenience.ml" 130 3608 3631
+type(
+  Type.typ
+)
+ident(
+  def nt "ssa_convenience.ml" 131 3638 3645 "ssa_convenience.ml" 132 3685 3724
+)
+"ssa_convenience.ml" 130 3608 3633 "ssa_convenience.ml" 130 3608 3635
+type(
+  Ssa.exp
+)
+ident(
+  def b1 "ssa_convenience.ml" 131 3638 3645 "ssa_convenience.ml" 132 3685 3724
+)
+"ssa_convenience.ml" 130 3608 3611 "ssa_convenience.ml" 130 3608 3636
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 131 3638 3641 "ssa_convenience.ml" 131 3638 3643
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 131 3638 3645 "ssa_convenience.ml" 132 3685 3724
+)
+"ssa_convenience.ml" 129 3593 3597 "ssa_convenience.ml" 131 3638 3644
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 131 3638 3650 "ssa_convenience.ml" 131 3638 3669
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 131 3638 3670 "ssa_convenience.ml" 131 3638 3672
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b1 "ssa_convenience.ml" 130 3608 3633 "ssa_convenience.ml" 130 3608 3635
+)
+"ssa_convenience.ml" 131 3638 3650 "ssa_convenience.ml" 131 3638 3672
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 131 3638 3673 "ssa_convenience.ml" 131 3638 3674
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 131 3638 3678 "ssa_convenience.ml" 131 3638 3681
+type(
+  int
+)
+"ssa_convenience.ml" 131 3638 3675 "ssa_convenience.ml" 131 3638 3681
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 131 3638 3650 "ssa_convenience.ml" 131 3638 3681
+type(
+  bool
+)
+"ssa_convenience.ml" 132 3685 3694 "ssa_convenience.ml" 132 3685 3696
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b1 "ssa_convenience.ml" 130 3608 3633 "ssa_convenience.ml" 130 3608 3635
+)
+"ssa_convenience.ml" 132 3685 3698 "ssa_convenience.ml" 132 3685 3700
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 131 3638 3641 "ssa_convenience.ml" 131 3638 3643
+)
+"ssa_convenience.ml" 132 3685 3706 "ssa_convenience.ml" 132 3685 3718
+type(
+  Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_Z.zero_big_int
+)
+"ssa_convenience.ml" 132 3685 3720 "ssa_convenience.ml" 132 3685 3722
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "ssa_convenience.ml" 130 3608 3629 "ssa_convenience.ml" 130 3608 3631
+)
+"ssa_convenience.ml" 132 3685 3702 "ssa_convenience.ml" 132 3685 3723
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 132 3685 3693 "ssa_convenience.ml" 132 3685 3724
+type(
+  Ssa.exp * Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 132 3685 3689 "ssa_convenience.ml" 132 3685 3724
+type(
+  (Ssa.exp * Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 131 3638 3645 "ssa_convenience.ml" 132 3685 3724
+type(
+  (Ssa.exp * Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 133 3725 3729 "ssa_convenience.ml" 133 3725 3730
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 133 3725 3734 "ssa_convenience.ml" 133 3725 3738
+type(
+  (Ssa.exp * Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 118 3245 3261 "ssa_convenience.ml" 133 3725 3738
+type(
+  Ssa.exp -> (Ssa.exp * Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 135 3740 3744 "ssa_convenience.ml" 135 3740 3757
+type(
+  Ssa.exp -> (Ssa.exp * Ssa.exp) option
+)
+ident(
+  def parse_implies "ssa_convenience.ml" 147 4062 4062 --
+)
+"ssa_convenience.ml" 136 3769 3779 "ssa_convenience.ml" 136 3769 3781
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 137 3783 3798 "ssa_convenience.ml" 137 3783 3801
+type(
+  Type.unop_type
+)
+"ssa_convenience.ml" 137 3783 3803 "ssa_convenience.ml" 137 3783 3805
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 138 3808 3825 "ssa_convenience.ml" 138 3808 3837
+)
+"ssa_convenience.ml" 137 3783 3793 "ssa_convenience.ml" 137 3783 3806
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 138 3808 3818 "ssa_convenience.ml" 138 3808 3820
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 138 3808 3825 "ssa_convenience.ml" 138 3808 3837
+)
+"ssa_convenience.ml" 136 3769 3773 "ssa_convenience.ml" 138 3808 3821
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 138 3808 3830 "ssa_convenience.ml" 138 3808 3832
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 137 3783 3803 "ssa_convenience.ml" 137 3783 3805
+)
+"ssa_convenience.ml" 138 3808 3834 "ssa_convenience.ml" 138 3808 3836
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 138 3808 3818 "ssa_convenience.ml" 138 3808 3820
+)
+"ssa_convenience.ml" 138 3808 3829 "ssa_convenience.ml" 138 3808 3837
+type(
+  Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 138 3808 3825 "ssa_convenience.ml" 138 3808 3837
+type(
+  (Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 139 3838 3842 "ssa_convenience.ml" 139 3838 3843
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 139 3838 3847 "ssa_convenience.ml" 139 3838 3851
+type(
+  (Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 135 3740 3760 "ssa_convenience.ml" 139 3838 3851
+type(
+  Ssa.exp -> (Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 147 4062 4070 "ssa_convenience.ml" 147 4062 4083
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def rm_duplicates "ssa_convenience.ml" 147 4062 4062 --
+)
+"ssa_convenience.ml" 147 4062 4084 "ssa_convenience.ml" 147 4062 4085
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 148 4088 4090 "ssa_convenience.ml" 165 4663 4669
+)
+"ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 148 4088 4098 "ssa_convenience.ml" 148 4088 4111
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref rm_duplicates "ssa_convenience.ml" 147 4062 4070 "ssa_convenience.ml" 147 4062 4083
+)
+"ssa_convenience.ml" 149 4115 4121 "ssa_convenience.ml" 149 4115 4125
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 149 4115 4134 "ssa_convenience.ml" 149 4115 4135
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 147 4062 4084 "ssa_convenience.ml" 147 4062 4085
+)
+"ssa_convenience.ml" 150 4141 4150 "ssa_convenience.ml" 150 4141 4152
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 150 4141 4168 "ssa_convenience.ml" 150 4141 4193
+)
+"ssa_convenience.ml" 150 4141 4154 "ssa_convenience.ml" 150 4141 4156
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 150 4141 4168 "ssa_convenience.ml" 150 4141 4193
+)
+"ssa_convenience.ml" 150 4141 4158 "ssa_convenience.ml" 150 4141 4160
+type(
+  Ssa.exp
+)
+ident(
+  def e3 "ssa_convenience.ml" 150 4141 4168 "ssa_convenience.ml" 150 4141 4193
+)
+"ssa_convenience.ml" 150 4141 4162 "ssa_convenience.ml" 150 4141 4163
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 150 4141 4168 "ssa_convenience.ml" 150 4141 4193
+)
+"ssa_convenience.ml" 150 4141 4145 "ssa_convenience.ml" 150 4141 4164
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 150 4141 4173 "ssa_convenience.ml" 150 4141 4174
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 150 4141 4175 "ssa_convenience.ml" 150 4141 4177
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 150 4141 4150 "ssa_convenience.ml" 150 4141 4152
+)
+"ssa_convenience.ml" 150 4141 4173 "ssa_convenience.ml" 150 4141 4177
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 150 4141 4179 "ssa_convenience.ml" 150 4141 4180
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 150 4141 4181 "ssa_convenience.ml" 150 4141 4183
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 150 4141 4154 "ssa_convenience.ml" 150 4141 4156
+)
+"ssa_convenience.ml" 150 4141 4179 "ssa_convenience.ml" 150 4141 4183
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 150 4141 4185 "ssa_convenience.ml" 150 4141 4186
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 150 4141 4187 "ssa_convenience.ml" 150 4141 4189
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e3 "ssa_convenience.ml" 150 4141 4158 "ssa_convenience.ml" 150 4141 4160
+)
+"ssa_convenience.ml" 150 4141 4185 "ssa_convenience.ml" 150 4141 4189
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 150 4141 4191 "ssa_convenience.ml" 150 4141 4192
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 150 4141 4162 "ssa_convenience.ml" 150 4141 4163
+)
+"ssa_convenience.ml" 150 4141 4168 "ssa_convenience.ml" 150 4141 4193
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 151 4194 4204 "ssa_convenience.ml" 151 4194 4206
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 151 4194 4226 "ssa_convenience.ml" 151 4194 4258
+)
+"ssa_convenience.ml" 151 4194 4208 "ssa_convenience.ml" 151 4194 4210
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 151 4194 4226 "ssa_convenience.ml" 151 4194 4258
+)
+"ssa_convenience.ml" 151 4194 4212 "ssa_convenience.ml" 151 4194 4214
+type(
+  Ssa.exp
+)
+ident(
+  def e3 "ssa_convenience.ml" 151 4194 4226 "ssa_convenience.ml" 151 4194 4258
+)
+"ssa_convenience.ml" 151 4194 4216 "ssa_convenience.ml" 151 4194 4218
+type(
+  Ssa.exp
+)
+ident(
+  def e4 "ssa_convenience.ml" 151 4194 4226 "ssa_convenience.ml" 151 4194 4258
+)
+"ssa_convenience.ml" 151 4194 4220 "ssa_convenience.ml" 151 4194 4221
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 151 4194 4226 "ssa_convenience.ml" 151 4194 4258
+)
+"ssa_convenience.ml" 151 4194 4198 "ssa_convenience.ml" 151 4194 4222
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 151 4194 4232 "ssa_convenience.ml" 151 4194 4233
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 151 4194 4234 "ssa_convenience.ml" 151 4194 4236
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 151 4194 4204 "ssa_convenience.ml" 151 4194 4206
+)
+"ssa_convenience.ml" 151 4194 4232 "ssa_convenience.ml" 151 4194 4236
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 151 4194 4238 "ssa_convenience.ml" 151 4194 4239
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 151 4194 4240 "ssa_convenience.ml" 151 4194 4242
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 151 4194 4208 "ssa_convenience.ml" 151 4194 4210
+)
+"ssa_convenience.ml" 151 4194 4238 "ssa_convenience.ml" 151 4194 4242
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 151 4194 4244 "ssa_convenience.ml" 151 4194 4245
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 151 4194 4246 "ssa_convenience.ml" 151 4194 4248
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e3 "ssa_convenience.ml" 151 4194 4212 "ssa_convenience.ml" 151 4194 4214
+)
+"ssa_convenience.ml" 151 4194 4244 "ssa_convenience.ml" 151 4194 4248
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 151 4194 4250 "ssa_convenience.ml" 151 4194 4251
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 151 4194 4252 "ssa_convenience.ml" 151 4194 4254
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e4 "ssa_convenience.ml" 151 4194 4216 "ssa_convenience.ml" 151 4194 4218
+)
+"ssa_convenience.ml" 151 4194 4250 "ssa_convenience.ml" 151 4194 4254
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 151 4194 4256 "ssa_convenience.ml" 151 4194 4257
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 151 4194 4220 "ssa_convenience.ml" 151 4194 4221
+)
+"ssa_convenience.ml" 151 4194 4226 "ssa_convenience.ml" 151 4194 4258
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 152 4259 4269 "ssa_convenience.ml" 152 4259 4271
+type(
+  Type.binop_type
+)
+ident(
+  def bt "ssa_convenience.ml" 152 4259 4284 "ssa_convenience.ml" 152 4259 4305
+)
+"ssa_convenience.ml" 152 4259 4273 "ssa_convenience.ml" 152 4259 4275
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 152 4259 4284 "ssa_convenience.ml" 152 4259 4305
+)
+"ssa_convenience.ml" 152 4259 4277 "ssa_convenience.ml" 152 4259 4279
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 152 4259 4284 "ssa_convenience.ml" 152 4259 4305
+)
+"ssa_convenience.ml" 152 4259 4263 "ssa_convenience.ml" 152 4259 4280
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 152 4259 4290 "ssa_convenience.ml" 152 4259 4292
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bt "ssa_convenience.ml" 152 4259 4269 "ssa_convenience.ml" 152 4259 4271
+)
+"ssa_convenience.ml" 152 4259 4294 "ssa_convenience.ml" 152 4259 4295
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 152 4259 4296 "ssa_convenience.ml" 152 4259 4298
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 152 4259 4273 "ssa_convenience.ml" 152 4259 4275
+)
+"ssa_convenience.ml" 152 4259 4294 "ssa_convenience.ml" 152 4259 4298
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 152 4259 4300 "ssa_convenience.ml" 152 4259 4301
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 152 4259 4302 "ssa_convenience.ml" 152 4259 4304
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 152 4259 4277 "ssa_convenience.ml" 152 4259 4279
+)
+"ssa_convenience.ml" 152 4259 4300 "ssa_convenience.ml" 152 4259 4304
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 152 4259 4284 "ssa_convenience.ml" 152 4259 4305
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 153 4306 4315 "ssa_convenience.ml" 153 4306 4317
+type(
+  Type.unop_type
+)
+ident(
+  def ut "ssa_convenience.ml" 153 4306 4325 "ssa_convenience.ml" 153 4306 4338
+)
+"ssa_convenience.ml" 153 4306 4319 "ssa_convenience.ml" 153 4306 4320
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 153 4306 4325 "ssa_convenience.ml" 153 4306 4338
+)
+"ssa_convenience.ml" 153 4306 4310 "ssa_convenience.ml" 153 4306 4321
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 153 4306 4330 "ssa_convenience.ml" 153 4306 4332
+type(
+  Type.unop_type
+)
+ident(
+  int_ref ut "ssa_convenience.ml" 153 4306 4315 "ssa_convenience.ml" 153 4306 4317
+)
+"ssa_convenience.ml" 153 4306 4334 "ssa_convenience.ml" 153 4306 4335
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 153 4306 4336 "ssa_convenience.ml" 153 4306 4337
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 153 4306 4319 "ssa_convenience.ml" 153 4306 4320
+)
+"ssa_convenience.ml" 153 4306 4334 "ssa_convenience.ml" 153 4306 4337
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 153 4306 4325 "ssa_convenience.ml" 153 4306 4338
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 154 4339 4346 "ssa_convenience.ml" 154 4339 4349
+type(
+  Ssa.var
+)
+ident(
+  def v "ssa_convenience.ml" 154 4339 4353 "ssa_convenience.ml" 154 4339 4359
+)
+"ssa_convenience.ml" 154 4339 4343 "ssa_convenience.ml" 154 4339 4349
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 154 4339 4356 "ssa_convenience.ml" 154 4339 4359
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "ssa_convenience.ml" 154 4339 4346 "ssa_convenience.ml" 154 4339 4349
+)
+"ssa_convenience.ml" 154 4339 4353 "ssa_convenience.ml" 154 4339 4359
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 155 4360 4367 "ssa_convenience.ml" 155 4360 4370
+type(
+  string
+)
+ident(
+  def s "ssa_convenience.ml" 155 4360 4374 "ssa_convenience.ml" 155 4360 4380
+)
+"ssa_convenience.ml" 155 4360 4364 "ssa_convenience.ml" 155 4360 4370
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 155 4360 4377 "ssa_convenience.ml" 155 4360 4380
+type(
+  string
+)
+ident(
+  int_ref s "ssa_convenience.ml" 155 4360 4367 "ssa_convenience.ml" 155 4360 4370
+)
+"ssa_convenience.ml" 155 4360 4374 "ssa_convenience.ml" 155 4360 4380
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 156 4381 4389 "ssa_convenience.ml" 156 4381 4390
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_convenience.ml" 156 4381 4398 "ssa_convenience.ml" 156 4381 4407
+)
+"ssa_convenience.ml" 156 4381 4392 "ssa_convenience.ml" 156 4381 4393
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 156 4381 4398 "ssa_convenience.ml" 156 4381 4407
+)
+"ssa_convenience.ml" 156 4381 4385 "ssa_convenience.ml" 156 4381 4394
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 156 4381 4402 "ssa_convenience.ml" 156 4381 4403
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 156 4381 4389 "ssa_convenience.ml" 156 4381 4390
+)
+"ssa_convenience.ml" 156 4381 4405 "ssa_convenience.ml" 156 4381 4406
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 156 4381 4392 "ssa_convenience.ml" 156 4381 4393
+)
+"ssa_convenience.ml" 156 4381 4398 "ssa_convenience.ml" 156 4381 4407
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 157 4408 4417 "ssa_convenience.ml" 157 4408 4419
+type(
+  Type.cast_type
+)
+ident(
+  def ct "ssa_convenience.ml" 157 4408 4430 "ssa_convenience.ml" 157 4408 4446
+)
+"ssa_convenience.ml" 157 4408 4421 "ssa_convenience.ml" 157 4408 4422
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 157 4408 4430 "ssa_convenience.ml" 157 4408 4446
+)
+"ssa_convenience.ml" 157 4408 4424 "ssa_convenience.ml" 157 4408 4425
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 157 4408 4430 "ssa_convenience.ml" 157 4408 4446
+)
+"ssa_convenience.ml" 157 4408 4412 "ssa_convenience.ml" 157 4408 4426
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 157 4408 4435 "ssa_convenience.ml" 157 4408 4437
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "ssa_convenience.ml" 157 4408 4417 "ssa_convenience.ml" 157 4408 4419
+)
+"ssa_convenience.ml" 157 4408 4439 "ssa_convenience.ml" 157 4408 4440
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 157 4408 4421 "ssa_convenience.ml" 157 4408 4422
+)
+"ssa_convenience.ml" 157 4408 4442 "ssa_convenience.ml" 157 4408 4443
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 157 4408 4444 "ssa_convenience.ml" 157 4408 4445
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 157 4408 4424 "ssa_convenience.ml" 157 4408 4425
+)
+"ssa_convenience.ml" 157 4408 4442 "ssa_convenience.ml" 157 4408 4445
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 157 4408 4430 "ssa_convenience.ml" 157 4408 4446
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 158 4447 4459 "ssa_convenience.ml" 158 4447 4460
+type(
+  string
+)
+ident(
+  def s "ssa_convenience.ml" 158 4447 4468 "ssa_convenience.ml" 158 4447 4481
+)
+"ssa_convenience.ml" 158 4447 4462 "ssa_convenience.ml" 158 4447 4463
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 158 4447 4468 "ssa_convenience.ml" 158 4447 4481
+)
+"ssa_convenience.ml" 158 4447 4451 "ssa_convenience.ml" 158 4447 4464
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 158 4447 4476 "ssa_convenience.ml" 158 4447 4477
+type(
+  string
+)
+ident(
+  int_ref s "ssa_convenience.ml" 158 4447 4459 "ssa_convenience.ml" 158 4447 4460
+)
+"ssa_convenience.ml" 158 4447 4479 "ssa_convenience.ml" 158 4447 4480
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 158 4447 4462 "ssa_convenience.ml" 158 4447 4463
+)
+"ssa_convenience.ml" 158 4447 4468 "ssa_convenience.ml" 158 4447 4481
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 159 4482 4490 "ssa_convenience.ml" 159 4482 4492
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 159 4482 4505 "ssa_convenience.ml" 159 4482 4526
+)
+"ssa_convenience.ml" 159 4482 4494 "ssa_convenience.ml" 159 4482 4496
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 159 4482 4505 "ssa_convenience.ml" 159 4482 4526
+)
+"ssa_convenience.ml" 159 4482 4498 "ssa_convenience.ml" 159 4482 4500
+type(
+  Ssa.exp
+)
+ident(
+  def e3 "ssa_convenience.ml" 159 4482 4505 "ssa_convenience.ml" 159 4482 4526
+)
+"ssa_convenience.ml" 159 4482 4486 "ssa_convenience.ml" 159 4482 4501
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 159 4482 4509 "ssa_convenience.ml" 159 4482 4510
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 159 4482 4511 "ssa_convenience.ml" 159 4482 4513
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 159 4482 4490 "ssa_convenience.ml" 159 4482 4492
+)
+"ssa_convenience.ml" 159 4482 4509 "ssa_convenience.ml" 159 4482 4513
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 159 4482 4515 "ssa_convenience.ml" 159 4482 4516
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 159 4482 4517 "ssa_convenience.ml" 159 4482 4519
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 159 4482 4494 "ssa_convenience.ml" 159 4482 4496
+)
+"ssa_convenience.ml" 159 4482 4515 "ssa_convenience.ml" 159 4482 4519
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 159 4482 4521 "ssa_convenience.ml" 159 4482 4522
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 159 4482 4523 "ssa_convenience.ml" 159 4482 4525
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e3 "ssa_convenience.ml" 159 4482 4498 "ssa_convenience.ml" 159 4482 4500
+)
+"ssa_convenience.ml" 159 4482 4521 "ssa_convenience.ml" 159 4482 4525
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 159 4482 4505 "ssa_convenience.ml" 159 4482 4526
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 160 4527 4539 "ssa_convenience.ml" 160 4527 4541
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i1 "ssa_convenience.ml" 160 4527 4553 "ssa_convenience.ml" 160 4527 4573
+)
+"ssa_convenience.ml" 160 4527 4543 "ssa_convenience.ml" 160 4527 4545
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i2 "ssa_convenience.ml" 160 4527 4553 "ssa_convenience.ml" 160 4527 4573
+)
+"ssa_convenience.ml" 160 4527 4547 "ssa_convenience.ml" 160 4527 4548
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 160 4527 4553 "ssa_convenience.ml" 160 4527 4573
+)
+"ssa_convenience.ml" 160 4527 4531 "ssa_convenience.ml" 160 4527 4549
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 160 4527 4561 "ssa_convenience.ml" 160 4527 4563
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i1 "ssa_convenience.ml" 160 4527 4539 "ssa_convenience.ml" 160 4527 4541
+)
+"ssa_convenience.ml" 160 4527 4565 "ssa_convenience.ml" 160 4527 4567
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i2 "ssa_convenience.ml" 160 4527 4543 "ssa_convenience.ml" 160 4527 4545
+)
+"ssa_convenience.ml" 160 4527 4569 "ssa_convenience.ml" 160 4527 4570
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 160 4527 4571 "ssa_convenience.ml" 160 4527 4572
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 160 4527 4547 "ssa_convenience.ml" 160 4527 4548
+)
+"ssa_convenience.ml" 160 4527 4569 "ssa_convenience.ml" 160 4527 4572
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 160 4527 4553 "ssa_convenience.ml" 160 4527 4573
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 161 4574 4585 "ssa_convenience.ml" 161 4574 4587
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 161 4574 4596 "ssa_convenience.ml" 161 4574 4614
+)
+"ssa_convenience.ml" 161 4574 4589 "ssa_convenience.ml" 161 4574 4591
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 161 4574 4596 "ssa_convenience.ml" 161 4574 4614
+)
+"ssa_convenience.ml" 161 4574 4578 "ssa_convenience.ml" 161 4574 4592
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 161 4574 4603 "ssa_convenience.ml" 161 4574 4604
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 161 4574 4605 "ssa_convenience.ml" 161 4574 4607
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 161 4574 4585 "ssa_convenience.ml" 161 4574 4587
+)
+"ssa_convenience.ml" 161 4574 4603 "ssa_convenience.ml" 161 4574 4607
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 161 4574 4609 "ssa_convenience.ml" 161 4574 4610
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 148 4088 4094 "ssa_convenience.ml" 148 4088 4095
+)
+"ssa_convenience.ml" 161 4574 4611 "ssa_convenience.ml" 161 4574 4613
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 161 4574 4589 "ssa_convenience.ml" 161 4574 4591
+)
+"ssa_convenience.ml" 161 4574 4609 "ssa_convenience.ml" 161 4574 4613
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 161 4574 4596 "ssa_convenience.ml" 161 4574 4614
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 162 4615 4622 "ssa_convenience.ml" 162 4615 4625
+type(
+  Ssa.var list
+)
+ident(
+  def l "ssa_convenience.ml" 162 4615 4629 "ssa_convenience.ml" 162 4615 4635
+)
+"ssa_convenience.ml" 162 4615 4619 "ssa_convenience.ml" 162 4615 4625
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 162 4615 4632 "ssa_convenience.ml" 162 4615 4635
+type(
+  Ssa.var list
+)
+ident(
+  int_ref l "ssa_convenience.ml" 162 4615 4622 "ssa_convenience.ml" 162 4615 4625
+)
+"ssa_convenience.ml" 162 4615 4629 "ssa_convenience.ml" 162 4615 4635
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 149 4115 4128 "ssa_convenience.ml" 162 4615 4635
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 164 4641 4651 "ssa_convenience.ml" 164 4641 4652
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 147 4062 4084 "ssa_convenience.ml" 147 4062 4085
+)
+"ssa_convenience.ml" 164 4641 4653 "ssa_convenience.ml" 164 4641 4655
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"ssa_convenience.ml" 164 4641 4656 "ssa_convenience.ml" 164 4641 4660
+type(
+  Ssa.exp
+)
+ident(
+  int_ref newe "ssa_convenience.ml" 149 4115 4121 "ssa_convenience.ml" 149 4115 4125
+)
+"ssa_convenience.ml" 164 4641 4650 "ssa_convenience.ml" 164 4641 4661
+type(
+  bool
+)
+"ssa_convenience.ml" 164 4641 4643 "ssa_convenience.ml" 164 4641 4661
+type(
+  unit
+)
+"ssa_convenience.ml" 165 4663 4665 "ssa_convenience.ml" 165 4663 4669
+type(
+  Ssa.exp
+)
+ident(
+  int_ref newe "ssa_convenience.ml" 149 4115 4121 "ssa_convenience.ml" 149 4115 4125
+)
+"ssa_convenience.ml" 164 4641 4643 "ssa_convenience.ml" 165 4663 4669
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 149 4115 4117 "ssa_convenience.ml" 165 4663 4669
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 148 4088 4090 "ssa_convenience.ml" 165 4663 4669
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 167 4671 4675 "ssa_convenience.ml" 167 4671 4688
+type(
+  Ssa.exp -> (Z.t * Big_int_Z.big_int) option
+)
+ident(
+  def parse_extract "ssa_convenience.ml" 184 5235 5235 --
+)
+"ssa_convenience.ml" 168 4700 4712 "ssa_convenience.ml" 168 4700 4720
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 168 4700 4722 "ssa_convenience.ml" 168 4700 4723
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 173 4888 4895 "ssa_convenience.ml" 181 5196 5216
+)
+"ssa_convenience.ml" 168 4700 4731 "ssa_convenience.ml" 168 4700 4737
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 168 4700 4739 "ssa_convenience.ml" 168 4700 4741
+type(
+  Ssa.exp
+)
+ident(
+  def e' "ssa_convenience.ml" 173 4888 4895 "ssa_convenience.ml" 181 5196 5216
+)
+"ssa_convenience.ml" 168 4700 4747 "ssa_convenience.ml" 168 4700 4748
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_convenience.ml" 173 4888 4895 "ssa_convenience.ml" 181 5196 5216
+)
+"ssa_convenience.ml" 168 4700 4750 "ssa_convenience.ml" 168 4700 4752
+type(
+  Type.typ
+)
+ident(
+  def t2 "ssa_convenience.ml" 173 4888 4895 "ssa_convenience.ml" 181 5196 5216
+)
+"ssa_convenience.ml" 168 4700 4743 "ssa_convenience.ml" 168 4700 4753
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 168 4700 4725 "ssa_convenience.ml" 168 4700 4754
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 168 4700 4707 "ssa_convenience.ml" 168 4700 4755
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 173 4888 4899 "ssa_convenience.ml" 173 4888 4901
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 173 4888 4904 "ssa_convenience.ml" 173 4888 4913
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 173 4888 4914 "ssa_convenience.ml" 173 4888 4916
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e' "ssa_convenience.ml" 168 4700 4739 "ssa_convenience.ml" 168 4700 4741
+)
+"ssa_convenience.ml" 173 4888 4904 "ssa_convenience.ml" 173 4888 4916
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 174 4920 4931 "ssa_convenience.ml" 174 4920 4937
+type(
+  Z.t
+)
+"ssa_convenience.ml" 174 4920 4940 "ssa_convenience.ml" 174 4920 4954
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"ssa_convenience.ml" 174 4920 4956 "ssa_convenience.ml" 174 4920 4969
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 174 4920 4970 "ssa_convenience.ml" 174 4920 4971
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 168 4700 4722 "ssa_convenience.ml" 168 4700 4723
+)
+"ssa_convenience.ml" 174 4920 4955 "ssa_convenience.ml" 174 4920 4972
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 174 4920 4940 "ssa_convenience.ml" 174 4920 4972
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 175 4976 4987 "ssa_convenience.ml" 175 4976 4991
+type(
+  Big_int_Z.big_int
+)
+"ssa_convenience.ml" 175 4976 4994 "ssa_convenience.ml" 175 4976 4995
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 168 4700 4747 "ssa_convenience.ml" 168 4700 4748
+)
+"ssa_convenience.ml" 176 4999 5010 "ssa_convenience.ml" 176 4999 5014
+type(
+  Z.t
+)
+"ssa_convenience.ml" 176 4999 5018 "ssa_convenience.ml" 176 4999 5022
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref lbit "ssa_convenience.ml" 175 4976 4987 "ssa_convenience.ml" 175 4976 4991
+)
+"ssa_convenience.ml" 176 4999 5023 "ssa_convenience.ml" 176 4999 5025
+type(
+  Big_int_Z.big_int -> Z.t -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( +% )
+)
+"ssa_convenience.ml" 176 4999 5026 "ssa_convenience.ml" 176 4999 5032
+type(
+  Z.t
+)
+ident(
+  int_ref bits_t "ssa_convenience.ml" 174 4920 4931 "ssa_convenience.ml" 174 4920 4937
+)
+"ssa_convenience.ml" 176 4999 5017 "ssa_convenience.ml" 176 4999 5033
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 176 4999 5034 "ssa_convenience.ml" 176 4999 5036
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( -% )
+)
+"ssa_convenience.ml" 176 4999 5037 "ssa_convenience.ml" 176 4999 5040
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"ssa_convenience.ml" 176 4999 5017 "ssa_convenience.ml" 176 4999 5040
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 178 5119 5129 "ssa_convenience.ml" 178 5119 5133
+type(
+  Z.t
+)
+ident(
+  int_ref hbit "ssa_convenience.ml" 176 4999 5010 "ssa_convenience.ml" 176 4999 5014
+)
+"ssa_convenience.ml" 178 5119 5134 "ssa_convenience.ml" 178 5119 5136
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( >% )
+)
+"ssa_convenience.ml" 178 5119 5137 "ssa_convenience.ml" 178 5119 5151
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"ssa_convenience.ml" 178 5119 5152 "ssa_convenience.ml" 178 5119 5165
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 178 5119 5166 "ssa_convenience.ml" 178 5119 5168
+type(
+  Type.typ
+)
+ident(
+  int_ref et "ssa_convenience.ml" 173 4888 4899 "ssa_convenience.ml" 173 4888 4901
+)
+"ssa_convenience.ml" 178 5119 5151 "ssa_convenience.ml" 178 5119 5169
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 178 5119 5137 "ssa_convenience.ml" 178 5119 5169
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 178 5119 5129 "ssa_convenience.ml" 178 5119 5169
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_convenience.ml" 179 5175 5184 "ssa_convenience.ml" 179 5175 5188
+type(
+  (Z.t * Big_int_Z.big_int) option
+)
+"ssa_convenience.ml" 181 5196 5205 "ssa_convenience.ml" 181 5196 5209
+type(
+  Z.t
+)
+ident(
+  int_ref hbit "ssa_convenience.ml" 176 4999 5010 "ssa_convenience.ml" 176 4999 5014
+)
+"ssa_convenience.ml" 181 5196 5211 "ssa_convenience.ml" 181 5196 5215
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref lbit "ssa_convenience.ml" 175 4976 4987 "ssa_convenience.ml" 175 4976 4991
+)
+"ssa_convenience.ml" 181 5196 5204 "ssa_convenience.ml" 181 5196 5216
+type(
+  Z.t * Big_int_Z.big_int
+)
+"ssa_convenience.ml" 181 5196 5200 "ssa_convenience.ml" 181 5196 5216
+type(
+  (Z.t * Big_int_Z.big_int) option
+)
+"ssa_convenience.ml" 178 5119 5126 "ssa_convenience.ml" 181 5196 5216
+type(
+  (Z.t * Big_int_Z.big_int) option
+)
+"ssa_convenience.ml" 176 4999 5006 "ssa_convenience.ml" 181 5196 5216
+type(
+  (Z.t * Big_int_Z.big_int) option
+)
+"ssa_convenience.ml" 175 4976 4983 "ssa_convenience.ml" 181 5196 5216
+type(
+  (Z.t * Big_int_Z.big_int) option
+)
+"ssa_convenience.ml" 174 4920 4927 "ssa_convenience.ml" 181 5196 5216
+type(
+  (Z.t * Big_int_Z.big_int) option
+)
+"ssa_convenience.ml" 173 4888 4895 "ssa_convenience.ml" 181 5196 5216
+type(
+  (Z.t * Big_int_Z.big_int) option
+)
+"ssa_convenience.ml" 182 5217 5224 "ssa_convenience.ml" 182 5217 5225
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 182 5217 5229 "ssa_convenience.ml" 182 5217 5233
+type(
+  (Z.t * Big_int_Z.big_int) option
+)
+"ssa_convenience.ml" 167 4671 4691 "ssa_convenience.ml" 182 5217 5233
+type(
+  Ssa.exp -> (Z.t * Big_int_Z.big_int) option
+)
+"ssa_convenience.ml" 184 5235 5239 "ssa_convenience.ml" 184 5235 5251
+type(
+  Ssa.exp -> (Ssa.exp * Ssa.exp) option
+)
+ident(
+  def parse_concat "ssa_convenience.ml" 230 6731 6731 --
+)
+"ssa_convenience.ml" 192 5603 5613 "ssa_convenience.ml" 192 5603 5615
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 193 5617 5626 "ssa_convenience.ml" 193 5617 5632
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 194 5634 5641 "ssa_convenience.ml" 194 5634 5654
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 194 5634 5656 "ssa_convenience.ml" 194 5634 5659
+type(
+  Type.typ
+)
+ident(
+  def nt1 "ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+)
+"ssa_convenience.ml" 194 5634 5661 "ssa_convenience.ml" 194 5634 5663
+type(
+  Ssa.exp
+)
+ident(
+  def el "ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+)
+"ssa_convenience.ml" 194 5634 5636 "ssa_convenience.ml" 194 5634 5664
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 195 5666 5672 "ssa_convenience.ml" 195 5666 5676
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def bits "ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+)
+"ssa_convenience.ml" 195 5666 5678 "ssa_convenience.ml" 195 5666 5679
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 195 5666 5668 "ssa_convenience.ml" 195 5666 5680
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 193 5617 5620 "ssa_convenience.ml" 195 5666 5681
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 196 5683 5691 "ssa_convenience.ml" 196 5683 5704
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 196 5683 5706 "ssa_convenience.ml" 196 5683 5709
+type(
+  Type.typ
+)
+ident(
+  def nt2 "ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+)
+"ssa_convenience.ml" 196 5683 5711 "ssa_convenience.ml" 196 5683 5713
+type(
+  Ssa.exp
+)
+ident(
+  def er "ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+)
+"ssa_convenience.ml" 196 5683 5686 "ssa_convenience.ml" 196 5683 5714
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 192 5603 5607 "ssa_convenience.ml" 196 5683 5715
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 197 5716 5726 "ssa_convenience.ml" 197 5716 5728
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 198 5730 5738 "ssa_convenience.ml" 198 5730 5751
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 198 5730 5753 "ssa_convenience.ml" 198 5730 5756
+type(
+  Type.typ
+)
+ident(
+  def nt2 "ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+)
+"ssa_convenience.ml" 198 5730 5758 "ssa_convenience.ml" 198 5730 5760
+type(
+  Ssa.exp
+)
+ident(
+  def er "ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+)
+"ssa_convenience.ml" 198 5730 5733 "ssa_convenience.ml" 198 5730 5761
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 199 5763 5772 "ssa_convenience.ml" 199 5763 5778
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 200 5780 5787 "ssa_convenience.ml" 200 5780 5800
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 200 5780 5802 "ssa_convenience.ml" 200 5780 5805
+type(
+  Type.typ
+)
+ident(
+  def nt1 "ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+)
+"ssa_convenience.ml" 200 5780 5807 "ssa_convenience.ml" 200 5780 5809
+type(
+  Ssa.exp
+)
+ident(
+  def el "ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+)
+"ssa_convenience.ml" 200 5780 5782 "ssa_convenience.ml" 200 5780 5810
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 201 5812 5818 "ssa_convenience.ml" 201 5812 5822
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def bits "ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+)
+"ssa_convenience.ml" 201 5812 5824 "ssa_convenience.ml" 201 5812 5825
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 201 5812 5814 "ssa_convenience.ml" 201 5812 5826
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 199 5763 5766 "ssa_convenience.ml" 201 5812 5827
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 197 5716 5720 "ssa_convenience.ml" 201 5812 5828
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 192 5603 5607 "ssa_convenience.ml" 201 5812 5828
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 202 5829 5840 "ssa_convenience.ml" 202 5829 5843
+type(
+  Type.typ
+)
+ident(
+  int_ref nt1 "ssa_convenience.ml" 194 5634 5656 "ssa_convenience.ml" 194 5634 5659
+)
+"ssa_convenience.ml" 202 5829 5844 "ssa_convenience.ml" 202 5829 5845
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 202 5829 5846 "ssa_convenience.ml" 202 5829 5849
+type(
+  Type.typ
+)
+ident(
+  int_ref nt2 "ssa_convenience.ml" 196 5683 5706 "ssa_convenience.ml" 196 5683 5709
+)
+"ssa_convenience.ml" 202 5829 5840 "ssa_convenience.ml" 202 5829 5849
+type(
+  bool
+)
+"ssa_convenience.ml" 203 5850 5851 "ssa_convenience.ml" 203 5850 5853
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_convenience.ml" 203 5850 5854 "ssa_convenience.ml" 203 5850 5858
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref bits "ssa_convenience.ml" 195 5666 5672 "ssa_convenience.ml" 195 5666 5676
+)
+"ssa_convenience.ml" 203 5850 5859 "ssa_convenience.ml" 203 5850 5862
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( ==% )
+)
+"ssa_convenience.ml" 203 5850 5863 "ssa_convenience.ml" 203 5850 5877
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"ssa_convenience.ml" 203 5850 5878 "ssa_convenience.ml" 203 5850 5891
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 203 5850 5893 "ssa_convenience.ml" 203 5850 5902
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 203 5850 5903 "ssa_convenience.ml" 203 5850 5905
+type(
+  Ssa.exp
+)
+ident(
+  int_ref er "ssa_convenience.ml" 196 5683 5711 "ssa_convenience.ml" 196 5683 5713
+)
+"ssa_convenience.ml" 203 5850 5892 "ssa_convenience.ml" 203 5850 5906
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 203 5850 5877 "ssa_convenience.ml" 203 5850 5907
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 203 5850 5863 "ssa_convenience.ml" 203 5850 5907
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 203 5850 5854 "ssa_convenience.ml" 203 5850 5907
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_convenience.ml" 204 5908 5909 "ssa_convenience.ml" 204 5908 5911
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_convenience.ml" 204 5908 5912 "ssa_convenience.ml" 204 5908 5925
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 204 5908 5926 "ssa_convenience.ml" 204 5908 5929
+type(
+  Type.typ
+)
+ident(
+  int_ref nt1 "ssa_convenience.ml" 194 5634 5656 "ssa_convenience.ml" 194 5634 5659
+)
+"ssa_convenience.ml" 204 5908 5912 "ssa_convenience.ml" 204 5908 5929
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 204 5908 5930 "ssa_convenience.ml" 204 5908 5931
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 204 5908 5932 "ssa_convenience.ml" 204 5908 5945
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 204 5908 5947 "ssa_convenience.ml" 204 5908 5956
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 204 5908 5957 "ssa_convenience.ml" 204 5908 5959
+type(
+  Ssa.exp
+)
+ident(
+  int_ref el "ssa_convenience.ml" 194 5634 5661 "ssa_convenience.ml" 194 5634 5663
+)
+"ssa_convenience.ml" 204 5908 5946 "ssa_convenience.ml" 204 5908 5960
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 204 5908 5932 "ssa_convenience.ml" 204 5908 5960
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 204 5908 5961 "ssa_convenience.ml" 204 5908 5962
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ssa_convenience.ml" 204 5908 5963 "ssa_convenience.ml" 204 5908 5976
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 204 5908 5978 "ssa_convenience.ml" 204 5908 5987
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 204 5908 5988 "ssa_convenience.ml" 204 5908 5990
+type(
+  Ssa.exp
+)
+ident(
+  int_ref er "ssa_convenience.ml" 196 5683 5711 "ssa_convenience.ml" 196 5683 5713
+)
+"ssa_convenience.ml" 204 5908 5977 "ssa_convenience.ml" 204 5908 5991
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 204 5908 5963 "ssa_convenience.ml" 204 5908 5991
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 204 5908 5932 "ssa_convenience.ml" 204 5908 5991
+type(
+  int
+)
+"ssa_convenience.ml" 204 5908 5912 "ssa_convenience.ml" 204 5908 5991
+type(
+  bool
+)
+"ssa_convenience.ml" 203 5850 5854 "ssa_convenience.ml" 204 5908 5991
+type(
+  bool
+)
+"ssa_convenience.ml" 202 5829 5840 "ssa_convenience.ml" 204 5908 5991
+type(
+  bool
+)
+"ssa_convenience.ml" 206 6020 6031 "ssa_convenience.ml" 206 6020 6033
+type(
+  Ssa.exp
+)
+ident(
+  int_ref el "ssa_convenience.ml" 194 5634 5661 "ssa_convenience.ml" 194 5634 5663
+)
+"ssa_convenience.ml" 206 6020 6035 "ssa_convenience.ml" 206 6020 6037
+type(
+  Ssa.exp
+)
+ident(
+  int_ref er "ssa_convenience.ml" 196 5683 5711 "ssa_convenience.ml" 196 5683 5713
+)
+"ssa_convenience.ml" 206 6020 6030 "ssa_convenience.ml" 206 6020 6038
+type(
+  Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 206 6020 6026 "ssa_convenience.ml" 206 6020 6038
+type(
+  (Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 202 5829 5835 "ssa_convenience.ml" 206 6020 6038
+type(
+  (Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 207 6039 6049 "ssa_convenience.ml" 207 6039 6051
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 208 6053 6062 "ssa_convenience.ml" 208 6053 6068
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 209 6070 6077 "ssa_convenience.ml" 209 6070 6090
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 209 6070 6092 "ssa_convenience.ml" 209 6070 6095
+type(
+  Type.typ
+)
+ident(
+  def nt1 "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 209 6070 6097 "ssa_convenience.ml" 209 6070 6099
+type(
+  Ssa.exp
+)
+ident(
+  def el "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 209 6070 6072 "ssa_convenience.ml" 209 6070 6100
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 210 6102 6108 "ssa_convenience.ml" 210 6102 6112
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def bits "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 210 6102 6114 "ssa_convenience.ml" 210 6102 6115
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 210 6102 6104 "ssa_convenience.ml" 210 6102 6116
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 208 6053 6056 "ssa_convenience.ml" 210 6102 6117
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 211 6119 6127 "ssa_convenience.ml" 211 6119 6128
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 211 6119 6130 "ssa_convenience.ml" 211 6119 6133
+type(
+  Type.typ
+)
+ident(
+  def nt2 "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 211 6119 6123 "ssa_convenience.ml" 211 6119 6134
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 211 6119 6122 "ssa_convenience.ml" 211 6119 6141
+type(
+  Ssa.exp
+)
+ident(
+  def er "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 207 6039 6043 "ssa_convenience.ml" 211 6119 6142
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 212 6143 6153 "ssa_convenience.ml" 212 6143 6155
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 213 6157 6165 "ssa_convenience.ml" 213 6157 6166
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 213 6157 6168 "ssa_convenience.ml" 213 6157 6171
+type(
+  Type.typ
+)
+ident(
+  def nt2 "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 213 6157 6161 "ssa_convenience.ml" 213 6157 6172
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 213 6157 6160 "ssa_convenience.ml" 213 6157 6179
+type(
+  Ssa.exp
+)
+ident(
+  def er "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 214 6181 6190 "ssa_convenience.ml" 214 6181 6196
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 215 6198 6205 "ssa_convenience.ml" 215 6198 6218
+type(
+  Type.cast_type
+)
+"ssa_convenience.ml" 215 6198 6220 "ssa_convenience.ml" 215 6198 6223
+type(
+  Type.typ
+)
+ident(
+  def nt1 "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 215 6198 6225 "ssa_convenience.ml" 215 6198 6227
+type(
+  Ssa.exp
+)
+ident(
+  def el "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 215 6198 6200 "ssa_convenience.ml" 215 6198 6228
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 216 6230 6236 "ssa_convenience.ml" 216 6230 6240
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def bits "ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+)
+"ssa_convenience.ml" 216 6230 6242 "ssa_convenience.ml" 216 6230 6243
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 216 6230 6232 "ssa_convenience.ml" 216 6230 6244
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 214 6181 6184 "ssa_convenience.ml" 216 6230 6245
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 212 6143 6147 "ssa_convenience.ml" 216 6230 6246
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 207 6039 6043 "ssa_convenience.ml" 216 6230 6246
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 219 6360 6371 "ssa_convenience.ml" 219 6360 6392
+type(
+  Big_int_Z.big_int * Type.typ -> Z.t
+)
+ident(
+  ext_ref Arithmetic.to_big_int
+)
+"ssa_convenience.ml" 219 6360 6394 "ssa_convenience.ml" 219 6360 6395
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 211 6119 6127 "ssa_convenience.ml" 211 6119 6128
+)
+"ssa_convenience.ml" 219 6360 6397 "ssa_convenience.ml" 219 6360 6400
+type(
+  Type.typ
+)
+ident(
+  int_ref nt2 "ssa_convenience.ml" 211 6119 6130 "ssa_convenience.ml" 211 6119 6133
+)
+"ssa_convenience.ml" 219 6360 6393 "ssa_convenience.ml" 219 6360 6401
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_convenience.ml" 219 6360 6371 "ssa_convenience.ml" 219 6360 6401
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 219 6360 6402 "ssa_convenience.ml" 219 6360 6405
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( ==% )
+)
+"ssa_convenience.ml" 219 6360 6406 "ssa_convenience.ml" 219 6360 6427
+type(
+  Big_int_Z.big_int * Type.typ -> Z.t
+)
+ident(
+  ext_ref Arithmetic.to_big_int
+)
+"ssa_convenience.ml" 219 6360 6429 "ssa_convenience.ml" 219 6360 6430
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_convenience.ml" 211 6119 6127 "ssa_convenience.ml" 211 6119 6128
+)
+"ssa_convenience.ml" 219 6360 6432 "ssa_convenience.ml" 219 6360 6435
+type(
+  Type.typ
+)
+ident(
+  int_ref nt1 "ssa_convenience.ml" 209 6070 6092 "ssa_convenience.ml" 209 6070 6095
+)
+"ssa_convenience.ml" 219 6360 6428 "ssa_convenience.ml" 219 6360 6436
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_convenience.ml" 219 6360 6406 "ssa_convenience.ml" 219 6360 6436
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 219 6360 6371 "ssa_convenience.ml" 219 6360 6436
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_convenience.ml" 220 6437 6438 "ssa_convenience.ml" 220 6437 6440
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_convenience.ml" 220 6437 6441 "ssa_convenience.ml" 220 6437 6445
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref bits "ssa_convenience.ml" 210 6102 6108 "ssa_convenience.ml" 210 6102 6112
+)
+"ssa_convenience.ml" 220 6437 6446 "ssa_convenience.ml" 220 6437 6449
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( ==% )
+)
+"ssa_convenience.ml" 220 6437 6450 "ssa_convenience.ml" 220 6437 6464
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"ssa_convenience.ml" 220 6437 6465 "ssa_convenience.ml" 220 6437 6478
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 220 6437 6480 "ssa_convenience.ml" 220 6437 6489
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 220 6437 6490 "ssa_convenience.ml" 220 6437 6492
+type(
+  Ssa.exp
+)
+ident(
+  int_ref er "ssa_convenience.ml" 211 6119 6122 "ssa_convenience.ml" 211 6119 6141
+)
+"ssa_convenience.ml" 220 6437 6479 "ssa_convenience.ml" 220 6437 6493
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 220 6437 6464 "ssa_convenience.ml" 220 6437 6494
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 220 6437 6450 "ssa_convenience.ml" 220 6437 6494
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 220 6437 6441 "ssa_convenience.ml" 220 6437 6494
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_convenience.ml" 221 6495 6496 "ssa_convenience.ml" 221 6495 6498
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_convenience.ml" 221 6495 6499 "ssa_convenience.ml" 221 6495 6512
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 221 6495 6513 "ssa_convenience.ml" 221 6495 6516
+type(
+  Type.typ
+)
+ident(
+  int_ref nt1 "ssa_convenience.ml" 209 6070 6092 "ssa_convenience.ml" 209 6070 6095
+)
+"ssa_convenience.ml" 221 6495 6499 "ssa_convenience.ml" 221 6495 6516
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 221 6495 6517 "ssa_convenience.ml" 221 6495 6518
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_convenience.ml" 221 6495 6519 "ssa_convenience.ml" 221 6495 6532
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 221 6495 6534 "ssa_convenience.ml" 221 6495 6543
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 221 6495 6544 "ssa_convenience.ml" 221 6495 6546
+type(
+  Ssa.exp
+)
+ident(
+  int_ref el "ssa_convenience.ml" 209 6070 6097 "ssa_convenience.ml" 209 6070 6099
+)
+"ssa_convenience.ml" 221 6495 6533 "ssa_convenience.ml" 221 6495 6547
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 221 6495 6519 "ssa_convenience.ml" 221 6495 6547
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 221 6495 6548 "ssa_convenience.ml" 221 6495 6549
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ssa_convenience.ml" 221 6495 6550 "ssa_convenience.ml" 221 6495 6563
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 221 6495 6565 "ssa_convenience.ml" 221 6495 6574
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 221 6495 6575 "ssa_convenience.ml" 221 6495 6577
+type(
+  Ssa.exp
+)
+ident(
+  int_ref er "ssa_convenience.ml" 211 6119 6122 "ssa_convenience.ml" 211 6119 6141
+)
+"ssa_convenience.ml" 221 6495 6564 "ssa_convenience.ml" 221 6495 6578
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 221 6495 6550 "ssa_convenience.ml" 221 6495 6578
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 221 6495 6519 "ssa_convenience.ml" 221 6495 6578
+type(
+  int
+)
+"ssa_convenience.ml" 221 6495 6499 "ssa_convenience.ml" 221 6495 6578
+type(
+  bool
+)
+"ssa_convenience.ml" 220 6437 6441 "ssa_convenience.ml" 221 6495 6578
+type(
+  bool
+)
+"ssa_convenience.ml" 219 6360 6371 "ssa_convenience.ml" 221 6495 6578
+type(
+  bool
+)
+"ssa_convenience.ml" 223 6607 6618 "ssa_convenience.ml" 223 6607 6620
+type(
+  Ssa.exp
+)
+ident(
+  int_ref el "ssa_convenience.ml" 209 6070 6097 "ssa_convenience.ml" 209 6070 6099
+)
+"ssa_convenience.ml" 223 6607 6622 "ssa_convenience.ml" 223 6607 6624
+type(
+  Ssa.exp
+)
+ident(
+  int_ref er "ssa_convenience.ml" 211 6119 6122 "ssa_convenience.ml" 211 6119 6141
+)
+"ssa_convenience.ml" 223 6607 6617 "ssa_convenience.ml" 223 6607 6625
+type(
+  Ssa.exp * Ssa.exp
+)
+"ssa_convenience.ml" 223 6607 6613 "ssa_convenience.ml" 223 6607 6625
+type(
+  (Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 219 6360 6366 "ssa_convenience.ml" 223 6607 6625
+type(
+  (Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 224 6626 6630 "ssa_convenience.ml" 224 6626 6631
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 224 6626 6635 "ssa_convenience.ml" 224 6626 6639
+type(
+  (Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 184 5235 5254 "ssa_convenience.ml" 224 6626 6639
+type(
+  Ssa.exp -> (Ssa.exp * Ssa.exp) option
+)
+"ssa_convenience.ml" 230 6731 6735 "ssa_convenience.ml" 230 6731 6741
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def rm_ite "ssa_convenience.ml" 241 7088 7088 --
+)
+"ssa_convenience.ml" 231 6753 6761 "ssa_convenience.ml" 231 6753 6762
+type(
+  Ssa.exp
+)
+ident(
+  def b "ssa_convenience.ml" 232 6775 6781 "ssa_convenience.ml" 238 6969 7028
+)
+"ssa_convenience.ml" 231 6753 6764 "ssa_convenience.ml" 231 6753 6766
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 232 6775 6781 "ssa_convenience.ml" 238 6969 7028
+)
+"ssa_convenience.ml" 231 6753 6768 "ssa_convenience.ml" 231 6753 6770
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 232 6775 6781 "ssa_convenience.ml" 238 6969 7028
+)
+"ssa_convenience.ml" 231 6753 6757 "ssa_convenience.ml" 231 6753 6771
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 232 6775 6785 "ssa_convenience.ml" 232 6775 6786
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 232 6775 6789 "ssa_convenience.ml" 232 6775 6808
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 232 6775 6809 "ssa_convenience.ml" 232 6775 6811
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 231 6753 6764 "ssa_convenience.ml" 231 6753 6766
+)
+"ssa_convenience.ml" 232 6775 6789 "ssa_convenience.ml" 232 6775 6811
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 233 6815 6828 "ssa_convenience.ml" 233 6815 6829
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 232 6775 6785 "ssa_convenience.ml" 232 6775 6786
+)
+"ssa_convenience.ml" 234 6835 6846 "ssa_convenience.ml" 234 6835 6849
+type(
+  int
+)
+"ssa_convenience.ml" 234 6835 6843 "ssa_convenience.ml" 234 6835 6849
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 235 6853 6855 "ssa_convenience.ml" 235 6853 6856
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 231 6753 6761 "ssa_convenience.ml" 231 6753 6762
+)
+"ssa_convenience.ml" 235 6853 6857 "ssa_convenience.ml" 235 6853 6859
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref &* "ssa_convenience.ml" 64 1644 1648 "ssa_convenience.ml" 64 1644 1654
+)
+"ssa_convenience.ml" 235 6853 6860 "ssa_convenience.ml" 235 6853 6862
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 231 6753 6764 "ssa_convenience.ml" 231 6753 6766
+)
+"ssa_convenience.ml" 235 6853 6854 "ssa_convenience.ml" 235 6853 6863
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 235 6853 6864 "ssa_convenience.ml" 235 6853 6866
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref |* "ssa_convenience.ml" 65 1677 1681 "ssa_convenience.ml" 65 1677 1687
+)
+"ssa_convenience.ml" 235 6853 6869 "ssa_convenience.ml" 235 6853 6876
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_not "ssa_convenience.ml" 48 1206 1210 "ssa_convenience.ml" 48 1206 1217
+)
+"ssa_convenience.ml" 235 6853 6877 "ssa_convenience.ml" 235 6853 6878
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 231 6753 6761 "ssa_convenience.ml" 231 6753 6762
+)
+"ssa_convenience.ml" 235 6853 6869 "ssa_convenience.ml" 235 6853 6878
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 235 6853 6879 "ssa_convenience.ml" 235 6853 6881
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref &* "ssa_convenience.ml" 64 1644 1648 "ssa_convenience.ml" 64 1644 1654
+)
+"ssa_convenience.ml" 235 6853 6882 "ssa_convenience.ml" 235 6853 6884
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 231 6753 6768 "ssa_convenience.ml" 231 6753 6770
+)
+"ssa_convenience.ml" 235 6853 6868 "ssa_convenience.ml" 235 6853 6885
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 235 6853 6854 "ssa_convenience.ml" 235 6853 6885
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 236 6886 6898 "ssa_convenience.ml" 236 6886 6899
+type(
+  int
+)
+ident(
+  def n "ssa_convenience.ml" 237 6903 6904 "ssa_convenience.ml" 237 6903 6968
+)
+"ssa_convenience.ml" 236 6886 6894 "ssa_convenience.ml" 236 6886 6899
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 237 6903 6906 "ssa_convenience.ml" 237 6903 6917
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cast_signed "ssa_convenience.ml" 89 2376 2380 "ssa_convenience.ml" 89 2376 2391
+)
+"ssa_convenience.ml" 237 6903 6918 "ssa_convenience.ml" 237 6903 6919
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 232 6775 6785 "ssa_convenience.ml" 232 6775 6786
+)
+"ssa_convenience.ml" 237 6903 6920 "ssa_convenience.ml" 237 6903 6921
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 231 6753 6761 "ssa_convenience.ml" 231 6753 6762
+)
+"ssa_convenience.ml" 237 6903 6905 "ssa_convenience.ml" 237 6903 6922
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 237 6903 6923 "ssa_convenience.ml" 237 6903 6925
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref &* "ssa_convenience.ml" 64 1644 1648 "ssa_convenience.ml" 64 1644 1654
+)
+"ssa_convenience.ml" 237 6903 6926 "ssa_convenience.ml" 237 6903 6928
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 231 6753 6764 "ssa_convenience.ml" 231 6753 6766
+)
+"ssa_convenience.ml" 237 6903 6904 "ssa_convenience.ml" 237 6903 6929
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 237 6903 6930 "ssa_convenience.ml" 237 6903 6932
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref |* "ssa_convenience.ml" 65 1677 1681 "ssa_convenience.ml" 65 1677 1687
+)
+"ssa_convenience.ml" 237 6903 6935 "ssa_convenience.ml" 237 6903 6946
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cast_signed "ssa_convenience.ml" 89 2376 2380 "ssa_convenience.ml" 89 2376 2391
+)
+"ssa_convenience.ml" 237 6903 6947 "ssa_convenience.ml" 237 6903 6948
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 232 6775 6785 "ssa_convenience.ml" 232 6775 6786
+)
+"ssa_convenience.ml" 237 6903 6950 "ssa_convenience.ml" 237 6903 6957
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_not "ssa_convenience.ml" 48 1206 1210 "ssa_convenience.ml" 48 1206 1217
+)
+"ssa_convenience.ml" 237 6903 6958 "ssa_convenience.ml" 237 6903 6959
+type(
+  Ssa.exp
+)
+ident(
+  int_ref b "ssa_convenience.ml" 231 6753 6761 "ssa_convenience.ml" 231 6753 6762
+)
+"ssa_convenience.ml" 237 6903 6949 "ssa_convenience.ml" 237 6903 6960
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 237 6903 6934 "ssa_convenience.ml" 237 6903 6961
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 237 6903 6962 "ssa_convenience.ml" 237 6903 6964
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref &* "ssa_convenience.ml" 64 1644 1648 "ssa_convenience.ml" 64 1644 1654
+)
+"ssa_convenience.ml" 237 6903 6965 "ssa_convenience.ml" 237 6903 6967
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 231 6753 6768 "ssa_convenience.ml" 231 6753 6770
+)
+"ssa_convenience.ml" 237 6903 6933 "ssa_convenience.ml" 237 6903 6968
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 237 6903 6904 "ssa_convenience.ml" 237 6903 6968
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 238 6969 6977 "ssa_convenience.ml" 238 6969 6978
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 238 6969 6982 "ssa_convenience.ml" 238 6969 6990
+type(
+  string -> Ssa.exp
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ssa_convenience.ml" 238 6969 6991 "ssa_convenience.ml" 238 6969 7027
+type(
+  string
+)
+"ssa_convenience.ml" 238 6969 6982 "ssa_convenience.ml" 238 6969 7027
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 233 6815 6821 "ssa_convenience.ml" 238 6969 7028
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 232 6775 6781 "ssa_convenience.ml" 238 6969 7028
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 239 7029 7033 "ssa_convenience.ml" 239 7029 7034
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 239 7029 7038 "ssa_convenience.ml" 239 7029 7050
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 230 6731 6744 "ssa_convenience.ml" 239 7029 7050
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 241 7088 7092 "ssa_convenience.ml" 241 7088 7102
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def rm_extract "ssa_convenience.ml" 253 7436 7436 --
+)
+"ssa_convenience.ml" 242 7114 7126 "ssa_convenience.ml" 242 7114 7127
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def h "ssa_convenience.ml" 243 7138 7144 "ssa_convenience.ml" 250 7405 7412
+)
+"ssa_convenience.ml" 242 7114 7129 "ssa_convenience.ml" 242 7114 7130
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def l "ssa_convenience.ml" 243 7138 7144 "ssa_convenience.ml" 250 7405 7412
+)
+"ssa_convenience.ml" 242 7114 7132 "ssa_convenience.ml" 242 7114 7133
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 243 7138 7144 "ssa_convenience.ml" 250 7405 7412
+)
+"ssa_convenience.ml" 242 7114 7118 "ssa_convenience.ml" 242 7114 7134
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 243 7138 7148 "ssa_convenience.ml" 243 7138 7150
+type(
+  int
+)
+"ssa_convenience.ml" 243 7138 7153 "ssa_convenience.ml" 243 7138 7167
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Big_int_Z.int_of_big_int
+)
+"ssa_convenience.ml" 243 7138 7170 "ssa_convenience.ml" 243 7138 7171
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "ssa_convenience.ml" 242 7114 7126 "ssa_convenience.ml" 242 7114 7127
+)
+"ssa_convenience.ml" 243 7138 7172 "ssa_convenience.ml" 243 7138 7174
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( -% )
+)
+"ssa_convenience.ml" 243 7138 7175 "ssa_convenience.ml" 243 7138 7176
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "ssa_convenience.ml" 242 7114 7129 "ssa_convenience.ml" 242 7114 7130
+)
+"ssa_convenience.ml" 243 7138 7169 "ssa_convenience.ml" 243 7138 7177
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 243 7138 7178 "ssa_convenience.ml" 243 7138 7180
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( +% )
+)
+"ssa_convenience.ml" 243 7138 7181 "ssa_convenience.ml" 243 7138 7184
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"ssa_convenience.ml" 243 7138 7168 "ssa_convenience.ml" 243 7138 7185
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_convenience.ml" 243 7138 7153 "ssa_convenience.ml" 243 7138 7185
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 244 7189 7199 "ssa_convenience.ml" 244 7189 7201
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 244 7189 7207 "ssa_convenience.ml" 244 7189 7211
+type(
+  int
+)
+ident(
+  int_ref nb "ssa_convenience.ml" 243 7138 7148 "ssa_convenience.ml" 243 7138 7150
+)
+"ssa_convenience.ml" 244 7189 7204 "ssa_convenience.ml" 244 7189 7211
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 245 7215 7228 "ssa_convenience.ml" 245 7215 7229
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "ssa_convenience.ml" 242 7114 7126 "ssa_convenience.ml" 242 7114 7127
+)
+"ssa_convenience.ml" 245 7215 7230 "ssa_convenience.ml" 245 7215 7233
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( >=% )
+)
+"ssa_convenience.ml" 245 7215 7234 "ssa_convenience.ml" 245 7215 7237
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"ssa_convenience.ml" 245 7215 7227 "ssa_convenience.ml" 245 7215 7238
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_convenience.ml" 245 7215 7221 "ssa_convenience.ml" 245 7215 7238
+type(
+  unit
+)
+"ssa_convenience.ml" 246 7240 7254 "ssa_convenience.ml" 246 7240 7256
+type(
+  int
+)
+ident(
+  int_ref nb "ssa_convenience.ml" 243 7138 7148 "ssa_convenience.ml" 243 7138 7150
+)
+"ssa_convenience.ml" 246 7240 7257 "ssa_convenience.ml" 246 7240 7259
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ssa_convenience.ml" 246 7240 7260 "ssa_convenience.ml" 246 7240 7261
+type(
+  int
+)
+"ssa_convenience.ml" 246 7240 7253 "ssa_convenience.ml" 246 7240 7262
+type(
+  bool
+)
+"ssa_convenience.ml" 246 7240 7246 "ssa_convenience.ml" 246 7240 7262
+type(
+  unit
+)
+"ssa_convenience.ml" 247 7264 7274 "ssa_convenience.ml" 247 7264 7275
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 247 7264 7278 "ssa_convenience.ml" 247 7264 7287
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 247 7264 7288 "ssa_convenience.ml" 247 7264 7289
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 242 7114 7132 "ssa_convenience.ml" 242 7114 7133
+)
+"ssa_convenience.ml" 247 7264 7278 "ssa_convenience.ml" 247 7264 7289
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 248 7293 7303 "ssa_convenience.ml" 248 7293 7304
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 248 7293 7310 "ssa_convenience.ml" 248 7293 7311
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "ssa_convenience.ml" 242 7114 7129 "ssa_convenience.ml" 242 7114 7130
+)
+"ssa_convenience.ml" 248 7293 7312 "ssa_convenience.ml" 248 7293 7315
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( <>% )
+)
+"ssa_convenience.ml" 248 7293 7316 "ssa_convenience.ml" 248 7293 7319
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"ssa_convenience.ml" 248 7293 7310 "ssa_convenience.ml" 248 7293 7319
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_convenience.ml" 248 7293 7325 "ssa_convenience.ml" 248 7293 7326
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 242 7114 7132 "ssa_convenience.ml" 242 7114 7133
+)
+"ssa_convenience.ml" 248 7293 7327 "ssa_convenience.ml" 248 7293 7330
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref >>* "ssa_convenience.ml" 62 1571 1575 "ssa_convenience.ml" 62 1571 1582
+)
+"ssa_convenience.ml" 248 7293 7335 "ssa_convenience.ml" 248 7293 7336
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "ssa_convenience.ml" 242 7114 7129 "ssa_convenience.ml" 242 7114 7130
+)
+"ssa_convenience.ml" 248 7293 7338 "ssa_convenience.ml" 248 7293 7339
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 247 7264 7274 "ssa_convenience.ml" 247 7264 7275
+)
+"ssa_convenience.ml" 248 7293 7331 "ssa_convenience.ml" 248 7293 7340
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 248 7293 7325 "ssa_convenience.ml" 248 7293 7340
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 248 7293 7346 "ssa_convenience.ml" 248 7293 7347
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 242 7114 7132 "ssa_convenience.ml" 242 7114 7133
+)
+"ssa_convenience.ml" 248 7293 7307 "ssa_convenience.ml" 248 7293 7347
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 249 7351 7361 "ssa_convenience.ml" 249 7351 7362
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 249 7351 7368 "ssa_convenience.ml" 249 7351 7369
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 247 7264 7274 "ssa_convenience.ml" 247 7264 7275
+)
+"ssa_convenience.ml" 249 7351 7370 "ssa_convenience.ml" 249 7351 7372
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ssa_convenience.ml" 249 7351 7373 "ssa_convenience.ml" 249 7351 7375
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "ssa_convenience.ml" 244 7189 7199 "ssa_convenience.ml" 244 7189 7201
+)
+"ssa_convenience.ml" 249 7351 7368 "ssa_convenience.ml" 249 7351 7375
+type(
+  bool
+)
+"ssa_convenience.ml" 249 7351 7381 "ssa_convenience.ml" 249 7351 7389
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cast_low "ssa_convenience.ml" 87 2316 2320 "ssa_convenience.ml" 87 2316 2328
+)
+"ssa_convenience.ml" 249 7351 7390 "ssa_convenience.ml" 249 7351 7392
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "ssa_convenience.ml" 244 7189 7199 "ssa_convenience.ml" 244 7189 7201
+)
+"ssa_convenience.ml" 249 7351 7393 "ssa_convenience.ml" 249 7351 7394
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 248 7293 7303 "ssa_convenience.ml" 248 7293 7304
+)
+"ssa_convenience.ml" 249 7351 7381 "ssa_convenience.ml" 249 7351 7394
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 249 7351 7400 "ssa_convenience.ml" 249 7351 7401
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 248 7293 7303 "ssa_convenience.ml" 248 7293 7304
+)
+"ssa_convenience.ml" 249 7351 7365 "ssa_convenience.ml" 249 7351 7401
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 250 7405 7411 "ssa_convenience.ml" 250 7405 7412
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 249 7351 7361 "ssa_convenience.ml" 249 7351 7362
+)
+"ssa_convenience.ml" 249 7351 7357 "ssa_convenience.ml" 250 7405 7412
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 248 7293 7299 "ssa_convenience.ml" 250 7405 7412
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 247 7264 7270 "ssa_convenience.ml" 250 7405 7412
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 246 7240 7246 "ssa_convenience.ml" 250 7405 7412
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 245 7215 7221 "ssa_convenience.ml" 250 7405 7412
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 244 7189 7195 "ssa_convenience.ml" 250 7405 7412
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 243 7138 7144 "ssa_convenience.ml" 250 7405 7412
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 251 7413 7417 "ssa_convenience.ml" 251 7413 7418
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 251 7413 7422 "ssa_convenience.ml" 251 7413 7434
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 241 7088 7105 "ssa_convenience.ml" 251 7413 7434
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 253 7436 7440 "ssa_convenience.ml" 253 7436 7449
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def rm_concat "ssa_convenience.ml" 263 7770 7770 --
+)
+"ssa_convenience.ml" 254 7461 7472 "ssa_convenience.ml" 254 7461 7474
+type(
+  Ssa.exp
+)
+ident(
+  def le "ssa_convenience.ml" 255 7483 7489 "ssa_convenience.ml" 260 7654 7746
+)
+"ssa_convenience.ml" 254 7461 7476 "ssa_convenience.ml" 254 7461 7478
+type(
+  Ssa.exp
+)
+ident(
+  def re "ssa_convenience.ml" 255 7483 7489 "ssa_convenience.ml" 260 7654 7746
+)
+"ssa_convenience.ml" 254 7461 7465 "ssa_convenience.ml" 254 7461 7479
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 255 7483 7493 "ssa_convenience.ml" 255 7483 7498
+type(
+  int
+)
+"ssa_convenience.ml" 255 7483 7499 "ssa_convenience.ml" 255 7483 7504
+type(
+  int
+)
+"ssa_convenience.ml" 255 7483 7493 "ssa_convenience.ml" 255 7483 7504
+type(
+  int * int
+)
+"ssa_convenience.ml" 256 7507 7508 "ssa_convenience.ml" 256 7507 7531
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 256 7507 7533 "ssa_convenience.ml" 256 7507 7552
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 256 7507 7553 "ssa_convenience.ml" 256 7507 7555
+type(
+  Ssa.exp
+)
+ident(
+  int_ref le "ssa_convenience.ml" 254 7461 7472 "ssa_convenience.ml" 254 7461 7474
+)
+"ssa_convenience.ml" 256 7507 7532 "ssa_convenience.ml" 256 7507 7556
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 256 7507 7508 "ssa_convenience.ml" 256 7507 7556
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 257 7558 7559 "ssa_convenience.ml" 257 7558 7582
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 257 7558 7584 "ssa_convenience.ml" 257 7558 7603
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 257 7558 7604 "ssa_convenience.ml" 257 7558 7606
+type(
+  Ssa.exp
+)
+ident(
+  int_ref re "ssa_convenience.ml" 254 7461 7476 "ssa_convenience.ml" 254 7461 7478
+)
+"ssa_convenience.ml" 257 7558 7583 "ssa_convenience.ml" 257 7558 7607
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 257 7558 7559 "ssa_convenience.ml" 257 7558 7607
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 256 7507 7508 "ssa_convenience.ml" 257 7558 7607
+type(
+  int * int
+)
+"ssa_convenience.ml" 259 7617 7627 "ssa_convenience.ml" 259 7617 7629
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 259 7617 7636 "ssa_convenience.ml" 259 7617 7641
+type(
+  int
+)
+ident(
+  int_ref bitsl "ssa_convenience.ml" 255 7483 7493 "ssa_convenience.ml" 255 7483 7498
+)
+"ssa_convenience.ml" 259 7617 7642 "ssa_convenience.ml" 259 7617 7643
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ssa_convenience.ml" 259 7617 7644 "ssa_convenience.ml" 259 7617 7649
+type(
+  int
+)
+ident(
+  int_ref bitsr "ssa_convenience.ml" 255 7483 7499 "ssa_convenience.ml" 255 7483 7504
+)
+"ssa_convenience.ml" 259 7617 7635 "ssa_convenience.ml" 259 7617 7650
+type(
+  int
+)
+"ssa_convenience.ml" 259 7617 7632 "ssa_convenience.ml" 259 7617 7650
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 260 7654 7660 "ssa_convenience.ml" 260 7654 7666
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_or "ssa_convenience.ml" 46 1138 1142 "ssa_convenience.ml" 46 1138 1148
+)
+"ssa_convenience.ml" 260 7654 7669 "ssa_convenience.ml" 260 7654 7682
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cast_unsigned "ssa_convenience.ml" 90 2411 2419 "ssa_convenience.ml" 90 2411 2432
+)
+"ssa_convenience.ml" 260 7654 7683 "ssa_convenience.ml" 260 7654 7685
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "ssa_convenience.ml" 259 7617 7627 "ssa_convenience.ml" 259 7617 7629
+)
+"ssa_convenience.ml" 260 7654 7686 "ssa_convenience.ml" 260 7654 7688
+type(
+  Ssa.exp
+)
+ident(
+  int_ref le "ssa_convenience.ml" 254 7461 7472 "ssa_convenience.ml" 254 7461 7474
+)
+"ssa_convenience.ml" 260 7654 7668 "ssa_convenience.ml" 260 7654 7689
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 260 7654 7690 "ssa_convenience.ml" 260 7654 7693
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref <<* "ssa_convenience.ml" 61 1535 1539 "ssa_convenience.ml" 61 1535 1546
+)
+"ssa_convenience.ml" 260 7654 7698 "ssa_convenience.ml" 260 7654 7712
+type(
+  int -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"ssa_convenience.ml" 260 7654 7713 "ssa_convenience.ml" 260 7654 7718
+type(
+  int
+)
+ident(
+  int_ref bitsr "ssa_convenience.ml" 255 7483 7499 "ssa_convenience.ml" 255 7483 7504
+)
+"ssa_convenience.ml" 260 7654 7698 "ssa_convenience.ml" 260 7654 7718
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"ssa_convenience.ml" 260 7654 7720 "ssa_convenience.ml" 260 7654 7722
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "ssa_convenience.ml" 259 7617 7627 "ssa_convenience.ml" 259 7617 7629
+)
+"ssa_convenience.ml" 260 7654 7694 "ssa_convenience.ml" 260 7654 7723
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 260 7654 7667 "ssa_convenience.ml" 260 7654 7724
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 260 7654 7726 "ssa_convenience.ml" 260 7654 7739
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cast_unsigned "ssa_convenience.ml" 90 2411 2419 "ssa_convenience.ml" 90 2411 2432
+)
+"ssa_convenience.ml" 260 7654 7740 "ssa_convenience.ml" 260 7654 7742
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "ssa_convenience.ml" 259 7617 7627 "ssa_convenience.ml" 259 7617 7629
+)
+"ssa_convenience.ml" 260 7654 7743 "ssa_convenience.ml" 260 7654 7745
+type(
+  Ssa.exp
+)
+ident(
+  int_ref re "ssa_convenience.ml" 254 7461 7476 "ssa_convenience.ml" 254 7461 7478
+)
+"ssa_convenience.ml" 260 7654 7725 "ssa_convenience.ml" 260 7654 7746
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 260 7654 7660 "ssa_convenience.ml" 260 7654 7746
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 259 7617 7623 "ssa_convenience.ml" 260 7654 7746
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 255 7483 7489 "ssa_convenience.ml" 260 7654 7746
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 261 7747 7751 "ssa_convenience.ml" 261 7747 7752
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 261 7747 7756 "ssa_convenience.ml" 261 7747 7768
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 253 7436 7452 "ssa_convenience.ml" 261 7747 7768
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 263 7770 7774 "ssa_convenience.ml" 263 7770 7794
+type(
+  Ssa.stmt list -> Ssa.stmt
+)
+ident(
+  def last_meaningful_stmt "ssa_convenience.ml" 272 7938 7938 --
+)
+"ssa_convenience.ml" 263 7770 7795 "ssa_convenience.ml" 263 7770 7796
+type(
+  Ssa.stmt list
+)
+ident(
+  def p "ssa_convenience.ml" 264 7799 7801 "ssa_convenience.ml" 269 7919 7935
+)
+"ssa_convenience.ml" 264 7799 7809 "ssa_convenience.ml" 264 7799 7810
+type(
+  Ssa.stmt list -> Ssa.stmt
+)
+"ssa_convenience.ml" 265 7822 7836 "ssa_convenience.ml" 265 7822 7837
+type(
+  Ssa.attrs
+)
+type(
+  string
+)
+"ssa_convenience.ml" 265 7822 7828 "ssa_convenience.ml" 265 7822 7837
+type(
+  Ssa.stmt
+)
+"ssa_convenience.ml" 265 7822 7839 "ssa_convenience.ml" 265 7822 7841
+type(
+  Ssa.stmt list
+)
+ident(
+  def tl "ssa_convenience.ml" 265 7822 7845 "ssa_convenience.ml" 265 7822 7849
+)
+"ssa_convenience.ml" 265 7822 7828 "ssa_convenience.ml" 265 7822 7841
+type(
+  Ssa.stmt list
+)
+"ssa_convenience.ml" 265 7822 7845 "ssa_convenience.ml" 265 7822 7846
+type(
+  Ssa.stmt list -> Ssa.stmt
+)
+ident(
+  int_ref f "ssa_convenience.ml" 264 7799 7809 "ssa_convenience.ml" 264 7799 7810
+)
+"ssa_convenience.ml" 265 7822 7847 "ssa_convenience.ml" 265 7822 7849
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref tl "ssa_convenience.ml" 265 7822 7839 "ssa_convenience.ml" 265 7822 7841
+)
+"ssa_convenience.ml" 265 7822 7845 "ssa_convenience.ml" 265 7822 7849
+call(
+  tail
+)
+type(
+  Ssa.stmt
+)
+"ssa_convenience.ml" 266 7850 7856 "ssa_convenience.ml" 266 7850 7857
+type(
+  Ssa.stmt
+)
+ident(
+  def x "ssa_convenience.ml" 266 7850 7864 "ssa_convenience.ml" 266 7850 7865
+)
+"ssa_convenience.ml" 266 7850 7859 "ssa_convenience.ml" 266 7850 7860
+type(
+  Ssa.stmt list
+)
+"ssa_convenience.ml" 266 7850 7856 "ssa_convenience.ml" 266 7850 7860
+type(
+  Ssa.stmt list
+)
+"ssa_convenience.ml" 266 7850 7864 "ssa_convenience.ml" 266 7850 7865
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref x "ssa_convenience.ml" 266 7850 7856 "ssa_convenience.ml" 266 7850 7857
+)
+"ssa_convenience.ml" 267 7866 7872 "ssa_convenience.ml" 267 7866 7874
+type(
+  Ssa.stmt list
+)
+"ssa_convenience.ml" 267 7866 7878 "ssa_convenience.ml" 267 7866 7886
+type(
+  string -> Ssa.stmt
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ssa_convenience.ml" 267 7866 7887 "ssa_convenience.ml" 267 7866 7913
+type(
+  string
+)
+"ssa_convenience.ml" 267 7866 7878 "ssa_convenience.ml" 267 7866 7913
+call(
+  tail
+)
+type(
+  Ssa.stmt
+)
+"ssa_convenience.ml" 264 7799 7813 "ssa_convenience.ml" 267 7866 7913
+type(
+  Ssa.stmt list -> Ssa.stmt
+)
+"ssa_convenience.ml" 269 7919 7921 "ssa_convenience.ml" 269 7919 7922
+type(
+  Ssa.stmt list -> Ssa.stmt
+)
+ident(
+  int_ref f "ssa_convenience.ml" 264 7799 7809 "ssa_convenience.ml" 264 7799 7810
+)
+"ssa_convenience.ml" 269 7919 7924 "ssa_convenience.ml" 269 7919 7932
+type(
+  Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"ssa_convenience.ml" 269 7919 7933 "ssa_convenience.ml" 269 7919 7934
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref p "ssa_convenience.ml" 263 7770 7795 "ssa_convenience.ml" 263 7770 7796
+)
+"ssa_convenience.ml" 269 7919 7923 "ssa_convenience.ml" 269 7919 7935
+call(
+  stack
+)
+type(
+  Ssa.stmt list
+)
+"ssa_convenience.ml" 269 7919 7921 "ssa_convenience.ml" 269 7919 7935
+call(
+  tail
+)
+type(
+  Ssa.stmt
+)
+"ssa_convenience.ml" 264 7799 7801 "ssa_convenience.ml" 269 7919 7935
+type(
+  Ssa.stmt
+)
+"ssa_convenience.ml" 272 7938 7942 "ssa_convenience.ml" 272 7938 7954
+type(
+  signed:bool -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def min_symbolic "ssa_convenience.ml" 278 8166 8166 --
+)
+"ssa_convenience.ml" 272 7938 7956 "ssa_convenience.ml" 272 7938 7962
+type(
+  bool
+)
+ident(
+  def signed "ssa_convenience.ml" 272 7938 7963 "ssa_convenience.ml" 274 8013 8046
+)
+"ssa_convenience.ml" 272 7938 7963 "ssa_convenience.ml" 272 7938 7965
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_convenience.ml" 272 7938 7966 "ssa_convenience.ml" 274 8013 8046
+)
+"ssa_convenience.ml" 272 7938 7966 "ssa_convenience.ml" 272 7938 7968
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_convenience.ml" 273 7971 7973 "ssa_convenience.ml" 274 8013 8046
+)
+"ssa_convenience.ml" 273 7971 7977 "ssa_convenience.ml" 273 7971 7980
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 273 7971 7986 "ssa_convenience.ml" 273 7971 7992
+type(
+  bool
+)
+ident(
+  int_ref signed "ssa_convenience.ml" 272 7938 7956 "ssa_convenience.ml" 272 7938 7962
+)
+"ssa_convenience.ml" 273 7971 7998 "ssa_convenience.ml" 273 7971 8001
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 273 7971 8007 "ssa_convenience.ml" 273 7971 8009
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 273 7971 7983 "ssa_convenience.ml" 273 7971 8009
+type(
+  Type.binop_type
+)
+"ssa_convenience.ml" 274 8013 8015 "ssa_convenience.ml" 274 8013 8022
+type(
+  ?t:Type.typ -> Ssa.exp -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref exp_ite "ssa_convenience.ml" 102 2835 2839 "ssa_convenience.ml" 102 2835 2846
+)
+"ssa_convenience.ml" 274 8013 8024 "ssa_convenience.ml" 274 8013 8029
+type(
+  Type.binop_type -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref binop "ssa_convenience.ml" 15 287 291 "ssa_convenience.ml" 15 287 296
+)
+"ssa_convenience.ml" 274 8013 8030 "ssa_convenience.ml" 274 8013 8033
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ssa_convenience.ml" 273 7971 7977 "ssa_convenience.ml" 273 7971 7980
+)
+"ssa_convenience.ml" 274 8013 8034 "ssa_convenience.ml" 274 8013 8036
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 272 7938 7963 "ssa_convenience.ml" 272 7938 7965
+)
+"ssa_convenience.ml" 274 8013 8037 "ssa_convenience.ml" 274 8013 8039
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 272 7938 7966 "ssa_convenience.ml" 272 7938 7968
+)
+"ssa_convenience.ml" 274 8013 8023 "ssa_convenience.ml" 274 8013 8040
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 274 8013 8041 "ssa_convenience.ml" 274 8013 8043
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_convenience.ml" 272 7938 7963 "ssa_convenience.ml" 272 7938 7965
+)
+"ssa_convenience.ml" 274 8013 8044 "ssa_convenience.ml" 274 8013 8046
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_convenience.ml" 272 7938 7966 "ssa_convenience.ml" 272 7938 7968
+)
+"ssa_convenience.ml" 274 8013 8015 "ssa_convenience.ml" 274 8013 8046
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 273 7971 7973 "ssa_convenience.ml" 274 8013 8046
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 278 8166 8170 "ssa_convenience.ml" 278 8166 8185
+type(
+  Type.typ -> Ssa.exp -> int -> Ssa.exp
+)
+ident(
+  def extract_element "ssa_convenience.ml" 284 8384 8384 --
+)
+"ssa_convenience.ml" 278 8166 8186 "ssa_convenience.ml" 278 8166 8187
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 278 8166 8188 "ssa_convenience.ml" 280 8237 8278
+)
+"ssa_convenience.ml" 278 8166 8188 "ssa_convenience.ml" 278 8166 8189
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 278 8166 8190 "ssa_convenience.ml" 280 8237 8278
+)
+"ssa_convenience.ml" 278 8166 8190 "ssa_convenience.ml" 278 8166 8191
+type(
+  int
+)
+ident(
+  def n "ssa_convenience.ml" 279 8194 8196 "ssa_convenience.ml" 280 8237 8278
+)
+"ssa_convenience.ml" 279 8194 8200 "ssa_convenience.ml" 279 8194 8205
+type(
+  int
+)
+"ssa_convenience.ml" 279 8194 8208 "ssa_convenience.ml" 279 8194 8231
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 279 8194 8232 "ssa_convenience.ml" 279 8194 8233
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 278 8166 8186 "ssa_convenience.ml" 278 8166 8187
+)
+"ssa_convenience.ml" 279 8194 8208 "ssa_convenience.ml" 279 8194 8233
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 280 8237 8239 "ssa_convenience.ml" 280 8237 8246
+type(
+  int -> int -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref extract "ssa_convenience.ml" 35 816 820 "ssa_convenience.ml" 35 816 827
+)
+"ssa_convenience.ml" 280 8237 8248 "ssa_convenience.ml" 280 8237 8249
+type(
+  int
+)
+ident(
+  int_ref n "ssa_convenience.ml" 278 8166 8190 "ssa_convenience.ml" 278 8166 8191
+)
+"ssa_convenience.ml" 280 8237 8249 "ssa_convenience.ml" 280 8237 8250
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"ssa_convenience.ml" 280 8237 8250 "ssa_convenience.ml" 280 8237 8255
+type(
+  int
+)
+ident(
+  int_ref nbits "ssa_convenience.ml" 279 8194 8200 "ssa_convenience.ml" 279 8194 8205
+)
+"ssa_convenience.ml" 280 8237 8248 "ssa_convenience.ml" 280 8237 8255
+type(
+  int
+)
+"ssa_convenience.ml" 280 8237 8255 "ssa_convenience.ml" 280 8237 8256
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ssa_convenience.ml" 280 8237 8257 "ssa_convenience.ml" 280 8237 8262
+type(
+  int
+)
+ident(
+  int_ref nbits "ssa_convenience.ml" 279 8194 8200 "ssa_convenience.ml" 279 8194 8205
+)
+"ssa_convenience.ml" 280 8237 8262 "ssa_convenience.ml" 280 8237 8263
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ssa_convenience.ml" 280 8237 8263 "ssa_convenience.ml" 280 8237 8264
+type(
+  int
+)
+"ssa_convenience.ml" 280 8237 8256 "ssa_convenience.ml" 280 8237 8265
+type(
+  int
+)
+"ssa_convenience.ml" 280 8237 8247 "ssa_convenience.ml" 280 8237 8266
+type(
+  int
+)
+"ssa_convenience.ml" 280 8237 8268 "ssa_convenience.ml" 280 8237 8269
+type(
+  int
+)
+ident(
+  int_ref n "ssa_convenience.ml" 278 8166 8190 "ssa_convenience.ml" 278 8166 8191
+)
+"ssa_convenience.ml" 280 8237 8269 "ssa_convenience.ml" 280 8237 8270
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"ssa_convenience.ml" 280 8237 8270 "ssa_convenience.ml" 280 8237 8275
+type(
+  int
+)
+ident(
+  int_ref nbits "ssa_convenience.ml" 279 8194 8200 "ssa_convenience.ml" 279 8194 8205
+)
+"ssa_convenience.ml" 280 8237 8267 "ssa_convenience.ml" 280 8237 8276
+type(
+  int
+)
+"ssa_convenience.ml" 280 8237 8277 "ssa_convenience.ml" 280 8237 8278
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 278 8166 8188 "ssa_convenience.ml" 278 8166 8189
+)
+"ssa_convenience.ml" 280 8237 8239 "ssa_convenience.ml" 280 8237 8278
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 279 8194 8196 "ssa_convenience.ml" 280 8237 8278
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 284 8384 8388 "ssa_convenience.ml" 284 8384 8400
+type(
+  Ssa.exp -> int -> Ssa.exp
+)
+ident(
+  def extract_byte "ssa_convenience.ml" 288 8543 8543 --
+)
+"ssa_convenience.ml" 284 8384 8401 "ssa_convenience.ml" 284 8384 8402
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 284 8384 8403 "ssa_convenience.ml" 284 8384 8432
+)
+"ssa_convenience.ml" 284 8384 8403 "ssa_convenience.ml" 284 8384 8404
+type(
+  int
+)
+ident(
+  def n "ssa_convenience.ml" 284 8384 8407 "ssa_convenience.ml" 284 8384 8432
+)
+"ssa_convenience.ml" 284 8384 8407 "ssa_convenience.ml" 284 8384 8422
+type(
+  Type.typ -> Ssa.exp -> int -> Ssa.exp
+)
+ident(
+  int_ref extract_element "ssa_convenience.ml" 278 8166 8170 "ssa_convenience.ml" 278 8166 8185
+)
+"ssa_convenience.ml" 284 8384 8423 "ssa_convenience.ml" 284 8384 8428
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"ssa_convenience.ml" 284 8384 8429 "ssa_convenience.ml" 284 8384 8430
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 284 8384 8401 "ssa_convenience.ml" 284 8384 8402
+)
+"ssa_convenience.ml" 284 8384 8431 "ssa_convenience.ml" 284 8384 8432
+type(
+  int
+)
+ident(
+  int_ref n "ssa_convenience.ml" 284 8384 8403 "ssa_convenience.ml" 284 8384 8404
+)
+"ssa_convenience.ml" 284 8384 8407 "ssa_convenience.ml" 284 8384 8432
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 288 8543 8547 "ssa_convenience.ml" 288 8543 8571
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def extract_element_symbolic "ssa_convenience.ml" 294 8777 8777 --
+)
+"ssa_convenience.ml" 288 8543 8572 "ssa_convenience.ml" 288 8543 8573
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_convenience.ml" 288 8543 8574 "ssa_convenience.ml" 290 8616 8679
+)
+"ssa_convenience.ml" 288 8543 8574 "ssa_convenience.ml" 288 8543 8575
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 288 8543 8576 "ssa_convenience.ml" 290 8616 8679
+)
+"ssa_convenience.ml" 288 8543 8576 "ssa_convenience.ml" 288 8543 8577
+type(
+  Ssa.exp
+)
+ident(
+  def n "ssa_convenience.ml" 289 8580 8582 "ssa_convenience.ml" 290 8616 8679
+)
+"ssa_convenience.ml" 289 8580 8586 "ssa_convenience.ml" 289 8580 8588
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 289 8580 8591 "ssa_convenience.ml" 289 8580 8610
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 289 8580 8611 "ssa_convenience.ml" 289 8580 8612
+type(
+  Ssa.exp
+)
+ident(
+  int_ref n "ssa_convenience.ml" 288 8543 8576 "ssa_convenience.ml" 288 8543 8577
+)
+"ssa_convenience.ml" 289 8580 8591 "ssa_convenience.ml" 289 8580 8612
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 290 8616 8618 "ssa_convenience.ml" 290 8616 8626
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cast_low "ssa_convenience.ml" 87 2316 2320 "ssa_convenience.ml" 87 2316 2328
+)
+"ssa_convenience.ml" 290 8616 8627 "ssa_convenience.ml" 290 8616 8628
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 288 8543 8572 "ssa_convenience.ml" 288 8543 8573
+)
+"ssa_convenience.ml" 290 8616 8630 "ssa_convenience.ml" 290 8616 8631
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 288 8543 8574 "ssa_convenience.ml" 288 8543 8575
+)
+"ssa_convenience.ml" 290 8616 8632 "ssa_convenience.ml" 290 8616 8635
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref >>* "ssa_convenience.ml" 62 1571 1575 "ssa_convenience.ml" 62 1571 1582
+)
+"ssa_convenience.ml" 290 8616 8637 "ssa_convenience.ml" 290 8616 8638
+type(
+  Ssa.exp
+)
+ident(
+  int_ref n "ssa_convenience.ml" 288 8543 8576 "ssa_convenience.ml" 288 8543 8577
+)
+"ssa_convenience.ml" 290 8616 8639 "ssa_convenience.ml" 290 8616 8641
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref ** "ssa_convenience.ml" 60 1500 1504 "ssa_convenience.ml" 60 1500 1510
+)
+"ssa_convenience.ml" 290 8616 8643 "ssa_convenience.ml" 290 8616 8645
+type(
+  int -> Type.typ -> Ssa.exp
+)
+ident(
+  int_ref it "ssa_convenience.ml" 100 2803 2807 "ssa_convenience.ml" 100 2803 2809
+)
+"ssa_convenience.ml" 290 8616 8647 "ssa_convenience.ml" 290 8616 8670
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_convenience.ml" 290 8616 8671 "ssa_convenience.ml" 290 8616 8672
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_convenience.ml" 288 8543 8572 "ssa_convenience.ml" 288 8543 8573
+)
+"ssa_convenience.ml" 290 8616 8646 "ssa_convenience.ml" 290 8616 8673
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 290 8616 8674 "ssa_convenience.ml" 290 8616 8676
+type(
+  Type.typ
+)
+ident(
+  int_ref et "ssa_convenience.ml" 289 8580 8586 "ssa_convenience.ml" 289 8580 8588
+)
+"ssa_convenience.ml" 290 8616 8642 "ssa_convenience.ml" 290 8616 8677
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 290 8616 8636 "ssa_convenience.ml" 290 8616 8678
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 290 8616 8629 "ssa_convenience.ml" 290 8616 8679
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 290 8616 8618 "ssa_convenience.ml" 290 8616 8679
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 289 8580 8582 "ssa_convenience.ml" 290 8616 8679
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 294 8777 8781 "ssa_convenience.ml" 294 8777 8802
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def extract_byte_symbolic "ssa_convenience.ml" 296 8845 8845 --
+)
+"ssa_convenience.ml" 294 8777 8803 "ssa_convenience.ml" 294 8777 8804
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 294 8777 8805 "ssa_convenience.ml" 294 8777 8843
+)
+"ssa_convenience.ml" 294 8777 8805 "ssa_convenience.ml" 294 8777 8806
+type(
+  Ssa.exp
+)
+ident(
+  def n "ssa_convenience.ml" 294 8777 8809 "ssa_convenience.ml" 294 8777 8843
+)
+"ssa_convenience.ml" 294 8777 8809 "ssa_convenience.ml" 294 8777 8833
+type(
+  Type.typ -> Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref extract_element_symbolic "ssa_convenience.ml" 288 8543 8547 "ssa_convenience.ml" 288 8543 8571
+)
+"ssa_convenience.ml" 294 8777 8834 "ssa_convenience.ml" 294 8777 8839
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"ssa_convenience.ml" 294 8777 8840 "ssa_convenience.ml" 294 8777 8841
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 294 8777 8803 "ssa_convenience.ml" 294 8777 8804
+)
+"ssa_convenience.ml" 294 8777 8842 "ssa_convenience.ml" 294 8777 8843
+type(
+  Ssa.exp
+)
+ident(
+  int_ref n "ssa_convenience.ml" 294 8777 8805 "ssa_convenience.ml" 294 8777 8806
+)
+"ssa_convenience.ml" 294 8777 8809 "ssa_convenience.ml" 294 8777 8843
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 296 8845 8849 "ssa_convenience.ml" 296 8845 8862
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def reverse_bytes "ssa_convenience.ml" 304 9097 9097 --
+)
+"ssa_convenience.ml" 296 8845 8863 "ssa_convenience.ml" 296 8845 8864
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 297 8867 8869 "ssa_convenience.ml" 301 9012 9047
+)
+"ssa_convenience.ml" 297 8867 8873 "ssa_convenience.ml" 297 8867 8878
+type(
+  int
+)
+"ssa_convenience.ml" 297 8867 8881 "ssa_convenience.ml" 297 8867 8905
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bytes_of_width
+)
+"ssa_convenience.ml" 297 8867 8907 "ssa_convenience.ml" 297 8867 8926
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_convenience.ml" 297 8867 8927 "ssa_convenience.ml" 297 8867 8928
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 296 8845 8863 "ssa_convenience.ml" 296 8845 8864
+)
+"ssa_convenience.ml" 297 8867 8906 "ssa_convenience.ml" 297 8867 8929
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_convenience.ml" 297 8867 8881 "ssa_convenience.ml" 297 8867 8929
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_convenience.ml" 298 8933 8939 "ssa_convenience.ml" 298 8933 8947
+type(
+  int -> Ssa.exp
+)
+"ssa_convenience.ml" 298 8933 8948 "ssa_convenience.ml" 298 8933 8949
+type(
+  int
+)
+ident(
+  def n "ssa_convenience.ml" 298 8933 8952 "ssa_convenience.ml" 298 8933 8968
+)
+"ssa_convenience.ml" 298 8933 8952 "ssa_convenience.ml" 298 8933 8964
+type(
+  Ssa.exp -> int -> Ssa.exp
+)
+ident(
+  int_ref extract_byte "ssa_convenience.ml" 284 8384 8388 "ssa_convenience.ml" 284 8384 8400
+)
+"ssa_convenience.ml" 298 8933 8965 "ssa_convenience.ml" 298 8933 8966
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 296 8845 8863 "ssa_convenience.ml" 296 8845 8864
+)
+"ssa_convenience.ml" 298 8933 8967 "ssa_convenience.ml" 298 8933 8968
+type(
+  int
+)
+ident(
+  int_ref n "ssa_convenience.ml" 298 8933 8948 "ssa_convenience.ml" 298 8933 8949
+)
+"ssa_convenience.ml" 298 8933 8952 "ssa_convenience.ml" 298 8933 8968
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 299 8972 8974 "ssa_convenience.ml" 299 8972 8980
+type(
+  (Ssa.exp -> Ssa.exp -> Ssa.exp) -> Ssa.exp BatEnum.t -> Ssa.exp
+)
+ident(
+  ext_ref BatPervasives.reduce
+)
+"ssa_convenience.ml" 300 8981 8990 "ssa_convenience.ml" 300 8981 8994
+type(
+  Ssa.exp
+)
+ident(
+  def bige "ssa_convenience.ml" 300 8981 8995 "ssa_convenience.ml" 300 8981 9010
+)
+"ssa_convenience.ml" 300 8981 8995 "ssa_convenience.ml" 300 8981 8996
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_convenience.ml" 300 8981 9000 "ssa_convenience.ml" 300 8981 9010
+)
+"ssa_convenience.ml" 300 8981 9000 "ssa_convenience.ml" 300 8981 9004
+type(
+  Ssa.exp
+)
+ident(
+  int_ref bige "ssa_convenience.ml" 300 8981 8990 "ssa_convenience.ml" 300 8981 8994
+)
+"ssa_convenience.ml" 300 8981 9005 "ssa_convenience.ml" 300 8981 9008
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref ++* "ssa_convenience.ml" 76 2004 2008 "ssa_convenience.ml" 76 2004 2015
+)
+"ssa_convenience.ml" 300 8981 9009 "ssa_convenience.ml" 300 8981 9010
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_convenience.ml" 300 8981 8995 "ssa_convenience.ml" 300 8981 8996
+)
+"ssa_convenience.ml" 300 8981 9000 "ssa_convenience.ml" 300 8981 9010
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 300 8981 8985 "ssa_convenience.ml" 300 8981 9011
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 301 9012 9017 "ssa_convenience.ml" 301 9012 9020
+type(
+  (int -> Ssa.exp) -> int BatEnum.t -> Ssa.exp BatEnum.t
+)
+ident(
+  ext_ref BatPervasives.map
+)
+"ssa_convenience.ml" 301 9012 9021 "ssa_convenience.ml" 301 9012 9029
+type(
+  int -> Ssa.exp
+)
+ident(
+  int_ref get_byte "ssa_convenience.ml" 298 8933 8939 "ssa_convenience.ml" 298 8933 8947
+)
+"ssa_convenience.ml" 301 9012 9031 "ssa_convenience.ml" 301 9012 9032
+type(
+  int
+)
+"ssa_convenience.ml" 301 9012 9033 "ssa_convenience.ml" 301 9012 9035
+type(
+  int -> int -> int BatEnum.t
+)
+ident(
+  ext_ref BatPervasives.( -- )
+)
+"ssa_convenience.ml" 301 9012 9037 "ssa_convenience.ml" 301 9012 9042
+type(
+  int
+)
+ident(
+  int_ref bytes "ssa_convenience.ml" 297 8867 8873 "ssa_convenience.ml" 297 8867 8878
+)
+"ssa_convenience.ml" 301 9012 9042 "ssa_convenience.ml" 301 9012 9043
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ssa_convenience.ml" 301 9012 9043 "ssa_convenience.ml" 301 9012 9044
+type(
+  int
+)
+"ssa_convenience.ml" 301 9012 9036 "ssa_convenience.ml" 301 9012 9045
+type(
+  int
+)
+"ssa_convenience.ml" 301 9012 9030 "ssa_convenience.ml" 301 9012 9046
+call(
+  stack
+)
+type(
+  int BatEnum.t
+)
+"ssa_convenience.ml" 301 9012 9016 "ssa_convenience.ml" 301 9012 9047
+call(
+  stack
+)
+type(
+  Ssa.exp BatEnum.t
+)
+"ssa_convenience.ml" 299 8972 8974 "ssa_convenience.ml" 301 9012 9047
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 298 8933 8935 "ssa_convenience.ml" 301 9012 9047
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 297 8867 8869 "ssa_convenience.ml" 301 9012 9047
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 304 9097 9101 "ssa_convenience.ml" 304 9097 9115
+type(
+  Ssa.exp BatEnum.t -> Ssa.exp
+)
+ident(
+  def concat_explist "ssa_convenience.ml" 306 9133 9163 --
+)
+"ssa_convenience.ml" 304 9097 9116 "ssa_convenience.ml" 304 9097 9121
+type(
+  Ssa.exp BatEnum.t
+)
+ident(
+  def elist "ssa_convenience.ml" 305 9124 9126 "ssa_convenience.ml" 306 9133 9163
+)
+"ssa_convenience.ml" 305 9124 9126 "ssa_convenience.ml" 305 9124 9132
+type(
+  (Ssa.exp -> Ssa.exp -> Ssa.exp) -> Ssa.exp BatEnum.t -> Ssa.exp
+)
+ident(
+  ext_ref BatPervasives.reduce
+)
+"ssa_convenience.ml" 306 9133 9142 "ssa_convenience.ml" 306 9133 9143
+type(
+  Ssa.exp
+)
+ident(
+  def l "ssa_convenience.ml" 306 9133 9144 "ssa_convenience.ml" 306 9133 9156
+)
+"ssa_convenience.ml" 306 9133 9144 "ssa_convenience.ml" 306 9133 9145
+type(
+  Ssa.exp
+)
+ident(
+  def r "ssa_convenience.ml" 306 9133 9149 "ssa_convenience.ml" 306 9133 9156
+)
+"ssa_convenience.ml" 306 9133 9149 "ssa_convenience.ml" 306 9133 9150
+type(
+  Ssa.exp
+)
+ident(
+  int_ref l "ssa_convenience.ml" 306 9133 9142 "ssa_convenience.ml" 306 9133 9143
+)
+"ssa_convenience.ml" 306 9133 9151 "ssa_convenience.ml" 306 9133 9154
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref ++* "ssa_convenience.ml" 76 2004 2008 "ssa_convenience.ml" 76 2004 2015
+)
+"ssa_convenience.ml" 306 9133 9155 "ssa_convenience.ml" 306 9133 9156
+type(
+  Ssa.exp
+)
+ident(
+  int_ref r "ssa_convenience.ml" 306 9133 9144 "ssa_convenience.ml" 306 9133 9145
+)
+"ssa_convenience.ml" 306 9133 9149 "ssa_convenience.ml" 306 9133 9156
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_convenience.ml" 306 9133 9137 "ssa_convenience.ml" 306 9133 9157
+type(
+  Ssa.exp -> Ssa.exp -> Ssa.exp
+)
+"ssa_convenience.ml" 306 9133 9158 "ssa_convenience.ml" 306 9133 9163
+type(
+  Ssa.exp BatEnum.t
+)
+ident(
+  int_ref elist "ssa_convenience.ml" 304 9097 9116 "ssa_convenience.ml" 304 9097 9121
+)
+"ssa_convenience.ml" 305 9124 9126 "ssa_convenience.ml" 306 9133 9163
+call(
+  tail
+)
+type(
+  Ssa.exp
+)

@@ -1,0 +1,3080 @@
+"src/topological.ml" 27 1422 1437 "src/topological.ml" 27 1422 1455
+call(
+  stack
+)
+"src/topological.ml" 29 1457 1463 "src/topological.ml" 29 1457 1467
+type(
+  (G.V.t -> 'a -> 'a) -> G.t -> 'a -> 'a
+)
+ident(
+  def fold "src/topological.ml" 67 2559 2561 "src/topological.ml" 69 2605 2608
+)
+"src/topological.ml" 29 1457 1468 "src/topological.ml" 29 1457 1469
+type(
+  G.V.t -> 'a -> 'a
+)
+ident(
+  def f "src/topological.ml" 29 1457 1470 "src/topological.ml" 65 2545 2557
+)
+"src/topological.ml" 29 1457 1470 "src/topological.ml" 29 1457 1471
+type(
+  G.t
+)
+ident(
+  def g "src/topological.ml" 29 1457 1472 "src/topological.ml" 65 2545 2557
+)
+"src/topological.ml" 29 1457 1472 "src/topological.ml" 29 1457 1475
+type(
+  'a
+)
+ident(
+  def acc "src/topological.ml" 31 1537 1541 "src/topological.ml" 65 2545 2557
+)
+"src/topological.ml" 31 1537 1545 "src/topological.ml" 31 1537 1546
+type(
+  int
+)
+"src/topological.ml" 31 1537 1548 "src/topological.ml" 31 1537 1551
+type(
+  G.V.t -> int
+)
+"src/topological.ml" 31 1537 1545 "src/topological.ml" 31 1537 1551
+type(
+  int * (G.V.t -> int)
+)
+"src/topological.ml" 31 1537 1554 "src/topological.ml" 31 1537 1561
+type(
+  G.t -> int * (G.V.t -> int)
+)
+ident(
+  ext_ref Scc.scc
+)
+"src/topological.ml" 31 1537 1562 "src/topological.ml" 31 1537 1563
+type(
+  G.t
+)
+ident(
+  int_ref g "src/topological.ml" 29 1457 1470 "src/topological.ml" 29 1457 1471
+)
+"src/topological.ml" 31 1537 1554 "src/topological.ml" 31 1537 1563
+call(
+  stack
+)
+type(
+  int * (G.V.t -> int)
+)
+"src/topological.ml" 32 1567 1575 "src/topological.ml" 32 1567 1583
+type(
+  G.V.t list array
+)
+"src/topological.ml" 32 1567 1586 "src/topological.ml" 32 1567 1596
+type(
+  int -> G.V.t list -> G.V.t list array
+)
+ident(
+  ext_ref Array.make
+)
+"src/topological.ml" 32 1567 1597 "src/topological.ml" 32 1567 1598
+type(
+  int
+)
+ident(
+  int_ref n "src/topological.ml" 31 1537 1545 "src/topological.ml" 31 1537 1546
+)
+"src/topological.ml" 32 1567 1599 "src/topological.ml" 32 1567 1601
+type(
+  G.V.t list
+)
+"src/topological.ml" 32 1567 1586 "src/topological.ml" 32 1567 1601
+type(
+  G.V.t list array
+)
+"src/topological.ml" 33 1605 1613 "src/topological.ml" 33 1605 1618
+type(
+  int list array
+)
+"src/topological.ml" 33 1605 1621 "src/topological.ml" 33 1605 1631
+type(
+  int -> int list -> int list array
+)
+ident(
+  ext_ref Array.make
+)
+"src/topological.ml" 33 1605 1632 "src/topological.ml" 33 1605 1633
+type(
+  int
+)
+ident(
+  int_ref n "src/topological.ml" 31 1537 1545 "src/topological.ml" 31 1537 1546
+)
+"src/topological.ml" 33 1605 1634 "src/topological.ml" 33 1605 1636
+type(
+  int list
+)
+"src/topological.ml" 33 1605 1621 "src/topological.ml" 33 1605 1636
+type(
+  int list array
+)
+"src/topological.ml" 34 1640 1648 "src/topological.ml" 34 1640 1654
+type(
+  int array
+)
+"src/topological.ml" 34 1640 1657 "src/topological.ml" 34 1640 1667
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.make
+)
+"src/topological.ml" 34 1640 1668 "src/topological.ml" 34 1640 1669
+type(
+  int
+)
+ident(
+  int_ref n "src/topological.ml" 31 1537 1545 "src/topological.ml" 31 1537 1546
+)
+"src/topological.ml" 34 1640 1670 "src/topological.ml" 34 1640 1671
+type(
+  int
+)
+"src/topological.ml" 34 1640 1657 "src/topological.ml" 34 1640 1671
+type(
+  int array
+)
+"src/topological.ml" 35 1691 1699 "src/topological.ml" 35 1691 1709
+type(
+  G.V.t -> unit
+)
+"src/topological.ml" 35 1691 1710 "src/topological.ml" 35 1691 1711
+type(
+  G.V.t
+)
+ident(
+  def x "src/topological.ml" 36 1714 1720 "src/topological.ml" 45 1965 1995
+)
+"src/topological.ml" 36 1714 1724 "src/topological.ml" 36 1714 1726
+type(
+  int
+)
+"src/topological.ml" 36 1714 1729 "src/topological.ml" 36 1714 1732
+type(
+  G.V.t -> int
+)
+ident(
+  int_ref scc "src/topological.ml" 31 1537 1548 "src/topological.ml" 31 1537 1551
+)
+"src/topological.ml" 36 1714 1733 "src/topological.ml" 36 1714 1734
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/topological.ml" 35 1691 1710 "src/topological.ml" 35 1691 1711
+)
+"src/topological.ml" 36 1714 1729 "src/topological.ml" 36 1714 1734
+call(
+  stack
+)
+type(
+  int
+)
+"src/topological.ml" 37 1738 1744 "src/topological.ml" 37 1738 1752
+type(
+  G.V.t list array
+)
+ident(
+  int_ref vertices "src/topological.ml" 32 1567 1575 "src/topological.ml" 32 1567 1583
+)
+"src/topological.ml" 37 1738 1754 "src/topological.ml" 37 1738 1756
+type(
+  int
+)
+ident(
+  int_ref ix "src/topological.ml" 36 1714 1724 "src/topological.ml" 36 1714 1726
+)
+"src/topological.ml" 37 1738 1761 "src/topological.ml" 37 1738 1762
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/topological.ml" 35 1691 1710 "src/topological.ml" 35 1691 1711
+)
+"src/topological.ml" 37 1738 1766 "src/topological.ml" 37 1738 1774
+type(
+  G.V.t list array
+)
+ident(
+  int_ref vertices "src/topological.ml" 32 1567 1575 "src/topological.ml" 32 1567 1583
+)
+"src/topological.ml" 37 1738 1776 "src/topological.ml" 37 1738 1778
+type(
+  int
+)
+ident(
+  int_ref ix "src/topological.ml" 36 1714 1724 "src/topological.ml" 36 1714 1726
+)
+"src/topological.ml" 37 1738 1766 "src/topological.ml" 37 1738 1779
+type(
+  G.V.t list
+)
+"src/topological.ml" 37 1738 1761 "src/topological.ml" 37 1738 1779
+type(
+  G.V.t list
+)
+"src/topological.ml" 37 1738 1744 "src/topological.ml" 37 1738 1779
+type(
+  unit
+)
+"src/topological.ml" 38 1781 1791 "src/topological.ml" 38 1781 1799
+type(
+  G.V.t -> unit
+)
+"src/topological.ml" 38 1781 1800 "src/topological.ml" 38 1781 1801
+type(
+  G.V.t
+)
+ident(
+  def y "src/topological.ml" 39 1804 1812 "src/topological.ml" 43 1944 1955
+)
+"src/topological.ml" 39 1804 1816 "src/topological.ml" 39 1804 1818
+type(
+  int
+)
+"src/topological.ml" 39 1804 1821 "src/topological.ml" 39 1804 1824
+type(
+  G.V.t -> int
+)
+ident(
+  int_ref scc "src/topological.ml" 31 1537 1548 "src/topological.ml" 31 1537 1551
+)
+"src/topological.ml" 39 1804 1825 "src/topological.ml" 39 1804 1826
+type(
+  G.V.t
+)
+ident(
+  int_ref y "src/topological.ml" 38 1781 1800 "src/topological.ml" 38 1781 1801
+)
+"src/topological.ml" 39 1804 1821 "src/topological.ml" 39 1804 1826
+call(
+  stack
+)
+type(
+  int
+)
+"src/topological.ml" 40 1830 1841 "src/topological.ml" 40 1830 1843
+type(
+  int
+)
+ident(
+  int_ref ix "src/topological.ml" 36 1714 1724 "src/topological.ml" 36 1714 1726
+)
+"src/topological.ml" 40 1830 1844 "src/topological.ml" 40 1830 1846
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/topological.ml" 40 1830 1847 "src/topological.ml" 40 1830 1849
+type(
+  int
+)
+ident(
+  int_ref iy "src/topological.ml" 39 1804 1816 "src/topological.ml" 39 1804 1818
+)
+"src/topological.ml" 40 1830 1841 "src/topological.ml" 40 1830 1849
+type(
+  bool
+)
+"src/topological.ml" 41 1861 1871 "src/topological.ml" 41 1861 1876
+type(
+  int list array
+)
+ident(
+  int_ref edges "src/topological.ml" 33 1605 1613 "src/topological.ml" 33 1605 1618
+)
+"src/topological.ml" 41 1861 1878 "src/topological.ml" 41 1861 1880
+type(
+  int
+)
+ident(
+  int_ref ix "src/topological.ml" 36 1714 1724 "src/topological.ml" 36 1714 1726
+)
+"src/topological.ml" 41 1861 1885 "src/topological.ml" 41 1861 1887
+type(
+  int
+)
+ident(
+  int_ref iy "src/topological.ml" 39 1804 1816 "src/topological.ml" 39 1804 1818
+)
+"src/topological.ml" 41 1861 1891 "src/topological.ml" 41 1861 1896
+type(
+  int list array
+)
+ident(
+  int_ref edges "src/topological.ml" 33 1605 1613 "src/topological.ml" 33 1605 1618
+)
+"src/topological.ml" 41 1861 1898 "src/topological.ml" 41 1861 1900
+type(
+  int
+)
+ident(
+  int_ref ix "src/topological.ml" 36 1714 1724 "src/topological.ml" 36 1714 1726
+)
+"src/topological.ml" 41 1861 1891 "src/topological.ml" 41 1861 1901
+type(
+  int list
+)
+"src/topological.ml" 41 1861 1885 "src/topological.ml" 41 1861 1901
+type(
+  int list
+)
+"src/topological.ml" 41 1861 1871 "src/topological.ml" 41 1861 1901
+type(
+  unit
+)
+"src/topological.ml" 42 1903 1913 "src/topological.ml" 42 1903 1919
+type(
+  int array
+)
+ident(
+  int_ref degree "src/topological.ml" 34 1640 1648 "src/topological.ml" 34 1640 1654
+)
+"src/topological.ml" 42 1903 1921 "src/topological.ml" 42 1903 1923
+type(
+  int
+)
+ident(
+  int_ref iy "src/topological.ml" 39 1804 1816 "src/topological.ml" 39 1804 1818
+)
+"src/topological.ml" 42 1903 1928 "src/topological.ml" 42 1903 1934
+type(
+  int array
+)
+ident(
+  int_ref degree "src/topological.ml" 34 1640 1648 "src/topological.ml" 34 1640 1654
+)
+"src/topological.ml" 42 1903 1936 "src/topological.ml" 42 1903 1938
+type(
+  int
+)
+ident(
+  int_ref iy "src/topological.ml" 39 1804 1816 "src/topological.ml" 39 1804 1818
+)
+"src/topological.ml" 42 1903 1928 "src/topological.ml" 42 1903 1939
+type(
+  int
+)
+"src/topological.ml" 42 1903 1940 "src/topological.ml" 42 1903 1941
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/topological.ml" 42 1903 1942 "src/topological.ml" 42 1903 1943
+type(
+  int
+)
+"src/topological.ml" 42 1903 1928 "src/topological.ml" 42 1903 1943
+type(
+  int
+)
+"src/topological.ml" 42 1903 1913 "src/topological.ml" 42 1903 1943
+type(
+  unit
+)
+"src/topological.ml" 40 1830 1855 "src/topological.ml" 43 1944 1955
+type(
+  unit
+)
+"src/topological.ml" 40 1830 1838 "src/topological.ml" 43 1944 1955
+type(
+  unit
+)
+"src/topological.ml" 39 1804 1812 "src/topological.ml" 43 1944 1955
+type(
+  unit
+)
+"src/topological.ml" 45 1965 1971 "src/topological.ml" 45 1965 1982
+type(
+  (G.V.t -> unit) -> G.t -> G.V.t -> unit
+)
+ident(
+  ext_ref G.iter_succ
+)
+"src/topological.ml" 45 1965 1983 "src/topological.ml" 45 1965 1991
+type(
+  G.V.t -> unit
+)
+ident(
+  int_ref add_edge "src/topological.ml" 38 1781 1791 "src/topological.ml" 38 1781 1799
+)
+"src/topological.ml" 45 1965 1992 "src/topological.ml" 45 1965 1993
+type(
+  G.t
+)
+ident(
+  int_ref g "src/topological.ml" 29 1457 1470 "src/topological.ml" 29 1457 1471
+)
+"src/topological.ml" 45 1965 1994 "src/topological.ml" 45 1965 1995
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/topological.ml" 35 1691 1710 "src/topological.ml" 35 1691 1711
+)
+"src/topological.ml" 45 1965 1971 "src/topological.ml" 45 1965 1995
+call(
+  tail
+)
+type(
+  unit
+)
+"src/topological.ml" 38 1781 1787 "src/topological.ml" 45 1965 1995
+type(
+  unit
+)
+"src/topological.ml" 37 1738 1744 "src/topological.ml" 45 1965 1995
+type(
+  unit
+)
+"src/topological.ml" 36 1714 1720 "src/topological.ml" 45 1965 1995
+type(
+  unit
+)
+"src/topological.ml" 47 2003 2007 "src/topological.ml" 47 2003 2020
+type(
+  (G.V.t -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref G.iter_vertex
+)
+"src/topological.ml" 47 2003 2021 "src/topological.ml" 47 2003 2031
+type(
+  G.V.t -> unit
+)
+ident(
+  int_ref add_vertex "src/topological.ml" 35 1691 1699 "src/topological.ml" 35 1691 1709
+)
+"src/topological.ml" 47 2003 2032 "src/topological.ml" 47 2003 2033
+type(
+  G.t
+)
+ident(
+  int_ref g "src/topological.ml" 29 1457 1470 "src/topological.ml" 29 1457 1471
+)
+"src/topological.ml" 47 2003 2007 "src/topological.ml" 47 2003 2033
+call(
+  stack
+)
+type(
+  unit
+)
+"src/topological.ml" 49 2080 2088 "src/topological.ml" 49 2080 2092
+type(
+  int Queue.t
+)
+"src/topological.ml" 49 2080 2095 "src/topological.ml" 49 2080 2107
+type(
+  unit -> int Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"src/topological.ml" 49 2080 2108 "src/topological.ml" 49 2080 2110
+type(
+  unit
+)
+"src/topological.ml" 49 2080 2095 "src/topological.ml" 49 2080 2110
+call(
+  stack
+)
+type(
+  int Queue.t
+)
+"src/topological.ml" 50 2114 2126 "src/topological.ml" 50 2114 2130
+type(
+  'a -> 'a
+)
+"src/topological.ml" 50 2114 2131 "src/topological.ml" 50 2114 2134
+type(
+  'a
+)
+ident(
+  def acc "src/topological.ml" 51 2137 2143 "src/topological.ml" 62 2457 2466
+)
+"src/topological.ml" 51 2137 2146 "src/topological.ml" 51 2137 2160
+type(
+  int Queue.t -> bool
+)
+ident(
+  ext_ref Queue.is_empty
+)
+"src/topological.ml" 51 2137 2161 "src/topological.ml" 51 2137 2165
+type(
+  int Queue.t
+)
+ident(
+  int_ref todo "src/topological.ml" 49 2080 2088 "src/topological.ml" 49 2080 2092
+)
+"src/topological.ml" 51 2137 2146 "src/topological.ml" 51 2137 2165
+call(
+  stack
+)
+type(
+  bool
+)
+"src/topological.ml" 52 2171 2179 "src/topological.ml" 52 2171 2182
+type(
+  'a
+)
+ident(
+  int_ref acc "src/topological.ml" 50 2114 2131 "src/topological.ml" 50 2114 2134
+)
+"src/topological.ml" 54 2194 2199 "src/topological.ml" 54 2194 2200
+type(
+  int
+)
+"src/topological.ml" 54 2194 2203 "src/topological.ml" 54 2194 2212
+type(
+  int Queue.t -> int
+)
+ident(
+  ext_ref Queue.pop
+)
+"src/topological.ml" 54 2194 2213 "src/topological.ml" 54 2194 2217
+type(
+  int Queue.t
+)
+ident(
+  int_ref todo "src/topological.ml" 49 2080 2088 "src/topological.ml" 49 2080 2092
+)
+"src/topological.ml" 54 2194 2203 "src/topological.ml" 54 2194 2217
+call(
+  stack
+)
+type(
+  int
+)
+"src/topological.ml" 55 2221 2226 "src/topological.ml" 55 2221 2229
+type(
+  'a
+)
+"src/topological.ml" 55 2221 2232 "src/topological.ml" 55 2221 2247
+type(
+  (G.V.t -> 'a -> 'a) -> G.V.t list -> 'a -> 'a
+)
+ident(
+  ext_ref List.fold_right
+)
+"src/topological.ml" 55 2221 2248 "src/topological.ml" 55 2221 2249
+type(
+  G.V.t -> 'a -> 'a
+)
+ident(
+  int_ref f "src/topological.ml" 29 1457 1468 "src/topological.ml" 29 1457 1469
+)
+"src/topological.ml" 55 2221 2250 "src/topological.ml" 55 2221 2258
+type(
+  G.V.t list array
+)
+ident(
+  int_ref vertices "src/topological.ml" 32 1567 1575 "src/topological.ml" 32 1567 1583
+)
+"src/topological.ml" 55 2221 2260 "src/topological.ml" 55 2221 2261
+type(
+  int
+)
+ident(
+  int_ref i "src/topological.ml" 54 2194 2199 "src/topological.ml" 54 2194 2200
+)
+"src/topological.ml" 55 2221 2250 "src/topological.ml" 55 2221 2262
+type(
+  G.V.t list
+)
+"src/topological.ml" 55 2221 2263 "src/topological.ml" 55 2221 2266
+type(
+  'a
+)
+ident(
+  int_ref acc "src/topological.ml" 50 2114 2131 "src/topological.ml" 50 2114 2134
+)
+"src/topological.ml" 55 2221 2232 "src/topological.ml" 55 2221 2266
+call(
+  stack
+)
+type(
+  'a
+)
+"src/topological.ml" 56 2270 2278 "src/topological.ml" 56 2270 2287
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/topological.ml" 57 2288 2296 "src/topological.ml" 57 2288 2297
+type(
+  int
+)
+ident(
+  def j "src/topological.ml" 58 2301 2313 "src/topological.ml" 60 2382 2441
+)
+"src/topological.ml" 58 2301 2317 "src/topological.ml" 58 2301 2318
+type(
+  int
+)
+"src/topological.ml" 58 2301 2321 "src/topological.ml" 58 2301 2327
+type(
+  int array
+)
+ident(
+  int_ref degree "src/topological.ml" 34 1640 1648 "src/topological.ml" 34 1640 1654
+)
+"src/topological.ml" 58 2301 2329 "src/topological.ml" 58 2301 2330
+type(
+  int
+)
+ident(
+  int_ref j "src/topological.ml" 57 2288 2296 "src/topological.ml" 57 2288 2297
+)
+"src/topological.ml" 58 2301 2321 "src/topological.ml" 58 2301 2331
+type(
+  int
+)
+"src/topological.ml" 59 2335 2355 "src/topological.ml" 59 2335 2356
+type(
+  int
+)
+ident(
+  int_ref d "src/topological.ml" 58 2301 2317 "src/topological.ml" 58 2301 2318
+)
+"src/topological.ml" 59 2335 2357 "src/topological.ml" 59 2335 2358
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/topological.ml" 59 2335 2359 "src/topological.ml" 59 2335 2360
+type(
+  int
+)
+"src/topological.ml" 59 2335 2354 "src/topological.ml" 59 2335 2361
+type(
+  bool
+)
+"src/topological.ml" 59 2335 2347 "src/topological.ml" 59 2335 2361
+type(
+  unit
+)
+"src/topological.ml" 60 2382 2390 "src/topological.ml" 60 2382 2391
+type(
+  int
+)
+ident(
+  int_ref d "src/topological.ml" 58 2301 2317 "src/topological.ml" 58 2301 2318
+)
+"src/topological.ml" 60 2382 2392 "src/topological.ml" 60 2382 2393
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/topological.ml" 60 2382 2394 "src/topological.ml" 60 2382 2395
+type(
+  int
+)
+"src/topological.ml" 60 2382 2390 "src/topological.ml" 60 2382 2395
+type(
+  bool
+)
+"src/topological.ml" 60 2382 2401 "src/topological.ml" 60 2382 2411
+type(
+  int -> int Queue.t -> unit
+)
+ident(
+  ext_ref Queue.push
+)
+"src/topological.ml" 60 2382 2412 "src/topological.ml" 60 2382 2413
+type(
+  int
+)
+ident(
+  int_ref j "src/topological.ml" 57 2288 2296 "src/topological.ml" 57 2288 2297
+)
+"src/topological.ml" 60 2382 2414 "src/topological.ml" 60 2382 2418
+type(
+  int Queue.t
+)
+ident(
+  int_ref todo "src/topological.ml" 49 2080 2088 "src/topological.ml" 49 2080 2092
+)
+"src/topological.ml" 60 2382 2401 "src/topological.ml" 60 2382 2418
+call(
+  tail
+)
+type(
+  unit
+)
+"src/topological.ml" 60 2382 2424 "src/topological.ml" 60 2382 2430
+type(
+  int array
+)
+ident(
+  int_ref degree "src/topological.ml" 34 1640 1648 "src/topological.ml" 34 1640 1654
+)
+"src/topological.ml" 60 2382 2432 "src/topological.ml" 60 2382 2433
+type(
+  int
+)
+ident(
+  int_ref j "src/topological.ml" 57 2288 2296 "src/topological.ml" 57 2288 2297
+)
+"src/topological.ml" 60 2382 2438 "src/topological.ml" 60 2382 2439
+type(
+  int
+)
+ident(
+  int_ref d "src/topological.ml" 58 2301 2317 "src/topological.ml" 58 2301 2318
+)
+"src/topological.ml" 60 2382 2439 "src/topological.ml" 60 2382 2440
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/topological.ml" 60 2382 2440 "src/topological.ml" 60 2382 2441
+type(
+  int
+)
+"src/topological.ml" 60 2382 2438 "src/topological.ml" 60 2382 2441
+type(
+  int
+)
+"src/topological.ml" 60 2382 2424 "src/topological.ml" 60 2382 2441
+type(
+  unit
+)
+"src/topological.ml" 60 2382 2387 "src/topological.ml" 60 2382 2441
+type(
+  unit
+)
+"src/topological.ml" 59 2335 2347 "src/topological.ml" 60 2382 2441
+type(
+  unit
+)
+"src/topological.ml" 58 2301 2313 "src/topological.ml" 60 2382 2441
+type(
+  unit
+)
+"src/topological.ml" 57 2288 2291 "src/topological.ml" 60 2382 2442
+type(
+  int -> unit
+)
+"src/topological.ml" 61 2443 2446 "src/topological.ml" 61 2443 2451
+type(
+  int list array
+)
+ident(
+  int_ref edges "src/topological.ml" 33 1605 1613 "src/topological.ml" 33 1605 1618
+)
+"src/topological.ml" 61 2443 2453 "src/topological.ml" 61 2443 2454
+type(
+  int
+)
+ident(
+  int_ref i "src/topological.ml" 54 2194 2199 "src/topological.ml" 54 2194 2200
+)
+"src/topological.ml" 61 2443 2446 "src/topological.ml" 61 2443 2455
+type(
+  int list
+)
+"src/topological.ml" 56 2270 2278 "src/topological.ml" 61 2443 2455
+call(
+  stack
+)
+type(
+  unit
+)
+"src/topological.ml" 62 2457 2458 "src/topological.ml" 62 2457 2462
+type(
+  'a -> 'a
+)
+ident(
+  int_ref walk "src/topological.ml" 50 2114 2126 "src/topological.ml" 50 2114 2130
+)
+"src/topological.ml" 62 2457 2463 "src/topological.ml" 62 2457 2466
+type(
+  'a
+)
+ident(
+  int_ref acc "src/topological.ml" 55 2221 2226 "src/topological.ml" 55 2221 2229
+)
+"src/topological.ml" 62 2457 2458 "src/topological.ml" 62 2457 2466
+call(
+  tail
+)
+type(
+  'a
+)
+"src/topological.ml" 56 2270 2278 "src/topological.ml" 62 2457 2466
+type(
+  'a
+)
+"src/topological.ml" 55 2221 2222 "src/topological.ml" 62 2457 2466
+type(
+  'a
+)
+"src/topological.ml" 54 2194 2195 "src/topological.ml" 62 2457 2466
+type(
+  'a
+)
+"src/topological.ml" 51 2137 2143 "src/topological.ml" 62 2457 2466
+type(
+  'a
+)
+"src/topological.ml" 64 2474 2486 "src/topological.ml" 64 2474 2487
+type(
+  int
+)
+"src/topological.ml" 64 2474 2491 "src/topological.ml" 64 2474 2492
+type(
+  int
+)
+ident(
+  int_ref n "src/topological.ml" 31 1537 1545 "src/topological.ml" 31 1537 1546
+)
+"src/topological.ml" 64 2474 2492 "src/topological.ml" 64 2474 2493
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/topological.ml" 64 2474 2493 "src/topological.ml" 64 2474 2494
+type(
+  int
+)
+"src/topological.ml" 64 2474 2491 "src/topological.ml" 64 2474 2494
+type(
+  int
+)
+"src/topological.ml" 64 2474 2501 "src/topological.ml" 64 2474 2507
+type(
+  int array
+)
+ident(
+  int_ref degree "src/topological.ml" 34 1640 1648 "src/topological.ml" 34 1640 1654
+)
+"src/topological.ml" 64 2474 2509 "src/topological.ml" 64 2474 2510
+type(
+  int
+)
+"src/topological.ml" 64 2474 2501 "src/topological.ml" 64 2474 2511
+type(
+  int
+)
+"src/topological.ml" 64 2474 2512 "src/topological.ml" 64 2474 2513
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/topological.ml" 64 2474 2514 "src/topological.ml" 64 2474 2515
+type(
+  int
+)
+"src/topological.ml" 64 2474 2501 "src/topological.ml" 64 2474 2515
+type(
+  bool
+)
+"src/topological.ml" 64 2474 2521 "src/topological.ml" 64 2474 2531
+type(
+  int -> int Queue.t -> unit
+)
+ident(
+  ext_ref Queue.push
+)
+"src/topological.ml" 64 2474 2532 "src/topological.ml" 64 2474 2533
+type(
+  int
+)
+"src/topological.ml" 64 2474 2534 "src/topological.ml" 64 2474 2538
+type(
+  int Queue.t
+)
+ident(
+  int_ref todo "src/topological.ml" 49 2080 2088 "src/topological.ml" 49 2080 2092
+)
+"src/topological.ml" 64 2474 2521 "src/topological.ml" 64 2474 2538
+call(
+  stack
+)
+type(
+  unit
+)
+"src/topological.ml" 64 2474 2498 "src/topological.ml" 64 2474 2538
+type(
+  unit
+)
+"src/topological.ml" 64 2474 2478 "src/topological.ml" 64 2474 2543
+type(
+  unit
+)
+"src/topological.ml" 65 2545 2549 "src/topological.ml" 65 2545 2553
+type(
+  'a -> 'a
+)
+ident(
+  int_ref walk "src/topological.ml" 50 2114 2126 "src/topological.ml" 50 2114 2130
+)
+"src/topological.ml" 65 2545 2554 "src/topological.ml" 65 2545 2557
+type(
+  'a
+)
+ident(
+  int_ref acc "src/topological.ml" 29 1457 1472 "src/topological.ml" 29 1457 1475
+)
+"src/topological.ml" 65 2545 2549 "src/topological.ml" 65 2545 2557
+call(
+  tail
+)
+type(
+  'a
+)
+"src/topological.ml" 64 2474 2478 "src/topological.ml" 65 2545 2557
+type(
+  'a
+)
+"src/topological.ml" 50 2114 2118 "src/topological.ml" 65 2545 2557
+type(
+  'a
+)
+"src/topological.ml" 49 2080 2084 "src/topological.ml" 65 2545 2557
+type(
+  'a
+)
+"src/topological.ml" 47 2003 2007 "src/topological.ml" 65 2545 2557
+type(
+  'a
+)
+"src/topological.ml" 35 1691 1695 "src/topological.ml" 65 2545 2557
+type(
+  'a
+)
+"src/topological.ml" 34 1640 1644 "src/topological.ml" 65 2545 2557
+type(
+  'a
+)
+"src/topological.ml" 33 1605 1609 "src/topological.ml" 65 2545 2557
+type(
+  'a
+)
+"src/topological.ml" 32 1567 1571 "src/topological.ml" 65 2545 2557
+type(
+  'a
+)
+"src/topological.ml" 31 1537 1541 "src/topological.ml" 65 2545 2557
+type(
+  'a
+)
+"src/topological.ml" 67 2559 2565 "src/topological.ml" 67 2559 2569
+type(
+  (G.V.t -> unit) -> G.t -> unit
+)
+ident(
+  def iter "src/topological.ml" 67 2559 2603 "src/topological.ml" 69 2605 2608
+)
+"src/topological.ml" 67 2559 2570 "src/topological.ml" 67 2559 2571
+type(
+  G.V.t -> unit
+)
+ident(
+  def f "src/topological.ml" 67 2559 2572 "src/topological.ml" 67 2559 2603
+)
+"src/topological.ml" 67 2559 2572 "src/topological.ml" 67 2559 2573
+type(
+  G.t
+)
+ident(
+  def g "src/topological.ml" 67 2559 2576 "src/topological.ml" 67 2559 2603
+)
+"src/topological.ml" 67 2559 2576 "src/topological.ml" 67 2559 2580
+type(
+  (G.V.t -> unit -> unit) -> G.t -> unit -> unit
+)
+ident(
+  int_ref fold "src/topological.ml" 29 1457 1463 "src/topological.ml" 29 1457 1467
+)
+"src/topological.ml" 67 2559 2586 "src/topological.ml" 67 2559 2587
+type(
+  G.V.t
+)
+ident(
+  def v "src/topological.ml" 67 2559 2588 "src/topological.ml" 67 2559 2597
+)
+"src/topological.ml" 67 2559 2588 "src/topological.ml" 67 2559 2590
+type(
+  unit
+)
+"src/topological.ml" 67 2559 2594 "src/topological.ml" 67 2559 2595
+type(
+  G.V.t -> unit
+)
+ident(
+  int_ref f "src/topological.ml" 67 2559 2570 "src/topological.ml" 67 2559 2571
+)
+"src/topological.ml" 67 2559 2596 "src/topological.ml" 67 2559 2597
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/topological.ml" 67 2559 2586 "src/topological.ml" 67 2559 2587
+)
+"src/topological.ml" 67 2559 2594 "src/topological.ml" 67 2559 2597
+call(
+  tail
+)
+type(
+  unit
+)
+"src/topological.ml" 67 2559 2581 "src/topological.ml" 67 2559 2598
+type(
+  G.V.t -> unit -> unit
+)
+"src/topological.ml" 67 2559 2599 "src/topological.ml" 67 2559 2600
+type(
+  G.t
+)
+ident(
+  int_ref g "src/topological.ml" 67 2559 2572 "src/topological.ml" 67 2559 2573
+)
+"src/topological.ml" 67 2559 2601 "src/topological.ml" 67 2559 2603
+type(
+  unit
+)
+"src/topological.ml" 67 2559 2576 "src/topological.ml" 67 2559 2603
+call(
+  tail
+)
+type(
+  unit
+)
+"src/topological.ml" 74 2693 2706 "src/topological.ml" 74 2693 2723
+call(
+  stack
+)
+"src/topological.ml" 75 2724 2737 "src/topological.ml" 75 2724 2750
+call(
+  stack
+)
+"src/topological.ml" 77 2752 2758 "src/topological.ml" 77 2752 2764
+type(
+  old:'a list * 'b -> 'a * 'b -> 'a list * 'b
+)
+ident(
+  def choose "src/topological.ml" 83 2881 2883 "src/topological.ml" 178 5409 5412
+)
+"src/topological.ml" 77 2752 2766 "src/topological.ml" 77 2752 2769
+type(
+  'a list * 'b
+)
+ident(
+  def old "src/topological.ml" 77 2752 2770 "src/topological.ml" 81 2867 2879
+)
+"src/topological.ml" 77 2752 2771 "src/topological.ml" 77 2752 2772
+type(
+  'a
+)
+ident(
+  def v "src/topological.ml" 78 2779 2783 "src/topological.ml" 81 2867 2879
+)
+"src/topological.ml" 77 2752 2774 "src/topological.ml" 77 2752 2775
+type(
+  'b
+)
+ident(
+  def n "src/topological.ml" 78 2779 2783 "src/topological.ml" 81 2867 2879
+)
+"src/topological.ml" 77 2752 2770 "src/topological.ml" 77 2752 2776
+type(
+  'a * 'b
+)
+"src/topological.ml" 78 2779 2787 "src/topological.ml" 78 2779 2788
+type(
+  'a list
+)
+"src/topological.ml" 78 2779 2790 "src/topological.ml" 78 2779 2793
+type(
+  'b
+)
+"src/topological.ml" 78 2779 2787 "src/topological.ml" 78 2779 2793
+type(
+  'a list * 'b
+)
+"src/topological.ml" 78 2779 2796 "src/topological.ml" 78 2779 2799
+type(
+  'a list * 'b
+)
+ident(
+  int_ref old "src/topological.ml" 77 2752 2766 "src/topological.ml" 77 2752 2769
+)
+"src/topological.ml" 79 2803 2810 "src/topological.ml" 79 2803 2811
+type(
+  'b
+)
+ident(
+  int_ref n "src/topological.ml" 77 2752 2774 "src/topological.ml" 77 2752 2775
+)
+"src/topological.ml" 79 2803 2812 "src/topological.ml" 79 2803 2813
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/topological.ml" 79 2803 2814 "src/topological.ml" 79 2803 2817
+type(
+  'b
+)
+ident(
+  int_ref min "src/topological.ml" 78 2779 2790 "src/topological.ml" 78 2779 2793
+)
+"src/topological.ml" 79 2803 2810 "src/topological.ml" 79 2803 2817
+type(
+  bool
+)
+"src/topological.ml" 79 2803 2823 "src/topological.ml" 79 2803 2824
+type(
+  'a
+)
+ident(
+  int_ref v "src/topological.ml" 77 2752 2771 "src/topological.ml" 77 2752 2772
+)
+"src/topological.ml" 79 2803 2828 "src/topological.ml" 79 2803 2829
+type(
+  'a list
+)
+ident(
+  int_ref l "src/topological.ml" 78 2779 2787 "src/topological.ml" 78 2779 2788
+)
+"src/topological.ml" 79 2803 2823 "src/topological.ml" 79 2803 2829
+type(
+  'a list
+)
+"src/topological.ml" 79 2803 2831 "src/topological.ml" 79 2803 2832
+type(
+  'b
+)
+ident(
+  int_ref n "src/topological.ml" 77 2752 2774 "src/topological.ml" 77 2752 2775
+)
+"src/topological.ml" 79 2803 2823 "src/topological.ml" 79 2803 2832
+type(
+  'a list * 'b
+)
+"src/topological.ml" 80 2833 2845 "src/topological.ml" 80 2833 2846
+type(
+  'b
+)
+ident(
+  int_ref n "src/topological.ml" 77 2752 2774 "src/topological.ml" 77 2752 2775
+)
+"src/topological.ml" 80 2833 2847 "src/topological.ml" 80 2833 2848
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/topological.ml" 80 2833 2849 "src/topological.ml" 80 2833 2852
+type(
+  'b
+)
+ident(
+  int_ref min "src/topological.ml" 78 2779 2790 "src/topological.ml" 78 2779 2793
+)
+"src/topological.ml" 80 2833 2845 "src/topological.ml" 80 2833 2852
+type(
+  bool
+)
+"src/topological.ml" 80 2833 2860 "src/topological.ml" 80 2833 2861
+type(
+  'a
+)
+ident(
+  int_ref v "src/topological.ml" 77 2752 2771 "src/topological.ml" 77 2752 2772
+)
+"src/topological.ml" 80 2833 2858 "src/topological.ml" 80 2833 2863
+type(
+  'a list
+)
+"src/topological.ml" 80 2833 2865 "src/topological.ml" 80 2833 2866
+type(
+  'b
+)
+ident(
+  int_ref n "src/topological.ml" 77 2752 2774 "src/topological.ml" 77 2752 2775
+)
+"src/topological.ml" 80 2833 2858 "src/topological.ml" 80 2833 2866
+type(
+  'a list * 'b
+)
+"src/topological.ml" 81 2867 2876 "src/topological.ml" 81 2867 2879
+type(
+  'a list * 'b
+)
+ident(
+  int_ref old "src/topological.ml" 77 2752 2766 "src/topological.ml" 77 2752 2769
+)
+"src/topological.ml" 80 2833 2842 "src/topological.ml" 81 2867 2879
+type(
+  'a list * 'b
+)
+"src/topological.ml" 79 2803 2807 "src/topological.ml" 81 2867 2879
+type(
+  'a list * 'b
+)
+"src/topological.ml" 78 2779 2783 "src/topological.ml" 81 2867 2879
+type(
+  'a list * 'b
+)
+"src/topological.ml" 84 2901 2916 "src/topological.ml" 84 2901 2929
+call(
+  stack
+)
+"src/topological.ml" 87 2972 2980 "src/topological.ml" 87 2972 2986
+type(
+  unit -> S.t ref
+)
+ident(
+  def create "src/topological.ml" 88 3004 3008 "src/topological.ml" 97 3251 3256
+)
+"src/topological.ml" 87 2972 2987 "src/topological.ml" 87 2972 2989
+type(
+  unit
+)
+"src/topological.ml" 87 2972 2992 "src/topological.ml" 87 2972 2995
+type(
+  S.t -> S.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/topological.ml" 87 2972 2996 "src/topological.ml" 87 2972 3003
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"src/topological.ml" 87 2972 2992 "src/topological.ml" 87 2972 3003
+type(
+  S.t ref
+)
+"src/topological.ml" 88 3004 3012 "src/topological.ml" 88 3004 3016
+type(
+  S.elt -> S.t ref -> unit
+)
+ident(
+  def push "src/topological.ml" 89 3039 3043 "src/topological.ml" 97 3251 3256
+)
+"src/topological.ml" 88 3004 3017 "src/topological.ml" 88 3004 3018
+type(
+  S.elt
+)
+ident(
+  def v "src/topological.ml" 88 3004 3019 "src/topological.ml" 88 3004 3038
+)
+"src/topological.ml" 88 3004 3019 "src/topological.ml" 88 3004 3020
+type(
+  S.t ref
+)
+ident(
+  def s "src/topological.ml" 88 3004 3023 "src/topological.ml" 88 3004 3038
+)
+"src/topological.ml" 88 3004 3023 "src/topological.ml" 88 3004 3024
+type(
+  S.t ref
+)
+ident(
+  int_ref s "src/topological.ml" 88 3004 3019 "src/topological.ml" 88 3004 3020
+)
+"src/topological.ml" 88 3004 3025 "src/topological.ml" 88 3004 3027
+type(
+  S.t ref -> S.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/topological.ml" 88 3004 3028 "src/topological.ml" 88 3004 3033
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.add
+)
+"src/topological.ml" 88 3004 3034 "src/topological.ml" 88 3004 3035
+type(
+  S.elt
+)
+ident(
+  int_ref v "src/topological.ml" 88 3004 3017 "src/topological.ml" 88 3004 3018
+)
+"src/topological.ml" 88 3004 3036 "src/topological.ml" 88 3004 3037
+type(
+  S.t ref -> S.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/topological.ml" 88 3004 3037 "src/topological.ml" 88 3004 3038
+type(
+  S.t ref
+)
+ident(
+  int_ref s "src/topological.ml" 88 3004 3019 "src/topological.ml" 88 3004 3020
+)
+"src/topological.ml" 88 3004 3036 "src/topological.ml" 88 3004 3038
+type(
+  S.t
+)
+"src/topological.ml" 88 3004 3028 "src/topological.ml" 88 3004 3038
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/topological.ml" 88 3004 3023 "src/topological.ml" 88 3004 3038
+type(
+  unit
+)
+"src/topological.ml" 89 3039 3047 "src/topological.ml" 89 3039 3050
+type(
+  S.t ref -> S.elt
+)
+ident(
+  def pop "src/topological.ml" 93 3119 3123 "src/topological.ml" 97 3251 3256
+)
+"src/topological.ml" 89 3039 3051 "src/topological.ml" 89 3039 3052
+type(
+  S.t ref
+)
+ident(
+  def s "src/topological.ml" 90 3055 3061 "src/topological.ml" 92 3111 3118
+)
+"src/topological.ml" 90 3055 3065 "src/topological.ml" 90 3055 3066
+type(
+  S.elt
+)
+"src/topological.ml" 90 3055 3069 "src/topological.ml" 90 3055 3078
+type(
+  S.t -> S.elt
+)
+ident(
+  ext_ref S.min_elt
+)
+"src/topological.ml" 90 3055 3079 "src/topological.ml" 90 3055 3080
+type(
+  S.t ref -> S.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/topological.ml" 90 3055 3080 "src/topological.ml" 90 3055 3081
+type(
+  S.t ref
+)
+ident(
+  int_ref s "src/topological.ml" 89 3039 3051 "src/topological.ml" 89 3039 3052
+)
+"src/topological.ml" 90 3055 3079 "src/topological.ml" 90 3055 3081
+type(
+  S.t
+)
+"src/topological.ml" 90 3055 3069 "src/topological.ml" 90 3055 3081
+call(
+  stack
+)
+type(
+  S.elt
+)
+"src/topological.ml" 91 3085 3091 "src/topological.ml" 91 3085 3092
+type(
+  S.t ref
+)
+ident(
+  int_ref s "src/topological.ml" 89 3039 3051 "src/topological.ml" 89 3039 3052
+)
+"src/topological.ml" 91 3085 3093 "src/topological.ml" 91 3085 3095
+type(
+  S.t ref -> S.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/topological.ml" 91 3085 3096 "src/topological.ml" 91 3085 3104
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.remove
+)
+"src/topological.ml" 91 3085 3105 "src/topological.ml" 91 3085 3106
+type(
+  S.elt
+)
+ident(
+  int_ref r "src/topological.ml" 90 3055 3065 "src/topological.ml" 90 3055 3066
+)
+"src/topological.ml" 91 3085 3107 "src/topological.ml" 91 3085 3108
+type(
+  S.t ref -> S.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/topological.ml" 91 3085 3108 "src/topological.ml" 91 3085 3109
+type(
+  S.t ref
+)
+ident(
+  int_ref s "src/topological.ml" 89 3039 3051 "src/topological.ml" 89 3039 3052
+)
+"src/topological.ml" 91 3085 3107 "src/topological.ml" 91 3085 3109
+type(
+  S.t
+)
+"src/topological.ml" 91 3085 3096 "src/topological.ml" 91 3085 3109
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/topological.ml" 91 3085 3091 "src/topological.ml" 91 3085 3109
+type(
+  unit
+)
+"src/topological.ml" 92 3111 3117 "src/topological.ml" 92 3111 3118
+type(
+  S.elt
+)
+ident(
+  int_ref r "src/topological.ml" 90 3055 3065 "src/topological.ml" 90 3055 3066
+)
+"src/topological.ml" 91 3085 3091 "src/topological.ml" 92 3111 3118
+type(
+  S.elt
+)
+"src/topological.ml" 90 3055 3061 "src/topological.ml" 92 3111 3118
+type(
+  S.elt
+)
+"src/topological.ml" 93 3119 3127 "src/topological.ml" 93 3119 3135
+type(
+  S.t ref -> bool
+)
+ident(
+  def is_empty "src/topological.ml" 94 3154 3158 "src/topological.ml" 97 3251 3256
+)
+"src/topological.ml" 93 3119 3136 "src/topological.ml" 93 3119 3137
+type(
+  S.t ref
+)
+ident(
+  def s "src/topological.ml" 93 3119 3140 "src/topological.ml" 93 3119 3153
+)
+"src/topological.ml" 93 3119 3140 "src/topological.ml" 93 3119 3150
+type(
+  S.t -> bool
+)
+ident(
+  ext_ref S.is_empty
+)
+"src/topological.ml" 93 3119 3151 "src/topological.ml" 93 3119 3152
+type(
+  S.t ref -> S.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/topological.ml" 93 3119 3152 "src/topological.ml" 93 3119 3153
+type(
+  S.t ref
+)
+ident(
+  int_ref s "src/topological.ml" 93 3119 3136 "src/topological.ml" 93 3119 3137
+)
+"src/topological.ml" 93 3119 3151 "src/topological.ml" 93 3119 3153
+type(
+  S.t
+)
+"src/topological.ml" 93 3119 3140 "src/topological.ml" 93 3119 3153
+call(
+  tail
+)
+type(
+  bool
+)
+"src/topological.ml" 94 3154 3162 "src/topological.ml" 94 3154 3168
+type(
+  old:G.V.t list * 'c -> G.V.t * 'c -> G.V.t list * 'c
+)
+ident(
+  def choose "src/topological.ml" 96 3218 3250 "src/topological.ml" 97 3251 3256
+)
+"src/topological.ml" 94 3154 3170 "src/topological.ml" 94 3154 3173
+type(
+  G.V.t list * 'c
+)
+ident(
+  def old "src/topological.ml" 94 3154 3174 "src/topological.ml" 96 3218 3250
+)
+"src/topological.ml" 94 3154 3174 "src/topological.ml" 94 3154 3178
+type(
+  G.V.t * 'c
+)
+ident(
+  def new_ "src/topological.ml" 95 3181 3187 "src/topological.ml" 96 3218 3250
+)
+"src/topological.ml" 95 3181 3191 "src/topological.ml" 95 3181 3192
+type(
+  G.V.t list
+)
+"src/topological.ml" 95 3181 3194 "src/topological.ml" 95 3181 3195
+type(
+  'c
+)
+"src/topological.ml" 95 3181 3191 "src/topological.ml" 95 3181 3195
+type(
+  G.V.t list * 'c
+)
+"src/topological.ml" 95 3181 3198 "src/topological.ml" 95 3181 3204
+type(
+  old:G.V.t list * 'c -> G.V.t * 'c -> G.V.t list * 'c
+)
+ident(
+  int_ref choose "src/topological.ml" 77 2752 2758 "src/topological.ml" 77 2752 2764
+)
+"src/topological.ml" 95 3181 3206 "src/topological.ml" 95 3181 3209
+type(
+  G.V.t list * 'c
+)
+ident(
+  int_ref old "src/topological.ml" 94 3154 3170 "src/topological.ml" 94 3154 3173
+)
+"src/topological.ml" 95 3181 3210 "src/topological.ml" 95 3181 3214
+type(
+  G.V.t * 'c
+)
+ident(
+  int_ref new_ "src/topological.ml" 94 3154 3174 "src/topological.ml" 94 3154 3178
+)
+"src/topological.ml" 95 3181 3198 "src/topological.ml" 95 3181 3214
+call(
+  stack
+)
+type(
+  G.V.t list * 'c
+)
+"src/topological.ml" 96 3218 3224 "src/topological.ml" 96 3218 3233
+type(
+  (G.V.t -> G.V.t -> int) -> G.V.t list -> G.V.t list
+)
+ident(
+  ext_ref List.sort
+)
+"src/topological.ml" 96 3218 3234 "src/topological.ml" 96 3218 3245
+type(
+  G.V.t -> G.V.t -> int
+)
+ident(
+  ext_ref G.V.compare
+)
+"src/topological.ml" 96 3218 3246 "src/topological.ml" 96 3218 3247
+type(
+  G.V.t list
+)
+ident(
+  int_ref l "src/topological.ml" 95 3181 3191 "src/topological.ml" 95 3181 3192
+)
+"src/topological.ml" 96 3218 3224 "src/topological.ml" 96 3218 3247
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/topological.ml" 96 3218 3249 "src/topological.ml" 96 3218 3250
+type(
+  'c
+)
+ident(
+  int_ref n "src/topological.ml" 95 3181 3194 "src/topological.ml" 95 3181 3195
+)
+"src/topological.ml" 96 3218 3224 "src/topological.ml" 96 3218 3250
+type(
+  G.V.t list * 'c
+)
+"src/topological.ml" 95 3181 3187 "src/topological.ml" 96 3218 3250
+type(
+  G.V.t list * 'c
+)
+"src/topological.ml" 99 3258 3268 "src/topological.ml" 99 3258 3293
+type(
+  C.path_checker -> G.V.t list -> G.V.t
+)
+ident(
+  def choose_independent_vertex "src/topological.ml" 99 3258 3260 "src/topological.ml" 178 5409 5412
+)
+"src/topological.ml" 99 3258 3294 "src/topological.ml" 99 3258 3301
+type(
+  C.path_checker
+)
+ident(
+  def checker "src/topological.ml" 99 3258 3304 "src/topological.ml" 114 3725 3761
+)
+"src/topological.ml" 100 3313 3319 "src/topological.ml" 100 3313 3321
+type(
+  G.V.t list
+)
+"src/topological.ml" 100 3313 3325 "src/topological.ml" 100 3313 3337
+type(
+  G.V.t
+)
+"src/topological.ml" 101 3338 3346 "src/topological.ml" 101 3338 3347
+type(
+  G.V.t
+)
+ident(
+  def v "src/topological.ml" 101 3338 3353 "src/topological.ml" 101 3338 3354
+)
+"src/topological.ml" 101 3338 3344 "src/topological.ml" 101 3338 3349
+type(
+  G.V.t list
+)
+"src/topological.ml" 101 3338 3353 "src/topological.ml" 101 3338 3354
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/topological.ml" 101 3338 3346 "src/topological.ml" 101 3338 3347
+)
+"src/topological.ml" 102 3355 3361 "src/topological.ml" 102 3355 3362
+type(
+  G.V.t
+)
+ident(
+  def v "src/topological.ml" 108 3601 3607 "src/topological.ml" 114 3725 3761
+)
+"src/topological.ml" 102 3355 3366 "src/topological.ml" 102 3355 3367
+type(
+  G.V.t list
+)
+ident(
+  def l "src/topological.ml" 108 3601 3607 "src/topological.ml" 114 3725 3761
+)
+"src/topological.ml" 102 3355 3361 "src/topological.ml" 102 3355 3367
+type(
+  G.V.t list
+)
+"src/topological.ml" 108 3601 3610 "src/topological.ml" 108 3601 3622
+type(
+  (G.V.t -> bool) -> G.V.t list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"src/topological.ml" 109 3623 3629 "src/topological.ml" 109 3623 3631
+type(
+  G.V.t
+)
+ident(
+  def v' "src/topological.ml" 109 3623 3635 "src/topological.ml" 109 3623 3695
+)
+"src/topological.ml" 109 3623 3635 "src/topological.ml" 109 3623 3647
+type(
+  C.path_checker -> G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref C.check_path
+)
+"src/topological.ml" 109 3623 3648 "src/topological.ml" 109 3623 3655
+type(
+  C.path_checker
+)
+ident(
+  int_ref checker "src/topological.ml" 99 3258 3294 "src/topological.ml" 99 3258 3301
+)
+"src/topological.ml" 109 3623 3656 "src/topological.ml" 109 3623 3657
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/topological.ml" 102 3355 3361 "src/topological.ml" 102 3355 3362
+)
+"src/topological.ml" 109 3623 3658 "src/topological.ml" 109 3623 3660
+type(
+  G.V.t
+)
+ident(
+  int_ref v' "src/topological.ml" 109 3623 3629 "src/topological.ml" 109 3623 3631
+)
+"src/topological.ml" 109 3623 3635 "src/topological.ml" 109 3623 3660
+call(
+  stack
+)
+type(
+  bool
+)
+"src/topological.ml" 109 3623 3661 "src/topological.ml" 109 3623 3663
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/topological.ml" 109 3623 3664 "src/topological.ml" 109 3623 3667
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/topological.ml" 109 3623 3669 "src/topological.ml" 109 3623 3681
+type(
+  C.path_checker -> G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref C.check_path
+)
+"src/topological.ml" 109 3623 3682 "src/topological.ml" 109 3623 3689
+type(
+  C.path_checker
+)
+ident(
+  int_ref checker "src/topological.ml" 99 3258 3294 "src/topological.ml" 99 3258 3301
+)
+"src/topological.ml" 109 3623 3690 "src/topological.ml" 109 3623 3692
+type(
+  G.V.t
+)
+ident(
+  int_ref v' "src/topological.ml" 109 3623 3629 "src/topological.ml" 109 3623 3631
+)
+"src/topological.ml" 109 3623 3693 "src/topological.ml" 109 3623 3694
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/topological.ml" 102 3355 3361 "src/topological.ml" 102 3355 3362
+)
+"src/topological.ml" 109 3623 3668 "src/topological.ml" 109 3623 3695
+call(
+  stack
+)
+type(
+  bool
+)
+"src/topological.ml" 109 3623 3664 "src/topological.ml" 109 3623 3695
+type(
+  bool
+)
+"src/topological.ml" 109 3623 3635 "src/topological.ml" 109 3623 3695
+type(
+  bool
+)
+"src/topological.ml" 109 3623 3624 "src/topological.ml" 109 3623 3696
+type(
+  G.V.t -> bool
+)
+"src/topological.ml" 110 3697 3698 "src/topological.ml" 110 3697 3699
+type(
+  G.V.t list
+)
+ident(
+  int_ref l "src/topological.ml" 102 3355 3366 "src/topological.ml" 102 3355 3367
+)
+"src/topological.ml" 108 3601 3610 "src/topological.ml" 110 3697 3699
+call(
+  stack
+)
+type(
+  bool
+)
+"src/topological.ml" 112 3711 3712 "src/topological.ml" 112 3711 3713
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/topological.ml" 102 3355 3361 "src/topological.ml" 102 3355 3362
+)
+"src/topological.ml" 114 3725 3726 "src/topological.ml" 114 3725 3751
+type(
+  C.path_checker -> G.V.t list -> G.V.t
+)
+ident(
+  int_ref choose_independent_vertex "src/topological.ml" 99 3258 3268 "src/topological.ml" 99 3258 3293
+)
+"src/topological.ml" 114 3725 3752 "src/topological.ml" 114 3725 3759
+type(
+  C.path_checker
+)
+ident(
+  int_ref checker "src/topological.ml" 99 3258 3294 "src/topological.ml" 99 3258 3301
+)
+"src/topological.ml" 114 3725 3760 "src/topological.ml" 114 3725 3761
+type(
+  G.V.t list
+)
+ident(
+  int_ref l "src/topological.ml" 102 3355 3366 "src/topological.ml" 102 3355 3367
+)
+"src/topological.ml" 114 3725 3726 "src/topological.ml" 114 3725 3761
+call(
+  tail
+)
+type(
+  G.V.t
+)
+"src/topological.ml" 108 3601 3607 "src/topological.ml" 114 3725 3761
+type(
+  G.V.t
+)
+"src/topological.ml" 99 3258 3304 "src/topological.ml" 114 3725 3761
+type(
+  G.V.t list -> G.V.t
+)
+"src/topological.ml" 118 3869 3875 "src/topological.ml" 118 3869 3889
+type(
+  C.path_checker -> G.V.t list -> G.V.t list
+)
+ident(
+  def find_top_cycle "src/topological.ml" 133 4358 4360 "src/topological.ml" 178 5409 5412
+)
+"src/topological.ml" 118 3869 3890 "src/topological.ml" 118 3869 3897
+type(
+  C.path_checker
+)
+ident(
+  def checker "src/topological.ml" 118 3869 3898 "src/topological.ml" 131 4325 4356
+)
+"src/topological.ml" 118 3869 3898 "src/topological.ml" 118 3869 3900
+type(
+  G.V.t list
+)
+ident(
+  def vl "src/topological.ml" 124 4151 4155 "src/topological.ml" 131 4325 4356
+)
+"src/topological.ml" 124 4151 4159 "src/topological.ml" 124 4151 4171
+type(
+  G.V.t -> bool
+)
+"src/topological.ml" 124 4151 4172 "src/topological.ml" 124 4151 4173
+type(
+  G.V.t
+)
+ident(
+  def v "src/topological.ml" 125 4176 4182 "src/topological.ml" 129 4307 4317
+)
+"src/topological.ml" 125 4176 4182 "src/topological.ml" 125 4176 4194
+type(
+  (G.V.t -> bool) -> G.V.t list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"src/topological.ml" 126 4195 4201 "src/topological.ml" 126 4195 4203
+type(
+  G.V.t
+)
+ident(
+  def v' "src/topological.ml" 127 4207 4217 "src/topological.ml" 128 4235 4305
+)
+"src/topological.ml" 127 4207 4217 "src/topological.ml" 127 4207 4226
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/topological.ml" 127 4207 4227 "src/topological.ml" 127 4207 4228
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/topological.ml" 124 4151 4172 "src/topological.ml" 124 4151 4173
+)
+"src/topological.ml" 127 4207 4229 "src/topological.ml" 127 4207 4231
+type(
+  G.V.t
+)
+ident(
+  int_ref v' "src/topological.ml" 126 4195 4201 "src/topological.ml" 126 4195 4203
+)
+"src/topological.ml" 127 4207 4217 "src/topological.ml" 127 4207 4231
+call(
+  stack
+)
+type(
+  bool
+)
+"src/topological.ml" 127 4207 4232 "src/topological.ml" 127 4207 4234
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/topological.ml" 128 4235 4245 "src/topological.ml" 128 4235 4257
+type(
+  C.path_checker -> G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref C.check_path
+)
+"src/topological.ml" 128 4235 4258 "src/topological.ml" 128 4235 4265
+type(
+  C.path_checker
+)
+ident(
+  int_ref checker "src/topological.ml" 118 3869 3890 "src/topological.ml" 118 3869 3897
+)
+"src/topological.ml" 128 4235 4266 "src/topological.ml" 128 4235 4267
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/topological.ml" 124 4151 4172 "src/topological.ml" 124 4151 4173
+)
+"src/topological.ml" 128 4235 4268 "src/topological.ml" 128 4235 4270
+type(
+  G.V.t
+)
+ident(
+  int_ref v' "src/topological.ml" 126 4195 4201 "src/topological.ml" 126 4195 4203
+)
+"src/topological.ml" 128 4235 4245 "src/topological.ml" 128 4235 4270
+call(
+  stack
+)
+type(
+  bool
+)
+"src/topological.ml" 128 4235 4271 "src/topological.ml" 128 4235 4273
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/topological.ml" 128 4235 4274 "src/topological.ml" 128 4235 4277
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/topological.ml" 128 4235 4279 "src/topological.ml" 128 4235 4291
+type(
+  C.path_checker -> G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref C.check_path
+)
+"src/topological.ml" 128 4235 4292 "src/topological.ml" 128 4235 4299
+type(
+  C.path_checker
+)
+ident(
+  int_ref checker "src/topological.ml" 118 3869 3890 "src/topological.ml" 118 3869 3897
+)
+"src/topological.ml" 128 4235 4300 "src/topological.ml" 128 4235 4302
+type(
+  G.V.t
+)
+ident(
+  int_ref v' "src/topological.ml" 126 4195 4201 "src/topological.ml" 126 4195 4203
+)
+"src/topological.ml" 128 4235 4303 "src/topological.ml" 128 4235 4304
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/topological.ml" 124 4151 4172 "src/topological.ml" 124 4151 4173
+)
+"src/topological.ml" 128 4235 4278 "src/topological.ml" 128 4235 4305
+call(
+  stack
+)
+type(
+  bool
+)
+"src/topological.ml" 128 4235 4274 "src/topological.ml" 128 4235 4305
+type(
+  bool
+)
+"src/topological.ml" 128 4235 4245 "src/topological.ml" 128 4235 4305
+type(
+  bool
+)
+"src/topological.ml" 127 4207 4217 "src/topological.ml" 128 4235 4305
+type(
+  bool
+)
+"src/topological.ml" 126 4195 4196 "src/topological.ml" 128 4235 4306
+type(
+  G.V.t -> bool
+)
+"src/topological.ml" 129 4307 4315 "src/topological.ml" 129 4307 4317
+type(
+  G.V.t list
+)
+ident(
+  int_ref vl "src/topological.ml" 118 3869 3898 "src/topological.ml" 118 3869 3900
+)
+"src/topological.ml" 125 4176 4182 "src/topological.ml" 129 4307 4317
+call(
+  tail
+)
+type(
+  bool
+)
+"src/topological.ml" 131 4325 4329 "src/topological.ml" 131 4325 4340
+type(
+  (G.V.t -> bool) -> G.V.t list -> G.V.t list
+)
+ident(
+  ext_ref List.filter
+)
+"src/topological.ml" 131 4325 4341 "src/topological.ml" 131 4325 4353
+type(
+  G.V.t -> bool
+)
+ident(
+  int_ref on_top_cycle "src/topological.ml" 124 4151 4159 "src/topological.ml" 124 4151 4171
+)
+"src/topological.ml" 131 4325 4354 "src/topological.ml" 131 4325 4356
+type(
+  G.V.t list
+)
+ident(
+  int_ref vl "src/topological.ml" 118 3869 3898 "src/topological.ml" 118 3869 3900
+)
+"src/topological.ml" 131 4325 4329 "src/topological.ml" 131 4325 4356
+call(
+  tail
+)
+type(
+  G.V.t list
+)
+"src/topological.ml" 124 4151 4155 "src/topological.ml" 131 4325 4356
+type(
+  G.V.t list
+)
+"src/topological.ml" 133 4358 4364 "src/topological.ml" 133 4358 4368
+type(
+  (Q.S.elt -> 'd -> 'd) -> G.t -> 'd -> 'd
+)
+ident(
+  def fold "src/topological.ml" 176 5363 5365 "src/topological.ml" 178 5409 5412
+)
+"src/topological.ml" 133 4358 4369 "src/topological.ml" 133 4358 4370
+type(
+  Q.S.elt -> 'd -> 'd
+)
+ident(
+  def f "src/topological.ml" 133 4358 4371 "src/topological.ml" 174 5349 5361
+)
+"src/topological.ml" 133 4358 4371 "src/topological.ml" 133 4358 4372
+type(
+  G.t
+)
+ident(
+  def g "src/topological.ml" 133 4358 4373 "src/topological.ml" 174 5349 5361
+)
+"src/topological.ml" 133 4358 4373 "src/topological.ml" 133 4358 4376
+type(
+  'd
+)
+ident(
+  def acc "src/topological.ml" 134 4379 4383 "src/topological.ml" 174 5349 5361
+)
+"src/topological.ml" 134 4379 4387 "src/topological.ml" 134 4379 4394
+type(
+  C.path_checker
+)
+"src/topological.ml" 134 4379 4397 "src/topological.ml" 134 4379 4405
+type(
+  G.t -> C.path_checker
+)
+ident(
+  ext_ref C.create
+)
+"src/topological.ml" 134 4379 4406 "src/topological.ml" 134 4379 4407
+type(
+  G.t
+)
+ident(
+  int_ref g "src/topological.ml" 133 4358 4371 "src/topological.ml" 133 4358 4372
+)
+"src/topological.ml" 134 4379 4397 "src/topological.ml" 134 4379 4407
+call(
+  stack
+)
+type(
+  C.path_checker
+)
+"src/topological.ml" 135 4411 4419 "src/topological.ml" 135 4411 4425
+type(
+  int H.t
+)
+"src/topological.ml" 135 4411 4428 "src/topological.ml" 135 4411 4436
+type(
+  int -> int H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/topological.ml" 135 4411 4437 "src/topological.ml" 135 4411 4440
+type(
+  int
+)
+"src/topological.ml" 135 4411 4428 "src/topological.ml" 135 4411 4440
+call(
+  stack
+)
+type(
+  int H.t
+)
+"src/topological.ml" 136 4444 4452 "src/topological.ml" 136 4444 4456
+type(
+  Q.S.t ref
+)
+"src/topological.ml" 136 4444 4459 "src/topological.ml" 136 4444 4467
+type(
+  unit -> Q.S.t ref
+)
+ident(
+  ext_ref Q.create
+)
+"src/topological.ml" 136 4444 4468 "src/topological.ml" 136 4444 4470
+type(
+  unit
+)
+"src/topological.ml" 136 4444 4459 "src/topological.ml" 136 4444 4470
+call(
+  stack
+)
+type(
+  Q.S.t ref
+)
+"src/topological.ml" 137 4474 4482 "src/topological.ml" 137 4474 4486
+type(
+  H.key -> unit
+)
+"src/topological.ml" 137 4474 4487 "src/topological.ml" 137 4474 4488
+type(
+  H.key
+)
+ident(
+  def x "src/topological.ml" 138 4491 4497 "src/topological.ml" 139 4516 4535
+)
+"src/topological.ml" 138 4491 4497 "src/topological.ml" 138 4491 4505
+type(
+  int H.t -> H.key -> unit
+)
+ident(
+  ext_ref H.remove
+)
+"src/topological.ml" 138 4491 4506 "src/topological.ml" 138 4491 4512
+type(
+  int H.t
+)
+ident(
+  int_ref degree "src/topological.ml" 135 4411 4419 "src/topological.ml" 135 4411 4425
+)
+"src/topological.ml" 138 4491 4513 "src/topological.ml" 138 4491 4514
+type(
+  H.key
+)
+ident(
+  int_ref x "src/topological.ml" 137 4474 4487 "src/topological.ml" 137 4474 4488
+)
+"src/topological.ml" 138 4491 4497 "src/topological.ml" 138 4491 4514
+call(
+  stack
+)
+type(
+  unit
+)
+"src/topological.ml" 139 4516 4522 "src/topological.ml" 139 4516 4528
+type(
+  Q.S.elt -> Q.S.t ref -> unit
+)
+ident(
+  ext_ref Q.push
+)
+"src/topological.ml" 139 4516 4529 "src/topological.ml" 139 4516 4530
+type(
+  H.key
+)
+ident(
+  int_ref x "src/topological.ml" 137 4474 4487 "src/topological.ml" 137 4474 4488
+)
+"src/topological.ml" 139 4516 4531 "src/topological.ml" 139 4516 4535
+type(
+  Q.S.t ref
+)
+ident(
+  int_ref todo "src/topological.ml" 136 4444 4452 "src/topological.ml" 136 4444 4456
+)
+"src/topological.ml" 139 4516 4522 "src/topological.ml" 139 4516 4535
+call(
+  tail
+)
+type(
+  unit
+)
+"src/topological.ml" 138 4491 4497 "src/topological.ml" 139 4516 4535
+type(
+  unit
+)
+"src/topological.ml" 141 4543 4555 "src/topological.ml" 141 4543 4559
+type(
+  'd -> 'd
+)
+"src/topological.ml" 141 4543 4560 "src/topological.ml" 141 4543 4563
+type(
+  'd
+)
+ident(
+  def acc "src/topological.ml" 142 4566 4572 "src/topological.ml" 166 5205 5214
+)
+"src/topological.ml" 142 4566 4575 "src/topological.ml" 142 4566 4585
+type(
+  Q.S.t ref -> bool
+)
+ident(
+  ext_ref Q.is_empty
+)
+"src/topological.ml" 142 4566 4586 "src/topological.ml" 142 4566 4590
+type(
+  Q.S.t ref
+)
+ident(
+  int_ref todo "src/topological.ml" 136 4444 4452 "src/topological.ml" 136 4444 4456
+)
+"src/topological.ml" 142 4566 4575 "src/topological.ml" 142 4566 4590
+call(
+  stack
+)
+type(
+  bool
+)
+"src/topological.ml" 144 4648 4653 "src/topological.ml" 144 4648 4656
+type(
+  H.key list
+)
+ident(
+  def min "src/topological.ml" 147 4735 4736 "src/topological.ml" 153 4909 4920
+)
+"src/topological.ml" 144 4648 4658 "src/topological.ml" 144 4648 4659
+type(
+  int
+)
+"src/topological.ml" 144 4648 4653 "src/topological.ml" 144 4648 4659
+type(
+  H.key list * int
+)
+"src/topological.ml" 145 4662 4665 "src/topological.ml" 145 4662 4671
+type(
+  (H.key -> int -> H.key list * int -> H.key list * int) ->
+  int H.t -> H.key list * int -> H.key list * int
+)
+ident(
+  ext_ref H.fold
+)
+"src/topological.ml" 145 4662 4677 "src/topological.ml" 145 4662 4678
+type(
+  H.key
+)
+ident(
+  def v "src/topological.ml" 145 4662 4679 "src/topological.ml" 145 4662 4708
+)
+"src/topological.ml" 145 4662 4679 "src/topological.ml" 145 4662 4680
+type(
+  int
+)
+ident(
+  def d "src/topological.ml" 145 4662 4681 "src/topological.ml" 145 4662 4708
+)
+"src/topological.ml" 145 4662 4681 "src/topological.ml" 145 4662 4684
+type(
+  H.key list * int
+)
+ident(
+  def old "src/topological.ml" 145 4662 4688 "src/topological.ml" 145 4662 4708
+)
+"src/topological.ml" 145 4662 4688 "src/topological.ml" 145 4662 4696
+type(
+  old:H.key list * int -> H.key * int -> H.key list * int
+)
+ident(
+  ext_ref Q.choose
+)
+"src/topological.ml" 145 4662 4698 "src/topological.ml" 145 4662 4701
+type(
+  H.key list * int
+)
+ident(
+  int_ref old "src/topological.ml" 145 4662 4681 "src/topological.ml" 145 4662 4684
+)
+"src/topological.ml" 145 4662 4703 "src/topological.ml" 145 4662 4704
+type(
+  H.key
+)
+ident(
+  int_ref v "src/topological.ml" 145 4662 4677 "src/topological.ml" 145 4662 4678
+)
+"src/topological.ml" 145 4662 4706 "src/topological.ml" 145 4662 4707
+type(
+  int
+)
+ident(
+  int_ref d "src/topological.ml" 145 4662 4679 "src/topological.ml" 145 4662 4680
+)
+"src/topological.ml" 145 4662 4702 "src/topological.ml" 145 4662 4708
+type(
+  H.key * int
+)
+"src/topological.ml" 145 4662 4688 "src/topological.ml" 145 4662 4708
+call(
+  tail
+)
+type(
+  H.key list * int
+)
+"src/topological.ml" 145 4662 4672 "src/topological.ml" 145 4662 4709
+type(
+  H.key -> int -> H.key list * int -> H.key list * int
+)
+"src/topological.ml" 145 4662 4710 "src/topological.ml" 145 4662 4716
+type(
+  int H.t
+)
+ident(
+  int_ref degree "src/topological.ml" 135 4411 4419 "src/topological.ml" 135 4411 4425
+)
+"src/topological.ml" 145 4662 4718 "src/topological.ml" 145 4662 4720
+type(
+  H.key list
+)
+"src/topological.ml" 145 4662 4722 "src/topological.ml" 145 4662 4729
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.max_int
+)
+"src/topological.ml" 145 4662 4717 "src/topological.ml" 145 4662 4730
+type(
+  H.key list * int
+)
+"src/topological.ml" 145 4662 4665 "src/topological.ml" 145 4662 4730
+call(
+  stack
+)
+type(
+  H.key list * int
+)
+"src/topological.ml" 147 4735 4742 "src/topological.ml" 147 4735 4745
+type(
+  H.key list
+)
+ident(
+  int_ref min "src/topological.ml" 144 4648 4653 "src/topological.ml" 144 4648 4656
+)
+"src/topological.ml" 148 4751 4754 "src/topological.ml" 148 4751 4756
+type(
+  H.key list
+)
+"src/topological.ml" 148 4751 4760 "src/topological.ml" 148 4751 4763
+type(
+  'd
+)
+ident(
+  int_ref acc "src/topological.ml" 141 4543 4560 "src/topological.ml" 141 4543 4563
+)
+"src/topological.ml" 149 4764 4767 "src/topological.ml" 149 4764 4768
+type(
+  H.key list
+)
+"src/topological.ml" 150 4772 4779 "src/topological.ml" 150 4772 4781
+type(
+  H.key list
+)
+"src/topological.ml" 150 4772 4784 "src/topological.ml" 150 4772 4798
+type(
+  C.path_checker -> H.key list -> H.key list
+)
+ident(
+  int_ref find_top_cycle "src/topological.ml" 118 3869 3875 "src/topological.ml" 118 3869 3889
+)
+"src/topological.ml" 150 4772 4799 "src/topological.ml" 150 4772 4806
+type(
+  C.path_checker
+)
+ident(
+  int_ref checker "src/topological.ml" 134 4379 4387 "src/topological.ml" 134 4379 4394
+)
+"src/topological.ml" 150 4772 4807 "src/topological.ml" 150 4772 4810
+type(
+  H.key list
+)
+ident(
+  int_ref min "src/topological.ml" 144 4648 4653 "src/topological.ml" 144 4648 4656
+)
+"src/topological.ml" 150 4772 4784 "src/topological.ml" 150 4772 4810
+call(
+  stack
+)
+type(
+  H.key list
+)
+"src/topological.ml" 151 4814 4817 "src/topological.ml" 151 4814 4826
+type(
+  (H.key -> unit) -> H.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/topological.ml" 151 4814 4827 "src/topological.ml" 151 4814 4831
+type(
+  H.key -> unit
+)
+ident(
+  int_ref push "src/topological.ml" 137 4474 4482 "src/topological.ml" 137 4474 4486
+)
+"src/topological.ml" 151 4814 4832 "src/topological.ml" 151 4814 4834
+type(
+  H.key list
+)
+ident(
+  int_ref vl "src/topological.ml" 150 4772 4779 "src/topological.ml" 150 4772 4781
+)
+"src/topological.ml" 151 4814 4817 "src/topological.ml" 151 4814 4834
+call(
+  stack
+)
+type(
+  unit
+)
+"src/topological.ml" 153 4909 4912 "src/topological.ml" 153 4909 4916
+type(
+  'd -> 'd
+)
+ident(
+  int_ref walk "src/topological.ml" 141 4543 4555 "src/topological.ml" 141 4543 4559
+)
+"src/topological.ml" 153 4909 4917 "src/topological.ml" 153 4909 4920
+type(
+  'd
+)
+ident(
+  int_ref acc "src/topological.ml" 141 4543 4560 "src/topological.ml" 141 4543 4563
+)
+"src/topological.ml" 153 4909 4912 "src/topological.ml" 153 4909 4920
+call(
+  tail
+)
+type(
+  'd
+)
+"src/topological.ml" 151 4814 4817 "src/topological.ml" 153 4909 4920
+type(
+  'd
+)
+"src/topological.ml" 150 4772 4775 "src/topological.ml" 153 4909 4920
+type(
+  'd
+)
+"src/topological.ml" 147 4735 4736 "src/topological.ml" 153 4909 4920
+type(
+  'd
+)
+"src/topological.ml" 144 4648 4649 "src/topological.ml" 153 4909 4920
+type(
+  'd
+)
+"src/topological.ml" 155 4932 4937 "src/topological.ml" 155 4932 4938
+type(
+  Q.S.elt
+)
+"src/topological.ml" 155 4932 4941 "src/topological.ml" 155 4932 4946
+type(
+  Q.S.t ref -> Q.S.elt
+)
+ident(
+  ext_ref Q.pop
+)
+"src/topological.ml" 155 4932 4947 "src/topological.ml" 155 4932 4951
+type(
+  Q.S.t ref
+)
+ident(
+  int_ref todo "src/topological.ml" 136 4444 4452 "src/topological.ml" 136 4444 4456
+)
+"src/topological.ml" 155 4932 4941 "src/topological.ml" 155 4932 4951
+call(
+  stack
+)
+type(
+  Q.S.elt
+)
+"src/topological.ml" 156 4955 4960 "src/topological.ml" 156 4955 4963
+type(
+  'd
+)
+"src/topological.ml" 156 4955 4966 "src/topological.ml" 156 4955 4967
+type(
+  Q.S.elt -> 'd -> 'd
+)
+ident(
+  int_ref f "src/topological.ml" 133 4358 4369 "src/topological.ml" 133 4358 4370
+)
+"src/topological.ml" 156 4955 4968 "src/topological.ml" 156 4955 4969
+type(
+  Q.S.elt
+)
+ident(
+  int_ref v "src/topological.ml" 155 4932 4937 "src/topological.ml" 155 4932 4938
+)
+"src/topological.ml" 156 4955 4970 "src/topological.ml" 156 4955 4973
+type(
+  'd
+)
+ident(
+  int_ref acc "src/topological.ml" 141 4543 4560 "src/topological.ml" 141 4543 4563
+)
+"src/topological.ml" 156 4955 4966 "src/topological.ml" 156 4955 4973
+call(
+  stack
+)
+type(
+  'd
+)
+"src/topological.ml" 157 4977 4978 "src/topological.ml" 157 4977 4989
+type(
+  (H.key -> unit) -> G.t -> Q.S.elt -> unit
+)
+ident(
+  ext_ref G.iter_succ
+)
+"src/topological.ml" 158 4990 4998 "src/topological.ml" 158 4990 4999
+type(
+  H.key
+)
+ident(
+  def x "src/topological.ml" 159 5002 5015 "src/topological.ml" 164 5185 5195
+)
+"src/topological.ml" 160 5019 5038 "src/topological.ml" 160 5019 5039
+type(
+  int
+)
+ident(
+  def d "src/topological.ml" 161 5061 5069 "src/topological.ml" 161 5061 5119
+)
+"src/topological.ml" 160 5019 5042 "src/topological.ml" 160 5019 5048
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/topological.ml" 160 5019 5049 "src/topological.ml" 160 5019 5055
+type(
+  int H.t
+)
+ident(
+  int_ref degree "src/topological.ml" 135 4411 4419 "src/topological.ml" 135 4411 4425
+)
+"src/topological.ml" 160 5019 5056 "src/topological.ml" 160 5019 5057
+type(
+  H.key
+)
+ident(
+  int_ref x "src/topological.ml" 158 4990 4998 "src/topological.ml" 158 4990 4999
+)
+"src/topological.ml" 160 5019 5042 "src/topological.ml" 160 5019 5057
+call(
+  stack
+)
+type(
+  int
+)
+"src/topological.ml" 161 5061 5072 "src/topological.ml" 161 5061 5073
+type(
+  int
+)
+ident(
+  int_ref d "src/topological.ml" 160 5019 5038 "src/topological.ml" 160 5019 5039
+)
+"src/topological.ml" 161 5061 5074 "src/topological.ml" 161 5061 5075
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/topological.ml" 161 5061 5076 "src/topological.ml" 161 5061 5077
+type(
+  int
+)
+"src/topological.ml" 161 5061 5072 "src/topological.ml" 161 5061 5077
+type(
+  bool
+)
+"src/topological.ml" 161 5061 5083 "src/topological.ml" 161 5061 5087
+type(
+  H.key -> unit
+)
+ident(
+  int_ref push "src/topological.ml" 137 4474 4482 "src/topological.ml" 137 4474 4486
+)
+"src/topological.ml" 161 5061 5088 "src/topological.ml" 161 5061 5089
+type(
+  H.key
+)
+ident(
+  int_ref x "src/topological.ml" 158 4990 4998 "src/topological.ml" 158 4990 4999
+)
+"src/topological.ml" 161 5061 5083 "src/topological.ml" 161 5061 5089
+call(
+  stack
+)
+type(
+  unit
+)
+"src/topological.ml" 161 5061 5095 "src/topological.ml" 161 5061 5104
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/topological.ml" 161 5061 5105 "src/topological.ml" 161 5061 5111
+type(
+  int H.t
+)
+ident(
+  int_ref degree "src/topological.ml" 135 4411 4419 "src/topological.ml" 135 4411 4425
+)
+"src/topological.ml" 161 5061 5112 "src/topological.ml" 161 5061 5113
+type(
+  H.key
+)
+ident(
+  int_ref x "src/topological.ml" 158 4990 4998 "src/topological.ml" 158 4990 4999
+)
+"src/topological.ml" 161 5061 5115 "src/topological.ml" 161 5061 5116
+type(
+  int
+)
+ident(
+  int_ref d "src/topological.ml" 160 5019 5038 "src/topological.ml" 160 5019 5039
+)
+"src/topological.ml" 161 5061 5116 "src/topological.ml" 161 5061 5117
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/topological.ml" 161 5061 5117 "src/topological.ml" 161 5061 5118
+type(
+  int
+)
+"src/topological.ml" 161 5061 5114 "src/topological.ml" 161 5061 5119
+type(
+  int
+)
+"src/topological.ml" 161 5061 5095 "src/topological.ml" 161 5061 5119
+call(
+  stack
+)
+type(
+  unit
+)
+"src/topological.ml" 161 5061 5069 "src/topological.ml" 161 5061 5119
+type(
+  unit
+)
+"src/topological.ml" 160 5019 5034 "src/topological.ml" 161 5061 5119
+type(
+  unit
+)
+"src/topological.ml" 162 5120 5138 "src/topological.ml" 162 5120 5147
+type(
+  exn
+)
+"src/topological.ml" 164 5185 5193 "src/topological.ml" 164 5185 5195
+type(
+  unit
+)
+"src/topological.ml" 159 5002 5015 "src/topological.ml" 164 5185 5195
+type(
+  unit
+)
+"src/topological.ml" 158 4990 4993 "src/topological.ml" 164 5185 5196
+type(
+  H.key -> unit
+)
+"src/topological.ml" 165 5197 5200 "src/topological.ml" 165 5197 5201
+type(
+  G.t
+)
+ident(
+  int_ref g "src/topological.ml" 133 4358 4371 "src/topological.ml" 133 4358 4372
+)
+"src/topological.ml" 165 5197 5202 "src/topological.ml" 165 5197 5203
+type(
+  Q.S.elt
+)
+ident(
+  int_ref v "src/topological.ml" 155 4932 4937 "src/topological.ml" 155 4932 4938
+)
+"src/topological.ml" 157 4977 4978 "src/topological.ml" 165 5197 5203
+call(
+  stack
+)
+type(
+  unit
+)
+"src/topological.ml" 166 5205 5206 "src/topological.ml" 166 5205 5210
+type(
+  'd -> 'd
+)
+ident(
+  int_ref walk "src/topological.ml" 141 4543 4555 "src/topological.ml" 141 4543 4559
+)
+"src/topological.ml" 166 5205 5211 "src/topological.ml" 166 5205 5214
+type(
+  'd
+)
+ident(
+  int_ref acc "src/topological.ml" 156 4955 4960 "src/topological.ml" 156 4955 4963
+)
+"src/topological.ml" 166 5205 5206 "src/topological.ml" 166 5205 5214
+call(
+  tail
+)
+type(
+  'd
+)
+"src/topological.ml" 157 4977 4978 "src/topological.ml" 166 5205 5214
+type(
+  'd
+)
+"src/topological.ml" 156 4955 4956 "src/topological.ml" 166 5205 5214
+type(
+  'd
+)
+"src/topological.ml" 155 4932 4933 "src/topological.ml" 166 5205 5214
+type(
+  'd
+)
+"src/topological.ml" 142 4566 4572 "src/topological.ml" 166 5205 5214
+type(
+  'd
+)
+"src/topological.ml" 168 5222 5226 "src/topological.ml" 168 5222 5239
+type(
+  (Q.S.elt -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref G.iter_vertex
+)
+"src/topological.ml" 169 5240 5251 "src/topological.ml" 169 5240 5252
+type(
+  Q.S.elt
+)
+ident(
+  def v "src/topological.ml" 170 5256 5258 "src/topological.ml" 172 5315 5338
+)
+"src/topological.ml" 170 5256 5262 "src/topological.ml" 170 5256 5263
+type(
+  int
+)
+"src/topological.ml" 170 5256 5266 "src/topological.ml" 170 5256 5277
+type(
+  G.t -> Q.S.elt -> int
+)
+ident(
+  ext_ref G.in_degree
+)
+"src/topological.ml" 170 5256 5278 "src/topological.ml" 170 5256 5279
+type(
+  G.t
+)
+ident(
+  int_ref g "src/topological.ml" 133 4358 4371 "src/topological.ml" 133 4358 4372
+)
+"src/topological.ml" 170 5256 5280 "src/topological.ml" 170 5256 5281
+type(
+  Q.S.elt
+)
+ident(
+  int_ref v "src/topological.ml" 169 5240 5251 "src/topological.ml" 169 5240 5252
+)
+"src/topological.ml" 170 5256 5266 "src/topological.ml" 170 5256 5281
+call(
+  stack
+)
+type(
+  int
+)
+"src/topological.ml" 171 5285 5290 "src/topological.ml" 171 5285 5291
+type(
+  int
+)
+ident(
+  int_ref d "src/topological.ml" 170 5256 5262 "src/topological.ml" 170 5256 5263
+)
+"src/topological.ml" 171 5285 5292 "src/topological.ml" 171 5285 5293
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/topological.ml" 171 5285 5294 "src/topological.ml" 171 5285 5295
+type(
+  int
+)
+"src/topological.ml" 171 5285 5290 "src/topological.ml" 171 5285 5295
+type(
+  bool
+)
+"src/topological.ml" 171 5285 5301 "src/topological.ml" 171 5285 5307
+type(
+  Q.S.elt -> Q.S.t ref -> unit
+)
+ident(
+  ext_ref Q.push
+)
+"src/topological.ml" 171 5285 5308 "src/topological.ml" 171 5285 5309
+type(
+  Q.S.elt
+)
+ident(
+  int_ref v "src/topological.ml" 169 5240 5251 "src/topological.ml" 169 5240 5252
+)
+"src/topological.ml" 171 5285 5310 "src/topological.ml" 171 5285 5314
+type(
+  Q.S.t ref
+)
+ident(
+  int_ref todo "src/topological.ml" 136 4444 4452 "src/topological.ml" 136 4444 4456
+)
+"src/topological.ml" 171 5285 5301 "src/topological.ml" 171 5285 5314
+call(
+  tail
+)
+type(
+  unit
+)
+"src/topological.ml" 172 5315 5322 "src/topological.ml" 172 5315 5327
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/topological.ml" 172 5315 5328 "src/topological.ml" 172 5315 5334
+type(
+  int H.t
+)
+ident(
+  int_ref degree "src/topological.ml" 135 4411 4419 "src/topological.ml" 135 4411 4425
+)
+"src/topological.ml" 172 5315 5335 "src/topological.ml" 172 5315 5336
+type(
+  Q.S.elt
+)
+ident(
+  int_ref v "src/topological.ml" 169 5240 5251 "src/topological.ml" 169 5240 5252
+)
+"src/topological.ml" 172 5315 5337 "src/topological.ml" 172 5315 5338
+type(
+  int
+)
+ident(
+  int_ref d "src/topological.ml" 170 5256 5262 "src/topological.ml" 170 5256 5263
+)
+"src/topological.ml" 172 5315 5322 "src/topological.ml" 172 5315 5338
+call(
+  tail
+)
+type(
+  unit
+)
+"src/topological.ml" 171 5285 5287 "src/topological.ml" 172 5315 5338
+type(
+  unit
+)
+"src/topological.ml" 170 5256 5258 "src/topological.ml" 172 5315 5338
+type(
+  unit
+)
+"src/topological.ml" 169 5240 5246 "src/topological.ml" 172 5315 5339
+type(
+  Q.S.elt -> unit
+)
+"src/topological.ml" 173 5340 5346 "src/topological.ml" 173 5340 5347
+type(
+  G.t
+)
+ident(
+  int_ref g "src/topological.ml" 133 4358 4371 "src/topological.ml" 133 4358 4372
+)
+"src/topological.ml" 168 5222 5226 "src/topological.ml" 173 5340 5347
+call(
+  stack
+)
+type(
+  unit
+)
+"src/topological.ml" 174 5349 5353 "src/topological.ml" 174 5349 5357
+type(
+  'd -> 'd
+)
+ident(
+  int_ref walk "src/topological.ml" 141 4543 4555 "src/topological.ml" 141 4543 4559
+)
+"src/topological.ml" 174 5349 5358 "src/topological.ml" 174 5349 5361
+type(
+  'd
+)
+ident(
+  int_ref acc "src/topological.ml" 133 4358 4373 "src/topological.ml" 133 4358 4376
+)
+"src/topological.ml" 174 5349 5353 "src/topological.ml" 174 5349 5361
+call(
+  tail
+)
+type(
+  'd
+)
+"src/topological.ml" 168 5222 5226 "src/topological.ml" 174 5349 5361
+type(
+  'd
+)
+"src/topological.ml" 141 4543 4547 "src/topological.ml" 174 5349 5361
+type(
+  'd
+)
+"src/topological.ml" 137 4474 4478 "src/topological.ml" 174 5349 5361
+type(
+  'd
+)
+"src/topological.ml" 136 4444 4448 "src/topological.ml" 174 5349 5361
+type(
+  'd
+)
+"src/topological.ml" 135 4411 4415 "src/topological.ml" 174 5349 5361
+type(
+  'd
+)
+"src/topological.ml" 134 4379 4383 "src/topological.ml" 174 5349 5361
+type(
+  'd
+)
+"src/topological.ml" 176 5363 5369 "src/topological.ml" 176 5363 5373
+type(
+  (Q.S.elt -> unit) -> G.t -> unit
+)
+ident(
+  def iter "src/topological.ml" 176 5363 5407 "src/topological.ml" 178 5409 5412
+)
+"src/topological.ml" 176 5363 5374 "src/topological.ml" 176 5363 5375
+type(
+  Q.S.elt -> unit
+)
+ident(
+  def f "src/topological.ml" 176 5363 5376 "src/topological.ml" 176 5363 5407
+)
+"src/topological.ml" 176 5363 5376 "src/topological.ml" 176 5363 5377
+type(
+  G.t
+)
+ident(
+  def g "src/topological.ml" 176 5363 5380 "src/topological.ml" 176 5363 5407
+)
+"src/topological.ml" 176 5363 5380 "src/topological.ml" 176 5363 5384
+type(
+  (Q.S.elt -> unit -> unit) -> G.t -> unit -> unit
+)
+ident(
+  int_ref fold "src/topological.ml" 133 4358 4364 "src/topological.ml" 133 4358 4368
+)
+"src/topological.ml" 176 5363 5390 "src/topological.ml" 176 5363 5391
+type(
+  Q.S.elt
+)
+ident(
+  def v "src/topological.ml" 176 5363 5392 "src/topological.ml" 176 5363 5401
+)
+"src/topological.ml" 176 5363 5392 "src/topological.ml" 176 5363 5394
+type(
+  unit
+)
+"src/topological.ml" 176 5363 5398 "src/topological.ml" 176 5363 5399
+type(
+  Q.S.elt -> unit
+)
+ident(
+  int_ref f "src/topological.ml" 176 5363 5374 "src/topological.ml" 176 5363 5375
+)
+"src/topological.ml" 176 5363 5400 "src/topological.ml" 176 5363 5401
+type(
+  Q.S.elt
+)
+ident(
+  int_ref v "src/topological.ml" 176 5363 5390 "src/topological.ml" 176 5363 5391
+)
+"src/topological.ml" 176 5363 5398 "src/topological.ml" 176 5363 5401
+call(
+  tail
+)
+type(
+  unit
+)
+"src/topological.ml" 176 5363 5385 "src/topological.ml" 176 5363 5402
+type(
+  Q.S.elt -> unit -> unit
+)
+"src/topological.ml" 176 5363 5403 "src/topological.ml" 176 5363 5404
+type(
+  G.t
+)
+ident(
+  int_ref g "src/topological.ml" 176 5363 5376 "src/topological.ml" 176 5363 5377
+)
+"src/topological.ml" 176 5363 5405 "src/topological.ml" 176 5363 5407
+type(
+  unit
+)
+"src/topological.ml" 176 5363 5380 "src/topological.ml" 176 5363 5407
+call(
+  tail
+)
+type(
+  unit
+)

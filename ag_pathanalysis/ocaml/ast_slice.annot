@@ -1,0 +1,3490 @@
+"ast_slice.ml" 13 172 191 "ast_slice.ml" 13 172 220
+call(
+  stack
+)
+"ast_slice.ml" 21 325 330 "ast_slice.ml" 21 325 341
+type(
+  (Cfg.AST.G.vertex -> unit) -> Cfg.AST.G.t -> unit
+)
+ident(
+  def iter_vertex "ast_slice.ml" 22 366 367 "ast_slice.ml" 23 403 406
+)
+"ast_slice.ml" 21 325 344 "ast_slice.ml" 21 325 365
+type(
+  (Cfg.AST.G.vertex -> unit) -> Cfg.AST.G.t -> unit
+)
+ident(
+  ext_ref Cfg.AST.G.iter_vertex
+)
+"ast_slice.ml" 22 366 371 "ast_slice.ml" 22 366 380
+type(
+  (Cfg.AST.G.vertex -> unit) -> Cfg.AST.G.t -> Cfg.AST.G.vertex -> unit
+)
+ident(
+  def iter_succ "ast_slice.ml" 22 366 402 "ast_slice.ml" 23 403 406
+)
+"ast_slice.ml" 22 366 383 "ast_slice.ml" 22 366 402
+type(
+  (Cfg.AST.G.vertex -> unit) -> Cfg.AST.G.t -> Cfg.AST.G.vertex -> unit
+)
+ident(
+  ext_ref Cfg.AST.G.iter_succ
+)
+"ast_slice.ml" 25 408 422 "ast_slice.ml" 25 408 447
+call(
+  stack
+)
+"ast_slice.ml" 28 492 496 "ast_slice.ml" 28 492 518
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  def rewrite_missing_labels "ast_slice.ml" 62 1536 1537 "ast_slice.ml" 181 5056 5059
+)
+"ast_slice.ml" 28 492 519 "ast_slice.ml" 28 492 522
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def cfg "ast_slice.ml" 29 525 527 "ast_slice.ml" 59 1470 1483
+)
+"ast_slice.ml" 29 525 531 "ast_slice.ml" 29 525 538
+type(
+  Cfg.AST.G.t -> Type.label -> bool
+)
+"ast_slice.ml" 29 525 539 "ast_slice.ml" 29 525 540
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def g "ast_slice.ml" 29 525 541 "ast_slice.ml" 31 591 688
+)
+"ast_slice.ml" 29 525 541 "ast_slice.ml" 29 525 542
+type(
+  Type.label
+)
+ident(
+  def l "ast_slice.ml" 30 545 549 "ast_slice.ml" 31 591 688
+)
+"ast_slice.ml" 30 545 553 "ast_slice.ml" 30 545 559
+type(
+  Cfg.AST.G.V.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"ast_slice.ml" 30 545 560 "ast_slice.ml" 30 545 578
+type(
+  Cfg.AST.G.t -> Type.label -> Cfg.AST.G.V.t
+)
+ident(
+  ext_ref Cfg.AST.find_label
+)
+"ast_slice.ml" 30 545 579 "ast_slice.ml" 30 545 580
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 29 525 539 "ast_slice.ml" 29 525 540
+)
+"ast_slice.ml" 30 545 581 "ast_slice.ml" 30 545 582
+type(
+  Type.label
+)
+ident(
+  int_ref l "ast_slice.ml" 29 525 541 "ast_slice.ml" 29 525 542
+)
+"ast_slice.ml" 30 545 559 "ast_slice.ml" 30 545 583
+call(
+  stack
+)
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 30 545 553 "ast_slice.ml" 30 545 583
+type(
+  unit
+)
+"ast_slice.ml" 30 545 585 "ast_slice.ml" 30 545 590
+type(
+  bool
+)
+"ast_slice.ml" 30 545 553 "ast_slice.ml" 30 545 590
+type(
+  bool
+)
+"ast_slice.ml" 31 591 600 "ast_slice.ml" 31 591 609
+type(
+  exn
+)
+"ast_slice.ml" 31 591 684 "ast_slice.ml" 31 591 688
+type(
+  bool
+)
+"ast_slice.ml" 30 545 549 "ast_slice.ml" 31 591 688
+type(
+  bool
+)
+"ast_slice.ml" 33 694 696 "ast_slice.ml" 33 694 713
+type(
+  (Cfg.AST.G.vertex -> Cfg.AST.G.t -> Cfg.AST.G.t) ->
+  Cfg.AST.G.t -> Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.G.fold_vertex
+)
+"ast_slice.ml" 34 714 723 "ast_slice.ml" 34 714 724
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  def v "ast_slice.ml" 34 714 725 "ast_slice.ml" 58 1455 1469
+)
+"ast_slice.ml" 34 714 725 "ast_slice.ml" 34 714 726
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def g "ast_slice.ml" 35 730 736 "ast_slice.ml" 58 1455 1469
+)
+"ast_slice.ml" 35 730 740 "ast_slice.ml" 35 730 745
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 35 730 748 "ast_slice.ml" 35 730 761
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.vertex -> Cfg.AST.lang
+)
+ident(
+  ext_ref Cfg.AST.get_stmts
+)
+"ast_slice.ml" 35 730 762 "ast_slice.ml" 35 730 763
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 34 714 725 "ast_slice.ml" 34 714 726
+)
+"ast_slice.ml" 35 730 764 "ast_slice.ml" 35 730 765
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v "ast_slice.ml" 34 714 723 "ast_slice.ml" 34 714 724
+)
+"ast_slice.ml" 35 730 748 "ast_slice.ml" 35 730 765
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 36 769 781 "ast_slice.ml" 36 769 789
+type(
+  Cfg.AST.lang -> Cfg.AST.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"ast_slice.ml" 36 769 790 "ast_slice.ml" 36 769 795
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref stmts "ast_slice.ml" 35 730 740 "ast_slice.ml" 35 730 745
+)
+"ast_slice.ml" 36 769 781 "ast_slice.ml" 36 769 795
+call(
+  stack
+)
+type(
+  Cfg.AST.stmt list
+)
+"ast_slice.ml" 37 801 814 "ast_slice.ml" 37 801 815
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_slice.ml" 38 826 834 "ast_slice.ml" 42 981 990
+)
+"ast_slice.ml" 37 801 817 "ast_slice.ml" 37 801 818
+type(
+  Ast.attrs
+)
+ident(
+  def a "ast_slice.ml" 38 826 834 "ast_slice.ml" 42 981 990
+)
+"ast_slice.ml" 37 801 813 "ast_slice.ml" 37 801 819
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_slice.ml" 37 801 809 "ast_slice.ml" 37 801 819
+type(
+  Cfg.AST.stmt
+)
+"ast_slice.ml" 37 801 821 "ast_slice.ml" 37 801 822
+type(
+  Cfg.AST.stmt list
+)
+ident(
+  def o "ast_slice.ml" 38 826 834 "ast_slice.ml" 42 981 990
+)
+"ast_slice.ml" 37 801 809 "ast_slice.ml" 37 801 822
+type(
+  Cfg.AST.stmt list
+)
+"ast_slice.ml" 38 826 841 "ast_slice.ml" 38 826 851
+type(
+  Ast.exp -> Type.label option
+)
+ident(
+  ext_ref Ast.lab_of_exp
+)
+"ast_slice.ml" 38 826 852 "ast_slice.ml" 38 826 853
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_slice.ml" 37 801 814 "ast_slice.ml" 37 801 815
+)
+"ast_slice.ml" 38 826 841 "ast_slice.ml" 38 826 853
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"ast_slice.ml" 39 859 874 "ast_slice.ml" 39 859 875
+type(
+  Type.label
+)
+ident(
+  def l "ast_slice.ml" 39 859 876 "ast_slice.ml" 40 896 963
+)
+"ast_slice.ml" 39 859 869 "ast_slice.ml" 39 859 875
+type(
+  Type.label option
+)
+"ast_slice.ml" 39 859 881 "ast_slice.ml" 39 859 888
+type(
+  Cfg.AST.G.t -> Type.label -> bool
+)
+ident(
+  int_ref missing "ast_slice.ml" 29 525 531 "ast_slice.ml" 29 525 538
+)
+"ast_slice.ml" 39 859 889 "ast_slice.ml" 39 859 890
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 34 714 725 "ast_slice.ml" 34 714 726
+)
+"ast_slice.ml" 39 859 891 "ast_slice.ml" 39 859 892
+type(
+  Type.label
+)
+ident(
+  int_ref l "ast_slice.ml" 39 859 874 "ast_slice.ml" 39 859 875
+)
+"ast_slice.ml" 39 859 881 "ast_slice.ml" 39 859 892
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_slice.ml" 40 896 906 "ast_slice.ml" 40 896 919
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.vertex -> Cfg.AST.lang -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.set_stmts
+)
+"ast_slice.ml" 40 896 920 "ast_slice.ml" 40 896 921
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 34 714 725 "ast_slice.ml" 34 714 726
+)
+"ast_slice.ml" 40 896 922 "ast_slice.ml" 40 896 923
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v "ast_slice.ml" 34 714 723 "ast_slice.ml" 34 714 724
+)
+"ast_slice.ml" 40 896 925 "ast_slice.ml" 40 896 933
+type(
+  Cfg.AST.stmt list -> Cfg.AST.lang
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"ast_slice.ml" 40 896 942 "ast_slice.ml" 40 896 954
+type(
+  string
+)
+"ast_slice.ml" 40 896 939 "ast_slice.ml" 40 896 954
+type(
+  Ast.exp
+)
+"ast_slice.ml" 40 896 956 "ast_slice.ml" 40 896 957
+type(
+  Ast.attrs
+)
+ident(
+  int_ref a "ast_slice.ml" 37 801 817 "ast_slice.ml" 37 801 818
+)
+"ast_slice.ml" 40 896 938 "ast_slice.ml" 40 896 958
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_slice.ml" 40 896 935 "ast_slice.ml" 40 896 958
+type(
+  Cfg.AST.stmt
+)
+"ast_slice.ml" 40 896 960 "ast_slice.ml" 40 896 961
+type(
+  Cfg.AST.stmt list
+)
+ident(
+  int_ref o "ast_slice.ml" 37 801 821 "ast_slice.ml" 37 801 822
+)
+"ast_slice.ml" 40 896 934 "ast_slice.ml" 40 896 962
+type(
+  Cfg.AST.stmt list
+)
+"ast_slice.ml" 40 896 924 "ast_slice.ml" 40 896 963
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 40 896 906 "ast_slice.ml" 40 896 963
+call(
+  tail
+)
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 39 859 876 "ast_slice.ml" 40 896 963
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 41 964 974 "ast_slice.ml" 41 964 975
+type(
+  Type.label option
+)
+"ast_slice.ml" 41 964 979 "ast_slice.ml" 41 964 980
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 34 714 725 "ast_slice.ml" 34 714 726
+)
+"ast_slice.ml" 38 826 834 "ast_slice.ml" 42 981 990
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 43 991 1004 "ast_slice.ml" 43 991 1005
+type(
+  Ast.exp
+)
+ident(
+  def c "ast_slice.ml" 44 1024 1032 "ast_slice.ml" 57 1443 1454
+)
+"ast_slice.ml" 43 991 1007 "ast_slice.ml" 43 991 1009
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_slice.ml" 44 1024 1032 "ast_slice.ml" 57 1443 1454
+)
+"ast_slice.ml" 43 991 1011 "ast_slice.ml" 43 991 1013
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_slice.ml" 44 1024 1032 "ast_slice.ml" 57 1443 1454
+)
+"ast_slice.ml" 43 991 1015 "ast_slice.ml" 43 991 1016
+type(
+  Ast.attrs
+)
+ident(
+  def a "ast_slice.ml" 44 1024 1032 "ast_slice.ml" 57 1443 1454
+)
+"ast_slice.ml" 43 991 1003 "ast_slice.ml" 43 991 1017
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"ast_slice.ml" 43 991 999 "ast_slice.ml" 43 991 1017
+type(
+  Cfg.AST.stmt
+)
+"ast_slice.ml" 43 991 1019 "ast_slice.ml" 43 991 1020
+type(
+  Cfg.AST.stmt list
+)
+ident(
+  def o "ast_slice.ml" 44 1024 1032 "ast_slice.ml" 57 1443 1454
+)
+"ast_slice.ml" 43 991 999 "ast_slice.ml" 43 991 1020
+type(
+  Cfg.AST.stmt list
+)
+"ast_slice.ml" 44 1024 1036 "ast_slice.ml" 44 1024 1039
+type(
+  Ast.exp
+)
+"ast_slice.ml" 44 1024 1041 "ast_slice.ml" 44 1024 1043
+type(
+  bool
+)
+"ast_slice.ml" 44 1024 1036 "ast_slice.ml" 44 1024 1043
+type(
+  Ast.exp * bool
+)
+"ast_slice.ml" 44 1024 1052 "ast_slice.ml" 44 1024 1062
+type(
+  Ast.exp -> Type.label option
+)
+ident(
+  ext_ref Ast.lab_of_exp
+)
+"ast_slice.ml" 44 1024 1063 "ast_slice.ml" 44 1024 1065
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_slice.ml" 43 991 1007 "ast_slice.ml" 43 991 1009
+)
+"ast_slice.ml" 44 1024 1052 "ast_slice.ml" 44 1024 1065
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"ast_slice.ml" 45 1071 1088 "ast_slice.ml" 45 1071 1089
+type(
+  Type.label
+)
+ident(
+  def l "ast_slice.ml" 45 1071 1090 "ast_slice.ml" 46 1110 1143
+)
+"ast_slice.ml" 45 1071 1083 "ast_slice.ml" 45 1071 1089
+type(
+  Type.label option
+)
+"ast_slice.ml" 45 1071 1095 "ast_slice.ml" 45 1071 1102
+type(
+  Cfg.AST.G.t -> Type.label -> bool
+)
+ident(
+  int_ref missing "ast_slice.ml" 29 525 531 "ast_slice.ml" 29 525 538
+)
+"ast_slice.ml" 45 1071 1103 "ast_slice.ml" 45 1071 1104
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 34 714 725 "ast_slice.ml" 34 714 726
+)
+"ast_slice.ml" 45 1071 1105 "ast_slice.ml" 45 1071 1106
+type(
+  Type.label
+)
+ident(
+  int_ref l "ast_slice.ml" 45 1071 1088 "ast_slice.ml" 45 1071 1089
+)
+"ast_slice.ml" 45 1071 1095 "ast_slice.ml" 45 1071 1106
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_slice.ml" 46 1110 1125 "ast_slice.ml" 46 1110 1137
+type(
+  string
+)
+"ast_slice.ml" 46 1110 1122 "ast_slice.ml" 46 1110 1137
+type(
+  Ast.exp
+)
+"ast_slice.ml" 46 1110 1139 "ast_slice.ml" 46 1110 1143
+type(
+  bool
+)
+"ast_slice.ml" 46 1110 1122 "ast_slice.ml" 46 1110 1143
+type(
+  Ast.exp * bool
+)
+"ast_slice.ml" 45 1071 1090 "ast_slice.ml" 46 1110 1143
+type(
+  Ast.exp * bool
+)
+"ast_slice.ml" 47 1144 1156 "ast_slice.ml" 47 1144 1157
+type(
+  Type.label option
+)
+"ast_slice.ml" 47 1144 1161 "ast_slice.ml" 47 1144 1163
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_slice.ml" 43 991 1007 "ast_slice.ml" 43 991 1009
+)
+"ast_slice.ml" 47 1144 1165 "ast_slice.ml" 47 1144 1170
+type(
+  bool
+)
+"ast_slice.ml" 47 1144 1161 "ast_slice.ml" 47 1144 1170
+type(
+  Ast.exp * bool
+)
+"ast_slice.ml" 44 1024 1046 "ast_slice.ml" 47 1144 1170
+type(
+  Ast.exp * bool
+)
+"ast_slice.ml" 49 1182 1194 "ast_slice.ml" 49 1182 1197
+type(
+  Ast.exp
+)
+"ast_slice.ml" 49 1182 1199 "ast_slice.ml" 49 1182 1201
+type(
+  bool
+)
+"ast_slice.ml" 49 1182 1194 "ast_slice.ml" 49 1182 1201
+type(
+  Ast.exp * bool
+)
+"ast_slice.ml" 49 1182 1210 "ast_slice.ml" 49 1182 1220
+type(
+  Ast.exp -> Type.label option
+)
+ident(
+  ext_ref Ast.lab_of_exp
+)
+"ast_slice.ml" 49 1182 1221 "ast_slice.ml" 49 1182 1223
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_slice.ml" 43 991 1011 "ast_slice.ml" 43 991 1013
+)
+"ast_slice.ml" 49 1182 1210 "ast_slice.ml" 49 1182 1223
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"ast_slice.ml" 50 1229 1246 "ast_slice.ml" 50 1229 1247
+type(
+  Type.label
+)
+ident(
+  def l "ast_slice.ml" 50 1229 1248 "ast_slice.ml" 51 1268 1301
+)
+"ast_slice.ml" 50 1229 1241 "ast_slice.ml" 50 1229 1247
+type(
+  Type.label option
+)
+"ast_slice.ml" 50 1229 1253 "ast_slice.ml" 50 1229 1260
+type(
+  Cfg.AST.G.t -> Type.label -> bool
+)
+ident(
+  int_ref missing "ast_slice.ml" 29 525 531 "ast_slice.ml" 29 525 538
+)
+"ast_slice.ml" 50 1229 1261 "ast_slice.ml" 50 1229 1262
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 34 714 725 "ast_slice.ml" 34 714 726
+)
+"ast_slice.ml" 50 1229 1263 "ast_slice.ml" 50 1229 1264
+type(
+  Type.label
+)
+ident(
+  int_ref l "ast_slice.ml" 50 1229 1246 "ast_slice.ml" 50 1229 1247
+)
+"ast_slice.ml" 50 1229 1253 "ast_slice.ml" 50 1229 1264
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_slice.ml" 51 1268 1283 "ast_slice.ml" 51 1268 1295
+type(
+  string
+)
+"ast_slice.ml" 51 1268 1280 "ast_slice.ml" 51 1268 1295
+type(
+  Ast.exp
+)
+"ast_slice.ml" 51 1268 1297 "ast_slice.ml" 51 1268 1301
+type(
+  bool
+)
+"ast_slice.ml" 51 1268 1280 "ast_slice.ml" 51 1268 1301
+type(
+  Ast.exp * bool
+)
+"ast_slice.ml" 50 1229 1248 "ast_slice.ml" 51 1268 1301
+type(
+  Ast.exp * bool
+)
+"ast_slice.ml" 52 1302 1314 "ast_slice.ml" 52 1302 1315
+type(
+  Type.label option
+)
+"ast_slice.ml" 52 1302 1319 "ast_slice.ml" 52 1302 1321
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_slice.ml" 43 991 1011 "ast_slice.ml" 43 991 1013
+)
+"ast_slice.ml" 52 1302 1323 "ast_slice.ml" 52 1302 1328
+type(
+  bool
+)
+"ast_slice.ml" 52 1302 1319 "ast_slice.ml" 52 1302 1328
+type(
+  Ast.exp * bool
+)
+"ast_slice.ml" 49 1182 1204 "ast_slice.ml" 52 1302 1328
+type(
+  Ast.exp * bool
+)
+"ast_slice.ml" 54 1340 1351 "ast_slice.ml" 54 1340 1353
+type(
+  bool
+)
+ident(
+  int_ref c1 "ast_slice.ml" 44 1024 1041 "ast_slice.ml" 44 1024 1043
+)
+"ast_slice.ml" 54 1340 1354 "ast_slice.ml" 54 1340 1356
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ast_slice.ml" 54 1340 1357 "ast_slice.ml" 54 1340 1359
+type(
+  bool
+)
+ident(
+  int_ref c2 "ast_slice.ml" 49 1182 1199 "ast_slice.ml" 49 1182 1201
+)
+"ast_slice.ml" 54 1340 1351 "ast_slice.ml" 54 1340 1359
+type(
+  bool
+)
+"ast_slice.ml" 55 1365 1375 "ast_slice.ml" 55 1365 1388
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.vertex -> Cfg.AST.lang -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.set_stmts
+)
+"ast_slice.ml" 55 1365 1389 "ast_slice.ml" 55 1365 1390
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 34 714 725 "ast_slice.ml" 34 714 726
+)
+"ast_slice.ml" 55 1365 1391 "ast_slice.ml" 55 1365 1392
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v "ast_slice.ml" 34 714 723 "ast_slice.ml" 34 714 724
+)
+"ast_slice.ml" 55 1365 1394 "ast_slice.ml" 55 1365 1402
+type(
+  Cfg.AST.stmt list -> Cfg.AST.lang
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"ast_slice.ml" 55 1365 1409 "ast_slice.ml" 55 1365 1410
+type(
+  Ast.exp
+)
+ident(
+  int_ref c "ast_slice.ml" 43 991 1004 "ast_slice.ml" 43 991 1005
+)
+"ast_slice.ml" 55 1365 1412 "ast_slice.ml" 55 1365 1415
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1' "ast_slice.ml" 44 1024 1036 "ast_slice.ml" 44 1024 1039
+)
+"ast_slice.ml" 55 1365 1417 "ast_slice.ml" 55 1365 1420
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2' "ast_slice.ml" 49 1182 1194 "ast_slice.ml" 49 1182 1197
+)
+"ast_slice.ml" 55 1365 1422 "ast_slice.ml" 55 1365 1423
+type(
+  Ast.attrs
+)
+ident(
+  int_ref a "ast_slice.ml" 43 991 1015 "ast_slice.ml" 43 991 1016
+)
+"ast_slice.ml" 55 1365 1408 "ast_slice.ml" 55 1365 1424
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"ast_slice.ml" 55 1365 1404 "ast_slice.ml" 55 1365 1424
+type(
+  Cfg.AST.stmt
+)
+"ast_slice.ml" 55 1365 1426 "ast_slice.ml" 55 1365 1427
+type(
+  Cfg.AST.stmt list
+)
+ident(
+  int_ref o "ast_slice.ml" 43 991 1019 "ast_slice.ml" 43 991 1020
+)
+"ast_slice.ml" 55 1365 1403 "ast_slice.ml" 55 1365 1428
+type(
+  Cfg.AST.stmt list
+)
+"ast_slice.ml" 55 1365 1393 "ast_slice.ml" 55 1365 1429
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 55 1365 1375 "ast_slice.ml" 55 1365 1429
+call(
+  tail
+)
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 57 1443 1453 "ast_slice.ml" 57 1443 1454
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 34 714 725 "ast_slice.ml" 34 714 726
+)
+"ast_slice.ml" 54 1340 1348 "ast_slice.ml" 57 1443 1454
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 49 1182 1190 "ast_slice.ml" 57 1443 1454
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 44 1024 1032 "ast_slice.ml" 57 1443 1454
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 58 1455 1463 "ast_slice.ml" 58 1455 1464
+type(
+  Cfg.AST.stmt list
+)
+"ast_slice.ml" 58 1455 1468 "ast_slice.ml" 58 1455 1469
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 34 714 725 "ast_slice.ml" 34 714 726
+)
+"ast_slice.ml" 36 769 775 "ast_slice.ml" 58 1455 1469
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 35 730 736 "ast_slice.ml" 58 1455 1469
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 34 714 718 "ast_slice.ml" 59 1470 1475
+type(
+  Cfg.AST.G.vertex -> Cfg.AST.G.t -> Cfg.AST.G.t
+)
+"ast_slice.ml" 59 1470 1476 "ast_slice.ml" 59 1470 1479
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 28 492 519 "ast_slice.ml" 28 492 522
+)
+"ast_slice.ml" 59 1470 1480 "ast_slice.ml" 59 1470 1483
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 28 492 519 "ast_slice.ml" 28 492 522
+)
+"ast_slice.ml" 33 694 696 "ast_slice.ml" 59 1470 1483
+call(
+  tail
+)
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 29 525 527 "ast_slice.ml" 59 1470 1483
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 62 1536 1541 "ast_slice.ml" 62 1536 1548
+type(
+  SG.t -> Cfg.AST.G.vertex -> Cfg.AST.G.vertex -> SG.t
+)
+ident(
+  def get_scc "ast_slice.ml" 82 2212 2213 "ast_slice.ml" 181 5056 5059
+)
+"ast_slice.ml" 62 1536 1549 "ast_slice.ml" 62 1536 1552
+type(
+  SG.t
+)
+ident(
+  def cfg "ast_slice.ml" 62 1536 1553 "ast_slice.ml" 80 2181 2210
+)
+"ast_slice.ml" 62 1536 1553 "ast_slice.ml" 62 1536 1556
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  def src "ast_slice.ml" 62 1536 1557 "ast_slice.ml" 80 2181 2210
+)
+"ast_slice.ml" 62 1536 1557 "ast_slice.ml" 62 1536 1560
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  def trg "ast_slice.ml" 64 1600 1602 "ast_slice.ml" 80 2181 2210
+)
+"ast_slice.ml" 64 1600 1607 "ast_slice.ml" 64 1600 1616
+type(
+  bool
+)
+"ast_slice.ml" 64 1600 1617 "ast_slice.ml" 64 1600 1620
+type(
+  SG.t
+)
+"ast_slice.ml" 64 1600 1606 "ast_slice.ml" 64 1600 1621
+type(
+  bool * SG.t
+)
+"ast_slice.ml" 65 1625 1631 "ast_slice.ml" 65 1625 1645
+type(
+  SG.t -> Cfg.AST.G.vertex -> Cfg.AST.G.vertex -> bool
+)
+ident(
+  ext_ref Cfg.AST.G.mem_edge
+)
+"ast_slice.ml" 65 1625 1646 "ast_slice.ml" 65 1625 1649
+type(
+  SG.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 62 1536 1549 "ast_slice.ml" 62 1536 1552
+)
+"ast_slice.ml" 65 1625 1650 "ast_slice.ml" 65 1625 1653
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref trg "ast_slice.ml" 62 1536 1557 "ast_slice.ml" 62 1536 1560
+)
+"ast_slice.ml" 65 1625 1654 "ast_slice.ml" 65 1625 1657
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref src "ast_slice.ml" 62 1536 1553 "ast_slice.ml" 62 1536 1556
+)
+"ast_slice.ml" 65 1625 1631 "ast_slice.ml" 65 1625 1657
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_slice.ml" 65 1625 1664 "ast_slice.ml" 65 1625 1669
+type(
+  bool
+)
+"ast_slice.ml" 65 1625 1670 "ast_slice.ml" 65 1625 1673
+type(
+  SG.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 62 1536 1549 "ast_slice.ml" 62 1536 1552
+)
+"ast_slice.ml" 65 1625 1663 "ast_slice.ml" 65 1625 1674
+type(
+  bool * SG.t
+)
+"ast_slice.ml" 66 1675 1684 "ast_slice.ml" 66 1675 1688
+type(
+  bool
+)
+"ast_slice.ml" 66 1675 1689 "ast_slice.ml" 66 1675 1701
+type(
+  SG.t -> Cfg.AST.G.vertex -> Cfg.AST.G.vertex -> SG.t
+)
+ident(
+  ext_ref Cfg.AST.add_edge
+)
+"ast_slice.ml" 66 1675 1702 "ast_slice.ml" 66 1675 1705
+type(
+  SG.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 62 1536 1549 "ast_slice.ml" 62 1536 1552
+)
+"ast_slice.ml" 66 1675 1706 "ast_slice.ml" 66 1675 1709
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref trg "ast_slice.ml" 62 1536 1557 "ast_slice.ml" 62 1536 1560
+)
+"ast_slice.ml" 66 1675 1710 "ast_slice.ml" 66 1675 1713
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref src "ast_slice.ml" 62 1536 1553 "ast_slice.ml" 62 1536 1556
+)
+"ast_slice.ml" 66 1675 1689 "ast_slice.ml" 66 1675 1713
+call(
+  stack
+)
+type(
+  SG.t
+)
+"ast_slice.ml" 66 1675 1683 "ast_slice.ml" 66 1675 1714
+type(
+  bool * SG.t
+)
+"ast_slice.ml" 65 1625 1628 "ast_slice.ml" 66 1675 1714
+type(
+  bool * SG.t
+)
+"ast_slice.ml" 68 1768 1775 "ast_slice.ml" 68 1768 1779
+type(
+  SG.V.t list list
+)
+"ast_slice.ml" 68 1768 1782 "ast_slice.ml" 68 1768 1795
+type(
+  SG.t -> SG.V.t list list
+)
+ident(
+  ext_ref Comp.scc_list
+)
+"ast_slice.ml" 68 1768 1796 "ast_slice.ml" 68 1768 1799
+type(
+  SG.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 64 1600 1617 "ast_slice.ml" 64 1600 1620
+)
+"ast_slice.ml" 68 1768 1782 "ast_slice.ml" 68 1768 1799
+call(
+  stack
+)
+type(
+  SG.V.t list list
+)
+"ast_slice.ml" 69 1803 1810 "ast_slice.ml" 69 1803 1817
+type(
+  Cfg.AST.G.vertex list
+)
+"ast_slice.ml" 69 1803 1820 "ast_slice.ml" 69 1803 1829
+type(
+  (Cfg.AST.G.vertex list -> bool) ->
+  Cfg.AST.G.vertex list list -> Cfg.AST.G.vertex list
+)
+ident(
+  ext_ref BatListFull.List.find
+)
+"ast_slice.ml" 69 1803 1831 "ast_slice.ml" 69 1803 1839
+type(
+  Cfg.AST.G.vertex -> Cfg.AST.G.vertex list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"ast_slice.ml" 69 1803 1840 "ast_slice.ml" 69 1803 1843
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref src "ast_slice.ml" 62 1536 1553 "ast_slice.ml" 62 1536 1556
+)
+"ast_slice.ml" 69 1803 1830 "ast_slice.ml" 69 1803 1844
+call(
+  stack
+)
+type(
+  Cfg.AST.G.vertex list -> bool
+)
+"ast_slice.ml" 69 1803 1845 "ast_slice.ml" 69 1803 1849
+type(
+  Cfg.AST.G.vertex list list
+)
+ident(
+  int_ref sccs "ast_slice.ml" 68 1768 1775 "ast_slice.ml" 68 1768 1779
+)
+"ast_slice.ml" 69 1803 1820 "ast_slice.ml" 69 1803 1849
+call(
+  stack
+)
+type(
+  Cfg.AST.G.vertex list
+)
+"ast_slice.ml" 70 1853 1859 "ast_slice.ml" 70 1853 1862
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ast_slice.ml" 70 1853 1864 "ast_slice.ml" 70 1853 1872
+type(
+  Cfg.AST.G.vertex -> Cfg.AST.G.vertex list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"ast_slice.ml" 70 1853 1873 "ast_slice.ml" 70 1853 1876
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref trg "ast_slice.ml" 62 1536 1557 "ast_slice.ml" 62 1536 1560
+)
+"ast_slice.ml" 70 1853 1877 "ast_slice.ml" 70 1853 1884
+type(
+  Cfg.AST.G.vertex list
+)
+ident(
+  int_ref scclist "ast_slice.ml" 69 1803 1810 "ast_slice.ml" 69 1803 1817
+)
+"ast_slice.ml" 70 1853 1863 "ast_slice.ml" 70 1853 1885
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_slice.ml" 70 1853 1859 "ast_slice.ml" 70 1853 1885
+type(
+  bool
+)
+"ast_slice.ml" 70 1853 1891 "ast_slice.ml" 70 1853 1899
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ast_slice.ml" 70 1853 1900 "ast_slice.ml" 70 1853 1923
+type(
+  string
+)
+"ast_slice.ml" 70 1853 1891 "ast_slice.ml" 70 1853 1923
+call(
+  stack
+)
+type(
+  unit
+)
+"ast_slice.ml" 70 1853 1856 "ast_slice.ml" 70 1853 1923
+type(
+  unit
+)
+"ast_slice.ml" 71 1926 1933 "ast_slice.ml" 71 1926 1936
+type(
+  SG.t
+)
+"ast_slice.ml" 72 1940 1944 "ast_slice.ml" 72 1940 1961
+type(
+  (Cfg.AST.G.vertex -> SG.t -> SG.t) -> SG.t -> SG.t -> SG.t
+)
+ident(
+  ext_ref Cfg.AST.G.fold_vertex
+)
+"ast_slice.ml" 73 1963 1973 "ast_slice.ml" 73 1963 1974
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  def v "ast_slice.ml" 73 1963 1975 "ast_slice.ml" 75 2043 2056
+)
+"ast_slice.ml" 73 1963 1975 "ast_slice.ml" 73 1963 1976
+type(
+  SG.t
+)
+ident(
+  def g "ast_slice.ml" 74 1981 1988 "ast_slice.ml" 75 2043 2056
+)
+"ast_slice.ml" 74 1981 1991 "ast_slice.ml" 74 1981 1994
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ast_slice.ml" 74 1981 1996 "ast_slice.ml" 74 1981 2004
+type(
+  Cfg.AST.G.vertex -> Cfg.AST.G.vertex list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"ast_slice.ml" 74 1981 2005 "ast_slice.ml" 74 1981 2006
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v "ast_slice.ml" 73 1963 1973 "ast_slice.ml" 73 1963 1974
+)
+"ast_slice.ml" 74 1981 2007 "ast_slice.ml" 74 1981 2014
+type(
+  Cfg.AST.G.vertex list
+)
+ident(
+  int_ref scclist "ast_slice.ml" 69 1803 1810 "ast_slice.ml" 69 1803 1817
+)
+"ast_slice.ml" 74 1981 1995 "ast_slice.ml" 74 1981 2015
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_slice.ml" 74 1981 1991 "ast_slice.ml" 74 1981 2015
+type(
+  bool
+)
+"ast_slice.ml" 74 1981 2021 "ast_slice.ml" 74 1981 2038
+type(
+  SG.t -> Cfg.AST.G.vertex -> SG.t
+)
+ident(
+  ext_ref Cfg.AST.remove_vertex
+)
+"ast_slice.ml" 74 1981 2039 "ast_slice.ml" 74 1981 2040
+type(
+  SG.t
+)
+ident(
+  int_ref g "ast_slice.ml" 73 1963 1975 "ast_slice.ml" 73 1963 1976
+)
+"ast_slice.ml" 74 1981 2041 "ast_slice.ml" 74 1981 2042
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v "ast_slice.ml" 73 1963 1973 "ast_slice.ml" 73 1963 1974
+)
+"ast_slice.ml" 74 1981 2021 "ast_slice.ml" 74 1981 2042
+call(
+  tail
+)
+type(
+  SG.t
+)
+"ast_slice.ml" 75 2043 2055 "ast_slice.ml" 75 2043 2056
+type(
+  SG.t
+)
+ident(
+  int_ref g "ast_slice.ml" 73 1963 1975 "ast_slice.ml" 73 1963 1976
+)
+"ast_slice.ml" 74 1981 1988 "ast_slice.ml" 75 2043 2056
+type(
+  SG.t
+)
+"ast_slice.ml" 73 1963 1968 "ast_slice.ml" 76 2057 2063
+type(
+  Cfg.AST.G.vertex -> SG.t -> SG.t
+)
+"ast_slice.ml" 76 2057 2064 "ast_slice.ml" 76 2057 2067
+type(
+  SG.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 64 1600 1617 "ast_slice.ml" 64 1600 1620
+)
+"ast_slice.ml" 76 2057 2068 "ast_slice.ml" 76 2057 2071
+type(
+  SG.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 64 1600 1617 "ast_slice.ml" 64 1600 1620
+)
+"ast_slice.ml" 72 1940 1944 "ast_slice.ml" 76 2057 2071
+call(
+  stack
+)
+type(
+  SG.t
+)
+"ast_slice.ml" 79 2110 2117 "ast_slice.ml" 79 2110 2120
+type(
+  SG.t
+)
+"ast_slice.ml" 79 2110 2126 "ast_slice.ml" 79 2110 2135
+type(
+  bool
+)
+ident(
+  int_ref edgeadded "ast_slice.ml" 64 1600 1607 "ast_slice.ml" 64 1600 1616
+)
+"ast_slice.ml" 79 2110 2141 "ast_slice.ml" 79 2110 2156
+type(
+  SG.t -> Cfg.AST.G.vertex -> Cfg.AST.G.vertex -> SG.t
+)
+ident(
+  ext_ref Cfg.AST.remove_edge
+)
+"ast_slice.ml" 79 2110 2157 "ast_slice.ml" 79 2110 2160
+type(
+  SG.t
+)
+ident(
+  int_ref scc "ast_slice.ml" 71 1926 1933 "ast_slice.ml" 71 1926 1936
+)
+"ast_slice.ml" 79 2110 2161 "ast_slice.ml" 79 2110 2164
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref trg "ast_slice.ml" 62 1536 1557 "ast_slice.ml" 62 1536 1560
+)
+"ast_slice.ml" 79 2110 2165 "ast_slice.ml" 79 2110 2168
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref src "ast_slice.ml" 62 1536 1553 "ast_slice.ml" 62 1536 1556
+)
+"ast_slice.ml" 79 2110 2141 "ast_slice.ml" 79 2110 2168
+call(
+  stack
+)
+type(
+  SG.t
+)
+"ast_slice.ml" 79 2110 2174 "ast_slice.ml" 79 2110 2177
+type(
+  SG.t
+)
+ident(
+  int_ref scc "ast_slice.ml" 71 1926 1933 "ast_slice.ml" 71 1926 1936
+)
+"ast_slice.ml" 79 2110 2123 "ast_slice.ml" 79 2110 2177
+type(
+  SG.t
+)
+"ast_slice.ml" 80 2181 2184 "ast_slice.ml" 80 2181 2206
+type(
+  SG.t -> SG.t
+)
+ident(
+  int_ref rewrite_missing_labels "ast_slice.ml" 28 492 496 "ast_slice.ml" 28 492 518
+)
+"ast_slice.ml" 80 2181 2207 "ast_slice.ml" 80 2181 2210
+type(
+  SG.t
+)
+ident(
+  int_ref scc "ast_slice.ml" 79 2110 2117 "ast_slice.ml" 79 2110 2120
+)
+"ast_slice.ml" 80 2181 2184 "ast_slice.ml" 80 2181 2210
+call(
+  tail
+)
+type(
+  SG.t
+)
+"ast_slice.ml" 79 2110 2113 "ast_slice.ml" 80 2181 2210
+type(
+  SG.t
+)
+"ast_slice.ml" 71 1926 1929 "ast_slice.ml" 80 2181 2210
+type(
+  SG.t
+)
+"ast_slice.ml" 70 1853 1856 "ast_slice.ml" 80 2181 2210
+type(
+  SG.t
+)
+"ast_slice.ml" 69 1803 1806 "ast_slice.ml" 80 2181 2210
+type(
+  SG.t
+)
+"ast_slice.ml" 68 1768 1771 "ast_slice.ml" 80 2181 2210
+type(
+  SG.t
+)
+"ast_slice.ml" 64 1600 1602 "ast_slice.ml" 80 2181 2210
+type(
+  SG.t
+)
+"ast_slice.ml" 82 2212 2217 "ast_slice.ml" 82 2212 2228
+type(
+  Depgraphs.CDG_AST.G.t ->
+  (Cfg.AST.G.vertex * int, Cfg.AST.G.vertex * int) Hashtbl.t -> unit
+)
+ident(
+  def compute_cds "ast_slice.ml" 103 2882 2883 "ast_slice.ml" 181 5056 5059
+)
+"ast_slice.ml" 82 2212 2229 "ast_slice.ml" 82 2212 2232
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  def cfg "ast_slice.ml" 82 2212 2233 "ast_slice.ml" 96 2582 2591
+)
+"ast_slice.ml" 82 2212 2233 "ast_slice.ml" 82 2212 2234
+type(
+  (Cfg.AST.G.vertex * int, Cfg.AST.G.vertex * int) Hashtbl.t
+)
+ident(
+  def h "ast_slice.ml" 83 2237 2239 "ast_slice.ml" 96 2582 2591
+)
+"ast_slice.ml" 83 2237 2243 "ast_slice.ml" 83 2237 2246
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 83 2237 2249 "ast_slice.ml" 83 2237 2268
+type(
+  Depgraphs.CDG_AST.G.t -> Depgraphs.CDG_AST.G.t
+)
+ident(
+  ext_ref Depgraphs.CDG_AST.compute_cdg
+)
+"ast_slice.ml" 83 2237 2269 "ast_slice.ml" 83 2237 2272
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 82 2212 2229 "ast_slice.ml" 82 2212 2232
+)
+"ast_slice.ml" 83 2237 2249 "ast_slice.ml" 83 2237 2272
+call(
+  stack
+)
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 84 2276 2279 "ast_slice.ml" 84 2276 2299
+type(
+  (Cfg.AST.G.vertex -> Cfg.AST.G.vertex -> unit) ->
+  Depgraphs.CDG_AST.G.t -> unit
+)
+ident(
+  ext_ref Cfg.AST.G.iter_edges
+)
+"ast_slice.ml" 85 2300 2309 "ast_slice.ml" 85 2300 2311
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  def v1 "ast_slice.ml" 85 2300 2312 "ast_slice.ml" 95 2573 2581
+)
+"ast_slice.ml" 85 2300 2312 "ast_slice.ml" 85 2300 2314
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  def v2 "ast_slice.ml" 86 2318 2324 "ast_slice.ml" 95 2573 2581
+)
+"ast_slice.ml" 86 2318 2328 "ast_slice.ml" 86 2318 2331
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 86 2318 2334 "ast_slice.ml" 86 2318 2347
+type(
+  Depgraphs.CDG_AST.G.t -> Cfg.AST.G.vertex -> Cfg.AST.lang
+)
+ident(
+  ext_ref Cfg.AST.get_stmts
+)
+"ast_slice.ml" 86 2318 2348 "ast_slice.ml" 86 2318 2351
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 82 2212 2229 "ast_slice.ml" 82 2212 2232
+)
+"ast_slice.ml" 86 2318 2352 "ast_slice.ml" 86 2318 2354
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v1 "ast_slice.ml" 85 2300 2309 "ast_slice.ml" 85 2300 2311
+)
+"ast_slice.ml" 86 2318 2334 "ast_slice.ml" 86 2318 2354
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 87 2358 2368 "ast_slice.ml" 87 2358 2371
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 87 2358 2374 "ast_slice.ml" 87 2358 2387
+type(
+  Depgraphs.CDG_AST.G.t -> Cfg.AST.G.vertex -> Cfg.AST.lang
+)
+ident(
+  ext_ref Cfg.AST.get_stmts
+)
+"ast_slice.ml" 87 2358 2388 "ast_slice.ml" 87 2358 2391
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 82 2212 2229 "ast_slice.ml" 82 2212 2232
+)
+"ast_slice.ml" 87 2358 2392 "ast_slice.ml" 87 2358 2394
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v2 "ast_slice.ml" 85 2300 2312 "ast_slice.ml" 85 2300 2314
+)
+"ast_slice.ml" 87 2358 2374 "ast_slice.ml" 87 2358 2394
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 88 2398 2408 "ast_slice.ml" 88 2398 2411
+type(
+  int
+)
+"ast_slice.ml" 88 2398 2415 "ast_slice.ml" 88 2398 2426
+type(
+  Cfg.AST.lang -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"ast_slice.ml" 88 2398 2427 "ast_slice.ml" 88 2398 2430
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref ss1 "ast_slice.ml" 86 2318 2328 "ast_slice.ml" 86 2318 2331
+)
+"ast_slice.ml" 88 2398 2414 "ast_slice.ml" 88 2398 2431
+call(
+  stack
+)
+type(
+  int
+)
+"ast_slice.ml" 88 2398 2432 "ast_slice.ml" 88 2398 2433
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ast_slice.ml" 88 2398 2434 "ast_slice.ml" 88 2398 2435
+type(
+  int
+)
+"ast_slice.ml" 88 2398 2414 "ast_slice.ml" 88 2398 2435
+type(
+  int
+)
+"ast_slice.ml" 89 2439 2445 "ast_slice.ml" 89 2439 2451
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"ast_slice.ml" 90 2453 2461 "ast_slice.ml" 90 2453 2475
+type(
+  (int -> Cfg.AST.stmt -> int) -> int -> Cfg.AST.lang -> int
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"ast_slice.ml" 91 2476 2489 "ast_slice.ml" 91 2476 2491
+type(
+  int
+)
+ident(
+  def id "ast_slice.ml" 91 2476 2492 "ast_slice.ml" 93 2540 2556
+)
+"ast_slice.ml" 91 2476 2492 "ast_slice.ml" 91 2476 2493
+type(
+  Cfg.AST.stmt
+)
+"ast_slice.ml" 92 2497 2507 "ast_slice.ml" 92 2497 2518
+type(
+  (Cfg.AST.G.vertex * int, Cfg.AST.G.vertex * int) Hashtbl.t ->
+  Cfg.AST.G.vertex * int -> Cfg.AST.G.vertex * int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ast_slice.ml" 92 2497 2519 "ast_slice.ml" 92 2497 2520
+type(
+  (Cfg.AST.G.vertex * int, Cfg.AST.G.vertex * int) Hashtbl.t
+)
+ident(
+  int_ref h "ast_slice.ml" 82 2212 2233 "ast_slice.ml" 82 2212 2234
+)
+"ast_slice.ml" 92 2497 2522 "ast_slice.ml" 92 2497 2524
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v2 "ast_slice.ml" 85 2300 2312 "ast_slice.ml" 85 2300 2314
+)
+"ast_slice.ml" 92 2497 2525 "ast_slice.ml" 92 2497 2527
+type(
+  int
+)
+ident(
+  int_ref id "ast_slice.ml" 91 2476 2489 "ast_slice.ml" 91 2476 2491
+)
+"ast_slice.ml" 92 2497 2521 "ast_slice.ml" 92 2497 2528
+type(
+  Cfg.AST.G.vertex * int
+)
+"ast_slice.ml" 92 2497 2530 "ast_slice.ml" 92 2497 2532
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v1 "ast_slice.ml" 85 2300 2309 "ast_slice.ml" 85 2300 2311
+)
+"ast_slice.ml" 92 2497 2533 "ast_slice.ml" 92 2497 2536
+type(
+  int
+)
+ident(
+  int_ref num "ast_slice.ml" 88 2398 2408 "ast_slice.ml" 88 2398 2411
+)
+"ast_slice.ml" 92 2497 2529 "ast_slice.ml" 92 2497 2537
+type(
+  Cfg.AST.G.vertex * int
+)
+"ast_slice.ml" 92 2497 2507 "ast_slice.ml" 92 2497 2537
+call(
+  stack
+)
+type(
+  unit
+)
+"ast_slice.ml" 93 2540 2550 "ast_slice.ml" 93 2540 2552
+type(
+  int
+)
+ident(
+  int_ref id "ast_slice.ml" 91 2476 2489 "ast_slice.ml" 91 2476 2491
+)
+"ast_slice.ml" 93 2540 2553 "ast_slice.ml" 93 2540 2554
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ast_slice.ml" 93 2540 2555 "ast_slice.ml" 93 2540 2556
+type(
+  int
+)
+"ast_slice.ml" 93 2540 2550 "ast_slice.ml" 93 2540 2556
+type(
+  int
+)
+"ast_slice.ml" 92 2497 2507 "ast_slice.ml" 93 2540 2556
+type(
+  int
+)
+"ast_slice.ml" 91 2476 2484 "ast_slice.ml" 94 2557 2566
+type(
+  int -> Cfg.AST.stmt -> int
+)
+"ast_slice.ml" 94 2557 2567 "ast_slice.ml" 94 2557 2568
+type(
+  int
+)
+"ast_slice.ml" 94 2557 2569 "ast_slice.ml" 94 2557 2572
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref ss2 "ast_slice.ml" 87 2358 2368 "ast_slice.ml" 87 2358 2371
+)
+"ast_slice.ml" 90 2453 2460 "ast_slice.ml" 95 2573 2581
+call(
+  stack
+)
+type(
+  int
+)
+"ast_slice.ml" 89 2439 2445 "ast_slice.ml" 95 2573 2581
+type(
+  unit
+)
+"ast_slice.ml" 88 2398 2404 "ast_slice.ml" 95 2573 2581
+type(
+  unit
+)
+"ast_slice.ml" 87 2358 2364 "ast_slice.ml" 95 2573 2581
+type(
+  unit
+)
+"ast_slice.ml" 86 2318 2324 "ast_slice.ml" 95 2573 2581
+type(
+  unit
+)
+"ast_slice.ml" 85 2300 2304 "ast_slice.ml" 96 2582 2587
+type(
+  Cfg.AST.G.vertex -> Cfg.AST.G.vertex -> unit
+)
+"ast_slice.ml" 96 2582 2588 "ast_slice.ml" 96 2582 2591
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cdg "ast_slice.ml" 83 2237 2243 "ast_slice.ml" 83 2237 2246
+)
+"ast_slice.ml" 84 2276 2279 "ast_slice.ml" 96 2582 2591
+call(
+  tail
+)
+type(
+  unit
+)
+"ast_slice.ml" 83 2237 2239 "ast_slice.ml" 96 2582 2591
+type(
+  unit
+)
+"ast_slice.ml" 103 2882 2887 "ast_slice.ml" 103 2882 2900
+type(
+  Cfg.AST.G.t ->
+  (Cfg.AST.G.vertex * int, Cfg.AST.G.vertex * int) Hashtbl.t -> unit
+)
+ident(
+  def add_jmp_stmts "ast_slice.ml" 124 3413 3414 "ast_slice.ml" 181 5056 5059
+)
+"ast_slice.ml" 103 2882 2901 "ast_slice.ml" 103 2882 2904
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def cfg "ast_slice.ml" 103 2882 2905 "ast_slice.ml" 122 3403 3411
+)
+"ast_slice.ml" 103 2882 2905 "ast_slice.ml" 103 2882 2908
+type(
+  (Cfg.AST.G.vertex * int, Cfg.AST.G.vertex * int) Hashtbl.t
+)
+ident(
+  def dds "ast_slice.ml" 104 2911 2913 "ast_slice.ml" 122 3403 3411
+)
+"ast_slice.ml" 104 2911 2913 "ast_slice.ml" 104 2911 2933
+type(
+  (Cfg.AST.G.vertex -> Cfg.AST.G.vertex -> unit) -> Cfg.AST.G.t -> unit
+)
+ident(
+  ext_ref Cfg.AST.G.iter_edges
+)
+"ast_slice.ml" 105 2934 2942 "ast_slice.ml" 105 2934 2944
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  def v1 "ast_slice.ml" 105 2934 2945 "ast_slice.ml" 121 3374 3402
+)
+"ast_slice.ml" 105 2934 2945 "ast_slice.ml" 105 2934 2947
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  def v2 "ast_slice.ml" 106 2951 2956 "ast_slice.ml" 121 3374 3402
+)
+"ast_slice.ml" 107 2960 2970 "ast_slice.ml" 107 2960 2976
+type(
+  Cfg.AST.lang
+)
+ident(
+  def stmts1 "ast_slice.ml" 108 3003 3009 "ast_slice.ml" 120 3358 3373
+)
+"ast_slice.ml" 107 2960 2979 "ast_slice.ml" 107 2960 2992
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.vertex -> Cfg.AST.lang
+)
+ident(
+  ext_ref Cfg.AST.get_stmts
+)
+"ast_slice.ml" 107 2960 2993 "ast_slice.ml" 107 2960 2996
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 103 2882 2901 "ast_slice.ml" 103 2882 2904
+)
+"ast_slice.ml" 107 2960 2997 "ast_slice.ml" 107 2960 2999
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v1 "ast_slice.ml" 105 2934 2942 "ast_slice.ml" 105 2934 2944
+)
+"ast_slice.ml" 107 2960 2979 "ast_slice.ml" 107 2960 2999
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 108 3003 3015 "ast_slice.ml" 108 3003 3022
+type(
+  Cfg.AST.stmt list -> Cfg.AST.stmt
+)
+ident(
+  ext_ref BatListFull.List.hd
+)
+"ast_slice.ml" 108 3003 3024 "ast_slice.ml" 108 3003 3032
+type(
+  Cfg.AST.lang -> Cfg.AST.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"ast_slice.ml" 108 3003 3033 "ast_slice.ml" 108 3003 3039
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref stmts1 "ast_slice.ml" 107 2960 2970 "ast_slice.ml" 107 2960 2976
+)
+"ast_slice.ml" 108 3003 3023 "ast_slice.ml" 108 3003 3040
+call(
+  stack
+)
+type(
+  Cfg.AST.stmt list
+)
+"ast_slice.ml" 108 3003 3015 "ast_slice.ml" 108 3003 3040
+call(
+  stack
+)
+type(
+  Cfg.AST.stmt
+)
+"ast_slice.ml" 109 3046 3059 "ast_slice.ml" 109 3046 3060
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"ast_slice.ml" 109 3046 3054 "ast_slice.ml" 109 3046 3060
+type(
+  Cfg.AST.stmt
+)
+"ast_slice.ml" 110 3064 3076 "ast_slice.ml" 110 3064 3079
+type(
+  int
+)
+"ast_slice.ml" 110 3064 3082 "ast_slice.ml" 110 3064 3093
+type(
+  Cfg.AST.lang -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"ast_slice.ml" 110 3064 3094 "ast_slice.ml" 110 3064 3100
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref stmts1 "ast_slice.ml" 107 2960 2970 "ast_slice.ml" 107 2960 2976
+)
+"ast_slice.ml" 110 3064 3082 "ast_slice.ml" 110 3064 3100
+call(
+  stack
+)
+type(
+  int
+)
+"ast_slice.ml" 110 3064 3101 "ast_slice.ml" 110 3064 3102
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ast_slice.ml" 110 3064 3103 "ast_slice.ml" 110 3064 3104
+type(
+  int
+)
+"ast_slice.ml" 110 3064 3082 "ast_slice.ml" 110 3064 3104
+type(
+  int
+)
+"ast_slice.ml" 111 3108 3120 "ast_slice.ml" 111 3108 3126
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 111 3108 3129 "ast_slice.ml" 111 3108 3142
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.vertex -> Cfg.AST.lang
+)
+ident(
+  ext_ref Cfg.AST.get_stmts
+)
+"ast_slice.ml" 111 3108 3143 "ast_slice.ml" 111 3108 3146
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 103 2882 2901 "ast_slice.ml" 103 2882 2904
+)
+"ast_slice.ml" 111 3108 3147 "ast_slice.ml" 111 3108 3149
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v2 "ast_slice.ml" 105 2934 2945 "ast_slice.ml" 105 2934 2947
+)
+"ast_slice.ml" 111 3108 3129 "ast_slice.ml" 111 3108 3149
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 112 3153 3161 "ast_slice.ml" 112 3153 3167
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"ast_slice.ml" 113 3168 3177 "ast_slice.ml" 113 3168 3191
+type(
+  (int -> Cfg.AST.stmt -> int) -> int -> Cfg.AST.lang -> int
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"ast_slice.ml" 114 3192 3206 "ast_slice.ml" 114 3192 3208
+type(
+  int
+)
+ident(
+  def id "ast_slice.ml" 114 3192 3209 "ast_slice.ml" 117 3303 3327
+)
+"ast_slice.ml" 114 3192 3209 "ast_slice.ml" 114 3192 3210
+type(
+  Cfg.AST.stmt
+)
+ident(
+  def s "ast_slice.ml" 115 3214 3225 "ast_slice.ml" 117 3303 3327
+)
+"ast_slice.ml" 115 3214 3231 "ast_slice.ml" 115 3214 3232
+type(
+  Cfg.AST.stmt
+)
+ident(
+  int_ref s "ast_slice.ml" 114 3192 3209 "ast_slice.ml" 114 3192 3210
+)
+"ast_slice.ml" 116 3239 3256 "ast_slice.ml" 116 3239 3257
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_slice.ml" 116 3239 3252 "ast_slice.ml" 116 3239 3257
+type(
+  Cfg.AST.stmt
+)
+"ast_slice.ml" 116 3239 3261 "ast_slice.ml" 116 3239 3272
+type(
+  (Cfg.AST.G.vertex * int, Cfg.AST.G.vertex * int) Hashtbl.t ->
+  Cfg.AST.G.vertex * int -> Cfg.AST.G.vertex * int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ast_slice.ml" 116 3239 3273 "ast_slice.ml" 116 3239 3276
+type(
+  (Cfg.AST.G.vertex * int, Cfg.AST.G.vertex * int) Hashtbl.t
+)
+ident(
+  int_ref dds "ast_slice.ml" 103 2882 2905 "ast_slice.ml" 103 2882 2908
+)
+"ast_slice.ml" 116 3239 3278 "ast_slice.ml" 116 3239 3280
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v2 "ast_slice.ml" 105 2934 2945 "ast_slice.ml" 105 2934 2947
+)
+"ast_slice.ml" 116 3239 3281 "ast_slice.ml" 116 3239 3283
+type(
+  int
+)
+ident(
+  int_ref id "ast_slice.ml" 114 3192 3206 "ast_slice.ml" 114 3192 3208
+)
+"ast_slice.ml" 116 3239 3277 "ast_slice.ml" 116 3239 3284
+type(
+  Cfg.AST.G.vertex * int
+)
+"ast_slice.ml" 116 3239 3286 "ast_slice.ml" 116 3239 3288
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v1 "ast_slice.ml" 105 2934 2942 "ast_slice.ml" 105 2934 2944
+)
+"ast_slice.ml" 116 3239 3289 "ast_slice.ml" 116 3239 3292
+type(
+  int
+)
+ident(
+  int_ref num "ast_slice.ml" 110 3064 3076 "ast_slice.ml" 110 3064 3079
+)
+"ast_slice.ml" 116 3239 3285 "ast_slice.ml" 116 3239 3293
+type(
+  Cfg.AST.G.vertex * int
+)
+"ast_slice.ml" 116 3239 3261 "ast_slice.ml" 116 3239 3293
+call(
+  stack
+)
+type(
+  unit
+)
+"ast_slice.ml" 116 3239 3296 "ast_slice.ml" 116 3239 3298
+type(
+  int
+)
+ident(
+  int_ref id "ast_slice.ml" 114 3192 3206 "ast_slice.ml" 114 3192 3208
+)
+"ast_slice.ml" 116 3239 3299 "ast_slice.ml" 116 3239 3300
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ast_slice.ml" 116 3239 3301 "ast_slice.ml" 116 3239 3302
+type(
+  int
+)
+"ast_slice.ml" 116 3239 3296 "ast_slice.ml" 116 3239 3302
+type(
+  int
+)
+"ast_slice.ml" 116 3239 3261 "ast_slice.ml" 116 3239 3302
+type(
+  int
+)
+"ast_slice.ml" 117 3303 3316 "ast_slice.ml" 117 3303 3317
+type(
+  Cfg.AST.stmt
+)
+"ast_slice.ml" 117 3303 3321 "ast_slice.ml" 117 3303 3323
+type(
+  int
+)
+ident(
+  int_ref id "ast_slice.ml" 114 3192 3206 "ast_slice.ml" 114 3192 3208
+)
+"ast_slice.ml" 117 3303 3324 "ast_slice.ml" 117 3303 3325
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ast_slice.ml" 117 3303 3326 "ast_slice.ml" 117 3303 3327
+type(
+  int
+)
+"ast_slice.ml" 117 3303 3321 "ast_slice.ml" 117 3303 3327
+type(
+  int
+)
+"ast_slice.ml" 115 3214 3225 "ast_slice.ml" 117 3303 3327
+type(
+  int
+)
+"ast_slice.ml" 114 3192 3201 "ast_slice.ml" 118 3328 3338
+type(
+  int -> Cfg.AST.stmt -> int
+)
+"ast_slice.ml" 118 3328 3339 "ast_slice.ml" 118 3328 3340
+type(
+  int
+)
+"ast_slice.ml" 118 3328 3341 "ast_slice.ml" 118 3328 3347
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref stmts2 "ast_slice.ml" 111 3108 3120 "ast_slice.ml" 111 3108 3126
+)
+"ast_slice.ml" 113 3168 3176 "ast_slice.ml" 119 3348 3357
+call(
+  stack
+)
+type(
+  int
+)
+"ast_slice.ml" 112 3153 3161 "ast_slice.ml" 119 3348 3357
+type(
+  unit
+)
+"ast_slice.ml" 111 3108 3116 "ast_slice.ml" 119 3348 3357
+type(
+  unit
+)
+"ast_slice.ml" 110 3064 3072 "ast_slice.ml" 119 3348 3357
+type(
+  unit
+)
+"ast_slice.ml" 120 3358 3366 "ast_slice.ml" 120 3358 3367
+type(
+  Cfg.AST.stmt
+)
+"ast_slice.ml" 120 3358 3371 "ast_slice.ml" 120 3358 3373
+type(
+  unit
+)
+"ast_slice.ml" 108 3003 3009 "ast_slice.ml" 120 3358 3373
+type(
+  unit
+)
+"ast_slice.ml" 107 2960 2966 "ast_slice.ml" 120 3358 3373
+type(
+  unit
+)
+"ast_slice.ml" 121 3374 3392 "ast_slice.ml" 121 3374 3396
+type(
+  string
+)
+"ast_slice.ml" 121 3374 3384 "ast_slice.ml" 121 3374 3396
+type(
+  exn
+)
+"ast_slice.ml" 121 3374 3400 "ast_slice.ml" 121 3374 3402
+type(
+  unit
+)
+"ast_slice.ml" 106 2951 2956 "ast_slice.ml" 121 3374 3402
+type(
+  unit
+)
+"ast_slice.ml" 105 2934 2937 "ast_slice.ml" 122 3403 3407
+type(
+  Cfg.AST.G.vertex -> Cfg.AST.G.vertex -> unit
+)
+"ast_slice.ml" 122 3403 3408 "ast_slice.ml" 122 3403 3411
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 103 2882 2901 "ast_slice.ml" 103 2882 2904
+)
+"ast_slice.ml" 104 2911 2913 "ast_slice.ml" 122 3403 3411
+call(
+  tail
+)
+type(
+  unit
+)
+"ast_slice.ml" 124 3413 3418 "ast_slice.ml" 124 3413 3425
+type(
+  Depgraphs.CDG_AST.G.t ->
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+ident(
+  def get_dds "ast_slice.ml" 132 3580 3582 "ast_slice.ml" 181 5056 5059
+)
+"ast_slice.ml" 124 3413 3426 "ast_slice.ml" 124 3413 3429
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  def cfg "ast_slice.ml" 125 3432 3434 "ast_slice.ml" 129 3549 3554
+)
+"ast_slice.ml" 125 3432 3438 "ast_slice.ml" 125 3432 3441
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+"ast_slice.ml" 125 3432 3444 "ast_slice.ml" 125 3432 3458
+type(
+  int -> (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ast_slice.ml" 125 3432 3459 "ast_slice.ml" 125 3432 3463
+type(
+  int
+)
+"ast_slice.ml" 125 3432 3444 "ast_slice.ml" 125 3432 3463
+call(
+  stack
+)
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+"ast_slice.ml" 126 3467 3469 "ast_slice.ml" 126 3467 3488
+type(
+  Depgraphs.CDG_AST.G.t ->
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Depgraphs.DDG_AST.compute_dds
+)
+"ast_slice.ml" 126 3467 3489 "ast_slice.ml" 126 3467 3492
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 124 3413 3426 "ast_slice.ml" 124 3413 3429
+)
+"ast_slice.ml" 126 3467 3493 "ast_slice.ml" 126 3467 3496
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+ident(
+  int_ref dds "ast_slice.ml" 125 3432 3438 "ast_slice.ml" 125 3432 3441
+)
+"ast_slice.ml" 126 3467 3469 "ast_slice.ml" 126 3467 3496
+call(
+  stack
+)
+type(
+  unit
+)
+"ast_slice.ml" 127 3499 3501 "ast_slice.ml" 127 3499 3512
+type(
+  Depgraphs.CDG_AST.G.t ->
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t -> unit
+)
+ident(
+  int_ref compute_cds "ast_slice.ml" 82 2212 2217 "ast_slice.ml" 82 2212 2228
+)
+"ast_slice.ml" 127 3499 3513 "ast_slice.ml" 127 3499 3516
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 124 3413 3426 "ast_slice.ml" 124 3413 3429
+)
+"ast_slice.ml" 127 3499 3517 "ast_slice.ml" 127 3499 3520
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+ident(
+  int_ref dds "ast_slice.ml" 125 3432 3438 "ast_slice.ml" 125 3432 3441
+)
+"ast_slice.ml" 127 3499 3501 "ast_slice.ml" 127 3499 3520
+call(
+  stack
+)
+type(
+  unit
+)
+"ast_slice.ml" 128 3523 3525 "ast_slice.ml" 128 3523 3538
+type(
+  Depgraphs.CDG_AST.G.t ->
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t -> unit
+)
+ident(
+  int_ref add_jmp_stmts "ast_slice.ml" 103 2882 2887 "ast_slice.ml" 103 2882 2900
+)
+"ast_slice.ml" 128 3523 3539 "ast_slice.ml" 128 3523 3542
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 124 3413 3426 "ast_slice.ml" 124 3413 3429
+)
+"ast_slice.ml" 128 3523 3543 "ast_slice.ml" 128 3523 3546
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+ident(
+  int_ref dds "ast_slice.ml" 125 3432 3438 "ast_slice.ml" 125 3432 3441
+)
+"ast_slice.ml" 128 3523 3525 "ast_slice.ml" 128 3523 3546
+call(
+  stack
+)
+type(
+  unit
+)
+"ast_slice.ml" 129 3549 3551 "ast_slice.ml" 129 3549 3554
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+ident(
+  int_ref dds "ast_slice.ml" 125 3432 3438 "ast_slice.ml" 125 3432 3441
+)
+"ast_slice.ml" 128 3523 3525 "ast_slice.ml" 129 3549 3554
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+"ast_slice.ml" 127 3499 3501 "ast_slice.ml" 129 3549 3554
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+"ast_slice.ml" 126 3467 3469 "ast_slice.ml" 129 3549 3554
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+"ast_slice.ml" 125 3432 3434 "ast_slice.ml" 129 3549 3554
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+"ast_slice.ml" 132 3580 3586 "ast_slice.ml" 132 3580 3591
+type(
+  Depgraphs.CDG_AST.G.t -> Cfg.AST.G.V.t -> int -> Depgraphs.CDG_AST.G.t
+)
+ident(
+  def slice "ast_slice.ml" 164 4482 4484 "ast_slice.ml" 181 5056 5059
+)
+"ast_slice.ml" 132 3580 3592 "ast_slice.ml" 132 3580 3595
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  def cfg "ast_slice.ml" 132 3580 3596 "ast_slice.ml" 161 4422 4428
+)
+"ast_slice.ml" 132 3580 3596 "ast_slice.ml" 132 3580 3600
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  def node "ast_slice.ml" 132 3580 3601 "ast_slice.ml" 161 4422 4428
+)
+"ast_slice.ml" 132 3580 3601 "ast_slice.ml" 132 3580 3605
+type(
+  int
+)
+ident(
+  def stmt "ast_slice.ml" 133 3608 3611 "ast_slice.ml" 161 4422 4428
+)
+"ast_slice.ml" 133 3608 3615 "ast_slice.ml" 133 3608 3619
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+"ast_slice.ml" 133 3608 3622 "ast_slice.ml" 133 3608 3629
+type(
+  Depgraphs.CDG_AST.G.t ->
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+ident(
+  int_ref get_dds "ast_slice.ml" 124 3413 3418 "ast_slice.ml" 124 3413 3425
+)
+"ast_slice.ml" 133 3608 3630 "ast_slice.ml" 133 3608 3633
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 132 3580 3592 "ast_slice.ml" 132 3580 3595
+)
+"ast_slice.ml" 133 3608 3622 "ast_slice.ml" 133 3608 3633
+call(
+  stack
+)
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+"ast_slice.ml" 134 3637 3648 "ast_slice.ml" 134 3637 3661
+type(
+  Depgraphs.DDG_AST.SS.t ->
+  Depgraphs.DDG_AST.location list -> Depgraphs.DDG_AST.SS.t
+)
+"ast_slice.ml" 134 3637 3662 "ast_slice.ml" 134 3637 3669
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+ident(
+  def visited "ast_slice.ml" 134 3637 3670 "ast_slice.ml" 142 3868 3931
+)
+"ast_slice.ml" 134 3637 3670 "ast_slice.ml" 134 3637 3672
+type(
+  Depgraphs.DDG_AST.location list
+)
+ident(
+  def wl "ast_slice.ml" 135 3675 3679 "ast_slice.ml" 142 3868 3931
+)
+"ast_slice.ml" 135 3675 3685 "ast_slice.ml" 135 3675 3687
+type(
+  Depgraphs.DDG_AST.location list
+)
+ident(
+  int_ref wl "ast_slice.ml" 134 3637 3670 "ast_slice.ml" 134 3637 3672
+)
+"ast_slice.ml" 136 3693 3699 "ast_slice.ml" 136 3693 3701
+type(
+  Depgraphs.DDG_AST.location list
+)
+"ast_slice.ml" 137 3706 3712 "ast_slice.ml" 137 3706 3719
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+ident(
+  int_ref visited "ast_slice.ml" 134 3637 3662 "ast_slice.ml" 134 3637 3669
+)
+"ast_slice.ml" 138 3720 3726 "ast_slice.ml" 138 3720 3727
+type(
+  Depgraphs.DDG_AST.SS.elt
+)
+ident(
+  def x "ast_slice.ml" 139 3741 3747 "ast_slice.ml" 142 3868 3931
+)
+"ast_slice.ml" 138 3720 3729 "ast_slice.ml" 138 3720 3737
+type(
+  Depgraphs.DDG_AST.location list
+)
+ident(
+  def worklist "ast_slice.ml" 139 3741 3747 "ast_slice.ml" 142 3868 3931
+)
+"ast_slice.ml" 138 3720 3726 "ast_slice.ml" 138 3720 3737
+type(
+  Depgraphs.DDG_AST.location list
+)
+"ast_slice.ml" 139 3741 3750 "ast_slice.ml" 139 3741 3764
+type(
+  Depgraphs.DDG_AST.SS.elt -> Depgraphs.DDG_AST.SS.t -> bool
+)
+ident(
+  ext_ref Depgraphs.DDG_AST.SS.mem
+)
+"ast_slice.ml" 139 3741 3765 "ast_slice.ml" 139 3741 3766
+type(
+  Depgraphs.DDG_AST.SS.elt
+)
+ident(
+  int_ref x "ast_slice.ml" 138 3720 3726 "ast_slice.ml" 138 3720 3727
+)
+"ast_slice.ml" 139 3741 3767 "ast_slice.ml" 139 3741 3774
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+ident(
+  int_ref visited "ast_slice.ml" 134 3637 3662 "ast_slice.ml" 134 3637 3669
+)
+"ast_slice.ml" 139 3741 3750 "ast_slice.ml" 139 3741 3774
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_slice.ml" 139 3741 3780 "ast_slice.ml" 139 3741 3793
+type(
+  Depgraphs.DDG_AST.SS.t ->
+  Depgraphs.DDG_AST.location list -> Depgraphs.DDG_AST.SS.t
+)
+ident(
+  int_ref get_reachable "ast_slice.ml" 134 3637 3648 "ast_slice.ml" 134 3637 3661
+)
+"ast_slice.ml" 139 3741 3794 "ast_slice.ml" 139 3741 3801
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+ident(
+  int_ref visited "ast_slice.ml" 134 3637 3662 "ast_slice.ml" 134 3637 3669
+)
+"ast_slice.ml" 139 3741 3802 "ast_slice.ml" 139 3741 3810
+type(
+  Depgraphs.DDG_AST.location list
+)
+ident(
+  int_ref worklist "ast_slice.ml" 138 3720 3729 "ast_slice.ml" 138 3720 3737
+)
+"ast_slice.ml" 139 3741 3780 "ast_slice.ml" 139 3741 3810
+call(
+  tail
+)
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+"ast_slice.ml" 141 3823 3834 "ast_slice.ml" 141 3823 3838
+type(
+  Depgraphs.DDG_AST.location list
+)
+"ast_slice.ml" 141 3823 3841 "ast_slice.ml" 141 3823 3857
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t ->
+  Depgraphs.DDG_AST.location -> Depgraphs.DDG_AST.location list
+)
+ident(
+  ext_ref Hashtbl.find_all
+)
+"ast_slice.ml" 141 3823 3858 "ast_slice.ml" 141 3823 3862
+type(
+  (Depgraphs.DDG_AST.location, Depgraphs.DDG_AST.location) Hashtbl.t
+)
+ident(
+  int_ref deps "ast_slice.ml" 133 3608 3615 "ast_slice.ml" 133 3608 3619
+)
+"ast_slice.ml" 141 3823 3863 "ast_slice.ml" 141 3823 3864
+type(
+  Depgraphs.DDG_AST.SS.elt
+)
+ident(
+  int_ref x "ast_slice.ml" 138 3720 3726 "ast_slice.ml" 138 3720 3727
+)
+"ast_slice.ml" 141 3823 3841 "ast_slice.ml" 141 3823 3864
+call(
+  stack
+)
+type(
+  Depgraphs.DDG_AST.location list
+)
+"ast_slice.ml" 142 3868 3875 "ast_slice.ml" 142 3868 3888
+type(
+  Depgraphs.DDG_AST.SS.t ->
+  Depgraphs.DDG_AST.location list -> Depgraphs.DDG_AST.SS.t
+)
+ident(
+  int_ref get_reachable "ast_slice.ml" 134 3637 3648 "ast_slice.ml" 134 3637 3661
+)
+"ast_slice.ml" 142 3868 3890 "ast_slice.ml" 142 3868 3904
+type(
+  Depgraphs.DDG_AST.SS.elt ->
+  Depgraphs.DDG_AST.SS.t -> Depgraphs.DDG_AST.SS.t
+)
+ident(
+  ext_ref Depgraphs.DDG_AST.SS.add
+)
+"ast_slice.ml" 142 3868 3905 "ast_slice.ml" 142 3868 3906
+type(
+  Depgraphs.DDG_AST.SS.elt
+)
+ident(
+  int_ref x "ast_slice.ml" 138 3720 3726 "ast_slice.ml" 138 3720 3727
+)
+"ast_slice.ml" 142 3868 3907 "ast_slice.ml" 142 3868 3914
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+ident(
+  int_ref visited "ast_slice.ml" 134 3637 3662 "ast_slice.ml" 134 3637 3669
+)
+"ast_slice.ml" 142 3868 3889 "ast_slice.ml" 142 3868 3915
+call(
+  stack
+)
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+"ast_slice.ml" 142 3868 3917 "ast_slice.ml" 142 3868 3921
+type(
+  Depgraphs.DDG_AST.location list
+)
+ident(
+  int_ref next "ast_slice.ml" 141 3823 3834 "ast_slice.ml" 141 3823 3838
+)
+"ast_slice.ml" 142 3868 3921 "ast_slice.ml" 142 3868 3922
+type(
+  Depgraphs.DDG_AST.location list ->
+  Depgraphs.DDG_AST.location list -> Depgraphs.DDG_AST.location list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"ast_slice.ml" 142 3868 3922 "ast_slice.ml" 142 3868 3930
+type(
+  Depgraphs.DDG_AST.location list
+)
+ident(
+  int_ref worklist "ast_slice.ml" 138 3720 3729 "ast_slice.ml" 138 3720 3737
+)
+"ast_slice.ml" 142 3868 3916 "ast_slice.ml" 142 3868 3931
+call(
+  stack
+)
+type(
+  Depgraphs.DDG_AST.location list
+)
+"ast_slice.ml" 142 3868 3875 "ast_slice.ml" 142 3868 3931
+call(
+  tail
+)
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+"ast_slice.ml" 141 3823 3830 "ast_slice.ml" 142 3868 3931
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+"ast_slice.ml" 139 3741 3747 "ast_slice.ml" 142 3868 3931
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+"ast_slice.ml" 135 3675 3679 "ast_slice.ml" 142 3868 3931
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+"ast_slice.ml" 144 3938 3945 "ast_slice.ml" 144 3938 3948
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+"ast_slice.ml" 144 3938 3951 "ast_slice.ml" 144 3938 3964
+type(
+  Depgraphs.DDG_AST.SS.t ->
+  Depgraphs.DDG_AST.location list -> Depgraphs.DDG_AST.SS.t
+)
+ident(
+  int_ref get_reachable "ast_slice.ml" 134 3637 3648 "ast_slice.ml" 134 3637 3661
+)
+"ast_slice.ml" 144 3938 3965 "ast_slice.ml" 144 3938 3981
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+ident(
+  ext_ref Depgraphs.DDG_AST.SS.empty
+)
+"ast_slice.ml" 144 3938 3984 "ast_slice.ml" 144 3938 3988
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref node "ast_slice.ml" 132 3580 3596 "ast_slice.ml" 132 3580 3600
+)
+"ast_slice.ml" 144 3938 3989 "ast_slice.ml" 144 3938 3993
+type(
+  int
+)
+ident(
+  int_ref stmt "ast_slice.ml" 132 3580 3601 "ast_slice.ml" 132 3580 3605
+)
+"ast_slice.ml" 144 3938 3983 "ast_slice.ml" 144 3938 3994
+type(
+  Depgraphs.DDG_AST.location
+)
+"ast_slice.ml" 144 3938 3982 "ast_slice.ml" 144 3938 3995
+type(
+  Depgraphs.DDG_AST.location list
+)
+"ast_slice.ml" 144 3938 3951 "ast_slice.ml" 144 3938 3995
+call(
+  stack
+)
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+"ast_slice.ml" 145 3999 4006 "ast_slice.ml" 145 3999 4019
+type(
+  Ast.stmt -> bool
+)
+"ast_slice.ml" 146 4031 4043 "ast_slice.ml" 146 4031 4044
+type(
+  Type.label * Ast.attrs
+)
+"ast_slice.ml" 146 4031 4037 "ast_slice.ml" 146 4031 4044
+type(
+  Ast.stmt
+)
+"ast_slice.ml" 146 4031 4055 "ast_slice.ml" 146 4031 4056
+type(
+  string * Ast.attrs
+)
+"ast_slice.ml" 146 4031 4047 "ast_slice.ml" 146 4031 4056
+type(
+  Ast.stmt
+)
+"ast_slice.ml" 146 4031 4037 "ast_slice.ml" 146 4031 4056
+type(
+  Ast.stmt
+)
+"ast_slice.ml" 146 4031 4060 "ast_slice.ml" 146 4031 4064
+type(
+  bool
+)
+"ast_slice.ml" 147 4065 4071 "ast_slice.ml" 147 4065 4072
+type(
+  Ast.stmt
+)
+"ast_slice.ml" 147 4065 4076 "ast_slice.ml" 147 4065 4081
+type(
+  bool
+)
+"ast_slice.ml" 145 3999 4022 "ast_slice.ml" 147 4065 4081
+type(
+  Ast.stmt -> bool
+)
+"ast_slice.ml" 149 4088 4095 "ast_slice.ml" 149 4088 4098
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 149 4088 4101 "ast_slice.ml" 149 4088 4118
+type(
+  (Cfg.AST.G.vertex -> Depgraphs.CDG_AST.G.t -> Depgraphs.CDG_AST.G.t) ->
+  Depgraphs.CDG_AST.G.t -> Depgraphs.CDG_AST.G.t -> Depgraphs.CDG_AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.G.fold_vertex
+)
+"ast_slice.ml" 150 4119 4128 "ast_slice.ml" 150 4119 4129
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  def v "ast_slice.ml" 150 4119 4130 "ast_slice.ml" 158 4358 4401
+)
+"ast_slice.ml" 150 4119 4130 "ast_slice.ml" 150 4119 4131
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  def g "ast_slice.ml" 151 4135 4141 "ast_slice.ml" 158 4358 4401
+)
+"ast_slice.ml" 151 4135 4145 "ast_slice.ml" 151 4135 4146
+type(
+  int
+)
+"ast_slice.ml" 151 4135 4147 "ast_slice.ml" 151 4135 4155
+type(
+  Cfg.AST.stmt list
+)
+"ast_slice.ml" 151 4135 4145 "ast_slice.ml" 151 4135 4155
+type(
+  int * Cfg.AST.stmt list
+)
+"ast_slice.ml" 152 4159 4166 "ast_slice.ml" 152 4159 4180
+type(
+  (int * Cfg.AST.stmt list -> Cfg.AST.stmt -> int * Cfg.AST.stmt list) ->
+  int * Cfg.AST.stmt list -> Cfg.AST.lang -> int * Cfg.AST.stmt list
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"ast_slice.ml" 153 4181 4195 "ast_slice.ml" 153 4181 4197
+type(
+  int
+)
+ident(
+  def id "ast_slice.ml" 153 4181 4203 "ast_slice.ml" 155 4285 4309
+)
+"ast_slice.ml" 153 4181 4198 "ast_slice.ml" 153 4181 4201
+type(
+  Cfg.AST.stmt list
+)
+ident(
+  def acc "ast_slice.ml" 153 4181 4203 "ast_slice.ml" 155 4285 4309
+)
+"ast_slice.ml" 153 4181 4194 "ast_slice.ml" 153 4181 4202
+type(
+  int * Cfg.AST.stmt list
+)
+"ast_slice.ml" 153 4181 4203 "ast_slice.ml" 153 4181 4204
+type(
+  Cfg.AST.stmt
+)
+ident(
+  def s "ast_slice.ml" 154 4209 4218 "ast_slice.ml" 155 4285 4309
+)
+"ast_slice.ml" 154 4209 4221 "ast_slice.ml" 154 4209 4234
+type(
+  Cfg.AST.stmt -> bool
+)
+ident(
+  int_ref not_changable "ast_slice.ml" 145 3999 4006 "ast_slice.ml" 145 3999 4019
+)
+"ast_slice.ml" 154 4209 4235 "ast_slice.ml" 154 4209 4236
+type(
+  Cfg.AST.stmt
+)
+ident(
+  int_ref s "ast_slice.ml" 153 4181 4203 "ast_slice.ml" 153 4181 4204
+)
+"ast_slice.ml" 154 4209 4221 "ast_slice.ml" 154 4209 4236
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_slice.ml" 154 4209 4237 "ast_slice.ml" 154 4209 4239
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ast_slice.ml" 154 4209 4240 "ast_slice.ml" 154 4209 4254
+type(
+  Depgraphs.DDG_AST.SS.elt -> Depgraphs.DDG_AST.SS.t -> bool
+)
+ident(
+  ext_ref Depgraphs.DDG_AST.SS.mem
+)
+"ast_slice.ml" 154 4209 4256 "ast_slice.ml" 154 4209 4257
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v "ast_slice.ml" 150 4119 4128 "ast_slice.ml" 150 4119 4129
+)
+"ast_slice.ml" 154 4209 4258 "ast_slice.ml" 154 4209 4260
+type(
+  int
+)
+ident(
+  int_ref id "ast_slice.ml" 153 4181 4195 "ast_slice.ml" 153 4181 4197
+)
+"ast_slice.ml" 154 4209 4255 "ast_slice.ml" 154 4209 4261
+type(
+  Depgraphs.DDG_AST.SS.elt
+)
+"ast_slice.ml" 154 4209 4262 "ast_slice.ml" 154 4209 4265
+type(
+  Depgraphs.DDG_AST.SS.t
+)
+ident(
+  int_ref vis "ast_slice.ml" 144 3938 3945 "ast_slice.ml" 144 3938 3948
+)
+"ast_slice.ml" 154 4209 4240 "ast_slice.ml" 154 4209 4265
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_slice.ml" 154 4209 4221 "ast_slice.ml" 154 4209 4265
+type(
+  bool
+)
+"ast_slice.ml" 154 4209 4272 "ast_slice.ml" 154 4209 4274
+type(
+  int
+)
+ident(
+  int_ref id "ast_slice.ml" 153 4181 4195 "ast_slice.ml" 153 4181 4197
+)
+"ast_slice.ml" 154 4209 4274 "ast_slice.ml" 154 4209 4275
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ast_slice.ml" 154 4209 4275 "ast_slice.ml" 154 4209 4276
+type(
+  int
+)
+"ast_slice.ml" 154 4209 4272 "ast_slice.ml" 154 4209 4276
+type(
+  int
+)
+"ast_slice.ml" 154 4209 4277 "ast_slice.ml" 154 4209 4278
+type(
+  Cfg.AST.stmt
+)
+ident(
+  int_ref s "ast_slice.ml" 153 4181 4203 "ast_slice.ml" 153 4181 4204
+)
+"ast_slice.ml" 154 4209 4280 "ast_slice.ml" 154 4209 4283
+type(
+  Cfg.AST.stmt list
+)
+ident(
+  int_ref acc "ast_slice.ml" 153 4181 4198 "ast_slice.ml" 153 4181 4201
+)
+"ast_slice.ml" 154 4209 4277 "ast_slice.ml" 154 4209 4283
+type(
+  Cfg.AST.stmt list
+)
+"ast_slice.ml" 154 4209 4271 "ast_slice.ml" 154 4209 4284
+type(
+  int * Cfg.AST.stmt list
+)
+"ast_slice.ml" 155 4285 4300 "ast_slice.ml" 155 4285 4302
+type(
+  int
+)
+ident(
+  int_ref id "ast_slice.ml" 153 4181 4195 "ast_slice.ml" 153 4181 4197
+)
+"ast_slice.ml" 155 4285 4302 "ast_slice.ml" 155 4285 4303
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ast_slice.ml" 155 4285 4303 "ast_slice.ml" 155 4285 4304
+type(
+  int
+)
+"ast_slice.ml" 155 4285 4300 "ast_slice.ml" 155 4285 4304
+type(
+  int
+)
+"ast_slice.ml" 155 4285 4305 "ast_slice.ml" 155 4285 4308
+type(
+  Cfg.AST.stmt list
+)
+ident(
+  int_ref acc "ast_slice.ml" 153 4181 4198 "ast_slice.ml" 153 4181 4201
+)
+"ast_slice.ml" 155 4285 4299 "ast_slice.ml" 155 4285 4309
+type(
+  int * Cfg.AST.stmt list
+)
+"ast_slice.ml" 154 4209 4218 "ast_slice.ml" 155 4285 4309
+type(
+  int * Cfg.AST.stmt list
+)
+"ast_slice.ml" 153 4181 4189 "ast_slice.ml" 156 4310 4319
+type(
+  int * Cfg.AST.stmt list -> Cfg.AST.stmt -> int * Cfg.AST.stmt list
+)
+"ast_slice.ml" 156 4310 4321 "ast_slice.ml" 156 4310 4322
+type(
+  int
+)
+"ast_slice.ml" 156 4310 4323 "ast_slice.ml" 156 4310 4325
+type(
+  Cfg.AST.stmt list
+)
+"ast_slice.ml" 156 4310 4320 "ast_slice.ml" 156 4310 4326
+type(
+  int * Cfg.AST.stmt list
+)
+"ast_slice.ml" 156 4310 4328 "ast_slice.ml" 156 4310 4341
+type(
+  Depgraphs.CDG_AST.G.t -> Cfg.AST.G.vertex -> Cfg.AST.lang
+)
+ident(
+  ext_ref Cfg.AST.get_stmts
+)
+"ast_slice.ml" 156 4310 4342 "ast_slice.ml" 156 4310 4345
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 132 3580 3592 "ast_slice.ml" 132 3580 3595
+)
+"ast_slice.ml" 156 4310 4346 "ast_slice.ml" 156 4310 4347
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v "ast_slice.ml" 150 4119 4128 "ast_slice.ml" 150 4119 4129
+)
+"ast_slice.ml" 156 4310 4327 "ast_slice.ml" 156 4310 4348
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 152 4159 4166 "ast_slice.ml" 156 4310 4348
+call(
+  stack
+)
+type(
+  int * Cfg.AST.stmt list
+)
+"ast_slice.ml" 158 4358 4364 "ast_slice.ml" 158 4358 4377
+type(
+  Depgraphs.CDG_AST.G.t ->
+  Cfg.AST.G.vertex -> Cfg.AST.lang -> Depgraphs.CDG_AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.set_stmts
+)
+"ast_slice.ml" 158 4358 4378 "ast_slice.ml" 158 4358 4379
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref g "ast_slice.ml" 150 4119 4130 "ast_slice.ml" 150 4119 4131
+)
+"ast_slice.ml" 158 4358 4380 "ast_slice.ml" 158 4358 4381
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref v "ast_slice.ml" 150 4119 4128 "ast_slice.ml" 150 4119 4129
+)
+"ast_slice.ml" 158 4358 4383 "ast_slice.ml" 158 4358 4391
+type(
+  Cfg.AST.stmt list -> Cfg.AST.lang
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"ast_slice.ml" 158 4358 4392 "ast_slice.ml" 158 4358 4400
+type(
+  Cfg.AST.stmt list
+)
+ident(
+  int_ref newstmts "ast_slice.ml" 151 4135 4147 "ast_slice.ml" 151 4135 4155
+)
+"ast_slice.ml" 158 4358 4382 "ast_slice.ml" 158 4358 4401
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_slice.ml" 158 4358 4364 "ast_slice.ml" 158 4358 4401
+call(
+  tail
+)
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 151 4135 4141 "ast_slice.ml" 158 4358 4401
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 150 4119 4123 "ast_slice.ml" 159 4402 4407
+type(
+  Cfg.AST.G.vertex -> Depgraphs.CDG_AST.G.t -> Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 159 4402 4408 "ast_slice.ml" 159 4402 4411
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 132 3580 3592 "ast_slice.ml" 132 3580 3595
+)
+"ast_slice.ml" 159 4402 4412 "ast_slice.ml" 159 4402 4415
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 132 3580 3592 "ast_slice.ml" 132 3580 3595
+)
+"ast_slice.ml" 149 4088 4101 "ast_slice.ml" 159 4402 4415
+call(
+  stack
+)
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 161 4422 4425 "ast_slice.ml" 161 4422 4428
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref tmp "ast_slice.ml" 149 4088 4095 "ast_slice.ml" 149 4088 4098
+)
+"ast_slice.ml" 149 4088 4091 "ast_slice.ml" 161 4422 4428
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 145 3999 4002 "ast_slice.ml" 161 4422 4428
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 144 3938 3941 "ast_slice.ml" 161 4422 4428
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 134 3637 3640 "ast_slice.ml" 161 4422 4428
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 133 3608 3611 "ast_slice.ml" 161 4422 4428
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 164 4482 4488 "ast_slice.ml" 164 4482 4492
+type(
+  SG.t -> int -> 'a -> int -> int -> Depgraphs.CDG_AST.G.t
+)
+ident(
+  def chop "ast_slice.ml" 180 5035 5055 "ast_slice.ml" 181 5056 5059
+)
+"ast_slice.ml" 164 4482 4493 "ast_slice.ml" 164 4482 4496
+type(
+  SG.t
+)
+ident(
+  def cfg "ast_slice.ml" 164 4482 4497 "ast_slice.ml" 180 5035 5055
+)
+"ast_slice.ml" 164 4482 4497 "ast_slice.ml" 164 4482 4502
+type(
+  int
+)
+ident(
+  def srcbb "ast_slice.ml" 164 4482 4503 "ast_slice.ml" 180 5035 5055
+)
+"ast_slice.ml" 164 4482 4503 "ast_slice.ml" 164 4482 4508
+type(
+  'a
+)
+ident(
+  def _srcn "ast_slice.ml" 164 4482 4509 "ast_slice.ml" 180 5035 5055
+)
+"ast_slice.ml" 164 4482 4509 "ast_slice.ml" 164 4482 4514
+type(
+  int
+)
+ident(
+  def trgbb "ast_slice.ml" 164 4482 4515 "ast_slice.ml" 180 5035 5055
+)
+"ast_slice.ml" 164 4482 4515 "ast_slice.ml" 164 4482 4519
+type(
+  int
+)
+ident(
+  def trgn "ast_slice.ml" 165 4523 4525 "ast_slice.ml" 180 5035 5055
+)
+"ast_slice.ml" 165 4523 4529 "ast_slice.ml" 165 4523 4534
+type(
+  int -> Cfg.AST.G.V.t
+)
+"ast_slice.ml" 165 4523 4535 "ast_slice.ml" 165 4523 4538
+type(
+  int
+)
+ident(
+  def num "ast_slice.ml" 166 4542 4545 "ast_slice.ml" 168 4600 4656
+)
+"ast_slice.ml" 166 4542 4549 "ast_slice.ml" 166 4542 4564
+type(
+  SG.t -> Cfg.AST.G.V.label -> Cfg.AST.G.V.t
+)
+ident(
+  ext_ref Cfg.AST.find_vertex
+)
+"ast_slice.ml" 166 4542 4565 "ast_slice.ml" 166 4542 4568
+type(
+  SG.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 164 4482 4493 "ast_slice.ml" 164 4482 4496
+)
+"ast_slice.ml" 166 4542 4573 "ast_slice.ml" 166 4542 4576
+type(
+  int
+)
+ident(
+  int_ref num "ast_slice.ml" 165 4523 4535 "ast_slice.ml" 165 4523 4538
+)
+"ast_slice.ml" 166 4542 4569 "ast_slice.ml" 166 4542 4577
+type(
+  Cfg.AST.G.V.label
+)
+"ast_slice.ml" 166 4542 4549 "ast_slice.ml" 166 4542 4577
+call(
+  stack
+)
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 167 4578 4586 "ast_slice.ml" 167 4578 4595
+type(
+  exn
+)
+"ast_slice.ml" 168 4600 4604 "ast_slice.ml" 168 4600 4612
+type(
+  string -> Cfg.AST.G.V.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ast_slice.ml" 168 4600 4613 "ast_slice.ml" 168 4600 4656
+type(
+  string
+)
+"ast_slice.ml" 168 4600 4604 "ast_slice.ml" 168 4600 4656
+call(
+  tail
+)
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 166 4542 4545 "ast_slice.ml" 168 4600 4656
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 170 4662 4668 "ast_slice.ml" 170 4662 4671
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 170 4662 4674 "ast_slice.ml" 170 4662 4679
+type(
+  int -> Cfg.AST.G.V.t
+)
+ident(
+  int_ref get_v "ast_slice.ml" 165 4523 4529 "ast_slice.ml" 165 4523 4534
+)
+"ast_slice.ml" 170 4662 4680 "ast_slice.ml" 170 4662 4685
+type(
+  int
+)
+ident(
+  int_ref srcbb "ast_slice.ml" 164 4482 4497 "ast_slice.ml" 164 4482 4502
+)
+"ast_slice.ml" 170 4662 4674 "ast_slice.ml" 170 4662 4685
+call(
+  stack
+)
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 171 4687 4693 "ast_slice.ml" 171 4687 4696
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 171 4687 4699 "ast_slice.ml" 171 4687 4704
+type(
+  int -> Cfg.AST.G.V.t
+)
+ident(
+  int_ref get_v "ast_slice.ml" 165 4523 4529 "ast_slice.ml" 165 4523 4534
+)
+"ast_slice.ml" 171 4687 4705 "ast_slice.ml" 171 4687 4710
+type(
+  int
+)
+ident(
+  int_ref trgbb "ast_slice.ml" 164 4482 4509 "ast_slice.ml" 164 4482 4514
+)
+"ast_slice.ml" 171 4687 4699 "ast_slice.ml" 171 4687 4710
+call(
+  stack
+)
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 172 4714 4720 "ast_slice.ml" 172 4714 4723
+type(
+  SG.t
+)
+"ast_slice.ml" 172 4714 4726 "ast_slice.ml" 172 4714 4733
+type(
+  SG.t -> Cfg.AST.G.vertex -> Cfg.AST.G.vertex -> SG.t
+)
+ident(
+  int_ref get_scc "ast_slice.ml" 62 1536 1541 "ast_slice.ml" 62 1536 1548
+)
+"ast_slice.ml" 172 4714 4734 "ast_slice.ml" 172 4714 4737
+type(
+  SG.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 164 4482 4493 "ast_slice.ml" 164 4482 4496
+)
+"ast_slice.ml" 172 4714 4738 "ast_slice.ml" 172 4714 4741
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref src "ast_slice.ml" 170 4662 4668 "ast_slice.ml" 170 4662 4671
+)
+"ast_slice.ml" 172 4714 4742 "ast_slice.ml" 172 4714 4745
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref trg "ast_slice.ml" 171 4687 4693 "ast_slice.ml" 171 4687 4696
+)
+"ast_slice.ml" 172 4714 4726 "ast_slice.ml" 172 4714 4745
+call(
+  stack
+)
+type(
+  SG.t
+)
+"ast_slice.ml" 174 4785 4791 "ast_slice.ml" 174 4785 4796
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 174 4785 4799 "ast_slice.ml" 174 4785 4814
+type(
+  SG.t -> Cfg.AST.G.V.label -> Cfg.AST.G.V.t
+)
+ident(
+  ext_ref Cfg.AST.find_vertex
+)
+"ast_slice.ml" 174 4785 4815 "ast_slice.ml" 174 4785 4818
+type(
+  SG.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 164 4482 4493 "ast_slice.ml" 164 4482 4496
+)
+"ast_slice.ml" 174 4785 4819 "ast_slice.ml" 174 4785 4827
+type(
+  Cfg.AST.G.V.label
+)
+"ast_slice.ml" 174 4785 4799 "ast_slice.ml" 174 4785 4827
+call(
+  stack
+)
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 175 4829 4835 "ast_slice.ml" 175 4829 4839
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 175 4829 4842 "ast_slice.ml" 175 4829 4857
+type(
+  SG.t -> Cfg.AST.G.V.label -> Cfg.AST.G.V.t
+)
+ident(
+  ext_ref Cfg.AST.find_vertex
+)
+"ast_slice.ml" 175 4829 4858 "ast_slice.ml" 175 4829 4861
+type(
+  SG.t
+)
+ident(
+  int_ref cfg "ast_slice.ml" 164 4482 4493 "ast_slice.ml" 164 4482 4496
+)
+"ast_slice.ml" 175 4829 4862 "ast_slice.ml" 175 4829 4869
+type(
+  Cfg.AST.G.V.label
+)
+"ast_slice.ml" 175 4829 4842 "ast_slice.ml" 175 4829 4869
+call(
+  stack
+)
+type(
+  Cfg.AST.G.V.t
+)
+"ast_slice.ml" 176 4873 4879 "ast_slice.ml" 176 4873 4882
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 176 4873 4885 "ast_slice.ml" 176 4873 4899
+type(
+  SG.t -> Cfg.AST.G.V.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.add_vertex
+)
+"ast_slice.ml" 176 4873 4900 "ast_slice.ml" 176 4873 4903
+type(
+  SG.t
+)
+ident(
+  int_ref scc "ast_slice.ml" 172 4714 4720 "ast_slice.ml" 172 4714 4723
+)
+"ast_slice.ml" 176 4873 4904 "ast_slice.ml" 176 4873 4909
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref entry "ast_slice.ml" 174 4785 4791 "ast_slice.ml" 174 4785 4796
+)
+"ast_slice.ml" 176 4873 4885 "ast_slice.ml" 176 4873 4909
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 177 4913 4919 "ast_slice.ml" 177 4913 4922
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 177 4913 4925 "ast_slice.ml" 177 4913 4939
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.V.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.add_vertex
+)
+"ast_slice.ml" 177 4913 4940 "ast_slice.ml" 177 4913 4943
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref scc "ast_slice.ml" 176 4873 4879 "ast_slice.ml" 176 4873 4882
+)
+"ast_slice.ml" 177 4913 4944 "ast_slice.ml" 177 4913 4948
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref exit "ast_slice.ml" 175 4829 4835 "ast_slice.ml" 175 4829 4839
+)
+"ast_slice.ml" 177 4913 4925 "ast_slice.ml" 177 4913 4948
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 178 4952 4958 "ast_slice.ml" 178 4952 4961
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 178 4952 4964 "ast_slice.ml" 178 4952 4976
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.V.t -> Cfg.AST.G.V.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.add_edge
+)
+"ast_slice.ml" 178 4952 4977 "ast_slice.ml" 178 4952 4980
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref scc "ast_slice.ml" 177 4913 4919 "ast_slice.ml" 177 4913 4922
+)
+"ast_slice.ml" 178 4952 4981 "ast_slice.ml" 178 4952 4986
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref entry "ast_slice.ml" 174 4785 4791 "ast_slice.ml" 174 4785 4796
+)
+"ast_slice.ml" 178 4952 4987 "ast_slice.ml" 178 4952 4990
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref src "ast_slice.ml" 170 4662 4668 "ast_slice.ml" 170 4662 4671
+)
+"ast_slice.ml" 178 4952 4964 "ast_slice.ml" 178 4952 4990
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 179 4994 5000 "ast_slice.ml" 179 4994 5003
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 179 4994 5006 "ast_slice.ml" 179 4994 5018
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.V.t -> Cfg.AST.G.V.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.add_edge
+)
+"ast_slice.ml" 179 4994 5019 "ast_slice.ml" 179 4994 5022
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref scc "ast_slice.ml" 178 4952 4958 "ast_slice.ml" 178 4952 4961
+)
+"ast_slice.ml" 179 4994 5023 "ast_slice.ml" 179 4994 5026
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref trg "ast_slice.ml" 171 4687 4693 "ast_slice.ml" 171 4687 4696
+)
+"ast_slice.ml" 179 4994 5027 "ast_slice.ml" 179 4994 5031
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref exit "ast_slice.ml" 175 4829 4835 "ast_slice.ml" 175 4829 4839
+)
+"ast_slice.ml" 179 4994 5006 "ast_slice.ml" 179 4994 5031
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"ast_slice.ml" 180 5035 5037 "ast_slice.ml" 180 5035 5042
+type(
+  Depgraphs.CDG_AST.G.t -> Cfg.AST.G.V.t -> int -> Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref slice "ast_slice.ml" 132 3580 3586 "ast_slice.ml" 132 3580 3591
+)
+"ast_slice.ml" 180 5035 5043 "ast_slice.ml" 180 5035 5046
+type(
+  Depgraphs.CDG_AST.G.t
+)
+ident(
+  int_ref scc "ast_slice.ml" 179 4994 5000 "ast_slice.ml" 179 4994 5003
+)
+"ast_slice.ml" 180 5035 5047 "ast_slice.ml" 180 5035 5050
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref trg "ast_slice.ml" 171 4687 4693 "ast_slice.ml" 171 4687 4696
+)
+"ast_slice.ml" 180 5035 5051 "ast_slice.ml" 180 5035 5055
+type(
+  int
+)
+ident(
+  int_ref trgn "ast_slice.ml" 164 4482 4515 "ast_slice.ml" 164 4482 4519
+)
+"ast_slice.ml" 180 5035 5037 "ast_slice.ml" 180 5035 5055
+call(
+  tail
+)
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 179 4994 4996 "ast_slice.ml" 180 5035 5055
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 178 4952 4954 "ast_slice.ml" 180 5035 5055
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 177 4913 4915 "ast_slice.ml" 180 5035 5055
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 176 4873 4875 "ast_slice.ml" 180 5035 5055
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 174 4785 4787 "ast_slice.ml" 180 5035 5055
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 172 4714 4716 "ast_slice.ml" 180 5035 5055
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 170 4662 4664 "ast_slice.ml" 180 5035 5055
+type(
+  Depgraphs.CDG_AST.G.t
+)
+"ast_slice.ml" 165 4523 4525 "ast_slice.ml" 180 5035 5055
+type(
+  Depgraphs.CDG_AST.G.t
+)

@@ -1,0 +1,278 @@
+"bap_suite.ml" 6 40 44 "bap_suite.ml" 6 40 55
+type(
+  OUnit.test list
+)
+ident(
+  def short_tests "bap_suite.ml" 28 515 515 --
+)
+"bap_suite.ml" 7 60 62 "bap_suite.ml" 7 60 76
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Il_suite.suite
+)
+"bap_suite.ml" 8 78 80 "bap_suite.ml" 8 78 95
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Var_suite.suite
+)
+"bap_suite.ml" 9 97 99 "bap_suite.ml" 9 97 114
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Ast_suite.suite
+)
+"bap_suite.ml" 10 116 118 "bap_suite.ml" 10 116 141
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Disasm_i386_suite.suite
+)
+"bap_suite.ml" 11 143 145 "bap_suite.ml" 11 143 162
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Asmir_suite.suite
+)
+"bap_suite.ml" 12 164 166 "bap_suite.ml" 12 164 182
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Eval_suite.suite
+)
+"bap_suite.ml" 13 184 186 "bap_suite.ml" 13 184 204
+type(
+  Arch.arch -> OUnit.test
+)
+ident(
+  ext_ref Traces_suite.suite
+)
+"bap_suite.ml" 13 184 205 "bap_suite.ml" 13 184 211
+type(
+  Arch.arch
+)
+"bap_suite.ml" 13 184 186 "bap_suite.ml" 13 184 211
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"bap_suite.ml" 14 213 215 "bap_suite.ml" 14 213 233
+type(
+  Arch.arch -> OUnit.test
+)
+ident(
+  ext_ref Traces_suite.suite
+)
+"bap_suite.ml" 14 213 234 "bap_suite.ml" 14 213 240
+type(
+  Arch.arch
+)
+"bap_suite.ml" 14 213 215 "bap_suite.ml" 14 213 240
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"bap_suite.ml" 15 242 244 "bap_suite.ml" 15 242 265
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Predicate_suite.suite
+)
+"bap_suite.ml" 16 267 269 "bap_suite.ml" 16 267 291
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Arithmetic_suite.suite
+)
+"bap_suite.ml" 17 293 295 "bap_suite.ml" 17 293 316
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Dominator_suite.suite
+)
+"bap_suite.ml" 18 318 320 "bap_suite.ml" 18 318 335
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Vsa_suite.suite
+)
+"bap_suite.ml" 19 337 339 "bap_suite.ml" 19 337 358
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Djgraph_suite.suite
+)
+"bap_suite.ml" 20 360 362 "bap_suite.ml" 20 360 380
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Unroll_suite.suite
+)
+"bap_suite.ml" 21 382 384 "bap_suite.ml" 21 382 406
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Steensgard_suite.suite
+)
+"bap_suite.ml" 22 408 410 "bap_suite.ml" 22 408 428
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Havlak_suite.suite
+)
+"bap_suite.ml" 24 466 468 "bap_suite.ml" 24 466 488
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Sreedhar_suite.suite
+)
+"bap_suite.ml" 25 490 492 "bap_suite.ml" 25 490 508
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Opts_suite.suite
+)
+"bap_suite.ml" 6 40 58 "bap_suite.ml" 26 510 511
+type(
+  OUnit.test list
+)
+"bap_suite.ml" 28 515 519 "bap_suite.ml" 28 515 528
+type(
+  OUnit.test
+)
+ident(
+  def bap_tests "bap_suite.ml" 30 559 559 --
+)
+"bap_suite.ml" 28 515 532 "bap_suite.ml" 28 515 537
+type(
+  string
+)
+"bap_suite.ml" 28 515 538 "bap_suite.ml" 28 515 542
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"bap_suite.ml" 28 515 543 "bap_suite.ml" 28 515 554
+type(
+  OUnit.test list
+)
+ident(
+  int_ref short_tests "bap_suite.ml" 6 40 44 "bap_suite.ml" 6 40 55
+)
+"bap_suite.ml" 28 515 531 "bap_suite.ml" 28 515 555
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"bap_suite.ml" 31 567 573 "bap_suite.ml" 31 567 580
+type(
+  OUnit.test_result list
+)
+ident(
+  def results "bap_suite.ml" 32 633 635 "bap_suite.ml" 33 660 687
+)
+"bap_suite.ml" 31 567 583 "bap_suite.ml" 31 567 599
+type(
+  ?arg_specs:(Arg.key * Arg.spec * Arg.doc) list ->
+  ?set_verbose:(bool -> unit) -> OUnit.test -> OUnit.test_result list
+)
+ident(
+  ext_ref OUnit.run_test_tt_main
+)
+"bap_suite.ml" 31 567 611 "bap_suite.ml" 31 567 619
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Test_common.speclist
+)
+"bap_suite.ml" 31 567 620 "bap_suite.ml" 31 567 629
+type(
+  OUnit.test
+)
+ident(
+  int_ref bap_tests "bap_suite.ml" 28 515 519 "bap_suite.ml" 28 515 528
+)
+"bap_suite.ml" 31 567 583 "bap_suite.ml" 31 567 629
+call(
+  stack
+)
+type(
+  OUnit.test_result list
+)
+"bap_suite.ml" 32 633 635 "bap_suite.ml" 32 633 648
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"bap_suite.ml" 32 633 649 "bap_suite.ml" 32 633 655
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"bap_suite.ml" 32 633 656 "bap_suite.ml" 32 633 658
+type(
+  string
+)
+"bap_suite.ml" 32 633 635 "bap_suite.ml" 32 633 658
+call(
+  stack
+)
+type(
+  unit
+)
+"bap_suite.ml" 33 660 662 "bap_suite.ml" 33 660 679
+type(
+  OUnit.test_result list -> 'a option
+)
+ident(
+  ext_ref Test_common.summarize_results
+)
+"bap_suite.ml" 33 660 680 "bap_suite.ml" 33 660 687
+type(
+  OUnit.test_result list
+)
+ident(
+  int_ref results "bap_suite.ml" 31 567 573 "bap_suite.ml" 31 567 580
+)
+"bap_suite.ml" 33 660 662 "bap_suite.ml" 33 660 687
+call(
+  stack
+)
+type(
+  'a option
+)
+"bap_suite.ml" 32 633 635 "bap_suite.ml" 33 660 687
+type(
+  'a option
+)
+"bap_suite.ml" 31 567 569 "bap_suite.ml" 33 660 687
+type(
+  'a option
+)

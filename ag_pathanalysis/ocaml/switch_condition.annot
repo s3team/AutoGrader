@@ -1,0 +1,3592 @@
+"switch_condition.ml" 4 63 96 "switch_condition.ml" 4 63 100
+type(
+  string
+)
+ident(
+  def name "switch_condition.ml" 4 63 144 "switch_condition.ml" 4 63 148
+)
+"switch_condition.ml" 4 63 103 "switch_condition.ml" 4 63 121
+type(
+  string
+)
+"switch_condition.ml" 4 63 126 "switch_condition.ml" 4 63 133
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "switch_condition.ml" 4 63 144 "switch_condition.ml" 4 63 148
+)
+"switch_condition.ml" 4 63 136 "switch_condition.ml" 4 63 144
+type(
+  [> `NoDebug ] as 'a
+)
+"switch_condition.ml" 4 63 74 "switch_condition.ml" 4 63 149
+call(
+  stack
+)
+"switch_condition.ml" 11 223 227 "switch_condition.ml" 11 223 252
+type(
+  CS.G.t ->
+  Cfg.SSA.G.t ->
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option) -> CS.G.t * bool
+)
+ident(
+  def add_switch_conditions_int "switch_condition.ml" 132 5000 5000 --
+)
+"switch_condition.ml" 11 223 253 "switch_condition.ml" 11 223 260
+type(
+  CS.G.t
+)
+ident(
+  def origssa "switch_condition.ml" 11 223 261 "switch_condition.ml" 130 4984 4998
+)
+"switch_condition.ml" 11 223 261 "switch_condition.ml" 11 223 267
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  def optssa "switch_condition.ml" 11 223 268 "switch_condition.ml" 130 4984 4998
+)
+"switch_condition.ml" 11 223 268 "switch_condition.ml" 11 223 274
+type(
+  Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option
+)
+ident(
+  def vsa_in "switch_condition.ml" 13 278 280 "switch_condition.ml" 130 4984 4998
+)
+"switch_condition.ml" 13 278 284 "switch_condition.ml" 13 278 295
+type(
+  Ssa.exp -> bool
+)
+"switch_condition.ml" 14 307 322 "switch_condition.ml" 14 307 323
+type(
+  Type.typ
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 14 307 313 "switch_condition.ml" 14 307 323
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 14 307 336 "switch_condition.ml" 14 307 337
+type(
+  Type.typ
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 14 307 326 "switch_condition.ml" 14 307 337
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 14 307 313 "switch_condition.ml" 14 307 337
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 14 307 341 "switch_condition.ml" 14 307 345
+type(
+  bool
+)
+"switch_condition.ml" 15 346 352 "switch_condition.ml" 15 346 353
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 15 346 357 "switch_condition.ml" 15 346 362
+type(
+  bool
+)
+"switch_condition.ml" 13 278 298 "switch_condition.ml" 15 346 362
+type(
+  Ssa.exp -> bool
+)
+"switch_condition.ml" 17 368 374 "switch_condition.ml" 17 368 375
+type(
+  Ssa.exp Var.VarMap.t lazy_t
+)
+"switch_condition.ml" 17 368 377 "switch_condition.ml" 17 368 378
+type(
+  Ssa.exp Var.VarMap.t
+)
+"switch_condition.ml" 17 368 380 "switch_condition.ml" 17 368 382
+type(
+  Ssa.exp -> Ssa.exp
+)
+"switch_condition.ml" 17 368 374 "switch_condition.ml" 17 368 382
+type(
+  Ssa.exp Var.VarMap.t lazy_t * Ssa.exp Var.VarMap.t * (Ssa.exp -> Ssa.exp)
+)
+"switch_condition.ml" 17 368 385 "switch_condition.ml" 17 368 407
+type(
+  ?stop_before:(Ssa.exp -> bool) ->
+  ?stop_after:(Ssa.exp -> bool) ->
+  Cfg.SSA.G.t ->
+  Ssa.exp Var.VarMap.t lazy_t * Ssa.exp Var.VarMap.t * (Ssa.exp -> Ssa.exp)
+)
+ident(
+  ext_ref Copy_prop.copyprop_ssa
+)
+"switch_condition.ml" 17 368 409 "switch_condition.ml" 17 368 420
+type(
+  Ssa.exp -> bool
+)
+ident(
+  int_ref stop_before "switch_condition.ml" 13 278 284 "switch_condition.ml" 13 278 295
+)
+"switch_condition.ml" 17 368 421 "switch_condition.ml" 17 368 427
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref optssa "switch_condition.ml" 11 223 261 "switch_condition.ml" 11 223 267
+)
+"switch_condition.ml" 17 368 385 "switch_condition.ml" 17 368 427
+call(
+  stack
+)
+type(
+  Ssa.exp Var.VarMap.t lazy_t * Ssa.exp Var.VarMap.t * (Ssa.exp -> Ssa.exp)
+)
+"switch_condition.ml" 19 432 438 "switch_condition.ml" 19 432 447
+type(
+  Ssa.exp -> Ssa.exp option
+)
+"switch_condition.ml" 19 432 448 "switch_condition.ml" 19 432 449
+type(
+  Ssa.exp
+)
+ident(
+  def e "switch_condition.ml" 20 452 456 "switch_condition.ml" 33 962 977
+)
+"switch_condition.ml" 20 452 456 "switch_condition.ml" 20 452 463
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 20 452 464 "switch_condition.ml" 20 452 478
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 20 452 480 "switch_condition.ml" 20 452 500
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"switch_condition.ml" 20 452 501 "switch_condition.ml" 20 452 502
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 19 432 448 "switch_condition.ml" 19 432 449
+)
+"switch_condition.ml" 20 452 479 "switch_condition.ml" 20 452 503
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 20 452 456 "switch_condition.ml" 20 452 503
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 21 505 513 "switch_condition.ml" 21 505 518
+type(
+  (Ssa.exp, unit) Hashtbl.t
+)
+"switch_condition.ml" 21 505 521 "switch_condition.ml" 21 505 535
+type(
+  int -> (Ssa.exp, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"switch_condition.ml" 21 505 536 "switch_condition.ml" 21 505 538
+type(
+  int
+)
+"switch_condition.ml" 21 505 521 "switch_condition.ml" 21 505 538
+call(
+  stack
+)
+type(
+  (Ssa.exp, unit) Hashtbl.t
+)
+"switch_condition.ml" 22 542 550 "switch_condition.ml" 22 542 551
+type(
+  Ssa_visitor.nop
+)
+"switch_condition.ml" 22 542 560 "switch_condition.ml" 22 542 566
+type(
+  Ssa_visitor.nop
+)
+"switch_condition.ml" 24 597 620 "switch_condition.ml" 24 597 621
+type(
+  Ssa.exp
+)
+ident(
+  def e "switch_condition.ml" 24 597 624 "switch_condition.ml" 28 825 850
+)
+"switch_condition.ml" 24 597 630 "switch_condition.ml" 24 597 631
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 24 597 620 "switch_condition.ml" 24 597 621
+)
+"switch_condition.ml" 27 769 783 "switch_condition.ml" 27 769 784
+type(
+  Ssa.var
+)
+ident(
+  def v "switch_condition.ml" 27 769 788 "switch_condition.ml" 27 769 824
+)
+"switch_condition.ml" 27 769 779 "switch_condition.ml" 27 769 784
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 27 769 788 "switch_condition.ml" 27 769 799
+type(
+  (Ssa.exp, unit) Hashtbl.t -> Ssa.exp -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"switch_condition.ml" 27 769 800 "switch_condition.ml" 27 769 805
+type(
+  (Ssa.exp, unit) Hashtbl.t
+)
+ident(
+  int_ref leafs "switch_condition.ml" 21 505 513 "switch_condition.ml" 21 505 518
+)
+"switch_condition.ml" 27 769 806 "switch_condition.ml" 27 769 807
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 24 597 620 "switch_condition.ml" 24 597 621
+)
+"switch_condition.ml" 27 769 808 "switch_condition.ml" 27 769 810
+type(
+  unit
+)
+"switch_condition.ml" 27 769 788 "switch_condition.ml" 27 769 810
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 27 769 812 "switch_condition.ml" 27 769 824
+type(
+  Ssa.exp Type.visit_action
+)
+"switch_condition.ml" 27 769 788 "switch_condition.ml" 27 769 824
+type(
+  Ssa.exp Type.visit_action
+)
+"switch_condition.ml" 28 825 835 "switch_condition.ml" 28 825 836
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 28 825 840 "switch_condition.ml" 28 825 850
+type(
+  Ssa.exp Type.visit_action
+)
+"switch_condition.ml" 24 597 624 "switch_condition.ml" 28 825 850
+type(
+  Ssa.exp Type.visit_action
+)
+"switch_condition.ml" 22 542 554 "switch_condition.ml" 29 851 858
+type(
+  Ssa_visitor.nop
+)
+"switch_condition.ml" 30 862 866 "switch_condition.ml" 30 862 872
+type(
+  Ssa.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"switch_condition.ml" 30 862 873 "switch_condition.ml" 30 862 895
+type(
+  Ssa_visitor.t -> Ssa.exp -> Ssa.exp
+)
+ident(
+  ext_ref Ssa_visitor.exp_accept
+)
+"switch_condition.ml" 30 862 896 "switch_condition.ml" 30 862 897
+type(
+  Ssa_visitor.t
+)
+ident(
+  int_ref v "switch_condition.ml" 22 542 550 "switch_condition.ml" 22 542 551
+)
+"switch_condition.ml" 30 862 898 "switch_condition.ml" 30 862 899
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 19 432 448 "switch_condition.ml" 19 432 449
+)
+"switch_condition.ml" 30 862 872 "switch_condition.ml" 30 862 900
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 30 862 866 "switch_condition.ml" 30 862 900
+type(
+  unit
+)
+"switch_condition.ml" 31 902 912 "switch_condition.ml" 31 902 930
+type(
+  ?sort_keys:bool -> (Ssa.exp, unit) Hashtbl.t -> Ssa.exp list
+)
+ident(
+  ext_ref Util.get_hash_keys
+)
+"switch_condition.ml" 31 902 931 "switch_condition.ml" 31 902 936
+type(
+  (Ssa.exp, unit) Hashtbl.t
+)
+ident(
+  int_ref leafs "switch_condition.ml" 21 505 513 "switch_condition.ml" 21 505 518
+)
+"switch_condition.ml" 31 902 912 "switch_condition.ml" 31 902 936
+call(
+  stack
+)
+type(
+  Ssa.exp list
+)
+"switch_condition.ml" 32 942 949 "switch_condition.ml" 32 942 950
+type(
+  Ssa.exp
+)
+ident(
+  def x "switch_condition.ml" 32 942 955 "switch_condition.ml" 32 942 961
+)
+"switch_condition.ml" 32 942 948 "switch_condition.ml" 32 942 951
+type(
+  Ssa.exp list
+)
+"switch_condition.ml" 32 942 960 "switch_condition.ml" 32 942 961
+type(
+  Ssa.exp
+)
+ident(
+  int_ref x "switch_condition.ml" 32 942 949 "switch_condition.ml" 32 942 950
+)
+"switch_condition.ml" 32 942 955 "switch_condition.ml" 32 942 961
+type(
+  Ssa.exp option
+)
+"switch_condition.ml" 33 962 968 "switch_condition.ml" 33 962 969
+type(
+  Ssa.exp list
+)
+"switch_condition.ml" 33 962 973 "switch_condition.ml" 33 962 977
+type(
+  Ssa.exp option
+)
+"switch_condition.ml" 31 902 906 "switch_condition.ml" 33 962 977
+type(
+  Ssa.exp option
+)
+"switch_condition.ml" 30 862 866 "switch_condition.ml" 33 962 977
+type(
+  Ssa.exp option
+)
+"switch_condition.ml" 22 542 546 "switch_condition.ml" 33 962 977
+type(
+  Ssa.exp option
+)
+"switch_condition.ml" 21 505 509 "switch_condition.ml" 33 962 977
+type(
+  Ssa.exp option
+)
+"switch_condition.ml" 20 452 456 "switch_condition.ml" 33 962 977
+type(
+  Ssa.exp option
+)
+"switch_condition.ml" 36 984 990 "switch_condition.ml" 36 984 991
+type(
+  CS.G.t
+)
+"switch_condition.ml" 36 984 993 "switch_condition.ml" 36 984 1000
+type(
+  bool
+)
+"switch_condition.ml" 36 984 990 "switch_condition.ml" 36 984 1000
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 36 984 1003 "switch_condition.ml" 36 984 1019
+type(
+  (CS.G.vertex -> CS.G.t * bool -> CS.G.t * bool) ->
+  CS.G.t -> CS.G.t * bool -> CS.G.t * bool
+)
+ident(
+  ext_ref CS.G.fold_vertex
+)
+"switch_condition.ml" 36 984 1025 "switch_condition.ml" 36 984 1026
+type(
+  CS.G.vertex
+)
+ident(
+  def v "switch_condition.ml" 36 984 1027 "switch_condition.ml" 128 4929 4951
+)
+"switch_condition.ml" 36 984 1028 "switch_condition.ml" 36 984 1029
+type(
+  CS.G.t
+)
+ident(
+  def g "switch_condition.ml" 37 1042 1046 "switch_condition.ml" 128 4929 4951
+)
+"switch_condition.ml" 36 984 1030 "switch_condition.ml" 36 984 1037
+type(
+  bool
+)
+ident(
+  def allgood "switch_condition.ml" 37 1042 1046 "switch_condition.ml" 128 4929 4951
+)
+"switch_condition.ml" 36 984 1027 "switch_condition.ml" 36 984 1038
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 38 1050 1062 "switch_condition.ml" 38 1050 1070
+type(
+  CS.lang -> CS.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"switch_condition.ml" 38 1050 1072 "switch_condition.ml" 38 1050 1084
+type(
+  CS.G.t -> CS.G.V.t -> CS.lang
+)
+ident(
+  ext_ref CS.get_stmts
+)
+"switch_condition.ml" 38 1050 1085 "switch_condition.ml" 38 1050 1086
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 36 984 1028 "switch_condition.ml" 36 984 1029
+)
+"switch_condition.ml" 38 1050 1087 "switch_condition.ml" 38 1050 1088
+type(
+  CS.G.vertex
+)
+ident(
+  int_ref v "switch_condition.ml" 36 984 1025 "switch_condition.ml" 36 984 1026
+)
+"switch_condition.ml" 38 1050 1071 "switch_condition.ml" 38 1050 1089
+call(
+  stack
+)
+type(
+  CS.lang
+)
+"switch_condition.ml" 38 1050 1062 "switch_condition.ml" 38 1050 1089
+call(
+  stack
+)
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 39 1095 1107 "switch_condition.ml" 39 1095 1108
+type(
+  Ssa.exp
+)
+ident(
+  def e "switch_condition.ml" 39 1095 1116 "switch_condition.ml" 126 4870 4904
+)
+"switch_condition.ml" 39 1095 1110 "switch_condition.ml" 39 1095 1111
+type(
+  Ssa.attrs
+)
+"switch_condition.ml" 39 1095 1103 "switch_condition.ml" 39 1095 1112
+type(
+  CS.stmt
+)
+"switch_condition.ml" 39 1095 1114 "switch_condition.ml" 39 1095 1115
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 39 1095 1103 "switch_condition.ml" 39 1095 1115
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 39 1095 1121 "switch_condition.ml" 39 1095 1135
+type(
+  Ssa.exp -> Type.label option
+)
+ident(
+  ext_ref Ssa.lab_of_exp
+)
+"switch_condition.ml" 39 1095 1136 "switch_condition.ml" 39 1095 1137
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 39 1095 1107 "switch_condition.ml" 39 1095 1108
+)
+"switch_condition.ml" 39 1095 1121 "switch_condition.ml" 39 1095 1137
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"switch_condition.ml" 39 1095 1138 "switch_condition.ml" 39 1095 1139
+type(
+  Type.label option -> Type.label option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"switch_condition.ml" 39 1095 1140 "switch_condition.ml" 39 1095 1144
+type(
+  Type.label option
+)
+"switch_condition.ml" 39 1095 1121 "switch_condition.ml" 39 1095 1144
+type(
+  bool
+)
+"switch_condition.ml" 39 1095 1145 "switch_condition.ml" 39 1095 1147
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"switch_condition.ml" 40 1148 1169 "switch_condition.ml" 40 1148 1178
+type(
+  CS.G.t -> CS.G.vertex -> CS.G.vertex list
+)
+ident(
+  ext_ref CS.G.succ
+)
+"switch_condition.ml" 40 1148 1179 "switch_condition.ml" 40 1148 1180
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 36 984 1028 "switch_condition.ml" 36 984 1029
+)
+"switch_condition.ml" 40 1148 1181 "switch_condition.ml" 40 1148 1182
+type(
+  CS.G.vertex
+)
+ident(
+  int_ref v "switch_condition.ml" 36 984 1025 "switch_condition.ml" 36 984 1026
+)
+"switch_condition.ml" 40 1148 1169 "switch_condition.ml" 40 1148 1182
+call(
+  stack
+)
+type(
+  CS.G.vertex list
+)
+"switch_condition.ml" 40 1148 1183 "switch_condition.ml" 40 1148 1185
+type(
+  CS.G.vertex list -> CS.G.vertex list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"switch_condition.ml" 40 1148 1187 "switch_condition.ml" 40 1148 1200
+type(
+  CS.G.V.label -> CS.G.V.t
+)
+ident(
+  ext_ref CS.G.V.create
+)
+"switch_condition.ml" 40 1148 1201 "switch_condition.ml" 40 1148 1212
+type(
+  CS.G.V.label
+)
+"switch_condition.ml" 40 1148 1187 "switch_condition.ml" 40 1148 1212
+call(
+  stack
+)
+type(
+  CS.G.V.t
+)
+"switch_condition.ml" 40 1148 1186 "switch_condition.ml" 40 1148 1213
+type(
+  CS.G.vertex list
+)
+"switch_condition.ml" 40 1148 1169 "switch_condition.ml" 40 1148 1213
+type(
+  bool
+)
+"switch_condition.ml" 39 1095 1121 "switch_condition.ml" 40 1148 1213
+type(
+  bool
+)
+"switch_condition.ml" 41 1217 1229 "switch_condition.ml" 41 1217 1232
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 41 1217 1235 "switch_condition.ml" 41 1217 1237
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cp "switch_condition.ml" 17 368 380 "switch_condition.ml" 17 368 382
+)
+"switch_condition.ml" 41 1217 1238 "switch_condition.ml" 41 1217 1239
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 39 1095 1107 "switch_condition.ml" 39 1095 1108
+)
+"switch_condition.ml" 41 1217 1235 "switch_condition.ml" 41 1217 1239
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 42 1243 1251 "switch_condition.ml" 42 1243 1258
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 42 1243 1259 "switch_condition.ml" 42 1243 1280
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 42 1243 1282 "switch_condition.ml" 42 1243 1302
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"switch_condition.ml" 42 1243 1303 "switch_condition.ml" 42 1243 1304
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 39 1095 1107 "switch_condition.ml" 39 1095 1108
+)
+"switch_condition.ml" 42 1243 1281 "switch_condition.ml" 42 1243 1305
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 42 1243 1307 "switch_condition.ml" 42 1243 1327
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"switch_condition.ml" 42 1243 1328 "switch_condition.ml" 42 1243 1331
+type(
+  Ssa.exp
+)
+ident(
+  int_ref cpe "switch_condition.ml" 41 1217 1229 "switch_condition.ml" 41 1217 1232
+)
+"switch_condition.ml" 42 1243 1306 "switch_condition.ml" 42 1243 1332
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 42 1243 1251 "switch_condition.ml" 42 1243 1332
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 43 1334 1346 "switch_condition.ml" 43 1334 1347
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 43 1334 1349 "switch_condition.ml" 43 1334 1355
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 43 1334 1357 "switch_condition.ml" 43 1334 1358
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 43 1334 1360 "switch_condition.ml" 43 1334 1361
+type(
+  Type.typ
+)
+"switch_condition.ml" 43 1334 1346 "switch_condition.ml" 43 1334 1361
+type(
+  Ssa.exp * Ssa.exp * Ssa.exp * Type.typ
+)
+"switch_condition.ml" 43 1334 1370 "switch_condition.ml" 43 1334 1371
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 39 1095 1107 "switch_condition.ml" 39 1095 1108
+)
+"switch_condition.ml" 44 1377 1393 "switch_condition.ml" 44 1377 1394
+type(
+  Ssa.var
+)
+ident(
+  def v "switch_condition.ml" 45 1398 1410 "switch_condition.ml" 47 1479 1514
+)
+"switch_condition.ml" 44 1377 1389 "switch_condition.ml" 44 1377 1394
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 45 1398 1417 "switch_condition.ml" 45 1398 1424
+type(
+  VM.key -> Ssa.exp VM.t -> Ssa.exp
+)
+ident(
+  ext_ref VM.find
+)
+"switch_condition.ml" 45 1398 1425 "switch_condition.ml" 45 1398 1426
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "switch_condition.ml" 44 1377 1393 "switch_condition.ml" 44 1377 1394
+)
+"switch_condition.ml" 45 1398 1427 "switch_condition.ml" 45 1398 1428
+type(
+  Ssa.exp VM.t
+)
+ident(
+  int_ref m "switch_condition.ml" 17 368 377 "switch_condition.ml" 17 368 378
+)
+"switch_condition.ml" 45 1398 1417 "switch_condition.ml" 45 1398 1428
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 46 1434 1453 "switch_condition.ml" 46 1434 1454
+type(
+  Ssa.exp
+)
+ident(
+  def m "switch_condition.ml" 46 1434 1468 "switch_condition.ml" 46 1434 1478
+)
+"switch_condition.ml" 46 1434 1456 "switch_condition.ml" 46 1434 1457
+type(
+  Ssa.exp
+)
+ident(
+  def i "switch_condition.ml" 46 1434 1468 "switch_condition.ml" 46 1434 1478
+)
+"switch_condition.ml" 46 1434 1459 "switch_condition.ml" 46 1434 1460
+type(
+  Ssa.exp
+)
+ident(
+  def e "switch_condition.ml" 46 1434 1468 "switch_condition.ml" 46 1434 1478
+)
+"switch_condition.ml" 46 1434 1462 "switch_condition.ml" 46 1434 1463
+type(
+  Type.typ
+)
+ident(
+  def t "switch_condition.ml" 46 1434 1468 "switch_condition.ml" 46 1434 1478
+)
+"switch_condition.ml" 46 1434 1448 "switch_condition.ml" 46 1434 1464
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 46 1434 1468 "switch_condition.ml" 46 1434 1469
+type(
+  Ssa.exp
+)
+ident(
+  int_ref m "switch_condition.ml" 46 1434 1453 "switch_condition.ml" 46 1434 1454
+)
+"switch_condition.ml" 46 1434 1471 "switch_condition.ml" 46 1434 1472
+type(
+  Ssa.exp
+)
+ident(
+  int_ref i "switch_condition.ml" 46 1434 1456 "switch_condition.ml" 46 1434 1457
+)
+"switch_condition.ml" 46 1434 1474 "switch_condition.ml" 46 1434 1475
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 46 1434 1459 "switch_condition.ml" 46 1434 1460
+)
+"switch_condition.ml" 46 1434 1477 "switch_condition.ml" 46 1434 1478
+type(
+  Type.typ
+)
+ident(
+  int_ref t "switch_condition.ml" 46 1434 1462 "switch_condition.ml" 46 1434 1463
+)
+"switch_condition.ml" 46 1434 1468 "switch_condition.ml" 46 1434 1478
+type(
+  Ssa.exp * Ssa.exp * Ssa.exp * Type.typ
+)
+"switch_condition.ml" 47 1479 1493 "switch_condition.ml" 47 1479 1494
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 47 1479 1498 "switch_condition.ml" 47 1479 1503
+type(
+  exn -> Ssa.exp * Ssa.exp * Ssa.exp * Type.typ
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"switch_condition.ml" 47 1479 1504 "switch_condition.ml" 47 1479 1513
+type(
+  exn
+)
+"switch_condition.ml" 47 1479 1498 "switch_condition.ml" 47 1479 1513
+type(
+  Ssa.exp * Ssa.exp * Ssa.exp * Type.typ
+)
+"switch_condition.ml" 45 1398 1410 "switch_condition.ml" 47 1479 1514
+type(
+  Ssa.exp * Ssa.exp * Ssa.exp * Type.typ
+)
+"switch_condition.ml" 48 1515 1532 "switch_condition.ml" 48 1515 1533
+type(
+  Ssa.exp
+)
+ident(
+  def m "switch_condition.ml" 48 1515 1547 "switch_condition.ml" 48 1515 1557
+)
+"switch_condition.ml" 48 1515 1535 "switch_condition.ml" 48 1515 1536
+type(
+  Ssa.exp
+)
+ident(
+  def i "switch_condition.ml" 48 1515 1547 "switch_condition.ml" 48 1515 1557
+)
+"switch_condition.ml" 48 1515 1538 "switch_condition.ml" 48 1515 1539
+type(
+  Ssa.exp
+)
+ident(
+  def e "switch_condition.ml" 48 1515 1547 "switch_condition.ml" 48 1515 1557
+)
+"switch_condition.ml" 48 1515 1541 "switch_condition.ml" 48 1515 1542
+type(
+  Type.typ
+)
+ident(
+  def t "switch_condition.ml" 48 1515 1547 "switch_condition.ml" 48 1515 1557
+)
+"switch_condition.ml" 48 1515 1527 "switch_condition.ml" 48 1515 1543
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 48 1515 1547 "switch_condition.ml" 48 1515 1548
+type(
+  Ssa.exp
+)
+ident(
+  int_ref m "switch_condition.ml" 48 1515 1532 "switch_condition.ml" 48 1515 1533
+)
+"switch_condition.ml" 48 1515 1550 "switch_condition.ml" 48 1515 1551
+type(
+  Ssa.exp
+)
+ident(
+  int_ref i "switch_condition.ml" 48 1515 1535 "switch_condition.ml" 48 1515 1536
+)
+"switch_condition.ml" 48 1515 1553 "switch_condition.ml" 48 1515 1554
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 48 1515 1538 "switch_condition.ml" 48 1515 1539
+)
+"switch_condition.ml" 48 1515 1556 "switch_condition.ml" 48 1515 1557
+type(
+  Type.typ
+)
+ident(
+  int_ref t "switch_condition.ml" 48 1515 1541 "switch_condition.ml" 48 1515 1542
+)
+"switch_condition.ml" 48 1515 1547 "switch_condition.ml" 48 1515 1557
+type(
+  Ssa.exp * Ssa.exp * Ssa.exp * Type.typ
+)
+"switch_condition.ml" 49 1558 1570 "switch_condition.ml" 49 1558 1571
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 49 1558 1575 "switch_condition.ml" 49 1558 1580
+type(
+  exn -> Ssa.exp * Ssa.exp * Ssa.exp * Type.typ
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"switch_condition.ml" 49 1558 1581 "switch_condition.ml" 49 1558 1590
+type(
+  exn
+)
+"switch_condition.ml" 49 1558 1575 "switch_condition.ml" 49 1558 1590
+type(
+  Ssa.exp * Ssa.exp * Ssa.exp * Type.typ
+)
+"switch_condition.ml" 43 1334 1364 "switch_condition.ml" 49 1558 1590
+type(
+  Ssa.exp * Ssa.exp * Ssa.exp * Type.typ
+)
+"switch_condition.ml" 53 1640 1652 "switch_condition.ml" 53 1640 1660
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 53 1640 1663 "switch_condition.ml" 53 1640 1665
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref cp "switch_condition.ml" 17 368 380 "switch_condition.ml" 17 368 382
+)
+"switch_condition.ml" 53 1640 1666 "switch_condition.ml" 53 1640 1672
+type(
+  Ssa.exp
+)
+ident(
+  int_ref indexe "switch_condition.ml" 43 1334 1349 "switch_condition.ml" 43 1334 1355
+)
+"switch_condition.ml" 53 1640 1663 "switch_condition.ml" 53 1640 1672
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 54 1676 1684 "switch_condition.ml" 54 1676 1691
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 54 1676 1692 "switch_condition.ml" 54 1676 1702
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 54 1676 1704 "switch_condition.ml" 54 1676 1724
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"switch_condition.ml" 54 1676 1725 "switch_condition.ml" 54 1676 1733
+type(
+  Ssa.exp
+)
+ident(
+  int_ref cpindexe "switch_condition.ml" 53 1640 1652 "switch_condition.ml" 53 1640 1660
+)
+"switch_condition.ml" 54 1676 1703 "switch_condition.ml" 54 1676 1734
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 54 1676 1684 "switch_condition.ml" 54 1676 1734
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 57 1782 1794 "switch_condition.ml" 57 1782 1799
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 57 1782 1802 "switch_condition.ml" 57 1782 1815
+type(
+  Ssa.exp option -> Ssa.exp
+)
+ident(
+  ext_ref BatOption.get
+)
+"switch_condition.ml" 57 1782 1817 "switch_condition.ml" 57 1782 1826
+type(
+  Ssa.exp -> Ssa.exp option
+)
+ident(
+  int_ref find_leaf "switch_condition.ml" 19 432 438 "switch_condition.ml" 19 432 447
+)
+"switch_condition.ml" 57 1782 1827 "switch_condition.ml" 57 1782 1835
+type(
+  Ssa.exp
+)
+ident(
+  int_ref cpindexe "switch_condition.ml" 53 1640 1652 "switch_condition.ml" 53 1640 1660
+)
+"switch_condition.ml" 57 1782 1816 "switch_condition.ml" 57 1782 1836
+call(
+  stack
+)
+type(
+  Ssa.exp option
+)
+"switch_condition.ml" 57 1782 1802 "switch_condition.ml" 57 1782 1836
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 58 1840 1848 "switch_condition.ml" 58 1840 1855
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 58 1840 1856 "switch_condition.ml" 58 1840 1867
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 58 1840 1869 "switch_condition.ml" 58 1840 1889
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"switch_condition.ml" 58 1840 1890 "switch_condition.ml" 58 1840 1895
+type(
+  Ssa.exp
+)
+ident(
+  int_ref leafe "switch_condition.ml" 57 1782 1794 "switch_condition.ml" 57 1782 1799
+)
+"switch_condition.ml" 58 1840 1868 "switch_condition.ml" 58 1840 1896
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 58 1840 1848 "switch_condition.ml" 58 1840 1896
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 61 1962 1974 "switch_condition.ml" 61 1962 1977
+type(
+  Vsa_ssa.AbsEnv.t
+)
+"switch_condition.ml" 61 1962 1980 "switch_condition.ml" 61 1962 1993
+type(
+  Vsa_ssa.AbsEnv.t option -> Vsa_ssa.AbsEnv.t
+)
+ident(
+  ext_ref BatOption.get
+)
+"switch_condition.ml" 61 1962 1995 "switch_condition.ml" 61 1962 2001
+type(
+  Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option
+)
+ident(
+  int_ref vsa_in "switch_condition.ml" 11 223 268 "switch_condition.ml" 11 223 274
+)
+"switch_condition.ml" 61 1962 2003 "switch_condition.ml" 61 1962 2019
+type(
+  CS.G.t -> CS.G.vertex -> Cfg.SSA.G.V.t * int
+)
+ident(
+  ext_ref Vsa_ssa.last_loc
+)
+"switch_condition.ml" 61 1962 2020 "switch_condition.ml" 61 1962 2021
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 36 984 1028 "switch_condition.ml" 36 984 1029
+)
+"switch_condition.ml" 61 1962 2022 "switch_condition.ml" 61 1962 2023
+type(
+  CS.G.vertex
+)
+ident(
+  int_ref v "switch_condition.ml" 36 984 1025 "switch_condition.ml" 36 984 1026
+)
+"switch_condition.ml" 61 1962 2002 "switch_condition.ml" 61 1962 2024
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.V.t * int
+)
+"switch_condition.ml" 61 1962 1994 "switch_condition.ml" 61 1962 2025
+call(
+  stack
+)
+type(
+  Vsa_ssa.AbsEnv.t option
+)
+"switch_condition.ml" 61 1962 1980 "switch_condition.ml" 61 1962 2025
+call(
+  stack
+)
+type(
+  Vsa_ssa.AbsEnv.t
+)
+"switch_condition.ml" 62 2029 2041 "switch_condition.ml" 62 2029 2043
+type(
+  Vsa_ssa.VS.t
+)
+"switch_condition.ml" 62 2029 2046 "switch_condition.ml" 62 2029 2060
+type(
+  Vsa_ssa.AbsEnv.t -> Ssa.exp -> Vsa_ssa.VS.t
+)
+ident(
+  ext_ref Vsa_ssa.exp2vs
+)
+"switch_condition.ml" 62 2029 2061 "switch_condition.ml" 62 2029 2064
+type(
+  Vsa_ssa.AbsEnv.t
+)
+ident(
+  int_ref vsa "switch_condition.ml" 61 1962 1974 "switch_condition.ml" 61 1962 1977
+)
+"switch_condition.ml" 62 2029 2065 "switch_condition.ml" 62 2029 2070
+type(
+  Ssa.exp
+)
+ident(
+  int_ref leafe "switch_condition.ml" 57 1782 1794 "switch_condition.ml" 57 1782 1799
+)
+"switch_condition.ml" 62 2029 2046 "switch_condition.ml" 62 2029 2070
+call(
+  stack
+)
+type(
+  Vsa_ssa.VS.t
+)
+"switch_condition.ml" 63 2074 2082 "switch_condition.ml" 63 2074 2089
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 63 2074 2090 "switch_condition.ml" 63 2074 2098
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 63 2074 2100 "switch_condition.ml" 63 2074 2120
+type(
+  Vsa_ssa.VS.t -> string
+)
+ident(
+  ext_ref Vsa_ssa.VS.to_string
+)
+"switch_condition.ml" 63 2074 2121 "switch_condition.ml" 63 2074 2123
+type(
+  Vsa_ssa.VS.t
+)
+ident(
+  int_ref vs "switch_condition.ml" 62 2029 2041 "switch_condition.ml" 62 2029 2043
+)
+"switch_condition.ml" 63 2074 2099 "switch_condition.ml" 63 2074 2124
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 63 2074 2082 "switch_condition.ml" 63 2074 2124
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 65 2127 2142 "switch_condition.ml" 65 2127 2161
+type(
+  ?max:int -> Vsa_ssa.VS.t -> Big_int_Z.big_int list option
+)
+ident(
+  ext_ref Vsa_ssa.VS.concrete
+)
+"switch_condition.ml" 65 2127 2167 "switch_condition.ml" 65 2127 2171
+type(
+  int
+)
+"switch_condition.ml" 65 2127 2172 "switch_condition.ml" 65 2127 2174
+type(
+  Vsa_ssa.VS.t
+)
+ident(
+  int_ref vs "switch_condition.ml" 62 2029 2041 "switch_condition.ml" 62 2029 2043
+)
+"switch_condition.ml" 65 2127 2142 "switch_condition.ml" 65 2127 2174
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int list option
+)
+"switch_condition.ml" 66 2180 2195 "switch_condition.ml" 66 2180 2196
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  def x "switch_condition.ml" 67 2200 2210 "switch_condition.ml" 125 4849 4869
+)
+"switch_condition.ml" 66 2180 2190 "switch_condition.ml" 66 2180 2196
+type(
+  Big_int_Z.big_int list option
+)
+"switch_condition.ml" 67 2200 2214 "switch_condition.ml" 67 2200 2219
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option list
+)
+"switch_condition.ml" 68 2222 2234 "switch_condition.ml" 68 2222 2242
+type(
+  (Big_int_Z.big_int -> (Big_int_Z.big_int * Big_int_Z.big_int) option) ->
+  Big_int_Z.big_int list ->
+  (Big_int_Z.big_int * Big_int_Z.big_int) option list
+)
+ident(
+  ext_ref List.map
+)
+"switch_condition.ml" 68 2222 2248 "switch_condition.ml" 68 2222 2249
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def x "switch_condition.ml" 69 2253 2267 "switch_condition.ml" 79 2879 2907
+)
+"switch_condition.ml" 69 2253 2271 "switch_condition.ml" 69 2253 2278
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 69 2253 2285 "switch_condition.ml" 69 2253 2286
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref x "switch_condition.ml" 68 2222 2248 "switch_condition.ml" 68 2222 2249
+)
+"switch_condition.ml" 69 2253 2288 "switch_condition.ml" 69 2253 2307
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"switch_condition.ml" 69 2253 2308 "switch_condition.ml" 69 2253 2314
+type(
+  Ssa.exp
+)
+ident(
+  int_ref indexe "switch_condition.ml" 43 1334 1349 "switch_condition.ml" 43 1334 1355
+)
+"switch_condition.ml" 69 2253 2288 "switch_condition.ml" 69 2253 2314
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"switch_condition.ml" 69 2253 2281 "switch_condition.ml" 69 2253 2315
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 70 2319 2337 "switch_condition.ml" 70 2319 2346
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 70 2319 2349 "switch_condition.ml" 70 2319 2367
+type(
+  ?eq:(Ssa.exp -> Ssa.exp -> bool) ->
+  needle:Ssa.exp -> haystack:Ssa.exp -> replacement:Ssa.exp -> Ssa.exp
+)
+ident(
+  ext_ref Hacks.ssa_replacer
+)
+"switch_condition.ml" 70 2319 2372 "switch_condition.ml" 70 2319 2376
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"switch_condition.ml" 70 2319 2385 "switch_condition.ml" 70 2319 2390
+type(
+  Ssa.exp
+)
+ident(
+  int_ref leafe "switch_condition.ml" 57 1782 1794 "switch_condition.ml" 57 1782 1799
+)
+"switch_condition.ml" 70 2319 2401 "switch_condition.ml" 70 2319 2409
+type(
+  Ssa.exp
+)
+ident(
+  int_ref cpindexe "switch_condition.ml" 53 1640 1652 "switch_condition.ml" 53 1640 1660
+)
+"switch_condition.ml" 70 2319 2423 "switch_condition.ml" 70 2319 2430
+type(
+  Ssa.exp
+)
+ident(
+  int_ref newinte "switch_condition.ml" 69 2253 2271 "switch_condition.ml" 69 2253 2278
+)
+"switch_condition.ml" 70 2319 2349 "switch_condition.ml" 70 2319 2430
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 71 2434 2448 "switch_condition.ml" 71 2434 2455
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 71 2434 2456 "switch_condition.ml" 71 2434 2471
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 71 2434 2473 "switch_condition.ml" 71 2434 2493
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"switch_condition.ml" 71 2434 2494 "switch_condition.ml" 71 2434 2503
+type(
+  Ssa.exp
+)
+ident(
+  int_ref newindexe "switch_condition.ml" 70 2319 2337 "switch_condition.ml" 70 2319 2346
+)
+"switch_condition.ml" 71 2434 2472 "switch_condition.ml" 71 2434 2504
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 71 2434 2448 "switch_condition.ml" 71 2434 2504
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 72 2506 2524 "switch_condition.ml" 72 2506 2532
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 72 2506 2540 "switch_condition.ml" 72 2506 2541
+type(
+  Ssa.exp
+)
+ident(
+  int_ref m "switch_condition.ml" 43 1334 1346 "switch_condition.ml" 43 1334 1347
+)
+"switch_condition.ml" 72 2506 2543 "switch_condition.ml" 72 2506 2552
+type(
+  Ssa.exp
+)
+ident(
+  int_ref newindexe "switch_condition.ml" 70 2319 2337 "switch_condition.ml" 70 2319 2346
+)
+"switch_condition.ml" 72 2506 2554 "switch_condition.ml" 72 2506 2555
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 43 1334 1357 "switch_condition.ml" 43 1334 1358
+)
+"switch_condition.ml" 72 2506 2557 "switch_condition.ml" 72 2506 2558
+type(
+  Type.typ
+)
+ident(
+  int_ref t "switch_condition.ml" 43 1334 1360 "switch_condition.ml" 43 1334 1361
+)
+"switch_condition.ml" 72 2506 2535 "switch_condition.ml" 72 2506 2559
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 73 2563 2577 "switch_condition.ml" 73 2563 2584
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 73 2563 2585 "switch_condition.ml" 73 2563 2597
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 73 2563 2599 "switch_condition.ml" 73 2563 2601
+type(
+  Big_int_Z.big_int -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"switch_condition.ml" 73 2563 2602 "switch_condition.ml" 73 2563 2603
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref x "switch_condition.ml" 68 2222 2248 "switch_condition.ml" 68 2222 2249
+)
+"switch_condition.ml" 73 2563 2598 "switch_condition.ml" 73 2563 2604
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 73 2563 2606 "switch_condition.ml" 73 2563 2626
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"switch_condition.ml" 73 2563 2627 "switch_condition.ml" 73 2563 2635
+type(
+  Ssa.exp
+)
+ident(
+  int_ref newloade "switch_condition.ml" 72 2506 2524 "switch_condition.ml" 72 2506 2532
+)
+"switch_condition.ml" 73 2563 2605 "switch_condition.ml" 73 2563 2636
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 73 2563 2577 "switch_condition.ml" 73 2563 2636
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 74 2638 2656 "switch_condition.ml" 74 2638 2659
+type(
+  Vsa_ssa.VS.t
+)
+"switch_condition.ml" 74 2638 2662 "switch_condition.ml" 74 2638 2676
+type(
+  Vsa_ssa.AbsEnv.t -> Ssa.exp -> Vsa_ssa.VS.t
+)
+ident(
+  ext_ref Vsa_ssa.exp2vs
+)
+"switch_condition.ml" 74 2638 2677 "switch_condition.ml" 74 2638 2680
+type(
+  Vsa_ssa.AbsEnv.t
+)
+ident(
+  int_ref vsa "switch_condition.ml" 61 1962 1974 "switch_condition.ml" 61 1962 1977
+)
+"switch_condition.ml" 74 2638 2681 "switch_condition.ml" 74 2638 2689
+type(
+  Ssa.exp
+)
+ident(
+  int_ref newloade "switch_condition.ml" 72 2506 2524 "switch_condition.ml" 72 2506 2532
+)
+"switch_condition.ml" 74 2638 2662 "switch_condition.ml" 74 2638 2689
+call(
+  stack
+)
+type(
+  Vsa_ssa.VS.t
+)
+"switch_condition.ml" 75 2693 2711 "switch_condition.ml" 75 2693 2715
+type(
+  Big_int_Z.big_int list option
+)
+"switch_condition.ml" 75 2693 2718 "switch_condition.ml" 75 2693 2737
+type(
+  ?max:int -> Vsa_ssa.VS.t -> Big_int_Z.big_int list option
+)
+ident(
+  ext_ref Vsa_ssa.VS.concrete
+)
+"switch_condition.ml" 75 2693 2743 "switch_condition.ml" 75 2693 2744
+type(
+  int
+)
+"switch_condition.ml" 75 2693 2745 "switch_condition.ml" 75 2693 2748
+type(
+  Vsa_ssa.VS.t
+)
+ident(
+  int_ref vs' "switch_condition.ml" 74 2638 2656 "switch_condition.ml" 74 2638 2659
+)
+"switch_condition.ml" 75 2693 2718 "switch_condition.ml" 75 2693 2748
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int list option
+)
+"switch_condition.ml" 76 2752 2772 "switch_condition.ml" 76 2752 2776
+type(
+  Big_int_Z.big_int list option
+)
+ident(
+  int_ref conc "switch_condition.ml" 75 2693 2711 "switch_condition.ml" 75 2693 2715
+)
+"switch_condition.ml" 77 2782 2804 "switch_condition.ml" 77 2782 2808
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def addr "switch_condition.ml" 77 2782 2817 "switch_condition.ml" 77 2782 2830
+)
+"switch_condition.ml" 77 2782 2810 "switch_condition.ml" 77 2782 2812
+type(
+  Big_int_Z.big_int list
+)
+"switch_condition.ml" 77 2782 2803 "switch_condition.ml" 77 2782 2813
+type(
+  Big_int_Z.big_int list
+)
+"switch_condition.ml" 77 2782 2798 "switch_condition.ml" 77 2782 2813
+type(
+  Big_int_Z.big_int list option
+)
+"switch_condition.ml" 77 2782 2822 "switch_condition.ml" 77 2782 2826
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref addr "switch_condition.ml" 77 2782 2804 "switch_condition.ml" 77 2782 2808
+)
+"switch_condition.ml" 77 2782 2828 "switch_condition.ml" 77 2782 2829
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref x "switch_condition.ml" 68 2222 2248 "switch_condition.ml" 68 2222 2249
+)
+"switch_condition.ml" 77 2782 2821 "switch_condition.ml" 77 2782 2830
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int
+)
+"switch_condition.ml" 77 2782 2817 "switch_condition.ml" 77 2782 2830
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 78 2831 2852 "switch_condition.ml" 78 2831 2853
+type(
+  Big_int_Z.big_int list
+)
+"switch_condition.ml" 78 2831 2847 "switch_condition.ml" 78 2831 2853
+type(
+  Big_int_Z.big_int list option
+)
+"switch_condition.ml" 78 2831 2857 "switch_condition.ml" 78 2831 2865
+type(
+  string -> (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"switch_condition.ml" 78 2831 2866 "switch_condition.ml" 78 2831 2878
+type(
+  string
+)
+"switch_condition.ml" 78 2831 2857 "switch_condition.ml" 78 2831 2878
+call(
+  tail
+)
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 79 2879 2895 "switch_condition.ml" 79 2879 2899
+type(
+  Big_int_Z.big_int list option
+)
+"switch_condition.ml" 79 2879 2903 "switch_condition.ml" 79 2879 2907
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 76 2752 2766 "switch_condition.ml" 79 2879 2907
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 75 2693 2707 "switch_condition.ml" 79 2879 2907
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 74 2638 2652 "switch_condition.ml" 79 2879 2907
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 73 2563 2577 "switch_condition.ml" 79 2879 2907
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 72 2506 2520 "switch_condition.ml" 79 2879 2907
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 71 2434 2448 "switch_condition.ml" 79 2879 2907
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 70 2319 2333 "switch_condition.ml" 79 2879 2907
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 69 2253 2267 "switch_condition.ml" 79 2879 2907
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 68 2222 2243 "switch_condition.ml" 80 2908 2921
+type(
+  Big_int_Z.big_int -> (Big_int_Z.big_int * Big_int_Z.big_int) option
+)
+"switch_condition.ml" 80 2908 2922 "switch_condition.ml" 80 2908 2923
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  int_ref x "switch_condition.ml" 66 2180 2195 "switch_condition.ml" 66 2180 2196
+)
+"switch_condition.ml" 68 2222 2234 "switch_condition.ml" 80 2908 2923
+call(
+  stack
+)
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option list
+)
+"switch_condition.ml" 82 2937 2951 "switch_condition.ml" 82 2937 2956
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 82 2937 2963 "switch_condition.ml" 82 2937 2971
+type(
+  ((Big_int_Z.big_int * Big_int_Z.big_int) option ->
+   Big_int_Z.big_int * Big_int_Z.big_int) ->
+  (Big_int_Z.big_int * Big_int_Z.big_int) option list ->
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  ext_ref List.map
+)
+"switch_condition.ml" 82 2937 2972 "switch_condition.ml" 82 2937 2985
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option ->
+  Big_int_Z.big_int * Big_int_Z.big_int
+)
+ident(
+  ext_ref BatOption.get
+)
+"switch_condition.ml" 82 2937 2986 "switch_condition.ml" 82 2937 2991
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) option list
+)
+ident(
+  int_ref cases "switch_condition.ml" 67 2200 2214 "switch_condition.ml" 67 2200 2219
+)
+"switch_condition.ml" 82 2937 2963 "switch_condition.ml" 82 2937 2991
+call(
+  stack
+)
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 82 2937 2997 "switch_condition.ml" 82 2937 2998
+type(
+  exn
+)
+ident(
+  def e "switch_condition.ml" 82 2937 3002 "switch_condition.ml" 82 2937 3017
+)
+"switch_condition.ml" 82 2937 3002 "switch_condition.ml" 82 2937 3007
+type(
+  exn -> (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"switch_condition.ml" 82 2937 3008 "switch_condition.ml" 82 2937 3017
+type(
+  exn
+)
+"switch_condition.ml" 82 2937 3002 "switch_condition.ml" 82 2937 3017
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 82 2937 2959 "switch_condition.ml" 82 2937 3017
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 84 3022 3036 "switch_condition.ml" 84 3022 3049
+type(
+  CS.G.t ->
+  CS.G.V.t ->
+  Ssa.exp * (Big_int_Z.big_int * Big_int_Z.big_int) list -> CS.G.t
+)
+"switch_condition.ml" 84 3022 3050 "switch_condition.ml" 84 3022 3051
+type(
+  CS.G.t
+)
+ident(
+  def g "switch_condition.ml" 84 3022 3052 "switch_condition.ml" 121 4708 4721
+)
+"switch_condition.ml" 84 3022 3052 "switch_condition.ml" 84 3022 3053
+type(
+  CS.G.V.t
+)
+ident(
+  def v "switch_condition.ml" 84 3022 3054 "switch_condition.ml" 121 4708 4721
+)
+"switch_condition.ml" 84 3022 3055 "switch_condition.ml" 84 3022 3060
+type(
+  Ssa.exp
+)
+ident(
+  def leafe "switch_condition.ml" 85 3071 3083 "switch_condition.ml" 121 4708 4721
+)
+"switch_condition.ml" 84 3022 3062 "switch_condition.ml" 84 3022 3067
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  def cases "switch_condition.ml" 85 3071 3083 "switch_condition.ml" 121 4708 4721
+)
+"switch_condition.ml" 84 3022 3054 "switch_condition.ml" 84 3022 3068
+type(
+  Ssa.exp * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 85 3071 3083 "switch_condition.ml" 85 3071 3092
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int -> unit) ->
+  (Big_int_Z.big_int * Big_int_Z.big_int) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"switch_condition.ml" 85 3071 3099 "switch_condition.ml" 85 3071 3103
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def addr "switch_condition.ml" 86 3112 3126 "switch_condition.ml" 86 3112 3234
+)
+"switch_condition.ml" 85 3071 3105 "switch_condition.ml" 85 3071 3107
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def bi "switch_condition.ml" 86 3112 3126 "switch_condition.ml" 86 3112 3234
+)
+"switch_condition.ml" 85 3071 3098 "switch_condition.ml" 85 3071 3108
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int
+)
+"switch_condition.ml" 86 3112 3126 "switch_condition.ml" 86 3112 3133
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 86 3112 3134 "switch_condition.ml" 86 3112 3186
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 86 3112 3188 "switch_condition.ml" 86 3112 3190
+type(
+  Big_int_Z.big_int -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"switch_condition.ml" 86 3112 3191 "switch_condition.ml" 86 3112 3193
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref bi "switch_condition.ml" 85 3071 3105 "switch_condition.ml" 85 3071 3107
+)
+"switch_condition.ml" 86 3112 3187 "switch_condition.ml" 86 3112 3194
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 86 3112 3196 "switch_condition.ml" 86 3112 3216
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"switch_condition.ml" 86 3112 3217 "switch_condition.ml" 86 3112 3222
+type(
+  Ssa.exp
+)
+ident(
+  int_ref leafe "switch_condition.ml" 84 3022 3055 "switch_condition.ml" 84 3022 3060
+)
+"switch_condition.ml" 86 3112 3195 "switch_condition.ml" 86 3112 3223
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 86 3112 3225 "switch_condition.ml" 86 3112 3227
+type(
+  Big_int_Z.big_int -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"switch_condition.ml" 86 3112 3228 "switch_condition.ml" 86 3112 3232
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref addr "switch_condition.ml" 85 3071 3099 "switch_condition.ml" 85 3071 3103
+)
+"switch_condition.ml" 86 3112 3224 "switch_condition.ml" 86 3112 3233
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 86 3112 3126 "switch_condition.ml" 86 3112 3234
+call(
+  tail
+)
+type(
+  unit
+)
+"switch_condition.ml" 85 3071 3093 "switch_condition.ml" 87 3235 3248
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int -> unit
+)
+"switch_condition.ml" 87 3235 3249 "switch_condition.ml" 87 3235 3254
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  int_ref cases "switch_condition.ml" 84 3022 3062 "switch_condition.ml" 84 3022 3067
+)
+"switch_condition.ml" 85 3071 3083 "switch_condition.ml" 87 3235 3254
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 89 3257 3273 "switch_condition.ml" 89 3257 3277
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 89 3257 3286 "switch_condition.ml" 89 3257 3294
+type(
+  CS.lang -> CS.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"switch_condition.ml" 89 3257 3296 "switch_condition.ml" 89 3257 3308
+type(
+  CS.G.t -> CS.G.V.t -> CS.lang
+)
+ident(
+  ext_ref CS.get_stmts
+)
+"switch_condition.ml" 89 3257 3309 "switch_condition.ml" 89 3257 3310
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 84 3022 3050 "switch_condition.ml" 84 3022 3051
+)
+"switch_condition.ml" 89 3257 3311 "switch_condition.ml" 89 3257 3312
+type(
+  CS.G.V.t
+)
+ident(
+  int_ref v "switch_condition.ml" 84 3022 3052 "switch_condition.ml" 84 3022 3053
+)
+"switch_condition.ml" 89 3257 3295 "switch_condition.ml" 89 3257 3313
+call(
+  stack
+)
+type(
+  CS.lang
+)
+"switch_condition.ml" 89 3257 3286 "switch_condition.ml" 89 3257 3313
+call(
+  stack
+)
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 90 3319 3340 "switch_condition.ml" 90 3319 3341
+type(
+  Ssa.exp
+)
+ident(
+  def e "switch_condition.ml" 90 3319 3363 "switch_condition.ml" 90 3319 3364
+)
+"switch_condition.ml" 90 3319 3343 "switch_condition.ml" 90 3319 3348
+type(
+  Ssa.attrs
+)
+ident(
+  def attrs "switch_condition.ml" 90 3319 3363 "switch_condition.ml" 90 3319 3364
+)
+"switch_condition.ml" 90 3319 3335 "switch_condition.ml" 90 3319 3349
+type(
+  CS.stmt
+)
+"switch_condition.ml" 90 3319 3351 "switch_condition.ml" 90 3319 3359
+type(
+  CS.stmt list
+)
+ident(
+  def revstmts "switch_condition.ml" 90 3319 3363 "switch_condition.ml" 90 3319 3364
+)
+"switch_condition.ml" 90 3319 3335 "switch_condition.ml" 90 3319 3359
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 90 3319 3363 "switch_condition.ml" 90 3319 3364
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 90 3319 3340 "switch_condition.ml" 90 3319 3341
+)
+"switch_condition.ml" 91 3365 3381 "switch_condition.ml" 91 3365 3382
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 91 3365 3386 "switch_condition.ml" 91 3365 3394
+type(
+  string -> Ssa.exp
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"switch_condition.ml" 91 3365 3395 "switch_condition.ml" 91 3365 3407
+type(
+  string
+)
+"switch_condition.ml" 91 3365 3386 "switch_condition.ml" 91 3365 3407
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 89 3257 3280 "switch_condition.ml" 91 3365 3407
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 93 3423 3435 "switch_condition.ml" 93 3423 3442
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 93 3423 3443 "switch_condition.ml" 93 3423 3453
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 93 3423 3455 "switch_condition.ml" 93 3423 3475
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"switch_condition.ml" 93 3423 3476 "switch_condition.ml" 93 3423 3480
+type(
+  Ssa.exp
+)
+ident(
+  int_ref olde "switch_condition.ml" 89 3257 3273 "switch_condition.ml" 89 3257 3277
+)
+"switch_condition.ml" 93 3423 3454 "switch_condition.ml" 93 3423 3481
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 93 3423 3435 "switch_condition.ml" 93 3423 3481
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 95 3484 3500 "switch_condition.ml" 95 3484 3501
+type(
+  CS.G.t
+)
+"switch_condition.ml" 95 3484 3503 "switch_condition.ml" 95 3484 3504
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 95 3484 3500 "switch_condition.ml" 95 3484 3504
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 95 3484 3507 "switch_condition.ml" 95 3484 3523
+type(
+  (CS.G.edge ->
+   CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list ->
+   CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list) ->
+  CS.G.t ->
+  CS.G.vertex ->
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list ->
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  ext_ref CS.G.fold_succ_e
+)
+"switch_condition.ml" 95 3484 3529 "switch_condition.ml" 95 3484 3530
+type(
+  CS.G.edge
+)
+ident(
+  def e "switch_condition.ml" 95 3484 3531 "switch_condition.ml" 118 4653 4675
+)
+"switch_condition.ml" 95 3484 3532 "switch_condition.ml" 95 3484 3533
+type(
+  CS.G.t
+)
+ident(
+  def g "switch_condition.ml" 96 3544 3558 "switch_condition.ml" 118 4653 4675
+)
+"switch_condition.ml" 95 3484 3534 "switch_condition.ml" 95 3484 3539
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  def cases "switch_condition.ml" 96 3544 3558 "switch_condition.ml" 118 4653 4675
+)
+"switch_condition.ml" 95 3484 3531 "switch_condition.ml" 95 3484 3540
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 96 3544 3562 "switch_condition.ml" 96 3544 3565
+type(
+  CS.G.E.vertex
+)
+"switch_condition.ml" 96 3544 3568 "switch_condition.ml" 96 3544 3578
+type(
+  CS.G.E.t -> CS.G.E.vertex
+)
+ident(
+  ext_ref CS.G.E.src
+)
+"switch_condition.ml" 96 3544 3579 "switch_condition.ml" 96 3544 3580
+type(
+  CS.G.edge
+)
+ident(
+  int_ref e "switch_condition.ml" 95 3484 3529 "switch_condition.ml" 95 3484 3530
+)
+"switch_condition.ml" 96 3544 3568 "switch_condition.ml" 96 3544 3580
+call(
+  stack
+)
+type(
+  CS.G.E.vertex
+)
+"switch_condition.ml" 97 3584 3602 "switch_condition.ml" 97 3584 3605
+type(
+  CS.G.E.vertex
+)
+"switch_condition.ml" 97 3584 3608 "switch_condition.ml" 97 3584 3618
+type(
+  CS.G.E.t -> CS.G.E.vertex
+)
+ident(
+  ext_ref CS.G.E.dst
+)
+"switch_condition.ml" 97 3584 3619 "switch_condition.ml" 97 3584 3620
+type(
+  CS.G.edge
+)
+ident(
+  int_ref e "switch_condition.ml" 95 3484 3529 "switch_condition.ml" 95 3484 3530
+)
+"switch_condition.ml" 97 3584 3608 "switch_condition.ml" 97 3584 3620
+call(
+  stack
+)
+type(
+  CS.G.E.vertex
+)
+"switch_condition.ml" 98 3624 3643 "switch_condition.ml" 98 3624 3644
+type(
+  bool option
+)
+"switch_condition.ml" 98 3624 3646 "switch_condition.ml" 98 3624 3648
+type(
+  CS.exp
+)
+"switch_condition.ml" 98 3624 3642 "switch_condition.ml" 98 3624 3649
+type(
+  bool option * CS.exp
+)
+"switch_condition.ml" 98 3624 3652 "switch_condition.ml" 98 3624 3665
+type(
+  CS.G.E.label -> bool option * CS.exp
+)
+ident(
+  ext_ref BatOption.get
+)
+"switch_condition.ml" 98 3624 3667 "switch_condition.ml" 98 3624 3679
+type(
+  CS.G.E.t -> CS.G.E.label
+)
+ident(
+  ext_ref CS.G.E.label
+)
+"switch_condition.ml" 98 3624 3680 "switch_condition.ml" 98 3624 3681
+type(
+  CS.G.edge
+)
+ident(
+  int_ref e "switch_condition.ml" 95 3484 3529 "switch_condition.ml" 95 3484 3530
+)
+"switch_condition.ml" 98 3624 3666 "switch_condition.ml" 98 3624 3682
+call(
+  stack
+)
+type(
+  CS.G.E.label
+)
+"switch_condition.ml" 98 3624 3652 "switch_condition.ml" 98 3624 3682
+call(
+  stack
+)
+type(
+  bool option * CS.exp
+)
+"switch_condition.ml" 99 3686 3704 "switch_condition.ml" 99 3686 3710
+type(
+  Big_int_Z.big_int
+)
+"switch_condition.ml" 99 3686 3719 "switch_condition.ml" 99 3686 3721
+type(
+  CS.exp
+)
+ident(
+  int_ref le "switch_condition.ml" 98 3624 3646 "switch_condition.ml" 98 3624 3648
+)
+"switch_condition.ml" 100 3727 3751 "switch_condition.ml" 100 3727 3753
+type(
+  Type.binop_type
+)
+"switch_condition.ml" 100 3727 3755 "switch_condition.ml" 100 3727 3760
+type(
+  Ssa.exp
+)
+ident(
+  def olde' "switch_condition.ml" 101 3799 3817 "switch_condition.ml" 101 3799 3818
+)
+"switch_condition.ml" 100 3727 3766 "switch_condition.ml" 100 3727 3767
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "switch_condition.ml" 101 3799 3817 "switch_condition.ml" 101 3799 3818
+)
+"switch_condition.ml" 100 3727 3769 "switch_condition.ml" 100 3727 3771
+type(
+  Type.typ
+)
+ident(
+  def it "switch_condition.ml" 101 3799 3817 "switch_condition.ml" 101 3799 3818
+)
+"switch_condition.ml" 100 3727 3762 "switch_condition.ml" 100 3727 3772
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 100 3727 3745 "switch_condition.ml" 100 3727 3773
+type(
+  CS.exp
+)
+"switch_condition.ml" 101 3799 3817 "switch_condition.ml" 101 3799 3818
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "switch_condition.ml" 100 3727 3766 "switch_condition.ml" 100 3727 3767
+)
+"switch_condition.ml" 103 3985 4003 "switch_condition.ml" 103 3985 4004
+type(
+  CS.exp
+)
+"switch_condition.ml" 103 3985 4008 "switch_condition.ml" 103 3985 4016
+type(
+  string -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"switch_condition.ml" 103 3985 4018 "switch_condition.ml" 103 3985 4032
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"switch_condition.ml" 103 3985 4033 "switch_condition.ml" 103 3985 4057
+type(
+  (string -> string, unit, string) format
+)
+"switch_condition.ml" 103 3985 4059 "switch_condition.ml" 103 3985 4079
+type(
+  CS.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"switch_condition.ml" 103 3985 4080 "switch_condition.ml" 103 3985 4082
+type(
+  CS.exp
+)
+ident(
+  int_ref le "switch_condition.ml" 98 3624 3646 "switch_condition.ml" 98 3624 3648
+)
+"switch_condition.ml" 103 3985 4058 "switch_condition.ml" 103 3985 4083
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 103 3985 4017 "switch_condition.ml" 103 3985 4084
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 103 3985 4008 "switch_condition.ml" 103 3985 4084
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"switch_condition.ml" 99 3686 3713 "switch_condition.ml" 103 3985 4084
+type(
+  Big_int_Z.big_int
+)
+"switch_condition.ml" 105 4102 4116 "switch_condition.ml" 105 4102 4123
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 105 4102 4124 "switch_condition.ml" 105 4102 4135
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 105 4102 4137 "switch_condition.ml" 105 4102 4139
+type(
+  Big_int_Z.big_int -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"switch_condition.ml" 105 4102 4140 "switch_condition.ml" 105 4102 4146
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref target "switch_condition.ml" 99 3686 3704 "switch_condition.ml" 99 3686 3710
+)
+"switch_condition.ml" 105 4102 4136 "switch_condition.ml" 105 4102 4147
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 105 4102 4116 "switch_condition.ml" 105 4102 4147
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 106 4149 4167 "switch_condition.ml" 106 4149 4171
+type(
+  Big_int_Z.big_int
+)
+"switch_condition.ml" 106 4149 4174 "switch_condition.ml" 106 4149 4184
+type(
+  Big_int_Z.big_int ->
+  (Big_int_Z.big_int * Big_int_Z.big_int) list -> Big_int_Z.big_int
+)
+ident(
+  ext_ref List.assoc
+)
+"switch_condition.ml" 106 4149 4185 "switch_condition.ml" 106 4149 4191
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref target "switch_condition.ml" 99 3686 3704 "switch_condition.ml" 99 3686 3710
+)
+"switch_condition.ml" 106 4149 4192 "switch_condition.ml" 106 4149 4197
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  int_ref cases "switch_condition.ml" 95 3484 3534 "switch_condition.ml" 95 3484 3539
+)
+"switch_condition.ml" 106 4149 4174 "switch_condition.ml" 106 4149 4197
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"switch_condition.ml" 109 4300 4318 "switch_condition.ml" 109 4300 4323
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 109 4300 4326 "switch_condition.ml" 109 4300 4343
+type(
+  Big_int_Z.big_int ->
+  (Big_int_Z.big_int * Big_int_Z.big_int) list ->
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  ext_ref List.remove_assoc
+)
+"switch_condition.ml" 109 4300 4344 "switch_condition.ml" 109 4300 4350
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref target "switch_condition.ml" 99 3686 3704 "switch_condition.ml" 99 3686 3710
+)
+"switch_condition.ml" 109 4300 4351 "switch_condition.ml" 109 4300 4356
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  int_ref cases "switch_condition.ml" 95 3484 3534 "switch_condition.ml" 95 3484 3539
+)
+"switch_condition.ml" 109 4300 4326 "switch_condition.ml" 109 4300 4356
+call(
+  stack
+)
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 110 4360 4374 "switch_condition.ml" 110 4360 4381
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 110 4360 4382 "switch_condition.ml" 110 4360 4391
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"switch_condition.ml" 110 4360 4393 "switch_condition.ml" 110 4360 4395
+type(
+  Big_int_Z.big_int -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"switch_condition.ml" 110 4360 4396 "switch_condition.ml" 110 4360 4400
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref case "switch_condition.ml" 106 4149 4167 "switch_condition.ml" 106 4149 4171
+)
+"switch_condition.ml" 110 4360 4392 "switch_condition.ml" 110 4360 4401
+call(
+  stack
+)
+type(
+  string
+)
+"switch_condition.ml" 110 4360 4374 "switch_condition.ml" 110 4360 4401
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 112 4404 4422 "switch_condition.ml" 112 4404 4430
+type(
+  (bool option * Ssa.exp) option
+)
+"switch_condition.ml" 112 4404 4438 "switch_condition.ml" 112 4404 4439
+type(
+  bool option
+)
+ident(
+  int_ref b "switch_condition.ml" 98 3624 3643 "switch_condition.ml" 98 3624 3644
+)
+"switch_condition.ml" 112 4404 4447 "switch_condition.ml" 112 4404 4449
+type(
+  Type.binop_type
+)
+"switch_condition.ml" 112 4404 4451 "switch_condition.ml" 112 4404 4456
+type(
+  Ssa.exp
+)
+ident(
+  int_ref leafe "switch_condition.ml" 84 3022 3055 "switch_condition.ml" 84 3022 3060
+)
+"switch_condition.ml" 112 4404 4462 "switch_condition.ml" 112 4404 4466
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref case "switch_condition.ml" 106 4149 4167 "switch_condition.ml" 106 4149 4171
+)
+"switch_condition.ml" 112 4404 4468 "switch_condition.ml" 112 4404 4487
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"switch_condition.ml" 112 4404 4488 "switch_condition.ml" 112 4404 4493
+type(
+  Ssa.exp
+)
+ident(
+  int_ref leafe "switch_condition.ml" 84 3022 3055 "switch_condition.ml" 84 3022 3060
+)
+"switch_condition.ml" 112 4404 4468 "switch_condition.ml" 112 4404 4493
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"switch_condition.ml" 112 4404 4458 "switch_condition.ml" 112 4404 4494
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 112 4404 4441 "switch_condition.ml" 112 4404 4495
+type(
+  Ssa.exp
+)
+"switch_condition.ml" 112 4404 4437 "switch_condition.ml" 112 4404 4496
+type(
+  bool option * Ssa.exp
+)
+"switch_condition.ml" 112 4404 4433 "switch_condition.ml" 112 4404 4496
+type(
+  (bool option * Ssa.exp) option
+)
+"switch_condition.ml" 113 4500 4518 "switch_condition.ml" 113 4500 4522
+type(
+  CS.G.E.t
+)
+"switch_condition.ml" 113 4500 4525 "switch_condition.ml" 113 4500 4538
+type(
+  CS.G.E.vertex -> CS.G.E.label -> CS.G.E.vertex -> CS.G.E.t
+)
+ident(
+  ext_ref CS.G.E.create
+)
+"switch_condition.ml" 113 4500 4539 "switch_condition.ml" 113 4500 4542
+type(
+  CS.G.E.vertex
+)
+ident(
+  int_ref src "switch_condition.ml" 96 3544 3562 "switch_condition.ml" 96 3544 3565
+)
+"switch_condition.ml" 113 4500 4543 "switch_condition.ml" 113 4500 4551
+type(
+  CS.G.E.label
+)
+ident(
+  int_ref newlabel "switch_condition.ml" 112 4404 4422 "switch_condition.ml" 112 4404 4430
+)
+"switch_condition.ml" 113 4500 4552 "switch_condition.ml" 113 4500 4555
+type(
+  CS.G.E.vertex
+)
+ident(
+  int_ref dst "switch_condition.ml" 97 3584 3602 "switch_condition.ml" 97 3584 3605
+)
+"switch_condition.ml" 113 4500 4525 "switch_condition.ml" 113 4500 4555
+call(
+  stack
+)
+type(
+  CS.G.E.t
+)
+"switch_condition.ml" 115 4560 4578 "switch_condition.ml" 115 4560 4579
+type(
+  CS.G.t
+)
+"switch_condition.ml" 115 4560 4582 "switch_condition.ml" 115 4560 4598
+type(
+  CS.G.t -> CS.G.E.t -> CS.G.t
+)
+ident(
+  ext_ref CS.remove_edge_e
+)
+"switch_condition.ml" 115 4560 4599 "switch_condition.ml" 115 4560 4600
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 95 3484 3532 "switch_condition.ml" 95 3484 3533
+)
+"switch_condition.ml" 115 4560 4601 "switch_condition.ml" 115 4560 4602
+type(
+  CS.G.edge
+)
+ident(
+  int_ref e "switch_condition.ml" 95 3484 3529 "switch_condition.ml" 95 3484 3530
+)
+"switch_condition.ml" 115 4560 4582 "switch_condition.ml" 115 4560 4602
+call(
+  stack
+)
+type(
+  CS.G.t
+)
+"switch_condition.ml" 116 4606 4624 "switch_condition.ml" 116 4606 4625
+type(
+  CS.G.t
+)
+"switch_condition.ml" 116 4606 4628 "switch_condition.ml" 116 4606 4641
+type(
+  CS.G.t -> CS.G.E.t -> CS.G.t
+)
+ident(
+  ext_ref CS.add_edge_e
+)
+"switch_condition.ml" 116 4606 4642 "switch_condition.ml" 116 4606 4643
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 115 4560 4578 "switch_condition.ml" 115 4560 4579
+)
+"switch_condition.ml" 116 4606 4644 "switch_condition.ml" 116 4606 4648
+type(
+  CS.G.E.t
+)
+ident(
+  int_ref newe "switch_condition.ml" 113 4500 4518 "switch_condition.ml" 113 4500 4522
+)
+"switch_condition.ml" 116 4606 4628 "switch_condition.ml" 116 4606 4648
+call(
+  stack
+)
+type(
+  CS.G.t
+)
+"switch_condition.ml" 118 4653 4667 "switch_condition.ml" 118 4653 4668
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 116 4606 4624 "switch_condition.ml" 116 4606 4625
+)
+"switch_condition.ml" 118 4653 4670 "switch_condition.ml" 118 4653 4675
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  int_ref cases "switch_condition.ml" 109 4300 4318 "switch_condition.ml" 109 4300 4323
+)
+"switch_condition.ml" 118 4653 4667 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 116 4606 4620 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 115 4560 4574 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 113 4500 4514 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 112 4404 4418 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 110 4360 4374 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 109 4300 4314 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 106 4149 4163 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 105 4102 4116 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 99 3686 3700 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 98 3624 3638 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 97 3584 3598 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 96 3544 3558 "switch_condition.ml" 118 4653 4675
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 95 3484 3524 "switch_condition.ml" 119 4676 4689
+type(
+  CS.G.edge ->
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list ->
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 119 4676 4690 "switch_condition.ml" 119 4676 4691
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 84 3022 3050 "switch_condition.ml" 84 3022 3051
+)
+"switch_condition.ml" 119 4676 4692 "switch_condition.ml" 119 4676 4693
+type(
+  CS.G.V.t
+)
+ident(
+  int_ref v "switch_condition.ml" 84 3022 3052 "switch_condition.ml" 84 3022 3053
+)
+"switch_condition.ml" 119 4676 4695 "switch_condition.ml" 119 4676 4696
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 84 3022 3050 "switch_condition.ml" 84 3022 3051
+)
+"switch_condition.ml" 119 4676 4697 "switch_condition.ml" 119 4676 4702
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  int_ref cases "switch_condition.ml" 84 3022 3062 "switch_condition.ml" 84 3022 3067
+)
+"switch_condition.ml" 119 4676 4694 "switch_condition.ml" 119 4676 4703
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 95 3484 3507 "switch_condition.ml" 119 4676 4703
+call(
+  stack
+)
+type(
+  CS.G.t * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 121 4708 4720 "switch_condition.ml" 121 4708 4721
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 95 3484 3500 "switch_condition.ml" 95 3484 3501
+)
+"switch_condition.ml" 95 3484 3496 "switch_condition.ml" 121 4708 4721
+type(
+  CS.G.t
+)
+"switch_condition.ml" 93 3423 3435 "switch_condition.ml" 121 4708 4721
+type(
+  CS.G.t
+)
+"switch_condition.ml" 89 3257 3269 "switch_condition.ml" 121 4708 4721
+type(
+  CS.G.t
+)
+"switch_condition.ml" 85 3071 3083 "switch_condition.ml" 121 4708 4721
+type(
+  CS.G.t
+)
+"switch_condition.ml" 123 4735 4749 "switch_condition.ml" 123 4735 4750
+type(
+  CS.G.t
+)
+"switch_condition.ml" 123 4735 4753 "switch_condition.ml" 123 4735 4766
+type(
+  CS.G.t ->
+  CS.G.V.t ->
+  Ssa.exp * (Big_int_Z.big_int * Big_int_Z.big_int) list -> CS.G.t
+)
+ident(
+  int_ref rewrite_jumps "switch_condition.ml" 84 3022 3036 "switch_condition.ml" 84 3022 3049
+)
+"switch_condition.ml" 123 4735 4767 "switch_condition.ml" 123 4735 4768
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 36 984 1028 "switch_condition.ml" 36 984 1029
+)
+"switch_condition.ml" 123 4735 4769 "switch_condition.ml" 123 4735 4770
+type(
+  CS.G.vertex
+)
+ident(
+  int_ref v "switch_condition.ml" 36 984 1025 "switch_condition.ml" 36 984 1026
+)
+"switch_condition.ml" 123 4735 4772 "switch_condition.ml" 123 4735 4777
+type(
+  Ssa.exp
+)
+ident(
+  int_ref leafe "switch_condition.ml" 57 1782 1794 "switch_condition.ml" 57 1782 1799
+)
+"switch_condition.ml" 123 4735 4779 "switch_condition.ml" 123 4735 4784
+type(
+  (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+ident(
+  int_ref cases "switch_condition.ml" 82 2937 2951 "switch_condition.ml" 82 2937 2956
+)
+"switch_condition.ml" 123 4735 4771 "switch_condition.ml" 123 4735 4785
+type(
+  Ssa.exp * (Big_int_Z.big_int * Big_int_Z.big_int) list
+)
+"switch_condition.ml" 123 4735 4753 "switch_condition.ml" 123 4735 4785
+call(
+  stack
+)
+type(
+  CS.G.t
+)
+"switch_condition.ml" 124 4789 4799 "switch_condition.ml" 124 4789 4806
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"switch_condition.ml" 124 4789 4807 "switch_condition.ml" 124 4789 4847
+type(
+  (unit, unit, string, unit) format4
+)
+"switch_condition.ml" 124 4789 4799 "switch_condition.ml" 124 4789 4847
+call(
+  stack
+)
+type(
+  unit
+)
+"switch_condition.ml" 125 4849 4859 "switch_condition.ml" 125 4849 4860
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 123 4735 4749 "switch_condition.ml" 123 4735 4750
+)
+"switch_condition.ml" 125 4849 4862 "switch_condition.ml" 125 4849 4869
+type(
+  bool
+)
+ident(
+  int_ref allgood "switch_condition.ml" 36 984 1030 "switch_condition.ml" 36 984 1037
+)
+"switch_condition.ml" 125 4849 4859 "switch_condition.ml" 125 4849 4869
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 124 4789 4799 "switch_condition.ml" 125 4849 4869
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 123 4735 4745 "switch_condition.ml" 125 4849 4869
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 84 3022 3032 "switch_condition.ml" 125 4849 4869
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 82 2937 2947 "switch_condition.ml" 125 4849 4869
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 67 2200 2210 "switch_condition.ml" 125 4849 4869
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 126 4870 4880 "switch_condition.ml" 126 4870 4884
+type(
+  Big_int_Z.big_int list option
+)
+"switch_condition.ml" 126 4870 4888 "switch_condition.ml" 126 4870 4893
+type(
+  exn -> CS.G.t * bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"switch_condition.ml" 126 4870 4894 "switch_condition.ml" 126 4870 4903
+type(
+  exn
+)
+"switch_condition.ml" 126 4870 4888 "switch_condition.ml" 126 4870 4903
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 65 2127 2135 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 63 2074 2082 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 62 2029 2037 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 61 1962 1970 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 58 1840 1848 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 57 1782 1790 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 54 1676 1684 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 53 1640 1648 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 43 1334 1342 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 42 1243 1251 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 41 1217 1225 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 39 1095 1116 "switch_condition.ml" 126 4870 4904
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 127 4905 4913 "switch_condition.ml" 127 4905 4914
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 127 4905 4918 "switch_condition.ml" 127 4905 4919
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 36 984 1028 "switch_condition.ml" 36 984 1029
+)
+"switch_condition.ml" 127 4905 4921 "switch_condition.ml" 127 4905 4928
+type(
+  bool
+)
+ident(
+  int_ref allgood "switch_condition.ml" 36 984 1030 "switch_condition.ml" 36 984 1037
+)
+"switch_condition.ml" 127 4905 4918 "switch_condition.ml" 127 4905 4928
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 38 1050 1056 "switch_condition.ml" 127 4905 4928
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 128 4929 4938 "switch_condition.ml" 128 4929 4939
+type(
+  exn
+)
+"switch_condition.ml" 128 4929 4943 "switch_condition.ml" 128 4929 4944
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 36 984 1028 "switch_condition.ml" 36 984 1029
+)
+"switch_condition.ml" 128 4929 4946 "switch_condition.ml" 128 4929 4951
+type(
+  bool
+)
+"switch_condition.ml" 128 4929 4943 "switch_condition.ml" 128 4929 4951
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 37 1042 1046 "switch_condition.ml" 128 4929 4951
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 36 984 1020 "switch_condition.ml" 129 4952 4957
+type(
+  CS.G.vertex -> CS.G.t * bool -> CS.G.t * bool
+)
+"switch_condition.ml" 129 4952 4958 "switch_condition.ml" 129 4952 4965
+type(
+  CS.G.t
+)
+ident(
+  int_ref origssa "switch_condition.ml" 11 223 253 "switch_condition.ml" 11 223 260
+)
+"switch_condition.ml" 129 4952 4967 "switch_condition.ml" 129 4952 4974
+type(
+  CS.G.t
+)
+ident(
+  int_ref origssa "switch_condition.ml" 11 223 253 "switch_condition.ml" 11 223 260
+)
+"switch_condition.ml" 129 4952 4975 "switch_condition.ml" 129 4952 4979
+type(
+  bool
+)
+"switch_condition.ml" 129 4952 4966 "switch_condition.ml" 129 4952 4980
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 36 984 1003 "switch_condition.ml" 129 4952 4980
+call(
+  stack
+)
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 130 4984 4988 "switch_condition.ml" 130 4984 4989
+type(
+  CS.G.t
+)
+ident(
+  int_ref g "switch_condition.ml" 36 984 990 "switch_condition.ml" 36 984 991
+)
+"switch_condition.ml" 130 4984 4991 "switch_condition.ml" 130 4984 4998
+type(
+  bool
+)
+ident(
+  int_ref allgood "switch_condition.ml" 36 984 993 "switch_condition.ml" 36 984 1000
+)
+"switch_condition.ml" 130 4984 4988 "switch_condition.ml" 130 4984 4998
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 36 984 986 "switch_condition.ml" 130 4984 4998
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 19 432 434 "switch_condition.ml" 130 4984 4998
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 17 368 370 "switch_condition.ml" 130 4984 4998
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 13 278 280 "switch_condition.ml" 130 4984 4998
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 132 5000 5004 "switch_condition.ml" 132 5000 5032
+type(
+  Asmir_disasm.vsaresult -> CS.G.t * bool
+)
+ident(
+  def add_switch_conditions_disasm "switch_condition.ml" 135 5112 5112 --
+)
+"switch_condition.ml" 132 5000 5034 "switch_condition.ml" 132 5000 5040
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  def optssa "switch_condition.ml" 133 5061 5063 "switch_condition.ml" 133 5061 5110
+)
+"switch_condition.ml" 132 5000 5034 "switch_condition.ml" 132 5000 5049
+type(
+  CS.G.t
+)
+ident(
+  def origssa "switch_condition.ml" 133 5061 5063 "switch_condition.ml" 133 5061 5110
+)
+"switch_condition.ml" 132 5000 5034 "switch_condition.ml" 132 5000 5057
+type(
+  Cfg.ssastmtloc -> Vsa_ssa.AbsEnv.t option
+)
+ident(
+  def vsa_in "switch_condition.ml" 133 5061 5063 "switch_condition.ml" 133 5061 5110
+)
+"switch_condition.ml" 132 5000 5033 "switch_condition.ml" 132 5000 5058
+type(
+  Asmir_disasm.vsaresult
+)
+"switch_condition.ml" 133 5061 5063 "switch_condition.ml" 133 5061 5088
+type(
+  CS.G.t ->
+  Cfg.SSA.G.t -> (Cfg.ssastmtloc -> Vsa_ssa.AbsEnv.t option) -> CS.G.t * bool
+)
+ident(
+  int_ref add_switch_conditions_int "switch_condition.ml" 11 223 227 "switch_condition.ml" 11 223 252
+)
+"switch_condition.ml" 133 5061 5089 "switch_condition.ml" 133 5061 5096
+type(
+  CS.G.t
+)
+ident(
+  int_ref origssa "switch_condition.ml" 132 5000 5034 "switch_condition.ml" 132 5000 5049
+)
+"switch_condition.ml" 133 5061 5097 "switch_condition.ml" 133 5061 5103
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref optssa "switch_condition.ml" 132 5000 5034 "switch_condition.ml" 132 5000 5040
+)
+"switch_condition.ml" 133 5061 5104 "switch_condition.ml" 133 5061 5110
+type(
+  Cfg.ssastmtloc -> Vsa_ssa.AbsEnv.t option
+)
+ident(
+  int_ref vsa_in "switch_condition.ml" 132 5000 5034 "switch_condition.ml" 132 5000 5057
+)
+"switch_condition.ml" 133 5061 5063 "switch_condition.ml" 133 5061 5110
+call(
+  tail
+)
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 135 5112 5116 "switch_condition.ml" 135 5112 5144
+type(
+  Asmir.asmprogram -> CS.G.t -> CS.G.t * bool
+)
+ident(
+  def add_switch_conditions_ssacfg "switch_condition.ml" 154 5780 5830 --
+)
+"switch_condition.ml" 135 5112 5145 "switch_condition.ml" 135 5112 5149
+type(
+  Asmir.asmprogram
+)
+ident(
+  def asmp "switch_condition.ml" 135 5112 5150 "switch_condition.ml" 154 5780 5830
+)
+"switch_condition.ml" 135 5112 5150 "switch_condition.ml" 135 5112 5156
+type(
+  CS.G.t
+)
+ident(
+  def ssacfg "switch_condition.ml" 136 5159 5161 "switch_condition.ml" 154 5780 5830
+)
+"switch_condition.ml" 136 5159 5165 "switch_condition.ml" 136 5159 5177
+type(
+  CS.G.V.t -> bool
+)
+"switch_condition.ml" 136 5159 5178 "switch_condition.ml" 136 5159 5179
+type(
+  CS.G.V.t
+)
+ident(
+  def v "switch_condition.ml" 136 5159 5182 "switch_condition.ml" 138 5283 5299
+)
+"switch_condition.ml" 136 5159 5188 "switch_condition.ml" 136 5159 5196
+type(
+  CS.lang -> CS.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"switch_condition.ml" 136 5159 5198 "switch_condition.ml" 136 5159 5210
+type(
+  CS.G.t -> CS.G.V.t -> CS.lang
+)
+ident(
+  ext_ref CS.get_stmts
+)
+"switch_condition.ml" 136 5159 5211 "switch_condition.ml" 136 5159 5217
+type(
+  CS.G.t
+)
+ident(
+  int_ref ssacfg "switch_condition.ml" 135 5112 5150 "switch_condition.ml" 135 5112 5156
+)
+"switch_condition.ml" 136 5159 5218 "switch_condition.ml" 136 5159 5219
+type(
+  CS.G.V.t
+)
+ident(
+  int_ref v "switch_condition.ml" 136 5159 5178 "switch_condition.ml" 136 5159 5179
+)
+"switch_condition.ml" 136 5159 5197 "switch_condition.ml" 136 5159 5220
+call(
+  stack
+)
+type(
+  CS.lang
+)
+"switch_condition.ml" 136 5159 5188 "switch_condition.ml" 136 5159 5220
+call(
+  stack
+)
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 137 5226 5236 "switch_condition.ml" 137 5226 5237
+type(
+  Ssa.exp
+)
+ident(
+  def e "switch_condition.ml" 137 5226 5245 "switch_condition.ml" 137 5226 5282
+)
+"switch_condition.ml" 137 5226 5239 "switch_condition.ml" 137 5226 5240
+type(
+  Ssa.attrs
+)
+"switch_condition.ml" 137 5226 5232 "switch_condition.ml" 137 5226 5241
+type(
+  CS.stmt
+)
+"switch_condition.ml" 137 5226 5243 "switch_condition.ml" 137 5226 5244
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 137 5226 5232 "switch_condition.ml" 137 5226 5244
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 137 5226 5250 "switch_condition.ml" 137 5226 5264
+type(
+  Ssa.exp -> Type.label option
+)
+ident(
+  ext_ref Ssa.lab_of_exp
+)
+"switch_condition.ml" 137 5226 5265 "switch_condition.ml" 137 5226 5266
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "switch_condition.ml" 137 5226 5236 "switch_condition.ml" 137 5226 5237
+)
+"switch_condition.ml" 137 5226 5250 "switch_condition.ml" 137 5226 5266
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"switch_condition.ml" 137 5226 5267 "switch_condition.ml" 137 5226 5269
+type(
+  Type.label option -> Type.label option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"switch_condition.ml" 137 5226 5270 "switch_condition.ml" 137 5226 5274
+type(
+  Type.label option
+)
+"switch_condition.ml" 137 5226 5250 "switch_condition.ml" 137 5226 5274
+type(
+  bool
+)
+"switch_condition.ml" 137 5226 5278 "switch_condition.ml" 137 5226 5282
+type(
+  bool
+)
+"switch_condition.ml" 137 5226 5245 "switch_condition.ml" 137 5226 5282
+type(
+  bool
+)
+"switch_condition.ml" 138 5283 5289 "switch_condition.ml" 138 5283 5290
+type(
+  CS.stmt list
+)
+"switch_condition.ml" 138 5283 5294 "switch_condition.ml" 138 5283 5299
+type(
+  bool
+)
+"switch_condition.ml" 136 5159 5182 "switch_condition.ml" 138 5283 5299
+type(
+  bool
+)
+"switch_condition.ml" 140 5305 5311 "switch_condition.ml" 140 5305 5325
+type(
+  bool
+)
+"switch_condition.ml" 140 5305 5328 "switch_condition.ml" 140 5305 5344
+type(
+  (CS.G.vertex -> bool -> bool) -> CS.G.t -> bool -> bool
+)
+ident(
+  ext_ref CS.G.fold_vertex
+)
+"switch_condition.ml" 140 5305 5350 "switch_condition.ml" 140 5305 5351
+type(
+  CS.G.vertex
+)
+ident(
+  def v "switch_condition.ml" 140 5305 5352 "switch_condition.ml" 142 5373 5396
+)
+"switch_condition.ml" 140 5305 5352 "switch_condition.ml" 140 5305 5353
+type(
+  bool
+)
+ident(
+  def b "switch_condition.ml" 141 5357 5361 "switch_condition.ml" 142 5373 5396
+)
+"switch_condition.ml" 141 5357 5364 "switch_condition.ml" 141 5357 5365
+type(
+  bool
+)
+ident(
+  int_ref b "switch_condition.ml" 140 5305 5352 "switch_condition.ml" 140 5305 5353
+)
+"switch_condition.ml" 141 5357 5371 "switch_condition.ml" 141 5357 5372
+type(
+  bool
+)
+ident(
+  int_ref b "switch_condition.ml" 140 5305 5352 "switch_condition.ml" 140 5305 5353
+)
+"switch_condition.ml" 142 5373 5382 "switch_condition.ml" 142 5373 5394
+type(
+  CS.G.V.t -> bool
+)
+ident(
+  int_ref has_indirect "switch_condition.ml" 136 5159 5165 "switch_condition.ml" 136 5159 5177
+)
+"switch_condition.ml" 142 5373 5395 "switch_condition.ml" 142 5373 5396
+type(
+  CS.G.vertex
+)
+ident(
+  int_ref v "switch_condition.ml" 140 5305 5350 "switch_condition.ml" 140 5305 5351
+)
+"switch_condition.ml" 142 5373 5382 "switch_condition.ml" 142 5373 5396
+call(
+  tail
+)
+type(
+  bool
+)
+"switch_condition.ml" 141 5357 5361 "switch_condition.ml" 142 5373 5396
+type(
+  bool
+)
+"switch_condition.ml" 140 5305 5345 "switch_condition.ml" 143 5397 5400
+type(
+  CS.G.vertex -> bool -> bool
+)
+"switch_condition.ml" 143 5397 5401 "switch_condition.ml" 143 5397 5407
+type(
+  CS.G.t
+)
+ident(
+  int_ref ssacfg "switch_condition.ml" 135 5112 5150 "switch_condition.ml" 135 5112 5156
+)
+"switch_condition.ml" 143 5397 5408 "switch_condition.ml" 143 5397 5413
+type(
+  bool
+)
+"switch_condition.ml" 140 5305 5328 "switch_condition.ml" 143 5397 5413
+call(
+  stack
+)
+type(
+  bool
+)
+"switch_condition.ml" 145 5419 5424 "switch_condition.ml" 145 5419 5427
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"switch_condition.ml" 145 5419 5428 "switch_condition.ml" 145 5419 5442
+type(
+  bool
+)
+ident(
+  int_ref has_a_indirect "switch_condition.ml" 140 5305 5311 "switch_condition.ml" 140 5305 5325
+)
+"switch_condition.ml" 145 5419 5424 "switch_condition.ml" 145 5419 5442
+type(
+  bool
+)
+"switch_condition.ml" 147 5496 5504 "switch_condition.ml" 147 5496 5510
+type(
+  CS.G.t
+)
+ident(
+  int_ref ssacfg "switch_condition.ml" 135 5112 5150 "switch_condition.ml" 135 5112 5156
+)
+"switch_condition.ml" 147 5496 5512 "switch_condition.ml" 147 5496 5516
+type(
+  bool
+)
+"switch_condition.ml" 147 5496 5503 "switch_condition.ml" 147 5496 5517
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 149 5525 5533 "switch_condition.ml" 149 5525 5539
+type(
+  Cfg.SSA.G.t
+)
+"switch_condition.ml" 149 5525 5542 "switch_condition.ml" 149 5525 5570
+type(
+  ?vs:Cfg.SSA.G.V.t list -> CS.G.t -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Vsa_ssa.prepare_ssa_indirect
+)
+"switch_condition.ml" 149 5525 5571 "switch_condition.ml" 149 5525 5577
+type(
+  CS.G.t
+)
+ident(
+  int_ref ssacfg "switch_condition.ml" 135 5112 5150 "switch_condition.ml" 135 5112 5156
+)
+"switch_condition.ml" 149 5525 5542 "switch_condition.ml" 149 5525 5577
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.t
+)
+"switch_condition.ml" 151 5664 5672 "switch_condition.ml" 151 5664 5676
+type(
+  Vsa.options
+)
+"switch_condition.ml" 151 5664 5679 "switch_condition.ml" 151 5664 5713
+type(
+  Asmir.asmprogram -> Vsa.options
+)
+ident(
+  ext_ref Vsa_ssa.build_default_prog_options
+)
+"switch_condition.ml" 151 5664 5714 "switch_condition.ml" 151 5664 5718
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "switch_condition.ml" 135 5112 5145 "switch_condition.ml" 135 5112 5149
+)
+"switch_condition.ml" 151 5664 5679 "switch_condition.ml" 151 5664 5718
+call(
+  stack
+)
+type(
+  Vsa.options
+)
+"switch_condition.ml" 153 5723 5731 "switch_condition.ml" 153 5723 5737
+type(
+  Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option
+)
+"switch_condition.ml" 153 5723 5739 "switch_condition.ml" 153 5723 5740
+type(
+  Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option
+)
+"switch_condition.ml" 153 5723 5731 "switch_condition.ml" 153 5723 5740
+type(
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option) *
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option)
+)
+"switch_condition.ml" 153 5723 5743 "switch_condition.ml" 153 5723 5754
+type(
+  ?nmeets:int ->
+  Vsa.options ->
+  Cfg.SSA.G.t ->
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option) *
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option)
+)
+ident(
+  ext_ref Vsa_ssa.vsa
+)
+"switch_condition.ml" 153 5723 5763 "switch_condition.ml" 153 5723 5764
+type(
+  int
+)
+"switch_condition.ml" 153 5723 5765 "switch_condition.ml" 153 5723 5769
+type(
+  Vsa.options
+)
+ident(
+  int_ref opts "switch_condition.ml" 151 5664 5672 "switch_condition.ml" 151 5664 5676
+)
+"switch_condition.ml" 153 5723 5770 "switch_condition.ml" 153 5723 5776
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref optssa "switch_condition.ml" 149 5525 5533 "switch_condition.ml" 149 5525 5539
+)
+"switch_condition.ml" 153 5723 5743 "switch_condition.ml" 153 5723 5776
+call(
+  stack
+)
+type(
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option) *
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option)
+)
+"switch_condition.ml" 154 5780 5784 "switch_condition.ml" 154 5780 5809
+type(
+  CS.G.t ->
+  Cfg.SSA.G.t ->
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option) -> CS.G.t * bool
+)
+ident(
+  int_ref add_switch_conditions_int "switch_condition.ml" 11 223 227 "switch_condition.ml" 11 223 252
+)
+"switch_condition.ml" 154 5780 5810 "switch_condition.ml" 154 5780 5816
+type(
+  CS.G.t
+)
+ident(
+  int_ref ssacfg "switch_condition.ml" 135 5112 5150 "switch_condition.ml" 135 5112 5156
+)
+"switch_condition.ml" 154 5780 5817 "switch_condition.ml" 154 5780 5823
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref optssa "switch_condition.ml" 149 5525 5533 "switch_condition.ml" 149 5525 5539
+)
+"switch_condition.ml" 154 5780 5824 "switch_condition.ml" 154 5780 5830
+type(
+  Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option
+)
+ident(
+  int_ref vsa_in "switch_condition.ml" 153 5723 5731 "switch_condition.ml" 153 5723 5737
+)
+"switch_condition.ml" 154 5780 5784 "switch_condition.ml" 154 5780 5830
+call(
+  tail
+)
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 153 5723 5727 "switch_condition.ml" 154 5780 5830
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 151 5664 5668 "switch_condition.ml" 154 5780 5830
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 149 5525 5529 "switch_condition.ml" 154 5780 5830
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 145 5419 5421 "switch_condition.ml" 154 5780 5830
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 140 5305 5307 "switch_condition.ml" 154 5780 5830
+type(
+  CS.G.t * bool
+)
+"switch_condition.ml" 136 5159 5161 "switch_condition.ml" 154 5780 5830
+type(
+  CS.G.t * bool
+)

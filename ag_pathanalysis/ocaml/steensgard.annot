@@ -1,0 +1,1478 @@
+"steensgard.ml" 8 221 254 "steensgard.ml" 8 221 258
+type(
+  string
+)
+ident(
+  def name "steensgard.ml" 8 221 294 "steensgard.ml" 8 221 298
+)
+"steensgard.ml" 8 221 261 "steensgard.ml" 8 221 273
+type(
+  string
+)
+"steensgard.ml" 8 221 278 "steensgard.ml" 8 221 285
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "steensgard.ml" 8 221 294 "steensgard.ml" 8 221 298
+)
+"steensgard.ml" 8 221 286 "steensgard.ml" 8 221 294
+type(
+  [> `NoDebug ] as 'a
+)
+"steensgard.ml" 8 221 232 "steensgard.ml" 8 221 299
+call(
+  stack
+)
+"steensgard.ml" 28 627 633 "steensgard.ml" 28 627 643
+type(
+  C.G.t -> C.G.vertex loopinfo
+)
+ident(
+  def steensgard "steensgard.ml" 77 2448 2457 "steensgard.ml" 79 2459 2462
+)
+"steensgard.ml" 28 627 644 "steensgard.ml" 28 627 647
+type(
+  C.G.t
+)
+ident(
+  def cfg "steensgard.ml" 29 650 654 "steensgard.ml" 77 2448 2457
+)
+"steensgard.ml" 29 650 672 "steensgard.ml" 29 650 698
+call(
+  stack
+)
+"steensgard.ml" 30 702 722 "steensgard.ml" 30 702 737
+call(
+  stack
+)
+"steensgard.ml" 31 741 749 "steensgard.ml" 31 741 750
+type(
+  C.G.t -> C.G.vertex loopinfo
+)
+ident(
+  def f "steensgard.ml" 77 2448 2452 "steensgard.ml" 77 2448 2457
+)
+"steensgard.ml" 31 741 751 "steensgard.ml" 31 741 754
+type(
+  C.G.t
+)
+ident(
+  def cfg "steensgard.ml" 32 757 763 "steensgard.ml" 75 2389 2440
+)
+"steensgard.ml" 32 757 767 "steensgard.ml" 32 757 771
+type(
+  C.G.V.t list list
+)
+"steensgard.ml" 32 757 774 "steensgard.ml" 32 757 787
+type(
+  C.G.t -> C.G.V.t list list
+)
+ident(
+  ext_ref Comp.scc_list
+)
+"steensgard.ml" 32 757 788 "steensgard.ml" 32 757 791
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "steensgard.ml" 31 741 751 "steensgard.ml" 31 741 754
+)
+"steensgard.ml" 32 757 774 "steensgard.ml" 32 757 791
+call(
+  stack
+)
+type(
+  C.G.V.t list list
+)
+"steensgard.ml" 33 795 809 "steensgard.ml" 33 795 820
+type(
+  C.G.t -> C.G.vertex list -> C.G.vertex loopinfo
+)
+"steensgard.ml" 33 795 821 "steensgard.ml" 33 795 824
+type(
+  C.G.t
+)
+ident(
+  def cfg "steensgard.ml" 33 795 825 "steensgard.ml" 69 2214 2261
+)
+"steensgard.ml" 33 795 825 "steensgard.ml" 33 795 828
+type(
+  C.G.vertex list
+)
+ident(
+  def scc "steensgard.ml" 34 831 839 "steensgard.ml" 69 2214 2261
+)
+"steensgard.ml" 34 831 839 "steensgard.ml" 34 831 846
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"steensgard.ml" 34 831 847 "steensgard.ml" 34 831 860
+type(
+  (unit, unit, string, unit) format4
+)
+"steensgard.ml" 34 831 839 "steensgard.ml" 34 831 860
+call(
+  stack
+)
+type(
+  unit
+)
+"steensgard.ml" 35 862 876 "steensgard.ml" 35 862 879
+type(
+  C.G.vertex list
+)
+ident(
+  int_ref scc "steensgard.ml" 33 795 825 "steensgard.ml" 33 795 828
+)
+"steensgard.ml" 36 885 895 "steensgard.ml" 36 885 897
+type(
+  C.G.vertex list
+)
+"steensgard.ml" 36 885 901 "steensgard.ml" 36 885 909
+type(
+  string -> C.G.vertex loopinfo
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"steensgard.ml" 36 885 910 "steensgard.ml" 36 885 948
+type(
+  string
+)
+"steensgard.ml" 36 885 901 "steensgard.ml" 36 885 948
+call(
+  tail
+)
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 37 949 960 "steensgard.ml" 37 949 961
+type(
+  C.G.vertex
+)
+ident(
+  def x "steensgard.ml" 37 949 963 "steensgard.ml" 38 1029 1051
+)
+"steensgard.ml" 37 949 959 "steensgard.ml" 37 949 962
+type(
+  C.G.vertex list
+)
+"steensgard.ml" 37 949 968 "steensgard.ml" 37 949 980
+type(
+  C.G.t -> C.G.vertex -> C.G.vertex -> bool
+)
+ident(
+  ext_ref C.G.mem_edge
+)
+"steensgard.ml" 37 949 981 "steensgard.ml" 37 949 984
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "steensgard.ml" 33 795 821 "steensgard.ml" 33 795 824
+)
+"steensgard.ml" 37 949 985 "steensgard.ml" 37 949 986
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "steensgard.ml" 37 949 960 "steensgard.ml" 37 949 961
+)
+"steensgard.ml" 37 949 987 "steensgard.ml" 37 949 988
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "steensgard.ml" 37 949 960 "steensgard.ml" 37 949 961
+)
+"steensgard.ml" 37 949 968 "steensgard.ml" 37 949 988
+call(
+  stack
+)
+type(
+  bool
+)
+"steensgard.ml" 37 949 992 "steensgard.ml" 37 949 999
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"steensgard.ml" 37 949 1000 "steensgard.ml" 37 949 1017
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"steensgard.ml" 37 949 1019 "steensgard.ml" 37 949 1024
+type(
+  C.G.vertex -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"steensgard.ml" 37 949 1025 "steensgard.ml" 37 949 1026
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "steensgard.ml" 37 949 960 "steensgard.ml" 37 949 961
+)
+"steensgard.ml" 37 949 1018 "steensgard.ml" 37 949 1027
+call(
+  stack
+)
+type(
+  string
+)
+"steensgard.ml" 37 949 992 "steensgard.ml" 37 949 1027
+call(
+  stack
+)
+type(
+  unit
+)
+"steensgard.ml" 38 1029 1047 "steensgard.ml" 38 1029 1050
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "steensgard.ml" 37 949 960 "steensgard.ml" 37 949 961
+)
+"steensgard.ml" 38 1029 1045 "steensgard.ml" 38 1029 1050
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 38 1029 1044 "steensgard.ml" 38 1029 1051
+type(
+  C.G.vertex loopinfo list
+)
+"steensgard.ml" 38 1029 1039 "steensgard.ml" 38 1029 1051
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 37 949 992 "steensgard.ml" 38 1029 1051
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 37 949 963 "steensgard.ml" 38 1029 1051
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 39 1052 1063 "steensgard.ml" 39 1052 1064
+type(
+  C.G.vertex
+)
+ident(
+  def x "steensgard.ml" 39 1052 1069 "steensgard.ml" 39 1052 1100
+)
+"steensgard.ml" 39 1052 1062 "steensgard.ml" 39 1052 1065
+type(
+  C.G.vertex list
+)
+"steensgard.ml" 39 1052 1069 "steensgard.ml" 39 1052 1076
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"steensgard.ml" 39 1052 1077 "steensgard.ml" 39 1052 1084
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"steensgard.ml" 39 1052 1086 "steensgard.ml" 39 1052 1091
+type(
+  C.G.vertex -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"steensgard.ml" 39 1052 1092 "steensgard.ml" 39 1052 1093
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "steensgard.ml" 39 1052 1063 "steensgard.ml" 39 1052 1064
+)
+"steensgard.ml" 39 1052 1085 "steensgard.ml" 39 1052 1094
+call(
+  stack
+)
+type(
+  string
+)
+"steensgard.ml" 39 1052 1069 "steensgard.ml" 39 1052 1094
+call(
+  stack
+)
+type(
+  unit
+)
+"steensgard.ml" 39 1052 1099 "steensgard.ml" 39 1052 1100
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "steensgard.ml" 39 1052 1063 "steensgard.ml" 39 1052 1064
+)
+"steensgard.ml" 39 1052 1096 "steensgard.ml" 39 1052 1100
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 39 1052 1069 "steensgard.ml" 39 1052 1100
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 40 1101 1111 "steensgard.ml" 40 1101 1112
+type(
+  C.G.vertex list
+)
+"steensgard.ml" 41 1116 1130 "steensgard.ml" 41 1116 1131
+type(
+  (C.G.vertex, unit) Hashtbl.t
+)
+"steensgard.ml" 41 1116 1134 "steensgard.ml" 41 1116 1148
+type(
+  int -> (C.G.vertex, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"steensgard.ml" 41 1116 1150 "steensgard.ml" 41 1116 1161
+type(
+  C.G.vertex list -> int
+)
+ident(
+  ext_ref List.length
+)
+"steensgard.ml" 41 1116 1162 "steensgard.ml" 41 1116 1165
+type(
+  C.G.vertex list
+)
+ident(
+  int_ref scc "steensgard.ml" 33 795 825 "steensgard.ml" 33 795 828
+)
+"steensgard.ml" 41 1116 1149 "steensgard.ml" 41 1116 1166
+call(
+  stack
+)
+type(
+  int
+)
+"steensgard.ml" 41 1116 1134 "steensgard.ml" 41 1116 1166
+call(
+  stack
+)
+type(
+  (C.G.vertex, unit) Hashtbl.t
+)
+"steensgard.ml" 42 1170 1180 "steensgard.ml" 42 1170 1189
+type(
+  (C.G.vertex -> unit) -> C.G.vertex list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"steensgard.ml" 42 1170 1195 "steensgard.ml" 42 1170 1196
+type(
+  C.G.vertex
+)
+ident(
+  def v "steensgard.ml" 42 1170 1200 "steensgard.ml" 42 1170 1246
+)
+"steensgard.ml" 42 1170 1200 "steensgard.ml" 42 1170 1207
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"steensgard.ml" 42 1170 1208 "steensgard.ml" 42 1170 1216
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"steensgard.ml" 42 1170 1218 "steensgard.ml" 42 1170 1223
+type(
+  C.G.vertex -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"steensgard.ml" 42 1170 1224 "steensgard.ml" 42 1170 1225
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "steensgard.ml" 42 1170 1195 "steensgard.ml" 42 1170 1196
+)
+"steensgard.ml" 42 1170 1217 "steensgard.ml" 42 1170 1226
+call(
+  stack
+)
+type(
+  string
+)
+"steensgard.ml" 42 1170 1200 "steensgard.ml" 42 1170 1226
+call(
+  stack
+)
+type(
+  unit
+)
+"steensgard.ml" 42 1170 1228 "steensgard.ml" 42 1170 1239
+type(
+  (C.G.vertex, unit) Hashtbl.t -> C.G.vertex -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"steensgard.ml" 42 1170 1240 "steensgard.ml" 42 1170 1241
+type(
+  (C.G.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref h "steensgard.ml" 41 1116 1130 "steensgard.ml" 41 1116 1131
+)
+"steensgard.ml" 42 1170 1242 "steensgard.ml" 42 1170 1243
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "steensgard.ml" 42 1170 1195 "steensgard.ml" 42 1170 1196
+)
+"steensgard.ml" 42 1170 1244 "steensgard.ml" 42 1170 1246
+type(
+  unit
+)
+"steensgard.ml" 42 1170 1228 "steensgard.ml" 42 1170 1246
+call(
+  tail
+)
+type(
+  unit
+)
+"steensgard.ml" 42 1170 1200 "steensgard.ml" 42 1170 1246
+type(
+  unit
+)
+"steensgard.ml" 42 1170 1190 "steensgard.ml" 42 1170 1247
+type(
+  C.G.vertex -> unit
+)
+"steensgard.ml" 42 1170 1248 "steensgard.ml" 42 1170 1251
+type(
+  C.G.vertex list
+)
+ident(
+  int_ref scc "steensgard.ml" 33 795 825 "steensgard.ml" 33 795 828
+)
+"steensgard.ml" 42 1170 1180 "steensgard.ml" 42 1170 1251
+call(
+  stack
+)
+type(
+  unit
+)
+"steensgard.ml" 44 1254 1268 "steensgard.ml" 44 1254 1279
+type(
+  VS.t
+)
+"steensgard.ml" 44 1254 1282 "steensgard.ml" 44 1254 1298
+type(
+  (C.G.edge -> VS.t -> VS.t) -> C.G.t -> VS.t -> VS.t
+)
+ident(
+  ext_ref C.G.fold_edges_e
+)
+"steensgard.ml" 44 1254 1304 "steensgard.ml" 44 1254 1305
+type(
+  C.G.edge
+)
+ident(
+  def e "steensgard.ml" 44 1254 1306 "steensgard.ml" 47 1484 1502
+)
+"steensgard.ml" 44 1254 1306 "steensgard.ml" 44 1254 1307
+type(
+  VS.t
+)
+ident(
+  def s "steensgard.ml" 45 1311 1323 "steensgard.ml" 47 1484 1502
+)
+"steensgard.ml" 45 1311 1326 "steensgard.ml" 45 1311 1337
+type(
+  (C.G.vertex, unit) Hashtbl.t -> C.G.vertex -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"steensgard.ml" 45 1311 1338 "steensgard.ml" 45 1311 1339
+type(
+  (C.G.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref h "steensgard.ml" 41 1116 1130 "steensgard.ml" 41 1116 1131
+)
+"steensgard.ml" 45 1311 1341 "steensgard.ml" 45 1311 1350
+type(
+  C.G.edge -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.dst
+)
+"steensgard.ml" 45 1311 1351 "steensgard.ml" 45 1311 1352
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "steensgard.ml" 44 1254 1304 "steensgard.ml" 44 1254 1305
+)
+"steensgard.ml" 45 1311 1340 "steensgard.ml" 45 1311 1353
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"steensgard.ml" 45 1311 1326 "steensgard.ml" 45 1311 1353
+call(
+  stack
+)
+type(
+  bool
+)
+"steensgard.ml" 45 1311 1354 "steensgard.ml" 45 1311 1355
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"steensgard.ml" 45 1311 1356 "steensgard.ml" 45 1311 1360
+type(
+  bool
+)
+"steensgard.ml" 45 1311 1326 "steensgard.ml" 45 1311 1360
+type(
+  bool
+)
+"steensgard.ml" 45 1311 1361 "steensgard.ml" 45 1311 1363
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"steensgard.ml" 45 1311 1364 "steensgard.ml" 45 1311 1375
+type(
+  (C.G.vertex, unit) Hashtbl.t -> C.G.vertex -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"steensgard.ml" 45 1311 1376 "steensgard.ml" 45 1311 1377
+type(
+  (C.G.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref h "steensgard.ml" 41 1116 1130 "steensgard.ml" 41 1116 1131
+)
+"steensgard.ml" 45 1311 1379 "steensgard.ml" 45 1311 1388
+type(
+  C.G.edge -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.src
+)
+"steensgard.ml" 45 1311 1389 "steensgard.ml" 45 1311 1390
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "steensgard.ml" 44 1254 1304 "steensgard.ml" 44 1254 1305
+)
+"steensgard.ml" 45 1311 1378 "steensgard.ml" 45 1311 1391
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"steensgard.ml" 45 1311 1364 "steensgard.ml" 45 1311 1391
+call(
+  stack
+)
+type(
+  bool
+)
+"steensgard.ml" 45 1311 1392 "steensgard.ml" 45 1311 1393
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"steensgard.ml" 45 1311 1394 "steensgard.ml" 45 1311 1399
+type(
+  bool
+)
+"steensgard.ml" 45 1311 1364 "steensgard.ml" 45 1311 1399
+type(
+  bool
+)
+"steensgard.ml" 45 1311 1326 "steensgard.ml" 45 1311 1399
+type(
+  bool
+)
+"steensgard.ml" 46 1400 1418 "steensgard.ml" 46 1400 1425
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"steensgard.ml" 46 1400 1426 "steensgard.ml" 46 1400 1436
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"steensgard.ml" 46 1400 1438 "steensgard.ml" 46 1400 1443
+type(
+  C.G.E.vertex -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"steensgard.ml" 46 1400 1445 "steensgard.ml" 46 1400 1454
+type(
+  C.G.edge -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.dst
+)
+"steensgard.ml" 46 1400 1455 "steensgard.ml" 46 1400 1456
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "steensgard.ml" 44 1254 1304 "steensgard.ml" 44 1254 1305
+)
+"steensgard.ml" 46 1400 1444 "steensgard.ml" 46 1400 1457
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"steensgard.ml" 46 1400 1437 "steensgard.ml" 46 1400 1458
+call(
+  stack
+)
+type(
+  string
+)
+"steensgard.ml" 46 1400 1418 "steensgard.ml" 46 1400 1458
+call(
+  stack
+)
+type(
+  unit
+)
+"steensgard.ml" 46 1400 1460 "steensgard.ml" 46 1400 1466
+type(
+  VS.elt -> VS.t -> VS.t
+)
+ident(
+  ext_ref VS.add
+)
+"steensgard.ml" 46 1400 1468 "steensgard.ml" 46 1400 1477
+type(
+  C.G.edge -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.dst
+)
+"steensgard.ml" 46 1400 1478 "steensgard.ml" 46 1400 1479
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "steensgard.ml" 44 1254 1304 "steensgard.ml" 44 1254 1305
+)
+"steensgard.ml" 46 1400 1467 "steensgard.ml" 46 1400 1480
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"steensgard.ml" 46 1400 1481 "steensgard.ml" 46 1400 1482
+type(
+  VS.t
+)
+ident(
+  int_ref s "steensgard.ml" 44 1254 1306 "steensgard.ml" 44 1254 1307
+)
+"steensgard.ml" 46 1400 1460 "steensgard.ml" 46 1400 1482
+call(
+  tail
+)
+type(
+  VS.t
+)
+"steensgard.ml" 46 1400 1417 "steensgard.ml" 46 1400 1483
+type(
+  VS.t
+)
+"steensgard.ml" 47 1484 1501 "steensgard.ml" 47 1484 1502
+type(
+  VS.t
+)
+ident(
+  int_ref s "steensgard.ml" 44 1254 1306 "steensgard.ml" 44 1254 1307
+)
+"steensgard.ml" 45 1311 1323 "steensgard.ml" 47 1484 1502
+type(
+  VS.t
+)
+"steensgard.ml" 44 1254 1299 "steensgard.ml" 48 1503 1514
+type(
+  C.G.edge -> VS.t -> VS.t
+)
+"steensgard.ml" 48 1503 1515 "steensgard.ml" 48 1503 1518
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "steensgard.ml" 33 795 821 "steensgard.ml" 33 795 824
+)
+"steensgard.ml" 48 1503 1519 "steensgard.ml" 48 1503 1527
+type(
+  VS.t
+)
+ident(
+  ext_ref VS.empty
+)
+"steensgard.ml" 44 1254 1282 "steensgard.ml" 48 1503 1527
+call(
+  stack
+)
+type(
+  VS.t
+)
+"steensgard.ml" 50 1532 1546 "steensgard.ml" 50 1532 1559
+type(
+  C.G.edge list
+)
+"steensgard.ml" 50 1532 1562 "steensgard.ml" 50 1532 1578
+type(
+  (C.G.edge -> C.G.edge list -> C.G.edge list) ->
+  C.G.t -> C.G.edge list -> C.G.edge list
+)
+ident(
+  ext_ref C.G.fold_edges_e
+)
+"steensgard.ml" 50 1532 1584 "steensgard.ml" 50 1532 1585
+type(
+  C.G.edge
+)
+ident(
+  def e "steensgard.ml" 50 1532 1586 "steensgard.ml" 53 1706 1724
+)
+"steensgard.ml" 50 1532 1586 "steensgard.ml" 50 1532 1587
+type(
+  C.G.edge list
+)
+ident(
+  def l "steensgard.ml" 51 1591 1603 "steensgard.ml" 53 1706 1724
+)
+"steensgard.ml" 51 1591 1606 "steensgard.ml" 51 1591 1617
+type(
+  (C.G.vertex, unit) Hashtbl.t -> C.G.vertex -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"steensgard.ml" 51 1591 1618 "steensgard.ml" 51 1591 1619
+type(
+  (C.G.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref h "steensgard.ml" 41 1116 1130 "steensgard.ml" 41 1116 1131
+)
+"steensgard.ml" 51 1591 1621 "steensgard.ml" 51 1591 1630
+type(
+  C.G.edge -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.src
+)
+"steensgard.ml" 51 1591 1631 "steensgard.ml" 51 1591 1632
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "steensgard.ml" 50 1532 1584 "steensgard.ml" 50 1532 1585
+)
+"steensgard.ml" 51 1591 1620 "steensgard.ml" 51 1591 1633
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"steensgard.ml" 51 1591 1606 "steensgard.ml" 51 1591 1633
+call(
+  stack
+)
+type(
+  bool
+)
+"steensgard.ml" 51 1591 1634 "steensgard.ml" 51 1591 1635
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"steensgard.ml" 51 1591 1636 "steensgard.ml" 51 1591 1640
+type(
+  bool
+)
+"steensgard.ml" 51 1591 1606 "steensgard.ml" 51 1591 1640
+type(
+  bool
+)
+"steensgard.ml" 51 1591 1641 "steensgard.ml" 51 1591 1643
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"steensgard.ml" 51 1591 1644 "steensgard.ml" 51 1591 1650
+type(
+  VS.elt -> VS.t -> bool
+)
+ident(
+  ext_ref VS.mem
+)
+"steensgard.ml" 51 1591 1652 "steensgard.ml" 51 1591 1661
+type(
+  C.G.edge -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.dst
+)
+"steensgard.ml" 51 1591 1662 "steensgard.ml" 51 1591 1663
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "steensgard.ml" 50 1532 1584 "steensgard.ml" 50 1532 1585
+)
+"steensgard.ml" 51 1591 1651 "steensgard.ml" 51 1591 1664
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"steensgard.ml" 51 1591 1665 "steensgard.ml" 51 1591 1676
+type(
+  VS.t
+)
+ident(
+  int_ref entry_nodes "steensgard.ml" 44 1254 1268 "steensgard.ml" 44 1254 1279
+)
+"steensgard.ml" 51 1591 1644 "steensgard.ml" 51 1591 1676
+call(
+  stack
+)
+type(
+  bool
+)
+"steensgard.ml" 51 1591 1677 "steensgard.ml" 51 1591 1678
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"steensgard.ml" 51 1591 1679 "steensgard.ml" 51 1591 1683
+type(
+  bool
+)
+"steensgard.ml" 51 1591 1644 "steensgard.ml" 51 1591 1683
+type(
+  bool
+)
+"steensgard.ml" 51 1591 1606 "steensgard.ml" 51 1591 1683
+type(
+  bool
+)
+"steensgard.ml" 52 1684 1701 "steensgard.ml" 52 1684 1702
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "steensgard.ml" 50 1532 1584 "steensgard.ml" 50 1532 1585
+)
+"steensgard.ml" 52 1684 1704 "steensgard.ml" 52 1684 1705
+type(
+  C.G.edge list
+)
+ident(
+  int_ref l "steensgard.ml" 50 1532 1586 "steensgard.ml" 50 1532 1587
+)
+"steensgard.ml" 52 1684 1701 "steensgard.ml" 52 1684 1705
+type(
+  C.G.edge list
+)
+"steensgard.ml" 53 1706 1723 "steensgard.ml" 53 1706 1724
+type(
+  C.G.edge list
+)
+ident(
+  int_ref l "steensgard.ml" 50 1532 1586 "steensgard.ml" 50 1532 1587
+)
+"steensgard.ml" 51 1591 1603 "steensgard.ml" 53 1706 1724
+type(
+  C.G.edge list
+)
+"steensgard.ml" 50 1532 1579 "steensgard.ml" 54 1725 1736
+type(
+  C.G.edge -> C.G.edge list -> C.G.edge list
+)
+"steensgard.ml" 54 1725 1737 "steensgard.ml" 54 1725 1740
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "steensgard.ml" 33 795 821 "steensgard.ml" 33 795 824
+)
+"steensgard.ml" 54 1725 1741 "steensgard.ml" 54 1725 1743
+type(
+  C.G.edge list
+)
+"steensgard.ml" 50 1532 1562 "steensgard.ml" 54 1725 1743
+call(
+  stack
+)
+type(
+  C.G.edge list
+)
+"steensgard.ml" 56 1748 1758 "steensgard.ml" 56 1748 1765
+type(
+  (int -> int -> unit, unit, string, unit) format4 -> int -> int -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"steensgard.ml" 56 1748 1766 "steensgard.ml" 56 1748 1799
+type(
+  (int -> int -> unit, unit, string, unit) format4
+)
+"steensgard.ml" 56 1748 1801 "steensgard.ml" 56 1748 1812
+type(
+  VS.t -> int
+)
+ident(
+  ext_ref VS.cardinal
+)
+"steensgard.ml" 56 1748 1813 "steensgard.ml" 56 1748 1824
+type(
+  VS.t
+)
+ident(
+  int_ref entry_nodes "steensgard.ml" 44 1254 1268 "steensgard.ml" 44 1254 1279
+)
+"steensgard.ml" 56 1748 1800 "steensgard.ml" 56 1748 1825
+call(
+  stack
+)
+type(
+  int
+)
+"steensgard.ml" 56 1748 1827 "steensgard.ml" 56 1748 1838
+type(
+  C.G.edge list -> int
+)
+ident(
+  ext_ref List.length
+)
+"steensgard.ml" 56 1748 1839 "steensgard.ml" 56 1748 1852
+type(
+  C.G.edge list
+)
+ident(
+  int_ref closing_edges "steensgard.ml" 50 1532 1546 "steensgard.ml" 50 1532 1559
+)
+"steensgard.ml" 56 1748 1826 "steensgard.ml" 56 1748 1853
+call(
+  stack
+)
+type(
+  int
+)
+"steensgard.ml" 56 1748 1758 "steensgard.ml" 56 1748 1853
+call(
+  stack
+)
+type(
+  unit
+)
+"steensgard.ml" 59 1887 1905 "steensgard.ml" 59 1887 1918
+type(
+  C.G.edge list
+)
+ident(
+  int_ref closing_edges "steensgard.ml" 50 1532 1546 "steensgard.ml" 50 1532 1559
+)
+"steensgard.ml" 59 1887 1919 "steensgard.ml" 59 1887 1921
+type(
+  C.G.edge list -> C.G.edge list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"steensgard.ml" 59 1887 1922 "steensgard.ml" 59 1887 1924
+type(
+  C.G.edge list
+)
+"steensgard.ml" 59 1887 1904 "steensgard.ml" 59 1887 1925
+type(
+  bool
+)
+"steensgard.ml" 59 1887 1897 "steensgard.ml" 59 1887 1925
+type(
+  unit
+)
+"steensgard.ml" 62 1965 1979 "steensgard.ml" 62 1965 1982
+type(
+  C.G.t
+)
+"steensgard.ml" 62 1965 1985 "steensgard.ml" 62 1965 1999
+type(
+  (C.G.t -> C.G.edge -> C.G.t) -> C.G.t -> C.G.edge list -> C.G.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"steensgard.ml" 62 1965 2000 "steensgard.ml" 62 1965 2015
+type(
+  C.G.t -> C.G.edge -> C.G.t
+)
+ident(
+  ext_ref C.remove_edge_e
+)
+"steensgard.ml" 62 1965 2016 "steensgard.ml" 62 1965 2019
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "steensgard.ml" 33 795 821 "steensgard.ml" 33 795 824
+)
+"steensgard.ml" 62 1965 2020 "steensgard.ml" 62 1965 2033
+type(
+  C.G.edge list
+)
+ident(
+  int_ref closing_edges "steensgard.ml" 50 1532 1546 "steensgard.ml" 50 1532 1559
+)
+"steensgard.ml" 62 1965 1985 "steensgard.ml" 62 1965 2033
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"steensgard.ml" 65 2088 2102 "steensgard.ml" 65 2088 2106
+type(
+  C.G.vertex list list
+)
+"steensgard.ml" 65 2088 2109 "steensgard.ml" 65 2088 2120
+type(
+  (C.G.vertex list -> bool) -> C.G.vertex list list -> C.G.vertex list list
+)
+ident(
+  ext_ref List.filter
+)
+"steensgard.ml" 65 2088 2126 "steensgard.ml" 65 2088 2129
+type(
+  C.G.vertex list
+)
+ident(
+  def scc "steensgard.ml" 66 2133 2145 "steensgard.ml" 66 2133 2177
+)
+"steensgard.ml" 66 2133 2145 "steensgard.ml" 66 2133 2157
+type(
+  (C.G.vertex -> bool) -> C.G.vertex list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"steensgard.ml" 66 2133 2159 "steensgard.ml" 66 2133 2170
+type(
+  (C.G.vertex, unit) Hashtbl.t -> C.G.vertex -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"steensgard.ml" 66 2133 2171 "steensgard.ml" 66 2133 2172
+type(
+  (C.G.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref h "steensgard.ml" 41 1116 1130 "steensgard.ml" 41 1116 1131
+)
+"steensgard.ml" 66 2133 2158 "steensgard.ml" 66 2133 2173
+call(
+  stack
+)
+type(
+  C.G.vertex -> bool
+)
+"steensgard.ml" 66 2133 2174 "steensgard.ml" 66 2133 2177
+type(
+  C.G.vertex list
+)
+ident(
+  int_ref scc "steensgard.ml" 65 2088 2126 "steensgard.ml" 65 2088 2129
+)
+"steensgard.ml" 66 2133 2145 "steensgard.ml" 66 2133 2177
+call(
+  tail
+)
+type(
+  bool
+)
+"steensgard.ml" 65 2088 2121 "steensgard.ml" 67 2178 2189
+type(
+  C.G.vertex list -> bool
+)
+"steensgard.ml" 67 2178 2191 "steensgard.ml" 67 2178 2204
+type(
+  C.G.t -> C.G.vertex list list
+)
+ident(
+  ext_ref Comp.scc_list
+)
+"steensgard.ml" 67 2178 2205 "steensgard.ml" 67 2178 2208
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "steensgard.ml" 62 1965 1979 "steensgard.ml" 62 1965 1982
+)
+"steensgard.ml" 67 2178 2190 "steensgard.ml" 67 2178 2209
+call(
+  stack
+)
+type(
+  C.G.vertex list list
+)
+"steensgard.ml" 65 2088 2109 "steensgard.ml" 67 2178 2209
+call(
+  stack
+)
+type(
+  C.G.vertex list list
+)
+"steensgard.ml" 69 2214 2229 "steensgard.ml" 69 2214 2237
+type(
+  (C.G.vertex list -> C.G.vertex loopinfo) ->
+  C.G.vertex list list -> C.G.vertex loopinfo list
+)
+ident(
+  ext_ref List.map
+)
+"steensgard.ml" 69 2214 2239 "steensgard.ml" 69 2214 2250
+type(
+  C.G.t -> C.G.vertex list -> C.G.vertex loopinfo
+)
+ident(
+  int_ref process_scc "steensgard.ml" 33 795 809 "steensgard.ml" 33 795 820
+)
+"steensgard.ml" 69 2214 2251 "steensgard.ml" 69 2214 2254
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "steensgard.ml" 62 1965 1979 "steensgard.ml" 62 1965 1982
+)
+"steensgard.ml" 69 2214 2238 "steensgard.ml" 69 2214 2255
+call(
+  stack
+)
+type(
+  C.G.vertex list -> C.G.vertex loopinfo
+)
+"steensgard.ml" 69 2214 2256 "steensgard.ml" 69 2214 2260
+type(
+  C.G.vertex list list
+)
+ident(
+  int_ref sccs "steensgard.ml" 65 2088 2102 "steensgard.ml" 65 2088 2106
+)
+"steensgard.ml" 69 2214 2228 "steensgard.ml" 69 2214 2261
+call(
+  stack
+)
+type(
+  C.G.vertex loopinfo list
+)
+"steensgard.ml" 69 2214 2224 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 65 2088 2098 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 62 1965 1975 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 59 1887 1897 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 56 1748 1758 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 50 1532 1542 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 44 1254 1264 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 42 1170 1180 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 41 1116 1126 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 35 862 870 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 34 831 839 "steensgard.ml" 69 2214 2261
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 72 2272 2284 "steensgard.ml" 72 2272 2288
+type(
+  C.G.vertex list list
+)
+ident(
+  int_ref sccs "steensgard.ml" 32 757 767 "steensgard.ml" 32 757 771
+)
+"steensgard.ml" 73 2294 2302 "steensgard.ml" 73 2294 2304
+type(
+  C.G.vertex list list
+)
+"steensgard.ml" 73 2294 2308 "steensgard.ml" 73 2294 2316
+type(
+  string -> C.G.vertex loopinfo
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"steensgard.ml" 73 2294 2317 "steensgard.ml" 73 2294 2355
+type(
+  string
+)
+"steensgard.ml" 73 2294 2308 "steensgard.ml" 73 2294 2355
+call(
+  tail
+)
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 74 2356 2365 "steensgard.ml" 74 2356 2366
+type(
+  C.G.vertex list
+)
+ident(
+  def x "steensgard.ml" 74 2356 2371 "steensgard.ml" 74 2356 2388
+)
+"steensgard.ml" 74 2356 2364 "steensgard.ml" 74 2356 2367
+type(
+  C.G.vertex list list
+)
+"steensgard.ml" 74 2356 2371 "steensgard.ml" 74 2356 2382
+type(
+  C.G.t -> C.G.vertex list -> C.G.vertex loopinfo
+)
+ident(
+  int_ref process_scc "steensgard.ml" 33 795 809 "steensgard.ml" 33 795 820
+)
+"steensgard.ml" 74 2356 2383 "steensgard.ml" 74 2356 2386
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "steensgard.ml" 31 741 751 "steensgard.ml" 31 741 754
+)
+"steensgard.ml" 74 2356 2387 "steensgard.ml" 74 2356 2388
+type(
+  C.G.vertex list
+)
+ident(
+  int_ref x "steensgard.ml" 74 2356 2365 "steensgard.ml" 74 2356 2366
+)
+"steensgard.ml" 74 2356 2371 "steensgard.ml" 74 2356 2388
+call(
+  tail
+)
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 75 2389 2397 "steensgard.ml" 75 2389 2398
+type(
+  C.G.vertex list list
+)
+"steensgard.ml" 75 2389 2408 "steensgard.ml" 75 2389 2416
+type(
+  (C.G.vertex list -> C.G.vertex loopinfo) ->
+  C.G.vertex list list -> C.G.vertex loopinfo list
+)
+ident(
+  ext_ref List.map
+)
+"steensgard.ml" 75 2389 2418 "steensgard.ml" 75 2389 2429
+type(
+  C.G.t -> C.G.vertex list -> C.G.vertex loopinfo
+)
+ident(
+  int_ref process_scc "steensgard.ml" 33 795 809 "steensgard.ml" 33 795 820
+)
+"steensgard.ml" 75 2389 2430 "steensgard.ml" 75 2389 2433
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "steensgard.ml" 31 741 751 "steensgard.ml" 31 741 754
+)
+"steensgard.ml" 75 2389 2417 "steensgard.ml" 75 2389 2434
+call(
+  stack
+)
+type(
+  C.G.vertex list -> C.G.vertex loopinfo
+)
+"steensgard.ml" 75 2389 2435 "steensgard.ml" 75 2389 2439
+type(
+  C.G.vertex list list
+)
+ident(
+  int_ref sccs "steensgard.ml" 32 757 767 "steensgard.ml" 32 757 771
+)
+"steensgard.ml" 75 2389 2407 "steensgard.ml" 75 2389 2440
+call(
+  stack
+)
+type(
+  C.G.vertex loopinfo list
+)
+"steensgard.ml" 75 2389 2402 "steensgard.ml" 75 2389 2440
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 72 2272 2278 "steensgard.ml" 75 2389 2440
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 33 795 801 "steensgard.ml" 75 2389 2440
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 32 757 763 "steensgard.ml" 75 2389 2440
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 77 2448 2452 "steensgard.ml" 77 2448 2453
+type(
+  C.G.t -> C.G.vertex loopinfo
+)
+ident(
+  int_ref f "steensgard.ml" 31 741 749 "steensgard.ml" 31 741 750
+)
+"steensgard.ml" 77 2448 2454 "steensgard.ml" 77 2448 2457
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "steensgard.ml" 28 627 644 "steensgard.ml" 28 627 647
+)
+"steensgard.ml" 77 2448 2452 "steensgard.ml" 77 2448 2457
+call(
+  tail
+)
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 31 741 745 "steensgard.ml" 77 2448 2457
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 30 702 706 "steensgard.ml" 77 2448 2457
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 29 650 654 "steensgard.ml" 77 2448 2457
+type(
+  C.G.vertex loopinfo
+)
+"steensgard.ml" 81 2464 2468 "steensgard.ml" 81 2464 2482
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.vertex loopinfo
+)
+ident(
+  def steensgard_ast "steensgard.ml" 85 2535 2535 --
+)
+"steensgard.ml" 82 2485 2502 "steensgard.ml" 82 2485 2515
+call(
+  stack
+)
+"steensgard.ml" 83 2519 2521 "steensgard.ml" 83 2519 2533
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.vertex loopinfo
+)
+ident(
+  ext_ref S.steensgard
+)
+"steensgard.ml" 82 2485 2487 "steensgard.ml" 83 2519 2533
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.vertex loopinfo
+)
+"steensgard.ml" 85 2535 2539 "steensgard.ml" 85 2535 2553
+type(
+  Cfg.SSA.G.t -> Cfg.SSA.G.vertex loopinfo
+)
+ident(
+  def steensgard_ssa "steensgard.ml" 87 2590 2604 --
+)
+"steensgard.ml" 86 2556 2573 "steensgard.ml" 86 2556 2586
+call(
+  stack
+)
+"steensgard.ml" 87 2590 2592 "steensgard.ml" 87 2590 2604
+type(
+  Cfg.SSA.G.t -> Cfg.SSA.G.vertex loopinfo
+)
+ident(
+  ext_ref S.steensgard
+)
+"steensgard.ml" 86 2556 2558 "steensgard.ml" 87 2590 2604
+type(
+  Cfg.SSA.G.t -> Cfg.SSA.G.vertex loopinfo
+)

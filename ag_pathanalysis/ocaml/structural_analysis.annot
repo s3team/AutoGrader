@@ -1,0 +1,6960 @@
+"structural_analysis.ml" 9 217 250 "structural_analysis.ml" 9 217 254
+type(
+  string
+)
+ident(
+  def name "structural_analysis.ml" 9 217 290 "structural_analysis.ml" 9 217 294
+)
+"structural_analysis.ml" 9 217 257 "structural_analysis.ml" 9 217 269
+type(
+  string
+)
+"structural_analysis.ml" 9 217 274 "structural_analysis.ml" 9 217 281
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "structural_analysis.ml" 9 217 290 "structural_analysis.ml" 9 217 294
+)
+"structural_analysis.ml" 9 217 282 "structural_analysis.ml" 9 217 290
+type(
+  [> `NoDebug ] as 'a
+)
+"structural_analysis.ml" 9 217 228 "structural_analysis.ml" 9 217 295
+call(
+  stack
+)
+"structural_analysis.ml" 24 548 554 "structural_analysis.ml" 24 548 561
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "structural_analysis.ml" 25 572 574 "structural_analysis.ml" 27 616 619
+)
+"structural_analysis.ml" 24 548 564 "structural_analysis.ml" 24 548 571
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"structural_analysis.ml" 25 572 578 "structural_analysis.ml" 25 572 582
+type(
+  'b -> int
+)
+ident(
+  def hash "structural_analysis.ml" 26 598 600 "structural_analysis.ml" 27 616 619
+)
+"structural_analysis.ml" 25 572 585 "structural_analysis.ml" 25 572 597
+type(
+  'b -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"structural_analysis.ml" 26 598 604 "structural_analysis.ml" 26 598 609
+type(
+  'c -> 'c -> bool
+)
+ident(
+  def equal "structural_analysis.ml" 26 598 615 "structural_analysis.ml" 27 616 619
+)
+"structural_analysis.ml" 26 598 612 "structural_analysis.ml" 26 598 615
+type(
+  'c -> 'c -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 30 622 626 "structural_analysis.ml" 30 622 633
+type(
+  region_type -> string
+)
+ident(
+  def rtype2s "structural_analysis.ml" 41 911 911 --
+)
+"structural_analysis.ml" 31 645 649 "structural_analysis.ml" 31 645 654
+type(
+  region_type
+)
+"structural_analysis.ml" 31 645 664 "structural_analysis.ml" 31 645 671
+type(
+  string
+)
+"structural_analysis.ml" 32 672 676 "structural_analysis.ml" 32 672 682
+type(
+  region_type
+)
+"structural_analysis.ml" 32 672 691 "structural_analysis.ml" 32 672 699
+type(
+  string
+)
+"structural_analysis.ml" 33 700 704 "structural_analysis.ml" 33 700 714
+type(
+  region_type
+)
+"structural_analysis.ml" 33 700 719 "structural_analysis.ml" 33 700 731
+type(
+  string
+)
+"structural_analysis.ml" 34 732 736 "structural_analysis.ml" 34 732 740
+type(
+  region_type
+)
+"structural_analysis.ml" 34 732 751 "structural_analysis.ml" 34 732 757
+type(
+  string
+)
+"structural_analysis.ml" 35 758 762 "structural_analysis.ml" 35 758 768
+type(
+  region_type
+)
+"structural_analysis.ml" 35 758 777 "structural_analysis.ml" 35 758 785
+type(
+  string
+)
+"structural_analysis.ml" 36 786 790 "structural_analysis.ml" 36 786 798
+type(
+  region_type
+)
+"structural_analysis.ml" 36 786 805 "structural_analysis.ml" 36 786 815
+type(
+  string
+)
+"structural_analysis.ml" 37 816 820 "structural_analysis.ml" 37 816 829
+type(
+  region_type
+)
+"structural_analysis.ml" 37 816 835 "structural_analysis.ml" 37 816 846
+type(
+  string
+)
+"structural_analysis.ml" 38 847 851 "structural_analysis.ml" 38 847 862
+type(
+  region_type
+)
+"structural_analysis.ml" 38 847 866 "structural_analysis.ml" 38 847 879
+type(
+  string
+)
+"structural_analysis.ml" 39 880 884 "structural_analysis.ml" 39 880 892
+type(
+  region_type
+)
+"structural_analysis.ml" 39 880 899 "structural_analysis.ml" 39 880 909
+type(
+  string
+)
+"structural_analysis.ml" 30 622 636 "structural_analysis.ml" 39 880 909
+type(
+  region_type -> string
+)
+"structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+type(
+  node -> string
+)
+ident(
+  def node2s "structural_analysis.ml" 41 911 911 --
+)
+"structural_analysis.ml" 42 937 948 "structural_analysis.ml" 42 937 949
+type(
+  Cfg.bbid
+)
+ident(
+  def b "structural_analysis.ml" 42 937 953 "structural_analysis.ml" 42 937 973
+)
+"structural_analysis.ml" 42 937 941 "structural_analysis.ml" 42 937 949
+type(
+  node
+)
+"structural_analysis.ml" 42 937 953 "structural_analysis.ml" 42 937 971
+type(
+  Cfg.bbid -> string
+)
+ident(
+  ext_ref Cfg.bbid_to_string
+)
+"structural_analysis.ml" 42 937 972 "structural_analysis.ml" 42 937 973
+type(
+  Cfg.bbid
+)
+ident(
+  int_ref b "structural_analysis.ml" 42 937 948 "structural_analysis.ml" 42 937 949
+)
+"structural_analysis.ml" 42 937 953 "structural_analysis.ml" 42 937 973
+call(
+  tail
+)
+type(
+  string
+)
+"structural_analysis.ml" 43 974 985 "structural_analysis.ml" 43 974 987
+type(
+  region_type
+)
+ident(
+  def rt "structural_analysis.ml" 43 974 995 "structural_analysis.ml" 43 974 1029
+)
+"structural_analysis.ml" 43 974 989 "structural_analysis.ml" 43 974 990
+type(
+  node list
+)
+ident(
+  def l "structural_analysis.ml" 43 974 995 "structural_analysis.ml" 43 974 1029
+)
+"structural_analysis.ml" 43 974 978 "structural_analysis.ml" 43 974 991
+type(
+  node
+)
+"structural_analysis.ml" 43 974 995 "structural_analysis.ml" 43 974 1002
+type(
+  region_type -> string
+)
+ident(
+  int_ref rtype2s "structural_analysis.ml" 30 622 626 "structural_analysis.ml" 30 622 633
+)
+"structural_analysis.ml" 43 974 1003 "structural_analysis.ml" 43 974 1005
+type(
+  region_type
+)
+ident(
+  int_ref rt "structural_analysis.ml" 43 974 985 "structural_analysis.ml" 43 974 987
+)
+"structural_analysis.ml" 43 974 995 "structural_analysis.ml" 43 974 1005
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 43 974 1006 "structural_analysis.ml" 43 974 1007
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"structural_analysis.ml" 43 974 1008 "structural_analysis.ml" 43 974 1011
+type(
+  string
+)
+"structural_analysis.ml" 43 974 1012 "structural_analysis.ml" 43 974 1013
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"structural_analysis.ml" 43 974 1014 "structural_analysis.ml" 43 974 1021
+type(
+  node list -> string
+)
+ident(
+  int_ref nodes2s "structural_analysis.ml" 44 1030 1034 "structural_analysis.ml" 44 1030 1041
+)
+"structural_analysis.ml" 43 974 1022 "structural_analysis.ml" 43 974 1023
+type(
+  node list
+)
+ident(
+  int_ref l "structural_analysis.ml" 43 974 989 "structural_analysis.ml" 43 974 990
+)
+"structural_analysis.ml" 43 974 1014 "structural_analysis.ml" 43 974 1023
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 43 974 1024 "structural_analysis.ml" 43 974 1025
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"structural_analysis.ml" 43 974 1026 "structural_analysis.ml" 43 974 1029
+type(
+  string
+)
+"structural_analysis.ml" 43 974 1014 "structural_analysis.ml" 43 974 1029
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 43 974 1008 "structural_analysis.ml" 43 974 1029
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 43 974 995 "structural_analysis.ml" 43 974 1029
+call(
+  tail
+)
+type(
+  string
+)
+"structural_analysis.ml" 41 911 928 "structural_analysis.ml" 43 974 1029
+type(
+  node -> string
+)
+"structural_analysis.ml" 44 1030 1034 "structural_analysis.ml" 44 1030 1041
+type(
+  node list -> string
+)
+ident(
+  def nodes2s "structural_analysis.ml" 41 911 911 --
+)
+"structural_analysis.ml" 44 1030 1042 "structural_analysis.ml" 44 1030 1047
+type(
+  node list
+)
+ident(
+  def nodes "structural_analysis.ml" 44 1030 1050 "structural_analysis.ml" 44 1030 1092
+)
+"structural_analysis.ml" 44 1030 1050 "structural_analysis.ml" 44 1030 1063
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"structural_analysis.ml" 44 1030 1064 "structural_analysis.ml" 44 1030 1068
+type(
+  string
+)
+"structural_analysis.ml" 44 1030 1070 "structural_analysis.ml" 44 1030 1078
+type(
+  (node -> string) -> node list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"structural_analysis.ml" 44 1030 1079 "structural_analysis.ml" 44 1030 1085
+type(
+  node -> string
+)
+ident(
+  int_ref node2s "structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+)
+"structural_analysis.ml" 44 1030 1086 "structural_analysis.ml" 44 1030 1091
+type(
+  node list
+)
+ident(
+  int_ref nodes "structural_analysis.ml" 44 1030 1042 "structural_analysis.ml" 44 1030 1047
+)
+"structural_analysis.ml" 44 1030 1069 "structural_analysis.ml" 44 1030 1092
+call(
+  stack
+)
+type(
+  string list
+)
+"structural_analysis.ml" 44 1030 1050 "structural_analysis.ml" 44 1030 1092
+call(
+  tail
+)
+type(
+  string
+)
+"structural_analysis.ml" 46 1094 1105 "structural_analysis.ml" 46 1094 1157
+call(
+  stack
+)
+"structural_analysis.ml" 47 1158 1170 "structural_analysis.ml" 47 1158 1189
+call(
+  stack
+)
+"structural_analysis.ml" 48 1190 1203 "structural_analysis.ml" 48 1190 1224
+call(
+  stack
+)
+"structural_analysis.ml" 50 1226 1230 "structural_analysis.ml" 50 1226 1236
+type(
+  G.t -> unit
+)
+ident(
+  def printg "structural_analysis.ml" 57 1391 1391 --
+)
+"structural_analysis.ml" 50 1226 1237 "structural_analysis.ml" 50 1226 1238
+type(
+  G.t
+)
+ident(
+  def g "structural_analysis.ml" 51 1241 1243 "structural_analysis.ml" 54 1385 1388
+)
+"structural_analysis.ml" 51 1241 1246 "structural_analysis.ml" 51 1241 1251
+type(
+  unit -> bool
+)
+ident(
+  ext_ref D.debug
+)
+"structural_analysis.ml" 51 1241 1251 "structural_analysis.ml" 51 1241 1253
+type(
+  unit
+)
+"structural_analysis.ml" 51 1241 1246 "structural_analysis.ml" 51 1241 1253
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 52 1261 1265 "structural_analysis.ml" 52 1261 1278
+type(
+  (G.vertex -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref G.iter_vertex
+)
+"structural_analysis.ml" 52 1261 1284 "structural_analysis.ml" 52 1261 1285
+type(
+  G.vertex
+)
+ident(
+  def v "structural_analysis.ml" 52 1261 1289 "structural_analysis.ml" 52 1261 1306
+)
+"structural_analysis.ml" 52 1261 1289 "structural_analysis.ml" 52 1261 1295
+type(
+  string -> unit
+)
+ident(
+  ext_ref D.pdebug
+)
+"structural_analysis.ml" 52 1261 1297 "structural_analysis.ml" 52 1261 1303
+type(
+  G.vertex -> string
+)
+ident(
+  int_ref node2s "structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+)
+"structural_analysis.ml" 52 1261 1304 "structural_analysis.ml" 52 1261 1305
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 52 1261 1284 "structural_analysis.ml" 52 1261 1285
+)
+"structural_analysis.ml" 52 1261 1296 "structural_analysis.ml" 52 1261 1306
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 52 1261 1289 "structural_analysis.ml" 52 1261 1306
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 52 1261 1279 "structural_analysis.ml" 52 1261 1307
+type(
+  G.vertex -> unit
+)
+"structural_analysis.ml" 52 1261 1308 "structural_analysis.ml" 52 1261 1309
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 50 1226 1237 "structural_analysis.ml" 50 1226 1238
+)
+"structural_analysis.ml" 52 1261 1265 "structural_analysis.ml" 52 1261 1309
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 53 1311 1315 "structural_analysis.ml" 53 1311 1327
+type(
+  (G.vertex -> G.vertex -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref G.iter_edges
+)
+"structural_analysis.ml" 53 1311 1333 "structural_analysis.ml" 53 1311 1334
+type(
+  G.vertex
+)
+ident(
+  def a "structural_analysis.ml" 53 1311 1335 "structural_analysis.ml" 53 1311 1380
+)
+"structural_analysis.ml" 53 1311 1335 "structural_analysis.ml" 53 1311 1336
+type(
+  G.vertex
+)
+ident(
+  def b "structural_analysis.ml" 53 1311 1340 "structural_analysis.ml" 53 1311 1380
+)
+"structural_analysis.ml" 53 1311 1340 "structural_analysis.ml" 53 1311 1347
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"structural_analysis.ml" 53 1311 1348 "structural_analysis.ml" 53 1311 1358
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 53 1311 1360 "structural_analysis.ml" 53 1311 1366
+type(
+  G.vertex -> string
+)
+ident(
+  int_ref node2s "structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+)
+"structural_analysis.ml" 53 1311 1367 "structural_analysis.ml" 53 1311 1368
+type(
+  G.vertex
+)
+ident(
+  int_ref a "structural_analysis.ml" 53 1311 1333 "structural_analysis.ml" 53 1311 1334
+)
+"structural_analysis.ml" 53 1311 1359 "structural_analysis.ml" 53 1311 1369
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 53 1311 1371 "structural_analysis.ml" 53 1311 1377
+type(
+  G.vertex -> string
+)
+ident(
+  int_ref node2s "structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+)
+"structural_analysis.ml" 53 1311 1378 "structural_analysis.ml" 53 1311 1379
+type(
+  G.vertex
+)
+ident(
+  int_ref b "structural_analysis.ml" 53 1311 1335 "structural_analysis.ml" 53 1311 1336
+)
+"structural_analysis.ml" 53 1311 1370 "structural_analysis.ml" 53 1311 1380
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 53 1311 1340 "structural_analysis.ml" 53 1311 1380
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 53 1311 1328 "structural_analysis.ml" 53 1311 1381
+type(
+  G.vertex -> G.vertex -> unit
+)
+"structural_analysis.ml" 53 1311 1382 "structural_analysis.ml" 53 1311 1383
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 50 1226 1237 "structural_analysis.ml" 50 1226 1238
+)
+"structural_analysis.ml" 53 1311 1315 "structural_analysis.ml" 53 1311 1384
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 51 1241 1259 "structural_analysis.ml" 54 1385 1388
+type(
+  unit
+)
+"structural_analysis.ml" 51 1241 1243 "structural_analysis.ml" 54 1385 1388
+type(
+  unit
+)
+"structural_analysis.ml" 57 1391 1395 "structural_analysis.ml" 57 1391 1407
+type(
+  C.G.t -> G.t
+)
+ident(
+  def graph_of_cfg "structural_analysis.ml" 65 1616 1616 --
+)
+"structural_analysis.ml" 57 1391 1408 "structural_analysis.ml" 57 1391 1409
+type(
+  C.G.t
+)
+ident(
+  def c "structural_analysis.ml" 58 1412 1414 "structural_analysis.ml" 62 1610 1613
+)
+"structural_analysis.ml" 58 1412 1418 "structural_analysis.ml" 58 1412 1419
+type(
+  G.t
+)
+"structural_analysis.ml" 58 1412 1422 "structural_analysis.ml" 58 1412 1430
+type(
+  ?size:int -> unit -> G.t
+)
+ident(
+  ext_ref G.create
+)
+"structural_analysis.ml" 58 1412 1438 "structural_analysis.ml" 58 1412 1451
+type(
+  C.G.t -> int
+)
+ident(
+  ext_ref C.G.nb_vertex
+)
+"structural_analysis.ml" 58 1412 1452 "structural_analysis.ml" 58 1412 1453
+type(
+  C.G.t
+)
+ident(
+  int_ref c "structural_analysis.ml" 57 1391 1408 "structural_analysis.ml" 57 1391 1409
+)
+"structural_analysis.ml" 58 1412 1437 "structural_analysis.ml" 58 1412 1454
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 58 1412 1455 "structural_analysis.ml" 58 1412 1457
+type(
+  unit
+)
+"structural_analysis.ml" 58 1412 1422 "structural_analysis.ml" 58 1412 1457
+call(
+  stack
+)
+type(
+  G.t
+)
+"structural_analysis.ml" 59 1461 1467 "structural_analysis.ml" 59 1461 1468
+type(
+  C.G.V.t -> node
+)
+"structural_analysis.ml" 59 1461 1469 "structural_analysis.ml" 59 1461 1470
+type(
+  C.G.V.t
+)
+ident(
+  def v "structural_analysis.ml" 59 1461 1473 "structural_analysis.ml" 59 1461 1495
+)
+"structural_analysis.ml" 59 1461 1481 "structural_analysis.ml" 59 1461 1492
+type(
+  C.G.V.t -> C.G.V.label
+)
+ident(
+  ext_ref C.G.V.label
+)
+"structural_analysis.ml" 59 1461 1493 "structural_analysis.ml" 59 1461 1494
+type(
+  C.G.V.t
+)
+ident(
+  int_ref v "structural_analysis.ml" 59 1461 1469 "structural_analysis.ml" 59 1461 1470
+)
+"structural_analysis.ml" 59 1461 1480 "structural_analysis.ml" 59 1461 1495
+call(
+  stack
+)
+type(
+  C.G.V.label
+)
+"structural_analysis.ml" 59 1461 1473 "structural_analysis.ml" 59 1461 1495
+type(
+  node
+)
+"structural_analysis.ml" 60 1499 1501 "structural_analysis.ml" 60 1499 1516
+type(
+  (C.G.vertex -> unit) -> C.G.t -> unit
+)
+ident(
+  ext_ref C.G.iter_vertex
+)
+"structural_analysis.ml" 60 1499 1522 "structural_analysis.ml" 60 1499 1523
+type(
+  C.G.vertex
+)
+ident(
+  def v "structural_analysis.ml" 60 1499 1527 "structural_analysis.ml" 60 1499 1547
+)
+"structural_analysis.ml" 60 1499 1527 "structural_analysis.ml" 60 1499 1539
+type(
+  G.t -> G.vertex -> unit
+)
+ident(
+  ext_ref G.add_vertex
+)
+"structural_analysis.ml" 60 1499 1540 "structural_analysis.ml" 60 1499 1541
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 58 1412 1418 "structural_analysis.ml" 58 1412 1419
+)
+"structural_analysis.ml" 60 1499 1543 "structural_analysis.ml" 60 1499 1544
+type(
+  C.G.V.t -> G.vertex
+)
+ident(
+  int_ref w "structural_analysis.ml" 59 1461 1467 "structural_analysis.ml" 59 1461 1468
+)
+"structural_analysis.ml" 60 1499 1545 "structural_analysis.ml" 60 1499 1546
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 60 1499 1522 "structural_analysis.ml" 60 1499 1523
+)
+"structural_analysis.ml" 60 1499 1542 "structural_analysis.ml" 60 1499 1547
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"structural_analysis.ml" 60 1499 1527 "structural_analysis.ml" 60 1499 1547
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 60 1499 1517 "structural_analysis.ml" 60 1499 1548
+type(
+  C.G.vertex -> unit
+)
+"structural_analysis.ml" 60 1499 1549 "structural_analysis.ml" 60 1499 1550
+type(
+  C.G.t
+)
+ident(
+  int_ref c "structural_analysis.ml" 57 1391 1408 "structural_analysis.ml" 57 1391 1409
+)
+"structural_analysis.ml" 60 1499 1501 "structural_analysis.ml" 60 1499 1550
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 61 1552 1554 "structural_analysis.ml" 61 1552 1568
+type(
+  (C.G.vertex -> C.G.vertex -> unit) -> C.G.t -> unit
+)
+ident(
+  ext_ref C.G.iter_edges
+)
+"structural_analysis.ml" 61 1552 1574 "structural_analysis.ml" 61 1552 1575
+type(
+  C.G.vertex
+)
+ident(
+  def s "structural_analysis.ml" 61 1552 1576 "structural_analysis.ml" 61 1552 1605
+)
+"structural_analysis.ml" 61 1552 1576 "structural_analysis.ml" 61 1552 1577
+type(
+  C.G.vertex
+)
+ident(
+  def d "structural_analysis.ml" 61 1552 1581 "structural_analysis.ml" 61 1552 1605
+)
+"structural_analysis.ml" 61 1552 1581 "structural_analysis.ml" 61 1552 1591
+type(
+  G.t -> G.vertex -> G.vertex -> unit
+)
+ident(
+  ext_ref G.add_edge
+)
+"structural_analysis.ml" 61 1552 1592 "structural_analysis.ml" 61 1552 1593
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 58 1412 1418 "structural_analysis.ml" 58 1412 1419
+)
+"structural_analysis.ml" 61 1552 1595 "structural_analysis.ml" 61 1552 1596
+type(
+  C.G.V.t -> G.vertex
+)
+ident(
+  int_ref w "structural_analysis.ml" 59 1461 1467 "structural_analysis.ml" 59 1461 1468
+)
+"structural_analysis.ml" 61 1552 1597 "structural_analysis.ml" 61 1552 1598
+type(
+  C.G.vertex
+)
+ident(
+  int_ref s "structural_analysis.ml" 61 1552 1574 "structural_analysis.ml" 61 1552 1575
+)
+"structural_analysis.ml" 61 1552 1594 "structural_analysis.ml" 61 1552 1599
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"structural_analysis.ml" 61 1552 1601 "structural_analysis.ml" 61 1552 1602
+type(
+  C.G.V.t -> G.vertex
+)
+ident(
+  int_ref w "structural_analysis.ml" 59 1461 1467 "structural_analysis.ml" 59 1461 1468
+)
+"structural_analysis.ml" 61 1552 1603 "structural_analysis.ml" 61 1552 1604
+type(
+  C.G.vertex
+)
+ident(
+  int_ref d "structural_analysis.ml" 61 1552 1576 "structural_analysis.ml" 61 1552 1577
+)
+"structural_analysis.ml" 61 1552 1600 "structural_analysis.ml" 61 1552 1605
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"structural_analysis.ml" 61 1552 1581 "structural_analysis.ml" 61 1552 1605
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 61 1552 1569 "structural_analysis.ml" 61 1552 1606
+type(
+  C.G.vertex -> C.G.vertex -> unit
+)
+"structural_analysis.ml" 61 1552 1607 "structural_analysis.ml" 61 1552 1608
+type(
+  C.G.t
+)
+ident(
+  int_ref c "structural_analysis.ml" 57 1391 1408 "structural_analysis.ml" 57 1391 1409
+)
+"structural_analysis.ml" 61 1552 1554 "structural_analysis.ml" 61 1552 1608
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 62 1610 1612 "structural_analysis.ml" 62 1610 1613
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 58 1412 1418 "structural_analysis.ml" 58 1412 1419
+)
+"structural_analysis.ml" 61 1552 1554 "structural_analysis.ml" 62 1610 1613
+type(
+  G.t
+)
+"structural_analysis.ml" 60 1499 1501 "structural_analysis.ml" 62 1610 1613
+type(
+  G.t
+)
+"structural_analysis.ml" 59 1461 1463 "structural_analysis.ml" 62 1610 1613
+type(
+  G.t
+)
+"structural_analysis.ml" 58 1412 1414 "structural_analysis.ml" 62 1610 1613
+type(
+  G.t
+)
+"structural_analysis.ml" 65 1616 1620 "structural_analysis.ml" 65 1616 1634
+type(
+  G.t -> G.vertex -> (G.vertex * G.vertex) list
+)
+ident(
+  def find_backedges "structural_analysis.ml" 81 1998 1998 --
+)
+"structural_analysis.ml" 65 1616 1635 "structural_analysis.ml" 65 1616 1636
+type(
+  G.t
+)
+ident(
+  def g "structural_analysis.ml" 65 1616 1637 "structural_analysis.ml" 79 1953 1996
+)
+"structural_analysis.ml" 65 1616 1637 "structural_analysis.ml" 65 1616 1642
+type(
+  G.vertex
+)
+ident(
+  def entry "structural_analysis.ml" 67 1669 1671 "structural_analysis.ml" 79 1953 1996
+)
+"structural_analysis.ml" 67 1669 1675 "structural_analysis.ml" 67 1669 1680
+type(
+  (G.vertex, unit) Hashtbl.t
+)
+"structural_analysis.ml" 67 1669 1683 "structural_analysis.ml" 67 1669 1697
+type(
+  int -> (G.vertex, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"structural_analysis.ml" 67 1669 1698 "structural_analysis.ml" 67 1669 1700
+type(
+  int
+)
+"structural_analysis.ml" 67 1669 1683 "structural_analysis.ml" 67 1669 1700
+call(
+  stack
+)
+type(
+  (G.vertex, unit) Hashtbl.t
+)
+"structural_analysis.ml" 68 1701 1707 "structural_analysis.ml" 68 1701 1712
+type(
+  (G.vertex * G.vertex, unit) Hashtbl.t
+)
+"structural_analysis.ml" 68 1701 1715 "structural_analysis.ml" 68 1701 1729
+type(
+  int -> (G.vertex * G.vertex, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"structural_analysis.ml" 68 1701 1730 "structural_analysis.ml" 68 1701 1732
+type(
+  int
+)
+"structural_analysis.ml" 68 1701 1715 "structural_analysis.ml" 68 1701 1732
+call(
+  stack
+)
+type(
+  (G.vertex * G.vertex, unit) Hashtbl.t
+)
+"structural_analysis.ml" 69 1736 1746 "structural_analysis.ml" 69 1736 1749
+type(
+  G.vertex -> G.vertex -> unit
+)
+"structural_analysis.ml" 69 1736 1750 "structural_analysis.ml" 69 1736 1751
+type(
+  G.vertex
+)
+ident(
+  def p "structural_analysis.ml" 69 1736 1752 "structural_analysis.ml" 76 1923 1928
+)
+"structural_analysis.ml" 69 1736 1752 "structural_analysis.ml" 69 1736 1753
+type(
+  G.vertex
+)
+ident(
+  def v "structural_analysis.ml" 70 1756 1760 "structural_analysis.ml" 76 1923 1928
+)
+"structural_analysis.ml" 70 1756 1763 "structural_analysis.ml" 70 1756 1774
+type(
+  (G.vertex, unit) Hashtbl.t -> G.vertex -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"structural_analysis.ml" 70 1756 1775 "structural_analysis.ml" 70 1756 1780
+type(
+  (G.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref stack "structural_analysis.ml" 67 1669 1675 "structural_analysis.ml" 67 1669 1680
+)
+"structural_analysis.ml" 70 1756 1781 "structural_analysis.ml" 70 1756 1782
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 69 1736 1752 "structural_analysis.ml" 69 1736 1753
+)
+"structural_analysis.ml" 70 1756 1763 "structural_analysis.ml" 70 1756 1782
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 71 1788 1794 "structural_analysis.ml" 71 1788 1805
+type(
+  (G.vertex * G.vertex, unit) Hashtbl.t ->
+  G.vertex * G.vertex -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"structural_analysis.ml" 71 1788 1806 "structural_analysis.ml" 71 1788 1811
+type(
+  (G.vertex * G.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref found "structural_analysis.ml" 68 1701 1707 "structural_analysis.ml" 68 1701 1712
+)
+"structural_analysis.ml" 71 1788 1813 "structural_analysis.ml" 71 1788 1814
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 69 1736 1750 "structural_analysis.ml" 69 1736 1751
+)
+"structural_analysis.ml" 71 1788 1815 "structural_analysis.ml" 71 1788 1816
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 69 1736 1752 "structural_analysis.ml" 69 1736 1753
+)
+"structural_analysis.ml" 71 1788 1812 "structural_analysis.ml" 71 1788 1817
+type(
+  G.vertex * G.vertex
+)
+"structural_analysis.ml" 71 1788 1818 "structural_analysis.ml" 71 1788 1820
+type(
+  unit
+)
+"structural_analysis.ml" 71 1788 1794 "structural_analysis.ml" 71 1788 1820
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 73 1832 1838 "structural_analysis.ml" 73 1832 1849
+type(
+  (G.vertex, unit) Hashtbl.t -> G.vertex -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"structural_analysis.ml" 73 1832 1850 "structural_analysis.ml" 73 1832 1855
+type(
+  (G.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref stack "structural_analysis.ml" 67 1669 1675 "structural_analysis.ml" 67 1669 1680
+)
+"structural_analysis.ml" 73 1832 1856 "structural_analysis.ml" 73 1832 1857
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 69 1736 1752 "structural_analysis.ml" 69 1736 1753
+)
+"structural_analysis.ml" 73 1832 1858 "structural_analysis.ml" 73 1832 1860
+type(
+  unit
+)
+"structural_analysis.ml" 73 1832 1838 "structural_analysis.ml" 73 1832 1860
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 74 1862 1868 "structural_analysis.ml" 74 1862 1879
+type(
+  (G.vertex -> unit) -> G.t -> G.vertex -> unit
+)
+ident(
+  ext_ref G.iter_succ
+)
+"structural_analysis.ml" 74 1862 1881 "structural_analysis.ml" 74 1862 1884
+type(
+  G.vertex -> G.vertex -> unit
+)
+ident(
+  int_ref dfs "structural_analysis.ml" 69 1736 1746 "structural_analysis.ml" 69 1736 1749
+)
+"structural_analysis.ml" 74 1862 1885 "structural_analysis.ml" 74 1862 1886
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 69 1736 1752 "structural_analysis.ml" 69 1736 1753
+)
+"structural_analysis.ml" 74 1862 1880 "structural_analysis.ml" 74 1862 1887
+call(
+  stack
+)
+type(
+  G.vertex -> unit
+)
+"structural_analysis.ml" 74 1862 1888 "structural_analysis.ml" 74 1862 1889
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 65 1616 1635 "structural_analysis.ml" 65 1616 1636
+)
+"structural_analysis.ml" 74 1862 1890 "structural_analysis.ml" 74 1862 1891
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 69 1736 1752 "structural_analysis.ml" 69 1736 1753
+)
+"structural_analysis.ml" 74 1862 1868 "structural_analysis.ml" 74 1862 1891
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 75 1893 1899 "structural_analysis.ml" 75 1893 1913
+type(
+  (G.vertex, unit) Hashtbl.t -> G.vertex -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"structural_analysis.ml" 75 1893 1914 "structural_analysis.ml" 75 1893 1919
+type(
+  (G.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref stack "structural_analysis.ml" 67 1669 1675 "structural_analysis.ml" 67 1669 1680
+)
+"structural_analysis.ml" 75 1893 1920 "structural_analysis.ml" 75 1893 1921
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 69 1736 1752 "structural_analysis.ml" 69 1736 1753
+)
+"structural_analysis.ml" 75 1893 1899 "structural_analysis.ml" 75 1893 1922
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 74 1862 1868 "structural_analysis.ml" 75 1893 1922
+type(
+  unit
+)
+"structural_analysis.ml" 72 1821 1830 "structural_analysis.ml" 76 1923 1928
+type(
+  unit
+)
+"structural_analysis.ml" 70 1756 1760 "structural_analysis.ml" 76 1923 1928
+type(
+  unit
+)
+"structural_analysis.ml" 78 1934 1936 "structural_analysis.ml" 78 1934 1939
+type(
+  G.vertex -> G.vertex -> unit
+)
+ident(
+  int_ref dfs "structural_analysis.ml" 69 1736 1746 "structural_analysis.ml" 69 1736 1749
+)
+"structural_analysis.ml" 78 1934 1940 "structural_analysis.ml" 78 1934 1945
+type(
+  G.vertex
+)
+ident(
+  int_ref entry "structural_analysis.ml" 65 1616 1637 "structural_analysis.ml" 65 1616 1642
+)
+"structural_analysis.ml" 78 1934 1946 "structural_analysis.ml" 78 1934 1951
+type(
+  G.vertex
+)
+ident(
+  int_ref entry "structural_analysis.ml" 65 1616 1637 "structural_analysis.ml" 65 1616 1642
+)
+"structural_analysis.ml" 78 1934 1936 "structural_analysis.ml" 78 1934 1951
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 79 1953 1955 "structural_analysis.ml" 79 1953 1967
+type(
+  (G.vertex * G.vertex ->
+   unit -> (G.vertex * G.vertex) list -> (G.vertex * G.vertex) list) ->
+  (G.vertex * G.vertex, unit) Hashtbl.t ->
+  (G.vertex * G.vertex) list -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"structural_analysis.ml" 79 1953 1973 "structural_analysis.ml" 79 1953 1974
+type(
+  G.vertex * G.vertex
+)
+ident(
+  def k "structural_analysis.ml" 79 1953 1975 "structural_analysis.ml" 79 1953 1986
+)
+"structural_analysis.ml" 79 1953 1975 "structural_analysis.ml" 79 1953 1976
+type(
+  unit
+)
+"structural_analysis.ml" 79 1953 1977 "structural_analysis.ml" 79 1953 1978
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  def l "structural_analysis.ml" 79 1953 1982 "structural_analysis.ml" 79 1953 1986
+)
+"structural_analysis.ml" 79 1953 1982 "structural_analysis.ml" 79 1953 1983
+type(
+  G.vertex * G.vertex
+)
+ident(
+  int_ref k "structural_analysis.ml" 79 1953 1973 "structural_analysis.ml" 79 1953 1974
+)
+"structural_analysis.ml" 79 1953 1985 "structural_analysis.ml" 79 1953 1986
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref l "structural_analysis.ml" 79 1953 1977 "structural_analysis.ml" 79 1953 1978
+)
+"structural_analysis.ml" 79 1953 1982 "structural_analysis.ml" 79 1953 1986
+type(
+  (G.vertex * G.vertex) list
+)
+"structural_analysis.ml" 79 1953 1968 "structural_analysis.ml" 79 1953 1987
+type(
+  G.vertex * G.vertex ->
+  unit -> (G.vertex * G.vertex) list -> (G.vertex * G.vertex) list
+)
+"structural_analysis.ml" 79 1953 1988 "structural_analysis.ml" 79 1953 1993
+type(
+  (G.vertex * G.vertex, unit) Hashtbl.t
+)
+ident(
+  int_ref found "structural_analysis.ml" 68 1701 1707 "structural_analysis.ml" 68 1701 1712
+)
+"structural_analysis.ml" 79 1953 1994 "structural_analysis.ml" 79 1953 1996
+type(
+  (G.vertex * G.vertex) list
+)
+"structural_analysis.ml" 79 1953 1955 "structural_analysis.ml" 79 1953 1996
+call(
+  tail
+)
+type(
+  (G.vertex * G.vertex) list
+)
+"structural_analysis.ml" 78 1934 1936 "structural_analysis.ml" 79 1953 1996
+type(
+  (G.vertex * G.vertex) list
+)
+"structural_analysis.ml" 69 1736 1738 "structural_analysis.ml" 79 1953 1996
+type(
+  (G.vertex * G.vertex) list
+)
+"structural_analysis.ml" 67 1669 1671 "structural_analysis.ml" 79 1953 1996
+type(
+  (G.vertex * G.vertex) list
+)
+"structural_analysis.ml" 81 1998 2002 "structural_analysis.ml" 81 1998 2021
+type(
+  C.G.t -> G.vertex
+)
+ident(
+  def structural_analysis "structural_analysis.ml" 266 8606 8614 --
+)
+"structural_analysis.ml" 81 1998 2022 "structural_analysis.ml" 81 1998 2023
+type(
+  C.G.t
+)
+ident(
+  def c "structural_analysis.ml" 82 2026 2028 "structural_analysis.ml" 266 8606 8614
+)
+"structural_analysis.ml" 82 2026 2032 "structural_analysis.ml" 82 2026 2034
+type(
+  unit
+)
+"structural_analysis.ml" 82 2026 2037 "structural_analysis.ml" 82 2026 2060
+type(
+  C.G.t Checks.sanityf
+)
+ident(
+  ext_ref Checks.connected_astcfg
+)
+"structural_analysis.ml" 82 2026 2061 "structural_analysis.ml" 82 2026 2062
+type(
+  C.G.t
+)
+ident(
+  int_ref c "structural_analysis.ml" 81 1998 2022 "structural_analysis.ml" 81 1998 2023
+)
+"structural_analysis.ml" 82 2026 2063 "structural_analysis.ml" 82 2026 2084
+type(
+  string
+)
+"structural_analysis.ml" 82 2026 2037 "structural_analysis.ml" 82 2026 2084
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+type(
+  G.t
+)
+"structural_analysis.ml" 83 2088 2098 "structural_analysis.ml" 83 2088 2110
+type(
+  C.G.t -> G.t
+)
+ident(
+  int_ref graph_of_cfg "structural_analysis.ml" 57 1391 1395 "structural_analysis.ml" 57 1391 1407
+)
+"structural_analysis.ml" 83 2088 2111 "structural_analysis.ml" 83 2088 2112
+type(
+  C.G.t
+)
+ident(
+  int_ref c "structural_analysis.ml" 81 1998 2022 "structural_analysis.ml" 81 1998 2023
+)
+"structural_analysis.ml" 83 2088 2098 "structural_analysis.ml" 83 2088 2112
+call(
+  stack
+)
+type(
+  G.t
+)
+"structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+type(
+  G.vertex ref
+)
+"structural_analysis.ml" 84 2113 2127 "structural_analysis.ml" 84 2113 2130
+type(
+  G.vertex -> G.vertex ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"structural_analysis.ml" 84 2113 2139 "structural_analysis.ml" 84 2113 2151
+type(
+  Cfg.bbid
+)
+"structural_analysis.ml" 84 2113 2131 "structural_analysis.ml" 84 2113 2152
+type(
+  G.vertex
+)
+"structural_analysis.ml" 84 2113 2127 "structural_analysis.ml" 84 2113 2152
+type(
+  G.vertex ref
+)
+"structural_analysis.ml" 85 2153 2159 "structural_analysis.ml" 85 2153 2163
+type(
+  G.vertex ref
+)
+"structural_analysis.ml" 85 2153 2166 "structural_analysis.ml" 85 2153 2169
+type(
+  G.vertex -> G.vertex ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"structural_analysis.ml" 85 2153 2178 "structural_analysis.ml" 85 2153 2189
+type(
+  Cfg.bbid
+)
+"structural_analysis.ml" 85 2153 2170 "structural_analysis.ml" 85 2153 2190
+type(
+  G.vertex
+)
+"structural_analysis.ml" 85 2153 2166 "structural_analysis.ml" 85 2153 2190
+type(
+  G.vertex ref
+)
+"structural_analysis.ml" 86 2194 2200 "structural_analysis.ml" 86 2194 2204
+type(
+  int
+)
+"structural_analysis.ml" 86 2194 2207 "structural_analysis.ml" 86 2194 2218
+type(
+  G.t -> int
+)
+ident(
+  ext_ref G.nb_vertex
+)
+"structural_analysis.ml" 86 2194 2219 "structural_analysis.ml" 86 2194 2220
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 86 2194 2207 "structural_analysis.ml" 86 2194 2220
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 87 2224 2230 "structural_analysis.ml" 87 2224 2240
+type(
+  G.vertex list ref
+)
+"structural_analysis.ml" 87 2224 2243 "structural_analysis.ml" 87 2224 2246
+type(
+  G.vertex list -> G.vertex list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"structural_analysis.ml" 87 2224 2248 "structural_analysis.ml" 87 2224 2261
+type(
+  (G.vertex -> G.vertex list -> G.vertex list) ->
+  G.t -> G.vertex list -> G.vertex list
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"structural_analysis.ml" 87 2224 2267 "structural_analysis.ml" 87 2224 2268
+type(
+  G.vertex
+)
+ident(
+  def v "structural_analysis.ml" 87 2224 2269 "structural_analysis.ml" 87 2224 2278
+)
+"structural_analysis.ml" 87 2224 2269 "structural_analysis.ml" 87 2224 2270
+type(
+  G.vertex list
+)
+ident(
+  def l "structural_analysis.ml" 87 2224 2274 "structural_analysis.ml" 87 2224 2278
+)
+"structural_analysis.ml" 87 2224 2274 "structural_analysis.ml" 87 2224 2275
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 87 2224 2267 "structural_analysis.ml" 87 2224 2268
+)
+"structural_analysis.ml" 87 2224 2277 "structural_analysis.ml" 87 2224 2278
+type(
+  G.vertex list
+)
+ident(
+  int_ref l "structural_analysis.ml" 87 2224 2269 "structural_analysis.ml" 87 2224 2270
+)
+"structural_analysis.ml" 87 2224 2274 "structural_analysis.ml" 87 2224 2278
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 87 2224 2262 "structural_analysis.ml" 87 2224 2279
+type(
+  G.vertex -> G.vertex list -> G.vertex list
+)
+"structural_analysis.ml" 87 2224 2280 "structural_analysis.ml" 87 2224 2281
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 87 2224 2282 "structural_analysis.ml" 87 2224 2284
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 87 2224 2247 "structural_analysis.ml" 87 2224 2285
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 87 2224 2243 "structural_analysis.ml" 87 2224 2285
+type(
+  G.vertex list ref
+)
+"structural_analysis.ml" 88 2286 2292 "structural_analysis.ml" 88 2286 2300
+type(
+  (G.vertex, node) Hashtbl.t
+)
+"structural_analysis.ml" 88 2286 2303 "structural_analysis.ml" 88 2286 2317
+type(
+  int -> (G.vertex, node) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"structural_analysis.ml" 88 2286 2318 "structural_analysis.ml" 88 2286 2322
+type(
+  int
+)
+ident(
+  int_ref size "structural_analysis.ml" 86 2194 2200 "structural_analysis.ml" 86 2194 2204
+)
+"structural_analysis.ml" 88 2286 2303 "structural_analysis.ml" 88 2286 2322
+call(
+  stack
+)
+type(
+  (G.vertex, node) Hashtbl.t
+)
+"structural_analysis.ml" 89 2323 2329 "structural_analysis.ml" 89 2323 2333
+type(
+  G.vertex array
+)
+"structural_analysis.ml" 89 2323 2336 "structural_analysis.ml" 89 2323 2346
+type(
+  int -> G.vertex -> G.vertex array
+)
+ident(
+  ext_ref Array.make
+)
+"structural_analysis.ml" 89 2323 2347 "structural_analysis.ml" 89 2323 2351
+type(
+  int
+)
+ident(
+  int_ref size "structural_analysis.ml" 86 2194 2200 "structural_analysis.ml" 86 2194 2204
+)
+"structural_analysis.ml" 89 2323 2352 "structural_analysis.ml" 89 2323 2353
+type(
+  G.vertex ref -> G.vertex
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 89 2323 2353 "structural_analysis.ml" 89 2323 2358
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 89 2323 2352 "structural_analysis.ml" 89 2323 2358
+type(
+  G.vertex
+)
+"structural_analysis.ml" 89 2323 2336 "structural_analysis.ml" 89 2323 2358
+type(
+  G.vertex array
+)
+"structural_analysis.ml" 90 2359 2365 "structural_analysis.ml" 90 2359 2373
+type(
+  int ref
+)
+"structural_analysis.ml" 90 2359 2376 "structural_analysis.ml" 90 2359 2379
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"structural_analysis.ml" 90 2359 2380 "structural_analysis.ml" 90 2359 2381
+type(
+  int
+)
+"structural_analysis.ml" 90 2359 2376 "structural_analysis.ml" 90 2359 2381
+type(
+  int ref
+)
+"structural_analysis.ml" 92 2386 2392 "structural_analysis.ml" 92 2386 2399
+type(
+  'a -> G.vertex -> G.vertex list -> unit
+)
+"structural_analysis.ml" 92 2386 2400 "structural_analysis.ml" 92 2386 2401
+type(
+  'a
+)
+ident(
+  def g "structural_analysis.ml" 92 2386 2402 "structural_analysis.ml" 104 2804 2815
+)
+"structural_analysis.ml" 92 2386 2402 "structural_analysis.ml" 92 2386 2403
+type(
+  G.vertex
+)
+ident(
+  def n "structural_analysis.ml" 92 2386 2404 "structural_analysis.ml" 104 2804 2815
+)
+"structural_analysis.ml" 92 2386 2404 "structural_analysis.ml" 92 2386 2408
+type(
+  G.vertex list
+)
+ident(
+  def nset "structural_analysis.ml" 93 2411 2415 "structural_analysis.ml" 104 2804 2815
+)
+"structural_analysis.ml" 93 2411 2418 "structural_analysis.ml" 93 2411 2423
+type(
+  unit -> bool
+)
+ident(
+  ext_ref D.debug
+)
+"structural_analysis.ml" 93 2411 2423 "structural_analysis.ml" 93 2411 2425
+type(
+  unit
+)
+"structural_analysis.ml" 93 2411 2418 "structural_analysis.ml" 93 2411 2425
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 93 2411 2431 "structural_analysis.ml" 93 2411 2438
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"structural_analysis.ml" 93 2411 2439 "structural_analysis.ml" 93 2411 2462
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 93 2411 2465 "structural_analysis.ml" 93 2411 2471
+type(
+  G.vertex -> string
+)
+ident(
+  int_ref node2s "structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+)
+"structural_analysis.ml" 93 2411 2472 "structural_analysis.ml" 93 2411 2473
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 92 2386 2402 "structural_analysis.ml" 92 2386 2403
+)
+"structural_analysis.ml" 93 2411 2464 "structural_analysis.ml" 93 2411 2474
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 93 2411 2476 "structural_analysis.ml" 93 2411 2483
+type(
+  G.vertex list -> string
+)
+ident(
+  int_ref nodes2s "structural_analysis.ml" 44 1030 1034 "structural_analysis.ml" 44 1030 1041
+)
+"structural_analysis.ml" 93 2411 2484 "structural_analysis.ml" 93 2411 2488
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 92 2386 2404 "structural_analysis.ml" 92 2386 2408
+)
+"structural_analysis.ml" 93 2411 2475 "structural_analysis.ml" 93 2411 2489
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 93 2411 2431 "structural_analysis.ml" 93 2411 2489
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 93 2411 2415 "structural_analysis.ml" 93 2411 2489
+type(
+  unit
+)
+"structural_analysis.ml" 94 2491 2499 "structural_analysis.ml" 94 2491 2504
+type(
+  int ref
+)
+"structural_analysis.ml" 94 2491 2507 "structural_analysis.ml" 94 2491 2510
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"structural_analysis.ml" 94 2491 2512 "structural_analysis.ml" 94 2491 2523
+type(
+  G.vertex list -> int
+)
+ident(
+  ext_ref List.length
+)
+"structural_analysis.ml" 94 2491 2524 "structural_analysis.ml" 94 2491 2528
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 92 2386 2404 "structural_analysis.ml" 92 2386 2408
+)
+"structural_analysis.ml" 94 2491 2511 "structural_analysis.ml" 94 2491 2529
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 94 2491 2507 "structural_analysis.ml" 94 2491 2529
+type(
+  int ref
+)
+"structural_analysis.ml" 95 2530 2538 "structural_analysis.ml" 95 2530 2542
+type(
+  int ref
+)
+"structural_analysis.ml" 95 2530 2545 "structural_analysis.ml" 95 2530 2548
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"structural_analysis.ml" 95 2530 2549 "structural_analysis.ml" 95 2530 2550
+type(
+  int
+)
+"structural_analysis.ml" 95 2530 2545 "structural_analysis.ml" 95 2530 2550
+type(
+  int ref
+)
+"structural_analysis.ml" 96 2554 2558 "structural_analysis.ml" 96 2554 2568
+type(
+  (G.vertex -> unit) -> G.vertex array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"structural_analysis.ml" 97 2570 2581 "structural_analysis.ml" 97 2570 2582
+type(
+  G.vertex
+)
+ident(
+  def v "structural_analysis.ml" 98 2586 2595 "structural_analysis.ml" 102 2754 2795
+)
+"structural_analysis.ml" 98 2586 2598 "structural_analysis.ml" 98 2586 2599
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 98 2586 2599 "structural_analysis.ml" 98 2586 2604
+type(
+  int ref
+)
+ident(
+  int_ref nleft "structural_analysis.ml" 94 2491 2499 "structural_analysis.ml" 94 2491 2504
+)
+"structural_analysis.ml" 98 2586 2598 "structural_analysis.ml" 98 2586 2604
+type(
+  int
+)
+"structural_analysis.ml" 98 2586 2605 "structural_analysis.ml" 98 2586 2606
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"structural_analysis.ml" 98 2586 2607 "structural_analysis.ml" 98 2586 2608
+type(
+  int
+)
+"structural_analysis.ml" 98 2586 2598 "structural_analysis.ml" 98 2586 2608
+type(
+  bool
+)
+"structural_analysis.ml" 98 2586 2609 "structural_analysis.ml" 98 2586 2611
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"structural_analysis.ml" 98 2586 2612 "structural_analysis.ml" 98 2586 2620
+type(
+  G.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"structural_analysis.ml" 98 2586 2621 "structural_analysis.ml" 98 2586 2622
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 97 2570 2581 "structural_analysis.ml" 97 2570 2582
+)
+"structural_analysis.ml" 98 2586 2623 "structural_analysis.ml" 98 2586 2627
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 92 2386 2404 "structural_analysis.ml" 92 2386 2408
+)
+"structural_analysis.ml" 98 2586 2612 "structural_analysis.ml" 98 2586 2627
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 98 2586 2598 "structural_analysis.ml" 98 2586 2627
+type(
+  bool
+)
+"structural_analysis.ml" 99 2635 2649 "structural_analysis.ml" 99 2635 2650
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 99 2635 2650 "structural_analysis.ml" 99 2635 2655
+type(
+  int ref
+)
+ident(
+  int_ref nleft "structural_analysis.ml" 94 2491 2499 "structural_analysis.ml" 94 2491 2504
+)
+"structural_analysis.ml" 99 2635 2649 "structural_analysis.ml" 99 2635 2655
+type(
+  int
+)
+"structural_analysis.ml" 99 2635 2656 "structural_analysis.ml" 99 2635 2657
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 99 2635 2658 "structural_analysis.ml" 99 2635 2659
+type(
+  int
+)
+"structural_analysis.ml" 99 2635 2649 "structural_analysis.ml" 99 2635 2659
+type(
+  bool
+)
+"structural_analysis.ml" 99 2635 2666 "structural_analysis.ml" 99 2635 2670
+type(
+  G.vertex array
+)
+ident(
+  int_ref post "structural_analysis.ml" 89 2323 2329 "structural_analysis.ml" 89 2323 2333
+)
+"structural_analysis.ml" 99 2635 2672 "structural_analysis.ml" 99 2635 2673
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 99 2635 2673 "structural_analysis.ml" 99 2635 2677
+type(
+  int ref
+)
+ident(
+  int_ref last "structural_analysis.ml" 95 2530 2538 "structural_analysis.ml" 95 2530 2542
+)
+"structural_analysis.ml" 99 2635 2672 "structural_analysis.ml" 99 2635 2677
+type(
+  int
+)
+"structural_analysis.ml" 99 2635 2682 "structural_analysis.ml" 99 2635 2683
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 92 2386 2402 "structural_analysis.ml" 92 2386 2403
+)
+"structural_analysis.ml" 99 2635 2666 "structural_analysis.ml" 99 2635 2683
+type(
+  unit
+)
+"structural_analysis.ml" 99 2635 2685 "structural_analysis.ml" 99 2635 2693
+type(
+  int ref
+)
+ident(
+  int_ref post_ctr "structural_analysis.ml" 90 2359 2365 "structural_analysis.ml" 90 2359 2373
+)
+"structural_analysis.ml" 99 2635 2694 "structural_analysis.ml" 99 2635 2696
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 99 2635 2697 "structural_analysis.ml" 99 2635 2698
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 99 2635 2698 "structural_analysis.ml" 99 2635 2702
+type(
+  int ref
+)
+ident(
+  int_ref last "structural_analysis.ml" 95 2530 2538 "structural_analysis.ml" 95 2530 2542
+)
+"structural_analysis.ml" 99 2635 2697 "structural_analysis.ml" 99 2635 2702
+type(
+  int
+)
+"structural_analysis.ml" 99 2635 2685 "structural_analysis.ml" 99 2635 2702
+type(
+  unit
+)
+"structural_analysis.ml" 99 2635 2704 "structural_analysis.ml" 99 2635 2708
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"structural_analysis.ml" 99 2635 2709 "structural_analysis.ml" 99 2635 2713
+type(
+  int ref
+)
+ident(
+  int_ref last "structural_analysis.ml" 95 2530 2538 "structural_analysis.ml" 95 2530 2542
+)
+"structural_analysis.ml" 99 2635 2704 "structural_analysis.ml" 99 2635 2713
+type(
+  unit
+)
+"structural_analysis.ml" 99 2635 2685 "structural_analysis.ml" 99 2635 2713
+type(
+  unit
+)
+"structural_analysis.ml" 99 2635 2665 "structural_analysis.ml" 99 2635 2714
+type(
+  unit
+)
+"structural_analysis.ml" 99 2635 2646 "structural_analysis.ml" 99 2635 2714
+type(
+  unit
+)
+"structural_analysis.ml" 100 2716 2727 "structural_analysis.ml" 100 2716 2731
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"structural_analysis.ml" 100 2716 2732 "structural_analysis.ml" 100 2716 2737
+type(
+  int ref
+)
+ident(
+  int_ref nleft "structural_analysis.ml" 94 2491 2499 "structural_analysis.ml" 94 2491 2504
+)
+"structural_analysis.ml" 100 2716 2727 "structural_analysis.ml" 100 2716 2737
+type(
+  unit
+)
+"structural_analysis.ml" 98 2586 2633 "structural_analysis.ml" 100 2716 2739
+type(
+  unit
+)
+"structural_analysis.ml" 102 2754 2766 "structural_analysis.ml" 102 2754 2770
+type(
+  G.vertex array
+)
+ident(
+  int_ref post "structural_analysis.ml" 89 2323 2329 "structural_analysis.ml" 89 2323 2333
+)
+"structural_analysis.ml" 102 2754 2772 "structural_analysis.ml" 102 2754 2773
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 102 2754 2773 "structural_analysis.ml" 102 2754 2777
+type(
+  int ref
+)
+ident(
+  int_ref last "structural_analysis.ml" 95 2530 2538 "structural_analysis.ml" 95 2530 2542
+)
+"structural_analysis.ml" 102 2754 2772 "structural_analysis.ml" 102 2754 2777
+type(
+  int
+)
+"structural_analysis.ml" 102 2754 2782 "structural_analysis.ml" 102 2754 2783
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 97 2570 2581 "structural_analysis.ml" 97 2570 2582
+)
+"structural_analysis.ml" 102 2754 2766 "structural_analysis.ml" 102 2754 2783
+type(
+  unit
+)
+"structural_analysis.ml" 102 2754 2785 "structural_analysis.ml" 102 2754 2789
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"structural_analysis.ml" 102 2754 2790 "structural_analysis.ml" 102 2754 2794
+type(
+  int ref
+)
+ident(
+  int_ref last "structural_analysis.ml" 95 2530 2538 "structural_analysis.ml" 95 2530 2542
+)
+"structural_analysis.ml" 102 2754 2785 "structural_analysis.ml" 102 2754 2794
+type(
+  unit
+)
+"structural_analysis.ml" 102 2754 2765 "structural_analysis.ml" 102 2754 2795
+type(
+  unit
+)
+"structural_analysis.ml" 98 2586 2595 "structural_analysis.ml" 102 2754 2795
+type(
+  unit
+)
+"structural_analysis.ml" 97 2570 2576 "structural_analysis.ml" 103 2796 2803
+type(
+  G.vertex -> unit
+)
+"structural_analysis.ml" 104 2804 2810 "structural_analysis.ml" 104 2804 2814
+type(
+  G.vertex array
+)
+ident(
+  int_ref post "structural_analysis.ml" 89 2323 2329 "structural_analysis.ml" 89 2323 2333
+)
+"structural_analysis.ml" 96 2554 2558 "structural_analysis.ml" 104 2804 2815
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 94 2491 2495 "structural_analysis.ml" 104 2804 2815
+type(
+  unit
+)
+"structural_analysis.ml" 93 2411 2415 "structural_analysis.ml" 104 2804 2815
+type(
+  unit
+)
+"structural_analysis.ml" 106 2821 2827 "structural_analysis.ml" 106 2821 2834
+type(
+  G.t -> G.vertex -> G.vertex list -> unit
+)
+"structural_analysis.ml" 106 2821 2835 "structural_analysis.ml" 106 2821 2836
+type(
+  G.t
+)
+ident(
+  def g "structural_analysis.ml" 106 2821 2837 "structural_analysis.ml" 130 3624 3649
+)
+"structural_analysis.ml" 106 2821 2837 "structural_analysis.ml" 106 2821 2841
+type(
+  G.vertex
+)
+ident(
+  def node "structural_analysis.ml" 106 2821 2842 "structural_analysis.ml" 130 3624 3649
+)
+"structural_analysis.ml" 106 2821 2842 "structural_analysis.ml" 106 2821 2849
+type(
+  G.vertex list
+)
+ident(
+  def nodeset "structural_analysis.ml" 107 2852 2856 "structural_analysis.ml" 130 3624 3649
+)
+"structural_analysis.ml" 107 2852 2860 "structural_analysis.ml" 107 2852 2871
+type(
+  G.vertex -> G.vertex -> unit
+)
+"structural_analysis.ml" 107 2852 2872 "structural_analysis.ml" 107 2852 2873
+type(
+  G.vertex
+)
+ident(
+  def s "structural_analysis.ml" 107 2852 2874 "structural_analysis.ml" 111 3052 3095
+)
+"structural_analysis.ml" 107 2852 2874 "structural_analysis.ml" 107 2852 2875
+type(
+  G.vertex
+)
+ident(
+  def d "structural_analysis.ml" 110 3007 3013 "structural_analysis.ml" 111 3052 3095
+)
+"structural_analysis.ml" 110 3007 3016 "structural_analysis.ml" 110 3007 3017
+type(
+  G.vertex
+)
+ident(
+  int_ref s "structural_analysis.ml" 107 2852 2872 "structural_analysis.ml" 107 2852 2873
+)
+"structural_analysis.ml" 110 3007 3018 "structural_analysis.ml" 110 3007 3020
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"structural_analysis.ml" 110 3007 3021 "structural_analysis.ml" 110 3007 3025
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 106 2821 2837 "structural_analysis.ml" 106 2821 2841
+)
+"structural_analysis.ml" 110 3007 3016 "structural_analysis.ml" 110 3007 3025
+type(
+  bool
+)
+"structural_analysis.ml" 110 3007 3031 "structural_analysis.ml" 110 3007 3041
+type(
+  G.t -> G.vertex -> G.vertex -> unit
+)
+ident(
+  ext_ref G.add_edge
+)
+"structural_analysis.ml" 110 3007 3042 "structural_analysis.ml" 110 3007 3043
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 106 2821 2835 "structural_analysis.ml" 106 2821 2836
+)
+"structural_analysis.ml" 110 3007 3044 "structural_analysis.ml" 110 3007 3045
+type(
+  G.vertex
+)
+ident(
+  int_ref s "structural_analysis.ml" 107 2852 2872 "structural_analysis.ml" 107 2852 2873
+)
+"structural_analysis.ml" 110 3007 3046 "structural_analysis.ml" 110 3007 3050
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 106 2821 2837 "structural_analysis.ml" 106 2821 2841
+)
+"structural_analysis.ml" 110 3007 3031 "structural_analysis.ml" 110 3007 3050
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 110 3007 3013 "structural_analysis.ml" 110 3007 3050
+type(
+  unit
+)
+"structural_analysis.ml" 111 3052 3061 "structural_analysis.ml" 111 3052 3062
+type(
+  G.vertex
+)
+ident(
+  int_ref d "structural_analysis.ml" 107 2852 2874 "structural_analysis.ml" 107 2852 2875
+)
+"structural_analysis.ml" 111 3052 3063 "structural_analysis.ml" 111 3052 3065
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"structural_analysis.ml" 111 3052 3066 "structural_analysis.ml" 111 3052 3070
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 106 2821 2837 "structural_analysis.ml" 106 2821 2841
+)
+"structural_analysis.ml" 111 3052 3061 "structural_analysis.ml" 111 3052 3070
+type(
+  bool
+)
+"structural_analysis.ml" 111 3052 3076 "structural_analysis.ml" 111 3052 3086
+type(
+  G.t -> G.vertex -> G.vertex -> unit
+)
+ident(
+  ext_ref G.add_edge
+)
+"structural_analysis.ml" 111 3052 3087 "structural_analysis.ml" 111 3052 3088
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 106 2821 2835 "structural_analysis.ml" 106 2821 2836
+)
+"structural_analysis.ml" 111 3052 3089 "structural_analysis.ml" 111 3052 3093
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 106 2821 2837 "structural_analysis.ml" 106 2821 2841
+)
+"structural_analysis.ml" 111 3052 3094 "structural_analysis.ml" 111 3052 3095
+type(
+  G.vertex
+)
+ident(
+  int_ref d "structural_analysis.ml" 107 2852 2874 "structural_analysis.ml" 107 2852 2875
+)
+"structural_analysis.ml" 111 3052 3076 "structural_analysis.ml" 111 3052 3095
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 111 3052 3058 "structural_analysis.ml" 111 3052 3095
+type(
+  unit
+)
+"structural_analysis.ml" 110 3007 3013 "structural_analysis.ml" 111 3052 3095
+type(
+  unit
+)
+"structural_analysis.ml" 114 3113 3117 "structural_analysis.ml" 114 3113 3129
+type(
+  G.t -> G.vertex -> unit
+)
+ident(
+  ext_ref G.add_vertex
+)
+"structural_analysis.ml" 114 3113 3130 "structural_analysis.ml" 114 3113 3131
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 106 2821 2835 "structural_analysis.ml" 106 2821 2836
+)
+"structural_analysis.ml" 114 3113 3132 "structural_analysis.ml" 114 3113 3136
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 106 2821 2837 "structural_analysis.ml" 106 2821 2841
+)
+"structural_analysis.ml" 114 3113 3117 "structural_analysis.ml" 114 3113 3136
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 115 3138 3142 "structural_analysis.ml" 115 3138 3151
+type(
+  (G.vertex -> unit) -> G.vertex list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"structural_analysis.ml" 116 3152 3163 "structural_analysis.ml" 116 3152 3164
+type(
+  G.vertex
+)
+ident(
+  def v "structural_analysis.ml" 117 3167 3176 "structural_analysis.ml" 119 3267 3319
+)
+"structural_analysis.ml" 117 3167 3180 "structural_analysis.ml" 117 3167 3185
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 117 3167 3188 "structural_analysis.ml" 117 3167 3194
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"structural_analysis.ml" 117 3167 3195 "structural_analysis.ml" 117 3167 3196
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 106 2821 2835 "structural_analysis.ml" 106 2821 2836
+)
+"structural_analysis.ml" 117 3167 3197 "structural_analysis.ml" 117 3167 3198
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 116 3152 3163 "structural_analysis.ml" 116 3152 3164
+)
+"structural_analysis.ml" 117 3167 3188 "structural_analysis.ml" 117 3167 3198
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 117 3167 3203 "structural_analysis.ml" 117 3167 3208
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 117 3167 3211 "structural_analysis.ml" 117 3167 3217
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.pred
+)
+"structural_analysis.ml" 117 3167 3218 "structural_analysis.ml" 117 3167 3219
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 106 2821 2835 "structural_analysis.ml" 106 2821 2836
+)
+"structural_analysis.ml" 117 3167 3220 "structural_analysis.ml" 117 3167 3221
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 116 3152 3163 "structural_analysis.ml" 116 3152 3164
+)
+"structural_analysis.ml" 117 3167 3211 "structural_analysis.ml" 117 3167 3221
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 118 3225 3234 "structural_analysis.ml" 118 3225 3243
+type(
+  (G.vertex -> unit) -> G.vertex list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"structural_analysis.ml" 118 3225 3245 "structural_analysis.ml" 118 3225 3256
+type(
+  G.vertex -> G.vertex -> unit
+)
+ident(
+  int_ref update_edge "structural_analysis.ml" 107 2852 2860 "structural_analysis.ml" 107 2852 2871
+)
+"structural_analysis.ml" 118 3225 3257 "structural_analysis.ml" 118 3225 3258
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 116 3152 3163 "structural_analysis.ml" 116 3152 3164
+)
+"structural_analysis.ml" 118 3225 3244 "structural_analysis.ml" 118 3225 3259
+call(
+  stack
+)
+type(
+  G.vertex -> unit
+)
+"structural_analysis.ml" 118 3225 3260 "structural_analysis.ml" 118 3225 3265
+type(
+  G.vertex list
+)
+ident(
+  int_ref succs "structural_analysis.ml" 117 3167 3180 "structural_analysis.ml" 117 3167 3185
+)
+"structural_analysis.ml" 118 3225 3234 "structural_analysis.ml" 118 3225 3265
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 119 3267 3276 "structural_analysis.ml" 119 3267 3285
+type(
+  (G.vertex -> unit) -> G.vertex list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"structural_analysis.ml" 119 3267 3291 "structural_analysis.ml" 119 3267 3292
+type(
+  G.vertex
+)
+ident(
+  def p "structural_analysis.ml" 119 3267 3296 "structural_analysis.ml" 119 3267 3311
+)
+"structural_analysis.ml" 119 3267 3296 "structural_analysis.ml" 119 3267 3307
+type(
+  G.vertex -> G.vertex -> unit
+)
+ident(
+  int_ref update_edge "structural_analysis.ml" 107 2852 2860 "structural_analysis.ml" 107 2852 2871
+)
+"structural_analysis.ml" 119 3267 3308 "structural_analysis.ml" 119 3267 3309
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 119 3267 3291 "structural_analysis.ml" 119 3267 3292
+)
+"structural_analysis.ml" 119 3267 3310 "structural_analysis.ml" 119 3267 3311
+type(
+  G.vertex
+)
+ident(
+  int_ref v "structural_analysis.ml" 116 3152 3163 "structural_analysis.ml" 116 3152 3164
+)
+"structural_analysis.ml" 119 3267 3296 "structural_analysis.ml" 119 3267 3311
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 119 3267 3286 "structural_analysis.ml" 119 3267 3312
+type(
+  G.vertex -> unit
+)
+"structural_analysis.ml" 119 3267 3313 "structural_analysis.ml" 119 3267 3318
+type(
+  G.vertex list
+)
+ident(
+  int_ref preds "structural_analysis.ml" 117 3167 3203 "structural_analysis.ml" 117 3167 3208
+)
+"structural_analysis.ml" 119 3267 3276 "structural_analysis.ml" 119 3267 3319
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 118 3225 3234 "structural_analysis.ml" 119 3267 3319
+type(
+  unit
+)
+"structural_analysis.ml" 117 3167 3176 "structural_analysis.ml" 119 3267 3319
+type(
+  unit
+)
+"structural_analysis.ml" 116 3152 3158 "structural_analysis.ml" 120 3320 3327
+type(
+  G.vertex -> unit
+)
+"structural_analysis.ml" 120 3320 3328 "structural_analysis.ml" 120 3320 3335
+type(
+  G.vertex list
+)
+ident(
+  int_ref nodeset "structural_analysis.ml" 106 2821 2842 "structural_analysis.ml" 106 2821 2849
+)
+"structural_analysis.ml" 115 3138 3142 "structural_analysis.ml" 120 3320 3335
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 121 3337 3341 "structural_analysis.ml" 121 3337 3348
+type(
+  G.t -> G.vertex -> G.vertex list -> unit
+)
+ident(
+  int_ref compact "structural_analysis.ml" 92 2386 2392 "structural_analysis.ml" 92 2386 2399
+)
+"structural_analysis.ml" 121 3337 3349 "structural_analysis.ml" 121 3337 3350
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 106 2821 2835 "structural_analysis.ml" 106 2821 2836
+)
+"structural_analysis.ml" 121 3337 3351 "structural_analysis.ml" 121 3337 3355
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 106 2821 2837 "structural_analysis.ml" 106 2821 2841
+)
+"structural_analysis.ml" 121 3337 3356 "structural_analysis.ml" 121 3337 3363
+type(
+  G.vertex list
+)
+ident(
+  int_ref nodeset "structural_analysis.ml" 106 2821 2842 "structural_analysis.ml" 106 2821 2849
+)
+"structural_analysis.ml" 121 3337 3341 "structural_analysis.ml" 121 3337 3363
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 122 3365 3373 "structural_analysis.ml" 122 3365 3375
+type(
+  G.vertex -> unit
+)
+"structural_analysis.ml" 122 3365 3376 "structural_analysis.ml" 122 3365 3379
+type(
+  G.vertex
+)
+ident(
+  def rmn "structural_analysis.ml" 126 3539 3545 "structural_analysis.ml" 128 3589 3616
+)
+"structural_analysis.ml" 126 3539 3548 "structural_analysis.ml" 126 3539 3551
+type(
+  G.vertex
+)
+ident(
+  int_ref rmn "structural_analysis.ml" 122 3365 3376 "structural_analysis.ml" 122 3365 3379
+)
+"structural_analysis.ml" 126 3539 3552 "structural_analysis.ml" 126 3539 3553
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 126 3539 3554 "structural_analysis.ml" 126 3539 3555
+type(
+  G.vertex ref -> G.vertex
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 126 3539 3555 "structural_analysis.ml" 126 3539 3560
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 126 3539 3554 "structural_analysis.ml" 126 3539 3560
+type(
+  G.vertex
+)
+"structural_analysis.ml" 126 3539 3548 "structural_analysis.ml" 126 3539 3560
+type(
+  bool
+)
+"structural_analysis.ml" 127 3566 3574 "structural_analysis.ml" 127 3566 3579
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 127 3566 3580 "structural_analysis.ml" 127 3566 3582
+type(
+  G.vertex ref -> G.vertex -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 127 3566 3583 "structural_analysis.ml" 127 3566 3587
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 106 2821 2837 "structural_analysis.ml" 106 2821 2841
+)
+"structural_analysis.ml" 127 3566 3574 "structural_analysis.ml" 127 3566 3587
+type(
+  unit
+)
+"structural_analysis.ml" 126 3539 3545 "structural_analysis.ml" 127 3566 3587
+type(
+  unit
+)
+"structural_analysis.ml" 128 3589 3595 "structural_analysis.ml" 128 3589 3610
+type(
+  G.t -> G.vertex -> unit
+)
+ident(
+  ext_ref G.remove_vertex
+)
+"structural_analysis.ml" 128 3589 3611 "structural_analysis.ml" 128 3589 3612
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 106 2821 2835 "structural_analysis.ml" 106 2821 2836
+)
+"structural_analysis.ml" 128 3589 3613 "structural_analysis.ml" 128 3589 3616
+type(
+  G.vertex
+)
+ident(
+  int_ref rmn "structural_analysis.ml" 122 3365 3376 "structural_analysis.ml" 122 3365 3379
+)
+"structural_analysis.ml" 128 3589 3595 "structural_analysis.ml" 128 3589 3616
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 126 3539 3545 "structural_analysis.ml" 128 3589 3616
+type(
+  unit
+)
+"structural_analysis.ml" 130 3624 3628 "structural_analysis.ml" 130 3624 3637
+type(
+  (G.vertex -> unit) -> G.vertex list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"structural_analysis.ml" 130 3624 3638 "structural_analysis.ml" 130 3624 3640
+type(
+  G.vertex -> unit
+)
+ident(
+  int_ref rm "structural_analysis.ml" 122 3365 3373 "structural_analysis.ml" 122 3365 3375
+)
+"structural_analysis.ml" 130 3624 3641 "structural_analysis.ml" 130 3624 3648
+type(
+  G.vertex list
+)
+ident(
+  int_ref nodeset "structural_analysis.ml" 106 2821 2842 "structural_analysis.ml" 106 2821 2849
+)
+"structural_analysis.ml" 130 3624 3628 "structural_analysis.ml" 130 3624 3649
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 122 3365 3369 "structural_analysis.ml" 130 3624 3649
+type(
+  unit
+)
+"structural_analysis.ml" 121 3337 3341 "structural_analysis.ml" 130 3624 3649
+type(
+  unit
+)
+"structural_analysis.ml" 115 3138 3142 "structural_analysis.ml" 130 3624 3649
+type(
+  unit
+)
+"structural_analysis.ml" 114 3113 3117 "structural_analysis.ml" 130 3624 3649
+type(
+  unit
+)
+"structural_analysis.ml" 107 2852 2856 "structural_analysis.ml" 130 3624 3649
+type(
+  unit
+)
+"structural_analysis.ml" 134 3716 3722 "structural_analysis.ml" 134 3716 3728
+type(
+  G.t -> region_type -> G.vertex list -> node
+)
+"structural_analysis.ml" 134 3716 3729 "structural_analysis.ml" 134 3716 3730
+type(
+  G.t
+)
+ident(
+  def g "structural_analysis.ml" 134 3716 3731 "structural_analysis.ml" 140 4024 4032
+)
+"structural_analysis.ml" 134 3716 3731 "structural_analysis.ml" 134 3716 3736
+type(
+  region_type
+)
+ident(
+  def rtype "structural_analysis.ml" 134 3716 3737 "structural_analysis.ml" 140 4024 4032
+)
+"structural_analysis.ml" 134 3716 3737 "structural_analysis.ml" 134 3716 3744
+type(
+  G.vertex list
+)
+ident(
+  def nodeset "structural_analysis.ml" 135 3747 3751 "structural_analysis.ml" 140 4024 4032
+)
+"structural_analysis.ml" 135 3747 3755 "structural_analysis.ml" 135 3747 3759
+type(
+  node
+)
+"structural_analysis.ml" 135 3747 3769 "structural_analysis.ml" 135 3747 3774
+type(
+  region_type
+)
+ident(
+  int_ref rtype "structural_analysis.ml" 134 3716 3731 "structural_analysis.ml" 134 3716 3736
+)
+"structural_analysis.ml" 135 3747 3776 "structural_analysis.ml" 135 3747 3783
+type(
+  G.vertex list
+)
+ident(
+  int_ref nodeset "structural_analysis.ml" 134 3716 3737 "structural_analysis.ml" 134 3716 3744
+)
+"structural_analysis.ml" 135 3747 3762 "structural_analysis.ml" 135 3747 3784
+type(
+  node
+)
+"structural_analysis.ml" 136 3788 3795 "structural_analysis.ml" 136 3788 3800
+type(
+  unit -> bool
+)
+ident(
+  ext_ref D.debug
+)
+"structural_analysis.ml" 136 3788 3800 "structural_analysis.ml" 136 3788 3802
+type(
+  unit
+)
+"structural_analysis.ml" 136 3788 3795 "structural_analysis.ml" 136 3788 3802
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 136 3788 3808 "structural_analysis.ml" 136 3788 3815
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"structural_analysis.ml" 136 3788 3816 "structural_analysis.ml" 136 3788 3847
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 136 3788 3849 "structural_analysis.ml" 136 3788 3856
+type(
+  region_type -> string
+)
+ident(
+  int_ref rtype2s "structural_analysis.ml" 30 622 626 "structural_analysis.ml" 30 622 633
+)
+"structural_analysis.ml" 136 3788 3857 "structural_analysis.ml" 136 3788 3862
+type(
+  region_type
+)
+ident(
+  int_ref rtype "structural_analysis.ml" 134 3716 3731 "structural_analysis.ml" 134 3716 3736
+)
+"structural_analysis.ml" 136 3788 3848 "structural_analysis.ml" 136 3788 3863
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 136 3788 3865 "structural_analysis.ml" 136 3788 3871
+type(
+  node -> string
+)
+ident(
+  int_ref node2s "structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+)
+"structural_analysis.ml" 136 3788 3872 "structural_analysis.ml" 136 3788 3876
+type(
+  node
+)
+ident(
+  int_ref node "structural_analysis.ml" 135 3747 3755 "structural_analysis.ml" 135 3747 3759
+)
+"structural_analysis.ml" 136 3788 3864 "structural_analysis.ml" 136 3788 3877
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 136 3788 3879 "structural_analysis.ml" 136 3788 3886
+type(
+  G.vertex list -> string
+)
+ident(
+  int_ref nodes2s "structural_analysis.ml" 44 1030 1034 "structural_analysis.ml" 44 1030 1041
+)
+"structural_analysis.ml" 136 3788 3887 "structural_analysis.ml" 136 3788 3894
+type(
+  G.vertex list
+)
+ident(
+  int_ref nodeset "structural_analysis.ml" 134 3716 3737 "structural_analysis.ml" 134 3716 3744
+)
+"structural_analysis.ml" 136 3788 3878 "structural_analysis.ml" 136 3788 3895
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 136 3788 3808 "structural_analysis.ml" 136 3788 3895
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 136 3788 3792 "structural_analysis.ml" 136 3788 3895
+type(
+  unit
+)
+"structural_analysis.ml" 137 3897 3901 "structural_analysis.ml" 137 3897 3908
+type(
+  G.t -> G.vertex -> G.vertex list -> unit
+)
+ident(
+  int_ref replace "structural_analysis.ml" 106 2821 2827 "structural_analysis.ml" 106 2821 2834
+)
+"structural_analysis.ml" 137 3897 3909 "structural_analysis.ml" 137 3897 3910
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 134 3716 3729 "structural_analysis.ml" 134 3716 3730
+)
+"structural_analysis.ml" 137 3897 3911 "structural_analysis.ml" 137 3897 3915
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 135 3747 3755 "structural_analysis.ml" 135 3747 3759
+)
+"structural_analysis.ml" 137 3897 3916 "structural_analysis.ml" 137 3897 3923
+type(
+  G.vertex list
+)
+ident(
+  int_ref nodeset "structural_analysis.ml" 134 3716 3737 "structural_analysis.ml" 134 3716 3744
+)
+"structural_analysis.ml" 137 3897 3901 "structural_analysis.ml" 137 3897 3923
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 138 3925 3929 "structural_analysis.ml" 138 3925 3939
+type(
+  G.vertex list ref
+)
+ident(
+  int_ref structures "structural_analysis.ml" 87 2224 2230 "structural_analysis.ml" 87 2224 2240
+)
+"structural_analysis.ml" 138 3925 3940 "structural_analysis.ml" 138 3925 3942
+type(
+  G.vertex list ref -> G.vertex list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 138 3925 3943 "structural_analysis.ml" 138 3925 3947
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 135 3747 3755 "structural_analysis.ml" 135 3747 3759
+)
+"structural_analysis.ml" 138 3925 3951 "structural_analysis.ml" 138 3925 3952
+type(
+  G.vertex list ref -> G.vertex list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 138 3925 3952 "structural_analysis.ml" 138 3925 3962
+type(
+  G.vertex list ref
+)
+ident(
+  int_ref structures "structural_analysis.ml" 87 2224 2230 "structural_analysis.ml" 87 2224 2240
+)
+"structural_analysis.ml" 138 3925 3951 "structural_analysis.ml" 138 3925 3962
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 138 3925 3943 "structural_analysis.ml" 138 3925 3962
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 138 3925 3929 "structural_analysis.ml" 138 3925 3962
+type(
+  unit
+)
+"structural_analysis.ml" 139 3964 3968 "structural_analysis.ml" 139 3964 3977
+type(
+  (G.vertex -> unit) -> G.vertex list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"structural_analysis.ml" 139 3964 3983 "structural_analysis.ml" 139 3964 3984
+type(
+  G.vertex
+)
+ident(
+  def n "structural_analysis.ml" 139 3964 3986 "structural_analysis.ml" 139 3964 4013
+)
+"structural_analysis.ml" 139 3964 3986 "structural_analysis.ml" 139 3964 3997
+type(
+  (G.vertex, node) Hashtbl.t -> G.vertex -> node -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"structural_analysis.ml" 139 3964 3998 "structural_analysis.ml" 139 3964 4006
+type(
+  (G.vertex, node) Hashtbl.t
+)
+ident(
+  int_ref structof "structural_analysis.ml" 88 2286 2292 "structural_analysis.ml" 88 2286 2300
+)
+"structural_analysis.ml" 139 3964 4007 "structural_analysis.ml" 139 3964 4008
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 139 3964 3983 "structural_analysis.ml" 139 3964 3984
+)
+"structural_analysis.ml" 139 3964 4009 "structural_analysis.ml" 139 3964 4013
+type(
+  node
+)
+ident(
+  int_ref node "structural_analysis.ml" 135 3747 3755 "structural_analysis.ml" 135 3747 3759
+)
+"structural_analysis.ml" 139 3964 3986 "structural_analysis.ml" 139 3964 4013
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 139 3964 3978 "structural_analysis.ml" 139 3964 4014
+type(
+  G.vertex -> unit
+)
+"structural_analysis.ml" 139 3964 4015 "structural_analysis.ml" 139 3964 4022
+type(
+  G.vertex list
+)
+ident(
+  int_ref nodeset "structural_analysis.ml" 134 3716 3737 "structural_analysis.ml" 134 3716 3744
+)
+"structural_analysis.ml" 139 3964 3968 "structural_analysis.ml" 139 3964 4022
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 140 4024 4028 "structural_analysis.ml" 140 4024 4032
+type(
+  node
+)
+ident(
+  int_ref node "structural_analysis.ml" 135 3747 3755 "structural_analysis.ml" 135 3747 3759
+)
+"structural_analysis.ml" 139 3964 3968 "structural_analysis.ml" 140 4024 4032
+type(
+  node
+)
+"structural_analysis.ml" 138 3925 3929 "structural_analysis.ml" 140 4024 4032
+type(
+  node
+)
+"structural_analysis.ml" 137 3897 3901 "structural_analysis.ml" 140 4024 4032
+type(
+  node
+)
+"structural_analysis.ml" 136 3788 3792 "structural_analysis.ml" 140 4024 4032
+type(
+  node
+)
+"structural_analysis.ml" 135 3747 3751 "structural_analysis.ml" 140 4024 4032
+type(
+  node
+)
+"structural_analysis.ml" 143 4039 4045 "structural_analysis.ml" 143 4039 4064
+type(
+  G.t -> G.vertex -> (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+type(
+  G.t
+)
+ident(
+  def g "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 183 5482 5565
+)
+"structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+type(
+  G.vertex
+)
+ident(
+  def node "structural_analysis.ml" 145 4118 4122 "structural_analysis.ml" 183 5482 5565
+)
+"structural_analysis.ml" 145 4118 4130 "structural_analysis.ml" 145 4118 4139
+type(
+  G.vertex -> G.vertex list -> G.vertex list
+)
+"structural_analysis.ml" 145 4118 4140 "structural_analysis.ml" 145 4118 4141
+type(
+  G.vertex
+)
+ident(
+  def n "structural_analysis.ml" 145 4118 4142 "structural_analysis.ml" 150 4300 4326
+)
+"structural_analysis.ml" 145 4118 4142 "structural_analysis.ml" 145 4118 4146
+type(
+  G.vertex list
+)
+ident(
+  def nset "structural_analysis.ml" 146 4149 4155 "structural_analysis.ml" 150 4300 4326
+)
+"structural_analysis.ml" 146 4149 4161 "structural_analysis.ml" 146 4149 4167
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"structural_analysis.ml" 146 4149 4168 "structural_analysis.ml" 146 4149 4169
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 146 4149 4170 "structural_analysis.ml" 146 4149 4171
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 145 4118 4140 "structural_analysis.ml" 145 4118 4141
+)
+"structural_analysis.ml" 146 4149 4161 "structural_analysis.ml" 146 4149 4171
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 147 4177 4186 "structural_analysis.ml" 147 4177 4187
+type(
+  G.vertex
+)
+ident(
+  def s "structural_analysis.ml" 147 4177 4192 "structural_analysis.ml" 149 4262 4299
+)
+"structural_analysis.ml" 147 4177 4185 "structural_analysis.ml" 147 4177 4188
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 147 4177 4199 "structural_analysis.ml" 147 4177 4205
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.pred
+)
+"structural_analysis.ml" 147 4177 4206 "structural_analysis.ml" 147 4177 4207
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 147 4177 4208 "structural_analysis.ml" 147 4177 4209
+type(
+  G.vertex
+)
+ident(
+  int_ref s "structural_analysis.ml" 147 4177 4186 "structural_analysis.ml" 147 4177 4187
+)
+"structural_analysis.ml" 147 4177 4199 "structural_analysis.ml" 147 4177 4209
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 148 4215 4234 "structural_analysis.ml" 148 4215 4235
+type(
+  G.vertex
+)
+"structural_analysis.ml" 148 4215 4233 "structural_analysis.ml" 148 4215 4236
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 148 4215 4240 "structural_analysis.ml" 148 4215 4249
+type(
+  G.vertex -> G.vertex list -> G.vertex list
+)
+ident(
+  int_ref succchain "structural_analysis.ml" 145 4118 4130 "structural_analysis.ml" 145 4118 4139
+)
+"structural_analysis.ml" 148 4215 4250 "structural_analysis.ml" 148 4215 4251
+type(
+  G.vertex
+)
+ident(
+  int_ref s "structural_analysis.ml" 147 4177 4186 "structural_analysis.ml" 147 4177 4187
+)
+"structural_analysis.ml" 148 4215 4253 "structural_analysis.ml" 148 4215 4254
+type(
+  G.vertex
+)
+ident(
+  int_ref s "structural_analysis.ml" 147 4177 4186 "structural_analysis.ml" 147 4177 4187
+)
+"structural_analysis.ml" 148 4215 4256 "structural_analysis.ml" 148 4215 4260
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 145 4118 4142 "structural_analysis.ml" 145 4118 4146
+)
+"structural_analysis.ml" 148 4215 4252 "structural_analysis.ml" 148 4215 4261
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 148 4215 4240 "structural_analysis.ml" 148 4215 4261
+call(
+  tail
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 149 4262 4280 "structural_analysis.ml" 149 4262 4281
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 149 4262 4285 "structural_analysis.ml" 149 4262 4293
+type(
+  G.vertex list -> G.vertex list
+)
+ident(
+  ext_ref List.rev
+)
+"structural_analysis.ml" 149 4262 4294 "structural_analysis.ml" 149 4262 4298
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 145 4118 4142 "structural_analysis.ml" 145 4118 4146
+)
+"structural_analysis.ml" 149 4262 4285 "structural_analysis.ml" 149 4262 4298
+call(
+  tail
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 147 4177 4192 "structural_analysis.ml" 149 4262 4299
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 150 4300 4308 "structural_analysis.ml" 150 4300 4309
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 150 4300 4313 "structural_analysis.ml" 150 4300 4321
+type(
+  G.vertex list -> G.vertex list
+)
+ident(
+  ext_ref List.rev
+)
+"structural_analysis.ml" 150 4300 4322 "structural_analysis.ml" 150 4300 4326
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 145 4118 4142 "structural_analysis.ml" 145 4118 4146
+)
+"structural_analysis.ml" 150 4300 4313 "structural_analysis.ml" 150 4300 4326
+call(
+  tail
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 146 4149 4155 "structural_analysis.ml" 150 4300 4326
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 152 4334 4346 "structural_analysis.ml" 152 4334 4355
+type(
+  G.vertex -> G.vertex list -> G.vertex list
+)
+"structural_analysis.ml" 152 4334 4356 "structural_analysis.ml" 152 4334 4357
+type(
+  G.vertex
+)
+ident(
+  def n "structural_analysis.ml" 152 4334 4358 "structural_analysis.ml" 157 4507 4524
+)
+"structural_analysis.ml" 152 4334 4358 "structural_analysis.ml" 152 4334 4362
+type(
+  G.vertex list
+)
+ident(
+  def nset "structural_analysis.ml" 153 4365 4371 "structural_analysis.ml" 157 4507 4524
+)
+"structural_analysis.ml" 153 4365 4377 "structural_analysis.ml" 153 4365 4383
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.pred
+)
+"structural_analysis.ml" 153 4365 4384 "structural_analysis.ml" 153 4365 4385
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 153 4365 4386 "structural_analysis.ml" 153 4365 4387
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 152 4334 4356 "structural_analysis.ml" 152 4334 4357
+)
+"structural_analysis.ml" 153 4365 4377 "structural_analysis.ml" 153 4365 4387
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 154 4393 4402 "structural_analysis.ml" 154 4393 4403
+type(
+  G.vertex
+)
+ident(
+  def p "structural_analysis.ml" 154 4393 4408 "structural_analysis.ml" 156 4478 4506
+)
+"structural_analysis.ml" 154 4393 4401 "structural_analysis.ml" 154 4393 4404
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 154 4393 4415 "structural_analysis.ml" 154 4393 4421
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"structural_analysis.ml" 154 4393 4422 "structural_analysis.ml" 154 4393 4423
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 154 4393 4424 "structural_analysis.ml" 154 4393 4425
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 154 4393 4402 "structural_analysis.ml" 154 4393 4403
+)
+"structural_analysis.ml" 154 4393 4415 "structural_analysis.ml" 154 4393 4425
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 155 4431 4450 "structural_analysis.ml" 155 4431 4451
+type(
+  G.vertex
+)
+"structural_analysis.ml" 155 4431 4449 "structural_analysis.ml" 155 4431 4452
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 155 4431 4456 "structural_analysis.ml" 155 4431 4465
+type(
+  G.vertex -> G.vertex list -> G.vertex list
+)
+ident(
+  int_ref predchain "structural_analysis.ml" 152 4334 4346 "structural_analysis.ml" 152 4334 4355
+)
+"structural_analysis.ml" 155 4431 4466 "structural_analysis.ml" 155 4431 4467
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 154 4393 4402 "structural_analysis.ml" 154 4393 4403
+)
+"structural_analysis.ml" 155 4431 4469 "structural_analysis.ml" 155 4431 4470
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 154 4393 4402 "structural_analysis.ml" 154 4393 4403
+)
+"structural_analysis.ml" 155 4431 4472 "structural_analysis.ml" 155 4431 4476
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 152 4334 4358 "structural_analysis.ml" 152 4334 4362
+)
+"structural_analysis.ml" 155 4431 4468 "structural_analysis.ml" 155 4431 4477
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 155 4431 4456 "structural_analysis.ml" 155 4431 4477
+call(
+  tail
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 156 4478 4496 "structural_analysis.ml" 156 4478 4497
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 156 4478 4501 "structural_analysis.ml" 156 4478 4505
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 152 4334 4358 "structural_analysis.ml" 152 4334 4362
+)
+"structural_analysis.ml" 154 4393 4408 "structural_analysis.ml" 156 4478 4506
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 157 4507 4515 "structural_analysis.ml" 157 4507 4516
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 157 4507 4520 "structural_analysis.ml" 157 4507 4524
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 152 4334 4358 "structural_analysis.ml" 152 4334 4362
+)
+"structural_analysis.ml" 153 4365 4371 "structural_analysis.ml" 157 4507 4524
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 160 4575 4585 "structural_analysis.ml" 160 4575 4591
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"structural_analysis.ml" 160 4575 4592 "structural_analysis.ml" 160 4575 4593
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 160 4575 4594 "structural_analysis.ml" 160 4575 4598
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+)
+"structural_analysis.ml" 160 4575 4585 "structural_analysis.ml" 160 4575 4598
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 161 4604 4611 "structural_analysis.ml" 161 4604 4612
+type(
+  G.vertex
+)
+"structural_analysis.ml" 161 4604 4610 "structural_analysis.ml" 161 4604 4613
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 161 4604 4616 "structural_analysis.ml" 161 4604 4618
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 161 4604 4610 "structural_analysis.ml" 161 4604 4618
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 162 4622 4632 "structural_analysis.ml" 162 4622 4636
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 162 4622 4639 "structural_analysis.ml" 162 4622 4648
+type(
+  G.vertex -> G.vertex list -> G.vertex list
+)
+ident(
+  int_ref predchain "structural_analysis.ml" 152 4334 4346 "structural_analysis.ml" 152 4334 4355
+)
+"structural_analysis.ml" 162 4622 4649 "structural_analysis.ml" 162 4622 4653
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+)
+"structural_analysis.ml" 162 4622 4655 "structural_analysis.ml" 162 4622 4664
+type(
+  G.vertex -> G.vertex list -> G.vertex list
+)
+ident(
+  int_ref succchain "structural_analysis.ml" 145 4118 4130 "structural_analysis.ml" 145 4118 4139
+)
+"structural_analysis.ml" 162 4622 4665 "structural_analysis.ml" 162 4622 4669
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+)
+"structural_analysis.ml" 162 4622 4671 "structural_analysis.ml" 162 4622 4675
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+)
+"structural_analysis.ml" 162 4622 4670 "structural_analysis.ml" 162 4622 4676
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 162 4622 4654 "structural_analysis.ml" 162 4622 4677
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 162 4622 4639 "structural_analysis.ml" 162 4622 4677
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 163 4681 4694 "structural_analysis.ml" 163 4681 4698
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 162 4622 4632 "structural_analysis.ml" 162 4622 4636
+)
+"structural_analysis.ml" 164 4704 4713 "structural_analysis.ml" 164 4704 4714
+type(
+  G.vertex
+)
+"structural_analysis.ml" 164 4704 4716 "structural_analysis.ml" 164 4704 4717
+type(
+  G.vertex
+)
+"structural_analysis.ml" 164 4704 4719 "structural_analysis.ml" 164 4704 4720
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 164 4704 4716 "structural_analysis.ml" 164 4704 4720
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 164 4704 4713 "structural_analysis.ml" 164 4704 4720
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 164 4704 4729 "structural_analysis.ml" 164 4704 4734
+type(
+  region_type
+)
+"structural_analysis.ml" 164 4704 4736 "structural_analysis.ml" 164 4704 4740
+type(
+  G.vertex list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 162 4622 4632 "structural_analysis.ml" 162 4622 4636
+)
+"structural_analysis.ml" 164 4704 4728 "structural_analysis.ml" 164 4704 4741
+type(
+  region_type * G.vertex list
+)
+"structural_analysis.ml" 164 4704 4724 "structural_analysis.ml" 164 4704 4741
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 165 4742 4751 "structural_analysis.ml" 165 4742 4752
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 165 4742 4756 "structural_analysis.ml" 165 4742 4760
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 163 4681 4687 "structural_analysis.ml" 165 4742 4762
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 162 4622 4628 "structural_analysis.ml" 165 4742 4762
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 166 4763 4770 "structural_analysis.ml" 166 4763 4771
+type(
+  G.vertex
+)
+ident(
+  def m "structural_analysis.ml" 167 4805 4811 "structural_analysis.ml" 181 5462 5469
+)
+"structural_analysis.ml" 166 4763 4772 "structural_analysis.ml" 166 4763 4773
+type(
+  G.vertex
+)
+ident(
+  def n "structural_analysis.ml" 167 4805 4811 "structural_analysis.ml" 181 5462 5469
+)
+"structural_analysis.ml" 166 4763 4769 "structural_analysis.ml" 166 4763 4774
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 167 4805 4818 "structural_analysis.ml" 167 4805 4824
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"structural_analysis.ml" 167 4805 4825 "structural_analysis.ml" 167 4805 4826
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 167 4805 4827 "structural_analysis.ml" 167 4805 4828
+type(
+  G.vertex
+)
+ident(
+  int_ref m "structural_analysis.ml" 166 4763 4770 "structural_analysis.ml" 166 4763 4771
+)
+"structural_analysis.ml" 167 4805 4818 "structural_analysis.ml" 167 4805 4828
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 167 4805 4830 "structural_analysis.ml" 167 4805 4836
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"structural_analysis.ml" 167 4805 4837 "structural_analysis.ml" 167 4805 4838
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 167 4805 4839 "structural_analysis.ml" 167 4805 4840
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 166 4763 4772 "structural_analysis.ml" 166 4763 4773
+)
+"structural_analysis.ml" 167 4805 4830 "structural_analysis.ml" 167 4805 4840
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 167 4805 4818 "structural_analysis.ml" 167 4805 4840
+type(
+  G.vertex list * G.vertex list
+)
+"structural_analysis.ml" 168 4846 4856 "structural_analysis.ml" 168 4846 4857
+type(
+  G.vertex
+)
+ident(
+  def s "structural_analysis.ml" 168 4846 4865 "structural_analysis.ml" 171 4981 5055
+)
+"structural_analysis.ml" 168 4846 4855 "structural_analysis.ml" 168 4846 4858
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 168 4846 4861 "structural_analysis.ml" 168 4846 4863
+type(
+  G.vertex
+)
+ident(
+  def s' "structural_analysis.ml" 168 4846 4865 "structural_analysis.ml" 171 4981 5055
+)
+"structural_analysis.ml" 168 4846 4860 "structural_analysis.ml" 168 4846 4864
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 168 4846 4855 "structural_analysis.ml" 168 4846 4864
+type(
+  G.vertex list * G.vertex list
+)
+"structural_analysis.ml" 168 4846 4870 "structural_analysis.ml" 168 4846 4871
+type(
+  G.vertex
+)
+ident(
+  int_ref s "structural_analysis.ml" 168 4846 4856 "structural_analysis.ml" 168 4846 4857
+)
+"structural_analysis.ml" 168 4846 4872 "structural_analysis.ml" 168 4846 4873
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 168 4846 4874 "structural_analysis.ml" 168 4846 4876
+type(
+  G.vertex
+)
+ident(
+  int_ref s' "structural_analysis.ml" 168 4846 4861 "structural_analysis.ml" 168 4846 4863
+)
+"structural_analysis.ml" 168 4846 4870 "structural_analysis.ml" 168 4846 4876
+type(
+  bool
+)
+"structural_analysis.ml" 169 4880 4898 "structural_analysis.ml" 169 4880 4904
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.pred
+)
+"structural_analysis.ml" 169 4880 4905 "structural_analysis.ml" 169 4880 4906
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 169 4880 4907 "structural_analysis.ml" 169 4880 4908
+type(
+  G.vertex
+)
+ident(
+  int_ref m "structural_analysis.ml" 166 4763 4770 "structural_analysis.ml" 166 4763 4771
+)
+"structural_analysis.ml" 169 4880 4898 "structural_analysis.ml" 169 4880 4908
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 169 4880 4910 "structural_analysis.ml" 169 4880 4916
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.pred
+)
+"structural_analysis.ml" 169 4880 4917 "structural_analysis.ml" 169 4880 4918
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 169 4880 4919 "structural_analysis.ml" 169 4880 4920
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 166 4763 4772 "structural_analysis.ml" 166 4763 4773
+)
+"structural_analysis.ml" 169 4880 4910 "structural_analysis.ml" 169 4880 4920
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 169 4880 4898 "structural_analysis.ml" 169 4880 4920
+type(
+  G.vertex list * G.vertex list
+)
+"structural_analysis.ml" 170 4926 4941 "structural_analysis.ml" 170 4926 4942
+type(
+  G.vertex
+)
+"structural_analysis.ml" 170 4926 4940 "structural_analysis.ml" 170 4926 4943
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 170 4926 4946 "structural_analysis.ml" 170 4926 4947
+type(
+  G.vertex
+)
+"structural_analysis.ml" 170 4926 4945 "structural_analysis.ml" 170 4926 4948
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 170 4926 4940 "structural_analysis.ml" 170 4926 4948
+type(
+  G.vertex list * G.vertex list
+)
+"structural_analysis.ml" 170 4926 4957 "structural_analysis.ml" 170 4926 4967
+type(
+  region_type
+)
+"structural_analysis.ml" 170 4926 4970 "structural_analysis.ml" 170 4926 4974
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+)
+"structural_analysis.ml" 170 4926 4975 "structural_analysis.ml" 170 4926 4976
+type(
+  G.vertex
+)
+ident(
+  int_ref m "structural_analysis.ml" 166 4763 4770 "structural_analysis.ml" 166 4763 4771
+)
+"structural_analysis.ml" 170 4926 4977 "structural_analysis.ml" 170 4926 4978
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 166 4763 4772 "structural_analysis.ml" 166 4763 4773
+)
+"structural_analysis.ml" 170 4926 4969 "structural_analysis.ml" 170 4926 4979
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 170 4926 4956 "structural_analysis.ml" 170 4926 4980
+type(
+  region_type * G.vertex list
+)
+"structural_analysis.ml" 170 4926 4952 "structural_analysis.ml" 170 4926 4980
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 171 4981 4995 "structural_analysis.ml" 171 4981 4996
+type(
+  G.vertex list * G.vertex list
+)
+"structural_analysis.ml" 171 4981 5000 "structural_analysis.ml" 171 4981 5008
+type(
+  string -> (region_type * G.vertex list) option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"structural_analysis.ml" 171 4981 5009 "structural_analysis.ml" 171 4981 5053
+type(
+  string
+)
+"structural_analysis.ml" 171 4981 5000 "structural_analysis.ml" 171 4981 5053
+call(
+  tail
+)
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 169 4880 4891 "structural_analysis.ml" 171 4981 5055
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 168 4846 4865 "structural_analysis.ml" 171 4981 5055
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 172 5118 5128 "structural_analysis.ml" 172 5118 5129
+type(
+  G.vertex
+)
+ident(
+  def s "structural_analysis.ml" 172 5118 5133 "structural_analysis.ml" 173 5170 5204
+)
+"structural_analysis.ml" 172 5118 5127 "structural_analysis.ml" 172 5118 5130
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 172 5118 5131 "structural_analysis.ml" 172 5118 5132
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 172 5118 5127 "structural_analysis.ml" 172 5118 5132
+type(
+  G.vertex list * G.vertex list
+)
+"structural_analysis.ml" 172 5118 5138 "structural_analysis.ml" 172 5118 5139
+type(
+  G.vertex
+)
+ident(
+  int_ref s "structural_analysis.ml" 172 5118 5128 "structural_analysis.ml" 172 5118 5129
+)
+"structural_analysis.ml" 172 5118 5140 "structural_analysis.ml" 172 5118 5141
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 172 5118 5142 "structural_analysis.ml" 172 5118 5143
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 166 4763 4772 "structural_analysis.ml" 166 4763 4773
+)
+"structural_analysis.ml" 172 5118 5138 "structural_analysis.ml" 172 5118 5143
+type(
+  bool
+)
+"structural_analysis.ml" 172 5118 5144 "structural_analysis.ml" 172 5118 5146
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"structural_analysis.ml" 172 5118 5147 "structural_analysis.ml" 172 5118 5153
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.pred
+)
+"structural_analysis.ml" 172 5118 5154 "structural_analysis.ml" 172 5118 5155
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 172 5118 5156 "structural_analysis.ml" 172 5118 5157
+type(
+  G.vertex
+)
+ident(
+  int_ref m "structural_analysis.ml" 166 4763 4770 "structural_analysis.ml" 166 4763 4771
+)
+"structural_analysis.ml" 172 5118 5147 "structural_analysis.ml" 172 5118 5157
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 172 5118 5158 "structural_analysis.ml" 172 5118 5159
+type(
+  G.vertex list -> G.vertex list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 172 5118 5161 "structural_analysis.ml" 172 5118 5165
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+)
+"structural_analysis.ml" 172 5118 5160 "structural_analysis.ml" 172 5118 5166
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 172 5118 5147 "structural_analysis.ml" 172 5118 5166
+type(
+  bool
+)
+"structural_analysis.ml" 172 5118 5138 "structural_analysis.ml" 172 5118 5166
+type(
+  bool
+)
+"structural_analysis.ml" 173 5170 5186 "structural_analysis.ml" 173 5170 5192
+type(
+  region_type
+)
+"structural_analysis.ml" 173 5170 5195 "structural_analysis.ml" 173 5170 5199
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+)
+"structural_analysis.ml" 173 5170 5201 "structural_analysis.ml" 173 5170 5202
+type(
+  G.vertex
+)
+ident(
+  int_ref m "structural_analysis.ml" 166 4763 4770 "structural_analysis.ml" 166 4763 4771
+)
+"structural_analysis.ml" 173 5170 5194 "structural_analysis.ml" 173 5170 5203
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 173 5170 5185 "structural_analysis.ml" 173 5170 5204
+type(
+  region_type * G.vertex list
+)
+"structural_analysis.ml" 173 5170 5181 "structural_analysis.ml" 173 5170 5204
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 172 5118 5133 "structural_analysis.ml" 173 5170 5204
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 174 5205 5214 "structural_analysis.ml" 174 5205 5215
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 174 5205 5217 "structural_analysis.ml" 174 5205 5218
+type(
+  G.vertex
+)
+ident(
+  def s "structural_analysis.ml" 174 5205 5220 "structural_analysis.ml" 175 5257 5291
+)
+"structural_analysis.ml" 174 5205 5216 "structural_analysis.ml" 174 5205 5219
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 174 5205 5214 "structural_analysis.ml" 174 5205 5219
+type(
+  G.vertex list * G.vertex list
+)
+"structural_analysis.ml" 174 5205 5225 "structural_analysis.ml" 174 5205 5226
+type(
+  G.vertex
+)
+ident(
+  int_ref s "structural_analysis.ml" 174 5205 5217 "structural_analysis.ml" 174 5205 5218
+)
+"structural_analysis.ml" 174 5205 5227 "structural_analysis.ml" 174 5205 5228
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 174 5205 5229 "structural_analysis.ml" 174 5205 5230
+type(
+  G.vertex
+)
+ident(
+  int_ref m "structural_analysis.ml" 166 4763 4770 "structural_analysis.ml" 166 4763 4771
+)
+"structural_analysis.ml" 174 5205 5225 "structural_analysis.ml" 174 5205 5230
+type(
+  bool
+)
+"structural_analysis.ml" 174 5205 5231 "structural_analysis.ml" 174 5205 5233
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"structural_analysis.ml" 174 5205 5234 "structural_analysis.ml" 174 5205 5240
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.pred
+)
+"structural_analysis.ml" 174 5205 5241 "structural_analysis.ml" 174 5205 5242
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 143 4039 4065 "structural_analysis.ml" 143 4039 4066
+)
+"structural_analysis.ml" 174 5205 5243 "structural_analysis.ml" 174 5205 5244
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 166 4763 4772 "structural_analysis.ml" 166 4763 4773
+)
+"structural_analysis.ml" 174 5205 5234 "structural_analysis.ml" 174 5205 5244
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 174 5205 5245 "structural_analysis.ml" 174 5205 5246
+type(
+  G.vertex list -> G.vertex list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 174 5205 5248 "structural_analysis.ml" 174 5205 5252
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+)
+"structural_analysis.ml" 174 5205 5247 "structural_analysis.ml" 174 5205 5253
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 174 5205 5234 "structural_analysis.ml" 174 5205 5253
+type(
+  bool
+)
+"structural_analysis.ml" 174 5205 5225 "structural_analysis.ml" 174 5205 5253
+type(
+  bool
+)
+"structural_analysis.ml" 175 5257 5273 "structural_analysis.ml" 175 5257 5279
+type(
+  region_type
+)
+"structural_analysis.ml" 175 5257 5282 "structural_analysis.ml" 175 5257 5286
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+)
+"structural_analysis.ml" 175 5257 5288 "structural_analysis.ml" 175 5257 5289
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 166 4763 4772 "structural_analysis.ml" 166 4763 4773
+)
+"structural_analysis.ml" 175 5257 5281 "structural_analysis.ml" 175 5257 5290
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 175 5257 5272 "structural_analysis.ml" 175 5257 5291
+type(
+  region_type * G.vertex list
+)
+"structural_analysis.ml" 175 5257 5268 "structural_analysis.ml" 175 5257 5291
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 174 5205 5220 "structural_analysis.ml" 175 5257 5291
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 176 5292 5301 "structural_analysis.ml" 176 5292 5302
+type(
+  G.vertex list * G.vertex list
+)
+"structural_analysis.ml" 177 5306 5317 "structural_analysis.ml" 177 5306 5321
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 167 4805 4811 "structural_analysis.ml" 181 5462 5469
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 182 5470 5476 "structural_analysis.ml" 182 5470 5477
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 183 5482 5488 "structural_analysis.ml" 183 5482 5496
+type(
+  string -> (region_type * G.vertex list) option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"structural_analysis.ml" 183 5482 5497 "structural_analysis.ml" 183 5482 5552
+type(
+  string
+)
+"structural_analysis.ml" 183 5482 5552 "structural_analysis.ml" 183 5482 5553
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"structural_analysis.ml" 183 5482 5553 "structural_analysis.ml" 183 5482 5559
+type(
+  G.vertex -> string
+)
+ident(
+  int_ref node2s "structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+)
+"structural_analysis.ml" 183 5482 5560 "structural_analysis.ml" 183 5482 5564
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 143 4039 4067 "structural_analysis.ml" 143 4039 4071
+)
+"structural_analysis.ml" 183 5482 5553 "structural_analysis.ml" 183 5482 5564
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 183 5482 5496 "structural_analysis.ml" 183 5482 5565
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 183 5482 5488 "structural_analysis.ml" 183 5482 5565
+call(
+  tail
+)
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 160 4575 4579 "structural_analysis.ml" 183 5482 5565
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 152 4334 4338 "structural_analysis.ml" 183 5482 5565
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 145 4118 4122 "structural_analysis.ml" 183 5482 5565
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 186 5572 5578 "structural_analysis.ml" 186 5572 5595
+type(
+  G.t -> 'b -> 'c -> 'd
+)
+"structural_analysis.ml" 186 5572 5596 "structural_analysis.ml" 186 5572 5597
+type(
+  G.t
+)
+ident(
+  def g "structural_analysis.ml" 186 5572 5598 "structural_analysis.ml" 188 5624 5691
+)
+"structural_analysis.ml" 186 5572 5598 "structural_analysis.ml" 186 5572 5602
+type(
+  'b
+)
+ident(
+  def node "structural_analysis.ml" 186 5572 5603 "structural_analysis.ml" 188 5624 5691
+)
+"structural_analysis.ml" 186 5572 5603 "structural_analysis.ml" 186 5572 5607
+type(
+  'c
+)
+ident(
+  def nset "structural_analysis.ml" 187 5610 5614 "structural_analysis.ml" 188 5624 5691
+)
+"structural_analysis.ml" 187 5610 5614 "structural_analysis.ml" 187 5610 5620
+type(
+  G.t -> unit
+)
+ident(
+  int_ref printg "structural_analysis.ml" 50 1226 1230 "structural_analysis.ml" 50 1226 1236
+)
+"structural_analysis.ml" 187 5610 5621 "structural_analysis.ml" 187 5610 5622
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 186 5572 5596 "structural_analysis.ml" 186 5572 5597
+)
+"structural_analysis.ml" 187 5610 5614 "structural_analysis.ml" 187 5610 5622
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 188 5624 5628 "structural_analysis.ml" 188 5624 5636
+type(
+  string -> 'd
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"structural_analysis.ml" 188 5624 5637 "structural_analysis.ml" 188 5624 5691
+type(
+  string
+)
+"structural_analysis.ml" 188 5624 5628 "structural_analysis.ml" 188 5624 5691
+call(
+  tail
+)
+type(
+  'd
+)
+"structural_analysis.ml" 187 5610 5614 "structural_analysis.ml" 188 5624 5691
+type(
+  'd
+)
+"structural_analysis.ml" 190 5697 5703 "structural_analysis.ml" 190 5697 5721
+type(
+  G.t -> G.vertex -> G.V.t list -> (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 190 5697 5722 "structural_analysis.ml" 190 5697 5723
+type(
+  G.t
+)
+ident(
+  def g "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 208 6514 6598
+)
+"structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+type(
+  G.vertex
+)
+ident(
+  def node "structural_analysis.ml" 190 5697 5729 "structural_analysis.ml" 208 6514 6598
+)
+"structural_analysis.ml" 190 5697 5729 "structural_analysis.ml" 190 5697 5733
+type(
+  G.V.t list
+)
+ident(
+  def nset "structural_analysis.ml" 191 5736 5740 "structural_analysis.ml" 208 6514 6598
+)
+"structural_analysis.ml" 191 5736 5740 "structural_analysis.ml" 191 5736 5747
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"structural_analysis.ml" 191 5736 5748 "structural_analysis.ml" 191 5736 5786
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 191 5736 5788 "structural_analysis.ml" 191 5736 5794
+type(
+  G.vertex -> string
+)
+ident(
+  int_ref node2s "structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+)
+"structural_analysis.ml" 191 5736 5795 "structural_analysis.ml" 191 5736 5799
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+)
+"structural_analysis.ml" 191 5736 5787 "structural_analysis.ml" 191 5736 5800
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 191 5736 5802 "structural_analysis.ml" 191 5736 5809
+type(
+  G.V.t list -> string
+)
+ident(
+  int_ref nodes2s "structural_analysis.ml" 44 1030 1034 "structural_analysis.ml" 44 1030 1041
+)
+"structural_analysis.ml" 191 5736 5810 "structural_analysis.ml" 191 5736 5814
+type(
+  G.V.t list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 190 5697 5729 "structural_analysis.ml" 190 5697 5733
+)
+"structural_analysis.ml" 191 5736 5801 "structural_analysis.ml" 191 5736 5815
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 191 5736 5740 "structural_analysis.ml" 191 5736 5815
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 192 5817 5827 "structural_analysis.ml" 192 5817 5831
+type(
+  G.V.t list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 190 5697 5729 "structural_analysis.ml" 190 5697 5733
+)
+"structural_analysis.ml" 193 5837 5844 "structural_analysis.ml" 193 5837 5845
+type(
+  G.V.t
+)
+"structural_analysis.ml" 193 5837 5843 "structural_analysis.ml" 193 5837 5846
+type(
+  G.V.t list
+)
+"structural_analysis.ml" 194 5850 5856 "structural_analysis.ml" 194 5850 5863
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"structural_analysis.ml" 194 5850 5864 "structural_analysis.ml" 194 5850 5880
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 194 5850 5882 "structural_analysis.ml" 194 5850 5889
+type(
+  G.vertex list -> string
+)
+ident(
+  int_ref nodes2s "structural_analysis.ml" 44 1030 1034 "structural_analysis.ml" 44 1030 1041
+)
+"structural_analysis.ml" 194 5850 5891 "structural_analysis.ml" 194 5850 5897
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"structural_analysis.ml" 194 5850 5898 "structural_analysis.ml" 194 5850 5899
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 190 5697 5722 "structural_analysis.ml" 190 5697 5723
+)
+"structural_analysis.ml" 194 5850 5900 "structural_analysis.ml" 194 5850 5904
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+)
+"structural_analysis.ml" 194 5850 5890 "structural_analysis.ml" 194 5850 5905
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 194 5850 5881 "structural_analysis.ml" 194 5850 5906
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 194 5850 5856 "structural_analysis.ml" 194 5850 5906
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 195 5908 5917 "structural_analysis.ml" 195 5908 5925
+type(
+  G.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"structural_analysis.ml" 195 5908 5926 "structural_analysis.ml" 195 5908 5930
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+)
+"structural_analysis.ml" 195 5908 5932 "structural_analysis.ml" 195 5908 5938
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"structural_analysis.ml" 195 5908 5939 "structural_analysis.ml" 195 5908 5940
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 190 5697 5722 "structural_analysis.ml" 190 5697 5723
+)
+"structural_analysis.ml" 195 5908 5941 "structural_analysis.ml" 195 5908 5945
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+)
+"structural_analysis.ml" 195 5908 5931 "structural_analysis.ml" 195 5908 5946
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 195 5908 5917 "structural_analysis.ml" 195 5908 5946
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 196 5952 5965 "structural_analysis.ml" 196 5952 5973
+type(
+  region_type
+)
+"structural_analysis.ml" 196 5952 5975 "structural_analysis.ml" 196 5952 5979
+type(
+  G.V.t list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 190 5697 5729 "structural_analysis.ml" 190 5697 5733
+)
+"structural_analysis.ml" 196 5952 5964 "structural_analysis.ml" 196 5952 5980
+type(
+  region_type * G.V.t list
+)
+"structural_analysis.ml" 196 5952 5960 "structural_analysis.ml" 196 5952 5980
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 197 5981 5993 "structural_analysis.ml" 197 5981 6000
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"structural_analysis.ml" 197 5981 6001 "structural_analysis.ml" 197 5981 6040
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 197 5981 6042 "structural_analysis.ml" 197 5981 6048
+type(
+  G.vertex -> string
+)
+ident(
+  int_ref node2s "structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+)
+"structural_analysis.ml" 197 5981 6049 "structural_analysis.ml" 197 5981 6053
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+)
+"structural_analysis.ml" 197 5981 6041 "structural_analysis.ml" 197 5981 6054
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 197 5981 5993 "structural_analysis.ml" 197 5981 6054
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 197 5981 6056 "structural_analysis.ml" 197 5981 6060
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 197 5981 5992 "structural_analysis.ml" 197 5981 6061
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 195 5908 5914 "structural_analysis.ml" 197 5981 6061
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 194 5850 5856 "structural_analysis.ml" 197 5981 6061
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 198 6062 6068 "structural_analysis.ml" 198 6062 6069
+type(
+  G.V.t
+)
+ident(
+  def x "structural_analysis.ml" 199 6079 6085 "structural_analysis.ml" 207 6477 6513
+)
+"structural_analysis.ml" 198 6062 6071 "structural_analysis.ml" 198 6062 6072
+type(
+  G.V.t
+)
+ident(
+  def y "structural_analysis.ml" 199 6079 6085 "structural_analysis.ml" 207 6477 6513
+)
+"structural_analysis.ml" 198 6062 6074 "structural_analysis.ml" 198 6062 6075
+type(
+  G.V.t list
+)
+"structural_analysis.ml" 198 6062 6071 "structural_analysis.ml" 198 6062 6075
+type(
+  G.V.t list
+)
+"structural_analysis.ml" 198 6062 6068 "structural_analysis.ml" 198 6062 6075
+type(
+  G.V.t list
+)
+"structural_analysis.ml" 199 6079 6089 "structural_analysis.ml" 199 6079 6091
+type(
+  PC.path_checker
+)
+"structural_analysis.ml" 199 6079 6094 "structural_analysis.ml" 199 6079 6103
+type(
+  G.t -> PC.path_checker
+)
+ident(
+  ext_ref PC.create
+)
+"structural_analysis.ml" 199 6079 6104 "structural_analysis.ml" 199 6079 6105
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 190 5697 5722 "structural_analysis.ml" 190 5697 5723
+)
+"structural_analysis.ml" 199 6079 6094 "structural_analysis.ml" 199 6079 6105
+call(
+  stack
+)
+type(
+  PC.path_checker
+)
+"structural_analysis.ml" 200 6109 6118 "structural_analysis.ml" 200 6109 6129
+type(
+  (G.V.t -> bool) -> G.V.t list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"structural_analysis.ml" 200 6109 6135 "structural_analysis.ml" 200 6109 6136
+type(
+  G.V.t
+)
+ident(
+  def m "structural_analysis.ml" 200 6109 6140 "structural_analysis.ml" 200 6109 6168
+)
+"structural_analysis.ml" 200 6109 6140 "structural_analysis.ml" 200 6109 6143
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"structural_analysis.ml" 200 6109 6144 "structural_analysis.ml" 200 6109 6157
+type(
+  PC.path_checker -> G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref PC.check_path
+)
+"structural_analysis.ml" 200 6109 6158 "structural_analysis.ml" 200 6109 6160
+type(
+  PC.path_checker
+)
+ident(
+  int_ref pc "structural_analysis.ml" 199 6079 6089 "structural_analysis.ml" 199 6079 6091
+)
+"structural_analysis.ml" 200 6109 6161 "structural_analysis.ml" 200 6109 6165
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+)
+"structural_analysis.ml" 200 6109 6166 "structural_analysis.ml" 200 6109 6167
+type(
+  G.V.t
+)
+ident(
+  int_ref m "structural_analysis.ml" 200 6109 6135 "structural_analysis.ml" 200 6109 6136
+)
+"structural_analysis.ml" 200 6109 6143 "structural_analysis.ml" 200 6109 6168
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 200 6109 6140 "structural_analysis.ml" 200 6109 6168
+type(
+  bool
+)
+"structural_analysis.ml" 200 6109 6130 "structural_analysis.ml" 200 6109 6170
+type(
+  G.V.t -> bool
+)
+"structural_analysis.ml" 200 6109 6171 "structural_analysis.ml" 200 6109 6175
+type(
+  G.V.t list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 190 5697 5729 "structural_analysis.ml" 190 5697 5733
+)
+"structural_analysis.ml" 200 6109 6118 "structural_analysis.ml" 200 6109 6175
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 201 6181 6194 "structural_analysis.ml" 201 6181 6202
+type(
+  region_type
+)
+"structural_analysis.ml" 201 6181 6204 "structural_analysis.ml" 201 6181 6221
+type(
+  G.t -> G.vertex -> G.V.t list -> G.V.t list
+)
+ident(
+  int_ref minimize_improper "structural_analysis.ml" 186 5572 5578 "structural_analysis.ml" 186 5572 5595
+)
+"structural_analysis.ml" 201 6181 6222 "structural_analysis.ml" 201 6181 6223
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 190 5697 5722 "structural_analysis.ml" 190 5697 5723
+)
+"structural_analysis.ml" 201 6181 6224 "structural_analysis.ml" 201 6181 6228
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+)
+"structural_analysis.ml" 201 6181 6229 "structural_analysis.ml" 201 6181 6233
+type(
+  G.V.t list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 190 5697 5729 "structural_analysis.ml" 190 5697 5733
+)
+"structural_analysis.ml" 201 6181 6204 "structural_analysis.ml" 201 6181 6233
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"structural_analysis.ml" 201 6181 6193 "structural_analysis.ml" 201 6181 6234
+type(
+  region_type * G.V.t list
+)
+"structural_analysis.ml" 201 6181 6189 "structural_analysis.ml" 201 6181 6234
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 203 6246 6258 "structural_analysis.ml" 203 6246 6259
+type(
+  G.V.t
+)
+"structural_analysis.ml" 203 6246 6265 "structural_analysis.ml" 203 6246 6266
+type(
+  G.V.t
+)
+ident(
+  int_ref x "structural_analysis.ml" 198 6062 6068 "structural_analysis.ml" 198 6062 6069
+)
+"structural_analysis.ml" 203 6246 6267 "structural_analysis.ml" 203 6246 6269
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"structural_analysis.ml" 203 6246 6270 "structural_analysis.ml" 203 6246 6274
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+)
+"structural_analysis.ml" 203 6246 6265 "structural_analysis.ml" 203 6246 6274
+type(
+  bool
+)
+"structural_analysis.ml" 203 6246 6280 "structural_analysis.ml" 203 6246 6281
+type(
+  G.V.t
+)
+ident(
+  int_ref x "structural_analysis.ml" 198 6062 6068 "structural_analysis.ml" 198 6062 6069
+)
+"structural_analysis.ml" 203 6246 6287 "structural_analysis.ml" 203 6246 6288
+type(
+  G.V.t
+)
+ident(
+  int_ref y "structural_analysis.ml" 198 6062 6071 "structural_analysis.ml" 198 6062 6072
+)
+"structural_analysis.ml" 203 6246 6262 "structural_analysis.ml" 203 6246 6288
+type(
+  G.V.t
+)
+"structural_analysis.ml" 204 6292 6303 "structural_analysis.ml" 204 6292 6314
+type(
+  G.vertex list -> int
+)
+ident(
+  ext_ref List.length
+)
+"structural_analysis.ml" 204 6292 6316 "structural_analysis.ml" 204 6292 6322
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"structural_analysis.ml" 204 6292 6323 "structural_analysis.ml" 204 6292 6324
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 190 5697 5722 "structural_analysis.ml" 190 5697 5723
+)
+"structural_analysis.ml" 204 6292 6325 "structural_analysis.ml" 204 6292 6329
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+)
+"structural_analysis.ml" 204 6292 6315 "structural_analysis.ml" 204 6292 6330
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 204 6292 6303 "structural_analysis.ml" 204 6292 6330
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 204 6292 6331 "structural_analysis.ml" 204 6292 6332
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 204 6292 6333 "structural_analysis.ml" 204 6292 6334
+type(
+  int
+)
+"structural_analysis.ml" 204 6292 6303 "structural_analysis.ml" 204 6292 6334
+type(
+  bool
+)
+"structural_analysis.ml" 204 6292 6335 "structural_analysis.ml" 204 6292 6337
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"structural_analysis.ml" 204 6292 6338 "structural_analysis.ml" 204 6292 6349
+type(
+  G.vertex list -> int
+)
+ident(
+  ext_ref List.length
+)
+"structural_analysis.ml" 204 6292 6350 "structural_analysis.ml" 204 6292 6356
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"structural_analysis.ml" 204 6292 6357 "structural_analysis.ml" 204 6292 6358
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 190 5697 5722 "structural_analysis.ml" 190 5697 5723
+)
+"structural_analysis.ml" 204 6292 6359 "structural_analysis.ml" 204 6292 6360
+type(
+  G.V.t
+)
+ident(
+  int_ref m "structural_analysis.ml" 203 6246 6258 "structural_analysis.ml" 203 6246 6259
+)
+"structural_analysis.ml" 204 6292 6349 "structural_analysis.ml" 204 6292 6361
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 204 6292 6338 "structural_analysis.ml" 204 6292 6361
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 204 6292 6362 "structural_analysis.ml" 204 6292 6363
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 204 6292 6364 "structural_analysis.ml" 204 6292 6365
+type(
+  int
+)
+"structural_analysis.ml" 204 6292 6338 "structural_analysis.ml" 204 6292 6365
+type(
+  bool
+)
+"structural_analysis.ml" 205 6366 6376 "structural_analysis.ml" 205 6366 6378
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"structural_analysis.ml" 205 6366 6379 "structural_analysis.ml" 205 6366 6390
+type(
+  G.vertex list -> int
+)
+ident(
+  ext_ref List.length
+)
+"structural_analysis.ml" 205 6366 6392 "structural_analysis.ml" 205 6366 6398
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.pred
+)
+"structural_analysis.ml" 205 6366 6399 "structural_analysis.ml" 205 6366 6400
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 190 5697 5722 "structural_analysis.ml" 190 5697 5723
+)
+"structural_analysis.ml" 205 6366 6401 "structural_analysis.ml" 205 6366 6405
+type(
+  G.vertex
+)
+ident(
+  int_ref node "structural_analysis.ml" 190 5697 5724 "structural_analysis.ml" 190 5697 5728
+)
+"structural_analysis.ml" 205 6366 6391 "structural_analysis.ml" 205 6366 6406
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 205 6366 6379 "structural_analysis.ml" 205 6366 6406
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 205 6366 6407 "structural_analysis.ml" 205 6366 6408
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 205 6366 6409 "structural_analysis.ml" 205 6366 6410
+type(
+  int
+)
+"structural_analysis.ml" 205 6366 6379 "structural_analysis.ml" 205 6366 6410
+type(
+  bool
+)
+"structural_analysis.ml" 205 6366 6411 "structural_analysis.ml" 205 6366 6413
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"structural_analysis.ml" 205 6366 6414 "structural_analysis.ml" 205 6366 6425
+type(
+  G.vertex list -> int
+)
+ident(
+  ext_ref List.length
+)
+"structural_analysis.ml" 205 6366 6426 "structural_analysis.ml" 205 6366 6432
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.pred
+)
+"structural_analysis.ml" 205 6366 6433 "structural_analysis.ml" 205 6366 6434
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 190 5697 5722 "structural_analysis.ml" 190 5697 5723
+)
+"structural_analysis.ml" 205 6366 6435 "structural_analysis.ml" 205 6366 6436
+type(
+  G.V.t
+)
+ident(
+  int_ref m "structural_analysis.ml" 203 6246 6258 "structural_analysis.ml" 203 6246 6259
+)
+"structural_analysis.ml" 205 6366 6425 "structural_analysis.ml" 205 6366 6437
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 205 6366 6414 "structural_analysis.ml" 205 6366 6437
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 205 6366 6438 "structural_analysis.ml" 205 6366 6439
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 205 6366 6440 "structural_analysis.ml" 205 6366 6441
+type(
+  int
+)
+"structural_analysis.ml" 205 6366 6414 "structural_analysis.ml" 205 6366 6441
+type(
+  bool
+)
+"structural_analysis.ml" 205 6366 6379 "structural_analysis.ml" 205 6366 6441
+type(
+  bool
+)
+"structural_analysis.ml" 204 6292 6338 "structural_analysis.ml" 205 6366 6441
+type(
+  bool
+)
+"structural_analysis.ml" 204 6292 6303 "structural_analysis.ml" 205 6366 6441
+type(
+  bool
+)
+"structural_analysis.ml" 206 6442 6460 "structural_analysis.ml" 206 6442 6469
+type(
+  region_type
+)
+"structural_analysis.ml" 206 6442 6471 "structural_analysis.ml" 206 6442 6475
+type(
+  G.V.t list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 190 5697 5729 "structural_analysis.ml" 190 5697 5733
+)
+"structural_analysis.ml" 206 6442 6459 "structural_analysis.ml" 206 6442 6476
+type(
+  region_type * G.V.t list
+)
+"structural_analysis.ml" 206 6442 6455 "structural_analysis.ml" 206 6442 6476
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 207 6477 6495 "structural_analysis.ml" 207 6477 6506
+type(
+  region_type
+)
+"structural_analysis.ml" 207 6477 6508 "structural_analysis.ml" 207 6477 6512
+type(
+  G.V.t list
+)
+ident(
+  int_ref nset "structural_analysis.ml" 190 5697 5729 "structural_analysis.ml" 190 5697 5733
+)
+"structural_analysis.ml" 207 6477 6494 "structural_analysis.ml" 207 6477 6513
+type(
+  region_type * G.V.t list
+)
+"structural_analysis.ml" 207 6477 6490 "structural_analysis.ml" 207 6477 6513
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 204 6292 6300 "structural_analysis.ml" 207 6477 6513
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 203 6246 6254 "structural_analysis.ml" 207 6477 6513
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 200 6109 6115 "structural_analysis.ml" 207 6477 6513
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 199 6079 6085 "structural_analysis.ml" 207 6477 6513
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 208 6514 6520 "structural_analysis.ml" 208 6514 6522
+type(
+  G.V.t list
+)
+"structural_analysis.ml" 208 6514 6526 "structural_analysis.ml" 208 6514 6534
+type(
+  string -> (region_type * G.V.t list) option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"structural_analysis.ml" 208 6514 6535 "structural_analysis.ml" 208 6514 6598
+type(
+  string
+)
+"structural_analysis.ml" 208 6514 6526 "structural_analysis.ml" 208 6514 6598
+call(
+  tail
+)
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 192 5817 5821 "structural_analysis.ml" 208 6514 6598
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 191 5736 5740 "structural_analysis.ml" 208 6514 6598
+type(
+  (region_type * G.V.t list) option
+)
+"structural_analysis.ml" 210 6604 6610 "structural_analysis.ml" 210 6604 6624
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+"structural_analysis.ml" 210 6604 6625 "structural_analysis.ml" 210 6604 6626
+type(
+  G.t
+)
+ident(
+  def g "structural_analysis.ml" 210 6604 6627 "structural_analysis.ml" 220 7043 7146
+)
+"structural_analysis.ml" 210 6604 6627 "structural_analysis.ml" 210 6604 6628
+type(
+  G.vertex
+)
+ident(
+  def n "structural_analysis.ml" 212 6670 6674 "structural_analysis.ml" 220 7043 7146
+)
+"structural_analysis.ml" 212 6670 6690 "structural_analysis.ml" 212 6670 6709
+call(
+  stack
+)
+"structural_analysis.ml" 213 6713 6721 "structural_analysis.ml" 213 6713 6730
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  def backedges "structural_analysis.ml" 214 6760 6764 "structural_analysis.ml" 220 7043 7146
+)
+"structural_analysis.ml" 213 6713 6733 "structural_analysis.ml" 213 6713 6747
+type(
+  G.t -> G.vertex -> (G.vertex * G.vertex) list
+)
+ident(
+  int_ref find_backedges "structural_analysis.ml" 65 1616 1620 "structural_analysis.ml" 65 1616 1634
+)
+"structural_analysis.ml" 213 6713 6748 "structural_analysis.ml" 213 6713 6749
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 210 6604 6625 "structural_analysis.ml" 210 6604 6626
+)
+"structural_analysis.ml" 213 6713 6750 "structural_analysis.ml" 213 6713 6751
+type(
+  G.vertex ref -> G.vertex
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 213 6713 6751 "structural_analysis.ml" 213 6713 6756
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 213 6713 6750 "structural_analysis.ml" 213 6713 6756
+type(
+  G.vertex
+)
+"structural_analysis.ml" 213 6713 6733 "structural_analysis.ml" 213 6713 6756
+call(
+  stack
+)
+type(
+  (G.vertex * G.vertex) list
+)
+"structural_analysis.ml" 214 6760 6768 "structural_analysis.ml" 214 6760 6777
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  def backedges "structural_analysis.ml" 215 6826 6830 "structural_analysis.ml" 220 7043 7146
+)
+"structural_analysis.ml" 214 6760 6780 "structural_analysis.ml" 214 6760 6791
+type(
+  (G.vertex * G.vertex -> bool) ->
+  (G.vertex * G.vertex) list -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref List.filter
+)
+"structural_analysis.ml" 214 6760 6798 "structural_analysis.ml" 214 6760 6799
+type(
+  G.vertex
+)
+"structural_analysis.ml" 214 6760 6800 "structural_analysis.ml" 214 6760 6801
+type(
+  G.vertex
+)
+ident(
+  def d "structural_analysis.ml" 214 6760 6806 "structural_analysis.ml" 214 6760 6811
+)
+"structural_analysis.ml" 214 6760 6797 "structural_analysis.ml" 214 6760 6802
+type(
+  G.vertex * G.vertex
+)
+"structural_analysis.ml" 214 6760 6806 "structural_analysis.ml" 214 6760 6807
+type(
+  G.vertex
+)
+ident(
+  int_ref d "structural_analysis.ml" 214 6760 6800 "structural_analysis.ml" 214 6760 6801
+)
+"structural_analysis.ml" 214 6760 6808 "structural_analysis.ml" 214 6760 6809
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"structural_analysis.ml" 214 6760 6810 "structural_analysis.ml" 214 6760 6811
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 210 6604 6627 "structural_analysis.ml" 210 6604 6628
+)
+"structural_analysis.ml" 214 6760 6806 "structural_analysis.ml" 214 6760 6811
+type(
+  bool
+)
+"structural_analysis.ml" 214 6760 6792 "structural_analysis.ml" 214 6760 6812
+type(
+  G.vertex * G.vertex -> bool
+)
+"structural_analysis.ml" 214 6760 6813 "structural_analysis.ml" 214 6760 6822
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref backedges "structural_analysis.ml" 213 6713 6721 "structural_analysis.ml" 213 6713 6730
+)
+"structural_analysis.ml" 214 6760 6780 "structural_analysis.ml" 214 6760 6822
+call(
+  stack
+)
+type(
+  (G.vertex * G.vertex) list
+)
+"structural_analysis.ml" 215 6826 6834 "structural_analysis.ml" 215 6826 6843
+type(
+  G.vertex list
+)
+ident(
+  def backpreds "structural_analysis.ml" 216 6885 6889 "structural_analysis.ml" 220 7043 7146
+)
+"structural_analysis.ml" 215 6826 6846 "structural_analysis.ml" 215 6826 6854
+type(
+  (G.vertex * G.vertex -> G.vertex) ->
+  (G.vertex * G.vertex) list -> G.vertex list
+)
+ident(
+  ext_ref List.map
+)
+"structural_analysis.ml" 215 6826 6861 "structural_analysis.ml" 215 6826 6862
+type(
+  G.vertex
+)
+ident(
+  def p "structural_analysis.ml" 215 6826 6869 "structural_analysis.ml" 215 6826 6870
+)
+"structural_analysis.ml" 215 6826 6863 "structural_analysis.ml" 215 6826 6864
+type(
+  G.vertex
+)
+"structural_analysis.ml" 215 6826 6860 "structural_analysis.ml" 215 6826 6865
+type(
+  G.vertex * G.vertex
+)
+"structural_analysis.ml" 215 6826 6869 "structural_analysis.ml" 215 6826 6870
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 215 6826 6861 "structural_analysis.ml" 215 6826 6862
+)
+"structural_analysis.ml" 215 6826 6855 "structural_analysis.ml" 215 6826 6871
+type(
+  G.vertex * G.vertex -> G.vertex
+)
+"structural_analysis.ml" 215 6826 6872 "structural_analysis.ml" 215 6826 6881
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref backedges "structural_analysis.ml" 214 6760 6768 "structural_analysis.ml" 214 6760 6777
+)
+"structural_analysis.ml" 215 6826 6846 "structural_analysis.ml" 215 6826 6881
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 216 6885 6889 "structural_analysis.ml" 216 6885 6896
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"structural_analysis.ml" 216 6885 6897 "structural_analysis.ml" 216 6885 6912
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 216 6885 6914 "structural_analysis.ml" 216 6885 6921
+type(
+  G.vertex list -> string
+)
+ident(
+  int_ref nodes2s "structural_analysis.ml" 44 1030 1034 "structural_analysis.ml" 44 1030 1041
+)
+"structural_analysis.ml" 216 6885 6922 "structural_analysis.ml" 216 6885 6931
+type(
+  G.vertex list
+)
+ident(
+  int_ref backpreds "structural_analysis.ml" 215 6826 6834 "structural_analysis.ml" 215 6826 6843
+)
+"structural_analysis.ml" 216 6885 6913 "structural_analysis.ml" 216 6885 6932
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 216 6885 6889 "structural_analysis.ml" 216 6885 6932
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 217 6934 6942 "structural_analysis.ml" 217 6934 6944
+type(
+  G.t
+)
+ident(
+  def g' "structural_analysis.ml" 218 6959 6963 "structural_analysis.ml" 220 7043 7146
+)
+"structural_analysis.ml" 217 6934 6947 "structural_analysis.ml" 217 6934 6953
+type(
+  G.t -> G.t
+)
+ident(
+  ext_ref G.copy
+)
+"structural_analysis.ml" 217 6934 6954 "structural_analysis.ml" 217 6934 6955
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 210 6604 6625 "structural_analysis.ml" 210 6604 6626
+)
+"structural_analysis.ml" 217 6934 6947 "structural_analysis.ml" 217 6934 6955
+call(
+  stack
+)
+type(
+  G.t
+)
+"structural_analysis.ml" 218 6959 6967 "structural_analysis.ml" 218 6959 6969
+type(
+  unit
+)
+"structural_analysis.ml" 218 6959 6972 "structural_analysis.ml" 218 6959 6987
+type(
+  G.t -> G.vertex -> unit
+)
+ident(
+  ext_ref G.remove_vertex
+)
+"structural_analysis.ml" 218 6959 6988 "structural_analysis.ml" 218 6959 6990
+type(
+  G.t
+)
+ident(
+  int_ref g' "structural_analysis.ml" 217 6934 6942 "structural_analysis.ml" 217 6934 6944
+)
+"structural_analysis.ml" 218 6959 6991 "structural_analysis.ml" 218 6959 6992
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 210 6604 6627 "structural_analysis.ml" 210 6604 6628
+)
+"structural_analysis.ml" 218 6959 6972 "structural_analysis.ml" 218 6959 6992
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 219 6996 7004 "structural_analysis.ml" 219 6996 7008
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  def path "structural_analysis.ml" 220 7043 7047 "structural_analysis.ml" 220 7043 7146
+)
+"structural_analysis.ml" 219 6996 7011 "structural_analysis.ml" 219 6996 7024
+type(
+  PC.path_checker -> G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref PC.check_path
+)
+"structural_analysis.ml" 219 6996 7026 "structural_analysis.ml" 219 6996 7035
+type(
+  G.t -> PC.path_checker
+)
+ident(
+  ext_ref PC.create
+)
+"structural_analysis.ml" 219 6996 7036 "structural_analysis.ml" 219 6996 7038
+type(
+  G.t
+)
+ident(
+  int_ref g' "structural_analysis.ml" 217 6934 6942 "structural_analysis.ml" 217 6934 6944
+)
+"structural_analysis.ml" 219 6996 7025 "structural_analysis.ml" 219 6996 7039
+call(
+  stack
+)
+type(
+  PC.path_checker
+)
+"structural_analysis.ml" 219 6996 7011 "structural_analysis.ml" 219 6996 7039
+call(
+  stack
+)
+type(
+  G.V.t -> G.V.t -> bool
+)
+"structural_analysis.ml" 220 7043 7047 "structural_analysis.ml" 220 7043 7048
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 210 6604 6627 "structural_analysis.ml" 210 6604 6628
+)
+"structural_analysis.ml" 220 7043 7052 "structural_analysis.ml" 220 7043 7065
+type(
+  (G.vertex -> G.vertex list -> G.vertex list) ->
+  G.t -> G.vertex list -> G.vertex list
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"structural_analysis.ml" 220 7043 7071 "structural_analysis.ml" 220 7043 7072
+type(
+  G.vertex
+)
+ident(
+  def m "structural_analysis.ml" 220 7043 7073 "structural_analysis.ml" 220 7043 7139
+)
+"structural_analysis.ml" 220 7043 7073 "structural_analysis.ml" 220 7043 7074
+type(
+  G.vertex list
+)
+ident(
+  def l "structural_analysis.ml" 220 7043 7078 "structural_analysis.ml" 220 7043 7139
+)
+"structural_analysis.ml" 220 7043 7081 "structural_analysis.ml" 220 7043 7092
+type(
+  (G.V.t -> bool) -> G.V.t list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"structural_analysis.ml" 220 7043 7098 "structural_analysis.ml" 220 7043 7099
+type(
+  G.V.t
+)
+ident(
+  def k "structural_analysis.ml" 220 7043 7103 "structural_analysis.ml" 220 7043 7111
+)
+"structural_analysis.ml" 220 7043 7103 "structural_analysis.ml" 220 7043 7107
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  int_ref path "structural_analysis.ml" 219 6996 7004 "structural_analysis.ml" 219 6996 7008
+)
+"structural_analysis.ml" 220 7043 7108 "structural_analysis.ml" 220 7043 7109
+type(
+  G.vertex
+)
+ident(
+  int_ref m "structural_analysis.ml" 220 7043 7071 "structural_analysis.ml" 220 7043 7072
+)
+"structural_analysis.ml" 220 7043 7110 "structural_analysis.ml" 220 7043 7111
+type(
+  G.V.t
+)
+ident(
+  int_ref k "structural_analysis.ml" 220 7043 7098 "structural_analysis.ml" 220 7043 7099
+)
+"structural_analysis.ml" 220 7043 7103 "structural_analysis.ml" 220 7043 7111
+call(
+  tail
+)
+type(
+  bool
+)
+"structural_analysis.ml" 220 7043 7093 "structural_analysis.ml" 220 7043 7112
+type(
+  G.V.t -> bool
+)
+"structural_analysis.ml" 220 7043 7113 "structural_analysis.ml" 220 7043 7122
+type(
+  G.V.t list
+)
+ident(
+  int_ref backpreds "structural_analysis.ml" 215 6826 6834 "structural_analysis.ml" 215 6826 6843
+)
+"structural_analysis.ml" 220 7043 7081 "structural_analysis.ml" 220 7043 7122
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 220 7043 7128 "structural_analysis.ml" 220 7043 7129
+type(
+  G.vertex
+)
+ident(
+  int_ref m "structural_analysis.ml" 220 7043 7071 "structural_analysis.ml" 220 7043 7072
+)
+"structural_analysis.ml" 220 7043 7131 "structural_analysis.ml" 220 7043 7132
+type(
+  G.vertex list
+)
+ident(
+  int_ref l "structural_analysis.ml" 220 7043 7073 "structural_analysis.ml" 220 7043 7074
+)
+"structural_analysis.ml" 220 7043 7128 "structural_analysis.ml" 220 7043 7132
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 220 7043 7138 "structural_analysis.ml" 220 7043 7139
+type(
+  G.vertex list
+)
+ident(
+  int_ref l "structural_analysis.ml" 220 7043 7073 "structural_analysis.ml" 220 7043 7074
+)
+"structural_analysis.ml" 220 7043 7078 "structural_analysis.ml" 220 7043 7139
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 220 7043 7066 "structural_analysis.ml" 220 7043 7140
+type(
+  G.vertex -> G.vertex list -> G.vertex list
+)
+"structural_analysis.ml" 220 7043 7141 "structural_analysis.ml" 220 7043 7143
+type(
+  G.t
+)
+ident(
+  int_ref g' "structural_analysis.ml" 217 6934 6942 "structural_analysis.ml" 217 6934 6944
+)
+"structural_analysis.ml" 220 7043 7144 "structural_analysis.ml" 220 7043 7146
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 220 7043 7052 "structural_analysis.ml" 220 7043 7146
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 220 7043 7047 "structural_analysis.ml" 220 7043 7146
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 219 6996 7000 "structural_analysis.ml" 220 7043 7146
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 218 6959 6963 "structural_analysis.ml" 220 7043 7146
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 217 6934 6938 "structural_analysis.ml" 220 7043 7146
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 216 6885 6889 "structural_analysis.ml" 220 7043 7146
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 215 6826 6830 "structural_analysis.ml" 220 7043 7146
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 214 6760 6764 "structural_analysis.ml" 220 7043 7146
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 213 6713 6717 "structural_analysis.ml" 220 7043 7146
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 212 6670 6674 "structural_analysis.ml" 220 7043 7146
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 223 7153 7163 "structural_analysis.ml" 223 7153 7167
+type(
+  unit -> unit
+)
+"structural_analysis.ml" 223 7153 7168 "structural_analysis.ml" 223 7153 7170
+type(
+  unit
+)
+"structural_analysis.ml" 224 7173 7181 "structural_analysis.ml" 224 7173 7189
+type(
+  bool ref
+)
+"structural_analysis.ml" 224 7173 7192 "structural_analysis.ml" 224 7173 7195
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"structural_analysis.ml" 224 7173 7196 "structural_analysis.ml" 224 7173 7201
+type(
+  bool
+)
+"structural_analysis.ml" 224 7173 7192 "structural_analysis.ml" 224 7173 7201
+type(
+  bool ref
+)
+"structural_analysis.ml" 225 7205 7209 "structural_analysis.ml" 225 7205 7217
+type(
+  int ref
+)
+ident(
+  int_ref post_ctr "structural_analysis.ml" 90 2359 2365 "structural_analysis.ml" 90 2359 2373
+)
+"structural_analysis.ml" 225 7205 7218 "structural_analysis.ml" 225 7205 7220
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 225 7205 7221 "structural_analysis.ml" 225 7205 7222
+type(
+  int
+)
+"structural_analysis.ml" 225 7205 7209 "structural_analysis.ml" 225 7205 7222
+type(
+  unit
+)
+"structural_analysis.ml" 226 7224 7228 "structural_analysis.ml" 226 7224 7249
+type(
+  (G.V.t -> unit) -> G.t -> G.V.t -> unit
+)
+ident(
+  ext_ref DFS.postfix_component
+)
+"structural_analysis.ml" 226 7224 7255 "structural_analysis.ml" 226 7224 7256
+type(
+  G.V.t
+)
+ident(
+  def v "structural_analysis.ml" 226 7224 7259 "structural_analysis.ml" 226 7224 7295
+)
+"structural_analysis.ml" 226 7224 7259 "structural_analysis.ml" 226 7224 7263
+type(
+  G.vertex array
+)
+ident(
+  int_ref post "structural_analysis.ml" 89 2323 2329 "structural_analysis.ml" 89 2323 2333
+)
+"structural_analysis.ml" 226 7224 7265 "structural_analysis.ml" 226 7224 7266
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 226 7224 7266 "structural_analysis.ml" 226 7224 7274
+type(
+  int ref
+)
+ident(
+  int_ref post_ctr "structural_analysis.ml" 90 2359 2365 "structural_analysis.ml" 90 2359 2373
+)
+"structural_analysis.ml" 226 7224 7265 "structural_analysis.ml" 226 7224 7274
+type(
+  int
+)
+"structural_analysis.ml" 226 7224 7279 "structural_analysis.ml" 226 7224 7280
+type(
+  G.V.t
+)
+ident(
+  int_ref v "structural_analysis.ml" 226 7224 7255 "structural_analysis.ml" 226 7224 7256
+)
+"structural_analysis.ml" 226 7224 7259 "structural_analysis.ml" 226 7224 7280
+type(
+  unit
+)
+"structural_analysis.ml" 226 7224 7282 "structural_analysis.ml" 226 7224 7286
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"structural_analysis.ml" 226 7224 7287 "structural_analysis.ml" 226 7224 7295
+type(
+  int ref
+)
+ident(
+  int_ref post_ctr "structural_analysis.ml" 90 2359 2365 "structural_analysis.ml" 90 2359 2373
+)
+"structural_analysis.ml" 226 7224 7282 "structural_analysis.ml" 226 7224 7295
+type(
+  unit
+)
+"structural_analysis.ml" 226 7224 7259 "structural_analysis.ml" 226 7224 7295
+type(
+  unit
+)
+"structural_analysis.ml" 226 7224 7250 "structural_analysis.ml" 226 7224 7296
+type(
+  G.V.t -> unit
+)
+"structural_analysis.ml" 226 7224 7297 "structural_analysis.ml" 226 7224 7298
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 226 7224 7299 "structural_analysis.ml" 226 7224 7300
+type(
+  G.vertex ref -> G.vertex
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 226 7224 7300 "structural_analysis.ml" 226 7224 7305
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 226 7224 7299 "structural_analysis.ml" 226 7224 7305
+type(
+  G.vertex
+)
+"structural_analysis.ml" 226 7224 7228 "structural_analysis.ml" 226 7224 7305
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 227 7307 7311 "structural_analysis.ml" 227 7307 7319
+type(
+  int ref
+)
+ident(
+  int_ref post_ctr "structural_analysis.ml" 90 2359 2365 "structural_analysis.ml" 90 2359 2373
+)
+"structural_analysis.ml" 227 7307 7320 "structural_analysis.ml" 227 7307 7322
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 227 7307 7323 "structural_analysis.ml" 227 7307 7324
+type(
+  int
+)
+"structural_analysis.ml" 227 7307 7311 "structural_analysis.ml" 227 7307 7324
+type(
+  unit
+)
+"structural_analysis.ml" 228 7326 7336 "structural_analysis.ml" 228 7326 7347
+type(
+  G.t -> int
+)
+ident(
+  ext_ref G.nb_vertex
+)
+"structural_analysis.ml" 228 7326 7348 "structural_analysis.ml" 228 7326 7349
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 228 7326 7336 "structural_analysis.ml" 228 7326 7349
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 228 7326 7350 "structural_analysis.ml" 228 7326 7351
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"structural_analysis.ml" 228 7326 7352 "structural_analysis.ml" 228 7326 7353
+type(
+  int
+)
+"structural_analysis.ml" 228 7326 7336 "structural_analysis.ml" 228 7326 7353
+type(
+  bool
+)
+"structural_analysis.ml" 228 7326 7354 "structural_analysis.ml" 228 7326 7356
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"structural_analysis.ml" 228 7326 7357 "structural_analysis.ml" 228 7326 7358
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 228 7326 7358 "structural_analysis.ml" 228 7326 7366
+type(
+  int ref
+)
+ident(
+  int_ref post_ctr "structural_analysis.ml" 90 2359 2365 "structural_analysis.ml" 90 2359 2373
+)
+"structural_analysis.ml" 228 7326 7357 "structural_analysis.ml" 228 7326 7366
+type(
+  int
+)
+"structural_analysis.ml" 228 7326 7367 "structural_analysis.ml" 228 7326 7368
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"structural_analysis.ml" 228 7326 7369 "structural_analysis.ml" 228 7326 7380
+type(
+  G.t -> int
+)
+ident(
+  ext_ref G.nb_vertex
+)
+"structural_analysis.ml" 228 7326 7381 "structural_analysis.ml" 228 7326 7382
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 228 7326 7369 "structural_analysis.ml" 228 7326 7382
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 228 7326 7357 "structural_analysis.ml" 228 7326 7382
+type(
+  bool
+)
+"structural_analysis.ml" 228 7326 7336 "structural_analysis.ml" 228 7326 7382
+type(
+  bool
+)
+"structural_analysis.ml" 230 7390 7400 "structural_analysis.ml" 230 7390 7401
+type(
+  G.vertex
+)
+ident(
+  def n "structural_analysis.ml" 231 7424 7430 "structural_analysis.ml" 252 8196 8223
+)
+"structural_analysis.ml" 230 7390 7404 "structural_analysis.ml" 230 7390 7408
+type(
+  G.vertex array
+)
+ident(
+  int_ref post "structural_analysis.ml" 89 2323 2329 "structural_analysis.ml" 89 2323 2333
+)
+"structural_analysis.ml" 230 7390 7410 "structural_analysis.ml" 230 7390 7411
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 230 7390 7411 "structural_analysis.ml" 230 7390 7419
+type(
+  int ref
+)
+ident(
+  int_ref post_ctr "structural_analysis.ml" 90 2359 2365 "structural_analysis.ml" 90 2359 2373
+)
+"structural_analysis.ml" 230 7390 7410 "structural_analysis.ml" 230 7390 7419
+type(
+  int
+)
+"structural_analysis.ml" 230 7390 7404 "structural_analysis.ml" 230 7390 7420
+type(
+  G.vertex
+)
+"structural_analysis.ml" 231 7424 7430 "structural_analysis.ml" 231 7424 7437
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"structural_analysis.ml" 231 7424 7438 "structural_analysis.ml" 231 7424 7451
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 231 7424 7453 "structural_analysis.ml" 231 7424 7459
+type(
+  G.vertex -> string
+)
+ident(
+  int_ref node2s "structural_analysis.ml" 41 911 919 "structural_analysis.ml" 41 911 925
+)
+"structural_analysis.ml" 231 7424 7460 "structural_analysis.ml" 231 7424 7461
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 230 7390 7400 "structural_analysis.ml" 230 7390 7401
+)
+"structural_analysis.ml" 231 7424 7452 "structural_analysis.ml" 231 7424 7462
+call(
+  stack
+)
+type(
+  string
+)
+"structural_analysis.ml" 231 7424 7430 "structural_analysis.ml" 231 7424 7462
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 232 7464 7476 "structural_analysis.ml" 232 7464 7495
+type(
+  G.t -> G.vertex -> (region_type * G.vertex list) option
+)
+ident(
+  int_ref acyclic_region_type "structural_analysis.ml" 143 4039 4045 "structural_analysis.ml" 143 4039 4064
+)
+"structural_analysis.ml" 232 7464 7496 "structural_analysis.ml" 232 7464 7497
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 232 7464 7498 "structural_analysis.ml" 232 7464 7499
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 230 7390 7400 "structural_analysis.ml" 230 7390 7401
+)
+"structural_analysis.ml" 232 7464 7476 "structural_analysis.ml" 232 7464 7499
+call(
+  stack
+)
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 233 7505 7518 "structural_analysis.ml" 233 7505 7523
+type(
+  region_type
+)
+ident(
+  def rtype "structural_analysis.ml" 234 7537 7545 "structural_analysis.ml" 239 7701 7726
+)
+"structural_analysis.ml" 233 7505 7525 "structural_analysis.ml" 233 7505 7532
+type(
+  G.vertex list
+)
+ident(
+  def nodeset "structural_analysis.ml" 234 7537 7545 "structural_analysis.ml" 239 7701 7726
+)
+"structural_analysis.ml" 233 7505 7517 "structural_analysis.ml" 233 7505 7533
+type(
+  region_type * G.vertex list
+)
+"structural_analysis.ml" 233 7505 7513 "structural_analysis.ml" 233 7505 7533
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 234 7537 7549 "structural_analysis.ml" 234 7537 7550
+type(
+  node
+)
+"structural_analysis.ml" 234 7537 7553 "structural_analysis.ml" 234 7537 7559
+type(
+  G.t -> region_type -> G.vertex list -> node
+)
+ident(
+  int_ref reduce "structural_analysis.ml" 134 3716 3722 "structural_analysis.ml" 134 3716 3728
+)
+"structural_analysis.ml" 234 7537 7560 "structural_analysis.ml" 234 7537 7561
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 234 7537 7562 "structural_analysis.ml" 234 7537 7567
+type(
+  region_type
+)
+ident(
+  int_ref rtype "structural_analysis.ml" 233 7505 7518 "structural_analysis.ml" 233 7505 7523
+)
+"structural_analysis.ml" 234 7537 7568 "structural_analysis.ml" 234 7537 7575
+type(
+  G.vertex list
+)
+ident(
+  int_ref nodeset "structural_analysis.ml" 233 7505 7525 "structural_analysis.ml" 233 7505 7532
+)
+"structural_analysis.ml" 234 7537 7553 "structural_analysis.ml" 234 7537 7575
+call(
+  stack
+)
+type(
+  node
+)
+"structural_analysis.ml" 235 7579 7590 "structural_analysis.ml" 235 7579 7598
+type(
+  G.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"structural_analysis.ml" 235 7579 7599 "structural_analysis.ml" 235 7579 7600
+type(
+  G.vertex ref -> G.vertex
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 235 7579 7600 "structural_analysis.ml" 235 7579 7605
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 235 7579 7599 "structural_analysis.ml" 235 7579 7605
+type(
+  G.vertex
+)
+"structural_analysis.ml" 235 7579 7606 "structural_analysis.ml" 235 7579 7613
+type(
+  G.vertex list
+)
+ident(
+  int_ref nodeset "structural_analysis.ml" 233 7505 7525 "structural_analysis.ml" 233 7505 7532
+)
+"structural_analysis.ml" 235 7579 7590 "structural_analysis.ml" 235 7579 7613
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 236 7619 7629 "structural_analysis.ml" 236 7619 7634
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 236 7619 7635 "structural_analysis.ml" 236 7619 7637
+type(
+  G.vertex ref -> G.vertex -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 236 7619 7638 "structural_analysis.ml" 236 7619 7639
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 234 7537 7549 "structural_analysis.ml" 234 7537 7550
+)
+"structural_analysis.ml" 236 7619 7629 "structural_analysis.ml" 236 7619 7639
+type(
+  unit
+)
+"structural_analysis.ml" 235 7579 7587 "structural_analysis.ml" 236 7619 7639
+type(
+  unit
+)
+"structural_analysis.ml" 237 7641 7652 "structural_analysis.ml" 237 7641 7660
+type(
+  G.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"structural_analysis.ml" 237 7641 7661 "structural_analysis.ml" 237 7641 7662
+type(
+  G.vertex ref -> G.vertex
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 237 7641 7662 "structural_analysis.ml" 237 7641 7666
+type(
+  G.vertex ref
+)
+ident(
+  int_ref exit "structural_analysis.ml" 85 2153 2159 "structural_analysis.ml" 85 2153 2163
+)
+"structural_analysis.ml" 237 7641 7661 "structural_analysis.ml" 237 7641 7666
+type(
+  G.vertex
+)
+"structural_analysis.ml" 237 7641 7667 "structural_analysis.ml" 237 7641 7674
+type(
+  G.vertex list
+)
+ident(
+  int_ref nodeset "structural_analysis.ml" 233 7505 7525 "structural_analysis.ml" 233 7505 7532
+)
+"structural_analysis.ml" 237 7641 7652 "structural_analysis.ml" 237 7641 7674
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 238 7680 7690 "structural_analysis.ml" 238 7680 7694
+type(
+  G.vertex ref
+)
+ident(
+  int_ref exit "structural_analysis.ml" 85 2153 2159 "structural_analysis.ml" 85 2153 2163
+)
+"structural_analysis.ml" 238 7680 7695 "structural_analysis.ml" 238 7680 7697
+type(
+  G.vertex ref -> G.vertex -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 238 7680 7698 "structural_analysis.ml" 238 7680 7699
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 234 7537 7549 "structural_analysis.ml" 234 7537 7550
+)
+"structural_analysis.ml" 238 7680 7690 "structural_analysis.ml" 238 7680 7699
+type(
+  unit
+)
+"structural_analysis.ml" 237 7641 7649 "structural_analysis.ml" 238 7680 7699
+type(
+  unit
+)
+"structural_analysis.ml" 239 7701 7709 "structural_analysis.ml" 239 7701 7717
+type(
+  bool ref
+)
+ident(
+  int_ref progress "structural_analysis.ml" 224 7173 7181 "structural_analysis.ml" 224 7173 7189
+)
+"structural_analysis.ml" 239 7701 7718 "structural_analysis.ml" 239 7701 7720
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 239 7701 7721 "structural_analysis.ml" 239 7701 7725
+type(
+  bool
+)
+"structural_analysis.ml" 239 7701 7709 "structural_analysis.ml" 239 7701 7726
+type(
+  unit
+)
+"structural_analysis.ml" 237 7641 7649 "structural_analysis.ml" 239 7701 7726
+type(
+  unit
+)
+"structural_analysis.ml" 235 7579 7587 "structural_analysis.ml" 239 7701 7726
+type(
+  unit
+)
+"structural_analysis.ml" 234 7537 7545 "structural_analysis.ml" 239 7701 7726
+type(
+  unit
+)
+"structural_analysis.ml" 240 7727 7735 "structural_analysis.ml" 240 7727 7739
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 241 7743 7753 "structural_analysis.ml" 241 7743 7760
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"structural_analysis.ml" 241 7743 7761 "structural_analysis.ml" 241 7743 7796
+type(
+  (unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 241 7743 7753 "structural_analysis.ml" 241 7743 7796
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 242 7798 7812 "structural_analysis.ml" 242 7798 7822
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 242 7798 7825 "structural_analysis.ml" 242 7798 7839
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  int_ref get_reachunder "structural_analysis.ml" 210 6604 6610 "structural_analysis.ml" 210 6604 6624
+)
+"structural_analysis.ml" 242 7798 7840 "structural_analysis.ml" 242 7798 7841
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 242 7798 7842 "structural_analysis.ml" 242 7798 7843
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 230 7390 7400 "structural_analysis.ml" 230 7390 7401
+)
+"structural_analysis.ml" 242 7798 7825 "structural_analysis.ml" 242 7798 7843
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 243 7847 7863 "structural_analysis.ml" 243 7847 7881
+type(
+  G.t -> G.vertex -> G.vertex list -> (region_type * G.vertex list) option
+)
+ident(
+  int_ref cyclic_region_type "structural_analysis.ml" 190 5697 5703 "structural_analysis.ml" 190 5697 5721
+)
+"structural_analysis.ml" 243 7847 7882 "structural_analysis.ml" 243 7847 7883
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 243 7847 7884 "structural_analysis.ml" 243 7847 7885
+type(
+  G.vertex
+)
+ident(
+  int_ref n "structural_analysis.ml" 230 7390 7400 "structural_analysis.ml" 230 7390 7401
+)
+"structural_analysis.ml" 243 7847 7886 "structural_analysis.ml" 243 7847 7896
+type(
+  G.vertex list
+)
+ident(
+  int_ref reachunder "structural_analysis.ml" 242 7798 7812 "structural_analysis.ml" 242 7798 7822
+)
+"structural_analysis.ml" 243 7847 7863 "structural_analysis.ml" 243 7847 7896
+call(
+  stack
+)
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 244 7902 7919 "structural_analysis.ml" 244 7902 7924
+type(
+  region_type
+)
+ident(
+  def rtype "structural_analysis.ml" 245 7941 7955 "structural_analysis.ml" 250 8144 8175
+)
+"structural_analysis.ml" 244 7902 7926 "structural_analysis.ml" 244 7902 7936
+type(
+  G.vertex list
+)
+ident(
+  def reachunder "structural_analysis.ml" 245 7941 7955 "structural_analysis.ml" 250 8144 8175
+)
+"structural_analysis.ml" 244 7902 7918 "structural_analysis.ml" 244 7902 7937
+type(
+  region_type * G.vertex list
+)
+"structural_analysis.ml" 244 7902 7914 "structural_analysis.ml" 244 7902 7937
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 245 7941 7959 "structural_analysis.ml" 245 7941 7960
+type(
+  node
+)
+"structural_analysis.ml" 245 7941 7963 "structural_analysis.ml" 245 7941 7969
+type(
+  G.t -> region_type -> G.vertex list -> node
+)
+ident(
+  int_ref reduce "structural_analysis.ml" 134 3716 3722 "structural_analysis.ml" 134 3716 3728
+)
+"structural_analysis.ml" 245 7941 7970 "structural_analysis.ml" 245 7941 7971
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 245 7941 7972 "structural_analysis.ml" 245 7941 7977
+type(
+  region_type
+)
+ident(
+  int_ref rtype "structural_analysis.ml" 244 7902 7919 "structural_analysis.ml" 244 7902 7924
+)
+"structural_analysis.ml" 245 7941 7978 "structural_analysis.ml" 245 7941 7988
+type(
+  G.vertex list
+)
+ident(
+  int_ref reachunder "structural_analysis.ml" 244 7902 7926 "structural_analysis.ml" 244 7902 7936
+)
+"structural_analysis.ml" 245 7941 7963 "structural_analysis.ml" 245 7941 7988
+call(
+  stack
+)
+type(
+  node
+)
+"structural_analysis.ml" 246 7992 8009 "structural_analysis.ml" 246 7992 8017
+type(
+  G.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"structural_analysis.ml" 246 7992 8018 "structural_analysis.ml" 246 7992 8019
+type(
+  G.vertex ref -> G.vertex
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 246 7992 8019 "structural_analysis.ml" 246 7992 8024
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 246 7992 8018 "structural_analysis.ml" 246 7992 8024
+type(
+  G.vertex
+)
+"structural_analysis.ml" 246 7992 8025 "structural_analysis.ml" 246 7992 8035
+type(
+  G.vertex list
+)
+ident(
+  int_ref reachunder "structural_analysis.ml" 244 7902 7926 "structural_analysis.ml" 244 7902 7936
+)
+"structural_analysis.ml" 246 7992 8009 "structural_analysis.ml" 246 7992 8035
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 247 8041 8057 "structural_analysis.ml" 247 8041 8062
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 247 8041 8063 "structural_analysis.ml" 247 8041 8065
+type(
+  G.vertex ref -> G.vertex -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 247 8041 8066 "structural_analysis.ml" 247 8041 8067
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 245 7941 7959 "structural_analysis.ml" 245 7941 7960
+)
+"structural_analysis.ml" 247 8041 8057 "structural_analysis.ml" 247 8041 8067
+type(
+  unit
+)
+"structural_analysis.ml" 246 7992 8006 "structural_analysis.ml" 247 8041 8067
+type(
+  unit
+)
+"structural_analysis.ml" 248 8069 8086 "structural_analysis.ml" 248 8069 8094
+type(
+  G.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"structural_analysis.ml" 248 8069 8095 "structural_analysis.ml" 248 8069 8096
+type(
+  G.vertex ref -> G.vertex
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 248 8069 8096 "structural_analysis.ml" 248 8069 8100
+type(
+  G.vertex ref
+)
+ident(
+  int_ref exit "structural_analysis.ml" 85 2153 2159 "structural_analysis.ml" 85 2153 2163
+)
+"structural_analysis.ml" 248 8069 8095 "structural_analysis.ml" 248 8069 8100
+type(
+  G.vertex
+)
+"structural_analysis.ml" 248 8069 8101 "structural_analysis.ml" 248 8069 8111
+type(
+  G.vertex list
+)
+ident(
+  int_ref reachunder "structural_analysis.ml" 244 7902 7926 "structural_analysis.ml" 244 7902 7936
+)
+"structural_analysis.ml" 248 8069 8086 "structural_analysis.ml" 248 8069 8111
+call(
+  stack
+)
+type(
+  bool
+)
+"structural_analysis.ml" 249 8117 8133 "structural_analysis.ml" 249 8117 8137
+type(
+  G.vertex ref
+)
+ident(
+  int_ref exit "structural_analysis.ml" 85 2153 2159 "structural_analysis.ml" 85 2153 2163
+)
+"structural_analysis.ml" 249 8117 8138 "structural_analysis.ml" 249 8117 8140
+type(
+  G.vertex ref -> G.vertex -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 249 8117 8141 "structural_analysis.ml" 249 8117 8142
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 245 7941 7959 "structural_analysis.ml" 245 7941 7960
+)
+"structural_analysis.ml" 249 8117 8133 "structural_analysis.ml" 249 8117 8142
+type(
+  unit
+)
+"structural_analysis.ml" 248 8069 8083 "structural_analysis.ml" 249 8117 8142
+type(
+  unit
+)
+"structural_analysis.ml" 250 8144 8158 "structural_analysis.ml" 250 8144 8166
+type(
+  bool ref
+)
+ident(
+  int_ref progress "structural_analysis.ml" 224 7173 7181 "structural_analysis.ml" 224 7173 7189
+)
+"structural_analysis.ml" 250 8144 8167 "structural_analysis.ml" 250 8144 8169
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 250 8144 8170 "structural_analysis.ml" 250 8144 8174
+type(
+  bool
+)
+"structural_analysis.ml" 250 8144 8158 "structural_analysis.ml" 250 8144 8175
+type(
+  unit
+)
+"structural_analysis.ml" 248 8069 8083 "structural_analysis.ml" 250 8144 8175
+type(
+  unit
+)
+"structural_analysis.ml" 246 7992 8006 "structural_analysis.ml" 250 8144 8175
+type(
+  unit
+)
+"structural_analysis.ml" 245 7941 7955 "structural_analysis.ml" 250 8144 8175
+type(
+  unit
+)
+"structural_analysis.ml" 251 8176 8188 "structural_analysis.ml" 251 8176 8192
+type(
+  (region_type * G.vertex list) option
+)
+"structural_analysis.ml" 252 8196 8210 "structural_analysis.ml" 252 8196 8214
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"structural_analysis.ml" 252 8196 8215 "structural_analysis.ml" 252 8196 8223
+type(
+  int ref
+)
+ident(
+  int_ref post_ctr "structural_analysis.ml" 90 2359 2365 "structural_analysis.ml" 90 2359 2373
+)
+"structural_analysis.ml" 252 8196 8210 "structural_analysis.ml" 252 8196 8223
+type(
+  unit
+)
+"structural_analysis.ml" 243 7847 7857 "structural_analysis.ml" 252 8196 8223
+type(
+  unit
+)
+"structural_analysis.ml" 242 7798 7808 "structural_analysis.ml" 252 8196 8223
+type(
+  unit
+)
+"structural_analysis.ml" 241 7743 7753 "structural_analysis.ml" 252 8196 8223
+type(
+  unit
+)
+"structural_analysis.ml" 232 7464 7470 "structural_analysis.ml" 252 8196 8223
+type(
+  unit
+)
+"structural_analysis.ml" 231 7424 7430 "structural_analysis.ml" 252 8196 8223
+type(
+  unit
+)
+"structural_analysis.ml" 230 7390 7396 "structural_analysis.ml" 252 8196 8223
+type(
+  unit
+)
+"structural_analysis.ml" 228 7326 7330 "structural_analysis.ml" 253 8224 8232
+type(
+  unit
+)
+"structural_analysis.ml" 254 8234 8241 "structural_analysis.ml" 254 8234 8252
+type(
+  G.t -> int
+)
+ident(
+  ext_ref G.nb_vertex
+)
+"structural_analysis.ml" 254 8234 8253 "structural_analysis.ml" 254 8234 8254
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 254 8234 8241 "structural_analysis.ml" 254 8234 8254
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 254 8234 8255 "structural_analysis.ml" 254 8234 8256
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"structural_analysis.ml" 254 8234 8257 "structural_analysis.ml" 254 8234 8258
+type(
+  int
+)
+"structural_analysis.ml" 254 8234 8241 "structural_analysis.ml" 254 8234 8258
+type(
+  bool
+)
+"structural_analysis.ml" 255 8265 8271 "structural_analysis.ml" 255 8265 8278
+type(
+  (int -> unit, unit, string, unit) format4 -> int -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"structural_analysis.ml" 255 8265 8279 "structural_analysis.ml" 255 8265 8310
+type(
+  (int -> unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 255 8265 8312 "structural_analysis.ml" 255 8265 8323
+type(
+  G.t -> int
+)
+ident(
+  ext_ref G.nb_vertex
+)
+"structural_analysis.ml" 255 8265 8324 "structural_analysis.ml" 255 8265 8325
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 255 8265 8311 "structural_analysis.ml" 255 8265 8326
+call(
+  stack
+)
+type(
+  int
+)
+"structural_analysis.ml" 255 8265 8271 "structural_analysis.ml" 255 8265 8326
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 256 8328 8337 "structural_analysis.ml" 256 8328 8338
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 256 8328 8338 "structural_analysis.ml" 256 8328 8346
+type(
+  bool ref
+)
+ident(
+  int_ref progress "structural_analysis.ml" 224 7173 7181 "structural_analysis.ml" 224 7173 7189
+)
+"structural_analysis.ml" 256 8328 8337 "structural_analysis.ml" 256 8328 8346
+type(
+  bool
+)
+"structural_analysis.ml" 256 8328 8352 "structural_analysis.ml" 256 8328 8356
+type(
+  unit -> unit
+)
+ident(
+  int_ref doit "structural_analysis.ml" 223 7153 7163 "structural_analysis.ml" 223 7153 7167
+)
+"structural_analysis.ml" 256 8328 8356 "structural_analysis.ml" 256 8328 8358
+type(
+  unit
+)
+"structural_analysis.ml" 256 8328 8352 "structural_analysis.ml" 256 8328 8358
+call(
+  tail
+)
+type(
+  unit
+)
+"structural_analysis.ml" 258 8372 8380 "structural_analysis.ml" 258 8372 8386
+type(
+  G.t -> unit
+)
+ident(
+  int_ref printg "structural_analysis.ml" 50 1226 1230 "structural_analysis.ml" 50 1226 1236
+)
+"structural_analysis.ml" 258 8372 8387 "structural_analysis.ml" 258 8372 8388
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 258 8372 8380 "structural_analysis.ml" 258 8372 8388
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 259 8390 8398 "structural_analysis.ml" 259 8390 8405
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref D.wprintf
+)
+"structural_analysis.ml" 259 8390 8406 "structural_analysis.ml" 259 8390 8481
+type(
+  (unit, unit, string, unit) format4
+)
+"structural_analysis.ml" 259 8390 8398 "structural_analysis.ml" 259 8390 8481
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 260 8483 8495 "structural_analysis.ml" 260 8483 8496
+type(
+  node
+)
+"structural_analysis.ml" 260 8483 8499 "structural_analysis.ml" 260 8483 8505
+type(
+  G.t -> region_type -> G.vertex list -> node
+)
+ident(
+  int_ref reduce "structural_analysis.ml" 134 3716 3722 "structural_analysis.ml" 134 3716 3728
+)
+"structural_analysis.ml" 260 8483 8506 "structural_analysis.ml" 260 8483 8507
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 260 8483 8508 "structural_analysis.ml" 260 8483 8514
+type(
+  region_type
+)
+"structural_analysis.ml" 260 8483 8516 "structural_analysis.ml" 260 8483 8529
+type(
+  (G.vertex -> G.vertex list -> G.vertex list) ->
+  G.t -> G.vertex list -> G.vertex list
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"structural_analysis.ml" 260 8483 8535 "structural_analysis.ml" 260 8483 8536
+type(
+  G.vertex
+)
+ident(
+  def x "structural_analysis.ml" 260 8483 8537 "structural_analysis.ml" 260 8483 8545
+)
+"structural_analysis.ml" 260 8483 8537 "structural_analysis.ml" 260 8483 8538
+type(
+  G.vertex list
+)
+ident(
+  def y "structural_analysis.ml" 260 8483 8541 "structural_analysis.ml" 260 8483 8545
+)
+"structural_analysis.ml" 260 8483 8541 "structural_analysis.ml" 260 8483 8542
+type(
+  G.vertex
+)
+ident(
+  int_ref x "structural_analysis.ml" 260 8483 8535 "structural_analysis.ml" 260 8483 8536
+)
+"structural_analysis.ml" 260 8483 8544 "structural_analysis.ml" 260 8483 8545
+type(
+  G.vertex list
+)
+ident(
+  int_ref y "structural_analysis.ml" 260 8483 8537 "structural_analysis.ml" 260 8483 8538
+)
+"structural_analysis.ml" 260 8483 8541 "structural_analysis.ml" 260 8483 8545
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 260 8483 8530 "structural_analysis.ml" 260 8483 8546
+type(
+  G.vertex -> G.vertex list -> G.vertex list
+)
+"structural_analysis.ml" 260 8483 8547 "structural_analysis.ml" 260 8483 8548
+type(
+  G.t
+)
+ident(
+  int_ref g "structural_analysis.ml" 83 2088 2094 "structural_analysis.ml" 83 2088 2095
+)
+"structural_analysis.ml" 260 8483 8549 "structural_analysis.ml" 260 8483 8551
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 260 8483 8515 "structural_analysis.ml" 260 8483 8552
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"structural_analysis.ml" 260 8483 8499 "structural_analysis.ml" 260 8483 8552
+call(
+  stack
+)
+type(
+  node
+)
+"structural_analysis.ml" 261 8556 8564 "structural_analysis.ml" 261 8556 8569
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 261 8556 8570 "structural_analysis.ml" 261 8556 8572
+type(
+  G.vertex ref -> G.vertex -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"structural_analysis.ml" 261 8556 8573 "structural_analysis.ml" 261 8556 8574
+type(
+  G.vertex
+)
+ident(
+  int_ref p "structural_analysis.ml" 260 8483 8495 "structural_analysis.ml" 260 8483 8496
+)
+"structural_analysis.ml" 261 8556 8564 "structural_analysis.ml" 261 8556 8575
+type(
+  unit
+)
+"structural_analysis.ml" 260 8483 8491 "structural_analysis.ml" 261 8556 8575
+type(
+  unit
+)
+"structural_analysis.ml" 259 8390 8398 "structural_analysis.ml" 261 8556 8575
+type(
+  unit
+)
+"structural_analysis.ml" 257 8359 8370 "structural_analysis.ml" 262 8576 8584
+type(
+  unit
+)
+"structural_analysis.ml" 256 8328 8334 "structural_analysis.ml" 262 8576 8584
+type(
+  unit
+)
+"structural_analysis.ml" 254 8234 8263 "structural_analysis.ml" 263 8585 8590
+type(
+  unit
+)
+"structural_analysis.ml" 254 8234 8238 "structural_analysis.ml" 263 8585 8590
+type(
+  unit
+)
+"structural_analysis.ml" 228 7326 7330 "structural_analysis.ml" 263 8585 8590
+type(
+  unit
+)
+"structural_analysis.ml" 227 7307 7311 "structural_analysis.ml" 263 8585 8590
+type(
+  unit
+)
+"structural_analysis.ml" 226 7224 7228 "structural_analysis.ml" 263 8585 8590
+type(
+  unit
+)
+"structural_analysis.ml" 225 7205 7209 "structural_analysis.ml" 263 8585 8590
+type(
+  unit
+)
+"structural_analysis.ml" 224 7173 7177 "structural_analysis.ml" 263 8585 8590
+type(
+  unit
+)
+"structural_analysis.ml" 265 8596 8598 "structural_analysis.ml" 265 8596 8602
+type(
+  unit -> unit
+)
+ident(
+  int_ref doit "structural_analysis.ml" 223 7153 7163 "structural_analysis.ml" 223 7153 7167
+)
+"structural_analysis.ml" 265 8596 8602 "structural_analysis.ml" 265 8596 8604
+type(
+  unit
+)
+"structural_analysis.ml" 265 8596 8598 "structural_analysis.ml" 265 8596 8604
+call(
+  stack
+)
+type(
+  unit
+)
+"structural_analysis.ml" 266 8606 8608 "structural_analysis.ml" 266 8606 8609
+type(
+  G.vertex ref -> G.vertex
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"structural_analysis.ml" 266 8606 8609 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex ref
+)
+ident(
+  int_ref entry "structural_analysis.ml" 84 2113 2119 "structural_analysis.ml" 84 2113 2124
+)
+"structural_analysis.ml" 266 8606 8608 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 265 8596 8598 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 223 7153 7155 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 210 6604 6606 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 190 5697 5699 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 186 5572 5574 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 143 4039 4041 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 134 3716 3718 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 106 2821 2823 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 92 2386 2388 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 87 2224 2226 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 86 2194 2196 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 83 2088 2090 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)
+"structural_analysis.ml" 82 2026 2028 "structural_analysis.ml" 266 8606 8614
+type(
+  G.vertex
+)

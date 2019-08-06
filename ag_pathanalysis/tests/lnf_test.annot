@@ -1,0 +1,713 @@
+"lnf_test.ml" 7 73 79 "lnf_test.ml" 7 73 86
+type(
+  t -> t -> int
+)
+ident(
+  def compare "lnf_test.ml" 8 124 126 "lnf_test.ml" 11 186 189
+)
+"lnf_test.ml" 7 73 105 "lnf_test.ml" 7 73 123
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lnf_test.ml" 8 124 130 "lnf_test.ml" 8 124 134
+type(
+  'a -> int
+)
+ident(
+  def hash "lnf_test.ml" 9 150 152 "lnf_test.ml" 11 186 189
+)
+"lnf_test.ml" 8 124 137 "lnf_test.ml" 8 124 149
+type(
+  'a -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"lnf_test.ml" 9 150 156 "lnf_test.ml" 9 150 161
+type(
+  'b -> 'b -> bool
+)
+ident(
+  def equal "lnf_test.ml" 10 168 170 "lnf_test.ml" 11 186 189
+)
+"lnf_test.ml" 9 150 164 "lnf_test.ml" 9 150 167
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"lnf_test.ml" 10 168 174 "lnf_test.ml" 10 168 181
+type(
+  int
+)
+ident(
+  def default "lnf_test.ml" 10 168 185 "lnf_test.ml" 11 186 189
+)
+"lnf_test.ml" 10 168 184 "lnf_test.ml" 10 168 185
+type(
+  int
+)
+"lnf_test.ml" 14 209 235 "lnf_test.ml" 14 209 281
+call(
+  stack
+)
+"lnf_test.ml" 14 209 219 "lnf_test.ml" 14 209 282
+call(
+  stack
+)
+"lnf_test.ml" 15 283 289 "lnf_test.ml" 15 283 300
+type(
+  G.t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  def remove_edge "lnf_test.ml" 16 332 334 "lnf_test.ml" 19 424 427
+)
+"lnf_test.ml" 15 283 301 "lnf_test.ml" 15 283 302
+type(
+  G.t
+)
+ident(
+  def g "lnf_test.ml" 15 283 303 "lnf_test.ml" 15 283 331
+)
+"lnf_test.ml" 15 283 303 "lnf_test.ml" 15 283 304
+type(
+  G.vertex
+)
+ident(
+  def u "lnf_test.ml" 15 283 305 "lnf_test.ml" 15 283 331
+)
+"lnf_test.ml" 15 283 305 "lnf_test.ml" 15 283 306
+type(
+  G.vertex
+)
+ident(
+  def v "lnf_test.ml" 15 283 309 "lnf_test.ml" 15 283 331
+)
+"lnf_test.ml" 15 283 309 "lnf_test.ml" 15 283 322
+type(
+  G.t -> G.vertex -> G.vertex -> unit
+)
+ident(
+  ext_ref G.remove_edge
+)
+"lnf_test.ml" 15 283 323 "lnf_test.ml" 15 283 324
+type(
+  G.t
+)
+ident(
+  int_ref g "lnf_test.ml" 15 283 301 "lnf_test.ml" 15 283 302
+)
+"lnf_test.ml" 15 283 325 "lnf_test.ml" 15 283 326
+type(
+  G.vertex
+)
+ident(
+  int_ref u "lnf_test.ml" 15 283 303 "lnf_test.ml" 15 283 304
+)
+"lnf_test.ml" 15 283 327 "lnf_test.ml" 15 283 328
+type(
+  G.vertex
+)
+ident(
+  int_ref v "lnf_test.ml" 15 283 305 "lnf_test.ml" 15 283 306
+)
+"lnf_test.ml" 15 283 309 "lnf_test.ml" 15 283 328
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_test.ml" 15 283 330 "lnf_test.ml" 15 283 331
+type(
+  G.t
+)
+ident(
+  int_ref g "lnf_test.ml" 15 283 301 "lnf_test.ml" 15 283 302
+)
+"lnf_test.ml" 15 283 309 "lnf_test.ml" 15 283 331
+type(
+  G.t
+)
+"lnf_test.ml" 16 332 338 "lnf_test.ml" 16 332 351
+type(
+  G.t -> G.edge -> G.t
+)
+ident(
+  def remove_edge_e "lnf_test.ml" 18 382 384 "lnf_test.ml" 19 424 427
+)
+"lnf_test.ml" 16 332 352 "lnf_test.ml" 16 332 353
+type(
+  G.t
+)
+ident(
+  def g "lnf_test.ml" 16 332 354 "lnf_test.ml" 16 332 380
+)
+"lnf_test.ml" 16 332 354 "lnf_test.ml" 16 332 355
+type(
+  G.edge
+)
+ident(
+  def e "lnf_test.ml" 16 332 358 "lnf_test.ml" 16 332 380
+)
+"lnf_test.ml" 16 332 358 "lnf_test.ml" 16 332 373
+type(
+  G.t -> G.edge -> unit
+)
+ident(
+  ext_ref G.remove_edge_e
+)
+"lnf_test.ml" 16 332 374 "lnf_test.ml" 16 332 375
+type(
+  G.t
+)
+ident(
+  int_ref g "lnf_test.ml" 16 332 352 "lnf_test.ml" 16 332 353
+)
+"lnf_test.ml" 16 332 376 "lnf_test.ml" 16 332 377
+type(
+  G.edge
+)
+ident(
+  int_ref e "lnf_test.ml" 16 332 354 "lnf_test.ml" 16 332 355
+)
+"lnf_test.ml" 16 332 358 "lnf_test.ml" 16 332 377
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_test.ml" 16 332 379 "lnf_test.ml" 16 332 380
+type(
+  G.t
+)
+ident(
+  int_ref g "lnf_test.ml" 16 332 352 "lnf_test.ml" 16 332 353
+)
+"lnf_test.ml" 16 332 358 "lnf_test.ml" 16 332 380
+type(
+  G.t
+)
+"lnf_test.ml" 18 382 388 "lnf_test.ml" 18 382 391
+type(
+  G.V.t -> string
+)
+ident(
+  def v2s "lnf_test.ml" 18 382 423 "lnf_test.ml" 19 424 427
+)
+"lnf_test.ml" 18 382 392 "lnf_test.ml" 18 382 393
+type(
+  G.V.t
+)
+ident(
+  def v "lnf_test.ml" 18 382 396 "lnf_test.ml" 18 382 423
+)
+"lnf_test.ml" 18 382 396 "lnf_test.ml" 18 382 409
+type(
+  G.V.label -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"lnf_test.ml" 18 382 411 "lnf_test.ml" 18 382 420
+type(
+  G.V.t -> G.V.label
+)
+ident(
+  ext_ref G.V.label
+)
+"lnf_test.ml" 18 382 421 "lnf_test.ml" 18 382 422
+type(
+  G.V.t
+)
+ident(
+  int_ref v "lnf_test.ml" 18 382 392 "lnf_test.ml" 18 382 393
+)
+"lnf_test.ml" 18 382 410 "lnf_test.ml" 18 382 423
+call(
+  stack
+)
+type(
+  G.V.label
+)
+"lnf_test.ml" 18 382 396 "lnf_test.ml" 18 382 423
+call(
+  tail
+)
+type(
+  string
+)
+"lnf_test.ml" 29 659 663 "lnf_test.ml" 29 659 674
+type(
+  (G.G.V.t * G.G.V.t list) list -> G.G.t
+)
+ident(
+  def build_graph "lnf_test.ml" 40 964 964 --
+)
+"lnf_test.ml" 29 659 675 "lnf_test.ml" 29 659 691
+type(
+  (G.G.V.t * G.G.V.t list) list
+)
+ident(
+  def vertex_spec_list "lnf_test.ml" 30 694 696 "lnf_test.ml" 34 851 892
+)
+"lnf_test.ml" 30 694 700 "lnf_test.ml" 30 694 701
+type(
+  G.G.t
+)
+"lnf_test.ml" 30 694 704 "lnf_test.ml" 30 694 714
+type(
+  ?size:int -> unit -> G.G.t
+)
+ident(
+  ext_ref G.G.create
+)
+"lnf_test.ml" 30 694 715 "lnf_test.ml" 30 694 717
+type(
+  unit
+)
+"lnf_test.ml" 30 694 704 "lnf_test.ml" 30 694 717
+call(
+  stack
+)
+type(
+  G.G.t
+)
+"lnf_test.ml" 31 721 731 "lnf_test.ml" 31 721 740
+type(
+  G.G.V.t * G.G.V.t list -> unit
+)
+"lnf_test.ml" 31 721 742 "lnf_test.ml" 31 721 745
+type(
+  G.G.V.t
+)
+ident(
+  def src "lnf_test.ml" 31 721 752 "lnf_test.ml" 33 781 847
+)
+"lnf_test.ml" 31 721 746 "lnf_test.ml" 31 721 748
+type(
+  G.G.V.t list
+)
+ident(
+  def dl "lnf_test.ml" 31 721 752 "lnf_test.ml" 33 781 847
+)
+"lnf_test.ml" 31 721 741 "lnf_test.ml" 31 721 749
+type(
+  G.G.V.t * G.G.V.t list
+)
+"lnf_test.ml" 31 721 758 "lnf_test.ml" 31 721 760
+type(
+  G.G.V.t list
+)
+ident(
+  int_ref dl "lnf_test.ml" 31 721 746 "lnf_test.ml" 31 721 748
+)
+"lnf_test.ml" 32 766 772 "lnf_test.ml" 32 766 774
+type(
+  G.G.V.t list
+)
+"lnf_test.ml" 32 766 778 "lnf_test.ml" 32 766 780
+type(
+  unit
+)
+"lnf_test.ml" 33 781 787 "lnf_test.ml" 33 781 790
+type(
+  G.G.V.t
+)
+ident(
+  def dst "lnf_test.ml" 33 781 798 "lnf_test.ml" 33 781 847
+)
+"lnf_test.ml" 33 781 792 "lnf_test.ml" 33 781 794
+type(
+  G.G.V.t list
+)
+ident(
+  def vl "lnf_test.ml" 33 781 798 "lnf_test.ml" 33 781 847
+)
+"lnf_test.ml" 33 781 787 "lnf_test.ml" 33 781 794
+type(
+  G.G.V.t list
+)
+"lnf_test.ml" 33 781 798 "lnf_test.ml" 33 781 804
+type(
+  G.G.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"lnf_test.ml" 33 781 806 "lnf_test.ml" 33 781 816
+type(
+  G.G.t -> G.G.V.t -> G.G.V.t -> G.G.t
+)
+ident(
+  ext_ref G.add_edge
+)
+"lnf_test.ml" 33 781 817 "lnf_test.ml" 33 781 818
+type(
+  G.G.t
+)
+ident(
+  int_ref g "lnf_test.ml" 30 694 700 "lnf_test.ml" 30 694 701
+)
+"lnf_test.ml" 33 781 819 "lnf_test.ml" 33 781 822
+type(
+  G.G.V.t
+)
+ident(
+  int_ref src "lnf_test.ml" 31 721 742 "lnf_test.ml" 31 721 745
+)
+"lnf_test.ml" 33 781 823 "lnf_test.ml" 33 781 826
+type(
+  G.G.V.t
+)
+ident(
+  int_ref dst "lnf_test.ml" 33 781 787 "lnf_test.ml" 33 781 790
+)
+"lnf_test.ml" 33 781 805 "lnf_test.ml" 33 781 827
+call(
+  stack
+)
+type(
+  G.G.t
+)
+"lnf_test.ml" 33 781 798 "lnf_test.ml" 33 781 827
+type(
+  unit
+)
+"lnf_test.ml" 33 781 829 "lnf_test.ml" 33 781 838
+type(
+  G.G.V.t * G.G.V.t list -> unit
+)
+ident(
+  int_ref add_edges "lnf_test.ml" 31 721 731 "lnf_test.ml" 31 721 740
+)
+"lnf_test.ml" 33 781 840 "lnf_test.ml" 33 781 843
+type(
+  G.G.V.t
+)
+ident(
+  int_ref src "lnf_test.ml" 31 721 742 "lnf_test.ml" 31 721 745
+)
+"lnf_test.ml" 33 781 844 "lnf_test.ml" 33 781 846
+type(
+  G.G.V.t list
+)
+ident(
+  int_ref vl "lnf_test.ml" 33 781 792 "lnf_test.ml" 33 781 794
+)
+"lnf_test.ml" 33 781 839 "lnf_test.ml" 33 781 847
+type(
+  G.G.V.t * G.G.V.t list
+)
+"lnf_test.ml" 33 781 829 "lnf_test.ml" 33 781 847
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_test.ml" 33 781 798 "lnf_test.ml" 33 781 847
+type(
+  unit
+)
+"lnf_test.ml" 31 721 752 "lnf_test.ml" 33 781 847
+type(
+  unit
+)
+"lnf_test.ml" 34 851 853 "lnf_test.ml" 34 851 862
+type(
+  (G.G.V.t * G.G.V.t list -> unit) -> (G.G.V.t * G.G.V.t list) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"lnf_test.ml" 34 851 863 "lnf_test.ml" 34 851 872
+type(
+  G.G.V.t * G.G.V.t list -> unit
+)
+ident(
+  int_ref add_edges "lnf_test.ml" 31 721 731 "lnf_test.ml" 31 721 740
+)
+"lnf_test.ml" 34 851 873 "lnf_test.ml" 34 851 889
+type(
+  (G.G.V.t * G.G.V.t list) list
+)
+ident(
+  int_ref vertex_spec_list "lnf_test.ml" 29 659 675 "lnf_test.ml" 29 659 691
+)
+"lnf_test.ml" 34 851 853 "lnf_test.ml" 34 851 889
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_test.ml" 34 851 891 "lnf_test.ml" 34 851 892
+type(
+  G.G.t
+)
+ident(
+  int_ref g "lnf_test.ml" 30 694 700 "lnf_test.ml" 30 694 701
+)
+"lnf_test.ml" 34 851 853 "lnf_test.ml" 34 851 892
+type(
+  G.G.t
+)
+"lnf_test.ml" 31 721 723 "lnf_test.ml" 34 851 892
+type(
+  G.G.t
+)
+"lnf_test.ml" 30 694 696 "lnf_test.ml" 34 851 892
+type(
+  G.G.t
+)
+"lnf_test.ml" 40 964 968 "lnf_test.ml" 40 964 976
+type(
+  (G.G.t -> 'a -> G.G.V.t Lnf.lnf) ->
+  'a * (G.G.V.t * G.G.V.t list) list * G.G.V.t Lnf.lnf -> unit
+)
+ident(
+  def run_test "lnf_test.ml" 45 1188 1266 --
+)
+"lnf_test.ml" 40 964 977 "lnf_test.ml" 40 964 988
+type(
+  G.G.t -> 'a -> G.G.V.t Lnf.lnf
+)
+ident(
+  def compute_lnf "lnf_test.ml" 40 964 989 "lnf_test.ml" 45 1188 1266
+)
+"lnf_test.ml" 40 964 990 "lnf_test.ml" 40 964 992
+type(
+  'a
+)
+ident(
+  def v0 "lnf_test.ml" 41 1019 1021 "lnf_test.ml" 45 1188 1266
+)
+"lnf_test.ml" 40 964 993 "lnf_test.ml" 40 964 1002
+type(
+  (G.G.V.t * G.G.V.t list) list
+)
+ident(
+  def edge_list "lnf_test.ml" 41 1019 1021 "lnf_test.ml" 45 1188 1266
+)
+"lnf_test.ml" 40 964 1003 "lnf_test.ml" 40 964 1015
+type(
+  G.G.V.t Lnf.lnf
+)
+ident(
+  def expected_lnf "lnf_test.ml" 41 1019 1021 "lnf_test.ml" 45 1188 1266
+)
+"lnf_test.ml" 40 964 989 "lnf_test.ml" 40 964 1016
+type(
+  'a * (G.G.V.t * G.G.V.t list) list * G.G.V.t Lnf.lnf
+)
+"lnf_test.ml" 41 1019 1025 "lnf_test.ml" 41 1019 1026
+type(
+  G.G.t
+)
+"lnf_test.ml" 41 1019 1029 "lnf_test.ml" 41 1019 1040
+type(
+  (G.G.V.t * G.G.V.t list) list -> G.G.t
+)
+ident(
+  int_ref build_graph "lnf_test.ml" 29 659 663 "lnf_test.ml" 29 659 674
+)
+"lnf_test.ml" 41 1019 1041 "lnf_test.ml" 41 1019 1050
+type(
+  (G.G.V.t * G.G.V.t list) list
+)
+ident(
+  int_ref edge_list "lnf_test.ml" 40 964 993 "lnf_test.ml" 40 964 1002
+)
+"lnf_test.ml" 41 1019 1029 "lnf_test.ml" 41 1019 1050
+call(
+  stack
+)
+type(
+  G.G.t
+)
+"lnf_test.ml" 42 1054 1060 "lnf_test.ml" 42 1054 1063
+type(
+  G.G.V.t Lnf.lnf
+)
+"lnf_test.ml" 42 1054 1066 "lnf_test.ml" 42 1054 1077
+type(
+  G.G.t -> 'a -> G.G.V.t Lnf.lnf
+)
+ident(
+  int_ref compute_lnf "lnf_test.ml" 40 964 977 "lnf_test.ml" 40 964 988
+)
+"lnf_test.ml" 42 1054 1078 "lnf_test.ml" 42 1054 1079
+type(
+  G.G.t
+)
+ident(
+  int_ref g "lnf_test.ml" 41 1019 1025 "lnf_test.ml" 41 1019 1026
+)
+"lnf_test.ml" 42 1054 1080 "lnf_test.ml" 42 1054 1082
+type(
+  'a
+)
+ident(
+  int_ref v0 "lnf_test.ml" 40 964 990 "lnf_test.ml" 40 964 992
+)
+"lnf_test.ml" 42 1054 1066 "lnf_test.ml" 42 1054 1082
+call(
+  stack
+)
+type(
+  G.G.V.t Lnf.lnf
+)
+"lnf_test.ml" 43 1086 1088 "lnf_test.ml" 43 1086 1099
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref OUnit.assert_bool
+)
+"lnf_test.ml" 43 1086 1101 "lnf_test.ml" 43 1086 1116
+type(
+  string
+)
+"lnf_test.ml" 43 1086 1117 "lnf_test.ml" 43 1086 1118
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"lnf_test.ml" 43 1086 1120 "lnf_test.ml" 43 1086 1137
+type(
+  (G.G.V.t -> string) -> G.G.V.t Lnf.lnf -> string
+)
+ident(
+  ext_ref Lnf.string_of_lnf
+)
+"lnf_test.ml" 43 1086 1138 "lnf_test.ml" 43 1086 1143
+type(
+  G.G.V.t -> string
+)
+ident(
+  ext_ref G.v2s
+)
+"lnf_test.ml" 43 1086 1144 "lnf_test.ml" 43 1086 1147
+type(
+  G.G.V.t Lnf.lnf
+)
+ident(
+  int_ref lnf "lnf_test.ml" 42 1054 1060 "lnf_test.ml" 42 1054 1063
+)
+"lnf_test.ml" 43 1086 1119 "lnf_test.ml" 43 1086 1148
+call(
+  stack
+)
+type(
+  string
+)
+"lnf_test.ml" 43 1086 1100 "lnf_test.ml" 43 1086 1149
+call(
+  stack
+)
+type(
+  string
+)
+"lnf_test.ml" 44 1150 1165 "lnf_test.ml" 44 1150 1181
+type(
+  G.G.V.t Lnf.lnf -> bool
+)
+ident(
+  ext_ref Lnf.validate_lnf
+)
+"lnf_test.ml" 44 1150 1182 "lnf_test.ml" 44 1150 1185
+type(
+  G.G.V.t Lnf.lnf
+)
+ident(
+  int_ref lnf "lnf_test.ml" 42 1054 1060 "lnf_test.ml" 42 1054 1063
+)
+"lnf_test.ml" 44 1150 1164 "lnf_test.ml" 44 1150 1186
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_test.ml" 43 1086 1088 "lnf_test.ml" 44 1150 1186
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_test.ml" 45 1188 1202 "lnf_test.ml" 45 1188 1214
+type(
+  ?cmp:(G.G.V.t Lnf.lnf -> G.G.V.t Lnf.lnf -> bool) ->
+  ?printer:(G.G.V.t Lnf.lnf -> string) ->
+  ?pp_diff:(Format.formatter -> G.G.V.t Lnf.lnf * G.G.V.t Lnf.lnf -> unit) ->
+  ?msg:string -> G.G.V.t Lnf.lnf -> G.G.V.t Lnf.lnf -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"lnf_test.ml" 45 1188 1225 "lnf_test.ml" 45 1188 1242
+type(
+  (G.G.V.t -> string) -> G.G.V.t Lnf.lnf -> string
+)
+ident(
+  ext_ref Lnf.string_of_lnf
+)
+"lnf_test.ml" 45 1188 1243 "lnf_test.ml" 45 1188 1248
+type(
+  G.G.V.t -> string
+)
+ident(
+  ext_ref G.v2s
+)
+"lnf_test.ml" 45 1188 1224 "lnf_test.ml" 45 1188 1249
+call(
+  stack
+)
+type(
+  G.G.V.t Lnf.lnf -> string
+)
+"lnf_test.ml" 45 1188 1250 "lnf_test.ml" 45 1188 1262
+type(
+  G.G.V.t Lnf.lnf
+)
+ident(
+  int_ref expected_lnf "lnf_test.ml" 40 964 1003 "lnf_test.ml" 40 964 1015
+)
+"lnf_test.ml" 45 1188 1263 "lnf_test.ml" 45 1188 1266
+type(
+  G.G.V.t Lnf.lnf
+)
+ident(
+  int_ref lnf "lnf_test.ml" 42 1054 1060 "lnf_test.ml" 42 1054 1063
+)
+"lnf_test.ml" 45 1188 1202 "lnf_test.ml" 45 1188 1266
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_test.ml" 43 1086 1088 "lnf_test.ml" 45 1188 1266
+type(
+  unit
+)
+"lnf_test.ml" 42 1054 1056 "lnf_test.ml" 45 1188 1266
+type(
+  unit
+)
+"lnf_test.ml" 41 1019 1021 "lnf_test.ml" 45 1188 1266
+type(
+  unit
+)

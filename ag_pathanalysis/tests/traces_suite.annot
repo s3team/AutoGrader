@@ -1,0 +1,2979 @@
+"traces_suite.ml" 9 106 110 "traces_suite.ml" 9 106 113
+type(
+  string
+)
+ident(
+  def bof "traces_suite.ml" 10 127 127 --
+)
+"traces_suite.ml" 9 106 116 "traces_suite.ml" 9 106 124
+type(
+  string
+)
+"traces_suite.ml" 10 127 131 "traces_suite.ml" 10 127 141
+type(
+  string
+)
+ident(
+  def taint_file "traces_suite.ml" 11 161 161 --
+)
+"traces_suite.ml" 10 127 144 "traces_suite.ml" 10 127 158
+type(
+  string
+)
+"traces_suite.ml" 11 161 165 "traces_suite.ml" 11 161 177
+type(
+  string
+)
+ident(
+  def exploit_file "traces_suite.ml" 12 192 192 --
+)
+"traces_suite.ml" 11 161 180 "traces_suite.ml" 11 161 189
+type(
+  string
+)
+"traces_suite.ml" 12 192 196 "traces_suite.ml" 12 192 199
+type(
+  string
+)
+ident(
+  def tag "traces_suite.ml" 15 218 218 --
+)
+"traces_suite.ml" 12 192 202 "traces_suite.ml" 12 192 213
+type(
+  string
+)
+"traces_suite.ml" 15 218 222 "traces_suite.ml" 15 218 239
+type(
+  'a -> unit
+)
+ident(
+  def create_input_file "traces_suite.ml" 21 361 361 --
+)
+"traces_suite.ml" 15 218 240 "traces_suite.ml" 15 218 241
+type(
+  'a
+)
+"traces_suite.ml" 16 244 250 "traces_suite.ml" 16 244 253
+type(
+  out_channel
+)
+"traces_suite.ml" 16 244 256 "traces_suite.ml" 16 244 264
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"traces_suite.ml" 16 244 265 "traces_suite.ml" 16 244 275
+type(
+  string
+)
+ident(
+  int_ref taint_file "traces_suite.ml" 10 127 131 "traces_suite.ml" 10 127 141
+)
+"traces_suite.ml" 16 244 256 "traces_suite.ml" 16 244 275
+call(
+  stack
+)
+type(
+  out_channel
+)
+"traces_suite.ml" 17 279 281 "traces_suite.ml" 17 279 294
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"traces_suite.ml" 17 279 295 "traces_suite.ml" 17 279 298
+type(
+  out_channel
+)
+ident(
+  int_ref out "traces_suite.ml" 16 244 250 "traces_suite.ml" 16 244 253
+)
+"traces_suite.ml" 17 279 299 "traces_suite.ml" 17 279 339
+type(
+  string
+)
+"traces_suite.ml" 17 279 281 "traces_suite.ml" 17 279 339
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 18 341 343 "traces_suite.ml" 18 341 352
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"traces_suite.ml" 18 341 353 "traces_suite.ml" 18 341 356
+type(
+  out_channel
+)
+ident(
+  int_ref out "traces_suite.ml" 16 244 250 "traces_suite.ml" 16 244 253
+)
+"traces_suite.ml" 18 341 343 "traces_suite.ml" 18 341 356
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_suite.ml" 17 279 281 "traces_suite.ml" 18 341 356
+type(
+  unit
+)
+"traces_suite.ml" 16 244 246 "traces_suite.ml" 18 341 356
+type(
+  unit
+)
+"traces_suite.ml" 21 361 365 "traces_suite.ml" 21 361 380
+type(
+  Arch.arch -> unit -> string
+)
+ident(
+  def pin_trace_setup "traces_suite.ml" 30 601 601 --
+)
+"traces_suite.ml" 21 361 381 "traces_suite.ml" 21 361 385
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_suite.ml" 21 361 386 "traces_suite.ml" 28 546 599
+)
+"traces_suite.ml" 21 361 386 "traces_suite.ml" 21 361 388
+type(
+  unit
+)
+"traces_suite.ml" 22 391 397 "traces_suite.ml" 22 391 400
+type(
+  string
+)
+"traces_suite.ml" 22 391 409 "traces_suite.ml" 22 391 413
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 21 361 381 "traces_suite.ml" 21 361 385
+)
+"traces_suite.ml" 23 419 425 "traces_suite.ml" 23 419 431
+type(
+  Arch.arch
+)
+"traces_suite.ml" 23 419 435 "traces_suite.ml" 23 419 438
+type(
+  string
+)
+ident(
+  int_ref bof "traces_suite.ml" 9 106 110 "traces_suite.ml" 9 106 113
+)
+"traces_suite.ml" 24 439 445 "traces_suite.ml" 24 439 451
+type(
+  Arch.arch
+)
+"traces_suite.ml" 24 439 455 "traces_suite.ml" 24 439 458
+type(
+  string
+)
+ident(
+  int_ref bof "traces_suite.ml" 9 106 110 "traces_suite.ml" 9 106 113
+)
+"traces_suite.ml" 24 439 458 "traces_suite.ml" 24 439 459
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_suite.ml" 24 439 459 "traces_suite.ml" 24 439 464
+type(
+  string
+)
+"traces_suite.ml" 24 439 455 "traces_suite.ml" 24 439 464
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 22 391 403 "traces_suite.ml" 24 439 464
+type(
+  string
+)
+"traces_suite.ml" 26 470 472 "traces_suite.ml" 26 470 489
+type(
+  unit -> unit
+)
+ident(
+  int_ref create_input_file "traces_suite.ml" 15 218 222 "traces_suite.ml" 15 218 239
+)
+"traces_suite.ml" 26 470 489 "traces_suite.ml" 26 470 491
+type(
+  unit
+)
+"traces_suite.ml" 26 470 472 "traces_suite.ml" 26 470 491
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 27 493 499 "traces_suite.ml" 27 493 511
+type(
+  string list
+)
+"traces_suite.ml" 27 493 515 "traces_suite.ml" 27 493 529
+type(
+  string
+)
+"traces_suite.ml" 27 493 531 "traces_suite.ml" 27 493 541
+type(
+  string
+)
+ident(
+  int_ref taint_file "traces_suite.ml" 10 127 131 "traces_suite.ml" 10 127 141
+)
+"traces_suite.ml" 27 493 514 "traces_suite.ml" 27 493 542
+type(
+  string list
+)
+"traces_suite.ml" 28 546 548 "traces_suite.ml" 28 546 557
+type(
+  ?arch:Arch.arch ->
+  ?tag:string ->
+  ?pin_args:string list ->
+  ?pintool_args:string list -> string -> string list -> string
+)
+ident(
+  ext_ref Test_common.run_trace
+)
+"traces_suite.ml" 28 546 559 "traces_suite.ml" 28 546 562
+type(
+  string
+)
+ident(
+  int_ref tag "traces_suite.ml" 12 192 196 "traces_suite.ml" 12 192 199
+)
+"traces_suite.ml" 28 546 564 "traces_suite.ml" 28 546 568
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 21 361 381 "traces_suite.ml" 21 361 385
+)
+"traces_suite.ml" 28 546 570 "traces_suite.ml" 28 546 582
+type(
+  string list
+)
+ident(
+  int_ref pintool_args "traces_suite.ml" 27 493 499 "traces_suite.ml" 27 493 511
+)
+"traces_suite.ml" 28 546 583 "traces_suite.ml" 28 546 586
+type(
+  string
+)
+ident(
+  int_ref bof "traces_suite.ml" 22 391 397 "traces_suite.ml" 22 391 400
+)
+"traces_suite.ml" 28 546 588 "traces_suite.ml" 28 546 598
+type(
+  string
+)
+ident(
+  int_ref taint_file "traces_suite.ml" 10 127 131 "traces_suite.ml" 10 127 141
+)
+"traces_suite.ml" 28 546 587 "traces_suite.ml" 28 546 599
+type(
+  string list
+)
+"traces_suite.ml" 28 546 548 "traces_suite.ml" 28 546 599
+call(
+  tail
+)
+type(
+  string
+)
+"traces_suite.ml" 27 493 495 "traces_suite.ml" 28 546 599
+type(
+  string
+)
+"traces_suite.ml" 26 470 472 "traces_suite.ml" 28 546 599
+type(
+  string
+)
+"traces_suite.ml" 22 391 393 "traces_suite.ml" 28 546 599
+type(
+  string
+)
+"traces_suite.ml" 31 667 673 "traces_suite.ml" 31 667 687
+type(
+  string -> unit
+)
+ident(
+  def pin_trace_test "traces_suite.ml" 52 1561 1624 "traces_suite.ml" 53 1625 1628
+)
+"traces_suite.ml" 31 667 688 "traces_suite.ml" 31 667 695
+type(
+  string
+)
+ident(
+  def pin_out "traces_suite.ml" 32 698 702 "traces_suite.ml" 52 1561 1624
+)
+"traces_suite.ml" 32 698 706 "traces_suite.ml" 32 698 710
+type(
+  Ast.program
+)
+"traces_suite.ml" 32 698 712 "traces_suite.ml" 32 698 716
+type(
+  Arch.arch
+)
+"traces_suite.ml" 32 698 706 "traces_suite.ml" 32 698 716
+type(
+  Ast.program * Arch.arch
+)
+"traces_suite.ml" 32 698 719 "traces_suite.ml" 32 698 755
+type(
+  string -> Ast.program * Arch.arch
+)
+ident(
+  ext_ref Asmir.serialized_bap_from_trace_file
+)
+"traces_suite.ml" 32 698 756 "traces_suite.ml" 32 698 763
+type(
+  string
+)
+ident(
+  int_ref pin_out "traces_suite.ml" 31 667 688 "traces_suite.ml" 31 667 695
+)
+"traces_suite.ml" 32 698 719 "traces_suite.ml" 32 698 763
+call(
+  stack
+)
+type(
+  Ast.program * Arch.arch
+)
+"traces_suite.ml" 33 767 771 "traces_suite.ml" 33 767 780
+type(
+  Ast.program -> unit
+)
+ident(
+  ext_ref Test_common.typecheck
+)
+"traces_suite.ml" 33 767 781 "traces_suite.ml" 33 767 785
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "traces_suite.ml" 32 698 706 "traces_suite.ml" 32 698 710
+)
+"traces_suite.ml" 33 767 771 "traces_suite.ml" 33 767 785
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 34 787 791 "traces_suite.ml" 34 787 815
+type(
+  bool ref
+)
+ident(
+  ext_ref Traces.consistency_check
+)
+"traces_suite.ml" 34 787 816 "traces_suite.ml" 34 787 818
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_suite.ml" 34 787 819 "traces_suite.ml" 34 787 823
+type(
+  bool
+)
+"traces_suite.ml" 34 787 791 "traces_suite.ml" 34 787 823
+type(
+  unit
+)
+"traces_suite.ml" 35 825 829 "traces_suite.ml" 35 825 835
+type(
+  Ast.stmt list -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_suite.ml" 35 825 836 "traces_suite.ml" 35 825 851
+type(
+  Arch.arch -> Ast.program -> Ast.stmt list
+)
+ident(
+  ext_ref Traces.concrete
+)
+"traces_suite.ml" 35 825 852 "traces_suite.ml" 35 825 856
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 32 698 712 "traces_suite.ml" 32 698 716
+)
+"traces_suite.ml" 35 825 857 "traces_suite.ml" 35 825 861
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "traces_suite.ml" 32 698 706 "traces_suite.ml" 32 698 710
+)
+"traces_suite.ml" 35 825 835 "traces_suite.ml" 35 825 862
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_suite.ml" 35 825 829 "traces_suite.ml" 35 825 862
+type(
+  unit
+)
+"traces_suite.ml" 36 864 868 "traces_suite.ml" 36 864 892
+type(
+  bool ref
+)
+ident(
+  ext_ref Traces.consistency_check
+)
+"traces_suite.ml" 36 864 893 "traces_suite.ml" 36 864 895
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_suite.ml" 36 864 896 "traces_suite.ml" 36 864 901
+type(
+  bool
+)
+"traces_suite.ml" 36 864 868 "traces_suite.ml" 36 864 901
+type(
+  unit
+)
+"traces_suite.ml" 37 903 911 "traces_suite.ml" 37 903 913
+type(
+  Ast.stmt list
+)
+"traces_suite.ml" 37 903 916 "traces_suite.ml" 37 903 934
+type(
+  Big_int_Z.big_int -> string -> Arch.arch -> Ast.program -> Ast.stmt list
+)
+ident(
+  ext_ref Traces.add_payload
+)
+"traces_suite.ml" 37 903 935 "traces_suite.ml" 37 903 938
+type(
+  Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"traces_suite.ml" 37 903 939 "traces_suite.ml" 37 903 945
+type(
+  string
+)
+"traces_suite.ml" 37 903 946 "traces_suite.ml" 37 903 950
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 32 698 712 "traces_suite.ml" 32 698 716
+)
+"traces_suite.ml" 37 903 951 "traces_suite.ml" 37 903 955
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "traces_suite.ml" 32 698 706 "traces_suite.ml" 32 698 710
+)
+"traces_suite.ml" 37 903 916 "traces_suite.ml" 37 903 955
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_suite.ml" 39 1035 1039 "traces_suite.ml" 39 1035 1074
+type(
+  string * Smtexec.smtexec -> Arch.arch -> Ast.program -> unit
+)
+ident(
+  ext_ref Traces.TraceSymbolic.output_exploit
+)
+"traces_suite.ml" 39 1035 1076 "traces_suite.ml" 39 1035 1088
+type(
+  string
+)
+ident(
+  int_ref exploit_file "traces_suite.ml" 11 161 165 "traces_suite.ml" 11 161 177
+)
+"traces_suite.ml" 39 1035 1089 "traces_suite.ml" 39 1035 1103
+type(
+  Smtexec.smtexec
+)
+ident(
+  ext_ref Smtexec.STP.si
+)
+"traces_suite.ml" 39 1035 1075 "traces_suite.ml" 39 1035 1104
+type(
+  string * Smtexec.smtexec
+)
+"traces_suite.ml" 39 1035 1105 "traces_suite.ml" 39 1035 1109
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 32 698 712 "traces_suite.ml" 32 698 716
+)
+"traces_suite.ml" 39 1035 1110 "traces_suite.ml" 39 1035 1112
+type(
+  Ast.program
+)
+ident(
+  int_ref t1 "traces_suite.ml" 37 903 911 "traces_suite.ml" 37 903 913
+)
+"traces_suite.ml" 39 1035 1039 "traces_suite.ml" 39 1035 1112
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 40 1114 1122 "traces_suite.ml" 40 1114 1124
+type(
+  Ast.stmt list
+)
+"traces_suite.ml" 40 1114 1127 "traces_suite.ml" 40 1114 1145
+type(
+  Big_int_Z.big_int -> string -> Arch.arch -> Ast.program -> Ast.stmt list
+)
+ident(
+  ext_ref Traces.add_payload
+)
+"traces_suite.ml" 40 1114 1146 "traces_suite.ml" 40 1114 1149
+type(
+  Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"traces_suite.ml" 40 1114 1150 "traces_suite.ml" 40 1114 1156
+type(
+  string
+)
+"traces_suite.ml" 40 1114 1157 "traces_suite.ml" 40 1114 1161
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 32 698 712 "traces_suite.ml" 32 698 716
+)
+"traces_suite.ml" 40 1114 1162 "traces_suite.ml" 40 1114 1166
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "traces_suite.ml" 32 698 706 "traces_suite.ml" 32 698 710
+)
+"traces_suite.ml" 40 1114 1127 "traces_suite.ml" 40 1114 1166
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_suite.ml" 44 1321 1325 "traces_suite.ml" 44 1321 1339
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Traces.cleanup
+)
+"traces_suite.ml" 44 1321 1339 "traces_suite.ml" 44 1321 1341
+type(
+  unit
+)
+"traces_suite.ml" 44 1321 1325 "traces_suite.ml" 44 1321 1341
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 45 1343 1351 "traces_suite.ml" 45 1343 1356
+type(
+  bool
+)
+"traces_suite.ml" 47 1369 1377 "traces_suite.ml" 47 1369 1412
+type(
+  string * Smtexec.smtexec -> Arch.arch -> Ast.program -> unit
+)
+ident(
+  ext_ref Traces.TraceSymbolic.output_exploit
+)
+"traces_suite.ml" 47 1369 1414 "traces_suite.ml" 47 1369 1426
+type(
+  string
+)
+ident(
+  int_ref exploit_file "traces_suite.ml" 11 161 165 "traces_suite.ml" 11 161 177
+)
+"traces_suite.ml" 47 1369 1427 "traces_suite.ml" 47 1369 1441
+type(
+  Smtexec.smtexec
+)
+ident(
+  ext_ref Smtexec.STP.si
+)
+"traces_suite.ml" 47 1369 1413 "traces_suite.ml" 47 1369 1442
+type(
+  string * Smtexec.smtexec
+)
+"traces_suite.ml" 47 1369 1443 "traces_suite.ml" 47 1369 1447
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 32 698 712 "traces_suite.ml" 32 698 716
+)
+"traces_suite.ml" 47 1369 1448 "traces_suite.ml" 47 1369 1450
+type(
+  Ast.program
+)
+ident(
+  int_ref t2 "traces_suite.ml" 40 1114 1122 "traces_suite.ml" 40 1114 1124
+)
+"traces_suite.ml" 47 1369 1377 "traces_suite.ml" 47 1369 1450
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 48 1452 1460 "traces_suite.ml" 48 1452 1465
+type(
+  bool
+)
+"traces_suite.ml" 47 1369 1377 "traces_suite.ml" 48 1452 1465
+type(
+  bool
+)
+"traces_suite.ml" 49 1466 1485 "traces_suite.ml" 49 1466 1512
+type(
+  string
+)
+"traces_suite.ml" 49 1466 1477 "traces_suite.ml" 49 1466 1512
+type(
+  exn
+)
+"traces_suite.ml" 50 1513 1529 "traces_suite.ml" 50 1513 1545
+type(
+  string
+)
+"traces_suite.ml" 50 1513 1521 "traces_suite.ml" 50 1513 1545
+type(
+  exn
+)
+"traces_suite.ml" 49 1466 1477 "traces_suite.ml" 50 1513 1545
+type(
+  exn
+)
+"traces_suite.ml" 50 1513 1549 "traces_suite.ml" 50 1513 1553
+type(
+  bool
+)
+"traces_suite.ml" 46 1359 1365 "traces_suite.ml" 50 1513 1553
+type(
+  bool
+)
+"traces_suite.ml" 52 1561 1565 "traces_suite.ml" 52 1561 1577
+type(
+  ?cmp:(bool -> bool -> bool) ->
+  ?printer:(bool -> string) ->
+  ?pp_diff:(Format.formatter -> bool * bool -> unit) ->
+  ?msg:string -> bool -> bool -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"traces_suite.ml" 52 1561 1583 "traces_suite.ml" 52 1561 1613
+type(
+  string
+)
+"traces_suite.ml" 52 1561 1614 "traces_suite.ml" 52 1561 1619
+type(
+  bool
+)
+ident(
+  int_ref unsat "traces_suite.ml" 45 1343 1351 "traces_suite.ml" 45 1343 1356
+)
+"traces_suite.ml" 52 1561 1620 "traces_suite.ml" 52 1561 1624
+type(
+  bool
+)
+"traces_suite.ml" 52 1561 1565 "traces_suite.ml" 52 1561 1624
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_suite.ml" 45 1343 1347 "traces_suite.ml" 52 1561 1624
+type(
+  unit
+)
+"traces_suite.ml" 44 1321 1325 "traces_suite.ml" 52 1561 1624
+type(
+  unit
+)
+"traces_suite.ml" 40 1114 1118 "traces_suite.ml" 52 1561 1624
+type(
+  unit
+)
+"traces_suite.ml" 39 1035 1039 "traces_suite.ml" 52 1561 1624
+type(
+  unit
+)
+"traces_suite.ml" 37 903 907 "traces_suite.ml" 52 1561 1624
+type(
+  unit
+)
+"traces_suite.ml" 36 864 868 "traces_suite.ml" 52 1561 1624
+type(
+  unit
+)
+"traces_suite.ml" 35 825 829 "traces_suite.ml" 52 1561 1624
+type(
+  unit
+)
+"traces_suite.ml" 34 787 791 "traces_suite.ml" 52 1561 1624
+type(
+  unit
+)
+"traces_suite.ml" 33 767 771 "traces_suite.ml" 52 1561 1624
+type(
+  unit
+)
+"traces_suite.ml" 32 698 702 "traces_suite.ml" 52 1561 1624
+type(
+  unit
+)
+"traces_suite.ml" 55 1630 1634 "traces_suite.ml" 55 1630 1655
+type(
+  Smtexec.smtexec -> string -> unit
+)
+ident(
+  def pin_stream_trace_test "traces_suite.ml" 72 2564 2564 --
+)
+"traces_suite.ml" 55 1630 1656 "traces_suite.ml" 55 1630 1662
+type(
+  Smtexec.smtexec
+)
+ident(
+  def solver "traces_suite.ml" 55 1630 1663 "traces_suite.ml" 70 2499 2562
+)
+"traces_suite.ml" 55 1630 1663 "traces_suite.ml" 55 1630 1670
+type(
+  string
+)
+ident(
+  def pin_out "traces_suite.ml" 56 1673 1675 "traces_suite.ml" 70 2499 2562
+)
+"traces_suite.ml" 56 1673 1675 "traces_suite.ml" 56 1673 1682
+type(
+  bool -> string -> unit
+)
+ident(
+  ext_ref OUnit.skip_if
+)
+"traces_suite.ml" 56 1673 1684 "traces_suite.ml" 56 1673 1687
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"traces_suite.ml" 56 1673 1689 "traces_suite.ml" 56 1673 1695
+type(
+  Smtexec.smtexec
+)
+ident(
+  int_ref solver "traces_suite.ml" 55 1630 1656 "traces_suite.ml" 55 1630 1662
+)
+"traces_suite.ml" 56 1673 1689 "traces_suite.ml" 56 1673 1703
+call(
+  stack
+)
+type(
+  unit -> bool
+)
+"traces_suite.ml" 56 1673 1704 "traces_suite.ml" 56 1673 1706
+type(
+  unit
+)
+"traces_suite.ml" 56 1673 1688 "traces_suite.ml" 56 1673 1707
+type(
+  bool
+)
+"traces_suite.ml" 56 1673 1683 "traces_suite.ml" 56 1673 1708
+type(
+  bool
+)
+"traces_suite.ml" 56 1673 1710 "traces_suite.ml" 56 1673 1716
+type(
+  Smtexec.smtexec
+)
+ident(
+  int_ref solver "traces_suite.ml" 55 1630 1656 "traces_suite.ml" 55 1630 1662
+)
+"traces_suite.ml" 56 1673 1710 "traces_suite.ml" 56 1673 1727
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 56 1673 1728 "traces_suite.ml" 56 1673 1729
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_suite.ml" 56 1673 1730 "traces_suite.ml" 56 1673 1744
+type(
+  string
+)
+"traces_suite.ml" 56 1673 1709 "traces_suite.ml" 56 1673 1745
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 56 1673 1675 "traces_suite.ml" 56 1673 1745
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 58 1788 1794 "traces_suite.ml" 58 1788 1800
+type(
+  Ast.program Stream.t
+)
+ident(
+  def stream "traces_suite.ml" 59 1882 1884 "traces_suite.ml" 70 2499 2562
+)
+"traces_suite.ml" 58 1788 1802 "traces_suite.ml" 58 1788 1806
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_suite.ml" 59 1882 1884 "traces_suite.ml" 70 2499 2562
+)
+"traces_suite.ml" 58 1788 1794 "traces_suite.ml" 58 1788 1806
+type(
+  Ast.program Stream.t * Arch.arch
+)
+"traces_suite.ml" 58 1788 1809 "traces_suite.ml" 58 1788 1852
+type(
+  int64 -> string -> Ast.program Stream.t * Arch.arch
+)
+ident(
+  ext_ref Asmir.serialized_bap_stream_from_trace_file
+)
+"traces_suite.ml" 58 1788 1853 "traces_suite.ml" 58 1788 1854
+type(
+  int64 ref -> int64
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_suite.ml" 58 1788 1854 "traces_suite.ml" 58 1788 1870
+type(
+  int64 ref
+)
+ident(
+  ext_ref Input.streamrate
+)
+"traces_suite.ml" 58 1788 1853 "traces_suite.ml" 58 1788 1870
+type(
+  int64
+)
+"traces_suite.ml" 58 1788 1871 "traces_suite.ml" 58 1788 1878
+type(
+  string
+)
+ident(
+  int_ref pin_out "traces_suite.ml" 55 1630 1663 "traces_suite.ml" 55 1630 1670
+)
+"traces_suite.ml" 58 1788 1809 "traces_suite.ml" 58 1788 1878
+call(
+  stack
+)
+type(
+  Ast.program Stream.t * Arch.arch
+)
+"traces_suite.ml" 59 1882 1888 "traces_suite.ml" 59 1882 1895
+type(
+  Arch.arch -> Ast.program -> unit
+)
+ident(
+  def streamf "traces_suite.ml" 60 1963 1965 "traces_suite.ml" 70 2499 2562
+)
+"traces_suite.ml" 59 1882 1897 "traces_suite.ml" 59 1882 1903
+type(
+  unit -> unit
+)
+ident(
+  def finalf "traces_suite.ml" 60 1963 1965 "traces_suite.ml" 70 2499 2562
+)
+"traces_suite.ml" 59 1882 1888 "traces_suite.ml" 59 1882 1903
+type(
+  (Arch.arch -> Ast.program -> unit) * (unit -> unit)
+)
+"traces_suite.ml" 59 1882 1906 "traces_suite.ml" 59 1882 1936
+type(
+  string ->
+  Smtexec.smtexec -> (Arch.arch -> Ast.program -> unit) * (unit -> unit)
+)
+ident(
+  ext_ref Traces_stream.generate_formula
+)
+"traces_suite.ml" 59 1882 1937 "traces_suite.ml" 59 1882 1952
+type(
+  string
+)
+ident(
+  ext_ref Traces.TraceSymbolicStream.formula_storage
+)
+"traces_suite.ml" 59 1882 1953 "traces_suite.ml" 59 1882 1959
+type(
+  Smtexec.smtexec
+)
+ident(
+  int_ref solver "traces_suite.ml" 55 1630 1656 "traces_suite.ml" 55 1630 1662
+)
+"traces_suite.ml" 59 1882 1906 "traces_suite.ml" 59 1882 1959
+call(
+  stack
+)
+type(
+  (Arch.arch -> Ast.program -> unit) * (unit -> unit)
+)
+"traces_suite.ml" 60 1963 1965 "traces_suite.ml" 60 1963 1976
+type(
+  (Ast.program -> unit) -> Ast.program Stream.t -> unit
+)
+ident(
+  ext_ref Stream.iter
+)
+"traces_suite.ml" 60 1963 1978 "traces_suite.ml" 60 1963 1985
+type(
+  Arch.arch -> Ast.program -> unit
+)
+ident(
+  int_ref streamf "traces_suite.ml" 59 1882 1888 "traces_suite.ml" 59 1882 1895
+)
+"traces_suite.ml" 60 1963 1986 "traces_suite.ml" 60 1963 1990
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 58 1788 1802 "traces_suite.ml" 58 1788 1806
+)
+"traces_suite.ml" 60 1963 1977 "traces_suite.ml" 60 1963 1991
+call(
+  stack
+)
+type(
+  Ast.program -> unit
+)
+"traces_suite.ml" 60 1963 1992 "traces_suite.ml" 60 1963 1998
+type(
+  Ast.program Stream.t
+)
+ident(
+  int_ref stream "traces_suite.ml" 58 1788 1794 "traces_suite.ml" 58 1788 1800
+)
+"traces_suite.ml" 60 1963 1965 "traces_suite.ml" 60 1963 1998
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 61 2000 2002 "traces_suite.ml" 61 2000 2008
+type(
+  unit -> unit
+)
+ident(
+  int_ref finalf "traces_suite.ml" 59 1882 1897 "traces_suite.ml" 59 1882 1903
+)
+"traces_suite.ml" 61 2000 2009 "traces_suite.ml" 61 2000 2011
+type(
+  unit
+)
+"traces_suite.ml" 61 2000 2002 "traces_suite.ml" 61 2000 2011
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 62 2013 2021 "traces_suite.ml" 62 2013 2027
+type(
+  Smtexec.smtexec
+)
+ident(
+  int_ref solver "traces_suite.ml" 55 1630 1656 "traces_suite.ml" 55 1630 1662
+)
+"traces_suite.ml" 62 2013 2021 "traces_suite.ml" 62 2013 2046
+call(
+  stack
+)
+type(
+  ?timeout:int -> ?remove:bool -> ?getmodel:bool -> string -> Smtexec.result
+)
+"traces_suite.ml" 62 2013 2057 "traces_suite.ml" 62 2013 2061
+type(
+  bool
+)
+"traces_suite.ml" 62 2013 2062 "traces_suite.ml" 62 2013 2077
+type(
+  string
+)
+ident(
+  ext_ref Traces.TraceSymbolicStream.formula_storage
+)
+"traces_suite.ml" 62 2013 2021 "traces_suite.ml" 62 2013 2077
+type(
+  Smtexec.result
+)
+"traces_suite.ml" 63 2083 2103 "traces_suite.ml" 63 2083 2104
+type(
+  Smtexec.model
+)
+ident(
+  def m "traces_suite.ml" 64 2108 2112 "traces_suite.ml" 66 2186 2262
+)
+"traces_suite.ml" 63 2083 2087 "traces_suite.ml" 63 2083 2104
+type(
+  Smtexec.result
+)
+"traces_suite.ml" 64 2108 2117 "traces_suite.ml" 64 2108 2132
+type(
+  Smtexec.model -> string -> unit
+)
+ident(
+  ext_ref Traces.TraceSymbolicStream.parse_answer_to
+)
+"traces_suite.ml" 64 2108 2133 "traces_suite.ml" 64 2108 2134
+type(
+  Smtexec.model
+)
+ident(
+  int_ref m "traces_suite.ml" 63 2083 2103 "traces_suite.ml" 63 2083 2104
+)
+"traces_suite.ml" 64 2108 2135 "traces_suite.ml" 64 2108 2147
+type(
+  string
+)
+ident(
+  int_ref exploit_file "traces_suite.ml" 11 161 165 "traces_suite.ml" 11 161 177
+)
+"traces_suite.ml" 64 2108 2117 "traces_suite.ml" 64 2108 2147
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 65 2148 2166 "traces_suite.ml" 65 2148 2182
+type(
+  string
+)
+"traces_suite.ml" 65 2148 2158 "traces_suite.ml" 65 2148 2182
+type(
+  exn
+)
+"traces_suite.ml" 66 2186 2193 "traces_suite.ml" 66 2186 2200
+type(
+  bool -> string -> unit
+)
+ident(
+  ext_ref OUnit.skip_if
+)
+"traces_suite.ml" 66 2186 2201 "traces_suite.ml" 66 2186 2205
+type(
+  bool
+)
+"traces_suite.ml" 66 2186 2207 "traces_suite.ml" 66 2186 2226
+type(
+  string
+)
+"traces_suite.ml" 66 2186 2226 "traces_suite.ml" 66 2186 2227
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_suite.ml" 66 2186 2227 "traces_suite.ml" 66 2186 2233
+type(
+  Smtexec.smtexec
+)
+ident(
+  int_ref solver "traces_suite.ml" 55 1630 1656 "traces_suite.ml" 55 1630 1662
+)
+"traces_suite.ml" 66 2186 2227 "traces_suite.ml" 66 2186 2244
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 66 2186 2244 "traces_suite.ml" 66 2186 2245
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_suite.ml" 66 2186 2245 "traces_suite.ml" 66 2186 2260
+type(
+  string
+)
+"traces_suite.ml" 66 2186 2227 "traces_suite.ml" 66 2186 2260
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 66 2186 2206 "traces_suite.ml" 66 2186 2261
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 66 2186 2193 "traces_suite.ml" 66 2186 2261
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_suite.ml" 64 2108 2112 "traces_suite.ml" 66 2186 2262
+type(
+  unit
+)
+"traces_suite.ml" 67 2263 2267 "traces_suite.ml" 67 2263 2280
+type(
+  Smtexec.result
+)
+"traces_suite.ml" 67 2263 2284 "traces_suite.ml" 67 2263 2298
+type(
+  string -> unit
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"traces_suite.ml" 67 2263 2299 "traces_suite.ml" 67 2263 2349
+type(
+  string
+)
+"traces_suite.ml" 67 2263 2284 "traces_suite.ml" 67 2263 2349
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_suite.ml" 68 2350 2354 "traces_suite.ml" 68 2350 2355
+type(
+  Smtexec.result
+)
+"traces_suite.ml" 69 2359 2363 "traces_suite.ml" 69 2359 2370
+type(
+  bool -> string -> unit
+)
+ident(
+  ext_ref OUnit.skip_if
+)
+"traces_suite.ml" 69 2359 2372 "traces_suite.ml" 69 2359 2378
+type(
+  Smtexec.smtexec
+)
+ident(
+  int_ref solver "traces_suite.ml" 55 1630 1656 "traces_suite.ml" 55 1630 1662
+)
+"traces_suite.ml" 69 2359 2379 "traces_suite.ml" 69 2359 2381
+type(
+  Smtexec.smtexec -> Smtexec.smtexec -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"traces_suite.ml" 69 2359 2382 "traces_suite.ml" 69 2359 2402
+type(
+  Smtexec.smtexec
+)
+ident(
+  ext_ref Smtexec.STPSMTLIB.si
+)
+"traces_suite.ml" 69 2359 2371 "traces_suite.ml" 69 2359 2403
+type(
+  bool
+)
+"traces_suite.ml" 69 2359 2404 "traces_suite.ml" 69 2359 2497
+type(
+  string
+)
+"traces_suite.ml" 69 2359 2363 "traces_suite.ml" 69 2359 2497
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 70 2499 2503 "traces_suite.ml" 70 2499 2517
+type(
+  string -> unit
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"traces_suite.ml" 70 2499 2518 "traces_suite.ml" 70 2499 2562
+type(
+  string
+)
+"traces_suite.ml" 70 2499 2503 "traces_suite.ml" 70 2499 2562
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_suite.ml" 69 2359 2363 "traces_suite.ml" 70 2499 2562
+type(
+  unit
+)
+"traces_suite.ml" 62 2013 2015 "traces_suite.ml" 70 2499 2562
+type(
+  unit
+)
+"traces_suite.ml" 61 2000 2002 "traces_suite.ml" 70 2499 2562
+type(
+  unit
+)
+"traces_suite.ml" 60 1963 1965 "traces_suite.ml" 70 2499 2562
+type(
+  unit
+)
+"traces_suite.ml" 59 1882 1884 "traces_suite.ml" 70 2499 2562
+type(
+  unit
+)
+"traces_suite.ml" 58 1788 1790 "traces_suite.ml" 70 2499 2562
+type(
+  unit
+)
+"traces_suite.ml" 56 1673 1675 "traces_suite.ml" 70 2499 2562
+type(
+  unit
+)
+"traces_suite.ml" 72 2564 2568 "traces_suite.ml" 72 2564 2588
+type(
+  string -> unit
+)
+ident(
+  def backwards_taint_test "traces_suite.ml" 96 3582 3582 --
+)
+"traces_suite.ml" 72 2564 2589 "traces_suite.ml" 72 2564 2596
+type(
+  string
+)
+ident(
+  def pin_out "traces_suite.ml" 73 2599 2601 "traces_suite.ml" 94 3472 3580
+)
+"traces_suite.ml" 73 2599 2601 "traces_suite.ml" 73 2599 2615
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Traces.cleanup
+)
+"traces_suite.ml" 73 2599 2615 "traces_suite.ml" 73 2599 2617
+type(
+  unit
+)
+"traces_suite.ml" 73 2599 2601 "traces_suite.ml" 73 2599 2617
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 74 2619 2625 "traces_suite.ml" 74 2619 2629
+type(
+  Ast.program
+)
+"traces_suite.ml" 74 2619 2631 "traces_suite.ml" 74 2619 2635
+type(
+  Arch.arch
+)
+"traces_suite.ml" 74 2619 2625 "traces_suite.ml" 74 2619 2635
+type(
+  Ast.program * Arch.arch
+)
+"traces_suite.ml" 74 2619 2638 "traces_suite.ml" 74 2619 2674
+type(
+  string -> Ast.program * Arch.arch
+)
+ident(
+  ext_ref Asmir.serialized_bap_from_trace_file
+)
+"traces_suite.ml" 74 2619 2675 "traces_suite.ml" 74 2619 2682
+type(
+  string
+)
+ident(
+  int_ref pin_out "traces_suite.ml" 72 2564 2589 "traces_suite.ml" 72 2564 2596
+)
+"traces_suite.ml" 74 2619 2638 "traces_suite.ml" 74 2619 2682
+call(
+  stack
+)
+type(
+  Ast.program * Arch.arch
+)
+"traces_suite.ml" 75 2686 2688 "traces_suite.ml" 75 2686 2697
+type(
+  Ast.program -> unit
+)
+ident(
+  ext_ref Test_common.typecheck
+)
+"traces_suite.ml" 75 2686 2698 "traces_suite.ml" 75 2686 2702
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "traces_suite.ml" 74 2619 2625 "traces_suite.ml" 74 2619 2629
+)
+"traces_suite.ml" 75 2686 2688 "traces_suite.ml" 75 2686 2702
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 76 2704 2710 "traces_suite.ml" 76 2704 2725
+type(
+  Traces_backtaint.LocSet.t
+)
+"traces_suite.ml" 76 2704 2728 "traces_suite.ml" 76 2704 2755
+type(
+  Arch.arch -> Ast.program -> Traces_backtaint.LocSet.t
+)
+ident(
+  ext_ref Test_common.backwards_taint
+)
+"traces_suite.ml" 76 2704 2756 "traces_suite.ml" 76 2704 2760
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 74 2619 2631 "traces_suite.ml" 74 2619 2635
+)
+"traces_suite.ml" 76 2704 2761 "traces_suite.ml" 76 2704 2765
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "traces_suite.ml" 74 2619 2625 "traces_suite.ml" 74 2619 2629
+)
+"traces_suite.ml" 76 2704 2728 "traces_suite.ml" 76 2704 2765
+call(
+  stack
+)
+type(
+  Traces_backtaint.LocSet.t
+)
+"traces_suite.ml" 81 3007 3009 "traces_suite.ml" 81 3007 3020
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref OUnit.assert_bool
+)
+"traces_suite.ml" 81 3007 3021 "traces_suite.ml" 81 3007 3056
+type(
+  string
+)
+"traces_suite.ml" 82 3057 3062 "traces_suite.ml" 82 3057 3076
+type(
+  (Traces_backtaint.LocSet.elt -> bool) -> Traces_backtaint.LocSet.t -> bool
+)
+ident(
+  ext_ref Traces_backtaint.LocSet.for_all
+)
+"traces_suite.ml" 84 3094 3111 "traces_suite.ml" 84 3094 3112
+type(
+  Var.t
+)
+ident(
+  def v "traces_suite.ml" 85 3116 3127 "traces_suite.ml" 88 3207 3282
+)
+"traces_suite.ml" 84 3094 3105 "traces_suite.ml" 84 3094 3112
+type(
+  Traces_backtaint.LocSet.elt
+)
+"traces_suite.ml" 86 3132 3149 "traces_suite.ml" 86 3132 3150
+type(
+  int
+)
+ident(
+  def n "traces_suite.ml" 87 3178 3191 "traces_suite.ml" 87 3178 3206
+)
+"traces_suite.ml" 86 3132 3153 "traces_suite.ml" 86 3132 3172
+type(
+  Var.t -> int
+)
+ident(
+  ext_ref Traces.get_symb_num
+)
+"traces_suite.ml" 86 3132 3173 "traces_suite.ml" 86 3132 3174
+type(
+  Var.t
+)
+ident(
+  int_ref v "traces_suite.ml" 84 3094 3111 "traces_suite.ml" 84 3094 3112
+)
+"traces_suite.ml" 86 3132 3153 "traces_suite.ml" 86 3132 3174
+call(
+  stack
+)
+type(
+  int
+)
+"traces_suite.ml" 87 3178 3191 "traces_suite.ml" 87 3178 3192
+type(
+  int
+)
+ident(
+  int_ref n "traces_suite.ml" 86 3132 3149 "traces_suite.ml" 86 3132 3150
+)
+"traces_suite.ml" 87 3178 3193 "traces_suite.ml" 87 3178 3194
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"traces_suite.ml" 87 3178 3195 "traces_suite.ml" 87 3178 3196
+type(
+  int
+)
+"traces_suite.ml" 87 3178 3191 "traces_suite.ml" 87 3178 3196
+type(
+  bool
+)
+"traces_suite.ml" 87 3178 3197 "traces_suite.ml" 87 3178 3199
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"traces_suite.ml" 87 3178 3200 "traces_suite.ml" 87 3178 3201
+type(
+  int
+)
+ident(
+  int_ref n "traces_suite.ml" 86 3132 3149 "traces_suite.ml" 86 3132 3150
+)
+"traces_suite.ml" 87 3178 3202 "traces_suite.ml" 87 3178 3203
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"traces_suite.ml" 87 3178 3204 "traces_suite.ml" 87 3178 3206
+type(
+  int
+)
+"traces_suite.ml" 87 3178 3200 "traces_suite.ml" 87 3178 3206
+type(
+  bool
+)
+"traces_suite.ml" 87 3178 3191 "traces_suite.ml" 87 3178 3206
+type(
+  bool
+)
+"traces_suite.ml" 86 3132 3145 "traces_suite.ml" 87 3178 3206
+type(
+  bool
+)
+"traces_suite.ml" 88 3207 3224 "traces_suite.ml" 88 3207 3225
+type(
+  exn
+)
+"traces_suite.ml" 88 3207 3229 "traces_suite.ml" 88 3207 3243
+type(
+  string -> bool
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"traces_suite.ml" 88 3207 3244 "traces_suite.ml" 88 3207 3281
+type(
+  string
+)
+"traces_suite.ml" 88 3207 3229 "traces_suite.ml" 88 3207 3281
+call(
+  tail
+)
+type(
+  bool
+)
+"traces_suite.ml" 85 3116 3127 "traces_suite.ml" 88 3207 3282
+type(
+  bool
+)
+"traces_suite.ml" 89 3283 3300 "traces_suite.ml" 89 3283 3301
+type(
+  Big_int_Z.big_int
+)
+"traces_suite.ml" 89 3283 3294 "traces_suite.ml" 89 3283 3301
+type(
+  Traces_backtaint.LocSet.elt
+)
+"traces_suite.ml" 89 3283 3305 "traces_suite.ml" 89 3283 3319
+type(
+  string -> bool
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"traces_suite.ml" 89 3283 3320 "traces_suite.ml" 89 3283 3369
+type(
+  string
+)
+"traces_suite.ml" 89 3283 3305 "traces_suite.ml" 89 3283 3369
+call(
+  tail
+)
+type(
+  bool
+)
+"traces_suite.ml" 83 3077 3084 "traces_suite.ml" 89 3283 3370
+type(
+  Traces_backtaint.LocSet.elt -> bool
+)
+"traces_suite.ml" 90 3371 3378 "traces_suite.ml" 90 3371 3393
+type(
+  Traces_backtaint.LocSet.t
+)
+ident(
+  int_ref input_locations "traces_suite.ml" 76 2704 2710 "traces_suite.ml" 76 2704 2725
+)
+"traces_suite.ml" 82 3057 3061 "traces_suite.ml" 90 3371 3394
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_suite.ml" 81 3007 3009 "traces_suite.ml" 90 3371 3394
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 92 3397 3403 "traces_suite.ml" 92 3397 3404
+type(
+  int
+)
+"traces_suite.ml" 92 3397 3407 "traces_suite.ml" 92 3397 3422
+type(
+  Traces_backtaint.LocSet.t -> int
+)
+ident(
+  ext_ref Traces_backtaint.LocSet.cardinal
+)
+"traces_suite.ml" 92 3397 3423 "traces_suite.ml" 92 3397 3438
+type(
+  Traces_backtaint.LocSet.t
+)
+ident(
+  int_ref input_locations "traces_suite.ml" 76 2704 2710 "traces_suite.ml" 76 2704 2725
+)
+"traces_suite.ml" 92 3397 3407 "traces_suite.ml" 92 3397 3438
+call(
+  stack
+)
+type(
+  int
+)
+"traces_suite.ml" 93 3442 3444 "traces_suite.ml" 93 3442 3457
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"traces_suite.ml" 93 3442 3458 "traces_suite.ml" 93 3442 3468
+type(
+  (int -> unit, out_channel, unit) format
+)
+"traces_suite.ml" 93 3442 3469 "traces_suite.ml" 93 3442 3470
+type(
+  int
+)
+ident(
+  int_ref n "traces_suite.ml" 92 3397 3403 "traces_suite.ml" 92 3397 3404
+)
+"traces_suite.ml" 93 3442 3444 "traces_suite.ml" 93 3442 3470
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 94 3472 3474 "traces_suite.ml" 94 3472 3485
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref OUnit.assert_bool
+)
+"traces_suite.ml" 94 3472 3486 "traces_suite.ml" 94 3472 3560
+type(
+  string
+)
+"traces_suite.ml" 94 3472 3562 "traces_suite.ml" 94 3472 3563
+type(
+  int
+)
+ident(
+  int_ref n "traces_suite.ml" 92 3397 3403 "traces_suite.ml" 92 3397 3404
+)
+"traces_suite.ml" 94 3472 3564 "traces_suite.ml" 94 3472 3566
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"traces_suite.ml" 94 3472 3567 "traces_suite.ml" 94 3472 3568
+type(
+  int
+)
+"traces_suite.ml" 94 3472 3562 "traces_suite.ml" 94 3472 3568
+type(
+  bool
+)
+"traces_suite.ml" 94 3472 3569 "traces_suite.ml" 94 3472 3571
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"traces_suite.ml" 94 3472 3572 "traces_suite.ml" 94 3472 3573
+type(
+  int
+)
+ident(
+  int_ref n "traces_suite.ml" 92 3397 3403 "traces_suite.ml" 92 3397 3404
+)
+"traces_suite.ml" 94 3472 3574 "traces_suite.ml" 94 3472 3576
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"traces_suite.ml" 94 3472 3577 "traces_suite.ml" 94 3472 3579
+type(
+  int
+)
+"traces_suite.ml" 94 3472 3572 "traces_suite.ml" 94 3472 3579
+type(
+  bool
+)
+"traces_suite.ml" 94 3472 3561 "traces_suite.ml" 94 3472 3580
+type(
+  bool
+)
+"traces_suite.ml" 94 3472 3474 "traces_suite.ml" 94 3472 3580
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_suite.ml" 93 3442 3444 "traces_suite.ml" 94 3472 3580
+type(
+  unit
+)
+"traces_suite.ml" 92 3397 3399 "traces_suite.ml" 94 3472 3580
+type(
+  unit
+)
+"traces_suite.ml" 81 3007 3009 "traces_suite.ml" 94 3472 3580
+type(
+  unit
+)
+"traces_suite.ml" 76 2704 2706 "traces_suite.ml" 94 3472 3580
+type(
+  unit
+)
+"traces_suite.ml" 75 2686 2688 "traces_suite.ml" 94 3472 3580
+type(
+  unit
+)
+"traces_suite.ml" 74 2619 2621 "traces_suite.ml" 94 3472 3580
+type(
+  unit
+)
+"traces_suite.ml" 73 2599 2601 "traces_suite.ml" 94 3472 3580
+type(
+  unit
+)
+"traces_suite.ml" 96 3582 3586 "traces_suite.ml" 96 3582 3606
+type(
+  string -> unit
+)
+ident(
+  def backwards_taint_test "traces_suite.ml" 101 3779 3779 --
+)
+"traces_suite.ml" 96 3582 3607 "traces_suite.ml" 96 3582 3608
+type(
+  string
+)
+ident(
+  def x "traces_suite.ml" 97 3611 3613 "traces_suite.ml" 98 3640 3702
+)
+"traces_suite.ml" 97 3611 3617 "traces_suite.ml" 97 3611 3637
+type(
+  string -> unit
+)
+ident(
+  int_ref backwards_taint_test "traces_suite.ml" 72 2564 2568 "traces_suite.ml" 72 2564 2588
+)
+"traces_suite.ml" 97 3611 3638 "traces_suite.ml" 97 3611 3639
+type(
+  string
+)
+ident(
+  int_ref x "traces_suite.ml" 96 3582 3607 "traces_suite.ml" 96 3582 3608
+)
+"traces_suite.ml" 97 3611 3617 "traces_suite.ml" 97 3611 3639
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 98 3640 3647 "traces_suite.ml" 98 3640 3648
+type(
+  exn
+)
+"traces_suite.ml" 98 3640 3652 "traces_suite.ml" 98 3640 3659
+type(
+  bool -> string -> unit
+)
+ident(
+  ext_ref OUnit.skip_if
+)
+"traces_suite.ml" 98 3640 3660 "traces_suite.ml" 98 3640 3664
+type(
+  bool
+)
+"traces_suite.ml" 98 3640 3665 "traces_suite.ml" 98 3640 3702
+type(
+  string
+)
+"traces_suite.ml" 98 3640 3652 "traces_suite.ml" 98 3640 3702
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_suite.ml" 97 3611 3613 "traces_suite.ml" 98 3640 3702
+type(
+  unit
+)
+"traces_suite.ml" 101 3779 3783 "traces_suite.ml" 101 3779 3800
+type(
+  string -> unit
+)
+ident(
+  def pin_trace_cleanup "traces_suite.ml" 106 3894 3894 --
+)
+"traces_suite.ml" 101 3779 3801 "traces_suite.ml" 101 3779 3808
+type(
+  string
+)
+ident(
+  def pin_out "traces_suite.ml" 102 3811 3813 "traces_suite.ml" 103 3871 3889
+)
+"traces_suite.ml" 102 3811 3813 "traces_suite.ml" 102 3811 3831
+type(
+  string list -> unit
+)
+ident(
+  ext_ref Test_common.rm_and_ignore_list
+)
+"traces_suite.ml" 102 3811 3833 "traces_suite.ml" 102 3811 3840
+type(
+  string
+)
+ident(
+  int_ref pin_out "traces_suite.ml" 101 3779 3801 "traces_suite.ml" 101 3779 3808
+)
+"traces_suite.ml" 102 3811 3843 "traces_suite.ml" 102 3811 3855
+type(
+  string
+)
+ident(
+  int_ref exploit_file "traces_suite.ml" 11 161 165 "traces_suite.ml" 11 161 177
+)
+"traces_suite.ml" 102 3811 3858 "traces_suite.ml" 102 3811 3868
+type(
+  string
+)
+ident(
+  int_ref taint_file "traces_suite.ml" 10 127 131 "traces_suite.ml" 10 127 141
+)
+"traces_suite.ml" 102 3811 3832 "traces_suite.ml" 102 3811 3869
+type(
+  string list
+)
+"traces_suite.ml" 102 3811 3813 "traces_suite.ml" 102 3811 3869
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 103 3871 3873 "traces_suite.ml" 103 3871 3887
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Traces.cleanup
+)
+"traces_suite.ml" 103 3871 3887 "traces_suite.ml" 103 3871 3889
+type(
+  unit
+)
+"traces_suite.ml" 103 3871 3873 "traces_suite.ml" 103 3871 3889
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_suite.ml" 102 3811 3813 "traces_suite.ml" 103 3871 3889
+type(
+  unit
+)
+"traces_suite.ml" 106 3894 3898 "traces_suite.ml" 106 3894 3910
+type(
+  string -> unit
+)
+ident(
+  def exploit_test "traces_suite.ml" 119 4517 4517 --
+)
+"traces_suite.ml" 106 3894 3911 "traces_suite.ml" 106 3894 3916
+type(
+  string
+)
+ident(
+  def trace "traces_suite.ml" 107 3919 3921 "traces_suite.ml" 117 4409 4515
+)
+"traces_suite.ml" 107 3919 3925 "traces_suite.ml" 107 3919 3930
+type(
+  Ast.program
+)
+"traces_suite.ml" 107 3919 3932 "traces_suite.ml" 107 3919 3936
+type(
+  Arch.arch
+)
+"traces_suite.ml" 107 3919 3925 "traces_suite.ml" 107 3919 3936
+type(
+  Ast.program * Arch.arch
+)
+"traces_suite.ml" 107 3919 3939 "traces_suite.ml" 107 3919 3975
+type(
+  string -> Ast.program * Arch.arch
+)
+ident(
+  ext_ref Asmir.serialized_bap_from_trace_file
+)
+"traces_suite.ml" 107 3919 3976 "traces_suite.ml" 107 3919 3981
+type(
+  string
+)
+ident(
+  int_ref trace "traces_suite.ml" 106 3894 3911 "traces_suite.ml" 106 3894 3916
+)
+"traces_suite.ml" 107 3919 3939 "traces_suite.ml" 107 3919 3981
+call(
+  stack
+)
+type(
+  Ast.program * Arch.arch
+)
+"traces_suite.ml" 108 3985 3991 "traces_suite.ml" 108 3985 3992
+type(
+  Type.typ
+)
+"traces_suite.ml" 108 3985 3995 "traces_suite.ml" 108 3985 4012
+type(
+  Arch.arch -> Type.typ
+)
+ident(
+  ext_ref Arch.type_of_arch
+)
+"traces_suite.ml" 108 3985 4013 "traces_suite.ml" 108 3985 4017
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 107 3919 3932 "traces_suite.ml" 107 3919 3936
+)
+"traces_suite.ml" 108 3985 3995 "traces_suite.ml" 108 3985 4017
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"traces_suite.ml" 109 4021 4027 "traces_suite.ml" 109 4021 4031
+type(
+  Z.t
+)
+"traces_suite.ml" 109 4021 4034 "traces_suite.ml" 109 4021 4055
+type(
+  Z.t * Type.typ -> Z.t
+)
+ident(
+  ext_ref Arithmetic.to_big_int
+)
+"traces_suite.ml" 109 4021 4057 "traces_suite.ml" 109 4021 4061
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bim1
+)
+"traces_suite.ml" 109 4021 4063 "traces_suite.ml" 109 4021 4064
+type(
+  Type.typ
+)
+ident(
+  int_ref t "traces_suite.ml" 108 3985 3991 "traces_suite.ml" 108 3985 3992
+)
+"traces_suite.ml" 109 4021 4056 "traces_suite.ml" 109 4021 4065
+type(
+  Z.t * Type.typ
+)
+"traces_suite.ml" 109 4021 4034 "traces_suite.ml" 109 4021 4065
+call(
+  stack
+)
+type(
+  Z.t
+)
+"traces_suite.ml" 110 4069 4075 "traces_suite.ml" 110 4069 4080
+type(
+  Ast.stmt list
+)
+"traces_suite.ml" 110 4069 4083 "traces_suite.ml" 110 4069 4102
+type(
+  Big_int_Z.big_int -> Arch.arch -> Ast.program -> Ast.stmt list
+)
+ident(
+  ext_ref Traces.control_flow
+)
+"traces_suite.ml" 110 4069 4103 "traces_suite.ml" 110 4069 4107
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref addr "traces_suite.ml" 109 4021 4027 "traces_suite.ml" 109 4021 4031
+)
+"traces_suite.ml" 110 4069 4108 "traces_suite.ml" 110 4069 4112
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 107 3919 3932 "traces_suite.ml" 107 3919 3936
+)
+"traces_suite.ml" 110 4069 4113 "traces_suite.ml" 110 4069 4118
+type(
+  Ast.program
+)
+ident(
+  int_ref trace "traces_suite.ml" 107 3919 3925 "traces_suite.ml" 107 3919 3930
+)
+"traces_suite.ml" 110 4069 4083 "traces_suite.ml" 110 4069 4118
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_suite.ml" 111 4122 4128 "traces_suite.ml" 111 4122 4133
+type(
+  Ast.stmt list
+)
+"traces_suite.ml" 111 4122 4136 "traces_suite.ml" 111 4122 4160
+type(
+  Big_int_Z.big_int -> string -> Arch.arch -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref Traces.add_payload_after
+)
+"traces_suite.ml" 111 4122 4161 "traces_suite.ml" 111 4122 4164
+type(
+  Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"traces_suite.ml" 111 4122 4165 "traces_suite.ml" 111 4122 4172
+type(
+  string
+)
+"traces_suite.ml" 111 4122 4173 "traces_suite.ml" 111 4122 4177
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 107 3919 3932 "traces_suite.ml" 107 3919 3936
+)
+"traces_suite.ml" 111 4122 4178 "traces_suite.ml" 111 4122 4183
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref trace "traces_suite.ml" 110 4069 4075 "traces_suite.ml" 110 4069 4080
+)
+"traces_suite.ml" 111 4122 4136 "traces_suite.ml" 111 4122 4183
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_suite.ml" 112 4187 4193 "traces_suite.ml" 112 4187 4195
+type(
+  unit
+)
+"traces_suite.ml" 112 4187 4198 "traces_suite.ml" 112 4187 4233
+type(
+  string * Smtexec.smtexec -> Arch.arch -> Ast.program -> unit
+)
+ident(
+  ext_ref Traces.TraceSymbolic.output_exploit
+)
+"traces_suite.ml" 112 4187 4235 "traces_suite.ml" 112 4187 4247
+type(
+  string
+)
+ident(
+  int_ref exploit_file "traces_suite.ml" 11 161 165 "traces_suite.ml" 11 161 177
+)
+"traces_suite.ml" 112 4187 4248 "traces_suite.ml" 112 4187 4262
+type(
+  Smtexec.smtexec
+)
+ident(
+  ext_ref Smtexec.STP.si
+)
+"traces_suite.ml" 112 4187 4234 "traces_suite.ml" 112 4187 4263
+type(
+  string * Smtexec.smtexec
+)
+"traces_suite.ml" 112 4187 4264 "traces_suite.ml" 112 4187 4268
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 107 3919 3932 "traces_suite.ml" 107 3919 3936
+)
+"traces_suite.ml" 112 4187 4269 "traces_suite.ml" 112 4187 4274
+type(
+  Ast.program
+)
+ident(
+  int_ref trace "traces_suite.ml" 111 4122 4128 "traces_suite.ml" 111 4122 4133
+)
+"traces_suite.ml" 112 4187 4198 "traces_suite.ml" 112 4187 4274
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 113 4278 4284 "traces_suite.ml" 113 4278 4287
+type(
+  string
+)
+"traces_suite.ml" 113 4278 4290 "traces_suite.ml" 113 4278 4303
+type(
+  int -> string
+)
+ident(
+  ext_ref String.create
+)
+"traces_suite.ml" 113 4278 4304 "traces_suite.ml" 113 4278 4308
+type(
+  int
+)
+"traces_suite.ml" 113 4278 4290 "traces_suite.ml" 113 4278 4308
+type(
+  string
+)
+"traces_suite.ml" 114 4312 4318 "traces_suite.ml" 114 4312 4320
+type(
+  in_channel
+)
+"traces_suite.ml" 114 4312 4323 "traces_suite.ml" 114 4312 4330
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"traces_suite.ml" 114 4312 4331 "traces_suite.ml" 114 4312 4343
+type(
+  string
+)
+ident(
+  int_ref exploit_file "traces_suite.ml" 11 161 165 "traces_suite.ml" 11 161 177
+)
+"traces_suite.ml" 114 4312 4323 "traces_suite.ml" 114 4312 4343
+call(
+  stack
+)
+type(
+  in_channel
+)
+"traces_suite.ml" 115 4347 4354 "traces_suite.ml" 115 4347 4366
+type(
+  in_channel -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.really_input
+)
+"traces_suite.ml" 115 4347 4367 "traces_suite.ml" 115 4347 4369
+type(
+  in_channel
+)
+ident(
+  int_ref ic "traces_suite.ml" 114 4312 4318 "traces_suite.ml" 114 4312 4320
+)
+"traces_suite.ml" 115 4347 4370 "traces_suite.ml" 115 4347 4373
+type(
+  string
+)
+ident(
+  int_ref buf "traces_suite.ml" 113 4278 4284 "traces_suite.ml" 113 4278 4287
+)
+"traces_suite.ml" 115 4347 4374 "traces_suite.ml" 115 4347 4375
+type(
+  int
+)
+"traces_suite.ml" 115 4347 4376 "traces_suite.ml" 115 4347 4380
+type(
+  int
+)
+"traces_suite.ml" 115 4347 4354 "traces_suite.ml" 115 4347 4380
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_suite.ml" 116 4381 4389 "traces_suite.ml" 116 4381 4400
+type(
+  exn
+)
+"traces_suite.ml" 116 4381 4404 "traces_suite.ml" 116 4381 4406
+type(
+  unit
+)
+"traces_suite.ml" 115 4347 4349 "traces_suite.ml" 116 4381 4407
+type(
+  unit
+)
+"traces_suite.ml" 117 4409 4411 "traces_suite.ml" 117 4409 4422
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref OUnit.assert_bool
+)
+"traces_suite.ml" 117 4409 4423 "traces_suite.ml" 117 4409 4468
+type(
+  string
+)
+"traces_suite.ml" 117 4409 4470 "traces_suite.ml" 117 4409 4486
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.exists
+)
+"traces_suite.ml" 117 4409 4487 "traces_suite.ml" 117 4409 4490
+type(
+  string
+)
+ident(
+  int_ref buf "traces_suite.ml" 113 4278 4284 "traces_suite.ml" 113 4278 4287
+)
+"traces_suite.ml" 117 4409 4491 "traces_suite.ml" 117 4409 4514
+type(
+  string
+)
+"traces_suite.ml" 117 4409 4469 "traces_suite.ml" 117 4409 4515
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_suite.ml" 117 4409 4411 "traces_suite.ml" 117 4409 4515
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_suite.ml" 115 4347 4349 "traces_suite.ml" 117 4409 4515
+type(
+  unit
+)
+"traces_suite.ml" 114 4312 4314 "traces_suite.ml" 117 4409 4515
+type(
+  unit
+)
+"traces_suite.ml" 113 4278 4280 "traces_suite.ml" 117 4409 4515
+type(
+  unit
+)
+"traces_suite.ml" 112 4187 4189 "traces_suite.ml" 117 4409 4515
+type(
+  unit
+)
+"traces_suite.ml" 111 4122 4124 "traces_suite.ml" 117 4409 4515
+type(
+  unit
+)
+"traces_suite.ml" 110 4069 4071 "traces_suite.ml" 117 4409 4515
+type(
+  unit
+)
+"traces_suite.ml" 109 4021 4023 "traces_suite.ml" 117 4409 4515
+type(
+  unit
+)
+"traces_suite.ml" 108 3985 3987 "traces_suite.ml" 117 4409 4515
+type(
+  unit
+)
+"traces_suite.ml" 107 3919 3921 "traces_suite.ml" 117 4409 4515
+type(
+  unit
+)
+"traces_suite.ml" 119 4517 4521 "traces_suite.ml" 119 4517 4533
+type(
+  string * (Smtexec.smtexec -> OUnit.test_fun) -> OUnit.test list
+)
+ident(
+  def fold_solvers "traces_suite.ml" 124 4653 4653 --
+)
+"traces_suite.ml" 119 4517 4535 "traces_suite.ml" 119 4517 4536
+type(
+  string
+)
+ident(
+  def s "traces_suite.ml" 120 4542 4544 "traces_suite.ml" 122 4609 4651
+)
+"traces_suite.ml" 119 4517 4537 "traces_suite.ml" 119 4517 4538
+type(
+  Smtexec.smtexec -> OUnit.test_fun
+)
+ident(
+  def f "traces_suite.ml" 120 4542 4544 "traces_suite.ml" 122 4609 4651
+)
+"traces_suite.ml" 119 4517 4534 "traces_suite.ml" 119 4517 4539
+type(
+  string * (Smtexec.smtexec -> OUnit.test_fun)
+)
+"traces_suite.ml" 120 4542 4544 "traces_suite.ml" 120 4542 4552
+type(
+  (Smtexec.smtexec -> OUnit.test) -> Smtexec.smtexec list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"traces_suite.ml" 120 4542 4558 "traces_suite.ml" 120 4542 4564
+type(
+  Smtexec.smtexec
+)
+ident(
+  def solver "traces_suite.ml" 121 4568 4572 "traces_suite.ml" 121 4568 4608
+)
+"traces_suite.ml" 121 4568 4572 "traces_suite.ml" 121 4568 4573
+type(
+  string
+)
+ident(
+  int_ref s "traces_suite.ml" 119 4517 4535 "traces_suite.ml" 119 4517 4536
+)
+"traces_suite.ml" 121 4568 4573 "traces_suite.ml" 121 4568 4574
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_suite.ml" 121 4568 4574 "traces_suite.ml" 121 4568 4577
+type(
+  string
+)
+"traces_suite.ml" 121 4568 4577 "traces_suite.ml" 121 4568 4578
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_suite.ml" 121 4568 4578 "traces_suite.ml" 121 4568 4584
+type(
+  Smtexec.smtexec
+)
+ident(
+  int_ref solver "traces_suite.ml" 120 4542 4558 "traces_suite.ml" 120 4542 4564
+)
+"traces_suite.ml" 121 4568 4578 "traces_suite.ml" 121 4568 4595
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 121 4568 4574 "traces_suite.ml" 121 4568 4595
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 121 4568 4572 "traces_suite.ml" 121 4568 4595
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 121 4568 4596 "traces_suite.ml" 121 4568 4599
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"traces_suite.ml" 121 4568 4600 "traces_suite.ml" 121 4568 4601
+type(
+  Smtexec.smtexec -> OUnit.test_fun
+)
+ident(
+  int_ref f "traces_suite.ml" 119 4517 4537 "traces_suite.ml" 119 4517 4538
+)
+"traces_suite.ml" 121 4568 4602 "traces_suite.ml" 121 4568 4608
+type(
+  Smtexec.smtexec
+)
+ident(
+  int_ref solver "traces_suite.ml" 120 4542 4558 "traces_suite.ml" 120 4542 4564
+)
+"traces_suite.ml" 121 4568 4600 "traces_suite.ml" 121 4568 4608
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"traces_suite.ml" 121 4568 4572 "traces_suite.ml" 121 4568 4608
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"traces_suite.ml" 120 4542 4553 "traces_suite.ml" 122 4609 4612
+type(
+  Smtexec.smtexec -> OUnit.test
+)
+"traces_suite.ml" 122 4609 4614 "traces_suite.ml" 122 4609 4634
+type(
+  ?sort_values:bool ->
+  (string, Smtexec.smtexec) Hashtbl.t -> Smtexec.smtexec list
+)
+ident(
+  ext_ref Util.get_hash_values
+)
+"traces_suite.ml" 122 4609 4635 "traces_suite.ml" 122 4609 4650
+type(
+  (string, Smtexec.smtexec) Hashtbl.t
+)
+ident(
+  ext_ref Smtexec.solvers
+)
+"traces_suite.ml" 122 4609 4613 "traces_suite.ml" 122 4609 4651
+call(
+  stack
+)
+type(
+  Smtexec.smtexec list
+)
+"traces_suite.ml" 120 4542 4544 "traces_suite.ml" 122 4609 4651
+call(
+  tail
+)
+type(
+  OUnit.test list
+)
+"traces_suite.ml" 124 4653 4657 "traces_suite.ml" 124 4653 4662
+type(
+  Arch.arch -> OUnit.test
+)
+ident(
+  def suite "traces_suite.ml" 143 5493 5585 --
+)
+"traces_suite.ml" 124 4653 4663 "traces_suite.ml" 124 4653 4667
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_suite.ml" 125 4670 4672 "traces_suite.ml" 143 5493 5585
+)
+"traces_suite.ml" 125 4670 4676 "traces_suite.ml" 125 4670 4691
+type(
+  unit -> string
+)
+"traces_suite.ml" 125 4670 4694 "traces_suite.ml" 125 4670 4709
+type(
+  Arch.arch -> unit -> string
+)
+ident(
+  int_ref pin_trace_setup "traces_suite.ml" 21 361 365 "traces_suite.ml" 21 361 380
+)
+"traces_suite.ml" 125 4670 4710 "traces_suite.ml" 125 4670 4714
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 124 4653 4663 "traces_suite.ml" 124 4653 4667
+)
+"traces_suite.ml" 125 4670 4694 "traces_suite.ml" 125 4670 4714
+call(
+  stack
+)
+type(
+  unit -> string
+)
+"traces_suite.ml" 126 4718 4724 "traces_suite.ml" 126 4718 4730
+type(
+  string
+)
+"traces_suite.ml" 126 4718 4739 "traces_suite.ml" 126 4718 4743
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_suite.ml" 124 4653 4663 "traces_suite.ml" 124 4653 4667
+)
+"traces_suite.ml" 126 4718 4749 "traces_suite.ml" 126 4718 4755
+type(
+  Arch.arch
+)
+"traces_suite.ml" 126 4718 4759 "traces_suite.ml" 126 4718 4764
+type(
+  string
+)
+"traces_suite.ml" 126 4718 4767 "traces_suite.ml" 126 4718 4773
+type(
+  Arch.arch
+)
+"traces_suite.ml" 126 4718 4777 "traces_suite.ml" 126 4718 4782
+type(
+  string
+)
+"traces_suite.ml" 126 4718 4733 "traces_suite.ml" 126 4718 4782
+type(
+  string
+)
+"traces_suite.ml" 127 4786 4788 "traces_suite.ml" 127 4786 4796
+type(
+  string
+)
+"traces_suite.ml" 127 4786 4797 "traces_suite.ml" 127 4786 4801
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"traces_suite.ml" 130 4879 4883 "traces_suite.ml" 130 4879 4905
+type(
+  string
+)
+"traces_suite.ml" 130 4879 4905 "traces_suite.ml" 130 4879 4906
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_suite.ml" 130 4879 4906 "traces_suite.ml" 130 4879 4912
+type(
+  string
+)
+ident(
+  int_ref suffix "traces_suite.ml" 126 4718 4724 "traces_suite.ml" 126 4718 4730
+)
+"traces_suite.ml" 130 4879 4883 "traces_suite.ml" 130 4879 4912
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 130 4879 4913 "traces_suite.ml" 130 4879 4916
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"traces_suite.ml" 131 4917 4923 "traces_suite.ml" 131 4917 4930
+type(
+  (unit -> string) -> (string -> unit) -> (string -> unit) -> OUnit.test_fun
+)
+ident(
+  ext_ref OUnit.bracket
+)
+"traces_suite.ml" 131 4917 4931 "traces_suite.ml" 131 4917 4946
+type(
+  unit -> string
+)
+ident(
+  int_ref pin_trace_setup "traces_suite.ml" 125 4670 4676 "traces_suite.ml" 125 4670 4691
+)
+"traces_suite.ml" 131 4917 4947 "traces_suite.ml" 131 4917 4967
+type(
+  string -> unit
+)
+ident(
+  int_ref backwards_taint_test "traces_suite.ml" 96 3582 3586 "traces_suite.ml" 96 3582 3606
+)
+"traces_suite.ml" 131 4917 4968 "traces_suite.ml" 131 4917 4985
+type(
+  string -> unit
+)
+ident(
+  int_ref pin_trace_cleanup "traces_suite.ml" 101 3779 3783 "traces_suite.ml" 101 3779 3800
+)
+"traces_suite.ml" 131 4917 4923 "traces_suite.ml" 131 4917 4985
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"traces_suite.ml" 130 4879 4883 "traces_suite.ml" 131 4917 4985
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"traces_suite.ml" 132 4987 4991 "traces_suite.ml" 132 4987 5007
+type(
+  string
+)
+"traces_suite.ml" 132 4987 5007 "traces_suite.ml" 132 4987 5008
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_suite.ml" 132 4987 5008 "traces_suite.ml" 132 4987 5014
+type(
+  string
+)
+ident(
+  int_ref suffix "traces_suite.ml" 126 4718 4724 "traces_suite.ml" 126 4718 4730
+)
+"traces_suite.ml" 132 4987 4991 "traces_suite.ml" 132 4987 5014
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 132 4987 5015 "traces_suite.ml" 132 4987 5018
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"traces_suite.ml" 133 5019 5041 "traces_suite.ml" 133 5019 5076
+call(
+  stack
+)
+"traces_suite.ml" 134 5080 5087 "traces_suite.ml" 134 5080 5094
+type(
+  (unit -> string) -> (string -> unit) -> (string -> unit) -> OUnit.test_fun
+)
+ident(
+  ext_ref OUnit.bracket
+)
+"traces_suite.ml" 134 5080 5095 "traces_suite.ml" 134 5080 5110
+type(
+  unit -> string
+)
+ident(
+  int_ref pin_trace_setup "traces_suite.ml" 125 4670 4676 "traces_suite.ml" 125 4670 4691
+)
+"traces_suite.ml" 134 5080 5111 "traces_suite.ml" 134 5080 5127
+type(
+  string -> unit
+)
+ident(
+  ext_ref M.pin_trace_test
+)
+"traces_suite.ml" 134 5080 5128 "traces_suite.ml" 134 5080 5145
+type(
+  string -> unit
+)
+ident(
+  int_ref pin_trace_cleanup "traces_suite.ml" 101 3779 3783 "traces_suite.ml" 101 3779 3800
+)
+"traces_suite.ml" 134 5080 5087 "traces_suite.ml" 134 5080 5145
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"traces_suite.ml" 133 5019 5025 "traces_suite.ml" 134 5080 5146
+type(
+  OUnit.test_fun
+)
+"traces_suite.ml" 132 4987 4991 "traces_suite.ml" 134 5080 5146
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"traces_suite.ml" 135 5148 5152 "traces_suite.ml" 135 5148 5176
+type(
+  string
+)
+"traces_suite.ml" 135 5148 5176 "traces_suite.ml" 135 5148 5177
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_suite.ml" 135 5148 5177 "traces_suite.ml" 135 5148 5183
+type(
+  string
+)
+ident(
+  int_ref suffix "traces_suite.ml" 126 4718 4724 "traces_suite.ml" 126 4718 4730
+)
+"traces_suite.ml" 135 5148 5152 "traces_suite.ml" 135 5148 5183
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 135 5148 5184 "traces_suite.ml" 135 5148 5187
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"traces_suite.ml" 136 5188 5210 "traces_suite.ml" 136 5188 5251
+call(
+  stack
+)
+"traces_suite.ml" 137 5255 5262 "traces_suite.ml" 137 5255 5269
+type(
+  (unit -> string) -> (string -> unit) -> (string -> unit) -> OUnit.test_fun
+)
+ident(
+  ext_ref OUnit.bracket
+)
+"traces_suite.ml" 137 5255 5270 "traces_suite.ml" 137 5255 5285
+type(
+  unit -> string
+)
+ident(
+  int_ref pin_trace_setup "traces_suite.ml" 125 4670 4676 "traces_suite.ml" 125 4670 4691
+)
+"traces_suite.ml" 137 5255 5286 "traces_suite.ml" 137 5255 5302
+type(
+  string -> unit
+)
+ident(
+  ext_ref M.pin_trace_test
+)
+"traces_suite.ml" 137 5255 5303 "traces_suite.ml" 137 5255 5320
+type(
+  string -> unit
+)
+ident(
+  int_ref pin_trace_cleanup "traces_suite.ml" 101 3779 3783 "traces_suite.ml" 101 3779 3800
+)
+"traces_suite.ml" 137 5255 5262 "traces_suite.ml" 137 5255 5320
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"traces_suite.ml" 136 5188 5194 "traces_suite.ml" 137 5255 5321
+type(
+  OUnit.test_fun
+)
+"traces_suite.ml" 135 5148 5152 "traces_suite.ml" 137 5255 5321
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"traces_suite.ml" 138 5323 5327 "traces_suite.ml" 138 5323 5341
+type(
+  string
+)
+"traces_suite.ml" 138 5323 5341 "traces_suite.ml" 138 5323 5342
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_suite.ml" 138 5323 5342 "traces_suite.ml" 138 5323 5348
+type(
+  string
+)
+ident(
+  int_ref suffix "traces_suite.ml" 126 4718 4724 "traces_suite.ml" 126 4718 4730
+)
+"traces_suite.ml" 138 5323 5327 "traces_suite.ml" 138 5323 5348
+call(
+  stack
+)
+type(
+  string
+)
+"traces_suite.ml" 138 5323 5349 "traces_suite.ml" 138 5323 5352
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"traces_suite.ml" 139 5353 5359 "traces_suite.ml" 139 5353 5366
+type(
+  (unit -> string) -> (string -> unit) -> (string -> unit) -> OUnit.test_fun
+)
+ident(
+  ext_ref OUnit.bracket
+)
+"traces_suite.ml" 139 5353 5367 "traces_suite.ml" 139 5353 5382
+type(
+  unit -> string
+)
+ident(
+  int_ref pin_trace_setup "traces_suite.ml" 125 4670 4676 "traces_suite.ml" 125 4670 4691
+)
+"traces_suite.ml" 139 5353 5383 "traces_suite.ml" 139 5353 5395
+type(
+  string -> unit
+)
+ident(
+  int_ref exploit_test "traces_suite.ml" 106 3894 3898 "traces_suite.ml" 106 3894 3910
+)
+"traces_suite.ml" 139 5353 5396 "traces_suite.ml" 139 5353 5413
+type(
+  string -> unit
+)
+ident(
+  int_ref pin_trace_cleanup "traces_suite.ml" 101 3779 3783 "traces_suite.ml" 101 3779 3800
+)
+"traces_suite.ml" 139 5353 5359 "traces_suite.ml" 139 5353 5413
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"traces_suite.ml" 138 5323 5327 "traces_suite.ml" 139 5353 5413
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"traces_suite.ml" 128 4802 4804 "traces_suite.ml" 140 5415 5418
+type(
+  OUnit.test list
+)
+"traces_suite.ml" 140 5415 5419 "traces_suite.ml" 140 5415 5420
+type(
+  OUnit.test list -> OUnit.test list -> OUnit.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"traces_suite.ml" 141 5421 5423 "traces_suite.ml" 141 5421 5435
+type(
+  string * (Smtexec.smtexec -> OUnit.test_fun) -> OUnit.test list
+)
+ident(
+  int_ref fold_solvers "traces_suite.ml" 119 4517 4521 "traces_suite.ml" 119 4517 4533
+)
+"traces_suite.ml" 141 5421 5437 "traces_suite.ml" 141 5421 5460
+type(
+  string
+)
+"traces_suite.ml" 142 5462 5483 "traces_suite.ml" 142 5462 5489
+type(
+  Smtexec.smtexec
+)
+ident(
+  def solver "traces_suite.ml" 143 5493 5511 "traces_suite.ml" 143 5493 5583
+)
+"traces_suite.ml" 143 5493 5511 "traces_suite.ml" 143 5493 5518
+type(
+  (unit -> string) -> (string -> unit) -> (string -> unit) -> OUnit.test_fun
+)
+ident(
+  ext_ref OUnit.bracket
+)
+"traces_suite.ml" 143 5493 5519 "traces_suite.ml" 143 5493 5534
+type(
+  unit -> string
+)
+ident(
+  int_ref pin_trace_setup "traces_suite.ml" 125 4670 4676 "traces_suite.ml" 125 4670 4691
+)
+"traces_suite.ml" 143 5493 5536 "traces_suite.ml" 143 5493 5557
+type(
+  Smtexec.smtexec -> string -> unit
+)
+ident(
+  int_ref pin_stream_trace_test "traces_suite.ml" 55 1630 1634 "traces_suite.ml" 55 1630 1655
+)
+"traces_suite.ml" 143 5493 5558 "traces_suite.ml" 143 5493 5564
+type(
+  Smtexec.smtexec
+)
+ident(
+  int_ref solver "traces_suite.ml" 142 5462 5483 "traces_suite.ml" 142 5462 5489
+)
+"traces_suite.ml" 143 5493 5535 "traces_suite.ml" 143 5493 5565
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"traces_suite.ml" 143 5493 5566 "traces_suite.ml" 143 5493 5583
+type(
+  string -> unit
+)
+ident(
+  int_ref pin_trace_cleanup "traces_suite.ml" 101 3779 3783 "traces_suite.ml" 101 3779 3800
+)
+"traces_suite.ml" 143 5493 5511 "traces_suite.ml" 143 5493 5583
+call(
+  tail
+)
+type(
+  OUnit.test_fun
+)
+"traces_suite.ml" 142 5462 5478 "traces_suite.ml" 143 5493 5584
+type(
+  Smtexec.smtexec -> OUnit.test_fun
+)
+"traces_suite.ml" 141 5421 5436 "traces_suite.ml" 143 5493 5585
+type(
+  string * (Smtexec.smtexec -> OUnit.test_fun)
+)
+"traces_suite.ml" 141 5421 5423 "traces_suite.ml" 143 5493 5585
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"traces_suite.ml" 128 4802 4804 "traces_suite.ml" 143 5493 5585
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"traces_suite.ml" 127 4786 4788 "traces_suite.ml" 143 5493 5585
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"traces_suite.ml" 126 4718 4720 "traces_suite.ml" 143 5493 5585
+type(
+  OUnit.test
+)
+"traces_suite.ml" 125 4670 4672 "traces_suite.ml" 143 5493 5585
+type(
+  OUnit.test
+)

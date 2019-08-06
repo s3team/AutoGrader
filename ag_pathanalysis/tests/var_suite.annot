@@ -1,0 +1,413 @@
+"var_suite.ml" 3 12 16 "var_suite.ml" 3 12 20
+type(
+  Var.t
+)
+ident(
+  def var1 "var_suite.ml" 4 57 57 --
+)
+"var_suite.ml" 3 12 23 "var_suite.ml" 3 12 33
+type(
+  string -> Type.typ -> Var.t
+)
+ident(
+  ext_ref Var.newvar
+)
+"var_suite.ml" 3 12 34 "var_suite.ml" 3 12 40
+type(
+  string
+)
+"var_suite.ml" 3 12 50 "var_suite.ml" 3 12 53
+type(
+  int
+)
+"var_suite.ml" 3 12 41 "var_suite.ml" 3 12 54
+type(
+  Type.typ
+)
+"var_suite.ml" 3 12 23 "var_suite.ml" 3 12 54
+call(
+  stack
+)
+type(
+  Var.t
+)
+"var_suite.ml" 4 57 61 "var_suite.ml" 4 57 65
+type(
+  Var.t
+)
+ident(
+  def var2 "var_suite.ml" 6 103 103 --
+)
+"var_suite.ml" 4 57 68 "var_suite.ml" 4 57 78
+type(
+  string -> Type.typ -> Var.t
+)
+ident(
+  ext_ref Var.newvar
+)
+"var_suite.ml" 4 57 79 "var_suite.ml" 4 57 85
+type(
+  string
+)
+"var_suite.ml" 4 57 95 "var_suite.ml" 4 57 98
+type(
+  int
+)
+"var_suite.ml" 4 57 86 "var_suite.ml" 4 57 99
+type(
+  Type.typ
+)
+"var_suite.ml" 4 57 68 "var_suite.ml" 4 57 99
+call(
+  stack
+)
+type(
+  Var.t
+)
+"var_suite.ml" 6 103 107 "var_suite.ml" 6 103 120
+type(
+  'a -> unit
+)
+ident(
+  def test_identity "var_suite.ml" 10 275 275 --
+)
+"var_suite.ml" 6 103 121 "var_suite.ml" 6 103 122
+type(
+  'a
+)
+"var_suite.ml" 7 125 127 "var_suite.ml" 7 125 139
+type(
+  ?cmp:(Var.t -> Var.t -> bool) ->
+  ?printer:(Var.t -> string) ->
+  ?pp_diff:(Format.formatter -> Var.t * Var.t -> unit) ->
+  ?msg:string -> Var.t -> Var.t -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"var_suite.ml" 7 125 145 "var_suite.ml" 7 125 154
+type(
+  Var.t -> Var.t -> bool
+)
+ident(
+  ext_ref Var.equal
+)
+"var_suite.ml" 7 125 160 "var_suite.ml" 7 125 187
+type(
+  string
+)
+"var_suite.ml" 7 125 188 "var_suite.ml" 7 125 192
+type(
+  Var.t
+)
+ident(
+  int_ref var1 "var_suite.ml" 3 12 16 "var_suite.ml" 3 12 20
+)
+"var_suite.ml" 7 125 193 "var_suite.ml" 7 125 197
+type(
+  Var.t
+)
+ident(
+  int_ref var1 "var_suite.ml" 3 12 16 "var_suite.ml" 3 12 20
+)
+"var_suite.ml" 7 125 127 "var_suite.ml" 7 125 197
+call(
+  stack
+)
+type(
+  unit
+)
+"var_suite.ml" 8 199 201 "var_suite.ml" 8 199 213
+type(
+  ?cmp:(Var.t -> Var.t -> bool) ->
+  ?printer:(Var.t -> string) ->
+  ?pp_diff:(Format.formatter -> Var.t * Var.t -> unit) ->
+  ?msg:string -> Var.t -> Var.t -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"var_suite.ml" 8 199 219 "var_suite.ml" 8 199 228
+type(
+  Var.t -> Var.t -> bool
+)
+ident(
+  ext_ref Var.equal
+)
+"var_suite.ml" 8 199 234 "var_suite.ml" 8 199 261
+type(
+  string
+)
+"var_suite.ml" 8 199 262 "var_suite.ml" 8 199 266
+type(
+  Var.t
+)
+ident(
+  int_ref var2 "var_suite.ml" 4 57 61 "var_suite.ml" 4 57 65
+)
+"var_suite.ml" 8 199 267 "var_suite.ml" 8 199 271
+type(
+  Var.t
+)
+ident(
+  int_ref var2 "var_suite.ml" 4 57 61 "var_suite.ml" 4 57 65
+)
+"var_suite.ml" 8 199 201 "var_suite.ml" 8 199 271
+call(
+  tail
+)
+type(
+  unit
+)
+"var_suite.ml" 7 125 127 "var_suite.ml" 8 199 271
+type(
+  unit
+)
+"var_suite.ml" 10 275 279 "var_suite.ml" 10 275 295
+type(
+  'a -> unit
+)
+ident(
+  def test_inequality2 "var_suite.ml" 13 370 370 --
+)
+"var_suite.ml" 10 275 296 "var_suite.ml" 10 275 297
+type(
+  'a
+)
+"var_suite.ml" 11 301 303 "var_suite.ml" 11 301 314
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref OUnit.assert_bool
+)
+"var_suite.ml" 11 301 315 "var_suite.ml" 11 301 339
+type(
+  string
+)
+"var_suite.ml" 11 301 341 "var_suite.ml" 11 301 344
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"var_suite.ml" 11 301 345 "var_suite.ml" 11 301 354
+type(
+  Var.t -> Var.t -> bool
+)
+ident(
+  ext_ref Var.equal
+)
+"var_suite.ml" 11 301 355 "var_suite.ml" 11 301 359
+type(
+  Var.t
+)
+ident(
+  int_ref var1 "var_suite.ml" 3 12 16 "var_suite.ml" 3 12 20
+)
+"var_suite.ml" 11 301 360 "var_suite.ml" 11 301 364
+type(
+  Var.t
+)
+ident(
+  int_ref var2 "var_suite.ml" 4 57 61 "var_suite.ml" 4 57 65
+)
+"var_suite.ml" 11 301 344 "var_suite.ml" 11 301 365
+call(
+  stack
+)
+type(
+  bool
+)
+"var_suite.ml" 11 301 340 "var_suite.ml" 11 301 366
+type(
+  bool
+)
+"var_suite.ml" 11 301 303 "var_suite.ml" 11 301 366
+call(
+  tail
+)
+type(
+  unit
+)
+"var_suite.ml" 13 370 374 "var_suite.ml" 13 370 379
+type(
+  OUnit.test
+)
+ident(
+  def suite "var_suite.ml" 25 658 661 --
+)
+"var_suite.ml" 13 370 382 "var_suite.ml" 13 370 387
+type(
+  string
+)
+"var_suite.ml" 13 370 388 "var_suite.ml" 13 370 392
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"var_suite.ml" 15 397 398 "var_suite.ml" 15 397 413
+type(
+  string
+)
+"var_suite.ml" 15 397 414 "var_suite.ml" 15 397 417
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"var_suite.ml" 15 397 418 "var_suite.ml" 15 397 431
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test_identity "var_suite.ml" 6 103 107 "var_suite.ml" 6 103 120
+)
+"var_suite.ml" 15 397 398 "var_suite.ml" 15 397 431
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"var_suite.ml" 16 433 434 "var_suite.ml" 16 433 451
+type(
+  string
+)
+"var_suite.ml" 16 433 452 "var_suite.ml" 16 433 455
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"var_suite.ml" 17 457 465 "var_suite.ml" 17 457 467
+type(
+  unit
+)
+"var_suite.ml" 18 472 477 "var_suite.ml" 18 472 486
+type(
+  Var.t -> Var.t -> bool
+)
+ident(
+  ext_ref Var.equal
+)
+"var_suite.ml" 18 472 487 "var_suite.ml" 18 472 491
+type(
+  Var.t
+)
+ident(
+  int_ref var1 "var_suite.ml" 3 12 16 "var_suite.ml" 3 12 20
+)
+"var_suite.ml" 18 472 492 "var_suite.ml" 18 472 496
+type(
+  Var.t
+)
+ident(
+  int_ref var2 "var_suite.ml" 4 57 61 "var_suite.ml" 4 57 65
+)
+"var_suite.ml" 18 472 476 "var_suite.ml" 18 472 497
+call(
+  stack
+)
+type(
+  bool
+)
+"var_suite.ml" 20 506 510 "var_suite.ml" 20 506 524
+type(
+  string -> unit
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"var_suite.ml" 20 506 525 "var_suite.ml" 20 506 549
+type(
+  string
+)
+"var_suite.ml" 20 506 510 "var_suite.ml" 20 506 549
+call(
+  tail
+)
+type(
+  unit
+)
+"var_suite.ml" 23 591 595 "var_suite.ml" 23 591 607
+type(
+  ?cmp:(int -> int -> bool) ->
+  ?printer:(int -> string) ->
+  ?pp_diff:(Format.formatter -> int * int -> unit) ->
+  ?msg:string -> int -> int -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"var_suite.ml" 23 591 608 "var_suite.ml" 23 591 609
+type(
+  int
+)
+"var_suite.ml" 23 591 610 "var_suite.ml" 23 591 611
+type(
+  int
+)
+"var_suite.ml" 23 591 595 "var_suite.ml" 23 591 611
+call(
+  tail
+)
+type(
+  unit
+)
+"var_suite.ml" 18 472 474 "var_suite.ml" 23 591 611
+type(
+  unit
+)
+"var_suite.ml" 17 457 460 "var_suite.ml" 23 591 612
+type(
+  unit -> unit
+)
+"var_suite.ml" 16 433 434 "var_suite.ml" 23 591 612
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"var_suite.ml" 24 614 617 "var_suite.ml" 24 614 635
+type(
+  string
+)
+"var_suite.ml" 24 614 636 "var_suite.ml" 24 614 639
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"var_suite.ml" 24 614 640 "var_suite.ml" 24 614 656
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test_inequality2 "var_suite.ml" 10 275 279 "var_suite.ml" 10 275 295
+)
+"var_suite.ml" 24 614 617 "var_suite.ml" 24 614 656
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"var_suite.ml" 14 393 395 "var_suite.ml" 25 658 661
+type(
+  OUnit.test list
+)
+"var_suite.ml" 13 370 382 "var_suite.ml" 25 658 661
+call(
+  stack
+)
+type(
+  OUnit.test
+)

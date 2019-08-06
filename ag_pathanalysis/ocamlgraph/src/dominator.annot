@@ -1,0 +1,5549 @@
+"src/dominator.ml" 47 1934 1947 "src/dominator.ml" 47 1934 1964
+call(
+  stack
+)
+"src/dominator.ml" 48 1965 1978 "src/dominator.ml" 48 1965 1991
+call(
+  stack
+)
+"src/dominator.ml" 85 3003 3009 "src/dominator.ml" 85 3003 3020
+type(
+  S.elt list -> S.t
+)
+ident(
+  def set_of_list "src/dominator.ml" 89 3171 3173 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 85 3003 3021 "src/dominator.ml" 85 3003 3022
+type(
+  S.elt list
+)
+ident(
+  def x "src/dominator.ml" 85 3003 3025 "src/dominator.ml" 85 3003 3076
+)
+"src/dominator.ml" 85 3003 3025 "src/dominator.ml" 85 3003 3039
+type(
+  (S.t -> S.elt -> S.t) -> S.t -> S.elt list -> S.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/dominator.ml" 85 3003 3045 "src/dominator.ml" 85 3003 3048
+type(
+  S.t
+)
+ident(
+  def set "src/dominator.ml" 85 3003 3049 "src/dominator.ml" 85 3003 3065
+)
+"src/dominator.ml" 85 3003 3049 "src/dominator.ml" 85 3003 3050
+type(
+  S.elt
+)
+ident(
+  def v "src/dominator.ml" 85 3003 3054 "src/dominator.ml" 85 3003 3065
+)
+"src/dominator.ml" 85 3003 3054 "src/dominator.ml" 85 3003 3059
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.add
+)
+"src/dominator.ml" 85 3003 3060 "src/dominator.ml" 85 3003 3061
+type(
+  S.elt
+)
+ident(
+  int_ref v "src/dominator.ml" 85 3003 3049 "src/dominator.ml" 85 3003 3050
+)
+"src/dominator.ml" 85 3003 3062 "src/dominator.ml" 85 3003 3065
+type(
+  S.t
+)
+ident(
+  int_ref set "src/dominator.ml" 85 3003 3045 "src/dominator.ml" 85 3003 3048
+)
+"src/dominator.ml" 85 3003 3054 "src/dominator.ml" 85 3003 3065
+call(
+  tail
+)
+type(
+  S.t
+)
+"src/dominator.ml" 85 3003 3040 "src/dominator.ml" 85 3003 3066
+type(
+  S.t -> S.elt -> S.t
+)
+"src/dominator.ml" 85 3003 3067 "src/dominator.ml" 85 3003 3074
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"src/dominator.ml" 85 3003 3075 "src/dominator.ml" 85 3003 3076
+type(
+  S.elt list
+)
+ident(
+  int_ref x "src/dominator.ml" 85 3003 3021 "src/dominator.ml" 85 3003 3022
+)
+"src/dominator.ml" 85 3003 3025 "src/dominator.ml" 85 3003 3076
+call(
+  tail
+)
+type(
+  S.t
+)
+"src/dominator.ml" 89 3171 3177 "src/dominator.ml" 89 3171 3200
+type(
+  (H.key -> 'a -> 'a) -> 'a -> H.key list -> (H.key -> H.key list) -> 'a
+)
+ident(
+  def pseudo_topological_fold "src/dominator.ml" 103 3594 3596 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 89 3171 3201 "src/dominator.ml" 89 3171 3202
+type(
+  H.key -> 'a -> 'a
+)
+ident(
+  def f "src/dominator.ml" 89 3171 3203 "src/dominator.ml" 99 3434 3468
+)
+"src/dominator.ml" 89 3171 3203 "src/dominator.ml" 89 3171 3204
+type(
+  'a
+)
+ident(
+  def x "src/dominator.ml" 89 3171 3205 "src/dominator.ml" 99 3434 3468
+)
+"src/dominator.ml" 89 3171 3205 "src/dominator.ml" 89 3171 3210
+type(
+  H.key list
+)
+ident(
+  def nodes "src/dominator.ml" 89 3171 3211 "src/dominator.ml" 99 3434 3468
+)
+"src/dominator.ml" 89 3171 3211 "src/dominator.ml" 89 3171 3215
+type(
+  H.key -> H.key list
+)
+ident(
+  def succ "src/dominator.ml" 90 3218 3222 "src/dominator.ml" 99 3434 3468
+)
+"src/dominator.ml" 90 3218 3226 "src/dominator.ml" 90 3218 3231
+type(
+  unit H.t
+)
+"src/dominator.ml" 90 3218 3234 "src/dominator.ml" 90 3218 3242
+type(
+  int -> unit H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 90 3218 3243 "src/dominator.ml" 90 3218 3245
+type(
+  int
+)
+"src/dominator.ml" 90 3218 3234 "src/dominator.ml" 90 3218 3245
+call(
+  stack
+)
+type(
+  unit H.t
+)
+"src/dominator.ml" 91 3249 3261 "src/dominator.ml" 91 3249 3266
+type(
+  'a -> H.key -> 'a
+)
+"src/dominator.ml" 91 3249 3267 "src/dominator.ml" 91 3249 3268
+type(
+  'a
+)
+ident(
+  def x "src/dominator.ml" 91 3249 3269 "src/dominator.ml" 97 3416 3426
+)
+"src/dominator.ml" 91 3249 3269 "src/dominator.ml" 91 3249 3270
+type(
+  H.key
+)
+ident(
+  def n "src/dominator.ml" 92 3273 3274 "src/dominator.ml" 97 3416 3426
+)
+"src/dominator.ml" 92 3273 3277 "src/dominator.ml" 92 3273 3282
+type(
+  unit H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/dominator.ml" 92 3273 3283 "src/dominator.ml" 92 3273 3288
+type(
+  unit H.t
+)
+ident(
+  int_ref found "src/dominator.ml" 90 3218 3226 "src/dominator.ml" 90 3218 3231
+)
+"src/dominator.ml" 92 3273 3289 "src/dominator.ml" 92 3273 3290
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 91 3249 3269 "src/dominator.ml" 91 3249 3270
+)
+"src/dominator.ml" 92 3273 3277 "src/dominator.ml" 92 3273 3290
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 93 3291 3317 "src/dominator.ml" 93 3291 3318
+type(
+  'a
+)
+ident(
+  int_ref x "src/dominator.ml" 91 3249 3267 "src/dominator.ml" 91 3249 3268
+)
+"src/dominator.ml" 95 3338 3345 "src/dominator.ml" 95 3338 3347
+type(
+  unit
+)
+"src/dominator.ml" 95 3338 3350 "src/dominator.ml" 95 3338 3355
+type(
+  unit H.t -> H.key -> unit -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 95 3338 3356 "src/dominator.ml" 95 3338 3361
+type(
+  unit H.t
+)
+ident(
+  int_ref found "src/dominator.ml" 90 3218 3226 "src/dominator.ml" 90 3218 3231
+)
+"src/dominator.ml" 95 3338 3362 "src/dominator.ml" 95 3338 3363
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 91 3249 3269 "src/dominator.ml" 91 3249 3270
+)
+"src/dominator.ml" 95 3338 3364 "src/dominator.ml" 95 3338 3366
+type(
+  unit
+)
+"src/dominator.ml" 95 3338 3350 "src/dominator.ml" 95 3338 3366
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 96 3370 3377 "src/dominator.ml" 96 3370 3378
+type(
+  'a
+)
+"src/dominator.ml" 96 3370 3381 "src/dominator.ml" 96 3370 3395
+type(
+  ('a -> H.key -> 'a) -> 'a -> H.key list -> 'a
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/dominator.ml" 96 3370 3396 "src/dominator.ml" 96 3370 3401
+type(
+  'a -> H.key -> 'a
+)
+ident(
+  int_ref visit "src/dominator.ml" 91 3249 3261 "src/dominator.ml" 91 3249 3266
+)
+"src/dominator.ml" 96 3370 3402 "src/dominator.ml" 96 3370 3403
+type(
+  'a
+)
+ident(
+  int_ref x "src/dominator.ml" 91 3249 3267 "src/dominator.ml" 91 3249 3268
+)
+"src/dominator.ml" 96 3370 3405 "src/dominator.ml" 96 3370 3409
+type(
+  H.key -> H.key list
+)
+ident(
+  int_ref succ "src/dominator.ml" 89 3171 3211 "src/dominator.ml" 89 3171 3215
+)
+"src/dominator.ml" 96 3370 3410 "src/dominator.ml" 96 3370 3411
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 91 3249 3269 "src/dominator.ml" 91 3249 3270
+)
+"src/dominator.ml" 96 3370 3404 "src/dominator.ml" 96 3370 3412
+call(
+  stack
+)
+type(
+  H.key list
+)
+"src/dominator.ml" 96 3370 3381 "src/dominator.ml" 96 3370 3412
+call(
+  stack
+)
+type(
+  'a
+)
+"src/dominator.ml" 97 3416 3421 "src/dominator.ml" 97 3416 3422
+type(
+  H.key -> 'a -> 'a
+)
+ident(
+  int_ref f "src/dominator.ml" 89 3171 3201 "src/dominator.ml" 89 3171 3202
+)
+"src/dominator.ml" 97 3416 3423 "src/dominator.ml" 97 3416 3424
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 91 3249 3269 "src/dominator.ml" 91 3249 3270
+)
+"src/dominator.ml" 97 3416 3425 "src/dominator.ml" 97 3416 3426
+type(
+  'a
+)
+ident(
+  int_ref x "src/dominator.ml" 96 3370 3377 "src/dominator.ml" 96 3370 3378
+)
+"src/dominator.ml" 97 3416 3421 "src/dominator.ml" 97 3416 3426
+call(
+  tail
+)
+type(
+  'a
+)
+"src/dominator.ml" 96 3370 3373 "src/dominator.ml" 97 3416 3426
+type(
+  'a
+)
+"src/dominator.ml" 95 3338 3341 "src/dominator.ml" 97 3416 3426
+type(
+  'a
+)
+"src/dominator.ml" 92 3273 3274 "src/dominator.ml" 97 3416 3426
+type(
+  'a
+)
+"src/dominator.ml" 99 3434 3440 "src/dominator.ml" 99 3434 3454
+type(
+  ('a -> H.key -> 'a) -> 'a -> H.key list -> 'a
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/dominator.ml" 99 3434 3455 "src/dominator.ml" 99 3434 3460
+type(
+  'a -> H.key -> 'a
+)
+ident(
+  int_ref visit "src/dominator.ml" 91 3249 3261 "src/dominator.ml" 91 3249 3266
+)
+"src/dominator.ml" 99 3434 3461 "src/dominator.ml" 99 3434 3462
+type(
+  'a
+)
+ident(
+  int_ref x "src/dominator.ml" 89 3171 3203 "src/dominator.ml" 89 3171 3204
+)
+"src/dominator.ml" 99 3434 3463 "src/dominator.ml" 99 3434 3468
+type(
+  H.key list
+)
+ident(
+  int_ref nodes "src/dominator.ml" 89 3171 3205 "src/dominator.ml" 89 3171 3210
+)
+"src/dominator.ml" 99 3434 3440 "src/dominator.ml" 99 3434 3468
+call(
+  tail
+)
+type(
+  'a
+)
+"src/dominator.ml" 91 3249 3253 "src/dominator.ml" 99 3434 3468
+type(
+  'a
+)
+"src/dominator.ml" 90 3218 3222 "src/dominator.ml" 99 3434 3468
+type(
+  'a
+)
+"src/dominator.ml" 103 3594 3600 "src/dominator.ml" 103 3594 3623
+type(
+  H.key list -> (H.key -> H.key list) -> H.key list
+)
+ident(
+  def pseudo_topological_sort "src/dominator.ml" 110 3901 3903 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 103 3594 3624 "src/dominator.ml" 103 3594 3629
+type(
+  H.key list
+)
+ident(
+  def nodes "src/dominator.ml" 103 3594 3630 "src/dominator.ml" 104 3637 3696
+)
+"src/dominator.ml" 103 3594 3630 "src/dominator.ml" 103 3594 3634
+type(
+  H.key -> H.key list
+)
+ident(
+  def succ "src/dominator.ml" 104 3637 3641 "src/dominator.ml" 104 3637 3696
+)
+"src/dominator.ml" 104 3637 3641 "src/dominator.ml" 104 3637 3664
+type(
+  (H.key -> H.key list -> H.key list) ->
+  H.key list -> H.key list -> (H.key -> H.key list) -> H.key list
+)
+ident(
+  int_ref pseudo_topological_fold "src/dominator.ml" 89 3171 3177 "src/dominator.ml" 89 3171 3200
+)
+"src/dominator.ml" 104 3637 3670 "src/dominator.ml" 104 3637 3671
+type(
+  H.key
+)
+ident(
+  def x "src/dominator.ml" 104 3637 3672 "src/dominator.ml" 104 3637 3681
+)
+"src/dominator.ml" 104 3637 3672 "src/dominator.ml" 104 3637 3673
+type(
+  H.key list
+)
+ident(
+  def y "src/dominator.ml" 104 3637 3677 "src/dominator.ml" 104 3637 3681
+)
+"src/dominator.ml" 104 3637 3677 "src/dominator.ml" 104 3637 3678
+type(
+  H.key
+)
+ident(
+  int_ref x "src/dominator.ml" 104 3637 3670 "src/dominator.ml" 104 3637 3671
+)
+"src/dominator.ml" 104 3637 3680 "src/dominator.ml" 104 3637 3681
+type(
+  H.key list
+)
+ident(
+  int_ref y "src/dominator.ml" 104 3637 3672 "src/dominator.ml" 104 3637 3673
+)
+"src/dominator.ml" 104 3637 3677 "src/dominator.ml" 104 3637 3681
+type(
+  H.key list
+)
+"src/dominator.ml" 104 3637 3665 "src/dominator.ml" 104 3637 3682
+type(
+  H.key -> H.key list -> H.key list
+)
+"src/dominator.ml" 104 3637 3683 "src/dominator.ml" 104 3637 3685
+type(
+  H.key list
+)
+"src/dominator.ml" 104 3637 3686 "src/dominator.ml" 104 3637 3691
+type(
+  H.key list
+)
+ident(
+  int_ref nodes "src/dominator.ml" 103 3594 3624 "src/dominator.ml" 103 3594 3629
+)
+"src/dominator.ml" 104 3637 3692 "src/dominator.ml" 104 3637 3696
+type(
+  H.key -> H.key list
+)
+ident(
+  int_ref succ "src/dominator.ml" 103 3594 3630 "src/dominator.ml" 103 3594 3634
+)
+"src/dominator.ml" 104 3637 3641 "src/dominator.ml" 104 3637 3696
+call(
+  tail
+)
+type(
+  H.key list
+)
+"src/dominator.ml" 110 3901 3907 "src/dominator.ml" 110 3901 3919
+type(
+  G.t -> H.key -> H.key -> H.key
+)
+ident(
+  def compute_idom "src/dominator.ml" 213 7047 7049 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 110 3901 3920 "src/dominator.ml" 110 3901 3923
+type(
+  G.t
+)
+ident(
+  def cfg "src/dominator.ml" 110 3901 3924 "src/dominator.ml" 206 6858 6875
+)
+"src/dominator.ml" 110 3901 3924 "src/dominator.ml" 110 3901 3926
+type(
+  H.key
+)
+ident(
+  def s0 "src/dominator.ml" 116 4132 4136 "src/dominator.ml" 206 6858 6875
+)
+"src/dominator.ml" 116 4132 4140 "src/dominator.ml" 116 4132 4144
+type(
+  int
+)
+"src/dominator.ml" 116 4132 4147 "src/dominator.ml" 116 4132 4158
+type(
+  G.t -> int
+)
+ident(
+  ext_ref G.nb_vertex
+)
+"src/dominator.ml" 116 4132 4159 "src/dominator.ml" 116 4132 4162
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 110 3901 3920 "src/dominator.ml" 110 3901 3923
+)
+"src/dominator.ml" 116 4132 4147 "src/dominator.ml" 116 4132 4162
+call(
+  stack
+)
+type(
+  int
+)
+"src/dominator.ml" 117 4166 4174 "src/dominator.ml" 117 4166 4180
+type(
+  H.key H.t
+)
+"src/dominator.ml" 117 4166 4183 "src/dominator.ml" 117 4166 4191
+type(
+  int -> H.key H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 117 4166 4192 "src/dominator.ml" 117 4166 4196
+type(
+  int
+)
+ident(
+  int_ref size "src/dominator.ml" 116 4132 4140 "src/dominator.ml" 116 4132 4144
+)
+"src/dominator.ml" 117 4166 4183 "src/dominator.ml" 117 4166 4196
+call(
+  stack
+)
+type(
+  H.key H.t
+)
+"src/dominator.ml" 118 4213 4221 "src/dominator.ml" 118 4213 4228
+type(
+  int H.t
+)
+"src/dominator.ml" 118 4213 4231 "src/dominator.ml" 118 4213 4239
+type(
+  int -> int H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 118 4213 4240 "src/dominator.ml" 118 4213 4244
+type(
+  int
+)
+ident(
+  int_ref size "src/dominator.ml" 116 4132 4140 "src/dominator.ml" 116 4132 4144
+)
+"src/dominator.ml" 118 4213 4231 "src/dominator.ml" 118 4213 4244
+call(
+  stack
+)
+type(
+  int H.t
+)
+"src/dominator.ml" 119 4270 4278 "src/dominator.ml" 119 4270 4284
+type(
+  H.key H.t
+)
+"src/dominator.ml" 119 4270 4287 "src/dominator.ml" 119 4270 4295
+type(
+  int -> H.key H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 119 4270 4296 "src/dominator.ml" 119 4270 4300
+type(
+  int
+)
+ident(
+  int_ref size "src/dominator.ml" 116 4132 4140 "src/dominator.ml" 116 4132 4144
+)
+"src/dominator.ml" 119 4270 4287 "src/dominator.ml" 119 4270 4300
+call(
+  stack
+)
+type(
+  H.key H.t
+)
+"src/dominator.ml" 120 4333 4341 "src/dominator.ml" 120 4333 4347
+type(
+  H.key H.t
+)
+"src/dominator.ml" 120 4333 4350 "src/dominator.ml" 120 4333 4358
+type(
+  int -> H.key H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 120 4333 4359 "src/dominator.ml" 120 4333 4363
+type(
+  int
+)
+ident(
+  int_ref size "src/dominator.ml" 116 4132 4140 "src/dominator.ml" 116 4132 4144
+)
+"src/dominator.ml" 120 4333 4350 "src/dominator.ml" 120 4333 4363
+call(
+  stack
+)
+type(
+  H.key H.t
+)
+"src/dominator.ml" 121 4392 4400 "src/dominator.ml" 121 4392 4408
+type(
+  H.key H.t
+)
+"src/dominator.ml" 121 4392 4411 "src/dominator.ml" 121 4392 4419
+type(
+  int -> H.key H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 121 4392 4420 "src/dominator.ml" 121 4392 4424
+type(
+  int
+)
+ident(
+  int_ref size "src/dominator.ml" 116 4132 4140 "src/dominator.ml" 116 4132 4144
+)
+"src/dominator.ml" 121 4392 4411 "src/dominator.ml" 121 4392 4424
+call(
+  stack
+)
+type(
+  H.key H.t
+)
+"src/dominator.ml" 122 4439 4447 "src/dominator.ml" 122 4439 4451
+type(
+  H.key H.t
+)
+"src/dominator.ml" 122 4439 4454 "src/dominator.ml" 122 4439 4462
+type(
+  int -> H.key H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 122 4439 4463 "src/dominator.ml" 122 4439 4467
+type(
+  int
+)
+ident(
+  int_ref size "src/dominator.ml" 116 4132 4140 "src/dominator.ml" 116 4132 4144
+)
+"src/dominator.ml" 122 4439 4454 "src/dominator.ml" 122 4439 4467
+call(
+  stack
+)
+type(
+  H.key H.t
+)
+"src/dominator.ml" 123 4482 4490 "src/dominator.ml" 123 4482 4497
+type(
+  H.key H.t
+)
+"src/dominator.ml" 123 4482 4500 "src/dominator.ml" 123 4482 4508
+type(
+  int -> H.key H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 123 4482 4509 "src/dominator.ml" 123 4482 4513
+type(
+  int
+)
+ident(
+  int_ref size "src/dominator.ml" 116 4132 4140 "src/dominator.ml" 116 4132 4144
+)
+"src/dominator.ml" 123 4482 4500 "src/dominator.ml" 123 4482 4513
+call(
+  stack
+)
+type(
+  H.key H.t
+)
+"src/dominator.ml" 124 4548 4556 "src/dominator.ml" 124 4548 4560
+type(
+  H.key H.t
+)
+"src/dominator.ml" 124 4548 4563 "src/dominator.ml" 124 4548 4571
+type(
+  int -> H.key H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 124 4548 4572 "src/dominator.ml" 124 4548 4576
+type(
+  int
+)
+ident(
+  int_ref size "src/dominator.ml" 116 4132 4140 "src/dominator.ml" 116 4132 4144
+)
+"src/dominator.ml" 124 4548 4563 "src/dominator.ml" 124 4548 4576
+call(
+  stack
+)
+type(
+  H.key H.t
+)
+"src/dominator.ml" 125 4600 4608 "src/dominator.ml" 125 4600 4614
+type(
+  H.key array
+)
+"src/dominator.ml" 125 4600 4617 "src/dominator.ml" 125 4600 4627
+type(
+  int -> H.key -> H.key array
+)
+ident(
+  ext_ref Array.make
+)
+"src/dominator.ml" 125 4600 4628 "src/dominator.ml" 125 4600 4632
+type(
+  int
+)
+ident(
+  int_ref size "src/dominator.ml" 116 4132 4140 "src/dominator.ml" 116 4132 4144
+)
+"src/dominator.ml" 125 4600 4633 "src/dominator.ml" 125 4600 4635
+type(
+  H.key
+)
+ident(
+  int_ref s0 "src/dominator.ml" 110 3901 3924 "src/dominator.ml" 110 3901 3926
+)
+"src/dominator.ml" 125 4600 4617 "src/dominator.ml" 125 4600 4635
+type(
+  H.key array
+)
+"src/dominator.ml" 126 4661 4669 "src/dominator.ml" 126 4661 4671
+type(
+  int ref
+)
+"src/dominator.ml" 126 4661 4674 "src/dominator.ml" 126 4661 4677
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/dominator.ml" 126 4661 4678 "src/dominator.ml" 126 4661 4679
+type(
+  int
+)
+"src/dominator.ml" 126 4661 4674 "src/dominator.ml" 126 4661 4679
+type(
+  int ref
+)
+"src/dominator.ml" 128 4687 4695 "src/dominator.ml" 128 4687 4700
+type(
+  H.key -> int
+)
+"src/dominator.ml" 128 4687 4701 "src/dominator.ml" 128 4687 4702
+type(
+  H.key
+)
+ident(
+  def x "src/dominator.ml" 128 4687 4705 "src/dominator.ml" 128 4687 4762
+)
+"src/dominator.ml" 128 4687 4710 "src/dominator.ml" 128 4687 4716
+type(
+  int H.t -> H.key -> int
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 128 4687 4717 "src/dominator.ml" 128 4687 4724
+type(
+  int H.t
+)
+ident(
+  int_ref dfnum_h "src/dominator.ml" 118 4213 4221 "src/dominator.ml" 118 4213 4228
+)
+"src/dominator.ml" 128 4687 4725 "src/dominator.ml" 128 4687 4726
+type(
+  H.key
+)
+ident(
+  int_ref x "src/dominator.ml" 128 4687 4701 "src/dominator.ml" 128 4687 4702
+)
+"src/dominator.ml" 128 4687 4710 "src/dominator.ml" 128 4687 4726
+call(
+  stack
+)
+type(
+  int
+)
+"src/dominator.ml" 128 4687 4732 "src/dominator.ml" 128 4687 4741
+type(
+  exn
+)
+"src/dominator.ml" 128 4687 4745 "src/dominator.ml" 128 4687 4750
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/dominator.ml" 128 4687 4751 "src/dominator.ml" 128 4687 4762
+type(
+  exn
+)
+"src/dominator.ml" 128 4687 4745 "src/dominator.ml" 128 4687 4762
+type(
+  int
+)
+"src/dominator.ml" 128 4687 4705 "src/dominator.ml" 128 4687 4762
+type(
+  int
+)
+"src/dominator.ml" 129 4763 4771 "src/dominator.ml" 129 4763 4775
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 129 4763 4778 "src/dominator.ml" 129 4763 4784
+type(
+  H.key H.t -> H.key -> H.key
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 129 4763 4785 "src/dominator.ml" 129 4763 4791
+type(
+  H.key H.t
+)
+ident(
+  int_ref semi_h "src/dominator.ml" 120 4333 4341 "src/dominator.ml" 120 4333 4347
+)
+"src/dominator.ml" 129 4763 4778 "src/dominator.ml" 129 4763 4791
+call(
+  stack
+)
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 131 4799 4811 "src/dominator.ml" 131 4799 4814
+type(
+  H.key option -> H.key -> unit
+)
+"src/dominator.ml" 131 4799 4815 "src/dominator.ml" 131 4799 4816
+type(
+  H.key option
+)
+ident(
+  def p "src/dominator.ml" 131 4799 4817 "src/dominator.ml" 142 5060 5067
+)
+"src/dominator.ml" 131 4799 4817 "src/dominator.ml" 131 4799 4818
+type(
+  H.key
+)
+ident(
+  def n "src/dominator.ml" 132 4821 4827 "src/dominator.ml" 142 5060 5067
+)
+"src/dominator.ml" 132 4821 4830 "src/dominator.ml" 132 4821 4833
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/dominator.ml" 132 4821 4834 "src/dominator.ml" 132 4821 4839
+type(
+  int H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/dominator.ml" 132 4821 4840 "src/dominator.ml" 132 4821 4847
+type(
+  int H.t
+)
+ident(
+  int_ref dfnum_h "src/dominator.ml" 118 4213 4221 "src/dominator.ml" 118 4213 4228
+)
+"src/dominator.ml" 132 4821 4848 "src/dominator.ml" 132 4821 4849
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 131 4799 4817 "src/dominator.ml" 131 4799 4818
+)
+"src/dominator.ml" 132 4821 4833 "src/dominator.ml" 132 4821 4850
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 132 4821 4830 "src/dominator.ml" 132 4821 4850
+type(
+  bool
+)
+"src/dominator.ml" 133 4858 4863 "src/dominator.ml" 133 4858 4866
+type(
+  int
+)
+"src/dominator.ml" 133 4858 4869 "src/dominator.ml" 133 4858 4870
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/dominator.ml" 133 4858 4870 "src/dominator.ml" 133 4858 4872
+type(
+  int ref
+)
+ident(
+  int_ref nn "src/dominator.ml" 126 4661 4669 "src/dominator.ml" 126 4661 4671
+)
+"src/dominator.ml" 133 4858 4869 "src/dominator.ml" 133 4858 4872
+type(
+  int
+)
+"src/dominator.ml" 134 4876 4879 "src/dominator.ml" 134 4876 4884
+type(
+  int H.t -> H.key -> int -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 134 4876 4885 "src/dominator.ml" 134 4876 4892
+type(
+  int H.t
+)
+ident(
+  int_ref dfnum_h "src/dominator.ml" 118 4213 4221 "src/dominator.ml" 118 4213 4228
+)
+"src/dominator.ml" 134 4876 4893 "src/dominator.ml" 134 4876 4894
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 131 4799 4817 "src/dominator.ml" 131 4799 4818
+)
+"src/dominator.ml" 134 4876 4895 "src/dominator.ml" 134 4876 4898
+type(
+  int
+)
+ident(
+  int_ref enn "src/dominator.ml" 133 4858 4863 "src/dominator.ml" 133 4858 4866
+)
+"src/dominator.ml" 134 4876 4879 "src/dominator.ml" 134 4876 4898
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 135 4900 4903 "src/dominator.ml" 135 4900 4909
+type(
+  H.key array
+)
+ident(
+  int_ref vertex "src/dominator.ml" 125 4600 4608 "src/dominator.ml" 125 4600 4614
+)
+"src/dominator.ml" 135 4900 4911 "src/dominator.ml" 135 4900 4914
+type(
+  int
+)
+ident(
+  int_ref enn "src/dominator.ml" 133 4858 4863 "src/dominator.ml" 133 4858 4866
+)
+"src/dominator.ml" 135 4900 4919 "src/dominator.ml" 135 4900 4920
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 131 4799 4817 "src/dominator.ml" 131 4799 4818
+)
+"src/dominator.ml" 135 4900 4903 "src/dominator.ml" 135 4900 4920
+type(
+  unit
+)
+"src/dominator.ml" 136 4922 4932 "src/dominator.ml" 136 4922 4933
+type(
+  H.key option
+)
+ident(
+  int_ref p "src/dominator.ml" 131 4799 4815 "src/dominator.ml" 131 4799 4816
+)
+"src/dominator.ml" 137 4939 4951 "src/dominator.ml" 137 4939 4952
+type(
+  H.key
+)
+ident(
+  def p "src/dominator.ml" 137 4939 4956 "src/dominator.ml" 137 4939 4972
+)
+"src/dominator.ml" 137 4939 4946 "src/dominator.ml" 137 4939 4952
+type(
+  H.key option
+)
+"src/dominator.ml" 137 4939 4956 "src/dominator.ml" 137 4939 4961
+type(
+  H.key H.t -> H.key -> H.key -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 137 4939 4962 "src/dominator.ml" 137 4939 4968
+type(
+  H.key H.t
+)
+ident(
+  int_ref parent "src/dominator.ml" 119 4270 4278 "src/dominator.ml" 119 4270 4284
+)
+"src/dominator.ml" 137 4939 4969 "src/dominator.ml" 137 4939 4970
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 131 4799 4817 "src/dominator.ml" 131 4799 4818
+)
+"src/dominator.ml" 137 4939 4971 "src/dominator.ml" 137 4939 4972
+type(
+  H.key
+)
+ident(
+  int_ref p "src/dominator.ml" 137 4939 4951 "src/dominator.ml" 137 4939 4952
+)
+"src/dominator.ml" 137 4939 4956 "src/dominator.ml" 137 4939 4972
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 138 4973 4980 "src/dominator.ml" 138 4973 4984
+type(
+  H.key option
+)
+"src/dominator.ml" 138 4973 4988 "src/dominator.ml" 138 4973 4990
+type(
+  unit
+)
+"src/dominator.ml" 136 4922 4925 "src/dominator.ml" 139 4991 4995
+type(
+  unit
+)
+"src/dominator.ml" 140 4997 5000 "src/dominator.ml" 140 4997 5002
+type(
+  int ref
+)
+ident(
+  int_ref nn "src/dominator.ml" 126 4661 4669 "src/dominator.ml" 126 4661 4671
+)
+"src/dominator.ml" 140 4997 5003 "src/dominator.ml" 140 4997 5005
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/dominator.ml" 140 4997 5007 "src/dominator.ml" 140 4997 5010
+type(
+  int
+)
+ident(
+  int_ref enn "src/dominator.ml" 133 4858 4863 "src/dominator.ml" 133 4858 4866
+)
+"src/dominator.ml" 140 4997 5011 "src/dominator.ml" 140 4997 5012
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/dominator.ml" 140 4997 5013 "src/dominator.ml" 140 4997 5014
+type(
+  int
+)
+"src/dominator.ml" 140 4997 5006 "src/dominator.ml" 140 4997 5015
+type(
+  int
+)
+"src/dominator.ml" 140 4997 5000 "src/dominator.ml" 140 4997 5015
+type(
+  unit
+)
+"src/dominator.ml" 141 5017 5020 "src/dominator.ml" 141 5017 5029
+type(
+  (H.key -> unit) -> H.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/dominator.ml" 141 5017 5031 "src/dominator.ml" 141 5017 5034
+type(
+  H.key option -> H.key -> unit
+)
+ident(
+  int_ref dfs "src/dominator.ml" 131 4799 4811 "src/dominator.ml" 131 4799 4814
+)
+"src/dominator.ml" 141 5017 5041 "src/dominator.ml" 141 5017 5042
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 131 4799 4817 "src/dominator.ml" 131 4799 4818
+)
+"src/dominator.ml" 141 5017 5035 "src/dominator.ml" 141 5017 5043
+type(
+  H.key option
+)
+"src/dominator.ml" 141 5017 5030 "src/dominator.ml" 141 5017 5044
+call(
+  stack
+)
+type(
+  H.key -> unit
+)
+"src/dominator.ml" 141 5017 5046 "src/dominator.ml" 141 5017 5052
+type(
+  G.t -> H.key -> H.key list
+)
+ident(
+  ext_ref G.succ
+)
+"src/dominator.ml" 141 5017 5053 "src/dominator.ml" 141 5017 5056
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 110 3901 3920 "src/dominator.ml" 110 3901 3923
+)
+"src/dominator.ml" 141 5017 5057 "src/dominator.ml" 141 5017 5058
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 131 4799 4817 "src/dominator.ml" 131 4799 4818
+)
+"src/dominator.ml" 141 5017 5045 "src/dominator.ml" 141 5017 5059
+call(
+  stack
+)
+type(
+  H.key list
+)
+"src/dominator.ml" 141 5017 5020 "src/dominator.ml" 141 5017 5059
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dominator.ml" 140 4997 5000 "src/dominator.ml" 141 5017 5059
+type(
+  unit
+)
+"src/dominator.ml" 136 4922 4925 "src/dominator.ml" 141 5017 5059
+type(
+  unit
+)
+"src/dominator.ml" 135 4900 4903 "src/dominator.ml" 141 5017 5059
+type(
+  unit
+)
+"src/dominator.ml" 134 4876 4879 "src/dominator.ml" 141 5017 5059
+type(
+  unit
+)
+"src/dominator.ml" 132 4821 4856 "src/dominator.ml" 142 5060 5067
+type(
+  unit
+)
+"src/dominator.ml" 132 4821 4827 "src/dominator.ml" 142 5060 5067
+type(
+  unit
+)
+"src/dominator.ml" 144 5075 5087 "src/dominator.ml" 144 5075 5112
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 144 5075 5113 "src/dominator.ml" 144 5075 5114
+type(
+  H.key
+)
+ident(
+  def v "src/dominator.ml" 145 5117 5123 "src/dominator.ml" 153 5370 5407
+)
+"src/dominator.ml" 146 5127 5132 "src/dominator.ml" 146 5127 5133
+type(
+  H.key
+)
+ident(
+  def a "src/dominator.ml" 147 5157 5158 "src/dominator.ml" 152 5355 5369
+)
+"src/dominator.ml" 146 5127 5136 "src/dominator.ml" 146 5127 5142
+type(
+  H.key H.t -> H.key -> H.key
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 146 5127 5143 "src/dominator.ml" 146 5127 5151
+type(
+  H.key H.t
+)
+ident(
+  int_ref ancestor "src/dominator.ml" 121 4392 4400 "src/dominator.ml" 121 4392 4408
+)
+"src/dominator.ml" 146 5127 5152 "src/dominator.ml" 146 5127 5153
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 144 5075 5113 "src/dominator.ml" 144 5075 5114
+)
+"src/dominator.ml" 146 5127 5136 "src/dominator.ml" 146 5127 5153
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 147 5157 5162 "src/dominator.ml" 147 5157 5163
+type(
+  H.key
+)
+ident(
+  def b "src/dominator.ml" 148 5197 5198 "src/dominator.ml" 152 5355 5369
+)
+"src/dominator.ml" 147 5157 5166 "src/dominator.ml" 147 5157 5191
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref ancestor_with_lowest_semi "src/dominator.ml" 144 5075 5087 "src/dominator.ml" 144 5075 5112
+)
+"src/dominator.ml" 147 5157 5192 "src/dominator.ml" 147 5157 5193
+type(
+  H.key
+)
+ident(
+  int_ref a "src/dominator.ml" 146 5127 5132 "src/dominator.ml" 146 5127 5133
+)
+"src/dominator.ml" 147 5157 5166 "src/dominator.ml" 147 5157 5193
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 148 5197 5202 "src/dominator.ml" 148 5197 5204
+type(
+  unit
+)
+"src/dominator.ml" 148 5197 5207 "src/dominator.ml" 148 5197 5216
+type(
+  H.key H.t -> H.key -> H.key -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/dominator.ml" 148 5197 5217 "src/dominator.ml" 148 5197 5225
+type(
+  H.key H.t
+)
+ident(
+  int_ref ancestor "src/dominator.ml" 121 4392 4400 "src/dominator.ml" 121 4392 4408
+)
+"src/dominator.ml" 148 5197 5226 "src/dominator.ml" 148 5197 5227
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 144 5075 5113 "src/dominator.ml" 144 5075 5114
+)
+"src/dominator.ml" 148 5197 5229 "src/dominator.ml" 148 5197 5235
+type(
+  H.key H.t -> H.key -> H.key
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 148 5197 5236 "src/dominator.ml" 148 5197 5244
+type(
+  H.key H.t
+)
+ident(
+  int_ref ancestor "src/dominator.ml" 121 4392 4400 "src/dominator.ml" 121 4392 4408
+)
+"src/dominator.ml" 148 5197 5245 "src/dominator.ml" 148 5197 5246
+type(
+  H.key
+)
+ident(
+  int_ref a "src/dominator.ml" 146 5127 5132 "src/dominator.ml" 146 5127 5133
+)
+"src/dominator.ml" 148 5197 5228 "src/dominator.ml" 148 5197 5247
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 148 5197 5207 "src/dominator.ml" 148 5197 5247
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 149 5251 5256 "src/dominator.ml" 149 5251 5262
+type(
+  H.key
+)
+ident(
+  def best_v "src/dominator.ml" 150 5282 5285 "src/dominator.ml" 152 5355 5369
+)
+"src/dominator.ml" 149 5251 5265 "src/dominator.ml" 149 5251 5271
+type(
+  H.key H.t -> H.key -> H.key
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 149 5251 5272 "src/dominator.ml" 149 5251 5276
+type(
+  H.key H.t
+)
+ident(
+  int_ref best "src/dominator.ml" 122 4439 4447 "src/dominator.ml" 122 4439 4451
+)
+"src/dominator.ml" 149 5251 5277 "src/dominator.ml" 149 5251 5278
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 144 5075 5113 "src/dominator.ml" 144 5075 5114
+)
+"src/dominator.ml" 149 5251 5265 "src/dominator.ml" 149 5251 5278
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 150 5282 5288 "src/dominator.ml" 150 5282 5293
+type(
+  H.key -> int
+)
+ident(
+  int_ref dfnum "src/dominator.ml" 128 4687 4695 "src/dominator.ml" 128 4687 4700
+)
+"src/dominator.ml" 150 5282 5294 "src/dominator.ml" 150 5282 5298
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref semi "src/dominator.ml" 129 4763 4771 "src/dominator.ml" 129 4763 4775
+)
+"src/dominator.ml" 150 5282 5299 "src/dominator.ml" 150 5282 5300
+type(
+  H.key
+)
+ident(
+  int_ref b "src/dominator.ml" 147 5157 5162 "src/dominator.ml" 147 5157 5163
+)
+"src/dominator.ml" 150 5282 5293 "src/dominator.ml" 150 5282 5301
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 150 5282 5288 "src/dominator.ml" 150 5282 5301
+call(
+  stack
+)
+type(
+  int
+)
+"src/dominator.ml" 150 5282 5302 "src/dominator.ml" 150 5282 5303
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/dominator.ml" 150 5282 5304 "src/dominator.ml" 150 5282 5309
+type(
+  H.key -> int
+)
+ident(
+  int_ref dfnum "src/dominator.ml" 128 4687 4695 "src/dominator.ml" 128 4687 4700
+)
+"src/dominator.ml" 150 5282 5310 "src/dominator.ml" 150 5282 5314
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref semi "src/dominator.ml" 129 4763 4771 "src/dominator.ml" 129 4763 4775
+)
+"src/dominator.ml" 150 5282 5315 "src/dominator.ml" 150 5282 5321
+type(
+  H.key
+)
+ident(
+  int_ref best_v "src/dominator.ml" 149 5251 5256 "src/dominator.ml" 149 5251 5262
+)
+"src/dominator.ml" 150 5282 5309 "src/dominator.ml" 150 5282 5322
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 150 5282 5304 "src/dominator.ml" 150 5282 5322
+call(
+  stack
+)
+type(
+  int
+)
+"src/dominator.ml" 150 5282 5288 "src/dominator.ml" 150 5282 5322
+type(
+  bool
+)
+"src/dominator.ml" 151 5323 5332 "src/dominator.ml" 151 5323 5341
+type(
+  H.key H.t -> H.key -> H.key -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/dominator.ml" 151 5323 5342 "src/dominator.ml" 151 5323 5346
+type(
+  H.key H.t
+)
+ident(
+  int_ref best "src/dominator.ml" 122 4439 4447 "src/dominator.ml" 122 4439 4451
+)
+"src/dominator.ml" 151 5323 5347 "src/dominator.ml" 151 5323 5348
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 144 5075 5113 "src/dominator.ml" 144 5075 5114
+)
+"src/dominator.ml" 151 5323 5349 "src/dominator.ml" 151 5323 5350
+type(
+  H.key
+)
+ident(
+  int_ref b "src/dominator.ml" 147 5157 5162 "src/dominator.ml" 147 5157 5163
+)
+"src/dominator.ml" 151 5323 5332 "src/dominator.ml" 151 5323 5350
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 151 5323 5352 "src/dominator.ml" 151 5323 5353
+type(
+  H.key
+)
+ident(
+  int_ref b "src/dominator.ml" 147 5157 5162 "src/dominator.ml" 147 5157 5163
+)
+"src/dominator.ml" 151 5323 5331 "src/dominator.ml" 151 5323 5354
+type(
+  H.key
+)
+"src/dominator.ml" 152 5355 5363 "src/dominator.ml" 152 5355 5369
+type(
+  H.key
+)
+ident(
+  int_ref best_v "src/dominator.ml" 149 5251 5256 "src/dominator.ml" 149 5251 5262
+)
+"src/dominator.ml" 150 5282 5285 "src/dominator.ml" 152 5355 5369
+type(
+  H.key
+)
+"src/dominator.ml" 149 5251 5252 "src/dominator.ml" 152 5355 5369
+type(
+  H.key
+)
+"src/dominator.ml" 148 5197 5198 "src/dominator.ml" 152 5355 5369
+type(
+  H.key
+)
+"src/dominator.ml" 147 5157 5158 "src/dominator.ml" 152 5355 5369
+type(
+  H.key
+)
+"src/dominator.ml" 146 5127 5128 "src/dominator.ml" 152 5355 5369
+type(
+  H.key
+)
+"src/dominator.ml" 153 5370 5381 "src/dominator.ml" 153 5370 5390
+type(
+  exn
+)
+"src/dominator.ml" 153 5370 5394 "src/dominator.ml" 153 5370 5400
+type(
+  H.key H.t -> H.key -> H.key
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 153 5370 5401 "src/dominator.ml" 153 5370 5405
+type(
+  H.key H.t
+)
+ident(
+  int_ref best "src/dominator.ml" 122 4439 4447 "src/dominator.ml" 122 4439 4451
+)
+"src/dominator.ml" 153 5370 5406 "src/dominator.ml" 153 5370 5407
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 144 5075 5113 "src/dominator.ml" 144 5075 5114
+)
+"src/dominator.ml" 153 5370 5394 "src/dominator.ml" 153 5370 5407
+call(
+  tail
+)
+type(
+  H.key
+)
+"src/dominator.ml" 145 5117 5123 "src/dominator.ml" 153 5370 5407
+type(
+  H.key
+)
+"src/dominator.ml" 155 5415 5423 "src/dominator.ml" 155 5415 5427
+type(
+  H.key -> H.key -> unit
+)
+"src/dominator.ml" 155 5415 5428 "src/dominator.ml" 155 5415 5429
+type(
+  H.key
+)
+ident(
+  def p "src/dominator.ml" 155 5415 5430 "src/dominator.ml" 157 5464 5489
+)
+"src/dominator.ml" 155 5415 5430 "src/dominator.ml" 155 5415 5431
+type(
+  H.key
+)
+ident(
+  def n "src/dominator.ml" 156 5434 5440 "src/dominator.ml" 157 5464 5489
+)
+"src/dominator.ml" 156 5434 5440 "src/dominator.ml" 156 5434 5449
+type(
+  H.key H.t -> H.key -> H.key -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/dominator.ml" 156 5434 5450 "src/dominator.ml" 156 5434 5458
+type(
+  H.key H.t
+)
+ident(
+  int_ref ancestor "src/dominator.ml" 121 4392 4400 "src/dominator.ml" 121 4392 4408
+)
+"src/dominator.ml" 156 5434 5459 "src/dominator.ml" 156 5434 5460
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 155 5415 5430 "src/dominator.ml" 155 5415 5431
+)
+"src/dominator.ml" 156 5434 5461 "src/dominator.ml" 156 5434 5462
+type(
+  H.key
+)
+ident(
+  int_ref p "src/dominator.ml" 155 5415 5428 "src/dominator.ml" 155 5415 5429
+)
+"src/dominator.ml" 156 5434 5440 "src/dominator.ml" 156 5434 5462
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 157 5464 5470 "src/dominator.ml" 157 5464 5479
+type(
+  H.key H.t -> H.key -> H.key -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/dominator.ml" 157 5464 5480 "src/dominator.ml" 157 5464 5484
+type(
+  H.key H.t
+)
+ident(
+  int_ref best "src/dominator.ml" 122 4439 4447 "src/dominator.ml" 122 4439 4451
+)
+"src/dominator.ml" 157 5464 5485 "src/dominator.ml" 157 5464 5486
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 155 5415 5430 "src/dominator.ml" 155 5415 5431
+)
+"src/dominator.ml" 157 5464 5487 "src/dominator.ml" 157 5464 5488
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 155 5415 5430 "src/dominator.ml" 155 5415 5431
+)
+"src/dominator.ml" 157 5464 5470 "src/dominator.ml" 157 5464 5489
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dominator.ml" 156 5434 5440 "src/dominator.ml" 157 5464 5489
+type(
+  unit
+)
+"src/dominator.ml" 159 5497 5505 "src/dominator.ml" 159 5497 5518
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 159 5497 5519 "src/dominator.ml" 159 5497 5520
+type(
+  H.key
+)
+ident(
+  def n "src/dominator.ml" 160 5523 5529 "src/dominator.ml" 174 5909 5926
+)
+"src/dominator.ml" 160 5523 5533 "src/dominator.ml" 160 5523 5534
+type(
+  H.key
+)
+"src/dominator.ml" 160 5523 5537 "src/dominator.ml" 160 5523 5543
+type(
+  H.key H.t -> H.key -> H.key
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 160 5523 5544 "src/dominator.ml" 160 5523 5550
+type(
+  H.key H.t
+)
+ident(
+  int_ref parent "src/dominator.ml" 119 4270 4278 "src/dominator.ml" 119 4270 4284
+)
+"src/dominator.ml" 160 5523 5551 "src/dominator.ml" 160 5523 5552
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 159 5497 5519 "src/dominator.ml" 159 5497 5520
+)
+"src/dominator.ml" 160 5523 5537 "src/dominator.ml" 160 5523 5552
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 161 5556 5557 "src/dominator.ml" 161 5556 5571
+type(
+  (H.key -> H.key -> H.key) -> H.key -> H.key list -> H.key
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/dominator.ml" 162 5572 5580 "src/dominator.ml" 162 5572 5581
+type(
+  H.key
+)
+ident(
+  def s "src/dominator.ml" 162 5572 5582 "src/dominator.ml" 171 5858 5867
+)
+"src/dominator.ml" 162 5572 5582 "src/dominator.ml" 162 5572 5583
+type(
+  H.key
+)
+ident(
+  def v "src/dominator.ml" 163 5587 5593 "src/dominator.ml" 171 5858 5867
+)
+"src/dominator.ml" 164 5649 5661 "src/dominator.ml" 164 5649 5663
+type(
+  H.key
+)
+ident(
+  def s' "src/dominator.ml" 169 5754 5757 "src/dominator.ml" 169 5754 5793
+)
+"src/dominator.ml" 165 5666 5672 "src/dominator.ml" 165 5666 5677
+type(
+  H.key -> int
+)
+ident(
+  int_ref dfnum "src/dominator.ml" 128 4687 4695 "src/dominator.ml" 128 4687 4700
+)
+"src/dominator.ml" 165 5666 5678 "src/dominator.ml" 165 5666 5679
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 162 5572 5582 "src/dominator.ml" 162 5572 5583
+)
+"src/dominator.ml" 165 5666 5672 "src/dominator.ml" 165 5666 5679
+call(
+  stack
+)
+type(
+  int
+)
+"src/dominator.ml" 165 5666 5680 "src/dominator.ml" 165 5666 5682
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/dominator.ml" 165 5666 5683 "src/dominator.ml" 165 5666 5688
+type(
+  H.key -> int
+)
+ident(
+  int_ref dfnum "src/dominator.ml" 128 4687 4695 "src/dominator.ml" 128 4687 4700
+)
+"src/dominator.ml" 165 5666 5689 "src/dominator.ml" 165 5666 5690
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 159 5497 5519 "src/dominator.ml" 159 5497 5520
+)
+"src/dominator.ml" 165 5666 5683 "src/dominator.ml" 165 5666 5690
+call(
+  stack
+)
+type(
+  int
+)
+"src/dominator.ml" 165 5666 5672 "src/dominator.ml" 165 5666 5690
+type(
+  bool
+)
+"src/dominator.ml" 166 5691 5699 "src/dominator.ml" 166 5691 5700
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 162 5572 5582 "src/dominator.ml" 162 5572 5583
+)
+"src/dominator.ml" 167 5701 5709 "src/dominator.ml" 167 5701 5713
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref semi "src/dominator.ml" 129 4763 4771 "src/dominator.ml" 129 4763 4775
+)
+"src/dominator.ml" 167 5701 5714 "src/dominator.ml" 167 5701 5739
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref ancestor_with_lowest_semi "src/dominator.ml" 144 5075 5087 "src/dominator.ml" 144 5075 5112
+)
+"src/dominator.ml" 167 5701 5740 "src/dominator.ml" 167 5701 5741
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 162 5572 5582 "src/dominator.ml" 162 5572 5583
+)
+"src/dominator.ml" 167 5701 5713 "src/dominator.ml" 167 5701 5742
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 167 5701 5709 "src/dominator.ml" 167 5701 5742
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 165 5666 5669 "src/dominator.ml" 167 5701 5742
+type(
+  H.key
+)
+"src/dominator.ml" 169 5754 5760 "src/dominator.ml" 169 5754 5765
+type(
+  H.key -> int
+)
+ident(
+  int_ref dfnum "src/dominator.ml" 128 4687 4695 "src/dominator.ml" 128 4687 4700
+)
+"src/dominator.ml" 169 5754 5766 "src/dominator.ml" 169 5754 5768
+type(
+  H.key
+)
+ident(
+  int_ref s' "src/dominator.ml" 164 5649 5661 "src/dominator.ml" 164 5649 5663
+)
+"src/dominator.ml" 169 5754 5760 "src/dominator.ml" 169 5754 5768
+call(
+  stack
+)
+type(
+  int
+)
+"src/dominator.ml" 169 5754 5769 "src/dominator.ml" 169 5754 5770
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/dominator.ml" 169 5754 5771 "src/dominator.ml" 169 5754 5776
+type(
+  H.key -> int
+)
+ident(
+  int_ref dfnum "src/dominator.ml" 128 4687 4695 "src/dominator.ml" 128 4687 4700
+)
+"src/dominator.ml" 169 5754 5777 "src/dominator.ml" 169 5754 5778
+type(
+  H.key
+)
+ident(
+  int_ref s "src/dominator.ml" 162 5572 5580 "src/dominator.ml" 162 5572 5581
+)
+"src/dominator.ml" 169 5754 5771 "src/dominator.ml" 169 5754 5778
+call(
+  stack
+)
+type(
+  int
+)
+"src/dominator.ml" 169 5754 5760 "src/dominator.ml" 169 5754 5778
+type(
+  bool
+)
+"src/dominator.ml" 169 5754 5784 "src/dominator.ml" 169 5754 5786
+type(
+  H.key
+)
+ident(
+  int_ref s' "src/dominator.ml" 164 5649 5661 "src/dominator.ml" 164 5649 5663
+)
+"src/dominator.ml" 169 5754 5792 "src/dominator.ml" 169 5754 5793
+type(
+  H.key
+)
+ident(
+  int_ref s "src/dominator.ml" 162 5572 5580 "src/dominator.ml" 162 5572 5581
+)
+"src/dominator.ml" 169 5754 5757 "src/dominator.ml" 169 5754 5793
+type(
+  H.key
+)
+"src/dominator.ml" 164 5649 5657 "src/dominator.ml" 169 5754 5793
+type(
+  H.key
+)
+"src/dominator.ml" 170 5794 5805 "src/dominator.ml" 170 5794 5816
+type(
+  exn
+)
+"src/dominator.ml" 171 5858 5866 "src/dominator.ml" 171 5858 5867
+type(
+  H.key
+)
+ident(
+  int_ref s "src/dominator.ml" 162 5572 5580 "src/dominator.ml" 162 5572 5581
+)
+"src/dominator.ml" 163 5587 5593 "src/dominator.ml" 171 5858 5867
+type(
+  H.key
+)
+"src/dominator.ml" 162 5572 5575 "src/dominator.ml" 172 5899 5903
+type(
+  H.key -> H.key -> H.key
+)
+"src/dominator.ml" 173 5904 5907 "src/dominator.ml" 173 5904 5908
+type(
+  H.key
+)
+ident(
+  int_ref s "src/dominator.ml" 160 5523 5533 "src/dominator.ml" 160 5523 5534
+)
+"src/dominator.ml" 174 5909 5913 "src/dominator.ml" 174 5909 5919
+type(
+  G.t -> H.key -> H.key list
+)
+ident(
+  ext_ref G.pred
+)
+"src/dominator.ml" 174 5909 5920 "src/dominator.ml" 174 5909 5923
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 110 3901 3920 "src/dominator.ml" 110 3901 3923
+)
+"src/dominator.ml" 174 5909 5924 "src/dominator.ml" 174 5909 5925
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 159 5497 5519 "src/dominator.ml" 159 5497 5520
+)
+"src/dominator.ml" 174 5909 5912 "src/dominator.ml" 174 5909 5926
+call(
+  stack
+)
+type(
+  H.key list
+)
+"src/dominator.ml" 161 5556 5557 "src/dominator.ml" 174 5909 5926
+call(
+  tail
+)
+type(
+  H.key
+)
+"src/dominator.ml" 160 5523 5529 "src/dominator.ml" 174 5909 5926
+type(
+  H.key
+)
+"src/dominator.ml" 176 5934 5942 "src/dominator.ml" 176 5934 5944
+type(
+  unit
+)
+"src/dominator.ml" 176 5934 5947 "src/dominator.ml" 176 5934 5950
+type(
+  H.key option -> H.key -> unit
+)
+ident(
+  int_ref dfs "src/dominator.ml" 131 4799 4811 "src/dominator.ml" 131 4799 4814
+)
+"src/dominator.ml" 176 5934 5951 "src/dominator.ml" 176 5934 5955
+type(
+  H.key option
+)
+"src/dominator.ml" 176 5934 5956 "src/dominator.ml" 176 5934 5958
+type(
+  H.key
+)
+ident(
+  int_ref s0 "src/dominator.ml" 110 3901 3924 "src/dominator.ml" 110 3901 3926
+)
+"src/dominator.ml" 176 5934 5947 "src/dominator.ml" 176 5934 5958
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 177 5962 5970 "src/dominator.ml" 177 5962 5975
+type(
+  int
+)
+"src/dominator.ml" 177 5962 5978 "src/dominator.ml" 177 5962 5979
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/dominator.ml" 177 5962 5979 "src/dominator.ml" 177 5962 5981
+type(
+  int ref
+)
+ident(
+  int_ref nn "src/dominator.ml" 126 4661 4669 "src/dominator.ml" 126 4661 4671
+)
+"src/dominator.ml" 177 5962 5978 "src/dominator.ml" 177 5962 5981
+type(
+  int
+)
+"src/dominator.ml" 177 5962 5982 "src/dominator.ml" 177 5962 5983
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/dominator.ml" 177 5962 5984 "src/dominator.ml" 177 5962 5985
+type(
+  int
+)
+"src/dominator.ml" 177 5962 5978 "src/dominator.ml" 177 5962 5985
+type(
+  int
+)
+"src/dominator.ml" 178 5989 6001 "src/dominator.ml" 178 5989 6005
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"src/dominator.ml" 178 5989 6006 "src/dominator.ml" 178 5989 6008
+type(
+  int ref
+)
+ident(
+  int_ref nn "src/dominator.ml" 126 4661 4669 "src/dominator.ml" 126 4661 4671
+)
+"src/dominator.ml" 178 5989 6001 "src/dominator.ml" 178 5989 6008
+type(
+  unit
+)
+"src/dominator.ml" 178 5989 6010 "src/dominator.ml" 178 5989 6011
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/dominator.ml" 178 5989 6011 "src/dominator.ml" 178 5989 6013
+type(
+  int ref
+)
+ident(
+  int_ref nn "src/dominator.ml" 126 4661 4669 "src/dominator.ml" 126 4661 4671
+)
+"src/dominator.ml" 178 5989 6010 "src/dominator.ml" 178 5989 6013
+type(
+  int
+)
+"src/dominator.ml" 178 5989 6014 "src/dominator.ml" 178 5989 6015
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/dominator.ml" 178 5989 6016 "src/dominator.ml" 178 5989 6017
+type(
+  int
+)
+"src/dominator.ml" 178 5989 6010 "src/dominator.ml" 178 5989 6017
+type(
+  bool
+)
+"src/dominator.ml" 178 5989 6001 "src/dominator.ml" 178 5989 6017
+type(
+  bool
+)
+"src/dominator.ml" 179 6051 6056 "src/dominator.ml" 179 6051 6057
+type(
+  int
+)
+ident(
+  def i "src/dominator.ml" 180 6067 6068 "src/dominator.ml" 197 6617 6643
+)
+"src/dominator.ml" 179 6051 6060 "src/dominator.ml" 179 6051 6061
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/dominator.ml" 179 6051 6061 "src/dominator.ml" 179 6051 6063
+type(
+  int ref
+)
+ident(
+  int_ref nn "src/dominator.ml" 126 4661 4669 "src/dominator.ml" 126 4661 4671
+)
+"src/dominator.ml" 179 6051 6060 "src/dominator.ml" 179 6051 6063
+type(
+  int
+)
+"src/dominator.ml" 180 6067 6072 "src/dominator.ml" 180 6067 6073
+type(
+  H.key
+)
+ident(
+  def n "src/dominator.ml" 181 6090 6091 "src/dominator.ml" 197 6617 6643
+)
+"src/dominator.ml" 180 6067 6076 "src/dominator.ml" 180 6067 6082
+type(
+  H.key array
+)
+ident(
+  int_ref vertex "src/dominator.ml" 125 4600 4608 "src/dominator.ml" 125 4600 4614
+)
+"src/dominator.ml" 180 6067 6084 "src/dominator.ml" 180 6067 6085
+type(
+  int
+)
+ident(
+  int_ref i "src/dominator.ml" 179 6051 6056 "src/dominator.ml" 179 6051 6057
+)
+"src/dominator.ml" 180 6067 6076 "src/dominator.ml" 180 6067 6086
+type(
+  H.key
+)
+"src/dominator.ml" 181 6090 6095 "src/dominator.ml" 181 6090 6096
+type(
+  H.key
+)
+ident(
+  def p "src/dominator.ml" 182 6118 6119 "src/dominator.ml" 197 6617 6643
+)
+"src/dominator.ml" 181 6090 6099 "src/dominator.ml" 181 6090 6105
+type(
+  H.key H.t -> H.key -> H.key
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 181 6090 6106 "src/dominator.ml" 181 6090 6112
+type(
+  H.key H.t
+)
+ident(
+  int_ref parent "src/dominator.ml" 119 4270 4278 "src/dominator.ml" 119 4270 4284
+)
+"src/dominator.ml" 181 6090 6113 "src/dominator.ml" 181 6090 6114
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 180 6067 6072 "src/dominator.ml" 180 6067 6073
+)
+"src/dominator.ml" 181 6090 6099 "src/dominator.ml" 181 6090 6114
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 182 6118 6123 "src/dominator.ml" 182 6118 6124
+type(
+  H.key
+)
+ident(
+  def s "src/dominator.ml" 183 6146 6149 "src/dominator.ml" 197 6617 6643
+)
+"src/dominator.ml" 182 6118 6127 "src/dominator.ml" 182 6118 6140
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref semidominator "src/dominator.ml" 159 5497 5505 "src/dominator.ml" 159 5497 5518
+)
+"src/dominator.ml" 182 6118 6141 "src/dominator.ml" 182 6118 6142
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 180 6067 6072 "src/dominator.ml" 180 6067 6073
+)
+"src/dominator.ml" 182 6118 6127 "src/dominator.ml" 182 6118 6142
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 183 6146 6149 "src/dominator.ml" 183 6146 6154
+type(
+  H.key H.t -> H.key -> H.key -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 183 6146 6155 "src/dominator.ml" 183 6146 6161
+type(
+  H.key H.t
+)
+ident(
+  int_ref semi_h "src/dominator.ml" 120 4333 4341 "src/dominator.ml" 120 4333 4347
+)
+"src/dominator.ml" 183 6146 6162 "src/dominator.ml" 183 6146 6163
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 180 6067 6072 "src/dominator.ml" 180 6067 6073
+)
+"src/dominator.ml" 183 6146 6164 "src/dominator.ml" 183 6146 6165
+type(
+  H.key
+)
+ident(
+  int_ref s "src/dominator.ml" 182 6118 6123 "src/dominator.ml" 182 6118 6124
+)
+"src/dominator.ml" 183 6146 6149 "src/dominator.ml" 183 6146 6165
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 184 6167 6170 "src/dominator.ml" 184 6167 6175
+type(
+  H.key H.t -> H.key -> H.key -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 184 6167 6176 "src/dominator.ml" 184 6167 6182
+type(
+  H.key H.t
+)
+ident(
+  int_ref bucket "src/dominator.ml" 117 4166 4174 "src/dominator.ml" 117 4166 4180
+)
+"src/dominator.ml" 184 6167 6183 "src/dominator.ml" 184 6167 6184
+type(
+  H.key
+)
+ident(
+  int_ref s "src/dominator.ml" 182 6118 6123 "src/dominator.ml" 182 6118 6124
+)
+"src/dominator.ml" 184 6167 6186 "src/dominator.ml" 184 6167 6187
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 180 6067 6072 "src/dominator.ml" 180 6067 6073
+)
+"src/dominator.ml" 184 6167 6170 "src/dominator.ml" 184 6167 6187
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 185 6189 6192 "src/dominator.ml" 185 6189 6196
+type(
+  H.key -> H.key -> unit
+)
+ident(
+  int_ref link "src/dominator.ml" 155 5415 5423 "src/dominator.ml" 155 5415 5427
+)
+"src/dominator.ml" 185 6189 6197 "src/dominator.ml" 185 6189 6198
+type(
+  H.key
+)
+ident(
+  int_ref p "src/dominator.ml" 181 6090 6095 "src/dominator.ml" 181 6090 6096
+)
+"src/dominator.ml" 185 6189 6199 "src/dominator.ml" 185 6189 6200
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 180 6067 6072 "src/dominator.ml" 180 6067 6073
+)
+"src/dominator.ml" 185 6189 6192 "src/dominator.ml" 185 6189 6200
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 189 6397 6400 "src/dominator.ml" 189 6397 6409
+type(
+  (H.key -> unit) -> H.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/dominator.ml" 190 6410 6420 "src/dominator.ml" 190 6410 6421
+type(
+  H.key
+)
+ident(
+  def v "src/dominator.ml" 191 6425 6433 "src/dominator.ml" 195 6544 6564
+)
+"src/dominator.ml" 191 6425 6437 "src/dominator.ml" 191 6425 6438
+type(
+  H.key
+)
+"src/dominator.ml" 191 6425 6441 "src/dominator.ml" 191 6425 6466
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref ancestor_with_lowest_semi "src/dominator.ml" 144 5075 5087 "src/dominator.ml" 144 5075 5112
+)
+"src/dominator.ml" 191 6425 6467 "src/dominator.ml" 191 6425 6468
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 190 6410 6420 "src/dominator.ml" 190 6410 6421
+)
+"src/dominator.ml" 191 6425 6441 "src/dominator.ml" 191 6425 6468
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 192 6472 6478 "src/dominator.ml" 192 6472 6482
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref semi "src/dominator.ml" 129 4763 4771 "src/dominator.ml" 129 4763 4775
+)
+"src/dominator.ml" 192 6472 6483 "src/dominator.ml" 192 6472 6484
+type(
+  H.key
+)
+ident(
+  int_ref y "src/dominator.ml" 191 6425 6437 "src/dominator.ml" 191 6425 6438
+)
+"src/dominator.ml" 192 6472 6478 "src/dominator.ml" 192 6472 6484
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 192 6472 6485 "src/dominator.ml" 192 6472 6486
+type(
+  H.key -> H.key -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/dominator.ml" 192 6472 6487 "src/dominator.ml" 192 6472 6491
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref semi "src/dominator.ml" 129 4763 4771 "src/dominator.ml" 129 4763 4775
+)
+"src/dominator.ml" 192 6472 6492 "src/dominator.ml" 192 6472 6493
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 190 6410 6420 "src/dominator.ml" 190 6410 6421
+)
+"src/dominator.ml" 192 6472 6487 "src/dominator.ml" 192 6472 6493
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 192 6472 6478 "src/dominator.ml" 192 6472 6493
+type(
+  bool
+)
+"src/dominator.ml" 193 6494 6502 "src/dominator.ml" 193 6494 6507
+type(
+  H.key H.t -> H.key -> H.key -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 193 6494 6508 "src/dominator.ml" 193 6494 6512
+type(
+  H.key H.t
+)
+ident(
+  int_ref idom "src/dominator.ml" 124 4548 4556 "src/dominator.ml" 124 4548 4560
+)
+"src/dominator.ml" 193 6494 6513 "src/dominator.ml" 193 6494 6514
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 190 6410 6420 "src/dominator.ml" 190 6410 6421
+)
+"src/dominator.ml" 193 6494 6515 "src/dominator.ml" 193 6494 6516
+type(
+  H.key
+)
+ident(
+  int_ref p "src/dominator.ml" 181 6090 6095 "src/dominator.ml" 181 6090 6096
+)
+"src/dominator.ml" 193 6494 6502 "src/dominator.ml" 193 6494 6516
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 194 6517 6525 "src/dominator.ml" 194 6517 6530
+type(
+  H.key H.t -> H.key -> H.key -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 194 6517 6531 "src/dominator.ml" 194 6517 6538
+type(
+  H.key H.t
+)
+ident(
+  int_ref samedom "src/dominator.ml" 123 4482 4490 "src/dominator.ml" 123 4482 4497
+)
+"src/dominator.ml" 194 6517 6539 "src/dominator.ml" 194 6517 6540
+type(
+  H.key
+)
+ident(
+  int_ref v "src/dominator.ml" 190 6410 6420 "src/dominator.ml" 190 6410 6421
+)
+"src/dominator.ml" 194 6517 6541 "src/dominator.ml" 194 6517 6542
+type(
+  H.key
+)
+ident(
+  int_ref y "src/dominator.ml" 191 6425 6437 "src/dominator.ml" 191 6425 6438
+)
+"src/dominator.ml" 194 6517 6525 "src/dominator.ml" 194 6517 6542
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 192 6472 6475 "src/dominator.ml" 194 6517 6542
+type(
+  unit
+)
+"src/dominator.ml" 195 6544 6547 "src/dominator.ml" 195 6544 6555
+type(
+  H.key H.t -> H.key -> unit
+)
+ident(
+  ext_ref H.remove
+)
+"src/dominator.ml" 195 6544 6556 "src/dominator.ml" 195 6544 6562
+type(
+  H.key H.t
+)
+ident(
+  int_ref bucket "src/dominator.ml" 117 4166 4174 "src/dominator.ml" 117 4166 4180
+)
+"src/dominator.ml" 195 6544 6563 "src/dominator.ml" 195 6544 6564
+type(
+  H.key
+)
+ident(
+  int_ref p "src/dominator.ml" 181 6090 6095 "src/dominator.ml" 181 6090 6096
+)
+"src/dominator.ml" 195 6544 6547 "src/dominator.ml" 195 6544 6564
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dominator.ml" 192 6472 6475 "src/dominator.ml" 195 6544 6564
+type(
+  unit
+)
+"src/dominator.ml" 191 6425 6433 "src/dominator.ml" 195 6544 6564
+type(
+  unit
+)
+"src/dominator.ml" 190 6410 6415 "src/dominator.ml" 196 6610 6616
+type(
+  H.key -> unit
+)
+"src/dominator.ml" 197 6617 6623 "src/dominator.ml" 197 6617 6633
+type(
+  H.key H.t -> H.key -> H.key list
+)
+ident(
+  ext_ref H.find_all
+)
+"src/dominator.ml" 197 6617 6634 "src/dominator.ml" 197 6617 6640
+type(
+  H.key H.t
+)
+ident(
+  int_ref bucket "src/dominator.ml" 117 4166 4174 "src/dominator.ml" 117 4166 4180
+)
+"src/dominator.ml" 197 6617 6641 "src/dominator.ml" 197 6617 6642
+type(
+  H.key
+)
+ident(
+  int_ref p "src/dominator.ml" 181 6090 6095 "src/dominator.ml" 181 6090 6096
+)
+"src/dominator.ml" 197 6617 6622 "src/dominator.ml" 197 6617 6643
+call(
+  stack
+)
+type(
+  H.key list
+)
+"src/dominator.ml" 189 6397 6400 "src/dominator.ml" 197 6617 6643
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 185 6189 6192 "src/dominator.ml" 197 6617 6643
+type(
+  unit
+)
+"src/dominator.ml" 184 6167 6170 "src/dominator.ml" 197 6617 6643
+type(
+  unit
+)
+"src/dominator.ml" 183 6146 6149 "src/dominator.ml" 197 6617 6643
+type(
+  unit
+)
+"src/dominator.ml" 182 6118 6119 "src/dominator.ml" 197 6617 6643
+type(
+  unit
+)
+"src/dominator.ml" 181 6090 6091 "src/dominator.ml" 197 6617 6643
+type(
+  unit
+)
+"src/dominator.ml" 180 6067 6068 "src/dominator.ml" 197 6617 6643
+type(
+  unit
+)
+"src/dominator.ml" 179 6051 6052 "src/dominator.ml" 197 6617 6643
+type(
+  unit
+)
+"src/dominator.ml" 178 5989 5995 "src/dominator.ml" 198 6644 6654
+type(
+  unit
+)
+"src/dominator.ml" 200 6713 6727 "src/dominator.ml" 200 6713 6728
+type(
+  int
+)
+"src/dominator.ml" 200 6713 6732 "src/dominator.ml" 200 6713 6737
+type(
+  int
+)
+ident(
+  int_ref lastn "src/dominator.ml" 177 5962 5970 "src/dominator.ml" 177 5962 5975
+)
+"src/dominator.ml" 201 6741 6746 "src/dominator.ml" 201 6741 6747
+type(
+  H.key
+)
+ident(
+  def n "src/dominator.ml" 202 6764 6767 "src/dominator.ml" 204 6822 6845
+)
+"src/dominator.ml" 201 6741 6750 "src/dominator.ml" 201 6741 6756
+type(
+  H.key array
+)
+ident(
+  int_ref vertex "src/dominator.ml" 125 4600 4608 "src/dominator.ml" 125 4600 4614
+)
+"src/dominator.ml" 201 6741 6758 "src/dominator.ml" 201 6741 6759
+type(
+  int
+)
+"src/dominator.ml" 201 6741 6750 "src/dominator.ml" 201 6741 6760
+type(
+  H.key
+)
+"src/dominator.ml" 203 6771 6776 "src/dominator.ml" 203 6771 6781
+type(
+  H.key H.t -> H.key -> H.key -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 203 6771 6782 "src/dominator.ml" 203 6771 6786
+type(
+  H.key H.t
+)
+ident(
+  int_ref idom "src/dominator.ml" 124 4548 4556 "src/dominator.ml" 124 4548 4560
+)
+"src/dominator.ml" 203 6771 6787 "src/dominator.ml" 203 6771 6788
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 201 6741 6746 "src/dominator.ml" 201 6741 6747
+)
+"src/dominator.ml" 203 6771 6790 "src/dominator.ml" 203 6771 6796
+type(
+  H.key H.t -> H.key -> H.key
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 203 6771 6797 "src/dominator.ml" 203 6771 6801
+type(
+  H.key H.t
+)
+ident(
+  int_ref idom "src/dominator.ml" 124 4548 4556 "src/dominator.ml" 124 4548 4560
+)
+"src/dominator.ml" 203 6771 6803 "src/dominator.ml" 203 6771 6809
+type(
+  H.key H.t -> H.key -> H.key
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 203 6771 6810 "src/dominator.ml" 203 6771 6817
+type(
+  H.key H.t
+)
+ident(
+  int_ref samedom "src/dominator.ml" 123 4482 4490 "src/dominator.ml" 123 4482 4497
+)
+"src/dominator.ml" 203 6771 6818 "src/dominator.ml" 203 6771 6819
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 201 6741 6746 "src/dominator.ml" 201 6741 6747
+)
+"src/dominator.ml" 203 6771 6802 "src/dominator.ml" 203 6771 6820
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 203 6771 6789 "src/dominator.ml" 203 6771 6821
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 203 6771 6776 "src/dominator.ml" 203 6771 6821
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 204 6822 6830 "src/dominator.ml" 204 6822 6839
+type(
+  exn
+)
+"src/dominator.ml" 204 6822 6843 "src/dominator.ml" 204 6822 6845
+type(
+  unit
+)
+"src/dominator.ml" 202 6764 6767 "src/dominator.ml" 204 6822 6845
+type(
+  unit
+)
+"src/dominator.ml" 201 6741 6742 "src/dominator.ml" 204 6822 6845
+type(
+  unit
+)
+"src/dominator.ml" 200 6713 6719 "src/dominator.ml" 205 6846 6856
+type(
+  unit
+)
+"src/dominator.ml" 206 6858 6864 "src/dominator.ml" 206 6858 6870
+type(
+  H.key H.t -> H.key -> H.key
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 206 6858 6871 "src/dominator.ml" 206 6858 6875
+type(
+  H.key H.t
+)
+ident(
+  int_ref idom "src/dominator.ml" 124 4548 4556 "src/dominator.ml" 124 4548 4560
+)
+"src/dominator.ml" 206 6858 6864 "src/dominator.ml" 206 6858 6875
+call(
+  tail
+)
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 200 6713 6719 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 178 5989 5995 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 177 5962 5966 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 176 5934 5938 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 159 5497 5501 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 155 5415 5419 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 144 5075 5079 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 131 4799 4803 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 128 4687 4691 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 117 4166 4170 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 116 4132 4136 "src/dominator.ml" 206 6858 6875
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 213 7047 7053 "src/dominator.ml" 213 7047 7070
+type(
+  ('b -> S.t) -> S.elt -> 'b -> bool
+)
+ident(
+  def dominators_to_dom "src/dominator.ml" 219 7294 7296 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 213 7047 7071 "src/dominator.ml" 213 7047 7081
+type(
+  'b -> S.t
+)
+ident(
+  def dominators "src/dominator.ml" 213 7047 7082 "src/dominator.ml" 214 7088 7114
+)
+"src/dominator.ml" 213 7047 7082 "src/dominator.ml" 213 7047 7083
+type(
+  S.elt
+)
+ident(
+  def x "src/dominator.ml" 213 7047 7084 "src/dominator.ml" 214 7088 7114
+)
+"src/dominator.ml" 213 7047 7084 "src/dominator.ml" 213 7047 7085
+type(
+  'b
+)
+ident(
+  def y "src/dominator.ml" 214 7088 7092 "src/dominator.ml" 214 7088 7114
+)
+"src/dominator.ml" 214 7088 7092 "src/dominator.ml" 214 7088 7097
+type(
+  S.elt -> S.t -> bool
+)
+ident(
+  ext_ref S.mem
+)
+"src/dominator.ml" 214 7088 7098 "src/dominator.ml" 214 7088 7099
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 213 7047 7082 "src/dominator.ml" 213 7047 7083
+)
+"src/dominator.ml" 214 7088 7101 "src/dominator.ml" 214 7088 7111
+type(
+  'b -> S.t
+)
+ident(
+  int_ref dominators "src/dominator.ml" 213 7047 7071 "src/dominator.ml" 213 7047 7081
+)
+"src/dominator.ml" 214 7088 7112 "src/dominator.ml" 214 7088 7113
+type(
+  'b
+)
+ident(
+  int_ref y "src/dominator.ml" 213 7047 7084 "src/dominator.ml" 213 7047 7085
+)
+"src/dominator.ml" 214 7088 7100 "src/dominator.ml" 214 7088 7114
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/dominator.ml" 214 7088 7092 "src/dominator.ml" 214 7088 7114
+call(
+  tail
+)
+type(
+  bool
+)
+"src/dominator.ml" 219 7294 7300 "src/dominator.ml" 219 7294 7318
+type(
+  (G.V.t -> S.t) -> S.elt -> G.V.t -> bool
+)
+ident(
+  def dominators_to_sdom "src/dominator.ml" 222 7396 7398 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 219 7294 7319 "src/dominator.ml" 219 7294 7329
+type(
+  G.V.t -> S.t
+)
+ident(
+  def dominators "src/dominator.ml" 219 7294 7330 "src/dominator.ml" 220 7336 7394
+)
+"src/dominator.ml" 219 7294 7330 "src/dominator.ml" 219 7294 7331
+type(
+  S.elt
+)
+ident(
+  def x "src/dominator.ml" 219 7294 7332 "src/dominator.ml" 220 7336 7394
+)
+"src/dominator.ml" 219 7294 7332 "src/dominator.ml" 219 7294 7333
+type(
+  G.V.t
+)
+ident(
+  def y "src/dominator.ml" 220 7336 7340 "src/dominator.ml" 220 7336 7394
+)
+"src/dominator.ml" 220 7336 7340 "src/dominator.ml" 220 7336 7343
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/dominator.ml" 220 7336 7344 "src/dominator.ml" 220 7336 7353
+type(
+  S.elt -> G.V.t -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/dominator.ml" 220 7336 7354 "src/dominator.ml" 220 7336 7355
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 219 7294 7330 "src/dominator.ml" 219 7294 7331
+)
+"src/dominator.ml" 220 7336 7356 "src/dominator.ml" 220 7336 7357
+type(
+  G.V.t
+)
+ident(
+  int_ref y "src/dominator.ml" 219 7294 7332 "src/dominator.ml" 219 7294 7333
+)
+"src/dominator.ml" 220 7336 7343 "src/dominator.ml" 220 7336 7358
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 220 7336 7340 "src/dominator.ml" 220 7336 7358
+type(
+  bool
+)
+"src/dominator.ml" 220 7336 7359 "src/dominator.ml" 220 7336 7361
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/dominator.ml" 220 7336 7362 "src/dominator.ml" 220 7336 7379
+type(
+  (G.V.t -> S.t) -> S.elt -> G.V.t -> bool
+)
+ident(
+  int_ref dominators_to_dom "src/dominator.ml" 213 7047 7053 "src/dominator.ml" 213 7047 7070
+)
+"src/dominator.ml" 220 7336 7380 "src/dominator.ml" 220 7336 7390
+type(
+  G.V.t -> S.t
+)
+ident(
+  int_ref dominators "src/dominator.ml" 219 7294 7319 "src/dominator.ml" 219 7294 7329
+)
+"src/dominator.ml" 220 7336 7391 "src/dominator.ml" 220 7336 7392
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 219 7294 7330 "src/dominator.ml" 219 7294 7331
+)
+"src/dominator.ml" 220 7336 7393 "src/dominator.ml" 220 7336 7394
+type(
+  G.V.t
+)
+ident(
+  int_ref y "src/dominator.ml" 219 7294 7332 "src/dominator.ml" 219 7294 7333
+)
+"src/dominator.ml" 220 7336 7362 "src/dominator.ml" 220 7336 7394
+call(
+  tail
+)
+type(
+  bool
+)
+"src/dominator.ml" 220 7336 7340 "src/dominator.ml" 220 7336 7394
+type(
+  bool
+)
+"src/dominator.ml" 222 7396 7402 "src/dominator.ml" 222 7396 7413
+type(
+  (G.V.t -> G.V.t -> bool) -> G.V.t -> G.V.t -> bool
+)
+ident(
+  def dom_to_sdom "src/dominator.ml" 227 7583 7585 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 222 7396 7414 "src/dominator.ml" 222 7396 7417
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  def dom "src/dominator.ml" 222 7396 7418 "src/dominator.ml" 223 7424 7457
+)
+"src/dominator.ml" 222 7396 7418 "src/dominator.ml" 222 7396 7419
+type(
+  G.V.t
+)
+ident(
+  def x "src/dominator.ml" 222 7396 7420 "src/dominator.ml" 223 7424 7457
+)
+"src/dominator.ml" 222 7396 7420 "src/dominator.ml" 222 7396 7421
+type(
+  G.V.t
+)
+ident(
+  def y "src/dominator.ml" 223 7424 7428 "src/dominator.ml" 223 7424 7457
+)
+"src/dominator.ml" 223 7424 7428 "src/dominator.ml" 223 7424 7431
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/dominator.ml" 223 7424 7432 "src/dominator.ml" 223 7424 7441
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/dominator.ml" 223 7424 7442 "src/dominator.ml" 223 7424 7443
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/dominator.ml" 222 7396 7418 "src/dominator.ml" 222 7396 7419
+)
+"src/dominator.ml" 223 7424 7444 "src/dominator.ml" 223 7424 7445
+type(
+  G.V.t
+)
+ident(
+  int_ref y "src/dominator.ml" 222 7396 7420 "src/dominator.ml" 222 7396 7421
+)
+"src/dominator.ml" 223 7424 7431 "src/dominator.ml" 223 7424 7446
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 223 7424 7428 "src/dominator.ml" 223 7424 7446
+type(
+  bool
+)
+"src/dominator.ml" 223 7424 7447 "src/dominator.ml" 223 7424 7449
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/dominator.ml" 223 7424 7450 "src/dominator.ml" 223 7424 7453
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  int_ref dom "src/dominator.ml" 222 7396 7414 "src/dominator.ml" 222 7396 7417
+)
+"src/dominator.ml" 223 7424 7454 "src/dominator.ml" 223 7424 7455
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/dominator.ml" 222 7396 7418 "src/dominator.ml" 222 7396 7419
+)
+"src/dominator.ml" 223 7424 7456 "src/dominator.ml" 223 7424 7457
+type(
+  G.V.t
+)
+ident(
+  int_ref y "src/dominator.ml" 222 7396 7420 "src/dominator.ml" 222 7396 7421
+)
+"src/dominator.ml" 223 7424 7450 "src/dominator.ml" 223 7424 7457
+call(
+  tail
+)
+type(
+  bool
+)
+"src/dominator.ml" 223 7424 7428 "src/dominator.ml" 223 7424 7457
+type(
+  bool
+)
+"src/dominator.ml" 227 7583 7589 "src/dominator.ml" 227 7583 7614
+type(
+  (S.elt -> S.t) -> S.elt -> S.t
+)
+ident(
+  def dominators_to_sdominators "src/dominator.ml" 235 7860 7862 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 227 7583 7615 "src/dominator.ml" 227 7583 7625
+type(
+  S.elt -> S.t
+)
+ident(
+  def dominators "src/dominator.ml" 227 7583 7626 "src/dominator.ml" 228 7630 7659
+)
+"src/dominator.ml" 227 7583 7626 "src/dominator.ml" 227 7583 7627
+type(
+  S.elt
+)
+ident(
+  def x "src/dominator.ml" 228 7630 7634 "src/dominator.ml" 228 7630 7659
+)
+"src/dominator.ml" 228 7630 7634 "src/dominator.ml" 228 7630 7642
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.remove
+)
+"src/dominator.ml" 228 7630 7643 "src/dominator.ml" 228 7630 7644
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 227 7583 7626 "src/dominator.ml" 227 7583 7627
+)
+"src/dominator.ml" 228 7630 7646 "src/dominator.ml" 228 7630 7656
+type(
+  S.elt -> S.t
+)
+ident(
+  int_ref dominators "src/dominator.ml" 227 7583 7615 "src/dominator.ml" 227 7583 7625
+)
+"src/dominator.ml" 228 7630 7657 "src/dominator.ml" 228 7630 7658
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 227 7583 7626 "src/dominator.ml" 227 7583 7627
+)
+"src/dominator.ml" 228 7630 7645 "src/dominator.ml" 228 7630 7659
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/dominator.ml" 228 7630 7634 "src/dominator.ml" 228 7630 7659
+call(
+  tail
+)
+type(
+  S.t
+)
+"src/dominator.ml" 235 7860 7866 "src/dominator.ml" 235 7860 7885
+type(
+  (S.elt -> S.t) -> S.elt -> S.elt -> bool
+)
+ident(
+  def dominators_to_idoms "src/dominator.ml" 250 8434 8436 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 235 7860 7886 "src/dominator.ml" 235 7860 7896
+type(
+  S.elt -> S.t
+)
+ident(
+  def dominators "src/dominator.ml" 236 7899 7903 "src/dominator.ml" 241 8097 8104
+)
+"src/dominator.ml" 236 7899 7907 "src/dominator.ml" 236 7899 7911
+type(
+  S.elt -> S.elt -> bool
+)
+"src/dominator.ml" 236 7899 7914 "src/dominator.ml" 236 7899 7932
+type(
+  (S.elt -> S.t) -> S.elt -> S.elt -> bool
+)
+ident(
+  int_ref dominators_to_sdom "src/dominator.ml" 219 7294 7300 "src/dominator.ml" 219 7294 7318
+)
+"src/dominator.ml" 236 7899 7933 "src/dominator.ml" 236 7899 7943
+type(
+  S.elt -> S.t
+)
+ident(
+  int_ref dominators "src/dominator.ml" 235 7860 7886 "src/dominator.ml" 235 7860 7896
+)
+"src/dominator.ml" 236 7899 7914 "src/dominator.ml" 236 7899 7943
+call(
+  stack
+)
+type(
+  S.elt -> S.elt -> bool
+)
+"src/dominator.ml" 237 7947 7958 "src/dominator.ml" 237 7947 7959
+type(
+  S.elt
+)
+ident(
+  def x "src/dominator.ml" 237 7947 7960 "src/dominator.ml" 240 8035 8096
+)
+"src/dominator.ml" 237 7947 7960 "src/dominator.ml" 237 7947 7961
+type(
+  S.elt
+)
+ident(
+  def y "src/dominator.ml" 238 7965 7967 "src/dominator.ml" 240 8035 8096
+)
+"src/dominator.ml" 238 7965 7967 "src/dominator.ml" 238 7965 7971
+type(
+  S.elt -> S.elt -> bool
+)
+ident(
+  int_ref sdom "src/dominator.ml" 236 7899 7907 "src/dominator.ml" 236 7899 7911
+)
+"src/dominator.ml" 238 7965 7972 "src/dominator.ml" 238 7965 7973
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 237 7947 7958 "src/dominator.ml" 237 7947 7959
+)
+"src/dominator.ml" 238 7965 7974 "src/dominator.ml" 238 7965 7975
+type(
+  S.elt
+)
+ident(
+  int_ref y "src/dominator.ml" 237 7947 7960 "src/dominator.ml" 237 7947 7961
+)
+"src/dominator.ml" 238 7965 7967 "src/dominator.ml" 238 7965 7975
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 239 7976 7978 "src/dominator.ml" 239 7976 7980
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/dominator.ml" 239 7976 7985 "src/dominator.ml" 239 7976 7990
+type(
+  S.t
+)
+"src/dominator.ml" 239 7976 7993 "src/dominator.ml" 239 7976 8018
+type(
+  (S.elt -> S.t) -> S.elt -> S.t
+)
+ident(
+  int_ref dominators_to_sdominators "src/dominator.ml" 227 7583 7589 "src/dominator.ml" 227 7583 7614
+)
+"src/dominator.ml" 239 7976 8019 "src/dominator.ml" 239 7976 8029
+type(
+  S.elt -> S.t
+)
+ident(
+  int_ref dominators "src/dominator.ml" 235 7860 7886 "src/dominator.ml" 235 7860 7896
+)
+"src/dominator.ml" 239 7976 8030 "src/dominator.ml" 239 7976 8031
+type(
+  S.elt
+)
+ident(
+  int_ref y "src/dominator.ml" 237 7947 7960 "src/dominator.ml" 237 7947 7961
+)
+"src/dominator.ml" 239 7976 7993 "src/dominator.ml" 239 7976 8031
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/dominator.ml" 240 8035 8039 "src/dominator.ml" 240 8035 8048
+type(
+  (S.elt -> bool) -> S.t -> bool
+)
+ident(
+  ext_ref S.for_all
+)
+"src/dominator.ml" 240 8035 8054 "src/dominator.ml" 240 8035 8055
+type(
+  S.elt
+)
+ident(
+  def w "src/dominator.ml" 240 8035 8059 "src/dominator.ml" 240 8035 8089
+)
+"src/dominator.ml" 240 8035 8059 "src/dominator.ml" 240 8035 8068
+type(
+  S.elt -> S.elt -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/dominator.ml" 240 8035 8069 "src/dominator.ml" 240 8035 8070
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 237 7947 7958 "src/dominator.ml" 237 7947 7959
+)
+"src/dominator.ml" 240 8035 8071 "src/dominator.ml" 240 8035 8072
+type(
+  S.elt
+)
+ident(
+  int_ref w "src/dominator.ml" 240 8035 8054 "src/dominator.ml" 240 8035 8055
+)
+"src/dominator.ml" 240 8035 8059 "src/dominator.ml" 240 8035 8072
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 240 8035 8073 "src/dominator.ml" 240 8035 8075
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/dominator.ml" 240 8035 8076 "src/dominator.ml" 240 8035 8079
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/dominator.ml" 240 8035 8080 "src/dominator.ml" 240 8035 8084
+type(
+  S.elt -> S.elt -> bool
+)
+ident(
+  int_ref sdom "src/dominator.ml" 236 7899 7907 "src/dominator.ml" 236 7899 7911
+)
+"src/dominator.ml" 240 8035 8085 "src/dominator.ml" 240 8035 8086
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 237 7947 7958 "src/dominator.ml" 237 7947 7959
+)
+"src/dominator.ml" 240 8035 8087 "src/dominator.ml" 240 8035 8088
+type(
+  S.elt
+)
+ident(
+  int_ref w "src/dominator.ml" 240 8035 8054 "src/dominator.ml" 240 8035 8055
+)
+"src/dominator.ml" 240 8035 8079 "src/dominator.ml" 240 8035 8089
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 240 8035 8076 "src/dominator.ml" 240 8035 8089
+type(
+  bool
+)
+"src/dominator.ml" 240 8035 8059 "src/dominator.ml" 240 8035 8089
+type(
+  bool
+)
+"src/dominator.ml" 240 8035 8049 "src/dominator.ml" 240 8035 8090
+type(
+  S.elt -> bool
+)
+"src/dominator.ml" 240 8035 8091 "src/dominator.ml" 240 8035 8096
+type(
+  S.t
+)
+ident(
+  int_ref sdoms "src/dominator.ml" 239 7976 7985 "src/dominator.ml" 239 7976 7990
+)
+"src/dominator.ml" 240 8035 8039 "src/dominator.ml" 240 8035 8096
+call(
+  tail
+)
+type(
+  bool
+)
+"src/dominator.ml" 239 7976 7981 "src/dominator.ml" 240 8035 8096
+type(
+  bool
+)
+"src/dominator.ml" 238 7965 7967 "src/dominator.ml" 240 8035 8096
+type(
+  bool
+)
+"src/dominator.ml" 237 7947 7953 "src/dominator.ml" 241 8097 8104
+type(
+  S.elt -> S.elt -> bool
+)
+"src/dominator.ml" 236 7899 7903 "src/dominator.ml" 241 8097 8104
+type(
+  S.elt -> S.elt -> bool
+)
+"src/dominator.ml" 250 8434 8440 "src/dominator.ml" 250 8434 8462
+type(
+  G.t -> ?pred:(G.t -> S.elt -> S.elt list) -> (S.elt -> S.t) -> H.key -> S.t
+)
+ident(
+  def dominators_to_dom_tree "src/dominator.ml" 276 9165 9167 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 250 8434 8463 "src/dominator.ml" 250 8434 8466
+type(
+  G.t
+)
+ident(
+  def cfg "src/dominator.ml" 250 8434 8467 "src/dominator.ml" 272 8976 9021
+)
+"src/dominator.ml" 250 8434 8469 "src/dominator.ml" 250 8434 8473
+type(
+  G.t -> S.elt -> S.elt list
+)
+"src/dominator.ml" 250 8434 8474 "src/dominator.ml" 250 8434 8480
+type(
+  G.t -> S.elt -> S.elt list
+)
+ident(
+  ext_ref G.pred
+)
+type(
+  G.t -> S.elt -> S.elt list
+)
+ident(
+  int_ref *sth* "src/dominator.ml" 250 8434 8474 "src/dominator.ml" 250 8434 8480
+)
+type(
+  (G.t -> S.elt -> S.elt list) option
+)
+type(
+  (G.t -> S.elt -> S.elt list) option
+)
+type(
+  G.t -> S.elt -> S.elt list
+)
+ident(
+  def *sth* "src/dominator.ml" 250 8434 8474 "src/dominator.ml" 250 8434 8480
+)
+"src/dominator.ml" 250 8434 8482 "src/dominator.ml" 250 8434 8492
+type(
+  S.elt -> S.t
+)
+ident(
+  def dominators "src/dominator.ml" 251 8495 8499 "src/dominator.ml" 272 8976 9021
+)
+"src/dominator.ml" 251 8495 8503 "src/dominator.ml" 251 8495 8508
+type(
+  S.elt -> S.elt -> bool
+)
+"src/dominator.ml" 251 8495 8511 "src/dominator.ml" 251 8495 8530
+type(
+  (S.elt -> S.t) -> S.elt -> S.elt -> bool
+)
+ident(
+  int_ref dominators_to_idoms "src/dominator.ml" 235 7860 7866 "src/dominator.ml" 235 7860 7885
+)
+"src/dominator.ml" 251 8495 8531 "src/dominator.ml" 251 8495 8541
+type(
+  S.elt -> S.t
+)
+ident(
+  int_ref dominators "src/dominator.ml" 250 8434 8482 "src/dominator.ml" 250 8434 8492
+)
+"src/dominator.ml" 251 8495 8511 "src/dominator.ml" 251 8495 8541
+call(
+  stack
+)
+type(
+  S.elt -> S.elt -> bool
+)
+"src/dominator.ml" 252 8545 8553 "src/dominator.ml" 252 8545 8557
+type(
+  S.elt H.t
+)
+"src/dominator.ml" 252 8545 8560 "src/dominator.ml" 252 8545 8568
+type(
+  int -> S.elt H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 252 8545 8569 "src/dominator.ml" 252 8545 8573
+type(
+  int
+)
+"src/dominator.ml" 252 8545 8560 "src/dominator.ml" 252 8545 8573
+call(
+  stack
+)
+type(
+  S.elt H.t
+)
+"src/dominator.ml" 253 8577 8585 "src/dominator.ml" 253 8577 8587
+type(
+  unit
+)
+"src/dominator.ml" 254 8590 8596 "src/dominator.ml" 254 8590 8609
+type(
+  (S.elt -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref G.iter_vertex
+)
+"src/dominator.ml" 255 8610 8616 "src/dominator.ml" 255 8610 8617
+type(
+  S.elt
+)
+ident(
+  def y "src/dominator.ml" 256 8621 8625 "src/dominator.ml" 267 8900 8909
+)
+"src/dominator.ml" 256 8621 8631 "src/dominator.ml" 256 8621 8635
+type(
+  G.t -> S.elt -> S.elt list
+)
+ident(
+  int_ref pred "src/dominator.ml" 250 8434 8469 "src/dominator.ml" 250 8434 8473
+)
+"src/dominator.ml" 256 8621 8636 "src/dominator.ml" 256 8621 8639
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 250 8434 8463 "src/dominator.ml" 250 8434 8466
+)
+"src/dominator.ml" 256 8621 8640 "src/dominator.ml" 256 8621 8641
+type(
+  S.elt
+)
+ident(
+  int_ref y "src/dominator.ml" 255 8610 8616 "src/dominator.ml" 255 8610 8617
+)
+"src/dominator.ml" 256 8621 8631 "src/dominator.ml" 256 8621 8641
+call(
+  stack
+)
+type(
+  S.elt list
+)
+"src/dominator.ml" 257 8647 8656 "src/dominator.ml" 257 8647 8657
+type(
+  S.elt
+)
+ident(
+  def x "src/dominator.ml" 257 8647 8662 "src/dominator.ml" 262 8796 8805
+)
+"src/dominator.ml" 257 8647 8655 "src/dominator.ml" 257 8647 8658
+type(
+  S.elt list
+)
+"src/dominator.ml" 260 8731 8737 "src/dominator.ml" 260 8731 8747
+type(
+  S.t -> bool
+)
+ident(
+  ext_ref S.is_empty
+)
+"src/dominator.ml" 260 8731 8749 "src/dominator.ml" 260 8731 8759
+type(
+  S.elt -> S.t
+)
+ident(
+  int_ref dominators "src/dominator.ml" 250 8434 8482 "src/dominator.ml" 250 8434 8492
+)
+"src/dominator.ml" 260 8731 8760 "src/dominator.ml" 260 8731 8761
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 257 8647 8656 "src/dominator.ml" 257 8647 8657
+)
+"src/dominator.ml" 260 8731 8748 "src/dominator.ml" 260 8731 8762
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/dominator.ml" 260 8731 8737 "src/dominator.ml" 260 8731 8762
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 260 8731 8768 "src/dominator.ml" 260 8731 8770
+type(
+  unit
+)
+"src/dominator.ml" 261 8776 8781 "src/dominator.ml" 261 8776 8786
+type(
+  S.elt H.t -> H.key -> S.elt -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 261 8776 8787 "src/dominator.ml" 261 8776 8791
+type(
+  S.elt H.t
+)
+ident(
+  int_ref tree "src/dominator.ml" 252 8545 8553 "src/dominator.ml" 252 8545 8557
+)
+"src/dominator.ml" 261 8776 8792 "src/dominator.ml" 261 8776 8793
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 257 8647 8656 "src/dominator.ml" 257 8647 8657
+)
+"src/dominator.ml" 261 8776 8794 "src/dominator.ml" 261 8776 8795
+type(
+  S.elt
+)
+ident(
+  int_ref y "src/dominator.ml" 255 8610 8616 "src/dominator.ml" 255 8610 8617
+)
+"src/dominator.ml" 261 8776 8781 "src/dominator.ml" 261 8776 8795
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dominator.ml" 257 8647 8662 "src/dominator.ml" 262 8796 8805
+type(
+  unit
+)
+"src/dominator.ml" 263 8806 8814 "src/dominator.ml" 263 8806 8815
+type(
+  S.elt list
+)
+"src/dominator.ml" 264 8821 8824 "src/dominator.ml" 264 8821 8830
+type(
+  (S.elt -> unit) -> S.t -> unit
+)
+ident(
+  ext_ref S.iter
+)
+"src/dominator.ml" 265 8831 8841 "src/dominator.ml" 265 8831 8842
+type(
+  S.elt
+)
+ident(
+  def x "src/dominator.ml" 265 8831 8846 "src/dominator.ml" 265 8831 8878
+)
+"src/dominator.ml" 265 8831 8849 "src/dominator.ml" 265 8831 8854
+type(
+  S.elt -> S.elt -> bool
+)
+ident(
+  int_ref idoms "src/dominator.ml" 251 8495 8503 "src/dominator.ml" 251 8495 8508
+)
+"src/dominator.ml" 265 8831 8855 "src/dominator.ml" 265 8831 8856
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 265 8831 8841 "src/dominator.ml" 265 8831 8842
+)
+"src/dominator.ml" 265 8831 8857 "src/dominator.ml" 265 8831 8858
+type(
+  S.elt
+)
+ident(
+  int_ref y "src/dominator.ml" 255 8610 8616 "src/dominator.ml" 255 8610 8617
+)
+"src/dominator.ml" 265 8831 8849 "src/dominator.ml" 265 8831 8858
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 265 8831 8864 "src/dominator.ml" 265 8831 8869
+type(
+  S.elt H.t -> H.key -> S.elt -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 265 8831 8870 "src/dominator.ml" 265 8831 8874
+type(
+  S.elt H.t
+)
+ident(
+  int_ref tree "src/dominator.ml" 252 8545 8553 "src/dominator.ml" 252 8545 8557
+)
+"src/dominator.ml" 265 8831 8875 "src/dominator.ml" 265 8831 8876
+type(
+  S.elt
+)
+ident(
+  int_ref x "src/dominator.ml" 265 8831 8841 "src/dominator.ml" 265 8831 8842
+)
+"src/dominator.ml" 265 8831 8877 "src/dominator.ml" 265 8831 8878
+type(
+  S.elt
+)
+ident(
+  int_ref y "src/dominator.ml" 255 8610 8616 "src/dominator.ml" 255 8610 8617
+)
+"src/dominator.ml" 265 8831 8864 "src/dominator.ml" 265 8831 8878
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dominator.ml" 265 8831 8846 "src/dominator.ml" 265 8831 8878
+type(
+  unit
+)
+"src/dominator.ml" 265 8831 8836 "src/dominator.ml" 265 8831 8879
+type(
+  S.elt -> unit
+)
+"src/dominator.ml" 266 8880 8886 "src/dominator.ml" 266 8880 8896
+type(
+  S.elt -> S.t
+)
+ident(
+  int_ref dominators "src/dominator.ml" 250 8434 8482 "src/dominator.ml" 250 8434 8492
+)
+"src/dominator.ml" 266 8880 8897 "src/dominator.ml" 266 8880 8898
+type(
+  S.elt
+)
+ident(
+  int_ref y "src/dominator.ml" 255 8610 8616 "src/dominator.ml" 255 8610 8617
+)
+"src/dominator.ml" 266 8880 8885 "src/dominator.ml" 266 8880 8899
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/dominator.ml" 263 8806 8819 "src/dominator.ml" 267 8900 8909
+call(
+  tail
+)
+type(
+  unit
+)
+"src/dominator.ml" 256 8621 8625 "src/dominator.ml" 267 8900 8909
+type(
+  unit
+)
+"src/dominator.ml" 255 8610 8611 "src/dominator.ml" 268 8910 8912
+type(
+  S.elt -> unit
+)
+"src/dominator.ml" 269 8913 8914 "src/dominator.ml" 269 8913 8917
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 250 8434 8463 "src/dominator.ml" 250 8434 8466
+)
+"src/dominator.ml" 254 8590 8596 "src/dominator.ml" 269 8913 8917
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 272 8976 8986 "src/dominator.ml" 272 8976 8987
+type(
+  H.key
+)
+ident(
+  def x "src/dominator.ml" 272 8976 8991 "src/dominator.ml" 272 8976 9021
+)
+"src/dominator.ml" 272 8976 8991 "src/dominator.ml" 272 8976 9002
+type(
+  S.elt list -> S.t
+)
+ident(
+  int_ref set_of_list "src/dominator.ml" 85 3003 3009 "src/dominator.ml" 85 3003 3020
+)
+"src/dominator.ml" 272 8976 9003 "src/dominator.ml" 272 8976 9013
+type(
+  S.elt H.t -> H.key -> S.elt list
+)
+ident(
+  ext_ref H.find_all
+)
+"src/dominator.ml" 272 8976 9014 "src/dominator.ml" 272 8976 9018
+type(
+  S.elt H.t
+)
+ident(
+  int_ref tree "src/dominator.ml" 252 8545 8553 "src/dominator.ml" 252 8545 8557
+)
+"src/dominator.ml" 272 8976 9019 "src/dominator.ml" 272 8976 9020
+type(
+  H.key
+)
+ident(
+  int_ref x "src/dominator.ml" 272 8976 8986 "src/dominator.ml" 272 8976 8987
+)
+"src/dominator.ml" 272 8976 9002 "src/dominator.ml" 272 8976 9021
+call(
+  stack
+)
+type(
+  S.elt list
+)
+"src/dominator.ml" 272 8976 8991 "src/dominator.ml" 272 8976 9021
+call(
+  tail
+)
+type(
+  S.t
+)
+"src/dominator.ml" 272 8976 8982 "src/dominator.ml" 272 8976 9021
+type(
+  H.key -> S.t
+)
+"src/dominator.ml" 253 8577 8581 "src/dominator.ml" 272 8976 9021
+type(
+  H.key -> S.t
+)
+"src/dominator.ml" 252 8545 8549 "src/dominator.ml" 272 8976 9021
+type(
+  H.key -> S.t
+)
+"src/dominator.ml" 251 8495 8499 "src/dominator.ml" 272 8976 9021
+type(
+  H.key -> S.t
+)
+"src/dominator.ml" 276 9165 9171 "src/dominator.ml" 276 9165 9187
+type(
+  G.t -> (G.V.t -> H.key) -> H.key -> G.V.t list
+)
+ident(
+  def idom_to_dom_tree "src/dominator.ml" 289 9412 9414 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 276 9165 9188 "src/dominator.ml" 276 9165 9191
+type(
+  G.t
+)
+ident(
+  def cfg "src/dominator.ml" 276 9165 9192 "src/dominator.ml" 286 9388 9409
+)
+"src/dominator.ml" 276 9165 9192 "src/dominator.ml" 276 9165 9196
+type(
+  G.V.t -> H.key
+)
+ident(
+  def idom "src/dominator.ml" 277 9199 9203 "src/dominator.ml" 286 9388 9409
+)
+"src/dominator.ml" 277 9199 9207 "src/dominator.ml" 277 9199 9211
+type(
+  G.V.t H.t
+)
+"src/dominator.ml" 277 9199 9214 "src/dominator.ml" 277 9199 9222
+type(
+  int -> G.V.t H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 277 9199 9224 "src/dominator.ml" 277 9199 9235
+type(
+  G.t -> int
+)
+ident(
+  ext_ref G.nb_vertex
+)
+"src/dominator.ml" 277 9199 9236 "src/dominator.ml" 277 9199 9239
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 276 9165 9188 "src/dominator.ml" 276 9165 9191
+)
+"src/dominator.ml" 277 9199 9223 "src/dominator.ml" 277 9199 9240
+call(
+  stack
+)
+type(
+  int
+)
+"src/dominator.ml" 277 9199 9214 "src/dominator.ml" 277 9199 9240
+call(
+  stack
+)
+type(
+  G.V.t H.t
+)
+"src/dominator.ml" 278 9244 9252 "src/dominator.ml" 278 9244 9254
+type(
+  unit
+)
+"src/dominator.ml" 279 9257 9263 "src/dominator.ml" 279 9257 9276
+type(
+  (G.V.t -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref G.iter_vertex
+)
+"src/dominator.ml" 280 9277 9283 "src/dominator.ml" 280 9277 9284
+type(
+  G.V.t
+)
+ident(
+  def v "src/dominator.ml" 281 9288 9292 "src/dominator.ml" 282 9318 9342
+)
+"src/dominator.ml" 281 9288 9296 "src/dominator.ml" 281 9288 9301
+type(
+  G.V.t H.t -> H.key -> G.V.t -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 281 9288 9302 "src/dominator.ml" 281 9288 9306
+type(
+  G.V.t H.t
+)
+ident(
+  int_ref tree "src/dominator.ml" 277 9199 9207 "src/dominator.ml" 277 9199 9211
+)
+"src/dominator.ml" 281 9288 9308 "src/dominator.ml" 281 9288 9312
+type(
+  G.V.t -> H.key
+)
+ident(
+  int_ref idom "src/dominator.ml" 276 9165 9192 "src/dominator.ml" 276 9165 9196
+)
+"src/dominator.ml" 281 9288 9313 "src/dominator.ml" 281 9288 9314
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/dominator.ml" 280 9277 9283 "src/dominator.ml" 280 9277 9284
+)
+"src/dominator.ml" 281 9288 9307 "src/dominator.ml" 281 9288 9315
+call(
+  stack
+)
+type(
+  H.key
+)
+"src/dominator.ml" 281 9288 9316 "src/dominator.ml" 281 9288 9317
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/dominator.ml" 280 9277 9283 "src/dominator.ml" 280 9277 9284
+)
+"src/dominator.ml" 281 9288 9296 "src/dominator.ml" 281 9288 9317
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 282 9318 9327 "src/dominator.ml" 282 9318 9336
+type(
+  exn
+)
+"src/dominator.ml" 282 9318 9340 "src/dominator.ml" 282 9318 9342
+type(
+  unit
+)
+"src/dominator.ml" 281 9288 9292 "src/dominator.ml" 282 9318 9342
+type(
+  unit
+)
+"src/dominator.ml" 280 9277 9278 "src/dominator.ml" 283 9373 9375
+type(
+  G.V.t -> unit
+)
+"src/dominator.ml" 284 9376 9377 "src/dominator.ml" 284 9376 9380
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 276 9165 9188 "src/dominator.ml" 276 9165 9191
+)
+"src/dominator.ml" 279 9257 9263 "src/dominator.ml" 284 9376 9380
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 286 9388 9394 "src/dominator.ml" 286 9388 9404
+type(
+  G.V.t H.t -> H.key -> G.V.t list
+)
+ident(
+  ext_ref H.find_all
+)
+"src/dominator.ml" 286 9388 9405 "src/dominator.ml" 286 9388 9409
+type(
+  G.V.t H.t
+)
+ident(
+  int_ref tree "src/dominator.ml" 277 9199 9207 "src/dominator.ml" 277 9199 9211
+)
+"src/dominator.ml" 286 9388 9394 "src/dominator.ml" 286 9388 9409
+call(
+  tail
+)
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 278 9244 9248 "src/dominator.ml" 286 9388 9409
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 277 9199 9203 "src/dominator.ml" 286 9388 9409
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 289 9412 9418 "src/dominator.ml" 289 9412 9431
+type(
+  idom -> G.V.t -> G.V.t -> bool
+)
+ident(
+  def idom_to_idoms "src/dominator.ml" 297 9680 9682 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 289 9412 9433 "src/dominator.ml" 289 9412 9437
+type(
+  idom
+)
+ident(
+  def idom "src/dominator.ml" 289 9412 9444 "src/dominator.ml" 291 9479 9506
+)
+"src/dominator.ml" 289 9412 9444 "src/dominator.ml" 289 9412 9445
+type(
+  G.V.t
+)
+ident(
+  def x "src/dominator.ml" 289 9412 9446 "src/dominator.ml" 291 9479 9506
+)
+"src/dominator.ml" 289 9412 9446 "src/dominator.ml" 289 9412 9447
+type(
+  G.V.t
+)
+ident(
+  def y "src/dominator.ml" 290 9450 9454 "src/dominator.ml" 291 9479 9506
+)
+"src/dominator.ml" 290 9450 9458 "src/dominator.ml" 290 9450 9467
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/dominator.ml" 290 9450 9468 "src/dominator.ml" 290 9450 9469
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/dominator.ml" 289 9412 9444 "src/dominator.ml" 289 9412 9445
+)
+"src/dominator.ml" 290 9450 9471 "src/dominator.ml" 290 9450 9475
+type(
+  idom
+)
+ident(
+  int_ref idom "src/dominator.ml" 289 9412 9433 "src/dominator.ml" 289 9412 9437
+)
+"src/dominator.ml" 290 9450 9476 "src/dominator.ml" 290 9450 9477
+type(
+  G.V.t
+)
+ident(
+  int_ref y "src/dominator.ml" 289 9412 9446 "src/dominator.ml" 289 9412 9447
+)
+"src/dominator.ml" 290 9450 9470 "src/dominator.ml" 290 9450 9478
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/dominator.ml" 290 9450 9458 "src/dominator.ml" 290 9450 9478
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 291 9479 9488 "src/dominator.ml" 291 9479 9497
+type(
+  exn
+)
+"src/dominator.ml" 291 9479 9501 "src/dominator.ml" 291 9479 9506
+type(
+  bool
+)
+"src/dominator.ml" 290 9450 9454 "src/dominator.ml" 291 9479 9506
+type(
+  bool
+)
+"src/dominator.ml" 297 9680 9686 "src/dominator.ml" 297 9680 9706
+type(
+  G.t -> dom_tree -> idom -> H.key -> G.V.t list
+)
+ident(
+  def compute_dom_frontier "src/dominator.ml" 327 10468 10470 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 297 9680 9707 "src/dominator.ml" 297 9680 9710
+type(
+  G.t
+)
+ident(
+  def cfg "src/dominator.ml" 297 9680 9711 "src/dominator.ml" 325 10458 10466
+)
+"src/dominator.ml" 297 9680 9712 "src/dominator.ml" 297 9680 9720
+type(
+  dom_tree
+)
+ident(
+  def dom_tree "src/dominator.ml" 297 9680 9731 "src/dominator.ml" 325 10458 10466
+)
+"src/dominator.ml" 297 9680 9732 "src/dominator.ml" 297 9680 9736
+type(
+  idom
+)
+ident(
+  def idom "src/dominator.ml" 298 9745 9749 "src/dominator.ml" 325 10458 10466
+)
+"src/dominator.ml" 298 9745 9753 "src/dominator.ml" 298 9745 9761
+type(
+  dom_tree
+)
+"src/dominator.ml" 298 9745 9764 "src/dominator.ml" 298 9745 9772
+type(
+  dom_tree
+)
+ident(
+  int_ref dom_tree "src/dominator.ml" 297 9680 9712 "src/dominator.ml" 297 9680 9720
+)
+"src/dominator.ml" 299 9776 9784 "src/dominator.ml" 299 9776 9789
+type(
+  H.key -> G.V.t -> bool
+)
+"src/dominator.ml" 299 9776 9792 "src/dominator.ml" 299 9776 9805
+type(
+  idom -> H.key -> G.V.t -> bool
+)
+ident(
+  int_ref idom_to_idoms "src/dominator.ml" 289 9412 9418 "src/dominator.ml" 289 9412 9431
+)
+"src/dominator.ml" 299 9776 9806 "src/dominator.ml" 299 9776 9810
+type(
+  idom
+)
+ident(
+  int_ref idom "src/dominator.ml" 297 9680 9732 "src/dominator.ml" 297 9680 9736
+)
+"src/dominator.ml" 299 9776 9792 "src/dominator.ml" 299 9776 9810
+call(
+  stack
+)
+type(
+  H.key -> G.V.t -> bool
+)
+"src/dominator.ml" 300 9814 9822 "src/dominator.ml" 300 9814 9830
+type(
+  G.V.t list H.t
+)
+"src/dominator.ml" 300 9814 9833 "src/dominator.ml" 300 9814 9841
+type(
+  int -> G.V.t list H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/dominator.ml" 300 9814 9842 "src/dominator.ml" 300 9814 9844
+type(
+  int
+)
+"src/dominator.ml" 300 9814 9833 "src/dominator.ml" 300 9814 9844
+call(
+  stack
+)
+type(
+  G.V.t list H.t
+)
+"src/dominator.ml" 301 9848 9856 "src/dominator.ml" 301 9848 9864
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 301 9848 9865 "src/dominator.ml" 301 9848 9866
+type(
+  H.key
+)
+ident(
+  def n "src/dominator.ml" 303 9938 9944 "src/dominator.ml" 303 9938 9998
+)
+"src/dominator.ml" 303 9938 9944 "src/dominator.ml" 303 9938 9955
+type(
+  (G.V.t -> bool) -> G.V.t list -> G.V.t list
+)
+ident(
+  ext_ref List.filter
+)
+"src/dominator.ml" 303 9938 9961 "src/dominator.ml" 303 9938 9962
+type(
+  G.V.t
+)
+ident(
+  def y "src/dominator.ml" 303 9938 9966 "src/dominator.ml" 303 9938 9982
+)
+"src/dominator.ml" 303 9938 9966 "src/dominator.ml" 303 9938 9969
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/dominator.ml" 303 9938 9971 "src/dominator.ml" 303 9938 9976
+type(
+  H.key -> G.V.t -> bool
+)
+ident(
+  int_ref idoms "src/dominator.ml" 299 9776 9784 "src/dominator.ml" 299 9776 9789
+)
+"src/dominator.ml" 303 9938 9977 "src/dominator.ml" 303 9938 9978
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 301 9848 9865 "src/dominator.ml" 301 9848 9866
+)
+"src/dominator.ml" 303 9938 9979 "src/dominator.ml" 303 9938 9980
+type(
+  G.V.t
+)
+ident(
+  int_ref y "src/dominator.ml" 303 9938 9961 "src/dominator.ml" 303 9938 9962
+)
+"src/dominator.ml" 303 9938 9969 "src/dominator.ml" 303 9938 9982
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 303 9938 9966 "src/dominator.ml" 303 9938 9982
+type(
+  bool
+)
+"src/dominator.ml" 303 9938 9956 "src/dominator.ml" 303 9938 9983
+type(
+  G.V.t -> bool
+)
+"src/dominator.ml" 303 9938 9985 "src/dominator.ml" 303 9938 9991
+type(
+  G.t -> H.key -> G.V.t list
+)
+ident(
+  ext_ref G.succ
+)
+"src/dominator.ml" 303 9938 9992 "src/dominator.ml" 303 9938 9995
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 297 9680 9707 "src/dominator.ml" 297 9680 9710
+)
+"src/dominator.ml" 303 9938 9996 "src/dominator.ml" 303 9938 9997
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 301 9848 9865 "src/dominator.ml" 301 9848 9866
+)
+"src/dominator.ml" 303 9938 9984 "src/dominator.ml" 303 9938 9998
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/dominator.ml" 303 9938 9944 "src/dominator.ml" 303 9938 9998
+call(
+  tail
+)
+type(
+  G.V.t list
+)
+"src/dominator.ml" 305 10006 10018 "src/dominator.ml" 305 10006 10020
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 305 10006 10021 "src/dominator.ml" 305 10006 10022
+type(
+  H.key
+)
+ident(
+  def n "src/dominator.ml" 306 10025 10031 "src/dominator.ml" 311 10163 10169
+)
+"src/dominator.ml" 306 10025 10035 "src/dominator.ml" 306 10025 10041
+type(
+  G.V.t list H.t -> H.key -> G.V.t list
+)
+ident(
+  ext_ref H.find
+)
+"src/dominator.ml" 306 10025 10042 "src/dominator.ml" 306 10025 10050
+type(
+  G.V.t list H.t
+)
+ident(
+  int_ref df_cache "src/dominator.ml" 300 9814 9822 "src/dominator.ml" 300 9814 9830
+)
+"src/dominator.ml" 306 10025 10051 "src/dominator.ml" 306 10025 10052
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 305 10006 10021 "src/dominator.ml" 305 10006 10022
+)
+"src/dominator.ml" 306 10025 10035 "src/dominator.ml" 306 10025 10052
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/dominator.ml" 307 10053 10064 "src/dominator.ml" 307 10053 10073
+type(
+  exn
+)
+"src/dominator.ml" 308 10077 10082 "src/dominator.ml" 308 10077 10083
+type(
+  G.V.t list
+)
+"src/dominator.ml" 308 10077 10086 "src/dominator.ml" 308 10077 10094
+type(
+  H.key -> G.V.t list
+)
+ident(
+  int_ref df_local "src/dominator.ml" 301 9848 9856 "src/dominator.ml" 301 9848 9864
+)
+"src/dominator.ml" 308 10077 10095 "src/dominator.ml" 308 10077 10096
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 305 10006 10021 "src/dominator.ml" 305 10006 10022
+)
+"src/dominator.ml" 308 10077 10086 "src/dominator.ml" 308 10077 10096
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/dominator.ml" 309 10100 10105 "src/dominator.ml" 309 10100 10108
+type(
+  G.V.t list
+)
+"src/dominator.ml" 309 10100 10111 "src/dominator.ml" 309 10100 10121
+type(
+  G.V.t list -> H.key -> G.V.t list
+)
+ident(
+  int_ref add_df_ups "src/dominator.ml" 312 10170 10178 "src/dominator.ml" 312 10170 10188
+)
+"src/dominator.ml" 309 10100 10122 "src/dominator.ml" 309 10100 10123
+type(
+  G.V.t list
+)
+ident(
+  int_ref s "src/dominator.ml" 308 10077 10082 "src/dominator.ml" 308 10077 10083
+)
+"src/dominator.ml" 309 10100 10124 "src/dominator.ml" 309 10100 10125
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 305 10006 10021 "src/dominator.ml" 305 10006 10022
+)
+"src/dominator.ml" 309 10100 10111 "src/dominator.ml" 309 10100 10125
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/dominator.ml" 310 10129 10134 "src/dominator.ml" 310 10129 10136
+type(
+  unit
+)
+"src/dominator.ml" 310 10129 10139 "src/dominator.ml" 310 10129 10144
+type(
+  G.V.t list H.t -> H.key -> G.V.t list -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/dominator.ml" 310 10129 10145 "src/dominator.ml" 310 10129 10153
+type(
+  G.V.t list H.t
+)
+ident(
+  int_ref df_cache "src/dominator.ml" 300 9814 9822 "src/dominator.ml" 300 9814 9830
+)
+"src/dominator.ml" 310 10129 10154 "src/dominator.ml" 310 10129 10155
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 305 10006 10021 "src/dominator.ml" 305 10006 10022
+)
+"src/dominator.ml" 310 10129 10156 "src/dominator.ml" 310 10129 10159
+type(
+  G.V.t list
+)
+ident(
+  int_ref res "src/dominator.ml" 309 10100 10105 "src/dominator.ml" 309 10100 10108
+)
+"src/dominator.ml" 310 10129 10139 "src/dominator.ml" 310 10129 10159
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 311 10163 10166 "src/dominator.ml" 311 10163 10169
+type(
+  G.V.t list
+)
+ident(
+  int_ref res "src/dominator.ml" 309 10100 10105 "src/dominator.ml" 309 10100 10108
+)
+"src/dominator.ml" 310 10129 10130 "src/dominator.ml" 311 10163 10169
+type(
+  G.V.t list
+)
+"src/dominator.ml" 309 10100 10101 "src/dominator.ml" 311 10163 10169
+type(
+  G.V.t list
+)
+"src/dominator.ml" 308 10077 10078 "src/dominator.ml" 311 10163 10169
+type(
+  G.V.t list
+)
+"src/dominator.ml" 306 10025 10031 "src/dominator.ml" 311 10163 10169
+type(
+  G.V.t list
+)
+"src/dominator.ml" 312 10170 10178 "src/dominator.ml" 312 10170 10188
+type(
+  G.V.t list -> H.key -> G.V.t list
+)
+"src/dominator.ml" 312 10170 10189 "src/dominator.ml" 312 10170 10190
+type(
+  G.V.t list
+)
+ident(
+  def s "src/dominator.ml" 312 10170 10191 "src/dominator.ml" 323 10437 10450
+)
+"src/dominator.ml" 312 10170 10191 "src/dominator.ml" 312 10170 10192
+type(
+  H.key
+)
+ident(
+  def n "src/dominator.ml" 313 10195 10201 "src/dominator.ml" 323 10437 10450
+)
+"src/dominator.ml" 313 10195 10201 "src/dominator.ml" 313 10195 10215
+type(
+  (G.V.t list -> H.key -> G.V.t list) ->
+  G.V.t list -> H.key list -> G.V.t list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/dominator.ml" 314 10216 10222 "src/dominator.ml" 314 10216 10223
+type(
+  G.V.t list
+)
+ident(
+  def s "src/dominator.ml" 314 10216 10224 "src/dominator.ml" 320 10418 10430
+)
+"src/dominator.ml" 314 10216 10224 "src/dominator.ml" 314 10216 10225
+type(
+  H.key
+)
+ident(
+  def c "src/dominator.ml" 315 10229 10233 "src/dominator.ml" 320 10418 10430
+)
+"src/dominator.ml" 315 10229 10233 "src/dominator.ml" 315 10229 10247
+type(
+  (G.V.t list -> G.V.t -> G.V.t list) ->
+  G.V.t list -> G.V.t list -> G.V.t list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/dominator.ml" 318 10360 10371 "src/dominator.ml" 318 10360 10372
+type(
+  G.V.t list
+)
+ident(
+  def s "src/dominator.ml" 318 10360 10373 "src/dominator.ml" 318 10360 10408
+)
+"src/dominator.ml" 318 10360 10373 "src/dominator.ml" 318 10360 10374
+type(
+  G.V.t
+)
+ident(
+  def w "src/dominator.ml" 318 10360 10379 "src/dominator.ml" 318 10360 10408
+)
+"src/dominator.ml" 318 10360 10382 "src/dominator.ml" 318 10360 10387
+type(
+  H.key -> G.V.t -> bool
+)
+ident(
+  int_ref idoms "src/dominator.ml" 299 9776 9784 "src/dominator.ml" 299 9776 9789
+)
+"src/dominator.ml" 318 10360 10388 "src/dominator.ml" 318 10360 10389
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 312 10170 10191 "src/dominator.ml" 312 10170 10192
+)
+"src/dominator.ml" 318 10360 10390 "src/dominator.ml" 318 10360 10391
+type(
+  G.V.t
+)
+ident(
+  int_ref w "src/dominator.ml" 318 10360 10373 "src/dominator.ml" 318 10360 10374
+)
+"src/dominator.ml" 318 10360 10382 "src/dominator.ml" 318 10360 10391
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 318 10360 10397 "src/dominator.ml" 318 10360 10398
+type(
+  G.V.t list
+)
+ident(
+  int_ref s "src/dominator.ml" 318 10360 10371 "src/dominator.ml" 318 10360 10372
+)
+"src/dominator.ml" 318 10360 10404 "src/dominator.ml" 318 10360 10405
+type(
+  G.V.t
+)
+ident(
+  int_ref w "src/dominator.ml" 318 10360 10373 "src/dominator.ml" 318 10360 10374
+)
+"src/dominator.ml" 318 10360 10407 "src/dominator.ml" 318 10360 10408
+type(
+  G.V.t list
+)
+ident(
+  int_ref s "src/dominator.ml" 318 10360 10371 "src/dominator.ml" 318 10360 10372
+)
+"src/dominator.ml" 318 10360 10404 "src/dominator.ml" 318 10360 10408
+type(
+  G.V.t list
+)
+"src/dominator.ml" 318 10360 10379 "src/dominator.ml" 318 10360 10408
+type(
+  G.V.t list
+)
+"src/dominator.ml" 318 10360 10366 "src/dominator.ml" 318 10360 10409
+type(
+  G.V.t list -> G.V.t -> G.V.t list
+)
+"src/dominator.ml" 319 10410 10416 "src/dominator.ml" 319 10410 10417
+type(
+  G.V.t list
+)
+ident(
+  int_ref s "src/dominator.ml" 314 10216 10222 "src/dominator.ml" 314 10216 10223
+)
+"src/dominator.ml" 320 10418 10425 "src/dominator.ml" 320 10418 10427
+type(
+  H.key -> G.V.t list
+)
+ident(
+  int_ref df "src/dominator.ml" 305 10006 10018 "src/dominator.ml" 305 10006 10020
+)
+"src/dominator.ml" 320 10418 10428 "src/dominator.ml" 320 10418 10429
+type(
+  H.key
+)
+ident(
+  int_ref c "src/dominator.ml" 314 10216 10224 "src/dominator.ml" 314 10216 10225
+)
+"src/dominator.ml" 320 10418 10424 "src/dominator.ml" 320 10418 10430
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/dominator.ml" 315 10229 10233 "src/dominator.ml" 320 10418 10430
+call(
+  tail
+)
+type(
+  G.V.t list
+)
+"src/dominator.ml" 314 10216 10217 "src/dominator.ml" 321 10431 10433
+type(
+  G.V.t list -> H.key -> G.V.t list
+)
+"src/dominator.ml" 322 10434 10435 "src/dominator.ml" 322 10434 10436
+type(
+  G.V.t list
+)
+ident(
+  int_ref s "src/dominator.ml" 312 10170 10189 "src/dominator.ml" 312 10170 10190
+)
+"src/dominator.ml" 323 10437 10439 "src/dominator.ml" 323 10437 10447
+type(
+  dom_tree
+)
+ident(
+  int_ref children "src/dominator.ml" 298 9745 9753 "src/dominator.ml" 298 9745 9761
+)
+"src/dominator.ml" 323 10437 10448 "src/dominator.ml" 323 10437 10449
+type(
+  H.key
+)
+ident(
+  int_ref n "src/dominator.ml" 312 10170 10191 "src/dominator.ml" 312 10170 10192
+)
+"src/dominator.ml" 323 10437 10438 "src/dominator.ml" 323 10437 10450
+call(
+  stack
+)
+type(
+  H.key list
+)
+"src/dominator.ml" 313 10195 10201 "src/dominator.ml" 323 10437 10450
+call(
+  tail
+)
+type(
+  G.V.t list
+)
+"src/dominator.ml" 325 10458 10464 "src/dominator.ml" 325 10458 10466
+type(
+  H.key -> G.V.t list
+)
+ident(
+  int_ref df "src/dominator.ml" 305 10006 10018 "src/dominator.ml" 305 10006 10020
+)
+"src/dominator.ml" 305 10006 10010 "src/dominator.ml" 325 10458 10466
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 301 9848 9852 "src/dominator.ml" 325 10458 10466
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 300 9814 9818 "src/dominator.ml" 325 10458 10466
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 299 9776 9780 "src/dominator.ml" 325 10458 10466
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 298 9745 9749 "src/dominator.ml" 325 10458 10466
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 327 10468 10474 "src/dominator.ml" 327 10468 10492
+type(
+  ('c -> 'c) -> 'c -> 'c list
+)
+ident(
+  def idom_to_dominators "src/dominator.ml" 337 10622 10624 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 327 10468 10493 "src/dominator.ml" 327 10468 10497
+type(
+  'c -> 'c
+)
+ident(
+  def idom "src/dominator.ml" 327 10468 10498 "src/dominator.ml" 335 10608 10620
+)
+"src/dominator.ml" 327 10468 10498 "src/dominator.ml" 327 10468 10499
+type(
+  'c
+)
+ident(
+  def x "src/dominator.ml" 328 10502 10506 "src/dominator.ml" 335 10608 10620
+)
+"src/dominator.ml" 328 10502 10514 "src/dominator.ml" 328 10502 10515
+type(
+  'c -> 'c list -> 'c list
+)
+"src/dominator.ml" 328 10502 10516 "src/dominator.ml" 328 10502 10517
+type(
+  'c
+)
+ident(
+  def y "src/dominator.ml" 328 10502 10518 "src/dominator.ml" 333 10595 10600
+)
+"src/dominator.ml" 328 10502 10518 "src/dominator.ml" 328 10502 10522
+type(
+  'c list
+)
+ident(
+  def list "src/dominator.ml" 329 10525 10531 "src/dominator.ml" 333 10595 10600
+)
+"src/dominator.ml" 330 10535 10540 "src/dominator.ml" 330 10535 10541
+type(
+  'c
+)
+ident(
+  def i "src/dominator.ml" 331 10554 10557 "src/dominator.ml" 331 10554 10570
+)
+"src/dominator.ml" 330 10535 10544 "src/dominator.ml" 330 10535 10548
+type(
+  'c -> 'c
+)
+ident(
+  int_ref idom "src/dominator.ml" 327 10468 10493 "src/dominator.ml" 327 10468 10497
+)
+"src/dominator.ml" 330 10535 10549 "src/dominator.ml" 330 10535 10550
+type(
+  'c
+)
+ident(
+  int_ref y "src/dominator.ml" 328 10502 10516 "src/dominator.ml" 328 10502 10517
+)
+"src/dominator.ml" 330 10535 10544 "src/dominator.ml" 330 10535 10550
+call(
+  stack
+)
+type(
+  'c
+)
+"src/dominator.ml" 331 10554 10557 "src/dominator.ml" 331 10554 10558
+type(
+  'c -> 'c list -> 'c list
+)
+ident(
+  int_ref d "src/dominator.ml" 328 10502 10514 "src/dominator.ml" 328 10502 10515
+)
+"src/dominator.ml" 331 10554 10559 "src/dominator.ml" 331 10554 10560
+type(
+  'c
+)
+ident(
+  int_ref i "src/dominator.ml" 330 10535 10540 "src/dominator.ml" 330 10535 10541
+)
+"src/dominator.ml" 331 10554 10562 "src/dominator.ml" 331 10554 10563
+type(
+  'c
+)
+ident(
+  int_ref i "src/dominator.ml" 330 10535 10540 "src/dominator.ml" 330 10535 10541
+)
+"src/dominator.ml" 331 10554 10565 "src/dominator.ml" 331 10554 10569
+type(
+  'c list
+)
+ident(
+  int_ref list "src/dominator.ml" 328 10502 10518 "src/dominator.ml" 328 10502 10522
+)
+"src/dominator.ml" 331 10554 10561 "src/dominator.ml" 331 10554 10570
+type(
+  'c list
+)
+"src/dominator.ml" 331 10554 10557 "src/dominator.ml" 331 10554 10570
+call(
+  stack
+)
+type(
+  'c list
+)
+"src/dominator.ml" 330 10535 10536 "src/dominator.ml" 331 10554 10570
+type(
+  'c list
+)
+"src/dominator.ml" 332 10571 10582 "src/dominator.ml" 332 10571 10591
+type(
+  exn
+)
+"src/dominator.ml" 333 10595 10596 "src/dominator.ml" 333 10595 10600
+type(
+  'c list
+)
+ident(
+  int_ref list "src/dominator.ml" 328 10502 10518 "src/dominator.ml" 328 10502 10522
+)
+"src/dominator.ml" 329 10525 10531 "src/dominator.ml" 333 10595 10600
+type(
+  'c list
+)
+"src/dominator.ml" 335 10608 10614 "src/dominator.ml" 335 10608 10615
+type(
+  'c -> 'c list -> 'c list
+)
+ident(
+  int_ref d "src/dominator.ml" 328 10502 10514 "src/dominator.ml" 328 10502 10515
+)
+"src/dominator.ml" 335 10608 10616 "src/dominator.ml" 335 10608 10617
+type(
+  'c
+)
+ident(
+  int_ref x "src/dominator.ml" 327 10468 10498 "src/dominator.ml" 327 10468 10499
+)
+"src/dominator.ml" 335 10608 10618 "src/dominator.ml" 335 10608 10620
+type(
+  'c list
+)
+"src/dominator.ml" 335 10608 10614 "src/dominator.ml" 335 10608 10620
+call(
+  tail
+)
+type(
+  'c list
+)
+"src/dominator.ml" 328 10502 10506 "src/dominator.ml" 335 10608 10620
+type(
+  'c list
+)
+"src/dominator.ml" 337 10622 10632 "src/dominator.ml" 337 10622 10643
+type(
+  (G.V.t -> G.V.t) -> G.V.t -> G.V.t -> bool
+)
+ident(
+  def idom_to_dom "src/dominator.ml" 337 10622 10624 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 337 10622 10644 "src/dominator.ml" 337 10622 10648
+type(
+  G.V.t -> G.V.t
+)
+ident(
+  def idom "src/dominator.ml" 337 10622 10649 "src/dominator.ml" 342 10748 10759
+)
+"src/dominator.ml" 337 10622 10649 "src/dominator.ml" 337 10622 10650
+type(
+  G.V.t
+)
+ident(
+  def x "src/dominator.ml" 337 10622 10651 "src/dominator.ml" 342 10748 10759
+)
+"src/dominator.ml" 337 10622 10651 "src/dominator.ml" 337 10622 10652
+type(
+  G.V.t
+)
+ident(
+  def y "src/dominator.ml" 338 10655 10659 "src/dominator.ml" 342 10748 10759
+)
+"src/dominator.ml" 339 10663 10673 "src/dominator.ml" 339 10663 10674
+type(
+  G.V.t
+)
+ident(
+  def d "src/dominator.ml" 340 10687 10688 "src/dominator.ml" 340 10687 10725
+)
+"src/dominator.ml" 339 10663 10677 "src/dominator.ml" 339 10663 10681
+type(
+  G.V.t -> G.V.t
+)
+ident(
+  int_ref idom "src/dominator.ml" 337 10622 10644 "src/dominator.ml" 337 10622 10648
+)
+"src/dominator.ml" 339 10663 10682 "src/dominator.ml" 339 10663 10683
+type(
+  G.V.t
+)
+ident(
+  int_ref y "src/dominator.ml" 337 10622 10651 "src/dominator.ml" 337 10622 10652
+)
+"src/dominator.ml" 339 10663 10677 "src/dominator.ml" 339 10663 10683
+call(
+  stack
+)
+type(
+  G.V.t
+)
+"src/dominator.ml" 340 10687 10688 "src/dominator.ml" 340 10687 10697
+type(
+  G.V.t -> G.V.t -> bool
+)
+ident(
+  ext_ref G.V.equal
+)
+"src/dominator.ml" 340 10687 10698 "src/dominator.ml" 340 10687 10699
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/dominator.ml" 337 10622 10649 "src/dominator.ml" 337 10622 10650
+)
+"src/dominator.ml" 340 10687 10700 "src/dominator.ml" 340 10687 10701
+type(
+  G.V.t
+)
+ident(
+  int_ref d "src/dominator.ml" 339 10663 10673 "src/dominator.ml" 339 10663 10674
+)
+"src/dominator.ml" 340 10687 10688 "src/dominator.ml" 340 10687 10701
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 340 10687 10702 "src/dominator.ml" 340 10687 10704
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/dominator.ml" 340 10687 10705 "src/dominator.ml" 340 10687 10716
+type(
+  (G.V.t -> G.V.t) -> G.V.t -> G.V.t -> bool
+)
+ident(
+  int_ref idom_to_dom "src/dominator.ml" 337 10622 10632 "src/dominator.ml" 337 10622 10643
+)
+"src/dominator.ml" 340 10687 10717 "src/dominator.ml" 340 10687 10721
+type(
+  G.V.t -> G.V.t
+)
+ident(
+  int_ref idom "src/dominator.ml" 337 10622 10644 "src/dominator.ml" 337 10622 10648
+)
+"src/dominator.ml" 340 10687 10722 "src/dominator.ml" 340 10687 10723
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/dominator.ml" 337 10622 10649 "src/dominator.ml" 337 10622 10650
+)
+"src/dominator.ml" 340 10687 10724 "src/dominator.ml" 340 10687 10725
+type(
+  G.V.t
+)
+ident(
+  int_ref d "src/dominator.ml" 339 10663 10673 "src/dominator.ml" 339 10663 10674
+)
+"src/dominator.ml" 340 10687 10705 "src/dominator.ml" 340 10687 10725
+call(
+  stack
+)
+type(
+  bool
+)
+"src/dominator.ml" 340 10687 10688 "src/dominator.ml" 340 10687 10725
+type(
+  bool
+)
+"src/dominator.ml" 339 10663 10669 "src/dominator.ml" 340 10687 10725
+type(
+  bool
+)
+"src/dominator.ml" 341 10726 10735 "src/dominator.ml" 341 10726 10744
+type(
+  exn
+)
+"src/dominator.ml" 342 10748 10754 "src/dominator.ml" 342 10748 10759
+type(
+  bool
+)
+"src/dominator.ml" 338 10655 10659 "src/dominator.ml" 342 10748 10759
+type(
+  bool
+)
+"src/dominator.ml" 344 10761 10767 "src/dominator.ml" 344 10761 10784
+type(
+  G.t -> (G.V.t -> G.V.t list) -> G.t
+)
+ident(
+  def compute_dom_graph "src/dominator.ml" 362 11356 11358 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 344 10761 10785 "src/dominator.ml" 344 10761 10788
+type(
+  G.t
+)
+ident(
+  def cfg "src/dominator.ml" 344 10761 10789 "src/dominator.ml" 351 10975 10980
+)
+"src/dominator.ml" 344 10761 10789 "src/dominator.ml" 344 10761 10797
+type(
+  G.V.t -> G.V.t list
+)
+ident(
+  def dom_tree "src/dominator.ml" 345 10800 10804 "src/dominator.ml" 351 10975 10980
+)
+"src/dominator.ml" 345 10800 10808 "src/dominator.ml" 345 10800 10809
+type(
+  G.t
+)
+"src/dominator.ml" 345 10800 10812 "src/dominator.ml" 345 10800 10820
+type(
+  ?size:int -> unit -> G.t
+)
+ident(
+  ext_ref G.create
+)
+"src/dominator.ml" 345 10800 10828 "src/dominator.ml" 345 10800 10839
+type(
+  G.t -> int
+)
+ident(
+  ext_ref G.nb_vertex
+)
+"src/dominator.ml" 345 10800 10840 "src/dominator.ml" 345 10800 10843
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 344 10761 10785 "src/dominator.ml" 344 10761 10788
+)
+"src/dominator.ml" 345 10800 10827 "src/dominator.ml" 345 10800 10844
+call(
+  stack
+)
+type(
+  int
+)
+"src/dominator.ml" 345 10800 10845 "src/dominator.ml" 345 10800 10847
+type(
+  unit
+)
+"src/dominator.ml" 345 10800 10812 "src/dominator.ml" 345 10800 10847
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/dominator.ml" 346 10851 10855 "src/dominator.ml" 346 10851 10868
+type(
+  (G.V.t -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref G.iter_vertex
+)
+"src/dominator.ml" 346 10851 10874 "src/dominator.ml" 346 10851 10875
+type(
+  G.V.t
+)
+ident(
+  def p "src/dominator.ml" 347 10879 10885 "src/dominator.ml" 349 10937 10963
+)
+"src/dominator.ml" 348 10889 10897 "src/dominator.ml" 348 10889 10906
+type(
+  (G.V.t -> unit) -> G.V.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/dominator.ml" 348 10889 10908 "src/dominator.ml" 348 10889 10918
+type(
+  G.t -> G.V.t -> G.V.t -> unit
+)
+ident(
+  ext_ref G.add_edge
+)
+"src/dominator.ml" 348 10889 10919 "src/dominator.ml" 348 10889 10920
+type(
+  G.t
+)
+ident(
+  int_ref g "src/dominator.ml" 345 10800 10808 "src/dominator.ml" 345 10800 10809
+)
+"src/dominator.ml" 348 10889 10921 "src/dominator.ml" 348 10889 10922
+type(
+  G.V.t
+)
+ident(
+  int_ref p "src/dominator.ml" 346 10851 10874 "src/dominator.ml" 346 10851 10875
+)
+"src/dominator.ml" 348 10889 10907 "src/dominator.ml" 348 10889 10923
+call(
+  stack
+)
+type(
+  G.V.t -> unit
+)
+"src/dominator.ml" 348 10889 10925 "src/dominator.ml" 348 10889 10933
+type(
+  G.V.t -> G.V.t list
+)
+ident(
+  int_ref dom_tree "src/dominator.ml" 344 10761 10789 "src/dominator.ml" 344 10761 10797
+)
+"src/dominator.ml" 348 10889 10934 "src/dominator.ml" 348 10889 10935
+type(
+  G.V.t
+)
+ident(
+  int_ref p "src/dominator.ml" 346 10851 10874 "src/dominator.ml" 346 10851 10875
+)
+"src/dominator.ml" 348 10889 10924 "src/dominator.ml" 348 10889 10936
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/dominator.ml" 348 10889 10897 "src/dominator.ml" 348 10889 10936
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 349 10937 10948 "src/dominator.ml" 349 10937 10957
+type(
+  exn
+)
+"src/dominator.ml" 349 10937 10961 "src/dominator.ml" 349 10937 10963
+type(
+  unit
+)
+"src/dominator.ml" 347 10879 10885 "src/dominator.ml" 349 10937 10963
+type(
+  unit
+)
+"src/dominator.ml" 346 10851 10869 "src/dominator.ml" 350 10964 10969
+type(
+  G.V.t -> unit
+)
+"src/dominator.ml" 350 10964 10970 "src/dominator.ml" 350 10964 10973
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 344 10761 10785 "src/dominator.ml" 344 10761 10788
+)
+"src/dominator.ml" 346 10851 10855 "src/dominator.ml" 350 10964 10973
+call(
+  stack
+)
+type(
+  unit
+)
+"src/dominator.ml" 351 10975 10979 "src/dominator.ml" 351 10975 10980
+type(
+  G.t
+)
+ident(
+  int_ref g "src/dominator.ml" 345 10800 10808 "src/dominator.ml" 345 10800 10809
+)
+"src/dominator.ml" 346 10851 10855 "src/dominator.ml" 351 10975 10980
+type(
+  G.t
+)
+"src/dominator.ml" 345 10800 10804 "src/dominator.ml" 351 10975 10980
+type(
+  G.t
+)
+"src/dominator.ml" 362 11356 11362 "src/dominator.ml" 362 11356 11373
+type(
+  G.t -> H.key -> dom_functions
+)
+ident(
+  def compute_all "src/dominator.ml" 381 11974 11981 "src/dominator.ml" 384 11984 11987
+)
+"src/dominator.ml" 362 11356 11374 "src/dominator.ml" 362 11356 11377
+type(
+  G.t
+)
+ident(
+  def cfg "src/dominator.ml" 362 11356 11378 "src/dominator.ml" 381 11974 11981
+)
+"src/dominator.ml" 362 11356 11378 "src/dominator.ml" 362 11356 11380
+type(
+  H.key
+)
+ident(
+  def s0 "src/dominator.ml" 363 11383 11387 "src/dominator.ml" 381 11974 11981
+)
+"src/dominator.ml" 363 11383 11391 "src/dominator.ml" 363 11383 11395
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 363 11383 11398 "src/dominator.ml" 363 11383 11410
+type(
+  G.t -> H.key -> H.key -> H.key
+)
+ident(
+  int_ref compute_idom "src/dominator.ml" 110 3901 3907 "src/dominator.ml" 110 3901 3919
+)
+"src/dominator.ml" 363 11383 11411 "src/dominator.ml" 363 11383 11414
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 362 11356 11374 "src/dominator.ml" 362 11356 11377
+)
+"src/dominator.ml" 363 11383 11415 "src/dominator.ml" 363 11383 11417
+type(
+  H.key
+)
+ident(
+  int_ref s0 "src/dominator.ml" 362 11356 11378 "src/dominator.ml" 362 11356 11380
+)
+"src/dominator.ml" 363 11383 11398 "src/dominator.ml" 363 11383 11417
+call(
+  stack
+)
+type(
+  H.key -> H.key
+)
+"src/dominator.ml" 364 11421 11429 "src/dominator.ml" 364 11421 11434
+type(
+  G.V.t -> G.V.t -> bool
+)
+"src/dominator.ml" 364 11421 11437 "src/dominator.ml" 364 11421 11450
+type(
+  idom -> G.V.t -> G.V.t -> bool
+)
+ident(
+  int_ref idom_to_idoms "src/dominator.ml" 289 9412 9418 "src/dominator.ml" 289 9412 9431
+)
+"src/dominator.ml" 364 11421 11451 "src/dominator.ml" 364 11421 11455
+type(
+  idom
+)
+ident(
+  int_ref idom "src/dominator.ml" 363 11383 11391 "src/dominator.ml" 363 11383 11395
+)
+"src/dominator.ml" 364 11421 11437 "src/dominator.ml" 364 11421 11455
+call(
+  stack
+)
+type(
+  G.V.t -> G.V.t -> bool
+)
+"src/dominator.ml" 365 11459 11467 "src/dominator.ml" 365 11459 11475
+type(
+  (H.key -> H.key list) lazy_t
+)
+"src/dominator.ml" 365 11459 11483 "src/dominator.ml" 365 11459 11499
+type(
+  G.t -> (H.key -> H.key) -> H.key -> H.key list
+)
+ident(
+  int_ref idom_to_dom_tree "src/dominator.ml" 276 9165 9171 "src/dominator.ml" 276 9165 9187
+)
+"src/dominator.ml" 365 11459 11500 "src/dominator.ml" 365 11459 11503
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 362 11356 11374 "src/dominator.ml" 362 11356 11377
+)
+"src/dominator.ml" 365 11459 11504 "src/dominator.ml" 365 11459 11508
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref idom "src/dominator.ml" 363 11383 11391 "src/dominator.ml" 363 11383 11395
+)
+"src/dominator.ml" 365 11459 11482 "src/dominator.ml" 365 11459 11509
+call(
+  tail
+)
+type(
+  H.key -> H.key list
+)
+"src/dominator.ml" 365 11459 11478 "src/dominator.ml" 365 11459 11509
+type(
+  (H.key -> H.key list) lazy_t
+)
+"src/dominator.ml" 366 11513 11521 "src/dominator.ml" 366 11513 11531
+type(
+  H.key -> H.key list
+)
+"src/dominator.ml" 366 11513 11534 "src/dominator.ml" 366 11513 11552
+type(
+  (H.key -> H.key) -> H.key -> H.key list
+)
+ident(
+  int_ref idom_to_dominators "src/dominator.ml" 327 10468 10474 "src/dominator.ml" 327 10468 10492
+)
+"src/dominator.ml" 366 11513 11553 "src/dominator.ml" 366 11513 11557
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref idom "src/dominator.ml" 363 11383 11391 "src/dominator.ml" 363 11383 11395
+)
+"src/dominator.ml" 366 11513 11534 "src/dominator.ml" 366 11513 11557
+call(
+  stack
+)
+type(
+  H.key -> H.key list
+)
+"src/dominator.ml" 367 11561 11569 "src/dominator.ml" 367 11561 11572
+type(
+  G.V.t -> H.key -> bool
+)
+"src/dominator.ml" 367 11561 11575 "src/dominator.ml" 367 11561 11586
+type(
+  (H.key -> H.key) -> G.V.t -> H.key -> bool
+)
+ident(
+  int_ref idom_to_dom "src/dominator.ml" 337 10622 10632 "src/dominator.ml" 337 10622 10643
+)
+"src/dominator.ml" 367 11561 11587 "src/dominator.ml" 367 11561 11591
+type(
+  H.key -> H.key
+)
+ident(
+  int_ref idom "src/dominator.ml" 363 11383 11391 "src/dominator.ml" 363 11383 11395
+)
+"src/dominator.ml" 367 11561 11575 "src/dominator.ml" 367 11561 11591
+call(
+  stack
+)
+type(
+  G.V.t -> H.key -> bool
+)
+"src/dominator.ml" 368 11595 11603 "src/dominator.ml" 368 11595 11607
+type(
+  G.V.t -> H.key -> bool
+)
+"src/dominator.ml" 368 11595 11610 "src/dominator.ml" 368 11595 11621
+type(
+  (G.V.t -> H.key -> bool) -> G.V.t -> H.key -> bool
+)
+ident(
+  int_ref dom_to_sdom "src/dominator.ml" 222 7396 7402 "src/dominator.ml" 222 7396 7413
+)
+"src/dominator.ml" 368 11595 11622 "src/dominator.ml" 368 11595 11625
+type(
+  G.V.t -> H.key -> bool
+)
+ident(
+  int_ref dom "src/dominator.ml" 367 11561 11569 "src/dominator.ml" 367 11561 11572
+)
+"src/dominator.ml" 368 11595 11610 "src/dominator.ml" 368 11595 11625
+call(
+  stack
+)
+type(
+  G.V.t -> H.key -> bool
+)
+"src/dominator.ml" 369 11629 11637 "src/dominator.ml" 369 11629 11649
+type(
+  (H.key -> G.V.t list) lazy_t
+)
+"src/dominator.ml" 370 11652 11663 "src/dominator.ml" 370 11652 11683
+type(
+  G.t -> dom_tree -> idom -> H.key -> G.V.t list
+)
+ident(
+  int_ref compute_dom_frontier "src/dominator.ml" 297 9680 9686 "src/dominator.ml" 297 9680 9706
+)
+"src/dominator.ml" 370 11652 11684 "src/dominator.ml" 370 11652 11687
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 362 11356 11374 "src/dominator.ml" 362 11356 11377
+)
+"src/dominator.ml" 370 11652 11689 "src/dominator.ml" 370 11652 11699
+type(
+  dom_tree Lazy.t -> dom_tree
+)
+ident(
+  ext_ref Lazy.force
+)
+"src/dominator.ml" 370 11652 11700 "src/dominator.ml" 370 11652 11708
+type(
+  dom_tree Lazy.t
+)
+ident(
+  int_ref dom_tree "src/dominator.ml" 365 11459 11467 "src/dominator.ml" 365 11459 11475
+)
+"src/dominator.ml" 370 11652 11688 "src/dominator.ml" 370 11652 11709
+call(
+  stack
+)
+type(
+  dom_tree
+)
+"src/dominator.ml" 370 11652 11710 "src/dominator.ml" 370 11652 11714
+type(
+  idom
+)
+ident(
+  int_ref idom "src/dominator.ml" 363 11383 11391 "src/dominator.ml" 363 11383 11395
+)
+"src/dominator.ml" 370 11652 11662 "src/dominator.ml" 370 11652 11715
+call(
+  tail
+)
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 370 11652 11658 "src/dominator.ml" 370 11652 11715
+type(
+  (H.key -> G.V.t list) lazy_t
+)
+"src/dominator.ml" 373 11731 11737 "src/dominator.ml" 373 11731 11741
+type(
+  idom
+)
+ident(
+  int_ref idom "src/dominator.ml" 363 11383 11391 "src/dominator.ml" 363 11383 11395
+)
+"src/dominator.ml" 374 11743 11750 "src/dominator.ml" 374 11743 11755
+type(
+  idoms
+)
+ident(
+  int_ref idoms "src/dominator.ml" 364 11421 11429 "src/dominator.ml" 364 11421 11434
+)
+"src/dominator.ml" 375 11757 11772 "src/dominator.ml" 375 11757 11773
+type(
+  H.key
+)
+ident(
+  def x "src/dominator.ml" 375 11757 11777 "src/dominator.ml" 375 11757 11798
+)
+"src/dominator.ml" 375 11757 11777 "src/dominator.ml" 375 11757 11787
+type(
+  (H.key -> H.key list) Lazy.t -> H.key -> H.key list
+)
+ident(
+  ext_ref Lazy.force
+)
+"src/dominator.ml" 375 11757 11788 "src/dominator.ml" 375 11757 11796
+type(
+  (H.key -> H.key list) Lazy.t
+)
+ident(
+  int_ref dom_tree "src/dominator.ml" 365 11459 11467 "src/dominator.ml" 365 11459 11475
+)
+"src/dominator.ml" 375 11757 11797 "src/dominator.ml" 375 11757 11798
+type(
+  H.key
+)
+ident(
+  int_ref x "src/dominator.ml" 375 11757 11772 "src/dominator.ml" 375 11757 11773
+)
+"src/dominator.ml" 375 11757 11777 "src/dominator.ml" 375 11757 11798
+call(
+  tail
+)
+type(
+  H.key list
+)
+"src/dominator.ml" 375 11757 11767 "src/dominator.ml" 375 11757 11799
+type(
+  H.key -> H.key list
+)
+"src/dominator.ml" 376 11801 11813 "src/dominator.ml" 376 11801 11823
+type(
+  dominators
+)
+ident(
+  int_ref dominators "src/dominator.ml" 366 11513 11521 "src/dominator.ml" 366 11513 11531
+)
+"src/dominator.ml" 377 11825 11830 "src/dominator.ml" 377 11825 11833
+type(
+  dom
+)
+ident(
+  int_ref dom "src/dominator.ml" 367 11561 11569 "src/dominator.ml" 367 11561 11572
+)
+"src/dominator.ml" 378 11835 11841 "src/dominator.ml" 378 11835 11845
+type(
+  sdom
+)
+ident(
+  int_ref sdom "src/dominator.ml" 368 11595 11603 "src/dominator.ml" 368 11595 11607
+)
+"src/dominator.ml" 379 11847 11866 "src/dominator.ml" 379 11847 11867
+type(
+  H.key
+)
+ident(
+  def x "src/dominator.ml" 379 11847 11871 "src/dominator.ml" 379 11847 11896
+)
+"src/dominator.ml" 379 11847 11871 "src/dominator.ml" 379 11847 11881
+type(
+  (H.key -> G.V.t list) Lazy.t -> H.key -> G.V.t list
+)
+ident(
+  ext_ref Lazy.force
+)
+"src/dominator.ml" 379 11847 11882 "src/dominator.ml" 379 11847 11894
+type(
+  (H.key -> G.V.t list) Lazy.t
+)
+ident(
+  int_ref dom_frontier "src/dominator.ml" 369 11629 11637 "src/dominator.ml" 369 11629 11649
+)
+"src/dominator.ml" 379 11847 11895 "src/dominator.ml" 379 11847 11896
+type(
+  H.key
+)
+ident(
+  int_ref x "src/dominator.ml" 379 11847 11866 "src/dominator.ml" 379 11847 11867
+)
+"src/dominator.ml" 379 11847 11871 "src/dominator.ml" 379 11847 11896
+call(
+  tail
+)
+type(
+  G.V.t list
+)
+"src/dominator.ml" 379 11847 11861 "src/dominator.ml" 379 11847 11897
+type(
+  H.key -> G.V.t list
+)
+"src/dominator.ml" 380 11899 11922 "src/dominator.ml" 380 11899 11924
+type(
+  unit
+)
+"src/dominator.ml" 380 11899 11928 "src/dominator.ml" 380 11899 11945
+type(
+  G.t -> (H.key -> H.key list) -> G.t
+)
+ident(
+  int_ref compute_dom_graph "src/dominator.ml" 344 10761 10767 "src/dominator.ml" 344 10761 10784
+)
+"src/dominator.ml" 380 11899 11946 "src/dominator.ml" 380 11899 11949
+type(
+  G.t
+)
+ident(
+  int_ref cfg "src/dominator.ml" 362 11356 11374 "src/dominator.ml" 362 11356 11377
+)
+"src/dominator.ml" 380 11899 11951 "src/dominator.ml" 380 11899 11961
+type(
+  (H.key -> H.key list) Lazy.t -> H.key -> H.key list
+)
+ident(
+  ext_ref Lazy.force
+)
+"src/dominator.ml" 380 11899 11962 "src/dominator.ml" 380 11899 11970
+type(
+  (H.key -> H.key list) Lazy.t
+)
+ident(
+  int_ref dom_tree "src/dominator.ml" 365 11459 11467 "src/dominator.ml" 365 11459 11475
+)
+"src/dominator.ml" 380 11899 11950 "src/dominator.ml" 380 11899 11971
+call(
+  stack
+)
+type(
+  H.key -> H.key list
+)
+"src/dominator.ml" 380 11899 11928 "src/dominator.ml" 380 11899 11971
+call(
+  tail
+)
+type(
+  G.t
+)
+"src/dominator.ml" 380 11899 11917 "src/dominator.ml" 380 11899 11972
+type(
+  unit -> G.t
+)
+"src/dominator.ml" 372 11723 11729 "src/dominator.ml" 381 11974 11981
+type(
+  dom_functions
+)
+"src/dominator.ml" 369 11629 11633 "src/dominator.ml" 381 11974 11981
+type(
+  dom_functions
+)
+"src/dominator.ml" 368 11595 11599 "src/dominator.ml" 381 11974 11981
+type(
+  dom_functions
+)
+"src/dominator.ml" 367 11561 11565 "src/dominator.ml" 381 11974 11981
+type(
+  dom_functions
+)
+"src/dominator.ml" 366 11513 11517 "src/dominator.ml" 381 11974 11981
+type(
+  dom_functions
+)
+"src/dominator.ml" 365 11459 11463 "src/dominator.ml" 381 11974 11981
+type(
+  dom_functions
+)
+"src/dominator.ml" 364 11421 11425 "src/dominator.ml" 381 11974 11981
+type(
+  dom_functions
+)
+"src/dominator.ml" 363 11383 11387 "src/dominator.ml" 381 11974 11981
+type(
+  dom_functions
+)

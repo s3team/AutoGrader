@@ -1,0 +1,401 @@
+"backtaint.ml" 1 0 4 "backtaint.ml" 1 0 9
+type(
+  string
+)
+ident(
+  def usage "backtaint.ml" 4 106 106 --
+)
+"backtaint.ml" 1 0 12 "backtaint.ml" 1 0 21
+type(
+  string
+)
+"backtaint.ml" 1 0 21 "backtaint.ml" 1 0 22
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"backtaint.ml" 1 0 22 "backtaint.ml" 1 0 30
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"backtaint.ml" 1 0 32 "backtaint.ml" 1 0 33
+type(
+  int
+)
+"backtaint.ml" 1 0 22 "backtaint.ml" 1 0 34
+type(
+  string
+)
+"backtaint.ml" 1 0 34 "backtaint.ml" 1 0 35
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"backtaint.ml" 1 0 35 "backtaint.ml" 2 56 104
+type(
+  string
+)
+"backtaint.ml" 1 0 22 "backtaint.ml" 2 56 104
+call(
+  stack
+)
+type(
+  string
+)
+"backtaint.ml" 1 0 12 "backtaint.ml" 2 56 104
+call(
+  stack
+)
+type(
+  string
+)
+"backtaint.ml" 4 106 110 "backtaint.ml" 4 106 118
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def speclist "backtaint.ml" 6 143 143 --
+)
+"backtaint.ml" 4 106 121 "backtaint.ml" 4 106 141
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Input.trace_speclist
+)
+"backtaint.ml" 6 143 147 "backtaint.ml" 6 143 151
+type(
+  string -> 'a
+)
+ident(
+  def anon "backtaint.ml" 7 203 203 --
+)
+"backtaint.ml" 6 143 152 "backtaint.ml" 6 143 153
+type(
+  string
+)
+ident(
+  def x "backtaint.ml" 6 143 156 "backtaint.ml" 6 143 202
+)
+"backtaint.ml" 6 143 156 "backtaint.ml" 6 143 161
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"backtaint.ml" 6 143 170 "backtaint.ml" 6 143 194
+type(
+  string
+)
+"backtaint.ml" 6 143 194 "backtaint.ml" 6 143 195
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"backtaint.ml" 6 143 195 "backtaint.ml" 6 143 196
+type(
+  string
+)
+ident(
+  int_ref x "backtaint.ml" 6 143 152 "backtaint.ml" 6 143 153
+)
+"backtaint.ml" 6 143 196 "backtaint.ml" 6 143 197
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"backtaint.ml" 6 143 197 "backtaint.ml" 6 143 200
+type(
+  string
+)
+"backtaint.ml" 6 143 195 "backtaint.ml" 6 143 200
+call(
+  stack
+)
+type(
+  string
+)
+"backtaint.ml" 6 143 169 "backtaint.ml" 6 143 201
+call(
+  stack
+)
+type(
+  string
+)
+"backtaint.ml" 6 143 161 "backtaint.ml" 6 143 202
+type(
+  exn
+)
+"backtaint.ml" 6 143 156 "backtaint.ml" 6 143 202
+type(
+  'a
+)
+"backtaint.ml" 7 203 207 "backtaint.ml" 7 203 209
+type(
+  unit
+)
+"backtaint.ml" 7 203 212 "backtaint.ml" 7 203 221
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"backtaint.ml" 7 203 222 "backtaint.ml" 7 203 230
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "backtaint.ml" 4 106 110 "backtaint.ml" 4 106 118
+)
+"backtaint.ml" 7 203 231 "backtaint.ml" 7 203 235
+type(
+  Arg.anon_fun
+)
+ident(
+  int_ref anon "backtaint.ml" 6 143 147 "backtaint.ml" 6 143 151
+)
+"backtaint.ml" 7 203 236 "backtaint.ml" 7 203 241
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "backtaint.ml" 1 0 4 "backtaint.ml" 1 0 9
+)
+"backtaint.ml" 7 203 212 "backtaint.ml" 7 203 241
+call(
+  stack
+)
+type(
+  unit
+)
+"backtaint.ml" 9 243 247 "backtaint.ml" 9 243 251
+type(
+  Ast.program
+)
+ident(
+  def prog "backtaint.ml" 16 364 364 --
+)
+"backtaint.ml" 9 243 252 "backtaint.ml" 9 243 257
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  def scope "backtaint.ml" 16 364 364 --
+)
+"backtaint.ml" 9 243 258 "backtaint.ml" 9 243 262
+type(
+  Arch.arch option
+)
+ident(
+  def arch "backtaint.ml" 16 364 364 --
+)
+"backtaint.ml" 9 243 247 "backtaint.ml" 9 243 262
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"backtaint.ml" 10 265 271 "backtaint.ml" 10 265 288
+type(
+  unit -> Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  ext_ref Input.get_program
+)
+"backtaint.ml" 10 265 289 "backtaint.ml" 10 265 291
+type(
+  unit
+)
+"backtaint.ml" 10 265 271 "backtaint.ml" 10 265 291
+call(
+  stack
+)
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"backtaint.ml" 11 292 307 "backtaint.ml" 11 292 308
+type(
+  string
+)
+ident(
+  def s "backtaint.ml" 12 312 316 "backtaint.ml" 13 351 361
+)
+"backtaint.ml" 11 292 299 "backtaint.ml" 11 292 308
+type(
+  exn
+)
+"backtaint.ml" 12 312 316 "backtaint.ml" 12 312 325
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.usage
+)
+"backtaint.ml" 12 312 326 "backtaint.ml" 12 312 334
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "backtaint.ml" 4 106 110 "backtaint.ml" 4 106 118
+)
+"backtaint.ml" 12 312 336 "backtaint.ml" 12 312 337
+type(
+  string
+)
+ident(
+  int_ref s "backtaint.ml" 11 292 307 "backtaint.ml" 11 292 308
+)
+"backtaint.ml" 12 312 337 "backtaint.ml" 12 312 338
+type(
+  string -> string -> Arg.usage_msg
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"backtaint.ml" 12 312 338 "backtaint.ml" 12 312 342
+type(
+  string
+)
+"backtaint.ml" 12 312 342 "backtaint.ml" 12 312 343
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"backtaint.ml" 12 312 343 "backtaint.ml" 12 312 348
+type(
+  string
+)
+ident(
+  int_ref usage "backtaint.ml" 1 0 4 "backtaint.ml" 1 0 9
+)
+"backtaint.ml" 12 312 338 "backtaint.ml" 12 312 348
+call(
+  stack
+)
+type(
+  string
+)
+"backtaint.ml" 12 312 335 "backtaint.ml" 12 312 349
+call(
+  stack
+)
+type(
+  Arg.usage_msg
+)
+"backtaint.ml" 12 312 316 "backtaint.ml" 12 312 349
+call(
+  stack
+)
+type(
+  unit
+)
+"backtaint.ml" 13 351 355 "backtaint.ml" 13 351 359
+type(
+  int -> Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"backtaint.ml" 13 351 360 "backtaint.ml" 13 351 361
+type(
+  int
+)
+"backtaint.ml" 13 351 355 "backtaint.ml" 13 351 361
+call(
+  stack
+)
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"backtaint.ml" 12 312 316 "backtaint.ml" 13 351 361
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"backtaint.ml" 10 265 267 "backtaint.ml" 13 351 361
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"backtaint.ml" 16 364 368 "backtaint.ml" 16 364 382
+type(
+  Traces_backtaint.LocSet.t
+)
+ident(
+  def input_location "backtaint.ml" 19 479 479 --
+)
+"backtaint.ml" 16 364 385 "backtaint.ml" 16 364 412
+type(
+  Arch.arch -> Ast.program -> Traces_backtaint.LocSet.t
+)
+ident(
+  ext_ref Test_common.backwards_taint
+)
+"backtaint.ml" 16 364 414 "backtaint.ml" 16 364 428
+type(
+  Arch.arch option -> Arch.arch
+)
+ident(
+  ext_ref Input.get_arch
+)
+"backtaint.ml" 16 364 429 "backtaint.ml" 16 364 433
+type(
+  Arch.arch option
+)
+ident(
+  int_ref arch "backtaint.ml" 9 243 258 "backtaint.ml" 9 243 262
+)
+"backtaint.ml" 16 364 413 "backtaint.ml" 16 364 434
+call(
+  stack
+)
+type(
+  Arch.arch
+)
+"backtaint.ml" 16 364 435 "backtaint.ml" 16 364 439
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "backtaint.ml" 9 243 247 "backtaint.ml" 9 243 251
+)
+"backtaint.ml" 16 364 385 "backtaint.ml" 16 364 439
+call(
+  stack
+)
+type(
+  Traces_backtaint.LocSet.t
+)
+"backtaint.ml" 19 479 479 "backtaint.ml" 19 479 508
+type(
+  Traces_backtaint.LocSet.t -> unit
+)
+ident(
+  ext_ref Traces_backtaint.print_locset
+)
+"backtaint.ml" 19 479 509 "backtaint.ml" 19 479 523
+type(
+  Traces_backtaint.LocSet.t
+)
+ident(
+  int_ref input_location "backtaint.ml" 16 364 368 "backtaint.ml" 16 364 382
+)
+"backtaint.ml" 19 479 479 "backtaint.ml" 19 479 523
+call(
+  stack
+)
+type(
+  unit
+)

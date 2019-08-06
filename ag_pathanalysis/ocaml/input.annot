@@ -1,0 +1,2998 @@
+"input.ml" 4 43 47 "input.ml" 4 43 57
+type(
+  string option ref
+)
+ident(
+  def bfd_target "input.ml" 5 69 69 --
+)
+"input.ml" 4 43 60 "input.ml" 4 43 63
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"input.ml" 4 43 64 "input.ml" 4 43 68
+type(
+  string option
+)
+"input.ml" 4 43 60 "input.ml" 4 43 68
+type(
+  string option ref
+)
+"input.ml" 5 69 73 "input.ml" 5 69 80
+type(
+  bool ref
+)
+ident(
+  def init_ro "input.ml" 6 93 93 --
+)
+"input.ml" 5 69 83 "input.ml" 5 69 86
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"input.ml" 5 69 87 "input.ml" 5 69 92
+type(
+  bool
+)
+"input.ml" 5 69 83 "input.ml" 5 69 92
+type(
+  bool ref
+)
+"input.ml" 6 93 97 "input.ml" 6 93 103
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref
+)
+ident(
+  def inputs "input.ml" 11 250 250 --
+)
+"input.ml" 6 93 106 "input.ml" 6 93 109
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ->
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"input.ml" 6 93 110 "input.ml" 6 93 112
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+"input.ml" 6 93 106 "input.ml" 6 93 112
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref
+)
+"input.ml" 7 113 117 "input.ml" 7 113 129
+type(
+  [ `Tracestream of string ] option ref
+)
+ident(
+  def streaminputs "input.ml" 11 250 250 --
+)
+"input.ml" 7 113 132 "input.ml" 7 113 135
+type(
+  [ `Tracestream of string ] option -> [ `Tracestream of string ] option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"input.ml" 7 113 136 "input.ml" 7 113 140
+type(
+  [ `Tracestream of string ] option
+)
+"input.ml" 7 113 132 "input.ml" 7 113 140
+type(
+  [ `Tracestream of string ] option ref
+)
+"input.ml" 8 141 145 "input.ml" 8 141 155
+type(
+  int64 ref
+)
+ident(
+  def streamrate "input.ml" 11 250 250 --
+)
+"input.ml" 8 141 158 "input.ml" 8 141 161
+type(
+  int64 -> int64 ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"input.ml" 8 141 162 "input.ml" 8 141 168
+type(
+  int64
+)
+"input.ml" 8 141 158 "input.ml" 8 141 168
+type(
+  int64 ref
+)
+"input.ml" 9 224 228 "input.ml" 9 224 236
+type(
+  bool ref
+)
+ident(
+  def pintrace "input.ml" 11 250 250 --
+)
+"input.ml" 9 224 239 "input.ml" 9 224 242
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"input.ml" 9 224 243 "input.ml" 9 224 248
+type(
+  bool
+)
+"input.ml" 9 224 239 "input.ml" 9 224 248
+type(
+  bool ref
+)
+"input.ml" 11 250 254 "input.ml" 11 250 263
+type(
+  bool ref
+)
+ident(
+  def typecheck "input.ml" 13 276 276 --
+)
+"input.ml" 11 250 266 "input.ml" 11 250 269
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"input.ml" 11 250 270 "input.ml" 11 250 274
+type(
+  bool
+)
+"input.ml" 11 250 266 "input.ml" 11 250 274
+type(
+  bool ref
+)
+"input.ml" 13 276 280 "input.ml" 13 276 287
+type(
+  string -> int64
+)
+ident(
+  def toint64 "input.ml" 17 387 387 --
+)
+"input.ml" 13 276 288 "input.ml" 13 276 289
+type(
+  string
+)
+ident(
+  def s "input.ml" 14 292 294 "input.ml" 15 316 385
+)
+"input.ml" 14 292 298 "input.ml" 14 292 313
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"input.ml" 14 292 314 "input.ml" 14 292 315
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 13 276 288 "input.ml" 13 276 289
+)
+"input.ml" 14 292 298 "input.ml" 14 292 315
+type(
+  int64
+)
+"input.ml" 15 316 331 "input.ml" 15 316 346
+type(
+  string
+)
+"input.ml" 15 316 323 "input.ml" 15 316 346
+type(
+  exn
+)
+"input.ml" 15 316 350 "input.ml" 15 316 355
+type(
+  exn -> int64
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"input.ml" 15 316 364 "input.ml" 15 316 381
+type(
+  string
+)
+"input.ml" 15 316 381 "input.ml" 15 316 382
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"input.ml" 15 316 382 "input.ml" 15 316 383
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 13 276 288 "input.ml" 13 276 289
+)
+"input.ml" 15 316 363 "input.ml" 15 316 384
+call(
+  stack
+)
+type(
+  string
+)
+"input.ml" 15 316 355 "input.ml" 15 316 385
+type(
+  exn
+)
+"input.ml" 15 316 350 "input.ml" 15 316 385
+type(
+  int64
+)
+"input.ml" 14 292 294 "input.ml" 15 316 385
+type(
+  int64
+)
+"input.ml" 17 387 391 "input.ml" 17 387 399
+type(
+  string -> Z.t
+)
+ident(
+  def tobigint "input.ml" 21 499 499 --
+)
+"input.ml" 17 387 400 "input.ml" 17 387 401
+type(
+  string
+)
+ident(
+  def s "input.ml" 18 404 406 "input.ml" 19 440 497
+)
+"input.ml" 18 404 410 "input.ml" 18 404 437
+type(
+  string -> Z.t
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_string
+)
+"input.ml" 18 404 438 "input.ml" 18 404 439
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 17 387 400 "input.ml" 17 387 401
+)
+"input.ml" 18 404 410 "input.ml" 18 404 439
+call(
+  stack
+)
+type(
+  Z.t
+)
+"input.ml" 19 440 455 "input.ml" 19 440 456
+type(
+  string
+)
+"input.ml" 19 440 447 "input.ml" 19 440 456
+type(
+  exn
+)
+"input.ml" 19 440 460 "input.ml" 19 440 465
+type(
+  exn -> Z.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"input.ml" 19 440 474 "input.ml" 19 440 493
+type(
+  string
+)
+"input.ml" 19 440 493 "input.ml" 19 440 494
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"input.ml" 19 440 494 "input.ml" 19 440 495
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 17 387 400 "input.ml" 17 387 401
+)
+"input.ml" 19 440 473 "input.ml" 19 440 496
+call(
+  stack
+)
+type(
+  string
+)
+"input.ml" 19 440 465 "input.ml" 19 440 497
+type(
+  exn
+)
+"input.ml" 19 440 460 "input.ml" 19 440 497
+type(
+  Z.t
+)
+"input.ml" 18 404 406 "input.ml" 19 440 497
+type(
+  Z.t
+)
+"input.ml" 21 499 503 "input.ml" 21 499 511
+type(
+  int64 ref -> string -> unit
+)
+ident(
+  def setint64 "input.ml" 23 534 534 --
+)
+"input.ml" 21 499 512 "input.ml" 21 499 513
+type(
+  int64 ref
+)
+ident(
+  def r "input.ml" 21 499 514 "input.ml" 21 499 532
+)
+"input.ml" 21 499 514 "input.ml" 21 499 515
+type(
+  string
+)
+ident(
+  def s "input.ml" 21 499 518 "input.ml" 21 499 532
+)
+"input.ml" 21 499 518 "input.ml" 21 499 519
+type(
+  int64 ref
+)
+ident(
+  int_ref r "input.ml" 21 499 512 "input.ml" 21 499 513
+)
+"input.ml" 21 499 520 "input.ml" 21 499 522
+type(
+  int64 ref -> int64 -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"input.ml" 21 499 523 "input.ml" 21 499 530
+type(
+  string -> int64
+)
+ident(
+  int_ref toint64 "input.ml" 13 276 280 "input.ml" 13 276 287
+)
+"input.ml" 21 499 531 "input.ml" 21 499 532
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 21 499 514 "input.ml" 21 499 515
+)
+"input.ml" 21 499 523 "input.ml" 21 499 532
+call(
+  stack
+)
+type(
+  int64
+)
+"input.ml" 21 499 518 "input.ml" 21 499 532
+type(
+  unit
+)
+"input.ml" 23 534 538 "input.ml" 23 534 547
+type(
+  Z.t ref -> string -> unit
+)
+ident(
+  def setbigint "input.ml" 25 571 571 --
+)
+"input.ml" 23 534 548 "input.ml" 23 534 549
+type(
+  Z.t ref
+)
+ident(
+  def r "input.ml" 23 534 550 "input.ml" 23 534 569
+)
+"input.ml" 23 534 550 "input.ml" 23 534 551
+type(
+  string
+)
+ident(
+  def s "input.ml" 23 534 554 "input.ml" 23 534 569
+)
+"input.ml" 23 534 554 "input.ml" 23 534 555
+type(
+  Z.t ref
+)
+ident(
+  int_ref r "input.ml" 23 534 548 "input.ml" 23 534 549
+)
+"input.ml" 23 534 556 "input.ml" 23 534 558
+type(
+  Z.t ref -> Z.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"input.ml" 23 534 559 "input.ml" 23 534 567
+type(
+  string -> Z.t
+)
+ident(
+  int_ref tobigint "input.ml" 17 387 391 "input.ml" 17 387 399
+)
+"input.ml" 23 534 568 "input.ml" 23 534 569
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 23 534 550 "input.ml" 23 534 551
+)
+"input.ml" 23 534 559 "input.ml" 23 534 569
+call(
+  stack
+)
+type(
+  Z.t
+)
+"input.ml" 23 534 554 "input.ml" 23 534 569
+type(
+  unit
+)
+"input.ml" 25 571 575 "input.ml" 25 571 590
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def stream_speclist "input.ml" 36 900 900 --
+)
+"input.ml" 28 660 665 "input.ml" 28 660 672
+type(
+  string
+)
+"input.ml" 29 674 690 "input.ml" 29 674 698
+type(
+  int64 ref -> string -> unit
+)
+ident(
+  int_ref setint64 "input.ml" 21 499 503 "input.ml" 21 499 511
+)
+"input.ml" 29 674 699 "input.ml" 29 674 709
+type(
+  int64 ref
+)
+ident(
+  int_ref streamrate "input.ml" 8 141 145 "input.ml" 8 141 155
+)
+"input.ml" 29 674 689 "input.ml" 29 674 710
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"input.ml" 29 674 679 "input.ml" 29 674 710
+type(
+  Arg.spec
+)
+"input.ml" 29 674 712 "input.ml" 29 674 742
+type(
+  string
+)
+"input.ml" 28 660 664 "input.ml" 29 674 743
+type(
+  string * Arg.spec * string
+)
+"input.ml" 30 745 750 "input.ml" 30 745 764
+type(
+  string
+)
+"input.ml" 31 766 786 "input.ml" 31 766 787
+type(
+  string
+)
+ident(
+  def s "input.ml" 32 791 798 "input.ml" 32 791 834
+)
+"input.ml" 32 791 798 "input.ml" 32 791 810
+type(
+  [ `Tracestream of string ] option ref
+)
+ident(
+  int_ref streaminputs "input.ml" 7 113 117 "input.ml" 7 113 129
+)
+"input.ml" 32 791 811 "input.ml" 32 791 813
+type(
+  [ `Tracestream of string ] option ref ->
+  [ `Tracestream of string ] option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"input.ml" 32 791 832 "input.ml" 32 791 833
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 31 766 786 "input.ml" 31 766 787
+)
+"input.ml" 32 791 818 "input.ml" 32 791 834
+type(
+  [ `Tracestream of string ]
+)
+"input.ml" 32 791 814 "input.ml" 32 791 834
+type(
+  [ `Tracestream of string ] option
+)
+"input.ml" 32 791 798 "input.ml" 32 791 834
+type(
+  unit
+)
+"input.ml" 31 766 781 "input.ml" 32 791 835
+type(
+  string -> unit
+)
+"input.ml" 31 766 771 "input.ml" 32 791 835
+type(
+  Arg.spec
+)
+"input.ml" 33 837 842 "input.ml" 33 837 892
+type(
+  string
+)
+"input.ml" 30 745 749 "input.ml" 33 837 893
+type(
+  string * Arg.spec * string
+)
+"input.ml" 27 656 658 "input.ml" 34 895 898
+type(
+  (string * Arg.spec * string) list
+)
+"input.ml" 36 900 904 "input.ml" 36 900 912
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] -> unit
+)
+ident(
+  def addinput "input.ml" 38 941 941 --
+)
+"input.ml" 36 900 913 "input.ml" 36 900 914
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ]
+)
+ident(
+  def i "input.ml" 36 900 917 "input.ml" 36 900 939
+)
+"input.ml" 36 900 917 "input.ml" 36 900 923
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref
+)
+ident(
+  int_ref inputs "input.ml" 6 93 97 "input.ml" 6 93 103
+)
+"input.ml" 36 900 924 "input.ml" 36 900 926
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref ->
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"input.ml" 36 900 927 "input.ml" 36 900 928
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ]
+)
+ident(
+  int_ref i "input.ml" 36 900 913 "input.ml" 36 900 914
+)
+"input.ml" 36 900 932 "input.ml" 36 900 933
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref ->
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 36 900 933 "input.ml" 36 900 939
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref
+)
+ident(
+  int_ref inputs "input.ml" 6 93 97 "input.ml" 6 93 103
+)
+"input.ml" 36 900 932 "input.ml" 36 900 939
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+"input.ml" 36 900 927 "input.ml" 36 900 939
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+"input.ml" 36 900 917 "input.ml" 36 900 939
+type(
+  unit
+)
+"input.ml" 38 941 945 "input.ml" 38 941 959
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def trace_speclist "input.ml" 46 1090 1090 --
+)
+"input.ml" 40 964 969 "input.ml" 40 964 977
+type(
+  string
+)
+"input.ml" 41 979 999 "input.ml" 41 979 1000
+type(
+  string
+)
+ident(
+  def s "input.ml" 42 1004 1011 "input.ml" 42 1004 1030
+)
+"input.ml" 42 1004 1011 "input.ml" 42 1004 1019
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] -> unit
+)
+ident(
+  int_ref addinput "input.ml" 36 900 904 "input.ml" 36 900 912
+)
+"input.ml" 42 1004 1028 "input.ml" 42 1004 1029
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 41 979 999 "input.ml" 41 979 1000
+)
+"input.ml" 42 1004 1020 "input.ml" 42 1004 1030
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ]
+)
+"input.ml" 42 1004 1011 "input.ml" 42 1004 1030
+call(
+  tail
+)
+type(
+  unit
+)
+"input.ml" 41 979 994 "input.ml" 42 1004 1031
+type(
+  string -> unit
+)
+"input.ml" 41 979 984 "input.ml" 42 1004 1031
+type(
+  Arg.spec
+)
+"input.ml" 43 1033 1038 "input.ml" 43 1033 1084
+type(
+  string
+)
+"input.ml" 40 964 968 "input.ml" 43 1033 1085
+type(
+  string * Arg.spec * string
+)
+"input.ml" 39 962 962 "input.ml" 44 1087 1088
+type(
+  (string * Arg.spec * string) list
+)
+"input.ml" 46 1090 1094 "input.ml" 46 1090 1102
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def speclist "input.ml" 74 2213 2213 --
+)
+"input.ml" 48 1109 1114 "input.ml" 48 1109 1124
+type(
+  string
+)
+"input.ml" 48 1109 1134 "input.ml" 48 1109 1141
+type(
+  bool ref
+)
+ident(
+  int_ref init_ro "input.ml" 5 69 73 "input.ml" 5 69 80
+)
+"input.ml" 48 1109 1126 "input.ml" 48 1109 1141
+type(
+  Arg.spec
+)
+"input.ml" 48 1109 1143 "input.ml" 48 1109 1159
+type(
+  string
+)
+"input.ml" 48 1109 1113 "input.ml" 48 1109 1160
+type(
+  string * Arg.spec * string
+)
+"input.ml" 49 1162 1167 "input.ml" 49 1162 1180
+type(
+  string
+)
+"input.ml" 50 1193 1204 "input.ml" 50 1193 1205
+type(
+  string
+)
+ident(
+  def s "input.ml" 50 1193 1209 "input.ml" 50 1193 1229
+)
+"input.ml" 50 1193 1209 "input.ml" 50 1193 1219
+type(
+  string option ref
+)
+ident(
+  int_ref bfd_target "input.ml" 4 43 47 "input.ml" 4 43 57
+)
+"input.ml" 50 1193 1220 "input.ml" 50 1193 1222
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"input.ml" 50 1193 1228 "input.ml" 50 1193 1229
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 50 1193 1204 "input.ml" 50 1193 1205
+)
+"input.ml" 50 1193 1223 "input.ml" 50 1193 1229
+type(
+  string option
+)
+"input.ml" 50 1193 1209 "input.ml" 50 1193 1229
+type(
+  unit
+)
+"input.ml" 50 1193 1199 "input.ml" 50 1193 1230
+type(
+  string -> unit
+)
+"input.ml" 49 1162 1182 "input.ml" 50 1193 1230
+type(
+  Arg.spec
+)
+"input.ml" 51 1232 1237 "input.ml" 51 1232 1267
+type(
+  string
+)
+"input.ml" 49 1162 1166 "input.ml" 51 1232 1268
+type(
+  string * Arg.spec * string
+)
+"input.ml" 52 1270 1275 "input.ml" 52 1270 1281
+type(
+  string
+)
+"input.ml" 53 1283 1303 "input.ml" 53 1283 1304
+type(
+  string
+)
+ident(
+  def s "input.ml" 53 1283 1308 "input.ml" 53 1283 1325
+)
+"input.ml" 53 1283 1308 "input.ml" 53 1283 1316
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] -> unit
+)
+ident(
+  int_ref addinput "input.ml" 36 900 904 "input.ml" 36 900 912
+)
+"input.ml" 53 1283 1323 "input.ml" 53 1283 1324
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 53 1283 1303 "input.ml" 53 1283 1304
+)
+"input.ml" 53 1283 1317 "input.ml" 53 1283 1325
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ]
+)
+"input.ml" 53 1283 1308 "input.ml" 53 1283 1325
+call(
+  tail
+)
+type(
+  unit
+)
+"input.ml" 53 1283 1298 "input.ml" 53 1283 1326
+type(
+  string -> unit
+)
+"input.ml" 53 1283 1288 "input.ml" 53 1283 1326
+type(
+  Arg.spec
+)
+"input.ml" 54 1328 1333 "input.ml" 54 1328 1368
+type(
+  string
+)
+"input.ml" 52 1270 1274 "input.ml" 54 1328 1369
+type(
+  string * Arg.spec * string
+)
+"input.ml" 55 1371 1376 "input.ml" 55 1371 1387
+type(
+  string
+)
+"input.ml" 56 1389 1408 "input.ml" 56 1389 1409
+type(
+  string ref
+)
+"input.ml" 56 1389 1412 "input.ml" 56 1389 1415
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"input.ml" 56 1389 1416 "input.ml" 56 1389 1418
+type(
+  string
+)
+"input.ml" 56 1389 1412 "input.ml" 56 1389 1418
+type(
+  string ref
+)
+"input.ml" 57 1419 1438 "input.ml" 57 1419 1439
+type(
+  Type.addr ref
+)
+"input.ml" 57 1419 1442 "input.ml" 57 1419 1445
+type(
+  Type.addr -> Type.addr ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"input.ml" 57 1419 1447 "input.ml" 57 1419 1449
+type(
+  int -> Type.addr
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"input.ml" 57 1419 1450 "input.ml" 57 1419 1451
+type(
+  int
+)
+"input.ml" 57 1419 1446 "input.ml" 57 1419 1452
+call(
+  stack
+)
+type(
+  Type.addr
+)
+"input.ml" 57 1419 1442 "input.ml" 57 1419 1452
+type(
+  Type.addr ref
+)
+"input.ml" 58 1456 1487 "input.ml" 58 1456 1488
+type(
+  string ref
+)
+ident(
+  int_ref f "input.ml" 56 1389 1408 "input.ml" 56 1389 1409
+)
+"input.ml" 58 1456 1472 "input.ml" 58 1456 1488
+type(
+  Arg.spec
+)
+"input.ml" 58 1456 1501 "input.ml" 58 1456 1510
+type(
+  Type.addr ref -> string -> unit
+)
+ident(
+  int_ref setbigint "input.ml" 23 534 538 "input.ml" 23 534 547
+)
+"input.ml" 58 1456 1511 "input.ml" 58 1456 1512
+type(
+  Type.addr ref
+)
+ident(
+  int_ref s "input.ml" 57 1419 1438 "input.ml" 57 1419 1439
+)
+"input.ml" 58 1456 1500 "input.ml" 58 1456 1513
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"input.ml" 58 1456 1490 "input.ml" 58 1456 1513
+type(
+  Arg.spec
+)
+"input.ml" 59 1515 1546 "input.ml" 59 1515 1547
+type(
+  string
+)
+ident(
+  def e "input.ml" 59 1515 1549 "input.ml" 59 1515 1588
+)
+"input.ml" 59 1515 1549 "input.ml" 59 1515 1557
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] -> unit
+)
+ident(
+  int_ref addinput "input.ml" 36 900 904 "input.ml" 36 900 912
+)
+"input.ml" 59 1515 1568 "input.ml" 59 1515 1569
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 59 1515 1569 "input.ml" 59 1515 1570
+type(
+  string ref
+)
+ident(
+  int_ref f "input.ml" 56 1389 1408 "input.ml" 56 1389 1409
+)
+"input.ml" 59 1515 1568 "input.ml" 59 1515 1570
+type(
+  string
+)
+"input.ml" 59 1515 1572 "input.ml" 59 1515 1573
+type(
+  Type.addr ref -> Type.addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 59 1515 1573 "input.ml" 59 1515 1574
+type(
+  Type.addr ref
+)
+ident(
+  int_ref s "input.ml" 57 1419 1438 "input.ml" 57 1419 1439
+)
+"input.ml" 59 1515 1572 "input.ml" 59 1515 1574
+type(
+  Type.addr
+)
+"input.ml" 59 1515 1576 "input.ml" 59 1515 1584
+type(
+  string -> Type.addr
+)
+ident(
+  int_ref tobigint "input.ml" 17 387 391 "input.ml" 17 387 399
+)
+"input.ml" 59 1515 1585 "input.ml" 59 1515 1586
+type(
+  string
+)
+ident(
+  int_ref e "input.ml" 59 1515 1546 "input.ml" 59 1515 1547
+)
+"input.ml" 59 1515 1576 "input.ml" 59 1515 1586
+call(
+  stack
+)
+type(
+  Type.addr
+)
+"input.ml" 59 1515 1567 "input.ml" 59 1515 1587
+type(
+  string * Type.addr * Type.addr
+)
+"input.ml" 59 1515 1557 "input.ml" 59 1515 1588
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ]
+)
+"input.ml" 59 1515 1549 "input.ml" 59 1515 1588
+call(
+  tail
+)
+type(
+  unit
+)
+"input.ml" 59 1515 1541 "input.ml" 59 1515 1589
+type(
+  string -> unit
+)
+"input.ml" 59 1515 1531 "input.ml" 59 1515 1589
+type(
+  Arg.spec
+)
+"input.ml" 58 1456 1471 "input.ml" 59 1515 1590
+type(
+  Arg.spec list
+)
+"input.ml" 56 1389 1403 "input.ml" 59 1515 1591
+type(
+  Arg.spec list
+)
+"input.ml" 56 1389 1394 "input.ml" 59 1515 1591
+type(
+  Arg.spec
+)
+"input.ml" 60 1593 1598 "input.ml" 60 1593 1666
+type(
+  string
+)
+"input.ml" 55 1371 1375 "input.ml" 60 1593 1667
+type(
+  string * Arg.spec * string
+)
+"input.ml" 61 1669 1674 "input.ml" 61 1669 1687
+type(
+  string
+)
+"input.ml" 62 1689 1709 "input.ml" 62 1689 1710
+type(
+  string
+)
+ident(
+  def s "input.ml" 62 1689 1714 "input.ml" 62 1689 1738
+)
+"input.ml" 62 1689 1714 "input.ml" 62 1689 1722
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] -> unit
+)
+ident(
+  int_ref addinput "input.ml" 36 900 904 "input.ml" 36 900 912
+)
+"input.ml" 62 1689 1736 "input.ml" 62 1689 1737
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 62 1689 1709 "input.ml" 62 1689 1710
+)
+"input.ml" 62 1689 1723 "input.ml" 62 1689 1738
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ]
+)
+"input.ml" 62 1689 1714 "input.ml" 62 1689 1738
+call(
+  tail
+)
+type(
+  unit
+)
+"input.ml" 62 1689 1704 "input.ml" 62 1689 1739
+type(
+  string -> unit
+)
+"input.ml" 62 1689 1694 "input.ml" 62 1689 1739
+type(
+  Arg.spec
+)
+"input.ml" 63 1741 1746 "input.ml" 63 1741 1813
+type(
+  string
+)
+"input.ml" 61 1669 1673 "input.ml" 63 1741 1814
+type(
+  string * Arg.spec * string
+)
+"input.ml" 64 1816 1821 "input.ml" 64 1816 1836
+type(
+  string
+)
+"input.ml" 65 1838 1857 "input.ml" 65 1838 1858
+type(
+  string ref
+)
+"input.ml" 65 1838 1861 "input.ml" 65 1838 1864
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"input.ml" 65 1838 1865 "input.ml" 65 1838 1867
+type(
+  string
+)
+"input.ml" 65 1838 1861 "input.ml" 65 1838 1867
+type(
+  string ref
+)
+"input.ml" 66 1871 1902 "input.ml" 66 1871 1903
+type(
+  string ref
+)
+ident(
+  int_ref f "input.ml" 65 1838 1857 "input.ml" 65 1838 1858
+)
+"input.ml" 66 1871 1887 "input.ml" 66 1871 1903
+type(
+  Arg.spec
+)
+"input.ml" 67 1905 1937 "input.ml" 67 1905 1938
+type(
+  string
+)
+ident(
+  def s "input.ml" 67 1905 1942 "input.ml" 67 1905 1983
+)
+"input.ml" 67 1905 1942 "input.ml" 67 1905 1950
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] -> unit
+)
+ident(
+  int_ref addinput "input.ml" 36 900 904 "input.ml" 36 900 912
+)
+"input.ml" 67 1905 1967 "input.ml" 67 1905 1968
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 67 1905 1968 "input.ml" 67 1905 1969
+type(
+  string ref
+)
+ident(
+  int_ref f "input.ml" 65 1838 1857 "input.ml" 65 1838 1858
+)
+"input.ml" 67 1905 1967 "input.ml" 67 1905 1969
+type(
+  string
+)
+"input.ml" 67 1905 1971 "input.ml" 67 1905 1979
+type(
+  string -> Type.addr
+)
+ident(
+  int_ref tobigint "input.ml" 17 387 391 "input.ml" 17 387 399
+)
+"input.ml" 67 1905 1980 "input.ml" 67 1905 1981
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 67 1905 1937 "input.ml" 67 1905 1938
+)
+"input.ml" 67 1905 1971 "input.ml" 67 1905 1981
+call(
+  stack
+)
+type(
+  Type.addr
+)
+"input.ml" 67 1905 1966 "input.ml" 67 1905 1982
+type(
+  string * Type.addr
+)
+"input.ml" 67 1905 1951 "input.ml" 67 1905 1983
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ]
+)
+"input.ml" 67 1905 1942 "input.ml" 67 1905 1983
+call(
+  tail
+)
+type(
+  unit
+)
+"input.ml" 67 1905 1932 "input.ml" 67 1905 1984
+type(
+  string -> unit
+)
+"input.ml" 67 1905 1921 "input.ml" 67 1905 1984
+type(
+  Arg.spec
+)
+"input.ml" 66 1871 1886 "input.ml" 67 1905 1985
+type(
+  Arg.spec list
+)
+"input.ml" 65 1838 1852 "input.ml" 67 1905 1986
+type(
+  Arg.spec list
+)
+"input.ml" 65 1838 1843 "input.ml" 67 1905 1986
+type(
+  Arg.spec
+)
+"input.ml" 68 1988 1993 "input.ml" 68 1988 2088
+type(
+  string
+)
+"input.ml" 64 1816 1820 "input.ml" 68 1988 2089
+type(
+  string * Arg.spec * string
+)
+"input.ml" 69 2091 2096 "input.ml" 69 2091 2101
+type(
+  string
+)
+"input.ml" 70 2103 2123 "input.ml" 70 2103 2124
+type(
+  string
+)
+ident(
+  def s "input.ml" 70 2103 2128 "input.ml" 70 2103 2144
+)
+"input.ml" 70 2103 2128 "input.ml" 70 2103 2136
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] -> unit
+)
+ident(
+  int_ref addinput "input.ml" 36 900 904 "input.ml" 36 900 912
+)
+"input.ml" 70 2103 2142 "input.ml" 70 2103 2143
+type(
+  string
+)
+ident(
+  int_ref s "input.ml" 70 2103 2123 "input.ml" 70 2103 2124
+)
+"input.ml" 70 2103 2137 "input.ml" 70 2103 2144
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ]
+)
+"input.ml" 70 2103 2128 "input.ml" 70 2103 2144
+call(
+  tail
+)
+type(
+  unit
+)
+"input.ml" 70 2103 2118 "input.ml" 70 2103 2145
+type(
+  string -> unit
+)
+"input.ml" 70 2103 2108 "input.ml" 70 2103 2145
+type(
+  Arg.spec
+)
+"input.ml" 71 2147 2152 "input.ml" 71 2147 2188
+type(
+  string
+)
+"input.ml" 69 2091 2095 "input.ml" 71 2147 2189
+type(
+  string * Arg.spec * string
+)
+"input.ml" 47 1105 1107 "input.ml" 72 2191 2194
+type(
+  (string * Arg.spec * string) list
+)
+"input.ml" 72 2191 2195 "input.ml" 72 2191 2196
+type(
+  (string * Arg.spec * string) list ->
+  (string * Arg.spec * string) list -> (string * Arg.spec * string) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"input.ml" 72 2191 2197 "input.ml" 72 2191 2211
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  int_ref trace_speclist "input.ml" 38 941 945 "input.ml" 38 941 959
+)
+"input.ml" 47 1105 1107 "input.ml" 72 2191 2211
+call(
+  stack
+)
+type(
+  (string * Arg.spec * string) list
+)
+"input.ml" 74 2213 2217 "input.ml" 74 2213 2228
+type(
+  unit -> Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  def get_program "input.ml" 110 3799 3799 --
+)
+"input.ml" 74 2213 2229 "input.ml" 74 2213 2231
+type(
+  unit
+)
+"input.ml" 75 2234 2239 "input.ml" 75 2234 2240
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref ->
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 75 2234 2240 "input.ml" 75 2234 2246
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref
+)
+ident(
+  int_ref inputs "input.ml" 6 93 97 "input.ml" 6 93 103
+)
+"input.ml" 75 2234 2239 "input.ml" 75 2234 2246
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+"input.ml" 75 2234 2247 "input.ml" 75 2234 2248
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ->
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"input.ml" 75 2234 2249 "input.ml" 75 2234 2251
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+"input.ml" 75 2234 2239 "input.ml" 75 2234 2251
+type(
+  bool
+)
+"input.ml" 75 2234 2257 "input.ml" 75 2234 2262
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"input.ml" 75 2234 2271 "input.ml" 75 2234 2291
+type(
+  string
+)
+"input.ml" 75 2234 2262 "input.ml" 75 2234 2292
+type(
+  exn
+)
+"input.ml" 75 2234 2257 "input.ml" 75 2234 2292
+type(
+  unit
+)
+"input.ml" 75 2234 2236 "input.ml" 75 2234 2292
+type(
+  unit
+)
+"input.ml" 76 2294 2300 "input.ml" 76 2294 2312
+type(
+  string -> Asmir.asmprogram
+)
+"input.ml" 76 2294 2313 "input.ml" 76 2294 2314
+type(
+  string
+)
+ident(
+  def f "input.ml" 76 2294 2317 "input.ml" 76 2294 2357
+)
+"input.ml" 76 2294 2317 "input.ml" 76 2294 2335
+type(
+  ?base:Type.addr -> ?target:string -> string -> Asmir.asmprogram
+)
+ident(
+  ext_ref Asmir.open_program
+)
+"input.ml" 76 2294 2344 "input.ml" 76 2294 2345
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 76 2294 2345 "input.ml" 76 2294 2355
+type(
+  string option ref
+)
+ident(
+  int_ref bfd_target "input.ml" 4 43 47 "input.ml" 4 43 57
+)
+"input.ml" 76 2294 2344 "input.ml" 76 2294 2355
+type(
+  string option
+)
+"input.ml" 76 2294 2356 "input.ml" 76 2294 2357
+type(
+  string
+)
+ident(
+  int_ref f "input.ml" 76 2294 2313 "input.ml" 76 2294 2314
+)
+"input.ml" 76 2294 2317 "input.ml" 76 2294 2357
+call(
+  tail
+)
+type(
+  Asmir.asmprogram
+)
+"input.ml" 77 2361 2367 "input.ml" 77 2361 2374
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * 'a ->
+  [< `Bin of string
+   | `Binrange of string * Type.addr * Type.addr
+   | `Binrecurse of string
+   | `Binrecurseat of string * Type.addr
+   | `Il of string
+   | `Trace of string ] ->
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 77 2361 2376 "input.ml" 77 2361 2380
+type(
+  Ast.stmt list
+)
+ident(
+  def oldp "input.ml" 77 2361 2395 "input.ml" 99 3386 3434
+)
+"input.ml" 77 2361 2381 "input.ml" 77 2361 2389
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  def oldscope "input.ml" 77 2361 2395 "input.ml" 99 3386 3434
+)
+"input.ml" 77 2361 2390 "input.ml" 77 2361 2391
+type(
+  'a
+)
+"input.ml" 77 2361 2375 "input.ml" 77 2361 2392
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * 'a
+)
+"input.ml" 78 2404 2414 "input.ml" 78 2404 2415
+type(
+  string
+)
+ident(
+  def f "input.ml" 79 2419 2425 "input.ml" 80 2492 2535
+)
+"input.ml" 78 2404 2410 "input.ml" 78 2404 2415
+type(
+  [< `Bin of string
+   | `Binrange of string * Type.addr * Type.addr
+   | `Binrecurse of string
+   | `Binrecurseat of string * Type.addr
+   | `Il of string
+   | `Trace of string ]
+  as 'b
+)
+"input.ml" 79 2419 2429 "input.ml" 79 2419 2433
+type(
+  Ast.program
+)
+"input.ml" 79 2419 2435 "input.ml" 79 2419 2443
+type(
+  Grammar_scope.Scope.t
+)
+"input.ml" 79 2419 2429 "input.ml" 79 2419 2443
+type(
+  Ast.program * Grammar_scope.Scope.t
+)
+"input.ml" 79 2419 2446 "input.ml" 79 2419 2470
+type(
+  ?scope:Grammar_scope.Scope.t ->
+  string -> Ast.program * Grammar_scope.Scope.t
+)
+ident(
+  ext_ref Parser.program_from_file
+)
+"input.ml" 79 2419 2478 "input.ml" 79 2419 2486
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref oldscope "input.ml" 77 2361 2381 "input.ml" 77 2361 2389
+)
+"input.ml" 79 2419 2487 "input.ml" 79 2419 2488
+type(
+  string
+)
+ident(
+  int_ref f "input.ml" 78 2404 2414 "input.ml" 78 2404 2415
+)
+"input.ml" 79 2419 2446 "input.ml" 79 2419 2488
+call(
+  stack
+)
+type(
+  Ast.program * Grammar_scope.Scope.t
+)
+"input.ml" 80 2492 2498 "input.ml" 80 2492 2509
+type(
+  Ast.program -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.append
+)
+"input.ml" 80 2492 2510 "input.ml" 80 2492 2514
+type(
+  Ast.program
+)
+ident(
+  int_ref newp "input.ml" 79 2419 2429 "input.ml" 79 2419 2433
+)
+"input.ml" 80 2492 2515 "input.ml" 80 2492 2519
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref oldp "input.ml" 77 2361 2376 "input.ml" 77 2361 2380
+)
+"input.ml" 80 2492 2498 "input.ml" 80 2492 2519
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"input.ml" 80 2492 2521 "input.ml" 80 2492 2529
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref newscope "input.ml" 79 2419 2435 "input.ml" 79 2419 2443
+)
+"input.ml" 80 2492 2531 "input.ml" 80 2492 2535
+type(
+  Arch.arch option
+)
+"input.ml" 80 2492 2498 "input.ml" 80 2492 2535
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 79 2419 2425 "input.ml" 80 2492 2535
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 81 2536 2547 "input.ml" 81 2536 2548
+type(
+  string
+)
+ident(
+  def f "input.ml" 82 2552 2558 "input.ml" 84 2632 2721
+)
+"input.ml" 81 2536 2542 "input.ml" 81 2536 2548
+type(
+  'b
+)
+"input.ml" 82 2552 2562 "input.ml" 82 2552 2563
+type(
+  Asmir.asmprogram
+)
+"input.ml" 82 2552 2566 "input.ml" 82 2552 2578
+type(
+  string -> Asmir.asmprogram
+)
+ident(
+  int_ref open_program "input.ml" 76 2294 2300 "input.ml" 76 2294 2312
+)
+"input.ml" 82 2552 2579 "input.ml" 82 2552 2580
+type(
+  string
+)
+ident(
+  int_ref f "input.ml" 81 2536 2547 "input.ml" 81 2536 2548
+)
+"input.ml" 82 2552 2566 "input.ml" 82 2552 2580
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"input.ml" 83 2584 2594 "input.ml" 83 2584 2598
+type(
+  Arch.arch
+)
+"input.ml" 83 2584 2601 "input.ml" 83 2584 2626
+type(
+  Asmir.asmprogram -> Arch.arch
+)
+ident(
+  ext_ref Asmir.get_asmprogram_arch
+)
+"input.ml" 83 2584 2627 "input.ml" 83 2584 2628
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "input.ml" 82 2552 2562 "input.ml" 82 2552 2563
+)
+"input.ml" 83 2584 2601 "input.ml" 83 2584 2628
+call(
+  stack
+)
+type(
+  Arch.arch
+)
+"input.ml" 84 2632 2638 "input.ml" 84 2632 2649
+type(
+  Ast.program -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.append
+)
+"input.ml" 84 2632 2651 "input.ml" 84 2632 2674
+type(
+  ?init_ro:bool -> Asmir.asmprogram -> Ast.program
+)
+ident(
+  ext_ref Asmir.asmprogram_to_bap
+)
+"input.ml" 84 2632 2684 "input.ml" 84 2632 2685
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 84 2632 2685 "input.ml" 84 2632 2692
+type(
+  bool ref
+)
+ident(
+  int_ref init_ro "input.ml" 5 69 73 "input.ml" 5 69 80
+)
+"input.ml" 84 2632 2684 "input.ml" 84 2632 2692
+type(
+  bool
+)
+"input.ml" 84 2632 2693 "input.ml" 84 2632 2694
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "input.ml" 82 2552 2562 "input.ml" 82 2552 2563
+)
+"input.ml" 84 2632 2650 "input.ml" 84 2632 2695
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"input.ml" 84 2632 2696 "input.ml" 84 2632 2700
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref oldp "input.ml" 77 2361 2376 "input.ml" 77 2361 2380
+)
+"input.ml" 84 2632 2638 "input.ml" 84 2632 2700
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"input.ml" 84 2632 2702 "input.ml" 84 2632 2710
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref oldscope "input.ml" 77 2361 2381 "input.ml" 77 2361 2389
+)
+"input.ml" 84 2632 2717 "input.ml" 84 2632 2721
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "input.ml" 83 2584 2594 "input.ml" 83 2584 2598
+)
+"input.ml" 84 2632 2712 "input.ml" 84 2632 2721
+type(
+  Arch.arch option
+)
+"input.ml" 84 2632 2638 "input.ml" 84 2632 2721
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 83 2584 2590 "input.ml" 84 2632 2721
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 82 2552 2558 "input.ml" 84 2632 2721
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 85 2722 2739 "input.ml" 85 2722 2740
+type(
+  string
+)
+ident(
+  def f "input.ml" 86 2751 2757 "input.ml" 88 2831 2930
+)
+"input.ml" 85 2722 2742 "input.ml" 85 2722 2743
+type(
+  Type.addr
+)
+ident(
+  def s "input.ml" 86 2751 2757 "input.ml" 88 2831 2930
+)
+"input.ml" 85 2722 2745 "input.ml" 85 2722 2746
+type(
+  Type.addr
+)
+ident(
+  def e "input.ml" 86 2751 2757 "input.ml" 88 2831 2930
+)
+"input.ml" 85 2722 2738 "input.ml" 85 2722 2747
+type(
+  string * Type.addr * Type.addr
+)
+"input.ml" 85 2722 2728 "input.ml" 85 2722 2747
+type(
+  'b
+)
+"input.ml" 86 2751 2761 "input.ml" 86 2751 2762
+type(
+  Asmir.asmprogram
+)
+"input.ml" 86 2751 2765 "input.ml" 86 2751 2777
+type(
+  string -> Asmir.asmprogram
+)
+ident(
+  int_ref open_program "input.ml" 76 2294 2300 "input.ml" 76 2294 2312
+)
+"input.ml" 86 2751 2778 "input.ml" 86 2751 2779
+type(
+  string
+)
+ident(
+  int_ref f "input.ml" 85 2722 2739 "input.ml" 85 2722 2740
+)
+"input.ml" 86 2751 2765 "input.ml" 86 2751 2779
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"input.ml" 87 2783 2793 "input.ml" 87 2783 2797
+type(
+  Arch.arch
+)
+"input.ml" 87 2783 2800 "input.ml" 87 2783 2825
+type(
+  Asmir.asmprogram -> Arch.arch
+)
+ident(
+  ext_ref Asmir.get_asmprogram_arch
+)
+"input.ml" 87 2783 2826 "input.ml" 87 2783 2827
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "input.ml" 86 2751 2761 "input.ml" 86 2751 2762
+)
+"input.ml" 87 2783 2800 "input.ml" 87 2783 2827
+call(
+  stack
+)
+type(
+  Arch.arch
+)
+"input.ml" 88 2831 2837 "input.ml" 88 2831 2848
+type(
+  Ast.program -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.append
+)
+"input.ml" 88 2831 2850 "input.ml" 88 2831 2879
+type(
+  ?init_ro:bool -> Asmir.asmprogram -> Type.addr -> Type.addr -> Ast.program
+)
+ident(
+  ext_ref Asmir.asmprogram_to_bap_range
+)
+"input.ml" 88 2831 2889 "input.ml" 88 2831 2890
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 88 2831 2890 "input.ml" 88 2831 2897
+type(
+  bool ref
+)
+ident(
+  int_ref init_ro "input.ml" 5 69 73 "input.ml" 5 69 80
+)
+"input.ml" 88 2831 2889 "input.ml" 88 2831 2897
+type(
+  bool
+)
+"input.ml" 88 2831 2898 "input.ml" 88 2831 2899
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "input.ml" 86 2751 2761 "input.ml" 86 2751 2762
+)
+"input.ml" 88 2831 2900 "input.ml" 88 2831 2901
+type(
+  Type.addr
+)
+ident(
+  int_ref s "input.ml" 85 2722 2742 "input.ml" 85 2722 2743
+)
+"input.ml" 88 2831 2902 "input.ml" 88 2831 2903
+type(
+  Type.addr
+)
+ident(
+  int_ref e "input.ml" 85 2722 2745 "input.ml" 85 2722 2746
+)
+"input.ml" 88 2831 2849 "input.ml" 88 2831 2904
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"input.ml" 88 2831 2905 "input.ml" 88 2831 2909
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref oldp "input.ml" 77 2361 2376 "input.ml" 77 2361 2380
+)
+"input.ml" 88 2831 2837 "input.ml" 88 2831 2909
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"input.ml" 88 2831 2911 "input.ml" 88 2831 2919
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref oldscope "input.ml" 77 2361 2381 "input.ml" 77 2361 2389
+)
+"input.ml" 88 2831 2926 "input.ml" 88 2831 2930
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "input.ml" 87 2783 2793 "input.ml" 87 2783 2797
+)
+"input.ml" 88 2831 2921 "input.ml" 88 2831 2930
+type(
+  Arch.arch option
+)
+"input.ml" 88 2831 2837 "input.ml" 88 2831 2930
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 87 2783 2789 "input.ml" 88 2831 2930
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 86 2751 2757 "input.ml" 88 2831 2930
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 89 2931 2949 "input.ml" 89 2931 2950
+type(
+  string
+)
+ident(
+  def f "input.ml" 90 2954 2960 "input.ml" 92 3034 3109
+)
+"input.ml" 89 2931 2937 "input.ml" 89 2931 2950
+type(
+  'b
+)
+"input.ml" 90 2954 2964 "input.ml" 90 2954 2965
+type(
+  Asmir.asmprogram
+)
+"input.ml" 90 2954 2968 "input.ml" 90 2954 2980
+type(
+  string -> Asmir.asmprogram
+)
+ident(
+  int_ref open_program "input.ml" 76 2294 2300 "input.ml" 76 2294 2312
+)
+"input.ml" 90 2954 2981 "input.ml" 90 2954 2982
+type(
+  string
+)
+ident(
+  int_ref f "input.ml" 89 2931 2949 "input.ml" 89 2931 2950
+)
+"input.ml" 90 2954 2968 "input.ml" 90 2954 2982
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"input.ml" 91 2986 2996 "input.ml" 91 2986 3000
+type(
+  Arch.arch
+)
+"input.ml" 91 2986 3003 "input.ml" 91 2986 3028
+type(
+  Asmir.asmprogram -> Arch.arch
+)
+ident(
+  ext_ref Asmir.get_asmprogram_arch
+)
+"input.ml" 91 2986 3029 "input.ml" 91 2986 3030
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "input.ml" 90 2954 2964 "input.ml" 90 2954 2965
+)
+"input.ml" 91 2986 3003 "input.ml" 91 2986 3030
+call(
+  stack
+)
+type(
+  Arch.arch
+)
+"input.ml" 92 3034 3040 "input.ml" 92 3034 3051
+type(
+  Ast.program -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.append
+)
+"input.ml" 92 3034 3053 "input.ml" 92 3034 3056
+type(
+  Ast.program * string -> Ast.program
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"input.ml" 92 3034 3058 "input.ml" 92 3034 3079
+type(
+  ?f:Asmir_rdisasm.callback -> Asmir.asmprogram -> Ast.program * string
+)
+ident(
+  ext_ref Asmir_rdisasm.rdisasm
+)
+"input.ml" 92 3034 3080 "input.ml" 92 3034 3081
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "input.ml" 90 2954 2964 "input.ml" 90 2954 2965
+)
+"input.ml" 92 3034 3057 "input.ml" 92 3034 3082
+call(
+  stack
+)
+type(
+  Ast.program * string
+)
+"input.ml" 92 3034 3052 "input.ml" 92 3034 3083
+type(
+  Ast.program
+)
+"input.ml" 92 3034 3084 "input.ml" 92 3034 3088
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref oldp "input.ml" 77 2361 2376 "input.ml" 77 2361 2380
+)
+"input.ml" 92 3034 3040 "input.ml" 92 3034 3088
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"input.ml" 92 3034 3090 "input.ml" 92 3034 3098
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref oldscope "input.ml" 77 2361 2381 "input.ml" 77 2361 2389
+)
+"input.ml" 92 3034 3105 "input.ml" 92 3034 3109
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "input.ml" 91 2986 2996 "input.ml" 91 2986 3000
+)
+"input.ml" 92 3034 3100 "input.ml" 92 3034 3109
+type(
+  Arch.arch option
+)
+"input.ml" 92 3034 3040 "input.ml" 92 3034 3109
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 91 2986 2992 "input.ml" 92 3034 3109
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 90 2954 2960 "input.ml" 92 3034 3109
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 93 3110 3131 "input.ml" 93 3110 3132
+type(
+  string
+)
+ident(
+  def f "input.ml" 94 3140 3146 "input.ml" 96 3220 3302
+)
+"input.ml" 93 3110 3134 "input.ml" 93 3110 3135
+type(
+  Type.addr
+)
+ident(
+  def s "input.ml" 94 3140 3146 "input.ml" 96 3220 3302
+)
+"input.ml" 93 3110 3130 "input.ml" 93 3110 3136
+type(
+  string * Type.addr
+)
+"input.ml" 93 3110 3116 "input.ml" 93 3110 3136
+type(
+  'b
+)
+"input.ml" 94 3140 3150 "input.ml" 94 3140 3151
+type(
+  Asmir.asmprogram
+)
+"input.ml" 94 3140 3154 "input.ml" 94 3140 3166
+type(
+  string -> Asmir.asmprogram
+)
+ident(
+  int_ref open_program "input.ml" 76 2294 2300 "input.ml" 76 2294 2312
+)
+"input.ml" 94 3140 3167 "input.ml" 94 3140 3168
+type(
+  string
+)
+ident(
+  int_ref f "input.ml" 93 3110 3131 "input.ml" 93 3110 3132
+)
+"input.ml" 94 3140 3154 "input.ml" 94 3140 3168
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"input.ml" 95 3172 3182 "input.ml" 95 3172 3186
+type(
+  Arch.arch
+)
+"input.ml" 95 3172 3189 "input.ml" 95 3172 3214
+type(
+  Asmir.asmprogram -> Arch.arch
+)
+ident(
+  ext_ref Asmir.get_asmprogram_arch
+)
+"input.ml" 95 3172 3215 "input.ml" 95 3172 3216
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "input.ml" 94 3140 3150 "input.ml" 94 3140 3151
+)
+"input.ml" 95 3172 3189 "input.ml" 95 3172 3216
+call(
+  stack
+)
+type(
+  Arch.arch
+)
+"input.ml" 96 3220 3226 "input.ml" 96 3220 3237
+type(
+  Ast.program -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.append
+)
+"input.ml" 96 3220 3239 "input.ml" 96 3220 3242
+type(
+  Ast.program * string -> Ast.program
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"input.ml" 96 3220 3244 "input.ml" 96 3220 3268
+type(
+  ?f:Asmir_rdisasm.callback ->
+  Asmir.asmprogram -> Type.addr list -> Ast.program * string
+)
+ident(
+  ext_ref Asmir_rdisasm.rdisasm_at
+)
+"input.ml" 96 3220 3269 "input.ml" 96 3220 3270
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "input.ml" 94 3140 3150 "input.ml" 94 3140 3151
+)
+"input.ml" 96 3220 3272 "input.ml" 96 3220 3273
+type(
+  Type.addr
+)
+ident(
+  int_ref s "input.ml" 93 3110 3134 "input.ml" 93 3110 3135
+)
+"input.ml" 96 3220 3271 "input.ml" 96 3220 3274
+type(
+  Type.addr list
+)
+"input.ml" 96 3220 3243 "input.ml" 96 3220 3275
+call(
+  stack
+)
+type(
+  Ast.program * string
+)
+"input.ml" 96 3220 3238 "input.ml" 96 3220 3276
+type(
+  Ast.program
+)
+"input.ml" 96 3220 3277 "input.ml" 96 3220 3281
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref oldp "input.ml" 77 2361 2376 "input.ml" 77 2361 2380
+)
+"input.ml" 96 3220 3226 "input.ml" 96 3220 3281
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"input.ml" 96 3220 3283 "input.ml" 96 3220 3291
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref oldscope "input.ml" 77 2361 2381 "input.ml" 77 2361 2389
+)
+"input.ml" 96 3220 3298 "input.ml" 96 3220 3302
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "input.ml" 95 3172 3182 "input.ml" 95 3172 3186
+)
+"input.ml" 96 3220 3293 "input.ml" 96 3220 3302
+type(
+  Arch.arch option
+)
+"input.ml" 96 3220 3226 "input.ml" 96 3220 3302
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 95 3172 3178 "input.ml" 96 3220 3302
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 94 3140 3146 "input.ml" 96 3220 3302
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 97 3303 3316 "input.ml" 97 3303 3317
+type(
+  string
+)
+ident(
+  def f "input.ml" 98 3321 3327 "input.ml" 99 3386 3434
+)
+"input.ml" 97 3303 3309 "input.ml" 97 3303 3317
+type(
+  'b
+)
+"input.ml" 98 3321 3331 "input.ml" 98 3321 3335
+type(
+  Ast.program
+)
+"input.ml" 98 3321 3337 "input.ml" 98 3321 3341
+type(
+  Arch.arch
+)
+"input.ml" 98 3321 3331 "input.ml" 98 3321 3341
+type(
+  Ast.program * Arch.arch
+)
+"input.ml" 98 3321 3344 "input.ml" 98 3321 3380
+type(
+  string -> Ast.program * Arch.arch
+)
+ident(
+  ext_ref Asmir.serialized_bap_from_trace_file
+)
+"input.ml" 98 3321 3381 "input.ml" 98 3321 3382
+type(
+  string
+)
+ident(
+  int_ref f "input.ml" 97 3303 3316 "input.ml" 97 3303 3317
+)
+"input.ml" 98 3321 3344 "input.ml" 98 3321 3382
+call(
+  stack
+)
+type(
+  Ast.program * Arch.arch
+)
+"input.ml" 99 3386 3392 "input.ml" 99 3386 3403
+type(
+  Ast.program -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.append
+)
+"input.ml" 99 3386 3404 "input.ml" 99 3386 3408
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "input.ml" 98 3321 3331 "input.ml" 98 3321 3335
+)
+"input.ml" 99 3386 3409 "input.ml" 99 3386 3413
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref oldp "input.ml" 77 2361 2376 "input.ml" 77 2361 2380
+)
+"input.ml" 99 3386 3392 "input.ml" 99 3386 3413
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"input.ml" 99 3386 3415 "input.ml" 99 3386 3423
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref oldscope "input.ml" 77 2361 2381 "input.ml" 77 2361 2389
+)
+"input.ml" 99 3386 3430 "input.ml" 99 3386 3434
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "input.ml" 98 3321 3337 "input.ml" 98 3321 3341
+)
+"input.ml" 99 3386 3425 "input.ml" 99 3386 3434
+type(
+  Arch.arch option
+)
+"input.ml" 99 3386 3392 "input.ml" 99 3386 3434
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 98 3321 3327 "input.ml" 99 3386 3434
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 77 2361 2395 "input.ml" 99 3386 3434
+type(
+  'b -> Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 102 3446 3454 "input.ml" 102 3446 3455
+type(
+  Ast.stmt list
+)
+ident(
+  def p "input.ml" 104 3608 3612 "input.ml" 105 3674 3690
+)
+"input.ml" 102 3446 3456 "input.ml" 102 3446 3461
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  def scope "input.ml" 104 3608 3612 "input.ml" 105 3674 3690
+)
+"input.ml" 102 3446 3462 "input.ml" 102 3446 3466
+type(
+  Arch.arch option
+)
+ident(
+  def arch "input.ml" 104 3608 3612 "input.ml" 105 3674 3690
+)
+"input.ml" 102 3446 3454 "input.ml" 102 3446 3466
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 102 3446 3469 "input.ml" 102 3446 3483
+type(
+  (Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option ->
+   [ `Bin of string
+   | `Binrange of string * Type.addr * Type.addr
+   | `Binrecurse of string
+   | `Binrecurseat of string * Type.addr
+   | `Il of string
+   | `Trace of string ] ->
+   Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option) ->
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option ->
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ->
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"input.ml" 102 3446 3484 "input.ml" 102 3446 3491
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option ->
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] ->
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  int_ref get_one "input.ml" 77 2361 2367 "input.ml" 77 2361 2374
+)
+"input.ml" 102 3446 3493 "input.ml" 102 3446 3495
+type(
+  Ast.stmt list
+)
+"input.ml" 102 3446 3497 "input.ml" 102 3446 3532
+type(
+  unit -> Grammar_scope.Scope.t
+)
+ident(
+  ext_ref Grammar_private_scope.default_scope
+)
+"input.ml" 102 3446 3533 "input.ml" 102 3446 3535
+type(
+  unit
+)
+"input.ml" 102 3446 3497 "input.ml" 102 3446 3535
+call(
+  stack
+)
+type(
+  Grammar_scope.Scope.t
+)
+"input.ml" 102 3446 3537 "input.ml" 102 3446 3541
+type(
+  Arch.arch option
+)
+"input.ml" 102 3446 3492 "input.ml" 102 3446 3542
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 102 3446 3544 "input.ml" 102 3446 3552
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ->
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"input.ml" 102 3446 3553 "input.ml" 102 3446 3554
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref ->
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 102 3446 3554 "input.ml" 102 3446 3560
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list ref
+)
+ident(
+  int_ref inputs "input.ml" 6 93 97 "input.ml" 6 93 103
+)
+"input.ml" 102 3446 3553 "input.ml" 102 3446 3560
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+"input.ml" 102 3446 3543 "input.ml" 102 3446 3561
+call(
+  stack
+)
+type(
+  [ `Bin of string
+  | `Binrange of string * Type.addr * Type.addr
+  | `Binrecurse of string
+  | `Binrecurseat of string * Type.addr
+  | `Il of string
+  | `Trace of string ] list
+)
+"input.ml" 102 3446 3469 "input.ml" 102 3446 3561
+call(
+  stack
+)
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 104 3608 3615 "input.ml" 104 3608 3616
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 104 3608 3616 "input.ml" 104 3608 3625
+type(
+  bool ref
+)
+ident(
+  int_ref typecheck "input.ml" 11 250 254 "input.ml" 11 250 263
+)
+"input.ml" 104 3608 3615 "input.ml" 104 3608 3625
+type(
+  bool
+)
+"input.ml" 104 3608 3631 "input.ml" 104 3608 3645
+type(
+  (Ast.stmt list -> unit) -> Ast.stmt list -> unit
+)
+ident(
+  ext_ref Printexc.print
+)
+"input.ml" 104 3608 3646 "input.ml" 104 3608 3670
+type(
+  Ast.stmt list -> unit
+)
+ident(
+  ext_ref Typecheck.typecheck_prog
+)
+"input.ml" 104 3608 3671 "input.ml" 104 3608 3672
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref p "input.ml" 102 3446 3454 "input.ml" 102 3446 3455
+)
+"input.ml" 104 3608 3631 "input.ml" 104 3608 3672
+call(
+  stack
+)
+type(
+  unit
+)
+"input.ml" 104 3608 3612 "input.ml" 104 3608 3672
+type(
+  unit
+)
+"input.ml" 105 3674 3678 "input.ml" 105 3674 3679
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref p "input.ml" 102 3446 3454 "input.ml" 102 3446 3455
+)
+"input.ml" 105 3674 3680 "input.ml" 105 3674 3685
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref scope "input.ml" 102 3446 3456 "input.ml" 102 3446 3461
+)
+"input.ml" 105 3674 3686 "input.ml" 105 3674 3690
+type(
+  Arch.arch option
+)
+ident(
+  int_ref arch "input.ml" 102 3446 3462 "input.ml" 102 3446 3466
+)
+"input.ml" 105 3674 3678 "input.ml" 105 3674 3690
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 104 3608 3612 "input.ml" 105 3674 3690
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 102 3446 3450 "input.ml" 105 3674 3690
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 106 3691 3698 "input.ml" 106 3691 3699
+type(
+  exn
+)
+ident(
+  def e "input.ml" 107 3703 3707 "input.ml" 108 3786 3797
+)
+"input.ml" 107 3703 3707 "input.ml" 107 3703 3721
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"input.ml" 107 3703 3722 "input.ml" 107 3703 3761
+type(
+  (string -> unit, out_channel, unit) format
+)
+"input.ml" 107 3703 3763 "input.ml" 107 3703 3781
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"input.ml" 107 3703 3782 "input.ml" 107 3703 3783
+type(
+  exn
+)
+ident(
+  int_ref e "input.ml" 106 3691 3698 "input.ml" 106 3691 3699
+)
+"input.ml" 107 3703 3762 "input.ml" 107 3703 3784
+call(
+  stack
+)
+type(
+  string
+)
+"input.ml" 107 3703 3707 "input.ml" 107 3703 3784
+call(
+  stack
+)
+type(
+  unit
+)
+"input.ml" 108 3786 3790 "input.ml" 108 3786 3795
+type(
+  exn -> Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"input.ml" 108 3786 3796 "input.ml" 108 3786 3797
+type(
+  exn
+)
+ident(
+  int_ref e "input.ml" 106 3691 3698 "input.ml" 106 3691 3699
+)
+"input.ml" 108 3786 3790 "input.ml" 108 3786 3797
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 107 3703 3707 "input.ml" 108 3786 3797
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 101 3440 3442 "input.ml" 108 3786 3797
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 77 2361 2363 "input.ml" 108 3786 3797
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 76 2294 2296 "input.ml" 108 3786 3797
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 75 2234 2236 "input.ml" 108 3786 3797
+type(
+  Ast.stmt list * Grammar_scope.Scope.t * Arch.arch option
+)
+"input.ml" 110 3799 3803 "input.ml" 110 3799 3821
+type(
+  unit -> Ast.stmt list Stream.t * Arch.arch option
+)
+ident(
+  def get_stream_program "input.ml" 116 4045 4045 --
+)
+"input.ml" 110 3799 3822 "input.ml" 110 3799 3824
+type(
+  unit
+)
+"input.ml" 110 3799 3833 "input.ml" 110 3799 3834
+type(
+  [ `Tracestream of string ] option ref -> [ `Tracestream of string ] option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 110 3799 3834 "input.ml" 110 3799 3846
+type(
+  [ `Tracestream of string ] option ref
+)
+ident(
+  int_ref streaminputs "input.ml" 7 113 117 "input.ml" 7 113 129
+)
+"input.ml" 110 3799 3833 "input.ml" 110 3799 3846
+type(
+  [ `Tracestream of string ] option
+)
+"input.ml" 111 3852 3856 "input.ml" 111 3852 3860
+type(
+  [ `Tracestream of string ] option
+)
+"input.ml" 111 3852 3864 "input.ml" 111 3852 3869
+type(
+  exn -> Ast.stmt list Stream.t * Arch.arch option
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"input.ml" 111 3852 3878 "input.ml" 111 3852 3908
+type(
+  string
+)
+"input.ml" 111 3852 3869 "input.ml" 111 3852 3909
+type(
+  exn
+)
+"input.ml" 111 3852 3864 "input.ml" 111 3852 3909
+type(
+  Ast.stmt list Stream.t * Arch.arch option
+)
+"input.ml" 112 3910 3932 "input.ml" 112 3910 3933
+type(
+  string
+)
+ident(
+  def f "input.ml" 113 3938 3942 "input.ml" 114 4022 4043
+)
+"input.ml" 112 3910 3918 "input.ml" 112 3910 3934
+type(
+  [ `Tracestream of string ]
+)
+"input.ml" 112 3910 3914 "input.ml" 112 3910 3934
+type(
+  [ `Tracestream of string ] option
+)
+"input.ml" 113 3938 3946 "input.ml" 113 3938 3952
+type(
+  Ast.stmt list Stream.t
+)
+"input.ml" 113 3938 3954 "input.ml" 113 3938 3958
+type(
+  Arch.arch
+)
+"input.ml" 113 3938 3946 "input.ml" 113 3938 3958
+type(
+  Ast.stmt list Stream.t * Arch.arch
+)
+"input.ml" 113 3938 3961 "input.ml" 113 3938 4004
+type(
+  int64 -> string -> Ast.stmt list Stream.t * Arch.arch
+)
+ident(
+  ext_ref Asmir.serialized_bap_stream_from_trace_file
+)
+"input.ml" 113 3938 4005 "input.ml" 113 3938 4006
+type(
+  int64 ref -> int64
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"input.ml" 113 3938 4006 "input.ml" 113 3938 4016
+type(
+  int64 ref
+)
+ident(
+  int_ref streamrate "input.ml" 8 141 145 "input.ml" 8 141 155
+)
+"input.ml" 113 3938 4005 "input.ml" 113 3938 4016
+type(
+  int64
+)
+"input.ml" 113 3938 4017 "input.ml" 113 3938 4018
+type(
+  string
+)
+ident(
+  int_ref f "input.ml" 112 3910 3932 "input.ml" 112 3910 3933
+)
+"input.ml" 113 3938 3961 "input.ml" 113 3938 4018
+call(
+  stack
+)
+type(
+  Ast.stmt list Stream.t * Arch.arch
+)
+"input.ml" 114 4022 4026 "input.ml" 114 4022 4032
+type(
+  Ast.stmt list Stream.t
+)
+ident(
+  int_ref stream "input.ml" 113 3938 3946 "input.ml" 113 3938 3952
+)
+"input.ml" 114 4022 4039 "input.ml" 114 4022 4043
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "input.ml" 113 3938 3954 "input.ml" 113 3938 3958
+)
+"input.ml" 114 4022 4034 "input.ml" 114 4022 4043
+type(
+  Arch.arch option
+)
+"input.ml" 114 4022 4026 "input.ml" 114 4022 4043
+type(
+  Ast.stmt list Stream.t * Arch.arch option
+)
+"input.ml" 113 3938 3942 "input.ml" 114 4022 4043
+type(
+  Ast.stmt list Stream.t * Arch.arch option
+)
+"input.ml" 110 3799 3827 "input.ml" 114 4022 4043
+type(
+  Ast.stmt list Stream.t * Arch.arch option
+)
+"input.ml" 116 4045 4049 "input.ml" 116 4045 4057
+type(
+  'a option -> 'a
+)
+ident(
+  def get_arch "input.ml" 118 4085 4164 --
+)
+"input.ml" 117 4069 4078 "input.ml" 117 4069 4079
+type(
+  'a
+)
+ident(
+  def a "input.ml" 117 4069 4083 "input.ml" 117 4069 4084
+)
+"input.ml" 117 4069 4073 "input.ml" 117 4069 4079
+type(
+  'a option
+)
+"input.ml" 117 4069 4083 "input.ml" 117 4069 4084
+type(
+  'a
+)
+ident(
+  int_ref a "input.ml" 117 4069 4078 "input.ml" 117 4069 4079
+)
+"input.ml" 118 4085 4089 "input.ml" 118 4085 4093
+type(
+  'a option
+)
+"input.ml" 118 4085 4097 "input.ml" 118 4085 4102
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"input.ml" 118 4085 4121 "input.ml" 118 4085 4163
+type(
+  string
+)
+"input.ml" 118 4085 4103 "input.ml" 118 4085 4164
+type(
+  exn
+)
+"input.ml" 118 4085 4097 "input.ml" 118 4085 4164
+type(
+  'a
+)
+"input.ml" 116 4045 4060 "input.ml" 118 4085 4164
+type(
+  'a option -> 'a
+)

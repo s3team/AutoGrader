@@ -1,0 +1,1112 @@
+"unroll_suite.ml" 8 93 97 "unroll_suite.ml" 8 93 109
+type(
+  unit -> unit
+)
+ident(
+  def basic_nested "unroll_suite.ml" 30 1118 1118 --
+)
+"unroll_suite.ml" 8 93 110 "unroll_suite.ml" 8 93 112
+type(
+  unit
+)
+"unroll_suite.ml" 9 115 121 "unroll_suite.ml" 9 115 122
+type(
+  Asmir.asmprogram
+)
+"unroll_suite.ml" 9 115 125 "unroll_suite.ml" 9 115 143
+type(
+  ?base:Type.addr -> ?target:string -> string -> Asmir.asmprogram
+)
+ident(
+  ext_ref Asmir.open_program
+)
+"unroll_suite.ml" 9 115 144 "unroll_suite.ml" 9 115 154
+type(
+  string
+)
+"unroll_suite.ml" 9 115 125 "unroll_suite.ml" 9 115 154
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"unroll_suite.ml" 10 158 164 "unroll_suite.ml" 10 158 170
+type(
+  int -> Ast.program
+)
+"unroll_suite.ml" 10 158 171 "unroll_suite.ml" 10 158 172
+type(
+  int
+)
+ident(
+  def n "unroll_suite.ml" 11 175 179 "unroll_suite.ml" 18 489 537
+)
+"unroll_suite.ml" 11 175 183 "unroll_suite.ml" 11 175 186
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 11 175 195 "unroll_suite.ml" 11 175 208
+type(
+  ?unroll:int ->
+  ?names:string list ->
+  Asmir.asmprogram -> (string * Ast.program * Cfg.AST.G.t option) list
+)
+ident(
+  ext_ref Utils_common.get_functions
+)
+"unroll_suite.ml" 11 175 217 "unroll_suite.ml" 11 175 218
+type(
+  int
+)
+ident(
+  int_ref n "unroll_suite.ml" 10 158 171 "unroll_suite.ml" 10 158 172
+)
+"unroll_suite.ml" 11 175 227 "unroll_suite.ml" 11 175 233
+type(
+  string
+)
+"unroll_suite.ml" 11 175 234 "unroll_suite.ml" 11 175 241
+type(
+  string
+)
+"unroll_suite.ml" 11 175 226 "unroll_suite.ml" 11 175 242
+type(
+  string list
+)
+"unroll_suite.ml" 11 175 243 "unroll_suite.ml" 11 175 244
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "unroll_suite.ml" 9 115 121 "unroll_suite.ml" 9 115 122
+)
+"unroll_suite.ml" 11 175 195 "unroll_suite.ml" 11 175 244
+call(
+  stack
+)
+type(
+  (string * Ast.program * Cfg.AST.G.t option) list
+)
+"unroll_suite.ml" 12 250 260 "unroll_suite.ml" 12 250 261
+type(
+  string
+)
+"unroll_suite.ml" 12 250 262 "unroll_suite.ml" 12 250 263
+type(
+  Ast.program
+)
+"unroll_suite.ml" 12 250 270 "unroll_suite.ml" 12 250 271
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def x "unroll_suite.ml" 12 250 277 "unroll_suite.ml" 12 250 278
+)
+"unroll_suite.ml" 12 250 265 "unroll_suite.ml" 12 250 271
+type(
+  Cfg.AST.G.t option
+)
+"unroll_suite.ml" 12 250 259 "unroll_suite.ml" 12 250 272
+type(
+  string * Ast.program * Cfg.AST.G.t option
+)
+"unroll_suite.ml" 12 250 258 "unroll_suite.ml" 12 250 273
+type(
+  (string * Ast.program * Cfg.AST.G.t option) list
+)
+"unroll_suite.ml" 12 250 277 "unroll_suite.ml" 12 250 278
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref x "unroll_suite.ml" 12 250 270 "unroll_suite.ml" 12 250 271
+)
+"unroll_suite.ml" 13 279 287 "unroll_suite.ml" 13 279 288
+type(
+  (string * Ast.program * Cfg.AST.G.t option) list
+)
+"unroll_suite.ml" 13 279 292 "unroll_suite.ml" 13 279 306
+type(
+  string -> Cfg.AST.G.t
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"unroll_suite.ml" 13 279 307 "unroll_suite.ml" 13 279 337
+type(
+  string
+)
+"unroll_suite.ml" 13 279 292 "unroll_suite.ml" 13 279 337
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 11 175 189 "unroll_suite.ml" 13 279 337
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 15 345 353 "unroll_suite.ml" 15 345 357
+type(
+  C.G.V.t
+)
+"unroll_suite.ml" 15 345 360 "unroll_suite.ml" 15 345 372
+type(
+  C.G.V.label -> C.G.V.t
+)
+ident(
+  ext_ref C.G.V.create
+)
+"unroll_suite.ml" 15 345 373 "unroll_suite.ml" 15 345 384
+type(
+  C.G.V.label
+)
+"unroll_suite.ml" 15 345 360 "unroll_suite.ml" 15 345 384
+call(
+  stack
+)
+type(
+  C.G.V.t
+)
+"unroll_suite.ml" 16 388 396 "unroll_suite.ml" 16 388 401
+type(
+  C.lang
+)
+"unroll_suite.ml" 16 388 404 "unroll_suite.ml" 16 388 415
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"unroll_suite.ml" 16 388 416 "unroll_suite.ml" 16 388 419
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "unroll_suite.ml" 11 175 183 "unroll_suite.ml" 11 175 186
+)
+"unroll_suite.ml" 16 388 420 "unroll_suite.ml" 16 388 424
+type(
+  C.G.V.t
+)
+ident(
+  int_ref exiT "unroll_suite.ml" 15 345 353 "unroll_suite.ml" 15 345 357
+)
+"unroll_suite.ml" 16 388 404 "unroll_suite.ml" 16 388 424
+call(
+  stack
+)
+type(
+  C.lang
+)
+"unroll_suite.ml" 17 428 436 "unroll_suite.ml" 17 428 441
+type(
+  C.stmt list
+)
+"unroll_suite.ml" 17 428 444 "unroll_suite.ml" 17 428 458
+type(
+  C.lang -> C.stmt list -> C.stmt list
+)
+ident(
+  ext_ref BatList.append
+)
+"unroll_suite.ml" 17 428 459 "unroll_suite.ml" 17 428 464
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "unroll_suite.ml" 16 388 396 "unroll_suite.ml" 16 388 401
+)
+"unroll_suite.ml" 17 428 471 "unroll_suite.ml" 17 428 479
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_true
+)
+"unroll_suite.ml" 17 428 481 "unroll_suite.ml" 17 428 483
+type(
+  Ast.attrs
+)
+"unroll_suite.ml" 17 428 470 "unroll_suite.ml" 17 428 484
+type(
+  Ast.exp * Ast.attrs
+)
+"unroll_suite.ml" 17 428 466 "unroll_suite.ml" 17 428 484
+type(
+  C.stmt
+)
+"unroll_suite.ml" 17 428 465 "unroll_suite.ml" 17 428 485
+type(
+  C.stmt list
+)
+"unroll_suite.ml" 17 428 444 "unroll_suite.ml" 17 428 485
+call(
+  stack
+)
+type(
+  C.stmt list
+)
+"unroll_suite.ml" 18 489 493 "unroll_suite.ml" 18 489 508
+type(
+  C.G.t -> Ast.program
+)
+ident(
+  ext_ref Cfg_ast.to_prog
+)
+"unroll_suite.ml" 18 489 510 "unroll_suite.ml" 18 489 521
+type(
+  C.G.t -> C.G.V.t -> C.lang -> C.G.t
+)
+ident(
+  ext_ref C.set_stmts
+)
+"unroll_suite.ml" 18 489 522 "unroll_suite.ml" 18 489 525
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "unroll_suite.ml" 11 175 183 "unroll_suite.ml" 11 175 186
+)
+"unroll_suite.ml" 18 489 526 "unroll_suite.ml" 18 489 530
+type(
+  C.G.V.t
+)
+ident(
+  int_ref exiT "unroll_suite.ml" 15 345 353 "unroll_suite.ml" 15 345 357
+)
+"unroll_suite.ml" 18 489 531 "unroll_suite.ml" 18 489 536
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "unroll_suite.ml" 17 428 436 "unroll_suite.ml" 17 428 441
+)
+"unroll_suite.ml" 18 489 509 "unroll_suite.ml" 18 489 537
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"unroll_suite.ml" 18 489 493 "unroll_suite.ml" 18 489 537
+call(
+  tail
+)
+type(
+  Ast.program
+)
+"unroll_suite.ml" 17 428 432 "unroll_suite.ml" 18 489 537
+type(
+  Ast.program
+)
+"unroll_suite.ml" 16 388 392 "unroll_suite.ml" 18 489 537
+type(
+  Ast.program
+)
+"unroll_suite.ml" 15 345 349 "unroll_suite.ml" 18 489 537
+type(
+  Ast.program
+)
+"unroll_suite.ml" 11 175 179 "unroll_suite.ml" 18 489 537
+type(
+  Ast.program
+)
+"unroll_suite.ml" 20 543 549 "unroll_suite.ml" 20 543 555
+type(
+  Ast.program
+)
+"unroll_suite.ml" 20 543 558 "unroll_suite.ml" 20 543 564
+type(
+  int -> Ast.program
+)
+ident(
+  int_ref unroll "unroll_suite.ml" 10 158 164 "unroll_suite.ml" 10 158 170
+)
+"unroll_suite.ml" 20 543 565 "unroll_suite.ml" 20 543 566
+type(
+  int
+)
+"unroll_suite.ml" 20 543 558 "unroll_suite.ml" 20 543 566
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"unroll_suite.ml" 21 567 573 "unroll_suite.ml" 21 567 580
+type(
+  Ast.program
+)
+"unroll_suite.ml" 21 567 583 "unroll_suite.ml" 21 567 589
+type(
+  int -> Ast.program
+)
+ident(
+  int_ref unroll "unroll_suite.ml" 10 158 164 "unroll_suite.ml" 10 158 170
+)
+"unroll_suite.ml" 21 567 590 "unroll_suite.ml" 21 567 592
+type(
+  int
+)
+"unroll_suite.ml" 21 567 583 "unroll_suite.ml" 21 567 592
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"unroll_suite.ml" 23 675 681 "unroll_suite.ml" 23 675 684
+type(
+  Symbeval.Concrete.myctx
+)
+"unroll_suite.ml" 23 675 687 "unroll_suite.ml" 23 675 714
+type(
+  ?s:Type.addr -> ?i:Ast.stmt list -> Ast.program -> Symbeval.Concrete.myctx
+)
+ident(
+  ext_ref Symbeval.concretely_execute
+)
+"unroll_suite.ml" 23 675 715 "unroll_suite.ml" 23 675 722
+type(
+  Ast.program
+)
+ident(
+  int_ref main_10 "unroll_suite.ml" 21 567 573 "unroll_suite.ml" 21 567 580
+)
+"unroll_suite.ml" 23 675 687 "unroll_suite.ml" 23 675 722
+call(
+  stack
+)
+type(
+  Symbeval.Concrete.myctx
+)
+"unroll_suite.ml" 24 726 728 "unroll_suite.ml" 24 726 740
+type(
+  ?cmp:(Symbeval.varval -> Symbeval.varval -> bool) ->
+  ?printer:(Symbeval.varval -> string) ->
+  ?pp_diff:(Format.formatter -> Symbeval.varval * Symbeval.varval -> unit) ->
+  ?msg:string -> Symbeval.varval -> Symbeval.varval -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"unroll_suite.ml" 24 726 746 "unroll_suite.ml" 24 726 787
+type(
+  string
+)
+"unroll_suite.ml" 24 726 789 "unroll_suite.ml" 24 726 817
+type(
+  Symbeval.Concrete.MemL.t -> Var.t -> Symbeval.varval
+)
+ident(
+  ext_ref Symbeval.Concrete.lookup_var
+)
+"unroll_suite.ml" 24 726 818 "unroll_suite.ml" 24 726 821
+type(
+  Symbeval.Concrete.myctx
+)
+ident(
+  int_ref ctx "unroll_suite.ml" 23 675 681 "unroll_suite.ml" 23 675 684
+)
+"unroll_suite.ml" 24 726 818 "unroll_suite.ml" 24 726 836
+type(
+  Symbeval.Concrete.MemL.t
+)
+"unroll_suite.ml" 24 726 837 "unroll_suite.ml" 24 726 856
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.eax
+)
+"unroll_suite.ml" 24 726 788 "unroll_suite.ml" 24 726 857
+call(
+  stack
+)
+type(
+  Symbeval.varval
+)
+"unroll_suite.ml" 24 726 881 "unroll_suite.ml" 24 726 883
+type(
+  int -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"unroll_suite.ml" 24 726 884 "unroll_suite.ml" 24 726 887
+type(
+  int
+)
+"unroll_suite.ml" 24 726 881 "unroll_suite.ml" 24 726 887
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"unroll_suite.ml" 24 726 889 "unroll_suite.ml" 24 726 895
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_32
+)
+"unroll_suite.ml" 24 726 880 "unroll_suite.ml" 24 726 896
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"unroll_suite.ml" 24 726 876 "unroll_suite.ml" 24 726 897
+type(
+  Ast.exp
+)
+"unroll_suite.ml" 24 726 858 "unroll_suite.ml" 24 726 898
+type(
+  Symbeval.varval
+)
+"unroll_suite.ml" 24 726 728 "unroll_suite.ml" 24 726 898
+call(
+  stack
+)
+type(
+  unit
+)
+"unroll_suite.ml" 25 900 906 "unroll_suite.ml" 25 900 912
+type(
+  Symbeval.Concrete.myctx -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"unroll_suite.ml" 25 900 913 "unroll_suite.ml" 25 900 940
+type(
+  ?s:Type.addr -> ?i:Ast.stmt list -> Ast.program -> Symbeval.Concrete.myctx
+)
+ident(
+  ext_ref Symbeval.concretely_execute
+)
+"unroll_suite.ml" 25 900 941 "unroll_suite.ml" 25 900 947
+type(
+  Ast.program
+)
+ident(
+  int_ref main_9 "unroll_suite.ml" 20 543 549 "unroll_suite.ml" 20 543 555
+)
+"unroll_suite.ml" 25 900 912 "unroll_suite.ml" 25 900 948
+call(
+  stack
+)
+type(
+  Symbeval.Concrete.myctx
+)
+"unroll_suite.ml" 25 900 906 "unroll_suite.ml" 25 900 948
+type(
+  unit
+)
+"unroll_suite.ml" 26 950 956 "unroll_suite.ml" 26 950 970
+type(
+  string -> unit
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"unroll_suite.ml" 26 950 971 "unroll_suite.ml" 26 950 1016
+type(
+  string
+)
+"unroll_suite.ml" 26 950 956 "unroll_suite.ml" 26 950 1016
+call(
+  stack
+)
+type(
+  unit
+)
+"unroll_suite.ml" 25 900 906 "unroll_suite.ml" 26 950 1016
+type(
+  unit
+)
+"unroll_suite.ml" 27 1017 1055 "unroll_suite.ml" 27 1017 1056
+type(
+  Symbeval.Concrete.myctx
+)
+"unroll_suite.ml" 27 1017 1024 "unroll_suite.ml" 27 1017 1056
+type(
+  exn
+)
+"unroll_suite.ml" 27 1017 1060 "unroll_suite.ml" 27 1017 1062
+type(
+  unit
+)
+"unroll_suite.ml" 25 900 902 "unroll_suite.ml" 27 1017 1062
+type(
+  unit
+)
+"unroll_suite.ml" 24 726 728 "unroll_suite.ml" 27 1017 1062
+type(
+  unit
+)
+"unroll_suite.ml" 23 675 677 "unroll_suite.ml" 27 1017 1062
+type(
+  unit
+)
+"unroll_suite.ml" 20 543 545 "unroll_suite.ml" 27 1017 1062
+type(
+  unit
+)
+"unroll_suite.ml" 10 158 160 "unroll_suite.ml" 27 1017 1062
+type(
+  unit
+)
+"unroll_suite.ml" 9 115 117 "unroll_suite.ml" 27 1017 1062
+type(
+  unit
+)
+"unroll_suite.ml" 30 1118 1122 "unroll_suite.ml" 30 1118 1133
+type(
+  (Cfg.AST.G.t -> 'a) -> unit -> unit
+)
+ident(
+  def irreducible "unroll_suite.ml" 39 1481 1481 --
+)
+"unroll_suite.ml" 30 1118 1134 "unroll_suite.ml" 30 1118 1141
+type(
+  Cfg.AST.G.t -> 'a
+)
+ident(
+  def unrollf "unroll_suite.ml" 30 1118 1142 "unroll_suite.ml" 36 1399 1421
+)
+"unroll_suite.ml" 30 1118 1142 "unroll_suite.ml" 30 1118 1144
+type(
+  unit
+)
+"unroll_suite.ml" 31 1147 1153 "unroll_suite.ml" 31 1147 1154
+type(
+  Ast.program
+)
+"unroll_suite.ml" 31 1147 1156 "unroll_suite.ml" 31 1147 1157
+type(
+  Grammar_scope.Scope.t
+)
+"unroll_suite.ml" 31 1147 1153 "unroll_suite.ml" 31 1147 1157
+type(
+  Ast.program * Grammar_scope.Scope.t
+)
+"unroll_suite.ml" 31 1147 1160 "unroll_suite.ml" 31 1147 1184
+type(
+  ?scope:Grammar_scope.Scope.t ->
+  string -> Ast.program * Grammar_scope.Scope.t
+)
+ident(
+  ext_ref Parser.program_from_file
+)
+"unroll_suite.ml" 31 1147 1185 "unroll_suite.ml" 31 1147 1211
+type(
+  string
+)
+"unroll_suite.ml" 31 1147 1160 "unroll_suite.ml" 31 1147 1211
+call(
+  stack
+)
+type(
+  Ast.program * Grammar_scope.Scope.t
+)
+"unroll_suite.ml" 32 1215 1221 "unroll_suite.ml" 32 1215 1224
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 32 1215 1227 "unroll_suite.ml" 32 1215 1242
+type(
+  ?special_error:bool -> Ast.program -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg_ast.of_prog
+)
+"unroll_suite.ml" 32 1215 1243 "unroll_suite.ml" 32 1215 1244
+type(
+  Ast.program
+)
+ident(
+  int_ref p "unroll_suite.ml" 31 1147 1153 "unroll_suite.ml" 31 1147 1154
+)
+"unroll_suite.ml" 32 1215 1227 "unroll_suite.ml" 32 1215 1244
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 33 1248 1254 "unroll_suite.ml" 33 1248 1257
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 33 1248 1260 "unroll_suite.ml" 33 1248 1299
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Prune_unreachable.prune_unreachable_ast
+)
+"unroll_suite.ml" 33 1248 1300 "unroll_suite.ml" 33 1248 1303
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "unroll_suite.ml" 32 1215 1221 "unroll_suite.ml" 32 1215 1224
+)
+"unroll_suite.ml" 33 1248 1260 "unroll_suite.ml" 33 1248 1303
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 34 1307 1313 "unroll_suite.ml" 34 1307 1319
+type(
+  'a -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"unroll_suite.ml" 34 1307 1320 "unroll_suite.ml" 34 1307 1327
+type(
+  Cfg.AST.G.t -> 'a
+)
+ident(
+  int_ref unrollf "unroll_suite.ml" 30 1118 1134 "unroll_suite.ml" 30 1118 1141
+)
+"unroll_suite.ml" 34 1307 1328 "unroll_suite.ml" 34 1307 1331
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "unroll_suite.ml" 33 1248 1254 "unroll_suite.ml" 33 1248 1257
+)
+"unroll_suite.ml" 34 1307 1319 "unroll_suite.ml" 34 1307 1332
+call(
+  stack
+)
+type(
+  'a
+)
+"unroll_suite.ml" 34 1307 1313 "unroll_suite.ml" 34 1307 1332
+type(
+  unit
+)
+"unroll_suite.ml" 35 1334 1340 "unroll_suite.ml" 35 1334 1354
+type(
+  string -> unit
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"unroll_suite.ml" 35 1334 1355 "unroll_suite.ml" 35 1334 1398
+type(
+  string
+)
+"unroll_suite.ml" 35 1334 1340 "unroll_suite.ml" 35 1334 1398
+call(
+  stack
+)
+type(
+  unit
+)
+"unroll_suite.ml" 34 1307 1313 "unroll_suite.ml" 35 1334 1398
+type(
+  unit
+)
+"unroll_suite.ml" 36 1399 1414 "unroll_suite.ml" 36 1399 1415
+type(
+  string
+)
+"unroll_suite.ml" 36 1399 1406 "unroll_suite.ml" 36 1399 1415
+type(
+  exn
+)
+"unroll_suite.ml" 36 1399 1419 "unroll_suite.ml" 36 1399 1421
+type(
+  unit
+)
+"unroll_suite.ml" 34 1307 1309 "unroll_suite.ml" 36 1399 1421
+type(
+  unit
+)
+"unroll_suite.ml" 33 1248 1250 "unroll_suite.ml" 36 1399 1421
+type(
+  unit
+)
+"unroll_suite.ml" 32 1215 1217 "unroll_suite.ml" 36 1399 1421
+type(
+  unit
+)
+"unroll_suite.ml" 31 1147 1149 "unroll_suite.ml" 36 1399 1421
+type(
+  unit
+)
+"unroll_suite.ml" 39 1481 1485 "unroll_suite.ml" 39 1481 1494
+type(
+  (Cfg.AST.G.t -> 'a) -> unit -> unit
+)
+ident(
+  def reducible "unroll_suite.ml" 45 1689 1689 --
+)
+"unroll_suite.ml" 39 1481 1495 "unroll_suite.ml" 39 1481 1502
+type(
+  Cfg.AST.G.t -> 'a
+)
+ident(
+  def unrollf "unroll_suite.ml" 39 1481 1503 "unroll_suite.ml" 43 1666 1687
+)
+"unroll_suite.ml" 39 1481 1503 "unroll_suite.ml" 39 1481 1505
+type(
+  unit
+)
+"unroll_suite.ml" 40 1508 1514 "unroll_suite.ml" 40 1508 1515
+type(
+  Ast.program
+)
+"unroll_suite.ml" 40 1508 1517 "unroll_suite.ml" 40 1508 1518
+type(
+  Grammar_scope.Scope.t
+)
+"unroll_suite.ml" 40 1508 1514 "unroll_suite.ml" 40 1508 1518
+type(
+  Ast.program * Grammar_scope.Scope.t
+)
+"unroll_suite.ml" 40 1508 1521 "unroll_suite.ml" 40 1508 1545
+type(
+  ?scope:Grammar_scope.Scope.t ->
+  string -> Ast.program * Grammar_scope.Scope.t
+)
+ident(
+  ext_ref Parser.program_from_file
+)
+"unroll_suite.ml" 40 1508 1546 "unroll_suite.ml" 40 1508 1570
+type(
+  string
+)
+"unroll_suite.ml" 40 1508 1521 "unroll_suite.ml" 40 1508 1570
+call(
+  stack
+)
+type(
+  Ast.program * Grammar_scope.Scope.t
+)
+"unroll_suite.ml" 41 1574 1580 "unroll_suite.ml" 41 1574 1583
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 41 1574 1586 "unroll_suite.ml" 41 1574 1601
+type(
+  ?special_error:bool -> Ast.program -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg_ast.of_prog
+)
+"unroll_suite.ml" 41 1574 1602 "unroll_suite.ml" 41 1574 1603
+type(
+  Ast.program
+)
+ident(
+  int_ref p "unroll_suite.ml" 40 1508 1514 "unroll_suite.ml" 40 1508 1515
+)
+"unroll_suite.ml" 41 1574 1586 "unroll_suite.ml" 41 1574 1603
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 42 1607 1613 "unroll_suite.ml" 42 1607 1616
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 42 1607 1619 "unroll_suite.ml" 42 1607 1658
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Prune_unreachable.prune_unreachable_ast
+)
+"unroll_suite.ml" 42 1607 1659 "unroll_suite.ml" 42 1607 1662
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "unroll_suite.ml" 41 1574 1580 "unroll_suite.ml" 41 1574 1583
+)
+"unroll_suite.ml" 42 1607 1619 "unroll_suite.ml" 42 1607 1662
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"unroll_suite.ml" 43 1666 1668 "unroll_suite.ml" 43 1666 1674
+type(
+  'a -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"unroll_suite.ml" 43 1666 1675 "unroll_suite.ml" 43 1666 1682
+type(
+  Cfg.AST.G.t -> 'a
+)
+ident(
+  int_ref unrollf "unroll_suite.ml" 39 1481 1495 "unroll_suite.ml" 39 1481 1502
+)
+"unroll_suite.ml" 43 1666 1683 "unroll_suite.ml" 43 1666 1686
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "unroll_suite.ml" 42 1607 1613 "unroll_suite.ml" 42 1607 1616
+)
+"unroll_suite.ml" 43 1666 1674 "unroll_suite.ml" 43 1666 1687
+call(
+  stack
+)
+type(
+  'a
+)
+"unroll_suite.ml" 43 1666 1668 "unroll_suite.ml" 43 1666 1687
+type(
+  unit
+)
+"unroll_suite.ml" 42 1607 1609 "unroll_suite.ml" 43 1666 1687
+type(
+  unit
+)
+"unroll_suite.ml" 41 1574 1576 "unroll_suite.ml" 43 1666 1687
+type(
+  unit
+)
+"unroll_suite.ml" 40 1508 1510 "unroll_suite.ml" 43 1666 1687
+type(
+  unit
+)
+"unroll_suite.ml" 45 1689 1693 "unroll_suite.ml" 45 1689 1698
+type(
+  OUnit.test
+)
+ident(
+  def suite "unroll_suite.ml" 52 2024 2027 --
+)
+"unroll_suite.ml" 45 1689 1701 "unroll_suite.ml" 45 1689 1709
+type(
+  string
+)
+"unroll_suite.ml" 45 1689 1710 "unroll_suite.ml" 45 1689 1714
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"unroll_suite.ml" 47 1719 1723 "unroll_suite.ml" 47 1719 1737
+type(
+  string
+)
+"unroll_suite.ml" 47 1719 1738 "unroll_suite.ml" 47 1719 1741
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"unroll_suite.ml" 47 1719 1742 "unroll_suite.ml" 47 1719 1754
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref basic_nested "unroll_suite.ml" 8 93 97 "unroll_suite.ml" 8 93 109
+)
+"unroll_suite.ml" 47 1719 1723 "unroll_suite.ml" 47 1719 1754
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"unroll_suite.ml" 48 1756 1760 "unroll_suite.ml" 48 1756 1776
+type(
+  string
+)
+"unroll_suite.ml" 48 1756 1777 "unroll_suite.ml" 48 1756 1780
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"unroll_suite.ml" 48 1756 1781 "unroll_suite.ml" 48 1756 1792
+type(
+  (Cfg.AST.G.t -> Cfg.AST.G.t) -> OUnit.test_fun
+)
+ident(
+  int_ref irreducible "unroll_suite.ml" 30 1118 1122 "unroll_suite.ml" 30 1118 1133
+)
+"unroll_suite.ml" 48 1756 1793 "unroll_suite.ml" 48 1756 1815
+call(
+  tail
+)
+type(
+  Unroll.unrollf
+)
+ident(
+  ext_ref Unroll.unroll_loops_sa
+)
+"unroll_suite.ml" 48 1756 1781 "unroll_suite.ml" 48 1756 1815
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"unroll_suite.ml" 48 1756 1760 "unroll_suite.ml" 48 1756 1815
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"unroll_suite.ml" 49 1817 1821 "unroll_suite.ml" 49 1817 1835
+type(
+  string
+)
+"unroll_suite.ml" 49 1817 1836 "unroll_suite.ml" 49 1817 1839
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"unroll_suite.ml" 49 1817 1840 "unroll_suite.ml" 49 1817 1849
+type(
+  (Cfg.AST.G.t -> Cfg.AST.G.t) -> OUnit.test_fun
+)
+ident(
+  int_ref reducible "unroll_suite.ml" 39 1481 1485 "unroll_suite.ml" 39 1481 1494
+)
+"unroll_suite.ml" 49 1817 1850 "unroll_suite.ml" 49 1817 1872
+call(
+  tail
+)
+type(
+  Unroll.unrollf
+)
+ident(
+  ext_ref Unroll.unroll_loops_sa
+)
+"unroll_suite.ml" 49 1817 1840 "unroll_suite.ml" 49 1817 1872
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"unroll_suite.ml" 49 1817 1821 "unroll_suite.ml" 49 1817 1872
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"unroll_suite.ml" 50 1874 1878 "unroll_suite.ml" 50 1874 1902
+type(
+  string
+)
+"unroll_suite.ml" 50 1874 1903 "unroll_suite.ml" 50 1874 1906
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"unroll_suite.ml" 50 1874 1907 "unroll_suite.ml" 50 1874 1918
+type(
+  (Cfg.AST.G.t -> Cfg.AST.G.t) -> OUnit.test_fun
+)
+ident(
+  int_ref irreducible "unroll_suite.ml" 30 1118 1122 "unroll_suite.ml" 30 1118 1133
+)
+"unroll_suite.ml" 50 1874 1919 "unroll_suite.ml" 50 1874 1949
+call(
+  tail
+)
+type(
+  Unroll.unrollf
+)
+ident(
+  ext_ref Unroll.unroll_loops_steensgard
+)
+"unroll_suite.ml" 50 1874 1907 "unroll_suite.ml" 50 1874 1949
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"unroll_suite.ml" 50 1874 1878 "unroll_suite.ml" 50 1874 1949
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"unroll_suite.ml" 51 1951 1955 "unroll_suite.ml" 51 1951 1977
+type(
+  string
+)
+"unroll_suite.ml" 51 1951 1978 "unroll_suite.ml" 51 1951 1981
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"unroll_suite.ml" 51 1951 1982 "unroll_suite.ml" 51 1951 1991
+type(
+  (Cfg.AST.G.t -> Cfg.AST.G.t) -> OUnit.test_fun
+)
+ident(
+  int_ref reducible "unroll_suite.ml" 39 1481 1485 "unroll_suite.ml" 39 1481 1494
+)
+"unroll_suite.ml" 51 1951 1992 "unroll_suite.ml" 51 1951 2022
+call(
+  tail
+)
+type(
+  Unroll.unrollf
+)
+ident(
+  ext_ref Unroll.unroll_loops_steensgard
+)
+"unroll_suite.ml" 51 1951 1982 "unroll_suite.ml" 51 1951 2022
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"unroll_suite.ml" 51 1951 1955 "unroll_suite.ml" 51 1951 2022
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"unroll_suite.ml" 46 1715 1717 "unroll_suite.ml" 52 2024 2027
+type(
+  OUnit.test list
+)
+"unroll_suite.ml" 45 1689 1701 "unroll_suite.ml" 52 2024 2027
+call(
+  stack
+)
+type(
+  OUnit.test
+)

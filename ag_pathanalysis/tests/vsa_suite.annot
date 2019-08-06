@@ -1,0 +1,2359 @@
+"vsa_suite.ml" 5 60 64 "vsa_suite.ml" 5 60 70
+type(
+  int
+)
+ident(
+  def nmeets "vsa_suite.ml" 7 77 77 --
+)
+"vsa_suite.ml" 5 60 73 "vsa_suite.ml" 5 60 75
+type(
+  int
+)
+"vsa_suite.ml" 7 77 81 "vsa_suite.ml" 7 77 89
+type(
+  string -> VM.key -> Vsa_ast.AbsEnv.value -> unit -> unit
+)
+ident(
+  def ast_test "vsa_suite.ml" 21 801 801 --
+)
+"vsa_suite.ml" 7 77 90 "vsa_suite.ml" 7 77 98
+type(
+  string
+)
+ident(
+  def filename "vsa_suite.ml" 7 77 99 "vsa_suite.ml" 19 605 799
+)
+"vsa_suite.ml" 7 77 99 "vsa_suite.ml" 7 77 102
+type(
+  VM.key
+)
+ident(
+  def var "vsa_suite.ml" 7 77 103 "vsa_suite.ml" 19 605 799
+)
+"vsa_suite.ml" 7 77 103 "vsa_suite.ml" 7 77 104
+type(
+  Vsa_ast.AbsEnv.value
+)
+ident(
+  def v "vsa_suite.ml" 7 77 105 "vsa_suite.ml" 19 605 799
+)
+"vsa_suite.ml" 7 77 105 "vsa_suite.ml" 7 77 107
+type(
+  unit
+)
+"vsa_suite.ml" 8 110 116 "vsa_suite.ml" 8 110 120
+type(
+  Asmir.asmprogram
+)
+"vsa_suite.ml" 8 110 123 "vsa_suite.ml" 8 110 141
+type(
+  ?base:Type.addr -> ?target:string -> string -> Asmir.asmprogram
+)
+ident(
+  ext_ref Asmir.open_program
+)
+"vsa_suite.ml" 8 110 142 "vsa_suite.ml" 8 110 150
+type(
+  string
+)
+ident(
+  int_ref filename "vsa_suite.ml" 7 77 90 "vsa_suite.ml" 7 77 98
+)
+"vsa_suite.ml" 8 110 123 "vsa_suite.ml" 8 110 150
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"vsa_suite.ml" 9 154 160 "vsa_suite.ml" 9 154 161
+type(
+  Ast.program
+)
+"vsa_suite.ml" 9 154 164 "vsa_suite.ml" 9 154 187
+type(
+  ?init_ro:bool -> Asmir.asmprogram -> Ast.program
+)
+ident(
+  ext_ref Asmir.asmprogram_to_bap
+)
+"vsa_suite.ml" 9 154 188 "vsa_suite.ml" 9 154 192
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "vsa_suite.ml" 8 110 116 "vsa_suite.ml" 8 110 120
+)
+"vsa_suite.ml" 9 154 164 "vsa_suite.ml" 9 154 192
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"vsa_suite.ml" 10 196 202 "vsa_suite.ml" 10 196 205
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 10 196 208 "vsa_suite.ml" 10 196 223
+type(
+  ?special_error:bool -> Ast.program -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg_ast.of_prog
+)
+"vsa_suite.ml" 10 196 224 "vsa_suite.ml" 10 196 225
+type(
+  Ast.program
+)
+ident(
+  int_ref p "vsa_suite.ml" 9 154 160 "vsa_suite.ml" 9 154 161
+)
+"vsa_suite.ml" 10 196 208 "vsa_suite.ml" 10 196 225
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 11 229 235 "vsa_suite.ml" 11 229 238
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 11 229 241 "vsa_suite.ml" 11 229 280
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Prune_unreachable.prune_unreachable_ast
+)
+"vsa_suite.ml" 11 229 281 "vsa_suite.ml" 11 229 284
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "vsa_suite.ml" 10 196 202 "vsa_suite.ml" 10 196 205
+)
+"vsa_suite.ml" 11 229 241 "vsa_suite.ml" 11 229 284
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 12 288 294 "vsa_suite.ml" 12 288 297
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 12 288 300 "vsa_suite.ml" 12 288 334
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Ast_cond_simplify.simplifycond_cfg
+)
+"vsa_suite.ml" 12 288 335 "vsa_suite.ml" 12 288 338
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "vsa_suite.ml" 11 229 235 "vsa_suite.ml" 11 229 238
+)
+"vsa_suite.ml" 12 288 300 "vsa_suite.ml" 12 288 338
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 13 342 348 "vsa_suite.ml" 13 342 352
+type(
+  Vsa.options
+)
+"vsa_suite.ml" 13 342 355 "vsa_suite.ml" 13 342 389
+type(
+  Asmir.asmprogram -> Vsa.options
+)
+ident(
+  ext_ref Vsa_ast.build_default_prog_options
+)
+"vsa_suite.ml" 13 342 390 "vsa_suite.ml" 13 342 394
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "vsa_suite.ml" 8 110 116 "vsa_suite.ml" 8 110 120
+)
+"vsa_suite.ml" 13 342 355 "vsa_suite.ml" 13 342 394
+call(
+  stack
+)
+type(
+  Vsa.options
+)
+"vsa_suite.ml" 14 398 404 "vsa_suite.ml" 14 398 410
+type(
+  Cfg.AST.G.V.t * int -> Vsa_ast.AbsEnv.t option
+)
+"vsa_suite.ml" 14 398 412 "vsa_suite.ml" 14 398 418
+type(
+  Cfg.AST.G.V.t * int -> Vsa_ast.AbsEnv.t option
+)
+"vsa_suite.ml" 14 398 404 "vsa_suite.ml" 14 398 418
+type(
+  (Cfg.AST.G.V.t * int -> Vsa_ast.AbsEnv.t option) *
+  (Cfg.AST.G.V.t * int -> Vsa_ast.AbsEnv.t option)
+)
+"vsa_suite.ml" 14 398 421 "vsa_suite.ml" 14 398 432
+type(
+  ?nmeets:int ->
+  Vsa.options ->
+  Cfg.AST.G.t ->
+  (Cfg.AST.G.V.t * int -> Vsa_ast.AbsEnv.t option) *
+  (Cfg.AST.G.V.t * int -> Vsa_ast.AbsEnv.t option)
+)
+ident(
+  ext_ref Vsa_ast.vsa
+)
+"vsa_suite.ml" 14 398 434 "vsa_suite.ml" 14 398 440
+type(
+  int
+)
+ident(
+  int_ref nmeets "vsa_suite.ml" 5 60 64 "vsa_suite.ml" 5 60 70
+)
+"vsa_suite.ml" 14 398 441 "vsa_suite.ml" 14 398 445
+type(
+  Vsa.options
+)
+ident(
+  int_ref opts "vsa_suite.ml" 13 342 348 "vsa_suite.ml" 13 342 352
+)
+"vsa_suite.ml" 14 398 446 "vsa_suite.ml" 14 398 449
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "vsa_suite.ml" 12 288 294 "vsa_suite.ml" 12 288 297
+)
+"vsa_suite.ml" 14 398 421 "vsa_suite.ml" 14 398 449
+call(
+  stack
+)
+type(
+  (Cfg.AST.G.V.t * int -> Vsa_ast.AbsEnv.t option) *
+  (Cfg.AST.G.V.t * int -> Vsa_ast.AbsEnv.t option)
+)
+"vsa_suite.ml" 15 453 459 "vsa_suite.ml" 15 453 463
+type(
+  Cfg.AST.G.V.t
+)
+"vsa_suite.ml" 15 453 466 "vsa_suite.ml" 15 453 484
+type(
+  Cfg.AST.G.V.label -> Cfg.AST.G.V.t
+)
+ident(
+  ext_ref Cfg.AST.G.V.create
+)
+"vsa_suite.ml" 15 453 485 "vsa_suite.ml" 15 453 496
+type(
+  Cfg.AST.G.V.label
+)
+"vsa_suite.ml" 15 453 466 "vsa_suite.ml" 15 453 496
+call(
+  stack
+)
+type(
+  Cfg.AST.G.V.t
+)
+"vsa_suite.ml" 16 500 506 "vsa_suite.ml" 16 500 507
+type(
+  Vsa_ast.AbsEnv.t option
+)
+"vsa_suite.ml" 16 500 510 "vsa_suite.ml" 16 500 516
+type(
+  Cfg.AST.G.V.t * int -> Vsa_ast.AbsEnv.t option
+)
+ident(
+  int_ref df_out "vsa_suite.ml" 14 398 412 "vsa_suite.ml" 14 398 418
+)
+"vsa_suite.ml" 16 500 518 "vsa_suite.ml" 16 500 534
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.V.t -> Cfg.AST.G.V.t * int
+)
+ident(
+  ext_ref Vsa_ast.last_loc
+)
+"vsa_suite.ml" 16 500 535 "vsa_suite.ml" 16 500 538
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "vsa_suite.ml" 12 288 294 "vsa_suite.ml" 12 288 297
+)
+"vsa_suite.ml" 16 500 539 "vsa_suite.ml" 16 500 543
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref exiT "vsa_suite.ml" 15 453 459 "vsa_suite.ml" 15 453 463
+)
+"vsa_suite.ml" 16 500 517 "vsa_suite.ml" 16 500 544
+call(
+  stack
+)
+type(
+  Cfg.AST.G.V.t * int
+)
+"vsa_suite.ml" 16 500 510 "vsa_suite.ml" 16 500 544
+call(
+  stack
+)
+type(
+  Vsa_ast.AbsEnv.t option
+)
+"vsa_suite.ml" 17 548 554 "vsa_suite.ml" 17 548 555
+type(
+  Vsa_ast.AbsEnv.t
+)
+"vsa_suite.ml" 17 548 558 "vsa_suite.ml" 17 548 571
+type(
+  Vsa_ast.AbsEnv.t option -> Vsa_ast.AbsEnv.t
+)
+ident(
+  ext_ref BatOption.get
+)
+"vsa_suite.ml" 17 548 572 "vsa_suite.ml" 17 548 573
+type(
+  Vsa_ast.AbsEnv.t option
+)
+ident(
+  int_ref l "vsa_suite.ml" 16 500 506 "vsa_suite.ml" 16 500 507
+)
+"vsa_suite.ml" 17 548 558 "vsa_suite.ml" 17 548 573
+call(
+  stack
+)
+type(
+  Vsa_ast.AbsEnv.t
+)
+"vsa_suite.ml" 18 577 583 "vsa_suite.ml" 18 577 585
+type(
+  Vsa_ast.AbsEnv.value
+)
+"vsa_suite.ml" 18 577 588 "vsa_suite.ml" 18 577 595
+type(
+  VM.key -> Vsa_ast.AbsEnv.value VM.t -> Vsa_ast.AbsEnv.value
+)
+ident(
+  ext_ref VM.find
+)
+"vsa_suite.ml" 18 577 596 "vsa_suite.ml" 18 577 599
+type(
+  VM.key
+)
+ident(
+  int_ref var "vsa_suite.ml" 7 77 99 "vsa_suite.ml" 7 77 102
+)
+"vsa_suite.ml" 18 577 600 "vsa_suite.ml" 18 577 601
+type(
+  Vsa_ast.AbsEnv.t
+)
+ident(
+  int_ref l "vsa_suite.ml" 17 548 554 "vsa_suite.ml" 17 548 555
+)
+"vsa_suite.ml" 18 577 588 "vsa_suite.ml" 18 577 601
+call(
+  stack
+)
+type(
+  Vsa_ast.AbsEnv.value
+)
+"vsa_suite.ml" 19 605 607 "vsa_suite.ml" 19 605 619
+type(
+  ?cmp:(Vsa_ast.AbsEnv.value -> Vsa_ast.AbsEnv.value -> bool) ->
+  ?printer:(Vsa_ast.AbsEnv.value -> string) ->
+  ?pp_diff:(Format.formatter ->
+            Vsa_ast.AbsEnv.value * Vsa_ast.AbsEnv.value -> unit) ->
+  ?msg:string -> Vsa_ast.AbsEnv.value -> Vsa_ast.AbsEnv.value -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"vsa_suite.ml" 19 605 626 "vsa_suite.ml" 19 605 640
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"vsa_suite.ml" 19 605 641 "vsa_suite.ml" 19 605 699
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"vsa_suite.ml" 19 605 701 "vsa_suite.ml" 19 605 731
+type(
+  Vsa_ast.AbsEnv.value -> string
+)
+ident(
+  ext_ref Vsa_ast.AbsEnv.value_to_string
+)
+"vsa_suite.ml" 19 605 732 "vsa_suite.ml" 19 605 734
+type(
+  Vsa_ast.AbsEnv.value
+)
+ident(
+  int_ref v' "vsa_suite.ml" 18 577 583 "vsa_suite.ml" 18 577 585
+)
+"vsa_suite.ml" 19 605 700 "vsa_suite.ml" 19 605 735
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_suite.ml" 19 605 737 "vsa_suite.ml" 19 605 753
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"vsa_suite.ml" 19 605 754 "vsa_suite.ml" 19 605 757
+type(
+  VM.key
+)
+ident(
+  int_ref var "vsa_suite.ml" 7 77 99 "vsa_suite.ml" 7 77 102
+)
+"vsa_suite.ml" 19 605 736 "vsa_suite.ml" 19 605 758
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_suite.ml" 19 605 760 "vsa_suite.ml" 19 605 790
+type(
+  Vsa_ast.AbsEnv.value -> string
+)
+ident(
+  ext_ref Vsa_ast.AbsEnv.value_to_string
+)
+"vsa_suite.ml" 19 605 791 "vsa_suite.ml" 19 605 792
+type(
+  Vsa_ast.AbsEnv.value
+)
+ident(
+  int_ref v "vsa_suite.ml" 7 77 103 "vsa_suite.ml" 7 77 104
+)
+"vsa_suite.ml" 19 605 759 "vsa_suite.ml" 19 605 793
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_suite.ml" 19 605 625 "vsa_suite.ml" 19 605 794
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_suite.ml" 19 605 795 "vsa_suite.ml" 19 605 796
+type(
+  Vsa_ast.AbsEnv.value
+)
+ident(
+  int_ref v "vsa_suite.ml" 7 77 103 "vsa_suite.ml" 7 77 104
+)
+"vsa_suite.ml" 19 605 797 "vsa_suite.ml" 19 605 799
+type(
+  Vsa_ast.AbsEnv.value
+)
+ident(
+  int_ref v' "vsa_suite.ml" 18 577 583 "vsa_suite.ml" 18 577 585
+)
+"vsa_suite.ml" 19 605 607 "vsa_suite.ml" 19 605 799
+call(
+  tail
+)
+type(
+  unit
+)
+"vsa_suite.ml" 18 577 579 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 17 548 550 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 16 500 502 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 15 453 455 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 14 398 400 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 13 342 344 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 12 288 290 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 11 229 231 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 10 196 198 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 9 154 156 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 8 110 112 "vsa_suite.ml" 19 605 799
+type(
+  unit
+)
+"vsa_suite.ml" 21 801 805 "vsa_suite.ml" 21 801 813
+type(
+  string -> Var.t -> Vsa_ssa.AbsEnv.value -> unit -> unit
+)
+ident(
+  def ssa_test "vsa_suite.ml" 38 1631 1631 --
+)
+"vsa_suite.ml" 21 801 814 "vsa_suite.ml" 21 801 822
+type(
+  string
+)
+ident(
+  def filename "vsa_suite.ml" 21 801 823 "vsa_suite.ml" 35 1434 1628
+)
+"vsa_suite.ml" 21 801 823 "vsa_suite.ml" 21 801 826
+type(
+  Var.t
+)
+ident(
+  def var "vsa_suite.ml" 21 801 827 "vsa_suite.ml" 35 1434 1628
+)
+"vsa_suite.ml" 21 801 827 "vsa_suite.ml" 21 801 828
+type(
+  Vsa_ssa.AbsEnv.value
+)
+ident(
+  def v "vsa_suite.ml" 21 801 829 "vsa_suite.ml" 35 1434 1628
+)
+"vsa_suite.ml" 21 801 829 "vsa_suite.ml" 21 801 831
+type(
+  unit
+)
+"vsa_suite.ml" 22 834 840 "vsa_suite.ml" 22 834 844
+type(
+  Asmir.asmprogram
+)
+"vsa_suite.ml" 22 834 847 "vsa_suite.ml" 22 834 865
+type(
+  ?base:Type.addr -> ?target:string -> string -> Asmir.asmprogram
+)
+ident(
+  ext_ref Asmir.open_program
+)
+"vsa_suite.ml" 22 834 866 "vsa_suite.ml" 22 834 874
+type(
+  string
+)
+ident(
+  int_ref filename "vsa_suite.ml" 21 801 814 "vsa_suite.ml" 21 801 822
+)
+"vsa_suite.ml" 22 834 847 "vsa_suite.ml" 22 834 874
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"vsa_suite.ml" 23 878 884 "vsa_suite.ml" 23 878 885
+type(
+  Ast.program
+)
+"vsa_suite.ml" 23 878 888 "vsa_suite.ml" 23 878 911
+type(
+  ?init_ro:bool -> Asmir.asmprogram -> Ast.program
+)
+ident(
+  ext_ref Asmir.asmprogram_to_bap
+)
+"vsa_suite.ml" 23 878 912 "vsa_suite.ml" 23 878 916
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "vsa_suite.ml" 22 834 840 "vsa_suite.ml" 22 834 844
+)
+"vsa_suite.ml" 23 878 888 "vsa_suite.ml" 23 878 916
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"vsa_suite.ml" 24 920 926 "vsa_suite.ml" 24 920 929
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 24 920 932 "vsa_suite.ml" 24 920 947
+type(
+  ?special_error:bool -> Ast.program -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg_ast.of_prog
+)
+"vsa_suite.ml" 24 920 948 "vsa_suite.ml" 24 920 949
+type(
+  Ast.program
+)
+ident(
+  int_ref p "vsa_suite.ml" 23 878 884 "vsa_suite.ml" 23 878 885
+)
+"vsa_suite.ml" 24 920 932 "vsa_suite.ml" 24 920 949
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 25 953 959 "vsa_suite.ml" 25 953 962
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 25 953 965 "vsa_suite.ml" 25 953 1004
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Prune_unreachable.prune_unreachable_ast
+)
+"vsa_suite.ml" 25 953 1005 "vsa_suite.ml" 25 953 1008
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "vsa_suite.ml" 24 920 926 "vsa_suite.ml" 24 920 929
+)
+"vsa_suite.ml" 25 953 965 "vsa_suite.ml" 25 953 1008
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 26 1012 1018 "vsa_suite.ml" 26 1012 1021
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 26 1012 1024 "vsa_suite.ml" 26 1012 1058
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Ast_cond_simplify.simplifycond_cfg
+)
+"vsa_suite.ml" 26 1012 1059 "vsa_suite.ml" 26 1012 1062
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "vsa_suite.ml" 25 953 959 "vsa_suite.ml" 25 953 962
+)
+"vsa_suite.ml" 26 1012 1024 "vsa_suite.ml" 26 1012 1062
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"vsa_suite.ml" 27 1066 1088 "vsa_suite.ml" 27 1066 1091
+type(
+  Cfg.SSA.G.t
+)
+"vsa_suite.ml" 27 1066 1073 "vsa_suite.ml" 27 1066 1102
+type(
+  Var.t -> Var.t
+)
+"vsa_suite.ml" 27 1066 1072 "vsa_suite.ml" 27 1066 1103
+type(
+  Cfg_ssa.cfg_translation_results
+)
+"vsa_suite.ml" 27 1066 1106 "vsa_suite.ml" 27 1066 1123
+type(
+  ?tac:bool -> Cfg.AST.G.t -> Cfg_ssa.cfg_translation_results
+)
+ident(
+  ext_ref Cfg_ssa.trans_cfg
+)
+"vsa_suite.ml" 27 1066 1129 "vsa_suite.ml" 27 1066 1134
+type(
+  bool
+)
+"vsa_suite.ml" 27 1066 1135 "vsa_suite.ml" 27 1066 1138
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "vsa_suite.ml" 26 1012 1018 "vsa_suite.ml" 26 1012 1021
+)
+"vsa_suite.ml" 27 1066 1106 "vsa_suite.ml" 27 1066 1138
+call(
+  stack
+)
+type(
+  Cfg_ssa.cfg_translation_results
+)
+"vsa_suite.ml" 28 1142 1148 "vsa_suite.ml" 28 1142 1151
+type(
+  Var.t
+)
+"vsa_suite.ml" 28 1142 1154 "vsa_suite.ml" 28 1142 1163
+type(
+  Var.t -> Var.t
+)
+ident(
+  int_ref to_ssavar "vsa_suite.ml" 27 1066 1073 "vsa_suite.ml" 27 1066 1102
+)
+"vsa_suite.ml" 28 1142 1164 "vsa_suite.ml" 28 1142 1167
+type(
+  Var.t
+)
+ident(
+  int_ref var "vsa_suite.ml" 21 801 823 "vsa_suite.ml" 21 801 826
+)
+"vsa_suite.ml" 28 1142 1154 "vsa_suite.ml" 28 1142 1167
+call(
+  stack
+)
+type(
+  Var.t
+)
+"vsa_suite.ml" 29 1171 1177 "vsa_suite.ml" 29 1171 1181
+type(
+  Vsa.options
+)
+"vsa_suite.ml" 29 1171 1184 "vsa_suite.ml" 29 1171 1218
+type(
+  Asmir.asmprogram -> Vsa.options
+)
+ident(
+  ext_ref Vsa_ssa.build_default_prog_options
+)
+"vsa_suite.ml" 29 1171 1219 "vsa_suite.ml" 29 1171 1223
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "vsa_suite.ml" 22 834 840 "vsa_suite.ml" 22 834 844
+)
+"vsa_suite.ml" 29 1171 1184 "vsa_suite.ml" 29 1171 1223
+call(
+  stack
+)
+type(
+  Vsa.options
+)
+"vsa_suite.ml" 30 1227 1233 "vsa_suite.ml" 30 1227 1239
+type(
+  Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option
+)
+"vsa_suite.ml" 30 1227 1241 "vsa_suite.ml" 30 1227 1247
+type(
+  Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option
+)
+"vsa_suite.ml" 30 1227 1233 "vsa_suite.ml" 30 1227 1247
+type(
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option) *
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option)
+)
+"vsa_suite.ml" 30 1227 1250 "vsa_suite.ml" 30 1227 1261
+type(
+  ?nmeets:int ->
+  Vsa.options ->
+  Cfg.SSA.G.t ->
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option) *
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option)
+)
+ident(
+  ext_ref Vsa_ssa.vsa
+)
+"vsa_suite.ml" 30 1227 1263 "vsa_suite.ml" 30 1227 1269
+type(
+  int
+)
+ident(
+  int_ref nmeets "vsa_suite.ml" 5 60 64 "vsa_suite.ml" 5 60 70
+)
+"vsa_suite.ml" 30 1227 1270 "vsa_suite.ml" 30 1227 1274
+type(
+  Vsa.options
+)
+ident(
+  int_ref opts "vsa_suite.ml" 29 1171 1177 "vsa_suite.ml" 29 1171 1181
+)
+"vsa_suite.ml" 30 1227 1275 "vsa_suite.ml" 30 1227 1278
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref cfg "vsa_suite.ml" 27 1066 1088 "vsa_suite.ml" 27 1066 1091
+)
+"vsa_suite.ml" 30 1227 1250 "vsa_suite.ml" 30 1227 1278
+call(
+  stack
+)
+type(
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option) *
+  (Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option)
+)
+"vsa_suite.ml" 31 1282 1288 "vsa_suite.ml" 31 1282 1292
+type(
+  Cfg.SSA.G.V.t
+)
+"vsa_suite.ml" 31 1282 1295 "vsa_suite.ml" 31 1282 1313
+type(
+  Cfg.SSA.G.V.label -> Cfg.SSA.G.V.t
+)
+ident(
+  ext_ref Cfg.SSA.G.V.create
+)
+"vsa_suite.ml" 31 1282 1314 "vsa_suite.ml" 31 1282 1325
+type(
+  Cfg.SSA.G.V.label
+)
+"vsa_suite.ml" 31 1282 1295 "vsa_suite.ml" 31 1282 1325
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.V.t
+)
+"vsa_suite.ml" 32 1329 1335 "vsa_suite.ml" 32 1329 1336
+type(
+  Vsa_ssa.AbsEnv.t option
+)
+"vsa_suite.ml" 32 1329 1339 "vsa_suite.ml" 32 1329 1345
+type(
+  Cfg.SSA.G.V.t * int -> Vsa_ssa.AbsEnv.t option
+)
+ident(
+  int_ref df_out "vsa_suite.ml" 30 1227 1241 "vsa_suite.ml" 30 1227 1247
+)
+"vsa_suite.ml" 32 1329 1347 "vsa_suite.ml" 32 1329 1363
+type(
+  Cfg.SSA.G.t -> Cfg.SSA.G.V.t -> Cfg.SSA.G.V.t * int
+)
+ident(
+  ext_ref Vsa_ssa.last_loc
+)
+"vsa_suite.ml" 32 1329 1364 "vsa_suite.ml" 32 1329 1367
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref cfg "vsa_suite.ml" 27 1066 1088 "vsa_suite.ml" 27 1066 1091
+)
+"vsa_suite.ml" 32 1329 1368 "vsa_suite.ml" 32 1329 1372
+type(
+  Cfg.SSA.G.V.t
+)
+ident(
+  int_ref exiT "vsa_suite.ml" 31 1282 1288 "vsa_suite.ml" 31 1282 1292
+)
+"vsa_suite.ml" 32 1329 1346 "vsa_suite.ml" 32 1329 1373
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.V.t * int
+)
+"vsa_suite.ml" 32 1329 1339 "vsa_suite.ml" 32 1329 1373
+call(
+  stack
+)
+type(
+  Vsa_ssa.AbsEnv.t option
+)
+"vsa_suite.ml" 33 1377 1383 "vsa_suite.ml" 33 1377 1384
+type(
+  Vsa_ssa.AbsEnv.t
+)
+"vsa_suite.ml" 33 1377 1387 "vsa_suite.ml" 33 1377 1400
+type(
+  Vsa_ssa.AbsEnv.t option -> Vsa_ssa.AbsEnv.t
+)
+ident(
+  ext_ref BatOption.get
+)
+"vsa_suite.ml" 33 1377 1401 "vsa_suite.ml" 33 1377 1402
+type(
+  Vsa_ssa.AbsEnv.t option
+)
+ident(
+  int_ref l "vsa_suite.ml" 32 1329 1335 "vsa_suite.ml" 32 1329 1336
+)
+"vsa_suite.ml" 33 1377 1387 "vsa_suite.ml" 33 1377 1402
+call(
+  stack
+)
+type(
+  Vsa_ssa.AbsEnv.t
+)
+"vsa_suite.ml" 34 1406 1412 "vsa_suite.ml" 34 1406 1414
+type(
+  Vsa_ssa.AbsEnv.value
+)
+"vsa_suite.ml" 34 1406 1417 "vsa_suite.ml" 34 1406 1424
+type(
+  VM.key -> Vsa_ssa.AbsEnv.value VM.t -> Vsa_ssa.AbsEnv.value
+)
+ident(
+  ext_ref VM.find
+)
+"vsa_suite.ml" 34 1406 1425 "vsa_suite.ml" 34 1406 1428
+type(
+  VM.key
+)
+ident(
+  int_ref var "vsa_suite.ml" 28 1142 1148 "vsa_suite.ml" 28 1142 1151
+)
+"vsa_suite.ml" 34 1406 1429 "vsa_suite.ml" 34 1406 1430
+type(
+  Vsa_ssa.AbsEnv.t
+)
+ident(
+  int_ref l "vsa_suite.ml" 33 1377 1383 "vsa_suite.ml" 33 1377 1384
+)
+"vsa_suite.ml" 34 1406 1417 "vsa_suite.ml" 34 1406 1430
+call(
+  stack
+)
+type(
+  Vsa_ssa.AbsEnv.value
+)
+"vsa_suite.ml" 35 1434 1436 "vsa_suite.ml" 35 1434 1448
+type(
+  ?cmp:(Vsa_ssa.AbsEnv.value -> Vsa_ssa.AbsEnv.value -> bool) ->
+  ?printer:(Vsa_ssa.AbsEnv.value -> string) ->
+  ?pp_diff:(Format.formatter ->
+            Vsa_ssa.AbsEnv.value * Vsa_ssa.AbsEnv.value -> unit) ->
+  ?msg:string -> Vsa_ssa.AbsEnv.value -> Vsa_ssa.AbsEnv.value -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"vsa_suite.ml" 35 1434 1455 "vsa_suite.ml" 35 1434 1469
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"vsa_suite.ml" 35 1434 1470 "vsa_suite.ml" 35 1434 1528
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"vsa_suite.ml" 35 1434 1530 "vsa_suite.ml" 35 1434 1560
+type(
+  Vsa_ssa.AbsEnv.value -> string
+)
+ident(
+  ext_ref Vsa_ssa.AbsEnv.value_to_string
+)
+"vsa_suite.ml" 35 1434 1561 "vsa_suite.ml" 35 1434 1563
+type(
+  Vsa_ssa.AbsEnv.value
+)
+ident(
+  int_ref v' "vsa_suite.ml" 34 1406 1412 "vsa_suite.ml" 34 1406 1414
+)
+"vsa_suite.ml" 35 1434 1529 "vsa_suite.ml" 35 1434 1564
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_suite.ml" 35 1434 1566 "vsa_suite.ml" 35 1434 1582
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"vsa_suite.ml" 35 1434 1583 "vsa_suite.ml" 35 1434 1586
+type(
+  Pp.VH.key
+)
+ident(
+  int_ref var "vsa_suite.ml" 28 1142 1148 "vsa_suite.ml" 28 1142 1151
+)
+"vsa_suite.ml" 35 1434 1565 "vsa_suite.ml" 35 1434 1587
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_suite.ml" 35 1434 1589 "vsa_suite.ml" 35 1434 1619
+type(
+  Vsa_ssa.AbsEnv.value -> string
+)
+ident(
+  ext_ref Vsa_ssa.AbsEnv.value_to_string
+)
+"vsa_suite.ml" 35 1434 1620 "vsa_suite.ml" 35 1434 1621
+type(
+  Vsa_ssa.AbsEnv.value
+)
+ident(
+  int_ref v "vsa_suite.ml" 21 801 827 "vsa_suite.ml" 21 801 828
+)
+"vsa_suite.ml" 35 1434 1588 "vsa_suite.ml" 35 1434 1622
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_suite.ml" 35 1434 1454 "vsa_suite.ml" 35 1434 1623
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_suite.ml" 35 1434 1624 "vsa_suite.ml" 35 1434 1625
+type(
+  Vsa_ssa.AbsEnv.value
+)
+ident(
+  int_ref v "vsa_suite.ml" 21 801 827 "vsa_suite.ml" 21 801 828
+)
+"vsa_suite.ml" 35 1434 1626 "vsa_suite.ml" 35 1434 1628
+type(
+  Vsa_ssa.AbsEnv.value
+)
+ident(
+  int_ref v' "vsa_suite.ml" 34 1406 1412 "vsa_suite.ml" 34 1406 1414
+)
+"vsa_suite.ml" 35 1434 1436 "vsa_suite.ml" 35 1434 1628
+call(
+  tail
+)
+type(
+  unit
+)
+"vsa_suite.ml" 34 1406 1408 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 33 1377 1379 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 32 1329 1331 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 31 1282 1284 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 30 1227 1229 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 29 1171 1173 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 28 1142 1144 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 27 1066 1068 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 26 1012 1014 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 25 953 955 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 24 920 922 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 23 878 880 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 22 834 836 "vsa_suite.ml" 35 1434 1628
+type(
+  unit
+)
+"vsa_suite.ml" 38 1631 1635 "vsa_suite.ml" 38 1631 1648
+type(
+  string * string * VM.key * Vsa_ast.SI.t -> OUnit.test
+)
+ident(
+  def make_ast_test "vsa_suite.ml" 41 1730 1730 --
+)
+"vsa_suite.ml" 38 1631 1650 "vsa_suite.ml" 38 1631 1651
+type(
+  string
+)
+ident(
+  def n "vsa_suite.ml" 39 1665 1667 "vsa_suite.ml" 39 1665 1728
+)
+"vsa_suite.ml" 38 1631 1653 "vsa_suite.ml" 38 1631 1654
+type(
+  string
+)
+ident(
+  def f "vsa_suite.ml" 39 1665 1667 "vsa_suite.ml" 39 1665 1728
+)
+"vsa_suite.ml" 38 1631 1656 "vsa_suite.ml" 38 1631 1657
+type(
+  VM.key
+)
+ident(
+  def r "vsa_suite.ml" 39 1665 1667 "vsa_suite.ml" 39 1665 1728
+)
+"vsa_suite.ml" 38 1631 1659 "vsa_suite.ml" 38 1631 1661
+type(
+  Vsa_ast.SI.t
+)
+ident(
+  def si "vsa_suite.ml" 39 1665 1667 "vsa_suite.ml" 39 1665 1728
+)
+"vsa_suite.ml" 38 1631 1649 "vsa_suite.ml" 38 1631 1662
+type(
+  string * string * VM.key * Vsa_ast.SI.t
+)
+"vsa_suite.ml" 39 1665 1667 "vsa_suite.ml" 39 1665 1668
+type(
+  string
+)
+ident(
+  int_ref n "vsa_suite.ml" 38 1631 1650 "vsa_suite.ml" 38 1631 1651
+)
+"vsa_suite.ml" 39 1665 1668 "vsa_suite.ml" 39 1665 1669
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"vsa_suite.ml" 39 1665 1669 "vsa_suite.ml" 39 1665 1675
+type(
+  string
+)
+"vsa_suite.ml" 39 1665 1667 "vsa_suite.ml" 39 1665 1675
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_suite.ml" 39 1665 1676 "vsa_suite.ml" 39 1665 1679
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"vsa_suite.ml" 39 1665 1680 "vsa_suite.ml" 39 1665 1688
+type(
+  string -> VM.key -> Vsa_ast.AbsEnv.value -> OUnit.test_fun
+)
+ident(
+  int_ref ast_test "vsa_suite.ml" 7 77 81 "vsa_suite.ml" 7 77 89
+)
+"vsa_suite.ml" 39 1665 1689 "vsa_suite.ml" 39 1665 1690
+type(
+  string
+)
+ident(
+  int_ref f "vsa_suite.ml" 38 1631 1653 "vsa_suite.ml" 38 1631 1654
+)
+"vsa_suite.ml" 39 1665 1691 "vsa_suite.ml" 39 1665 1692
+type(
+  VM.key
+)
+ident(
+  int_ref r "vsa_suite.ml" 38 1631 1656 "vsa_suite.ml" 38 1631 1657
+)
+"vsa_suite.ml" 39 1665 1704 "vsa_suite.ml" 39 1665 1721
+type(
+  Vsa_ast.VS.region
+)
+ident(
+  ext_ref Vsa_ast.VS.global
+)
+"vsa_suite.ml" 39 1665 1723 "vsa_suite.ml" 39 1665 1725
+type(
+  Vsa_ast.SI.t
+)
+ident(
+  int_ref si "vsa_suite.ml" 38 1631 1659 "vsa_suite.ml" 38 1631 1661
+)
+"vsa_suite.ml" 39 1665 1703 "vsa_suite.ml" 39 1665 1726
+type(
+  Vsa_ast.VS.address
+)
+"vsa_suite.ml" 39 1665 1702 "vsa_suite.ml" 39 1665 1727
+type(
+  Vsa_ast.VS.t
+)
+"vsa_suite.ml" 39 1665 1693 "vsa_suite.ml" 39 1665 1728
+type(
+  Vsa_ast.AbsEnv.value
+)
+"vsa_suite.ml" 39 1665 1680 "vsa_suite.ml" 39 1665 1728
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"vsa_suite.ml" 39 1665 1667 "vsa_suite.ml" 39 1665 1728
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"vsa_suite.ml" 41 1730 1734 "vsa_suite.ml" 41 1730 1747
+type(
+  string * string * Var.t * Vsa_ssa.SI.t -> OUnit.test
+)
+ident(
+  def make_ssa_test "vsa_suite.ml" 44 1829 1829 --
+)
+"vsa_suite.ml" 41 1730 1749 "vsa_suite.ml" 41 1730 1750
+type(
+  string
+)
+ident(
+  def n "vsa_suite.ml" 42 1764 1766 "vsa_suite.ml" 42 1764 1827
+)
+"vsa_suite.ml" 41 1730 1752 "vsa_suite.ml" 41 1730 1753
+type(
+  string
+)
+ident(
+  def f "vsa_suite.ml" 42 1764 1766 "vsa_suite.ml" 42 1764 1827
+)
+"vsa_suite.ml" 41 1730 1755 "vsa_suite.ml" 41 1730 1756
+type(
+  Var.t
+)
+ident(
+  def r "vsa_suite.ml" 42 1764 1766 "vsa_suite.ml" 42 1764 1827
+)
+"vsa_suite.ml" 41 1730 1758 "vsa_suite.ml" 41 1730 1760
+type(
+  Vsa_ssa.SI.t
+)
+ident(
+  def si "vsa_suite.ml" 42 1764 1766 "vsa_suite.ml" 42 1764 1827
+)
+"vsa_suite.ml" 41 1730 1748 "vsa_suite.ml" 41 1730 1761
+type(
+  string * string * Var.t * Vsa_ssa.SI.t
+)
+"vsa_suite.ml" 42 1764 1766 "vsa_suite.ml" 42 1764 1767
+type(
+  string
+)
+ident(
+  int_ref n "vsa_suite.ml" 41 1730 1749 "vsa_suite.ml" 41 1730 1750
+)
+"vsa_suite.ml" 42 1764 1767 "vsa_suite.ml" 42 1764 1768
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"vsa_suite.ml" 42 1764 1768 "vsa_suite.ml" 42 1764 1774
+type(
+  string
+)
+"vsa_suite.ml" 42 1764 1766 "vsa_suite.ml" 42 1764 1774
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_suite.ml" 42 1764 1775 "vsa_suite.ml" 42 1764 1778
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"vsa_suite.ml" 42 1764 1779 "vsa_suite.ml" 42 1764 1787
+type(
+  string -> Var.t -> Vsa_ssa.AbsEnv.value -> OUnit.test_fun
+)
+ident(
+  int_ref ssa_test "vsa_suite.ml" 21 801 805 "vsa_suite.ml" 21 801 813
+)
+"vsa_suite.ml" 42 1764 1788 "vsa_suite.ml" 42 1764 1789
+type(
+  string
+)
+ident(
+  int_ref f "vsa_suite.ml" 41 1730 1752 "vsa_suite.ml" 41 1730 1753
+)
+"vsa_suite.ml" 42 1764 1790 "vsa_suite.ml" 42 1764 1791
+type(
+  Var.t
+)
+ident(
+  int_ref r "vsa_suite.ml" 41 1730 1755 "vsa_suite.ml" 41 1730 1756
+)
+"vsa_suite.ml" 42 1764 1803 "vsa_suite.ml" 42 1764 1820
+type(
+  Vsa_ssa.VS.region
+)
+ident(
+  ext_ref Vsa_ssa.VS.global
+)
+"vsa_suite.ml" 42 1764 1822 "vsa_suite.ml" 42 1764 1824
+type(
+  Vsa_ssa.SI.t
+)
+ident(
+  int_ref si "vsa_suite.ml" 41 1730 1758 "vsa_suite.ml" 41 1730 1760
+)
+"vsa_suite.ml" 42 1764 1802 "vsa_suite.ml" 42 1764 1825
+type(
+  Vsa_ssa.VS.address
+)
+"vsa_suite.ml" 42 1764 1801 "vsa_suite.ml" 42 1764 1826
+type(
+  Vsa_ssa.VS.t
+)
+"vsa_suite.ml" 42 1764 1792 "vsa_suite.ml" 42 1764 1827
+type(
+  Vsa_ssa.AbsEnv.value
+)
+"vsa_suite.ml" 42 1764 1779 "vsa_suite.ml" 42 1764 1827
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"vsa_suite.ml" 42 1764 1766 "vsa_suite.ml" 42 1764 1827
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"vsa_suite.ml" 44 1829 1833 "vsa_suite.ml" 44 1829 1838
+type(
+  (string * string * Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+ident(
+  def tests "vsa_suite.ml" 65 3008 3008 --
+)
+"vsa_suite.ml" 46 1845 1849 "vsa_suite.ml" 46 1845 1857
+type(
+  string
+)
+"vsa_suite.ml" 46 1845 1859 "vsa_suite.ml" 46 1845 1872
+type(
+  string
+)
+"vsa_suite.ml" 46 1845 1874 "vsa_suite.ml" 46 1845 1893
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 46 1845 1896 "vsa_suite.ml" 46 1845 1898
+type(
+  int
+)
+"vsa_suite.ml" 46 1845 1899 "vsa_suite.ml" 46 1845 1902
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 46 1845 1903 "vsa_suite.ml" 46 1845 1906
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 46 1845 1907 "vsa_suite.ml" 46 1845 1910
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 46 1845 1895 "vsa_suite.ml" 46 1845 1911
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 46 1845 1849 "vsa_suite.ml" 46 1845 1911
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 47 1913 1917 "vsa_suite.ml" 47 1913 1926
+type(
+  string
+)
+"vsa_suite.ml" 47 1913 1928 "vsa_suite.ml" 47 1913 1942
+type(
+  string
+)
+"vsa_suite.ml" 47 1913 1944 "vsa_suite.ml" 47 1913 1963
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 47 1913 1966 "vsa_suite.ml" 47 1913 1968
+type(
+  int
+)
+"vsa_suite.ml" 47 1913 1969 "vsa_suite.ml" 47 1913 1972
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 47 1913 1973 "vsa_suite.ml" 47 1913 1975
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 47 1913 1976 "vsa_suite.ml" 47 1913 1978
+type(
+  int
+)
+"vsa_suite.ml" 47 1913 1973 "vsa_suite.ml" 47 1913 1978
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 47 1913 1979 "vsa_suite.ml" 47 1913 1981
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 47 1913 1982 "vsa_suite.ml" 47 1913 1984
+type(
+  int
+)
+"vsa_suite.ml" 47 1913 1979 "vsa_suite.ml" 47 1913 1984
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 47 1913 1965 "vsa_suite.ml" 47 1913 1985
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 47 1913 1917 "vsa_suite.ml" 47 1913 1985
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 48 1987 1991 "vsa_suite.ml" 48 1987 2000
+type(
+  string
+)
+"vsa_suite.ml" 48 1987 2002 "vsa_suite.ml" 48 1987 2016
+type(
+  string
+)
+"vsa_suite.ml" 48 1987 2018 "vsa_suite.ml" 48 1987 2037
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 48 1987 2040 "vsa_suite.ml" 48 1987 2042
+type(
+  int
+)
+"vsa_suite.ml" 48 1987 2043 "vsa_suite.ml" 48 1987 2046
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 48 1987 2047 "vsa_suite.ml" 48 1987 2050
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 48 1987 2051 "vsa_suite.ml" 48 1987 2054
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 48 1987 2039 "vsa_suite.ml" 48 1987 2055
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 48 1987 1991 "vsa_suite.ml" 48 1987 2055
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 49 2057 2061 "vsa_suite.ml" 49 2057 2071
+type(
+  string
+)
+"vsa_suite.ml" 49 2057 2073 "vsa_suite.ml" 49 2057 2088
+type(
+  string
+)
+"vsa_suite.ml" 49 2057 2090 "vsa_suite.ml" 49 2057 2109
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 49 2057 2112 "vsa_suite.ml" 49 2057 2114
+type(
+  int
+)
+"vsa_suite.ml" 49 2057 2115 "vsa_suite.ml" 49 2057 2118
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 49 2057 2119 "vsa_suite.ml" 49 2057 2121
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 49 2057 2122 "vsa_suite.ml" 49 2057 2124
+type(
+  int
+)
+"vsa_suite.ml" 49 2057 2119 "vsa_suite.ml" 49 2057 2124
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 49 2057 2125 "vsa_suite.ml" 49 2057 2127
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 49 2057 2128 "vsa_suite.ml" 49 2057 2130
+type(
+  int
+)
+"vsa_suite.ml" 49 2057 2125 "vsa_suite.ml" 49 2057 2130
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 49 2057 2111 "vsa_suite.ml" 49 2057 2131
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 49 2057 2061 "vsa_suite.ml" 49 2057 2131
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 50 2133 2137 "vsa_suite.ml" 50 2133 2145
+type(
+  string
+)
+"vsa_suite.ml" 50 2133 2147 "vsa_suite.ml" 50 2133 2160
+type(
+  string
+)
+"vsa_suite.ml" 50 2133 2162 "vsa_suite.ml" 50 2133 2181
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 50 2133 2184 "vsa_suite.ml" 50 2133 2186
+type(
+  int
+)
+"vsa_suite.ml" 50 2133 2187 "vsa_suite.ml" 50 2133 2190
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 50 2133 2191 "vsa_suite.ml" 50 2133 2193
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 50 2133 2194 "vsa_suite.ml" 50 2133 2196
+type(
+  int
+)
+"vsa_suite.ml" 50 2133 2191 "vsa_suite.ml" 50 2133 2196
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 50 2133 2197 "vsa_suite.ml" 50 2133 2199
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 50 2133 2200 "vsa_suite.ml" 50 2133 2202
+type(
+  int
+)
+"vsa_suite.ml" 50 2133 2197 "vsa_suite.ml" 50 2133 2202
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 50 2133 2183 "vsa_suite.ml" 50 2133 2203
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 50 2133 2137 "vsa_suite.ml" 50 2133 2203
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 51 2205 2209 "vsa_suite.ml" 51 2205 2218
+type(
+  string
+)
+"vsa_suite.ml" 51 2205 2220 "vsa_suite.ml" 51 2205 2234
+type(
+  string
+)
+"vsa_suite.ml" 51 2205 2236 "vsa_suite.ml" 51 2205 2255
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 51 2205 2258 "vsa_suite.ml" 51 2205 2260
+type(
+  int
+)
+"vsa_suite.ml" 51 2205 2261 "vsa_suite.ml" 51 2205 2264
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 51 2205 2265 "vsa_suite.ml" 51 2205 2267
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 51 2205 2268 "vsa_suite.ml" 51 2205 2270
+type(
+  int
+)
+"vsa_suite.ml" 51 2205 2265 "vsa_suite.ml" 51 2205 2270
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 51 2205 2271 "vsa_suite.ml" 51 2205 2273
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 51 2205 2274 "vsa_suite.ml" 51 2205 2276
+type(
+  int
+)
+"vsa_suite.ml" 51 2205 2271 "vsa_suite.ml" 51 2205 2276
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 51 2205 2257 "vsa_suite.ml" 51 2205 2277
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 51 2205 2209 "vsa_suite.ml" 51 2205 2277
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 52 2279 2283 "vsa_suite.ml" 52 2279 2291
+type(
+  string
+)
+"vsa_suite.ml" 52 2279 2293 "vsa_suite.ml" 52 2279 2306
+type(
+  string
+)
+"vsa_suite.ml" 52 2279 2308 "vsa_suite.ml" 52 2279 2327
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 52 2279 2330 "vsa_suite.ml" 52 2279 2332
+type(
+  int
+)
+"vsa_suite.ml" 52 2279 2333 "vsa_suite.ml" 52 2279 2336
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 52 2279 2337 "vsa_suite.ml" 52 2279 2340
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 52 2279 2341 "vsa_suite.ml" 52 2279 2344
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 52 2279 2329 "vsa_suite.ml" 52 2279 2345
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 52 2279 2283 "vsa_suite.ml" 52 2279 2345
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 56 2499 2503 "vsa_suite.ml" 56 2499 2512
+type(
+  string
+)
+"vsa_suite.ml" 56 2499 2514 "vsa_suite.ml" 56 2499 2528
+type(
+  string
+)
+"vsa_suite.ml" 56 2499 2530 "vsa_suite.ml" 56 2499 2549
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 56 2499 2552 "vsa_suite.ml" 56 2499 2554
+type(
+  int
+)
+"vsa_suite.ml" 56 2499 2555 "vsa_suite.ml" 56 2499 2558
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 56 2499 2559 "vsa_suite.ml" 56 2499 2561
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 56 2499 2562 "vsa_suite.ml" 56 2499 2564
+type(
+  int
+)
+"vsa_suite.ml" 56 2499 2559 "vsa_suite.ml" 56 2499 2564
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 56 2499 2565 "vsa_suite.ml" 56 2499 2567
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 56 2499 2568 "vsa_suite.ml" 56 2499 2570
+type(
+  int
+)
+"vsa_suite.ml" 56 2499 2565 "vsa_suite.ml" 56 2499 2570
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 56 2499 2551 "vsa_suite.ml" 56 2499 2571
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 56 2499 2503 "vsa_suite.ml" 56 2499 2571
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 57 2573 2577 "vsa_suite.ml" 57 2573 2585
+type(
+  string
+)
+"vsa_suite.ml" 57 2573 2587 "vsa_suite.ml" 57 2573 2600
+type(
+  string
+)
+"vsa_suite.ml" 57 2573 2602 "vsa_suite.ml" 57 2573 2621
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 57 2573 2624 "vsa_suite.ml" 57 2573 2626
+type(
+  int
+)
+"vsa_suite.ml" 57 2573 2627 "vsa_suite.ml" 57 2573 2630
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 57 2573 2631 "vsa_suite.ml" 57 2573 2634
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 57 2573 2635 "vsa_suite.ml" 57 2573 2638
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 57 2573 2623 "vsa_suite.ml" 57 2573 2639
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 57 2573 2577 "vsa_suite.ml" 57 2573 2639
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 58 2641 2645 "vsa_suite.ml" 58 2641 2654
+type(
+  string
+)
+"vsa_suite.ml" 58 2641 2656 "vsa_suite.ml" 58 2641 2670
+type(
+  string
+)
+"vsa_suite.ml" 58 2641 2672 "vsa_suite.ml" 58 2641 2691
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 58 2641 2694 "vsa_suite.ml" 58 2641 2696
+type(
+  int
+)
+"vsa_suite.ml" 58 2641 2697 "vsa_suite.ml" 58 2641 2700
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 58 2641 2701 "vsa_suite.ml" 58 2641 2704
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 58 2641 2705 "vsa_suite.ml" 58 2641 2708
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_suite.ml" 58 2641 2693 "vsa_suite.ml" 58 2641 2709
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 58 2641 2645 "vsa_suite.ml" 58 2641 2709
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 59 2711 2715 "vsa_suite.ml" 59 2711 2723
+type(
+  string
+)
+"vsa_suite.ml" 59 2711 2725 "vsa_suite.ml" 59 2711 2738
+type(
+  string
+)
+"vsa_suite.ml" 59 2711 2740 "vsa_suite.ml" 59 2711 2759
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 59 2711 2762 "vsa_suite.ml" 59 2711 2764
+type(
+  int
+)
+"vsa_suite.ml" 59 2711 2765 "vsa_suite.ml" 59 2711 2768
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 59 2711 2769 "vsa_suite.ml" 59 2711 2771
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 59 2711 2772 "vsa_suite.ml" 59 2711 2774
+type(
+  int
+)
+"vsa_suite.ml" 59 2711 2769 "vsa_suite.ml" 59 2711 2774
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 59 2711 2775 "vsa_suite.ml" 59 2711 2777
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 59 2711 2778 "vsa_suite.ml" 59 2711 2780
+type(
+  int
+)
+"vsa_suite.ml" 59 2711 2775 "vsa_suite.ml" 59 2711 2780
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 59 2711 2761 "vsa_suite.ml" 59 2711 2781
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 59 2711 2715 "vsa_suite.ml" 59 2711 2781
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 60 2783 2787 "vsa_suite.ml" 60 2783 2796
+type(
+  string
+)
+"vsa_suite.ml" 60 2783 2798 "vsa_suite.ml" 60 2783 2812
+type(
+  string
+)
+"vsa_suite.ml" 60 2783 2814 "vsa_suite.ml" 60 2783 2833
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 60 2783 2836 "vsa_suite.ml" 60 2783 2838
+type(
+  int
+)
+"vsa_suite.ml" 60 2783 2839 "vsa_suite.ml" 60 2783 2842
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 60 2783 2843 "vsa_suite.ml" 60 2783 2845
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 60 2783 2846 "vsa_suite.ml" 60 2783 2848
+type(
+  int
+)
+"vsa_suite.ml" 60 2783 2843 "vsa_suite.ml" 60 2783 2848
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 60 2783 2849 "vsa_suite.ml" 60 2783 2851
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 60 2783 2852 "vsa_suite.ml" 60 2783 2854
+type(
+  int
+)
+"vsa_suite.ml" 60 2783 2849 "vsa_suite.ml" 60 2783 2854
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 60 2783 2835 "vsa_suite.ml" 60 2783 2855
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 60 2783 2787 "vsa_suite.ml" 60 2783 2855
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 61 2857 2861 "vsa_suite.ml" 61 2857 2870
+type(
+  string
+)
+"vsa_suite.ml" 61 2857 2872 "vsa_suite.ml" 61 2857 2886
+type(
+  string
+)
+"vsa_suite.ml" 61 2857 2888 "vsa_suite.ml" 61 2857 2907
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 61 2857 2910 "vsa_suite.ml" 61 2857 2912
+type(
+  int
+)
+"vsa_suite.ml" 61 2857 2913 "vsa_suite.ml" 61 2857 2916
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 61 2857 2917 "vsa_suite.ml" 61 2857 2919
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 61 2857 2920 "vsa_suite.ml" 61 2857 2922
+type(
+  int
+)
+"vsa_suite.ml" 61 2857 2917 "vsa_suite.ml" 61 2857 2922
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 61 2857 2923 "vsa_suite.ml" 61 2857 2925
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 61 2857 2926 "vsa_suite.ml" 61 2857 2928
+type(
+  int
+)
+"vsa_suite.ml" 61 2857 2923 "vsa_suite.ml" 61 2857 2928
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 61 2857 2909 "vsa_suite.ml" 61 2857 2929
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 61 2857 2861 "vsa_suite.ml" 61 2857 2929
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 62 2931 2935 "vsa_suite.ml" 62 2931 2945
+type(
+  string
+)
+"vsa_suite.ml" 62 2931 2947 "vsa_suite.ml" 62 2931 2958
+type(
+  string
+)
+"vsa_suite.ml" 62 2931 2960 "vsa_suite.ml" 62 2931 2979
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.ecx
+)
+"vsa_suite.ml" 62 2931 2982 "vsa_suite.ml" 62 2931 2984
+type(
+  int
+)
+"vsa_suite.ml" 62 2931 2985 "vsa_suite.ml" 62 2931 2988
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_suite.ml" 62 2931 2989 "vsa_suite.ml" 62 2931 2991
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 62 2931 2992 "vsa_suite.ml" 62 2931 2994
+type(
+  int
+)
+"vsa_suite.ml" 62 2931 2989 "vsa_suite.ml" 62 2931 2994
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 62 2931 2995 "vsa_suite.ml" 62 2931 2997
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_suite.ml" 62 2931 2998 "vsa_suite.ml" 62 2931 3000
+type(
+  int
+)
+"vsa_suite.ml" 62 2931 2995 "vsa_suite.ml" 62 2931 3000
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_suite.ml" 62 2931 2981 "vsa_suite.ml" 62 2931 3001
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_suite.ml" 62 2931 2935 "vsa_suite.ml" 62 2931 3001
+type(
+  string * string * Var.t * (int * Z.t * Z.t * Z.t)
+)
+"vsa_suite.ml" 45 1841 1843 "vsa_suite.ml" 63 3003 3006
+type(
+  (string * string * Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+"vsa_suite.ml" 65 3008 3012 "vsa_suite.ml" 65 3008 3017
+type(
+  OUnit.test
+)
+ident(
+  def suite "vsa_suite.ml" 67 3062 3094 --
+)
+"vsa_suite.ml" 65 3008 3020 "vsa_suite.ml" 65 3008 3025
+type(
+  string
+)
+"vsa_suite.ml" 65 3008 3026 "vsa_suite.ml" 65 3008 3030
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"vsa_suite.ml" 66 3031 3033 "vsa_suite.ml" 66 3031 3041
+type(
+  (string * string * VM.key * Vsa_ast.SI.t -> OUnit.test) ->
+  (string * string * VM.key * Vsa_ast.SI.t) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"vsa_suite.ml" 66 3031 3042 "vsa_suite.ml" 66 3031 3055
+type(
+  string * string * VM.key * Vsa_ast.SI.t -> OUnit.test
+)
+ident(
+  int_ref make_ast_test "vsa_suite.ml" 38 1631 1635 "vsa_suite.ml" 38 1631 1648
+)
+"vsa_suite.ml" 66 3031 3056 "vsa_suite.ml" 66 3031 3061
+type(
+  (string * string * VM.key * Vsa_ast.SI.t) list
+)
+ident(
+  int_ref tests "vsa_suite.ml" 44 1829 1833 "vsa_suite.ml" 44 1829 1838
+)
+"vsa_suite.ml" 66 3031 3033 "vsa_suite.ml" 66 3031 3061
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"vsa_suite.ml" 67 3062 3064 "vsa_suite.ml" 67 3062 3065
+type(
+  OUnit.test list -> OUnit.test list -> OUnit.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"vsa_suite.ml" 67 3062 3066 "vsa_suite.ml" 67 3062 3074
+type(
+  (string * string * Var.t * Vsa_ssa.SI.t -> OUnit.test) ->
+  (string * string * Var.t * Vsa_ssa.SI.t) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"vsa_suite.ml" 67 3062 3075 "vsa_suite.ml" 67 3062 3088
+type(
+  string * string * Var.t * Vsa_ssa.SI.t -> OUnit.test
+)
+ident(
+  int_ref make_ssa_test "vsa_suite.ml" 41 1730 1734 "vsa_suite.ml" 41 1730 1747
+)
+"vsa_suite.ml" 67 3062 3089 "vsa_suite.ml" 67 3062 3094
+type(
+  (string * string * Var.t * Vsa_ssa.SI.t) list
+)
+ident(
+  int_ref tests "vsa_suite.ml" 44 1829 1833 "vsa_suite.ml" 44 1829 1838
+)
+"vsa_suite.ml" 67 3062 3066 "vsa_suite.ml" 67 3062 3094
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"vsa_suite.ml" 66 3031 3033 "vsa_suite.ml" 67 3062 3094
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"vsa_suite.ml" 65 3008 3020 "vsa_suite.ml" 67 3062 3094
+call(
+  stack
+)
+type(
+  OUnit.test
+)

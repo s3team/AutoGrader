@@ -1,0 +1,1753 @@
+"cfgDataflow.ml" 3 25 58 "cfgDataflow.ml" 3 25 62
+type(
+  string
+)
+ident(
+  def name "cfgDataflow.ml" 3 25 101 "cfgDataflow.ml" 3 25 105
+)
+"cfgDataflow.ml" 3 25 65 "cfgDataflow.ml" 3 25 78
+type(
+  string
+)
+"cfgDataflow.ml" 3 25 83 "cfgDataflow.ml" 3 25 90
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "cfgDataflow.ml" 3 25 101 "cfgDataflow.ml" 3 25 105
+)
+"cfgDataflow.ml" 3 25 93 "cfgDataflow.ml" 3 25 101
+type(
+  [> `NoDebug ] as 'a
+)
+"cfgDataflow.ml" 3 25 36 "cfgDataflow.ml" 3 25 106
+call(
+  stack
+)
+"cfgDataflow.ml" 54 1449 1455 "cfgDataflow.ml" 54 1449 1459
+type(
+  D.O.t -> ('a -> 'b -> 'b) -> 'b -> 'a list -> 'b
+)
+ident(
+  def fold "cfgDataflow.ml" 57 1599 1601 "cfgDataflow.ml" 94 2944 2947
+)
+"cfgDataflow.ml" 54 1449 1460 "cfgDataflow.ml" 54 1449 1461
+type(
+  D.O.t
+)
+ident(
+  def o "cfgDataflow.ml" 54 1449 1462 "cfgDataflow.ml" 56 1552 1598
+)
+"cfgDataflow.ml" 54 1449 1462 "cfgDataflow.ml" 54 1449 1463
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def f "cfgDataflow.ml" 54 1449 1464 "cfgDataflow.ml" 56 1552 1598
+)
+"cfgDataflow.ml" 54 1449 1464 "cfgDataflow.ml" 54 1449 1465
+type(
+  'b
+)
+ident(
+  def l "cfgDataflow.ml" 54 1449 1466 "cfgDataflow.ml" 56 1552 1598
+)
+"cfgDataflow.ml" 54 1449 1466 "cfgDataflow.ml" 54 1449 1471
+type(
+  'a list
+)
+ident(
+  def stmts "cfgDataflow.ml" 54 1449 1474 "cfgDataflow.ml" 56 1552 1598
+)
+"cfgDataflow.ml" 54 1449 1480 "cfgDataflow.ml" 54 1449 1485
+type(
+  D.O.t -> GraphDataflow.direction
+)
+ident(
+  ext_ref D.dir
+)
+"cfgDataflow.ml" 54 1449 1486 "cfgDataflow.ml" 54 1449 1487
+type(
+  D.O.t
+)
+ident(
+  int_ref o "cfgDataflow.ml" 54 1449 1460 "cfgDataflow.ml" 54 1449 1461
+)
+"cfgDataflow.ml" 54 1449 1480 "cfgDataflow.ml" 54 1449 1487
+call(
+  stack
+)
+type(
+  GraphDataflow.direction
+)
+"cfgDataflow.ml" 55 1493 1499 "cfgDataflow.ml" 55 1493 1506
+type(
+  GraphDataflow.direction
+)
+"cfgDataflow.ml" 55 1493 1510 "cfgDataflow.ml" 55 1493 1524
+type(
+  ('b -> 'a -> 'b) -> 'b -> 'a list -> 'b
+)
+ident(
+  ext_ref List.fold_left
+)
+"cfgDataflow.ml" 55 1493 1530 "cfgDataflow.ml" 55 1493 1531
+type(
+  'b
+)
+ident(
+  def a "cfgDataflow.ml" 55 1493 1532 "cfgDataflow.ml" 55 1493 1542
+)
+"cfgDataflow.ml" 55 1493 1532 "cfgDataflow.ml" 55 1493 1533
+type(
+  'a
+)
+ident(
+  def b "cfgDataflow.ml" 55 1493 1537 "cfgDataflow.ml" 55 1493 1542
+)
+"cfgDataflow.ml" 55 1493 1537 "cfgDataflow.ml" 55 1493 1538
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref f "cfgDataflow.ml" 54 1449 1462 "cfgDataflow.ml" 54 1449 1463
+)
+"cfgDataflow.ml" 55 1493 1539 "cfgDataflow.ml" 55 1493 1540
+type(
+  'a
+)
+ident(
+  int_ref b "cfgDataflow.ml" 55 1493 1532 "cfgDataflow.ml" 55 1493 1533
+)
+"cfgDataflow.ml" 55 1493 1541 "cfgDataflow.ml" 55 1493 1542
+type(
+  'b
+)
+ident(
+  int_ref a "cfgDataflow.ml" 55 1493 1530 "cfgDataflow.ml" 55 1493 1531
+)
+"cfgDataflow.ml" 55 1493 1537 "cfgDataflow.ml" 55 1493 1542
+call(
+  tail
+)
+type(
+  'b
+)
+"cfgDataflow.ml" 55 1493 1525 "cfgDataflow.ml" 55 1493 1543
+type(
+  'b -> 'a -> 'b
+)
+"cfgDataflow.ml" 55 1493 1544 "cfgDataflow.ml" 55 1493 1545
+type(
+  'b
+)
+ident(
+  int_ref l "cfgDataflow.ml" 54 1449 1464 "cfgDataflow.ml" 54 1449 1465
+)
+"cfgDataflow.ml" 55 1493 1546 "cfgDataflow.ml" 55 1493 1551
+type(
+  'a list
+)
+ident(
+  int_ref stmts "cfgDataflow.ml" 54 1449 1466 "cfgDataflow.ml" 54 1449 1471
+)
+"cfgDataflow.ml" 55 1493 1510 "cfgDataflow.ml" 55 1493 1551
+call(
+  tail
+)
+type(
+  'b
+)
+"cfgDataflow.ml" 56 1552 1558 "cfgDataflow.ml" 56 1552 1566
+type(
+  GraphDataflow.direction
+)
+"cfgDataflow.ml" 56 1552 1570 "cfgDataflow.ml" 56 1552 1588
+type(
+  ('a -> 'b -> 'b) -> 'a list -> 'b -> 'b
+)
+ident(
+  ext_ref BatList.fold_right
+)
+"cfgDataflow.ml" 56 1552 1589 "cfgDataflow.ml" 56 1552 1590
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref f "cfgDataflow.ml" 54 1449 1462 "cfgDataflow.ml" 54 1449 1463
+)
+"cfgDataflow.ml" 56 1552 1591 "cfgDataflow.ml" 56 1552 1596
+type(
+  'a list
+)
+ident(
+  int_ref stmts "cfgDataflow.ml" 54 1449 1466 "cfgDataflow.ml" 54 1449 1471
+)
+"cfgDataflow.ml" 56 1552 1597 "cfgDataflow.ml" 56 1552 1598
+type(
+  'b
+)
+ident(
+  int_ref l "cfgDataflow.ml" 54 1449 1464 "cfgDataflow.ml" 54 1449 1465
+)
+"cfgDataflow.ml" 56 1552 1570 "cfgDataflow.ml" 56 1552 1598
+call(
+  tail
+)
+type(
+  'b
+)
+"cfgDataflow.ml" 54 1449 1474 "cfgDataflow.ml" 56 1552 1598
+type(
+  'b
+)
+"cfgDataflow.ml" 61 1680 1688 "cfgDataflow.ml" 61 1680 1710
+type(
+  D.O.t -> D.CFG.G.t -> D.CFG.G.V.t -> D.L.t -> D.L.t
+)
+ident(
+  def node_transfer_function "cfgDataflow.ml" 65 1903 1907 "cfgDataflow.ml" 76 2203 2208
+)
+"cfgDataflow.ml" 61 1680 1711 "cfgDataflow.ml" 61 1680 1712
+type(
+  D.O.t
+)
+ident(
+  def o "cfgDataflow.ml" 61 1680 1713 "cfgDataflow.ml" 64 1895 1902
+)
+"cfgDataflow.ml" 61 1680 1713 "cfgDataflow.ml" 61 1680 1714
+type(
+  D.CFG.G.t
+)
+ident(
+  def g "cfgDataflow.ml" 61 1680 1715 "cfgDataflow.ml" 64 1895 1902
+)
+"cfgDataflow.ml" 61 1680 1715 "cfgDataflow.ml" 61 1680 1716
+type(
+  D.CFG.G.V.t
+)
+ident(
+  def v "cfgDataflow.ml" 61 1680 1717 "cfgDataflow.ml" 64 1895 1902
+)
+"cfgDataflow.ml" 61 1680 1717 "cfgDataflow.ml" 61 1680 1718
+type(
+  D.L.t
+)
+ident(
+  def l "cfgDataflow.ml" 62 1721 1727 "cfgDataflow.ml" 64 1895 1902
+)
+"cfgDataflow.ml" 62 1721 1727 "cfgDataflow.ml" 62 1721 1734
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"cfgDataflow.ml" 62 1721 1735 "cfgDataflow.ml" 62 1721 1763
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"cfgDataflow.ml" 62 1721 1765 "cfgDataflow.ml" 62 1721 1774
+type(
+  D.CFG.G.V.t -> string
+)
+ident(
+  ext_ref D.CFG.v2s
+)
+"cfgDataflow.ml" 62 1721 1775 "cfgDataflow.ml" 62 1721 1776
+type(
+  D.CFG.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 61 1680 1715 "cfgDataflow.ml" 61 1680 1716
+)
+"cfgDataflow.ml" 62 1721 1764 "cfgDataflow.ml" 62 1721 1777
+call(
+  stack
+)
+type(
+  string
+)
+"cfgDataflow.ml" 62 1721 1727 "cfgDataflow.ml" 62 1721 1777
+call(
+  stack
+)
+type(
+  unit
+)
+"cfgDataflow.ml" 63 1779 1789 "cfgDataflow.ml" 63 1779 1790
+type(
+  D.L.t
+)
+"cfgDataflow.ml" 63 1779 1792 "cfgDataflow.ml" 63 1779 1793
+type(
+  int
+)
+"cfgDataflow.ml" 63 1779 1789 "cfgDataflow.ml" 63 1779 1793
+type(
+  D.L.t * int
+)
+"cfgDataflow.ml" 63 1779 1796 "cfgDataflow.ml" 63 1779 1800
+type(
+  D.O.t ->
+  (D.CFG.stmt -> D.L.t * int -> D.L.t * int) ->
+  D.L.t * int -> D.CFG.lang -> D.L.t * int
+)
+ident(
+  int_ref fold "cfgDataflow.ml" 54 1449 1455 "cfgDataflow.ml" 54 1449 1459
+)
+"cfgDataflow.ml" 63 1779 1801 "cfgDataflow.ml" 63 1779 1802
+type(
+  D.O.t
+)
+ident(
+  int_ref o "cfgDataflow.ml" 61 1680 1711 "cfgDataflow.ml" 61 1680 1712
+)
+"cfgDataflow.ml" 63 1779 1808 "cfgDataflow.ml" 63 1779 1809
+type(
+  D.CFG.stmt
+)
+ident(
+  def s "cfgDataflow.ml" 63 1779 1810 "cfgDataflow.ml" 63 1779 1862
+)
+"cfgDataflow.ml" 63 1779 1811 "cfgDataflow.ml" 63 1779 1812
+type(
+  D.L.t
+)
+ident(
+  def l "cfgDataflow.ml" 63 1779 1819 "cfgDataflow.ml" 63 1779 1862
+)
+"cfgDataflow.ml" 63 1779 1813 "cfgDataflow.ml" 63 1779 1814
+type(
+  int
+)
+ident(
+  def i "cfgDataflow.ml" 63 1779 1819 "cfgDataflow.ml" 63 1779 1862
+)
+"cfgDataflow.ml" 63 1779 1810 "cfgDataflow.ml" 63 1779 1815
+type(
+  D.L.t * int
+)
+"cfgDataflow.ml" 63 1779 1819 "cfgDataflow.ml" 63 1779 1843
+type(
+  D.O.t -> D.CFG.G.t -> D.CFG.G.V.t * int -> D.CFG.stmt -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.stmt_transfer_function
+)
+"cfgDataflow.ml" 63 1779 1844 "cfgDataflow.ml" 63 1779 1845
+type(
+  D.O.t
+)
+ident(
+  int_ref o "cfgDataflow.ml" 61 1680 1711 "cfgDataflow.ml" 61 1680 1712
+)
+"cfgDataflow.ml" 63 1779 1846 "cfgDataflow.ml" 63 1779 1847
+type(
+  D.CFG.G.t
+)
+ident(
+  int_ref g "cfgDataflow.ml" 61 1680 1713 "cfgDataflow.ml" 61 1680 1714
+)
+"cfgDataflow.ml" 63 1779 1849 "cfgDataflow.ml" 63 1779 1850
+type(
+  D.CFG.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 61 1680 1715 "cfgDataflow.ml" 61 1680 1716
+)
+"cfgDataflow.ml" 63 1779 1851 "cfgDataflow.ml" 63 1779 1852
+type(
+  int
+)
+ident(
+  int_ref i "cfgDataflow.ml" 63 1779 1813 "cfgDataflow.ml" 63 1779 1814
+)
+"cfgDataflow.ml" 63 1779 1848 "cfgDataflow.ml" 63 1779 1853
+type(
+  D.CFG.G.V.t * int
+)
+"cfgDataflow.ml" 63 1779 1854 "cfgDataflow.ml" 63 1779 1855
+type(
+  D.CFG.stmt
+)
+ident(
+  int_ref s "cfgDataflow.ml" 63 1779 1808 "cfgDataflow.ml" 63 1779 1809
+)
+"cfgDataflow.ml" 63 1779 1856 "cfgDataflow.ml" 63 1779 1857
+type(
+  D.L.t
+)
+ident(
+  int_ref l "cfgDataflow.ml" 63 1779 1811 "cfgDataflow.ml" 63 1779 1812
+)
+"cfgDataflow.ml" 63 1779 1819 "cfgDataflow.ml" 63 1779 1857
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"cfgDataflow.ml" 63 1779 1859 "cfgDataflow.ml" 63 1779 1860
+type(
+  int
+)
+ident(
+  int_ref i "cfgDataflow.ml" 63 1779 1813 "cfgDataflow.ml" 63 1779 1814
+)
+"cfgDataflow.ml" 63 1779 1860 "cfgDataflow.ml" 63 1779 1861
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"cfgDataflow.ml" 63 1779 1861 "cfgDataflow.ml" 63 1779 1862
+type(
+  int
+)
+"cfgDataflow.ml" 63 1779 1859 "cfgDataflow.ml" 63 1779 1862
+type(
+  int
+)
+"cfgDataflow.ml" 63 1779 1819 "cfgDataflow.ml" 63 1779 1862
+type(
+  D.L.t * int
+)
+"cfgDataflow.ml" 63 1779 1803 "cfgDataflow.ml" 63 1779 1863
+type(
+  D.CFG.stmt -> D.L.t * int -> D.L.t * int
+)
+"cfgDataflow.ml" 63 1779 1865 "cfgDataflow.ml" 63 1779 1866
+type(
+  D.L.t
+)
+ident(
+  int_ref l "cfgDataflow.ml" 61 1680 1717 "cfgDataflow.ml" 61 1680 1718
+)
+"cfgDataflow.ml" 63 1779 1867 "cfgDataflow.ml" 63 1779 1868
+type(
+  int
+)
+"cfgDataflow.ml" 63 1779 1864 "cfgDataflow.ml" 63 1779 1869
+type(
+  D.L.t * int
+)
+"cfgDataflow.ml" 63 1779 1871 "cfgDataflow.ml" 63 1779 1886
+type(
+  D.CFG.G.t -> D.CFG.G.V.t -> D.CFG.lang
+)
+ident(
+  ext_ref D.CFG.get_stmts
+)
+"cfgDataflow.ml" 63 1779 1887 "cfgDataflow.ml" 63 1779 1888
+type(
+  D.CFG.G.t
+)
+ident(
+  int_ref g "cfgDataflow.ml" 61 1680 1713 "cfgDataflow.ml" 61 1680 1714
+)
+"cfgDataflow.ml" 63 1779 1889 "cfgDataflow.ml" 63 1779 1890
+type(
+  D.CFG.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 61 1680 1715 "cfgDataflow.ml" 61 1680 1716
+)
+"cfgDataflow.ml" 63 1779 1870 "cfgDataflow.ml" 63 1779 1891
+call(
+  stack
+)
+type(
+  D.CFG.lang
+)
+"cfgDataflow.ml" 63 1779 1796 "cfgDataflow.ml" 63 1779 1891
+call(
+  stack
+)
+type(
+  D.L.t * int
+)
+"cfgDataflow.ml" 64 1895 1901 "cfgDataflow.ml" 64 1895 1902
+type(
+  D.L.t
+)
+ident(
+  int_ref l "cfgDataflow.ml" 63 1779 1789 "cfgDataflow.ml" 63 1779 1790
+)
+"cfgDataflow.ml" 63 1779 1785 "cfgDataflow.ml" 64 1895 1902
+type(
+  D.L.t
+)
+"cfgDataflow.ml" 62 1721 1727 "cfgDataflow.ml" 64 1895 1902
+type(
+  D.L.t
+)
+"cfgDataflow.ml" 65 1903 1911 "cfgDataflow.ml" 65 1903 1933
+type(
+  D.O.t -> D.CFG.G.t -> G.E.t -> D.L.t -> D.L.t
+)
+ident(
+  def edge_transfer_function "cfgDataflow.ml" 73 2143 2147 "cfgDataflow.ml" 76 2203 2208
+)
+"cfgDataflow.ml" 65 1903 1934 "cfgDataflow.ml" 65 1903 1935
+type(
+  D.O.t
+)
+ident(
+  def o "cfgDataflow.ml" 65 1903 1936 "cfgDataflow.ml" 72 2135 2142
+)
+"cfgDataflow.ml" 65 1903 1936 "cfgDataflow.ml" 65 1903 1937
+type(
+  D.CFG.G.t
+)
+ident(
+  def g "cfgDataflow.ml" 65 1903 1938 "cfgDataflow.ml" 72 2135 2142
+)
+"cfgDataflow.ml" 65 1903 1938 "cfgDataflow.ml" 65 1903 1939
+type(
+  G.E.t
+)
+ident(
+  def e "cfgDataflow.ml" 65 1903 1940 "cfgDataflow.ml" 72 2135 2142
+)
+"cfgDataflow.ml" 65 1903 1940 "cfgDataflow.ml" 65 1903 1941
+type(
+  D.L.t
+)
+ident(
+  def l "cfgDataflow.ml" 66 1944 1950 "cfgDataflow.ml" 72 2135 2142
+)
+"cfgDataflow.ml" 66 1944 1954 "cfgDataflow.ml" 66 1944 1957
+type(
+  D.CFG.exp option
+)
+"cfgDataflow.ml" 66 1944 1966 "cfgDataflow.ml" 66 1944 1975
+type(
+  G.E.t -> G.E.label
+)
+ident(
+  ext_ref G.E.label
+)
+"cfgDataflow.ml" 66 1944 1976 "cfgDataflow.ml" 66 1944 1977
+type(
+  G.E.t
+)
+ident(
+  int_ref e "cfgDataflow.ml" 65 1903 1938 "cfgDataflow.ml" 65 1903 1939
+)
+"cfgDataflow.ml" 66 1944 1966 "cfgDataflow.ml" 66 1944 1977
+call(
+  stack
+)
+type(
+  G.E.label
+)
+"cfgDataflow.ml" 67 1983 1998 "cfgDataflow.ml" 67 1983 1999
+type(
+  bool option
+)
+"cfgDataflow.ml" 67 1983 2000 "cfgDataflow.ml" 67 1983 2001
+type(
+  D.CFG.exp
+)
+ident(
+  def e "cfgDataflow.ml" 67 1983 2006 "cfgDataflow.ml" 67 1983 2012
+)
+"cfgDataflow.ml" 67 1983 1997 "cfgDataflow.ml" 67 1983 2002
+type(
+  bool option * D.CFG.exp
+)
+"cfgDataflow.ml" 67 1983 1993 "cfgDataflow.ml" 67 1983 2002
+type(
+  G.E.label
+)
+"cfgDataflow.ml" 67 1983 2011 "cfgDataflow.ml" 67 1983 2012
+type(
+  D.CFG.exp
+)
+ident(
+  int_ref e "cfgDataflow.ml" 67 1983 2000 "cfgDataflow.ml" 67 1983 2001
+)
+"cfgDataflow.ml" 67 1983 2006 "cfgDataflow.ml" 67 1983 2012
+type(
+  D.CFG.exp option
+)
+"cfgDataflow.ml" 68 2013 2023 "cfgDataflow.ml" 68 2013 2027
+type(
+  G.E.label
+)
+"cfgDataflow.ml" 68 2013 2031 "cfgDataflow.ml" 68 2013 2035
+type(
+  D.CFG.exp option
+)
+"cfgDataflow.ml" 66 1944 1960 "cfgDataflow.ml" 68 2013 2035
+type(
+  D.CFG.exp option
+)
+"cfgDataflow.ml" 70 2045 2055 "cfgDataflow.ml" 70 2045 2056
+type(
+  D.L.t
+)
+"cfgDataflow.ml" 70 2045 2059 "cfgDataflow.ml" 70 2045 2083
+type(
+  D.O.t -> D.CFG.G.t -> G.E.t -> D.CFG.exp option -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.edge_transfer_function
+)
+"cfgDataflow.ml" 70 2045 2084 "cfgDataflow.ml" 70 2045 2085
+type(
+  D.O.t
+)
+ident(
+  int_ref o "cfgDataflow.ml" 65 1903 1934 "cfgDataflow.ml" 65 1903 1935
+)
+"cfgDataflow.ml" 70 2045 2086 "cfgDataflow.ml" 70 2045 2087
+type(
+  D.CFG.G.t
+)
+ident(
+  int_ref g "cfgDataflow.ml" 65 1903 1936 "cfgDataflow.ml" 65 1903 1937
+)
+"cfgDataflow.ml" 70 2045 2088 "cfgDataflow.ml" 70 2045 2089
+type(
+  G.E.t
+)
+ident(
+  int_ref e "cfgDataflow.ml" 65 1903 1938 "cfgDataflow.ml" 65 1903 1939
+)
+"cfgDataflow.ml" 70 2045 2090 "cfgDataflow.ml" 70 2045 2093
+type(
+  D.CFG.exp option
+)
+ident(
+  int_ref arg "cfgDataflow.ml" 66 1944 1954 "cfgDataflow.ml" 66 1944 1957
+)
+"cfgDataflow.ml" 70 2045 2094 "cfgDataflow.ml" 70 2045 2095
+type(
+  D.L.t
+)
+ident(
+  int_ref l "cfgDataflow.ml" 65 1903 1940 "cfgDataflow.ml" 65 1903 1941
+)
+"cfgDataflow.ml" 70 2045 2059 "cfgDataflow.ml" 70 2045 2095
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"cfgDataflow.ml" 71 2099 2105 "cfgDataflow.ml" 71 2099 2112
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"cfgDataflow.ml" 71 2099 2113 "cfgDataflow.ml" 71 2099 2133
+type(
+  (unit, unit, string, unit) format4
+)
+"cfgDataflow.ml" 71 2099 2105 "cfgDataflow.ml" 71 2099 2133
+call(
+  stack
+)
+type(
+  unit
+)
+"cfgDataflow.ml" 72 2135 2141 "cfgDataflow.ml" 72 2135 2142
+type(
+  D.L.t
+)
+ident(
+  int_ref o "cfgDataflow.ml" 70 2045 2055 "cfgDataflow.ml" 70 2045 2056
+)
+"cfgDataflow.ml" 71 2099 2105 "cfgDataflow.ml" 72 2135 2142
+type(
+  D.L.t
+)
+"cfgDataflow.ml" 70 2045 2051 "cfgDataflow.ml" 72 2135 2142
+type(
+  D.L.t
+)
+"cfgDataflow.ml" 66 1944 1950 "cfgDataflow.ml" 72 2135 2142
+type(
+  D.L.t
+)
+"cfgDataflow.ml" 73 2143 2151 "cfgDataflow.ml" 73 2143 2153
+type(
+  D.O.t -> D.CFG.G.t -> D.CFG.G.V.t
+)
+ident(
+  def s0 "cfgDataflow.ml" 74 2161 2165 "cfgDataflow.ml" 76 2203 2208
+)
+"cfgDataflow.ml" 73 2143 2156 "cfgDataflow.ml" 73 2143 2160
+type(
+  D.O.t -> D.CFG.G.t -> D.CFG.G.V.t
+)
+ident(
+  ext_ref D.s0
+)
+"cfgDataflow.ml" 74 2161 2169 "cfgDataflow.ml" 74 2161 2173
+type(
+  D.O.t -> D.CFG.G.t -> D.L.t
+)
+ident(
+  def init "cfgDataflow.ml" 75 2183 2187 "cfgDataflow.ml" 76 2203 2208
+)
+"cfgDataflow.ml" 74 2161 2176 "cfgDataflow.ml" 74 2161 2182
+type(
+  D.O.t -> D.CFG.G.t -> D.L.t
+)
+ident(
+  ext_ref D.init
+)
+"cfgDataflow.ml" 75 2183 2191 "cfgDataflow.ml" 75 2183 2194
+type(
+  D.O.t -> GraphDataflow.direction
+)
+ident(
+  def dir "cfgDataflow.ml" 75 2183 2202 "cfgDataflow.ml" 76 2203 2208
+)
+"cfgDataflow.ml" 75 2183 2197 "cfgDataflow.ml" 75 2183 2202
+type(
+  D.O.t -> GraphDataflow.direction
+)
+ident(
+  ext_ref D.dir
+)
+"cfgDataflow.ml" 77 2209 2224 "cfgDataflow.ml" 77 2209 2255
+call(
+  stack
+)
+"cfgDataflow.ml" 78 2256 2262 "cfgDataflow.ml" 78 2256 2284
+type(
+  ?init:(DFSPECW.O.t -> DFSPECW.G.t -> DFSPECW.L.t) ->
+  ?nmeets:int ->
+  ?opts:DFSPECW.O.t ->
+  DFSPECW.G.t ->
+  (DFSPECW.G.V.t -> DFSPECW.L.t) * (DFSPECW.G.V.t -> DFSPECW.L.t)
+)
+ident(
+  def worklist_iterate_widen "cfgDataflow.ml" 80 2318 2320 "cfgDataflow.ml" 94 2944 2947
+)
+"cfgDataflow.ml" 79 2287 2291 "cfgDataflow.ml" 79 2287 2317
+type(
+  ?init:(DFSPECW.O.t -> DFSPECW.G.t -> DFSPECW.L.t) ->
+  ?nmeets:int ->
+  ?opts:DFSPECW.O.t ->
+  DFSPECW.G.t ->
+  (DFSPECW.G.V.t -> DFSPECW.L.t) * (DFSPECW.G.V.t -> DFSPECW.L.t)
+)
+ident(
+  ext_ref DFW.worklist_iterate_widen
+)
+"cfgDataflow.ml" 80 2318 2324 "cfgDataflow.ml" 80 2318 2351
+type(
+  ?init:(DFSPECW.O.t -> DFSPECW.G.t -> DFSPECW.L.t) ->
+  ?nmeets:int ->
+  ?opts:DFSPECW.O.t ->
+  DFSPECW.G.t ->
+  (DFSPECW.G.V.t * int -> DFSPECW.L.t) * (DFSPECW.G.V.t * int -> DFSPECW.L.t)
+)
+ident(
+  def worklist_iterate_widen_stmt "cfgDataflow.ml" 92 2878 2880 "cfgDataflow.ml" 94 2944 2947
+)
+"cfgDataflow.ml" 80 2318 2353 "cfgDataflow.ml" 80 2318 2357
+type(
+  (DFSPECW.O.t -> DFSPECW.G.t -> DFSPECW.L.t) option
+)
+ident(
+  def init "cfgDataflow.ml" 80 2318 2358 "cfgDataflow.ml" 91 2856 2877
+)
+"cfgDataflow.ml" 80 2318 2359 "cfgDataflow.ml" 80 2318 2365
+type(
+  int option
+)
+ident(
+  def nmeets "cfgDataflow.ml" 80 2318 2366 "cfgDataflow.ml" 91 2856 2877
+)
+"cfgDataflow.ml" 80 2318 2368 "cfgDataflow.ml" 80 2318 2372
+type(
+  DFSPECW.O.t
+)
+"cfgDataflow.ml" 80 2318 2373 "cfgDataflow.ml" 80 2318 2384
+type(
+  DFSPECW.O.t
+)
+ident(
+  ext_ref D.O.default
+)
+type(
+  DFSPECW.O.t
+)
+ident(
+  int_ref *sth* "cfgDataflow.ml" 80 2318 2373 "cfgDataflow.ml" 80 2318 2384
+)
+type(
+  DFSPECW.O.t option
+)
+type(
+  DFSPECW.O.t option
+)
+type(
+  DFSPECW.O.t
+)
+ident(
+  def *sth* "cfgDataflow.ml" 80 2318 2373 "cfgDataflow.ml" 80 2318 2384
+)
+"cfgDataflow.ml" 80 2318 2386 "cfgDataflow.ml" 80 2318 2387
+type(
+  DFSPECW.G.t
+)
+ident(
+  def g "cfgDataflow.ml" 81 2390 2394 "cfgDataflow.ml" 91 2856 2877
+)
+"cfgDataflow.ml" 81 2390 2398 "cfgDataflow.ml" 81 2390 2401
+type(
+  DFSPECW.G.V.t -> DFSPECW.L.t
+)
+"cfgDataflow.ml" 81 2390 2402 "cfgDataflow.ml" 81 2390 2406
+type(
+  DFSPECW.G.V.t -> DFSPECW.L.t
+)
+"cfgDataflow.ml" 81 2390 2398 "cfgDataflow.ml" 81 2390 2406
+type(
+  (DFSPECW.G.V.t -> DFSPECW.L.t) * (DFSPECW.G.V.t -> DFSPECW.L.t)
+)
+"cfgDataflow.ml" 81 2390 2409 "cfgDataflow.ml" 81 2390 2431
+type(
+  ?init:(DFSPECW.O.t -> DFSPECW.G.t -> DFSPECW.L.t) ->
+  ?nmeets:int ->
+  ?opts:DFSPECW.O.t ->
+  DFSPECW.G.t ->
+  (DFSPECW.G.V.t -> DFSPECW.L.t) * (DFSPECW.G.V.t -> DFSPECW.L.t)
+)
+ident(
+  int_ref worklist_iterate_widen "cfgDataflow.ml" 78 2256 2262 "cfgDataflow.ml" 78 2256 2284
+)
+"cfgDataflow.ml" 81 2390 2433 "cfgDataflow.ml" 81 2390 2437
+type(
+  (DFSPECW.O.t -> DFSPECW.G.t -> DFSPECW.L.t) option
+)
+ident(
+  int_ref init "cfgDataflow.ml" 80 2318 2353 "cfgDataflow.ml" 80 2318 2357
+)
+"cfgDataflow.ml" 81 2390 2439 "cfgDataflow.ml" 81 2390 2445
+type(
+  int option
+)
+ident(
+  int_ref nmeets "cfgDataflow.ml" 80 2318 2359 "cfgDataflow.ml" 80 2318 2365
+)
+"cfgDataflow.ml" 81 2390 2447 "cfgDataflow.ml" 81 2390 2451
+type(
+  DFSPECW.O.t
+)
+ident(
+  int_ref opts "cfgDataflow.ml" 80 2318 2368 "cfgDataflow.ml" 80 2318 2372
+)
+"cfgDataflow.ml" 81 2390 2452 "cfgDataflow.ml" 81 2390 2453
+type(
+  DFSPECW.G.t
+)
+ident(
+  int_ref g "cfgDataflow.ml" 80 2318 2386 "cfgDataflow.ml" 80 2318 2387
+)
+"cfgDataflow.ml" 81 2390 2409 "cfgDataflow.ml" 81 2390 2453
+call(
+  stack
+)
+type(
+  (DFSPECW.G.V.t -> DFSPECW.L.t) * (DFSPECW.G.V.t -> DFSPECW.L.t)
+)
+"cfgDataflow.ml" 82 2457 2465 "cfgDataflow.ml" 82 2457 2472
+type(
+  DFSPECW.G.V.t * int -> DFSPECW.L.t
+)
+"cfgDataflow.ml" 82 2457 2474 "cfgDataflow.ml" 82 2457 2475
+type(
+  DFSPECW.G.V.t
+)
+ident(
+  def v "cfgDataflow.ml" 83 2481 2487 "cfgDataflow.ml" 85 2642 2649
+)
+"cfgDataflow.ml" 82 2457 2476 "cfgDataflow.ml" 82 2457 2477
+type(
+  int
+)
+ident(
+  def n "cfgDataflow.ml" 83 2481 2487 "cfgDataflow.ml" 85 2642 2649
+)
+"cfgDataflow.ml" 82 2457 2473 "cfgDataflow.ml" 82 2457 2478
+type(
+  DFSPECW.G.V.t * int
+)
+"cfgDataflow.ml" 83 2481 2491 "cfgDataflow.ml" 83 2481 2492
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 83 2481 2495 "cfgDataflow.ml" 83 2481 2498
+type(
+  DFSPECW.G.V.t -> DFSPECW.L.t
+)
+ident(
+  int_ref win "cfgDataflow.ml" 81 2390 2398 "cfgDataflow.ml" 81 2390 2401
+)
+"cfgDataflow.ml" 83 2481 2499 "cfgDataflow.ml" 83 2481 2500
+type(
+  DFSPECW.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 82 2457 2474 "cfgDataflow.ml" 82 2457 2475
+)
+"cfgDataflow.ml" 83 2481 2495 "cfgDataflow.ml" 83 2481 2500
+call(
+  stack
+)
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 84 2504 2514 "cfgDataflow.ml" 84 2504 2515
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 84 2504 2516 "cfgDataflow.ml" 84 2504 2517
+type(
+  int
+)
+"cfgDataflow.ml" 84 2504 2514 "cfgDataflow.ml" 84 2504 2517
+type(
+  DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 84 2504 2520 "cfgDataflow.ml" 84 2504 2524
+type(
+  DFSPECW.O.t ->
+  (D.CFG.stmt -> DFSPECW.L.t * int -> DFSPECW.L.t * int) ->
+  DFSPECW.L.t * int -> D.CFG.stmt list -> DFSPECW.L.t * int
+)
+ident(
+  int_ref fold "cfgDataflow.ml" 54 1449 1455 "cfgDataflow.ml" 54 1449 1459
+)
+"cfgDataflow.ml" 84 2504 2525 "cfgDataflow.ml" 84 2504 2529
+type(
+  DFSPECW.O.t
+)
+ident(
+  int_ref opts "cfgDataflow.ml" 80 2318 2368 "cfgDataflow.ml" 80 2318 2372
+)
+"cfgDataflow.ml" 84 2504 2535 "cfgDataflow.ml" 84 2504 2536
+type(
+  D.CFG.stmt
+)
+ident(
+  def s "cfgDataflow.ml" 84 2504 2537 "cfgDataflow.ml" 84 2504 2592
+)
+"cfgDataflow.ml" 84 2504 2538 "cfgDataflow.ml" 84 2504 2539
+type(
+  DFSPECW.L.t
+)
+ident(
+  def l "cfgDataflow.ml" 84 2504 2546 "cfgDataflow.ml" 84 2504 2592
+)
+"cfgDataflow.ml" 84 2504 2540 "cfgDataflow.ml" 84 2504 2541
+type(
+  int
+)
+ident(
+  def i "cfgDataflow.ml" 84 2504 2546 "cfgDataflow.ml" 84 2504 2592
+)
+"cfgDataflow.ml" 84 2504 2537 "cfgDataflow.ml" 84 2504 2542
+type(
+  DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 84 2504 2546 "cfgDataflow.ml" 84 2504 2570
+type(
+  DFSPECW.O.t ->
+  DFSPECW.G.t ->
+  DFSPECW.G.V.t * int -> D.CFG.stmt -> DFSPECW.L.t -> DFSPECW.L.t
+)
+ident(
+  ext_ref D.stmt_transfer_function
+)
+"cfgDataflow.ml" 84 2504 2571 "cfgDataflow.ml" 84 2504 2575
+type(
+  DFSPECW.O.t
+)
+ident(
+  int_ref opts "cfgDataflow.ml" 80 2318 2368 "cfgDataflow.ml" 80 2318 2372
+)
+"cfgDataflow.ml" 84 2504 2576 "cfgDataflow.ml" 84 2504 2577
+type(
+  DFSPECW.G.t
+)
+ident(
+  int_ref g "cfgDataflow.ml" 80 2318 2386 "cfgDataflow.ml" 80 2318 2387
+)
+"cfgDataflow.ml" 84 2504 2579 "cfgDataflow.ml" 84 2504 2580
+type(
+  DFSPECW.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 82 2457 2474 "cfgDataflow.ml" 82 2457 2475
+)
+"cfgDataflow.ml" 84 2504 2581 "cfgDataflow.ml" 84 2504 2582
+type(
+  int
+)
+ident(
+  int_ref i "cfgDataflow.ml" 84 2504 2540 "cfgDataflow.ml" 84 2504 2541
+)
+"cfgDataflow.ml" 84 2504 2578 "cfgDataflow.ml" 84 2504 2583
+type(
+  DFSPECW.G.V.t * int
+)
+"cfgDataflow.ml" 84 2504 2584 "cfgDataflow.ml" 84 2504 2585
+type(
+  D.CFG.stmt
+)
+ident(
+  int_ref s "cfgDataflow.ml" 84 2504 2535 "cfgDataflow.ml" 84 2504 2536
+)
+"cfgDataflow.ml" 84 2504 2586 "cfgDataflow.ml" 84 2504 2587
+type(
+  DFSPECW.L.t
+)
+ident(
+  int_ref l "cfgDataflow.ml" 84 2504 2538 "cfgDataflow.ml" 84 2504 2539
+)
+"cfgDataflow.ml" 84 2504 2546 "cfgDataflow.ml" 84 2504 2587
+call(
+  stack
+)
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 84 2504 2589 "cfgDataflow.ml" 84 2504 2590
+type(
+  int
+)
+ident(
+  int_ref i "cfgDataflow.ml" 84 2504 2540 "cfgDataflow.ml" 84 2504 2541
+)
+"cfgDataflow.ml" 84 2504 2590 "cfgDataflow.ml" 84 2504 2591
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"cfgDataflow.ml" 84 2504 2591 "cfgDataflow.ml" 84 2504 2592
+type(
+  int
+)
+"cfgDataflow.ml" 84 2504 2589 "cfgDataflow.ml" 84 2504 2592
+type(
+  int
+)
+"cfgDataflow.ml" 84 2504 2546 "cfgDataflow.ml" 84 2504 2592
+type(
+  DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 84 2504 2530 "cfgDataflow.ml" 84 2504 2593
+type(
+  D.CFG.stmt -> DFSPECW.L.t * int -> DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 84 2504 2595 "cfgDataflow.ml" 84 2504 2596
+type(
+  DFSPECW.L.t
+)
+ident(
+  int_ref l "cfgDataflow.ml" 83 2481 2491 "cfgDataflow.ml" 83 2481 2492
+)
+"cfgDataflow.ml" 84 2504 2597 "cfgDataflow.ml" 84 2504 2598
+type(
+  int
+)
+"cfgDataflow.ml" 84 2504 2594 "cfgDataflow.ml" 84 2504 2599
+type(
+  DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 84 2504 2601 "cfgDataflow.ml" 84 2504 2613
+type(
+  int -> D.CFG.lang -> D.CFG.stmt list
+)
+ident(
+  ext_ref BatList.take
+)
+"cfgDataflow.ml" 84 2504 2614 "cfgDataflow.ml" 84 2504 2615
+type(
+  int
+)
+ident(
+  int_ref n "cfgDataflow.ml" 82 2457 2476 "cfgDataflow.ml" 82 2457 2477
+)
+"cfgDataflow.ml" 84 2504 2617 "cfgDataflow.ml" 84 2504 2632
+type(
+  DFSPECW.G.t -> DFSPECW.G.V.t -> D.CFG.lang
+)
+ident(
+  ext_ref D.CFG.get_stmts
+)
+"cfgDataflow.ml" 84 2504 2633 "cfgDataflow.ml" 84 2504 2634
+type(
+  DFSPECW.G.t
+)
+ident(
+  int_ref g "cfgDataflow.ml" 80 2318 2386 "cfgDataflow.ml" 80 2318 2387
+)
+"cfgDataflow.ml" 84 2504 2635 "cfgDataflow.ml" 84 2504 2636
+type(
+  DFSPECW.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 82 2457 2474 "cfgDataflow.ml" 82 2457 2475
+)
+"cfgDataflow.ml" 84 2504 2616 "cfgDataflow.ml" 84 2504 2637
+call(
+  stack
+)
+type(
+  D.CFG.lang
+)
+"cfgDataflow.ml" 84 2504 2600 "cfgDataflow.ml" 84 2504 2638
+call(
+  stack
+)
+type(
+  D.CFG.stmt list
+)
+"cfgDataflow.ml" 84 2504 2520 "cfgDataflow.ml" 84 2504 2638
+call(
+  stack
+)
+type(
+  DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 85 2642 2648 "cfgDataflow.ml" 85 2642 2649
+type(
+  DFSPECW.L.t
+)
+ident(
+  int_ref l "cfgDataflow.ml" 84 2504 2514 "cfgDataflow.ml" 84 2504 2515
+)
+"cfgDataflow.ml" 84 2504 2510 "cfgDataflow.ml" 85 2642 2649
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 83 2481 2487 "cfgDataflow.ml" 85 2642 2649
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 86 2650 2658 "cfgDataflow.ml" 86 2650 2666
+type(
+  DFSPECW.G.V.t * int -> DFSPECW.L.t
+)
+"cfgDataflow.ml" 86 2650 2668 "cfgDataflow.ml" 86 2650 2669
+type(
+  DFSPECW.G.V.t
+)
+ident(
+  def v "cfgDataflow.ml" 87 2675 2681 "cfgDataflow.ml" 89 2841 2848
+)
+"cfgDataflow.ml" 86 2650 2670 "cfgDataflow.ml" 86 2650 2671
+type(
+  int
+)
+ident(
+  def n "cfgDataflow.ml" 87 2675 2681 "cfgDataflow.ml" 89 2841 2848
+)
+"cfgDataflow.ml" 86 2650 2667 "cfgDataflow.ml" 86 2650 2672
+type(
+  DFSPECW.G.V.t * int
+)
+"cfgDataflow.ml" 87 2675 2685 "cfgDataflow.ml" 87 2675 2686
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 87 2675 2689 "cfgDataflow.ml" 87 2675 2692
+type(
+  DFSPECW.G.V.t -> DFSPECW.L.t
+)
+ident(
+  int_ref win "cfgDataflow.ml" 81 2390 2398 "cfgDataflow.ml" 81 2390 2401
+)
+"cfgDataflow.ml" 87 2675 2693 "cfgDataflow.ml" 87 2675 2694
+type(
+  DFSPECW.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 86 2650 2668 "cfgDataflow.ml" 86 2650 2669
+)
+"cfgDataflow.ml" 87 2675 2689 "cfgDataflow.ml" 87 2675 2694
+call(
+  stack
+)
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 88 2698 2708 "cfgDataflow.ml" 88 2698 2709
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 88 2698 2711 "cfgDataflow.ml" 88 2698 2712
+type(
+  int
+)
+"cfgDataflow.ml" 88 2698 2708 "cfgDataflow.ml" 88 2698 2712
+type(
+  DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 88 2698 2715 "cfgDataflow.ml" 88 2698 2719
+type(
+  DFSPECW.O.t ->
+  (D.CFG.stmt -> DFSPECW.L.t * int -> DFSPECW.L.t * int) ->
+  DFSPECW.L.t * int -> D.CFG.stmt list -> DFSPECW.L.t * int
+)
+ident(
+  int_ref fold "cfgDataflow.ml" 54 1449 1455 "cfgDataflow.ml" 54 1449 1459
+)
+"cfgDataflow.ml" 88 2698 2720 "cfgDataflow.ml" 88 2698 2724
+type(
+  DFSPECW.O.t
+)
+ident(
+  int_ref opts "cfgDataflow.ml" 80 2318 2368 "cfgDataflow.ml" 80 2318 2372
+)
+"cfgDataflow.ml" 88 2698 2730 "cfgDataflow.ml" 88 2698 2731
+type(
+  D.CFG.stmt
+)
+ident(
+  def s "cfgDataflow.ml" 88 2698 2732 "cfgDataflow.ml" 88 2698 2787
+)
+"cfgDataflow.ml" 88 2698 2733 "cfgDataflow.ml" 88 2698 2734
+type(
+  DFSPECW.L.t
+)
+ident(
+  def l "cfgDataflow.ml" 88 2698 2741 "cfgDataflow.ml" 88 2698 2787
+)
+"cfgDataflow.ml" 88 2698 2735 "cfgDataflow.ml" 88 2698 2736
+type(
+  int
+)
+ident(
+  def i "cfgDataflow.ml" 88 2698 2741 "cfgDataflow.ml" 88 2698 2787
+)
+"cfgDataflow.ml" 88 2698 2732 "cfgDataflow.ml" 88 2698 2737
+type(
+  DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 88 2698 2741 "cfgDataflow.ml" 88 2698 2765
+type(
+  DFSPECW.O.t ->
+  DFSPECW.G.t ->
+  DFSPECW.G.V.t * int -> D.CFG.stmt -> DFSPECW.L.t -> DFSPECW.L.t
+)
+ident(
+  ext_ref D.stmt_transfer_function
+)
+"cfgDataflow.ml" 88 2698 2766 "cfgDataflow.ml" 88 2698 2770
+type(
+  DFSPECW.O.t
+)
+ident(
+  int_ref opts "cfgDataflow.ml" 80 2318 2368 "cfgDataflow.ml" 80 2318 2372
+)
+"cfgDataflow.ml" 88 2698 2771 "cfgDataflow.ml" 88 2698 2772
+type(
+  DFSPECW.G.t
+)
+ident(
+  int_ref g "cfgDataflow.ml" 80 2318 2386 "cfgDataflow.ml" 80 2318 2387
+)
+"cfgDataflow.ml" 88 2698 2774 "cfgDataflow.ml" 88 2698 2775
+type(
+  DFSPECW.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 86 2650 2668 "cfgDataflow.ml" 86 2650 2669
+)
+"cfgDataflow.ml" 88 2698 2776 "cfgDataflow.ml" 88 2698 2777
+type(
+  int
+)
+ident(
+  int_ref i "cfgDataflow.ml" 88 2698 2735 "cfgDataflow.ml" 88 2698 2736
+)
+"cfgDataflow.ml" 88 2698 2773 "cfgDataflow.ml" 88 2698 2778
+type(
+  DFSPECW.G.V.t * int
+)
+"cfgDataflow.ml" 88 2698 2779 "cfgDataflow.ml" 88 2698 2780
+type(
+  D.CFG.stmt
+)
+ident(
+  int_ref s "cfgDataflow.ml" 88 2698 2730 "cfgDataflow.ml" 88 2698 2731
+)
+"cfgDataflow.ml" 88 2698 2781 "cfgDataflow.ml" 88 2698 2782
+type(
+  DFSPECW.L.t
+)
+ident(
+  int_ref l "cfgDataflow.ml" 88 2698 2733 "cfgDataflow.ml" 88 2698 2734
+)
+"cfgDataflow.ml" 88 2698 2741 "cfgDataflow.ml" 88 2698 2782
+call(
+  stack
+)
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 88 2698 2784 "cfgDataflow.ml" 88 2698 2785
+type(
+  int
+)
+ident(
+  int_ref i "cfgDataflow.ml" 88 2698 2735 "cfgDataflow.ml" 88 2698 2736
+)
+"cfgDataflow.ml" 88 2698 2785 "cfgDataflow.ml" 88 2698 2786
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"cfgDataflow.ml" 88 2698 2786 "cfgDataflow.ml" 88 2698 2787
+type(
+  int
+)
+"cfgDataflow.ml" 88 2698 2784 "cfgDataflow.ml" 88 2698 2787
+type(
+  int
+)
+"cfgDataflow.ml" 88 2698 2741 "cfgDataflow.ml" 88 2698 2787
+type(
+  DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 88 2698 2725 "cfgDataflow.ml" 88 2698 2788
+type(
+  D.CFG.stmt -> DFSPECW.L.t * int -> DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 88 2698 2790 "cfgDataflow.ml" 88 2698 2791
+type(
+  DFSPECW.L.t
+)
+ident(
+  int_ref l "cfgDataflow.ml" 87 2675 2685 "cfgDataflow.ml" 87 2675 2686
+)
+"cfgDataflow.ml" 88 2698 2792 "cfgDataflow.ml" 88 2698 2793
+type(
+  int
+)
+"cfgDataflow.ml" 88 2698 2789 "cfgDataflow.ml" 88 2698 2794
+type(
+  DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 88 2698 2796 "cfgDataflow.ml" 88 2698 2808
+type(
+  int -> D.CFG.lang -> D.CFG.stmt list
+)
+ident(
+  ext_ref BatList.take
+)
+"cfgDataflow.ml" 88 2698 2810 "cfgDataflow.ml" 88 2698 2811
+type(
+  int
+)
+ident(
+  int_ref n "cfgDataflow.ml" 86 2650 2670 "cfgDataflow.ml" 86 2650 2671
+)
+"cfgDataflow.ml" 88 2698 2811 "cfgDataflow.ml" 88 2698 2812
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"cfgDataflow.ml" 88 2698 2812 "cfgDataflow.ml" 88 2698 2813
+type(
+  int
+)
+"cfgDataflow.ml" 88 2698 2809 "cfgDataflow.ml" 88 2698 2814
+type(
+  int
+)
+"cfgDataflow.ml" 88 2698 2816 "cfgDataflow.ml" 88 2698 2831
+type(
+  DFSPECW.G.t -> DFSPECW.G.V.t -> D.CFG.lang
+)
+ident(
+  ext_ref D.CFG.get_stmts
+)
+"cfgDataflow.ml" 88 2698 2832 "cfgDataflow.ml" 88 2698 2833
+type(
+  DFSPECW.G.t
+)
+ident(
+  int_ref g "cfgDataflow.ml" 80 2318 2386 "cfgDataflow.ml" 80 2318 2387
+)
+"cfgDataflow.ml" 88 2698 2834 "cfgDataflow.ml" 88 2698 2835
+type(
+  DFSPECW.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 86 2650 2668 "cfgDataflow.ml" 86 2650 2669
+)
+"cfgDataflow.ml" 88 2698 2815 "cfgDataflow.ml" 88 2698 2836
+call(
+  stack
+)
+type(
+  D.CFG.lang
+)
+"cfgDataflow.ml" 88 2698 2795 "cfgDataflow.ml" 88 2698 2837
+call(
+  stack
+)
+type(
+  D.CFG.stmt list
+)
+"cfgDataflow.ml" 88 2698 2715 "cfgDataflow.ml" 88 2698 2837
+call(
+  stack
+)
+type(
+  DFSPECW.L.t * int
+)
+"cfgDataflow.ml" 89 2841 2847 "cfgDataflow.ml" 89 2841 2848
+type(
+  DFSPECW.L.t
+)
+ident(
+  int_ref l "cfgDataflow.ml" 88 2698 2708 "cfgDataflow.ml" 88 2698 2709
+)
+"cfgDataflow.ml" 88 2698 2704 "cfgDataflow.ml" 89 2841 2848
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 87 2675 2681 "cfgDataflow.ml" 89 2841 2848
+type(
+  DFSPECW.L.t
+)
+"cfgDataflow.ml" 91 2856 2860 "cfgDataflow.ml" 91 2856 2867
+type(
+  DFSPECW.G.V.t * int -> DFSPECW.L.t
+)
+ident(
+  int_ref winstmt "cfgDataflow.ml" 82 2457 2465 "cfgDataflow.ml" 82 2457 2472
+)
+"cfgDataflow.ml" 91 2856 2869 "cfgDataflow.ml" 91 2856 2877
+type(
+  DFSPECW.G.V.t * int -> DFSPECW.L.t
+)
+ident(
+  int_ref woutstmt "cfgDataflow.ml" 86 2650 2658 "cfgDataflow.ml" 86 2650 2666
+)
+"cfgDataflow.ml" 91 2856 2860 "cfgDataflow.ml" 91 2856 2877
+type(
+  (DFSPECW.G.V.t * int -> DFSPECW.L.t) * (DFSPECW.G.V.t * int -> DFSPECW.L.t)
+)
+"cfgDataflow.ml" 82 2457 2461 "cfgDataflow.ml" 91 2856 2877
+type(
+  (DFSPECW.G.V.t * int -> DFSPECW.L.t) * (DFSPECW.G.V.t * int -> DFSPECW.L.t)
+)
+"cfgDataflow.ml" 81 2390 2394 "cfgDataflow.ml" 91 2856 2877
+type(
+  (DFSPECW.G.V.t * int -> DFSPECW.L.t) * (DFSPECW.G.V.t * int -> DFSPECW.L.t)
+)
+"cfgDataflow.ml" 92 2878 2884 "cfgDataflow.ml" 92 2878 2892
+type(
+  D.CFG.G.t -> D.CFG.G.V.t -> D.CFG.G.V.t * int
+)
+ident(
+  def last_loc "cfgDataflow.ml" 93 2899 2943 "cfgDataflow.ml" 94 2944 2947
+)
+"cfgDataflow.ml" 92 2878 2893 "cfgDataflow.ml" 92 2878 2894
+type(
+  D.CFG.G.t
+)
+ident(
+  def g "cfgDataflow.ml" 92 2878 2895 "cfgDataflow.ml" 93 2899 2943
+)
+"cfgDataflow.ml" 92 2878 2895 "cfgDataflow.ml" 92 2878 2896
+type(
+  D.CFG.G.V.t
+)
+ident(
+  def v "cfgDataflow.ml" 93 2899 2903 "cfgDataflow.ml" 93 2899 2943
+)
+"cfgDataflow.ml" 93 2899 2903 "cfgDataflow.ml" 93 2899 2904
+type(
+  D.CFG.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 92 2878 2895 "cfgDataflow.ml" 92 2878 2896
+)
+"cfgDataflow.ml" 93 2899 2906 "cfgDataflow.ml" 93 2899 2917
+type(
+  D.CFG.lang -> int
+)
+ident(
+  ext_ref List.length
+)
+"cfgDataflow.ml" 93 2899 2919 "cfgDataflow.ml" 93 2899 2934
+type(
+  D.CFG.G.t -> D.CFG.G.V.t -> D.CFG.lang
+)
+ident(
+  ext_ref D.CFG.get_stmts
+)
+"cfgDataflow.ml" 93 2899 2935 "cfgDataflow.ml" 93 2899 2936
+type(
+  D.CFG.G.t
+)
+ident(
+  int_ref g "cfgDataflow.ml" 92 2878 2893 "cfgDataflow.ml" 92 2878 2894
+)
+"cfgDataflow.ml" 93 2899 2937 "cfgDataflow.ml" 93 2899 2938
+type(
+  D.CFG.G.V.t
+)
+ident(
+  int_ref v "cfgDataflow.ml" 92 2878 2895 "cfgDataflow.ml" 92 2878 2896
+)
+"cfgDataflow.ml" 93 2899 2918 "cfgDataflow.ml" 93 2899 2939
+call(
+  stack
+)
+type(
+  D.CFG.lang
+)
+"cfgDataflow.ml" 93 2899 2906 "cfgDataflow.ml" 93 2899 2939
+call(
+  stack
+)
+type(
+  int
+)
+"cfgDataflow.ml" 93 2899 2940 "cfgDataflow.ml" 93 2899 2941
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"cfgDataflow.ml" 93 2899 2942 "cfgDataflow.ml" 93 2899 2943
+type(
+  int
+)
+"cfgDataflow.ml" 93 2899 2906 "cfgDataflow.ml" 93 2899 2943
+type(
+  int
+)
+"cfgDataflow.ml" 93 2899 2903 "cfgDataflow.ml" 93 2899 2943
+type(
+  D.CFG.G.V.t * int
+)
+"cfgDataflow.ml" 98 2983 2989 "cfgDataflow.ml" 98 2983 3005
+type(
+  ?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+  ?opts:D.O.t -> D.CFG.G.t -> (D.CFG.G.V.t -> D.L.t) * (D.CFG.G.V.t -> D.L.t)
+)
+ident(
+  def worklist_iterate "cfgDataflow.ml" 115 3525 3540 "cfgDataflow.ml" 116 3541 3544
+)
+"cfgDataflow.ml" 98 2983 3007 "cfgDataflow.ml" 98 2983 3028
+type(
+  ?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+  ?opts:D.O.t ->
+  D.CFG.G.t -> (D.CFG.G.V.t * int -> D.L.t) * (D.CFG.G.V.t * int -> D.L.t)
+)
+ident(
+  def worklist_iterate_stmt "cfgDataflow.ml" 115 3525 3540 "cfgDataflow.ml" 116 3541 3544
+)
+"cfgDataflow.ml" 98 2983 3030 "cfgDataflow.ml" 98 2983 3038
+type(
+  D.CFG.G.t -> D.CFG.G.V.t -> D.CFG.G.V.t * int
+)
+ident(
+  def last_loc "cfgDataflow.ml" 115 3525 3540 "cfgDataflow.ml" 116 3541 3544
+)
+"cfgDataflow.ml" 98 2983 2989 "cfgDataflow.ml" 98 2983 3038
+type(
+  (?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+   ?opts:D.O.t ->
+   D.CFG.G.t -> (D.CFG.G.V.t -> D.L.t) * (D.CFG.G.V.t -> D.L.t)) *
+  (?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+   ?opts:D.O.t ->
+   D.CFG.G.t -> (D.CFG.G.V.t * int -> D.L.t) * (D.CFG.G.V.t * int -> D.L.t)) *
+  (D.CFG.G.t -> D.CFG.G.V.t -> D.CFG.G.V.t * int)
+)
+"cfgDataflow.ml" 102 3116 3128 "cfgDataflow.ml" 102 3116 3133
+type(
+  D.L.t -> D.L.t -> D.L.t
+)
+ident(
+  def widen "cfgDataflow.ml" 102 3116 3144 "cfgDataflow.ml" 103 3145 3154
+)
+"cfgDataflow.ml" 102 3116 3136 "cfgDataflow.ml" 102 3116 3144
+type(
+  D.L.t -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.L.meet
+)
+"cfgDataflow.ml" 106 3201 3211 "cfgDataflow.ml" 106 3201 3233
+type(
+  D.O.t -> D.CFG.G.t -> D.CFG.G.V.t * int -> D.CFG.stmt -> D.L.t -> D.L.t
+)
+ident(
+  def stmt_transfer_function "cfgDataflow.ml" 107 3261 3267 "cfgDataflow.ml" 111 3387 3394
+)
+"cfgDataflow.ml" 106 3201 3236 "cfgDataflow.ml" 106 3201 3260
+type(
+  D.O.t -> D.CFG.G.t -> D.CFG.G.V.t * int -> D.CFG.stmt -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.stmt_transfer_function
+)
+"cfgDataflow.ml" 107 3261 3271 "cfgDataflow.ml" 107 3261 3293
+type(
+  D.O.t -> D.CFG.G.t -> D.CFG.G.E.t -> D.CFG.exp option -> D.L.t -> D.L.t
+)
+ident(
+  def edge_transfer_function "cfgDataflow.ml" 108 3321 3327 "cfgDataflow.ml" 111 3387 3394
+)
+"cfgDataflow.ml" 107 3261 3296 "cfgDataflow.ml" 107 3261 3320
+type(
+  D.O.t -> D.CFG.G.t -> D.CFG.G.E.t -> D.CFG.exp option -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.edge_transfer_function
+)
+"cfgDataflow.ml" 108 3321 3331 "cfgDataflow.ml" 108 3321 3333
+type(
+  D.O.t -> D.CFG.G.t -> D.CFG.G.V.t
+)
+ident(
+  def s0 "cfgDataflow.ml" 109 3341 3347 "cfgDataflow.ml" 111 3387 3394
+)
+"cfgDataflow.ml" 108 3321 3336 "cfgDataflow.ml" 108 3321 3340
+type(
+  D.O.t -> D.CFG.G.t -> D.CFG.G.V.t
+)
+ident(
+  ext_ref D.s0
+)
+"cfgDataflow.ml" 109 3341 3351 "cfgDataflow.ml" 109 3341 3355
+type(
+  D.O.t -> D.CFG.G.t -> D.L.t
+)
+ident(
+  def init "cfgDataflow.ml" 110 3365 3371 "cfgDataflow.ml" 111 3387 3394
+)
+"cfgDataflow.ml" 109 3341 3358 "cfgDataflow.ml" 109 3341 3364
+type(
+  D.O.t -> D.CFG.G.t -> D.L.t
+)
+ident(
+  ext_ref D.init
+)
+"cfgDataflow.ml" 110 3365 3375 "cfgDataflow.ml" 110 3365 3378
+type(
+  D.O.t -> GraphDataflow.direction
+)
+ident(
+  def dir "cfgDataflow.ml" 110 3365 3386 "cfgDataflow.ml" 111 3387 3394
+)
+"cfgDataflow.ml" 110 3365 3381 "cfgDataflow.ml" 110 3365 3386
+type(
+  D.O.t -> GraphDataflow.direction
+)
+ident(
+  ext_ref D.dir
+)
+"cfgDataflow.ml" 112 3398 3418 "cfgDataflow.ml" 112 3398 3434
+call(
+  stack
+)
+"cfgDataflow.ml" 113 3438 3442 "cfgDataflow.ml" 113 3438 3467
+type(
+  ?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+  ?nmeets:int ->
+  ?opts:D.O.t -> D.CFG.G.t -> (D.CFG.G.V.t -> D.L.t) * (D.CFG.G.V.t -> D.L.t)
+)
+ident(
+  ext_ref DF.worklist_iterate_widen
+)
+"cfgDataflow.ml" 113 3438 3476 "cfgDataflow.ml" 113 3438 3477
+type(
+  int
+)
+"cfgDataflow.ml" 113 3438 3442 "cfgDataflow.ml" 113 3438 3477
+call(
+  tail
+)
+type(
+  ?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+  ?opts:D.O.t -> D.CFG.G.t -> (D.CFG.G.V.t -> D.L.t) * (D.CFG.G.V.t -> D.L.t)
+)
+"cfgDataflow.ml" 114 3479 3483 "cfgDataflow.ml" 114 3479 3513
+type(
+  ?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+  ?nmeets:int ->
+  ?opts:D.O.t ->
+  D.CFG.G.t -> (D.CFG.G.V.t * int -> D.L.t) * (D.CFG.G.V.t * int -> D.L.t)
+)
+ident(
+  ext_ref DF.worklist_iterate_widen_stmt
+)
+"cfgDataflow.ml" 114 3479 3522 "cfgDataflow.ml" 114 3479 3523
+type(
+  int
+)
+"cfgDataflow.ml" 114 3479 3483 "cfgDataflow.ml" 114 3479 3523
+call(
+  tail
+)
+type(
+  ?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+  ?opts:D.O.t ->
+  D.CFG.G.t -> (D.CFG.G.V.t * int -> D.L.t) * (D.CFG.G.V.t * int -> D.L.t)
+)
+"cfgDataflow.ml" 115 3525 3529 "cfgDataflow.ml" 115 3525 3540
+type(
+  D.CFG.G.t -> D.CFG.G.V.t -> D.CFG.G.V.t * int
+)
+ident(
+  ext_ref DF.last_loc
+)
+"cfgDataflow.ml" 113 3438 3442 "cfgDataflow.ml" 115 3525 3540
+type(
+  (?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+   ?opts:D.O.t ->
+   D.CFG.G.t -> (D.CFG.G.V.t -> D.L.t) * (D.CFG.G.V.t -> D.L.t)) *
+  (?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+   ?opts:D.O.t ->
+   D.CFG.G.t -> (D.CFG.G.V.t * int -> D.L.t) * (D.CFG.G.V.t * int -> D.L.t)) *
+  (D.CFG.G.t -> D.CFG.G.V.t -> D.CFG.G.V.t * int)
+)
+"cfgDataflow.ml" 112 3398 3402 "cfgDataflow.ml" 115 3525 3540
+type(
+  (?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+   ?opts:D.O.t ->
+   D.CFG.G.t -> (D.CFG.G.V.t -> D.L.t) * (D.CFG.G.V.t -> D.L.t)) *
+  (?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+   ?opts:D.O.t ->
+   D.CFG.G.t -> (D.CFG.G.V.t * int -> D.L.t) * (D.CFG.G.V.t * int -> D.L.t)) *
+  (D.CFG.G.t -> D.CFG.G.V.t -> D.CFG.G.V.t * int)
+)
+"cfgDataflow.ml" 99 3041 3045 "cfgDataflow.ml" 115 3525 3540
+type(
+  (?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+   ?opts:D.O.t ->
+   D.CFG.G.t -> (D.CFG.G.V.t -> D.L.t) * (D.CFG.G.V.t -> D.L.t)) *
+  (?init:(D.O.t -> D.CFG.G.t -> D.L.t) ->
+   ?opts:D.O.t ->
+   D.CFG.G.t -> (D.CFG.G.V.t * int -> D.L.t) * (D.CFG.G.V.t * int -> D.L.t)) *
+  (D.CFG.G.t -> D.CFG.G.V.t -> D.CFG.G.V.t * int)
+)

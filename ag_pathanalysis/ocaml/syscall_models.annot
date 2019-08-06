@@ -1,0 +1,1359 @@
+"syscall_models.ml" 22 361 365 "syscall_models.ml" 22 361 383
+type(
+  Ast.stmt -> bool
+)
+ident(
+  def x86_is_system_call "syscall_models.ml" 24 398 398 --
+)
+"syscall_models.ml" 22 361 386 "syscall_models.ml" 22 361 396
+type(
+  Ast.stmt -> bool
+)
+ident(
+  ext_ref Ast.is_syscall
+)
+"syscall_models.ml" 24 398 402 "syscall_models.ml" 24 398 413
+type(
+  Arch.arch -> Var.t
+)
+ident(
+  def syscall_reg "syscall_models.ml" 29 514 514 --
+)
+"syscall_models.ml" 25 425 429 "syscall_models.ml" 25 425 435
+type(
+  Arch.arch
+)
+"syscall_models.ml" 25 425 439 "syscall_models.ml" 25 425 446
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.eax
+)
+"syscall_models.ml" 26 447 451 "syscall_models.ml" 26 447 457
+type(
+  Arch.arch
+)
+"syscall_models.ml" 26 447 461 "syscall_models.ml" 26 447 468
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rax
+)
+"syscall_models.ml" 24 398 416 "syscall_models.ml" 26 447 468
+type(
+  Arch.arch -> Var.t
+)
+"syscall_models.ml" 29 514 518 "syscall_models.ml" 29 514 532
+type(
+  Arch.arch -> int -> string
+)
+ident(
+  def linux_get_name "syscall_models.ml" 94 1950 1950 --
+)
+"syscall_models.ml" 29 514 533 "syscall_models.ml" 29 514 537
+type(
+  Arch.arch
+)
+ident(
+  def arch "syscall_models.ml" 29 514 538 "syscall_models.ml" 91 1900 1905
+)
+"syscall_models.ml" 29 514 538 "syscall_models.ml" 29 514 545
+type(
+  int
+)
+ident(
+  def syscall "syscall_models.ml" 30 548 550 "syscall_models.ml" 91 1900 1905
+)
+"syscall_models.ml" 30 548 556 "syscall_models.ml" 30 548 560
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "syscall_models.ml" 29 514 533 "syscall_models.ml" 29 514 537
+)
+"syscall_models.ml" 31 566 570 "syscall_models.ml" 31 566 576
+type(
+  Arch.arch
+)
+"syscall_models.ml" 32 580 591 "syscall_models.ml" 32 580 598
+type(
+  int
+)
+ident(
+  int_ref syscall "syscall_models.ml" 29 514 538 "syscall_models.ml" 29 514 545
+)
+"syscall_models.ml" 33 604 610 "syscall_models.ml" 33 604 611
+type(
+  int
+)
+"syscall_models.ml" 33 604 615 "syscall_models.ml" 33 604 621
+type(
+  string
+)
+"syscall_models.ml" 34 622 628 "syscall_models.ml" 34 622 629
+type(
+  int
+)
+"syscall_models.ml" 34 622 633 "syscall_models.ml" 34 622 639
+type(
+  string
+)
+"syscall_models.ml" 35 640 646 "syscall_models.ml" 35 640 647
+type(
+  int
+)
+"syscall_models.ml" 35 640 651 "syscall_models.ml" 35 640 658
+type(
+  string
+)
+"syscall_models.ml" 36 659 665 "syscall_models.ml" 36 659 666
+type(
+  int
+)
+"syscall_models.ml" 36 659 670 "syscall_models.ml" 36 659 676
+type(
+  string
+)
+"syscall_models.ml" 37 677 683 "syscall_models.ml" 37 677 684
+type(
+  int
+)
+"syscall_models.ml" 37 677 688 "syscall_models.ml" 37 677 695
+type(
+  string
+)
+"syscall_models.ml" 38 696 702 "syscall_models.ml" 38 696 704
+type(
+  int
+)
+"syscall_models.ml" 38 696 708 "syscall_models.ml" 38 696 716
+type(
+  string
+)
+"syscall_models.ml" 39 717 723 "syscall_models.ml" 39 717 725
+type(
+  int
+)
+"syscall_models.ml" 39 717 729 "syscall_models.ml" 39 717 734
+type(
+  string
+)
+"syscall_models.ml" 40 735 741 "syscall_models.ml" 40 735 743
+type(
+  int
+)
+"syscall_models.ml" 40 735 747 "syscall_models.ml" 40 735 754
+type(
+  string
+)
+"syscall_models.ml" 41 755 761 "syscall_models.ml" 41 755 763
+type(
+  int
+)
+"syscall_models.ml" 41 755 767 "syscall_models.ml" 41 755 775
+type(
+  string
+)
+"syscall_models.ml" 42 776 782 "syscall_models.ml" 42 776 785
+type(
+  int
+)
+"syscall_models.ml" 42 776 789 "syscall_models.ml" 42 776 801
+type(
+  string
+)
+"syscall_models.ml" 43 802 808 "syscall_models.ml" 43 802 811
+type(
+  int
+)
+"syscall_models.ml" 43 802 815 "syscall_models.ml" 43 802 822
+type(
+  string
+)
+"syscall_models.ml" 44 823 829 "syscall_models.ml" 44 823 832
+type(
+  int
+)
+"syscall_models.ml" 44 823 836 "syscall_models.ml" 44 823 846
+type(
+  string
+)
+"syscall_models.ml" 45 847 853 "syscall_models.ml" 45 847 856
+type(
+  int
+)
+"syscall_models.ml" 45 847 860 "syscall_models.ml" 45 847 868
+type(
+  string
+)
+"syscall_models.ml" 46 869 875 "syscall_models.ml" 46 869 878
+type(
+  int
+)
+"syscall_models.ml" 46 869 882 "syscall_models.ml" 46 869 895
+type(
+  string
+)
+"syscall_models.ml" 47 896 902 "syscall_models.ml" 47 896 905
+type(
+  int
+)
+"syscall_models.ml" 47 896 909 "syscall_models.ml" 47 896 916
+type(
+  string
+)
+"syscall_models.ml" 48 917 923 "syscall_models.ml" 48 917 926
+type(
+  int
+)
+"syscall_models.ml" 48 917 930 "syscall_models.ml" 48 917 938
+type(
+  string
+)
+"syscall_models.ml" 49 939 945 "syscall_models.ml" 49 939 948
+type(
+  int
+)
+"syscall_models.ml" 49 939 952 "syscall_models.ml" 49 939 961
+type(
+  string
+)
+"syscall_models.ml" 50 962 968 "syscall_models.ml" 50 962 971
+type(
+  int
+)
+"syscall_models.ml" 50 962 975 "syscall_models.ml" 50 962 985
+type(
+  string
+)
+"syscall_models.ml" 51 986 992 "syscall_models.ml" 51 986 995
+type(
+  int
+)
+"syscall_models.ml" 51 986 999 "syscall_models.ml" 51 986 1009
+type(
+  string
+)
+"syscall_models.ml" 52 1010 1016 "syscall_models.ml" 52 1010 1019
+type(
+  int
+)
+"syscall_models.ml" 52 1010 1023 "syscall_models.ml" 52 1010 1034
+type(
+  string
+)
+"syscall_models.ml" 53 1035 1041 "syscall_models.ml" 53 1035 1044
+type(
+  int
+)
+"syscall_models.ml" 53 1035 1048 "syscall_models.ml" 53 1035 1059
+type(
+  string
+)
+"syscall_models.ml" 54 1060 1066 "syscall_models.ml" 54 1060 1069
+type(
+  int
+)
+"syscall_models.ml" 54 1060 1073 "syscall_models.ml" 54 1060 1082
+type(
+  string
+)
+"syscall_models.ml" 55 1083 1089 "syscall_models.ml" 55 1083 1092
+type(
+  int
+)
+"syscall_models.ml" 55 1083 1096 "syscall_models.ml" 55 1083 1104
+type(
+  string
+)
+"syscall_models.ml" 56 1105 1111 "syscall_models.ml" 56 1105 1114
+type(
+  int
+)
+"syscall_models.ml" 56 1105 1118 "syscall_models.ml" 56 1105 1125
+type(
+  string
+)
+"syscall_models.ml" 57 1126 1132 "syscall_models.ml" 57 1126 1135
+type(
+  int
+)
+"syscall_models.ml" 57 1126 1139 "syscall_models.ml" 57 1126 1156
+type(
+  string
+)
+"syscall_models.ml" 58 1157 1163 "syscall_models.ml" 58 1157 1166
+type(
+  int
+)
+"syscall_models.ml" 58 1157 1170 "syscall_models.ml" 58 1157 1182
+type(
+  string
+)
+"syscall_models.ml" 59 1183 1189 "syscall_models.ml" 59 1183 1192
+type(
+  int
+)
+"syscall_models.ml" 59 1183 1196 "syscall_models.ml" 59 1183 1204
+type(
+  string
+)
+"syscall_models.ml" 60 1205 1211 "syscall_models.ml" 60 1205 1212
+type(
+  int
+)
+ident(
+  def n "syscall_models.ml" 60 1205 1216 "syscall_models.ml" 60 1205 1253
+)
+"syscall_models.ml" 60 1205 1216 "syscall_models.ml" 60 1205 1235
+type(
+  string
+)
+"syscall_models.ml" 60 1205 1236 "syscall_models.ml" 60 1205 1237
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"syscall_models.ml" 60 1205 1238 "syscall_models.ml" 60 1205 1251
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"syscall_models.ml" 60 1205 1252 "syscall_models.ml" 60 1205 1253
+type(
+  int
+)
+ident(
+  int_ref n "syscall_models.ml" 60 1205 1211 "syscall_models.ml" 60 1205 1212
+)
+"syscall_models.ml" 60 1205 1238 "syscall_models.ml" 60 1205 1253
+call(
+  stack
+)
+type(
+  string
+)
+"syscall_models.ml" 60 1205 1216 "syscall_models.ml" 60 1205 1253
+call(
+  tail
+)
+type(
+  string
+)
+"syscall_models.ml" 32 580 584 "syscall_models.ml" 61 1254 1259
+type(
+  string
+)
+"syscall_models.ml" 62 1260 1264 "syscall_models.ml" 62 1260 1270
+type(
+  Arch.arch
+)
+"syscall_models.ml" 63 1275 1286 "syscall_models.ml" 63 1275 1293
+type(
+  int
+)
+ident(
+  int_ref syscall "syscall_models.ml" 29 514 538 "syscall_models.ml" 29 514 545
+)
+"syscall_models.ml" 64 1299 1305 "syscall_models.ml" 64 1299 1306
+type(
+  int
+)
+"syscall_models.ml" 64 1299 1310 "syscall_models.ml" 64 1299 1316
+type(
+  string
+)
+"syscall_models.ml" 65 1317 1323 "syscall_models.ml" 65 1317 1324
+type(
+  int
+)
+"syscall_models.ml" 65 1317 1328 "syscall_models.ml" 65 1317 1335
+type(
+  string
+)
+"syscall_models.ml" 66 1336 1342 "syscall_models.ml" 66 1336 1343
+type(
+  int
+)
+"syscall_models.ml" 66 1336 1347 "syscall_models.ml" 66 1336 1353
+type(
+  string
+)
+"syscall_models.ml" 67 1354 1360 "syscall_models.ml" 67 1354 1361
+type(
+  int
+)
+"syscall_models.ml" 67 1354 1365 "syscall_models.ml" 67 1354 1372
+type(
+  string
+)
+"syscall_models.ml" 68 1373 1379 "syscall_models.ml" 68 1373 1380
+type(
+  int
+)
+"syscall_models.ml" 68 1373 1384 "syscall_models.ml" 68 1373 1390
+type(
+  string
+)
+"syscall_models.ml" 69 1391 1397 "syscall_models.ml" 69 1391 1398
+type(
+  int
+)
+"syscall_models.ml" 69 1391 1402 "syscall_models.ml" 69 1391 1409
+type(
+  string
+)
+"syscall_models.ml" 70 1410 1416 "syscall_models.ml" 70 1410 1417
+type(
+  int
+)
+"syscall_models.ml" 70 1410 1421 "syscall_models.ml" 70 1410 1427
+type(
+  string
+)
+"syscall_models.ml" 71 1429 1435 "syscall_models.ml" 71 1429 1437
+type(
+  int
+)
+"syscall_models.ml" 71 1429 1441 "syscall_models.ml" 71 1429 1451
+type(
+  string
+)
+"syscall_models.ml" 72 1452 1458 "syscall_models.ml" 72 1452 1460
+type(
+  int
+)
+"syscall_models.ml" 72 1452 1464 "syscall_models.ml" 72 1452 1472
+type(
+  string
+)
+"syscall_models.ml" 73 1473 1479 "syscall_models.ml" 73 1473 1481
+type(
+  int
+)
+"syscall_models.ml" 73 1473 1485 "syscall_models.ml" 73 1473 1490
+type(
+  string
+)
+"syscall_models.ml" 74 1491 1497 "syscall_models.ml" 74 1491 1499
+type(
+  int
+)
+"syscall_models.ml" 74 1491 1503 "syscall_models.ml" 74 1491 1516
+type(
+  string
+)
+"syscall_models.ml" 75 1517 1523 "syscall_models.ml" 75 1517 1525
+type(
+  int
+)
+"syscall_models.ml" 75 1517 1529 "syscall_models.ml" 75 1517 1536
+type(
+  string
+)
+"syscall_models.ml" 76 1537 1543 "syscall_models.ml" 76 1537 1545
+type(
+  int
+)
+"syscall_models.ml" 76 1537 1549 "syscall_models.ml" 76 1537 1557
+type(
+  string
+)
+"syscall_models.ml" 77 1558 1564 "syscall_models.ml" 77 1558 1566
+type(
+  int
+)
+"syscall_models.ml" 77 1558 1570 "syscall_models.ml" 77 1558 1578
+type(
+  string
+)
+"syscall_models.ml" 78 1579 1585 "syscall_models.ml" 78 1579 1587
+type(
+  int
+)
+"syscall_models.ml" 78 1579 1591 "syscall_models.ml" 78 1579 1597
+type(
+  string
+)
+"syscall_models.ml" 79 1598 1604 "syscall_models.ml" 79 1598 1606
+type(
+  int
+)
+"syscall_models.ml" 79 1598 1610 "syscall_models.ml" 79 1598 1617
+type(
+  string
+)
+"syscall_models.ml" 80 1618 1624 "syscall_models.ml" 80 1618 1626
+type(
+  int
+)
+"syscall_models.ml" 80 1618 1630 "syscall_models.ml" 80 1618 1637
+type(
+  string
+)
+"syscall_models.ml" 81 1638 1644 "syscall_models.ml" 81 1638 1647
+type(
+  int
+)
+"syscall_models.ml" 81 1638 1651 "syscall_models.ml" 81 1638 1659
+type(
+  string
+)
+"syscall_models.ml" 82 1661 1667 "syscall_models.ml" 82 1661 1670
+type(
+  int
+)
+"syscall_models.ml" 82 1661 1674 "syscall_models.ml" 82 1661 1682
+type(
+  string
+)
+"syscall_models.ml" 83 1683 1689 "syscall_models.ml" 83 1683 1692
+type(
+  int
+)
+"syscall_models.ml" 83 1683 1696 "syscall_models.ml" 83 1683 1705
+type(
+  string
+)
+"syscall_models.ml" 84 1706 1712 "syscall_models.ml" 84 1706 1715
+type(
+  int
+)
+"syscall_models.ml" 84 1706 1719 "syscall_models.ml" 84 1706 1728
+type(
+  string
+)
+"syscall_models.ml" 85 1729 1735 "syscall_models.ml" 85 1729 1738
+type(
+  int
+)
+"syscall_models.ml" 85 1729 1742 "syscall_models.ml" 85 1729 1750
+type(
+  string
+)
+"syscall_models.ml" 86 1751 1757 "syscall_models.ml" 86 1751 1760
+type(
+  int
+)
+"syscall_models.ml" 86 1751 1764 "syscall_models.ml" 86 1751 1771
+type(
+  string
+)
+"syscall_models.ml" 87 1772 1778 "syscall_models.ml" 87 1772 1781
+type(
+  int
+)
+"syscall_models.ml" 87 1772 1785 "syscall_models.ml" 87 1772 1802
+type(
+  string
+)
+"syscall_models.ml" 88 1803 1809 "syscall_models.ml" 88 1803 1812
+type(
+  int
+)
+"syscall_models.ml" 88 1803 1816 "syscall_models.ml" 88 1803 1828
+type(
+  string
+)
+"syscall_models.ml" 89 1829 1835 "syscall_models.ml" 89 1829 1838
+type(
+  int
+)
+"syscall_models.ml" 89 1829 1842 "syscall_models.ml" 89 1829 1850
+type(
+  string
+)
+"syscall_models.ml" 90 1851 1857 "syscall_models.ml" 90 1851 1858
+type(
+  int
+)
+ident(
+  def n "syscall_models.ml" 90 1851 1862 "syscall_models.ml" 90 1851 1899
+)
+"syscall_models.ml" 90 1851 1862 "syscall_models.ml" 90 1851 1881
+type(
+  string
+)
+"syscall_models.ml" 90 1851 1882 "syscall_models.ml" 90 1851 1883
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"syscall_models.ml" 90 1851 1884 "syscall_models.ml" 90 1851 1897
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"syscall_models.ml" 90 1851 1898 "syscall_models.ml" 90 1851 1899
+type(
+  int
+)
+ident(
+  int_ref n "syscall_models.ml" 90 1851 1857 "syscall_models.ml" 90 1851 1858
+)
+"syscall_models.ml" 90 1851 1884 "syscall_models.ml" 90 1851 1899
+call(
+  stack
+)
+type(
+  string
+)
+"syscall_models.ml" 90 1851 1862 "syscall_models.ml" 90 1851 1899
+call(
+  tail
+)
+type(
+  string
+)
+"syscall_models.ml" 63 1275 1279 "syscall_models.ml" 91 1900 1905
+type(
+  string
+)
+"syscall_models.ml" 30 548 550 "syscall_models.ml" 91 1900 1905
+type(
+  string
+)
+"syscall_models.ml" 94 1950 1954 "syscall_models.ml" 94 1950 1969
+type(
+  Arch.arch -> int -> Ast.stmt list option
+)
+ident(
+  def linux_get_model "syscall_models.ml" 125 2547 2547 --
+)
+"syscall_models.ml" 94 1950 1970 "syscall_models.ml" 94 1950 1974
+type(
+  Arch.arch
+)
+ident(
+  def arch "syscall_models.ml" 94 1950 1975 "syscall_models.ml" 123 2540 2545
+)
+"syscall_models.ml" 94 1950 1975 "syscall_models.ml" 94 1950 1982
+type(
+  int
+)
+ident(
+  def syscall "syscall_models.ml" 95 1986 1988 "syscall_models.ml" 123 2540 2545
+)
+"syscall_models.ml" 95 1986 1994 "syscall_models.ml" 95 1986 1998
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "syscall_models.ml" 94 1950 1970 "syscall_models.ml" 94 1950 1974
+)
+"syscall_models.ml" 96 2004 2008 "syscall_models.ml" 96 2004 2014
+type(
+  Arch.arch
+)
+"syscall_models.ml" 97 2019 2030 "syscall_models.ml" 97 2019 2037
+type(
+  int
+)
+ident(
+  int_ref syscall "syscall_models.ml" 94 1950 1975 "syscall_models.ml" 94 1950 1982
+)
+"syscall_models.ml" 98 2044 2050 "syscall_models.ml" 98 2044 2051
+type(
+  int
+)
+"syscall_models.ml" 101 2108 2128 "syscall_models.ml" 101 2108 2135
+type(
+  Ast.var
+)
+ident(
+  ext_ref R32.ebx
+)
+"syscall_models.ml" 101 2108 2124 "syscall_models.ml" 101 2108 2135
+type(
+  Ast.exp
+)
+"syscall_models.ml" 101 2108 2137 "syscall_models.ml" 101 2108 2139
+type(
+  Ast.attrs
+)
+"syscall_models.ml" 101 2108 2123 "syscall_models.ml" 101 2108 2140
+type(
+  Ast.exp * Ast.attrs
+)
+"syscall_models.ml" 101 2108 2119 "syscall_models.ml" 101 2108 2140
+type(
+  Ast.stmt
+)
+"syscall_models.ml" 102 2141 2155 "syscall_models.ml" 102 2141 2157
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 101 2108 2118 "syscall_models.ml" 102 2141 2158
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 101 2108 2114 "syscall_models.ml" 102 2141 2158
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 103 2159 2165 "syscall_models.ml" 103 2159 2168
+type(
+  int
+)
+"syscall_models.ml" 105 2195 2215 "syscall_models.ml" 105 2195 2222
+type(
+  Ast.var
+)
+ident(
+  ext_ref R32.ebx
+)
+"syscall_models.ml" 105 2195 2211 "syscall_models.ml" 105 2195 2222
+type(
+  Ast.exp
+)
+"syscall_models.ml" 105 2195 2224 "syscall_models.ml" 105 2195 2226
+type(
+  Ast.attrs
+)
+"syscall_models.ml" 105 2195 2210 "syscall_models.ml" 105 2195 2227
+type(
+  Ast.exp * Ast.attrs
+)
+"syscall_models.ml" 105 2195 2206 "syscall_models.ml" 105 2195 2227
+type(
+  Ast.stmt
+)
+"syscall_models.ml" 106 2228 2242 "syscall_models.ml" 106 2228 2244
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 105 2195 2205 "syscall_models.ml" 106 2228 2245
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 105 2195 2201 "syscall_models.ml" 106 2228 2245
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 107 2246 2252 "syscall_models.ml" 107 2246 2253
+type(
+  int
+)
+"syscall_models.ml" 108 2257 2264 "syscall_models.ml" 108 2257 2268
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 97 2019 2023 "syscall_models.ml" 109 2269 2274
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 110 2275 2279 "syscall_models.ml" 110 2275 2285
+type(
+  Arch.arch
+)
+"syscall_models.ml" 111 2290 2301 "syscall_models.ml" 111 2290 2308
+type(
+  int
+)
+ident(
+  int_ref syscall "syscall_models.ml" 94 1950 1975 "syscall_models.ml" 94 1950 1982
+)
+"syscall_models.ml" 112 2314 2320 "syscall_models.ml" 112 2314 2322
+type(
+  int
+)
+"syscall_models.ml" 115 2379 2399 "syscall_models.ml" 115 2379 2406
+type(
+  Ast.var
+)
+ident(
+  ext_ref R64.rdi
+)
+"syscall_models.ml" 115 2379 2395 "syscall_models.ml" 115 2379 2406
+type(
+  Ast.exp
+)
+"syscall_models.ml" 115 2379 2408 "syscall_models.ml" 115 2379 2410
+type(
+  Ast.attrs
+)
+"syscall_models.ml" 115 2379 2394 "syscall_models.ml" 115 2379 2411
+type(
+  Ast.exp * Ast.attrs
+)
+"syscall_models.ml" 115 2379 2390 "syscall_models.ml" 115 2379 2411
+type(
+  Ast.stmt
+)
+"syscall_models.ml" 116 2412 2426 "syscall_models.ml" 116 2412 2428
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 115 2379 2389 "syscall_models.ml" 116 2412 2429
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 115 2379 2385 "syscall_models.ml" 116 2412 2429
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 117 2430 2436 "syscall_models.ml" 117 2430 2439
+type(
+  int
+)
+"syscall_models.ml" 119 2466 2486 "syscall_models.ml" 119 2466 2493
+type(
+  Ast.var
+)
+ident(
+  ext_ref R64.rdi
+)
+"syscall_models.ml" 119 2466 2482 "syscall_models.ml" 119 2466 2493
+type(
+  Ast.exp
+)
+"syscall_models.ml" 119 2466 2495 "syscall_models.ml" 119 2466 2497
+type(
+  Ast.attrs
+)
+"syscall_models.ml" 119 2466 2481 "syscall_models.ml" 119 2466 2498
+type(
+  Ast.exp * Ast.attrs
+)
+"syscall_models.ml" 119 2466 2477 "syscall_models.ml" 119 2466 2498
+type(
+  Ast.stmt
+)
+"syscall_models.ml" 120 2499 2513 "syscall_models.ml" 120 2499 2515
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 119 2466 2476 "syscall_models.ml" 120 2499 2516
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 119 2466 2472 "syscall_models.ml" 120 2499 2516
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 121 2517 2523 "syscall_models.ml" 121 2517 2524
+type(
+  int
+)
+"syscall_models.ml" 122 2528 2535 "syscall_models.ml" 122 2528 2539
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 111 2290 2294 "syscall_models.ml" 123 2540 2545
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 95 1986 1988 "syscall_models.ml" 123 2540 2545
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 125 2547 2551 "syscall_models.ml" 125 2547 2570
+type(
+  Arch.arch -> int -> Ast.stmt list
+)
+ident(
+  def linux_syscall_to_il "syscall_models.ml" 142 3316 3327 --
+)
+"syscall_models.ml" 125 2547 2571 "syscall_models.ml" 125 2547 2575
+type(
+  Arch.arch
+)
+ident(
+  def arch "syscall_models.ml" 125 2547 2576 "syscall_models.ml" 142 3316 3327
+)
+"syscall_models.ml" 125 2547 2576 "syscall_models.ml" 125 2547 2579
+type(
+  int
+)
+ident(
+  def rax "syscall_models.ml" 126 2582 2584 "syscall_models.ml" 142 3316 3327
+)
+"syscall_models.ml" 126 2582 2590 "syscall_models.ml" 126 2582 2605
+type(
+  Arch.arch -> int -> Ast.stmt list option
+)
+ident(
+  int_ref linux_get_model "syscall_models.ml" 94 1950 1954 "syscall_models.ml" 94 1950 1969
+)
+"syscall_models.ml" 126 2582 2606 "syscall_models.ml" 126 2582 2610
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "syscall_models.ml" 125 2547 2571 "syscall_models.ml" 125 2547 2575
+)
+"syscall_models.ml" 126 2582 2611 "syscall_models.ml" 126 2582 2614
+type(
+  int
+)
+ident(
+  int_ref rax "syscall_models.ml" 125 2547 2576 "syscall_models.ml" 125 2547 2579
+)
+"syscall_models.ml" 126 2582 2590 "syscall_models.ml" 126 2582 2614
+call(
+  stack
+)
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 127 2620 2631 "syscall_models.ml" 127 2620 2636
+type(
+  Ast.stmt list
+)
+ident(
+  def model "syscall_models.ml" 128 2640 2646 "syscall_models.ml" 129 2696 2710
+)
+"syscall_models.ml" 127 2620 2626 "syscall_models.ml" 127 2620 2636
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 128 2640 2655 "syscall_models.ml" 128 2640 2669
+type(
+  Arch.arch -> int -> string
+)
+ident(
+  int_ref linux_get_name "syscall_models.ml" 29 514 518 "syscall_models.ml" 29 514 532
+)
+"syscall_models.ml" 128 2640 2670 "syscall_models.ml" 128 2640 2674
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "syscall_models.ml" 125 2547 2571 "syscall_models.ml" 125 2547 2575
+)
+"syscall_models.ml" 128 2640 2675 "syscall_models.ml" 128 2640 2678
+type(
+  int
+)
+ident(
+  int_ref rax "syscall_models.ml" 125 2547 2576 "syscall_models.ml" 125 2547 2579
+)
+"syscall_models.ml" 128 2640 2654 "syscall_models.ml" 128 2640 2679
+call(
+  stack
+)
+type(
+  string
+)
+"syscall_models.ml" 128 2640 2680 "syscall_models.ml" 128 2640 2681
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"syscall_models.ml" 128 2640 2682 "syscall_models.ml" 128 2640 2690
+type(
+  string
+)
+"syscall_models.ml" 128 2640 2654 "syscall_models.ml" 128 2640 2690
+call(
+  stack
+)
+type(
+  string
+)
+"syscall_models.ml" 128 2640 2692 "syscall_models.ml" 128 2640 2694
+type(
+  Ast.attrs
+)
+"syscall_models.ml" 128 2640 2653 "syscall_models.ml" 128 2640 2695
+type(
+  string * Ast.attrs
+)
+"syscall_models.ml" 128 2640 2646 "syscall_models.ml" 128 2640 2695
+type(
+  Ast.stmt
+)
+"syscall_models.ml" 129 2696 2705 "syscall_models.ml" 129 2696 2710
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref model "syscall_models.ml" 127 2620 2631 "syscall_models.ml" 127 2620 2636
+)
+"syscall_models.ml" 128 2640 2646 "syscall_models.ml" 129 2696 2710
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 130 2711 2717 "syscall_models.ml" 130 2711 2721
+type(
+  Ast.stmt list option
+)
+"syscall_models.ml" 131 2725 2735 "syscall_models.ml" 131 2725 2743
+type(
+  string
+)
+"syscall_models.ml" 131 2725 2746 "syscall_models.ml" 131 2725 2760
+type(
+  Arch.arch -> int -> string
+)
+ident(
+  int_ref linux_get_name "syscall_models.ml" 29 514 518 "syscall_models.ml" 29 514 532
+)
+"syscall_models.ml" 131 2725 2761 "syscall_models.ml" 131 2725 2765
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "syscall_models.ml" 125 2547 2571 "syscall_models.ml" 125 2547 2575
+)
+"syscall_models.ml" 131 2725 2766 "syscall_models.ml" 131 2725 2769
+type(
+  int
+)
+ident(
+  int_ref rax "syscall_models.ml" 125 2547 2576 "syscall_models.ml" 125 2547 2579
+)
+"syscall_models.ml" 131 2725 2746 "syscall_models.ml" 131 2725 2769
+call(
+  stack
+)
+type(
+  string
+)
+"syscall_models.ml" 132 2773 2784 "syscall_models.ml" 132 2773 2788
+type(
+  Disasm_i386.mode
+)
+"syscall_models.ml" 132 2773 2790 "syscall_models.ml" 132 2773 2792
+type(
+  Var.defuse option
+)
+"syscall_models.ml" 132 2773 2783 "syscall_models.ml" 132 2773 2793
+type(
+  Disasm_i386.mode * Var.defuse option
+)
+"syscall_models.ml" 132 2773 2802 "syscall_models.ml" 132 2773 2806
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "syscall_models.ml" 125 2547 2571 "syscall_models.ml" 125 2547 2575
+)
+"syscall_models.ml" 133 2812 2822 "syscall_models.ml" 133 2812 2828
+type(
+  Arch.arch
+)
+"syscall_models.ml" 133 2812 2833 "syscall_models.ml" 133 2812 2848
+type(
+  Disasm_i386.mode
+)
+"syscall_models.ml" 134 2857 2879 "syscall_models.ml" 134 2857 2886
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.mem
+)
+"syscall_models.ml" 134 2857 2888 "syscall_models.ml" 134 2857 2895
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.eax
+)
+"syscall_models.ml" 134 2857 2897 "syscall_models.ml" 134 2857 2904
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.ebx
+)
+"syscall_models.ml" 134 2857 2906 "syscall_models.ml" 134 2857 2913
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.ecx
+)
+"syscall_models.ml" 134 2857 2915 "syscall_models.ml" 134 2857 2922
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.edx
+)
+"syscall_models.ml" 134 2857 2924 "syscall_models.ml" 134 2857 2931
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.esi
+)
+"syscall_models.ml" 134 2857 2933 "syscall_models.ml" 134 2857 2940
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.edi
+)
+"syscall_models.ml" 134 2857 2942 "syscall_models.ml" 134 2857 2949
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.ebp
+)
+"syscall_models.ml" 134 2857 2878 "syscall_models.ml" 134 2857 2950
+type(
+  Var.t list
+)
+"syscall_models.ml" 135 2952 2974 "syscall_models.ml" 135 2952 2981
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.mem
+)
+"syscall_models.ml" 135 2952 2983 "syscall_models.ml" 135 2952 2990
+type(
+  Var.t
+)
+ident(
+  ext_ref R32.eax
+)
+"syscall_models.ml" 135 2952 2973 "syscall_models.ml" 135 2952 2991
+type(
+  Var.t list
+)
+"syscall_models.ml" 133 2812 2855 "syscall_models.ml" 135 2952 2992
+type(
+  Var.defuse
+)
+"syscall_models.ml" 133 2812 2850 "syscall_models.ml" 135 2952 2992
+type(
+  Var.defuse option
+)
+"syscall_models.ml" 133 2812 2832 "syscall_models.ml" 135 2952 2993
+type(
+  Disasm_i386.mode * Var.defuse option
+)
+"syscall_models.ml" 136 2994 3004 "syscall_models.ml" 136 2994 3010
+type(
+  Arch.arch
+)
+"syscall_models.ml" 136 2994 3015 "syscall_models.ml" 136 2994 3032
+type(
+  Disasm_i386.mode
+)
+"syscall_models.ml" 137 3041 3063 "syscall_models.ml" 137 3041 3070
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.mem
+)
+"syscall_models.ml" 137 3041 3072 "syscall_models.ml" 137 3041 3079
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rax
+)
+"syscall_models.ml" 137 3041 3081 "syscall_models.ml" 137 3041 3088
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rdi
+)
+"syscall_models.ml" 137 3041 3090 "syscall_models.ml" 137 3041 3097
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rsi
+)
+"syscall_models.ml" 137 3041 3099 "syscall_models.ml" 137 3041 3106
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rdx
+)
+"syscall_models.ml" 137 3041 3108 "syscall_models.ml" 137 3041 3115
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.r10
+)
+"syscall_models.ml" 137 3041 3117 "syscall_models.ml" 137 3041 3123
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.r8
+)
+"syscall_models.ml" 137 3041 3125 "syscall_models.ml" 137 3041 3131
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.r9
+)
+"syscall_models.ml" 137 3041 3062 "syscall_models.ml" 137 3041 3132
+type(
+  Var.t list
+)
+"syscall_models.ml" 138 3134 3156 "syscall_models.ml" 138 3134 3163
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.mem
+)
+"syscall_models.ml" 138 3134 3165 "syscall_models.ml" 138 3134 3172
+type(
+  Var.t
+)
+ident(
+  ext_ref R64.rax
+)
+"syscall_models.ml" 138 3134 3155 "syscall_models.ml" 138 3134 3173
+type(
+  Var.t list
+)
+"syscall_models.ml" 136 2994 3039 "syscall_models.ml" 138 3134 3174
+type(
+  Var.defuse
+)
+"syscall_models.ml" 136 2994 3034 "syscall_models.ml" 138 3134 3174
+type(
+  Var.defuse option
+)
+"syscall_models.ml" 136 2994 3014 "syscall_models.ml" 138 3134 3175
+type(
+  Disasm_i386.mode * Var.defuse option
+)
+"syscall_models.ml" 132 2773 2796 "syscall_models.ml" 138 3134 3175
+type(
+  Disasm_i386.mode * Var.defuse option
+)
+"syscall_models.ml" 140 3185 3200 "syscall_models.ml" 140 3185 3208
+type(
+  string
+)
+ident(
+  int_ref sys_name "syscall_models.ml" 131 2725 2735 "syscall_models.ml" 131 2725 2743
+)
+"syscall_models.ml" 140 3185 3210 "syscall_models.ml" 140 3185 3212
+type(
+  Var.defuse option
+)
+ident(
+  int_ref du "syscall_models.ml" 132 2773 2790 "syscall_models.ml" 132 2773 2792
+)
+"syscall_models.ml" 140 3185 3214 "syscall_models.ml" 140 3185 3216
+type(
+  Ast.attrs
+)
+"syscall_models.ml" 140 3185 3199 "syscall_models.ml" 140 3185 3217
+type(
+  string * Var.defuse option * Ast.attrs
+)
+"syscall_models.ml" 140 3185 3191 "syscall_models.ml" 140 3185 3217
+type(
+  Ast.stmt
+)
+"syscall_models.ml" 141 3218 3232 "syscall_models.ml" 141 3218 3243
+type(
+  Arch.arch -> Ast.var
+)
+ident(
+  int_ref syscall_reg "syscall_models.ml" 24 398 402 "syscall_models.ml" 24 398 413
+)
+"syscall_models.ml" 141 3218 3244 "syscall_models.ml" 141 3218 3248
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "syscall_models.ml" 125 2547 2571 "syscall_models.ml" 125 2547 2575
+)
+"syscall_models.ml" 141 3218 3232 "syscall_models.ml" 141 3218 3248
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"syscall_models.ml" 141 3218 3258 "syscall_models.ml" 141 3218 3278
+type(
+  string
+)
+"syscall_models.ml" 141 3218 3280 "syscall_models.ml" 141 3218 3304
+type(
+  Disasm_i386.mode -> Type.typ
+)
+ident(
+  ext_ref Disasm_i386.type_of_mode
+)
+"syscall_models.ml" 141 3218 3305 "syscall_models.ml" 141 3218 3309
+type(
+  Disasm_i386.mode
+)
+ident(
+  int_ref mode "syscall_models.ml" 132 2773 2784 "syscall_models.ml" 132 2773 2788
+)
+"syscall_models.ml" 141 3218 3280 "syscall_models.ml" 141 3218 3309
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"syscall_models.ml" 141 3218 3257 "syscall_models.ml" 141 3218 3310
+type(
+  string * Type.typ
+)
+"syscall_models.ml" 141 3218 3250 "syscall_models.ml" 141 3218 3310
+type(
+  Ast.exp
+)
+"syscall_models.ml" 141 3218 3312 "syscall_models.ml" 141 3218 3314
+type(
+  Ast.attrs
+)
+"syscall_models.ml" 141 3218 3231 "syscall_models.ml" 141 3218 3315
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"syscall_models.ml" 141 3218 3227 "syscall_models.ml" 141 3218 3315
+type(
+  Ast.stmt
+)
+"syscall_models.ml" 142 3316 3325 "syscall_models.ml" 142 3316 3327
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 141 3218 3227 "syscall_models.ml" 142 3316 3327
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 140 3185 3191 "syscall_models.ml" 142 3316 3327
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 132 2773 2779 "syscall_models.ml" 142 3316 3327
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 131 2725 2731 "syscall_models.ml" 142 3316 3327
+type(
+  Ast.stmt list
+)
+"syscall_models.ml" 126 2582 2584 "syscall_models.ml" 142 3316 3327
+type(
+  Ast.stmt list
+)

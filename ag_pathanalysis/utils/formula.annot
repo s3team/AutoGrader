@@ -1,0 +1,758 @@
+"formula.ml" 2 1 5 "formula.ml" 2 1 9
+type(
+  (string * Big_int_Z.big_int) list -> (string * Big_int_Z.big_int) list
+)
+ident(
+  def sort "formula.ml" 15 363 363 --
+)
+"formula.ml" 3 13 19 "formula.ml" 3 13 29
+type(
+  Str.regexp
+)
+"formula.ml" 3 13 32 "formula.ml" 3 13 49
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp_string
+)
+"formula.ml" 3 13 50 "formula.ml" 3 13 53
+type(
+  string
+)
+"formula.ml" 3 13 32 "formula.ml" 3 13 53
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"formula.ml" 4 57 63 "formula.ml" 4 57 71
+type(
+  string * 'a -> string * 'b -> int
+)
+"formula.ml" 4 57 73 "formula.ml" 4 57 77
+type(
+  string
+)
+ident(
+  def var1 "formula.ml" 4 57 82 "formula.ml" 11 312 333
+)
+"formula.ml" 4 57 79 "formula.ml" 4 57 80
+type(
+  'a
+)
+"formula.ml" 4 57 72 "formula.ml" 4 57 81
+type(
+  string * 'a
+)
+"formula.ml" 4 57 83 "formula.ml" 4 57 87
+type(
+  string
+)
+ident(
+  def var2 "formula.ml" 5 93 97 "formula.ml" 11 312 333
+)
+"formula.ml" 4 57 88 "formula.ml" 4 57 89
+type(
+  'b
+)
+"formula.ml" 4 57 82 "formula.ml" 4 57 90
+type(
+  string * 'b
+)
+"formula.ml" 5 93 101 "formula.ml" 5 93 104
+type(
+  string list
+)
+"formula.ml" 5 93 107 "formula.ml" 5 93 116
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  ext_ref Str.split
+)
+"formula.ml" 5 93 117 "formula.ml" 5 93 127
+type(
+  Str.regexp
+)
+ident(
+  int_ref underscore "formula.ml" 3 13 19 "formula.ml" 3 13 29
+)
+"formula.ml" 5 93 128 "formula.ml" 5 93 132
+type(
+  string
+)
+ident(
+  int_ref var1 "formula.ml" 4 57 73 "formula.ml" 4 57 77
+)
+"formula.ml" 5 93 107 "formula.ml" 5 93 132
+call(
+  stack
+)
+type(
+  string list
+)
+"formula.ml" 6 134 142 "formula.ml" 6 134 145
+type(
+  string list
+)
+"formula.ml" 6 134 148 "formula.ml" 6 134 157
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  ext_ref Str.split
+)
+"formula.ml" 6 134 158 "formula.ml" 6 134 168
+type(
+  Str.regexp
+)
+ident(
+  int_ref underscore "formula.ml" 3 13 19 "formula.ml" 3 13 29
+)
+"formula.ml" 6 134 169 "formula.ml" 6 134 173
+type(
+  string
+)
+ident(
+  int_ref var2 "formula.ml" 4 57 83 "formula.ml" 4 57 87
+)
+"formula.ml" 6 134 148 "formula.ml" 6 134 173
+call(
+  stack
+)
+type(
+  string list
+)
+"formula.ml" 7 177 185 "formula.ml" 7 177 187
+type(
+  string
+)
+"formula.ml" 7 177 190 "formula.ml" 7 177 198
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"formula.ml" 7 177 199 "formula.ml" 7 177 202
+type(
+  string list
+)
+ident(
+  int_ref ss1 "formula.ml" 5 93 101 "formula.ml" 5 93 104
+)
+"formula.ml" 7 177 203 "formula.ml" 7 177 204
+type(
+  int
+)
+"formula.ml" 7 177 190 "formula.ml" 7 177 204
+call(
+  stack
+)
+type(
+  string
+)
+"formula.ml" 8 206 214 "formula.ml" 8 206 216
+type(
+  string
+)
+"formula.ml" 8 206 219 "formula.ml" 8 206 227
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"formula.ml" 8 206 228 "formula.ml" 8 206 231
+type(
+  string list
+)
+ident(
+  int_ref ss2 "formula.ml" 6 134 142 "formula.ml" 6 134 145
+)
+"formula.ml" 8 206 232 "formula.ml" 8 206 233
+type(
+  int
+)
+"formula.ml" 8 206 219 "formula.ml" 8 206 233
+call(
+  stack
+)
+type(
+  string
+)
+"formula.ml" 9 243 253 "formula.ml" 9 243 256
+type(
+  int
+)
+"formula.ml" 9 243 259 "formula.ml" 9 243 272
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"formula.ml" 9 243 273 "formula.ml" 9 243 275
+type(
+  string
+)
+ident(
+  int_ref s1 "formula.ml" 7 177 185 "formula.ml" 7 177 187
+)
+"formula.ml" 9 243 259 "formula.ml" 9 243 275
+type(
+  int
+)
+"formula.ml" 10 276 286 "formula.ml" 10 276 289
+type(
+  int
+)
+"formula.ml" 10 276 292 "formula.ml" 10 276 305
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"formula.ml" 10 276 306 "formula.ml" 10 276 308
+type(
+  string
+)
+ident(
+  int_ref s2 "formula.ml" 8 206 214 "formula.ml" 8 206 216
+)
+"formula.ml" 10 276 292 "formula.ml" 10 276 308
+type(
+  int
+)
+"formula.ml" 11 312 318 "formula.ml" 11 312 325
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"formula.ml" 11 312 326 "formula.ml" 11 312 329
+type(
+  int
+)
+ident(
+  int_ref s1i "formula.ml" 9 243 253 "formula.ml" 9 243 256
+)
+"formula.ml" 11 312 330 "formula.ml" 11 312 333
+type(
+  int
+)
+ident(
+  int_ref s2i "formula.ml" 10 276 286 "formula.ml" 10 276 289
+)
+"formula.ml" 11 312 318 "formula.ml" 11 312 333
+type(
+  int
+)
+"formula.ml" 9 243 249 "formula.ml" 11 312 333
+type(
+  int
+)
+"formula.ml" 7 177 181 "formula.ml" 11 312 333
+type(
+  int
+)
+"formula.ml" 5 93 97 "formula.ml" 11 312 333
+type(
+  int
+)
+"formula.ml" 13 341 343 "formula.ml" 13 341 352
+type(
+  (string * Big_int_Z.big_int -> string * Big_int_Z.big_int -> int) ->
+  (string * Big_int_Z.big_int) list -> (string * Big_int_Z.big_int) list
+)
+ident(
+  ext_ref List.sort
+)
+"formula.ml" 13 341 353 "formula.ml" 13 341 361
+type(
+  string * Big_int_Z.big_int -> string * Big_int_Z.big_int -> int
+)
+ident(
+  int_ref sort_aux "formula.ml" 4 57 63 "formula.ml" 4 57 71
+)
+"formula.ml" 13 341 343 "formula.ml" 13 341 361
+call(
+  stack
+)
+type(
+  (string * Big_int_Z.big_int) list -> (string * Big_int_Z.big_int) list
+)
+"formula.ml" 4 57 59 "formula.ml" 13 341 361
+type(
+  (string * Big_int_Z.big_int) list -> (string * Big_int_Z.big_int) list
+)
+"formula.ml" 3 13 15 "formula.ml" 13 341 361
+type(
+  (string * Big_int_Z.big_int) list -> (string * Big_int_Z.big_int) list
+)
+"formula.ml" 15 363 367 "formula.ml" 15 363 371
+type(
+  unit -> unit
+)
+ident(
+  def main "formula.ml" 32 892 892 --
+)
+"formula.ml" 15 363 372 "formula.ml" 15 363 374
+type(
+  unit
+)
+"formula.ml" 16 377 383 "formula.ml" 16 377 386
+type(
+  in_channel
+)
+"formula.ml" 17 390 397 "formula.ml" 17 390 409
+type(
+  string array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"formula.ml" 17 390 410 "formula.ml" 17 390 418
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"formula.ml" 17 390 397 "formula.ml" 17 390 418
+type(
+  int
+)
+"formula.ml" 17 390 419 "formula.ml" 17 390 420
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"formula.ml" 17 390 421 "formula.ml" 17 390 422
+type(
+  int
+)
+"formula.ml" 17 390 397 "formula.ml" 17 390 422
+type(
+  bool
+)
+"formula.ml" 17 390 428 "formula.ml" 17 390 435
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"formula.ml" 17 390 436 "formula.ml" 17 390 444
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"formula.ml" 17 390 446 "formula.ml" 17 390 447
+type(
+  int
+)
+"formula.ml" 17 390 436 "formula.ml" 17 390 448
+type(
+  string
+)
+"formula.ml" 17 390 428 "formula.ml" 17 390 448
+call(
+  stack
+)
+type(
+  in_channel
+)
+"formula.ml" 18 449 458 "formula.ml" 18 449 463
+type(
+  in_channel
+)
+ident(
+  ext_ref Pervasives.stdin
+)
+"formula.ml" 17 390 394 "formula.ml" 18 449 463
+type(
+  in_channel
+)
+"formula.ml" 20 469 475 "formula.ml" 20 469 483
+type(
+  string -> bool
+)
+"formula.ml" 20 469 484 "formula.ml" 20 469 485
+type(
+  string
+)
+ident(
+  def v "formula.ml" 20 469 488 "formula.ml" 20 469 513
+)
+"formula.ml" 20 469 488 "formula.ml" 20 469 498
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"formula.ml" 20 469 499 "formula.ml" 20 469 500
+type(
+  string
+)
+ident(
+  int_ref v "formula.ml" 20 469 484 "formula.ml" 20 469 485
+)
+"formula.ml" 20 469 501 "formula.ml" 20 469 502
+type(
+  int
+)
+"formula.ml" 20 469 503 "formula.ml" 20 469 504
+type(
+  int
+)
+"formula.ml" 20 469 488 "formula.ml" 20 469 504
+call(
+  stack
+)
+type(
+  string
+)
+"formula.ml" 20 469 505 "formula.ml" 20 469 506
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"formula.ml" 20 469 507 "formula.ml" 20 469 513
+type(
+  string
+)
+"formula.ml" 20 469 488 "formula.ml" 20 469 513
+type(
+  bool
+)
+"formula.ml" 21 517 523 "formula.ml" 21 517 529
+type(
+  Lexing.lexbuf
+)
+"formula.ml" 21 517 532 "formula.ml" 21 517 551
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"formula.ml" 21 517 552 "formula.ml" 21 517 555
+type(
+  in_channel
+)
+ident(
+  int_ref cin "formula.ml" 16 377 383 "formula.ml" 16 377 386
+)
+"formula.ml" 21 517 532 "formula.ml" 21 517 555
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"formula.ml" 22 559 565 "formula.ml" 22 559 571
+type(
+  (string * Big_int_Z.big_int) list
+)
+"formula.ml" 22 559 580 "formula.ml" 22 559 596
+type(
+  (Lexing.lexbuf -> Stp_grammar.token) ->
+  Lexing.lexbuf -> (string * Big_int_Z.big_int) list option
+)
+ident(
+  ext_ref Stp_grammar.main
+)
+"formula.ml" 22 559 597 "formula.ml" 22 559 612
+type(
+  Lexing.lexbuf -> Stp_grammar.token
+)
+ident(
+  ext_ref Stp_lexer.token
+)
+"formula.ml" 22 559 613 "formula.ml" 22 559 619
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "formula.ml" 21 517 523 "formula.ml" 21 517 529
+)
+"formula.ml" 22 559 580 "formula.ml" 22 559 619
+call(
+  stack
+)
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"formula.ml" 23 625 635 "formula.ml" 23 625 638
+type(
+  (string * Big_int_Z.big_int) list
+)
+ident(
+  def x "formula.ml" 23 625 642 "formula.ml" 23 625 643
+)
+"formula.ml" 23 625 631 "formula.ml" 23 625 638
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"formula.ml" 23 625 642 "formula.ml" 23 625 643
+type(
+  (string * Big_int_Z.big_int) list
+)
+ident(
+  int_ref x "formula.ml" 23 625 635 "formula.ml" 23 625 638
+)
+"formula.ml" 24 644 650 "formula.ml" 24 644 654
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"formula.ml" 24 644 658 "formula.ml" 24 644 666
+type(
+  string -> (string * Big_int_Z.big_int) list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"formula.ml" 24 644 667 "formula.ml" 24 644 694
+type(
+  string
+)
+"formula.ml" 24 644 658 "formula.ml" 24 644 694
+call(
+  stack
+)
+type(
+  (string * Big_int_Z.big_int) list
+)
+"formula.ml" 22 559 574 "formula.ml" 24 644 694
+type(
+  (string * Big_int_Z.big_int) list
+)
+"formula.ml" 26 700 706 "formula.ml" 26 700 712
+type(
+  (string * Big_int_Z.big_int) list
+)
+"formula.ml" 26 700 715 "formula.ml" 26 700 726
+type(
+  (string * Big_int_Z.big_int -> bool) ->
+  (string * Big_int_Z.big_int) list -> (string * Big_int_Z.big_int) list
+)
+ident(
+  ext_ref List.filter
+)
+"formula.ml" 26 700 733 "formula.ml" 26 700 734
+type(
+  string
+)
+ident(
+  def v "formula.ml" 26 700 741 "formula.ml" 26 700 751
+)
+"formula.ml" 26 700 735 "formula.ml" 26 700 736
+type(
+  Big_int_Z.big_int
+)
+"formula.ml" 26 700 732 "formula.ml" 26 700 737
+type(
+  string * Big_int_Z.big_int
+)
+"formula.ml" 26 700 741 "formula.ml" 26 700 749
+type(
+  string -> bool
+)
+ident(
+  int_ref is_input "formula.ml" 20 469 475 "formula.ml" 20 469 483
+)
+"formula.ml" 26 700 750 "formula.ml" 26 700 751
+type(
+  string
+)
+ident(
+  int_ref v "formula.ml" 26 700 733 "formula.ml" 26 700 734
+)
+"formula.ml" 26 700 741 "formula.ml" 26 700 751
+call(
+  tail
+)
+type(
+  bool
+)
+"formula.ml" 26 700 727 "formula.ml" 26 700 752
+type(
+  string * Big_int_Z.big_int -> bool
+)
+"formula.ml" 26 700 753 "formula.ml" 26 700 759
+type(
+  (string * Big_int_Z.big_int) list
+)
+ident(
+  int_ref values "formula.ml" 22 559 565 "formula.ml" 22 559 571
+)
+"formula.ml" 26 700 715 "formula.ml" 26 700 759
+call(
+  stack
+)
+type(
+  (string * Big_int_Z.big_int) list
+)
+"formula.ml" 27 763 769 "formula.ml" 27 763 775
+type(
+  (string * Big_int_Z.big_int) list
+)
+"formula.ml" 27 763 778 "formula.ml" 27 763 782
+type(
+  (string * Big_int_Z.big_int) list -> (string * Big_int_Z.big_int) list
+)
+ident(
+  int_ref sort "formula.ml" 2 1 5 "formula.ml" 2 1 9
+)
+"formula.ml" 27 763 783 "formula.ml" 27 763 789
+type(
+  (string * Big_int_Z.big_int) list
+)
+ident(
+  int_ref values "formula.ml" 26 700 706 "formula.ml" 26 700 712
+)
+"formula.ml" 27 763 778 "formula.ml" 27 763 789
+call(
+  stack
+)
+type(
+  (string * Big_int_Z.big_int) list
+)
+"formula.ml" 28 793 797 "formula.ml" 28 793 806
+type(
+  (string * Big_int_Z.big_int -> unit) ->
+  (string * Big_int_Z.big_int) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"formula.ml" 28 793 813 "formula.ml" 28 793 814
+type(
+  string
+)
+"formula.ml" 28 793 816 "formula.ml" 28 793 819
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def num "formula.ml" 28 793 824 "formula.ml" 28 793 878
+)
+"formula.ml" 28 793 812 "formula.ml" 28 793 820
+type(
+  string * Big_int_Z.big_int
+)
+"formula.ml" 28 793 824 "formula.ml" 28 793 837
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"formula.ml" 28 793 838 "formula.ml" 28 793 845
+type(
+  (string -> unit, out_channel, unit) format
+)
+"formula.ml" 28 793 847 "formula.ml" 28 793 866
+type(
+  ?pad:int -> Big_int_Z.big_int -> string
+)
+ident(
+  ext_ref Util.big_int_to_hex
+)
+"formula.ml" 28 793 872 "formula.ml" 28 793 873
+type(
+  int
+)
+"formula.ml" 28 793 874 "formula.ml" 28 793 877
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref num "formula.ml" 28 793 816 "formula.ml" 28 793 819
+)
+"formula.ml" 28 793 846 "formula.ml" 28 793 878
+call(
+  stack
+)
+type(
+  string
+)
+"formula.ml" 28 793 824 "formula.ml" 28 793 878
+call(
+  tail
+)
+type(
+  unit
+)
+"formula.ml" 28 793 807 "formula.ml" 28 793 879
+type(
+  string * Big_int_Z.big_int -> unit
+)
+"formula.ml" 28 793 880 "formula.ml" 28 793 886
+type(
+  (string * Big_int_Z.big_int) list
+)
+ident(
+  int_ref sorted "formula.ml" 27 763 769 "formula.ml" 27 763 775
+)
+"formula.ml" 28 793 797 "formula.ml" 28 793 886
+call(
+  tail
+)
+type(
+  unit
+)
+"formula.ml" 27 763 765 "formula.ml" 28 793 886
+type(
+  unit
+)
+"formula.ml" 26 700 702 "formula.ml" 28 793 886
+type(
+  unit
+)
+"formula.ml" 22 559 561 "formula.ml" 28 793 886
+type(
+  unit
+)
+"formula.ml" 21 517 519 "formula.ml" 28 793 886
+type(
+  unit
+)
+"formula.ml" 20 469 471 "formula.ml" 28 793 886
+type(
+  unit
+)
+"formula.ml" 16 377 379 "formula.ml" 28 793 886
+type(
+  unit
+)
+"formula.ml" 32 892 892 "formula.ml" 32 892 896
+type(
+  unit -> unit
+)
+ident(
+  int_ref main "formula.ml" 15 363 367 "formula.ml" 15 363 371
+)
+"formula.ml" 32 892 897 "formula.ml" 32 892 899
+type(
+  unit
+)
+"formula.ml" 32 892 892 "formula.ml" 32 892 899
+call(
+  stack
+)
+type(
+  unit
+)

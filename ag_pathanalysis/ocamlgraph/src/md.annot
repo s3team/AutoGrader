@@ -1,0 +1,2746 @@
+"src/md.ml" 20 1265 1286 "src/md.ml" 20 1265 1299
+call(
+  stack
+)
+"src/md.ml" 21 1300 1314 "src/md.ml" 21 1300 1338
+call(
+  stack
+)
+"src/md.ml" 22 1339 1357 "src/md.ml" 22 1339 1371
+call(
+  stack
+)
+"src/md.ml" 26 1418 1424 "src/md.ml" 26 1418 1426
+type(
+  G.t -> G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+ident(
+  def md "src/md.ml" 80 2583 2585 "src/md.ml" 84 2646 2649
+)
+"src/md.ml" 26 1418 1427 "src/md.ml" 26 1418 1428
+type(
+  G.t
+)
+ident(
+  def g "src/md.ml" 27 1431 1435 "src/md.ml" 78 2555 2578
+)
+"src/md.ml" 27 1431 1439 "src/md.ml" 27 1431 1443
+type(
+  G.t ref
+)
+"src/md.ml" 27 1431 1446 "src/md.ml" 27 1431 1449
+type(
+  G.t -> G.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/md.ml" 27 1431 1450 "src/md.ml" 27 1431 1451
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 26 1418 1427 "src/md.ml" 26 1418 1428
+)
+"src/md.ml" 27 1431 1446 "src/md.ml" 27 1431 1451
+type(
+  G.t ref
+)
+"src/md.ml" 28 1455 1463 "src/md.ml" 28 1455 1467
+type(
+  G.t ref
+)
+"src/md.ml" 28 1455 1470 "src/md.ml" 28 1455 1473
+type(
+  G.t -> G.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/md.ml" 28 1455 1474 "src/md.ml" 28 1455 1475
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 26 1418 1427 "src/md.ml" 26 1418 1428
+)
+"src/md.ml" 28 1455 1470 "src/md.ml" 28 1455 1475
+type(
+  G.t ref
+)
+"src/md.ml" 29 1479 1487 "src/md.ml" 29 1479 1488
+type(
+  int
+)
+"src/md.ml" 29 1479 1491 "src/md.ml" 29 1479 1502
+type(
+  G.t -> int
+)
+ident(
+  ext_ref G.nb_vertex
+)
+"src/md.ml" 29 1479 1503 "src/md.ml" 29 1479 1504
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 26 1418 1427 "src/md.ml" 26 1418 1428
+)
+"src/md.ml" 29 1479 1491 "src/md.ml" 29 1479 1504
+call(
+  stack
+)
+type(
+  int
+)
+"src/md.ml" 30 1508 1516 "src/md.ml" 30 1508 1519
+type(
+  (G.vertex * G.vertex) list ref
+)
+"src/md.ml" 30 1508 1522 "src/md.ml" 30 1508 1525
+type(
+  (G.vertex * G.vertex) list -> (G.vertex * G.vertex) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/md.ml" 30 1508 1526 "src/md.ml" 30 1508 1528
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 30 1508 1522 "src/md.ml" 30 1508 1528
+type(
+  (G.vertex * G.vertex) list ref
+)
+"src/md.ml" 31 1532 1540 "src/md.ml" 31 1532 1543
+type(
+  G.vertex list ref
+)
+"src/md.ml" 31 1532 1546 "src/md.ml" 31 1532 1549
+type(
+  G.vertex list -> G.vertex list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/md.ml" 31 1532 1550 "src/md.ml" 31 1532 1552
+type(
+  G.vertex list
+)
+"src/md.ml" 31 1532 1546 "src/md.ml" 31 1532 1552
+type(
+  G.vertex list ref
+)
+"src/md.ml" 32 1556 1564 "src/md.ml" 32 1556 1565
+type(
+  int ref
+)
+"src/md.ml" 32 1556 1568 "src/md.ml" 32 1556 1571
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/md.ml" 32 1556 1572 "src/md.ml" 32 1556 1573
+type(
+  int
+)
+"src/md.ml" 32 1556 1568 "src/md.ml" 32 1556 1573
+type(
+  int ref
+)
+"src/md.ml" 33 1577 1587 "src/md.ml" 33 1577 1590
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/md.ml" 33 1577 1592 "src/md.ml" 33 1577 1605
+type(
+  G.t -> bool
+)
+ident(
+  ext_ref CT.is_chordal
+)
+"src/md.ml" 33 1577 1606 "src/md.ml" 33 1577 1607
+type(
+  G.t ref -> G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 33 1577 1607 "src/md.ml" 33 1577 1611
+type(
+  G.t ref
+)
+ident(
+  int_ref gtri "src/md.ml" 28 1455 1463 "src/md.ml" 28 1455 1467
+)
+"src/md.ml" 33 1577 1606 "src/md.ml" 33 1577 1611
+type(
+  G.t
+)
+"src/md.ml" 33 1577 1591 "src/md.ml" 33 1577 1612
+call(
+  stack
+)
+type(
+  bool
+)
+"src/md.ml" 33 1577 1587 "src/md.ml" 33 1577 1612
+type(
+  bool
+)
+"src/md.ml" 33 1577 1613 "src/md.ml" 33 1577 1615
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/md.ml" 33 1577 1616 "src/md.ml" 33 1577 1617
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 33 1577 1617 "src/md.ml" 33 1577 1618
+type(
+  int ref
+)
+ident(
+  int_ref i "src/md.ml" 32 1556 1564 "src/md.ml" 32 1556 1565
+)
+"src/md.ml" 33 1577 1616 "src/md.ml" 33 1577 1618
+type(
+  int
+)
+"src/md.ml" 33 1577 1619 "src/md.ml" 33 1577 1620
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/md.ml" 33 1577 1621 "src/md.ml" 33 1577 1622
+type(
+  int
+)
+ident(
+  int_ref n "src/md.ml" 29 1479 1487 "src/md.ml" 29 1479 1488
+)
+"src/md.ml" 33 1577 1616 "src/md.ml" 33 1577 1622
+type(
+  bool
+)
+"src/md.ml" 33 1577 1587 "src/md.ml" 33 1577 1622
+type(
+  bool
+)
+"src/md.ml" 34 1626 1636 "src/md.ml" 34 1626 1637
+type(
+  G.vertex
+)
+ident(
+  def v "src/md.ml" 47 1928 1934 "src/md.ml" 76 2531 2544
+)
+"src/md.ml" 35 1641 1646 "src/md.ml" 35 1641 1647
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 36 1651 1654 "src/md.ml" 36 1651 1667
+type(
+  (G.vertex -> (G.vertex * int) option -> (G.vertex * int) option) ->
+  G.t -> (G.vertex * int) option -> (G.vertex * int) option
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"src/md.ml" 37 1669 1679 "src/md.ml" 37 1669 1681
+type(
+  G.vertex
+)
+ident(
+  def v' "src/md.ml" 37 1669 1682 "src/md.ml" 41 1791 1816
+)
+"src/md.ml" 37 1669 1682 "src/md.ml" 37 1669 1683
+type(
+  (G.vertex * int) option
+)
+ident(
+  def x "src/md.ml" 38 1687 1695 "src/md.ml" 41 1791 1816
+)
+"src/md.ml" 38 1687 1699 "src/md.ml" 38 1687 1703
+type(
+  int
+)
+"src/md.ml" 38 1687 1706 "src/md.ml" 38 1687 1718
+type(
+  G.t -> G.vertex -> int
+)
+ident(
+  ext_ref G.out_degree
+)
+"src/md.ml" 38 1687 1719 "src/md.ml" 38 1687 1720
+type(
+  G.t ref -> G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 38 1687 1720 "src/md.ml" 38 1687 1724
+type(
+  G.t ref
+)
+ident(
+  int_ref gref "src/md.ml" 27 1431 1439 "src/md.ml" 27 1431 1443
+)
+"src/md.ml" 38 1687 1719 "src/md.ml" 38 1687 1724
+type(
+  G.t
+)
+"src/md.ml" 38 1687 1725 "src/md.ml" 38 1687 1727
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 37 1669 1679 "src/md.ml" 37 1669 1681
+)
+"src/md.ml" 38 1687 1706 "src/md.ml" 38 1687 1727
+call(
+  stack
+)
+type(
+  int
+)
+"src/md.ml" 39 1731 1745 "src/md.ml" 39 1731 1746
+type(
+  (G.vertex * int) option
+)
+ident(
+  int_ref x "src/md.ml" 37 1669 1682 "src/md.ml" 37 1669 1683
+)
+"src/md.ml" 40 1752 1763 "src/md.ml" 40 1752 1764
+type(
+  G.vertex
+)
+ident(
+  def v "src/md.ml" 40 1752 1770 "src/md.ml" 40 1752 1790
+)
+"src/md.ml" 40 1752 1765 "src/md.ml" 40 1752 1768
+type(
+  int
+)
+ident(
+  def deg "src/md.ml" 40 1752 1770 "src/md.ml" 40 1752 1790
+)
+"src/md.ml" 40 1752 1762 "src/md.ml" 40 1752 1769
+type(
+  G.vertex * int
+)
+"src/md.ml" 40 1752 1757 "src/md.ml" 40 1752 1769
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 40 1752 1775 "src/md.ml" 40 1752 1779
+type(
+  int
+)
+ident(
+  int_ref deg' "src/md.ml" 38 1687 1699 "src/md.ml" 38 1687 1703
+)
+"src/md.ml" 40 1752 1780 "src/md.ml" 40 1752 1781
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/md.ml" 40 1752 1782 "src/md.ml" 40 1752 1785
+type(
+  int
+)
+ident(
+  int_ref deg "src/md.ml" 40 1752 1765 "src/md.ml" 40 1752 1768
+)
+"src/md.ml" 40 1752 1775 "src/md.ml" 40 1752 1785
+type(
+  bool
+)
+"src/md.ml" 40 1752 1789 "src/md.ml" 40 1752 1790
+type(
+  (G.vertex * int) option
+)
+ident(
+  int_ref x "src/md.ml" 37 1669 1682 "src/md.ml" 37 1669 1683
+)
+"src/md.ml" 40 1752 1770 "src/md.ml" 40 1752 1790
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 41 1791 1796 "src/md.ml" 41 1791 1797
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 41 1791 1807 "src/md.ml" 41 1791 1809
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 37 1669 1679 "src/md.ml" 37 1669 1681
+)
+"src/md.ml" 41 1791 1811 "src/md.ml" 41 1791 1815
+type(
+  int
+)
+ident(
+  int_ref deg' "src/md.ml" 38 1687 1699 "src/md.ml" 38 1687 1703
+)
+"src/md.ml" 41 1791 1806 "src/md.ml" 41 1791 1816
+type(
+  G.vertex * int
+)
+"src/md.ml" 41 1791 1801 "src/md.ml" 41 1791 1816
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 39 1731 1739 "src/md.ml" 41 1791 1816
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 38 1687 1695 "src/md.ml" 41 1791 1816
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 37 1669 1674 "src/md.ml" 41 1791 1817
+type(
+  G.vertex -> (G.vertex * int) option -> (G.vertex * int) option
+)
+"src/md.ml" 42 1818 1823 "src/md.ml" 42 1818 1824
+type(
+  G.t ref -> G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 42 1818 1824 "src/md.ml" 42 1818 1828
+type(
+  G.t ref
+)
+ident(
+  int_ref gref "src/md.ml" 27 1431 1439 "src/md.ml" 27 1431 1443
+)
+"src/md.ml" 42 1818 1823 "src/md.ml" 42 1818 1828
+type(
+  G.t
+)
+"src/md.ml" 42 1818 1829 "src/md.ml" 42 1818 1833
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 36 1651 1654 "src/md.ml" 42 1818 1833
+call(
+  stack
+)
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 43 1834 1844 "src/md.ml" 43 1834 1845
+type(
+  (G.vertex * int) option
+)
+ident(
+  int_ref x "src/md.ml" 35 1641 1646 "src/md.ml" 35 1641 1647
+)
+"src/md.ml" 44 1852 1863 "src/md.ml" 44 1852 1864
+type(
+  G.vertex
+)
+ident(
+  def v "src/md.ml" 44 1852 1871 "src/md.ml" 44 1852 1872
+)
+"src/md.ml" 44 1852 1865 "src/md.ml" 44 1852 1866
+type(
+  int
+)
+"src/md.ml" 44 1852 1862 "src/md.ml" 44 1852 1867
+type(
+  G.vertex * int
+)
+"src/md.ml" 44 1852 1857 "src/md.ml" 44 1852 1867
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 44 1852 1871 "src/md.ml" 44 1852 1872
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 44 1852 1863 "src/md.ml" 44 1852 1864
+)
+"src/md.ml" 45 1873 1878 "src/md.ml" 45 1873 1882
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 45 1873 1886 "src/md.ml" 45 1873 1894
+type(
+  string -> G.vertex
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/md.ml" 45 1873 1895 "src/md.ml" 45 1873 1918
+type(
+  string
+)
+"src/md.ml" 45 1873 1886 "src/md.ml" 45 1873 1918
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"src/md.ml" 43 1834 1838 "src/md.ml" 45 1873 1918
+type(
+  G.vertex
+)
+"src/md.ml" 35 1641 1642 "src/md.ml" 45 1873 1918
+type(
+  G.vertex
+)
+"src/md.ml" 47 1928 1938 "src/md.ml" 47 1928 1940
+type(
+  G.vertex list
+)
+ident(
+  def ng "src/md.ml" 48 1961 1967 "src/md.ml" 76 2531 2544
+)
+"src/md.ml" 47 1928 1943 "src/md.ml" 47 1928 1949
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"src/md.ml" 47 1928 1950 "src/md.ml" 47 1928 1951
+type(
+  G.t ref -> G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 47 1928 1951 "src/md.ml" 47 1928 1955
+type(
+  G.t ref
+)
+ident(
+  int_ref gref "src/md.ml" 27 1431 1439 "src/md.ml" 27 1431 1443
+)
+"src/md.ml" 47 1928 1950 "src/md.ml" 47 1928 1955
+type(
+  G.t
+)
+"src/md.ml" 47 1928 1956 "src/md.ml" 47 1928 1957
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 34 1626 1636 "src/md.ml" 34 1626 1637
+)
+"src/md.ml" 47 1928 1943 "src/md.ml" 47 1928 1957
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"src/md.ml" 48 1961 1971 "src/md.ml" 48 1961 1973
+type(
+  G.t
+)
+ident(
+  def g' "src/md.ml" 70 2366 2372 "src/md.ml" 76 2531 2544
+)
+"src/md.ml" 48 1961 1975 "src/md.ml" 48 1961 1979
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  def tri' "src/md.ml" 70 2366 2372 "src/md.ml" 76 2531 2544
+)
+"src/md.ml" 48 1961 1971 "src/md.ml" 48 1961 1979
+type(
+  G.t * (G.vertex * G.vertex) list
+)
+"src/md.ml" 49 1982 1983 "src/md.ml" 49 1982 1997
+type(
+  (G.t * (G.vertex * G.vertex) list ->
+   G.vertex -> G.t * (G.vertex * G.vertex) list) ->
+  G.t * (G.vertex * G.vertex) list ->
+  G.vertex list -> G.t * (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/md.ml" 50 1998 2007 "src/md.ml" 50 1998 2008
+type(
+  G.t
+)
+ident(
+  def g "src/md.ml" 50 1998 2015 "src/md.ml" 67 2320 2336
+)
+"src/md.ml" 50 1998 2010 "src/md.ml" 50 1998 2013
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  def tri "src/md.ml" 50 1998 2015 "src/md.ml" 67 2320 2336
+)
+"src/md.ml" 50 1998 2006 "src/md.ml" 50 1998 2014
+type(
+  G.t * (G.vertex * G.vertex) list
+)
+"src/md.ml" 50 1998 2015 "src/md.ml" 50 1998 2016
+type(
+  G.vertex
+)
+ident(
+  def v "src/md.ml" 51 2020 2026 "src/md.ml" 67 2320 2336
+)
+"src/md.ml" 51 2020 2030 "src/md.ml" 51 2020 2034
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 52 2037 2045 "src/md.ml" 52 2037 2059
+type(
+  ((G.vertex * G.vertex) list -> G.vertex -> (G.vertex * G.vertex) list) ->
+  (G.vertex * G.vertex) list -> G.vertex list -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/md.ml" 53 2060 2068 "src/md.ml" 53 2060 2071
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  def tri "src/md.ml" 53 2060 2072 "src/md.ml" 56 2150 2164
+)
+"src/md.ml" 53 2060 2072 "src/md.ml" 53 2060 2074
+type(
+  G.vertex
+)
+ident(
+  def v' "src/md.ml" 54 2078 2084 "src/md.ml" 56 2150 2164
+)
+"src/md.ml" 54 2078 2087 "src/md.ml" 54 2078 2088
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 50 1998 2015 "src/md.ml" 50 1998 2016
+)
+"src/md.ml" 54 2078 2089 "src/md.ml" 54 2078 2091
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/md.ml" 54 2078 2092 "src/md.ml" 54 2078 2094
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 53 2060 2072 "src/md.ml" 53 2060 2074
+)
+"src/md.ml" 54 2078 2087 "src/md.ml" 54 2078 2094
+type(
+  bool
+)
+"src/md.ml" 54 2078 2095 "src/md.ml" 54 2078 2097
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/md.ml" 54 2078 2098 "src/md.ml" 54 2078 2101
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/md.ml" 54 2078 2103 "src/md.ml" 54 2078 2113
+type(
+  G.t -> G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref G.mem_edge
+)
+"src/md.ml" 54 2078 2114 "src/md.ml" 54 2078 2115
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 50 1998 2007 "src/md.ml" 50 1998 2008
+)
+"src/md.ml" 54 2078 2116 "src/md.ml" 54 2078 2117
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 50 1998 2015 "src/md.ml" 50 1998 2016
+)
+"src/md.ml" 54 2078 2118 "src/md.ml" 54 2078 2120
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 53 2060 2072 "src/md.ml" 53 2060 2074
+)
+"src/md.ml" 54 2078 2102 "src/md.ml" 54 2078 2121
+call(
+  stack
+)
+type(
+  bool
+)
+"src/md.ml" 54 2078 2098 "src/md.ml" 54 2078 2121
+type(
+  bool
+)
+"src/md.ml" 54 2078 2087 "src/md.ml" 54 2078 2121
+type(
+  bool
+)
+"src/md.ml" 55 2127 2136 "src/md.ml" 55 2127 2137
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 50 1998 2015 "src/md.ml" 50 1998 2016
+)
+"src/md.ml" 55 2127 2139 "src/md.ml" 55 2127 2141
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 53 2060 2072 "src/md.ml" 53 2060 2074
+)
+"src/md.ml" 55 2127 2135 "src/md.ml" 55 2127 2142
+type(
+  G.vertex * G.vertex
+)
+"src/md.ml" 55 2127 2146 "src/md.ml" 55 2127 2149
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri "src/md.ml" 53 2060 2068 "src/md.ml" 53 2060 2071
+)
+"src/md.ml" 55 2127 2135 "src/md.ml" 55 2127 2149
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 56 2150 2161 "src/md.ml" 56 2150 2164
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri "src/md.ml" 53 2060 2068 "src/md.ml" 53 2060 2071
+)
+"src/md.ml" 54 2078 2084 "src/md.ml" 56 2150 2164
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 53 2060 2063 "src/md.ml" 56 2150 2165
+type(
+  (G.vertex * G.vertex) list -> G.vertex -> (G.vertex * G.vertex) list
+)
+"src/md.ml" 57 2166 2169 "src/md.ml" 57 2166 2172
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri "src/md.ml" 50 1998 2010 "src/md.ml" 50 1998 2013
+)
+"src/md.ml" 57 2166 2173 "src/md.ml" 57 2166 2175
+type(
+  G.vertex list
+)
+ident(
+  int_ref ng "src/md.ml" 47 1928 1938 "src/md.ml" 47 1928 1940
+)
+"src/md.ml" 52 2037 2045 "src/md.ml" 57 2166 2175
+call(
+  stack
+)
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 59 2185 2195 "src/md.ml" 59 2185 2197
+type(
+  G.t
+)
+"src/md.ml" 60 2201 2209 "src/md.ml" 60 2201 2223
+type(
+  (G.t -> G.vertex -> G.t) -> G.t -> G.vertex list -> G.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/md.ml" 61 2224 2232 "src/md.ml" 61 2224 2233
+type(
+  G.t
+)
+ident(
+  def g "src/md.ml" 61 2224 2234 "src/md.ml" 64 2288 2300
+)
+"src/md.ml" 61 2224 2234 "src/md.ml" 61 2224 2236
+type(
+  G.vertex
+)
+ident(
+  def v' "src/md.ml" 62 2240 2246 "src/md.ml" 64 2288 2300
+)
+"src/md.ml" 62 2240 2249 "src/md.ml" 62 2240 2250
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 50 1998 2015 "src/md.ml" 50 1998 2016
+)
+"src/md.ml" 62 2240 2251 "src/md.ml" 62 2240 2253
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/md.ml" 62 2240 2254 "src/md.ml" 62 2240 2256
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 61 2224 2234 "src/md.ml" 61 2224 2236
+)
+"src/md.ml" 62 2240 2249 "src/md.ml" 62 2240 2256
+type(
+  bool
+)
+"src/md.ml" 63 2262 2270 "src/md.ml" 63 2262 2280
+type(
+  G.t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  ext_ref G.add_edge
+)
+"src/md.ml" 63 2262 2281 "src/md.ml" 63 2262 2282
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 61 2224 2232 "src/md.ml" 61 2224 2233
+)
+"src/md.ml" 63 2262 2283 "src/md.ml" 63 2262 2284
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 50 1998 2015 "src/md.ml" 50 1998 2016
+)
+"src/md.ml" 63 2262 2285 "src/md.ml" 63 2262 2287
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 61 2224 2234 "src/md.ml" 61 2224 2236
+)
+"src/md.ml" 63 2262 2270 "src/md.ml" 63 2262 2287
+call(
+  tail
+)
+type(
+  G.t
+)
+"src/md.ml" 64 2288 2299 "src/md.ml" 64 2288 2300
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 61 2224 2232 "src/md.ml" 61 2224 2233
+)
+"src/md.ml" 62 2240 2246 "src/md.ml" 64 2288 2300
+type(
+  G.t
+)
+"src/md.ml" 61 2224 2227 "src/md.ml" 64 2288 2301
+type(
+  G.t -> G.vertex -> G.t
+)
+"src/md.ml" 65 2302 2305 "src/md.ml" 65 2302 2306
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 50 1998 2007 "src/md.ml" 50 1998 2008
+)
+"src/md.ml" 65 2302 2307 "src/md.ml" 65 2302 2309
+type(
+  G.vertex list
+)
+ident(
+  int_ref ng "src/md.ml" 47 1928 1938 "src/md.ml" 47 1928 1940
+)
+"src/md.ml" 60 2201 2209 "src/md.ml" 65 2302 2309
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/md.ml" 67 2320 2327 "src/md.ml" 67 2320 2329
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/md.ml" 59 2185 2195 "src/md.ml" 59 2185 2197
+)
+"src/md.ml" 67 2320 2331 "src/md.ml" 67 2320 2335
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri' "src/md.ml" 51 2020 2030 "src/md.ml" 51 2020 2034
+)
+"src/md.ml" 67 2320 2326 "src/md.ml" 67 2320 2336
+type(
+  G.t * (G.vertex * G.vertex) list
+)
+"src/md.ml" 59 2185 2191 "src/md.ml" 67 2320 2336
+type(
+  G.t * (G.vertex * G.vertex) list
+)
+"src/md.ml" 51 2020 2026 "src/md.ml" 67 2320 2336
+type(
+  G.t * (G.vertex * G.vertex) list
+)
+"src/md.ml" 50 1998 2001 "src/md.ml" 67 2320 2337
+type(
+  G.t * (G.vertex * G.vertex) list ->
+  G.vertex -> G.t * (G.vertex * G.vertex) list
+)
+"src/md.ml" 68 2338 2342 "src/md.ml" 68 2338 2343
+type(
+  G.t ref -> G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 68 2338 2343 "src/md.ml" 68 2338 2347
+type(
+  G.t ref
+)
+ident(
+  int_ref gref "src/md.ml" 27 1431 1439 "src/md.ml" 27 1431 1443
+)
+"src/md.ml" 68 2338 2342 "src/md.ml" 68 2338 2347
+type(
+  G.t
+)
+"src/md.ml" 68 2338 2349 "src/md.ml" 68 2338 2351
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 68 2338 2341 "src/md.ml" 68 2338 2352
+type(
+  G.t * (G.vertex * G.vertex) list
+)
+"src/md.ml" 68 2338 2353 "src/md.ml" 68 2338 2355
+type(
+  G.vertex list
+)
+ident(
+  int_ref ng "src/md.ml" 47 1928 1938 "src/md.ml" 47 1928 1940
+)
+"src/md.ml" 49 1982 1983 "src/md.ml" 68 2338 2355
+call(
+  stack
+)
+type(
+  G.t * (G.vertex * G.vertex) list
+)
+"src/md.ml" 70 2366 2372 "src/md.ml" 70 2366 2375
+type(
+  G.vertex list ref
+)
+ident(
+  int_ref ord "src/md.ml" 31 1532 1540 "src/md.ml" 31 1532 1543
+)
+"src/md.ml" 70 2366 2376 "src/md.ml" 70 2366 2378
+type(
+  G.vertex list ref -> G.vertex list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/md.ml" 70 2366 2379 "src/md.ml" 70 2366 2380
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 34 1626 1636 "src/md.ml" 34 1626 1637
+)
+"src/md.ml" 70 2366 2384 "src/md.ml" 70 2366 2385
+type(
+  G.vertex list ref -> G.vertex list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 70 2366 2385 "src/md.ml" 70 2366 2388
+type(
+  G.vertex list ref
+)
+ident(
+  int_ref ord "src/md.ml" 31 1532 1540 "src/md.ml" 31 1532 1543
+)
+"src/md.ml" 70 2366 2384 "src/md.ml" 70 2366 2388
+type(
+  G.vertex list
+)
+"src/md.ml" 70 2366 2379 "src/md.ml" 70 2366 2388
+type(
+  G.vertex list
+)
+"src/md.ml" 70 2366 2372 "src/md.ml" 70 2366 2388
+type(
+  unit
+)
+"src/md.ml" 71 2390 2396 "src/md.ml" 71 2390 2400
+type(
+  G.t ref
+)
+ident(
+  int_ref gtri "src/md.ml" 28 1455 1463 "src/md.ml" 28 1455 1467
+)
+"src/md.ml" 71 2390 2401 "src/md.ml" 71 2390 2403
+type(
+  G.t ref -> G.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/md.ml" 71 2390 2404 "src/md.ml" 71 2390 2418
+type(
+  (G.t -> G.vertex * G.vertex -> G.t) ->
+  G.t -> (G.vertex * G.vertex) list -> G.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/md.ml" 72 2420 2426 "src/md.ml" 72 2420 2427
+type(
+  G.t
+)
+ident(
+  def g "src/md.ml" 72 2420 2428 "src/md.ml" 72 2420 2453
+)
+"src/md.ml" 72 2420 2429 "src/md.ml" 72 2420 2430
+type(
+  G.vertex
+)
+ident(
+  def x "src/md.ml" 72 2420 2437 "src/md.ml" 72 2420 2453
+)
+"src/md.ml" 72 2420 2431 "src/md.ml" 72 2420 2432
+type(
+  G.vertex
+)
+ident(
+  def y "src/md.ml" 72 2420 2437 "src/md.ml" 72 2420 2453
+)
+"src/md.ml" 72 2420 2428 "src/md.ml" 72 2420 2433
+type(
+  G.vertex * G.vertex
+)
+"src/md.ml" 72 2420 2437 "src/md.ml" 72 2420 2447
+type(
+  G.t -> G.vertex -> G.vertex -> G.t
+)
+ident(
+  ext_ref G.add_edge
+)
+"src/md.ml" 72 2420 2448 "src/md.ml" 72 2420 2449
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 72 2420 2426 "src/md.ml" 72 2420 2427
+)
+"src/md.ml" 72 2420 2450 "src/md.ml" 72 2420 2451
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/md.ml" 72 2420 2429 "src/md.ml" 72 2420 2430
+)
+"src/md.ml" 72 2420 2452 "src/md.ml" 72 2420 2453
+type(
+  G.vertex
+)
+ident(
+  int_ref y "src/md.ml" 72 2420 2431 "src/md.ml" 72 2420 2432
+)
+"src/md.ml" 72 2420 2437 "src/md.ml" 72 2420 2453
+call(
+  tail
+)
+type(
+  G.t
+)
+"src/md.ml" 72 2420 2421 "src/md.ml" 72 2420 2454
+type(
+  G.t -> G.vertex * G.vertex -> G.t
+)
+"src/md.ml" 73 2456 2457 "src/md.ml" 73 2456 2458
+type(
+  G.t ref -> G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 73 2456 2458 "src/md.ml" 73 2456 2462
+type(
+  G.t ref
+)
+ident(
+  int_ref gtri "src/md.ml" 28 1455 1463 "src/md.ml" 28 1455 1467
+)
+"src/md.ml" 73 2456 2457 "src/md.ml" 73 2456 2462
+type(
+  G.t
+)
+"src/md.ml" 73 2456 2463 "src/md.ml" 73 2456 2467
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri' "src/md.ml" 48 1961 1975 "src/md.ml" 48 1961 1979
+)
+"src/md.ml" 71 2390 2404 "src/md.ml" 73 2456 2467
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/md.ml" 71 2390 2396 "src/md.ml" 73 2456 2467
+type(
+  unit
+)
+"src/md.ml" 74 2469 2475 "src/md.ml" 74 2469 2479
+type(
+  G.t ref
+)
+ident(
+  int_ref gref "src/md.ml" 27 1431 1439 "src/md.ml" 27 1431 1443
+)
+"src/md.ml" 74 2469 2480 "src/md.ml" 74 2469 2482
+type(
+  G.t ref -> G.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/md.ml" 74 2469 2483 "src/md.ml" 74 2469 2498
+type(
+  G.t -> G.vertex -> G.t
+)
+ident(
+  ext_ref G.remove_vertex
+)
+"src/md.ml" 74 2469 2499 "src/md.ml" 74 2469 2501
+type(
+  G.t
+)
+ident(
+  int_ref g' "src/md.ml" 48 1961 1971 "src/md.ml" 48 1961 1973
+)
+"src/md.ml" 74 2469 2502 "src/md.ml" 74 2469 2503
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 34 1626 1636 "src/md.ml" 34 1626 1637
+)
+"src/md.ml" 74 2469 2483 "src/md.ml" 74 2469 2503
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/md.ml" 74 2469 2475 "src/md.ml" 74 2469 2503
+type(
+  unit
+)
+"src/md.ml" 75 2505 2511 "src/md.ml" 75 2505 2514
+type(
+  (G.vertex * G.vertex) list ref
+)
+ident(
+  int_ref tri "src/md.ml" 30 1508 1516 "src/md.ml" 30 1508 1519
+)
+"src/md.ml" 75 2505 2515 "src/md.ml" 75 2505 2517
+type(
+  (G.vertex * G.vertex) list ref -> (G.vertex * G.vertex) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/md.ml" 75 2505 2518 "src/md.ml" 75 2505 2522
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri' "src/md.ml" 48 1961 1975 "src/md.ml" 48 1961 1979
+)
+"src/md.ml" 75 2505 2523 "src/md.ml" 75 2505 2524
+type(
+  (G.vertex * G.vertex) list ->
+  (G.vertex * G.vertex) list -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/md.ml" 75 2505 2525 "src/md.ml" 75 2505 2526
+type(
+  (G.vertex * G.vertex) list ref -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 75 2505 2526 "src/md.ml" 75 2505 2529
+type(
+  (G.vertex * G.vertex) list ref
+)
+ident(
+  int_ref tri "src/md.ml" 30 1508 1516 "src/md.ml" 30 1508 1519
+)
+"src/md.ml" 75 2505 2525 "src/md.ml" 75 2505 2529
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 75 2505 2518 "src/md.ml" 75 2505 2529
+call(
+  stack
+)
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 75 2505 2511 "src/md.ml" 75 2505 2529
+type(
+  unit
+)
+"src/md.ml" 76 2531 2537 "src/md.ml" 76 2531 2541
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/md.ml" 76 2531 2542 "src/md.ml" 76 2531 2543
+type(
+  int ref
+)
+ident(
+  int_ref i "src/md.ml" 32 1556 1564 "src/md.ml" 32 1556 1565
+)
+"src/md.ml" 76 2531 2537 "src/md.ml" 76 2531 2544
+type(
+  unit
+)
+"src/md.ml" 75 2505 2511 "src/md.ml" 76 2531 2544
+type(
+  unit
+)
+"src/md.ml" 74 2469 2475 "src/md.ml" 76 2531 2544
+type(
+  unit
+)
+"src/md.ml" 71 2390 2396 "src/md.ml" 76 2531 2544
+type(
+  unit
+)
+"src/md.ml" 70 2366 2372 "src/md.ml" 76 2531 2544
+type(
+  unit
+)
+"src/md.ml" 48 1961 1967 "src/md.ml" 76 2531 2544
+type(
+  unit
+)
+"src/md.ml" 47 1928 1934 "src/md.ml" 76 2531 2544
+type(
+  unit
+)
+"src/md.ml" 34 1626 1632 "src/md.ml" 76 2531 2544
+type(
+  unit
+)
+"src/md.ml" 33 1577 1581 "src/md.ml" 77 2545 2553
+type(
+  unit
+)
+"src/md.ml" 78 2555 2560 "src/md.ml" 78 2555 2561
+type(
+  G.t ref -> G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 78 2555 2561 "src/md.ml" 78 2555 2565
+type(
+  G.t ref
+)
+ident(
+  int_ref gtri "src/md.ml" 28 1455 1463 "src/md.ml" 28 1455 1467
+)
+"src/md.ml" 78 2555 2560 "src/md.ml" 78 2555 2565
+type(
+  G.t
+)
+"src/md.ml" 78 2555 2567 "src/md.ml" 78 2555 2568
+type(
+  (G.vertex * G.vertex) list ref -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 78 2555 2568 "src/md.ml" 78 2555 2571
+type(
+  (G.vertex * G.vertex) list ref
+)
+ident(
+  int_ref tri "src/md.ml" 30 1508 1516 "src/md.ml" 30 1508 1519
+)
+"src/md.ml" 78 2555 2567 "src/md.ml" 78 2555 2571
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 78 2555 2573 "src/md.ml" 78 2555 2574
+type(
+  G.vertex list ref -> G.vertex list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 78 2555 2574 "src/md.ml" 78 2555 2577
+type(
+  G.vertex list ref
+)
+ident(
+  int_ref ord "src/md.ml" 31 1532 1540 "src/md.ml" 31 1532 1543
+)
+"src/md.ml" 78 2555 2573 "src/md.ml" 78 2555 2577
+type(
+  G.vertex list
+)
+"src/md.ml" 78 2555 2559 "src/md.ml" 78 2555 2578
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 33 1577 1581 "src/md.ml" 78 2555 2578
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 32 1556 1560 "src/md.ml" 78 2555 2578
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 31 1532 1536 "src/md.ml" 78 2555 2578
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 30 1508 1512 "src/md.ml" 78 2555 2578
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 29 1479 1483 "src/md.ml" 78 2555 2578
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 28 1455 1459 "src/md.ml" 78 2555 2578
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 27 1431 1435 "src/md.ml" 78 2555 2578
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 80 2583 2589 "src/md.ml" 80 2583 2600
+type(
+  G.t -> G.t
+)
+ident(
+  def triangulate "src/md.ml" 82 2636 2644 "src/md.ml" 84 2646 2649
+)
+"src/md.ml" 80 2583 2601 "src/md.ml" 80 2583 2602
+type(
+  G.t
+)
+ident(
+  def g "src/md.ml" 81 2606 2610 "src/md.ml" 82 2636 2644
+)
+"src/md.ml" 81 2606 2614 "src/md.ml" 81 2606 2618
+type(
+  G.t
+)
+"src/md.ml" 81 2606 2620 "src/md.ml" 81 2606 2621
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 81 2606 2623 "src/md.ml" 81 2606 2624
+type(
+  G.vertex list
+)
+"src/md.ml" 81 2606 2614 "src/md.ml" 81 2606 2624
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 81 2606 2627 "src/md.ml" 81 2606 2629
+type(
+  G.t -> G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+ident(
+  int_ref md "src/md.ml" 26 1418 1424 "src/md.ml" 26 1418 1426
+)
+"src/md.ml" 81 2606 2630 "src/md.ml" 81 2606 2631
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 80 2583 2601 "src/md.ml" 80 2583 2602
+)
+"src/md.ml" 81 2606 2627 "src/md.ml" 81 2606 2631
+call(
+  stack
+)
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 82 2636 2640 "src/md.ml" 82 2636 2644
+type(
+  G.t
+)
+ident(
+  int_ref gtri "src/md.ml" 81 2606 2614 "src/md.ml" 81 2606 2618
+)
+"src/md.ml" 81 2606 2610 "src/md.ml" 82 2636 2644
+type(
+  G.t
+)
+"src/md.ml" 88 2681 2702 "src/md.ml" 88 2681 2715
+call(
+  stack
+)
+"src/md.ml" 89 2719 2733 "src/md.ml" 89 2719 2757
+call(
+  stack
+)
+"src/md.ml" 90 2758 2776 "src/md.ml" 90 2758 2790
+call(
+  stack
+)
+"src/md.ml" 94 2849 2905 "src/md.ml" 94 2849 2917
+call(
+  stack
+)
+"src/md.ml" 94 2849 2865 "src/md.ml" 94 2849 2922
+call(
+  stack
+)
+"src/md.ml" 96 2924 2930 "src/md.ml" 96 2924 2932
+type(
+  G.t -> G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+ident(
+  def md "src/md.ml" 144 3993 3995 "src/md.ml" 148 4056 4059
+)
+"src/md.ml" 96 2924 2933 "src/md.ml" 96 2924 2934
+type(
+  G.t
+)
+ident(
+  def g "src/md.ml" 97 2937 2941 "src/md.ml" 142 3966 3988
+)
+"src/md.ml" 97 2937 2945 "src/md.ml" 97 2937 2949
+type(
+  G.t
+)
+"src/md.ml" 97 2937 2952 "src/md.ml" 97 2937 2960
+type(
+  (G.V.t -> G.V.t) -> G.t -> G.t
+)
+ident(
+  ext_ref Copy.map
+)
+"src/md.ml" 97 2937 2966 "src/md.ml" 97 2937 2967
+type(
+  G.V.t
+)
+ident(
+  def x "src/md.ml" 97 2937 2971 "src/md.ml" 97 2937 2972
+)
+"src/md.ml" 97 2937 2971 "src/md.ml" 97 2937 2972
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/md.ml" 97 2937 2966 "src/md.ml" 97 2937 2967
+)
+"src/md.ml" 97 2937 2961 "src/md.ml" 97 2937 2973
+type(
+  G.V.t -> G.V.t
+)
+"src/md.ml" 97 2937 2974 "src/md.ml" 97 2937 2975
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 96 2924 2933 "src/md.ml" 96 2924 2934
+)
+"src/md.ml" 97 2937 2952 "src/md.ml" 97 2937 2975
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/md.ml" 98 2979 2987 "src/md.ml" 98 2979 2991
+type(
+  G.t
+)
+"src/md.ml" 98 2979 2994 "src/md.ml" 98 2979 3002
+type(
+  (G.V.t -> G.V.t) -> G.t -> G.t
+)
+ident(
+  ext_ref Copy.map
+)
+"src/md.ml" 98 2979 3008 "src/md.ml" 98 2979 3009
+type(
+  G.V.t
+)
+ident(
+  def x "src/md.ml" 98 2979 3013 "src/md.ml" 98 2979 3014
+)
+"src/md.ml" 98 2979 3013 "src/md.ml" 98 2979 3014
+type(
+  G.V.t
+)
+ident(
+  int_ref x "src/md.ml" 98 2979 3008 "src/md.ml" 98 2979 3009
+)
+"src/md.ml" 98 2979 3003 "src/md.ml" 98 2979 3015
+type(
+  G.V.t -> G.V.t
+)
+"src/md.ml" 98 2979 3016 "src/md.ml" 98 2979 3017
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 96 2924 2933 "src/md.ml" 96 2924 2934
+)
+"src/md.ml" 98 2979 2994 "src/md.ml" 98 2979 3017
+call(
+  stack
+)
+type(
+  G.t
+)
+"src/md.ml" 99 3021 3029 "src/md.ml" 99 3021 3030
+type(
+  int
+)
+"src/md.ml" 99 3021 3033 "src/md.ml" 99 3021 3044
+type(
+  G.t -> int
+)
+ident(
+  ext_ref G.nb_vertex
+)
+"src/md.ml" 99 3021 3045 "src/md.ml" 99 3021 3046
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 96 2924 2933 "src/md.ml" 96 2924 2934
+)
+"src/md.ml" 99 3021 3033 "src/md.ml" 99 3021 3046
+call(
+  stack
+)
+type(
+  int
+)
+"src/md.ml" 100 3050 3058 "src/md.ml" 100 3050 3061
+type(
+  (G.vertex * G.vertex) list ref
+)
+"src/md.ml" 100 3050 3064 "src/md.ml" 100 3050 3067
+type(
+  (G.vertex * G.vertex) list -> (G.vertex * G.vertex) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/md.ml" 100 3050 3068 "src/md.ml" 100 3050 3070
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 100 3050 3064 "src/md.ml" 100 3050 3070
+type(
+  (G.vertex * G.vertex) list ref
+)
+"src/md.ml" 101 3074 3082 "src/md.ml" 101 3074 3085
+type(
+  G.vertex list ref
+)
+"src/md.ml" 101 3074 3088 "src/md.ml" 101 3074 3091
+type(
+  G.vertex list -> G.vertex list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/md.ml" 101 3074 3092 "src/md.ml" 101 3074 3094
+type(
+  G.vertex list
+)
+"src/md.ml" 101 3074 3088 "src/md.ml" 101 3074 3094
+type(
+  G.vertex list ref
+)
+"src/md.ml" 102 3098 3106 "src/md.ml" 102 3098 3107
+type(
+  int ref
+)
+"src/md.ml" 102 3098 3110 "src/md.ml" 102 3098 3113
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/md.ml" 102 3098 3114 "src/md.ml" 102 3098 3115
+type(
+  int
+)
+"src/md.ml" 102 3098 3110 "src/md.ml" 102 3098 3115
+type(
+  int ref
+)
+"src/md.ml" 103 3119 3129 "src/md.ml" 103 3119 3132
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/md.ml" 103 3119 3134 "src/md.ml" 103 3119 3147
+type(
+  G.t -> bool
+)
+ident(
+  ext_ref CT.is_chordal
+)
+"src/md.ml" 103 3119 3148 "src/md.ml" 103 3119 3152
+type(
+  G.t
+)
+ident(
+  int_ref gtri "src/md.ml" 97 2937 2945 "src/md.ml" 97 2937 2949
+)
+"src/md.ml" 103 3119 3133 "src/md.ml" 103 3119 3153
+call(
+  stack
+)
+type(
+  bool
+)
+"src/md.ml" 103 3119 3129 "src/md.ml" 103 3119 3153
+type(
+  bool
+)
+"src/md.ml" 103 3119 3154 "src/md.ml" 103 3119 3156
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/md.ml" 103 3119 3157 "src/md.ml" 103 3119 3158
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 103 3119 3158 "src/md.ml" 103 3119 3159
+type(
+  int ref
+)
+ident(
+  int_ref i "src/md.ml" 102 3098 3106 "src/md.ml" 102 3098 3107
+)
+"src/md.ml" 103 3119 3157 "src/md.ml" 103 3119 3159
+type(
+  int
+)
+"src/md.ml" 103 3119 3160 "src/md.ml" 103 3119 3161
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/md.ml" 103 3119 3162 "src/md.ml" 103 3119 3163
+type(
+  int
+)
+ident(
+  int_ref n "src/md.ml" 99 3021 3029 "src/md.ml" 99 3021 3030
+)
+"src/md.ml" 103 3119 3157 "src/md.ml" 103 3119 3163
+type(
+  bool
+)
+"src/md.ml" 103 3119 3129 "src/md.ml" 103 3119 3163
+type(
+  bool
+)
+"src/md.ml" 104 3167 3177 "src/md.ml" 104 3167 3178
+type(
+  G.vertex
+)
+ident(
+  def v "src/md.ml" 117 3467 3473 "src/md.ml" 140 3942 3955
+)
+"src/md.ml" 105 3182 3187 "src/md.ml" 105 3182 3188
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 106 3192 3195 "src/md.ml" 106 3192 3208
+type(
+  (G.vertex -> (G.vertex * int) option -> (G.vertex * int) option) ->
+  G.t -> (G.vertex * int) option -> (G.vertex * int) option
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"src/md.ml" 107 3210 3220 "src/md.ml" 107 3210 3222
+type(
+  G.vertex
+)
+ident(
+  def v' "src/md.ml" 107 3210 3223 "src/md.ml" 111 3331 3356
+)
+"src/md.ml" 107 3210 3223 "src/md.ml" 107 3210 3224
+type(
+  (G.vertex * int) option
+)
+ident(
+  def x "src/md.ml" 108 3228 3236 "src/md.ml" 111 3331 3356
+)
+"src/md.ml" 108 3228 3240 "src/md.ml" 108 3228 3244
+type(
+  int
+)
+"src/md.ml" 108 3228 3247 "src/md.ml" 108 3228 3259
+type(
+  G.t -> G.vertex -> int
+)
+ident(
+  ext_ref G.out_degree
+)
+"src/md.ml" 108 3228 3260 "src/md.ml" 108 3228 3264
+type(
+  G.t
+)
+ident(
+  int_ref gcur "src/md.ml" 98 2979 2987 "src/md.ml" 98 2979 2991
+)
+"src/md.ml" 108 3228 3265 "src/md.ml" 108 3228 3267
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 107 3210 3220 "src/md.ml" 107 3210 3222
+)
+"src/md.ml" 108 3228 3247 "src/md.ml" 108 3228 3267
+call(
+  stack
+)
+type(
+  int
+)
+"src/md.ml" 109 3271 3285 "src/md.ml" 109 3271 3286
+type(
+  (G.vertex * int) option
+)
+ident(
+  int_ref x "src/md.ml" 107 3210 3223 "src/md.ml" 107 3210 3224
+)
+"src/md.ml" 110 3292 3303 "src/md.ml" 110 3292 3304
+type(
+  G.vertex
+)
+ident(
+  def v "src/md.ml" 110 3292 3310 "src/md.ml" 110 3292 3330
+)
+"src/md.ml" 110 3292 3305 "src/md.ml" 110 3292 3308
+type(
+  int
+)
+ident(
+  def deg "src/md.ml" 110 3292 3310 "src/md.ml" 110 3292 3330
+)
+"src/md.ml" 110 3292 3302 "src/md.ml" 110 3292 3309
+type(
+  G.vertex * int
+)
+"src/md.ml" 110 3292 3297 "src/md.ml" 110 3292 3309
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 110 3292 3315 "src/md.ml" 110 3292 3319
+type(
+  int
+)
+ident(
+  int_ref deg' "src/md.ml" 108 3228 3240 "src/md.ml" 108 3228 3244
+)
+"src/md.ml" 110 3292 3320 "src/md.ml" 110 3292 3321
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/md.ml" 110 3292 3322 "src/md.ml" 110 3292 3325
+type(
+  int
+)
+ident(
+  int_ref deg "src/md.ml" 110 3292 3305 "src/md.ml" 110 3292 3308
+)
+"src/md.ml" 110 3292 3315 "src/md.ml" 110 3292 3325
+type(
+  bool
+)
+"src/md.ml" 110 3292 3329 "src/md.ml" 110 3292 3330
+type(
+  (G.vertex * int) option
+)
+ident(
+  int_ref x "src/md.ml" 107 3210 3223 "src/md.ml" 107 3210 3224
+)
+"src/md.ml" 110 3292 3310 "src/md.ml" 110 3292 3330
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 111 3331 3336 "src/md.ml" 111 3331 3337
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 111 3331 3347 "src/md.ml" 111 3331 3349
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 107 3210 3220 "src/md.ml" 107 3210 3222
+)
+"src/md.ml" 111 3331 3351 "src/md.ml" 111 3331 3355
+type(
+  int
+)
+ident(
+  int_ref deg' "src/md.ml" 108 3228 3240 "src/md.ml" 108 3228 3244
+)
+"src/md.ml" 111 3331 3346 "src/md.ml" 111 3331 3356
+type(
+  G.vertex * int
+)
+"src/md.ml" 111 3331 3341 "src/md.ml" 111 3331 3356
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 109 3271 3279 "src/md.ml" 111 3331 3356
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 108 3228 3236 "src/md.ml" 111 3331 3356
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 107 3210 3215 "src/md.ml" 111 3331 3357
+type(
+  G.vertex -> (G.vertex * int) option -> (G.vertex * int) option
+)
+"src/md.ml" 112 3358 3363 "src/md.ml" 112 3358 3367
+type(
+  G.t
+)
+ident(
+  int_ref gcur "src/md.ml" 98 2979 2987 "src/md.ml" 98 2979 2991
+)
+"src/md.ml" 112 3358 3368 "src/md.ml" 112 3358 3372
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 106 3192 3195 "src/md.ml" 112 3358 3372
+call(
+  stack
+)
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 113 3373 3383 "src/md.ml" 113 3373 3384
+type(
+  (G.vertex * int) option
+)
+ident(
+  int_ref x "src/md.ml" 105 3182 3187 "src/md.ml" 105 3182 3188
+)
+"src/md.ml" 114 3391 3402 "src/md.ml" 114 3391 3403
+type(
+  G.vertex
+)
+ident(
+  def v "src/md.ml" 114 3391 3410 "src/md.ml" 114 3391 3411
+)
+"src/md.ml" 114 3391 3404 "src/md.ml" 114 3391 3405
+type(
+  int
+)
+"src/md.ml" 114 3391 3401 "src/md.ml" 114 3391 3406
+type(
+  G.vertex * int
+)
+"src/md.ml" 114 3391 3396 "src/md.ml" 114 3391 3406
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 114 3391 3410 "src/md.ml" 114 3391 3411
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 114 3391 3402 "src/md.ml" 114 3391 3403
+)
+"src/md.ml" 115 3412 3417 "src/md.ml" 115 3412 3421
+type(
+  (G.vertex * int) option
+)
+"src/md.ml" 115 3412 3425 "src/md.ml" 115 3412 3433
+type(
+  string -> G.vertex
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/md.ml" 115 3412 3434 "src/md.ml" 115 3412 3457
+type(
+  string
+)
+"src/md.ml" 115 3412 3425 "src/md.ml" 115 3412 3457
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"src/md.ml" 113 3373 3377 "src/md.ml" 115 3412 3457
+type(
+  G.vertex
+)
+"src/md.ml" 105 3182 3183 "src/md.ml" 115 3412 3457
+type(
+  G.vertex
+)
+"src/md.ml" 117 3467 3477 "src/md.ml" 117 3467 3479
+type(
+  G.vertex list
+)
+ident(
+  def ng "src/md.ml" 118 3499 3505 "src/md.ml" 140 3942 3955
+)
+"src/md.ml" 117 3467 3482 "src/md.ml" 117 3467 3488
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"src/md.ml" 117 3467 3489 "src/md.ml" 117 3467 3493
+type(
+  G.t
+)
+ident(
+  int_ref gcur "src/md.ml" 98 2979 2987 "src/md.ml" 98 2979 2991
+)
+"src/md.ml" 117 3467 3494 "src/md.ml" 117 3467 3495
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 104 3167 3177 "src/md.ml" 104 3167 3178
+)
+"src/md.ml" 117 3467 3482 "src/md.ml" 117 3467 3495
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"src/md.ml" 118 3499 3509 "src/md.ml" 118 3499 3513
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  def tri' "src/md.ml" 134 3802 3808 "src/md.ml" 140 3942 3955
+)
+"src/md.ml" 119 3516 3517 "src/md.ml" 119 3516 3531
+type(
+  ((G.vertex * G.vertex) list -> G.vertex -> (G.vertex * G.vertex) list) ->
+  (G.vertex * G.vertex) list -> G.vertex list -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/md.ml" 120 3532 3540 "src/md.ml" 120 3532 3543
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  def tri "src/md.ml" 120 3532 3544 "src/md.ml" 131 3770 3782
+)
+"src/md.ml" 120 3532 3544 "src/md.ml" 120 3532 3545
+type(
+  G.vertex
+)
+ident(
+  def v "src/md.ml" 121 3549 3555 "src/md.ml" 131 3770 3782
+)
+"src/md.ml" 121 3549 3555 "src/md.ml" 121 3549 3569
+type(
+  ((G.vertex * G.vertex) list -> G.vertex -> (G.vertex * G.vertex) list) ->
+  (G.vertex * G.vertex) list -> G.vertex list -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/md.ml" 122 3570 3581 "src/md.ml" 122 3570 3584
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  def tri "src/md.ml" 122 3570 3585 "src/md.ml" 130 3762 3768
+)
+"src/md.ml" 122 3570 3585 "src/md.ml" 122 3570 3587
+type(
+  G.vertex
+)
+ident(
+  def v' "src/md.ml" 123 3591 3593 "src/md.ml" 130 3762 3768
+)
+"src/md.ml" 123 3591 3597 "src/md.ml" 123 3591 3601
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 124 3604 3611 "src/md.ml" 124 3604 3612
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 120 3532 3544 "src/md.ml" 120 3532 3545
+)
+"src/md.ml" 124 3604 3613 "src/md.ml" 124 3604 3615
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/md.ml" 124 3604 3616 "src/md.ml" 124 3604 3618
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 122 3570 3585 "src/md.ml" 122 3570 3587
+)
+"src/md.ml" 124 3604 3611 "src/md.ml" 124 3604 3618
+type(
+  bool
+)
+"src/md.ml" 124 3604 3619 "src/md.ml" 124 3604 3621
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/md.ml" 124 3604 3622 "src/md.ml" 124 3604 3625
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/md.ml" 124 3604 3627 "src/md.ml" 124 3604 3637
+type(
+  G.t -> G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref G.mem_edge
+)
+"src/md.ml" 124 3604 3638 "src/md.ml" 124 3604 3639
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 96 2924 2933 "src/md.ml" 96 2924 2934
+)
+"src/md.ml" 124 3604 3640 "src/md.ml" 124 3604 3641
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 120 3532 3544 "src/md.ml" 120 3532 3545
+)
+"src/md.ml" 124 3604 3642 "src/md.ml" 124 3604 3644
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 122 3570 3585 "src/md.ml" 122 3570 3587
+)
+"src/md.ml" 124 3604 3626 "src/md.ml" 124 3604 3645
+call(
+  stack
+)
+type(
+  bool
+)
+"src/md.ml" 124 3604 3622 "src/md.ml" 124 3604 3645
+type(
+  bool
+)
+"src/md.ml" 124 3604 3611 "src/md.ml" 124 3604 3645
+type(
+  bool
+)
+"src/md.ml" 125 3651 3658 "src/md.ml" 125 3651 3659
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 120 3532 3544 "src/md.ml" 120 3532 3545
+)
+"src/md.ml" 125 3651 3661 "src/md.ml" 125 3651 3663
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 122 3570 3585 "src/md.ml" 122 3570 3587
+)
+"src/md.ml" 125 3651 3657 "src/md.ml" 125 3651 3664
+type(
+  G.vertex * G.vertex
+)
+"src/md.ml" 125 3651 3668 "src/md.ml" 125 3651 3671
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri "src/md.ml" 122 3570 3581 "src/md.ml" 122 3570 3584
+)
+"src/md.ml" 125 3651 3657 "src/md.ml" 125 3651 3671
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 127 3682 3688 "src/md.ml" 127 3682 3691
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri "src/md.ml" 122 3570 3581 "src/md.ml" 122 3570 3584
+)
+"src/md.ml" 124 3604 3608 "src/md.ml" 127 3682 3691
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 129 3697 3699 "src/md.ml" 129 3697 3708
+type(
+  (G.vertex -> unit) -> G.vertex list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/md.ml" 129 3697 3714 "src/md.ml" 129 3697 3716
+type(
+  G.vertex
+)
+ident(
+  def v' "src/md.ml" 129 3697 3720 "src/md.ml" 129 3697 3756
+)
+"src/md.ml" 129 3697 3723 "src/md.ml" 129 3697 3724
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 120 3532 3544 "src/md.ml" 120 3532 3545
+)
+"src/md.ml" 129 3697 3725 "src/md.ml" 129 3697 3727
+type(
+  G.vertex -> G.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/md.ml" 129 3697 3728 "src/md.ml" 129 3697 3730
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 129 3697 3714 "src/md.ml" 129 3697 3716
+)
+"src/md.ml" 129 3697 3723 "src/md.ml" 129 3697 3730
+type(
+  bool
+)
+"src/md.ml" 129 3697 3736 "src/md.ml" 129 3697 3746
+type(
+  G.t -> G.vertex -> G.vertex -> unit
+)
+ident(
+  ext_ref G.add_edge
+)
+"src/md.ml" 129 3697 3747 "src/md.ml" 129 3697 3751
+type(
+  G.t
+)
+ident(
+  int_ref gcur "src/md.ml" 98 2979 2987 "src/md.ml" 98 2979 2991
+)
+"src/md.ml" 129 3697 3752 "src/md.ml" 129 3697 3753
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 120 3532 3544 "src/md.ml" 120 3532 3545
+)
+"src/md.ml" 129 3697 3754 "src/md.ml" 129 3697 3756
+type(
+  G.vertex
+)
+ident(
+  int_ref v' "src/md.ml" 129 3697 3714 "src/md.ml" 129 3697 3716
+)
+"src/md.ml" 129 3697 3736 "src/md.ml" 129 3697 3756
+call(
+  tail
+)
+type(
+  unit
+)
+"src/md.ml" 129 3697 3720 "src/md.ml" 129 3697 3756
+type(
+  unit
+)
+"src/md.ml" 129 3697 3709 "src/md.ml" 129 3697 3757
+type(
+  G.vertex -> unit
+)
+"src/md.ml" 129 3697 3758 "src/md.ml" 129 3697 3760
+type(
+  G.vertex list
+)
+ident(
+  int_ref ng "src/md.ml" 117 3467 3477 "src/md.ml" 117 3467 3479
+)
+"src/md.ml" 129 3697 3699 "src/md.ml" 129 3697 3760
+call(
+  stack
+)
+type(
+  unit
+)
+"src/md.ml" 130 3762 3764 "src/md.ml" 130 3762 3768
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri' "src/md.ml" 123 3591 3597 "src/md.ml" 123 3591 3601
+)
+"src/md.ml" 129 3697 3699 "src/md.ml" 130 3762 3768
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 123 3591 3593 "src/md.ml" 130 3762 3768
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 122 3570 3576 "src/md.ml" 130 3762 3769
+type(
+  (G.vertex * G.vertex) list -> G.vertex -> (G.vertex * G.vertex) list
+)
+"src/md.ml" 131 3770 3776 "src/md.ml" 131 3770 3779
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri "src/md.ml" 120 3532 3540 "src/md.ml" 120 3532 3543
+)
+"src/md.ml" 131 3770 3780 "src/md.ml" 131 3770 3782
+type(
+  G.vertex list
+)
+ident(
+  int_ref ng "src/md.ml" 117 3467 3477 "src/md.ml" 117 3467 3479
+)
+"src/md.ml" 121 3549 3555 "src/md.ml" 131 3770 3782
+call(
+  tail
+)
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 120 3532 3535 "src/md.ml" 131 3770 3783
+type(
+  (G.vertex * G.vertex) list -> G.vertex -> (G.vertex * G.vertex) list
+)
+"src/md.ml" 132 3784 3787 "src/md.ml" 132 3784 3789
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 132 3784 3790 "src/md.ml" 132 3784 3792
+type(
+  G.vertex list
+)
+ident(
+  int_ref ng "src/md.ml" 117 3467 3477 "src/md.ml" 117 3467 3479
+)
+"src/md.ml" 119 3516 3517 "src/md.ml" 132 3784 3792
+call(
+  stack
+)
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 134 3802 3808 "src/md.ml" 134 3802 3811
+type(
+  G.vertex list ref
+)
+ident(
+  int_ref ord "src/md.ml" 101 3074 3082 "src/md.ml" 101 3074 3085
+)
+"src/md.ml" 134 3802 3812 "src/md.ml" 134 3802 3814
+type(
+  G.vertex list ref -> G.vertex list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/md.ml" 134 3802 3815 "src/md.ml" 134 3802 3816
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 104 3167 3177 "src/md.ml" 104 3167 3178
+)
+"src/md.ml" 134 3802 3820 "src/md.ml" 134 3802 3821
+type(
+  G.vertex list ref -> G.vertex list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 134 3802 3821 "src/md.ml" 134 3802 3824
+type(
+  G.vertex list ref
+)
+ident(
+  int_ref ord "src/md.ml" 101 3074 3082 "src/md.ml" 101 3074 3085
+)
+"src/md.ml" 134 3802 3820 "src/md.ml" 134 3802 3824
+type(
+  G.vertex list
+)
+"src/md.ml" 134 3802 3815 "src/md.ml" 134 3802 3824
+type(
+  G.vertex list
+)
+"src/md.ml" 134 3802 3808 "src/md.ml" 134 3802 3824
+type(
+  unit
+)
+"src/md.ml" 135 3826 3832 "src/md.ml" 135 3826 3841
+type(
+  (G.vertex * G.vertex -> unit) -> (G.vertex * G.vertex) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/md.ml" 136 3842 3849 "src/md.ml" 136 3842 3850
+type(
+  G.vertex
+)
+ident(
+  def x "src/md.ml" 136 3842 3857 "src/md.ml" 136 3842 3876
+)
+"src/md.ml" 136 3842 3851 "src/md.ml" 136 3842 3852
+type(
+  G.vertex
+)
+ident(
+  def y "src/md.ml" 136 3842 3857 "src/md.ml" 136 3842 3876
+)
+"src/md.ml" 136 3842 3848 "src/md.ml" 136 3842 3853
+type(
+  G.vertex * G.vertex
+)
+"src/md.ml" 136 3842 3857 "src/md.ml" 136 3842 3867
+type(
+  G.t -> G.vertex -> G.vertex -> unit
+)
+ident(
+  ext_ref G.add_edge
+)
+"src/md.ml" 136 3842 3868 "src/md.ml" 136 3842 3872
+type(
+  G.t
+)
+ident(
+  int_ref gtri "src/md.ml" 97 2937 2945 "src/md.ml" 97 2937 2949
+)
+"src/md.ml" 136 3842 3873 "src/md.ml" 136 3842 3874
+type(
+  G.vertex
+)
+ident(
+  int_ref x "src/md.ml" 136 3842 3849 "src/md.ml" 136 3842 3850
+)
+"src/md.ml" 136 3842 3875 "src/md.ml" 136 3842 3876
+type(
+  G.vertex
+)
+ident(
+  int_ref y "src/md.ml" 136 3842 3851 "src/md.ml" 136 3842 3852
+)
+"src/md.ml" 136 3842 3857 "src/md.ml" 136 3842 3876
+call(
+  tail
+)
+type(
+  unit
+)
+"src/md.ml" 136 3842 3843 "src/md.ml" 136 3842 3877
+type(
+  G.vertex * G.vertex -> unit
+)
+"src/md.ml" 137 3879 3880 "src/md.ml" 137 3879 3884
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri' "src/md.ml" 118 3499 3509 "src/md.ml" 118 3499 3513
+)
+"src/md.ml" 135 3826 3832 "src/md.ml" 137 3879 3884
+call(
+  stack
+)
+type(
+  unit
+)
+"src/md.ml" 138 3886 3892 "src/md.ml" 138 3886 3907
+type(
+  G.t -> G.vertex -> unit
+)
+ident(
+  ext_ref G.remove_vertex
+)
+"src/md.ml" 138 3886 3908 "src/md.ml" 138 3886 3912
+type(
+  G.t
+)
+ident(
+  int_ref gcur "src/md.ml" 98 2979 2987 "src/md.ml" 98 2979 2991
+)
+"src/md.ml" 138 3886 3913 "src/md.ml" 138 3886 3914
+type(
+  G.vertex
+)
+ident(
+  int_ref v "src/md.ml" 104 3167 3177 "src/md.ml" 104 3167 3178
+)
+"src/md.ml" 138 3886 3892 "src/md.ml" 138 3886 3914
+call(
+  stack
+)
+type(
+  unit
+)
+"src/md.ml" 139 3916 3922 "src/md.ml" 139 3916 3925
+type(
+  (G.vertex * G.vertex) list ref
+)
+ident(
+  int_ref tri "src/md.ml" 100 3050 3058 "src/md.ml" 100 3050 3061
+)
+"src/md.ml" 139 3916 3926 "src/md.ml" 139 3916 3928
+type(
+  (G.vertex * G.vertex) list ref -> (G.vertex * G.vertex) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/md.ml" 139 3916 3929 "src/md.ml" 139 3916 3933
+type(
+  (G.vertex * G.vertex) list
+)
+ident(
+  int_ref tri' "src/md.ml" 118 3499 3509 "src/md.ml" 118 3499 3513
+)
+"src/md.ml" 139 3916 3934 "src/md.ml" 139 3916 3935
+type(
+  (G.vertex * G.vertex) list ->
+  (G.vertex * G.vertex) list -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/md.ml" 139 3916 3936 "src/md.ml" 139 3916 3937
+type(
+  (G.vertex * G.vertex) list ref -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 139 3916 3937 "src/md.ml" 139 3916 3940
+type(
+  (G.vertex * G.vertex) list ref
+)
+ident(
+  int_ref tri "src/md.ml" 100 3050 3058 "src/md.ml" 100 3050 3061
+)
+"src/md.ml" 139 3916 3936 "src/md.ml" 139 3916 3940
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 139 3916 3929 "src/md.ml" 139 3916 3940
+call(
+  stack
+)
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 139 3916 3922 "src/md.ml" 139 3916 3940
+type(
+  unit
+)
+"src/md.ml" 140 3942 3948 "src/md.ml" 140 3942 3952
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/md.ml" 140 3942 3953 "src/md.ml" 140 3942 3954
+type(
+  int ref
+)
+ident(
+  int_ref i "src/md.ml" 102 3098 3106 "src/md.ml" 102 3098 3107
+)
+"src/md.ml" 140 3942 3948 "src/md.ml" 140 3942 3955
+type(
+  unit
+)
+"src/md.ml" 139 3916 3922 "src/md.ml" 140 3942 3955
+type(
+  unit
+)
+"src/md.ml" 138 3886 3892 "src/md.ml" 140 3942 3955
+type(
+  unit
+)
+"src/md.ml" 135 3826 3832 "src/md.ml" 140 3942 3955
+type(
+  unit
+)
+"src/md.ml" 134 3802 3808 "src/md.ml" 140 3942 3955
+type(
+  unit
+)
+"src/md.ml" 118 3499 3505 "src/md.ml" 140 3942 3955
+type(
+  unit
+)
+"src/md.ml" 117 3467 3473 "src/md.ml" 140 3942 3955
+type(
+  unit
+)
+"src/md.ml" 104 3167 3173 "src/md.ml" 140 3942 3955
+type(
+  unit
+)
+"src/md.ml" 103 3119 3123 "src/md.ml" 141 3956 3964
+type(
+  unit
+)
+"src/md.ml" 142 3966 3971 "src/md.ml" 142 3966 3975
+type(
+  G.t
+)
+ident(
+  int_ref gtri "src/md.ml" 97 2937 2945 "src/md.ml" 97 2937 2949
+)
+"src/md.ml" 142 3966 3977 "src/md.ml" 142 3966 3978
+type(
+  (G.vertex * G.vertex) list ref -> (G.vertex * G.vertex) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 142 3966 3978 "src/md.ml" 142 3966 3981
+type(
+  (G.vertex * G.vertex) list ref
+)
+ident(
+  int_ref tri "src/md.ml" 100 3050 3058 "src/md.ml" 100 3050 3061
+)
+"src/md.ml" 142 3966 3977 "src/md.ml" 142 3966 3981
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 142 3966 3983 "src/md.ml" 142 3966 3984
+type(
+  G.vertex list ref -> G.vertex list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/md.ml" 142 3966 3984 "src/md.ml" 142 3966 3987
+type(
+  G.vertex list ref
+)
+ident(
+  int_ref ord "src/md.ml" 101 3074 3082 "src/md.ml" 101 3074 3085
+)
+"src/md.ml" 142 3966 3983 "src/md.ml" 142 3966 3987
+type(
+  G.vertex list
+)
+"src/md.ml" 142 3966 3970 "src/md.ml" 142 3966 3988
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 103 3119 3123 "src/md.ml" 142 3966 3988
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 102 3098 3102 "src/md.ml" 142 3966 3988
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 101 3074 3078 "src/md.ml" 142 3966 3988
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 100 3050 3054 "src/md.ml" 142 3966 3988
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 99 3021 3025 "src/md.ml" 142 3966 3988
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 98 2979 2983 "src/md.ml" 142 3966 3988
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 97 2937 2941 "src/md.ml" 142 3966 3988
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 144 3993 3999 "src/md.ml" 144 3993 4010
+type(
+  G.t -> G.t
+)
+ident(
+  def triangulate "src/md.ml" 146 4046 4054 "src/md.ml" 148 4056 4059
+)
+"src/md.ml" 144 3993 4011 "src/md.ml" 144 3993 4012
+type(
+  G.t
+)
+ident(
+  def g "src/md.ml" 145 4016 4020 "src/md.ml" 146 4046 4054
+)
+"src/md.ml" 145 4016 4024 "src/md.ml" 145 4016 4028
+type(
+  G.t
+)
+"src/md.ml" 145 4016 4030 "src/md.ml" 145 4016 4031
+type(
+  (G.vertex * G.vertex) list
+)
+"src/md.ml" 145 4016 4033 "src/md.ml" 145 4016 4034
+type(
+  G.vertex list
+)
+"src/md.ml" 145 4016 4024 "src/md.ml" 145 4016 4034
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 145 4016 4037 "src/md.ml" 145 4016 4039
+type(
+  G.t -> G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+ident(
+  int_ref md "src/md.ml" 96 2924 2930 "src/md.ml" 96 2924 2932
+)
+"src/md.ml" 145 4016 4040 "src/md.ml" 145 4016 4041
+type(
+  G.t
+)
+ident(
+  int_ref g "src/md.ml" 144 3993 4011 "src/md.ml" 144 3993 4012
+)
+"src/md.ml" 145 4016 4037 "src/md.ml" 145 4016 4041
+call(
+  stack
+)
+type(
+  G.t * (G.vertex * G.vertex) list * G.vertex list
+)
+"src/md.ml" 146 4046 4050 "src/md.ml" 146 4046 4054
+type(
+  G.t
+)
+ident(
+  int_ref gtri "src/md.ml" 145 4016 4024 "src/md.ml" 145 4016 4028
+)
+"src/md.ml" 145 4016 4020 "src/md.ml" 146 4046 4054
+type(
+  G.t
+)

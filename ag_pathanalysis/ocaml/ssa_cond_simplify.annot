@@ -1,0 +1,4388 @@
+"ssa_cond_simplify.ml" 14 334 365 "ssa_cond_simplify.ml" 14 334 369
+type(
+  string
+)
+ident(
+  def name "ssa_cond_simplify.ml" 14 334 410 "ssa_cond_simplify.ml" 14 334 414
+)
+"ssa_cond_simplify.ml" 14 334 370 "ssa_cond_simplify.ml" 14 334 389
+type(
+  string
+)
+"ssa_cond_simplify.ml" 14 334 394 "ssa_cond_simplify.ml" 14 334 401
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "ssa_cond_simplify.ml" 14 334 410 "ssa_cond_simplify.ml" 14 334 414
+)
+"ssa_cond_simplify.ml" 14 334 402 "ssa_cond_simplify.ml" 14 334 410
+type(
+  [> `NoDebug ] as 'a
+)
+"ssa_cond_simplify.ml" 14 334 343 "ssa_cond_simplify.ml" 14 334 415
+call(
+  stack
+)
+"ssa_cond_simplify.ml" 20 476 484 "ssa_cond_simplify.ml" 20 476 497
+type(
+  (Ssa.exp -> Ssa.exp) -> Ssa.exp -> Ssa.exp
+)
+ident(
+  def reverse_visit "ssa_cond_simplify.ml" 20 476 476 --
+)
+"ssa_cond_simplify.ml" 20 476 498 "ssa_cond_simplify.ml" 20 476 499
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def f "ssa_cond_simplify.ml" 20 476 500 "ssa_cond_simplify.ml" 35 1051 1081
+)
+"ssa_cond_simplify.ml" 20 476 500 "ssa_cond_simplify.ml" 20 476 501
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 21 504 506 "ssa_cond_simplify.ml" 35 1051 1081
+)
+"ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_cond_simplify.ml" 21 504 514 "ssa_cond_simplify.ml" 21 504 527
+type(
+  (Ssa.exp -> Ssa.exp) -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref reverse_visit "ssa_cond_simplify.ml" 20 476 484 "ssa_cond_simplify.ml" 20 476 497
+)
+"ssa_cond_simplify.ml" 21 504 528 "ssa_cond_simplify.ml" 21 504 529
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref f "ssa_cond_simplify.ml" 20 476 498 "ssa_cond_simplify.ml" 20 476 499
+)
+"ssa_cond_simplify.ml" 21 504 514 "ssa_cond_simplify.ml" 21 504 529
+call(
+  stack
+)
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_cond_simplify.ml" 22 533 539 "ssa_cond_simplify.ml" 22 533 540
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 22 533 549 "ssa_cond_simplify.ml" 22 533 550
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 20 476 500 "ssa_cond_simplify.ml" 20 476 501
+)
+"ssa_cond_simplify.ml" 23 556 567 "ssa_cond_simplify.ml" 23 556 569
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_cond_simplify.ml" 23 556 583 "ssa_cond_simplify.ml" 23 556 609
+)
+"ssa_cond_simplify.ml" 23 556 570 "ssa_cond_simplify.ml" 23 556 572
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_cond_simplify.ml" 23 556 583 "ssa_cond_simplify.ml" 23 556 609
+)
+"ssa_cond_simplify.ml" 23 556 573 "ssa_cond_simplify.ml" 23 556 575
+type(
+  Ssa.exp
+)
+ident(
+  def e3 "ssa_cond_simplify.ml" 23 556 583 "ssa_cond_simplify.ml" 23 556 609
+)
+"ssa_cond_simplify.ml" 23 556 576 "ssa_cond_simplify.ml" 23 556 578
+type(
+  Type.typ
+)
+ident(
+  def t1 "ssa_cond_simplify.ml" 23 556 583 "ssa_cond_simplify.ml" 23 556 609
+)
+"ssa_cond_simplify.ml" 23 556 562 "ssa_cond_simplify.ml" 23 556 579
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 23 556 588 "ssa_cond_simplify.ml" 23 556 589
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 23 556 590 "ssa_cond_simplify.ml" 23 556 592
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 23 556 567 "ssa_cond_simplify.ml" 23 556 569
+)
+"ssa_cond_simplify.ml" 23 556 588 "ssa_cond_simplify.ml" 23 556 592
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 23 556 594 "ssa_cond_simplify.ml" 23 556 595
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 23 556 596 "ssa_cond_simplify.ml" 23 556 598
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 23 556 570 "ssa_cond_simplify.ml" 23 556 572
+)
+"ssa_cond_simplify.ml" 23 556 594 "ssa_cond_simplify.ml" 23 556 598
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 23 556 600 "ssa_cond_simplify.ml" 23 556 601
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 23 556 602 "ssa_cond_simplify.ml" 23 556 604
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e3 "ssa_cond_simplify.ml" 23 556 573 "ssa_cond_simplify.ml" 23 556 575
+)
+"ssa_cond_simplify.ml" 23 556 600 "ssa_cond_simplify.ml" 23 556 604
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 23 556 606 "ssa_cond_simplify.ml" 23 556 608
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ssa_cond_simplify.ml" 23 556 576 "ssa_cond_simplify.ml" 23 556 578
+)
+"ssa_cond_simplify.ml" 23 556 583 "ssa_cond_simplify.ml" 23 556 609
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 24 610 622 "ssa_cond_simplify.ml" 24 610 624
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_cond_simplify.ml" 24 610 641 "ssa_cond_simplify.ml" 24 610 674
+)
+"ssa_cond_simplify.ml" 24 610 625 "ssa_cond_simplify.ml" 24 610 627
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_cond_simplify.ml" 24 610 641 "ssa_cond_simplify.ml" 24 610 674
+)
+"ssa_cond_simplify.ml" 24 610 628 "ssa_cond_simplify.ml" 24 610 630
+type(
+  Ssa.exp
+)
+ident(
+  def e3 "ssa_cond_simplify.ml" 24 610 641 "ssa_cond_simplify.ml" 24 610 674
+)
+"ssa_cond_simplify.ml" 24 610 631 "ssa_cond_simplify.ml" 24 610 633
+type(
+  Ssa.exp
+)
+ident(
+  def e4 "ssa_cond_simplify.ml" 24 610 641 "ssa_cond_simplify.ml" 24 610 674
+)
+"ssa_cond_simplify.ml" 24 610 634 "ssa_cond_simplify.ml" 24 610 636
+type(
+  Type.typ
+)
+ident(
+  def t1 "ssa_cond_simplify.ml" 24 610 641 "ssa_cond_simplify.ml" 24 610 674
+)
+"ssa_cond_simplify.ml" 24 610 616 "ssa_cond_simplify.ml" 24 610 637
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 24 610 647 "ssa_cond_simplify.ml" 24 610 648
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 24 610 649 "ssa_cond_simplify.ml" 24 610 651
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 24 610 622 "ssa_cond_simplify.ml" 24 610 624
+)
+"ssa_cond_simplify.ml" 24 610 647 "ssa_cond_simplify.ml" 24 610 651
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 24 610 653 "ssa_cond_simplify.ml" 24 610 654
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 24 610 655 "ssa_cond_simplify.ml" 24 610 657
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 24 610 625 "ssa_cond_simplify.ml" 24 610 627
+)
+"ssa_cond_simplify.ml" 24 610 653 "ssa_cond_simplify.ml" 24 610 657
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 24 610 659 "ssa_cond_simplify.ml" 24 610 660
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 24 610 661 "ssa_cond_simplify.ml" 24 610 663
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e3 "ssa_cond_simplify.ml" 24 610 628 "ssa_cond_simplify.ml" 24 610 630
+)
+"ssa_cond_simplify.ml" 24 610 659 "ssa_cond_simplify.ml" 24 610 663
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 24 610 665 "ssa_cond_simplify.ml" 24 610 666
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 24 610 667 "ssa_cond_simplify.ml" 24 610 669
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e4 "ssa_cond_simplify.ml" 24 610 631 "ssa_cond_simplify.ml" 24 610 633
+)
+"ssa_cond_simplify.ml" 24 610 665 "ssa_cond_simplify.ml" 24 610 669
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 24 610 671 "ssa_cond_simplify.ml" 24 610 673
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ssa_cond_simplify.ml" 24 610 634 "ssa_cond_simplify.ml" 24 610 636
+)
+"ssa_cond_simplify.ml" 24 610 641 "ssa_cond_simplify.ml" 24 610 674
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 25 675 685 "ssa_cond_simplify.ml" 25 675 687
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_cond_simplify.ml" 25 675 698 "ssa_cond_simplify.ml" 25 675 719
+)
+"ssa_cond_simplify.ml" 25 675 688 "ssa_cond_simplify.ml" 25 675 690
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_cond_simplify.ml" 25 675 698 "ssa_cond_simplify.ml" 25 675 719
+)
+"ssa_cond_simplify.ml" 25 675 691 "ssa_cond_simplify.ml" 25 675 693
+type(
+  Ssa.exp
+)
+ident(
+  def e3 "ssa_cond_simplify.ml" 25 675 698 "ssa_cond_simplify.ml" 25 675 719
+)
+"ssa_cond_simplify.ml" 25 675 681 "ssa_cond_simplify.ml" 25 675 694
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 25 675 702 "ssa_cond_simplify.ml" 25 675 703
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 25 675 704 "ssa_cond_simplify.ml" 25 675 706
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 25 675 685 "ssa_cond_simplify.ml" 25 675 687
+)
+"ssa_cond_simplify.ml" 25 675 702 "ssa_cond_simplify.ml" 25 675 706
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 25 675 708 "ssa_cond_simplify.ml" 25 675 709
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 25 675 710 "ssa_cond_simplify.ml" 25 675 712
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 25 675 688 "ssa_cond_simplify.ml" 25 675 690
+)
+"ssa_cond_simplify.ml" 25 675 708 "ssa_cond_simplify.ml" 25 675 712
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 25 675 714 "ssa_cond_simplify.ml" 25 675 715
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 25 675 716 "ssa_cond_simplify.ml" 25 675 718
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e3 "ssa_cond_simplify.ml" 25 675 691 "ssa_cond_simplify.ml" 25 675 693
+)
+"ssa_cond_simplify.ml" 25 675 714 "ssa_cond_simplify.ml" 25 675 718
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 25 675 698 "ssa_cond_simplify.ml" 25 675 719
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 26 720 734 "ssa_cond_simplify.ml" 26 720 735
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def h "ssa_cond_simplify.ml" 26 720 744 "ssa_cond_simplify.ml" 26 720 762
+)
+"ssa_cond_simplify.ml" 26 720 736 "ssa_cond_simplify.ml" 26 720 737
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def l "ssa_cond_simplify.ml" 26 720 744 "ssa_cond_simplify.ml" 26 720 762
+)
+"ssa_cond_simplify.ml" 26 720 738 "ssa_cond_simplify.ml" 26 720 739
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 26 720 744 "ssa_cond_simplify.ml" 26 720 762
+)
+"ssa_cond_simplify.ml" 26 720 726 "ssa_cond_simplify.ml" 26 720 740
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 26 720 752 "ssa_cond_simplify.ml" 26 720 753
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "ssa_cond_simplify.ml" 26 720 734 "ssa_cond_simplify.ml" 26 720 735
+)
+"ssa_cond_simplify.ml" 26 720 755 "ssa_cond_simplify.ml" 26 720 756
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "ssa_cond_simplify.ml" 26 720 736 "ssa_cond_simplify.ml" 26 720 737
+)
+"ssa_cond_simplify.ml" 26 720 758 "ssa_cond_simplify.ml" 26 720 759
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 26 720 760 "ssa_cond_simplify.ml" 26 720 761
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 26 720 738 "ssa_cond_simplify.ml" 26 720 739
+)
+"ssa_cond_simplify.ml" 26 720 758 "ssa_cond_simplify.ml" 26 720 761
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 26 720 744 "ssa_cond_simplify.ml" 26 720 762
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 27 763 776 "ssa_cond_simplify.ml" 27 763 778
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_cond_simplify.ml" 27 763 786 "ssa_cond_simplify.ml" 27 763 804
+)
+"ssa_cond_simplify.ml" 27 763 779 "ssa_cond_simplify.ml" 27 763 781
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_cond_simplify.ml" 27 763 786 "ssa_cond_simplify.ml" 27 763 804
+)
+"ssa_cond_simplify.ml" 27 763 769 "ssa_cond_simplify.ml" 27 763 782
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 27 763 793 "ssa_cond_simplify.ml" 27 763 794
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 27 763 795 "ssa_cond_simplify.ml" 27 763 797
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 27 763 776 "ssa_cond_simplify.ml" 27 763 778
+)
+"ssa_cond_simplify.ml" 27 763 793 "ssa_cond_simplify.ml" 27 763 797
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 27 763 799 "ssa_cond_simplify.ml" 27 763 800
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 27 763 801 "ssa_cond_simplify.ml" 27 763 803
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 27 763 779 "ssa_cond_simplify.ml" 27 763 781
+)
+"ssa_cond_simplify.ml" 27 763 799 "ssa_cond_simplify.ml" 27 763 803
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 27 763 786 "ssa_cond_simplify.ml" 27 763 804
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 28 805 817 "ssa_cond_simplify.ml" 28 805 819
+type(
+  Type.binop_type
+)
+ident(
+  def bt "ssa_cond_simplify.ml" 28 805 830 "ssa_cond_simplify.ml" 28 805 851
+)
+"ssa_cond_simplify.ml" 28 805 820 "ssa_cond_simplify.ml" 28 805 822
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_cond_simplify.ml" 28 805 830 "ssa_cond_simplify.ml" 28 805 851
+)
+"ssa_cond_simplify.ml" 28 805 823 "ssa_cond_simplify.ml" 28 805 825
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_cond_simplify.ml" 28 805 830 "ssa_cond_simplify.ml" 28 805 851
+)
+"ssa_cond_simplify.ml" 28 805 811 "ssa_cond_simplify.ml" 28 805 826
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 28 805 836 "ssa_cond_simplify.ml" 28 805 838
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bt "ssa_cond_simplify.ml" 28 805 817 "ssa_cond_simplify.ml" 28 805 819
+)
+"ssa_cond_simplify.ml" 28 805 840 "ssa_cond_simplify.ml" 28 805 841
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 28 805 842 "ssa_cond_simplify.ml" 28 805 844
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 28 805 820 "ssa_cond_simplify.ml" 28 805 822
+)
+"ssa_cond_simplify.ml" 28 805 840 "ssa_cond_simplify.ml" 28 805 844
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 28 805 846 "ssa_cond_simplify.ml" 28 805 847
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 28 805 848 "ssa_cond_simplify.ml" 28 805 850
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 28 805 823 "ssa_cond_simplify.ml" 28 805 825
+)
+"ssa_cond_simplify.ml" 28 805 846 "ssa_cond_simplify.ml" 28 805 850
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 28 805 830 "ssa_cond_simplify.ml" 28 805 851
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 29 852 863 "ssa_cond_simplify.ml" 29 852 865
+type(
+  Type.unop_type
+)
+ident(
+  def ut "ssa_cond_simplify.ml" 29 852 872 "ssa_cond_simplify.ml" 29 852 885
+)
+"ssa_cond_simplify.ml" 29 852 866 "ssa_cond_simplify.ml" 29 852 867
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 29 852 872 "ssa_cond_simplify.ml" 29 852 885
+)
+"ssa_cond_simplify.ml" 29 852 858 "ssa_cond_simplify.ml" 29 852 868
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 29 852 877 "ssa_cond_simplify.ml" 29 852 879
+type(
+  Type.unop_type
+)
+ident(
+  int_ref ut "ssa_cond_simplify.ml" 29 852 863 "ssa_cond_simplify.ml" 29 852 865
+)
+"ssa_cond_simplify.ml" 29 852 881 "ssa_cond_simplify.ml" 29 852 882
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 29 852 883 "ssa_cond_simplify.ml" 29 852 884
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 29 852 866 "ssa_cond_simplify.ml" 29 852 867
+)
+"ssa_cond_simplify.ml" 29 852 881 "ssa_cond_simplify.ml" 29 852 884
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 29 852 872 "ssa_cond_simplify.ml" 29 852 885
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 30 886 897 "ssa_cond_simplify.ml" 30 886 898
+type(
+  Ssa.var
+)
+"ssa_cond_simplify.ml" 30 886 893 "ssa_cond_simplify.ml" 30 886 898
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 30 886 905 "ssa_cond_simplify.ml" 30 886 906
+type(
+  Ssa.var list
+)
+"ssa_cond_simplify.ml" 30 886 901 "ssa_cond_simplify.ml" 30 886 906
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 30 886 893 "ssa_cond_simplify.ml" 30 886 906
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 30 886 913 "ssa_cond_simplify.ml" 30 886 914
+type(
+  string
+)
+"ssa_cond_simplify.ml" 30 886 909 "ssa_cond_simplify.ml" 30 886 914
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 30 886 893 "ssa_cond_simplify.ml" 30 886 914
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 30 886 921 "ssa_cond_simplify.ml" 30 886 922
+type(
+  Type.typ
+)
+type(
+  Big_int_Z.big_int
+)
+"ssa_cond_simplify.ml" 30 886 917 "ssa_cond_simplify.ml" 30 886 922
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 30 886 893 "ssa_cond_simplify.ml" 30 886 922
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 30 886 933 "ssa_cond_simplify.ml" 30 886 934
+type(
+  Type.typ
+)
+type(
+  string
+)
+"ssa_cond_simplify.ml" 30 886 925 "ssa_cond_simplify.ml" 30 886 934
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 30 886 892 "ssa_cond_simplify.ml" 30 886 935
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 30 886 892 "ssa_cond_simplify.ml" 30 886 940
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 30 886 944 "ssa_cond_simplify.ml" 30 886 945
+)
+"ssa_cond_simplify.ml" 30 886 944 "ssa_cond_simplify.ml" 30 886 945
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 30 886 892 "ssa_cond_simplify.ml" 30 886 940
+)
+"ssa_cond_simplify.ml" 31 946 957 "ssa_cond_simplify.ml" 31 946 959
+type(
+  Type.cast_type
+)
+ident(
+  def ct "ssa_cond_simplify.ml" 31 946 968 "ssa_cond_simplify.ml" 31 946 984
+)
+"ssa_cond_simplify.ml" 31 946 960 "ssa_cond_simplify.ml" 31 946 961
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_cond_simplify.ml" 31 946 968 "ssa_cond_simplify.ml" 31 946 984
+)
+"ssa_cond_simplify.ml" 31 946 962 "ssa_cond_simplify.ml" 31 946 963
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 31 946 968 "ssa_cond_simplify.ml" 31 946 984
+)
+"ssa_cond_simplify.ml" 31 946 952 "ssa_cond_simplify.ml" 31 946 964
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 31 946 973 "ssa_cond_simplify.ml" 31 946 975
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "ssa_cond_simplify.ml" 31 946 957 "ssa_cond_simplify.ml" 31 946 959
+)
+"ssa_cond_simplify.ml" 31 946 977 "ssa_cond_simplify.ml" 31 946 978
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_cond_simplify.ml" 31 946 960 "ssa_cond_simplify.ml" 31 946 961
+)
+"ssa_cond_simplify.ml" 31 946 980 "ssa_cond_simplify.ml" 31 946 981
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 31 946 982 "ssa_cond_simplify.ml" 31 946 983
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 31 946 962 "ssa_cond_simplify.ml" 31 946 963
+)
+"ssa_cond_simplify.ml" 31 946 980 "ssa_cond_simplify.ml" 31 946 983
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 31 946 968 "ssa_cond_simplify.ml" 31 946 984
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 22 533 543 "ssa_cond_simplify.ml" 31 946 984
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 33 990 996 "ssa_cond_simplify.ml" 33 990 998
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 33 990 1001 "ssa_cond_simplify.ml" 33 990 1002
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref f "ssa_cond_simplify.ml" 20 476 498 "ssa_cond_simplify.ml" 20 476 499
+)
+"ssa_cond_simplify.ml" 33 990 1003 "ssa_cond_simplify.ml" 33 990 1004
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 22 533 539 "ssa_cond_simplify.ml" 22 533 540
+)
+"ssa_cond_simplify.ml" 33 990 1001 "ssa_cond_simplify.ml" 33 990 1004
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 35 1051 1056 "ssa_cond_simplify.ml" 35 1051 1058
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 33 990 996 "ssa_cond_simplify.ml" 33 990 998
+)
+"ssa_cond_simplify.ml" 35 1051 1059 "ssa_cond_simplify.ml" 35 1051 1061
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ssa_cond_simplify.ml" 35 1051 1062 "ssa_cond_simplify.ml" 35 1051 1063
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 22 533 539 "ssa_cond_simplify.ml" 22 533 540
+)
+"ssa_cond_simplify.ml" 35 1051 1056 "ssa_cond_simplify.ml" 35 1051 1063
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 35 1051 1069 "ssa_cond_simplify.ml" 35 1051 1070
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 21 504 510 "ssa_cond_simplify.ml" 21 504 511
+)
+"ssa_cond_simplify.ml" 35 1051 1071 "ssa_cond_simplify.ml" 35 1051 1073
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 33 990 996 "ssa_cond_simplify.ml" 33 990 998
+)
+"ssa_cond_simplify.ml" 35 1051 1069 "ssa_cond_simplify.ml" 35 1051 1073
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 35 1051 1079 "ssa_cond_simplify.ml" 35 1051 1081
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 33 990 996 "ssa_cond_simplify.ml" 33 990 998
+)
+"ssa_cond_simplify.ml" 35 1051 1053 "ssa_cond_simplify.ml" 35 1051 1081
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 33 990 992 "ssa_cond_simplify.ml" 35 1051 1081
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 22 533 535 "ssa_cond_simplify.ml" 35 1051 1081
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 21 504 506 "ssa_cond_simplify.ml" 35 1051 1081
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 37 1083 1087 "ssa_cond_simplify.ml" 37 1083 1100
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def simplify_flat "ssa_cond_simplify.ml" 108 3684 3684 --
+)
+"ssa_cond_simplify.ml" 38 1112 1123 "ssa_cond_simplify.ml" 38 1112 1125
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 38 1112 1126 "ssa_cond_simplify.ml" 38 1112 1129
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 38 1112 1122 "ssa_cond_simplify.ml" 38 1112 1130
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 39 1132 1142 "ssa_cond_simplify.ml" 39 1132 1143
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 40 1145 1159 "ssa_cond_simplify.ml" 40 1145 1177
+)
+"ssa_cond_simplify.ml" 40 1145 1155 "ssa_cond_simplify.ml" 40 1145 1157
+type(
+  Ssa.exp
+)
+ident(
+  def e' "ssa_cond_simplify.ml" 40 1145 1159 "ssa_cond_simplify.ml" 40 1145 1177
+)
+"ssa_cond_simplify.ml" 38 1112 1116 "ssa_cond_simplify.ml" 40 1145 1158
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 40 1145 1164 "ssa_cond_simplify.ml" 40 1145 1165
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 39 1132 1142 "ssa_cond_simplify.ml" 39 1132 1143
+)
+"ssa_cond_simplify.ml" 40 1145 1166 "ssa_cond_simplify.ml" 40 1145 1169
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Ssa.( === )
+)
+"ssa_cond_simplify.ml" 40 1145 1170 "ssa_cond_simplify.ml" 40 1145 1172
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 40 1145 1155 "ssa_cond_simplify.ml" 40 1145 1157
+)
+"ssa_cond_simplify.ml" 40 1145 1164 "ssa_cond_simplify.ml" 40 1145 1172
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 40 1145 1176 "ssa_cond_simplify.ml" 40 1145 1177
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 39 1132 1142 "ssa_cond_simplify.ml" 39 1132 1143
+)
+"ssa_cond_simplify.ml" 40 1145 1159 "ssa_cond_simplify.ml" 40 1145 1177
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 41 1178 1188 "ssa_cond_simplify.ml" 41 1178 1190
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 42 1192 1206 "ssa_cond_simplify.ml" 42 1192 1208
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i0 "ssa_cond_simplify.ml" 43 1214 1246 "ssa_cond_simplify.ml" 45 1294 1315
+)
+"ssa_cond_simplify.ml" 42 1192 1210 "ssa_cond_simplify.ml" 42 1192 1211
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 42 1192 1202 "ssa_cond_simplify.ml" 42 1192 1212
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 43 1214 1230 "ssa_cond_simplify.ml" 43 1214 1235
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 43 1214 1237 "ssa_cond_simplify.ml" 43 1214 1239
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_cond_simplify.ml" 43 1214 1246 "ssa_cond_simplify.ml" 45 1294 1315
+)
+"ssa_cond_simplify.ml" 43 1214 1241 "ssa_cond_simplify.ml" 43 1214 1243
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_cond_simplify.ml" 43 1214 1246 "ssa_cond_simplify.ml" 45 1294 1315
+)
+"ssa_cond_simplify.ml" 43 1214 1224 "ssa_cond_simplify.ml" 43 1214 1244
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 41 1178 1182 "ssa_cond_simplify.ml" 43 1214 1245
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 43 1214 1251 "ssa_cond_simplify.ml" 43 1214 1253
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i0 "ssa_cond_simplify.ml" 42 1192 1206 "ssa_cond_simplify.ml" 42 1192 1208
+)
+"ssa_cond_simplify.ml" 43 1214 1254 "ssa_cond_simplify.ml" 43 1214 1255
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_cond_simplify.ml" 43 1214 1256 "ssa_cond_simplify.ml" 43 1214 1259
+type(
+  Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"ssa_cond_simplify.ml" 43 1214 1251 "ssa_cond_simplify.ml" 43 1214 1259
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 45 1294 1304 "ssa_cond_simplify.ml" 45 1294 1306
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 45 1294 1308 "ssa_cond_simplify.ml" 45 1294 1310
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 43 1214 1237 "ssa_cond_simplify.ml" 43 1214 1239
+)
+"ssa_cond_simplify.ml" 45 1294 1312 "ssa_cond_simplify.ml" 45 1294 1314
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 43 1214 1241 "ssa_cond_simplify.ml" 43 1214 1243
+)
+"ssa_cond_simplify.ml" 45 1294 1298 "ssa_cond_simplify.ml" 45 1294 1315
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 43 1214 1246 "ssa_cond_simplify.ml" 45 1294 1315
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 46 1316 1326 "ssa_cond_simplify.ml" 46 1316 1328
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 47 1330 1346 "ssa_cond_simplify.ml" 47 1330 1348
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 47 1330 1350 "ssa_cond_simplify.ml" 47 1330 1353
+type(
+  Ssa.exp
+)
+ident(
+  def e1' "ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+)
+"ssa_cond_simplify.ml" 47 1330 1355 "ssa_cond_simplify.ml" 47 1330 1358
+type(
+  Ssa.exp
+)
+ident(
+  def e2' "ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+)
+"ssa_cond_simplify.ml" 47 1330 1340 "ssa_cond_simplify.ml" 47 1330 1359
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 48 1361 1377 "ssa_cond_simplify.ml" 48 1361 1379
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 48 1361 1380 "ssa_cond_simplify.ml" 48 1361 1383
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 48 1361 1377 "ssa_cond_simplify.ml" 48 1361 1383
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 48 1361 1377 "ssa_cond_simplify.ml" 48 1361 1390
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+)
+"ssa_cond_simplify.ml" 48 1361 1392 "ssa_cond_simplify.ml" 48 1361 1394
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+)
+"ssa_cond_simplify.ml" 48 1361 1396 "ssa_cond_simplify.ml" 48 1361 1398
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+)
+"ssa_cond_simplify.ml" 48 1361 1371 "ssa_cond_simplify.ml" 48 1361 1399
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 46 1316 1320 "ssa_cond_simplify.ml" 48 1361 1400
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 49 1401 1411 "ssa_cond_simplify.ml" 49 1401 1413
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 50 1415 1431 "ssa_cond_simplify.ml" 50 1415 1433
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 50 1415 1434 "ssa_cond_simplify.ml" 50 1415 1437
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 50 1415 1431 "ssa_cond_simplify.ml" 50 1415 1437
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 50 1415 1431 "ssa_cond_simplify.ml" 50 1415 1444
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+)
+"ssa_cond_simplify.ml" 50 1415 1446 "ssa_cond_simplify.ml" 50 1415 1448
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+)
+"ssa_cond_simplify.ml" 50 1415 1450 "ssa_cond_simplify.ml" 50 1415 1452
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+)
+"ssa_cond_simplify.ml" 50 1415 1425 "ssa_cond_simplify.ml" 50 1415 1453
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 51 1455 1471 "ssa_cond_simplify.ml" 51 1455 1473
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 51 1455 1475 "ssa_cond_simplify.ml" 51 1455 1478
+type(
+  Ssa.exp
+)
+ident(
+  def e1' "ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+)
+"ssa_cond_simplify.ml" 51 1455 1480 "ssa_cond_simplify.ml" 51 1455 1483
+type(
+  Ssa.exp
+)
+ident(
+  def e2' "ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+)
+"ssa_cond_simplify.ml" 51 1455 1465 "ssa_cond_simplify.ml" 51 1455 1484
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 49 1401 1405 "ssa_cond_simplify.ml" 51 1455 1485
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 46 1316 1320 "ssa_cond_simplify.ml" 51 1455 1485
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 51 1455 1491 "ssa_cond_simplify.ml" 51 1455 1493
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 48 1361 1392 "ssa_cond_simplify.ml" 48 1361 1394
+)
+"ssa_cond_simplify.ml" 51 1455 1494 "ssa_cond_simplify.ml" 51 1455 1495
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_cond_simplify.ml" 51 1455 1496 "ssa_cond_simplify.ml" 51 1455 1499
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1' "ssa_cond_simplify.ml" 47 1330 1350 "ssa_cond_simplify.ml" 47 1330 1353
+)
+"ssa_cond_simplify.ml" 51 1455 1491 "ssa_cond_simplify.ml" 51 1455 1499
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 51 1455 1500 "ssa_cond_simplify.ml" 51 1455 1502
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_cond_simplify.ml" 51 1455 1503 "ssa_cond_simplify.ml" 51 1455 1505
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 48 1361 1396 "ssa_cond_simplify.ml" 48 1361 1398
+)
+"ssa_cond_simplify.ml" 51 1455 1506 "ssa_cond_simplify.ml" 51 1455 1507
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_cond_simplify.ml" 51 1455 1508 "ssa_cond_simplify.ml" 51 1455 1511
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2' "ssa_cond_simplify.ml" 47 1330 1355 "ssa_cond_simplify.ml" 47 1330 1358
+)
+"ssa_cond_simplify.ml" 51 1455 1503 "ssa_cond_simplify.ml" 51 1455 1511
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 51 1455 1491 "ssa_cond_simplify.ml" 51 1455 1511
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 53 1551 1559 "ssa_cond_simplify.ml" 53 1551 1565
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 53 1551 1574 "ssa_cond_simplify.ml" 53 1551 1577
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ssa_cond_simplify.ml" 48 1361 1377 "ssa_cond_simplify.ml" 48 1361 1390
+)
+"ssa_cond_simplify.ml" 54 1583 1591 "ssa_cond_simplify.ml" 54 1583 1593
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 54 1583 1597 "ssa_cond_simplify.ml" 54 1583 1599
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 55 1600 1608 "ssa_cond_simplify.ml" 55 1600 1611
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 55 1600 1615 "ssa_cond_simplify.ml" 55 1600 1618
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 56 1619 1627 "ssa_cond_simplify.ml" 56 1619 1628
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 56 1619 1632 "ssa_cond_simplify.ml" 56 1619 1640
+type(
+  string -> Type.binop_type
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ssa_cond_simplify.ml" 56 1619 1641 "ssa_cond_simplify.ml" 56 1619 1653
+type(
+  string
+)
+"ssa_cond_simplify.ml" 56 1619 1632 "ssa_cond_simplify.ml" 56 1619 1653
+call(
+  stack
+)
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 53 1551 1568 "ssa_cond_simplify.ml" 56 1619 1653
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 58 1661 1671 "ssa_cond_simplify.ml" 58 1661 1677
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "ssa_cond_simplify.ml" 53 1551 1559 "ssa_cond_simplify.ml" 53 1551 1565
+)
+"ssa_cond_simplify.ml" 58 1661 1679 "ssa_cond_simplify.ml" 58 1661 1681
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 48 1361 1392 "ssa_cond_simplify.ml" 48 1361 1394
+)
+"ssa_cond_simplify.ml" 58 1661 1683 "ssa_cond_simplify.ml" 58 1661 1685
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 48 1361 1396 "ssa_cond_simplify.ml" 48 1361 1398
+)
+"ssa_cond_simplify.ml" 58 1661 1665 "ssa_cond_simplify.ml" 58 1661 1686
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 53 1551 1555 "ssa_cond_simplify.ml" 58 1661 1686
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 51 1455 1486 "ssa_cond_simplify.ml" 58 1661 1686
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 59 1687 1697 "ssa_cond_simplify.ml" 59 1687 1699
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 59 1687 1700 "ssa_cond_simplify.ml" 59 1687 1702
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 59 1687 1697 "ssa_cond_simplify.ml" 59 1687 1702
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 59 1687 1703 "ssa_cond_simplify.ml" 59 1687 1706
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 59 1687 1697 "ssa_cond_simplify.ml" 59 1687 1706
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 59 1687 1707 "ssa_cond_simplify.ml" 59 1687 1710
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 59 1687 1697 "ssa_cond_simplify.ml" 59 1687 1710
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 59 1687 1711 "ssa_cond_simplify.ml" 59 1687 1713
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 59 1687 1697 "ssa_cond_simplify.ml" 59 1687 1713
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 59 1687 1697 "ssa_cond_simplify.ml" 59 1687 1719
+type(
+  Type.binop_type
+)
+ident(
+  def op "ssa_cond_simplify.ml" 65 1883 1887 "ssa_cond_simplify.ml" 69 2063 2087
+)
+"ssa_cond_simplify.ml" 60 1721 1737 "ssa_cond_simplify.ml" 60 1721 1741
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 60 1721 1742 "ssa_cond_simplify.ml" 60 1721 1747
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 60 1721 1737 "ssa_cond_simplify.ml" 60 1721 1747
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 60 1721 1737 "ssa_cond_simplify.ml" 60 1721 1754
+type(
+  Type.binop_type
+)
+ident(
+  def op2 "ssa_cond_simplify.ml" 65 1883 1887 "ssa_cond_simplify.ml" 69 2063 2087
+)
+"ssa_cond_simplify.ml" 61 1756 1772 "ssa_cond_simplify.ml" 61 1756 1773
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 65 1883 1887 "ssa_cond_simplify.ml" 69 2063 2087
+)
+"ssa_cond_simplify.ml" 62 1775 1795 "ssa_cond_simplify.ml" 62 1775 1797
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i1 "ssa_cond_simplify.ml" 65 1883 1887 "ssa_cond_simplify.ml" 69 2063 2087
+)
+"ssa_cond_simplify.ml" 62 1775 1799 "ssa_cond_simplify.ml" 62 1775 1801
+type(
+  Type.typ
+)
+ident(
+  def t1 "ssa_cond_simplify.ml" 65 1883 1887 "ssa_cond_simplify.ml" 69 2063 2087
+)
+"ssa_cond_simplify.ml" 62 1775 1791 "ssa_cond_simplify.ml" 62 1775 1802
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 60 1721 1731 "ssa_cond_simplify.ml" 62 1775 1803
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 63 1805 1819 "ssa_cond_simplify.ml" 63 1805 1821
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i2 "ssa_cond_simplify.ml" 65 1883 1887 "ssa_cond_simplify.ml" 69 2063 2087
+)
+"ssa_cond_simplify.ml" 63 1805 1823 "ssa_cond_simplify.ml" 63 1805 1826
+type(
+  Type.typ
+)
+ident(
+  def _t2 "ssa_cond_simplify.ml" 65 1883 1887 "ssa_cond_simplify.ml" 69 2063 2087
+)
+"ssa_cond_simplify.ml" 63 1805 1815 "ssa_cond_simplify.ml" 63 1805 1827
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 59 1687 1691 "ssa_cond_simplify.ml" 63 1805 1828
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 65 1883 1891 "ssa_cond_simplify.ml" 65 1883 1896
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 65 1883 1905 "ssa_cond_simplify.ml" 65 1883 1908
+type(
+  Type.binop_type
+)
+ident(
+  int_ref op2 "ssa_cond_simplify.ml" 60 1721 1737 "ssa_cond_simplify.ml" 60 1721 1754
+)
+"ssa_cond_simplify.ml" 65 1883 1914 "ssa_cond_simplify.ml" 65 1883 1918
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 65 1883 1922 "ssa_cond_simplify.ml" 65 1883 1927
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 65 1883 1930 "ssa_cond_simplify.ml" 65 1883 1935
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 65 1883 1939 "ssa_cond_simplify.ml" 65 1883 1943
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 65 1883 1946 "ssa_cond_simplify.ml" 65 1883 1947
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 65 1883 1951 "ssa_cond_simplify.ml" 65 1883 1959
+type(
+  string -> Type.binop_type
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ssa_cond_simplify.ml" 65 1883 1960 "ssa_cond_simplify.ml" 65 1883 1972
+type(
+  string
+)
+"ssa_cond_simplify.ml" 65 1883 1951 "ssa_cond_simplify.ml" 65 1883 1972
+call(
+  stack
+)
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 65 1883 1899 "ssa_cond_simplify.ml" 65 1883 1972
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 66 1976 1984 "ssa_cond_simplify.ml" 66 1976 1988
+type(
+  Z.t
+)
+"ssa_cond_simplify.ml" 66 1976 1990 "ssa_cond_simplify.ml" 66 1976 1991
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 66 1976 1984 "ssa_cond_simplify.ml" 66 1976 1991
+type(
+  Z.t * Type.typ
+)
+"ssa_cond_simplify.ml" 66 1976 1994 "ssa_cond_simplify.ml" 66 1976 2010
+type(
+  Type.binop_type ->
+  Big_int_Z.big_int * Type.typ ->
+  Big_int_Z.big_int * Type.typ -> Z.t * Type.typ
+)
+ident(
+  ext_ref Arithmetic.binop
+)
+"ssa_cond_simplify.ml" 66 1976 2011 "ssa_cond_simplify.ml" 66 1976 2016
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newop "ssa_cond_simplify.ml" 65 1883 1891 "ssa_cond_simplify.ml" 65 1883 1896
+)
+"ssa_cond_simplify.ml" 66 1976 2018 "ssa_cond_simplify.ml" 66 1976 2020
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i2 "ssa_cond_simplify.ml" 63 1805 1819 "ssa_cond_simplify.ml" 63 1805 1821
+)
+"ssa_cond_simplify.ml" 66 1976 2021 "ssa_cond_simplify.ml" 66 1976 2023
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ssa_cond_simplify.ml" 62 1775 1799 "ssa_cond_simplify.ml" 62 1775 1801
+)
+"ssa_cond_simplify.ml" 66 1976 2017 "ssa_cond_simplify.ml" 66 1976 2024
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_cond_simplify.ml" 66 1976 2026 "ssa_cond_simplify.ml" 66 1976 2028
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i1 "ssa_cond_simplify.ml" 62 1775 1795 "ssa_cond_simplify.ml" 62 1775 1797
+)
+"ssa_cond_simplify.ml" 66 1976 2029 "ssa_cond_simplify.ml" 66 1976 2031
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ssa_cond_simplify.ml" 62 1775 1799 "ssa_cond_simplify.ml" 62 1775 1801
+)
+"ssa_cond_simplify.ml" 66 1976 2025 "ssa_cond_simplify.ml" 66 1976 2032
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ssa_cond_simplify.ml" 66 1976 1994 "ssa_cond_simplify.ml" 66 1976 2032
+call(
+  stack
+)
+type(
+  Z.t * Type.typ
+)
+"ssa_cond_simplify.ml" 67 2036 2046 "ssa_cond_simplify.ml" 67 2036 2048
+type(
+  Type.binop_type
+)
+ident(
+  int_ref op "ssa_cond_simplify.ml" 59 1687 1697 "ssa_cond_simplify.ml" 59 1687 1719
+)
+"ssa_cond_simplify.ml" 68 2050 2060 "ssa_cond_simplify.ml" 68 2050 2061
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 61 1756 1772 "ssa_cond_simplify.ml" 61 1756 1773
+)
+"ssa_cond_simplify.ml" 69 2063 2077 "ssa_cond_simplify.ml" 69 2063 2081
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref newi "ssa_cond_simplify.ml" 66 1976 1984 "ssa_cond_simplify.ml" 66 1976 1988
+)
+"ssa_cond_simplify.ml" 69 2063 2083 "ssa_cond_simplify.ml" 69 2063 2085
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ssa_cond_simplify.ml" 62 1775 1799 "ssa_cond_simplify.ml" 62 1775 1801
+)
+"ssa_cond_simplify.ml" 69 2063 2073 "ssa_cond_simplify.ml" 69 2063 2086
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 67 2036 2040 "ssa_cond_simplify.ml" 69 2063 2087
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 66 1976 1980 "ssa_cond_simplify.ml" 69 2063 2087
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 65 1883 1887 "ssa_cond_simplify.ml" 69 2063 2087
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 70 2088 2097 "ssa_cond_simplify.ml" 70 2088 2100
+type(
+  Type.unop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2117 "ssa_cond_simplify.ml" 71 2102 2119
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2120 "ssa_cond_simplify.ml" 71 2102 2122
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2117 "ssa_cond_simplify.ml" 71 2102 2122
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2123 "ssa_cond_simplify.ml" 71 2102 2126
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2117 "ssa_cond_simplify.ml" 71 2102 2126
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2127 "ssa_cond_simplify.ml" 71 2102 2130
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2117 "ssa_cond_simplify.ml" 71 2102 2130
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2131 "ssa_cond_simplify.ml" 71 2102 2133
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2117 "ssa_cond_simplify.ml" 71 2102 2133
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2134 "ssa_cond_simplify.ml" 71 2102 2137
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2117 "ssa_cond_simplify.ml" 71 2102 2137
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 71 2102 2117 "ssa_cond_simplify.ml" 71 2102 2144
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ssa_cond_simplify.ml" 73 2194 2198 "ssa_cond_simplify.ml" 81 2372 2397
+)
+"ssa_cond_simplify.ml" 71 2102 2146 "ssa_cond_simplify.ml" 71 2102 2148
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_cond_simplify.ml" 73 2194 2198 "ssa_cond_simplify.ml" 81 2372 2397
+)
+"ssa_cond_simplify.ml" 71 2102 2150 "ssa_cond_simplify.ml" 71 2102 2152
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_cond_simplify.ml" 73 2194 2198 "ssa_cond_simplify.ml" 81 2372 2397
+)
+"ssa_cond_simplify.ml" 71 2102 2111 "ssa_cond_simplify.ml" 71 2102 2153
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 70 2088 2092 "ssa_cond_simplify.ml" 71 2102 2154
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 73 2194 2202 "ssa_cond_simplify.ml" 73 2194 2208
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 73 2194 2217 "ssa_cond_simplify.ml" 73 2194 2220
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ssa_cond_simplify.ml" 71 2102 2117 "ssa_cond_simplify.ml" 71 2102 2144
+)
+"ssa_cond_simplify.ml" 74 2226 2234 "ssa_cond_simplify.ml" 74 2226 2236
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 74 2226 2240 "ssa_cond_simplify.ml" 74 2226 2242
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 75 2243 2251 "ssa_cond_simplify.ml" 75 2243 2253
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 75 2243 2257 "ssa_cond_simplify.ml" 75 2243 2259
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 76 2260 2268 "ssa_cond_simplify.ml" 76 2260 2271
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 76 2260 2275 "ssa_cond_simplify.ml" 76 2260 2278
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 77 2279 2287 "ssa_cond_simplify.ml" 77 2279 2290
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 77 2279 2294 "ssa_cond_simplify.ml" 77 2279 2297
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 78 2298 2306 "ssa_cond_simplify.ml" 78 2298 2308
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 78 2298 2312 "ssa_cond_simplify.ml" 78 2298 2315
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 79 2316 2324 "ssa_cond_simplify.ml" 79 2316 2327
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 79 2316 2331 "ssa_cond_simplify.ml" 79 2316 2333
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 80 2334 2342 "ssa_cond_simplify.ml" 80 2334 2343
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 80 2334 2347 "ssa_cond_simplify.ml" 80 2334 2355
+type(
+  string -> Type.binop_type
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ssa_cond_simplify.ml" 80 2334 2356 "ssa_cond_simplify.ml" 80 2334 2368
+type(
+  string
+)
+"ssa_cond_simplify.ml" 80 2334 2347 "ssa_cond_simplify.ml" 80 2334 2368
+call(
+  stack
+)
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 73 2194 2211 "ssa_cond_simplify.ml" 80 2334 2368
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 81 2372 2382 "ssa_cond_simplify.ml" 81 2372 2388
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "ssa_cond_simplify.ml" 73 2194 2202 "ssa_cond_simplify.ml" 73 2194 2208
+)
+"ssa_cond_simplify.ml" 81 2372 2390 "ssa_cond_simplify.ml" 81 2372 2392
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 71 2102 2150 "ssa_cond_simplify.ml" 71 2102 2152
+)
+"ssa_cond_simplify.ml" 81 2372 2394 "ssa_cond_simplify.ml" 81 2372 2396
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 71 2102 2146 "ssa_cond_simplify.ml" 71 2102 2148
+)
+"ssa_cond_simplify.ml" 81 2372 2376 "ssa_cond_simplify.ml" 81 2372 2397
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 73 2194 2198 "ssa_cond_simplify.ml" 81 2372 2397
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 82 2398 2408 "ssa_cond_simplify.ml" 82 2398 2411
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 83 2413 2428 "ssa_cond_simplify.ml" 83 2413 2437
+type(
+  Type.cast_type
+)
+"ssa_cond_simplify.ml" 83 2413 2443 "ssa_cond_simplify.ml" 83 2413 2444
+type(
+  int
+)
+"ssa_cond_simplify.ml" 83 2413 2439 "ssa_cond_simplify.ml" 83 2413 2444
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 84 2446 2467 "ssa_cond_simplify.ml" 84 2446 2472
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 84 2446 2474 "ssa_cond_simplify.ml" 84 2446 2476
+type(
+  Ssa.exp
+)
+ident(
+  def e1 "ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+)
+"ssa_cond_simplify.ml" 84 2446 2482 "ssa_cond_simplify.ml" 84 2446 2484
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i1 "ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+)
+"ssa_cond_simplify.ml" 84 2446 2486 "ssa_cond_simplify.ml" 84 2446 2488
+type(
+  Type.typ
+)
+ident(
+  def t1 "ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+)
+"ssa_cond_simplify.ml" 84 2446 2478 "ssa_cond_simplify.ml" 84 2446 2489
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 84 2446 2461 "ssa_cond_simplify.ml" 84 2446 2490
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 83 2413 2423 "ssa_cond_simplify.ml" 84 2446 2491
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 85 2493 2508 "ssa_cond_simplify.ml" 85 2493 2517
+type(
+  Type.cast_type
+)
+"ssa_cond_simplify.ml" 85 2493 2523 "ssa_cond_simplify.ml" 85 2493 2524
+type(
+  int
+)
+"ssa_cond_simplify.ml" 85 2493 2519 "ssa_cond_simplify.ml" 85 2493 2524
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 86 2526 2547 "ssa_cond_simplify.ml" 86 2526 2550
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 87 2552 2579 "ssa_cond_simplify.ml" 87 2552 2582
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 87 2552 2584 "ssa_cond_simplify.ml" 87 2552 2586
+type(
+  Ssa.exp
+)
+ident(
+  def e2 "ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+)
+"ssa_cond_simplify.ml" 87 2552 2592 "ssa_cond_simplify.ml" 87 2552 2594
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i2 "ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+)
+"ssa_cond_simplify.ml" 87 2552 2596 "ssa_cond_simplify.ml" 87 2552 2599
+type(
+  Type.typ
+)
+ident(
+  def _t2 "ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+)
+"ssa_cond_simplify.ml" 87 2552 2588 "ssa_cond_simplify.ml" 87 2552 2600
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 87 2552 2573 "ssa_cond_simplify.ml" 87 2552 2601
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 88 2603 2630 "ssa_cond_simplify.ml" 88 2603 2633
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 88 2603 2635 "ssa_cond_simplify.ml" 88 2603 2637
+type(
+  Ssa.exp
+)
+ident(
+  def e3 "ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+)
+"ssa_cond_simplify.ml" 89 2639 2672 "ssa_cond_simplify.ml" 89 2639 2677
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 90 2679 2712 "ssa_cond_simplify.ml" 90 2679 2714
+type(
+  Ssa.exp
+)
+ident(
+  def e4 "ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+)
+"ssa_cond_simplify.ml" 91 2716 2753 "ssa_cond_simplify.ml" 91 2716 2755
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i3 "ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+)
+"ssa_cond_simplify.ml" 91 2716 2757 "ssa_cond_simplify.ml" 91 2716 2760
+type(
+  Type.typ
+)
+ident(
+  def _t3 "ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+)
+"ssa_cond_simplify.ml" 91 2716 2749 "ssa_cond_simplify.ml" 91 2716 2761
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 89 2639 2666 "ssa_cond_simplify.ml" 91 2716 2762
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 88 2603 2624 "ssa_cond_simplify.ml" 91 2716 2763
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 86 2526 2541 "ssa_cond_simplify.ml" 91 2716 2764
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 85 2493 2503 "ssa_cond_simplify.ml" 91 2716 2765
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 82 2398 2402 "ssa_cond_simplify.ml" 91 2716 2766
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 91 2716 2772 "ssa_cond_simplify.ml" 91 2716 2774
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 84 2446 2474 "ssa_cond_simplify.ml" 84 2446 2476
+)
+"ssa_cond_simplify.ml" 91 2716 2775 "ssa_cond_simplify.ml" 91 2716 2776
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_cond_simplify.ml" 91 2716 2777 "ssa_cond_simplify.ml" 91 2716 2779
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 87 2552 2584 "ssa_cond_simplify.ml" 87 2552 2586
+)
+"ssa_cond_simplify.ml" 91 2716 2772 "ssa_cond_simplify.ml" 91 2716 2779
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 91 2716 2780 "ssa_cond_simplify.ml" 91 2716 2782
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_cond_simplify.ml" 91 2716 2783 "ssa_cond_simplify.ml" 91 2716 2785
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e2 "ssa_cond_simplify.ml" 87 2552 2584 "ssa_cond_simplify.ml" 87 2552 2586
+)
+"ssa_cond_simplify.ml" 91 2716 2786 "ssa_cond_simplify.ml" 91 2716 2787
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_cond_simplify.ml" 91 2716 2788 "ssa_cond_simplify.ml" 91 2716 2790
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e3 "ssa_cond_simplify.ml" 88 2603 2635 "ssa_cond_simplify.ml" 88 2603 2637
+)
+"ssa_cond_simplify.ml" 91 2716 2783 "ssa_cond_simplify.ml" 91 2716 2790
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 91 2716 2791 "ssa_cond_simplify.ml" 91 2716 2793
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_cond_simplify.ml" 91 2716 2794 "ssa_cond_simplify.ml" 91 2716 2796
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e3 "ssa_cond_simplify.ml" 88 2603 2635 "ssa_cond_simplify.ml" 88 2603 2637
+)
+"ssa_cond_simplify.ml" 91 2716 2797 "ssa_cond_simplify.ml" 91 2716 2798
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_cond_simplify.ml" 91 2716 2799 "ssa_cond_simplify.ml" 91 2716 2801
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e4 "ssa_cond_simplify.ml" 90 2679 2712 "ssa_cond_simplify.ml" 90 2679 2714
+)
+"ssa_cond_simplify.ml" 91 2716 2794 "ssa_cond_simplify.ml" 91 2716 2801
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 91 2716 2802 "ssa_cond_simplify.ml" 91 2716 2804
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_cond_simplify.ml" 91 2716 2805 "ssa_cond_simplify.ml" 91 2716 2807
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i1 "ssa_cond_simplify.ml" 84 2446 2482 "ssa_cond_simplify.ml" 84 2446 2484
+)
+"ssa_cond_simplify.ml" 91 2716 2808 "ssa_cond_simplify.ml" 91 2716 2809
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_cond_simplify.ml" 91 2716 2810 "ssa_cond_simplify.ml" 91 2716 2812
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i2 "ssa_cond_simplify.ml" 87 2552 2592 "ssa_cond_simplify.ml" 87 2552 2594
+)
+"ssa_cond_simplify.ml" 91 2716 2805 "ssa_cond_simplify.ml" 91 2716 2812
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 91 2716 2813 "ssa_cond_simplify.ml" 91 2716 2815
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_cond_simplify.ml" 91 2716 2816 "ssa_cond_simplify.ml" 91 2716 2818
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i2 "ssa_cond_simplify.ml" 87 2552 2592 "ssa_cond_simplify.ml" 87 2552 2594
+)
+"ssa_cond_simplify.ml" 91 2716 2819 "ssa_cond_simplify.ml" 91 2716 2820
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_cond_simplify.ml" 91 2716 2821 "ssa_cond_simplify.ml" 91 2716 2823
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i3 "ssa_cond_simplify.ml" 91 2716 2753 "ssa_cond_simplify.ml" 91 2716 2755
+)
+"ssa_cond_simplify.ml" 91 2716 2816 "ssa_cond_simplify.ml" 91 2716 2823
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 91 2716 2805 "ssa_cond_simplify.ml" 91 2716 2823
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 91 2716 2794 "ssa_cond_simplify.ml" 91 2716 2823
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 91 2716 2783 "ssa_cond_simplify.ml" 91 2716 2823
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 91 2716 2772 "ssa_cond_simplify.ml" 91 2716 2823
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 93 2883 2893 "ssa_cond_simplify.ml" 93 2883 2896
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 93 2883 2898 "ssa_cond_simplify.ml" 93 2883 2900
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e1 "ssa_cond_simplify.ml" 84 2446 2474 "ssa_cond_simplify.ml" 84 2446 2476
+)
+"ssa_cond_simplify.ml" 93 2883 2906 "ssa_cond_simplify.ml" 93 2883 2908
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i1 "ssa_cond_simplify.ml" 84 2446 2482 "ssa_cond_simplify.ml" 84 2446 2484
+)
+"ssa_cond_simplify.ml" 93 2883 2910 "ssa_cond_simplify.ml" 93 2883 2912
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ssa_cond_simplify.ml" 84 2446 2486 "ssa_cond_simplify.ml" 84 2446 2488
+)
+"ssa_cond_simplify.ml" 93 2883 2902 "ssa_cond_simplify.ml" 93 2883 2913
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 93 2883 2887 "ssa_cond_simplify.ml" 93 2883 2914
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 91 2716 2767 "ssa_cond_simplify.ml" 93 2883 2914
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 94 2915 2925 "ssa_cond_simplify.ml" 94 2915 2927
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 94 2915 2928 "ssa_cond_simplify.ml" 94 2915 2930
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 94 2915 2925 "ssa_cond_simplify.ml" 94 2915 2930
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 94 2915 2931 "ssa_cond_simplify.ml" 94 2915 2933
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 94 2915 2925 "ssa_cond_simplify.ml" 94 2915 2933
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 94 2915 2925 "ssa_cond_simplify.ml" 94 2915 2940
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ssa_cond_simplify.ml" 94 2915 2981 "ssa_cond_simplify.ml" 96 3092 3121
+)
+"ssa_cond_simplify.ml" 94 2915 2946 "ssa_cond_simplify.ml" 94 2915 2947
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_cond_simplify.ml" 94 2915 2981 "ssa_cond_simplify.ml" 96 3092 3121
+)
+"ssa_cond_simplify.ml" 94 2915 2949 "ssa_cond_simplify.ml" 94 2915 2950
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_cond_simplify.ml" 94 2915 2981 "ssa_cond_simplify.ml" 96 3092 3121
+)
+"ssa_cond_simplify.ml" 94 2915 2942 "ssa_cond_simplify.ml" 94 2915 2951
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 94 2915 2958 "ssa_cond_simplify.ml" 94 2915 2971
+type(
+  Type.cast_type
+)
+"ssa_cond_simplify.ml" 94 2915 2973 "ssa_cond_simplify.ml" 94 2915 2975
+type(
+  Type.typ
+)
+ident(
+  def t2 "ssa_cond_simplify.ml" 94 2915 2981 "ssa_cond_simplify.ml" 96 3092 3121
+)
+"ssa_cond_simplify.ml" 94 2915 2977 "ssa_cond_simplify.ml" 94 2915 2978
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 94 2915 2981 "ssa_cond_simplify.ml" 96 3092 3121
+)
+"ssa_cond_simplify.ml" 94 2915 2953 "ssa_cond_simplify.ml" 94 2915 2979
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 94 2915 2919 "ssa_cond_simplify.ml" 94 2915 2980
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 94 2915 2986 "ssa_cond_simplify.ml" 94 2915 2987
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_cond_simplify.ml" 94 2915 2946 "ssa_cond_simplify.ml" 94 2915 2947
+)
+"ssa_cond_simplify.ml" 94 2915 2988 "ssa_cond_simplify.ml" 94 2915 2990
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( <% )
+)
+"ssa_cond_simplify.ml" 94 2915 2992 "ssa_cond_simplify.ml" 94 2915 2995
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"ssa_cond_simplify.ml" 94 2915 2996 "ssa_cond_simplify.ml" 94 2915 2999
+type(
+  Z.t -> int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( <<% )
+)
+"ssa_cond_simplify.ml" 94 2915 3001 "ssa_cond_simplify.ml" 94 2915 3024
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_cond_simplify.ml" 94 2915 3026 "ssa_cond_simplify.ml" 94 2915 3045
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_cond_simplify.ml" 94 2915 3046 "ssa_cond_simplify.ml" 94 2915 3047
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 94 2915 2977 "ssa_cond_simplify.ml" 94 2915 2978
+)
+"ssa_cond_simplify.ml" 94 2915 3025 "ssa_cond_simplify.ml" 94 2915 3048
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 94 2915 3000 "ssa_cond_simplify.ml" 94 2915 3049
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_cond_simplify.ml" 94 2915 2991 "ssa_cond_simplify.ml" 94 2915 3050
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_cond_simplify.ml" 94 2915 2986 "ssa_cond_simplify.ml" 94 2915 3050
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 95 3054 3062 "ssa_cond_simplify.ml" 95 3054 3064
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 95 3054 3067 "ssa_cond_simplify.ml" 95 3054 3086
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_cond_simplify.ml" 95 3054 3087 "ssa_cond_simplify.ml" 95 3054 3088
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 94 2915 2977 "ssa_cond_simplify.ml" 94 2915 2978
+)
+"ssa_cond_simplify.ml" 95 3054 3067 "ssa_cond_simplify.ml" 95 3054 3088
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 96 3092 3102 "ssa_cond_simplify.ml" 96 3092 3105
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ssa_cond_simplify.ml" 94 2915 2925 "ssa_cond_simplify.ml" 94 2915 2940
+)
+"ssa_cond_simplify.ml" 96 3092 3111 "ssa_cond_simplify.ml" 96 3092 3112
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_cond_simplify.ml" 94 2915 2946 "ssa_cond_simplify.ml" 94 2915 2947
+)
+"ssa_cond_simplify.ml" 96 3092 3114 "ssa_cond_simplify.ml" 96 3092 3116
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "ssa_cond_simplify.ml" 95 3054 3062 "ssa_cond_simplify.ml" 95 3054 3064
+)
+"ssa_cond_simplify.ml" 96 3092 3107 "ssa_cond_simplify.ml" 96 3092 3117
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 96 3092 3119 "ssa_cond_simplify.ml" 96 3092 3120
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 94 2915 2977 "ssa_cond_simplify.ml" 94 2915 2978
+)
+"ssa_cond_simplify.ml" 96 3092 3096 "ssa_cond_simplify.ml" 96 3092 3121
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 95 3054 3058 "ssa_cond_simplify.ml" 96 3092 3121
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 94 2915 2981 "ssa_cond_simplify.ml" 96 3092 3121
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 98 3196 3206 "ssa_cond_simplify.ml" 98 3196 3208
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 98 3196 3209 "ssa_cond_simplify.ml" 98 3196 3211
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 98 3196 3206 "ssa_cond_simplify.ml" 98 3196 3211
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 98 3196 3206 "ssa_cond_simplify.ml" 98 3196 3218
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ssa_cond_simplify.ml" 98 3196 3257 "ssa_cond_simplify.ml" 100 3419 3448
+)
+"ssa_cond_simplify.ml" 98 3196 3224 "ssa_cond_simplify.ml" 98 3196 3225
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ssa_cond_simplify.ml" 98 3196 3257 "ssa_cond_simplify.ml" 100 3419 3448
+)
+"ssa_cond_simplify.ml" 98 3196 3227 "ssa_cond_simplify.ml" 98 3196 3228
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_cond_simplify.ml" 98 3196 3257 "ssa_cond_simplify.ml" 100 3419 3448
+)
+"ssa_cond_simplify.ml" 98 3196 3220 "ssa_cond_simplify.ml" 98 3196 3229
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 98 3196 3236 "ssa_cond_simplify.ml" 98 3196 3247
+type(
+  Type.cast_type
+)
+"ssa_cond_simplify.ml" 98 3196 3249 "ssa_cond_simplify.ml" 98 3196 3251
+type(
+  Type.typ
+)
+ident(
+  def t2 "ssa_cond_simplify.ml" 98 3196 3257 "ssa_cond_simplify.ml" 100 3419 3448
+)
+"ssa_cond_simplify.ml" 98 3196 3253 "ssa_cond_simplify.ml" 98 3196 3254
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 98 3196 3257 "ssa_cond_simplify.ml" 100 3419 3448
+)
+"ssa_cond_simplify.ml" 98 3196 3231 "ssa_cond_simplify.ml" 98 3196 3255
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 98 3196 3200 "ssa_cond_simplify.ml" 98 3196 3256
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 98 3196 3262 "ssa_cond_simplify.ml" 98 3196 3263
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_cond_simplify.ml" 98 3196 3224 "ssa_cond_simplify.ml" 98 3196 3225
+)
+"ssa_cond_simplify.ml" 98 3196 3264 "ssa_cond_simplify.ml" 98 3196 3266
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( <% )
+)
+"ssa_cond_simplify.ml" 98 3196 3268 "ssa_cond_simplify.ml" 98 3196 3271
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"ssa_cond_simplify.ml" 98 3196 3272 "ssa_cond_simplify.ml" 98 3196 3275
+type(
+  Z.t -> int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( <<% )
+)
+"ssa_cond_simplify.ml" 98 3196 3277 "ssa_cond_simplify.ml" 98 3196 3300
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_cond_simplify.ml" 98 3196 3302 "ssa_cond_simplify.ml" 98 3196 3321
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_cond_simplify.ml" 98 3196 3322 "ssa_cond_simplify.ml" 98 3196 3323
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 98 3196 3253 "ssa_cond_simplify.ml" 98 3196 3254
+)
+"ssa_cond_simplify.ml" 98 3196 3301 "ssa_cond_simplify.ml" 98 3196 3324
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 98 3196 3276 "ssa_cond_simplify.ml" 98 3196 3325
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_cond_simplify.ml" 98 3196 3267 "ssa_cond_simplify.ml" 98 3196 3326
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_cond_simplify.ml" 98 3196 3262 "ssa_cond_simplify.ml" 98 3196 3326
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 98 3196 3327 "ssa_cond_simplify.ml" 98 3196 3329
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ssa_cond_simplify.ml" 98 3196 3330 "ssa_cond_simplify.ml" 98 3196 3331
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_cond_simplify.ml" 98 3196 3224 "ssa_cond_simplify.ml" 98 3196 3225
+)
+"ssa_cond_simplify.ml" 98 3196 3332 "ssa_cond_simplify.ml" 98 3196 3334
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( <% )
+)
+"ssa_cond_simplify.ml" 98 3196 3336 "ssa_cond_simplify.ml" 98 3196 3339
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"ssa_cond_simplify.ml" 98 3196 3340 "ssa_cond_simplify.ml" 98 3196 3343
+type(
+  Z.t -> int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( <<% )
+)
+"ssa_cond_simplify.ml" 98 3196 3345 "ssa_cond_simplify.ml" 98 3196 3368
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_cond_simplify.ml" 98 3196 3369 "ssa_cond_simplify.ml" 98 3196 3371
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ssa_cond_simplify.ml" 98 3196 3249 "ssa_cond_simplify.ml" 98 3196 3251
+)
+"ssa_cond_simplify.ml" 98 3196 3345 "ssa_cond_simplify.ml" 98 3196 3371
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_cond_simplify.ml" 98 3196 3372 "ssa_cond_simplify.ml" 98 3196 3373
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ssa_cond_simplify.ml" 98 3196 3374 "ssa_cond_simplify.ml" 98 3196 3375
+type(
+  int
+)
+"ssa_cond_simplify.ml" 98 3196 3344 "ssa_cond_simplify.ml" 98 3196 3376
+type(
+  int
+)
+"ssa_cond_simplify.ml" 98 3196 3335 "ssa_cond_simplify.ml" 98 3196 3377
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ssa_cond_simplify.ml" 98 3196 3330 "ssa_cond_simplify.ml" 98 3196 3377
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 98 3196 3262 "ssa_cond_simplify.ml" 98 3196 3377
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 99 3381 3389 "ssa_cond_simplify.ml" 99 3381 3391
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 99 3381 3394 "ssa_cond_simplify.ml" 99 3381 3413
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_cond_simplify.ml" 99 3381 3414 "ssa_cond_simplify.ml" 99 3381 3415
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 98 3196 3253 "ssa_cond_simplify.ml" 98 3196 3254
+)
+"ssa_cond_simplify.ml" 99 3381 3394 "ssa_cond_simplify.ml" 99 3381 3415
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 100 3419 3429 "ssa_cond_simplify.ml" 100 3419 3432
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ssa_cond_simplify.ml" 98 3196 3206 "ssa_cond_simplify.ml" 98 3196 3218
+)
+"ssa_cond_simplify.ml" 100 3419 3438 "ssa_cond_simplify.ml" 100 3419 3439
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ssa_cond_simplify.ml" 98 3196 3224 "ssa_cond_simplify.ml" 98 3196 3225
+)
+"ssa_cond_simplify.ml" 100 3419 3441 "ssa_cond_simplify.ml" 100 3419 3443
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "ssa_cond_simplify.ml" 99 3381 3389 "ssa_cond_simplify.ml" 99 3381 3391
+)
+"ssa_cond_simplify.ml" 100 3419 3434 "ssa_cond_simplify.ml" 100 3419 3444
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 100 3419 3446 "ssa_cond_simplify.ml" 100 3419 3447
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 98 3196 3253 "ssa_cond_simplify.ml" 98 3196 3254
+)
+"ssa_cond_simplify.ml" 100 3419 3423 "ssa_cond_simplify.ml" 100 3419 3448
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 99 3381 3385 "ssa_cond_simplify.ml" 100 3419 3448
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 98 3196 3257 "ssa_cond_simplify.ml" 100 3419 3448
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 101 3449 3458 "ssa_cond_simplify.ml" 101 3449 3466
+type(
+  Type.cast_type
+)
+"ssa_cond_simplify.ml" 101 3449 3468 "ssa_cond_simplify.ml" 101 3449 3470
+type(
+  Type.typ
+)
+ident(
+  def t2 "ssa_cond_simplify.ml" 101 3449 3499 "ssa_cond_simplify.ml" 102 3563 3593
+)
+"ssa_cond_simplify.ml" 101 3449 3477 "ssa_cond_simplify.ml" 101 3449 3490
+type(
+  Type.cast_type
+)
+"ssa_cond_simplify.ml" 101 3449 3492 "ssa_cond_simplify.ml" 101 3449 3493
+type(
+  Type.typ
+)
+ident(
+  def t "ssa_cond_simplify.ml" 101 3449 3499 "ssa_cond_simplify.ml" 102 3563 3593
+)
+"ssa_cond_simplify.ml" 101 3449 3495 "ssa_cond_simplify.ml" 101 3449 3496
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 101 3449 3499 "ssa_cond_simplify.ml" 102 3563 3593
+)
+"ssa_cond_simplify.ml" 101 3449 3472 "ssa_cond_simplify.ml" 101 3449 3497
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 101 3449 3453 "ssa_cond_simplify.ml" 101 3449 3498
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 101 3449 3504 "ssa_cond_simplify.ml" 101 3449 3527
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_cond_simplify.ml" 101 3449 3528 "ssa_cond_simplify.ml" 101 3449 3529
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ssa_cond_simplify.ml" 101 3449 3492 "ssa_cond_simplify.ml" 101 3449 3493
+)
+"ssa_cond_simplify.ml" 101 3449 3504 "ssa_cond_simplify.ml" 101 3449 3529
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_cond_simplify.ml" 101 3449 3530 "ssa_cond_simplify.ml" 101 3449 3532
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ssa_cond_simplify.ml" 101 3449 3533 "ssa_cond_simplify.ml" 101 3449 3556
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ssa_cond_simplify.ml" 101 3449 3557 "ssa_cond_simplify.ml" 101 3449 3559
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ssa_cond_simplify.ml" 101 3449 3468 "ssa_cond_simplify.ml" 101 3449 3470
+)
+"ssa_cond_simplify.ml" 101 3449 3533 "ssa_cond_simplify.ml" 101 3449 3559
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_cond_simplify.ml" 101 3449 3504 "ssa_cond_simplify.ml" 101 3449 3559
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 102 3563 3572 "ssa_cond_simplify.ml" 102 3563 3585
+type(
+  Type.cast_type
+)
+"ssa_cond_simplify.ml" 102 3563 3587 "ssa_cond_simplify.ml" 102 3563 3589
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ssa_cond_simplify.ml" 101 3449 3468 "ssa_cond_simplify.ml" 101 3449 3470
+)
+"ssa_cond_simplify.ml" 102 3563 3591 "ssa_cond_simplify.ml" 102 3563 3592
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 101 3449 3495 "ssa_cond_simplify.ml" 101 3449 3496
+)
+"ssa_cond_simplify.ml" 102 3563 3567 "ssa_cond_simplify.ml" 102 3563 3593
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 101 3449 3499 "ssa_cond_simplify.ml" 102 3563 3593
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 104 3612 3621 "ssa_cond_simplify.ml" 104 3612 3622
+type(
+  Type.cast_type
+)
+"ssa_cond_simplify.ml" 104 3612 3624 "ssa_cond_simplify.ml" 104 3612 3626
+type(
+  Type.typ
+)
+ident(
+  def t2 "ssa_cond_simplify.ml" 104 3612 3631 "ssa_cond_simplify.ml" 105 3666 3671
+)
+"ssa_cond_simplify.ml" 104 3612 3628 "ssa_cond_simplify.ml" 104 3612 3629
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 104 3612 3631 "ssa_cond_simplify.ml" 105 3666 3671
+)
+"ssa_cond_simplify.ml" 104 3612 3616 "ssa_cond_simplify.ml" 104 3612 3630
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 104 3612 3636 "ssa_cond_simplify.ml" 104 3612 3638
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ssa_cond_simplify.ml" 104 3612 3624 "ssa_cond_simplify.ml" 104 3612 3626
+)
+"ssa_cond_simplify.ml" 104 3612 3639 "ssa_cond_simplify.ml" 104 3612 3640
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_cond_simplify.ml" 104 3612 3641 "ssa_cond_simplify.ml" 104 3612 3660
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ssa
+)
+"ssa_cond_simplify.ml" 104 3612 3661 "ssa_cond_simplify.ml" 104 3612 3662
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 104 3612 3628 "ssa_cond_simplify.ml" 104 3612 3629
+)
+"ssa_cond_simplify.ml" 104 3612 3641 "ssa_cond_simplify.ml" 104 3612 3662
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ssa_cond_simplify.ml" 104 3612 3636 "ssa_cond_simplify.ml" 104 3612 3662
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 105 3666 3670 "ssa_cond_simplify.ml" 105 3666 3671
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 104 3612 3628 "ssa_cond_simplify.ml" 104 3612 3629
+)
+"ssa_cond_simplify.ml" 104 3612 3631 "ssa_cond_simplify.ml" 105 3666 3671
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 106 3672 3676 "ssa_cond_simplify.ml" 106 3672 3677
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 106 3672 3681 "ssa_cond_simplify.ml" 106 3672 3682
+)
+"ssa_cond_simplify.ml" 106 3672 3681 "ssa_cond_simplify.ml" 106 3672 3682
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 106 3672 3676 "ssa_cond_simplify.ml" 106 3672 3677
+)
+"ssa_cond_simplify.ml" 37 1083 1103 "ssa_cond_simplify.ml" 106 3672 3682
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_cond_simplify.ml" 108 3684 3688 "ssa_cond_simplify.ml" 108 3684 3701
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  def simplify_flat "ssa_cond_simplify.ml" 116 3896 3896 --
+)
+"ssa_cond_simplify.ml" 108 3684 3702 "ssa_cond_simplify.ml" 108 3684 3703
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 109 3706 3708 "ssa_cond_simplify.ml" 114 3872 3894
+)
+"ssa_cond_simplify.ml" 109 3706 3711 "ssa_cond_simplify.ml" 109 3706 3716
+type(
+  unit -> bool
+)
+ident(
+  ext_ref D.debug
+)
+"ssa_cond_simplify.ml" 109 3706 3717 "ssa_cond_simplify.ml" 109 3706 3719
+type(
+  unit
+)
+"ssa_cond_simplify.ml" 109 3706 3711 "ssa_cond_simplify.ml" 109 3706 3719
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 110 3725 3733 "ssa_cond_simplify.ml" 110 3725 3735
+type(
+  Ssa.exp
+)
+ident(
+  def e' "ssa_cond_simplify.ml" 111 3757 3761 "ssa_cond_simplify.ml" 113 3865 3871
+)
+"ssa_cond_simplify.ml" 110 3725 3738 "ssa_cond_simplify.ml" 110 3725 3751
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref simplify_flat "ssa_cond_simplify.ml" 37 1083 1087 "ssa_cond_simplify.ml" 37 1083 1100
+)
+"ssa_cond_simplify.ml" 110 3725 3752 "ssa_cond_simplify.ml" 110 3725 3753
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 108 3684 3702 "ssa_cond_simplify.ml" 108 3684 3703
+)
+"ssa_cond_simplify.ml" 110 3725 3738 "ssa_cond_simplify.ml" 110 3725 3753
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 111 3757 3764 "ssa_cond_simplify.ml" 111 3757 3765
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 108 3684 3702 "ssa_cond_simplify.ml" 108 3684 3703
+)
+"ssa_cond_simplify.ml" 111 3757 3766 "ssa_cond_simplify.ml" 111 3757 3768
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ssa_cond_simplify.ml" 111 3757 3769 "ssa_cond_simplify.ml" 111 3757 3771
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 110 3725 3733 "ssa_cond_simplify.ml" 110 3725 3735
+)
+"ssa_cond_simplify.ml" 111 3757 3764 "ssa_cond_simplify.ml" 111 3757 3771
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 112 3777 3783 "ssa_cond_simplify.ml" 112 3777 3790
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"ssa_cond_simplify.ml" 112 3777 3791 "ssa_cond_simplify.ml" 112 3777 3812
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"ssa_cond_simplify.ml" 112 3777 3814 "ssa_cond_simplify.ml" 112 3777 3834
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"ssa_cond_simplify.ml" 112 3777 3835 "ssa_cond_simplify.ml" 112 3777 3836
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 108 3684 3702 "ssa_cond_simplify.ml" 108 3684 3703
+)
+"ssa_cond_simplify.ml" 112 3777 3813 "ssa_cond_simplify.ml" 112 3777 3837
+call(
+  stack
+)
+type(
+  string
+)
+"ssa_cond_simplify.ml" 112 3777 3839 "ssa_cond_simplify.ml" 112 3777 3859
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"ssa_cond_simplify.ml" 112 3777 3860 "ssa_cond_simplify.ml" 112 3777 3862
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 110 3725 3733 "ssa_cond_simplify.ml" 110 3725 3735
+)
+"ssa_cond_simplify.ml" 112 3777 3838 "ssa_cond_simplify.ml" 112 3777 3863
+call(
+  stack
+)
+type(
+  string
+)
+"ssa_cond_simplify.ml" 112 3777 3783 "ssa_cond_simplify.ml" 112 3777 3863
+call(
+  stack
+)
+type(
+  unit
+)
+"ssa_cond_simplify.ml" 111 3757 3761 "ssa_cond_simplify.ml" 112 3777 3863
+type(
+  unit
+)
+"ssa_cond_simplify.ml" 113 3865 3869 "ssa_cond_simplify.ml" 113 3865 3871
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 110 3725 3733 "ssa_cond_simplify.ml" 110 3725 3735
+)
+"ssa_cond_simplify.ml" 111 3757 3761 "ssa_cond_simplify.ml" 113 3865 3871
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 110 3725 3729 "ssa_cond_simplify.ml" 113 3865 3871
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 114 3872 3879 "ssa_cond_simplify.ml" 114 3872 3892
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref simplify_flat "ssa_cond_simplify.ml" 37 1083 1087 "ssa_cond_simplify.ml" 37 1083 1100
+)
+"ssa_cond_simplify.ml" 114 3872 3893 "ssa_cond_simplify.ml" 114 3872 3894
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 108 3684 3702 "ssa_cond_simplify.ml" 108 3684 3703
+)
+"ssa_cond_simplify.ml" 114 3872 3879 "ssa_cond_simplify.ml" 114 3872 3894
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 109 3706 3708 "ssa_cond_simplify.ml" 114 3872 3894
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 116 3896 3900 "ssa_cond_simplify.ml" 116 3896 3912
+type(
+  C.exp -> C.exp
+)
+ident(
+  def simplify_exp "ssa_cond_simplify.ml" 118 3944 3944 --
+)
+"ssa_cond_simplify.ml" 116 3896 3915 "ssa_cond_simplify.ml" 116 3896 3928
+type(
+  (C.exp -> C.exp) -> C.exp -> C.exp
+)
+ident(
+  int_ref reverse_visit "ssa_cond_simplify.ml" 20 476 484 "ssa_cond_simplify.ml" 20 476 497
+)
+"ssa_cond_simplify.ml" 116 3896 3929 "ssa_cond_simplify.ml" 116 3896 3942
+type(
+  C.exp -> C.exp
+)
+ident(
+  int_ref simplify_flat "ssa_cond_simplify.ml" 108 3684 3688 "ssa_cond_simplify.ml" 108 3684 3701
+)
+"ssa_cond_simplify.ml" 116 3896 3915 "ssa_cond_simplify.ml" 116 3896 3942
+call(
+  stack
+)
+type(
+  C.exp -> C.exp
+)
+"ssa_cond_simplify.ml" 118 3944 3948 "ssa_cond_simplify.ml" 118 3944 3964
+type(
+  ?goodvars:VS.t -> C.G.t -> C.G.t
+)
+ident(
+  def simplifycond_ssa "ssa_cond_simplify.ml" 159 5478 5478 --
+)
+"ssa_cond_simplify.ml" 118 3944 3966 "ssa_cond_simplify.ml" 118 3944 3974
+type(
+  VS.t option
+)
+ident(
+  def goodvars "ssa_cond_simplify.ml" 118 3944 3975 "ssa_cond_simplify.ml" 157 5469 5476
+)
+"ssa_cond_simplify.ml" 118 3944 3975 "ssa_cond_simplify.ml" 118 3944 3976
+type(
+  C.G.t
+)
+ident(
+  def g "ssa_cond_simplify.ml" 122 4151 4153 "ssa_cond_simplify.ml" 157 5469 5476
+)
+"ssa_cond_simplify.ml" 122 4151 4157 "ssa_cond_simplify.ml" 122 4151 4168
+type(
+  Ssa.exp -> bool
+)
+"ssa_cond_simplify.ml" 123 4171 4191 "ssa_cond_simplify.ml" 123 4171 4192
+type(
+  Type.typ
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 123 4171 4186 "ssa_cond_simplify.ml" 123 4171 4192
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 123 4171 4201 "ssa_cond_simplify.ml" 123 4171 4202
+type(
+  Type.typ
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 123 4171 4195 "ssa_cond_simplify.ml" 123 4171 4202
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 123 4171 4186 "ssa_cond_simplify.ml" 123 4171 4202
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 123 4171 4206 "ssa_cond_simplify.ml" 123 4171 4210
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 123 4171 4213 "ssa_cond_simplify.ml" 123 4171 4214
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 123 4171 4218 "ssa_cond_simplify.ml" 123 4171 4223
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 123 4171 4175 "ssa_cond_simplify.ml" 123 4171 4223
+type(
+  Ssa.exp -> bool
+)
+"ssa_cond_simplify.ml" 125 4229 4235 "ssa_cond_simplify.ml" 125 4229 4245
+type(
+  Ssa.exp -> bool
+)
+"ssa_cond_simplify.ml" 125 4229 4254 "ssa_cond_simplify.ml" 125 4229 4262
+type(
+  VS.t option
+)
+ident(
+  int_ref goodvars "ssa_cond_simplify.ml" 118 3944 3966 "ssa_cond_simplify.ml" 118 3944 3974
+)
+"ssa_cond_simplify.ml" 126 4268 4279 "ssa_cond_simplify.ml" 126 4268 4287
+type(
+  VS.t
+)
+ident(
+  def goodvars "ssa_cond_simplify.ml" 127 4291 4297 "ssa_cond_simplify.ml" 129 4354 4375
+)
+"ssa_cond_simplify.ml" 126 4268 4274 "ssa_cond_simplify.ml" 126 4268 4287
+type(
+  VS.t option
+)
+"ssa_cond_simplify.ml" 128 4307 4321 "ssa_cond_simplify.ml" 128 4307 4322
+type(
+  Ssa.var
+)
+ident(
+  def v "ssa_cond_simplify.ml" 128 4307 4323 "ssa_cond_simplify.ml" 128 4307 4353
+)
+"ssa_cond_simplify.ml" 128 4307 4317 "ssa_cond_simplify.ml" 128 4307 4322
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 128 4307 4328 "ssa_cond_simplify.ml" 128 4307 4334
+type(
+  VS.elt -> VS.t -> bool
+)
+ident(
+  ext_ref VS.mem
+)
+"ssa_cond_simplify.ml" 128 4307 4335 "ssa_cond_simplify.ml" 128 4307 4336
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "ssa_cond_simplify.ml" 128 4307 4321 "ssa_cond_simplify.ml" 128 4307 4322
+)
+"ssa_cond_simplify.ml" 128 4307 4337 "ssa_cond_simplify.ml" 128 4307 4345
+type(
+  VS.t
+)
+ident(
+  int_ref goodvars "ssa_cond_simplify.ml" 126 4268 4279 "ssa_cond_simplify.ml" 126 4268 4287
+)
+"ssa_cond_simplify.ml" 128 4307 4328 "ssa_cond_simplify.ml" 128 4307 4345
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 128 4307 4349 "ssa_cond_simplify.ml" 128 4307 4353
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 128 4307 4323 "ssa_cond_simplify.ml" 128 4307 4353
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 129 4354 4364 "ssa_cond_simplify.ml" 129 4354 4365
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 129 4354 4369 "ssa_cond_simplify.ml" 129 4354 4374
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 127 4291 4297 "ssa_cond_simplify.ml" 129 4354 4375
+type(
+  Ssa.exp -> bool
+)
+"ssa_cond_simplify.ml" 130 4376 4382 "ssa_cond_simplify.ml" 130 4376 4386
+type(
+  VS.t option
+)
+"ssa_cond_simplify.ml" 130 4376 4395 "ssa_cond_simplify.ml" 130 4376 4396
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 130 4376 4400 "ssa_cond_simplify.ml" 130 4376 4405
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 130 4376 4390 "ssa_cond_simplify.ml" 130 4376 4406
+type(
+  Ssa.exp -> bool
+)
+"ssa_cond_simplify.ml" 125 4229 4248 "ssa_cond_simplify.ml" 130 4376 4406
+type(
+  Ssa.exp -> bool
+)
+"ssa_cond_simplify.ml" 132 4412 4418 "ssa_cond_simplify.ml" 132 4412 4419
+type(
+  Ssa.exp Var.VarMap.t lazy_t
+)
+"ssa_cond_simplify.ml" 132 4412 4421 "ssa_cond_simplify.ml" 132 4412 4422
+type(
+  Ssa.exp Var.VarMap.t
+)
+"ssa_cond_simplify.ml" 132 4412 4424 "ssa_cond_simplify.ml" 132 4412 4432
+type(
+  Ssa.exp -> Ssa.exp
+)
+"ssa_cond_simplify.ml" 132 4412 4418 "ssa_cond_simplify.ml" 132 4412 4432
+type(
+  Ssa.exp Var.VarMap.t lazy_t * Ssa.exp Var.VarMap.t * (Ssa.exp -> Ssa.exp)
+)
+"ssa_cond_simplify.ml" 132 4412 4435 "ssa_cond_simplify.ml" 132 4412 4457
+type(
+  ?stop_before:(Ssa.exp -> bool) ->
+  ?stop_after:(Ssa.exp -> bool) ->
+  C.G.t ->
+  Ssa.exp Var.VarMap.t lazy_t * Ssa.exp Var.VarMap.t * (Ssa.exp -> Ssa.exp)
+)
+ident(
+  ext_ref Copy_prop.copyprop_ssa
+)
+"ssa_cond_simplify.ml" 132 4412 4459 "ssa_cond_simplify.ml" 132 4412 4470
+type(
+  Ssa.exp -> bool
+)
+ident(
+  int_ref stop_before "ssa_cond_simplify.ml" 122 4151 4157 "ssa_cond_simplify.ml" 122 4151 4168
+)
+"ssa_cond_simplify.ml" 132 4412 4472 "ssa_cond_simplify.ml" 132 4412 4482
+type(
+  Ssa.exp -> bool
+)
+ident(
+  int_ref stop_after "ssa_cond_simplify.ml" 125 4229 4235 "ssa_cond_simplify.ml" 125 4229 4245
+)
+"ssa_cond_simplify.ml" 132 4412 4483 "ssa_cond_simplify.ml" 132 4412 4484
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 118 3944 3975 "ssa_cond_simplify.ml" 118 3944 3976
+)
+"ssa_cond_simplify.ml" 132 4412 4435 "ssa_cond_simplify.ml" 132 4412 4484
+call(
+  stack
+)
+type(
+  Ssa.exp Var.VarMap.t lazy_t * Ssa.exp Var.VarMap.t * (Ssa.exp -> Ssa.exp)
+)
+"ssa_cond_simplify.ml" 134 4489 4491 "ssa_cond_simplify.ml" 134 4489 4506
+type(
+  (C.G.vertex -> C.G.t -> C.G.t) -> C.G.t -> C.G.t -> C.G.t
+)
+ident(
+  ext_ref C.G.fold_vertex
+)
+"ssa_cond_simplify.ml" 134 4489 4512 "ssa_cond_simplify.ml" 134 4489 4513
+type(
+  C.G.vertex
+)
+ident(
+  def v "ssa_cond_simplify.ml" 134 4489 4514 "ssa_cond_simplify.ml" 156 5456 5468
+)
+"ssa_cond_simplify.ml" 134 4489 4514 "ssa_cond_simplify.ml" 134 4489 4515
+type(
+  C.G.t
+)
+ident(
+  def g "ssa_cond_simplify.ml" 135 4519 4523 "ssa_cond_simplify.ml" 156 5456 5468
+)
+"ssa_cond_simplify.ml" 135 4519 4527 "ssa_cond_simplify.ml" 135 4519 4532
+type(
+  C.lang
+)
+"ssa_cond_simplify.ml" 135 4519 4535 "ssa_cond_simplify.ml" 135 4519 4546
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"ssa_cond_simplify.ml" 135 4519 4547 "ssa_cond_simplify.ml" 135 4519 4548
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 134 4489 4514 "ssa_cond_simplify.ml" 134 4489 4515
+)
+"ssa_cond_simplify.ml" 135 4519 4549 "ssa_cond_simplify.ml" 135 4519 4550
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "ssa_cond_simplify.ml" 134 4489 4512 "ssa_cond_simplify.ml" 134 4489 4513
+)
+"ssa_cond_simplify.ml" 135 4519 4535 "ssa_cond_simplify.ml" 135 4519 4550
+call(
+  stack
+)
+type(
+  C.lang
+)
+"ssa_cond_simplify.ml" 136 4554 4564 "ssa_cond_simplify.ml" 136 4554 4572
+type(
+  C.lang -> C.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"ssa_cond_simplify.ml" 136 4554 4573 "ssa_cond_simplify.ml" 136 4554 4578
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "ssa_cond_simplify.ml" 135 4519 4527 "ssa_cond_simplify.ml" 135 4519 4532
+)
+"ssa_cond_simplify.ml" 136 4554 4564 "ssa_cond_simplify.ml" 136 4554 4578
+call(
+  stack
+)
+type(
+  C.stmt list
+)
+"ssa_cond_simplify.ml" 137 4584 4595 "ssa_cond_simplify.ml" 137 4584 4596
+type(
+  Ssa.exp
+)
+ident(
+  def e "ssa_cond_simplify.ml" 138 4616 4622 "ssa_cond_simplify.ml" 155 5442 5455
+)
+"ssa_cond_simplify.ml" 137 4584 4598 "ssa_cond_simplify.ml" 137 4584 4600
+type(
+  Ssa.exp
+)
+ident(
+  def tt "ssa_cond_simplify.ml" 138 4616 4622 "ssa_cond_simplify.ml" 155 5442 5455
+)
+"ssa_cond_simplify.ml" 137 4584 4602 "ssa_cond_simplify.ml" 137 4584 4604
+type(
+  Ssa.exp
+)
+ident(
+  def tf "ssa_cond_simplify.ml" 138 4616 4622 "ssa_cond_simplify.ml" 155 5442 5455
+)
+"ssa_cond_simplify.ml" 137 4584 4606 "ssa_cond_simplify.ml" 137 4584 4607
+type(
+  Ssa.attrs
+)
+ident(
+  def a "ssa_cond_simplify.ml" 138 4616 4622 "ssa_cond_simplify.ml" 155 5442 5455
+)
+"ssa_cond_simplify.ml" 137 4584 4590 "ssa_cond_simplify.ml" 137 4584 4608
+type(
+  C.stmt
+)
+"ssa_cond_simplify.ml" 137 4584 4610 "ssa_cond_simplify.ml" 137 4584 4612
+type(
+  C.stmt list
+)
+ident(
+  def tl "ssa_cond_simplify.ml" 138 4616 4622 "ssa_cond_simplify.ml" 155 5442 5455
+)
+"ssa_cond_simplify.ml" 137 4584 4590 "ssa_cond_simplify.ml" 137 4584 4612
+type(
+  C.stmt list
+)
+"ssa_cond_simplify.ml" 138 4616 4626 "ssa_cond_simplify.ml" 138 4616 4629
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 138 4616 4632 "ssa_cond_simplify.ml" 138 4616 4640
+type(
+  Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref copyprop "ssa_cond_simplify.ml" 132 4412 4424 "ssa_cond_simplify.ml" 132 4412 4432
+)
+"ssa_cond_simplify.ml" 138 4616 4641 "ssa_cond_simplify.ml" 138 4616 4642
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 137 4584 4595 "ssa_cond_simplify.ml" 137 4584 4596
+)
+"ssa_cond_simplify.ml" 138 4616 4632 "ssa_cond_simplify.ml" 138 4616 4642
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 139 4646 4656 "ssa_cond_simplify.ml" 139 4646 4658
+type(
+  C.exp
+)
+"ssa_cond_simplify.ml" 139 4646 4661 "ssa_cond_simplify.ml" 139 4646 4673
+type(
+  C.exp -> C.exp
+)
+ident(
+  int_ref simplify_exp "ssa_cond_simplify.ml" 116 3896 3900 "ssa_cond_simplify.ml" 116 3896 3912
+)
+"ssa_cond_simplify.ml" 139 4646 4674 "ssa_cond_simplify.ml" 139 4646 4677
+type(
+  C.exp
+)
+ident(
+  int_ref cpe "ssa_cond_simplify.ml" 138 4616 4626 "ssa_cond_simplify.ml" 138 4616 4629
+)
+"ssa_cond_simplify.ml" 139 4646 4661 "ssa_cond_simplify.ml" 139 4646 4677
+call(
+  stack
+)
+type(
+  C.exp
+)
+"ssa_cond_simplify.ml" 140 4681 4687 "ssa_cond_simplify.ml" 140 4681 4694
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"ssa_cond_simplify.ml" 140 4681 4695 "ssa_cond_simplify.ml" 140 4681 4726
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4
+)
+"ssa_cond_simplify.ml" 140 4681 4728 "ssa_cond_simplify.ml" 140 4681 4748
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"ssa_cond_simplify.ml" 140 4681 4749 "ssa_cond_simplify.ml" 140 4681 4750
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 137 4584 4595 "ssa_cond_simplify.ml" 137 4584 4596
+)
+"ssa_cond_simplify.ml" 140 4681 4727 "ssa_cond_simplify.ml" 140 4681 4751
+call(
+  stack
+)
+type(
+  string
+)
+"ssa_cond_simplify.ml" 140 4681 4753 "ssa_cond_simplify.ml" 140 4681 4773
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"ssa_cond_simplify.ml" 140 4681 4774 "ssa_cond_simplify.ml" 140 4681 4777
+type(
+  Ssa.exp
+)
+ident(
+  int_ref cpe "ssa_cond_simplify.ml" 138 4616 4626 "ssa_cond_simplify.ml" 138 4616 4629
+)
+"ssa_cond_simplify.ml" 140 4681 4752 "ssa_cond_simplify.ml" 140 4681 4778
+call(
+  stack
+)
+type(
+  string
+)
+"ssa_cond_simplify.ml" 140 4681 4780 "ssa_cond_simplify.ml" 140 4681 4800
+type(
+  C.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"ssa_cond_simplify.ml" 140 4681 4801 "ssa_cond_simplify.ml" 140 4681 4803
+type(
+  C.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 139 4646 4656 "ssa_cond_simplify.ml" 139 4646 4658
+)
+"ssa_cond_simplify.ml" 140 4681 4779 "ssa_cond_simplify.ml" 140 4681 4804
+call(
+  stack
+)
+type(
+  string
+)
+"ssa_cond_simplify.ml" 140 4681 4687 "ssa_cond_simplify.ml" 140 4681 4804
+call(
+  stack
+)
+type(
+  unit
+)
+"ssa_cond_simplify.ml" 142 4835 4845 "ssa_cond_simplify.ml" 142 4835 4846
+type(
+  C.stmt list
+)
+"ssa_cond_simplify.ml" 142 4835 4854 "ssa_cond_simplify.ml" 142 4835 4856
+type(
+  C.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 139 4646 4656 "ssa_cond_simplify.ml" 139 4646 4658
+)
+"ssa_cond_simplify.ml" 142 4835 4858 "ssa_cond_simplify.ml" 142 4835 4860
+type(
+  Ssa.exp
+)
+ident(
+  int_ref tt "ssa_cond_simplify.ml" 137 4584 4598 "ssa_cond_simplify.ml" 137 4584 4600
+)
+"ssa_cond_simplify.ml" 142 4835 4862 "ssa_cond_simplify.ml" 142 4835 4864
+type(
+  Ssa.exp
+)
+ident(
+  int_ref tf "ssa_cond_simplify.ml" 137 4584 4602 "ssa_cond_simplify.ml" 137 4584 4604
+)
+"ssa_cond_simplify.ml" 142 4835 4866 "ssa_cond_simplify.ml" 142 4835 4867
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref a "ssa_cond_simplify.ml" 137 4584 4606 "ssa_cond_simplify.ml" 137 4584 4607
+)
+"ssa_cond_simplify.ml" 142 4835 4849 "ssa_cond_simplify.ml" 142 4835 4868
+type(
+  C.stmt
+)
+"ssa_cond_simplify.ml" 142 4835 4870 "ssa_cond_simplify.ml" 142 4835 4872
+type(
+  C.stmt list
+)
+ident(
+  int_ref tl "ssa_cond_simplify.ml" 137 4584 4610 "ssa_cond_simplify.ml" 137 4584 4612
+)
+"ssa_cond_simplify.ml" 142 4835 4849 "ssa_cond_simplify.ml" 142 4835 4872
+type(
+  C.stmt list
+)
+"ssa_cond_simplify.ml" 143 4876 4886 "ssa_cond_simplify.ml" 143 4876 4887
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 143 4876 4890 "ssa_cond_simplify.ml" 143 4876 4901
+type(
+  C.G.t -> C.G.V.t -> C.lang -> C.G.t
+)
+ident(
+  ext_ref C.set_stmts
+)
+"ssa_cond_simplify.ml" 143 4876 4902 "ssa_cond_simplify.ml" 143 4876 4903
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 134 4489 4514 "ssa_cond_simplify.ml" 134 4489 4515
+)
+"ssa_cond_simplify.ml" 143 4876 4904 "ssa_cond_simplify.ml" 143 4876 4905
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "ssa_cond_simplify.ml" 134 4489 4512 "ssa_cond_simplify.ml" 134 4489 4513
+)
+"ssa_cond_simplify.ml" 143 4876 4907 "ssa_cond_simplify.ml" 143 4876 4915
+type(
+  C.stmt list -> C.lang
+)
+ident(
+  ext_ref List.rev
+)
+"ssa_cond_simplify.ml" 143 4876 4916 "ssa_cond_simplify.ml" 143 4876 4917
+type(
+  C.stmt list
+)
+ident(
+  int_ref s "ssa_cond_simplify.ml" 142 4835 4845 "ssa_cond_simplify.ml" 142 4835 4846
+)
+"ssa_cond_simplify.ml" 143 4876 4906 "ssa_cond_simplify.ml" 143 4876 4918
+call(
+  stack
+)
+type(
+  C.lang
+)
+"ssa_cond_simplify.ml" 143 4876 4890 "ssa_cond_simplify.ml" 143 4876 4918
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 146 4958 4964 "ssa_cond_simplify.ml" 146 4958 4979
+type(
+  (C.G.edge -> C.G.t -> C.G.t) -> C.G.t -> C.G.vertex -> C.G.t -> C.G.t
+)
+ident(
+  ext_ref C.G.fold_succ_e
+)
+"ssa_cond_simplify.ml" 146 4958 4985 "ssa_cond_simplify.ml" 146 4958 4986
+type(
+  C.G.edge
+)
+ident(
+  def e "ssa_cond_simplify.ml" 146 4958 4987 "ssa_cond_simplify.ml" 154 5414 5441
+)
+"ssa_cond_simplify.ml" 146 4958 4987 "ssa_cond_simplify.ml" 146 4958 4988
+type(
+  C.G.t
+)
+ident(
+  def g "ssa_cond_simplify.ml" 147 4992 5000 "ssa_cond_simplify.ml" 154 5414 5441
+)
+"ssa_cond_simplify.ml" 147 4992 5004 "ssa_cond_simplify.ml" 147 4992 5005
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 147 4992 5008 "ssa_cond_simplify.ml" 147 4992 5023
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  ext_ref C.remove_edge_e
+)
+"ssa_cond_simplify.ml" 147 4992 5024 "ssa_cond_simplify.ml" 147 4992 5025
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 146 4958 4987 "ssa_cond_simplify.ml" 146 4958 4988
+)
+"ssa_cond_simplify.ml" 147 4992 5026 "ssa_cond_simplify.ml" 147 4992 5027
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 146 4958 4985 "ssa_cond_simplify.ml" 146 4958 4986
+)
+"ssa_cond_simplify.ml" 147 4992 5008 "ssa_cond_simplify.ml" 147 4992 5027
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 148 5031 5043 "ssa_cond_simplify.ml" 148 5031 5046
+type(
+  C.G.E.vertex
+)
+"ssa_cond_simplify.ml" 148 5031 5049 "ssa_cond_simplify.ml" 148 5031 5058
+type(
+  C.G.E.t -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.dst
+)
+"ssa_cond_simplify.ml" 148 5031 5059 "ssa_cond_simplify.ml" 148 5031 5060
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 146 4958 4985 "ssa_cond_simplify.ml" 146 4958 4986
+)
+"ssa_cond_simplify.ml" 148 5031 5049 "ssa_cond_simplify.ml" 148 5031 5060
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"ssa_cond_simplify.ml" 149 5064 5076 "ssa_cond_simplify.ml" 149 5064 5084
+type(
+  (bool option * C.exp) option
+)
+"ssa_cond_simplify.ml" 149 5064 5093 "ssa_cond_simplify.ml" 149 5064 5104
+type(
+  C.G.E.t -> C.G.E.label
+)
+ident(
+  ext_ref C.G.E.label
+)
+"ssa_cond_simplify.ml" 149 5064 5105 "ssa_cond_simplify.ml" 149 5064 5106
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "ssa_cond_simplify.ml" 146 4958 4985 "ssa_cond_simplify.ml" 146 4958 4986
+)
+"ssa_cond_simplify.ml" 149 5064 5093 "ssa_cond_simplify.ml" 149 5064 5106
+call(
+  stack
+)
+type(
+  C.G.E.label
+)
+"ssa_cond_simplify.ml" 150 5112 5133 "ssa_cond_simplify.ml" 150 5112 5137
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 150 5112 5128 "ssa_cond_simplify.ml" 150 5112 5137
+type(
+  bool option
+)
+"ssa_cond_simplify.ml" 150 5112 5139 "ssa_cond_simplify.ml" 150 5112 5140
+type(
+  C.exp
+)
+"ssa_cond_simplify.ml" 150 5112 5127 "ssa_cond_simplify.ml" 150 5112 5141
+type(
+  bool option * C.exp
+)
+"ssa_cond_simplify.ml" 150 5112 5122 "ssa_cond_simplify.ml" 150 5112 5141
+type(
+  C.G.E.label
+)
+"ssa_cond_simplify.ml" 150 5112 5155 "ssa_cond_simplify.ml" 150 5112 5159
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 150 5112 5150 "ssa_cond_simplify.ml" 150 5112 5159
+type(
+  bool option
+)
+"ssa_cond_simplify.ml" 150 5112 5161 "ssa_cond_simplify.ml" 150 5112 5173
+type(
+  C.exp -> C.exp
+)
+ident(
+  int_ref simplify_exp "ssa_cond_simplify.ml" 116 3896 3900 "ssa_cond_simplify.ml" 116 3896 3912
+)
+"ssa_cond_simplify.ml" 150 5112 5181 "ssa_cond_simplify.ml" 150 5112 5183
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 150 5112 5185 "ssa_cond_simplify.ml" 150 5112 5187
+type(
+  C.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 139 4646 4656 "ssa_cond_simplify.ml" 139 4646 4658
+)
+"ssa_cond_simplify.ml" 150 5112 5189 "ssa_cond_simplify.ml" 150 5112 5197
+type(
+  Ssa.exp
+)
+ident(
+  ext_ref Ssa.exp_true
+)
+"ssa_cond_simplify.ml" 150 5112 5174 "ssa_cond_simplify.ml" 150 5112 5199
+type(
+  C.exp
+)
+"ssa_cond_simplify.ml" 150 5112 5161 "ssa_cond_simplify.ml" 150 5112 5199
+call(
+  stack
+)
+type(
+  C.exp
+)
+"ssa_cond_simplify.ml" 150 5112 5149 "ssa_cond_simplify.ml" 150 5112 5200
+type(
+  bool option * C.exp
+)
+"ssa_cond_simplify.ml" 150 5112 5145 "ssa_cond_simplify.ml" 150 5112 5200
+type(
+  (bool option * C.exp) option
+)
+"ssa_cond_simplify.ml" 151 5201 5222 "ssa_cond_simplify.ml" 151 5201 5227
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 151 5201 5217 "ssa_cond_simplify.ml" 151 5201 5227
+type(
+  bool option
+)
+"ssa_cond_simplify.ml" 151 5201 5229 "ssa_cond_simplify.ml" 151 5201 5230
+type(
+  C.exp
+)
+"ssa_cond_simplify.ml" 151 5201 5216 "ssa_cond_simplify.ml" 151 5201 5231
+type(
+  bool option * C.exp
+)
+"ssa_cond_simplify.ml" 151 5201 5211 "ssa_cond_simplify.ml" 151 5201 5231
+type(
+  C.G.E.label
+)
+"ssa_cond_simplify.ml" 151 5201 5245 "ssa_cond_simplify.ml" 151 5201 5250
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 151 5201 5240 "ssa_cond_simplify.ml" 151 5201 5250
+type(
+  bool option
+)
+"ssa_cond_simplify.ml" 151 5201 5252 "ssa_cond_simplify.ml" 151 5201 5264
+type(
+  C.exp -> C.exp
+)
+ident(
+  int_ref simplify_exp "ssa_cond_simplify.ml" 116 3896 3900 "ssa_cond_simplify.ml" 116 3896 3912
+)
+"ssa_cond_simplify.ml" 151 5201 5272 "ssa_cond_simplify.ml" 151 5201 5274
+type(
+  Type.binop_type
+)
+"ssa_cond_simplify.ml" 151 5201 5276 "ssa_cond_simplify.ml" 151 5201 5278
+type(
+  C.exp
+)
+ident(
+  int_ref e' "ssa_cond_simplify.ml" 139 4646 4656 "ssa_cond_simplify.ml" 139 4646 4658
+)
+"ssa_cond_simplify.ml" 151 5201 5280 "ssa_cond_simplify.ml" 151 5201 5289
+type(
+  Ssa.exp
+)
+ident(
+  ext_ref Ssa.exp_false
+)
+"ssa_cond_simplify.ml" 151 5201 5265 "ssa_cond_simplify.ml" 151 5201 5291
+type(
+  C.exp
+)
+"ssa_cond_simplify.ml" 151 5201 5252 "ssa_cond_simplify.ml" 151 5201 5291
+call(
+  stack
+)
+type(
+  C.exp
+)
+"ssa_cond_simplify.ml" 151 5201 5239 "ssa_cond_simplify.ml" 151 5201 5292
+type(
+  bool option * C.exp
+)
+"ssa_cond_simplify.ml" 151 5201 5235 "ssa_cond_simplify.ml" 151 5201 5292
+type(
+  (bool option * C.exp) option
+)
+"ssa_cond_simplify.ml" 152 5293 5303 "ssa_cond_simplify.ml" 152 5293 5304
+type(
+  C.G.E.label
+)
+"ssa_cond_simplify.ml" 152 5293 5308 "ssa_cond_simplify.ml" 152 5293 5316
+type(
+  string -> (bool option * C.exp) option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ssa_cond_simplify.ml" 152 5293 5317 "ssa_cond_simplify.ml" 152 5293 5360
+type(
+  string
+)
+"ssa_cond_simplify.ml" 152 5293 5308 "ssa_cond_simplify.ml" 152 5293 5360
+call(
+  stack
+)
+type(
+  (bool option * C.exp) option
+)
+"ssa_cond_simplify.ml" 149 5064 5087 "ssa_cond_simplify.ml" 152 5293 5360
+type(
+  (bool option * C.exp) option
+)
+"ssa_cond_simplify.ml" 153 5364 5376 "ssa_cond_simplify.ml" 153 5364 5380
+type(
+  C.G.E.t
+)
+"ssa_cond_simplify.ml" 153 5364 5383 "ssa_cond_simplify.ml" 153 5364 5395
+type(
+  C.G.E.vertex -> C.G.E.label -> C.G.E.vertex -> C.G.E.t
+)
+ident(
+  ext_ref C.G.E.create
+)
+"ssa_cond_simplify.ml" 153 5364 5396 "ssa_cond_simplify.ml" 153 5364 5397
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "ssa_cond_simplify.ml" 134 4489 4512 "ssa_cond_simplify.ml" 134 4489 4513
+)
+"ssa_cond_simplify.ml" 153 5364 5398 "ssa_cond_simplify.ml" 153 5364 5406
+type(
+  C.G.E.label
+)
+ident(
+  int_ref newlabel "ssa_cond_simplify.ml" 149 5064 5076 "ssa_cond_simplify.ml" 149 5064 5084
+)
+"ssa_cond_simplify.ml" 153 5364 5407 "ssa_cond_simplify.ml" 153 5364 5410
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref dst "ssa_cond_simplify.ml" 148 5031 5043 "ssa_cond_simplify.ml" 148 5031 5046
+)
+"ssa_cond_simplify.ml" 153 5364 5383 "ssa_cond_simplify.ml" 153 5364 5410
+call(
+  stack
+)
+type(
+  C.G.E.t
+)
+"ssa_cond_simplify.ml" 154 5414 5422 "ssa_cond_simplify.ml" 154 5414 5434
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  ext_ref C.add_edge_e
+)
+"ssa_cond_simplify.ml" 154 5414 5435 "ssa_cond_simplify.ml" 154 5414 5436
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 147 4992 5004 "ssa_cond_simplify.ml" 147 4992 5005
+)
+"ssa_cond_simplify.ml" 154 5414 5437 "ssa_cond_simplify.ml" 154 5414 5441
+type(
+  C.G.E.t
+)
+ident(
+  int_ref newe "ssa_cond_simplify.ml" 153 5364 5376 "ssa_cond_simplify.ml" 153 5364 5380
+)
+"ssa_cond_simplify.ml" 154 5414 5422 "ssa_cond_simplify.ml" 154 5414 5441
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 153 5364 5372 "ssa_cond_simplify.ml" 154 5414 5441
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 149 5064 5072 "ssa_cond_simplify.ml" 154 5414 5441
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 148 5031 5039 "ssa_cond_simplify.ml" 154 5414 5441
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 147 4992 5000 "ssa_cond_simplify.ml" 154 5414 5441
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 146 4958 4980 "ssa_cond_simplify.ml" 155 5442 5449
+type(
+  C.G.edge -> C.G.t -> C.G.t
+)
+"ssa_cond_simplify.ml" 155 5442 5450 "ssa_cond_simplify.ml" 155 5442 5451
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 143 4876 4886 "ssa_cond_simplify.ml" 143 4876 4887
+)
+"ssa_cond_simplify.ml" 155 5442 5452 "ssa_cond_simplify.ml" 155 5442 5453
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "ssa_cond_simplify.ml" 134 4489 4512 "ssa_cond_simplify.ml" 134 4489 4513
+)
+"ssa_cond_simplify.ml" 155 5442 5454 "ssa_cond_simplify.ml" 155 5442 5455
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 143 4876 4886 "ssa_cond_simplify.ml" 143 4876 4887
+)
+"ssa_cond_simplify.ml" 146 4958 4964 "ssa_cond_simplify.ml" 155 5442 5455
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 143 4876 4882 "ssa_cond_simplify.ml" 155 5442 5455
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 142 4835 4841 "ssa_cond_simplify.ml" 155 5442 5455
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 140 4681 4687 "ssa_cond_simplify.ml" 155 5442 5455
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 139 4646 4652 "ssa_cond_simplify.ml" 155 5442 5455
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 138 4616 4622 "ssa_cond_simplify.ml" 155 5442 5455
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 156 5456 5462 "ssa_cond_simplify.ml" 156 5456 5463
+type(
+  C.stmt list
+)
+"ssa_cond_simplify.ml" 156 5456 5467 "ssa_cond_simplify.ml" 156 5456 5468
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 134 4489 4514 "ssa_cond_simplify.ml" 134 4489 4515
+)
+"ssa_cond_simplify.ml" 136 4554 4558 "ssa_cond_simplify.ml" 156 5456 5468
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 135 4519 4523 "ssa_cond_simplify.ml" 156 5456 5468
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 134 4489 4507 "ssa_cond_simplify.ml" 157 5469 5472
+type(
+  C.G.vertex -> C.G.t -> C.G.t
+)
+"ssa_cond_simplify.ml" 157 5469 5473 "ssa_cond_simplify.ml" 157 5469 5474
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 118 3944 3975 "ssa_cond_simplify.ml" 118 3944 3976
+)
+"ssa_cond_simplify.ml" 157 5469 5475 "ssa_cond_simplify.ml" 157 5469 5476
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 118 3944 3975 "ssa_cond_simplify.ml" 118 3944 3976
+)
+"ssa_cond_simplify.ml" 134 4489 4491 "ssa_cond_simplify.ml" 157 5469 5476
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 132 4412 4414 "ssa_cond_simplify.ml" 157 5469 5476
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 125 4229 4231 "ssa_cond_simplify.ml" 157 5469 5476
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 122 4151 4153 "ssa_cond_simplify.ml" 157 5469 5476
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 159 5478 5482 "ssa_cond_simplify.ml" 159 5478 5506
+type(
+  Ssa.exp list -> C.G.t -> C.G.t
+)
+ident(
+  def simplifycond_targets_ssa "ssa_cond_simplify.ml" 166 5693 5693 --
+)
+"ssa_cond_simplify.ml" 159 5478 5507 "ssa_cond_simplify.ml" 159 5478 5515
+type(
+  Ssa.exp list
+)
+ident(
+  def targetes "ssa_cond_simplify.ml" 159 5478 5516 "ssa_cond_simplify.ml" 164 5661 5691
+)
+"ssa_cond_simplify.ml" 159 5478 5516 "ssa_cond_simplify.ml" 159 5478 5517
+type(
+  C.G.t
+)
+ident(
+  def g "ssa_cond_simplify.ml" 160 5520 5522 "ssa_cond_simplify.ml" 164 5661 5691
+)
+"ssa_cond_simplify.ml" 160 5520 5526 "ssa_cond_simplify.ml" 160 5520 5537
+type(
+  Ssa.exp -> bool
+)
+"ssa_cond_simplify.ml" 161 5540 5560 "ssa_cond_simplify.ml" 161 5540 5561
+type(
+  Type.typ
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 161 5540 5555 "ssa_cond_simplify.ml" 161 5540 5561
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 161 5540 5570 "ssa_cond_simplify.ml" 161 5540 5571
+type(
+  Type.typ
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 161 5540 5564 "ssa_cond_simplify.ml" 161 5540 5571
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 161 5540 5555 "ssa_cond_simplify.ml" 161 5540 5571
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 161 5540 5575 "ssa_cond_simplify.ml" 161 5540 5579
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 161 5540 5582 "ssa_cond_simplify.ml" 161 5540 5583
+type(
+  Ssa.exp
+)
+"ssa_cond_simplify.ml" 161 5540 5587 "ssa_cond_simplify.ml" 161 5540 5592
+type(
+  bool
+)
+"ssa_cond_simplify.ml" 161 5540 5544 "ssa_cond_simplify.ml" 161 5540 5592
+type(
+  Ssa.exp -> bool
+)
+"ssa_cond_simplify.ml" 163 5598 5604 "ssa_cond_simplify.ml" 163 5598 5612
+type(
+  Var.VarSet.t
+)
+"ssa_cond_simplify.ml" 163 5598 5615 "ssa_cond_simplify.ml" 163 5598 5633
+type(
+  ?stop_before:(Ssa.exp -> bool) ->
+  ?stop_after:(Ssa.exp -> bool) -> C.G.t -> Ssa.exp list -> Var.VarSet.t
+)
+ident(
+  ext_ref Copy_prop.get_vars
+)
+"ssa_cond_simplify.ml" 163 5598 5635 "ssa_cond_simplify.ml" 163 5598 5646
+type(
+  Ssa.exp -> bool
+)
+ident(
+  int_ref stop_before "ssa_cond_simplify.ml" 160 5520 5526 "ssa_cond_simplify.ml" 160 5520 5537
+)
+"ssa_cond_simplify.ml" 163 5598 5647 "ssa_cond_simplify.ml" 163 5598 5648
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 159 5478 5516 "ssa_cond_simplify.ml" 159 5478 5517
+)
+"ssa_cond_simplify.ml" 163 5598 5649 "ssa_cond_simplify.ml" 163 5598 5657
+type(
+  Ssa.exp list
+)
+ident(
+  int_ref targetes "ssa_cond_simplify.ml" 159 5478 5507 "ssa_cond_simplify.ml" 159 5478 5515
+)
+"ssa_cond_simplify.ml" 163 5598 5615 "ssa_cond_simplify.ml" 163 5598 5657
+call(
+  stack
+)
+type(
+  Var.VarSet.t
+)
+"ssa_cond_simplify.ml" 164 5661 5663 "ssa_cond_simplify.ml" 164 5661 5679
+type(
+  ?goodvars:VS.t -> C.G.t -> C.G.t
+)
+ident(
+  int_ref simplifycond_ssa "ssa_cond_simplify.ml" 118 3944 3948 "ssa_cond_simplify.ml" 118 3944 3964
+)
+"ssa_cond_simplify.ml" 164 5661 5681 "ssa_cond_simplify.ml" 164 5661 5689
+type(
+  VS.t
+)
+ident(
+  int_ref goodvars "ssa_cond_simplify.ml" 163 5598 5604 "ssa_cond_simplify.ml" 163 5598 5612
+)
+"ssa_cond_simplify.ml" 164 5661 5690 "ssa_cond_simplify.ml" 164 5661 5691
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_cond_simplify.ml" 159 5478 5516 "ssa_cond_simplify.ml" 159 5478 5517
+)
+"ssa_cond_simplify.ml" 164 5661 5663 "ssa_cond_simplify.ml" 164 5661 5691
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 163 5598 5600 "ssa_cond_simplify.ml" 164 5661 5691
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 160 5520 5522 "ssa_cond_simplify.ml" 164 5661 5691
+type(
+  C.G.t
+)
+"ssa_cond_simplify.ml" 166 5693 5697 "ssa_cond_simplify.ml" 166 5693 5713
+type(
+  C.G.t -> C.G.t
+)
+ident(
+  def simplifycond_ssa "ssa_cond_simplify.ml" 166 5693 5736 --
+)
+"ssa_cond_simplify.ml" 166 5693 5714 "ssa_cond_simplify.ml" 166 5693 5715
+type(
+  C.G.t
+)
+ident(
+  def x "ssa_cond_simplify.ml" 166 5693 5718 "ssa_cond_simplify.ml" 166 5693 5736
+)
+"ssa_cond_simplify.ml" 166 5693 5718 "ssa_cond_simplify.ml" 166 5693 5734
+type(
+  ?goodvars:VS.t -> C.G.t -> C.G.t
+)
+ident(
+  int_ref simplifycond_ssa "ssa_cond_simplify.ml" 118 3944 3948 "ssa_cond_simplify.ml" 118 3944 3964
+)
+"ssa_cond_simplify.ml" 166 5693 5735 "ssa_cond_simplify.ml" 166 5693 5736
+type(
+  C.G.t
+)
+ident(
+  int_ref x "ssa_cond_simplify.ml" 166 5693 5714 "ssa_cond_simplify.ml" 166 5693 5715
+)
+"ssa_cond_simplify.ml" 166 5693 5718 "ssa_cond_simplify.ml" 166 5693 5736
+call(
+  tail
+)
+type(
+  C.G.t
+)

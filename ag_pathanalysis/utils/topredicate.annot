@@ -1,0 +1,4143 @@
+"topredicate.ml" 8 86 90 "topredicate.ml" 8 86 95
+type(
+  string
+)
+ident(
+  def usage "topredicate.ml" 11 207 207 --
+)
+"topredicate.ml" 8 86 98 "topredicate.ml" 8 86 107
+type(
+  string
+)
+"topredicate.ml" 8 86 107 "topredicate.ml" 8 86 108
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"topredicate.ml" 8 86 108 "topredicate.ml" 8 86 116
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"topredicate.ml" 8 86 118 "topredicate.ml" 8 86 119
+type(
+  int
+)
+"topredicate.ml" 8 86 108 "topredicate.ml" 8 86 120
+type(
+  string
+)
+"topredicate.ml" 8 86 120 "topredicate.ml" 8 86 121
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"topredicate.ml" 8 86 121 "topredicate.ml" 9 154 205
+type(
+  string
+)
+"topredicate.ml" 8 86 108 "topredicate.ml" 9 154 205
+call(
+  stack
+)
+type(
+  string
+)
+"topredicate.ml" 8 86 98 "topredicate.ml" 9 154 205
+call(
+  stack
+)
+type(
+  string
+)
+"topredicate.ml" 11 207 211 "topredicate.ml" 11 207 218
+type(
+  Vc.options ref
+)
+ident(
+  def options "topredicate.ml" 12 244 244 --
+)
+"topredicate.ml" 11 207 221 "topredicate.ml" 11 207 224
+type(
+  Vc.options -> Vc.options ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 11 207 225 "topredicate.ml" 11 207 243
+type(
+  Vc.options
+)
+ident(
+  ext_ref Vc.default_options
+)
+"topredicate.ml" 11 207 221 "topredicate.ml" 11 207 243
+type(
+  Vc.options ref
+)
+"topredicate.ml" 12 244 248 "topredicate.ml" 12 244 253
+type(
+  out_channel option ref
+)
+ident(
+  def irout "topredicate.ml" 13 273 273 --
+)
+"topredicate.ml" 12 244 256 "topredicate.ml" 12 244 259
+type(
+  out_channel option -> out_channel option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 12 244 265 "topredicate.ml" 12 244 271
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"topredicate.ml" 12 244 259 "topredicate.ml" 12 244 272
+type(
+  out_channel option
+)
+"topredicate.ml" 12 244 256 "topredicate.ml" 12 244 272
+type(
+  out_channel option ref
+)
+"topredicate.ml" 13 273 277 "topredicate.ml" 13 273 281
+type(
+  string ref
+)
+ident(
+  def post "topredicate.ml" 14 295 295 --
+)
+"topredicate.ml" 13 273 284 "topredicate.ml" 13 273 287
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 13 273 288 "topredicate.ml" 13 273 294
+type(
+  string
+)
+"topredicate.ml" 13 273 284 "topredicate.ml" 13 273 294
+type(
+  string ref
+)
+"topredicate.ml" 14 295 299 "topredicate.ml" 14 295 305
+type(
+  out_channel option ref
+)
+ident(
+  def stpout "topredicate.ml" 15 317 317 --
+)
+"topredicate.ml" 14 295 308 "topredicate.ml" 14 295 311
+type(
+  out_channel option -> out_channel option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 14 295 312 "topredicate.ml" 14 295 316
+type(
+  out_channel option
+)
+"topredicate.ml" 14 295 308 "topredicate.ml" 14 295 316
+type(
+  out_channel option ref
+)
+"topredicate.ml" 15 317 321 "topredicate.ml" 15 317 331
+type(
+  string ref
+)
+ident(
+  def stpoutname "topredicate.ml" 16 341 341 --
+)
+"topredicate.ml" 15 317 334 "topredicate.ml" 15 317 337
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 15 317 338 "topredicate.ml" 15 317 340
+type(
+  string
+)
+"topredicate.ml" 15 317 334 "topredicate.ml" 15 317 340
+type(
+  string ref
+)
+"topredicate.ml" 16 341 345 "topredicate.ml" 16 341 352
+type(
+  out_channel option ref
+)
+ident(
+  def pstpout "topredicate.ml" 17 364 364 --
+)
+"topredicate.ml" 16 341 355 "topredicate.ml" 16 341 358
+type(
+  out_channel option -> out_channel option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 16 341 359 "topredicate.ml" 16 341 363
+type(
+  out_channel option
+)
+"topredicate.ml" 16 341 355 "topredicate.ml" 16 341 363
+type(
+  out_channel option ref
+)
+"topredicate.ml" 17 364 368 "topredicate.ml" 17 364 373
+type(
+  bool ref
+)
+ident(
+  def usedc "topredicate.ml" 18 385 385 --
+)
+"topredicate.ml" 17 364 376 "topredicate.ml" 17 364 379
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 17 364 380 "topredicate.ml" 17 364 384
+type(
+  bool
+)
+"topredicate.ml" 17 364 376 "topredicate.ml" 17 364 384
+type(
+  bool ref
+)
+"topredicate.ml" 18 385 389 "topredicate.ml" 18 385 397
+type(
+  bool ref
+)
+ident(
+  def usesccvn "topredicate.ml" 19 409 409 --
+)
+"topredicate.ml" 18 385 400 "topredicate.ml" 18 385 403
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 18 385 404 "topredicate.ml" 18 385 408
+type(
+  bool
+)
+"topredicate.ml" 18 385 400 "topredicate.ml" 18 385 408
+type(
+  bool ref
+)
+"topredicate.ml" 19 409 413 "topredicate.ml" 19 409 418
+type(
+  bool ref
+)
+ident(
+  def solve "topredicate.ml" 20 431 431 --
+)
+"topredicate.ml" 19 409 421 "topredicate.ml" 19 409 424
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 19 409 425 "topredicate.ml" 19 409 430
+type(
+  bool
+)
+"topredicate.ml" 19 409 421 "topredicate.ml" 19 409 430
+type(
+  bool ref
+)
+"topredicate.ml" 20 431 435 "topredicate.ml" 20 431 442
+type(
+  int option ref
+)
+ident(
+  def timeout "topredicate.ml" 22 455 455 --
+)
+"topredicate.ml" 20 431 445 "topredicate.ml" 20 431 448
+type(
+  int option -> int option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 20 431 449 "topredicate.ml" 20 431 453
+type(
+  int option
+)
+"topredicate.ml" 20 431 445 "topredicate.ml" 20 431 453
+type(
+  int option ref
+)
+"topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+type(
+  Vc.t ref
+)
+ident(
+  def vc "topredicate.ml" 24 484 484 --
+)
+"topredicate.ml" 22 455 464 "topredicate.ml" 22 455 467
+type(
+  Vc.t -> Vc.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"topredicate.ml" 22 455 468 "topredicate.ml" 22 455 482
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_wp_gen
+)
+"topredicate.ml" 22 455 464 "topredicate.ml" 22 455 482
+type(
+  Vc.t ref
+)
+"topredicate.ml" 24 484 488 "topredicate.ml" 24 484 496
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def speclist "topredicate.ml" 87 4150 4150 --
+)
+"topredicate.ml" 25 499 502 "topredicate.ml" 25 499 506
+type(
+  Arg.key
+)
+"topredicate.ml" 25 499 524 "topredicate.ml" 25 499 525
+type(
+  string
+)
+ident(
+  def f "topredicate.ml" 25 499 529 "topredicate.ml" 25 499 554
+)
+"topredicate.ml" 25 499 529 "topredicate.ml" 25 499 534
+type(
+  out_channel option ref
+)
+ident(
+  int_ref irout "topredicate.ml" 12 244 248 "topredicate.ml" 12 244 253
+)
+"topredicate.ml" 25 499 535 "topredicate.ml" 25 499 537
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 25 499 543 "topredicate.ml" 25 499 551
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"topredicate.ml" 25 499 552 "topredicate.ml" 25 499 553
+type(
+  string
+)
+ident(
+  int_ref f "topredicate.ml" 25 499 524 "topredicate.ml" 25 499 525
+)
+"topredicate.ml" 25 499 542 "topredicate.ml" 25 499 554
+call(
+  stack
+)
+type(
+  out_channel
+)
+"topredicate.ml" 25 499 538 "topredicate.ml" 25 499 554
+type(
+  out_channel option
+)
+"topredicate.ml" 25 499 529 "topredicate.ml" 25 499 554
+type(
+  unit
+)
+"topredicate.ml" 25 499 519 "topredicate.ml" 25 499 555
+type(
+  string -> unit
+)
+"topredicate.ml" 25 499 508 "topredicate.ml" 25 499 555
+type(
+  Arg.spec
+)
+"topredicate.ml" 26 557 560 "topredicate.ml" 26 557 611
+type(
+  Arg.doc
+)
+"topredicate.ml" 25 499 501 "topredicate.ml" 26 557 612
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 27 613 618 "topredicate.ml" 27 613 628
+type(
+  Arg.key
+)
+"topredicate.ml" 27 613 646 "topredicate.ml" 27 613 647
+type(
+  string
+)
+ident(
+  def f "topredicate.ml" 27 613 651 "topredicate.ml" 27 613 694
+)
+"topredicate.ml" 27 613 651 "topredicate.ml" 27 613 661
+type(
+  string ref
+)
+ident(
+  int_ref stpoutname "topredicate.ml" 15 317 321 "topredicate.ml" 15 317 331
+)
+"topredicate.ml" 27 613 662 "topredicate.ml" 27 613 664
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 27 613 665 "topredicate.ml" 27 613 666
+type(
+  string
+)
+ident(
+  int_ref f "topredicate.ml" 27 613 646 "topredicate.ml" 27 613 647
+)
+"topredicate.ml" 27 613 651 "topredicate.ml" 27 613 666
+type(
+  unit
+)
+"topredicate.ml" 27 613 668 "topredicate.ml" 27 613 674
+type(
+  out_channel option ref
+)
+ident(
+  int_ref stpout "topredicate.ml" 14 295 299 "topredicate.ml" 14 295 305
+)
+"topredicate.ml" 27 613 675 "topredicate.ml" 27 613 677
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 27 613 683 "topredicate.ml" 27 613 691
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"topredicate.ml" 27 613 692 "topredicate.ml" 27 613 693
+type(
+  string
+)
+ident(
+  int_ref f "topredicate.ml" 27 613 646 "topredicate.ml" 27 613 647
+)
+"topredicate.ml" 27 613 682 "topredicate.ml" 27 613 694
+call(
+  stack
+)
+type(
+  out_channel
+)
+"topredicate.ml" 27 613 678 "topredicate.ml" 27 613 694
+type(
+  out_channel option
+)
+"topredicate.ml" 27 613 668 "topredicate.ml" 27 613 694
+type(
+  unit
+)
+"topredicate.ml" 27 613 651 "topredicate.ml" 27 613 694
+type(
+  unit
+)
+"topredicate.ml" 27 613 641 "topredicate.ml" 27 613 695
+type(
+  string -> unit
+)
+"topredicate.ml" 27 613 630 "topredicate.ml" 27 613 695
+type(
+  Arg.spec
+)
+"topredicate.ml" 28 697 702 "topredicate.ml" 28 697 753
+type(
+  Arg.doc
+)
+"topredicate.ml" 27 613 617 "topredicate.ml" 28 697 754
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 29 755 760 "topredicate.ml" 29 755 771
+type(
+  Arg.key
+)
+"topredicate.ml" 29 755 789 "topredicate.ml" 29 755 790
+type(
+  string
+)
+ident(
+  def f "topredicate.ml" 29 755 794 "topredicate.ml" 29 755 821
+)
+"topredicate.ml" 29 755 794 "topredicate.ml" 29 755 801
+type(
+  out_channel option ref
+)
+ident(
+  int_ref pstpout "topredicate.ml" 16 341 345 "topredicate.ml" 16 341 352
+)
+"topredicate.ml" 29 755 802 "topredicate.ml" 29 755 804
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 29 755 810 "topredicate.ml" 29 755 818
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"topredicate.ml" 29 755 819 "topredicate.ml" 29 755 820
+type(
+  string
+)
+ident(
+  int_ref f "topredicate.ml" 29 755 789 "topredicate.ml" 29 755 790
+)
+"topredicate.ml" 29 755 809 "topredicate.ml" 29 755 821
+call(
+  stack
+)
+type(
+  out_channel
+)
+"topredicate.ml" 29 755 805 "topredicate.ml" 29 755 821
+type(
+  out_channel option
+)
+"topredicate.ml" 29 755 794 "topredicate.ml" 29 755 821
+type(
+  unit
+)
+"topredicate.ml" 29 755 784 "topredicate.ml" 29 755 822
+type(
+  string -> unit
+)
+"topredicate.ml" 29 755 773 "topredicate.ml" 29 755 822
+type(
+  Arg.spec
+)
+"topredicate.ml" 30 824 829 "topredicate.ml" 30 824 886
+type(
+  Arg.doc
+)
+"topredicate.ml" 29 755 759 "topredicate.ml" 30 824 887
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 31 888 893 "topredicate.ml" 31 888 897
+type(
+  Arg.key
+)
+"topredicate.ml" 31 888 913 "topredicate.ml" 31 888 915
+type(
+  unit
+)
+"topredicate.ml" 31 888 919 "topredicate.ml" 31 888 924
+type(
+  out_channel option ref
+)
+ident(
+  int_ref irout "topredicate.ml" 12 244 248 "topredicate.ml" 12 244 253
+)
+"topredicate.ml" 31 888 925 "topredicate.ml" 31 888 927
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 31 888 928 "topredicate.ml" 31 888 932
+type(
+  out_channel option
+)
+"topredicate.ml" 31 888 919 "topredicate.ml" 31 888 932
+type(
+  unit
+)
+"topredicate.ml" 31 888 908 "topredicate.ml" 31 888 933
+type(
+  unit -> unit
+)
+"topredicate.ml" 31 888 899 "topredicate.ml" 31 888 933
+type(
+  Arg.spec
+)
+"topredicate.ml" 32 935 940 "topredicate.ml" 32 935 989
+type(
+  Arg.doc
+)
+"topredicate.ml" 31 888 892 "topredicate.ml" 32 935 990
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 33 991 996 "topredicate.ml" 33 991 1003
+type(
+  Arg.key
+)
+"topredicate.ml" 33 991 1020 "topredicate.ml" 33 991 1024
+type(
+  string ref
+)
+ident(
+  int_ref post "topredicate.ml" 13 273 277 "topredicate.ml" 13 273 281
+)
+"topredicate.ml" 33 991 1005 "topredicate.ml" 33 991 1024
+type(
+  Arg.spec
+)
+"topredicate.ml" 34 1026 1031 "topredicate.ml" 34 1026 1092
+type(
+  Arg.doc
+)
+"topredicate.ml" 33 991 995 "topredicate.ml" 34 1026 1093
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 35 1094 1099 "topredicate.ml" 35 1094 1105
+type(
+  Arg.key
+)
+"topredicate.ml" 35 1094 1119 "topredicate.ml" 35 1094 1121
+type(
+  unit
+)
+"topredicate.ml" 35 1094 1124 "topredicate.ml" 35 1094 1126
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 35 1094 1127 "topredicate.ml" 35 1094 1129
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 35 1094 1130 "topredicate.ml" 35 1094 1145
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_dwp_gen
+)
+"topredicate.ml" 35 1094 1124 "topredicate.ml" 35 1094 1145
+type(
+  unit
+)
+"topredicate.ml" 35 1094 1115 "topredicate.ml" 35 1094 1146
+type(
+  unit -> unit
+)
+"topredicate.ml" 35 1094 1107 "topredicate.ml" 35 1094 1146
+type(
+  Arg.spec
+)
+"topredicate.ml" 36 1148 1153 "topredicate.ml" 36 1148 1203
+type(
+  Arg.doc
+)
+"topredicate.ml" 35 1094 1098 "topredicate.ml" 36 1148 1204
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 37 1205 1210 "topredicate.ml" 37 1205 1216
+type(
+  Arg.key
+)
+"topredicate.ml" 37 1205 1230 "topredicate.ml" 37 1205 1232
+type(
+  unit
+)
+"topredicate.ml" 37 1205 1235 "topredicate.ml" 37 1205 1237
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 37 1205 1238 "topredicate.ml" 37 1205 1240
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 37 1205 1241 "topredicate.ml" 37 1205 1256
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_fwp_gen
+)
+"topredicate.ml" 37 1205 1235 "topredicate.ml" 37 1205 1256
+type(
+  unit
+)
+"topredicate.ml" 37 1205 1226 "topredicate.ml" 37 1205 1257
+type(
+  unit -> unit
+)
+"topredicate.ml" 37 1205 1218 "topredicate.ml" 37 1205 1257
+type(
+  Arg.spec
+)
+"topredicate.ml" 38 1259 1264 "topredicate.ml" 38 1259 1324
+type(
+  Arg.doc
+)
+"topredicate.ml" 37 1205 1209 "topredicate.ml" 38 1259 1325
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 39 1326 1331 "topredicate.ml" 39 1326 1340
+type(
+  Arg.key
+)
+"topredicate.ml" 39 1326 1354 "topredicate.ml" 39 1326 1356
+type(
+  unit
+)
+"topredicate.ml" 39 1326 1359 "topredicate.ml" 39 1326 1361
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 39 1326 1362 "topredicate.ml" 39 1326 1364
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 39 1326 1365 "topredicate.ml" 39 1326 1384
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_fwp_uwp_gen
+)
+"topredicate.ml" 39 1326 1359 "topredicate.ml" 39 1326 1384
+type(
+  unit
+)
+"topredicate.ml" 39 1326 1350 "topredicate.ml" 39 1326 1385
+type(
+  unit -> unit
+)
+"topredicate.ml" 39 1326 1342 "topredicate.ml" 39 1326 1385
+type(
+  Arg.spec
+)
+"topredicate.ml" 40 1387 1392 "topredicate.ml" 40 1387 1458
+type(
+  Arg.doc
+)
+"topredicate.ml" 39 1326 1330 "topredicate.ml" 40 1387 1459
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 41 1460 1465 "topredicate.ml" 41 1460 1479
+type(
+  Arg.key
+)
+"topredicate.ml" 41 1460 1493 "topredicate.ml" 41 1460 1495
+type(
+  unit
+)
+"topredicate.ml" 41 1460 1498 "topredicate.ml" 41 1460 1500
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 41 1460 1501 "topredicate.ml" 41 1460 1503
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 41 1460 1504 "topredicate.ml" 41 1460 1528
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_fwp_lazyconc_gen
+)
+"topredicate.ml" 41 1460 1498 "topredicate.ml" 41 1460 1528
+type(
+  unit
+)
+"topredicate.ml" 41 1460 1489 "topredicate.ml" 41 1460 1529
+type(
+  unit -> unit
+)
+"topredicate.ml" 41 1460 1481 "topredicate.ml" 41 1460 1529
+type(
+  Arg.spec
+)
+"topredicate.ml" 42 1531 1536 "topredicate.ml" 42 1531 1632
+type(
+  Arg.doc
+)
+"topredicate.ml" 41 1460 1464 "topredicate.ml" 42 1531 1633
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 43 1634 1639 "topredicate.ml" 43 1634 1656
+type(
+  Arg.key
+)
+"topredicate.ml" 43 1634 1670 "topredicate.ml" 43 1634 1672
+type(
+  unit
+)
+"topredicate.ml" 43 1634 1675 "topredicate.ml" 43 1634 1677
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 43 1634 1678 "topredicate.ml" 43 1634 1680
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 43 1634 1681 "topredicate.ml" 43 1634 1709
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_fwp_lazyconc_uwp_gen
+)
+"topredicate.ml" 43 1634 1675 "topredicate.ml" 43 1634 1709
+type(
+  unit
+)
+"topredicate.ml" 43 1634 1666 "topredicate.ml" 43 1634 1710
+type(
+  unit -> unit
+)
+"topredicate.ml" 43 1634 1658 "topredicate.ml" 43 1634 1710
+type(
+  Arg.spec
+)
+"topredicate.ml" 44 1712 1717 "topredicate.ml" 44 1712 1846
+type(
+  Arg.doc
+)
+"topredicate.ml" 43 1634 1638 "topredicate.ml" 44 1712 1847
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 45 1848 1853 "topredicate.ml" 45 1848 1860
+type(
+  Arg.key
+)
+"topredicate.ml" 45 1848 1874 "topredicate.ml" 45 1848 1875
+type(
+  int
+)
+ident(
+  def i "topredicate.ml" 45 1848 1878 "topredicate.ml" 46 1901 1936
+)
+"topredicate.ml" 45 1848 1878 "topredicate.ml" 45 1848 1880
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 45 1848 1881 "topredicate.ml" 45 1848 1883
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 45 1848 1884 "topredicate.ml" 45 1848 1899
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_dwp_gen
+)
+"topredicate.ml" 45 1848 1878 "topredicate.ml" 45 1848 1899
+type(
+  unit
+)
+"topredicate.ml" 46 1901 1905 "topredicate.ml" 46 1901 1912
+type(
+  Vc.options ref
+)
+ident(
+  int_ref options "topredicate.ml" 11 207 211 "topredicate.ml" 11 207 218
+)
+"topredicate.ml" 46 1901 1913 "topredicate.ml" 46 1901 1915
+type(
+  Vc.options ref -> Vc.options -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 46 1901 1917 "topredicate.ml" 46 1901 1918
+type(
+  Vc.options ref -> Vc.options
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 46 1901 1918 "topredicate.ml" 46 1901 1925
+type(
+  Vc.options ref
+)
+ident(
+  int_ref options "topredicate.ml" 11 207 211 "topredicate.ml" 11 207 218
+)
+"topredicate.ml" 46 1901 1917 "topredicate.ml" 46 1901 1925
+type(
+  Vc.options
+)
+"topredicate.ml" 46 1901 1933 "topredicate.ml" 46 1901 1934
+type(
+  int
+)
+ident(
+  int_ref i "topredicate.ml" 45 1848 1874 "topredicate.ml" 45 1848 1875
+)
+"topredicate.ml" 46 1901 1916 "topredicate.ml" 46 1901 1935
+type(
+  Vc.options
+)
+"topredicate.ml" 46 1901 1905 "topredicate.ml" 46 1901 1936
+type(
+  unit
+)
+"topredicate.ml" 45 1848 1878 "topredicate.ml" 46 1901 1936
+type(
+  unit
+)
+"topredicate.ml" 45 1848 1869 "topredicate.ml" 47 1937 1940
+type(
+  int -> unit
+)
+"topredicate.ml" 45 1848 1862 "topredicate.ml" 47 1937 1940
+type(
+  Arg.spec
+)
+"topredicate.ml" 48 1942 1947 "topredicate.ml" 48 1942 1997
+type(
+  Arg.doc
+)
+"topredicate.ml" 45 1848 1852 "topredicate.ml" 48 1942 1998
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 49 1999 2004 "topredicate.ml" 49 1999 2011
+type(
+  Arg.key
+)
+"topredicate.ml" 49 1999 2025 "topredicate.ml" 49 1999 2027
+type(
+  unit
+)
+"topredicate.ml" 49 1999 2030 "topredicate.ml" 49 1999 2032
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 49 1999 2033 "topredicate.ml" 49 1999 2035
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 49 1999 2036 "topredicate.ml" 49 1999 2052
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_dwp1_gen
+)
+"topredicate.ml" 49 1999 2030 "topredicate.ml" 49 1999 2052
+type(
+  unit
+)
+"topredicate.ml" 49 1999 2021 "topredicate.ml" 49 1999 2053
+type(
+  unit -> unit
+)
+"topredicate.ml" 49 1999 2013 "topredicate.ml" 49 1999 2053
+type(
+  Arg.spec
+)
+"topredicate.ml" 50 2055 2060 "topredicate.ml" 50 2055 2120
+type(
+  Arg.doc
+)
+"topredicate.ml" 49 1999 2003 "topredicate.ml" 50 2055 2121
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 51 2122 2127 "topredicate.ml" 51 2122 2142
+type(
+  Arg.key
+)
+"topredicate.ml" 51 2122 2156 "topredicate.ml" 51 2122 2158
+type(
+  unit
+)
+"topredicate.ml" 51 2122 2161 "topredicate.ml" 51 2122 2163
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 51 2122 2164 "topredicate.ml" 51 2122 2166
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 51 2122 2167 "topredicate.ml" 51 2122 2191
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_flanagansaxe_gen
+)
+"topredicate.ml" 51 2122 2161 "topredicate.ml" 51 2122 2191
+type(
+  unit
+)
+"topredicate.ml" 51 2122 2152 "topredicate.ml" 51 2122 2192
+type(
+  unit -> unit
+)
+"topredicate.ml" 51 2122 2144 "topredicate.ml" 51 2122 2192
+type(
+  Arg.spec
+)
+"topredicate.ml" 52 2194 2199 "topredicate.ml" 52 2194 2259
+type(
+  Arg.doc
+)
+"topredicate.ml" 51 2122 2126 "topredicate.ml" 52 2194 2260
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 53 2261 2266 "topredicate.ml" 53 2261 2271
+type(
+  Arg.key
+)
+"topredicate.ml" 53 2261 2285 "topredicate.ml" 53 2261 2287
+type(
+  unit
+)
+"topredicate.ml" 53 2261 2290 "topredicate.ml" 53 2261 2292
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 53 2261 2293 "topredicate.ml" 53 2261 2295
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 53 2261 2296 "topredicate.ml" 53 2261 2310
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_wp_gen
+)
+"topredicate.ml" 53 2261 2290 "topredicate.ml" 53 2261 2310
+type(
+  unit
+)
+"topredicate.ml" 53 2261 2281 "topredicate.ml" 53 2261 2311
+type(
+  unit -> unit
+)
+"topredicate.ml" 53 2261 2273 "topredicate.ml" 53 2261 2311
+type(
+  Arg.spec
+)
+"topredicate.ml" 54 2313 2318 "topredicate.ml" 54 2313 2345
+type(
+  Arg.doc
+)
+"topredicate.ml" 53 2261 2265 "topredicate.ml" 54 2313 2346
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 55 2347 2352 "topredicate.ml" 55 2347 2358
+type(
+  Arg.key
+)
+"topredicate.ml" 55 2347 2372 "topredicate.ml" 55 2347 2374
+type(
+  unit
+)
+"topredicate.ml" 55 2347 2377 "topredicate.ml" 55 2347 2379
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 55 2347 2380 "topredicate.ml" 55 2347 2382
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 55 2347 2383 "topredicate.ml" 55 2347 2407
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_passified_wp_gen
+)
+"topredicate.ml" 55 2347 2377 "topredicate.ml" 55 2347 2407
+type(
+  unit
+)
+"topredicate.ml" 55 2347 2368 "topredicate.ml" 55 2347 2408
+type(
+  unit -> unit
+)
+"topredicate.ml" 55 2347 2360 "topredicate.ml" 55 2347 2408
+type(
+  Arg.spec
+)
+"topredicate.ml" 56 2410 2415 "topredicate.ml" 56 2410 2456
+type(
+  Arg.doc
+)
+"topredicate.ml" 55 2347 2351 "topredicate.ml" 56 2410 2457
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 57 2458 2463 "topredicate.ml" 57 2458 2469
+type(
+  Arg.key
+)
+"topredicate.ml" 57 2458 2483 "topredicate.ml" 57 2458 2485
+type(
+  unit
+)
+"topredicate.ml" 57 2458 2488 "topredicate.ml" 57 2458 2490
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 57 2458 2491 "topredicate.ml" 57 2458 2493
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 57 2458 2494 "topredicate.ml" 57 2458 2509
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_uwp_gen
+)
+"topredicate.ml" 57 2458 2488 "topredicate.ml" 57 2458 2509
+type(
+  unit
+)
+"topredicate.ml" 57 2458 2479 "topredicate.ml" 57 2458 2510
+type(
+  unit -> unit
+)
+"topredicate.ml" 57 2458 2471 "topredicate.ml" 57 2458 2510
+type(
+  Arg.spec
+)
+"topredicate.ml" 58 2512 2517 "topredicate.ml" 58 2512 2551
+type(
+  Arg.doc
+)
+"topredicate.ml" 57 2458 2462 "topredicate.ml" 58 2512 2552
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 59 2553 2558 "topredicate.ml" 59 2553 2565
+type(
+  Arg.key
+)
+"topredicate.ml" 59 2553 2579 "topredicate.ml" 59 2553 2581
+type(
+  unit
+)
+"topredicate.ml" 59 2553 2584 "topredicate.ml" 59 2553 2586
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 59 2553 2587 "topredicate.ml" 59 2553 2589
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 59 2553 2590 "topredicate.ml" 59 2553 2615
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_uwp_efficient_gen
+)
+"topredicate.ml" 59 2553 2584 "topredicate.ml" 59 2553 2615
+type(
+  unit
+)
+"topredicate.ml" 59 2553 2575 "topredicate.ml" 59 2553 2616
+type(
+  unit -> unit
+)
+"topredicate.ml" 59 2553 2567 "topredicate.ml" 59 2553 2616
+type(
+  Arg.spec
+)
+"topredicate.ml" 60 2618 2623 "topredicate.ml" 60 2618 2667
+type(
+  Arg.doc
+)
+"topredicate.ml" 59 2553 2557 "topredicate.ml" 60 2618 2668
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 61 2669 2674 "topredicate.ml" 61 2669 2684
+type(
+  Arg.key
+)
+"topredicate.ml" 61 2669 2698 "topredicate.ml" 61 2669 2700
+type(
+  unit
+)
+"topredicate.ml" 61 2669 2703 "topredicate.ml" 61 2669 2705
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 61 2669 2706 "topredicate.ml" 61 2669 2708
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 61 2669 2709 "topredicate.ml" 61 2669 2728
+type(
+  Vc.t
+)
+ident(
+  ext_ref Vc.compute_fse_bfs_gen
+)
+"topredicate.ml" 61 2669 2703 "topredicate.ml" 61 2669 2728
+type(
+  unit
+)
+"topredicate.ml" 61 2669 2694 "topredicate.ml" 61 2669 2729
+type(
+  unit -> unit
+)
+"topredicate.ml" 61 2669 2686 "topredicate.ml" 61 2669 2729
+type(
+  Arg.spec
+)
+"topredicate.ml" 62 2731 2736 "topredicate.ml" 62 2731 2799
+type(
+  Arg.doc
+)
+"topredicate.ml" 61 2669 2673 "topredicate.ml" 62 2731 2800
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 63 2801 2806 "topredicate.ml" 63 2801 2825
+type(
+  Arg.key
+)
+"topredicate.ml" 63 2801 2839 "topredicate.ml" 63 2801 2840
+type(
+  int
+)
+ident(
+  def i "topredicate.ml" 63 2801 2843 "topredicate.ml" 63 2801 2879
+)
+"topredicate.ml" 63 2801 2843 "topredicate.ml" 63 2801 2845
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 63 2801 2846 "topredicate.ml" 63 2801 2848
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 63 2801 2849 "topredicate.ml" 63 2801 2877
+type(
+  int -> Vc.t
+)
+ident(
+  ext_ref Vc.compute_fse_bfs_maxdepth_gen
+)
+"topredicate.ml" 63 2801 2878 "topredicate.ml" 63 2801 2879
+type(
+  int
+)
+ident(
+  int_ref i "topredicate.ml" 63 2801 2839 "topredicate.ml" 63 2801 2840
+)
+"topredicate.ml" 63 2801 2849 "topredicate.ml" 63 2801 2879
+call(
+  stack
+)
+type(
+  Vc.t
+)
+"topredicate.ml" 63 2801 2843 "topredicate.ml" 63 2801 2879
+type(
+  unit
+)
+"topredicate.ml" 63 2801 2834 "topredicate.ml" 63 2801 2880
+type(
+  int -> unit
+)
+"topredicate.ml" 63 2801 2827 "topredicate.ml" 63 2801 2880
+type(
+  Arg.spec
+)
+"topredicate.ml" 64 2882 2887 "topredicate.ml" 64 2882 2950
+type(
+  Arg.doc
+)
+"topredicate.ml" 63 2801 2805 "topredicate.ml" 64 2882 2951
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 65 2952 2957 "topredicate.ml" 65 2952 2973
+type(
+  Arg.key
+)
+"topredicate.ml" 65 2952 2987 "topredicate.ml" 65 2952 2988
+type(
+  int
+)
+ident(
+  def i "topredicate.ml" 65 2952 2991 "topredicate.ml" 65 2952 3024
+)
+"topredicate.ml" 65 2952 2991 "topredicate.ml" 65 2952 2993
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 65 2952 2994 "topredicate.ml" 65 2952 2996
+type(
+  Vc.t ref -> Vc.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 65 2952 2997 "topredicate.ml" 65 2952 3022
+type(
+  int -> Vc.t
+)
+ident(
+  ext_ref Vc.compute_fse_maxrepeat_gen
+)
+"topredicate.ml" 65 2952 3023 "topredicate.ml" 65 2952 3024
+type(
+  int
+)
+ident(
+  int_ref i "topredicate.ml" 65 2952 2987 "topredicate.ml" 65 2952 2988
+)
+"topredicate.ml" 65 2952 2997 "topredicate.ml" 65 2952 3024
+call(
+  stack
+)
+type(
+  Vc.t
+)
+"topredicate.ml" 65 2952 2991 "topredicate.ml" 65 2952 3024
+type(
+  unit
+)
+"topredicate.ml" 65 2952 2982 "topredicate.ml" 65 2952 3025
+type(
+  int -> unit
+)
+"topredicate.ml" 65 2952 2975 "topredicate.ml" 65 2952 3025
+type(
+  Arg.spec
+)
+"topredicate.ml" 66 3027 3032 "topredicate.ml" 66 3027 3095
+type(
+  Arg.doc
+)
+"topredicate.ml" 65 2952 2956 "topredicate.ml" 66 3027 3096
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 67 3097 3102 "topredicate.ml" 67 3097 3111
+type(
+  Arg.key
+)
+"topredicate.ml" 67 3097 3124 "topredicate.ml" 67 3097 3141
+type(
+  string -> unit
+)
+ident(
+  ext_ref Utils_common.Solver.set_solver
+)
+"topredicate.ml" 67 3097 3113 "topredicate.ml" 67 3097 3141
+type(
+  Arg.spec
+)
+"topredicate.ml" 68 3143 3149 "topredicate.ml" 68 3143 3186
+type(
+  string
+)
+"topredicate.ml" 68 3143 3187 "topredicate.ml" 68 3143 3188
+type(
+  string -> string -> Arg.doc
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"topredicate.ml" 68 3143 3189 "topredicate.ml" 68 3143 3203
+type(
+  string
+)
+ident(
+  ext_ref Utils_common.Solver.solvers
+)
+"topredicate.ml" 68 3143 3148 "topredicate.ml" 68 3143 3204
+call(
+  stack
+)
+type(
+  Arg.doc
+)
+"topredicate.ml" 67 3097 3101 "topredicate.ml" 68 3143 3205
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 69 3206 3211 "topredicate.ml" 69 3206 3219
+type(
+  Arg.key
+)
+"topredicate.ml" 69 3206 3235 "topredicate.ml" 69 3206 3237
+type(
+  unit
+)
+"topredicate.ml" 69 3206 3241 "topredicate.ml" 69 3206 3246
+type(
+  bool ref
+)
+ident(
+  int_ref usedc "topredicate.ml" 17 364 368 "topredicate.ml" 17 364 373
+)
+"topredicate.ml" 69 3206 3247 "topredicate.ml" 69 3206 3249
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 69 3206 3250 "topredicate.ml" 69 3206 3255
+type(
+  bool
+)
+"topredicate.ml" 69 3206 3241 "topredicate.ml" 69 3206 3255
+type(
+  unit
+)
+"topredicate.ml" 69 3206 3257 "topredicate.ml" 69 3206 3265
+type(
+  bool ref
+)
+ident(
+  int_ref usesccvn "topredicate.ml" 18 385 389 "topredicate.ml" 18 385 397
+)
+"topredicate.ml" 69 3206 3266 "topredicate.ml" 69 3206 3268
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 69 3206 3269 "topredicate.ml" 69 3206 3274
+type(
+  bool
+)
+"topredicate.ml" 69 3206 3257 "topredicate.ml" 69 3206 3274
+type(
+  unit
+)
+"topredicate.ml" 69 3206 3241 "topredicate.ml" 69 3206 3274
+type(
+  unit
+)
+"topredicate.ml" 69 3206 3230 "topredicate.ml" 69 3206 3275
+type(
+  unit -> unit
+)
+"topredicate.ml" 69 3206 3221 "topredicate.ml" 69 3206 3275
+type(
+  Arg.spec
+)
+"topredicate.ml" 70 3277 3282 "topredicate.ml" 70 3277 3332
+type(
+  Arg.doc
+)
+"topredicate.ml" 69 3206 3210 "topredicate.ml" 70 3277 3333
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 71 3334 3339 "topredicate.ml" 71 3334 3345
+type(
+  Arg.key
+)
+"topredicate.ml" 71 3334 3361 "topredicate.ml" 71 3334 3363
+type(
+  unit
+)
+"topredicate.ml" 71 3334 3367 "topredicate.ml" 71 3334 3372
+type(
+  bool ref
+)
+ident(
+  int_ref usedc "topredicate.ml" 17 364 368 "topredicate.ml" 17 364 373
+)
+"topredicate.ml" 71 3334 3373 "topredicate.ml" 71 3334 3375
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 71 3334 3376 "topredicate.ml" 71 3334 3380
+type(
+  bool
+)
+"topredicate.ml" 71 3334 3367 "topredicate.ml" 71 3334 3380
+type(
+  unit
+)
+"topredicate.ml" 71 3334 3382 "topredicate.ml" 71 3334 3390
+type(
+  bool ref
+)
+ident(
+  int_ref usesccvn "topredicate.ml" 18 385 389 "topredicate.ml" 18 385 397
+)
+"topredicate.ml" 71 3334 3391 "topredicate.ml" 71 3334 3393
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 71 3334 3394 "topredicate.ml" 71 3334 3398
+type(
+  bool
+)
+"topredicate.ml" 71 3334 3382 "topredicate.ml" 71 3334 3398
+type(
+  unit
+)
+"topredicate.ml" 71 3334 3367 "topredicate.ml" 71 3334 3398
+type(
+  unit
+)
+"topredicate.ml" 71 3334 3356 "topredicate.ml" 71 3334 3399
+type(
+  unit -> unit
+)
+"topredicate.ml" 71 3334 3347 "topredicate.ml" 71 3334 3399
+type(
+  Arg.spec
+)
+"topredicate.ml" 72 3401 3406 "topredicate.ml" 72 3401 3449
+type(
+  Arg.doc
+)
+"topredicate.ml" 71 3334 3338 "topredicate.ml" 72 3401 3450
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 73 3451 3456 "topredicate.ml" 73 3451 3464
+type(
+  Arg.key
+)
+"topredicate.ml" 73 3451 3480 "topredicate.ml" 73 3451 3482
+type(
+  unit
+)
+"topredicate.ml" 73 3451 3486 "topredicate.ml" 73 3451 3491
+type(
+  bool ref
+)
+ident(
+  int_ref usedc "topredicate.ml" 17 364 368 "topredicate.ml" 17 364 373
+)
+"topredicate.ml" 73 3451 3492 "topredicate.ml" 73 3451 3494
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 73 3451 3495 "topredicate.ml" 73 3451 3499
+type(
+  bool
+)
+"topredicate.ml" 73 3451 3486 "topredicate.ml" 73 3451 3499
+type(
+  unit
+)
+"topredicate.ml" 73 3451 3501 "topredicate.ml" 73 3451 3509
+type(
+  bool ref
+)
+ident(
+  int_ref usesccvn "topredicate.ml" 18 385 389 "topredicate.ml" 18 385 397
+)
+"topredicate.ml" 73 3451 3510 "topredicate.ml" 73 3451 3512
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 73 3451 3513 "topredicate.ml" 73 3451 3518
+type(
+  bool
+)
+"topredicate.ml" 73 3451 3501 "topredicate.ml" 73 3451 3518
+type(
+  unit
+)
+"topredicate.ml" 73 3451 3486 "topredicate.ml" 73 3451 3518
+type(
+  unit
+)
+"topredicate.ml" 73 3451 3475 "topredicate.ml" 73 3451 3519
+type(
+  unit -> unit
+)
+"topredicate.ml" 73 3451 3466 "topredicate.ml" 73 3451 3519
+type(
+  Arg.spec
+)
+"topredicate.ml" 74 3521 3526 "topredicate.ml" 74 3521 3572
+type(
+  Arg.doc
+)
+"topredicate.ml" 73 3451 3455 "topredicate.ml" 74 3521 3573
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 75 3574 3579 "topredicate.ml" 75 3574 3590
+type(
+  Arg.key
+)
+"topredicate.ml" 75 3574 3606 "topredicate.ml" 75 3574 3608
+type(
+  unit
+)
+"topredicate.ml" 75 3574 3612 "topredicate.ml" 75 3574 3617
+type(
+  bool ref
+)
+ident(
+  int_ref usedc "topredicate.ml" 17 364 368 "topredicate.ml" 17 364 373
+)
+"topredicate.ml" 75 3574 3618 "topredicate.ml" 75 3574 3620
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 75 3574 3621 "topredicate.ml" 75 3574 3626
+type(
+  bool
+)
+"topredicate.ml" 75 3574 3612 "topredicate.ml" 75 3574 3626
+type(
+  unit
+)
+"topredicate.ml" 75 3574 3628 "topredicate.ml" 75 3574 3636
+type(
+  bool ref
+)
+ident(
+  int_ref usesccvn "topredicate.ml" 18 385 389 "topredicate.ml" 18 385 397
+)
+"topredicate.ml" 75 3574 3637 "topredicate.ml" 75 3574 3639
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 75 3574 3640 "topredicate.ml" 75 3574 3644
+type(
+  bool
+)
+"topredicate.ml" 75 3574 3628 "topredicate.ml" 75 3574 3644
+type(
+  unit
+)
+"topredicate.ml" 75 3574 3612 "topredicate.ml" 75 3574 3644
+type(
+  unit
+)
+"topredicate.ml" 75 3574 3601 "topredicate.ml" 75 3574 3645
+type(
+  unit -> unit
+)
+"topredicate.ml" 75 3574 3592 "topredicate.ml" 75 3574 3645
+type(
+  Arg.spec
+)
+"topredicate.ml" 76 3647 3652 "topredicate.ml" 76 3647 3683
+type(
+  Arg.doc
+)
+"topredicate.ml" 75 3574 3578 "topredicate.ml" 76 3647 3684
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 77 3685 3690 "topredicate.ml" 77 3685 3698
+type(
+  Arg.key
+)
+"topredicate.ml" 77 3685 3714 "topredicate.ml" 77 3685 3716
+type(
+  unit
+)
+"topredicate.ml" 77 3685 3720 "topredicate.ml" 77 3685 3725
+type(
+  bool ref
+)
+ident(
+  int_ref solve "topredicate.ml" 19 409 413 "topredicate.ml" 19 409 418
+)
+"topredicate.ml" 77 3685 3726 "topredicate.ml" 77 3685 3728
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 77 3685 3729 "topredicate.ml" 77 3685 3733
+type(
+  bool
+)
+"topredicate.ml" 77 3685 3720 "topredicate.ml" 77 3685 3733
+type(
+  unit
+)
+"topredicate.ml" 77 3685 3709 "topredicate.ml" 77 3685 3734
+type(
+  unit -> unit
+)
+"topredicate.ml" 77 3685 3700 "topredicate.ml" 77 3685 3734
+type(
+  Arg.spec
+)
+"topredicate.ml" 78 3736 3741 "topredicate.ml" 78 3736 3771
+type(
+  Arg.doc
+)
+"topredicate.ml" 77 3685 3689 "topredicate.ml" 78 3736 3772
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 79 3773 3778 "topredicate.ml" 79 3773 3793
+type(
+  Arg.key
+)
+"topredicate.ml" 79 3773 3808 "topredicate.ml" 79 3773 3809
+type(
+  int
+)
+ident(
+  def n "topredicate.ml" 79 3773 3813 "topredicate.ml" 79 3773 3830
+)
+"topredicate.ml" 79 3773 3813 "topredicate.ml" 79 3773 3820
+type(
+  int option ref
+)
+ident(
+  int_ref timeout "topredicate.ml" 20 431 435 "topredicate.ml" 20 431 442
+)
+"topredicate.ml" 79 3773 3821 "topredicate.ml" 79 3773 3823
+type(
+  int option ref -> int option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 79 3773 3829 "topredicate.ml" 79 3773 3830
+type(
+  int
+)
+ident(
+  int_ref n "topredicate.ml" 79 3773 3808 "topredicate.ml" 79 3773 3809
+)
+"topredicate.ml" 79 3773 3824 "topredicate.ml" 79 3773 3830
+type(
+  int option
+)
+"topredicate.ml" 79 3773 3813 "topredicate.ml" 79 3773 3830
+type(
+  unit
+)
+"topredicate.ml" 79 3773 3803 "topredicate.ml" 79 3773 3831
+type(
+  int -> unit
+)
+"topredicate.ml" 79 3773 3795 "topredicate.ml" 79 3773 3831
+type(
+  Arg.spec
+)
+"topredicate.ml" 80 3833 3838 "topredicate.ml" 80 3833 3899
+type(
+  Arg.doc
+)
+"topredicate.ml" 79 3773 3777 "topredicate.ml" 80 3833 3900
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 81 3901 3906 "topredicate.ml" 81 3901 3917
+type(
+  Arg.key
+)
+"topredicate.ml" 81 3901 3933 "topredicate.ml" 81 3901 3935
+type(
+  unit
+)
+"topredicate.ml" 81 3901 3939 "topredicate.ml" 81 3901 3946
+type(
+  Vc.options ref
+)
+ident(
+  int_ref options "topredicate.ml" 11 207 211 "topredicate.ml" 11 207 218
+)
+"topredicate.ml" 81 3901 3947 "topredicate.ml" 81 3901 3949
+type(
+  Vc.options ref -> Vc.options -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 81 3901 3951 "topredicate.ml" 81 3901 3952
+type(
+  Vc.options ref -> Vc.options
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 81 3901 3952 "topredicate.ml" 81 3901 3959
+type(
+  Vc.options ref
+)
+ident(
+  int_ref options "topredicate.ml" 11 207 211 "topredicate.ml" 11 207 218
+)
+"topredicate.ml" 81 3901 3951 "topredicate.ml" 81 3901 3959
+type(
+  Vc.options
+)
+"topredicate.ml" 81 3901 3972 "topredicate.ml" 81 3901 3985
+type(
+  Type.formula_mode
+)
+"topredicate.ml" 81 3901 3950 "topredicate.ml" 81 3901 3986
+type(
+  Vc.options
+)
+"topredicate.ml" 81 3901 3939 "topredicate.ml" 81 3901 3986
+type(
+  unit
+)
+"topredicate.ml" 81 3901 3928 "topredicate.ml" 81 3901 3987
+type(
+  unit -> unit
+)
+"topredicate.ml" 81 3901 3919 "topredicate.ml" 81 3901 3987
+type(
+  Arg.spec
+)
+"topredicate.ml" 82 3989 3994 "topredicate.ml" 82 3989 4015
+type(
+  Arg.doc
+)
+"topredicate.ml" 81 3901 3905 "topredicate.ml" 82 3989 4016
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 83 4017 4022 "topredicate.ml" 83 4017 4028
+type(
+  Arg.key
+)
+"topredicate.ml" 83 4017 4044 "topredicate.ml" 83 4017 4046
+type(
+  unit
+)
+"topredicate.ml" 83 4017 4050 "topredicate.ml" 83 4017 4057
+type(
+  Vc.options ref
+)
+ident(
+  int_ref options "topredicate.ml" 11 207 211 "topredicate.ml" 11 207 218
+)
+"topredicate.ml" 83 4017 4058 "topredicate.ml" 83 4017 4060
+type(
+  Vc.options ref -> Vc.options -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"topredicate.ml" 83 4017 4062 "topredicate.ml" 83 4017 4063
+type(
+  Vc.options ref -> Vc.options
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 83 4017 4063 "topredicate.ml" 83 4017 4070
+type(
+  Vc.options ref
+)
+ident(
+  int_ref options "topredicate.ml" 11 207 211 "topredicate.ml" 11 207 218
+)
+"topredicate.ml" 83 4017 4062 "topredicate.ml" 83 4017 4070
+type(
+  Vc.options
+)
+"topredicate.ml" 83 4017 4083 "topredicate.ml" 83 4017 4091
+type(
+  Type.formula_mode
+)
+"topredicate.ml" 83 4017 4061 "topredicate.ml" 83 4017 4092
+type(
+  Vc.options
+)
+"topredicate.ml" 83 4017 4050 "topredicate.ml" 83 4017 4092
+type(
+  unit
+)
+"topredicate.ml" 83 4017 4039 "topredicate.ml" 83 4017 4093
+type(
+  unit -> unit
+)
+"topredicate.ml" 83 4017 4030 "topredicate.ml" 83 4017 4093
+type(
+  Arg.spec
+)
+"topredicate.ml" 84 4095 4100 "topredicate.ml" 84 4095 4127
+type(
+  Arg.doc
+)
+"topredicate.ml" 83 4017 4021 "topredicate.ml" 84 4095 4128
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"topredicate.ml" 85 4129 4134 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Input.speclist
+)
+"topredicate.ml" 83 4017 4021 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 81 3901 3905 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 79 3773 3777 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 77 3685 3689 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 75 3574 3578 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 73 3451 3455 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 71 3334 3338 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 69 3206 3210 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 67 3097 3101 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 65 2952 2956 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 63 2801 2805 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 61 2669 2673 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 59 2553 2557 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 57 2458 2462 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 55 2347 2351 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 53 2261 2265 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 51 2122 2126 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 49 1999 2003 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 45 1848 1852 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 43 1634 1638 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 41 1460 1464 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 39 1326 1330 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 37 1205 1209 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 35 1094 1098 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 33 991 995 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 31 888 892 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 29 755 759 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 27 613 617 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 25 499 501 "topredicate.ml" 85 4129 4148
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"topredicate.ml" 87 4150 4154 "topredicate.ml" 87 4150 4156
+type(
+  unit
+)
+"topredicate.ml" 87 4150 4159 "topredicate.ml" 87 4150 4172
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Tunegc.set_gc
+)
+"topredicate.ml" 87 4150 4173 "topredicate.ml" 87 4150 4175
+type(
+  unit
+)
+"topredicate.ml" 87 4150 4159 "topredicate.ml" 87 4150 4175
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 88 4176 4180 "topredicate.ml" 88 4176 4184
+type(
+  string -> 'a
+)
+ident(
+  def anon "topredicate.ml" 89 4236 4236 --
+)
+"topredicate.ml" 88 4176 4185 "topredicate.ml" 88 4176 4186
+type(
+  string
+)
+ident(
+  def x "topredicate.ml" 88 4176 4189 "topredicate.ml" 88 4176 4235
+)
+"topredicate.ml" 88 4176 4189 "topredicate.ml" 88 4176 4194
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"topredicate.ml" 88 4176 4203 "topredicate.ml" 88 4176 4227
+type(
+  string
+)
+"topredicate.ml" 88 4176 4227 "topredicate.ml" 88 4176 4228
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"topredicate.ml" 88 4176 4228 "topredicate.ml" 88 4176 4229
+type(
+  string
+)
+ident(
+  int_ref x "topredicate.ml" 88 4176 4185 "topredicate.ml" 88 4176 4186
+)
+"topredicate.ml" 88 4176 4229 "topredicate.ml" 88 4176 4230
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"topredicate.ml" 88 4176 4230 "topredicate.ml" 88 4176 4233
+type(
+  string
+)
+"topredicate.ml" 88 4176 4228 "topredicate.ml" 88 4176 4233
+call(
+  stack
+)
+type(
+  string
+)
+"topredicate.ml" 88 4176 4202 "topredicate.ml" 88 4176 4234
+call(
+  stack
+)
+type(
+  string
+)
+"topredicate.ml" 88 4176 4194 "topredicate.ml" 88 4176 4235
+type(
+  exn
+)
+"topredicate.ml" 88 4176 4189 "topredicate.ml" 88 4176 4235
+type(
+  'a
+)
+"topredicate.ml" 89 4236 4240 "topredicate.ml" 89 4236 4242
+type(
+  unit
+)
+"topredicate.ml" 89 4236 4245 "topredicate.ml" 89 4236 4254
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"topredicate.ml" 89 4236 4255 "topredicate.ml" 89 4236 4263
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "topredicate.ml" 24 484 488 "topredicate.ml" 24 484 496
+)
+"topredicate.ml" 89 4236 4264 "topredicate.ml" 89 4236 4268
+type(
+  Arg.anon_fun
+)
+ident(
+  int_ref anon "topredicate.ml" 88 4176 4180 "topredicate.ml" 88 4176 4184
+)
+"topredicate.ml" 89 4236 4269 "topredicate.ml" 89 4236 4274
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "topredicate.ml" 8 86 90 "topredicate.ml" 8 86 95
+)
+"topredicate.ml" 89 4236 4245 "topredicate.ml" 89 4236 4274
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 91 4276 4280 "topredicate.ml" 91 4276 4289
+type(
+  Memory2array.state
+)
+ident(
+  def m2a_state "topredicate.ml" 93 4322 4322 --
+)
+"topredicate.ml" 91 4276 4292 "topredicate.ml" 91 4276 4317
+type(
+  unit -> Memory2array.state
+)
+ident(
+  ext_ref Memory2array.create_state
+)
+"topredicate.ml" 91 4276 4318 "topredicate.ml" 91 4276 4320
+type(
+  unit
+)
+"topredicate.ml" 91 4276 4292 "topredicate.ml" 91 4276 4320
+call(
+  stack
+)
+type(
+  Memory2array.state
+)
+"topredicate.ml" 93 4322 4326 "topredicate.ml" 93 4322 4330
+type(
+  Ast.program
+)
+ident(
+  def prog "topredicate.ml" 99 4438 4438 --
+)
+"topredicate.ml" 93 4322 4331 "topredicate.ml" 93 4322 4336
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  def scope "topredicate.ml" 99 4438 4438 --
+)
+"topredicate.ml" 93 4322 4337 "topredicate.ml" 93 4322 4338
+type(
+  Arch.arch option
+)
+"topredicate.ml" 93 4322 4326 "topredicate.ml" 93 4322 4338
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"topredicate.ml" 94 4341 4347 "topredicate.ml" 94 4341 4364
+type(
+  unit -> Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  ext_ref Input.get_program
+)
+"topredicate.ml" 94 4341 4364 "topredicate.ml" 94 4341 4366
+type(
+  unit
+)
+"topredicate.ml" 94 4341 4347 "topredicate.ml" 94 4341 4366
+call(
+  stack
+)
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"topredicate.ml" 95 4367 4382 "topredicate.ml" 95 4367 4383
+type(
+  string
+)
+ident(
+  def s "topredicate.ml" 96 4387 4391 "topredicate.ml" 97 4426 4436
+)
+"topredicate.ml" 95 4367 4374 "topredicate.ml" 95 4367 4383
+type(
+  exn
+)
+"topredicate.ml" 96 4387 4391 "topredicate.ml" 96 4387 4400
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.usage
+)
+"topredicate.ml" 96 4387 4401 "topredicate.ml" 96 4387 4409
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "topredicate.ml" 24 484 488 "topredicate.ml" 24 484 496
+)
+"topredicate.ml" 96 4387 4411 "topredicate.ml" 96 4387 4412
+type(
+  string
+)
+ident(
+  int_ref s "topredicate.ml" 95 4367 4382 "topredicate.ml" 95 4367 4383
+)
+"topredicate.ml" 96 4387 4412 "topredicate.ml" 96 4387 4413
+type(
+  string -> string -> Arg.usage_msg
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"topredicate.ml" 96 4387 4413 "topredicate.ml" 96 4387 4417
+type(
+  string
+)
+"topredicate.ml" 96 4387 4417 "topredicate.ml" 96 4387 4418
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"topredicate.ml" 96 4387 4418 "topredicate.ml" 96 4387 4423
+type(
+  string
+)
+ident(
+  int_ref usage "topredicate.ml" 8 86 90 "topredicate.ml" 8 86 95
+)
+"topredicate.ml" 96 4387 4413 "topredicate.ml" 96 4387 4423
+call(
+  stack
+)
+type(
+  string
+)
+"topredicate.ml" 96 4387 4410 "topredicate.ml" 96 4387 4424
+call(
+  stack
+)
+type(
+  Arg.usage_msg
+)
+"topredicate.ml" 96 4387 4391 "topredicate.ml" 96 4387 4424
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 97 4426 4430 "topredicate.ml" 97 4426 4434
+type(
+  int -> Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"topredicate.ml" 97 4426 4435 "topredicate.ml" 97 4426 4436
+type(
+  int
+)
+"topredicate.ml" 97 4426 4430 "topredicate.ml" 97 4426 4436
+call(
+  stack
+)
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"topredicate.ml" 96 4387 4391 "topredicate.ml" 97 4426 4436
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"topredicate.ml" 94 4341 4343 "topredicate.ml" 97 4426 4436
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"topredicate.ml" 99 4438 4442 "topredicate.ml" 99 4438 4446
+type(
+  Ast.exp
+)
+ident(
+  def post "topredicate.ml" 101 4492 4492 --
+)
+"topredicate.ml" 99 4438 4447 "topredicate.ml" 99 4438 4452
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  def scope "topredicate.ml" 101 4492 4492 --
+)
+"topredicate.ml" 99 4438 4442 "topredicate.ml" 99 4438 4452
+type(
+  Ast.exp * Grammar_scope.Scope.t
+)
+"topredicate.ml" 99 4438 4455 "topredicate.ml" 99 4438 4477
+type(
+  ?scope:Grammar_scope.Scope.t -> string -> Ast.exp * Grammar_scope.Scope.t
+)
+ident(
+  ext_ref Parser.exp_from_string
+)
+"topredicate.ml" 99 4438 4479 "topredicate.ml" 99 4438 4484
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref scope "topredicate.ml" 93 4322 4331 "topredicate.ml" 93 4322 4336
+)
+"topredicate.ml" 99 4438 4485 "topredicate.ml" 99 4438 4486
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 99 4438 4486 "topredicate.ml" 99 4438 4490
+type(
+  string ref
+)
+ident(
+  int_ref post "topredicate.ml" 13 273 277 "topredicate.ml" 13 273 281
+)
+"topredicate.ml" 99 4438 4485 "topredicate.ml" 99 4438 4490
+type(
+  string
+)
+"topredicate.ml" 99 4438 4455 "topredicate.ml" 99 4438 4490
+call(
+  stack
+)
+type(
+  Ast.exp * Grammar_scope.Scope.t
+)
+"topredicate.ml" 101 4492 4496 "topredicate.ml" 101 4492 4500
+type(
+  Ast.program
+)
+ident(
+  def prog "topredicate.ml" 102 4556 4556 --
+)
+"topredicate.ml" 101 4492 4503 "topredicate.ml" 101 4492 4533
+type(
+  ?scope:Grammar_scope.Scope.t ->
+  Memory2array.state -> Ast.program -> Ast.program
+)
+ident(
+  ext_ref Memory2array.coerce_prog_state
+)
+"topredicate.ml" 101 4492 4535 "topredicate.ml" 101 4492 4540
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref scope "topredicate.ml" 99 4438 4447 "topredicate.ml" 99 4438 4452
+)
+"topredicate.ml" 101 4492 4541 "topredicate.ml" 101 4492 4550
+type(
+  Memory2array.state
+)
+ident(
+  int_ref m2a_state "topredicate.ml" 91 4276 4280 "topredicate.ml" 91 4276 4289
+)
+"topredicate.ml" 101 4492 4551 "topredicate.ml" 101 4492 4555
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "topredicate.ml" 93 4322 4326 "topredicate.ml" 93 4322 4330
+)
+"topredicate.ml" 101 4492 4503 "topredicate.ml" 101 4492 4555
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"topredicate.ml" 102 4556 4560 "topredicate.ml" 102 4556 4564
+type(
+  Ast.exp
+)
+ident(
+  def post "topredicate.ml" 104 4620 4620 --
+)
+"topredicate.ml" 102 4556 4567 "topredicate.ml" 102 4556 4596
+type(
+  ?scope:Grammar_scope.Scope.t -> Memory2array.state -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Memory2array.coerce_exp_state
+)
+"topredicate.ml" 102 4556 4598 "topredicate.ml" 102 4556 4603
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref scope "topredicate.ml" 99 4438 4447 "topredicate.ml" 99 4438 4452
+)
+"topredicate.ml" 102 4556 4604 "topredicate.ml" 102 4556 4613
+type(
+  Memory2array.state
+)
+ident(
+  int_ref m2a_state "topredicate.ml" 91 4276 4280 "topredicate.ml" 91 4276 4289
+)
+"topredicate.ml" 102 4556 4614 "topredicate.ml" 102 4556 4618
+type(
+  Ast.exp
+)
+ident(
+  int_ref post "topredicate.ml" 99 4438 4442 "topredicate.ml" 99 4438 4446
+)
+"topredicate.ml" 102 4556 4567 "topredicate.ml" 102 4556 4618
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"topredicate.ml" 104 4620 4624 "topredicate.ml" 104 4620 4627
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def cfg "topredicate.ml" 105 4651 4651 --
+)
+"topredicate.ml" 104 4620 4630 "topredicate.ml" 104 4620 4645
+type(
+  ?special_error:bool -> Ast.program -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg_ast.of_prog
+)
+"topredicate.ml" 104 4620 4646 "topredicate.ml" 104 4620 4650
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "topredicate.ml" 101 4492 4496 "topredicate.ml" 101 4492 4500
+)
+"topredicate.ml" 104 4620 4630 "topredicate.ml" 104 4620 4650
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"topredicate.ml" 105 4651 4655 "topredicate.ml" 105 4651 4658
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def cfg "topredicate.ml" 107 4708 4708 --
+)
+"topredicate.ml" 105 4651 4661 "topredicate.ml" 105 4651 4700
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Prune_unreachable.prune_unreachable_ast
+)
+"topredicate.ml" 105 4651 4701 "topredicate.ml" 105 4651 4704
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "topredicate.ml" 104 4620 4624 "topredicate.ml" 104 4620 4627
+)
+"topredicate.ml" 105 4651 4661 "topredicate.ml" 105 4651 4704
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"topredicate.ml" 107 4708 4713 "topredicate.ml" 107 4708 4715
+type(
+  Ast.exp
+)
+ident(
+  def wp "topredicate.ml" 121 5266 5266 --
+)
+"topredicate.ml" 107 4708 4717 "topredicate.ml" 107 4708 4724
+type(
+  Ast.var list
+)
+ident(
+  def foralls "topredicate.ml" 121 5266 5266 --
+)
+"topredicate.ml" 107 4708 4712 "topredicate.ml" 107 4708 4725
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 108 4728 4733 "topredicate.ml" 108 4728 4734
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 108 4728 4734 "topredicate.ml" 108 4728 4739
+type(
+  bool ref
+)
+ident(
+  int_ref usedc "topredicate.ml" 17 364 368 "topredicate.ml" 17 364 373
+)
+"topredicate.ml" 108 4728 4733 "topredicate.ml" 108 4728 4739
+type(
+  bool
+)
+"topredicate.ml" 108 4728 4740 "topredicate.ml" 108 4728 4742
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"topredicate.ml" 108 4728 4743 "topredicate.ml" 108 4728 4744
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 108 4728 4744 "topredicate.ml" 108 4728 4752
+type(
+  bool ref
+)
+ident(
+  int_ref usesccvn "topredicate.ml" 18 385 389 "topredicate.ml" 18 385 397
+)
+"topredicate.ml" 108 4728 4743 "topredicate.ml" 108 4728 4752
+type(
+  bool
+)
+"topredicate.ml" 108 4728 4733 "topredicate.ml" 108 4728 4752
+type(
+  bool
+)
+"topredicate.ml" 109 4758 4766 "topredicate.ml" 109 4758 4768
+type(
+  unit
+)
+"topredicate.ml" 109 4758 4771 "topredicate.ml" 109 4758 4784
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"topredicate.ml" 109 4758 4785 "topredicate.ml" 109 4758 4812
+type(
+  string
+)
+"topredicate.ml" 109 4758 4771 "topredicate.ml" 109 4758 4812
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 110 4816 4825 "topredicate.ml" 110 4816 4839
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  def ssacfg "topredicate.ml" 111 4885 4889 "topredicate.ml" 115 5125 5163
+)
+"topredicate.ml" 110 4816 4851 "topredicate.ml" 110 4816 4856
+type(
+  Ast.var -> Var.t
+)
+ident(
+  def tossa "topredicate.ml" 111 4885 4889 "topredicate.ml" 115 5125 5163
+)
+"topredicate.ml" 110 4816 4824 "topredicate.ml" 110 4816 4857
+type(
+  Cfg_ssa.cfg_translation_results
+)
+"topredicate.ml" 110 4816 4860 "topredicate.ml" 110 4816 4877
+type(
+  ?tac:bool -> Cfg.AST.G.t -> Cfg_ssa.cfg_translation_results
+)
+ident(
+  ext_ref Cfg_ssa.trans_cfg
+)
+"topredicate.ml" 110 4816 4878 "topredicate.ml" 110 4816 4881
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "topredicate.ml" 105 4651 4655 "topredicate.ml" 105 4651 4658
+)
+"topredicate.ml" 110 4816 4860 "topredicate.ml" 110 4816 4881
+call(
+  stack
+)
+type(
+  Cfg_ssa.cfg_translation_results
+)
+"topredicate.ml" 111 4885 4893 "topredicate.ml" 111 4885 4897
+type(
+  Ast.exp
+)
+ident(
+  def post "topredicate.ml" 112 4928 4932 "topredicate.ml" 115 5125 5163
+)
+"topredicate.ml" 111 4885 4900 "topredicate.ml" 111 4885 4913
+type(
+  (Ast.var -> Ast.var) -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Utils_common.rename_astexp
+)
+"topredicate.ml" 111 4885 4914 "topredicate.ml" 111 4885 4919
+type(
+  Ast.var -> Ast.var
+)
+ident(
+  int_ref tossa "topredicate.ml" 110 4816 4851 "topredicate.ml" 110 4816 4856
+)
+"topredicate.ml" 111 4885 4920 "topredicate.ml" 111 4885 4924
+type(
+  Ast.exp
+)
+ident(
+  int_ref post "topredicate.ml" 102 4556 4560 "topredicate.ml" 102 4556 4564
+)
+"topredicate.ml" 111 4885 4900 "topredicate.ml" 111 4885 4924
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"topredicate.ml" 112 4928 4936 "topredicate.ml" 112 4928 4944
+type(
+  Formulap.VH.key list
+)
+ident(
+  def freevars "topredicate.ml" 113 4973 4977 "topredicate.ml" 115 5125 5163
+)
+"topredicate.ml" 112 4928 4947 "topredicate.ml" 112 4928 4964
+type(
+  Ast.exp -> Formulap.VH.key list
+)
+ident(
+  ext_ref Formulap.freevars
+)
+"topredicate.ml" 112 4928 4965 "topredicate.ml" 112 4928 4969
+type(
+  Ast.exp
+)
+ident(
+  int_ref post "topredicate.ml" 111 4885 4893 "topredicate.ml" 111 4885 4897
+)
+"topredicate.ml" 112 4928 4947 "topredicate.ml" 112 4928 4969
+call(
+  stack
+)
+type(
+  Formulap.VH.key list
+)
+"topredicate.ml" 113 4973 4981 "topredicate.ml" 113 4973 4987
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  def ssacfg "topredicate.ml" 114 5070 5074 "topredicate.ml" 115 5125 5163
+)
+"topredicate.ml" 113 4973 4990 "topredicate.ml" 113 4973 5007
+type(
+  ?liveout:Formulap.VH.key list ->
+  ?usedc:bool ->
+  ?usesccvn:bool -> ?usemisc:bool -> Cfg.SSA.G.t -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Ssa_simp.simp_cfg
+)
+"topredicate.ml" 113 4973 5017 "topredicate.ml" 113 4973 5025
+type(
+  Formulap.VH.key list
+)
+ident(
+  int_ref freevars "topredicate.ml" 112 4928 4936 "topredicate.ml" 112 4928 4944
+)
+"topredicate.ml" 113 4973 5033 "topredicate.ml" 113 4973 5034
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 113 4973 5034 "topredicate.ml" 113 4973 5039
+type(
+  bool ref
+)
+ident(
+  int_ref usedc "topredicate.ml" 17 364 368 "topredicate.ml" 17 364 373
+)
+"topredicate.ml" 113 4973 5033 "topredicate.ml" 113 4973 5039
+type(
+  bool
+)
+"topredicate.ml" 113 4973 5050 "topredicate.ml" 113 4973 5051
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 113 4973 5051 "topredicate.ml" 113 4973 5059
+type(
+  bool ref
+)
+ident(
+  int_ref usesccvn "topredicate.ml" 18 385 389 "topredicate.ml" 18 385 397
+)
+"topredicate.ml" 113 4973 5050 "topredicate.ml" 113 4973 5059
+type(
+  bool
+)
+"topredicate.ml" 113 4973 5060 "topredicate.ml" 113 4973 5066
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref ssacfg "topredicate.ml" 110 4816 4825 "topredicate.ml" 110 4816 4839
+)
+"topredicate.ml" 113 4973 4990 "topredicate.ml" 113 4973 5066
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.t
+)
+"topredicate.ml" 114 5070 5078 "topredicate.ml" 114 5070 5080
+type(
+  unit
+)
+"topredicate.ml" 114 5070 5083 "topredicate.ml" 114 5070 5096
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"topredicate.ml" 114 5070 5097 "topredicate.ml" 114 5070 5121
+type(
+  string
+)
+"topredicate.ml" 114 5070 5083 "topredicate.ml" 114 5070 5121
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 115 5125 5129 "topredicate.ml" 115 5125 5138
+type(
+  Vc.t -> Vc.options -> Cfg.SSA.G.t -> Ast.exp -> Ast.exp * Ast.var list
+)
+ident(
+  ext_ref Vc.vc_ssacfg
+)
+"topredicate.ml" 115 5125 5139 "topredicate.ml" 115 5125 5140
+type(
+  Vc.t ref -> Vc.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 115 5125 5140 "topredicate.ml" 115 5125 5142
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 115 5125 5139 "topredicate.ml" 115 5125 5142
+type(
+  Vc.t
+)
+"topredicate.ml" 115 5125 5143 "topredicate.ml" 115 5125 5144
+type(
+  Vc.options ref -> Vc.options
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 115 5125 5144 "topredicate.ml" 115 5125 5151
+type(
+  Vc.options ref
+)
+ident(
+  int_ref options "topredicate.ml" 11 207 211 "topredicate.ml" 11 207 218
+)
+"topredicate.ml" 115 5125 5143 "topredicate.ml" 115 5125 5151
+type(
+  Vc.options
+)
+"topredicate.ml" 115 5125 5152 "topredicate.ml" 115 5125 5158
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref ssacfg "topredicate.ml" 113 4973 4981 "topredicate.ml" 113 4973 4987
+)
+"topredicate.ml" 115 5125 5159 "topredicate.ml" 115 5125 5163
+type(
+  Ast.exp
+)
+ident(
+  int_ref post "topredicate.ml" 111 4885 4893 "topredicate.ml" 111 4885 4897
+)
+"topredicate.ml" 115 5125 5129 "topredicate.ml" 115 5125 5163
+call(
+  stack
+)
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 114 5070 5074 "topredicate.ml" 115 5125 5163
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 113 4973 4977 "topredicate.ml" 115 5125 5163
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 112 4928 4932 "topredicate.ml" 115 5125 5163
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 111 4885 4889 "topredicate.ml" 115 5125 5163
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 110 4816 4820 "topredicate.ml" 115 5125 5163
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 109 4758 4762 "topredicate.ml" 115 5125 5163
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 117 5171 5179 "topredicate.ml" 117 5171 5181
+type(
+  unit
+)
+"topredicate.ml" 117 5171 5184 "topredicate.ml" 117 5171 5197
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"topredicate.ml" 117 5171 5198 "topredicate.ml" 117 5171 5222
+type(
+  string
+)
+"topredicate.ml" 117 5171 5184 "topredicate.ml" 117 5171 5222
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 118 5226 5230 "topredicate.ml" 118 5226 5239
+type(
+  Vc.t -> Vc.options -> Cfg.AST.G.t -> Ast.exp -> Ast.exp * Ast.var list
+)
+ident(
+  ext_ref Vc.vc_astcfg
+)
+"topredicate.ml" 118 5226 5240 "topredicate.ml" 118 5226 5241
+type(
+  Vc.t ref -> Vc.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 118 5226 5241 "topredicate.ml" 118 5226 5243
+type(
+  Vc.t ref
+)
+ident(
+  int_ref vc "topredicate.ml" 22 455 459 "topredicate.ml" 22 455 461
+)
+"topredicate.ml" 118 5226 5240 "topredicate.ml" 118 5226 5243
+type(
+  Vc.t
+)
+"topredicate.ml" 118 5226 5244 "topredicate.ml" 118 5226 5245
+type(
+  Vc.options ref -> Vc.options
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 118 5226 5245 "topredicate.ml" 118 5226 5252
+type(
+  Vc.options ref
+)
+ident(
+  int_ref options "topredicate.ml" 11 207 211 "topredicate.ml" 11 207 218
+)
+"topredicate.ml" 118 5226 5244 "topredicate.ml" 118 5226 5252
+type(
+  Vc.options
+)
+"topredicate.ml" 118 5226 5253 "topredicate.ml" 118 5226 5256
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "topredicate.ml" 105 4651 4655 "topredicate.ml" 105 4651 4658
+)
+"topredicate.ml" 118 5226 5257 "topredicate.ml" 118 5226 5261
+type(
+  Ast.exp
+)
+ident(
+  int_ref post "topredicate.ml" 102 4556 4560 "topredicate.ml" 102 4556 4564
+)
+"topredicate.ml" 118 5226 5230 "topredicate.ml" 118 5226 5261
+call(
+  stack
+)
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 117 5171 5175 "topredicate.ml" 118 5226 5261
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 108 4728 4730 "topredicate.ml" 118 5226 5261
+type(
+  Ast.exp * Ast.var list
+)
+"topredicate.ml" 121 5266 5272 "topredicate.ml" 121 5266 5273
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 121 5266 5273 "topredicate.ml" 121 5266 5278
+type(
+  out_channel option ref
+)
+ident(
+  int_ref irout "topredicate.ml" 12 244 248 "topredicate.ml" 12 244 253
+)
+"topredicate.ml" 121 5266 5272 "topredicate.ml" 121 5266 5278
+type(
+  out_channel option
+)
+"topredicate.ml" 122 5284 5286 "topredicate.ml" 122 5284 5290
+type(
+  out_channel option
+)
+"topredicate.ml" 122 5284 5294 "topredicate.ml" 122 5284 5296
+type(
+  unit
+)
+"topredicate.ml" 123 5297 5304 "topredicate.ml" 123 5297 5306
+type(
+  out_channel
+)
+ident(
+  def oc "topredicate.ml" 124 5310 5312 "topredicate.ml" 127 5433 5442
+)
+"topredicate.ml" 123 5297 5299 "topredicate.ml" 123 5297 5306
+type(
+  out_channel option
+)
+"topredicate.ml" 124 5310 5316 "topredicate.ml" 124 5310 5318
+type(
+  unit
+)
+"topredicate.ml" 124 5310 5321 "topredicate.ml" 124 5310 5334
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"topredicate.ml" 124 5310 5335 "topredicate.ml" 124 5310 5373
+type(
+  string
+)
+"topredicate.ml" 124 5310 5321 "topredicate.ml" 124 5310 5373
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 125 5377 5383 "topredicate.ml" 125 5377 5384
+type(
+  Pp.pp_oc
+)
+"topredicate.ml" 125 5377 5387 "topredicate.ml" 125 5377 5399
+type(
+  out_channel -> Pp.pp_oc
+)
+"topredicate.ml" 125 5377 5400 "topredicate.ml" 125 5377 5402
+type(
+  out_channel
+)
+ident(
+  int_ref oc "topredicate.ml" 123 5297 5304 "topredicate.ml" 123 5297 5306
+)
+"topredicate.ml" 125 5377 5387 "topredicate.ml" 125 5377 5402
+call(
+  stack
+)
+type(
+  Pp.pp_oc
+)
+"topredicate.ml" 126 5406 5412 "topredicate.ml" 126 5406 5414
+type(
+  unit
+)
+"topredicate.ml" 126 5406 5417 "topredicate.ml" 126 5406 5418
+type(
+  Pp.pp_oc
+)
+ident(
+  int_ref p "topredicate.ml" 125 5377 5383 "topredicate.ml" 125 5377 5384
+)
+"topredicate.ml" 126 5406 5417 "topredicate.ml" 126 5406 5426
+call(
+  stack
+)
+type(
+  ?prec:int -> Ast.exp -> unit
+)
+"topredicate.ml" 126 5406 5427 "topredicate.ml" 126 5406 5429
+type(
+  Ast.exp
+)
+ident(
+  int_ref wp "topredicate.ml" 107 4708 4713 "topredicate.ml" 107 4708 4715
+)
+"topredicate.ml" 126 5406 5417 "topredicate.ml" 126 5406 5429
+type(
+  unit
+)
+"topredicate.ml" 127 5433 5435 "topredicate.ml" 127 5433 5436
+type(
+  Pp.pp_oc
+)
+ident(
+  int_ref p "topredicate.ml" 125 5377 5383 "topredicate.ml" 125 5377 5384
+)
+"topredicate.ml" 127 5433 5435 "topredicate.ml" 127 5433 5442
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 126 5406 5408 "topredicate.ml" 127 5433 5442
+type(
+  unit
+)
+"topredicate.ml" 125 5377 5379 "topredicate.ml" 127 5433 5442
+type(
+  unit
+)
+"topredicate.ml" 124 5310 5312 "topredicate.ml" 127 5433 5442
+type(
+  unit
+)
+"topredicate.ml" 121 5266 5266 "topredicate.ml" 127 5433 5442
+type(
+  unit
+)
+"topredicate.ml" 129 5446 5452 "topredicate.ml" 129 5446 5453
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 129 5446 5453 "topredicate.ml" 129 5446 5459
+type(
+  out_channel option ref
+)
+ident(
+  int_ref stpout "topredicate.ml" 14 295 299 "topredicate.ml" 14 295 305
+)
+"topredicate.ml" 129 5446 5452 "topredicate.ml" 129 5446 5459
+type(
+  out_channel option
+)
+"topredicate.ml" 130 5465 5467 "topredicate.ml" 130 5465 5471
+type(
+  out_channel option
+)
+"topredicate.ml" 130 5465 5475 "topredicate.ml" 130 5465 5477
+type(
+  unit
+)
+"topredicate.ml" 131 5478 5485 "topredicate.ml" 131 5478 5487
+type(
+  out_channel
+)
+ident(
+  def oc "topredicate.ml" 132 5491 5493 "topredicate.ml" 154 6350 6353
+)
+"topredicate.ml" 131 5478 5480 "topredicate.ml" 131 5478 5487
+type(
+  out_channel option
+)
+"topredicate.ml" 132 5491 5497 "topredicate.ml" 132 5491 5499
+type(
+  unit
+)
+"topredicate.ml" 132 5491 5502 "topredicate.ml" 132 5491 5515
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"topredicate.ml" 132 5491 5516 "topredicate.ml" 132 5491 5551
+type(
+  string
+)
+"topredicate.ml" 132 5491 5502 "topredicate.ml" 132 5491 5551
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 133 5555 5561 "topredicate.ml" 133 5555 5568
+type(
+  Ast.var list
+)
+"topredicate.ml" 133 5555 5571 "topredicate.ml" 133 5555 5579
+type(
+  (Ast.var -> Ast.var) -> Ast.var list -> Ast.var list
+)
+ident(
+  ext_ref List.map
+)
+"topredicate.ml" 133 5555 5581 "topredicate.ml" 133 5555 5611
+type(
+  ?scope:Grammar_scope.Scope.t -> Memory2array.state -> Ast.var -> Ast.var
+)
+ident(
+  ext_ref Memory2array.coerce_rvar_state
+)
+"topredicate.ml" 133 5555 5613 "topredicate.ml" 133 5555 5618
+type(
+  Grammar_scope.Scope.t
+)
+ident(
+  int_ref scope "topredicate.ml" 99 4438 4447 "topredicate.ml" 99 4438 4452
+)
+"topredicate.ml" 133 5555 5619 "topredicate.ml" 133 5555 5628
+type(
+  Memory2array.state
+)
+ident(
+  int_ref m2a_state "topredicate.ml" 91 4276 4280 "topredicate.ml" 91 4276 4289
+)
+"topredicate.ml" 133 5555 5580 "topredicate.ml" 133 5555 5629
+call(
+  stack
+)
+type(
+  Ast.var -> Ast.var
+)
+"topredicate.ml" 133 5555 5630 "topredicate.ml" 133 5555 5637
+type(
+  Ast.var list
+)
+ident(
+  int_ref foralls "topredicate.ml" 107 4708 4717 "topredicate.ml" 107 4708 4724
+)
+"topredicate.ml" 133 5555 5571 "topredicate.ml" 133 5555 5637
+call(
+  stack
+)
+type(
+  Ast.var list
+)
+"topredicate.ml" 134 5642 5648 "topredicate.ml" 134 5642 5650
+type(
+  Formulap.fppf
+)
+"topredicate.ml" 134 5642 5656 "topredicate.ml" 134 5642 5657
+type(
+  Smtexec.smtexec ref -> Smtexec.smtexec
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 134 5642 5657 "topredicate.ml" 134 5642 5670
+type(
+  Smtexec.smtexec ref
+)
+ident(
+  ext_ref Utils_common.Solver.solver
+)
+"topredicate.ml" 134 5642 5655 "topredicate.ml" 134 5642 5671
+type(
+  Smtexec.smtexec
+)
+"topredicate.ml" 134 5642 5654 "topredicate.ml" 134 5642 5680
+call(
+  stack
+)
+type(
+  Formulap.fppf
+)
+type(
+  Formulap.fppf
+)
+"topredicate.ml" 135 5702 5708 "topredicate.ml" 135 5702 5709
+type(
+  Formulap.fpp_oc
+)
+"topredicate.ml" 135 5702 5712 "topredicate.ml" 135 5702 5714
+type(
+  Formulap.fppf
+)
+ident(
+  int_ref pp "topredicate.ml" 134 5642 5648 "topredicate.ml" 134 5642 5650
+)
+"topredicate.ml" 135 5702 5715 "topredicate.ml" 135 5702 5717
+type(
+  out_channel
+)
+ident(
+  int_ref oc "topredicate.ml" 131 5478 5485 "topredicate.ml" 131 5478 5487
+)
+"topredicate.ml" 135 5702 5712 "topredicate.ml" 135 5702 5717
+call(
+  stack
+)
+type(
+  Formulap.fpp_oc
+)
+"topredicate.ml" 136 5721 5730 "topredicate.ml" 136 5721 5731
+type(
+  Vc.options ref -> Vc.options
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 136 5721 5731 "topredicate.ml" 136 5721 5738
+type(
+  Vc.options ref
+)
+ident(
+  int_ref options "topredicate.ml" 11 207 211 "topredicate.ml" 11 207 218
+)
+"topredicate.ml" 136 5721 5730 "topredicate.ml" 136 5721 5738
+type(
+  Vc.options
+)
+"topredicate.ml" 137 5744 5754 "topredicate.ml" 137 5744 5757
+type(
+  Type.formula_mode
+)
+"topredicate.ml" 137 5744 5748 "topredicate.ml" 137 5744 5758
+type(
+  Vc.options
+)
+"topredicate.ml" 138 5762 5766 "topredicate.ml" 138 5762 5767
+type(
+  Formulap.fpp_oc
+)
+ident(
+  int_ref p "topredicate.ml" 135 5702 5708 "topredicate.ml" 135 5702 5709
+)
+"topredicate.ml" 138 5762 5766 "topredicate.ml" 138 5762 5782
+call(
+  stack
+)
+type(
+  ?exists:Ast.var list -> ?foralls:Ast.var list -> Ast.exp -> unit
+)
+"topredicate.ml" 138 5762 5784 "topredicate.ml" 138 5762 5791
+type(
+  Ast.var list
+)
+ident(
+  int_ref foralls "topredicate.ml" 133 5555 5561 "topredicate.ml" 133 5555 5568
+)
+"topredicate.ml" 138 5762 5792 "topredicate.ml" 138 5762 5794
+type(
+  Ast.exp
+)
+ident(
+  int_ref wp "topredicate.ml" 107 4708 4713 "topredicate.ml" 107 4708 4715
+)
+"topredicate.ml" 138 5762 5766 "topredicate.ml" 138 5762 5794
+type(
+  unit
+)
+"topredicate.ml" 139 5795 5805 "topredicate.ml" 139 5795 5813
+type(
+  Type.formula_mode
+)
+"topredicate.ml" 139 5795 5799 "topredicate.ml" 139 5795 5814
+type(
+  Vc.options
+)
+"topredicate.ml" 140 5818 5822 "topredicate.ml" 140 5818 5823
+type(
+  Formulap.fpp_oc
+)
+ident(
+  int_ref p "topredicate.ml" 135 5702 5708 "topredicate.ml" 135 5702 5709
+)
+"topredicate.ml" 140 5818 5822 "topredicate.ml" 140 5818 5837
+call(
+  stack
+)
+type(
+  ?exists:Ast.var list -> ?foralls:Ast.var list -> Ast.exp -> unit
+)
+"topredicate.ml" 140 5818 5839 "topredicate.ml" 140 5818 5846
+type(
+  Ast.var list
+)
+ident(
+  int_ref foralls "topredicate.ml" 133 5555 5561 "topredicate.ml" 133 5555 5568
+)
+"topredicate.ml" 140 5818 5847 "topredicate.ml" 140 5818 5849
+type(
+  Ast.exp
+)
+ident(
+  int_ref wp "topredicate.ml" 107 4708 4713 "topredicate.ml" 107 4708 4715
+)
+"topredicate.ml" 140 5818 5822 "topredicate.ml" 140 5818 5849
+type(
+  unit
+)
+"topredicate.ml" 141 5850 5860 "topredicate.ml" 141 5850 5867
+type(
+  Type.formula_mode
+)
+"topredicate.ml" 141 5850 5854 "topredicate.ml" 141 5850 5868
+type(
+  Vc.options
+)
+"topredicate.ml" 142 5872 5876 "topredicate.ml" 142 5872 5884
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"topredicate.ml" 142 5872 5885 "topredicate.ml" 142 5872 5933
+type(
+  string
+)
+"topredicate.ml" 142 5872 5876 "topredicate.ml" 142 5872 5933
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 136 5721 5723 "topredicate.ml" 142 5872 5934
+type(
+  unit
+)
+"topredicate.ml" 143 5936 5938 "topredicate.ml" 143 5936 5939
+type(
+  Formulap.fpp_oc
+)
+ident(
+  int_ref p "topredicate.ml" 135 5702 5708 "topredicate.ml" 135 5702 5709
+)
+"topredicate.ml" 143 5936 5938 "topredicate.ml" 143 5936 5954
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 144 5956 5958 "topredicate.ml" 144 5956 5959
+type(
+  Formulap.fpp_oc
+)
+ident(
+  int_ref p "topredicate.ml" 135 5702 5708 "topredicate.ml" 135 5702 5709
+)
+"topredicate.ml" 144 5956 5958 "topredicate.ml" 144 5956 5965
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 145 5967 5972 "topredicate.ml" 145 5967 5973
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 145 5967 5973 "topredicate.ml" 145 5967 5978
+type(
+  bool ref
+)
+ident(
+  int_ref solve "topredicate.ml" 19 409 413 "topredicate.ml" 19 409 418
+)
+"topredicate.ml" 145 5967 5972 "topredicate.ml" 145 5967 5978
+type(
+  bool
+)
+"topredicate.ml" 146 5986 5990 "topredicate.ml" 146 5986 6004
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"topredicate.ml" 146 5986 6005 "topredicate.ml" 146 5986 6011
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"topredicate.ml" 146 5986 6012 "topredicate.ml" 146 5986 6023
+type(
+  (unit, out_channel, unit) format
+)
+"topredicate.ml" 146 5986 5990 "topredicate.ml" 146 5986 6023
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 146 5986 6025 "topredicate.ml" 146 5986 6030
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"topredicate.ml" 146 5986 6031 "topredicate.ml" 146 5986 6037
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"topredicate.ml" 146 5986 6025 "topredicate.ml" 146 5986 6037
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 147 6039 6047 "topredicate.ml" 147 6039 6048
+type(
+  Smtexec.result
+)
+"topredicate.ml" 147 6039 6052 "topredicate.ml" 147 6039 6053
+type(
+  Smtexec.smtexec ref -> Smtexec.smtexec
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 147 6039 6053 "topredicate.ml" 147 6039 6066
+type(
+  Smtexec.smtexec ref
+)
+ident(
+  ext_ref Utils_common.Solver.solver
+)
+"topredicate.ml" 147 6039 6051 "topredicate.ml" 147 6039 6067
+type(
+  Smtexec.smtexec
+)
+"topredicate.ml" 147 6039 6051 "topredicate.ml" 147 6039 6086
+call(
+  stack
+)
+type(
+  ?timeout:int -> ?remove:bool -> ?getmodel:bool -> string -> Smtexec.result
+)
+"topredicate.ml" 147 6039 6096 "topredicate.ml" 147 6039 6097
+type(
+  int option ref -> int option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 147 6039 6097 "topredicate.ml" 147 6039 6104
+type(
+  int option ref
+)
+ident(
+  int_ref timeout "topredicate.ml" 20 431 435 "topredicate.ml" 20 431 442
+)
+"topredicate.ml" 147 6039 6096 "topredicate.ml" 147 6039 6104
+type(
+  int option
+)
+"topredicate.ml" 147 6039 6115 "topredicate.ml" 147 6039 6119
+type(
+  bool
+)
+"topredicate.ml" 147 6039 6120 "topredicate.ml" 147 6039 6121
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 147 6039 6121 "topredicate.ml" 147 6039 6131
+type(
+  string ref
+)
+ident(
+  int_ref stpoutname "topredicate.ml" 15 317 321 "topredicate.ml" 15 317 331
+)
+"topredicate.ml" 147 6039 6120 "topredicate.ml" 147 6039 6131
+type(
+  string
+)
+"topredicate.ml" 147 6039 6051 "topredicate.ml" 147 6039 6131
+type(
+  Smtexec.result
+)
+"topredicate.ml" 148 6135 6139 "topredicate.ml" 148 6135 6153
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"topredicate.ml" 148 6135 6154 "topredicate.ml" 148 6135 6160
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"topredicate.ml" 148 6135 6161 "topredicate.ml" 148 6135 6181
+type(
+  (string -> unit, out_channel, unit) format
+)
+"topredicate.ml" 148 6135 6183 "topredicate.ml" 148 6135 6207
+type(
+  Smtexec.result -> string
+)
+ident(
+  ext_ref Smtexec.result_to_string
+)
+"topredicate.ml" 148 6135 6208 "topredicate.ml" 148 6135 6209
+type(
+  Smtexec.result
+)
+ident(
+  int_ref r "topredicate.ml" 147 6039 6047 "topredicate.ml" 147 6039 6048
+)
+"topredicate.ml" 148 6135 6182 "topredicate.ml" 148 6135 6210
+call(
+  stack
+)
+type(
+  string
+)
+"topredicate.ml" 148 6135 6139 "topredicate.ml" 148 6135 6210
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 149 6212 6222 "topredicate.ml" 149 6212 6223
+type(
+  Smtexec.result
+)
+ident(
+  int_ref r "topredicate.ml" 147 6039 6047 "topredicate.ml" 147 6039 6048
+)
+"topredicate.ml" 150 6229 6251 "topredicate.ml" 150 6229 6252
+type(
+  Smtexec.model
+)
+ident(
+  def m "topredicate.ml" 151 6256 6262 "topredicate.ml" 151 6256 6283
+)
+"topredicate.ml" 150 6229 6235 "topredicate.ml" 150 6229 6252
+type(
+  Smtexec.result
+)
+"topredicate.ml" 151 6256 6262 "topredicate.ml" 151 6256 6281
+type(
+  Smtexec.model -> unit
+)
+ident(
+  ext_ref Smtexec.print_model
+)
+"topredicate.ml" 151 6256 6282 "topredicate.ml" 151 6256 6283
+type(
+  Smtexec.model
+)
+ident(
+  int_ref m "topredicate.ml" 150 6229 6251 "topredicate.ml" 150 6229 6252
+)
+"topredicate.ml" 151 6256 6262 "topredicate.ml" 151 6256 6283
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 152 6284 6307 "topredicate.ml" 152 6284 6308
+type(
+  string
+)
+"topredicate.ml" 152 6284 6290 "topredicate.ml" 152 6284 6308
+type(
+  Smtexec.result
+)
+"topredicate.ml" 152 6284 6312 "topredicate.ml" 152 6284 6320
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"topredicate.ml" 152 6284 6321 "topredicate.ml" 152 6284 6335
+type(
+  string
+)
+"topredicate.ml" 152 6284 6312 "topredicate.ml" 152 6284 6335
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 153 6336 6342 "topredicate.ml" 153 6336 6343
+type(
+  Smtexec.result
+)
+"topredicate.ml" 153 6336 6347 "topredicate.ml" 153 6336 6349
+type(
+  unit
+)
+"topredicate.ml" 149 6212 6216 "topredicate.ml" 153 6336 6349
+type(
+  unit
+)
+"topredicate.ml" 148 6135 6139 "topredicate.ml" 153 6336 6349
+type(
+  unit
+)
+"topredicate.ml" 147 6039 6043 "topredicate.ml" 153 6336 6349
+type(
+  unit
+)
+"topredicate.ml" 146 5986 6025 "topredicate.ml" 153 6336 6349
+type(
+  unit
+)
+"topredicate.ml" 145 5967 5984 "topredicate.ml" 154 6350 6353
+type(
+  unit
+)
+"topredicate.ml" 145 5967 5969 "topredicate.ml" 154 6350 6353
+type(
+  unit
+)
+"topredicate.ml" 144 5956 5958 "topredicate.ml" 154 6350 6353
+type(
+  unit
+)
+"topredicate.ml" 143 5936 5938 "topredicate.ml" 154 6350 6353
+type(
+  unit
+)
+"topredicate.ml" 136 5721 5723 "topredicate.ml" 154 6350 6353
+type(
+  unit
+)
+"topredicate.ml" 135 5702 5704 "topredicate.ml" 154 6350 6353
+type(
+  unit
+)
+"topredicate.ml" 134 5642 5644 "topredicate.ml" 154 6350 6353
+type(
+  unit
+)
+"topredicate.ml" 133 5555 5557 "topredicate.ml" 154 6350 6353
+type(
+  unit
+)
+"topredicate.ml" 132 5491 5493 "topredicate.ml" 154 6350 6353
+type(
+  unit
+)
+"topredicate.ml" 129 5446 5446 "topredicate.ml" 154 6350 6353
+type(
+  unit
+)
+"topredicate.ml" 157 6358 6364 "topredicate.ml" 157 6358 6365
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 157 6358 6365 "topredicate.ml" 157 6358 6372
+type(
+  out_channel option ref
+)
+ident(
+  int_ref pstpout "topredicate.ml" 16 341 345 "topredicate.ml" 16 341 352
+)
+"topredicate.ml" 157 6358 6364 "topredicate.ml" 157 6358 6372
+type(
+  out_channel option
+)
+"topredicate.ml" 158 6378 6380 "topredicate.ml" 158 6378 6384
+type(
+  out_channel option
+)
+"topredicate.ml" 158 6378 6388 "topredicate.ml" 158 6378 6390
+type(
+  unit
+)
+"topredicate.ml" 159 6391 6398 "topredicate.ml" 159 6391 6400
+type(
+  out_channel
+)
+ident(
+  def oc "topredicate.ml" 160 6404 6406 "topredicate.ml" 166 6663 6672
+)
+"topredicate.ml" 159 6391 6393 "topredicate.ml" 159 6391 6400
+type(
+  out_channel option
+)
+"topredicate.ml" 160 6404 6410 "topredicate.ml" 160 6404 6412
+type(
+  unit
+)
+"topredicate.ml" 160 6404 6415 "topredicate.ml" 160 6404 6428
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"topredicate.ml" 160 6404 6429 "topredicate.ml" 160 6404 6464
+type(
+  string
+)
+"topredicate.ml" 160 6404 6415 "topredicate.ml" 160 6404 6464
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 161 6468 6474 "topredicate.ml" 161 6468 6481
+type(
+  Ast.var list
+)
+"topredicate.ml" 161 6468 6484 "topredicate.ml" 161 6468 6492
+type(
+  (Ast.var -> Ast.var) -> Ast.var list -> Ast.var list
+)
+ident(
+  ext_ref List.map
+)
+"topredicate.ml" 161 6468 6494 "topredicate.ml" 161 6468 6524
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * '_a ->
+  Memory2array.state -> Ast.var -> Ast.var
+)
+ident(
+  ext_ref Memory2array.coerce_rvar_state
+)
+"topredicate.ml" 161 6468 6525 "topredicate.ml" 161 6468 6534
+type(
+  Memory2array.state
+)
+ident(
+  int_ref m2a_state "topredicate.ml" 91 4276 4280 "topredicate.ml" 91 4276 4289
+)
+"topredicate.ml" 161 6468 6493 "topredicate.ml" 161 6468 6535
+call(
+  stack
+)
+type(
+  Ast.var -> Ast.var
+)
+"topredicate.ml" 161 6468 6536 "topredicate.ml" 161 6468 6543
+type(
+  Ast.var list
+)
+ident(
+  int_ref foralls "topredicate.ml" 107 4708 4717 "topredicate.ml" 107 4708 4724
+)
+"topredicate.ml" 161 6468 6484 "topredicate.ml" 161 6468 6543
+call(
+  stack
+)
+type(
+  Ast.var list
+)
+"topredicate.ml" 162 6548 6554 "topredicate.ml" 162 6548 6556
+type(
+  Formulap.fppf
+)
+"topredicate.ml" 162 6548 6562 "topredicate.ml" 162 6548 6563
+type(
+  Smtexec.smtexec ref -> Smtexec.smtexec
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"topredicate.ml" 162 6548 6563 "topredicate.ml" 162 6548 6576
+type(
+  Smtexec.smtexec ref
+)
+ident(
+  ext_ref Utils_common.Solver.solver
+)
+"topredicate.ml" 162 6548 6561 "topredicate.ml" 162 6548 6577
+type(
+  Smtexec.smtexec
+)
+"topredicate.ml" 162 6548 6560 "topredicate.ml" 162 6548 6586
+call(
+  stack
+)
+type(
+  Formulap.fppf
+)
+type(
+  Formulap.fppf
+)
+"topredicate.ml" 163 6608 6614 "topredicate.ml" 163 6608 6615
+type(
+  Formulap.fpp_oc
+)
+"topredicate.ml" 163 6608 6618 "topredicate.ml" 163 6608 6620
+type(
+  Formulap.fppf
+)
+ident(
+  int_ref pp "topredicate.ml" 162 6548 6554 "topredicate.ml" 162 6548 6556
+)
+"topredicate.ml" 163 6608 6621 "topredicate.ml" 163 6608 6623
+type(
+  out_channel
+)
+ident(
+  int_ref oc "topredicate.ml" 159 6391 6398 "topredicate.ml" 159 6391 6400
+)
+"topredicate.ml" 163 6608 6618 "topredicate.ml" 163 6608 6623
+call(
+  stack
+)
+type(
+  Formulap.fpp_oc
+)
+"topredicate.ml" 164 6627 6629 "topredicate.ml" 164 6627 6630
+type(
+  Formulap.fpp_oc
+)
+ident(
+  int_ref p "topredicate.ml" 163 6608 6614 "topredicate.ml" 163 6608 6615
+)
+"topredicate.ml" 164 6627 6629 "topredicate.ml" 164 6627 6637
+call(
+  stack
+)
+type(
+  Formulap.VH.key list -> unit
+)
+"topredicate.ml" 164 6627 6638 "topredicate.ml" 164 6627 6645
+type(
+  Formulap.VH.key list
+)
+ident(
+  int_ref foralls "topredicate.ml" 161 6468 6474 "topredicate.ml" 161 6468 6481
+)
+"topredicate.ml" 164 6627 6629 "topredicate.ml" 164 6627 6645
+type(
+  unit
+)
+"topredicate.ml" 165 6647 6649 "topredicate.ml" 165 6647 6650
+type(
+  Formulap.fpp_oc
+)
+ident(
+  int_ref p "topredicate.ml" 163 6608 6614 "topredicate.ml" 163 6608 6615
+)
+"topredicate.ml" 165 6647 6649 "topredicate.ml" 165 6647 6658
+call(
+  stack
+)
+type(
+  Ast.exp -> unit
+)
+"topredicate.ml" 165 6647 6659 "topredicate.ml" 165 6647 6661
+type(
+  Ast.exp
+)
+ident(
+  int_ref wp "topredicate.ml" 107 4708 4713 "topredicate.ml" 107 4708 4715
+)
+"topredicate.ml" 165 6647 6649 "topredicate.ml" 165 6647 6661
+type(
+  unit
+)
+"topredicate.ml" 166 6663 6665 "topredicate.ml" 166 6663 6666
+type(
+  Formulap.fpp_oc
+)
+ident(
+  int_ref p "topredicate.ml" 163 6608 6614 "topredicate.ml" 163 6608 6615
+)
+"topredicate.ml" 166 6663 6665 "topredicate.ml" 166 6663 6672
+call(
+  stack
+)
+type(
+  unit
+)
+"topredicate.ml" 165 6647 6649 "topredicate.ml" 166 6663 6672
+type(
+  unit
+)
+"topredicate.ml" 164 6627 6629 "topredicate.ml" 166 6663 6672
+type(
+  unit
+)
+"topredicate.ml" 163 6608 6610 "topredicate.ml" 166 6663 6672
+type(
+  unit
+)
+"topredicate.ml" 162 6548 6550 "topredicate.ml" 166 6663 6672
+type(
+  unit
+)
+"topredicate.ml" 161 6468 6470 "topredicate.ml" 166 6663 6672
+type(
+  unit
+)
+"topredicate.ml" 160 6404 6406 "topredicate.ml" 166 6663 6672
+type(
+  unit
+)
+"topredicate.ml" 157 6358 6358 "topredicate.ml" 166 6663 6672
+type(
+  unit
+)

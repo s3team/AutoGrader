@@ -1,0 +1,4485 @@
+"ast_cond_simplify.ml" 14 334 365 "ast_cond_simplify.ml" 14 334 369
+type(
+  string
+)
+ident(
+  def name "ast_cond_simplify.ml" 14 334 410 "ast_cond_simplify.ml" 14 334 414
+)
+"ast_cond_simplify.ml" 14 334 370 "ast_cond_simplify.ml" 14 334 389
+type(
+  string
+)
+"ast_cond_simplify.ml" 14 334 394 "ast_cond_simplify.ml" 14 334 401
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "ast_cond_simplify.ml" 14 334 410 "ast_cond_simplify.ml" 14 334 414
+)
+"ast_cond_simplify.ml" 14 334 402 "ast_cond_simplify.ml" 14 334 410
+type(
+  [> `NoDebug ] as 'a
+)
+"ast_cond_simplify.ml" 14 334 343 "ast_cond_simplify.ml" 14 334 415
+call(
+  stack
+)
+"ast_cond_simplify.ml" 18 434 442 "ast_cond_simplify.ml" 18 434 455
+type(
+  (Ast.exp -> Ast.exp) -> Ast.exp -> Ast.exp
+)
+ident(
+  def reverse_visit "ast_cond_simplify.ml" 18 434 434 --
+)
+"ast_cond_simplify.ml" 18 434 456 "ast_cond_simplify.ml" 18 434 457
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  def f "ast_cond_simplify.ml" 18 434 458 "ast_cond_simplify.ml" 34 1040 1070
+)
+"ast_cond_simplify.ml" 18 434 458 "ast_cond_simplify.ml" 18 434 459
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 19 462 464 "ast_cond_simplify.ml" 34 1040 1070
+)
+"ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+type(
+  Ast.exp -> Ast.exp
+)
+"ast_cond_simplify.ml" 19 462 472 "ast_cond_simplify.ml" 19 462 485
+type(
+  (Ast.exp -> Ast.exp) -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref reverse_visit "ast_cond_simplify.ml" 18 434 442 "ast_cond_simplify.ml" 18 434 455
+)
+"ast_cond_simplify.ml" 19 462 486 "ast_cond_simplify.ml" 19 462 487
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref f "ast_cond_simplify.ml" 18 434 456 "ast_cond_simplify.ml" 18 434 457
+)
+"ast_cond_simplify.ml" 19 462 472 "ast_cond_simplify.ml" 19 462 487
+call(
+  stack
+)
+type(
+  Ast.exp -> Ast.exp
+)
+"ast_cond_simplify.ml" 20 491 497 "ast_cond_simplify.ml" 20 491 498
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 20 491 507 "ast_cond_simplify.ml" 20 491 508
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 18 434 458 "ast_cond_simplify.ml" 18 434 459
+)
+"ast_cond_simplify.ml" 21 514 525 "ast_cond_simplify.ml" 21 514 527
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_cond_simplify.ml" 21 514 541 "ast_cond_simplify.ml" 21 514 567
+)
+"ast_cond_simplify.ml" 21 514 528 "ast_cond_simplify.ml" 21 514 530
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_cond_simplify.ml" 21 514 541 "ast_cond_simplify.ml" 21 514 567
+)
+"ast_cond_simplify.ml" 21 514 531 "ast_cond_simplify.ml" 21 514 533
+type(
+  Ast.exp
+)
+ident(
+  def e3 "ast_cond_simplify.ml" 21 514 541 "ast_cond_simplify.ml" 21 514 567
+)
+"ast_cond_simplify.ml" 21 514 534 "ast_cond_simplify.ml" 21 514 536
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast_cond_simplify.ml" 21 514 541 "ast_cond_simplify.ml" 21 514 567
+)
+"ast_cond_simplify.ml" 21 514 524 "ast_cond_simplify.ml" 21 514 537
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"ast_cond_simplify.ml" 21 514 520 "ast_cond_simplify.ml" 21 514 537
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 21 514 546 "ast_cond_simplify.ml" 21 514 547
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 21 514 548 "ast_cond_simplify.ml" 21 514 550
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 21 514 525 "ast_cond_simplify.ml" 21 514 527
+)
+"ast_cond_simplify.ml" 21 514 546 "ast_cond_simplify.ml" 21 514 550
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 21 514 552 "ast_cond_simplify.ml" 21 514 553
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 21 514 554 "ast_cond_simplify.ml" 21 514 556
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 21 514 528 "ast_cond_simplify.ml" 21 514 530
+)
+"ast_cond_simplify.ml" 21 514 552 "ast_cond_simplify.ml" 21 514 556
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 21 514 558 "ast_cond_simplify.ml" 21 514 559
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 21 514 560 "ast_cond_simplify.ml" 21 514 562
+type(
+  Ast.exp
+)
+ident(
+  int_ref e3 "ast_cond_simplify.ml" 21 514 531 "ast_cond_simplify.ml" 21 514 533
+)
+"ast_cond_simplify.ml" 21 514 558 "ast_cond_simplify.ml" 21 514 562
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 21 514 564 "ast_cond_simplify.ml" 21 514 566
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast_cond_simplify.ml" 21 514 534 "ast_cond_simplify.ml" 21 514 536
+)
+"ast_cond_simplify.ml" 21 514 545 "ast_cond_simplify.ml" 21 514 567
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"ast_cond_simplify.ml" 21 514 541 "ast_cond_simplify.ml" 21 514 567
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 22 568 580 "ast_cond_simplify.ml" 22 568 582
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_cond_simplify.ml" 22 568 599 "ast_cond_simplify.ml" 22 568 632
+)
+"ast_cond_simplify.ml" 22 568 583 "ast_cond_simplify.ml" 22 568 585
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_cond_simplify.ml" 22 568 599 "ast_cond_simplify.ml" 22 568 632
+)
+"ast_cond_simplify.ml" 22 568 586 "ast_cond_simplify.ml" 22 568 588
+type(
+  Ast.exp
+)
+ident(
+  def e3 "ast_cond_simplify.ml" 22 568 599 "ast_cond_simplify.ml" 22 568 632
+)
+"ast_cond_simplify.ml" 22 568 589 "ast_cond_simplify.ml" 22 568 591
+type(
+  Ast.exp
+)
+ident(
+  def e4 "ast_cond_simplify.ml" 22 568 599 "ast_cond_simplify.ml" 22 568 632
+)
+"ast_cond_simplify.ml" 22 568 592 "ast_cond_simplify.ml" 22 568 594
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast_cond_simplify.ml" 22 568 599 "ast_cond_simplify.ml" 22 568 632
+)
+"ast_cond_simplify.ml" 22 568 579 "ast_cond_simplify.ml" 22 568 595
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"ast_cond_simplify.ml" 22 568 574 "ast_cond_simplify.ml" 22 568 595
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 22 568 605 "ast_cond_simplify.ml" 22 568 606
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 22 568 607 "ast_cond_simplify.ml" 22 568 609
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 22 568 580 "ast_cond_simplify.ml" 22 568 582
+)
+"ast_cond_simplify.ml" 22 568 605 "ast_cond_simplify.ml" 22 568 609
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 22 568 611 "ast_cond_simplify.ml" 22 568 612
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 22 568 613 "ast_cond_simplify.ml" 22 568 615
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 22 568 583 "ast_cond_simplify.ml" 22 568 585
+)
+"ast_cond_simplify.ml" 22 568 611 "ast_cond_simplify.ml" 22 568 615
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 22 568 617 "ast_cond_simplify.ml" 22 568 618
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 22 568 619 "ast_cond_simplify.ml" 22 568 621
+type(
+  Ast.exp
+)
+ident(
+  int_ref e3 "ast_cond_simplify.ml" 22 568 586 "ast_cond_simplify.ml" 22 568 588
+)
+"ast_cond_simplify.ml" 22 568 617 "ast_cond_simplify.ml" 22 568 621
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 22 568 623 "ast_cond_simplify.ml" 22 568 624
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 22 568 625 "ast_cond_simplify.ml" 22 568 627
+type(
+  Ast.exp
+)
+ident(
+  int_ref e4 "ast_cond_simplify.ml" 22 568 589 "ast_cond_simplify.ml" 22 568 591
+)
+"ast_cond_simplify.ml" 22 568 623 "ast_cond_simplify.ml" 22 568 627
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 22 568 629 "ast_cond_simplify.ml" 22 568 631
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast_cond_simplify.ml" 22 568 592 "ast_cond_simplify.ml" 22 568 594
+)
+"ast_cond_simplify.ml" 22 568 604 "ast_cond_simplify.ml" 22 568 632
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"ast_cond_simplify.ml" 22 568 599 "ast_cond_simplify.ml" 22 568 632
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 23 633 643 "ast_cond_simplify.ml" 23 633 645
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_cond_simplify.ml" 23 633 656 "ast_cond_simplify.ml" 23 633 677
+)
+"ast_cond_simplify.ml" 23 633 646 "ast_cond_simplify.ml" 23 633 648
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_cond_simplify.ml" 23 633 656 "ast_cond_simplify.ml" 23 633 677
+)
+"ast_cond_simplify.ml" 23 633 649 "ast_cond_simplify.ml" 23 633 651
+type(
+  Ast.exp
+)
+ident(
+  def e3 "ast_cond_simplify.ml" 23 633 656 "ast_cond_simplify.ml" 23 633 677
+)
+"ast_cond_simplify.ml" 23 633 642 "ast_cond_simplify.ml" 23 633 652
+type(
+  Ast.exp * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 23 633 639 "ast_cond_simplify.ml" 23 633 652
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 23 633 660 "ast_cond_simplify.ml" 23 633 661
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 23 633 662 "ast_cond_simplify.ml" 23 633 664
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 23 633 643 "ast_cond_simplify.ml" 23 633 645
+)
+"ast_cond_simplify.ml" 23 633 660 "ast_cond_simplify.ml" 23 633 664
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 23 633 666 "ast_cond_simplify.ml" 23 633 667
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 23 633 668 "ast_cond_simplify.ml" 23 633 670
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 23 633 646 "ast_cond_simplify.ml" 23 633 648
+)
+"ast_cond_simplify.ml" 23 633 666 "ast_cond_simplify.ml" 23 633 670
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 23 633 672 "ast_cond_simplify.ml" 23 633 673
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 23 633 674 "ast_cond_simplify.ml" 23 633 676
+type(
+  Ast.exp
+)
+ident(
+  int_ref e3 "ast_cond_simplify.ml" 23 633 649 "ast_cond_simplify.ml" 23 633 651
+)
+"ast_cond_simplify.ml" 23 633 672 "ast_cond_simplify.ml" 23 633 676
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 23 633 659 "ast_cond_simplify.ml" 23 633 677
+type(
+  Ast.exp * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 23 633 656 "ast_cond_simplify.ml" 23 633 677
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 24 678 692 "ast_cond_simplify.ml" 24 678 693
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def h "ast_cond_simplify.ml" 24 678 702 "ast_cond_simplify.ml" 24 678 720
+)
+"ast_cond_simplify.ml" 24 678 694 "ast_cond_simplify.ml" 24 678 695
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def l "ast_cond_simplify.ml" 24 678 702 "ast_cond_simplify.ml" 24 678 720
+)
+"ast_cond_simplify.ml" 24 678 696 "ast_cond_simplify.ml" 24 678 697
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 24 678 702 "ast_cond_simplify.ml" 24 678 720
+)
+"ast_cond_simplify.ml" 24 678 691 "ast_cond_simplify.ml" 24 678 698
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int * Ast.exp
+)
+"ast_cond_simplify.ml" 24 678 684 "ast_cond_simplify.ml" 24 678 698
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 24 678 710 "ast_cond_simplify.ml" 24 678 711
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "ast_cond_simplify.ml" 24 678 692 "ast_cond_simplify.ml" 24 678 693
+)
+"ast_cond_simplify.ml" 24 678 713 "ast_cond_simplify.ml" 24 678 714
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "ast_cond_simplify.ml" 24 678 694 "ast_cond_simplify.ml" 24 678 695
+)
+"ast_cond_simplify.ml" 24 678 716 "ast_cond_simplify.ml" 24 678 717
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 24 678 718 "ast_cond_simplify.ml" 24 678 719
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 24 678 696 "ast_cond_simplify.ml" 24 678 697
+)
+"ast_cond_simplify.ml" 24 678 716 "ast_cond_simplify.ml" 24 678 719
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 24 678 709 "ast_cond_simplify.ml" 24 678 720
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int * Ast.exp
+)
+"ast_cond_simplify.ml" 24 678 702 "ast_cond_simplify.ml" 24 678 720
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 25 721 734 "ast_cond_simplify.ml" 25 721 736
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_cond_simplify.ml" 25 721 744 "ast_cond_simplify.ml" 25 721 762
+)
+"ast_cond_simplify.ml" 25 721 737 "ast_cond_simplify.ml" 25 721 739
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_cond_simplify.ml" 25 721 744 "ast_cond_simplify.ml" 25 721 762
+)
+"ast_cond_simplify.ml" 25 721 733 "ast_cond_simplify.ml" 25 721 740
+type(
+  Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 25 721 727 "ast_cond_simplify.ml" 25 721 740
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 25 721 751 "ast_cond_simplify.ml" 25 721 752
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 25 721 753 "ast_cond_simplify.ml" 25 721 755
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 25 721 734 "ast_cond_simplify.ml" 25 721 736
+)
+"ast_cond_simplify.ml" 25 721 751 "ast_cond_simplify.ml" 25 721 755
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 25 721 757 "ast_cond_simplify.ml" 25 721 758
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 25 721 759 "ast_cond_simplify.ml" 25 721 761
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 25 721 737 "ast_cond_simplify.ml" 25 721 739
+)
+"ast_cond_simplify.ml" 25 721 757 "ast_cond_simplify.ml" 25 721 761
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 25 721 750 "ast_cond_simplify.ml" 25 721 762
+type(
+  Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 25 721 744 "ast_cond_simplify.ml" 25 721 762
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 26 763 775 "ast_cond_simplify.ml" 26 763 777
+type(
+  Type.binop_type
+)
+ident(
+  def bt "ast_cond_simplify.ml" 26 763 788 "ast_cond_simplify.ml" 26 763 809
+)
+"ast_cond_simplify.ml" 26 763 778 "ast_cond_simplify.ml" 26 763 780
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_cond_simplify.ml" 26 763 788 "ast_cond_simplify.ml" 26 763 809
+)
+"ast_cond_simplify.ml" 26 763 781 "ast_cond_simplify.ml" 26 763 783
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_cond_simplify.ml" 26 763 788 "ast_cond_simplify.ml" 26 763 809
+)
+"ast_cond_simplify.ml" 26 763 774 "ast_cond_simplify.ml" 26 763 784
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 26 763 769 "ast_cond_simplify.ml" 26 763 784
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 26 763 794 "ast_cond_simplify.ml" 26 763 796
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bt "ast_cond_simplify.ml" 26 763 775 "ast_cond_simplify.ml" 26 763 777
+)
+"ast_cond_simplify.ml" 26 763 798 "ast_cond_simplify.ml" 26 763 799
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 26 763 800 "ast_cond_simplify.ml" 26 763 802
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 26 763 778 "ast_cond_simplify.ml" 26 763 780
+)
+"ast_cond_simplify.ml" 26 763 798 "ast_cond_simplify.ml" 26 763 802
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 26 763 804 "ast_cond_simplify.ml" 26 763 805
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 26 763 806 "ast_cond_simplify.ml" 26 763 808
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 26 763 781 "ast_cond_simplify.ml" 26 763 783
+)
+"ast_cond_simplify.ml" 26 763 804 "ast_cond_simplify.ml" 26 763 808
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 26 763 793 "ast_cond_simplify.ml" 26 763 809
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 26 763 788 "ast_cond_simplify.ml" 26 763 809
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 27 810 821 "ast_cond_simplify.ml" 27 810 823
+type(
+  Type.unop_type
+)
+ident(
+  def ut "ast_cond_simplify.ml" 27 810 830 "ast_cond_simplify.ml" 27 810 843
+)
+"ast_cond_simplify.ml" 27 810 824 "ast_cond_simplify.ml" 27 810 825
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 27 810 830 "ast_cond_simplify.ml" 27 810 843
+)
+"ast_cond_simplify.ml" 27 810 820 "ast_cond_simplify.ml" 27 810 826
+type(
+  Type.unop_type * Ast.exp
+)
+"ast_cond_simplify.ml" 27 810 816 "ast_cond_simplify.ml" 27 810 826
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 27 810 835 "ast_cond_simplify.ml" 27 810 837
+type(
+  Type.unop_type
+)
+ident(
+  int_ref ut "ast_cond_simplify.ml" 27 810 821 "ast_cond_simplify.ml" 27 810 823
+)
+"ast_cond_simplify.ml" 27 810 839 "ast_cond_simplify.ml" 27 810 840
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 27 810 841 "ast_cond_simplify.ml" 27 810 842
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 27 810 824 "ast_cond_simplify.ml" 27 810 825
+)
+"ast_cond_simplify.ml" 27 810 839 "ast_cond_simplify.ml" 27 810 842
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 27 810 834 "ast_cond_simplify.ml" 27 810 843
+type(
+  Type.unop_type * Ast.exp
+)
+"ast_cond_simplify.ml" 27 810 830 "ast_cond_simplify.ml" 27 810 843
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 28 844 855 "ast_cond_simplify.ml" 28 844 856
+type(
+  Ast.var
+)
+"ast_cond_simplify.ml" 28 844 851 "ast_cond_simplify.ml" 28 844 856
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 28 844 863 "ast_cond_simplify.ml" 28 844 864
+type(
+  string
+)
+"ast_cond_simplify.ml" 28 844 859 "ast_cond_simplify.ml" 28 844 864
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 28 844 851 "ast_cond_simplify.ml" 28 844 864
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 28 844 871 "ast_cond_simplify.ml" 28 844 872
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 28 844 867 "ast_cond_simplify.ml" 28 844 872
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 28 844 851 "ast_cond_simplify.ml" 28 844 872
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 28 844 883 "ast_cond_simplify.ml" 28 844 884
+type(
+  string * Type.typ
+)
+"ast_cond_simplify.ml" 28 844 875 "ast_cond_simplify.ml" 28 844 884
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 28 844 850 "ast_cond_simplify.ml" 28 844 885
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 28 844 850 "ast_cond_simplify.ml" 28 844 890
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 28 844 894 "ast_cond_simplify.ml" 28 844 895
+)
+"ast_cond_simplify.ml" 28 844 894 "ast_cond_simplify.ml" 28 844 895
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 28 844 850 "ast_cond_simplify.ml" 28 844 890
+)
+"ast_cond_simplify.ml" 29 896 907 "ast_cond_simplify.ml" 29 896 909
+type(
+  Type.cast_type
+)
+ident(
+  def ct "ast_cond_simplify.ml" 29 896 918 "ast_cond_simplify.ml" 29 896 934
+)
+"ast_cond_simplify.ml" 29 896 910 "ast_cond_simplify.ml" 29 896 911
+type(
+  Type.typ
+)
+ident(
+  def t "ast_cond_simplify.ml" 29 896 918 "ast_cond_simplify.ml" 29 896 934
+)
+"ast_cond_simplify.ml" 29 896 912 "ast_cond_simplify.ml" 29 896 913
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 29 896 918 "ast_cond_simplify.ml" 29 896 934
+)
+"ast_cond_simplify.ml" 29 896 906 "ast_cond_simplify.ml" 29 896 914
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_cond_simplify.ml" 29 896 902 "ast_cond_simplify.ml" 29 896 914
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 29 896 923 "ast_cond_simplify.ml" 29 896 925
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "ast_cond_simplify.ml" 29 896 907 "ast_cond_simplify.ml" 29 896 909
+)
+"ast_cond_simplify.ml" 29 896 927 "ast_cond_simplify.ml" 29 896 928
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ast_cond_simplify.ml" 29 896 910 "ast_cond_simplify.ml" 29 896 911
+)
+"ast_cond_simplify.ml" 29 896 930 "ast_cond_simplify.ml" 29 896 931
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 29 896 932 "ast_cond_simplify.ml" 29 896 933
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 29 896 912 "ast_cond_simplify.ml" 29 896 913
+)
+"ast_cond_simplify.ml" 29 896 930 "ast_cond_simplify.ml" 29 896 933
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 29 896 922 "ast_cond_simplify.ml" 29 896 934
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_cond_simplify.ml" 29 896 918 "ast_cond_simplify.ml" 29 896 934
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 30 935 945 "ast_cond_simplify.ml" 30 935 946
+type(
+  Ast.var
+)
+ident(
+  def v "ast_cond_simplify.ml" 30 935 956 "ast_cond_simplify.ml" 30 935 973
+)
+"ast_cond_simplify.ml" 30 935 947 "ast_cond_simplify.ml" 30 935 948
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 30 935 956 "ast_cond_simplify.ml" 30 935 973
+)
+"ast_cond_simplify.ml" 30 935 949 "ast_cond_simplify.ml" 30 935 951
+type(
+  Ast.exp
+)
+ident(
+  def e' "ast_cond_simplify.ml" 30 935 956 "ast_cond_simplify.ml" 30 935 973
+)
+"ast_cond_simplify.ml" 30 935 944 "ast_cond_simplify.ml" 30 935 952
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 30 935 941 "ast_cond_simplify.ml" 30 935 952
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 30 935 960 "ast_cond_simplify.ml" 30 935 961
+type(
+  Ast.var
+)
+ident(
+  int_ref v "ast_cond_simplify.ml" 30 935 945 "ast_cond_simplify.ml" 30 935 946
+)
+"ast_cond_simplify.ml" 30 935 963 "ast_cond_simplify.ml" 30 935 964
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 30 935 965 "ast_cond_simplify.ml" 30 935 966
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 30 935 947 "ast_cond_simplify.ml" 30 935 948
+)
+"ast_cond_simplify.ml" 30 935 963 "ast_cond_simplify.ml" 30 935 966
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 30 935 968 "ast_cond_simplify.ml" 30 935 969
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 30 935 970 "ast_cond_simplify.ml" 30 935 972
+type(
+  Ast.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 30 935 949 "ast_cond_simplify.ml" 30 935 951
+)
+"ast_cond_simplify.ml" 30 935 968 "ast_cond_simplify.ml" 30 935 972
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 30 935 959 "ast_cond_simplify.ml" 30 935 973
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 30 935 956 "ast_cond_simplify.ml" 30 935 973
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 20 491 501 "ast_cond_simplify.ml" 30 935 973
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 32 979 985 "ast_cond_simplify.ml" 32 979 987
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 32 979 990 "ast_cond_simplify.ml" 32 979 991
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref f "ast_cond_simplify.ml" 18 434 456 "ast_cond_simplify.ml" 18 434 457
+)
+"ast_cond_simplify.ml" 32 979 992 "ast_cond_simplify.ml" 32 979 993
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 20 491 497 "ast_cond_simplify.ml" 20 491 498
+)
+"ast_cond_simplify.ml" 32 979 990 "ast_cond_simplify.ml" 32 979 993
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 34 1040 1045 "ast_cond_simplify.ml" 34 1040 1047
+type(
+  Ast.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 32 979 985 "ast_cond_simplify.ml" 32 979 987
+)
+"ast_cond_simplify.ml" 34 1040 1048 "ast_cond_simplify.ml" 34 1040 1050
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ast_cond_simplify.ml" 34 1040 1051 "ast_cond_simplify.ml" 34 1040 1052
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 20 491 497 "ast_cond_simplify.ml" 20 491 498
+)
+"ast_cond_simplify.ml" 34 1040 1045 "ast_cond_simplify.ml" 34 1040 1052
+type(
+  bool
+)
+"ast_cond_simplify.ml" 34 1040 1058 "ast_cond_simplify.ml" 34 1040 1059
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 19 462 468 "ast_cond_simplify.ml" 19 462 469
+)
+"ast_cond_simplify.ml" 34 1040 1060 "ast_cond_simplify.ml" 34 1040 1062
+type(
+  Ast.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 32 979 985 "ast_cond_simplify.ml" 32 979 987
+)
+"ast_cond_simplify.ml" 34 1040 1058 "ast_cond_simplify.ml" 34 1040 1062
+call(
+  tail
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 34 1040 1068 "ast_cond_simplify.ml" 34 1040 1070
+type(
+  Ast.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 32 979 985 "ast_cond_simplify.ml" 32 979 987
+)
+"ast_cond_simplify.ml" 34 1040 1042 "ast_cond_simplify.ml" 34 1040 1070
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 32 979 981 "ast_cond_simplify.ml" 34 1040 1070
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 20 491 493 "ast_cond_simplify.ml" 34 1040 1070
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 19 462 464 "ast_cond_simplify.ml" 34 1040 1070
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 36 1072 1076 "ast_cond_simplify.ml" 36 1072 1089
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  def simplify_flat "ast_cond_simplify.ml" 108 3674 3674 --
+)
+"ast_cond_simplify.ml" 37 1101 1112 "ast_cond_simplify.ml" 37 1101 1114
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 37 1101 1115 "ast_cond_simplify.ml" 37 1101 1118
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 37 1101 1111 "ast_cond_simplify.ml" 37 1101 1119
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 38 1121 1131 "ast_cond_simplify.ml" 38 1121 1132
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 39 1134 1148 "ast_cond_simplify.ml" 39 1134 1166
+)
+"ast_cond_simplify.ml" 39 1134 1144 "ast_cond_simplify.ml" 39 1134 1146
+type(
+  Ast.exp
+)
+ident(
+  def e' "ast_cond_simplify.ml" 39 1134 1148 "ast_cond_simplify.ml" 39 1134 1166
+)
+"ast_cond_simplify.ml" 37 1101 1110 "ast_cond_simplify.ml" 39 1134 1147
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 37 1101 1105 "ast_cond_simplify.ml" 39 1134 1147
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 39 1134 1153 "ast_cond_simplify.ml" 39 1134 1154
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 38 1121 1131 "ast_cond_simplify.ml" 38 1121 1132
+)
+"ast_cond_simplify.ml" 39 1134 1155 "ast_cond_simplify.ml" 39 1134 1158
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Ast.( === )
+)
+"ast_cond_simplify.ml" 39 1134 1159 "ast_cond_simplify.ml" 39 1134 1161
+type(
+  Ast.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 39 1134 1144 "ast_cond_simplify.ml" 39 1134 1146
+)
+"ast_cond_simplify.ml" 39 1134 1153 "ast_cond_simplify.ml" 39 1134 1161
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_cond_simplify.ml" 39 1134 1165 "ast_cond_simplify.ml" 39 1134 1166
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 38 1121 1131 "ast_cond_simplify.ml" 38 1121 1132
+)
+"ast_cond_simplify.ml" 39 1134 1148 "ast_cond_simplify.ml" 39 1134 1166
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 40 1167 1177 "ast_cond_simplify.ml" 40 1167 1179
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 41 1181 1195 "ast_cond_simplify.ml" 41 1181 1197
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i0 "ast_cond_simplify.ml" 42 1203 1235 "ast_cond_simplify.ml" 44 1283 1304
+)
+"ast_cond_simplify.ml" 41 1181 1199 "ast_cond_simplify.ml" 41 1181 1200
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 41 1181 1194 "ast_cond_simplify.ml" 41 1181 1201
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 41 1181 1191 "ast_cond_simplify.ml" 41 1181 1201
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 42 1203 1219 "ast_cond_simplify.ml" 42 1203 1224
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 42 1203 1226 "ast_cond_simplify.ml" 42 1203 1228
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_cond_simplify.ml" 42 1203 1235 "ast_cond_simplify.ml" 44 1283 1304
+)
+"ast_cond_simplify.ml" 42 1203 1230 "ast_cond_simplify.ml" 42 1203 1232
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_cond_simplify.ml" 42 1203 1235 "ast_cond_simplify.ml" 44 1283 1304
+)
+"ast_cond_simplify.ml" 42 1203 1218 "ast_cond_simplify.ml" 42 1203 1233
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 42 1203 1213 "ast_cond_simplify.ml" 42 1203 1233
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 40 1167 1176 "ast_cond_simplify.ml" 42 1203 1234
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 40 1167 1171 "ast_cond_simplify.ml" 42 1203 1234
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 42 1203 1240 "ast_cond_simplify.ml" 42 1203 1242
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i0 "ast_cond_simplify.ml" 41 1181 1195 "ast_cond_simplify.ml" 41 1181 1197
+)
+"ast_cond_simplify.ml" 42 1203 1243 "ast_cond_simplify.ml" 42 1203 1244
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast_cond_simplify.ml" 42 1203 1245 "ast_cond_simplify.ml" 42 1203 1248
+type(
+  Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"ast_cond_simplify.ml" 42 1203 1240 "ast_cond_simplify.ml" 42 1203 1248
+type(
+  bool
+)
+"ast_cond_simplify.ml" 44 1283 1293 "ast_cond_simplify.ml" 44 1283 1295
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 44 1283 1297 "ast_cond_simplify.ml" 44 1283 1299
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 42 1203 1226 "ast_cond_simplify.ml" 42 1203 1228
+)
+"ast_cond_simplify.ml" 44 1283 1301 "ast_cond_simplify.ml" 44 1283 1303
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 42 1203 1230 "ast_cond_simplify.ml" 42 1203 1232
+)
+"ast_cond_simplify.ml" 44 1283 1292 "ast_cond_simplify.ml" 44 1283 1304
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 44 1283 1287 "ast_cond_simplify.ml" 44 1283 1304
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 42 1203 1235 "ast_cond_simplify.ml" 44 1283 1304
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 45 1305 1315 "ast_cond_simplify.ml" 45 1305 1317
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 46 1319 1335 "ast_cond_simplify.ml" 46 1319 1337
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 46 1319 1339 "ast_cond_simplify.ml" 46 1319 1342
+type(
+  Ast.exp
+)
+ident(
+  def e1' "ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+)
+"ast_cond_simplify.ml" 46 1319 1344 "ast_cond_simplify.ml" 46 1319 1347
+type(
+  Ast.exp
+)
+ident(
+  def e2' "ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+)
+"ast_cond_simplify.ml" 46 1319 1334 "ast_cond_simplify.ml" 46 1319 1348
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 46 1319 1329 "ast_cond_simplify.ml" 46 1319 1348
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 47 1350 1366 "ast_cond_simplify.ml" 47 1350 1368
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 47 1350 1369 "ast_cond_simplify.ml" 47 1350 1372
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 47 1350 1366 "ast_cond_simplify.ml" 47 1350 1372
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 47 1350 1366 "ast_cond_simplify.ml" 47 1350 1379
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+)
+"ast_cond_simplify.ml" 47 1350 1381 "ast_cond_simplify.ml" 47 1350 1383
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+)
+"ast_cond_simplify.ml" 47 1350 1385 "ast_cond_simplify.ml" 47 1350 1387
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+)
+"ast_cond_simplify.ml" 47 1350 1365 "ast_cond_simplify.ml" 47 1350 1388
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 47 1350 1360 "ast_cond_simplify.ml" 47 1350 1388
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 45 1305 1314 "ast_cond_simplify.ml" 47 1350 1389
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 45 1305 1309 "ast_cond_simplify.ml" 47 1350 1389
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 48 1390 1400 "ast_cond_simplify.ml" 48 1390 1402
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 49 1404 1420 "ast_cond_simplify.ml" 49 1404 1422
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 49 1404 1423 "ast_cond_simplify.ml" 49 1404 1426
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 49 1404 1420 "ast_cond_simplify.ml" 49 1404 1426
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 49 1404 1420 "ast_cond_simplify.ml" 49 1404 1433
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+)
+"ast_cond_simplify.ml" 49 1404 1435 "ast_cond_simplify.ml" 49 1404 1437
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+)
+"ast_cond_simplify.ml" 49 1404 1439 "ast_cond_simplify.ml" 49 1404 1441
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+)
+"ast_cond_simplify.ml" 49 1404 1419 "ast_cond_simplify.ml" 49 1404 1442
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 49 1404 1414 "ast_cond_simplify.ml" 49 1404 1442
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 50 1444 1460 "ast_cond_simplify.ml" 50 1444 1462
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 50 1444 1464 "ast_cond_simplify.ml" 50 1444 1467
+type(
+  Ast.exp
+)
+ident(
+  def e1' "ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+)
+"ast_cond_simplify.ml" 50 1444 1469 "ast_cond_simplify.ml" 50 1444 1472
+type(
+  Ast.exp
+)
+ident(
+  def e2' "ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+)
+"ast_cond_simplify.ml" 50 1444 1459 "ast_cond_simplify.ml" 50 1444 1473
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 50 1444 1454 "ast_cond_simplify.ml" 50 1444 1473
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 48 1390 1399 "ast_cond_simplify.ml" 50 1444 1474
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 48 1390 1394 "ast_cond_simplify.ml" 50 1444 1474
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 45 1305 1309 "ast_cond_simplify.ml" 50 1444 1474
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 50 1444 1480 "ast_cond_simplify.ml" 50 1444 1482
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 47 1350 1381 "ast_cond_simplify.ml" 47 1350 1383
+)
+"ast_cond_simplify.ml" 50 1444 1483 "ast_cond_simplify.ml" 50 1444 1484
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast_cond_simplify.ml" 50 1444 1485 "ast_cond_simplify.ml" 50 1444 1488
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1' "ast_cond_simplify.ml" 46 1319 1339 "ast_cond_simplify.ml" 46 1319 1342
+)
+"ast_cond_simplify.ml" 50 1444 1480 "ast_cond_simplify.ml" 50 1444 1488
+type(
+  bool
+)
+"ast_cond_simplify.ml" 50 1444 1489 "ast_cond_simplify.ml" 50 1444 1491
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast_cond_simplify.ml" 50 1444 1492 "ast_cond_simplify.ml" 50 1444 1494
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 47 1350 1385 "ast_cond_simplify.ml" 47 1350 1387
+)
+"ast_cond_simplify.ml" 50 1444 1495 "ast_cond_simplify.ml" 50 1444 1496
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast_cond_simplify.ml" 50 1444 1497 "ast_cond_simplify.ml" 50 1444 1500
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2' "ast_cond_simplify.ml" 46 1319 1344 "ast_cond_simplify.ml" 46 1319 1347
+)
+"ast_cond_simplify.ml" 50 1444 1492 "ast_cond_simplify.ml" 50 1444 1500
+type(
+  bool
+)
+"ast_cond_simplify.ml" 50 1444 1480 "ast_cond_simplify.ml" 50 1444 1500
+type(
+  bool
+)
+"ast_cond_simplify.ml" 52 1540 1548 "ast_cond_simplify.ml" 52 1540 1554
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 52 1540 1563 "ast_cond_simplify.ml" 52 1540 1566
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ast_cond_simplify.ml" 47 1350 1366 "ast_cond_simplify.ml" 47 1350 1379
+)
+"ast_cond_simplify.ml" 53 1572 1580 "ast_cond_simplify.ml" 53 1572 1582
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 53 1572 1586 "ast_cond_simplify.ml" 53 1572 1588
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 54 1589 1597 "ast_cond_simplify.ml" 54 1589 1600
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 54 1589 1604 "ast_cond_simplify.ml" 54 1589 1607
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 55 1608 1616 "ast_cond_simplify.ml" 55 1608 1617
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 55 1608 1621 "ast_cond_simplify.ml" 55 1608 1629
+type(
+  string -> Type.binop_type
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ast_cond_simplify.ml" 55 1608 1630 "ast_cond_simplify.ml" 55 1608 1642
+type(
+  string
+)
+"ast_cond_simplify.ml" 55 1608 1621 "ast_cond_simplify.ml" 55 1608 1642
+call(
+  stack
+)
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 52 1540 1557 "ast_cond_simplify.ml" 55 1608 1642
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 57 1650 1660 "ast_cond_simplify.ml" 57 1650 1666
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "ast_cond_simplify.ml" 52 1540 1548 "ast_cond_simplify.ml" 52 1540 1554
+)
+"ast_cond_simplify.ml" 57 1650 1668 "ast_cond_simplify.ml" 57 1650 1670
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 47 1350 1381 "ast_cond_simplify.ml" 47 1350 1383
+)
+"ast_cond_simplify.ml" 57 1650 1672 "ast_cond_simplify.ml" 57 1650 1674
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 47 1350 1385 "ast_cond_simplify.ml" 47 1350 1387
+)
+"ast_cond_simplify.ml" 57 1650 1659 "ast_cond_simplify.ml" 57 1650 1675
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 57 1650 1654 "ast_cond_simplify.ml" 57 1650 1675
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 52 1540 1544 "ast_cond_simplify.ml" 57 1650 1675
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 50 1444 1475 "ast_cond_simplify.ml" 57 1650 1675
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 58 1676 1686 "ast_cond_simplify.ml" 58 1676 1688
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 58 1676 1689 "ast_cond_simplify.ml" 58 1676 1691
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 58 1676 1686 "ast_cond_simplify.ml" 58 1676 1691
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 58 1676 1692 "ast_cond_simplify.ml" 58 1676 1695
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 58 1676 1686 "ast_cond_simplify.ml" 58 1676 1695
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 58 1676 1696 "ast_cond_simplify.ml" 58 1676 1699
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 58 1676 1686 "ast_cond_simplify.ml" 58 1676 1699
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 58 1676 1700 "ast_cond_simplify.ml" 58 1676 1702
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 58 1676 1686 "ast_cond_simplify.ml" 58 1676 1702
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 58 1676 1686 "ast_cond_simplify.ml" 58 1676 1708
+type(
+  Type.binop_type
+)
+ident(
+  def op "ast_cond_simplify.ml" 64 1872 1876 "ast_cond_simplify.ml" 68 2052 2076
+)
+"ast_cond_simplify.ml" 59 1710 1726 "ast_cond_simplify.ml" 59 1710 1730
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 59 1710 1731 "ast_cond_simplify.ml" 59 1710 1736
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 59 1710 1726 "ast_cond_simplify.ml" 59 1710 1736
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 59 1710 1726 "ast_cond_simplify.ml" 59 1710 1743
+type(
+  Type.binop_type
+)
+ident(
+  def op2 "ast_cond_simplify.ml" 64 1872 1876 "ast_cond_simplify.ml" 68 2052 2076
+)
+"ast_cond_simplify.ml" 60 1745 1761 "ast_cond_simplify.ml" 60 1745 1762
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 64 1872 1876 "ast_cond_simplify.ml" 68 2052 2076
+)
+"ast_cond_simplify.ml" 61 1764 1784 "ast_cond_simplify.ml" 61 1764 1786
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i1 "ast_cond_simplify.ml" 64 1872 1876 "ast_cond_simplify.ml" 68 2052 2076
+)
+"ast_cond_simplify.ml" 61 1764 1788 "ast_cond_simplify.ml" 61 1764 1790
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast_cond_simplify.ml" 64 1872 1876 "ast_cond_simplify.ml" 68 2052 2076
+)
+"ast_cond_simplify.ml" 61 1764 1783 "ast_cond_simplify.ml" 61 1764 1791
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 61 1764 1780 "ast_cond_simplify.ml" 61 1764 1791
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 59 1710 1725 "ast_cond_simplify.ml" 61 1764 1792
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 59 1710 1720 "ast_cond_simplify.ml" 61 1764 1792
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 62 1794 1808 "ast_cond_simplify.ml" 62 1794 1810
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i2 "ast_cond_simplify.ml" 64 1872 1876 "ast_cond_simplify.ml" 68 2052 2076
+)
+"ast_cond_simplify.ml" 62 1794 1812 "ast_cond_simplify.ml" 62 1794 1815
+type(
+  Type.typ
+)
+ident(
+  def _t2 "ast_cond_simplify.ml" 64 1872 1876 "ast_cond_simplify.ml" 68 2052 2076
+)
+"ast_cond_simplify.ml" 62 1794 1807 "ast_cond_simplify.ml" 62 1794 1816
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 62 1794 1804 "ast_cond_simplify.ml" 62 1794 1816
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 58 1676 1685 "ast_cond_simplify.ml" 62 1794 1817
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 58 1676 1680 "ast_cond_simplify.ml" 62 1794 1817
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 64 1872 1880 "ast_cond_simplify.ml" 64 1872 1885
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 64 1872 1894 "ast_cond_simplify.ml" 64 1872 1897
+type(
+  Type.binop_type
+)
+ident(
+  int_ref op2 "ast_cond_simplify.ml" 59 1710 1726 "ast_cond_simplify.ml" 59 1710 1743
+)
+"ast_cond_simplify.ml" 64 1872 1903 "ast_cond_simplify.ml" 64 1872 1907
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 64 1872 1911 "ast_cond_simplify.ml" 64 1872 1916
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 64 1872 1919 "ast_cond_simplify.ml" 64 1872 1924
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 64 1872 1928 "ast_cond_simplify.ml" 64 1872 1932
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 64 1872 1935 "ast_cond_simplify.ml" 64 1872 1936
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 64 1872 1940 "ast_cond_simplify.ml" 64 1872 1948
+type(
+  string -> Type.binop_type
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ast_cond_simplify.ml" 64 1872 1949 "ast_cond_simplify.ml" 64 1872 1961
+type(
+  string
+)
+"ast_cond_simplify.ml" 64 1872 1940 "ast_cond_simplify.ml" 64 1872 1961
+call(
+  stack
+)
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 64 1872 1888 "ast_cond_simplify.ml" 64 1872 1961
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 65 1965 1973 "ast_cond_simplify.ml" 65 1965 1977
+type(
+  Z.t
+)
+"ast_cond_simplify.ml" 65 1965 1979 "ast_cond_simplify.ml" 65 1965 1980
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 65 1965 1973 "ast_cond_simplify.ml" 65 1965 1980
+type(
+  Z.t * Type.typ
+)
+"ast_cond_simplify.ml" 65 1965 1983 "ast_cond_simplify.ml" 65 1965 1999
+type(
+  Type.binop_type ->
+  Big_int_Z.big_int * Type.typ ->
+  Big_int_Z.big_int * Type.typ -> Z.t * Type.typ
+)
+ident(
+  ext_ref Arithmetic.binop
+)
+"ast_cond_simplify.ml" 65 1965 2000 "ast_cond_simplify.ml" 65 1965 2005
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newop "ast_cond_simplify.ml" 64 1872 1880 "ast_cond_simplify.ml" 64 1872 1885
+)
+"ast_cond_simplify.ml" 65 1965 2007 "ast_cond_simplify.ml" 65 1965 2009
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i2 "ast_cond_simplify.ml" 62 1794 1808 "ast_cond_simplify.ml" 62 1794 1810
+)
+"ast_cond_simplify.ml" 65 1965 2010 "ast_cond_simplify.ml" 65 1965 2012
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast_cond_simplify.ml" 61 1764 1788 "ast_cond_simplify.ml" 61 1764 1790
+)
+"ast_cond_simplify.ml" 65 1965 2006 "ast_cond_simplify.ml" 65 1965 2013
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 65 1965 2015 "ast_cond_simplify.ml" 65 1965 2017
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i1 "ast_cond_simplify.ml" 61 1764 1784 "ast_cond_simplify.ml" 61 1764 1786
+)
+"ast_cond_simplify.ml" 65 1965 2018 "ast_cond_simplify.ml" 65 1965 2020
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast_cond_simplify.ml" 61 1764 1788 "ast_cond_simplify.ml" 61 1764 1790
+)
+"ast_cond_simplify.ml" 65 1965 2014 "ast_cond_simplify.ml" 65 1965 2021
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 65 1965 1983 "ast_cond_simplify.ml" 65 1965 2021
+call(
+  stack
+)
+type(
+  Z.t * Type.typ
+)
+"ast_cond_simplify.ml" 66 2025 2035 "ast_cond_simplify.ml" 66 2025 2037
+type(
+  Type.binop_type
+)
+ident(
+  int_ref op "ast_cond_simplify.ml" 58 1676 1686 "ast_cond_simplify.ml" 58 1676 1708
+)
+"ast_cond_simplify.ml" 67 2039 2049 "ast_cond_simplify.ml" 67 2039 2050
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 60 1745 1761 "ast_cond_simplify.ml" 60 1745 1762
+)
+"ast_cond_simplify.ml" 68 2052 2066 "ast_cond_simplify.ml" 68 2052 2070
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref newi "ast_cond_simplify.ml" 65 1965 1973 "ast_cond_simplify.ml" 65 1965 1977
+)
+"ast_cond_simplify.ml" 68 2052 2072 "ast_cond_simplify.ml" 68 2052 2074
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast_cond_simplify.ml" 61 1764 1788 "ast_cond_simplify.ml" 61 1764 1790
+)
+"ast_cond_simplify.ml" 68 2052 2065 "ast_cond_simplify.ml" 68 2052 2075
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 68 2052 2062 "ast_cond_simplify.ml" 68 2052 2075
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 66 2025 2034 "ast_cond_simplify.ml" 68 2052 2076
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 66 2025 2029 "ast_cond_simplify.ml" 68 2052 2076
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 65 1965 1969 "ast_cond_simplify.ml" 68 2052 2076
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 64 1872 1876 "ast_cond_simplify.ml" 68 2052 2076
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 69 2077 2086 "ast_cond_simplify.ml" 69 2077 2089
+type(
+  Type.unop_type
+)
+"ast_cond_simplify.ml" 70 2091 2106 "ast_cond_simplify.ml" 70 2091 2108
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2109 "ast_cond_simplify.ml" 70 2091 2111
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2106 "ast_cond_simplify.ml" 70 2091 2111
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2112 "ast_cond_simplify.ml" 70 2091 2115
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2106 "ast_cond_simplify.ml" 70 2091 2115
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2116 "ast_cond_simplify.ml" 70 2091 2119
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2106 "ast_cond_simplify.ml" 70 2091 2119
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2120 "ast_cond_simplify.ml" 70 2091 2122
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2106 "ast_cond_simplify.ml" 70 2091 2122
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2123 "ast_cond_simplify.ml" 70 2091 2126
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2106 "ast_cond_simplify.ml" 70 2091 2126
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 70 2091 2106 "ast_cond_simplify.ml" 70 2091 2133
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ast_cond_simplify.ml" 72 2183 2187 "ast_cond_simplify.ml" 80 2361 2386
+)
+"ast_cond_simplify.ml" 70 2091 2135 "ast_cond_simplify.ml" 70 2091 2137
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_cond_simplify.ml" 72 2183 2187 "ast_cond_simplify.ml" 80 2361 2386
+)
+"ast_cond_simplify.ml" 70 2091 2139 "ast_cond_simplify.ml" 70 2091 2141
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_cond_simplify.ml" 72 2183 2187 "ast_cond_simplify.ml" 80 2361 2386
+)
+"ast_cond_simplify.ml" 70 2091 2105 "ast_cond_simplify.ml" 70 2091 2142
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 70 2091 2100 "ast_cond_simplify.ml" 70 2091 2142
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 69 2077 2085 "ast_cond_simplify.ml" 70 2091 2143
+type(
+  Type.unop_type * Ast.exp
+)
+"ast_cond_simplify.ml" 69 2077 2081 "ast_cond_simplify.ml" 70 2091 2143
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 72 2183 2191 "ast_cond_simplify.ml" 72 2183 2197
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 72 2183 2206 "ast_cond_simplify.ml" 72 2183 2209
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ast_cond_simplify.ml" 70 2091 2106 "ast_cond_simplify.ml" 70 2091 2133
+)
+"ast_cond_simplify.ml" 73 2215 2223 "ast_cond_simplify.ml" 73 2215 2225
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 73 2215 2229 "ast_cond_simplify.ml" 73 2215 2231
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 74 2232 2240 "ast_cond_simplify.ml" 74 2232 2242
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 74 2232 2246 "ast_cond_simplify.ml" 74 2232 2248
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 75 2249 2257 "ast_cond_simplify.ml" 75 2249 2260
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 75 2249 2264 "ast_cond_simplify.ml" 75 2249 2267
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 76 2268 2276 "ast_cond_simplify.ml" 76 2268 2279
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 76 2268 2283 "ast_cond_simplify.ml" 76 2268 2286
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 77 2287 2295 "ast_cond_simplify.ml" 77 2287 2297
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 77 2287 2301 "ast_cond_simplify.ml" 77 2287 2304
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 78 2305 2313 "ast_cond_simplify.ml" 78 2305 2316
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 78 2305 2320 "ast_cond_simplify.ml" 78 2305 2322
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 79 2323 2331 "ast_cond_simplify.ml" 79 2323 2332
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 79 2323 2336 "ast_cond_simplify.ml" 79 2323 2344
+type(
+  string -> Type.binop_type
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ast_cond_simplify.ml" 79 2323 2345 "ast_cond_simplify.ml" 79 2323 2357
+type(
+  string
+)
+"ast_cond_simplify.ml" 79 2323 2336 "ast_cond_simplify.ml" 79 2323 2357
+call(
+  stack
+)
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 72 2183 2200 "ast_cond_simplify.ml" 79 2323 2357
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 80 2361 2371 "ast_cond_simplify.ml" 80 2361 2377
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "ast_cond_simplify.ml" 72 2183 2191 "ast_cond_simplify.ml" 72 2183 2197
+)
+"ast_cond_simplify.ml" 80 2361 2379 "ast_cond_simplify.ml" 80 2361 2381
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 70 2091 2139 "ast_cond_simplify.ml" 70 2091 2141
+)
+"ast_cond_simplify.ml" 80 2361 2383 "ast_cond_simplify.ml" 80 2361 2385
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 70 2091 2135 "ast_cond_simplify.ml" 70 2091 2137
+)
+"ast_cond_simplify.ml" 80 2361 2370 "ast_cond_simplify.ml" 80 2361 2386
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 80 2361 2365 "ast_cond_simplify.ml" 80 2361 2386
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 72 2183 2187 "ast_cond_simplify.ml" 80 2361 2386
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 81 2387 2397 "ast_cond_simplify.ml" 81 2387 2400
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 82 2402 2417 "ast_cond_simplify.ml" 82 2402 2426
+type(
+  Type.cast_type
+)
+"ast_cond_simplify.ml" 82 2402 2432 "ast_cond_simplify.ml" 82 2402 2433
+type(
+  int
+)
+"ast_cond_simplify.ml" 82 2402 2428 "ast_cond_simplify.ml" 82 2402 2433
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 83 2435 2456 "ast_cond_simplify.ml" 83 2435 2461
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 83 2435 2463 "ast_cond_simplify.ml" 83 2435 2465
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+)
+"ast_cond_simplify.ml" 83 2435 2471 "ast_cond_simplify.ml" 83 2435 2473
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i1 "ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+)
+"ast_cond_simplify.ml" 83 2435 2475 "ast_cond_simplify.ml" 83 2435 2477
+type(
+  Type.typ
+)
+ident(
+  def t1 "ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+)
+"ast_cond_simplify.ml" 83 2435 2470 "ast_cond_simplify.ml" 83 2435 2478
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 83 2435 2467 "ast_cond_simplify.ml" 83 2435 2478
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 83 2435 2455 "ast_cond_simplify.ml" 83 2435 2479
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 83 2435 2450 "ast_cond_simplify.ml" 83 2435 2479
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 82 2402 2416 "ast_cond_simplify.ml" 83 2435 2480
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_cond_simplify.ml" 82 2402 2412 "ast_cond_simplify.ml" 83 2435 2480
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 84 2482 2497 "ast_cond_simplify.ml" 84 2482 2506
+type(
+  Type.cast_type
+)
+"ast_cond_simplify.ml" 84 2482 2512 "ast_cond_simplify.ml" 84 2482 2513
+type(
+  int
+)
+"ast_cond_simplify.ml" 84 2482 2508 "ast_cond_simplify.ml" 84 2482 2513
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 85 2515 2536 "ast_cond_simplify.ml" 85 2515 2539
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 86 2541 2568 "ast_cond_simplify.ml" 86 2541 2571
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 86 2541 2573 "ast_cond_simplify.ml" 86 2541 2575
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+)
+"ast_cond_simplify.ml" 86 2541 2581 "ast_cond_simplify.ml" 86 2541 2583
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i2 "ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+)
+"ast_cond_simplify.ml" 86 2541 2585 "ast_cond_simplify.ml" 86 2541 2588
+type(
+  Type.typ
+)
+ident(
+  def _t2 "ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+)
+"ast_cond_simplify.ml" 86 2541 2580 "ast_cond_simplify.ml" 86 2541 2589
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 86 2541 2577 "ast_cond_simplify.ml" 86 2541 2589
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 86 2541 2567 "ast_cond_simplify.ml" 86 2541 2590
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 86 2541 2562 "ast_cond_simplify.ml" 86 2541 2590
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 87 2592 2619 "ast_cond_simplify.ml" 87 2592 2622
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 87 2592 2624 "ast_cond_simplify.ml" 87 2592 2626
+type(
+  Ast.exp
+)
+ident(
+  def e3 "ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+)
+"ast_cond_simplify.ml" 88 2628 2661 "ast_cond_simplify.ml" 88 2628 2666
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 89 2668 2701 "ast_cond_simplify.ml" 89 2668 2703
+type(
+  Ast.exp
+)
+ident(
+  def e4 "ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+)
+"ast_cond_simplify.ml" 90 2705 2742 "ast_cond_simplify.ml" 90 2705 2744
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i3 "ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+)
+"ast_cond_simplify.ml" 90 2705 2746 "ast_cond_simplify.ml" 90 2705 2749
+type(
+  Type.typ
+)
+ident(
+  def _t3 "ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+)
+"ast_cond_simplify.ml" 90 2705 2741 "ast_cond_simplify.ml" 90 2705 2750
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 90 2705 2738 "ast_cond_simplify.ml" 90 2705 2750
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 88 2628 2660 "ast_cond_simplify.ml" 90 2705 2751
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 88 2628 2655 "ast_cond_simplify.ml" 90 2705 2751
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 87 2592 2618 "ast_cond_simplify.ml" 90 2705 2752
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 87 2592 2613 "ast_cond_simplify.ml" 90 2705 2752
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 85 2515 2535 "ast_cond_simplify.ml" 90 2705 2753
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 85 2515 2530 "ast_cond_simplify.ml" 90 2705 2753
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 84 2482 2496 "ast_cond_simplify.ml" 90 2705 2754
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_cond_simplify.ml" 84 2482 2492 "ast_cond_simplify.ml" 90 2705 2754
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 81 2387 2396 "ast_cond_simplify.ml" 90 2705 2755
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 81 2387 2391 "ast_cond_simplify.ml" 90 2705 2755
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 90 2705 2761 "ast_cond_simplify.ml" 90 2705 2763
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 83 2435 2463 "ast_cond_simplify.ml" 83 2435 2465
+)
+"ast_cond_simplify.ml" 90 2705 2764 "ast_cond_simplify.ml" 90 2705 2765
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast_cond_simplify.ml" 90 2705 2766 "ast_cond_simplify.ml" 90 2705 2768
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 86 2541 2573 "ast_cond_simplify.ml" 86 2541 2575
+)
+"ast_cond_simplify.ml" 90 2705 2761 "ast_cond_simplify.ml" 90 2705 2768
+type(
+  bool
+)
+"ast_cond_simplify.ml" 90 2705 2769 "ast_cond_simplify.ml" 90 2705 2771
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast_cond_simplify.ml" 90 2705 2772 "ast_cond_simplify.ml" 90 2705 2774
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_cond_simplify.ml" 86 2541 2573 "ast_cond_simplify.ml" 86 2541 2575
+)
+"ast_cond_simplify.ml" 90 2705 2775 "ast_cond_simplify.ml" 90 2705 2776
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast_cond_simplify.ml" 90 2705 2777 "ast_cond_simplify.ml" 90 2705 2779
+type(
+  Ast.exp
+)
+ident(
+  int_ref e3 "ast_cond_simplify.ml" 87 2592 2624 "ast_cond_simplify.ml" 87 2592 2626
+)
+"ast_cond_simplify.ml" 90 2705 2772 "ast_cond_simplify.ml" 90 2705 2779
+type(
+  bool
+)
+"ast_cond_simplify.ml" 90 2705 2780 "ast_cond_simplify.ml" 90 2705 2782
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast_cond_simplify.ml" 90 2705 2783 "ast_cond_simplify.ml" 90 2705 2785
+type(
+  Ast.exp
+)
+ident(
+  int_ref e3 "ast_cond_simplify.ml" 87 2592 2624 "ast_cond_simplify.ml" 87 2592 2626
+)
+"ast_cond_simplify.ml" 90 2705 2786 "ast_cond_simplify.ml" 90 2705 2787
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast_cond_simplify.ml" 90 2705 2788 "ast_cond_simplify.ml" 90 2705 2790
+type(
+  Ast.exp
+)
+ident(
+  int_ref e4 "ast_cond_simplify.ml" 89 2668 2701 "ast_cond_simplify.ml" 89 2668 2703
+)
+"ast_cond_simplify.ml" 90 2705 2783 "ast_cond_simplify.ml" 90 2705 2790
+type(
+  bool
+)
+"ast_cond_simplify.ml" 90 2705 2791 "ast_cond_simplify.ml" 90 2705 2793
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast_cond_simplify.ml" 90 2705 2794 "ast_cond_simplify.ml" 90 2705 2796
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i1 "ast_cond_simplify.ml" 83 2435 2471 "ast_cond_simplify.ml" 83 2435 2473
+)
+"ast_cond_simplify.ml" 90 2705 2797 "ast_cond_simplify.ml" 90 2705 2798
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast_cond_simplify.ml" 90 2705 2799 "ast_cond_simplify.ml" 90 2705 2801
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i2 "ast_cond_simplify.ml" 86 2541 2581 "ast_cond_simplify.ml" 86 2541 2583
+)
+"ast_cond_simplify.ml" 90 2705 2794 "ast_cond_simplify.ml" 90 2705 2801
+type(
+  bool
+)
+"ast_cond_simplify.ml" 90 2705 2802 "ast_cond_simplify.ml" 90 2705 2804
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast_cond_simplify.ml" 90 2705 2805 "ast_cond_simplify.ml" 90 2705 2807
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i2 "ast_cond_simplify.ml" 86 2541 2581 "ast_cond_simplify.ml" 86 2541 2583
+)
+"ast_cond_simplify.ml" 90 2705 2808 "ast_cond_simplify.ml" 90 2705 2809
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast_cond_simplify.ml" 90 2705 2810 "ast_cond_simplify.ml" 90 2705 2812
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i3 "ast_cond_simplify.ml" 90 2705 2742 "ast_cond_simplify.ml" 90 2705 2744
+)
+"ast_cond_simplify.ml" 90 2705 2805 "ast_cond_simplify.ml" 90 2705 2812
+type(
+  bool
+)
+"ast_cond_simplify.ml" 90 2705 2794 "ast_cond_simplify.ml" 90 2705 2812
+type(
+  bool
+)
+"ast_cond_simplify.ml" 90 2705 2783 "ast_cond_simplify.ml" 90 2705 2812
+type(
+  bool
+)
+"ast_cond_simplify.ml" 90 2705 2772 "ast_cond_simplify.ml" 90 2705 2812
+type(
+  bool
+)
+"ast_cond_simplify.ml" 90 2705 2761 "ast_cond_simplify.ml" 90 2705 2812
+type(
+  bool
+)
+"ast_cond_simplify.ml" 92 2872 2882 "ast_cond_simplify.ml" 92 2872 2885
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 92 2872 2887 "ast_cond_simplify.ml" 92 2872 2889
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_cond_simplify.ml" 83 2435 2463 "ast_cond_simplify.ml" 83 2435 2465
+)
+"ast_cond_simplify.ml" 92 2872 2895 "ast_cond_simplify.ml" 92 2872 2897
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i1 "ast_cond_simplify.ml" 83 2435 2471 "ast_cond_simplify.ml" 83 2435 2473
+)
+"ast_cond_simplify.ml" 92 2872 2899 "ast_cond_simplify.ml" 92 2872 2901
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "ast_cond_simplify.ml" 83 2435 2475 "ast_cond_simplify.ml" 83 2435 2477
+)
+"ast_cond_simplify.ml" 92 2872 2894 "ast_cond_simplify.ml" 92 2872 2902
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 92 2872 2891 "ast_cond_simplify.ml" 92 2872 2902
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 92 2872 2881 "ast_cond_simplify.ml" 92 2872 2903
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 92 2872 2876 "ast_cond_simplify.ml" 92 2872 2903
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 90 2705 2756 "ast_cond_simplify.ml" 92 2872 2903
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 93 2904 2914 "ast_cond_simplify.ml" 93 2904 2916
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 93 2904 2917 "ast_cond_simplify.ml" 93 2904 2919
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 93 2904 2914 "ast_cond_simplify.ml" 93 2904 2919
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 93 2904 2920 "ast_cond_simplify.ml" 93 2904 2922
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 93 2904 2914 "ast_cond_simplify.ml" 93 2904 2922
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 93 2904 2914 "ast_cond_simplify.ml" 93 2904 2929
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ast_cond_simplify.ml" 93 2904 2970 "ast_cond_simplify.ml" 95 3081 3110
+)
+"ast_cond_simplify.ml" 93 2904 2935 "ast_cond_simplify.ml" 93 2904 2936
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ast_cond_simplify.ml" 93 2904 2970 "ast_cond_simplify.ml" 95 3081 3110
+)
+"ast_cond_simplify.ml" 93 2904 2938 "ast_cond_simplify.ml" 93 2904 2939
+type(
+  Type.typ
+)
+ident(
+  def t "ast_cond_simplify.ml" 93 2904 2970 "ast_cond_simplify.ml" 95 3081 3110
+)
+"ast_cond_simplify.ml" 93 2904 2934 "ast_cond_simplify.ml" 93 2904 2940
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 93 2904 2931 "ast_cond_simplify.ml" 93 2904 2940
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 93 2904 2947 "ast_cond_simplify.ml" 93 2904 2960
+type(
+  Type.cast_type
+)
+"ast_cond_simplify.ml" 93 2904 2962 "ast_cond_simplify.ml" 93 2904 2964
+type(
+  Type.typ
+)
+ident(
+  def t2 "ast_cond_simplify.ml" 93 2904 2970 "ast_cond_simplify.ml" 95 3081 3110
+)
+"ast_cond_simplify.ml" 93 2904 2966 "ast_cond_simplify.ml" 93 2904 2967
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 93 2904 2970 "ast_cond_simplify.ml" 95 3081 3110
+)
+"ast_cond_simplify.ml" 93 2904 2946 "ast_cond_simplify.ml" 93 2904 2968
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_cond_simplify.ml" 93 2904 2942 "ast_cond_simplify.ml" 93 2904 2968
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 93 2904 2913 "ast_cond_simplify.ml" 93 2904 2969
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 93 2904 2908 "ast_cond_simplify.ml" 93 2904 2969
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 93 2904 2975 "ast_cond_simplify.ml" 93 2904 2976
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ast_cond_simplify.ml" 93 2904 2935 "ast_cond_simplify.ml" 93 2904 2936
+)
+"ast_cond_simplify.ml" 93 2904 2977 "ast_cond_simplify.ml" 93 2904 2979
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( <% )
+)
+"ast_cond_simplify.ml" 93 2904 2981 "ast_cond_simplify.ml" 93 2904 2984
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"ast_cond_simplify.ml" 93 2904 2985 "ast_cond_simplify.ml" 93 2904 2988
+type(
+  Z.t -> int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( <<% )
+)
+"ast_cond_simplify.ml" 93 2904 2990 "ast_cond_simplify.ml" 93 2904 3013
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ast_cond_simplify.ml" 93 2904 3015 "ast_cond_simplify.ml" 93 2904 3034
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"ast_cond_simplify.ml" 93 2904 3035 "ast_cond_simplify.ml" 93 2904 3036
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 93 2904 2966 "ast_cond_simplify.ml" 93 2904 2967
+)
+"ast_cond_simplify.ml" 93 2904 3014 "ast_cond_simplify.ml" 93 2904 3037
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 93 2904 2989 "ast_cond_simplify.ml" 93 2904 3038
+call(
+  stack
+)
+type(
+  int
+)
+"ast_cond_simplify.ml" 93 2904 2980 "ast_cond_simplify.ml" 93 2904 3039
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ast_cond_simplify.ml" 93 2904 2975 "ast_cond_simplify.ml" 93 2904 3039
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_cond_simplify.ml" 94 3043 3051 "ast_cond_simplify.ml" 94 3043 3053
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 94 3043 3056 "ast_cond_simplify.ml" 94 3043 3075
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"ast_cond_simplify.ml" 94 3043 3076 "ast_cond_simplify.ml" 94 3043 3077
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 93 2904 2966 "ast_cond_simplify.ml" 93 2904 2967
+)
+"ast_cond_simplify.ml" 94 3043 3056 "ast_cond_simplify.ml" 94 3043 3077
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 95 3081 3091 "ast_cond_simplify.ml" 95 3081 3094
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ast_cond_simplify.ml" 93 2904 2914 "ast_cond_simplify.ml" 93 2904 2929
+)
+"ast_cond_simplify.ml" 95 3081 3100 "ast_cond_simplify.ml" 95 3081 3101
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ast_cond_simplify.ml" 93 2904 2935 "ast_cond_simplify.ml" 93 2904 2936
+)
+"ast_cond_simplify.ml" 95 3081 3103 "ast_cond_simplify.ml" 95 3081 3105
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "ast_cond_simplify.ml" 94 3043 3051 "ast_cond_simplify.ml" 94 3043 3053
+)
+"ast_cond_simplify.ml" 95 3081 3099 "ast_cond_simplify.ml" 95 3081 3106
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 95 3081 3096 "ast_cond_simplify.ml" 95 3081 3106
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 95 3081 3108 "ast_cond_simplify.ml" 95 3081 3109
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 93 2904 2966 "ast_cond_simplify.ml" 93 2904 2967
+)
+"ast_cond_simplify.ml" 95 3081 3090 "ast_cond_simplify.ml" 95 3081 3110
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 95 3081 3085 "ast_cond_simplify.ml" 95 3081 3110
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 94 3043 3047 "ast_cond_simplify.ml" 95 3081 3110
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 93 2904 2970 "ast_cond_simplify.ml" 95 3081 3110
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 97 3185 3195 "ast_cond_simplify.ml" 97 3185 3197
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 97 3185 3198 "ast_cond_simplify.ml" 97 3185 3200
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 97 3185 3195 "ast_cond_simplify.ml" 97 3185 3200
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 97 3185 3195 "ast_cond_simplify.ml" 97 3185 3207
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ast_cond_simplify.ml" 97 3185 3246 "ast_cond_simplify.ml" 99 3408 3437
+)
+"ast_cond_simplify.ml" 97 3185 3213 "ast_cond_simplify.ml" 97 3185 3214
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "ast_cond_simplify.ml" 97 3185 3246 "ast_cond_simplify.ml" 99 3408 3437
+)
+"ast_cond_simplify.ml" 97 3185 3216 "ast_cond_simplify.ml" 97 3185 3217
+type(
+  Type.typ
+)
+ident(
+  def t "ast_cond_simplify.ml" 97 3185 3246 "ast_cond_simplify.ml" 99 3408 3437
+)
+"ast_cond_simplify.ml" 97 3185 3212 "ast_cond_simplify.ml" 97 3185 3218
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 97 3185 3209 "ast_cond_simplify.ml" 97 3185 3218
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 97 3185 3225 "ast_cond_simplify.ml" 97 3185 3236
+type(
+  Type.cast_type
+)
+"ast_cond_simplify.ml" 97 3185 3238 "ast_cond_simplify.ml" 97 3185 3240
+type(
+  Type.typ
+)
+ident(
+  def t2 "ast_cond_simplify.ml" 97 3185 3246 "ast_cond_simplify.ml" 99 3408 3437
+)
+"ast_cond_simplify.ml" 97 3185 3242 "ast_cond_simplify.ml" 97 3185 3243
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 97 3185 3246 "ast_cond_simplify.ml" 99 3408 3437
+)
+"ast_cond_simplify.ml" 97 3185 3224 "ast_cond_simplify.ml" 97 3185 3244
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_cond_simplify.ml" 97 3185 3220 "ast_cond_simplify.ml" 97 3185 3244
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 97 3185 3194 "ast_cond_simplify.ml" 97 3185 3245
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 97 3185 3189 "ast_cond_simplify.ml" 97 3185 3245
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 97 3185 3251 "ast_cond_simplify.ml" 97 3185 3252
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ast_cond_simplify.ml" 97 3185 3213 "ast_cond_simplify.ml" 97 3185 3214
+)
+"ast_cond_simplify.ml" 97 3185 3253 "ast_cond_simplify.ml" 97 3185 3255
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( <% )
+)
+"ast_cond_simplify.ml" 97 3185 3257 "ast_cond_simplify.ml" 97 3185 3260
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"ast_cond_simplify.ml" 97 3185 3261 "ast_cond_simplify.ml" 97 3185 3264
+type(
+  Z.t -> int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( <<% )
+)
+"ast_cond_simplify.ml" 97 3185 3266 "ast_cond_simplify.ml" 97 3185 3289
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ast_cond_simplify.ml" 97 3185 3291 "ast_cond_simplify.ml" 97 3185 3310
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"ast_cond_simplify.ml" 97 3185 3311 "ast_cond_simplify.ml" 97 3185 3312
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 97 3185 3242 "ast_cond_simplify.ml" 97 3185 3243
+)
+"ast_cond_simplify.ml" 97 3185 3290 "ast_cond_simplify.ml" 97 3185 3313
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 97 3185 3265 "ast_cond_simplify.ml" 97 3185 3314
+call(
+  stack
+)
+type(
+  int
+)
+"ast_cond_simplify.ml" 97 3185 3256 "ast_cond_simplify.ml" 97 3185 3315
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ast_cond_simplify.ml" 97 3185 3251 "ast_cond_simplify.ml" 97 3185 3315
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_cond_simplify.ml" 97 3185 3316 "ast_cond_simplify.ml" 97 3185 3318
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ast_cond_simplify.ml" 97 3185 3319 "ast_cond_simplify.ml" 97 3185 3320
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ast_cond_simplify.ml" 97 3185 3213 "ast_cond_simplify.ml" 97 3185 3214
+)
+"ast_cond_simplify.ml" 97 3185 3321 "ast_cond_simplify.ml" 97 3185 3323
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( <% )
+)
+"ast_cond_simplify.ml" 97 3185 3325 "ast_cond_simplify.ml" 97 3185 3328
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"ast_cond_simplify.ml" 97 3185 3329 "ast_cond_simplify.ml" 97 3185 3332
+type(
+  Z.t -> int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( <<% )
+)
+"ast_cond_simplify.ml" 97 3185 3334 "ast_cond_simplify.ml" 97 3185 3357
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ast_cond_simplify.ml" 97 3185 3358 "ast_cond_simplify.ml" 97 3185 3360
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ast_cond_simplify.ml" 97 3185 3238 "ast_cond_simplify.ml" 97 3185 3240
+)
+"ast_cond_simplify.ml" 97 3185 3334 "ast_cond_simplify.ml" 97 3185 3360
+call(
+  stack
+)
+type(
+  int
+)
+"ast_cond_simplify.ml" 97 3185 3361 "ast_cond_simplify.ml" 97 3185 3362
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ast_cond_simplify.ml" 97 3185 3363 "ast_cond_simplify.ml" 97 3185 3364
+type(
+  int
+)
+"ast_cond_simplify.ml" 97 3185 3333 "ast_cond_simplify.ml" 97 3185 3365
+type(
+  int
+)
+"ast_cond_simplify.ml" 97 3185 3324 "ast_cond_simplify.ml" 97 3185 3366
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ast_cond_simplify.ml" 97 3185 3319 "ast_cond_simplify.ml" 97 3185 3366
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_cond_simplify.ml" 97 3185 3251 "ast_cond_simplify.ml" 97 3185 3366
+type(
+  bool
+)
+"ast_cond_simplify.ml" 98 3370 3378 "ast_cond_simplify.ml" 98 3370 3380
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 98 3370 3383 "ast_cond_simplify.ml" 98 3370 3402
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"ast_cond_simplify.ml" 98 3370 3403 "ast_cond_simplify.ml" 98 3370 3404
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 97 3185 3242 "ast_cond_simplify.ml" 97 3185 3243
+)
+"ast_cond_simplify.ml" 98 3370 3383 "ast_cond_simplify.ml" 98 3370 3404
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 99 3408 3418 "ast_cond_simplify.ml" 99 3408 3421
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ast_cond_simplify.ml" 97 3185 3195 "ast_cond_simplify.ml" 97 3185 3207
+)
+"ast_cond_simplify.ml" 99 3408 3427 "ast_cond_simplify.ml" 99 3408 3428
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "ast_cond_simplify.ml" 97 3185 3213 "ast_cond_simplify.ml" 97 3185 3214
+)
+"ast_cond_simplify.ml" 99 3408 3430 "ast_cond_simplify.ml" 99 3408 3432
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "ast_cond_simplify.ml" 98 3370 3378 "ast_cond_simplify.ml" 98 3370 3380
+)
+"ast_cond_simplify.ml" 99 3408 3426 "ast_cond_simplify.ml" 99 3408 3433
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_cond_simplify.ml" 99 3408 3423 "ast_cond_simplify.ml" 99 3408 3433
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 99 3408 3435 "ast_cond_simplify.ml" 99 3408 3436
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 97 3185 3242 "ast_cond_simplify.ml" 97 3185 3243
+)
+"ast_cond_simplify.ml" 99 3408 3417 "ast_cond_simplify.ml" 99 3408 3437
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 99 3408 3412 "ast_cond_simplify.ml" 99 3408 3437
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 98 3370 3374 "ast_cond_simplify.ml" 99 3408 3437
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 97 3185 3246 "ast_cond_simplify.ml" 99 3408 3437
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 101 3439 3448 "ast_cond_simplify.ml" 101 3439 3456
+type(
+  Type.cast_type
+)
+"ast_cond_simplify.ml" 101 3439 3458 "ast_cond_simplify.ml" 101 3439 3460
+type(
+  Type.typ
+)
+ident(
+  def t2 "ast_cond_simplify.ml" 101 3439 3489 "ast_cond_simplify.ml" 102 3553 3583
+)
+"ast_cond_simplify.ml" 101 3439 3467 "ast_cond_simplify.ml" 101 3439 3480
+type(
+  Type.cast_type
+)
+"ast_cond_simplify.ml" 101 3439 3482 "ast_cond_simplify.ml" 101 3439 3483
+type(
+  Type.typ
+)
+ident(
+  def t "ast_cond_simplify.ml" 101 3439 3489 "ast_cond_simplify.ml" 102 3553 3583
+)
+"ast_cond_simplify.ml" 101 3439 3485 "ast_cond_simplify.ml" 101 3439 3486
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 101 3439 3489 "ast_cond_simplify.ml" 102 3553 3583
+)
+"ast_cond_simplify.ml" 101 3439 3466 "ast_cond_simplify.ml" 101 3439 3487
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_cond_simplify.ml" 101 3439 3462 "ast_cond_simplify.ml" 101 3439 3487
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 101 3439 3447 "ast_cond_simplify.ml" 101 3439 3488
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_cond_simplify.ml" 101 3439 3443 "ast_cond_simplify.ml" 101 3439 3488
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 101 3439 3494 "ast_cond_simplify.ml" 101 3439 3517
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ast_cond_simplify.ml" 101 3439 3518 "ast_cond_simplify.ml" 101 3439 3519
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ast_cond_simplify.ml" 101 3439 3482 "ast_cond_simplify.ml" 101 3439 3483
+)
+"ast_cond_simplify.ml" 101 3439 3494 "ast_cond_simplify.ml" 101 3439 3519
+call(
+  stack
+)
+type(
+  int
+)
+"ast_cond_simplify.ml" 101 3439 3520 "ast_cond_simplify.ml" 101 3439 3522
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ast_cond_simplify.ml" 101 3439 3523 "ast_cond_simplify.ml" 101 3439 3546
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"ast_cond_simplify.ml" 101 3439 3547 "ast_cond_simplify.ml" 101 3439 3549
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ast_cond_simplify.ml" 101 3439 3458 "ast_cond_simplify.ml" 101 3439 3460
+)
+"ast_cond_simplify.ml" 101 3439 3523 "ast_cond_simplify.ml" 101 3439 3549
+call(
+  stack
+)
+type(
+  int
+)
+"ast_cond_simplify.ml" 101 3439 3494 "ast_cond_simplify.ml" 101 3439 3549
+type(
+  bool
+)
+"ast_cond_simplify.ml" 102 3553 3562 "ast_cond_simplify.ml" 102 3553 3575
+type(
+  Type.cast_type
+)
+"ast_cond_simplify.ml" 102 3553 3577 "ast_cond_simplify.ml" 102 3553 3579
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ast_cond_simplify.ml" 101 3439 3458 "ast_cond_simplify.ml" 101 3439 3460
+)
+"ast_cond_simplify.ml" 102 3553 3581 "ast_cond_simplify.ml" 102 3553 3582
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 101 3439 3485 "ast_cond_simplify.ml" 101 3439 3486
+)
+"ast_cond_simplify.ml" 102 3553 3561 "ast_cond_simplify.ml" 102 3553 3583
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_cond_simplify.ml" 102 3553 3557 "ast_cond_simplify.ml" 102 3553 3583
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 101 3439 3489 "ast_cond_simplify.ml" 102 3553 3583
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 104 3602 3611 "ast_cond_simplify.ml" 104 3602 3612
+type(
+  Type.cast_type
+)
+"ast_cond_simplify.ml" 104 3602 3614 "ast_cond_simplify.ml" 104 3602 3616
+type(
+  Type.typ
+)
+ident(
+  def t2 "ast_cond_simplify.ml" 104 3602 3621 "ast_cond_simplify.ml" 105 3656 3661
+)
+"ast_cond_simplify.ml" 104 3602 3618 "ast_cond_simplify.ml" 104 3602 3619
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 104 3602 3621 "ast_cond_simplify.ml" 105 3656 3661
+)
+"ast_cond_simplify.ml" 104 3602 3610 "ast_cond_simplify.ml" 104 3602 3620
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_cond_simplify.ml" 104 3602 3606 "ast_cond_simplify.ml" 104 3602 3620
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 104 3602 3626 "ast_cond_simplify.ml" 104 3602 3628
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "ast_cond_simplify.ml" 104 3602 3614 "ast_cond_simplify.ml" 104 3602 3616
+)
+"ast_cond_simplify.ml" 104 3602 3629 "ast_cond_simplify.ml" 104 3602 3630
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ast_cond_simplify.ml" 104 3602 3631 "ast_cond_simplify.ml" 104 3602 3650
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"ast_cond_simplify.ml" 104 3602 3651 "ast_cond_simplify.ml" 104 3602 3652
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 104 3602 3618 "ast_cond_simplify.ml" 104 3602 3619
+)
+"ast_cond_simplify.ml" 104 3602 3631 "ast_cond_simplify.ml" 104 3602 3652
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"ast_cond_simplify.ml" 104 3602 3626 "ast_cond_simplify.ml" 104 3602 3652
+type(
+  bool
+)
+"ast_cond_simplify.ml" 105 3656 3660 "ast_cond_simplify.ml" 105 3656 3661
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 104 3602 3618 "ast_cond_simplify.ml" 104 3602 3619
+)
+"ast_cond_simplify.ml" 104 3602 3621 "ast_cond_simplify.ml" 105 3656 3661
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 106 3662 3666 "ast_cond_simplify.ml" 106 3662 3667
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 106 3662 3671 "ast_cond_simplify.ml" 106 3662 3672
+)
+"ast_cond_simplify.ml" 106 3662 3671 "ast_cond_simplify.ml" 106 3662 3672
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 106 3662 3666 "ast_cond_simplify.ml" 106 3662 3667
+)
+"ast_cond_simplify.ml" 36 1072 1092 "ast_cond_simplify.ml" 106 3662 3672
+type(
+  Ast.exp -> Ast.exp
+)
+"ast_cond_simplify.ml" 108 3674 3678 "ast_cond_simplify.ml" 108 3674 3691
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  def simplify_flat "ast_cond_simplify.ml" 116 3886 3886 --
+)
+"ast_cond_simplify.ml" 108 3674 3692 "ast_cond_simplify.ml" 108 3674 3693
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 109 3696 3698 "ast_cond_simplify.ml" 114 3862 3884
+)
+"ast_cond_simplify.ml" 109 3696 3701 "ast_cond_simplify.ml" 109 3696 3706
+type(
+  unit -> bool
+)
+ident(
+  ext_ref D.debug
+)
+"ast_cond_simplify.ml" 109 3696 3707 "ast_cond_simplify.ml" 109 3696 3709
+type(
+  unit
+)
+"ast_cond_simplify.ml" 109 3696 3701 "ast_cond_simplify.ml" 109 3696 3709
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_cond_simplify.ml" 110 3715 3723 "ast_cond_simplify.ml" 110 3715 3725
+type(
+  Ast.exp
+)
+ident(
+  def e' "ast_cond_simplify.ml" 111 3747 3751 "ast_cond_simplify.ml" 113 3855 3861
+)
+"ast_cond_simplify.ml" 110 3715 3728 "ast_cond_simplify.ml" 110 3715 3741
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref simplify_flat "ast_cond_simplify.ml" 36 1072 1076 "ast_cond_simplify.ml" 36 1072 1089
+)
+"ast_cond_simplify.ml" 110 3715 3742 "ast_cond_simplify.ml" 110 3715 3743
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 108 3674 3692 "ast_cond_simplify.ml" 108 3674 3693
+)
+"ast_cond_simplify.ml" 110 3715 3728 "ast_cond_simplify.ml" 110 3715 3743
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 111 3747 3754 "ast_cond_simplify.ml" 111 3747 3755
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 108 3674 3692 "ast_cond_simplify.ml" 108 3674 3693
+)
+"ast_cond_simplify.ml" 111 3747 3756 "ast_cond_simplify.ml" 111 3747 3758
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ast_cond_simplify.ml" 111 3747 3759 "ast_cond_simplify.ml" 111 3747 3761
+type(
+  Ast.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 110 3715 3723 "ast_cond_simplify.ml" 110 3715 3725
+)
+"ast_cond_simplify.ml" 111 3747 3754 "ast_cond_simplify.ml" 111 3747 3761
+type(
+  bool
+)
+"ast_cond_simplify.ml" 112 3767 3773 "ast_cond_simplify.ml" 112 3767 3780
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"ast_cond_simplify.ml" 112 3767 3781 "ast_cond_simplify.ml" 112 3767 3802
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"ast_cond_simplify.ml" 112 3767 3804 "ast_cond_simplify.ml" 112 3767 3824
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"ast_cond_simplify.ml" 112 3767 3825 "ast_cond_simplify.ml" 112 3767 3826
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 108 3674 3692 "ast_cond_simplify.ml" 108 3674 3693
+)
+"ast_cond_simplify.ml" 112 3767 3803 "ast_cond_simplify.ml" 112 3767 3827
+call(
+  stack
+)
+type(
+  string
+)
+"ast_cond_simplify.ml" 112 3767 3829 "ast_cond_simplify.ml" 112 3767 3849
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"ast_cond_simplify.ml" 112 3767 3850 "ast_cond_simplify.ml" 112 3767 3852
+type(
+  Ast.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 110 3715 3723 "ast_cond_simplify.ml" 110 3715 3725
+)
+"ast_cond_simplify.ml" 112 3767 3828 "ast_cond_simplify.ml" 112 3767 3853
+call(
+  stack
+)
+type(
+  string
+)
+"ast_cond_simplify.ml" 112 3767 3773 "ast_cond_simplify.ml" 112 3767 3853
+call(
+  stack
+)
+type(
+  unit
+)
+"ast_cond_simplify.ml" 111 3747 3751 "ast_cond_simplify.ml" 112 3767 3853
+type(
+  unit
+)
+"ast_cond_simplify.ml" 113 3855 3859 "ast_cond_simplify.ml" 113 3855 3861
+type(
+  Ast.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 110 3715 3723 "ast_cond_simplify.ml" 110 3715 3725
+)
+"ast_cond_simplify.ml" 111 3747 3751 "ast_cond_simplify.ml" 113 3855 3861
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 110 3715 3719 "ast_cond_simplify.ml" 113 3855 3861
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 114 3862 3869 "ast_cond_simplify.ml" 114 3862 3882
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref simplify_flat "ast_cond_simplify.ml" 36 1072 1076 "ast_cond_simplify.ml" 36 1072 1089
+)
+"ast_cond_simplify.ml" 114 3862 3883 "ast_cond_simplify.ml" 114 3862 3884
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 108 3674 3692 "ast_cond_simplify.ml" 108 3674 3693
+)
+"ast_cond_simplify.ml" 114 3862 3869 "ast_cond_simplify.ml" 114 3862 3884
+call(
+  tail
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 109 3696 3698 "ast_cond_simplify.ml" 114 3862 3884
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 116 3886 3890 "ast_cond_simplify.ml" 116 3886 3902
+type(
+  C.exp -> C.exp
+)
+ident(
+  def simplify_exp "ast_cond_simplify.ml" 118 3934 3934 --
+)
+"ast_cond_simplify.ml" 116 3886 3905 "ast_cond_simplify.ml" 116 3886 3918
+type(
+  (C.exp -> C.exp) -> C.exp -> C.exp
+)
+ident(
+  int_ref reverse_visit "ast_cond_simplify.ml" 18 434 442 "ast_cond_simplify.ml" 18 434 455
+)
+"ast_cond_simplify.ml" 116 3886 3919 "ast_cond_simplify.ml" 116 3886 3932
+type(
+  C.exp -> C.exp
+)
+ident(
+  int_ref simplify_flat "ast_cond_simplify.ml" 108 3674 3678 "ast_cond_simplify.ml" 108 3674 3691
+)
+"ast_cond_simplify.ml" 116 3886 3905 "ast_cond_simplify.ml" 116 3886 3932
+call(
+  stack
+)
+type(
+  C.exp -> C.exp
+)
+"ast_cond_simplify.ml" 118 3934 3938 "ast_cond_simplify.ml" 118 3934 3954
+type(
+  C.G.t -> C.G.t
+)
+ident(
+  def simplifycond_cfg "ast_cond_simplify.ml" 155 5300 5307 --
+)
+"ast_cond_simplify.ml" 118 3934 3955 "ast_cond_simplify.ml" 118 3934 3956
+type(
+  C.G.t
+)
+ident(
+  def g "ast_cond_simplify.ml" 121 4055 4057 "ast_cond_simplify.ml" 155 5300 5307
+)
+"ast_cond_simplify.ml" 121 4055 4061 "ast_cond_simplify.ml" 121 4055 4072
+type(
+  Ast.exp -> bool
+)
+"ast_cond_simplify.ml" 123 4088 4102 "ast_cond_simplify.ml" 123 4088 4103
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"ast_cond_simplify.ml" 123 4088 4096 "ast_cond_simplify.ml" 123 4088 4103
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 123 4088 4107 "ast_cond_simplify.ml" 123 4088 4111
+type(
+  bool
+)
+"ast_cond_simplify.ml" 124 4112 4120 "ast_cond_simplify.ml" 124 4112 4121
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 124 4112 4125 "ast_cond_simplify.ml" 124 4112 4130
+type(
+  bool
+)
+"ast_cond_simplify.ml" 122 4075 4079 "ast_cond_simplify.ml" 124 4112 4130
+type(
+  Ast.exp -> bool
+)
+"ast_cond_simplify.ml" 126 4136 4142 "ast_cond_simplify.ml" 126 4136 4152
+type(
+  Ast.exp -> bool
+)
+"ast_cond_simplify.ml" 128 4168 4181 "ast_cond_simplify.ml" 128 4168 4182
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"ast_cond_simplify.ml" 128 4168 4176 "ast_cond_simplify.ml" 128 4168 4182
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 128 4168 4186 "ast_cond_simplify.ml" 128 4168 4190
+type(
+  bool
+)
+"ast_cond_simplify.ml" 129 4191 4199 "ast_cond_simplify.ml" 129 4191 4200
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 129 4191 4204 "ast_cond_simplify.ml" 129 4191 4209
+type(
+  bool
+)
+"ast_cond_simplify.ml" 127 4155 4159 "ast_cond_simplify.ml" 129 4191 4209
+type(
+  Ast.exp -> bool
+)
+"ast_cond_simplify.ml" 131 4215 4221 "ast_cond_simplify.ml" 131 4215 4223
+type(
+  Cfg.aststmtloc ->
+  Ast.exp Var.VarMap.t * (Cfg.aststmtloc * Ast.exp) Var.VarMap.t *
+  (Ast.exp -> Ast.exp)
+)
+"ast_cond_simplify.ml" 131 4215 4226 "ast_cond_simplify.ml" 131 4215 4248
+type(
+  ?stop_before:(Ast.exp -> bool) ->
+  ?stop_after:(Ast.exp -> bool) ->
+  C.G.t ->
+  Cfg.aststmtloc ->
+  Ast.exp Var.VarMap.t * (Cfg.aststmtloc * Ast.exp) Var.VarMap.t *
+  (Ast.exp -> Ast.exp)
+)
+ident(
+  ext_ref Copy_prop.copyprop_ast
+)
+"ast_cond_simplify.ml" 131 4215 4250 "ast_cond_simplify.ml" 131 4215 4261
+type(
+  Ast.exp -> bool
+)
+ident(
+  int_ref stop_before "ast_cond_simplify.ml" 121 4055 4061 "ast_cond_simplify.ml" 121 4055 4072
+)
+"ast_cond_simplify.ml" 131 4215 4263 "ast_cond_simplify.ml" 131 4215 4273
+type(
+  Ast.exp -> bool
+)
+ident(
+  int_ref stop_after "ast_cond_simplify.ml" 126 4136 4142 "ast_cond_simplify.ml" 126 4136 4152
+)
+"ast_cond_simplify.ml" 131 4215 4274 "ast_cond_simplify.ml" 131 4215 4275
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 118 3934 3955 "ast_cond_simplify.ml" 118 3934 3956
+)
+"ast_cond_simplify.ml" 131 4215 4226 "ast_cond_simplify.ml" 131 4215 4275
+call(
+  stack
+)
+type(
+  Cfg.aststmtloc ->
+  Ast.exp Var.VarMap.t * (Cfg.aststmtloc * Ast.exp) Var.VarMap.t *
+  (Ast.exp -> Ast.exp)
+)
+"ast_cond_simplify.ml" 132 4279 4281 "ast_cond_simplify.ml" 132 4279 4296
+type(
+  (C.G.vertex -> C.G.t -> C.G.t) -> C.G.t -> C.G.t -> C.G.t
+)
+ident(
+  ext_ref C.G.fold_vertex
+)
+"ast_cond_simplify.ml" 132 4279 4302 "ast_cond_simplify.ml" 132 4279 4303
+type(
+  C.G.vertex
+)
+ident(
+  def v "ast_cond_simplify.ml" 132 4279 4304 "ast_cond_simplify.ml" 154 5287 5299
+)
+"ast_cond_simplify.ml" 132 4279 4304 "ast_cond_simplify.ml" 132 4279 4305
+type(
+  C.G.t
+)
+ident(
+  def g "ast_cond_simplify.ml" 133 4309 4313 "ast_cond_simplify.ml" 154 5287 5299
+)
+"ast_cond_simplify.ml" 133 4309 4317 "ast_cond_simplify.ml" 133 4309 4322
+type(
+  C.lang
+)
+"ast_cond_simplify.ml" 133 4309 4325 "ast_cond_simplify.ml" 133 4309 4336
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"ast_cond_simplify.ml" 133 4309 4337 "ast_cond_simplify.ml" 133 4309 4338
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 132 4279 4304 "ast_cond_simplify.ml" 132 4279 4305
+)
+"ast_cond_simplify.ml" 133 4309 4339 "ast_cond_simplify.ml" 133 4309 4340
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "ast_cond_simplify.ml" 132 4279 4302 "ast_cond_simplify.ml" 132 4279 4303
+)
+"ast_cond_simplify.ml" 133 4309 4325 "ast_cond_simplify.ml" 133 4309 4340
+call(
+  stack
+)
+type(
+  C.lang
+)
+"ast_cond_simplify.ml" 134 4344 4354 "ast_cond_simplify.ml" 134 4344 4362
+type(
+  C.lang -> C.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"ast_cond_simplify.ml" 134 4344 4363 "ast_cond_simplify.ml" 134 4344 4368
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "ast_cond_simplify.ml" 133 4309 4317 "ast_cond_simplify.ml" 133 4309 4322
+)
+"ast_cond_simplify.ml" 134 4344 4354 "ast_cond_simplify.ml" 134 4344 4368
+call(
+  stack
+)
+type(
+  C.stmt list
+)
+"ast_cond_simplify.ml" 135 4374 4385 "ast_cond_simplify.ml" 135 4374 4386
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_cond_simplify.ml" 136 4406 4412 "ast_cond_simplify.ml" 153 5273 5286
+)
+"ast_cond_simplify.ml" 135 4374 4388 "ast_cond_simplify.ml" 135 4374 4390
+type(
+  Ast.exp
+)
+ident(
+  def tt "ast_cond_simplify.ml" 136 4406 4412 "ast_cond_simplify.ml" 153 5273 5286
+)
+"ast_cond_simplify.ml" 135 4374 4392 "ast_cond_simplify.ml" 135 4374 4394
+type(
+  Ast.exp
+)
+ident(
+  def tf "ast_cond_simplify.ml" 136 4406 4412 "ast_cond_simplify.ml" 153 5273 5286
+)
+"ast_cond_simplify.ml" 135 4374 4396 "ast_cond_simplify.ml" 135 4374 4397
+type(
+  Ast.attrs
+)
+ident(
+  def a "ast_cond_simplify.ml" 136 4406 4412 "ast_cond_simplify.ml" 153 5273 5286
+)
+"ast_cond_simplify.ml" 135 4374 4384 "ast_cond_simplify.ml" 135 4374 4398
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"ast_cond_simplify.ml" 135 4374 4380 "ast_cond_simplify.ml" 135 4374 4398
+type(
+  C.stmt
+)
+"ast_cond_simplify.ml" 135 4374 4400 "ast_cond_simplify.ml" 135 4374 4402
+type(
+  C.stmt list
+)
+ident(
+  def tl "ast_cond_simplify.ml" 136 4406 4412 "ast_cond_simplify.ml" 153 5273 5286
+)
+"ast_cond_simplify.ml" 135 4374 4380 "ast_cond_simplify.ml" 135 4374 4402
+type(
+  C.stmt list
+)
+"ast_cond_simplify.ml" 136 4406 4416 "ast_cond_simplify.ml" 136 4406 4417
+type(
+  Ast.exp Var.VarMap.t
+)
+"ast_cond_simplify.ml" 136 4406 4419 "ast_cond_simplify.ml" 136 4406 4420
+type(
+  (Cfg.aststmtloc * Ast.exp) Var.VarMap.t
+)
+"ast_cond_simplify.ml" 136 4406 4422 "ast_cond_simplify.ml" 136 4406 4430
+type(
+  Ast.exp -> Ast.exp
+)
+"ast_cond_simplify.ml" 136 4406 4416 "ast_cond_simplify.ml" 136 4406 4430
+type(
+  Ast.exp Var.VarMap.t * (Cfg.aststmtloc * Ast.exp) Var.VarMap.t *
+  (Ast.exp -> Ast.exp)
+)
+"ast_cond_simplify.ml" 136 4406 4433 "ast_cond_simplify.ml" 136 4406 4435
+type(
+  Cfg.aststmtloc ->
+  Ast.exp Var.VarMap.t * (Cfg.aststmtloc * Ast.exp) Var.VarMap.t *
+  (Ast.exp -> Ast.exp)
+)
+ident(
+  int_ref cp "ast_cond_simplify.ml" 131 4215 4221 "ast_cond_simplify.ml" 131 4215 4223
+)
+"ast_cond_simplify.ml" 136 4406 4437 "ast_cond_simplify.ml" 136 4406 4438
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "ast_cond_simplify.ml" 132 4279 4302 "ast_cond_simplify.ml" 132 4279 4303
+)
+"ast_cond_simplify.ml" 136 4406 4440 "ast_cond_simplify.ml" 136 4406 4451
+type(
+  C.stmt list -> int
+)
+ident(
+  ext_ref List.length
+)
+"ast_cond_simplify.ml" 136 4406 4452 "ast_cond_simplify.ml" 136 4406 4454
+type(
+  C.stmt list
+)
+ident(
+  int_ref tl "ast_cond_simplify.ml" 135 4374 4400 "ast_cond_simplify.ml" 135 4374 4402
+)
+"ast_cond_simplify.ml" 136 4406 4440 "ast_cond_simplify.ml" 136 4406 4454
+call(
+  stack
+)
+type(
+  int
+)
+"ast_cond_simplify.ml" 136 4406 4436 "ast_cond_simplify.ml" 136 4406 4455
+type(
+  Cfg.aststmtloc
+)
+"ast_cond_simplify.ml" 136 4406 4433 "ast_cond_simplify.ml" 136 4406 4455
+call(
+  stack
+)
+type(
+  Ast.exp Var.VarMap.t * (Cfg.aststmtloc * Ast.exp) Var.VarMap.t *
+  (Ast.exp -> Ast.exp)
+)
+"ast_cond_simplify.ml" 137 4459 4469 "ast_cond_simplify.ml" 137 4459 4471
+type(
+  C.exp
+)
+"ast_cond_simplify.ml" 137 4459 4474 "ast_cond_simplify.ml" 137 4459 4486
+type(
+  C.exp -> C.exp
+)
+ident(
+  int_ref simplify_exp "ast_cond_simplify.ml" 116 3886 3890 "ast_cond_simplify.ml" 116 3886 3902
+)
+"ast_cond_simplify.ml" 137 4459 4488 "ast_cond_simplify.ml" 137 4459 4496
+type(
+  Ast.exp -> C.exp
+)
+ident(
+  int_ref copyprop "ast_cond_simplify.ml" 136 4406 4422 "ast_cond_simplify.ml" 136 4406 4430
+)
+"ast_cond_simplify.ml" 137 4459 4497 "ast_cond_simplify.ml" 137 4459 4498
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 135 4374 4385 "ast_cond_simplify.ml" 135 4374 4386
+)
+"ast_cond_simplify.ml" 137 4459 4487 "ast_cond_simplify.ml" 137 4459 4499
+call(
+  stack
+)
+type(
+  C.exp
+)
+"ast_cond_simplify.ml" 137 4459 4474 "ast_cond_simplify.ml" 137 4459 4499
+call(
+  stack
+)
+type(
+  C.exp
+)
+"ast_cond_simplify.ml" 138 4503 4509 "ast_cond_simplify.ml" 138 4503 4516
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"ast_cond_simplify.ml" 138 4503 4517 "ast_cond_simplify.ml" 138 4503 4548
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4
+)
+"ast_cond_simplify.ml" 138 4503 4550 "ast_cond_simplify.ml" 138 4503 4570
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"ast_cond_simplify.ml" 138 4503 4571 "ast_cond_simplify.ml" 138 4503 4572
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 135 4374 4385 "ast_cond_simplify.ml" 135 4374 4386
+)
+"ast_cond_simplify.ml" 138 4503 4549 "ast_cond_simplify.ml" 138 4503 4573
+call(
+  stack
+)
+type(
+  string
+)
+"ast_cond_simplify.ml" 138 4503 4575 "ast_cond_simplify.ml" 138 4503 4595
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"ast_cond_simplify.ml" 138 4503 4597 "ast_cond_simplify.ml" 138 4503 4605
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref copyprop "ast_cond_simplify.ml" 136 4406 4422 "ast_cond_simplify.ml" 136 4406 4430
+)
+"ast_cond_simplify.ml" 138 4503 4606 "ast_cond_simplify.ml" 138 4503 4607
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 135 4374 4385 "ast_cond_simplify.ml" 135 4374 4386
+)
+"ast_cond_simplify.ml" 138 4503 4596 "ast_cond_simplify.ml" 138 4503 4608
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_cond_simplify.ml" 138 4503 4574 "ast_cond_simplify.ml" 138 4503 4609
+call(
+  stack
+)
+type(
+  string
+)
+"ast_cond_simplify.ml" 138 4503 4611 "ast_cond_simplify.ml" 138 4503 4631
+type(
+  C.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"ast_cond_simplify.ml" 138 4503 4632 "ast_cond_simplify.ml" 138 4503 4634
+type(
+  C.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 137 4459 4469 "ast_cond_simplify.ml" 137 4459 4471
+)
+"ast_cond_simplify.ml" 138 4503 4610 "ast_cond_simplify.ml" 138 4503 4635
+call(
+  stack
+)
+type(
+  string
+)
+"ast_cond_simplify.ml" 138 4503 4509 "ast_cond_simplify.ml" 138 4503 4635
+call(
+  stack
+)
+type(
+  unit
+)
+"ast_cond_simplify.ml" 140 4666 4676 "ast_cond_simplify.ml" 140 4666 4677
+type(
+  C.stmt list
+)
+"ast_cond_simplify.ml" 140 4666 4685 "ast_cond_simplify.ml" 140 4666 4687
+type(
+  C.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 137 4459 4469 "ast_cond_simplify.ml" 137 4459 4471
+)
+"ast_cond_simplify.ml" 140 4666 4689 "ast_cond_simplify.ml" 140 4666 4691
+type(
+  Ast.exp
+)
+ident(
+  int_ref tt "ast_cond_simplify.ml" 135 4374 4388 "ast_cond_simplify.ml" 135 4374 4390
+)
+"ast_cond_simplify.ml" 140 4666 4693 "ast_cond_simplify.ml" 140 4666 4695
+type(
+  Ast.exp
+)
+ident(
+  int_ref tf "ast_cond_simplify.ml" 135 4374 4392 "ast_cond_simplify.ml" 135 4374 4394
+)
+"ast_cond_simplify.ml" 140 4666 4697 "ast_cond_simplify.ml" 140 4666 4698
+type(
+  Ast.attrs
+)
+ident(
+  int_ref a "ast_cond_simplify.ml" 135 4374 4396 "ast_cond_simplify.ml" 135 4374 4397
+)
+"ast_cond_simplify.ml" 140 4666 4684 "ast_cond_simplify.ml" 140 4666 4699
+type(
+  C.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"ast_cond_simplify.ml" 140 4666 4680 "ast_cond_simplify.ml" 140 4666 4699
+type(
+  C.stmt
+)
+"ast_cond_simplify.ml" 140 4666 4701 "ast_cond_simplify.ml" 140 4666 4703
+type(
+  C.stmt list
+)
+ident(
+  int_ref tl "ast_cond_simplify.ml" 135 4374 4400 "ast_cond_simplify.ml" 135 4374 4402
+)
+"ast_cond_simplify.ml" 140 4666 4680 "ast_cond_simplify.ml" 140 4666 4703
+type(
+  C.stmt list
+)
+"ast_cond_simplify.ml" 141 4707 4717 "ast_cond_simplify.ml" 141 4707 4718
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 141 4707 4721 "ast_cond_simplify.ml" 141 4707 4732
+type(
+  C.G.t -> C.G.V.t -> C.lang -> C.G.t
+)
+ident(
+  ext_ref C.set_stmts
+)
+"ast_cond_simplify.ml" 141 4707 4733 "ast_cond_simplify.ml" 141 4707 4734
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 132 4279 4304 "ast_cond_simplify.ml" 132 4279 4305
+)
+"ast_cond_simplify.ml" 141 4707 4735 "ast_cond_simplify.ml" 141 4707 4736
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "ast_cond_simplify.ml" 132 4279 4302 "ast_cond_simplify.ml" 132 4279 4303
+)
+"ast_cond_simplify.ml" 141 4707 4738 "ast_cond_simplify.ml" 141 4707 4746
+type(
+  C.stmt list -> C.lang
+)
+ident(
+  ext_ref List.rev
+)
+"ast_cond_simplify.ml" 141 4707 4747 "ast_cond_simplify.ml" 141 4707 4748
+type(
+  C.stmt list
+)
+ident(
+  int_ref s "ast_cond_simplify.ml" 140 4666 4676 "ast_cond_simplify.ml" 140 4666 4677
+)
+"ast_cond_simplify.ml" 141 4707 4737 "ast_cond_simplify.ml" 141 4707 4749
+call(
+  stack
+)
+type(
+  C.lang
+)
+"ast_cond_simplify.ml" 141 4707 4721 "ast_cond_simplify.ml" 141 4707 4749
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 144 4789 4795 "ast_cond_simplify.ml" 144 4789 4810
+type(
+  (C.G.edge -> C.G.t -> C.G.t) -> C.G.t -> C.G.vertex -> C.G.t -> C.G.t
+)
+ident(
+  ext_ref C.G.fold_succ_e
+)
+"ast_cond_simplify.ml" 144 4789 4816 "ast_cond_simplify.ml" 144 4789 4817
+type(
+  C.G.edge
+)
+ident(
+  def e "ast_cond_simplify.ml" 144 4789 4818 "ast_cond_simplify.ml" 152 5245 5272
+)
+"ast_cond_simplify.ml" 144 4789 4818 "ast_cond_simplify.ml" 144 4789 4819
+type(
+  C.G.t
+)
+ident(
+  def g "ast_cond_simplify.ml" 145 4823 4831 "ast_cond_simplify.ml" 152 5245 5272
+)
+"ast_cond_simplify.ml" 145 4823 4835 "ast_cond_simplify.ml" 145 4823 4836
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 145 4823 4839 "ast_cond_simplify.ml" 145 4823 4854
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  ext_ref C.remove_edge_e
+)
+"ast_cond_simplify.ml" 145 4823 4855 "ast_cond_simplify.ml" 145 4823 4856
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 144 4789 4818 "ast_cond_simplify.ml" 144 4789 4819
+)
+"ast_cond_simplify.ml" 145 4823 4857 "ast_cond_simplify.ml" 145 4823 4858
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 144 4789 4816 "ast_cond_simplify.ml" 144 4789 4817
+)
+"ast_cond_simplify.ml" 145 4823 4839 "ast_cond_simplify.ml" 145 4823 4858
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 146 4862 4874 "ast_cond_simplify.ml" 146 4862 4877
+type(
+  C.G.E.vertex
+)
+"ast_cond_simplify.ml" 146 4862 4880 "ast_cond_simplify.ml" 146 4862 4889
+type(
+  C.G.E.t -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.dst
+)
+"ast_cond_simplify.ml" 146 4862 4890 "ast_cond_simplify.ml" 146 4862 4891
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 144 4789 4816 "ast_cond_simplify.ml" 144 4789 4817
+)
+"ast_cond_simplify.ml" 146 4862 4880 "ast_cond_simplify.ml" 146 4862 4891
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"ast_cond_simplify.ml" 147 4895 4907 "ast_cond_simplify.ml" 147 4895 4915
+type(
+  (bool option * C.exp) option
+)
+"ast_cond_simplify.ml" 147 4895 4924 "ast_cond_simplify.ml" 147 4895 4935
+type(
+  C.G.E.t -> C.G.E.label
+)
+ident(
+  ext_ref C.G.E.label
+)
+"ast_cond_simplify.ml" 147 4895 4936 "ast_cond_simplify.ml" 147 4895 4937
+type(
+  C.G.edge
+)
+ident(
+  int_ref e "ast_cond_simplify.ml" 144 4789 4816 "ast_cond_simplify.ml" 144 4789 4817
+)
+"ast_cond_simplify.ml" 147 4895 4924 "ast_cond_simplify.ml" 147 4895 4937
+call(
+  stack
+)
+type(
+  C.G.E.label
+)
+"ast_cond_simplify.ml" 148 4943 4964 "ast_cond_simplify.ml" 148 4943 4968
+type(
+  bool
+)
+"ast_cond_simplify.ml" 148 4943 4959 "ast_cond_simplify.ml" 148 4943 4968
+type(
+  bool option
+)
+"ast_cond_simplify.ml" 148 4943 4970 "ast_cond_simplify.ml" 148 4943 4971
+type(
+  C.exp
+)
+"ast_cond_simplify.ml" 148 4943 4958 "ast_cond_simplify.ml" 148 4943 4972
+type(
+  bool option * C.exp
+)
+"ast_cond_simplify.ml" 148 4943 4953 "ast_cond_simplify.ml" 148 4943 4972
+type(
+  C.G.E.label
+)
+"ast_cond_simplify.ml" 148 4943 4986 "ast_cond_simplify.ml" 148 4943 4990
+type(
+  bool
+)
+"ast_cond_simplify.ml" 148 4943 4981 "ast_cond_simplify.ml" 148 4943 4990
+type(
+  bool option
+)
+"ast_cond_simplify.ml" 148 4943 4992 "ast_cond_simplify.ml" 148 4943 5004
+type(
+  C.exp -> C.exp
+)
+ident(
+  int_ref simplify_exp "ast_cond_simplify.ml" 116 3886 3890 "ast_cond_simplify.ml" 116 3886 3902
+)
+"ast_cond_simplify.ml" 148 4943 5012 "ast_cond_simplify.ml" 148 4943 5014
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 148 4943 5016 "ast_cond_simplify.ml" 148 4943 5018
+type(
+  C.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 137 4459 4469 "ast_cond_simplify.ml" 137 4459 4471
+)
+"ast_cond_simplify.ml" 148 4943 5020 "ast_cond_simplify.ml" 148 4943 5028
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_true
+)
+"ast_cond_simplify.ml" 148 4943 5011 "ast_cond_simplify.ml" 148 4943 5029
+type(
+  Type.binop_type * C.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 148 4943 5005 "ast_cond_simplify.ml" 148 4943 5030
+type(
+  C.exp
+)
+"ast_cond_simplify.ml" 148 4943 4992 "ast_cond_simplify.ml" 148 4943 5030
+call(
+  stack
+)
+type(
+  C.exp
+)
+"ast_cond_simplify.ml" 148 4943 4980 "ast_cond_simplify.ml" 148 4943 5031
+type(
+  bool option * C.exp
+)
+"ast_cond_simplify.ml" 148 4943 4976 "ast_cond_simplify.ml" 148 4943 5031
+type(
+  (bool option * C.exp) option
+)
+"ast_cond_simplify.ml" 149 5032 5053 "ast_cond_simplify.ml" 149 5032 5058
+type(
+  bool
+)
+"ast_cond_simplify.ml" 149 5032 5048 "ast_cond_simplify.ml" 149 5032 5058
+type(
+  bool option
+)
+"ast_cond_simplify.ml" 149 5032 5060 "ast_cond_simplify.ml" 149 5032 5061
+type(
+  C.exp
+)
+"ast_cond_simplify.ml" 149 5032 5047 "ast_cond_simplify.ml" 149 5032 5062
+type(
+  bool option * C.exp
+)
+"ast_cond_simplify.ml" 149 5032 5042 "ast_cond_simplify.ml" 149 5032 5062
+type(
+  C.G.E.label
+)
+"ast_cond_simplify.ml" 149 5032 5076 "ast_cond_simplify.ml" 149 5032 5081
+type(
+  bool
+)
+"ast_cond_simplify.ml" 149 5032 5071 "ast_cond_simplify.ml" 149 5032 5081
+type(
+  bool option
+)
+"ast_cond_simplify.ml" 149 5032 5083 "ast_cond_simplify.ml" 149 5032 5095
+type(
+  C.exp -> C.exp
+)
+ident(
+  int_ref simplify_exp "ast_cond_simplify.ml" 116 3886 3890 "ast_cond_simplify.ml" 116 3886 3902
+)
+"ast_cond_simplify.ml" 149 5032 5103 "ast_cond_simplify.ml" 149 5032 5105
+type(
+  Type.binop_type
+)
+"ast_cond_simplify.ml" 149 5032 5107 "ast_cond_simplify.ml" 149 5032 5109
+type(
+  C.exp
+)
+ident(
+  int_ref e' "ast_cond_simplify.ml" 137 4459 4469 "ast_cond_simplify.ml" 137 4459 4471
+)
+"ast_cond_simplify.ml" 149 5032 5111 "ast_cond_simplify.ml" 149 5032 5120
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_false
+)
+"ast_cond_simplify.ml" 149 5032 5102 "ast_cond_simplify.ml" 149 5032 5121
+type(
+  Type.binop_type * C.exp * Ast.exp
+)
+"ast_cond_simplify.ml" 149 5032 5096 "ast_cond_simplify.ml" 149 5032 5122
+type(
+  C.exp
+)
+"ast_cond_simplify.ml" 149 5032 5083 "ast_cond_simplify.ml" 149 5032 5122
+call(
+  stack
+)
+type(
+  C.exp
+)
+"ast_cond_simplify.ml" 149 5032 5070 "ast_cond_simplify.ml" 149 5032 5123
+type(
+  bool option * C.exp
+)
+"ast_cond_simplify.ml" 149 5032 5066 "ast_cond_simplify.ml" 149 5032 5123
+type(
+  (bool option * C.exp) option
+)
+"ast_cond_simplify.ml" 150 5124 5134 "ast_cond_simplify.ml" 150 5124 5135
+type(
+  C.G.E.label
+)
+"ast_cond_simplify.ml" 150 5124 5139 "ast_cond_simplify.ml" 150 5124 5147
+type(
+  string -> (bool option * C.exp) option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ast_cond_simplify.ml" 150 5124 5148 "ast_cond_simplify.ml" 150 5124 5191
+type(
+  string
+)
+"ast_cond_simplify.ml" 150 5124 5139 "ast_cond_simplify.ml" 150 5124 5191
+call(
+  stack
+)
+type(
+  (bool option * C.exp) option
+)
+"ast_cond_simplify.ml" 147 4895 4918 "ast_cond_simplify.ml" 150 5124 5191
+type(
+  (bool option * C.exp) option
+)
+"ast_cond_simplify.ml" 151 5195 5207 "ast_cond_simplify.ml" 151 5195 5211
+type(
+  C.G.E.t
+)
+"ast_cond_simplify.ml" 151 5195 5214 "ast_cond_simplify.ml" 151 5195 5226
+type(
+  C.G.E.vertex -> C.G.E.label -> C.G.E.vertex -> C.G.E.t
+)
+ident(
+  ext_ref C.G.E.create
+)
+"ast_cond_simplify.ml" 151 5195 5227 "ast_cond_simplify.ml" 151 5195 5228
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "ast_cond_simplify.ml" 132 4279 4302 "ast_cond_simplify.ml" 132 4279 4303
+)
+"ast_cond_simplify.ml" 151 5195 5229 "ast_cond_simplify.ml" 151 5195 5237
+type(
+  C.G.E.label
+)
+ident(
+  int_ref newlabel "ast_cond_simplify.ml" 147 4895 4907 "ast_cond_simplify.ml" 147 4895 4915
+)
+"ast_cond_simplify.ml" 151 5195 5238 "ast_cond_simplify.ml" 151 5195 5241
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref dst "ast_cond_simplify.ml" 146 4862 4874 "ast_cond_simplify.ml" 146 4862 4877
+)
+"ast_cond_simplify.ml" 151 5195 5214 "ast_cond_simplify.ml" 151 5195 5241
+call(
+  stack
+)
+type(
+  C.G.E.t
+)
+"ast_cond_simplify.ml" 152 5245 5253 "ast_cond_simplify.ml" 152 5245 5265
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  ext_ref C.add_edge_e
+)
+"ast_cond_simplify.ml" 152 5245 5266 "ast_cond_simplify.ml" 152 5245 5267
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 145 4823 4835 "ast_cond_simplify.ml" 145 4823 4836
+)
+"ast_cond_simplify.ml" 152 5245 5268 "ast_cond_simplify.ml" 152 5245 5272
+type(
+  C.G.E.t
+)
+ident(
+  int_ref newe "ast_cond_simplify.ml" 151 5195 5207 "ast_cond_simplify.ml" 151 5195 5211
+)
+"ast_cond_simplify.ml" 152 5245 5253 "ast_cond_simplify.ml" 152 5245 5272
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 151 5195 5203 "ast_cond_simplify.ml" 152 5245 5272
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 147 4895 4903 "ast_cond_simplify.ml" 152 5245 5272
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 146 4862 4870 "ast_cond_simplify.ml" 152 5245 5272
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 145 4823 4831 "ast_cond_simplify.ml" 152 5245 5272
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 144 4789 4811 "ast_cond_simplify.ml" 153 5273 5280
+type(
+  C.G.edge -> C.G.t -> C.G.t
+)
+"ast_cond_simplify.ml" 153 5273 5281 "ast_cond_simplify.ml" 153 5273 5282
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 141 4707 4717 "ast_cond_simplify.ml" 141 4707 4718
+)
+"ast_cond_simplify.ml" 153 5273 5283 "ast_cond_simplify.ml" 153 5273 5284
+type(
+  C.G.vertex
+)
+ident(
+  int_ref v "ast_cond_simplify.ml" 132 4279 4302 "ast_cond_simplify.ml" 132 4279 4303
+)
+"ast_cond_simplify.ml" 153 5273 5285 "ast_cond_simplify.ml" 153 5273 5286
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 141 4707 4717 "ast_cond_simplify.ml" 141 4707 4718
+)
+"ast_cond_simplify.ml" 144 4789 4795 "ast_cond_simplify.ml" 153 5273 5286
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 141 4707 4713 "ast_cond_simplify.ml" 153 5273 5286
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 140 4666 4672 "ast_cond_simplify.ml" 153 5273 5286
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 138 4503 4509 "ast_cond_simplify.ml" 153 5273 5286
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 137 4459 4465 "ast_cond_simplify.ml" 153 5273 5286
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 136 4406 4412 "ast_cond_simplify.ml" 153 5273 5286
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 154 5287 5293 "ast_cond_simplify.ml" 154 5287 5294
+type(
+  C.stmt list
+)
+"ast_cond_simplify.ml" 154 5287 5298 "ast_cond_simplify.ml" 154 5287 5299
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 132 4279 4304 "ast_cond_simplify.ml" 132 4279 4305
+)
+"ast_cond_simplify.ml" 134 4344 4348 "ast_cond_simplify.ml" 154 5287 5299
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 133 4309 4313 "ast_cond_simplify.ml" 154 5287 5299
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 132 4279 4297 "ast_cond_simplify.ml" 155 5300 5303
+type(
+  C.G.vertex -> C.G.t -> C.G.t
+)
+"ast_cond_simplify.ml" 155 5300 5304 "ast_cond_simplify.ml" 155 5300 5305
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 118 3934 3955 "ast_cond_simplify.ml" 118 3934 3956
+)
+"ast_cond_simplify.ml" 155 5300 5306 "ast_cond_simplify.ml" 155 5300 5307
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ast_cond_simplify.ml" 118 3934 3955 "ast_cond_simplify.ml" 118 3934 3956
+)
+"ast_cond_simplify.ml" 132 4279 4281 "ast_cond_simplify.ml" 155 5300 5307
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 131 4215 4217 "ast_cond_simplify.ml" 155 5300 5307
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 126 4136 4138 "ast_cond_simplify.ml" 155 5300 5307
+type(
+  C.G.t
+)
+"ast_cond_simplify.ml" 121 4055 4057 "ast_cond_simplify.ml" 155 5300 5307
+type(
+  C.G.t
+)

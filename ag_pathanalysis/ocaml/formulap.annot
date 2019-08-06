@@ -1,0 +1,708 @@
+"formulap.ml" 5 51 84 "formulap.ml" 5 51 88
+type(
+  string
+)
+ident(
+  def name "formulap.ml" 5 51 122 "formulap.ml" 5 51 126
+)
+"formulap.ml" 5 51 91 "formulap.ml" 5 51 101
+type(
+  string
+)
+"formulap.ml" 5 51 106 "formulap.ml" 5 51 113
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "formulap.ml" 5 51 122 "formulap.ml" 5 51 126
+)
+"formulap.ml" 5 51 114 "formulap.ml" 5 51 122
+type(
+  [> `NoDebug ] as 'a
+)
+"formulap.ml" 5 51 62 "formulap.ml" 5 51 127
+call(
+  stack
+)
+"formulap.ml" 12 220 224 "formulap.ml" 12 220 232
+type(
+  Ast.exp -> VH.key list
+)
+ident(
+  def freevars "formulap.ml" 45 1112 1112 --
+)
+"formulap.ml" 12 220 233 "formulap.ml" 12 220 234
+type(
+  Ast.exp
+)
+ident(
+  def e "formulap.ml" 13 237 239 "formulap.ml" 43 1091 1110
+)
+"formulap.ml" 13 237 243 "formulap.ml" 13 237 250
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action >
+)
+"formulap.ml" 14 253 263 "formulap.ml" 14 253 269
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action >
+)
+"formulap.ml" 16 300 316 "formulap.ml" 16 300 325
+type(
+  int -> unit VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"formulap.ml" 16 300 326 "formulap.ml" 16 300 329
+type(
+  int
+)
+"formulap.ml" 16 300 316 "formulap.ml" 16 300 329
+call(
+  stack
+)
+type(
+  unit VH.t
+)
+"formulap.ml" 17 330 348 "formulap.ml" 17 330 357
+type(
+  int -> unit VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"formulap.ml" 17 330 358 "formulap.ml" 17 330 361
+type(
+  int
+)
+"formulap.ml" 17 330 348 "formulap.ml" 17 330 361
+call(
+  stack
+)
+type(
+  unit VH.t
+)
+"formulap.ml" 21 449 457 "formulap.ml" 21 449 465
+type(
+  VH.key list -> VH.key list
+)
+ident(
+  ext_ref List.rev
+)
+"formulap.ml" 21 449 467 "formulap.ml" 21 449 474
+type(
+  (VH.key -> unit -> VH.key list -> VH.key list) ->
+  unit VH.t -> VH.key list -> VH.key list
+)
+ident(
+  ext_ref VH.fold
+)
+"formulap.ml" 21 449 480 "formulap.ml" 21 449 481
+type(
+  VH.key
+)
+ident(
+  def k "formulap.ml" 21 449 482 "formulap.ml" 21 449 494
+)
+"formulap.ml" 21 449 482 "formulap.ml" 21 449 484
+type(
+  unit
+)
+"formulap.ml" 21 449 485 "formulap.ml" 21 449 486
+type(
+  VH.key list
+)
+ident(
+  def a "formulap.ml" 21 449 490 "formulap.ml" 21 449 494
+)
+"formulap.ml" 21 449 490 "formulap.ml" 21 449 491
+type(
+  VH.key
+)
+ident(
+  int_ref k "formulap.ml" 21 449 480 "formulap.ml" 21 449 481
+)
+"formulap.ml" 21 449 493 "formulap.ml" 21 449 494
+type(
+  VH.key list
+)
+ident(
+  int_ref a "formulap.ml" 21 449 485 "formulap.ml" 21 449 486
+)
+"formulap.ml" 21 449 490 "formulap.ml" 21 449 494
+type(
+  VH.key list
+)
+"formulap.ml" 21 449 475 "formulap.ml" 21 449 495
+type(
+  VH.key -> unit -> VH.key list -> VH.key list
+)
+"formulap.ml" 21 449 496 "formulap.ml" 21 449 501
+type(
+  unit VH.t
+)
+"formulap.ml" 21 449 502 "formulap.ml" 21 449 504
+type(
+  VH.key list
+)
+"formulap.ml" 21 449 466 "formulap.ml" 21 449 505
+call(
+  stack
+)
+type(
+  VH.key list
+)
+"formulap.ml" 21 449 457 "formulap.ml" 21 449 505
+call(
+  tail
+)
+type(
+  VH.key list
+)
+type(
+  VH.key list
+)
+"formulap.ml" 22 506 527 "formulap.ml" 22 506 528
+type(
+  VH.key
+)
+ident(
+  def d "formulap.ml" 23 531 539 "formulap.ml" 24 578 608
+)
+"formulap.ml" 23 531 542 "formulap.ml" 23 531 545
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"formulap.ml" 23 531 546 "formulap.ml" 23 531 552
+type(
+  unit VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"formulap.ml" 23 531 553 "formulap.ml" 23 531 558
+type(
+  unit VH.t
+)
+"formulap.ml" 23 531 559 "formulap.ml" 23 531 560
+type(
+  VH.key
+)
+ident(
+  int_ref d "formulap.ml" 22 506 527 "formulap.ml" 22 506 528
+)
+"formulap.ml" 23 531 546 "formulap.ml" 23 531 560
+call(
+  stack
+)
+type(
+  bool
+)
+"formulap.ml" 23 531 561 "formulap.ml" 23 531 563
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"formulap.ml" 23 531 564 "formulap.ml" 23 531 570
+type(
+  unit VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"formulap.ml" 23 531 571 "formulap.ml" 23 531 574
+type(
+  unit VH.t
+)
+"formulap.ml" 23 531 575 "formulap.ml" 23 531 576
+type(
+  VH.key
+)
+ident(
+  int_ref d "formulap.ml" 22 506 527 "formulap.ml" 22 506 528
+)
+"formulap.ml" 23 531 564 "formulap.ml" 23 531 576
+call(
+  stack
+)
+type(
+  bool
+)
+"formulap.ml" 23 531 545 "formulap.ml" 23 531 577
+type(
+  bool
+)
+"formulap.ml" 23 531 542 "formulap.ml" 23 531 577
+type(
+  bool
+)
+"formulap.ml" 24 578 591 "formulap.ml" 24 578 597
+type(
+  unit VH.t -> VH.key -> unit -> unit
+)
+ident(
+  ext_ref VH.add
+)
+"formulap.ml" 24 578 598 "formulap.ml" 24 578 603
+type(
+  unit VH.t
+)
+"formulap.ml" 24 578 604 "formulap.ml" 24 578 605
+type(
+  VH.key
+)
+ident(
+  int_ref d "formulap.ml" 22 506 527 "formulap.ml" 22 506 528
+)
+"formulap.ml" 24 578 606 "formulap.ml" 24 578 608
+type(
+  unit
+)
+"formulap.ml" 24 578 591 "formulap.ml" 24 578 608
+call(
+  tail
+)
+type(
+  unit
+)
+"formulap.ml" 23 531 539 "formulap.ml" 24 578 608
+type(
+  unit
+)
+"formulap.ml" 28 709 723 "formulap.ml" 28 709 724
+type(
+  Ast.var
+)
+ident(
+  def v "formulap.ml" 29 737 749 "formulap.ml" 33 899 923
+)
+"formulap.ml" 28 709 726 "formulap.ml" 28 709 728
+type(
+  Ast.exp
+)
+ident(
+  def e1 "formulap.ml" 29 737 749 "formulap.ml" 33 899 923
+)
+"formulap.ml" 28 709 730 "formulap.ml" 28 709 732
+type(
+  Ast.exp
+)
+ident(
+  def e2 "formulap.ml" 29 737 749 "formulap.ml" 33 899 923
+)
+"formulap.ml" 28 709 722 "formulap.ml" 28 709 733
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"formulap.ml" 28 709 719 "formulap.ml" 28 709 733
+type(
+  Ast.exp
+)
+"formulap.ml" 29 737 749 "formulap.ml" 29 737 755
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"formulap.ml" 29 737 756 "formulap.ml" 29 737 778
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action > ->
+  Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"formulap.ml" 29 737 779 "formulap.ml" 29 737 783
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action >
+)
+"formulap.ml" 29 737 784 "formulap.ml" 29 737 786
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "formulap.ml" 28 709 726 "formulap.ml" 28 709 728
+)
+"formulap.ml" 29 737 755 "formulap.ml" 29 737 787
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"formulap.ml" 29 737 749 "formulap.ml" 29 737 787
+type(
+  unit
+)
+"formulap.ml" 30 789 801 "formulap.ml" 30 789 807
+type(
+  unit VH.t -> VH.key -> unit -> unit
+)
+ident(
+  ext_ref VH.add
+)
+"formulap.ml" 30 789 808 "formulap.ml" 30 789 811
+type(
+  unit VH.t
+)
+"formulap.ml" 30 789 812 "formulap.ml" 30 789 813
+type(
+  Ast.var
+)
+ident(
+  int_ref v "formulap.ml" 28 709 723 "formulap.ml" 28 709 724
+)
+"formulap.ml" 30 789 814 "formulap.ml" 30 789 816
+type(
+  unit
+)
+"formulap.ml" 30 789 801 "formulap.ml" 30 789 816
+call(
+  stack
+)
+type(
+  unit
+)
+"formulap.ml" 31 818 830 "formulap.ml" 31 818 836
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"formulap.ml" 31 818 837 "formulap.ml" 31 818 859
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action > ->
+  Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"formulap.ml" 31 818 860 "formulap.ml" 31 818 864
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action >
+)
+"formulap.ml" 31 818 865 "formulap.ml" 31 818 867
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "formulap.ml" 28 709 730 "formulap.ml" 28 709 732
+)
+"formulap.ml" 31 818 836 "formulap.ml" 31 818 868
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"formulap.ml" 31 818 830 "formulap.ml" 31 818 868
+type(
+  unit
+)
+"formulap.ml" 32 870 882 "formulap.ml" 32 870 891
+type(
+  unit VH.t -> VH.key -> unit
+)
+ident(
+  ext_ref VH.remove
+)
+"formulap.ml" 32 870 892 "formulap.ml" 32 870 895
+type(
+  unit VH.t
+)
+"formulap.ml" 32 870 896 "formulap.ml" 32 870 897
+type(
+  Ast.var
+)
+ident(
+  int_ref v "formulap.ml" 28 709 723 "formulap.ml" 28 709 724
+)
+"formulap.ml" 32 870 882 "formulap.ml" 32 870 897
+call(
+  stack
+)
+type(
+  unit
+)
+"formulap.ml" 33 899 911 "formulap.ml" 33 899 923
+type(
+  Ast.exp Type.visit_action
+)
+"formulap.ml" 32 870 882 "formulap.ml" 33 899 923
+type(
+  Ast.exp Type.visit_action
+)
+"formulap.ml" 31 818 830 "formulap.ml" 33 899 923
+type(
+  Ast.exp Type.visit_action
+)
+"formulap.ml" 30 789 801 "formulap.ml" 33 899 923
+type(
+  Ast.exp Type.visit_action
+)
+"formulap.ml" 29 737 749 "formulap.ml" 33 899 923
+type(
+  Ast.exp Type.visit_action
+)
+"formulap.ml" 34 924 934 "formulap.ml" 34 924 935
+type(
+  Ast.exp
+)
+"formulap.ml" 35 939 951 "formulap.ml" 35 939 961
+type(
+  Ast.exp Type.visit_action
+)
+"formulap.ml" 27 675 700 "formulap.ml" 35 939 961
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+"formulap.ml" 37 963 987 "formulap.ml" 37 963 988
+type(
+  Ast.var
+)
+ident(
+  def r "formulap.ml" 38 991 999 "formulap.ml" 39 1015 1033
+)
+"formulap.ml" 38 991 999 "formulap.ml" 38 991 1003
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action >
+)
+"formulap.ml" 38 991 999 "formulap.ml" 38 991 1011
+call(
+  stack
+)
+type(
+  VH.key -> unit
+)
+"formulap.ml" 38 991 1012 "formulap.ml" 38 991 1013
+type(
+  Ast.var
+)
+ident(
+  int_ref r "formulap.ml" 37 963 987 "formulap.ml" 37 963 988
+)
+"formulap.ml" 38 991 999 "formulap.ml" 38 991 1013
+type(
+  unit
+)
+"formulap.ml" 39 1015 1023 "formulap.ml" 39 1015 1033
+type(
+  Ast.var Type.visit_action
+)
+"formulap.ml" 38 991 999 "formulap.ml" 39 1015 1033
+type(
+  Ast.var Type.visit_action
+)
+"formulap.ml" 14 253 257 "formulap.ml" 40 1034 1041
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action >
+)
+"formulap.ml" 42 1047 1049 "formulap.ml" 42 1047 1055
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"formulap.ml" 42 1047 1056 "formulap.ml" 42 1047 1078
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action > ->
+  Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"formulap.ml" 42 1047 1079 "formulap.ml" 42 1047 1086
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action >
+)
+ident(
+  int_ref freevis "formulap.ml" 13 237 243 "formulap.ml" 13 237 250
+)
+"formulap.ml" 42 1047 1087 "formulap.ml" 42 1047 1088
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "formulap.ml" 12 220 233 "formulap.ml" 12 220 234
+)
+"formulap.ml" 42 1047 1055 "formulap.ml" 42 1047 1089
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"formulap.ml" 42 1047 1049 "formulap.ml" 42 1047 1089
+type(
+  unit
+)
+"formulap.ml" 43 1091 1093 "formulap.ml" 43 1091 1100
+type(
+  < add_dec : VH.key -> unit; get_found : VH.key list;
+    visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Ast.stmt -> Ast.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action >
+)
+ident(
+  int_ref freevis "formulap.ml" 13 237 243 "formulap.ml" 13 237 250
+)
+"formulap.ml" 43 1091 1093 "formulap.ml" 43 1091 1110
+call(
+  tail
+)
+type(
+  VH.key list
+)
+"formulap.ml" 42 1047 1049 "formulap.ml" 43 1091 1110
+type(
+  VH.key list
+)
+"formulap.ml" 13 237 239 "formulap.ml" 43 1091 1110
+type(
+  VH.key list
+)
+"formulap.ml" 46 1132 1138 "formulap.ml" 46 1132 1144
+type(
+  < assert_ast_exp : ?exists:Ast.var list ->
+                     ?foralls:Ast.var list -> Ast.exp -> unit;
+    ast_exp : Ast.exp -> unit; counterexample : unit;
+    forall : VH.key list -> unit;
+    valid_ast_exp : ?exists:Ast.var list ->
+                    ?foralls:Ast.var list -> Ast.exp -> unit;
+    .. >
+)
+"formulap.ml" 55 1490 1496 "formulap.ml" 55 1490 1502
+type(
+  < assert_ast_exp : ?exists:Ast.var list ->
+                     ?foralls:Ast.var list -> Ast.exp -> unit;
+    ast_exp : Ast.exp -> unit; close : unit; counterexample : unit;
+    flush : unit; forall : VH.key list -> unit;
+    valid_ast_exp : ?exists:Ast.var list ->
+                    ?foralls:Ast.var list -> Ast.exp -> unit;
+    .. >
+)
+"formulap.ml" 68 1751 1757 "formulap.ml" 68 1751 1763
+type(
+  < and_close_constraint : unit; and_constraint : Ast.exp -> unit;
+    and_end : unit; and_start : unit;
+    assert_ast_exp_begin : ?exists:Ast.var list ->
+                           ?foralls:Ast.var list -> unit -> unit;
+    assert_ast_exp_end : unit; close_benchmark : unit; counterexample : 
+    unit; let_begin : Ast.var -> Ast.exp -> unit; let_end : Ast.var -> unit;
+    open_stream_benchmark : unit; predeclare_free_var : Ast.var -> unit;
+    print_free_var : Ast.var -> unit;
+    valid_ast_exp_begin : ?exists:Ast.var list ->
+                          ?foralls:Ast.var list -> unit -> unit;
+    valid_ast_exp_end : unit; .. >
+)
+"formulap.ml" 109 3504 3510 "formulap.ml" 109 3504 3516
+type(
+  < and_close_constraint : unit; and_constraint : Ast.exp -> unit;
+    and_end : unit; and_start : unit;
+    assert_ast_exp_begin : ?exists:Ast.var list ->
+                           ?foralls:Ast.var list -> unit -> unit;
+    assert_ast_exp_end : unit; close : unit; close_benchmark : unit;
+    counterexample : unit; flush : unit;
+    let_begin : Ast.var -> Ast.exp -> unit; let_end : Ast.var -> unit;
+    open_stream_benchmark : unit; predeclare_free_var : Ast.var -> unit;
+    print_free_var : Ast.var -> unit;
+    valid_ast_exp_begin : ?exists:Ast.var list ->
+                          ?foralls:Ast.var list -> unit -> unit;
+    valid_ast_exp_end : unit; .. >
+)

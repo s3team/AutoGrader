@@ -1,0 +1,3704 @@
+"coalesce.ml" 6 74 105 "coalesce.ml" 6 74 109
+type(
+  string
+)
+ident(
+  def name "coalesce.ml" 6 74 141 "coalesce.ml" 6 74 145
+)
+"coalesce.ml" 6 74 110 "coalesce.ml" 6 74 120
+type(
+  string
+)
+"coalesce.ml" 6 74 125 "coalesce.ml" 6 74 132
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "coalesce.ml" 6 74 141 "coalesce.ml" 6 74 145
+)
+"coalesce.ml" 6 74 133 "coalesce.ml" 6 74 141
+type(
+  [> `NoDebug ] as 'a
+)
+"coalesce.ml" 6 74 83 "coalesce.ml" 6 74 146
+call(
+  stack
+)
+"coalesce.ml" 20 593 622 "coalesce.ml" 20 593 629
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "coalesce.ml" 20 593 650 "coalesce.ml" 21 651 678
+)
+"coalesce.ml" 20 593 632 "coalesce.ml" 20 593 650
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"coalesce.ml" 18 522 536 "coalesce.ml" 21 651 679
+call(
+  stack
+)
+"coalesce.ml" 29 943 949 "coalesce.ml" 29 943 957
+type(
+  ?nocoalesce:GS.elt list -> G.t -> G.t
+)
+ident(
+  def coalesce "coalesce.ml" 137 5812 5820 "coalesce.ml" 138 5821 5824
+)
+"coalesce.ml" 29 943 960 "coalesce.ml" 29 943 970
+type(
+  GS.elt list
+)
+"coalesce.ml" 29 943 971 "coalesce.ml" 29 943 973
+type(
+  GS.elt list
+)
+type(
+  GS.elt list
+)
+ident(
+  int_ref *sth* "coalesce.ml" 29 943 971 "coalesce.ml" 29 943 973
+)
+type(
+  GS.elt list option
+)
+type(
+  GS.elt list option
+)
+type(
+  GS.elt list
+)
+ident(
+  def *sth* "coalesce.ml" 29 943 971 "coalesce.ml" 29 943 973
+)
+"coalesce.ml" 29 943 975 "coalesce.ml" 29 943 978
+type(
+  G.t
+)
+ident(
+  def cfg "coalesce.ml" 30 981 984 "coalesce.ml" 137 5812 5820
+)
+"coalesce.ml" 30 981 1000 "coalesce.ml" 30 981 1028
+call(
+  stack
+)
+"coalesce.ml" 31 1032 1039 "coalesce.ml" 31 1032 1041
+type(
+  unit
+)
+"coalesce.ml" 31 1032 1044 "coalesce.ml" 31 1032 1062
+type(
+  G.t Checks.sanityf
+)
+ident(
+  ext_ref CC.connected_check
+)
+"coalesce.ml" 31 1032 1063 "coalesce.ml" 31 1032 1066
+type(
+  G.t
+)
+ident(
+  int_ref cfg "coalesce.ml" 29 943 975 "coalesce.ml" 29 943 978
+)
+"coalesce.ml" 31 1032 1067 "coalesce.ml" 31 1032 1077
+type(
+  string
+)
+"coalesce.ml" 31 1032 1044 "coalesce.ml" 31 1032 1077
+call(
+  stack
+)
+type(
+  unit
+)
+"coalesce.ml" 32 1081 1088 "coalesce.ml" 32 1081 1098
+type(
+  C.G.V.t
+)
+ident(
+  def entry_node "coalesce.ml" 33 1131 1134 "coalesce.ml" 137 5812 5820
+)
+"coalesce.ml" 32 1081 1101 "coalesce.ml" 32 1081 1114
+type(
+  G.t -> C.G.V.label -> C.G.V.t
+)
+ident(
+  ext_ref C.find_vertex
+)
+"coalesce.ml" 32 1081 1115 "coalesce.ml" 32 1081 1118
+type(
+  G.t
+)
+ident(
+  int_ref cfg "coalesce.ml" 29 943 975 "coalesce.ml" 29 943 978
+)
+"coalesce.ml" 32 1081 1119 "coalesce.ml" 32 1081 1127
+type(
+  C.G.V.label
+)
+"coalesce.ml" 32 1081 1101 "coalesce.ml" 32 1081 1127
+call(
+  stack
+)
+type(
+  C.G.V.t
+)
+"coalesce.ml" 33 1131 1138 "coalesce.ml" 33 1131 1145
+type(
+  GS.t ref
+)
+ident(
+  def visited "coalesce.ml" 34 1164 1167 "coalesce.ml" 137 5812 5820
+)
+"coalesce.ml" 33 1131 1148 "coalesce.ml" 33 1131 1151
+type(
+  GS.t -> GS.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"coalesce.ml" 33 1131 1152 "coalesce.ml" 33 1131 1160
+type(
+  GS.t
+)
+ident(
+  ext_ref GS.empty
+)
+"coalesce.ml" 33 1131 1148 "coalesce.ml" 33 1131 1160
+type(
+  GS.t ref
+)
+"coalesce.ml" 34 1164 1171 "coalesce.ml" 34 1164 1180
+type(
+  G.V.t -> bool
+)
+ident(
+  def isspecial "coalesce.ml" 35 1237 1240 "coalesce.ml" 137 5812 5820
+)
+"coalesce.ml" 34 1164 1181 "coalesce.ml" 34 1164 1182
+type(
+  G.V.t
+)
+ident(
+  def v "coalesce.ml" 34 1164 1185 "coalesce.ml" 34 1164 1233
+)
+"coalesce.ml" 34 1164 1191 "coalesce.ml" 34 1164 1200
+type(
+  G.V.t -> G.V.label
+)
+ident(
+  ext_ref G.V.label
+)
+"coalesce.ml" 34 1164 1201 "coalesce.ml" 34 1164 1202
+type(
+  G.V.t
+)
+ident(
+  int_ref v "coalesce.ml" 34 1164 1181 "coalesce.ml" 34 1164 1182
+)
+"coalesce.ml" 34 1164 1191 "coalesce.ml" 34 1164 1202
+call(
+  stack
+)
+type(
+  G.V.label
+)
+"coalesce.ml" 34 1164 1211 "coalesce.ml" 34 1164 1212
+type(
+  int
+)
+"coalesce.ml" 34 1164 1208 "coalesce.ml" 34 1164 1212
+type(
+  G.V.label
+)
+"coalesce.ml" 34 1164 1216 "coalesce.ml" 34 1164 1221
+type(
+  bool
+)
+"coalesce.ml" 34 1164 1224 "coalesce.ml" 34 1164 1225
+type(
+  G.V.label
+)
+"coalesce.ml" 34 1164 1229 "coalesce.ml" 34 1164 1233
+type(
+  bool
+)
+"coalesce.ml" 34 1164 1185 "coalesce.ml" 34 1164 1233
+type(
+  bool
+)
+"coalesce.ml" 35 1237 1244 "coalesce.ml" 35 1237 1255
+type(
+  GS.elt -> unit
+)
+ident(
+  def add_visited "coalesce.ml" 36 1292 1295 "coalesce.ml" 137 5812 5820
+)
+"coalesce.ml" 35 1237 1256 "coalesce.ml" 35 1237 1257
+type(
+  GS.elt
+)
+ident(
+  def v "coalesce.ml" 35 1237 1260 "coalesce.ml" 35 1237 1288
+)
+"coalesce.ml" 35 1237 1260 "coalesce.ml" 35 1237 1267
+type(
+  GS.t ref
+)
+ident(
+  int_ref visited "coalesce.ml" 33 1131 1138 "coalesce.ml" 33 1131 1145
+)
+"coalesce.ml" 35 1237 1268 "coalesce.ml" 35 1237 1270
+type(
+  GS.t ref -> GS.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"coalesce.ml" 35 1237 1271 "coalesce.ml" 35 1237 1277
+type(
+  GS.elt -> GS.t -> GS.t
+)
+ident(
+  ext_ref GS.add
+)
+"coalesce.ml" 35 1237 1278 "coalesce.ml" 35 1237 1279
+type(
+  GS.elt
+)
+ident(
+  int_ref v "coalesce.ml" 35 1237 1256 "coalesce.ml" 35 1237 1257
+)
+"coalesce.ml" 35 1237 1280 "coalesce.ml" 35 1237 1281
+type(
+  GS.t ref -> GS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"coalesce.ml" 35 1237 1281 "coalesce.ml" 35 1237 1288
+type(
+  GS.t ref
+)
+ident(
+  int_ref visited "coalesce.ml" 33 1131 1138 "coalesce.ml" 33 1131 1145
+)
+"coalesce.ml" 35 1237 1280 "coalesce.ml" 35 1237 1288
+type(
+  GS.t
+)
+"coalesce.ml" 35 1237 1271 "coalesce.ml" 35 1237 1288
+call(
+  stack
+)
+type(
+  GS.t
+)
+"coalesce.ml" 35 1237 1260 "coalesce.ml" 35 1237 1288
+type(
+  unit
+)
+"coalesce.ml" 36 1292 1303 "coalesce.ml" 36 1292 1311
+type(
+  G.t -> GS.elt -> G.t
+)
+ident(
+  def fold_dfs "coalesce.ml" 36 1292 1295 "coalesce.ml" 137 5812 5820
+)
+"coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+type(
+  G.t
+)
+ident(
+  def graph "coalesce.ml" 36 1292 1318 "coalesce.ml" 134 5720 5763
+)
+"coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+type(
+  GS.elt
+)
+ident(
+  def init "coalesce.ml" 37 1325 1330 "coalesce.ml" 134 5720 5763
+)
+"coalesce.ml" 37 1325 1333 "coalesce.ml" 37 1325 1339
+type(
+  GS.elt -> GS.t -> bool
+)
+ident(
+  ext_ref GS.mem
+)
+"coalesce.ml" 37 1325 1340 "coalesce.ml" 37 1325 1344
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 37 1325 1345 "coalesce.ml" 37 1325 1346
+type(
+  GS.t ref -> GS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"coalesce.ml" 37 1325 1346 "coalesce.ml" 37 1325 1353
+type(
+  GS.t ref
+)
+ident(
+  int_ref visited "coalesce.ml" 33 1131 1138 "coalesce.ml" 33 1131 1145
+)
+"coalesce.ml" 37 1325 1345 "coalesce.ml" 37 1325 1353
+type(
+  GS.t
+)
+"coalesce.ml" 37 1325 1333 "coalesce.ml" 37 1325 1353
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 37 1325 1359 "coalesce.ml" 37 1325 1364
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 39 1375 1386 "coalesce.ml" 39 1375 1394
+type(
+  G.vertex list
+)
+"coalesce.ml" 39 1375 1396 "coalesce.ml" 39 1375 1401
+type(
+  G.t
+)
+"coalesce.ml" 39 1375 1386 "coalesce.ml" 39 1375 1401
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 41 1444 1461 "coalesce.ml" 41 1444 1476
+type(
+  ?safe:bool -> G.vertex list -> G.vertex -> G.vertex list
+)
+"coalesce.ml" 41 1444 1479 "coalesce.ml" 41 1444 1483
+type(
+  bool
+)
+"coalesce.ml" 41 1444 1484 "coalesce.ml" 41 1444 1488
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "coalesce.ml" 41 1444 1484 "coalesce.ml" 41 1444 1488
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "coalesce.ml" 41 1444 1484 "coalesce.ml" 41 1444 1488
+)
+"coalesce.ml" 41 1444 1490 "coalesce.ml" 41 1444 1493
+type(
+  G.vertex list
+)
+ident(
+  def acc "coalesce.ml" 41 1444 1494 "coalesce.ml" 65 2721 2737
+)
+"coalesce.ml" 41 1444 1494 "coalesce.ml" 41 1444 1498
+type(
+  G.vertex
+)
+ident(
+  def node "coalesce.ml" 42 1501 1512 "coalesce.ml" 65 2721 2737
+)
+"coalesce.ml" 42 1501 1516 "coalesce.ml" 42 1501 1525
+type(
+  bool
+)
+"coalesce.ml" 42 1501 1528 "coalesce.ml" 42 1501 1550
+type(
+  G.t -> G.vertex -> bool
+)
+ident(
+  ext_ref C.is_safe_coalesce_src
+)
+"coalesce.ml" 42 1501 1551 "coalesce.ml" 42 1501 1556
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 42 1501 1557 "coalesce.ml" 42 1501 1561
+type(
+  G.vertex
+)
+ident(
+  int_ref node "coalesce.ml" 41 1444 1494 "coalesce.ml" 41 1444 1498
+)
+"coalesce.ml" 42 1501 1528 "coalesce.ml" 42 1501 1561
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 43 1565 1580 "coalesce.ml" 43 1565 1587
+type(
+  bool
+)
+"coalesce.ml" 43 1565 1590 "coalesce.ml" 43 1565 1598
+type(
+  G.vertex -> GS.elt list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"coalesce.ml" 43 1565 1599 "coalesce.ml" 43 1565 1603
+type(
+  G.vertex
+)
+ident(
+  int_ref node "coalesce.ml" 41 1444 1494 "coalesce.ml" 41 1444 1498
+)
+"coalesce.ml" 43 1565 1604 "coalesce.ml" 43 1565 1614
+type(
+  GS.elt list
+)
+ident(
+  int_ref nocoalesce "coalesce.ml" 29 943 960 "coalesce.ml" 29 943 970
+)
+"coalesce.ml" 43 1565 1590 "coalesce.ml" 43 1565 1614
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 43 1565 1615 "coalesce.ml" 43 1565 1616
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"coalesce.ml" 43 1565 1617 "coalesce.ml" 43 1565 1622
+type(
+  bool
+)
+"coalesce.ml" 43 1565 1590 "coalesce.ml" 43 1565 1622
+type(
+  bool
+)
+"coalesce.ml" 44 1626 1641 "coalesce.ml" 44 1626 1645
+type(
+  bool
+)
+"coalesce.ml" 44 1626 1648 "coalesce.ml" 44 1626 1652
+type(
+  bool
+)
+ident(
+  int_ref safe "coalesce.ml" 41 1444 1479 "coalesce.ml" 41 1444 1483
+)
+"coalesce.ml" 44 1626 1653 "coalesce.ml" 44 1626 1655
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"coalesce.ml" 44 1626 1656 "coalesce.ml" 44 1626 1665
+type(
+  bool
+)
+ident(
+  int_ref node_safe "coalesce.ml" 42 1501 1516 "coalesce.ml" 42 1501 1525
+)
+"coalesce.ml" 44 1626 1666 "coalesce.ml" 44 1626 1668
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"coalesce.ml" 44 1626 1669 "coalesce.ml" 44 1626 1676
+type(
+  bool
+)
+ident(
+  int_ref allowed "coalesce.ml" 43 1565 1580 "coalesce.ml" 43 1565 1587
+)
+"coalesce.ml" 44 1626 1656 "coalesce.ml" 44 1626 1676
+type(
+  bool
+)
+"coalesce.ml" 44 1626 1648 "coalesce.ml" 44 1626 1676
+type(
+  bool
+)
+"coalesce.ml" 45 1680 1697 "coalesce.ml" 45 1680 1703
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"coalesce.ml" 45 1680 1704 "coalesce.ml" 45 1680 1709
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 45 1680 1710 "coalesce.ml" 45 1680 1714
+type(
+  G.vertex
+)
+ident(
+  int_ref node "coalesce.ml" 41 1444 1494 "coalesce.ml" 41 1444 1498
+)
+"coalesce.ml" 45 1680 1697 "coalesce.ml" 45 1680 1714
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+type(
+  G.vertex
+)
+ident(
+  def successor "coalesce.ml" 46 1720 1745 "coalesce.ml" 63 2688 2702
+)
+"coalesce.ml" 46 1720 1733 "coalesce.ml" 46 1720 1744
+type(
+  G.vertex list
+)
+"coalesce.ml" 46 1720 1750 "coalesce.ml" 46 1720 1753
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"coalesce.ml" 46 1720 1755 "coalesce.ml" 46 1720 1763
+type(
+  G.vertex -> G.vertex list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"coalesce.ml" 46 1720 1764 "coalesce.ml" 46 1720 1773
+type(
+  G.vertex
+)
+ident(
+  int_ref successor "coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+)
+"coalesce.ml" 46 1720 1774 "coalesce.ml" 46 1720 1777
+type(
+  G.vertex list
+)
+ident(
+  int_ref acc "coalesce.ml" 41 1444 1490 "coalesce.ml" 41 1444 1493
+)
+"coalesce.ml" 46 1720 1754 "coalesce.ml" 46 1720 1778
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 46 1720 1750 "coalesce.ml" 46 1720 1778
+type(
+  bool
+)
+"coalesce.ml" 47 1779 1794 "coalesce.ml" 47 1779 1796
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"coalesce.ml" 47 1779 1797 "coalesce.ml" 47 1779 1800
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"coalesce.ml" 47 1779 1802 "coalesce.ml" 47 1779 1810
+type(
+  G.vertex -> GS.elt list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"coalesce.ml" 47 1779 1811 "coalesce.ml" 47 1779 1820
+type(
+  G.vertex
+)
+ident(
+  int_ref successor "coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+)
+"coalesce.ml" 47 1779 1821 "coalesce.ml" 47 1779 1831
+type(
+  GS.elt list
+)
+ident(
+  int_ref nocoalesce "coalesce.ml" 29 943 960 "coalesce.ml" 29 943 970
+)
+"coalesce.ml" 47 1779 1801 "coalesce.ml" 47 1779 1832
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 47 1779 1797 "coalesce.ml" 47 1779 1832
+type(
+  bool
+)
+"coalesce.ml" 48 1833 1848 "coalesce.ml" 48 1833 1850
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"coalesce.ml" 48 1833 1851 "coalesce.ml" 48 1833 1854
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"coalesce.ml" 48 1833 1856 "coalesce.ml" 48 1833 1865
+type(
+  G.V.t -> bool
+)
+ident(
+  int_ref isspecial "coalesce.ml" 34 1164 1171 "coalesce.ml" 34 1164 1180
+)
+"coalesce.ml" 48 1833 1866 "coalesce.ml" 48 1833 1875
+type(
+  G.vertex
+)
+ident(
+  int_ref successor "coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+)
+"coalesce.ml" 48 1833 1855 "coalesce.ml" 48 1833 1876
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 48 1833 1851 "coalesce.ml" 48 1833 1876
+type(
+  bool
+)
+"coalesce.ml" 47 1779 1797 "coalesce.ml" 48 1833 1876
+type(
+  bool
+)
+"coalesce.ml" 46 1720 1750 "coalesce.ml" 48 1833 1876
+type(
+  bool
+)
+"coalesce.ml" 49 1880 1900 "coalesce.ml" 49 1880 1906
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.pred
+)
+"coalesce.ml" 49 1880 1907 "coalesce.ml" 49 1880 1912
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 49 1880 1913 "coalesce.ml" 49 1880 1922
+type(
+  G.vertex
+)
+ident(
+  int_ref successor "coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+)
+"coalesce.ml" 49 1880 1900 "coalesce.ml" 49 1880 1922
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"coalesce.ml" 50 1928 1943 "coalesce.ml" 50 1928 1945
+type(
+  G.vertex list
+)
+"coalesce.ml" 50 1928 1949 "coalesce.ml" 50 1928 1957
+type(
+  string -> G.vertex list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"coalesce.ml" 50 1928 1958 "coalesce.ml" 50 1928 1995
+type(
+  string
+)
+"coalesce.ml" 50 1928 1949 "coalesce.ml" 50 1928 1995
+call(
+  tail
+)
+type(
+  G.vertex list
+)
+"coalesce.ml" 51 1996 2012 "coalesce.ml" 51 1996 2013
+type(
+  G.vertex
+)
+"coalesce.ml" 51 1996 2011 "coalesce.ml" 51 1996 2014
+type(
+  G.vertex list
+)
+"coalesce.ml" 51 1996 2020 "coalesce.ml" 51 1996 2023
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"coalesce.ml" 51 1996 2025 "coalesce.ml" 51 1996 2034
+type(
+  G.V.t -> bool
+)
+ident(
+  int_ref isspecial "coalesce.ml" 34 1164 1171 "coalesce.ml" 34 1164 1180
+)
+"coalesce.ml" 51 1996 2035 "coalesce.ml" 51 1996 2044
+type(
+  G.vertex
+)
+ident(
+  int_ref successor "coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+)
+"coalesce.ml" 51 1996 2024 "coalesce.ml" 51 1996 2045
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 51 1996 2020 "coalesce.ml" 51 1996 2045
+type(
+  bool
+)
+"coalesce.ml" 51 1996 2046 "coalesce.ml" 51 1996 2048
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"coalesce.ml" 52 2049 2066 "coalesce.ml" 52 2049 2069
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"coalesce.ml" 52 2049 2071 "coalesce.ml" 52 2049 2079
+type(
+  G.vertex -> GS.elt list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"coalesce.ml" 52 2049 2080 "coalesce.ml" 52 2049 2089
+type(
+  G.vertex
+)
+ident(
+  int_ref successor "coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+)
+"coalesce.ml" 52 2049 2090 "coalesce.ml" 52 2049 2100
+type(
+  GS.elt list
+)
+ident(
+  int_ref nocoalesce "coalesce.ml" 29 943 960 "coalesce.ml" 29 943 970
+)
+"coalesce.ml" 52 2049 2070 "coalesce.ml" 52 2049 2101
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 52 2049 2066 "coalesce.ml" 52 2049 2101
+type(
+  bool
+)
+"coalesce.ml" 51 1996 2020 "coalesce.ml" 52 2049 2101
+type(
+  bool
+)
+"coalesce.ml" 53 2105 2120 "coalesce.ml" 53 2105 2135
+type(
+  ?safe:bool -> G.vertex list -> G.vertex -> G.vertex list
+)
+ident(
+  int_ref immediate_succs "coalesce.ml" 41 1444 1461 "coalesce.ml" 41 1444 1476
+)
+"coalesce.ml" 53 2105 2137 "coalesce.ml" 53 2105 2141
+type(
+  bool
+)
+ident(
+  int_ref safe "coalesce.ml" 44 1626 1641 "coalesce.ml" 44 1626 1645
+)
+"coalesce.ml" 53 2105 2143 "coalesce.ml" 53 2105 2152
+type(
+  G.vertex
+)
+ident(
+  int_ref successor "coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+)
+"coalesce.ml" 53 2105 2154 "coalesce.ml" 53 2105 2157
+type(
+  G.vertex list
+)
+ident(
+  int_ref acc "coalesce.ml" 41 1444 1490 "coalesce.ml" 41 1444 1493
+)
+"coalesce.ml" 53 2105 2142 "coalesce.ml" 53 2105 2158
+type(
+  G.vertex list
+)
+"coalesce.ml" 53 2105 2159 "coalesce.ml" 53 2105 2168
+type(
+  G.vertex
+)
+ident(
+  int_ref successor "coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+)
+"coalesce.ml" 53 2105 2120 "coalesce.ml" 53 2105 2168
+call(
+  tail
+)
+type(
+  G.vertex list
+)
+"coalesce.ml" 51 1996 2015 "coalesce.ml" 53 2105 2168
+type(
+  G.vertex list
+)
+"coalesce.ml" 54 2169 2184 "coalesce.ml" 54 2169 2197
+type(
+  G.vertex list
+)
+ident(
+  def multiplepreds "coalesce.ml" 54 2169 2198 "coalesce.ml" 59 2461 2524
+)
+"coalesce.ml" 54 2169 2203 "coalesce.ml" 54 2169 2207
+type(
+  bool
+)
+ident(
+  int_ref safe "coalesce.ml" 44 1626 1641 "coalesce.ml" 44 1626 1645
+)
+"coalesce.ml" 59 2461 2476 "coalesce.ml" 59 2461 2491
+type(
+  ?safe:bool -> G.vertex list -> G.vertex -> G.vertex list
+)
+ident(
+  int_ref immediate_succs "coalesce.ml" 41 1444 1461 "coalesce.ml" 41 1444 1476
+)
+"coalesce.ml" 59 2461 2493 "coalesce.ml" 59 2461 2497
+type(
+  bool
+)
+ident(
+  int_ref safe "coalesce.ml" 44 1626 1641 "coalesce.ml" 44 1626 1645
+)
+"coalesce.ml" 59 2461 2499 "coalesce.ml" 59 2461 2508
+type(
+  G.vertex
+)
+ident(
+  int_ref successor "coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+)
+"coalesce.ml" 59 2461 2510 "coalesce.ml" 59 2461 2513
+type(
+  G.vertex list
+)
+ident(
+  int_ref acc "coalesce.ml" 41 1444 1490 "coalesce.ml" 41 1444 1493
+)
+"coalesce.ml" 59 2461 2498 "coalesce.ml" 59 2461 2514
+type(
+  G.vertex list
+)
+"coalesce.ml" 59 2461 2515 "coalesce.ml" 59 2461 2524
+type(
+  G.vertex
+)
+ident(
+  int_ref successor "coalesce.ml" 46 1720 1734 "coalesce.ml" 46 1720 1743
+)
+"coalesce.ml" 59 2461 2476 "coalesce.ml" 59 2461 2524
+call(
+  tail
+)
+type(
+  G.vertex list
+)
+"coalesce.ml" 54 2169 2198 "coalesce.ml" 59 2461 2524
+type(
+  G.vertex list
+)
+"coalesce.ml" 60 2525 2540 "coalesce.ml" 60 2525 2553
+type(
+  G.vertex list
+)
+ident(
+  def multiplepreds "coalesce.ml" 62 2669 2684 "coalesce.ml" 62 2669 2687
+)
+"coalesce.ml" 62 2669 2684 "coalesce.ml" 62 2669 2687
+type(
+  G.vertex list
+)
+ident(
+  int_ref acc "coalesce.ml" 41 1444 1490 "coalesce.ml" 41 1444 1493
+)
+"coalesce.ml" 49 1880 1893 "coalesce.ml" 63 2688 2702
+type(
+  G.vertex list
+)
+"coalesce.ml" 46 1720 1745 "coalesce.ml" 63 2688 2702
+type(
+  G.vertex list
+)
+"coalesce.ml" 64 2703 2716 "coalesce.ml" 64 2703 2717
+type(
+  G.vertex list
+)
+"coalesce.ml" 65 2721 2734 "coalesce.ml" 65 2721 2737
+type(
+  G.vertex list
+)
+ident(
+  int_ref acc "coalesce.ml" 41 1444 1490 "coalesce.ml" 41 1444 1493
+)
+"coalesce.ml" 45 1680 1691 "coalesce.ml" 65 2721 2737
+type(
+  G.vertex list
+)
+"coalesce.ml" 44 1626 1637 "coalesce.ml" 65 2721 2737
+type(
+  G.vertex list
+)
+"coalesce.ml" 43 1565 1576 "coalesce.ml" 65 2721 2737
+type(
+  G.vertex list
+)
+"coalesce.ml" 42 1501 1512 "coalesce.ml" 65 2721 2737
+type(
+  G.vertex list
+)
+"coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+type(
+  G.vertex list
+)
+"coalesce.ml" 71 2960 2973 "coalesce.ml" 71 2960 2995
+type(
+  G.t -> GS.elt -> bool
+)
+ident(
+  ext_ref C.is_safe_coalesce_dst
+)
+"coalesce.ml" 71 2960 2996 "coalesce.ml" 71 2960 3001
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 71 2960 3002 "coalesce.ml" 71 2960 3006
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 71 2960 2973 "coalesce.ml" 71 2960 3006
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 72 3007 3019 "coalesce.ml" 72 3007 3021
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"coalesce.ml" 72 3007 3022 "coalesce.ml" 72 3007 3030
+type(
+  GS.elt -> GS.elt list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"coalesce.ml" 72 3007 3031 "coalesce.ml" 72 3007 3035
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 72 3007 3036 "coalesce.ml" 72 3007 3046
+type(
+  GS.elt list
+)
+ident(
+  int_ref nocoalesce "coalesce.ml" 29 943 960 "coalesce.ml" 29 943 970
+)
+"coalesce.ml" 72 3007 3022 "coalesce.ml" 72 3007 3046
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 72 3007 3047 "coalesce.ml" 72 3007 3048
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"coalesce.ml" 72 3007 3049 "coalesce.ml" 72 3007 3054
+type(
+  bool
+)
+"coalesce.ml" 72 3007 3022 "coalesce.ml" 72 3007 3054
+type(
+  bool
+)
+"coalesce.ml" 71 2960 2973 "coalesce.ml" 72 3007 3054
+type(
+  bool
+)
+"coalesce.ml" 73 3055 3070 "coalesce.ml" 73 3055 3085
+type(
+  ?safe:bool -> G.vertex list -> G.vertex -> G.vertex list
+)
+ident(
+  int_ref immediate_succs "coalesce.ml" 41 1444 1461 "coalesce.ml" 41 1444 1476
+)
+"coalesce.ml" 73 3055 3086 "coalesce.ml" 73 3055 3088
+type(
+  G.vertex list
+)
+"coalesce.ml" 73 3055 3089 "coalesce.ml" 73 3055 3093
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 73 3055 3070 "coalesce.ml" 73 3055 3093
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"coalesce.ml" 74 3094 3109 "coalesce.ml" 74 3094 3111
+type(
+  G.vertex list
+)
+"coalesce.ml" 71 2960 2970 "coalesce.ml" 74 3094 3111
+type(
+  G.vertex list
+)
+"coalesce.ml" 76 3123 3134 "coalesce.ml" 76 3123 3144
+type(
+  G.vertex list
+)
+ident(
+  int_ref successors "coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+)
+"coalesce.ml" 76 3123 3145 "coalesce.ml" 76 3123 3147
+type(
+  G.vertex list -> G.vertex list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"coalesce.ml" 76 3123 3148 "coalesce.ml" 76 3123 3150
+type(
+  G.vertex list
+)
+"coalesce.ml" 76 3123 3134 "coalesce.ml" 76 3123 3150
+type(
+  bool
+)
+"coalesce.ml" 78 3207 3217 "coalesce.ml" 78 3207 3224
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"coalesce.ml" 78 3207 3225 "coalesce.ml" 78 3207 3244
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"coalesce.ml" 78 3207 3246 "coalesce.ml" 78 3207 3251
+type(
+  GS.elt -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"coalesce.ml" 78 3207 3252 "coalesce.ml" 78 3207 3256
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 78 3207 3245 "coalesce.ml" 78 3207 3257
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 78 3207 3259 "coalesce.ml" 78 3207 3273
+type(
+  (string -> G.vertex -> string) -> string -> G.vertex list -> string
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"coalesce.ml" 78 3207 3279 "coalesce.ml" 78 3207 3280
+type(
+  string
+)
+ident(
+  def s "coalesce.ml" 78 3207 3281 "coalesce.ml" 78 3207 3305
+)
+"coalesce.ml" 78 3207 3281 "coalesce.ml" 78 3207 3282
+type(
+  G.vertex
+)
+ident(
+  def v "coalesce.ml" 78 3207 3286 "coalesce.ml" 78 3207 3305
+)
+"coalesce.ml" 78 3207 3286 "coalesce.ml" 78 3207 3287
+type(
+  string
+)
+ident(
+  int_ref s "coalesce.ml" 78 3207 3279 "coalesce.ml" 78 3207 3280
+)
+"coalesce.ml" 78 3207 3288 "coalesce.ml" 78 3207 3289
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"coalesce.ml" 78 3207 3290 "coalesce.ml" 78 3207 3293
+type(
+  string
+)
+"coalesce.ml" 78 3207 3294 "coalesce.ml" 78 3207 3295
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"coalesce.ml" 78 3207 3297 "coalesce.ml" 78 3207 3302
+type(
+  G.vertex -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"coalesce.ml" 78 3207 3303 "coalesce.ml" 78 3207 3304
+type(
+  G.vertex
+)
+ident(
+  int_ref v "coalesce.ml" 78 3207 3281 "coalesce.ml" 78 3207 3282
+)
+"coalesce.ml" 78 3207 3296 "coalesce.ml" 78 3207 3305
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 78 3207 3290 "coalesce.ml" 78 3207 3305
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 78 3207 3286 "coalesce.ml" 78 3207 3305
+call(
+  tail
+)
+type(
+  string
+)
+"coalesce.ml" 78 3207 3274 "coalesce.ml" 78 3207 3306
+type(
+  string -> G.vertex -> string
+)
+"coalesce.ml" 78 3207 3307 "coalesce.ml" 78 3207 3309
+type(
+  string
+)
+"coalesce.ml" 78 3207 3310 "coalesce.ml" 78 3207 3320
+type(
+  G.vertex list
+)
+ident(
+  int_ref successors "coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+)
+"coalesce.ml" 78 3207 3258 "coalesce.ml" 78 3207 3321
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 78 3207 3217 "coalesce.ml" 78 3207 3321
+call(
+  stack
+)
+type(
+  unit
+)
+"coalesce.ml" 79 3323 3337 "coalesce.ml" 79 3323 3347
+type(
+  C.lang
+)
+ident(
+  def init_stmts "coalesce.ml" 80 3376 3386 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 79 3323 3350 "coalesce.ml" 79 3323 3361
+type(
+  G.t -> GS.elt -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"coalesce.ml" 79 3323 3362 "coalesce.ml" 79 3323 3367
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 79 3323 3368 "coalesce.ml" 79 3323 3372
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 79 3323 3350 "coalesce.ml" 79 3323 3372
+call(
+  stack
+)
+type(
+  C.lang
+)
+"coalesce.ml" 80 3376 3390 "coalesce.ml" 80 3376 3399
+type(
+  C.lang list
+)
+ident(
+  def all_stmts "coalesce.ml" 81 3445 3455 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 80 3376 3402 "coalesce.ml" 80 3376 3410
+type(
+  (G.vertex -> C.lang) -> G.vertex list -> C.lang list
+)
+ident(
+  ext_ref BatListFull.List.map
+)
+"coalesce.ml" 80 3376 3412 "coalesce.ml" 80 3376 3423
+type(
+  G.t -> G.vertex -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"coalesce.ml" 80 3376 3424 "coalesce.ml" 80 3376 3429
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 80 3376 3411 "coalesce.ml" 80 3376 3430
+call(
+  stack
+)
+type(
+  G.vertex -> C.lang
+)
+"coalesce.ml" 80 3376 3431 "coalesce.ml" 80 3376 3441
+type(
+  G.vertex list
+)
+ident(
+  int_ref successors "coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+)
+"coalesce.ml" 80 3376 3402 "coalesce.ml" 80 3376 3441
+call(
+  stack
+)
+type(
+  C.lang list
+)
+"coalesce.ml" 81 3445 3459 "coalesce.ml" 81 3445 3473
+type(
+  C.lang
+)
+ident(
+  def big_stmt_block "coalesce.ml" 87 3684 3694 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 82 3476 3488 "coalesce.ml" 82 3476 3502
+type(
+  (C.lang -> C.lang -> C.lang) -> C.lang -> C.lang list -> C.lang
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"coalesce.ml" 82 3476 3508 "coalesce.ml" 82 3476 3513
+type(
+  C.lang
+)
+ident(
+  def stmts "coalesce.ml" 82 3476 3514 "coalesce.ml" 82 3476 3553
+)
+"coalesce.ml" 82 3476 3514 "coalesce.ml" 82 3476 3522
+type(
+  C.lang
+)
+ident(
+  def ith_stmt "coalesce.ml" 82 3476 3526 "coalesce.ml" 82 3476 3553
+)
+"coalesce.ml" 82 3476 3526 "coalesce.ml" 82 3476 3538
+type(
+  C.lang -> C.lang -> C.lang
+)
+ident(
+  ext_ref C.join_stmts
+)
+"coalesce.ml" 82 3476 3539 "coalesce.ml" 82 3476 3547
+type(
+  C.lang
+)
+ident(
+  int_ref ith_stmt "coalesce.ml" 82 3476 3514 "coalesce.ml" 82 3476 3522
+)
+"coalesce.ml" 82 3476 3548 "coalesce.ml" 82 3476 3553
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "coalesce.ml" 82 3476 3508 "coalesce.ml" 82 3476 3513
+)
+"coalesce.ml" 82 3476 3526 "coalesce.ml" 82 3476 3553
+call(
+  tail
+)
+type(
+  C.lang
+)
+"coalesce.ml" 82 3476 3503 "coalesce.ml" 82 3476 3554
+type(
+  C.lang -> C.lang -> C.lang
+)
+"coalesce.ml" 83 3555 3570 "coalesce.ml" 83 3555 3577
+type(
+  C.lang list -> C.lang
+)
+ident(
+  ext_ref BatListFull.List.hd
+)
+"coalesce.ml" 83 3555 3578 "coalesce.ml" 83 3555 3587
+type(
+  C.lang list
+)
+ident(
+  int_ref all_stmts "coalesce.ml" 80 3376 3390 "coalesce.ml" 80 3376 3399
+)
+"coalesce.ml" 83 3555 3569 "coalesce.ml" 83 3555 3588
+call(
+  stack
+)
+type(
+  C.lang
+)
+"coalesce.ml" 84 3589 3604 "coalesce.ml" 84 3589 3611
+type(
+  C.lang list -> C.lang list
+)
+ident(
+  ext_ref BatListFull.List.tl
+)
+"coalesce.ml" 84 3589 3612 "coalesce.ml" 84 3589 3621
+type(
+  C.lang list
+)
+ident(
+  int_ref all_stmts "coalesce.ml" 80 3376 3390 "coalesce.ml" 80 3376 3399
+)
+"coalesce.ml" 84 3589 3603 "coalesce.ml" 84 3589 3622
+call(
+  stack
+)
+type(
+  C.lang list
+)
+"coalesce.ml" 82 3476 3488 "coalesce.ml" 84 3589 3622
+call(
+  stack
+)
+type(
+  C.lang
+)
+"coalesce.ml" 87 3684 3698 "coalesce.ml" 87 3684 3724
+type(
+  G.edge list
+)
+ident(
+  def successors_of_successors_e "coalesce.ml" 88 3766 3776 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 87 3684 3727 "coalesce.ml" 87 3684 3735
+type(
+  G.t -> G.vertex -> G.edge list
+)
+ident(
+  ext_ref G.succ_e
+)
+"coalesce.ml" 87 3684 3736 "coalesce.ml" 87 3684 3741
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 87 3684 3743 "coalesce.ml" 87 3684 3750
+type(
+  G.vertex list -> G.vertex
+)
+ident(
+  ext_ref BatListFull.List.hd
+)
+"coalesce.ml" 87 3684 3751 "coalesce.ml" 87 3684 3761
+type(
+  G.vertex list
+)
+ident(
+  int_ref successors "coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+)
+"coalesce.ml" 87 3684 3742 "coalesce.ml" 87 3684 3762
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"coalesce.ml" 87 3684 3727 "coalesce.ml" 87 3684 3762
+call(
+  stack
+)
+type(
+  G.edge list
+)
+"coalesce.ml" 88 3766 3780 "coalesce.ml" 88 3766 3793
+type(
+  G.vertex list
+)
+ident(
+  def newsuccessors "coalesce.ml" 89 3833 3843 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 88 3766 3796 "coalesce.ml" 88 3766 3802
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"coalesce.ml" 88 3766 3803 "coalesce.ml" 88 3766 3808
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 88 3766 3810 "coalesce.ml" 88 3766 3817
+type(
+  G.vertex list -> G.vertex
+)
+ident(
+  ext_ref BatListFull.List.hd
+)
+"coalesce.ml" 88 3766 3818 "coalesce.ml" 88 3766 3828
+type(
+  G.vertex list
+)
+ident(
+  int_ref successors "coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+)
+"coalesce.ml" 88 3766 3809 "coalesce.ml" 88 3766 3829
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"coalesce.ml" 88 3766 3796 "coalesce.ml" 88 3766 3829
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"coalesce.ml" 89 3833 3847 "coalesce.ml" 89 3833 3855
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  def add_edge "coalesce.ml" 97 4219 4229 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 89 3833 3856 "coalesce.ml" 89 3833 3861
+type(
+  C.G.t
+)
+ident(
+  def graph "coalesce.ml" 89 3833 3862 "coalesce.ml" 95 4167 4205
+)
+"coalesce.ml" 89 3833 3862 "coalesce.ml" 89 3833 3866
+type(
+  C.G.E.t
+)
+ident(
+  def edge "coalesce.ml" 91 3897 3909 "coalesce.ml" 95 4167 4205
+)
+"coalesce.ml" 91 3897 3913 "coalesce.ml" 91 3897 3917
+type(
+  C.G.E.vertex
+)
+"coalesce.ml" 91 3897 3920 "coalesce.ml" 91 3897 3929
+type(
+  C.G.E.t -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.dst
+)
+"coalesce.ml" 91 3897 3930 "coalesce.ml" 91 3897 3934
+type(
+  C.G.E.t
+)
+ident(
+  int_ref edge "coalesce.ml" 89 3833 3862 "coalesce.ml" 89 3833 3866
+)
+"coalesce.ml" 91 3897 3920 "coalesce.ml" 91 3897 3934
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"coalesce.ml" 92 3938 3954 "coalesce.ml" 92 3938 3961
+type(
+  GS.elt
+)
+"coalesce.ml" 92 3938 3967 "coalesce.ml" 92 3938 3975
+type(
+  C.G.E.vertex -> C.G.E.vertex list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"coalesce.ml" 92 3938 3976 "coalesce.ml" 92 3938 3980
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref dest "coalesce.ml" 91 3897 3913 "coalesce.ml" 91 3897 3917
+)
+"coalesce.ml" 92 3938 3981 "coalesce.ml" 92 3938 3991
+type(
+  C.G.E.vertex list
+)
+ident(
+  int_ref successors "coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+)
+"coalesce.ml" 92 3938 3967 "coalesce.ml" 92 3938 3991
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 92 3938 3997 "coalesce.ml" 92 3938 4001
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 92 3938 4007 "coalesce.ml" 92 3938 4011
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref dest "coalesce.ml" 91 3897 3913 "coalesce.ml" 91 3897 3917
+)
+"coalesce.ml" 92 3938 3964 "coalesce.ml" 92 3938 4011
+type(
+  GS.elt
+)
+"coalesce.ml" 93 4015 4027 "coalesce.ml" 93 4015 4034
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"coalesce.ml" 93 4015 4035 "coalesce.ml" 93 4015 4062
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"coalesce.ml" 93 4015 4064 "coalesce.ml" 93 4015 4069
+type(
+  GS.elt -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"coalesce.ml" 93 4015 4070 "coalesce.ml" 93 4015 4074
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 93 4015 4063 "coalesce.ml" 93 4015 4075
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 93 4015 4077 "coalesce.ml" 93 4015 4082
+type(
+  GS.elt -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"coalesce.ml" 93 4015 4083 "coalesce.ml" 93 4015 4090
+type(
+  GS.elt
+)
+ident(
+  int_ref newdest "coalesce.ml" 92 3938 3954 "coalesce.ml" 92 3938 3961
+)
+"coalesce.ml" 93 4015 4076 "coalesce.ml" 93 4015 4091
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 93 4015 4027 "coalesce.ml" 93 4015 4091
+call(
+  stack
+)
+type(
+  unit
+)
+"coalesce.ml" 94 4093 4109 "coalesce.ml" 94 4093 4116
+type(
+  C.G.E.t
+)
+"coalesce.ml" 94 4093 4119 "coalesce.ml" 94 4093 4131
+type(
+  C.G.E.vertex -> C.G.E.label -> C.G.E.vertex -> C.G.E.t
+)
+ident(
+  ext_ref C.G.E.create
+)
+"coalesce.ml" 94 4093 4132 "coalesce.ml" 94 4093 4136
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 94 4093 4138 "coalesce.ml" 94 4093 4149
+type(
+  C.G.E.t -> C.G.E.label
+)
+ident(
+  ext_ref C.G.E.label
+)
+"coalesce.ml" 94 4093 4150 "coalesce.ml" 94 4093 4154
+type(
+  C.G.E.t
+)
+ident(
+  int_ref edge "coalesce.ml" 89 3833 3862 "coalesce.ml" 89 3833 3866
+)
+"coalesce.ml" 94 4093 4137 "coalesce.ml" 94 4093 4155
+call(
+  stack
+)
+type(
+  C.G.E.label
+)
+"coalesce.ml" 94 4093 4156 "coalesce.ml" 94 4093 4163
+type(
+  GS.elt
+)
+ident(
+  int_ref newdest "coalesce.ml" 92 3938 3954 "coalesce.ml" 92 3938 3961
+)
+"coalesce.ml" 94 4093 4119 "coalesce.ml" 94 4093 4163
+call(
+  stack
+)
+type(
+  C.G.E.t
+)
+"coalesce.ml" 95 4167 4179 "coalesce.ml" 95 4167 4191
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  ext_ref C.add_edge_e
+)
+"coalesce.ml" 95 4167 4192 "coalesce.ml" 95 4167 4197
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 89 3833 3856 "coalesce.ml" 89 3833 3861
+)
+"coalesce.ml" 95 4167 4198 "coalesce.ml" 95 4167 4205
+type(
+  C.G.E.t
+)
+ident(
+  int_ref newedge "coalesce.ml" 94 4093 4109 "coalesce.ml" 94 4093 4116
+)
+"coalesce.ml" 95 4167 4179 "coalesce.ml" 95 4167 4205
+call(
+  tail
+)
+type(
+  C.G.t
+)
+"coalesce.ml" 94 4093 4105 "coalesce.ml" 95 4167 4205
+type(
+  C.G.t
+)
+"coalesce.ml" 93 4015 4027 "coalesce.ml" 95 4167 4205
+type(
+  C.G.t
+)
+"coalesce.ml" 92 3938 3950 "coalesce.ml" 95 4167 4205
+type(
+  C.G.t
+)
+"coalesce.ml" 91 3897 3909 "coalesce.ml" 95 4167 4205
+type(
+  C.G.t
+)
+"coalesce.ml" 97 4219 4233 "coalesce.ml" 97 4219 4238
+type(
+  G.t
+)
+ident(
+  def graph "coalesce.ml" 102 4487 4497 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 97 4219 4241 "coalesce.ml" 97 4219 4255
+type(
+  (G.t -> G.edge -> G.t) -> G.t -> G.edge list -> G.t
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"coalesce.ml" 97 4219 4256 "coalesce.ml" 97 4219 4264
+type(
+  G.t -> G.edge -> G.t
+)
+ident(
+  int_ref add_edge "coalesce.ml" 89 3833 3847 "coalesce.ml" 89 3833 3855
+)
+"coalesce.ml" 97 4219 4265 "coalesce.ml" 97 4219 4270
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 97 4219 4271 "coalesce.ml" 97 4219 4297
+type(
+  G.edge list
+)
+ident(
+  int_ref successors_of_successors_e "coalesce.ml" 87 3684 3698 "coalesce.ml" 87 3684 3724
+)
+"coalesce.ml" 97 4219 4241 "coalesce.ml" 97 4219 4297
+call(
+  stack
+)
+type(
+  G.t
+)
+"coalesce.ml" 102 4487 4501 "coalesce.ml" 102 4487 4506
+type(
+  G.t
+)
+ident(
+  def graph "coalesce.ml" 117 5169 5179 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 102 4487 4509 "coalesce.ml" 102 4487 4523
+type(
+  (G.t -> G.vertex -> G.t) -> G.t -> G.vertex list -> G.t
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"coalesce.ml" 103 4524 4541 "coalesce.ml" 103 4524 4546
+type(
+  G.t
+)
+ident(
+  def graph "coalesce.ml" 103 4524 4547 "coalesce.ml" 112 5039 5082
+)
+"coalesce.ml" 103 4524 4547 "coalesce.ml" 103 4524 4551
+type(
+  G.vertex
+)
+ident(
+  def succ "coalesce.ml" 104 4555 4569 "coalesce.ml" 112 5039 5082
+)
+"coalesce.ml" 104 4555 4569 "coalesce.ml" 104 4555 4583
+type(
+  (G.t -> G.E.t -> G.t) -> G.t -> G.E.t list -> G.t
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"coalesce.ml" 104 4555 4589 "coalesce.ml" 104 4555 4594
+type(
+  G.t
+)
+ident(
+  def graph "coalesce.ml" 104 4555 4595 "coalesce.ml" 111 4994 5038
+)
+"coalesce.ml" 104 4555 4595 "coalesce.ml" 104 4555 4596
+type(
+  G.E.t
+)
+ident(
+  def e "coalesce.ml" 105 4600 4616 "coalesce.ml" 111 4994 5038
+)
+"coalesce.ml" 105 4600 4620 "coalesce.ml" 105 4600 4623
+type(
+  G.E.vertex
+)
+"coalesce.ml" 105 4600 4626 "coalesce.ml" 105 4600 4633
+type(
+  G.E.t -> G.E.vertex
+)
+ident(
+  ext_ref G.E.src
+)
+"coalesce.ml" 105 4600 4634 "coalesce.ml" 105 4600 4635
+type(
+  G.E.t
+)
+ident(
+  int_ref e "coalesce.ml" 104 4555 4595 "coalesce.ml" 104 4555 4596
+)
+"coalesce.ml" 105 4600 4626 "coalesce.ml" 105 4600 4635
+call(
+  stack
+)
+type(
+  G.E.vertex
+)
+"coalesce.ml" 107 4697 4716 "coalesce.ml" 107 4697 4724
+type(
+  G.E.vertex -> G.E.vertex list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"coalesce.ml" 107 4697 4725 "coalesce.ml" 107 4697 4728
+type(
+  G.E.vertex
+)
+ident(
+  int_ref src "coalesce.ml" 105 4600 4620 "coalesce.ml" 105 4600 4623
+)
+"coalesce.ml" 107 4697 4729 "coalesce.ml" 107 4697 4739
+type(
+  G.E.vertex list
+)
+ident(
+  int_ref successors "coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+)
+"coalesce.ml" 107 4697 4716 "coalesce.ml" 107 4697 4739
+call(
+  stack
+)
+type(
+  bool
+)
+"coalesce.ml" 107 4697 4740 "coalesce.ml" 107 4697 4742
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"coalesce.ml" 107 4697 4743 "coalesce.ml" 107 4697 4746
+type(
+  G.E.vertex
+)
+ident(
+  int_ref src "coalesce.ml" 105 4600 4620 "coalesce.ml" 105 4600 4623
+)
+"coalesce.ml" 107 4697 4747 "coalesce.ml" 107 4697 4748
+type(
+  G.E.vertex -> G.E.vertex -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"coalesce.ml" 107 4697 4749 "coalesce.ml" 107 4697 4753
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 107 4697 4743 "coalesce.ml" 107 4697 4753
+type(
+  bool
+)
+"coalesce.ml" 107 4697 4716 "coalesce.ml" 107 4697 4753
+type(
+  bool
+)
+"coalesce.ml" 107 4697 4759 "coalesce.ml" 107 4697 4764
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 104 4555 4589 "coalesce.ml" 104 4555 4594
+)
+"coalesce.ml" 108 4765 4790 "coalesce.ml" 108 4765 4795
+type(
+  G.E.label
+)
+"coalesce.ml" 108 4765 4798 "coalesce.ml" 108 4765 4807
+type(
+  G.E.t -> G.E.label
+)
+ident(
+  ext_ref G.E.label
+)
+"coalesce.ml" 108 4765 4808 "coalesce.ml" 108 4765 4809
+type(
+  G.E.t
+)
+ident(
+  int_ref e "coalesce.ml" 104 4555 4595 "coalesce.ml" 104 4555 4596
+)
+"coalesce.ml" 108 4765 4798 "coalesce.ml" 108 4765 4809
+call(
+  stack
+)
+type(
+  G.E.label
+)
+"coalesce.ml" 109 4813 4838 "coalesce.ml" 109 4813 4842
+type(
+  G.E.t
+)
+"coalesce.ml" 109 4813 4845 "coalesce.ml" 109 4813 4855
+type(
+  G.E.vertex -> G.E.label -> G.E.vertex -> G.E.t
+)
+ident(
+  ext_ref G.E.create
+)
+"coalesce.ml" 109 4813 4856 "coalesce.ml" 109 4813 4859
+type(
+  G.E.vertex
+)
+ident(
+  int_ref src "coalesce.ml" 105 4600 4620 "coalesce.ml" 105 4600 4623
+)
+"coalesce.ml" 109 4813 4860 "coalesce.ml" 109 4813 4865
+type(
+  G.E.label
+)
+ident(
+  int_ref label "coalesce.ml" 108 4765 4790 "coalesce.ml" 108 4765 4795
+)
+"coalesce.ml" 109 4813 4866 "coalesce.ml" 109 4813 4870
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 109 4813 4845 "coalesce.ml" 109 4813 4870
+call(
+  stack
+)
+type(
+  G.E.t
+)
+"coalesce.ml" 110 4874 4895 "coalesce.ml" 110 4874 4902
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"coalesce.ml" 110 4874 4903 "coalesce.ml" 110 4874 4954
+type(
+  (string -> string -> string -> unit, unit, string, unit) format4
+)
+"coalesce.ml" 110 4874 4956 "coalesce.ml" 110 4874 4961
+type(
+  G.vertex -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"coalesce.ml" 110 4874 4962 "coalesce.ml" 110 4874 4966
+type(
+  G.vertex
+)
+ident(
+  int_ref succ "coalesce.ml" 103 4524 4547 "coalesce.ml" 103 4524 4551
+)
+"coalesce.ml" 110 4874 4955 "coalesce.ml" 110 4874 4967
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 110 4874 4969 "coalesce.ml" 110 4874 4974
+type(
+  G.E.vertex -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"coalesce.ml" 110 4874 4975 "coalesce.ml" 110 4874 4978
+type(
+  G.E.vertex
+)
+ident(
+  int_ref src "coalesce.ml" 105 4600 4620 "coalesce.ml" 105 4600 4623
+)
+"coalesce.ml" 110 4874 4968 "coalesce.ml" 110 4874 4979
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 110 4874 4981 "coalesce.ml" 110 4874 4986
+type(
+  GS.elt -> string
+)
+ident(
+  ext_ref C.v2s
+)
+"coalesce.ml" 110 4874 4987 "coalesce.ml" 110 4874 4991
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 110 4874 4980 "coalesce.ml" 110 4874 4992
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 110 4874 4895 "coalesce.ml" 110 4874 4992
+call(
+  stack
+)
+type(
+  unit
+)
+"coalesce.ml" 111 4994 5015 "coalesce.ml" 111 4994 5027
+type(
+  G.t -> G.E.t -> G.t
+)
+ident(
+  ext_ref C.add_edge_e
+)
+"coalesce.ml" 111 4994 5028 "coalesce.ml" 111 4994 5033
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 104 4555 4589 "coalesce.ml" 104 4555 4594
+)
+"coalesce.ml" 111 4994 5034 "coalesce.ml" 111 4994 5038
+type(
+  G.E.t
+)
+ident(
+  int_ref newe "coalesce.ml" 109 4813 4838 "coalesce.ml" 109 4813 4842
+)
+"coalesce.ml" 111 4994 5015 "coalesce.ml" 111 4994 5038
+call(
+  tail
+)
+type(
+  G.t
+)
+"coalesce.ml" 110 4874 4895 "coalesce.ml" 111 4994 5038
+type(
+  G.t
+)
+"coalesce.ml" 109 4813 4834 "coalesce.ml" 111 4994 5038
+type(
+  G.t
+)
+"coalesce.ml" 108 4765 4786 "coalesce.ml" 111 4994 5038
+type(
+  G.t
+)
+"coalesce.ml" 107 4697 4713 "coalesce.ml" 111 4994 5038
+type(
+  G.t
+)
+"coalesce.ml" 105 4600 4616 "coalesce.ml" 111 4994 5038
+type(
+  G.t
+)
+"coalesce.ml" 104 4555 4584 "coalesce.ml" 112 5039 5054
+type(
+  G.t -> G.E.t -> G.t
+)
+"coalesce.ml" 112 5039 5055 "coalesce.ml" 112 5039 5060
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 103 4524 4541 "coalesce.ml" 103 4524 4546
+)
+"coalesce.ml" 112 5039 5062 "coalesce.ml" 112 5039 5070
+type(
+  G.t -> G.vertex -> G.E.t list
+)
+ident(
+  ext_ref G.pred_e
+)
+"coalesce.ml" 112 5039 5071 "coalesce.ml" 112 5039 5076
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 103 4524 4541 "coalesce.ml" 103 4524 4546
+)
+"coalesce.ml" 112 5039 5077 "coalesce.ml" 112 5039 5081
+type(
+  G.vertex
+)
+ident(
+  int_ref succ "coalesce.ml" 103 4524 4547 "coalesce.ml" 103 4524 4551
+)
+"coalesce.ml" 112 5039 5061 "coalesce.ml" 112 5039 5082
+call(
+  stack
+)
+type(
+  G.E.t list
+)
+"coalesce.ml" 104 4555 4569 "coalesce.ml" 112 5039 5082
+call(
+  tail
+)
+type(
+  G.t
+)
+"coalesce.ml" 103 4524 4536 "coalesce.ml" 113 5083 5096
+type(
+  G.t -> G.vertex -> G.t
+)
+"coalesce.ml" 113 5083 5097 "coalesce.ml" 113 5083 5102
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 97 4219 4233 "coalesce.ml" 97 4219 4238
+)
+"coalesce.ml" 113 5083 5103 "coalesce.ml" 113 5083 5113
+type(
+  G.vertex list
+)
+ident(
+  int_ref successors "coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+)
+"coalesce.ml" 102 4487 4509 "coalesce.ml" 113 5083 5113
+call(
+  stack
+)
+type(
+  G.t
+)
+"coalesce.ml" 117 5169 5183 "coalesce.ml" 117 5169 5188
+type(
+  G.t
+)
+ident(
+  def graph "coalesce.ml" 119 5283 5293 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 117 5169 5191 "coalesce.ml" 117 5169 5205
+type(
+  (G.t -> G.vertex -> G.t) -> G.t -> G.vertex list -> G.t
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"coalesce.ml" 117 5169 5206 "coalesce.ml" 117 5169 5221
+type(
+  G.t -> G.vertex -> G.t
+)
+ident(
+  ext_ref C.remove_vertex
+)
+"coalesce.ml" 117 5169 5222 "coalesce.ml" 117 5169 5227
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 102 4487 4501 "coalesce.ml" 102 4487 4506
+)
+"coalesce.ml" 117 5169 5228 "coalesce.ml" 117 5169 5238
+type(
+  G.vertex list
+)
+ident(
+  int_ref successors "coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+)
+"coalesce.ml" 117 5169 5191 "coalesce.ml" 117 5169 5238
+call(
+  stack
+)
+type(
+  G.t
+)
+"coalesce.ml" 119 5283 5293 "coalesce.ml" 119 5283 5302
+type(
+  (GS.elt -> unit) -> GS.elt list -> unit
+)
+ident(
+  ext_ref BatListFull.List.iter
+)
+"coalesce.ml" 119 5283 5303 "coalesce.ml" 119 5283 5314
+type(
+  GS.elt -> unit
+)
+ident(
+  int_ref add_visited "coalesce.ml" 35 1237 1244 "coalesce.ml" 35 1237 1255
+)
+"coalesce.ml" 119 5283 5315 "coalesce.ml" 119 5283 5325
+type(
+  GS.elt list
+)
+ident(
+  int_ref successors "coalesce.ml" 70 2935 2947 "coalesce.ml" 70 2935 2957
+)
+"coalesce.ml" 119 5283 5293 "coalesce.ml" 119 5283 5325
+call(
+  stack
+)
+type(
+  unit
+)
+"coalesce.ml" 122 5373 5387 "coalesce.ml" 122 5373 5401
+type(
+  C.lang
+)
+ident(
+  def big_stmt_block "coalesce.ml" 123 5446 5456 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 122 5373 5404 "coalesce.ml" 122 5373 5416
+type(
+  C.lang -> C.lang -> C.lang
+)
+ident(
+  ext_ref C.join_stmts
+)
+"coalesce.ml" 122 5373 5417 "coalesce.ml" 122 5373 5427
+type(
+  C.lang
+)
+ident(
+  int_ref init_stmts "coalesce.ml" 79 3323 3337 "coalesce.ml" 79 3323 3347
+)
+"coalesce.ml" 122 5373 5428 "coalesce.ml" 122 5373 5442
+type(
+  C.lang
+)
+ident(
+  int_ref big_stmt_block "coalesce.ml" 81 3445 3459 "coalesce.ml" 81 3445 3473
+)
+"coalesce.ml" 122 5373 5404 "coalesce.ml" 122 5373 5442
+call(
+  stack
+)
+type(
+  C.lang
+)
+"coalesce.ml" 123 5446 5460 "coalesce.ml" 123 5446 5465
+type(
+  C.G.t
+)
+ident(
+  def graph "coalesce.ml" 124 5509 5519 "coalesce.ml" 125 5537 5569
+)
+"coalesce.ml" 123 5446 5468 "coalesce.ml" 123 5446 5479
+type(
+  G.t -> GS.elt -> C.lang -> C.G.t
+)
+ident(
+  ext_ref C.set_stmts
+)
+"coalesce.ml" 123 5446 5480 "coalesce.ml" 123 5446 5485
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 117 5169 5183 "coalesce.ml" 117 5169 5188
+)
+"coalesce.ml" 123 5446 5486 "coalesce.ml" 123 5446 5490
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 123 5446 5491 "coalesce.ml" 123 5446 5505
+type(
+  C.lang
+)
+ident(
+  int_ref big_stmt_block "coalesce.ml" 122 5373 5387 "coalesce.ml" 122 5373 5401
+)
+"coalesce.ml" 123 5446 5468 "coalesce.ml" 123 5446 5505
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"coalesce.ml" 124 5509 5519 "coalesce.ml" 124 5509 5530
+type(
+  GS.elt -> unit
+)
+ident(
+  int_ref add_visited "coalesce.ml" 35 1237 1244 "coalesce.ml" 35 1237 1255
+)
+"coalesce.ml" 124 5509 5531 "coalesce.ml" 124 5509 5535
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 124 5509 5519 "coalesce.ml" 124 5509 5535
+call(
+  stack
+)
+type(
+  unit
+)
+"coalesce.ml" 125 5537 5548 "coalesce.ml" 125 5537 5561
+type(
+  G.vertex list
+)
+ident(
+  int_ref newsuccessors "coalesce.ml" 88 3766 3780 "coalesce.ml" 88 3766 3793
+)
+"coalesce.ml" 125 5537 5563 "coalesce.ml" 125 5537 5568
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 123 5446 5460 "coalesce.ml" 123 5446 5465
+)
+"coalesce.ml" 125 5537 5547 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 124 5509 5519 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 123 5446 5456 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 122 5373 5383 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 119 5283 5293 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 117 5169 5179 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 102 4487 4497 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 97 4219 4229 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 89 3833 3843 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 88 3766 3776 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 87 3684 3694 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 81 3445 3455 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 80 3376 3386 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 79 3323 3333 "coalesce.ml" 125 5537 5569
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 76 3123 3156 "coalesce.ml" 126 5570 5579
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 128 5595 5609 "coalesce.ml" 128 5595 5619
+type(
+  G.vertex list
+)
+"coalesce.ml" 128 5595 5622 "coalesce.ml" 128 5595 5628
+type(
+  G.t -> G.vertex -> G.vertex list
+)
+ident(
+  ext_ref G.succ
+)
+"coalesce.ml" 128 5595 5629 "coalesce.ml" 128 5595 5634
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 128 5595 5635 "coalesce.ml" 128 5595 5639
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 128 5595 5622 "coalesce.ml" 128 5595 5639
+call(
+  stack
+)
+type(
+  G.vertex list
+)
+"coalesce.ml" 129 5643 5653 "coalesce.ml" 129 5643 5664
+type(
+  GS.elt -> unit
+)
+ident(
+  int_ref add_visited "coalesce.ml" 35 1237 1244 "coalesce.ml" 35 1237 1255
+)
+"coalesce.ml" 129 5643 5665 "coalesce.ml" 129 5643 5669
+type(
+  GS.elt
+)
+ident(
+  int_ref init "coalesce.ml" 36 1292 1318 "coalesce.ml" 36 1292 1322
+)
+"coalesce.ml" 129 5643 5653 "coalesce.ml" 129 5643 5669
+call(
+  stack
+)
+type(
+  unit
+)
+"coalesce.ml" 130 5671 5682 "coalesce.ml" 130 5671 5692
+type(
+  G.vertex list
+)
+ident(
+  int_ref successors "coalesce.ml" 128 5595 5609 "coalesce.ml" 128 5595 5619
+)
+"coalesce.ml" 130 5671 5694 "coalesce.ml" 130 5671 5699
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 36 1292 1312 "coalesce.ml" 36 1292 1317
+)
+"coalesce.ml" 130 5671 5681 "coalesce.ml" 130 5671 5700
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 129 5643 5653 "coalesce.ml" 130 5671 5700
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 127 5580 5593 "coalesce.ml" 131 5701 5710
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 76 3123 3131 "coalesce.ml" 131 5701 5710
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 70 2935 2943 "coalesce.ml" 131 5701 5710
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 41 1444 1453 "coalesce.ml" 131 5701 5710
+type(
+  G.vertex list * G.t
+)
+"coalesce.ml" 134 5720 5725 "coalesce.ml" 134 5720 5739
+type(
+  (G.t -> GS.elt -> G.t) -> G.t -> GS.elt list -> G.t
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"coalesce.ml" 134 5720 5740 "coalesce.ml" 134 5720 5748
+type(
+  G.t -> GS.elt -> G.t
+)
+ident(
+  int_ref fold_dfs "coalesce.ml" 36 1292 1303 "coalesce.ml" 36 1292 1311
+)
+"coalesce.ml" 134 5720 5749 "coalesce.ml" 134 5720 5754
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 39 1375 1396 "coalesce.ml" 39 1375 1401
+)
+"coalesce.ml" 134 5720 5755 "coalesce.ml" 134 5720 5763
+type(
+  GS.elt list
+)
+ident(
+  int_ref worklist "coalesce.ml" 39 1375 1386 "coalesce.ml" 39 1375 1394
+)
+"coalesce.ml" 134 5720 5725 "coalesce.ml" 134 5720 5763
+call(
+  tail
+)
+type(
+  G.t
+)
+"coalesce.ml" 39 1375 1382 "coalesce.ml" 134 5720 5763
+type(
+  G.t
+)
+"coalesce.ml" 37 1325 1330 "coalesce.ml" 134 5720 5763
+type(
+  G.t
+)
+"coalesce.ml" 136 5770 5777 "coalesce.ml" 136 5770 5782
+type(
+  G.t
+)
+ident(
+  def graph "coalesce.ml" 137 5812 5815 "coalesce.ml" 137 5812 5820
+)
+"coalesce.ml" 136 5770 5785 "coalesce.ml" 136 5770 5793
+type(
+  G.t -> GS.elt -> G.t
+)
+ident(
+  int_ref fold_dfs "coalesce.ml" 36 1292 1303 "coalesce.ml" 36 1292 1311
+)
+"coalesce.ml" 136 5770 5794 "coalesce.ml" 136 5770 5797
+type(
+  G.t
+)
+ident(
+  int_ref cfg "coalesce.ml" 29 943 975 "coalesce.ml" 29 943 978
+)
+"coalesce.ml" 136 5770 5798 "coalesce.ml" 136 5770 5808
+type(
+  GS.elt
+)
+ident(
+  int_ref entry_node "coalesce.ml" 32 1081 1088 "coalesce.ml" 32 1081 1098
+)
+"coalesce.ml" 136 5770 5785 "coalesce.ml" 136 5770 5808
+call(
+  stack
+)
+type(
+  G.t
+)
+"coalesce.ml" 137 5812 5815 "coalesce.ml" 137 5812 5820
+type(
+  G.t
+)
+ident(
+  int_ref graph "coalesce.ml" 136 5770 5777 "coalesce.ml" 136 5770 5782
+)
+"coalesce.ml" 136 5770 5773 "coalesce.ml" 137 5812 5820
+type(
+  G.t
+)
+"coalesce.ml" 36 1292 1295 "coalesce.ml" 137 5812 5820
+type(
+  G.t
+)
+"coalesce.ml" 35 1237 1240 "coalesce.ml" 137 5812 5820
+type(
+  G.t
+)
+"coalesce.ml" 34 1164 1167 "coalesce.ml" 137 5812 5820
+type(
+  G.t
+)
+"coalesce.ml" 33 1131 1134 "coalesce.ml" 137 5812 5820
+type(
+  G.t
+)
+"coalesce.ml" 32 1081 1084 "coalesce.ml" 137 5812 5820
+type(
+  G.t
+)
+"coalesce.ml" 31 1032 1035 "coalesce.ml" 137 5812 5820
+type(
+  G.t
+)
+"coalesce.ml" 30 981 984 "coalesce.ml" 137 5812 5820
+type(
+  G.t
+)
+"coalesce.ml" 143 5861 5867 "coalesce.ml" 143 5861 5888
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  def remove_redundant_jump "coalesce.ml" 150 6133 6135 "coalesce.ml" 162 6490 6493
+)
+"coalesce.ml" 143 5861 5889 "coalesce.ml" 143 5861 5890
+type(
+  Ast.stmt list
+)
+ident(
+  def p "coalesce.ml" 144 5893 5897 "coalesce.ml" 149 6120 6132
+)
+"coalesce.ml" 144 5893 5903 "coalesce.ml" 144 5893 5911
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"coalesce.ml" 144 5893 5912 "coalesce.ml" 144 5893 5913
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref p "coalesce.ml" 143 5861 5889 "coalesce.ml" 143 5861 5890
+)
+"coalesce.ml" 144 5893 5903 "coalesce.ml" 144 5893 5913
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"coalesce.ml" 145 5919 5934 "coalesce.ml" 145 5919 5935
+type(
+  Ast.exp
+)
+ident(
+  def e "coalesce.ml" 145 5919 5950 "coalesce.ml" 148 6096 6119
+)
+"coalesce.ml" 145 5919 5937 "coalesce.ml" 145 5919 5938
+type(
+  Ast.attrs
+)
+"coalesce.ml" 145 5919 5933 "coalesce.ml" 145 5919 5939
+type(
+  Ast.exp * Ast.attrs
+)
+"coalesce.ml" 145 5919 5925 "coalesce.ml" 145 5919 5939
+type(
+  Ast.stmt
+)
+"coalesce.ml" 145 5919 5925 "coalesce.ml" 145 5919 5944
+type(
+  Ast.stmt
+)
+ident(
+  def s "coalesce.ml" 145 5919 5950 "coalesce.ml" 148 6096 6119
+)
+"coalesce.ml" 145 5919 5946 "coalesce.ml" 145 5919 5948
+type(
+  Ast.stmt list
+)
+ident(
+  def tl "coalesce.ml" 145 5919 5950 "coalesce.ml" 148 6096 6119
+)
+"coalesce.ml" 145 5919 5925 "coalesce.ml" 145 5919 5948
+type(
+  Ast.stmt list
+)
+"coalesce.ml" 145 5919 5955 "coalesce.ml" 145 5919 5969
+type(
+  Ast.exp -> Type.label option
+)
+ident(
+  ext_ref Ast.lab_of_exp
+)
+"coalesce.ml" 145 5919 5970 "coalesce.ml" 145 5919 5971
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "coalesce.ml" 145 5919 5934 "coalesce.ml" 145 5919 5935
+)
+"coalesce.ml" 145 5919 5955 "coalesce.ml" 145 5919 5971
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"coalesce.ml" 145 5919 5972 "coalesce.ml" 145 5919 5974
+type(
+  Type.label option -> Type.label option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"coalesce.ml" 145 5919 5975 "coalesce.ml" 145 5919 5979
+type(
+  Type.label option
+)
+"coalesce.ml" 145 5919 5955 "coalesce.ml" 145 5919 5979
+type(
+  bool
+)
+"coalesce.ml" 146 5983 5993 "coalesce.ml" 146 5983 5996
+type(
+  string
+)
+"coalesce.ml" 146 5983 5999 "coalesce.ml" 146 5983 6025
+type(
+  string
+)
+"coalesce.ml" 146 5983 6026 "coalesce.ml" 146 5983 6027
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"coalesce.ml" 146 5983 6029 "coalesce.ml" 146 5983 6050
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"coalesce.ml" 146 5983 6051 "coalesce.ml" 146 5983 6052
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "coalesce.ml" 145 5919 5925 "coalesce.ml" 145 5919 5944
+)
+"coalesce.ml" 146 5983 6028 "coalesce.ml" 146 5983 6053
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 146 5983 5999 "coalesce.ml" 146 5983 6053
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 147 6057 6067 "coalesce.ml" 147 6057 6069
+type(
+  Ast.stmt
+)
+"coalesce.ml" 147 6057 6084 "coalesce.ml" 147 6057 6087
+type(
+  string
+)
+ident(
+  int_ref str "coalesce.ml" 146 5983 5993 "coalesce.ml" 146 5983 5996
+)
+"coalesce.ml" 147 6057 6089 "coalesce.ml" 147 6057 6091
+type(
+  Ast.attrs
+)
+"coalesce.ml" 147 6057 6083 "coalesce.ml" 147 6057 6092
+type(
+  string * Ast.attrs
+)
+"coalesce.ml" 147 6057 6072 "coalesce.ml" 147 6057 6092
+type(
+  Ast.stmt
+)
+"coalesce.ml" 148 6096 6102 "coalesce.ml" 148 6096 6110
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"coalesce.ml" 148 6096 6112 "coalesce.ml" 148 6096 6114
+type(
+  Ast.stmt
+)
+ident(
+  int_ref rs "coalesce.ml" 147 6057 6067 "coalesce.ml" 147 6057 6069
+)
+"coalesce.ml" 148 6096 6116 "coalesce.ml" 148 6096 6118
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref tl "coalesce.ml" 145 5919 5946 "coalesce.ml" 145 5919 5948
+)
+"coalesce.ml" 148 6096 6111 "coalesce.ml" 148 6096 6119
+type(
+  Ast.stmt list
+)
+"coalesce.ml" 148 6096 6102 "coalesce.ml" 148 6096 6119
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"coalesce.ml" 147 6057 6063 "coalesce.ml" 148 6096 6119
+type(
+  Ast.stmt list
+)
+"coalesce.ml" 146 5983 5989 "coalesce.ml" 148 6096 6119
+type(
+  Ast.stmt list
+)
+"coalesce.ml" 145 5919 5950 "coalesce.ml" 148 6096 6119
+type(
+  Ast.stmt list
+)
+"coalesce.ml" 149 6120 6126 "coalesce.ml" 149 6120 6127
+type(
+  Ast.stmt list
+)
+"coalesce.ml" 149 6120 6131 "coalesce.ml" 149 6120 6132
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref p "coalesce.ml" 143 5861 5889 "coalesce.ml" 143 5861 5890
+)
+"coalesce.ml" 144 5893 5897 "coalesce.ml" 149 6120 6132
+type(
+  Ast.stmt list
+)
+"coalesce.ml" 150 6133 6139 "coalesce.ml" 150 6133 6159
+type(
+  G.t -> G.V.t -> bool
+)
+ident(
+  def is_safe_coalesce_src "coalesce.ml" 159 6398 6400 "coalesce.ml" 162 6490 6493
+)
+"coalesce.ml" 150 6133 6160 "coalesce.ml" 150 6133 6161
+type(
+  G.t
+)
+ident(
+  def g "coalesce.ml" 150 6133 6162 "coalesce.ml" 158 6354 6397
+)
+"coalesce.ml" 150 6133 6162 "coalesce.ml" 150 6133 6163
+type(
+  G.V.t
+)
+ident(
+  def v "coalesce.ml" 151 6166 6170 "coalesce.ml" 158 6354 6397
+)
+"coalesce.ml" 151 6166 6174 "coalesce.ml" 151 6166 6175
+type(
+  lang
+)
+"coalesce.ml" 151 6166 6178 "coalesce.ml" 151 6166 6187
+type(
+  G.t -> G.V.t -> lang
+)
+"coalesce.ml" 151 6166 6188 "coalesce.ml" 151 6166 6189
+type(
+  G.t
+)
+ident(
+  int_ref g "coalesce.ml" 150 6133 6160 "coalesce.ml" 150 6133 6161
+)
+"coalesce.ml" 151 6166 6190 "coalesce.ml" 151 6166 6191
+type(
+  G.V.t
+)
+ident(
+  int_ref v "coalesce.ml" 150 6133 6162 "coalesce.ml" 150 6133 6163
+)
+"coalesce.ml" 151 6166 6178 "coalesce.ml" 151 6166 6191
+call(
+  stack
+)
+type(
+  lang
+)
+"coalesce.ml" 152 6195 6203 "coalesce.ml" 152 6195 6227
+type(
+  Ast.stmt -> bool
+)
+"coalesce.ml" 153 6239 6259 "coalesce.ml" 153 6239 6260
+type(
+  string * Ast.attrs
+)
+"coalesce.ml" 153 6239 6247 "coalesce.ml" 153 6239 6260
+type(
+  Ast.stmt
+)
+"coalesce.ml" 154 6261 6279 "coalesce.ml" 154 6261 6280
+type(
+  Type.label * Ast.attrs
+)
+"coalesce.ml" 154 6261 6269 "coalesce.ml" 154 6261 6280
+type(
+  Ast.stmt
+)
+"coalesce.ml" 153 6239 6247 "coalesce.ml" 154 6261 6280
+type(
+  Ast.stmt
+)
+"coalesce.ml" 154 6261 6284 "coalesce.ml" 154 6261 6288
+type(
+  bool
+)
+"coalesce.ml" 155 6289 6297 "coalesce.ml" 155 6289 6298
+type(
+  Ast.stmt
+)
+"coalesce.ml" 155 6289 6302 "coalesce.ml" 155 6289 6307
+type(
+  bool
+)
+"coalesce.ml" 152 6195 6230 "coalesce.ml" 155 6289 6307
+type(
+  Ast.stmt -> bool
+)
+"coalesce.ml" 157 6315 6323 "coalesce.ml" 157 6315 6324
+type(
+  lang
+)
+"coalesce.ml" 157 6315 6327 "coalesce.ml" 157 6315 6348
+type(
+  lang -> lang
+)
+ident(
+  int_ref remove_redundant_jump "coalesce.ml" 143 5861 5867 "coalesce.ml" 143 5861 5888
+)
+"coalesce.ml" 157 6315 6349 "coalesce.ml" 157 6315 6350
+type(
+  lang
+)
+ident(
+  int_ref p "coalesce.ml" 151 6166 6174 "coalesce.ml" 151 6166 6175
+)
+"coalesce.ml" 157 6315 6327 "coalesce.ml" 157 6315 6350
+call(
+  stack
+)
+type(
+  lang
+)
+"coalesce.ml" 158 6354 6358 "coalesce.ml" 158 6354 6370
+type(
+  (stmt -> bool) -> lang -> bool
+)
+ident(
+  ext_ref BatListFull.List.for_all
+)
+"coalesce.ml" 158 6354 6371 "coalesce.ml" 158 6354 6395
+type(
+  stmt -> bool
+)
+ident(
+  int_ref is_safe_to_coalesce_stmt "coalesce.ml" 152 6195 6203 "coalesce.ml" 152 6195 6227
+)
+"coalesce.ml" 158 6354 6396 "coalesce.ml" 158 6354 6397
+type(
+  lang
+)
+ident(
+  int_ref p "coalesce.ml" 157 6315 6323 "coalesce.ml" 157 6315 6324
+)
+"coalesce.ml" 158 6354 6358 "coalesce.ml" 158 6354 6397
+call(
+  tail
+)
+type(
+  bool
+)
+"coalesce.ml" 157 6315 6319 "coalesce.ml" 158 6354 6397
+type(
+  bool
+)
+"coalesce.ml" 152 6195 6199 "coalesce.ml" 158 6354 6397
+type(
+  bool
+)
+"coalesce.ml" 151 6166 6170 "coalesce.ml" 158 6354 6397
+type(
+  bool
+)
+"coalesce.ml" 159 6398 6404 "coalesce.ml" 159 6398 6424
+type(
+  'a -> G.V.t -> bool
+)
+ident(
+  def is_safe_coalesce_dst "coalesce.ml" 161 6473 6489 "coalesce.ml" 162 6490 6493
+)
+"coalesce.ml" 159 6398 6425 "coalesce.ml" 159 6398 6426
+type(
+  'a
+)
+ident(
+  def g "coalesce.ml" 159 6398 6427 "coalesce.ml" 161 6473 6489
+)
+"coalesce.ml" 159 6398 6427 "coalesce.ml" 159 6398 6428
+type(
+  G.V.t
+)
+ident(
+  def v "coalesce.ml" 159 6398 6431 "coalesce.ml" 161 6473 6489
+)
+"coalesce.ml" 159 6398 6437 "coalesce.ml" 159 6398 6446
+type(
+  G.V.t -> G.V.label
+)
+ident(
+  ext_ref G.V.label
+)
+"coalesce.ml" 159 6398 6447 "coalesce.ml" 159 6398 6448
+type(
+  G.V.t
+)
+ident(
+  int_ref v "coalesce.ml" 159 6398 6427 "coalesce.ml" 159 6398 6428
+)
+"coalesce.ml" 159 6398 6437 "coalesce.ml" 159 6398 6448
+call(
+  stack
+)
+type(
+  G.V.label
+)
+"coalesce.ml" 160 6454 6463 "coalesce.ml" 160 6454 6464
+type(
+  int
+)
+"coalesce.ml" 160 6454 6460 "coalesce.ml" 160 6454 6464
+type(
+  G.V.label
+)
+"coalesce.ml" 160 6454 6468 "coalesce.ml" 160 6454 6472
+type(
+  bool
+)
+"coalesce.ml" 161 6473 6479 "coalesce.ml" 161 6473 6480
+type(
+  G.V.label
+)
+"coalesce.ml" 161 6473 6484 "coalesce.ml" 161 6473 6489
+type(
+  bool
+)
+"coalesce.ml" 159 6398 6431 "coalesce.ml" 161 6473 6489
+type(
+  bool
+)
+"coalesce.ml" 167 6530 6536 "coalesce.ml" 167 6530 6557
+type(
+  Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  def remove_redundant_jump "coalesce.ml" 174 6802 6804 "coalesce.ml" 186 7159 7162
+)
+"coalesce.ml" 167 6530 6558 "coalesce.ml" 167 6530 6559
+type(
+  Ssa.stmt list
+)
+ident(
+  def p "coalesce.ml" 168 6562 6566 "coalesce.ml" 173 6789 6801
+)
+"coalesce.ml" 168 6562 6572 "coalesce.ml" 168 6562 6580
+type(
+  Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"coalesce.ml" 168 6562 6581 "coalesce.ml" 168 6562 6582
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref p "coalesce.ml" 167 6530 6558 "coalesce.ml" 167 6530 6559
+)
+"coalesce.ml" 168 6562 6572 "coalesce.ml" 168 6562 6582
+call(
+  stack
+)
+type(
+  Ssa.stmt list
+)
+"coalesce.ml" 169 6588 6603 "coalesce.ml" 169 6588 6604
+type(
+  Ssa.exp
+)
+ident(
+  def e "coalesce.ml" 169 6588 6619 "coalesce.ml" 172 6765 6788
+)
+"coalesce.ml" 169 6588 6606 "coalesce.ml" 169 6588 6607
+type(
+  Ssa.attrs
+)
+"coalesce.ml" 169 6588 6594 "coalesce.ml" 169 6588 6608
+type(
+  Ssa.stmt
+)
+"coalesce.ml" 169 6588 6594 "coalesce.ml" 169 6588 6613
+type(
+  Ssa.stmt
+)
+ident(
+  def s "coalesce.ml" 169 6588 6619 "coalesce.ml" 172 6765 6788
+)
+"coalesce.ml" 169 6588 6615 "coalesce.ml" 169 6588 6617
+type(
+  Ssa.stmt list
+)
+ident(
+  def tl "coalesce.ml" 169 6588 6619 "coalesce.ml" 172 6765 6788
+)
+"coalesce.ml" 169 6588 6594 "coalesce.ml" 169 6588 6617
+type(
+  Ssa.stmt list
+)
+"coalesce.ml" 169 6588 6624 "coalesce.ml" 169 6588 6638
+type(
+  Ssa.exp -> Type.label option
+)
+ident(
+  ext_ref Ssa.lab_of_exp
+)
+"coalesce.ml" 169 6588 6639 "coalesce.ml" 169 6588 6640
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "coalesce.ml" 169 6588 6603 "coalesce.ml" 169 6588 6604
+)
+"coalesce.ml" 169 6588 6624 "coalesce.ml" 169 6588 6640
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"coalesce.ml" 169 6588 6641 "coalesce.ml" 169 6588 6643
+type(
+  Type.label option -> Type.label option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"coalesce.ml" 169 6588 6644 "coalesce.ml" 169 6588 6648
+type(
+  Type.label option
+)
+"coalesce.ml" 169 6588 6624 "coalesce.ml" 169 6588 6648
+type(
+  bool
+)
+"coalesce.ml" 170 6652 6662 "coalesce.ml" 170 6652 6665
+type(
+  string
+)
+"coalesce.ml" 170 6652 6668 "coalesce.ml" 170 6652 6694
+type(
+  string
+)
+"coalesce.ml" 170 6652 6695 "coalesce.ml" 170 6652 6696
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"coalesce.ml" 170 6652 6698 "coalesce.ml" 170 6652 6719
+type(
+  Ssa.stmt -> string
+)
+ident(
+  ext_ref Pp.ssa_stmt_to_string
+)
+"coalesce.ml" 170 6652 6720 "coalesce.ml" 170 6652 6721
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref s "coalesce.ml" 169 6588 6594 "coalesce.ml" 169 6588 6613
+)
+"coalesce.ml" 170 6652 6697 "coalesce.ml" 170 6652 6722
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 170 6652 6668 "coalesce.ml" 170 6652 6722
+call(
+  stack
+)
+type(
+  string
+)
+"coalesce.ml" 171 6726 6736 "coalesce.ml" 171 6726 6738
+type(
+  Ssa.stmt
+)
+"coalesce.ml" 171 6726 6753 "coalesce.ml" 171 6726 6756
+type(
+  string
+)
+ident(
+  int_ref str "coalesce.ml" 170 6652 6662 "coalesce.ml" 170 6652 6665
+)
+"coalesce.ml" 171 6726 6758 "coalesce.ml" 171 6726 6760
+type(
+  Ssa.attrs
+)
+"coalesce.ml" 171 6726 6741 "coalesce.ml" 171 6726 6761
+type(
+  Ssa.stmt
+)
+"coalesce.ml" 172 6765 6771 "coalesce.ml" 172 6765 6779
+type(
+  Ssa.stmt list -> Ssa.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"coalesce.ml" 172 6765 6781 "coalesce.ml" 172 6765 6783
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref rs "coalesce.ml" 171 6726 6736 "coalesce.ml" 171 6726 6738
+)
+"coalesce.ml" 172 6765 6785 "coalesce.ml" 172 6765 6787
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref tl "coalesce.ml" 169 6588 6615 "coalesce.ml" 169 6588 6617
+)
+"coalesce.ml" 172 6765 6780 "coalesce.ml" 172 6765 6788
+type(
+  Ssa.stmt list
+)
+"coalesce.ml" 172 6765 6771 "coalesce.ml" 172 6765 6788
+call(
+  tail
+)
+type(
+  Ssa.stmt list
+)
+"coalesce.ml" 171 6726 6732 "coalesce.ml" 172 6765 6788
+type(
+  Ssa.stmt list
+)
+"coalesce.ml" 170 6652 6658 "coalesce.ml" 172 6765 6788
+type(
+  Ssa.stmt list
+)
+"coalesce.ml" 169 6588 6619 "coalesce.ml" 172 6765 6788
+type(
+  Ssa.stmt list
+)
+"coalesce.ml" 173 6789 6795 "coalesce.ml" 173 6789 6796
+type(
+  Ssa.stmt list
+)
+"coalesce.ml" 173 6789 6800 "coalesce.ml" 173 6789 6801
+type(
+  Ssa.stmt list
+)
+ident(
+  int_ref p "coalesce.ml" 167 6530 6558 "coalesce.ml" 167 6530 6559
+)
+"coalesce.ml" 168 6562 6566 "coalesce.ml" 173 6789 6801
+type(
+  Ssa.stmt list
+)
+"coalesce.ml" 174 6802 6808 "coalesce.ml" 174 6802 6828
+type(
+  G.t -> G.V.t -> bool
+)
+ident(
+  def is_safe_coalesce_src "coalesce.ml" 183 7067 7069 "coalesce.ml" 186 7159 7162
+)
+"coalesce.ml" 174 6802 6829 "coalesce.ml" 174 6802 6830
+type(
+  G.t
+)
+ident(
+  def g "coalesce.ml" 174 6802 6831 "coalesce.ml" 182 7023 7066
+)
+"coalesce.ml" 174 6802 6831 "coalesce.ml" 174 6802 6832
+type(
+  G.V.t
+)
+ident(
+  def v "coalesce.ml" 175 6835 6839 "coalesce.ml" 182 7023 7066
+)
+"coalesce.ml" 175 6835 6843 "coalesce.ml" 175 6835 6844
+type(
+  lang
+)
+"coalesce.ml" 175 6835 6847 "coalesce.ml" 175 6835 6856
+type(
+  G.t -> G.V.t -> lang
+)
+"coalesce.ml" 175 6835 6857 "coalesce.ml" 175 6835 6858
+type(
+  G.t
+)
+ident(
+  int_ref g "coalesce.ml" 174 6802 6829 "coalesce.ml" 174 6802 6830
+)
+"coalesce.ml" 175 6835 6859 "coalesce.ml" 175 6835 6860
+type(
+  G.V.t
+)
+ident(
+  int_ref v "coalesce.ml" 174 6802 6831 "coalesce.ml" 174 6802 6832
+)
+"coalesce.ml" 175 6835 6847 "coalesce.ml" 175 6835 6860
+call(
+  stack
+)
+type(
+  lang
+)
+"coalesce.ml" 176 6864 6872 "coalesce.ml" 176 6864 6896
+type(
+  Ssa.stmt -> bool
+)
+"coalesce.ml" 177 6908 6928 "coalesce.ml" 177 6908 6929
+type(
+  Ssa.attrs
+)
+type(
+  string
+)
+"coalesce.ml" 177 6908 6916 "coalesce.ml" 177 6908 6929
+type(
+  Ssa.stmt
+)
+"coalesce.ml" 178 6930 6948 "coalesce.ml" 178 6930 6949
+type(
+  Ssa.attrs
+)
+type(
+  Type.label
+)
+"coalesce.ml" 178 6930 6938 "coalesce.ml" 178 6930 6949
+type(
+  Ssa.stmt
+)
+"coalesce.ml" 177 6908 6916 "coalesce.ml" 178 6930 6949
+type(
+  Ssa.stmt
+)
+"coalesce.ml" 178 6930 6953 "coalesce.ml" 178 6930 6957
+type(
+  bool
+)
+"coalesce.ml" 179 6958 6966 "coalesce.ml" 179 6958 6967
+type(
+  Ssa.stmt
+)
+"coalesce.ml" 179 6958 6971 "coalesce.ml" 179 6958 6976
+type(
+  bool
+)
+"coalesce.ml" 176 6864 6899 "coalesce.ml" 179 6958 6976
+type(
+  Ssa.stmt -> bool
+)
+"coalesce.ml" 181 6984 6992 "coalesce.ml" 181 6984 6993
+type(
+  lang
+)
+"coalesce.ml" 181 6984 6996 "coalesce.ml" 181 6984 7017
+type(
+  lang -> lang
+)
+ident(
+  int_ref remove_redundant_jump "coalesce.ml" 167 6530 6536 "coalesce.ml" 167 6530 6557
+)
+"coalesce.ml" 181 6984 7018 "coalesce.ml" 181 6984 7019
+type(
+  lang
+)
+ident(
+  int_ref p "coalesce.ml" 175 6835 6843 "coalesce.ml" 175 6835 6844
+)
+"coalesce.ml" 181 6984 6996 "coalesce.ml" 181 6984 7019
+call(
+  stack
+)
+type(
+  lang
+)
+"coalesce.ml" 182 7023 7027 "coalesce.ml" 182 7023 7039
+type(
+  (stmt -> bool) -> lang -> bool
+)
+ident(
+  ext_ref BatListFull.List.for_all
+)
+"coalesce.ml" 182 7023 7040 "coalesce.ml" 182 7023 7064
+type(
+  stmt -> bool
+)
+ident(
+  int_ref is_safe_to_coalesce_stmt "coalesce.ml" 176 6864 6872 "coalesce.ml" 176 6864 6896
+)
+"coalesce.ml" 182 7023 7065 "coalesce.ml" 182 7023 7066
+type(
+  lang
+)
+ident(
+  int_ref p "coalesce.ml" 181 6984 6992 "coalesce.ml" 181 6984 6993
+)
+"coalesce.ml" 182 7023 7027 "coalesce.ml" 182 7023 7066
+call(
+  tail
+)
+type(
+  bool
+)
+"coalesce.ml" 181 6984 6988 "coalesce.ml" 182 7023 7066
+type(
+  bool
+)
+"coalesce.ml" 176 6864 6868 "coalesce.ml" 182 7023 7066
+type(
+  bool
+)
+"coalesce.ml" 175 6835 6839 "coalesce.ml" 182 7023 7066
+type(
+  bool
+)
+"coalesce.ml" 183 7067 7073 "coalesce.ml" 183 7067 7093
+type(
+  'a -> G.V.t -> bool
+)
+ident(
+  def is_safe_coalesce_dst "coalesce.ml" 185 7142 7158 "coalesce.ml" 186 7159 7162
+)
+"coalesce.ml" 183 7067 7094 "coalesce.ml" 183 7067 7095
+type(
+  'a
+)
+ident(
+  def g "coalesce.ml" 183 7067 7096 "coalesce.ml" 185 7142 7158
+)
+"coalesce.ml" 183 7067 7096 "coalesce.ml" 183 7067 7097
+type(
+  G.V.t
+)
+ident(
+  def v "coalesce.ml" 183 7067 7100 "coalesce.ml" 185 7142 7158
+)
+"coalesce.ml" 183 7067 7106 "coalesce.ml" 183 7067 7115
+type(
+  G.V.t -> G.V.label
+)
+ident(
+  ext_ref G.V.label
+)
+"coalesce.ml" 183 7067 7116 "coalesce.ml" 183 7067 7117
+type(
+  G.V.t
+)
+ident(
+  int_ref v "coalesce.ml" 183 7067 7096 "coalesce.ml" 183 7067 7097
+)
+"coalesce.ml" 183 7067 7106 "coalesce.ml" 183 7067 7117
+call(
+  stack
+)
+type(
+  G.V.label
+)
+"coalesce.ml" 184 7123 7132 "coalesce.ml" 184 7123 7133
+type(
+  int
+)
+"coalesce.ml" 184 7123 7129 "coalesce.ml" 184 7123 7133
+type(
+  G.V.label
+)
+"coalesce.ml" 184 7123 7137 "coalesce.ml" 184 7123 7141
+type(
+  bool
+)
+"coalesce.ml" 185 7142 7148 "coalesce.ml" 185 7142 7149
+type(
+  G.V.label
+)
+"coalesce.ml" 185 7142 7153 "coalesce.ml" 185 7142 7158
+type(
+  bool
+)
+"coalesce.ml" 183 7067 7100 "coalesce.ml" 185 7142 7158
+type(
+  bool
+)
+"coalesce.ml" 188 7164 7186 "coalesce.ml" 188 7164 7204
+call(
+  stack
+)
+"coalesce.ml" 189 7205 7227 "coalesce.ml" 189 7205 7245
+call(
+  stack
+)
+"coalesce.ml" 191 7247 7251 "coalesce.ml" 191 7247 7263
+type(
+  ?nocoalesce:AST_Coalesce.GS.elt list ->
+  AST_Coalesce.G.t -> AST_Coalesce.G.t
+)
+ident(
+  def coalesce_ast "coalesce.ml" 192 7288 7288 --
+)
+"coalesce.ml" 191 7247 7266 "coalesce.ml" 191 7247 7287
+type(
+  ?nocoalesce:AST_Coalesce.GS.elt list ->
+  AST_Coalesce.G.t -> AST_Coalesce.G.t
+)
+ident(
+  ext_ref AST_Coalesce.coalesce
+)
+"coalesce.ml" 192 7288 7292 "coalesce.ml" 192 7288 7304
+type(
+  ?nocoalesce:SSA_Coalesce.GS.elt list ->
+  SSA_Coalesce.G.t -> SSA_Coalesce.G.t
+)
+ident(
+  def coalesce_ssa "coalesce.ml" 192 7288 7328 --
+)
+"coalesce.ml" 192 7288 7307 "coalesce.ml" 192 7288 7328
+type(
+  ?nocoalesce:SSA_Coalesce.GS.elt list ->
+  SSA_Coalesce.G.t -> SSA_Coalesce.G.t
+)
+ident(
+  ext_ref SSA_Coalesce.coalesce
+)

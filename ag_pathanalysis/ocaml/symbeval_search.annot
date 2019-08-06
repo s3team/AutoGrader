@@ -1,0 +1,3038 @@
+"symbeval_search.ml" 6 129 162 "symbeval_search.ml" 6 129 166
+type(
+  string
+)
+ident(
+  def name "symbeval_search.ml" 6 129 199 "symbeval_search.ml" 6 129 203
+)
+"symbeval_search.ml" 6 129 169 "symbeval_search.ml" 6 129 180
+type(
+  string
+)
+"symbeval_search.ml" 6 129 185 "symbeval_search.ml" 6 129 192
+type(
+  [> `Debug ]
+)
+ident(
+  def default "symbeval_search.ml" 6 129 199 "symbeval_search.ml" 6 129 203
+)
+"symbeval_search.ml" 6 129 193 "symbeval_search.ml" 6 129 199
+type(
+  [> `Debug ] as 'a
+)
+"symbeval_search.ml" 6 129 140 "symbeval_search.ml" 6 129 204
+call(
+  stack
+)
+"symbeval_search.ml" 54 1212 1218 "symbeval_search.ml" 54 1212 1222
+type(
+  Symbeval.instr list ->
+  Symbeval.SymbolicSlow.Form.init ->
+  (Symbeval.SymbolicSlow.MemL.t, Symbeval.SymbolicSlow.Form.t) Symbeval.ctx
+)
+ident(
+  def init "symbeval_search.ml" 55 1260 1262 "symbeval_search.ml" 56 1291 1294
+)
+"symbeval_search.ml" 54 1212 1225 "symbeval_search.ml" 54 1212 1259
+type(
+  Symbeval.instr list ->
+  Symbeval.SymbolicSlow.Form.init ->
+  (Symbeval.SymbolicSlow.MemL.t, Symbeval.SymbolicSlow.Form.t) Symbeval.ctx
+)
+ident(
+  ext_ref Symbeval.SymbolicSlow.build_default_context
+)
+"symbeval_search.ml" 55 1260 1266 "symbeval_search.ml" 55 1260 1270
+type(
+  (Symbeval.SymbolicSlow.MemL.t, Symbeval.SymbolicSlow.Form.t) Symbeval.ctx ->
+  (Symbeval.SymbolicSlow.MemL.t, Symbeval.SymbolicSlow.Form.t) Symbeval.ctx
+  list
+)
+ident(
+  def eval "symbeval_search.ml" 55 1260 1290 "symbeval_search.ml" 56 1291 1294
+)
+"symbeval_search.ml" 55 1260 1273 "symbeval_search.ml" 55 1260 1290
+type(
+  (Symbeval.SymbolicSlow.MemL.t, Symbeval.SymbolicSlow.Form.t) Symbeval.ctx ->
+  (Symbeval.SymbolicSlow.MemL.t, Symbeval.SymbolicSlow.Form.t) Symbeval.ctx
+  list
+)
+ident(
+  ext_ref Symbeval.SymbolicSlow.eval
+)
+"symbeval_search.ml" 61 1340 1346 "symbeval_search.ml" 61 1340 1350
+type(
+  Symbeval.instr list ->
+  Symbeval.Symbolic.Form.init ->
+  (Symbeval.Symbolic.MemL.t, Symbeval.Symbolic.Form.t) Symbeval.ctx
+)
+ident(
+  def init "symbeval_search.ml" 62 1384 1386 "symbeval_search.ml" 63 1411 1414
+)
+"symbeval_search.ml" 61 1340 1353 "symbeval_search.ml" 61 1340 1383
+type(
+  Symbeval.instr list ->
+  Symbeval.Symbolic.Form.init ->
+  (Symbeval.Symbolic.MemL.t, Symbeval.Symbolic.Form.t) Symbeval.ctx
+)
+ident(
+  ext_ref Symbeval.Symbolic.build_default_context
+)
+"symbeval_search.ml" 62 1384 1390 "symbeval_search.ml" 62 1384 1394
+type(
+  (Symbeval.Symbolic.MemL.t, Symbeval.Symbolic.Form.t) Symbeval.ctx ->
+  (Symbeval.Symbolic.MemL.t, Symbeval.Symbolic.Form.t) Symbeval.ctx list
+)
+ident(
+  def eval "symbeval_search.ml" 62 1384 1410 "symbeval_search.ml" 63 1411 1414
+)
+"symbeval_search.ml" 62 1384 1397 "symbeval_search.ml" 62 1384 1410
+type(
+  (Symbeval.Symbolic.MemL.t, Symbeval.Symbolic.Form.t) Symbeval.ctx ->
+  (Symbeval.Symbolic.MemL.t, Symbeval.Symbolic.Form.t) Symbeval.ctx list
+)
+ident(
+  ext_ref Symbeval.Symbolic.eval
+)
+"symbeval_search.ml" 68 1472 1485 "symbeval_search.ml" 68 1472 1497
+call(
+  stack
+)
+"symbeval_search.ml" 70 1499 1509 "symbeval_search.ml" 70 1499 1515
+type(
+  Ast.exp -> Symbolic.Form.t list -> S.t -> Symbolic.Form.t list
+)
+ident(
+  def search "symbeval_search.ml" 70 1499 1501 "symbeval_search.ml" 98 2637 2640
+)
+"symbeval_search.ml" 70 1499 1516 "symbeval_search.ml" 70 1499 1520
+type(
+  Ast.exp
+)
+ident(
+  def post "symbeval_search.ml" 70 1499 1521 "symbeval_search.ml" 87 2237 2269
+)
+"symbeval_search.ml" 70 1499 1521 "symbeval_search.ml" 70 1499 1531
+type(
+  Symbolic.Form.t list
+)
+ident(
+  def predicates "symbeval_search.ml" 70 1499 1532 "symbeval_search.ml" 87 2237 2269
+)
+"symbeval_search.ml" 70 1499 1532 "symbeval_search.ml" 70 1499 1533
+type(
+  S.t
+)
+ident(
+  def q "symbeval_search.ml" 71 1536 1540 "symbeval_search.ml" 87 2237 2269
+)
+"symbeval_search.ml" 71 1536 1546 "symbeval_search.ml" 71 1536 1556
+type(
+  S.t -> ((S.myctx * S.data) * S.t) option
+)
+ident(
+  ext_ref S.pop_next
+)
+"symbeval_search.ml" 71 1536 1557 "symbeval_search.ml" 71 1536 1558
+type(
+  S.t
+)
+ident(
+  int_ref q "symbeval_search.ml" 70 1499 1532 "symbeval_search.ml" 70 1499 1533
+)
+"symbeval_search.ml" 71 1536 1546 "symbeval_search.ml" 71 1536 1558
+call(
+  stack
+)
+type(
+  ((S.myctx * S.data) * S.t) option
+)
+"symbeval_search.ml" 72 1564 1570 "symbeval_search.ml" 72 1564 1574
+type(
+  ((S.myctx * S.data) * S.t) option
+)
+"symbeval_search.ml" 72 1564 1578 "symbeval_search.ml" 72 1564 1588
+type(
+  Symbolic.Form.t list
+)
+ident(
+  int_ref predicates "symbeval_search.ml" 70 1499 1521 "symbeval_search.ml" 70 1499 1531
+)
+"symbeval_search.ml" 73 1589 1602 "symbeval_search.ml" 73 1589 1604
+type(
+  S.myctx
+)
+ident(
+  def st "symbeval_search.ml" 74 1614 1622 "symbeval_search.ml" 87 2237 2269
+)
+"symbeval_search.ml" 73 1589 1605 "symbeval_search.ml" 73 1589 1606
+type(
+  S.data
+)
+ident(
+  def d "symbeval_search.ml" 74 1614 1622 "symbeval_search.ml" 87 2237 2269
+)
+"symbeval_search.ml" 73 1589 1601 "symbeval_search.ml" 73 1589 1607
+type(
+  S.myctx * S.data
+)
+"symbeval_search.ml" 73 1589 1608 "symbeval_search.ml" 73 1589 1609
+type(
+  S.t
+)
+ident(
+  def q "symbeval_search.ml" 74 1614 1622 "symbeval_search.ml" 87 2237 2269
+)
+"symbeval_search.ml" 73 1589 1600 "symbeval_search.ml" 73 1589 1610
+type(
+  (S.myctx * S.data) * S.t
+)
+"symbeval_search.ml" 73 1589 1595 "symbeval_search.ml" 73 1589 1610
+type(
+  ((S.myctx * S.data) * S.t) option
+)
+"symbeval_search.ml" 74 1614 1627 "symbeval_search.ml" 74 1614 1636
+type(
+  Symbolic.myctx list
+)
+"symbeval_search.ml" 74 1614 1638 "symbeval_search.ml" 74 1614 1648
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 74 1614 1626 "symbeval_search.ml" 74 1614 1649
+type(
+  Symbolic.myctx list * Symbolic.Form.t list
+)
+"symbeval_search.ml" 75 1652 1667 "symbeval_search.ml" 75 1652 1680
+type(
+  Symbolic.myctx -> Symbolic.myctx list
+)
+ident(
+  ext_ref Symbolic.eval
+)
+"symbeval_search.ml" 75 1652 1681 "symbeval_search.ml" 75 1652 1683
+type(
+  S.myctx
+)
+ident(
+  int_ref st "symbeval_search.ml" 73 1589 1602 "symbeval_search.ml" 73 1589 1604
+)
+"symbeval_search.ml" 75 1652 1667 "symbeval_search.ml" 75 1652 1683
+call(
+  stack
+)
+type(
+  Symbolic.myctx list
+)
+"symbeval_search.ml" 75 1652 1685 "symbeval_search.ml" 75 1652 1695
+type(
+  Symbolic.Form.t list
+)
+ident(
+  int_ref predicates "symbeval_search.ml" 70 1499 1521 "symbeval_search.ml" 70 1499 1531
+)
+"symbeval_search.ml" 75 1652 1666 "symbeval_search.ml" 75 1652 1696
+type(
+  Symbolic.myctx list * Symbolic.Form.t list
+)
+"symbeval_search.ml" 76 1702 1730 "symbeval_search.ml" 76 1702 1731
+type(
+  Symbeval.varval option
+)
+ident(
+  def v "symbeval_search.ml" 77 1738 1752 "symbeval_search.ml" 79 1881 1919
+)
+"symbeval_search.ml" 76 1702 1732 "symbeval_search.ml" 76 1702 1733
+type(
+  Symbolic.myctx
+)
+ident(
+  def s "symbeval_search.ml" 77 1738 1752 "symbeval_search.ml" 79 1881 1919
+)
+"symbeval_search.ml" 76 1702 1714 "symbeval_search.ml" 76 1702 1734
+type(
+  exn
+)
+"symbeval_search.ml" 77 1738 1756 "symbeval_search.ml" 77 1738 1757
+type(
+  Ast.exp
+)
+"symbeval_search.ml" 77 1738 1760 "symbeval_search.ml" 77 1738 1771
+type(
+  Symbeval.varval -> Ast.exp
+)
+ident(
+  ext_ref Symbeval.symb_to_exp
+)
+"symbeval_search.ml" 77 1738 1773 "symbeval_search.ml" 77 1738 1791
+type(
+  Symbolic.MemL.t -> Ast.exp -> Symbeval.varval
+)
+ident(
+  ext_ref Symbolic.eval_expr
+)
+"symbeval_search.ml" 77 1738 1792 "symbeval_search.ml" 77 1738 1793
+type(
+  Symbolic.myctx
+)
+ident(
+  int_ref s "symbeval_search.ml" 76 1702 1732 "symbeval_search.ml" 76 1702 1733
+)
+"symbeval_search.ml" 77 1738 1792 "symbeval_search.ml" 77 1738 1799
+type(
+  Symbolic.MemL.t
+)
+"symbeval_search.ml" 77 1738 1800 "symbeval_search.ml" 77 1738 1804
+type(
+  Ast.exp
+)
+ident(
+  int_ref post "symbeval_search.ml" 70 1499 1516 "symbeval_search.ml" 70 1499 1520
+)
+"symbeval_search.ml" 77 1738 1772 "symbeval_search.ml" 77 1738 1805
+call(
+  stack
+)
+type(
+  Symbeval.varval
+)
+"symbeval_search.ml" 77 1738 1760 "symbeval_search.ml" 77 1738 1805
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"symbeval_search.ml" 78 1809 1827 "symbeval_search.ml" 78 1809 1831
+type(
+  Symbolic.Form.t
+)
+"symbeval_search.ml" 78 1809 1834 "symbeval_search.ml" 78 1809 1862
+type(
+  Symbolic.Form.t -> Ast.exp -> Symbeval.form_type -> Symbolic.Form.t
+)
+ident(
+  ext_ref Symbolic.Form.add_to_formula
+)
+"symbeval_search.ml" 78 1809 1863 "symbeval_search.ml" 78 1809 1864
+type(
+  Symbolic.myctx
+)
+ident(
+  int_ref s "symbeval_search.ml" 76 1702 1732 "symbeval_search.ml" 76 1702 1733
+)
+"symbeval_search.ml" 78 1809 1863 "symbeval_search.ml" 78 1809 1869
+type(
+  Symbolic.Form.t
+)
+"symbeval_search.ml" 78 1809 1870 "symbeval_search.ml" 78 1809 1871
+type(
+  Ast.exp
+)
+ident(
+  int_ref q "symbeval_search.ml" 77 1738 1756 "symbeval_search.ml" 77 1738 1757
+)
+"symbeval_search.ml" 78 1809 1872 "symbeval_search.ml" 78 1809 1877
+type(
+  Symbeval.form_type
+)
+"symbeval_search.ml" 78 1809 1834 "symbeval_search.ml" 78 1809 1877
+call(
+  stack
+)
+type(
+  Symbolic.Form.t
+)
+"symbeval_search.ml" 79 1881 1896 "symbeval_search.ml" 79 1881 1898
+type(
+  Symbolic.myctx list
+)
+"symbeval_search.ml" 79 1881 1900 "symbeval_search.ml" 79 1881 1904
+type(
+  Symbolic.Form.t
+)
+ident(
+  int_ref pred "symbeval_search.ml" 78 1809 1827 "symbeval_search.ml" 78 1809 1831
+)
+"symbeval_search.ml" 79 1881 1908 "symbeval_search.ml" 79 1881 1918
+type(
+  Symbolic.Form.t list
+)
+ident(
+  int_ref predicates "symbeval_search.ml" 70 1499 1521 "symbeval_search.ml" 70 1499 1531
+)
+"symbeval_search.ml" 79 1881 1900 "symbeval_search.ml" 79 1881 1918
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 79 1881 1895 "symbeval_search.ml" 79 1881 1919
+type(
+  Symbolic.myctx list * Symbolic.Form.t list
+)
+"symbeval_search.ml" 78 1809 1823 "symbeval_search.ml" 79 1881 1919
+type(
+  Symbolic.myctx list * Symbolic.Form.t list
+)
+"symbeval_search.ml" 77 1738 1752 "symbeval_search.ml" 79 1881 1919
+type(
+  Symbolic.myctx list * Symbolic.Form.t list
+)
+"symbeval_search.ml" 80 1920 1964 "symbeval_search.ml" 80 1920 1968
+type(
+  Symbolic.Form.t
+)
+ident(
+  def pred "symbeval_search.ml" 81 1973 1987 "symbeval_search.ml" 81 1973 2011
+)
+"symbeval_search.ml" 80 1920 1958 "symbeval_search.ml" 80 1920 1969
+type(
+  Symbolic.myctx
+)
+"symbeval_search.ml" 80 1920 1932 "symbeval_search.ml" 80 1920 1969
+type(
+  exn
+)
+"symbeval_search.ml" 81 1973 1988 "symbeval_search.ml" 81 1973 1990
+type(
+  Symbolic.myctx list
+)
+"symbeval_search.ml" 81 1973 1992 "symbeval_search.ml" 81 1973 1996
+type(
+  Symbolic.Form.t
+)
+ident(
+  int_ref pred "symbeval_search.ml" 80 1920 1964 "symbeval_search.ml" 80 1920 1968
+)
+"symbeval_search.ml" 81 1973 2000 "symbeval_search.ml" 81 1973 2010
+type(
+  Symbolic.Form.t list
+)
+ident(
+  int_ref predicates "symbeval_search.ml" 70 1499 1521 "symbeval_search.ml" 70 1499 1531
+)
+"symbeval_search.ml" 81 1973 1992 "symbeval_search.ml" 81 1973 2010
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 81 1973 1987 "symbeval_search.ml" 81 1973 2011
+type(
+  Symbolic.myctx list * Symbolic.Form.t list
+)
+"symbeval_search.ml" 82 2012 2050 "symbeval_search.ml" 82 2012 2052
+type(
+  Type.addr
+)
+ident(
+  def pc "symbeval_search.ml" 83 2057 2071 "symbeval_search.ml" 84 2115 2145
+)
+"symbeval_search.ml" 82 2012 2046 "symbeval_search.ml" 82 2012 2053
+type(
+  Symbolic.myctx
+)
+"symbeval_search.ml" 82 2012 2024 "symbeval_search.ml" 82 2012 2053
+type(
+  exn
+)
+"symbeval_search.ml" 83 2057 2071 "symbeval_search.ml" 83 2057 2078
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.wprintf
+)
+"symbeval_search.ml" 83 2057 2079 "symbeval_search.ml" 83 2057 2105
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"symbeval_search.ml" 83 2057 2107 "symbeval_search.ml" 83 2057 2109
+type(
+  Type.addr -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"symbeval_search.ml" 83 2057 2110 "symbeval_search.ml" 83 2057 2112
+type(
+  Type.addr
+)
+ident(
+  int_ref pc "symbeval_search.ml" 82 2012 2050 "symbeval_search.ml" 82 2012 2052
+)
+"symbeval_search.ml" 83 2057 2106 "symbeval_search.ml" 83 2057 2113
+call(
+  stack
+)
+type(
+  string
+)
+"symbeval_search.ml" 83 2057 2071 "symbeval_search.ml" 83 2057 2113
+call(
+  stack
+)
+type(
+  unit
+)
+"symbeval_search.ml" 84 2115 2130 "symbeval_search.ml" 84 2115 2132
+type(
+  Symbolic.myctx list
+)
+"symbeval_search.ml" 84 2115 2134 "symbeval_search.ml" 84 2115 2144
+type(
+  Symbolic.Form.t list
+)
+ident(
+  int_ref predicates "symbeval_search.ml" 70 1499 1521 "symbeval_search.ml" 70 1499 1531
+)
+"symbeval_search.ml" 84 2115 2129 "symbeval_search.ml" 84 2115 2145
+type(
+  Symbolic.myctx list * Symbolic.Form.t list
+)
+"symbeval_search.ml" 83 2057 2071 "symbeval_search.ml" 84 2115 2145
+type(
+  Symbolic.myctx list * Symbolic.Form.t list
+)
+"symbeval_search.ml" 75 1652 1662 "symbeval_search.ml" 84 2115 2145
+type(
+  Symbolic.myctx list * Symbolic.Form.t list
+)
+"symbeval_search.ml" 86 2183 2195 "symbeval_search.ml" 86 2183 2196
+type(
+  S.t
+)
+"symbeval_search.ml" 86 2183 2199 "symbeval_search.ml" 86 2183 2216
+type(
+  S.t -> S.myctx -> S.data -> S.myctx list -> S.t
+)
+ident(
+  ext_ref S.add_next_states
+)
+"symbeval_search.ml" 86 2183 2217 "symbeval_search.ml" 86 2183 2218
+type(
+  S.t
+)
+ident(
+  int_ref q "symbeval_search.ml" 73 1589 1608 "symbeval_search.ml" 73 1589 1609
+)
+"symbeval_search.ml" 86 2183 2219 "symbeval_search.ml" 86 2183 2221
+type(
+  S.myctx
+)
+ident(
+  int_ref st "symbeval_search.ml" 73 1589 1602 "symbeval_search.ml" 73 1589 1604
+)
+"symbeval_search.ml" 86 2183 2222 "symbeval_search.ml" 86 2183 2223
+type(
+  S.data
+)
+ident(
+  int_ref d "symbeval_search.ml" 73 1589 1605 "symbeval_search.ml" 73 1589 1606
+)
+"symbeval_search.ml" 86 2183 2224 "symbeval_search.ml" 86 2183 2233
+type(
+  S.myctx list
+)
+ident(
+  int_ref newstates "symbeval_search.ml" 74 1614 1627 "symbeval_search.ml" 74 1614 1636
+)
+"symbeval_search.ml" 86 2183 2199 "symbeval_search.ml" 86 2183 2233
+call(
+  stack
+)
+type(
+  S.t
+)
+"symbeval_search.ml" 87 2237 2245 "symbeval_search.ml" 87 2237 2251
+type(
+  Ast.exp -> Symbolic.Form.t list -> S.t -> Symbolic.Form.t list
+)
+ident(
+  int_ref search "symbeval_search.ml" 70 1499 1509 "symbeval_search.ml" 70 1499 1515
+)
+"symbeval_search.ml" 87 2237 2252 "symbeval_search.ml" 87 2237 2256
+type(
+  Ast.exp
+)
+ident(
+  int_ref post "symbeval_search.ml" 70 1499 1516 "symbeval_search.ml" 70 1499 1520
+)
+"symbeval_search.ml" 87 2237 2257 "symbeval_search.ml" 87 2237 2267
+type(
+  Symbolic.Form.t list
+)
+ident(
+  int_ref predicates "symbeval_search.ml" 74 1614 1638 "symbeval_search.ml" 74 1614 1648
+)
+"symbeval_search.ml" 87 2237 2268 "symbeval_search.ml" 87 2237 2269
+type(
+  S.t
+)
+ident(
+  int_ref q "symbeval_search.ml" 86 2183 2195 "symbeval_search.ml" 86 2183 2196
+)
+"symbeval_search.ml" 87 2237 2245 "symbeval_search.ml" 87 2237 2269
+call(
+  tail
+)
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 86 2183 2191 "symbeval_search.ml" 87 2237 2269
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 74 1614 1622 "symbeval_search.ml" 87 2237 2269
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 71 1536 1540 "symbeval_search.ml" 87 2237 2269
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 89 2271 2277 "symbeval_search.ml" 89 2271 2293
+type(
+  S.initdata -> Ast.stmt list -> Ast.exp -> Symbolic.Form.output
+)
+ident(
+  def eval_ast_program "symbeval_search.ml" 96 2557 2635 "symbeval_search.ml" 98 2637 2640
+)
+"symbeval_search.ml" 89 2271 2294 "symbeval_search.ml" 89 2271 2302
+type(
+  S.initdata
+)
+ident(
+  def initdata "symbeval_search.ml" 89 2271 2303 "symbeval_search.ml" 96 2557 2635
+)
+"symbeval_search.ml" 89 2271 2303 "symbeval_search.ml" 89 2271 2307
+type(
+  Ast.stmt list
+)
+ident(
+  def prog "symbeval_search.ml" 89 2271 2308 "symbeval_search.ml" 96 2557 2635
+)
+"symbeval_search.ml" 89 2271 2308 "symbeval_search.ml" 89 2271 2312
+type(
+  Ast.exp
+)
+ident(
+  def post "symbeval_search.ml" 90 2315 2319 "symbeval_search.ml" 96 2557 2635
+)
+"symbeval_search.ml" 90 2315 2323 "symbeval_search.ml" 90 2315 2326
+type(
+  Symbolic.myctx
+)
+"symbeval_search.ml" 90 2315 2329 "symbeval_search.ml" 90 2315 2342
+type(
+  Ast.stmt list -> Symbolic.Form.init -> Symbolic.myctx
+)
+ident(
+  ext_ref Symbolic.init
+)
+"symbeval_search.ml" 90 2315 2343 "symbeval_search.ml" 90 2315 2347
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref prog "symbeval_search.ml" 89 2271 2303 "symbeval_search.ml" 89 2271 2307
+)
+"symbeval_search.ml" 90 2315 2348 "symbeval_search.ml" 90 2315 2350
+type(
+  Symbolic.Form.init
+)
+"symbeval_search.ml" 90 2315 2329 "symbeval_search.ml" 90 2315 2350
+call(
+  stack
+)
+type(
+  Symbolic.myctx
+)
+"symbeval_search.ml" 91 2354 2362 "symbeval_search.ml" 91 2354 2372
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 91 2354 2375 "symbeval_search.ml" 91 2354 2381
+type(
+  Ast.exp -> Symbolic.Form.t list -> S.t -> Symbolic.Form.t list
+)
+ident(
+  int_ref search "symbeval_search.ml" 70 1499 1509 "symbeval_search.ml" 70 1499 1515
+)
+"symbeval_search.ml" 91 2354 2382 "symbeval_search.ml" 91 2354 2386
+type(
+  Ast.exp
+)
+ident(
+  int_ref post "symbeval_search.ml" 89 2271 2308 "symbeval_search.ml" 89 2271 2312
+)
+"symbeval_search.ml" 91 2354 2387 "symbeval_search.ml" 91 2354 2389
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 91 2354 2391 "symbeval_search.ml" 91 2354 2401
+type(
+  S.myctx -> S.initdata -> S.t
+)
+ident(
+  ext_ref S.start_at
+)
+"symbeval_search.ml" 91 2354 2402 "symbeval_search.ml" 91 2354 2405
+type(
+  Symbolic.myctx
+)
+ident(
+  int_ref ctx "symbeval_search.ml" 90 2315 2323 "symbeval_search.ml" 90 2315 2326
+)
+"symbeval_search.ml" 91 2354 2406 "symbeval_search.ml" 91 2354 2414
+type(
+  S.initdata
+)
+ident(
+  int_ref initdata "symbeval_search.ml" 89 2271 2294 "symbeval_search.ml" 89 2271 2302
+)
+"symbeval_search.ml" 91 2354 2390 "symbeval_search.ml" 91 2354 2415
+call(
+  stack
+)
+type(
+  S.t
+)
+"symbeval_search.ml" 91 2354 2375 "symbeval_search.ml" 91 2354 2415
+call(
+  stack
+)
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 92 2419 2426 "symbeval_search.ml" 92 2419 2431
+type(
+  unit -> bool
+)
+ident(
+  ext_ref D.debug
+)
+"symbeval_search.ml" 92 2419 2431 "symbeval_search.ml" 92 2419 2433
+type(
+  unit
+)
+"symbeval_search.ml" 92 2419 2426 "symbeval_search.ml" 92 2419 2433
+call(
+  stack
+)
+type(
+  bool
+)
+"symbeval_search.ml" 92 2419 2439 "symbeval_search.ml" 92 2419 2446
+type(
+  (int -> unit, unit, string, unit) format4 -> int -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"symbeval_search.ml" 92 2419 2447 "symbeval_search.ml" 92 2419 2467
+type(
+  (int -> unit, unit, string, unit) format4
+)
+"symbeval_search.ml" 92 2419 2469 "symbeval_search.ml" 92 2419 2480
+type(
+  Symbolic.Form.t list -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"symbeval_search.ml" 92 2419 2481 "symbeval_search.ml" 92 2419 2491
+type(
+  Symbolic.Form.t list
+)
+ident(
+  int_ref predicates "symbeval_search.ml" 91 2354 2362 "symbeval_search.ml" 91 2354 2372
+)
+"symbeval_search.ml" 92 2419 2468 "symbeval_search.ml" 92 2419 2492
+call(
+  stack
+)
+type(
+  int
+)
+"symbeval_search.ml" 92 2419 2439 "symbeval_search.ml" 92 2419 2492
+call(
+  stack
+)
+type(
+  unit
+)
+"symbeval_search.ml" 92 2419 2423 "symbeval_search.ml" 92 2419 2492
+type(
+  unit
+)
+"symbeval_search.ml" 93 2494 2504 "symbeval_search.ml" 93 2494 2514
+type(
+  Symbolic.Form.t list
+)
+ident(
+  int_ref predicates "symbeval_search.ml" 91 2354 2362 "symbeval_search.ml" 91 2354 2372
+)
+"symbeval_search.ml" 94 2520 2526 "symbeval_search.ml" 94 2520 2528
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 94 2520 2532 "symbeval_search.ml" 94 2520 2545
+type(
+  Symbolic.Form.output
+)
+ident(
+  ext_ref Ast.exp_false
+)
+"symbeval_search.ml" 95 2546 2552 "symbeval_search.ml" 95 2546 2553
+type(
+  Symbolic.Form.t list
+)
+"symbeval_search.ml" 96 2557 2563 "symbeval_search.ml" 96 2557 2577
+type(
+  (Symbolic.Form.output -> Symbolic.Form.output -> Symbolic.Form.output) ->
+  Symbolic.Form.output list -> Symbolic.Form.output
+)
+ident(
+  ext_ref BatList.reduce
+)
+"symbeval_search.ml" 96 2557 2578 "symbeval_search.ml" 96 2557 2584
+type(
+  Symbolic.Form.output -> Symbolic.Form.output -> Symbolic.Form.output
+)
+ident(
+  ext_ref Ast_convenience.exp_or
+)
+"symbeval_search.ml" 96 2557 2586 "symbeval_search.ml" 96 2557 2594
+type(
+  (Symbolic.Form.t -> Symbolic.Form.output) ->
+  Symbolic.Form.t list -> Symbolic.Form.output list
+)
+ident(
+  ext_ref BatListFull.List.map
+)
+"symbeval_search.ml" 96 2557 2595 "symbeval_search.ml" 96 2557 2623
+type(
+  Symbolic.Form.t -> Symbolic.Form.output
+)
+ident(
+  ext_ref Symbolic.Form.output_formula
+)
+"symbeval_search.ml" 96 2557 2624 "symbeval_search.ml" 96 2557 2634
+type(
+  Symbolic.Form.t list
+)
+ident(
+  int_ref predicates "symbeval_search.ml" 91 2354 2362 "symbeval_search.ml" 91 2354 2372
+)
+"symbeval_search.ml" 96 2557 2585 "symbeval_search.ml" 96 2557 2635
+call(
+  stack
+)
+type(
+  Symbolic.Form.output list
+)
+"symbeval_search.ml" 96 2557 2563 "symbeval_search.ml" 96 2557 2635
+call(
+  tail
+)
+type(
+  Symbolic.Form.output
+)
+"symbeval_search.ml" 93 2494 2498 "symbeval_search.ml" 96 2557 2635
+type(
+  Symbolic.Form.output
+)
+"symbeval_search.ml" 92 2419 2423 "symbeval_search.ml" 96 2557 2635
+type(
+  Symbolic.Form.output
+)
+"symbeval_search.ml" 91 2354 2358 "symbeval_search.ml" 96 2557 2635
+type(
+  Symbolic.Form.output
+)
+"symbeval_search.ml" 90 2315 2319 "symbeval_search.ml" 96 2557 2635
+type(
+  Symbolic.Form.output
+)
+"symbeval_search.ml" 105 2818 2824 "symbeval_search.ml" 105 2818 2829
+type(
+  'a list * 'b list
+)
+ident(
+  def empty "symbeval_search.ml" 107 2841 2843 "symbeval_search.ml" 121 3170 3173
+)
+"symbeval_search.ml" 105 2818 2833 "symbeval_search.ml" 105 2818 2835
+type(
+  'a list
+)
+"symbeval_search.ml" 105 2818 2836 "symbeval_search.ml" 105 2818 2838
+type(
+  'b list
+)
+"symbeval_search.ml" 105 2818 2832 "symbeval_search.ml" 105 2818 2839
+type(
+  'a list * 'b list
+)
+"symbeval_search.ml" 107 2841 2847 "symbeval_search.ml" 107 2841 2854
+type(
+  'c * 'd list -> 'd -> 'c * 'd list
+)
+ident(
+  def enqueue "symbeval_search.ml" 109 2876 2878 "symbeval_search.ml" 121 3170 3173
+)
+"symbeval_search.ml" 107 2841 2856 "symbeval_search.ml" 107 2841 2857
+type(
+  'c
+)
+ident(
+  def a "symbeval_search.ml" 107 2841 2861 "symbeval_search.ml" 107 2841 2874
+)
+"symbeval_search.ml" 107 2841 2858 "symbeval_search.ml" 107 2841 2859
+type(
+  'd list
+)
+ident(
+  def b "symbeval_search.ml" 107 2841 2861 "symbeval_search.ml" 107 2841 2874
+)
+"symbeval_search.ml" 107 2841 2855 "symbeval_search.ml" 107 2841 2860
+type(
+  'c * 'd list
+)
+"symbeval_search.ml" 107 2841 2861 "symbeval_search.ml" 107 2841 2862
+type(
+  'd
+)
+ident(
+  def v "symbeval_search.ml" 107 2841 2865 "symbeval_search.ml" 107 2841 2874
+)
+"symbeval_search.ml" 107 2841 2866 "symbeval_search.ml" 107 2841 2867
+type(
+  'c
+)
+ident(
+  int_ref a "symbeval_search.ml" 107 2841 2856 "symbeval_search.ml" 107 2841 2857
+)
+"symbeval_search.ml" 107 2841 2869 "symbeval_search.ml" 107 2841 2870
+type(
+  'd
+)
+ident(
+  int_ref v "symbeval_search.ml" 107 2841 2861 "symbeval_search.ml" 107 2841 2862
+)
+"symbeval_search.ml" 107 2841 2872 "symbeval_search.ml" 107 2841 2873
+type(
+  'd list
+)
+ident(
+  int_ref b "symbeval_search.ml" 107 2841 2858 "symbeval_search.ml" 107 2841 2859
+)
+"symbeval_search.ml" 107 2841 2869 "symbeval_search.ml" 107 2841 2873
+type(
+  'd list
+)
+"symbeval_search.ml" 107 2841 2865 "symbeval_search.ml" 107 2841 2874
+type(
+  'c * 'd list
+)
+"symbeval_search.ml" 109 2876 2882 "symbeval_search.ml" 109 2876 2893
+type(
+  'e * 'f list -> 'f list -> 'e * 'f list
+)
+ident(
+  def enqueue_all "symbeval_search.ml" 112 2934 2936 "symbeval_search.ml" 121 3170 3173
+)
+"symbeval_search.ml" 109 2876 2895 "symbeval_search.ml" 109 2876 2896
+type(
+  'e
+)
+ident(
+  def a "symbeval_search.ml" 109 2876 2900 "symbeval_search.ml" 110 2904 2932
+)
+"symbeval_search.ml" 109 2876 2897 "symbeval_search.ml" 109 2876 2898
+type(
+  'f list
+)
+ident(
+  def b "symbeval_search.ml" 109 2876 2900 "symbeval_search.ml" 110 2904 2932
+)
+"symbeval_search.ml" 109 2876 2894 "symbeval_search.ml" 109 2876 2899
+type(
+  'e * 'f list
+)
+"symbeval_search.ml" 109 2876 2900 "symbeval_search.ml" 109 2876 2901
+type(
+  'f list
+)
+ident(
+  def l "symbeval_search.ml" 110 2904 2908 "symbeval_search.ml" 110 2904 2932
+)
+"symbeval_search.ml" 110 2904 2909 "symbeval_search.ml" 110 2904 2910
+type(
+  'e
+)
+ident(
+  int_ref a "symbeval_search.ml" 109 2876 2895 "symbeval_search.ml" 109 2876 2896
+)
+"symbeval_search.ml" 110 2904 2912 "symbeval_search.ml" 110 2904 2927
+type(
+  'f list -> 'f list -> 'f list
+)
+ident(
+  ext_ref BatListFull.List.rev_append
+)
+"symbeval_search.ml" 110 2904 2928 "symbeval_search.ml" 110 2904 2929
+type(
+  'f list
+)
+ident(
+  int_ref l "symbeval_search.ml" 109 2876 2900 "symbeval_search.ml" 109 2876 2901
+)
+"symbeval_search.ml" 110 2904 2930 "symbeval_search.ml" 110 2904 2931
+type(
+  'f list
+)
+ident(
+  int_ref b "symbeval_search.ml" 109 2876 2897 "symbeval_search.ml" 109 2876 2898
+)
+"symbeval_search.ml" 110 2904 2912 "symbeval_search.ml" 110 2904 2931
+call(
+  stack
+)
+type(
+  'f list
+)
+"symbeval_search.ml" 110 2904 2908 "symbeval_search.ml" 110 2904 2932
+type(
+  'e * 'f list
+)
+"symbeval_search.ml" 112 2934 2940 "symbeval_search.ml" 112 2934 2947
+type(
+  'g list * 'g list -> 'g * ('g list * 'g list)
+)
+ident(
+  def dequeue "symbeval_search.ml" 119 3101 3103 "symbeval_search.ml" 121 3170 3173
+)
+"symbeval_search.ml" 113 2959 2966 "symbeval_search.ml" 113 2959 2967
+type(
+  'g
+)
+ident(
+  def v "symbeval_search.ml" 113 2959 2978 "symbeval_search.ml" 113 2959 2988
+)
+"symbeval_search.ml" 113 2959 2969 "symbeval_search.ml" 113 2959 2970
+type(
+  'g list
+)
+ident(
+  def a "symbeval_search.ml" 113 2959 2978 "symbeval_search.ml" 113 2959 2988
+)
+"symbeval_search.ml" 113 2959 2966 "symbeval_search.ml" 113 2959 2970
+type(
+  'g list
+)
+"symbeval_search.ml" 113 2959 2972 "symbeval_search.ml" 113 2959 2973
+type(
+  'g list
+)
+ident(
+  def b "symbeval_search.ml" 113 2959 2978 "symbeval_search.ml" 113 2959 2988
+)
+"symbeval_search.ml" 113 2959 2965 "symbeval_search.ml" 113 2959 2974
+type(
+  'g list * 'g list
+)
+"symbeval_search.ml" 113 2959 2979 "symbeval_search.ml" 113 2959 2980
+type(
+  'g
+)
+ident(
+  int_ref v "symbeval_search.ml" 113 2959 2966 "symbeval_search.ml" 113 2959 2967
+)
+"symbeval_search.ml" 113 2959 2983 "symbeval_search.ml" 113 2959 2984
+type(
+  'g list
+)
+ident(
+  int_ref a "symbeval_search.ml" 113 2959 2969 "symbeval_search.ml" 113 2959 2970
+)
+"symbeval_search.ml" 113 2959 2985 "symbeval_search.ml" 113 2959 2986
+type(
+  'g list
+)
+ident(
+  int_ref b "symbeval_search.ml" 113 2959 2972 "symbeval_search.ml" 113 2959 2973
+)
+"symbeval_search.ml" 113 2959 2982 "symbeval_search.ml" 113 2959 2987
+type(
+  'g list * 'g list
+)
+"symbeval_search.ml" 113 2959 2978 "symbeval_search.ml" 113 2959 2988
+type(
+  'g * ('g list * 'g list)
+)
+"symbeval_search.ml" 114 2989 2996 "symbeval_search.ml" 114 2989 2998
+type(
+  'g list
+)
+"symbeval_search.ml" 114 2989 3000 "symbeval_search.ml" 114 2989 3001
+type(
+  'g list
+)
+ident(
+  def b "symbeval_search.ml" 115 3006 3014 "symbeval_search.ml" 117 3066 3099
+)
+"symbeval_search.ml" 114 2989 2995 "symbeval_search.ml" 114 2989 3002
+type(
+  'g list * 'g list
+)
+"symbeval_search.ml" 115 3006 3020 "symbeval_search.ml" 115 3006 3028
+type(
+  'g list -> 'g list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"symbeval_search.ml" 115 3006 3029 "symbeval_search.ml" 115 3006 3030
+type(
+  'g list
+)
+ident(
+  int_ref b "symbeval_search.ml" 114 2989 3000 "symbeval_search.ml" 114 2989 3001
+)
+"symbeval_search.ml" 115 3006 3020 "symbeval_search.ml" 115 3006 3030
+call(
+  stack
+)
+type(
+  'g list
+)
+"symbeval_search.ml" 116 3036 3046 "symbeval_search.ml" 116 3036 3047
+type(
+  'g
+)
+ident(
+  def v "symbeval_search.ml" 116 3036 3054 "symbeval_search.ml" 116 3036 3065
+)
+"symbeval_search.ml" 116 3036 3049 "symbeval_search.ml" 116 3036 3050
+type(
+  'g list
+)
+ident(
+  def a "symbeval_search.ml" 116 3036 3054 "symbeval_search.ml" 116 3036 3065
+)
+"symbeval_search.ml" 116 3036 3046 "symbeval_search.ml" 116 3036 3050
+type(
+  'g list
+)
+"symbeval_search.ml" 116 3036 3055 "symbeval_search.ml" 116 3036 3056
+type(
+  'g
+)
+ident(
+  int_ref v "symbeval_search.ml" 116 3036 3046 "symbeval_search.ml" 116 3036 3047
+)
+"symbeval_search.ml" 116 3036 3059 "symbeval_search.ml" 116 3036 3060
+type(
+  'g list
+)
+ident(
+  int_ref a "symbeval_search.ml" 116 3036 3049 "symbeval_search.ml" 116 3036 3050
+)
+"symbeval_search.ml" 116 3036 3061 "symbeval_search.ml" 116 3036 3063
+type(
+  'g list
+)
+"symbeval_search.ml" 116 3036 3058 "symbeval_search.ml" 116 3036 3064
+type(
+  'g list * 'g list
+)
+"symbeval_search.ml" 116 3036 3054 "symbeval_search.ml" 116 3036 3065
+type(
+  'g * ('g list * 'g list)
+)
+"symbeval_search.ml" 117 3066 3076 "symbeval_search.ml" 117 3066 3078
+type(
+  'g list
+)
+"symbeval_search.ml" 117 3066 3082 "symbeval_search.ml" 117 3066 3087
+type(
+  exn -> 'g * ('g list * 'g list)
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"symbeval_search.ml" 117 3066 3088 "symbeval_search.ml" 117 3066 3099
+type(
+  exn
+)
+"symbeval_search.ml" 117 3066 3082 "symbeval_search.ml" 117 3066 3099
+type(
+  'g * ('g list * 'g list)
+)
+"symbeval_search.ml" 115 3006 3014 "symbeval_search.ml" 117 3066 3099
+type(
+  'g * ('g list * 'g list)
+)
+"symbeval_search.ml" 112 2934 2950 "symbeval_search.ml" 117 3066 3099
+type(
+  'g list * 'g list -> 'g * ('g list * 'g list)
+)
+"symbeval_search.ml" 119 3101 3107 "symbeval_search.ml" 119 3101 3116
+type(
+  'h list * 'h list -> ('h * ('h list * 'h list)) option
+)
+ident(
+  def dequeue_o "symbeval_search.ml" 120 3121 3169 "symbeval_search.ml" 121 3170 3173
+)
+"symbeval_search.ml" 119 3101 3117 "symbeval_search.ml" 119 3101 3118
+type(
+  'h list * 'h list
+)
+ident(
+  def q "symbeval_search.ml" 120 3121 3125 "symbeval_search.ml" 120 3121 3169
+)
+"symbeval_search.ml" 120 3121 3134 "symbeval_search.ml" 120 3121 3141
+type(
+  'h list * 'h list -> 'h * ('h list * 'h list)
+)
+ident(
+  int_ref dequeue "symbeval_search.ml" 112 2934 2940 "symbeval_search.ml" 112 2934 2947
+)
+"symbeval_search.ml" 120 3121 3142 "symbeval_search.ml" 120 3121 3143
+type(
+  'h list * 'h list
+)
+ident(
+  int_ref q "symbeval_search.ml" 119 3101 3117 "symbeval_search.ml" 119 3101 3118
+)
+"symbeval_search.ml" 120 3121 3133 "symbeval_search.ml" 120 3121 3144
+call(
+  stack
+)
+type(
+  'h * ('h list * 'h list)
+)
+"symbeval_search.ml" 120 3121 3129 "symbeval_search.ml" 120 3121 3144
+type(
+  ('h * ('h list * 'h list)) option
+)
+"symbeval_search.ml" 120 3121 3150 "symbeval_search.ml" 120 3121 3161
+type(
+  exn
+)
+"symbeval_search.ml" 120 3121 3165 "symbeval_search.ml" 120 3121 3169
+type(
+  ('h * ('h list * 'h list)) option
+)
+"symbeval_search.ml" 120 3121 3125 "symbeval_search.ml" 120 3121 3169
+type(
+  ('h * ('h list * 'h list)) option
+)
+"symbeval_search.ml" 132 3359 3367 "symbeval_search.ml" 132 3359 3375
+type(
+  'a -> unit -> 'b list * 'a list
+)
+ident(
+  def start_at "symbeval_search.ml" 133 3403 3407 "symbeval_search.ml" 137 3578 3583
+)
+"symbeval_search.ml" 132 3359 3376 "symbeval_search.ml" 132 3359 3377
+type(
+  'a
+)
+ident(
+  def s "symbeval_search.ml" 132 3359 3378 "symbeval_search.ml" 132 3359 3402
+)
+"symbeval_search.ml" 132 3359 3378 "symbeval_search.ml" 132 3359 3380
+type(
+  unit
+)
+"symbeval_search.ml" 132 3359 3383 "symbeval_search.ml" 132 3359 3392
+type(
+  'b list * 'a list -> 'a -> 'b list * 'a list
+)
+ident(
+  ext_ref Q.enqueue
+)
+"symbeval_search.ml" 132 3359 3393 "symbeval_search.ml" 132 3359 3400
+type(
+  'b list * 'a list
+)
+ident(
+  ext_ref Q.empty
+)
+"symbeval_search.ml" 132 3359 3401 "symbeval_search.ml" 132 3359 3402
+type(
+  'a
+)
+ident(
+  int_ref s "symbeval_search.ml" 132 3359 3376 "symbeval_search.ml" 132 3359 3377
+)
+"symbeval_search.ml" 132 3359 3383 "symbeval_search.ml" 132 3359 3402
+call(
+  tail
+)
+type(
+  'b list * 'a list
+)
+"symbeval_search.ml" 133 3403 3411 "symbeval_search.ml" 133 3403 3419
+type(
+  'c list * 'c list -> (('c * unit) * ('c list * 'c list)) option
+)
+ident(
+  def pop_next "symbeval_search.ml" 136 3508 3512 "symbeval_search.ml" 137 3578 3583
+)
+"symbeval_search.ml" 133 3403 3420 "symbeval_search.ml" 133 3403 3421
+type(
+  'c list * 'c list
+)
+ident(
+  def q "symbeval_search.ml" 133 3403 3424 "symbeval_search.ml" 135 3487 3507
+)
+"symbeval_search.ml" 133 3403 3430 "symbeval_search.ml" 133 3403 3441
+type(
+  'c list * 'c list -> ('c * ('c list * 'c list)) option
+)
+ident(
+  ext_ref Q.dequeue_o
+)
+"symbeval_search.ml" 133 3403 3442 "symbeval_search.ml" 133 3403 3443
+type(
+  'c list * 'c list
+)
+ident(
+  int_ref q "symbeval_search.ml" 133 3403 3420 "symbeval_search.ml" 133 3403 3421
+)
+"symbeval_search.ml" 133 3403 3430 "symbeval_search.ml" 133 3403 3443
+call(
+  stack
+)
+type(
+  ('c * ('c list * 'c list)) option
+)
+"symbeval_search.ml" 134 3449 3462 "symbeval_search.ml" 134 3449 3464
+type(
+  'c
+)
+ident(
+  def st "symbeval_search.ml" 134 3449 3471 "symbeval_search.ml" 134 3449 3486
+)
+"symbeval_search.ml" 134 3449 3465 "symbeval_search.ml" 134 3449 3466
+type(
+  'c list * 'c list
+)
+ident(
+  def q "symbeval_search.ml" 134 3449 3471 "symbeval_search.ml" 134 3449 3486
+)
+"symbeval_search.ml" 134 3449 3461 "symbeval_search.ml" 134 3449 3467
+type(
+  'c * ('c list * 'c list)
+)
+"symbeval_search.ml" 134 3449 3457 "symbeval_search.ml" 134 3449 3467
+type(
+  ('c * ('c list * 'c list)) option
+)
+"symbeval_search.ml" 134 3449 3477 "symbeval_search.ml" 134 3449 3479
+type(
+  'c
+)
+ident(
+  int_ref st "symbeval_search.ml" 134 3449 3462 "symbeval_search.ml" 134 3449 3464
+)
+"symbeval_search.ml" 134 3449 3480 "symbeval_search.ml" 134 3449 3482
+type(
+  unit
+)
+"symbeval_search.ml" 134 3449 3476 "symbeval_search.ml" 134 3449 3483
+type(
+  'c * unit
+)
+"symbeval_search.ml" 134 3449 3484 "symbeval_search.ml" 134 3449 3485
+type(
+  'c list * 'c list
+)
+ident(
+  int_ref q "symbeval_search.ml" 134 3449 3465 "symbeval_search.ml" 134 3449 3466
+)
+"symbeval_search.ml" 134 3449 3475 "symbeval_search.ml" 134 3449 3486
+type(
+  ('c * unit) * ('c list * 'c list)
+)
+"symbeval_search.ml" 134 3449 3471 "symbeval_search.ml" 134 3449 3486
+type(
+  (('c * unit) * ('c list * 'c list)) option
+)
+"symbeval_search.ml" 135 3487 3495 "symbeval_search.ml" 135 3487 3499
+type(
+  ('c * ('c list * 'c list)) option
+)
+"symbeval_search.ml" 135 3487 3503 "symbeval_search.ml" 135 3487 3507
+type(
+  (('c * unit) * ('c list * 'c list)) option
+)
+"symbeval_search.ml" 133 3403 3424 "symbeval_search.ml" 135 3487 3507
+type(
+  (('c * unit) * ('c list * 'c list)) option
+)
+"symbeval_search.ml" 136 3508 3516 "symbeval_search.ml" 136 3508 3531
+type(
+  'd * 'e list -> 'f -> unit -> 'e list -> 'd * 'e list
+)
+ident(
+  def add_next_states "symbeval_search.ml" 136 3508 3577 "symbeval_search.ml" 137 3578 3583
+)
+"symbeval_search.ml" 136 3508 3532 "symbeval_search.ml" 136 3508 3533
+type(
+  'd * 'e list
+)
+ident(
+  def q "symbeval_search.ml" 136 3508 3534 "symbeval_search.ml" 136 3508 3577
+)
+"symbeval_search.ml" 136 3508 3534 "symbeval_search.ml" 136 3508 3536
+type(
+  'f
+)
+ident(
+  def st "symbeval_search.ml" 136 3508 3537 "symbeval_search.ml" 136 3508 3577
+)
+"symbeval_search.ml" 136 3508 3537 "symbeval_search.ml" 136 3508 3539
+type(
+  unit
+)
+"symbeval_search.ml" 136 3508 3540 "symbeval_search.ml" 136 3508 3549
+type(
+  'e list
+)
+ident(
+  def newstates "symbeval_search.ml" 136 3508 3552 "symbeval_search.ml" 136 3508 3577
+)
+"symbeval_search.ml" 136 3508 3552 "symbeval_search.ml" 136 3508 3565
+type(
+  'd * 'e list -> 'e list -> 'd * 'e list
+)
+ident(
+  ext_ref Q.enqueue_all
+)
+"symbeval_search.ml" 136 3508 3566 "symbeval_search.ml" 136 3508 3567
+type(
+  'd * 'e list
+)
+ident(
+  int_ref q "symbeval_search.ml" 136 3508 3532 "symbeval_search.ml" 136 3508 3533
+)
+"symbeval_search.ml" 136 3508 3568 "symbeval_search.ml" 136 3508 3577
+type(
+  'e list
+)
+ident(
+  int_ref newstates "symbeval_search.ml" 136 3508 3540 "symbeval_search.ml" 136 3508 3549
+)
+"symbeval_search.ml" 136 3508 3552 "symbeval_search.ml" 136 3508 3577
+call(
+  tail
+)
+type(
+  'd * 'e list
+)
+"symbeval_search.ml" 125 3177 3199 "symbeval_search.ml" 137 3578 3584
+call(
+  stack
+)
+"symbeval_search.ml" 139 3624 3651 "symbeval_search.ml" 139 3624 3674
+call(
+  stack
+)
+"symbeval_search.ml" 140 3675 3701 "symbeval_search.ml" 140 3675 3723
+call(
+  stack
+)
+"symbeval_search.ml" 141 3724 3728 "symbeval_search.ml" 141 3724 3743
+type(
+  Ast.stmt list -> Ast.exp -> NaiveSymb.Form.output
+)
+ident(
+  def bfs_ast_program "symbeval_search.ml" 142 3792 3792 --
+)
+"symbeval_search.ml" 141 3724 3744 "symbeval_search.ml" 141 3724 3745
+type(
+  Ast.stmt list
+)
+ident(
+  def p "symbeval_search.ml" 141 3724 3746 "symbeval_search.ml" 141 3724 3791
+)
+"symbeval_search.ml" 141 3724 3746 "symbeval_search.ml" 141 3724 3747
+type(
+  Ast.exp
+)
+ident(
+  def q "symbeval_search.ml" 141 3724 3750 "symbeval_search.ml" 141 3724 3791
+)
+"symbeval_search.ml" 141 3724 3750 "symbeval_search.ml" 141 3724 3784
+type(
+  UnboundedBFSNaive.S.initdata ->
+  Ast.stmt list -> Ast.exp -> NaiveSymb.Form.output
+)
+ident(
+  ext_ref UnboundedBFSNaive.eval_ast_program
+)
+"symbeval_search.ml" 141 3724 3785 "symbeval_search.ml" 141 3724 3787
+type(
+  UnboundedBFSNaive.S.initdata
+)
+"symbeval_search.ml" 141 3724 3788 "symbeval_search.ml" 141 3724 3789
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref p "symbeval_search.ml" 141 3724 3744 "symbeval_search.ml" 141 3724 3745
+)
+"symbeval_search.ml" 141 3724 3790 "symbeval_search.ml" 141 3724 3791
+type(
+  Ast.exp
+)
+ident(
+  int_ref q "symbeval_search.ml" 141 3724 3746 "symbeval_search.ml" 141 3724 3747
+)
+"symbeval_search.ml" 141 3724 3750 "symbeval_search.ml" 141 3724 3791
+call(
+  tail
+)
+type(
+  NaiveSymb.Form.output
+)
+"symbeval_search.ml" 142 3792 3796 "symbeval_search.ml" 142 3792 3816
+type(
+  Ast.stmt list -> Ast.exp -> FastSymb.Form.output
+)
+ident(
+  def bfs_ast_program_fast "symbeval_search.ml" 145 3866 3866 --
+)
+"symbeval_search.ml" 142 3792 3817 "symbeval_search.ml" 142 3792 3818
+type(
+  Ast.stmt list
+)
+ident(
+  def p "symbeval_search.ml" 142 3792 3819 "symbeval_search.ml" 142 3792 3863
+)
+"symbeval_search.ml" 142 3792 3819 "symbeval_search.ml" 142 3792 3820
+type(
+  Ast.exp
+)
+ident(
+  def q "symbeval_search.ml" 142 3792 3823 "symbeval_search.ml" 142 3792 3863
+)
+"symbeval_search.ml" 142 3792 3823 "symbeval_search.ml" 142 3792 3856
+type(
+  UnboundedBFSFast.S.initdata ->
+  Ast.stmt list -> Ast.exp -> FastSymb.Form.output
+)
+ident(
+  ext_ref UnboundedBFSFast.eval_ast_program
+)
+"symbeval_search.ml" 142 3792 3857 "symbeval_search.ml" 142 3792 3859
+type(
+  UnboundedBFSFast.S.initdata
+)
+"symbeval_search.ml" 142 3792 3860 "symbeval_search.ml" 142 3792 3861
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref p "symbeval_search.ml" 142 3792 3817 "symbeval_search.ml" 142 3792 3818
+)
+"symbeval_search.ml" 142 3792 3862 "symbeval_search.ml" 142 3792 3863
+type(
+  Ast.exp
+)
+ident(
+  int_ref q "symbeval_search.ml" 142 3792 3819 "symbeval_search.ml" 142 3792 3820
+)
+"symbeval_search.ml" 142 3792 3823 "symbeval_search.ml" 142 3792 3863
+call(
+  tail
+)
+type(
+  FastSymb.Form.output
+)
+"symbeval_search.ml" 152 4045 4053 "symbeval_search.ml" 152 4045 4061
+type(
+  'a -> 'b -> 'c list * ('a * 'b) list
+)
+ident(
+  def start_at "symbeval_search.ml" 153 4092 4096 "symbeval_search.ml" 159 4276 4281
+)
+"symbeval_search.ml" 152 4045 4062 "symbeval_search.ml" 152 4045 4063
+type(
+  'a
+)
+ident(
+  def s "symbeval_search.ml" 152 4045 4064 "symbeval_search.ml" 152 4045 4091
+)
+"symbeval_search.ml" 152 4045 4064 "symbeval_search.ml" 152 4045 4065
+type(
+  'b
+)
+ident(
+  def i "symbeval_search.ml" 152 4045 4068 "symbeval_search.ml" 152 4045 4091
+)
+"symbeval_search.ml" 152 4045 4068 "symbeval_search.ml" 152 4045 4077
+type(
+  'c list * ('a * 'b) list -> 'a * 'b -> 'c list * ('a * 'b) list
+)
+ident(
+  ext_ref Q.enqueue
+)
+"symbeval_search.ml" 152 4045 4078 "symbeval_search.ml" 152 4045 4085
+type(
+  'c list * ('a * 'b) list
+)
+ident(
+  ext_ref Q.empty
+)
+"symbeval_search.ml" 152 4045 4087 "symbeval_search.ml" 152 4045 4088
+type(
+  'a
+)
+ident(
+  int_ref s "symbeval_search.ml" 152 4045 4062 "symbeval_search.ml" 152 4045 4063
+)
+"symbeval_search.ml" 152 4045 4089 "symbeval_search.ml" 152 4045 4090
+type(
+  'b
+)
+ident(
+  int_ref i "symbeval_search.ml" 152 4045 4064 "symbeval_search.ml" 152 4045 4065
+)
+"symbeval_search.ml" 152 4045 4086 "symbeval_search.ml" 152 4045 4091
+type(
+  'a * 'b
+)
+"symbeval_search.ml" 152 4045 4068 "symbeval_search.ml" 152 4045 4091
+call(
+  tail
+)
+type(
+  'c list * ('a * 'b) list
+)
+"symbeval_search.ml" 153 4092 4100 "symbeval_search.ml" 153 4092 4108
+type(
+  'd list * 'd list -> ('d * ('d list * 'd list)) option
+)
+ident(
+  def pop_next "symbeval_search.ml" 154 4123 4127 "symbeval_search.ml" 159 4276 4281
+)
+"symbeval_search.ml" 153 4092 4111 "symbeval_search.ml" 153 4092 4122
+type(
+  'd list * 'd list -> ('d * ('d list * 'd list)) option
+)
+ident(
+  ext_ref Q.dequeue_o
+)
+"symbeval_search.ml" 154 4123 4131 "symbeval_search.ml" 154 4123 4146
+type(
+  'e * ('f * int) list -> 'g -> int -> 'f list -> 'e * ('f * int) list
+)
+ident(
+  def add_next_states "symbeval_search.ml" 158 4266 4275 "symbeval_search.ml" 159 4276 4281
+)
+"symbeval_search.ml" 154 4123 4147 "symbeval_search.ml" 154 4123 4148
+type(
+  'e * ('f * int) list
+)
+ident(
+  def q "symbeval_search.ml" 154 4123 4149 "symbeval_search.ml" 158 4266 4275
+)
+"symbeval_search.ml" 154 4123 4149 "symbeval_search.ml" 154 4123 4151
+type(
+  'g
+)
+ident(
+  def st "symbeval_search.ml" 154 4123 4152 "symbeval_search.ml" 158 4266 4275
+)
+"symbeval_search.ml" 154 4123 4152 "symbeval_search.ml" 154 4123 4153
+type(
+  int
+)
+ident(
+  def i "symbeval_search.ml" 154 4123 4154 "symbeval_search.ml" 158 4266 4275
+)
+"symbeval_search.ml" 154 4123 4154 "symbeval_search.ml" 154 4123 4163
+type(
+  'f list
+)
+ident(
+  def newstates "symbeval_search.ml" 155 4166 4172 "symbeval_search.ml" 158 4266 4275
+)
+"symbeval_search.ml" 155 4166 4175 "symbeval_search.ml" 155 4166 4176
+type(
+  int
+)
+ident(
+  int_ref i "symbeval_search.ml" 154 4123 4152 "symbeval_search.ml" 154 4123 4153
+)
+"symbeval_search.ml" 155 4166 4177 "symbeval_search.ml" 155 4166 4178
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"symbeval_search.ml" 155 4166 4179 "symbeval_search.ml" 155 4166 4180
+type(
+  int
+)
+"symbeval_search.ml" 155 4166 4175 "symbeval_search.ml" 155 4166 4180
+type(
+  bool
+)
+"symbeval_search.ml" 156 4186 4194 "symbeval_search.ml" 156 4186 4208
+type(
+  ('e * ('f * int) list -> 'f -> 'e * ('f * int) list) ->
+  'e * ('f * int) list -> 'f list -> 'e * ('f * int) list
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"symbeval_search.ml" 156 4186 4214 "symbeval_search.ml" 156 4186 4215
+type(
+  'e * ('f * int) list
+)
+ident(
+  def q "symbeval_search.ml" 156 4186 4216 "symbeval_search.ml" 156 4186 4241
+)
+"symbeval_search.ml" 156 4186 4216 "symbeval_search.ml" 156 4186 4217
+type(
+  'f
+)
+ident(
+  def c "symbeval_search.ml" 156 4186 4221 "symbeval_search.ml" 156 4186 4241
+)
+"symbeval_search.ml" 156 4186 4221 "symbeval_search.ml" 156 4186 4230
+type(
+  'e * ('f * int) list -> 'f * int -> 'e * ('f * int) list
+)
+ident(
+  ext_ref Q.enqueue
+)
+"symbeval_search.ml" 156 4186 4231 "symbeval_search.ml" 156 4186 4232
+type(
+  'e * ('f * int) list
+)
+ident(
+  int_ref q "symbeval_search.ml" 156 4186 4214 "symbeval_search.ml" 156 4186 4215
+)
+"symbeval_search.ml" 156 4186 4234 "symbeval_search.ml" 156 4186 4235
+type(
+  'f
+)
+ident(
+  int_ref c "symbeval_search.ml" 156 4186 4216 "symbeval_search.ml" 156 4186 4217
+)
+"symbeval_search.ml" 156 4186 4237 "symbeval_search.ml" 156 4186 4238
+type(
+  int
+)
+ident(
+  int_ref i "symbeval_search.ml" 154 4123 4152 "symbeval_search.ml" 154 4123 4153
+)
+"symbeval_search.ml" 156 4186 4238 "symbeval_search.ml" 156 4186 4239
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"symbeval_search.ml" 156 4186 4239 "symbeval_search.ml" 156 4186 4240
+type(
+  int
+)
+"symbeval_search.ml" 156 4186 4237 "symbeval_search.ml" 156 4186 4240
+type(
+  int
+)
+"symbeval_search.ml" 156 4186 4233 "symbeval_search.ml" 156 4186 4241
+type(
+  'f * int
+)
+"symbeval_search.ml" 156 4186 4221 "symbeval_search.ml" 156 4186 4241
+call(
+  tail
+)
+type(
+  'e * ('f * int) list
+)
+"symbeval_search.ml" 156 4186 4209 "symbeval_search.ml" 156 4186 4242
+type(
+  'e * ('f * int) list -> 'f -> 'e * ('f * int) list
+)
+"symbeval_search.ml" 156 4186 4243 "symbeval_search.ml" 156 4186 4244
+type(
+  'e * ('f * int) list
+)
+ident(
+  int_ref q "symbeval_search.ml" 154 4123 4147 "symbeval_search.ml" 154 4123 4148
+)
+"symbeval_search.ml" 156 4186 4245 "symbeval_search.ml" 156 4186 4254
+type(
+  'f list
+)
+ident(
+  int_ref newstates "symbeval_search.ml" 154 4123 4154 "symbeval_search.ml" 154 4123 4163
+)
+"symbeval_search.ml" 156 4186 4194 "symbeval_search.ml" 156 4186 4254
+call(
+  tail
+)
+type(
+  'e * ('f * int) list
+)
+"symbeval_search.ml" 158 4266 4274 "symbeval_search.ml" 158 4266 4275
+type(
+  'e * ('f * int) list
+)
+ident(
+  int_ref q "symbeval_search.ml" 154 4123 4147 "symbeval_search.ml" 154 4123 4148
+)
+"symbeval_search.ml" 155 4166 4172 "symbeval_search.ml" 158 4266 4275
+type(
+  'e * ('f * int) list
+)
+"symbeval_search.ml" 145 3866 3887 "symbeval_search.ml" 159 4276 4282
+call(
+  stack
+)
+"symbeval_search.ml" 160 4283 4309 "symbeval_search.ml" 160 4283 4331
+call(
+  stack
+)
+"symbeval_search.ml" 161 4332 4357 "symbeval_search.ml" 161 4332 4378
+call(
+  stack
+)
+"symbeval_search.ml" 162 4379 4383 "symbeval_search.ml" 162 4379 4407
+type(
+  MaxdepthBFSNaive.S.initdata ->
+  Ast.stmt list -> Ast.exp -> NaiveSymb.Form.output
+)
+ident(
+  def bfs_maxdepth_ast_program "symbeval_search.ml" 163 4444 4444 --
+)
+"symbeval_search.ml" 162 4379 4410 "symbeval_search.ml" 162 4379 4443
+type(
+  MaxdepthBFSNaive.S.initdata ->
+  Ast.stmt list -> Ast.exp -> NaiveSymb.Form.output
+)
+ident(
+  ext_ref MaxdepthBFSNaive.eval_ast_program
+)
+"symbeval_search.ml" 163 4444 4448 "symbeval_search.ml" 163 4444 4477
+type(
+  MaxdepthBFSFast.S.initdata ->
+  Ast.stmt list -> Ast.exp -> FastSymb.Form.output
+)
+ident(
+  def bfs_maxdepth_ast_program_fast "symbeval_search.ml" 165 4514 4514 --
+)
+"symbeval_search.ml" 163 4444 4480 "symbeval_search.ml" 163 4444 4512
+type(
+  MaxdepthBFSFast.S.initdata ->
+  Ast.stmt list -> Ast.exp -> FastSymb.Form.output
+)
+ident(
+  ext_ref MaxdepthBFSFast.eval_ast_program
+)
+"symbeval_search.ml" 172 4688 4696 "symbeval_search.ml" 172 4688 4704
+type(
+  'a -> unit -> 'a list
+)
+ident(
+  def start_at "symbeval_search.ml" 173 4716 4720 "symbeval_search.ml" 177 4860 4865
+)
+"symbeval_search.ml" 172 4688 4705 "symbeval_search.ml" 172 4688 4706
+type(
+  'a
+)
+ident(
+  def s "symbeval_search.ml" 172 4688 4707 "symbeval_search.ml" 172 4688 4715
+)
+"symbeval_search.ml" 172 4688 4707 "symbeval_search.ml" 172 4688 4709
+type(
+  unit
+)
+"symbeval_search.ml" 172 4688 4713 "symbeval_search.ml" 172 4688 4714
+type(
+  'a
+)
+ident(
+  int_ref s "symbeval_search.ml" 172 4688 4705 "symbeval_search.ml" 172 4688 4706
+)
+"symbeval_search.ml" 172 4688 4712 "symbeval_search.ml" 172 4688 4715
+type(
+  'a list
+)
+"symbeval_search.ml" 173 4716 4724 "symbeval_search.ml" 173 4716 4732
+type(
+  'b list -> (('b * unit) * 'b list) option
+)
+ident(
+  def pop_next "symbeval_search.ml" 176 4802 4806 "symbeval_search.ml" 177 4860 4865
+)
+"symbeval_search.ml" 174 4744 4752 "symbeval_search.ml" 174 4744 4754
+type(
+  'b
+)
+ident(
+  def st "symbeval_search.ml" 174 4744 4764 "symbeval_search.ml" 174 4744 4782
+)
+"symbeval_search.ml" 174 4744 4756 "symbeval_search.ml" 174 4744 4760
+type(
+  'b list
+)
+ident(
+  def rest "symbeval_search.ml" 174 4744 4764 "symbeval_search.ml" 174 4744 4782
+)
+"symbeval_search.ml" 174 4744 4752 "symbeval_search.ml" 174 4744 4760
+type(
+  'b list
+)
+"symbeval_search.ml" 174 4744 4770 "symbeval_search.ml" 174 4744 4772
+type(
+  'b
+)
+ident(
+  int_ref st "symbeval_search.ml" 174 4744 4752 "symbeval_search.ml" 174 4744 4754
+)
+"symbeval_search.ml" 174 4744 4773 "symbeval_search.ml" 174 4744 4775
+type(
+  unit
+)
+"symbeval_search.ml" 174 4744 4769 "symbeval_search.ml" 174 4744 4776
+type(
+  'b * unit
+)
+"symbeval_search.ml" 174 4744 4777 "symbeval_search.ml" 174 4744 4781
+type(
+  'b list
+)
+ident(
+  int_ref rest "symbeval_search.ml" 174 4744 4756 "symbeval_search.ml" 174 4744 4760
+)
+"symbeval_search.ml" 174 4744 4768 "symbeval_search.ml" 174 4744 4782
+type(
+  ('b * unit) * 'b list
+)
+"symbeval_search.ml" 174 4744 4764 "symbeval_search.ml" 174 4744 4782
+type(
+  (('b * unit) * 'b list) option
+)
+"symbeval_search.ml" 175 4783 4791 "symbeval_search.ml" 175 4783 4793
+type(
+  'b list
+)
+"symbeval_search.ml" 175 4783 4797 "symbeval_search.ml" 175 4783 4801
+type(
+  (('b * unit) * 'b list) option
+)
+"symbeval_search.ml" 173 4716 4735 "symbeval_search.ml" 175 4783 4801
+type(
+  'b list -> (('b * unit) * 'b list) option
+)
+"symbeval_search.ml" 176 4802 4810 "symbeval_search.ml" 176 4802 4825
+type(
+  'c list -> 'd -> unit -> 'c list -> 'c list
+)
+ident(
+  def add_next_states "symbeval_search.ml" 176 4802 4859 "symbeval_search.ml" 177 4860 4865
+)
+"symbeval_search.ml" 176 4802 4826 "symbeval_search.ml" 176 4802 4827
+type(
+  'c list
+)
+ident(
+  def q "symbeval_search.ml" 176 4802 4828 "symbeval_search.ml" 176 4802 4859
+)
+"symbeval_search.ml" 176 4802 4828 "symbeval_search.ml" 176 4802 4830
+type(
+  'd
+)
+ident(
+  def st "symbeval_search.ml" 176 4802 4831 "symbeval_search.ml" 176 4802 4859
+)
+"symbeval_search.ml" 176 4802 4831 "symbeval_search.ml" 176 4802 4833
+type(
+  unit
+)
+"symbeval_search.ml" 176 4802 4834 "symbeval_search.ml" 176 4802 4843
+type(
+  'c list
+)
+ident(
+  def newstates "symbeval_search.ml" 176 4802 4846 "symbeval_search.ml" 176 4802 4859
+)
+"symbeval_search.ml" 176 4802 4846 "symbeval_search.ml" 176 4802 4855
+type(
+  'c list
+)
+ident(
+  int_ref newstates "symbeval_search.ml" 176 4802 4834 "symbeval_search.ml" 176 4802 4843
+)
+"symbeval_search.ml" 176 4802 4856 "symbeval_search.ml" 176 4802 4857
+type(
+  'c list -> 'c list -> 'c list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"symbeval_search.ml" 176 4802 4858 "symbeval_search.ml" 176 4802 4859
+type(
+  'c list
+)
+ident(
+  int_ref q "symbeval_search.ml" 176 4802 4826 "symbeval_search.ml" 176 4802 4827
+)
+"symbeval_search.ml" 176 4802 4846 "symbeval_search.ml" 176 4802 4859
+call(
+  tail
+)
+type(
+  'c list
+)
+"symbeval_search.ml" 165 4514 4536 "symbeval_search.ml" 177 4860 4866
+call(
+  stack
+)
+"symbeval_search.ml" 178 4867 4894 "symbeval_search.ml" 178 4867 4917
+call(
+  stack
+)
+"symbeval_search.ml" 179 4918 4944 "symbeval_search.ml" 179 4918 4966
+call(
+  stack
+)
+"symbeval_search.ml" 180 4967 4971 "symbeval_search.ml" 180 4967 4986
+type(
+  Ast.stmt list -> Ast.exp -> NaiveSymb.Form.output
+)
+ident(
+  def dfs_ast_program "symbeval_search.ml" 181 5035 5035 --
+)
+"symbeval_search.ml" 180 4967 4987 "symbeval_search.ml" 180 4967 4988
+type(
+  Ast.stmt list
+)
+ident(
+  def p "symbeval_search.ml" 180 4967 4989 "symbeval_search.ml" 180 4967 5034
+)
+"symbeval_search.ml" 180 4967 4989 "symbeval_search.ml" 180 4967 4990
+type(
+  Ast.exp
+)
+ident(
+  def q "symbeval_search.ml" 180 4967 4993 "symbeval_search.ml" 180 4967 5034
+)
+"symbeval_search.ml" 180 4967 4993 "symbeval_search.ml" 180 4967 5027
+type(
+  UnboundedDFSNaive.S.initdata ->
+  Ast.stmt list -> Ast.exp -> NaiveSymb.Form.output
+)
+ident(
+  ext_ref UnboundedDFSNaive.eval_ast_program
+)
+"symbeval_search.ml" 180 4967 5028 "symbeval_search.ml" 180 4967 5030
+type(
+  UnboundedDFSNaive.S.initdata
+)
+"symbeval_search.ml" 180 4967 5031 "symbeval_search.ml" 180 4967 5032
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref p "symbeval_search.ml" 180 4967 4987 "symbeval_search.ml" 180 4967 4988
+)
+"symbeval_search.ml" 180 4967 5033 "symbeval_search.ml" 180 4967 5034
+type(
+  Ast.exp
+)
+ident(
+  int_ref q "symbeval_search.ml" 180 4967 4989 "symbeval_search.ml" 180 4967 4990
+)
+"symbeval_search.ml" 180 4967 4993 "symbeval_search.ml" 180 4967 5034
+call(
+  tail
+)
+type(
+  NaiveSymb.Form.output
+)
+"symbeval_search.ml" 181 5035 5039 "symbeval_search.ml" 181 5035 5059
+type(
+  Ast.stmt list -> Ast.exp -> FastSymb.Form.output
+)
+ident(
+  def dfs_ast_program_fast "symbeval_search.ml" 183 5108 5108 --
+)
+"symbeval_search.ml" 181 5035 5060 "symbeval_search.ml" 181 5035 5061
+type(
+  Ast.stmt list
+)
+ident(
+  def p "symbeval_search.ml" 181 5035 5062 "symbeval_search.ml" 181 5035 5106
+)
+"symbeval_search.ml" 181 5035 5062 "symbeval_search.ml" 181 5035 5063
+type(
+  Ast.exp
+)
+ident(
+  def q "symbeval_search.ml" 181 5035 5066 "symbeval_search.ml" 181 5035 5106
+)
+"symbeval_search.ml" 181 5035 5066 "symbeval_search.ml" 181 5035 5099
+type(
+  UnboundedDFSFast.S.initdata ->
+  Ast.stmt list -> Ast.exp -> FastSymb.Form.output
+)
+ident(
+  ext_ref UnboundedDFSFast.eval_ast_program
+)
+"symbeval_search.ml" 181 5035 5100 "symbeval_search.ml" 181 5035 5102
+type(
+  UnboundedDFSFast.S.initdata
+)
+"symbeval_search.ml" 181 5035 5103 "symbeval_search.ml" 181 5035 5104
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref p "symbeval_search.ml" 181 5035 5060 "symbeval_search.ml" 181 5035 5061
+)
+"symbeval_search.ml" 181 5035 5105 "symbeval_search.ml" 181 5035 5106
+type(
+  Ast.exp
+)
+ident(
+  int_ref q "symbeval_search.ml" 181 5035 5062 "symbeval_search.ml" 181 5035 5063
+)
+"symbeval_search.ml" 181 5035 5066 "symbeval_search.ml" 181 5035 5106
+call(
+  tail
+)
+type(
+  FastSymb.Form.output
+)
+"symbeval_search.ml" 190 5288 5296 "symbeval_search.ml" 190 5288 5304
+type(
+  'a -> 'b -> ('a * 'b) list
+)
+ident(
+  def start_at "symbeval_search.ml" 191 5319 5323 "symbeval_search.ml" 199 5559 5564
+)
+"symbeval_search.ml" 190 5288 5305 "symbeval_search.ml" 190 5288 5306
+type(
+  'a
+)
+ident(
+  def s "symbeval_search.ml" 190 5288 5307 "symbeval_search.ml" 190 5288 5318
+)
+"symbeval_search.ml" 190 5288 5307 "symbeval_search.ml" 190 5288 5308
+type(
+  'b
+)
+ident(
+  def i "symbeval_search.ml" 190 5288 5311 "symbeval_search.ml" 190 5288 5318
+)
+"symbeval_search.ml" 190 5288 5313 "symbeval_search.ml" 190 5288 5314
+type(
+  'a
+)
+ident(
+  int_ref s "symbeval_search.ml" 190 5288 5305 "symbeval_search.ml" 190 5288 5306
+)
+"symbeval_search.ml" 190 5288 5315 "symbeval_search.ml" 190 5288 5316
+type(
+  'b
+)
+ident(
+  int_ref i "symbeval_search.ml" 190 5288 5307 "symbeval_search.ml" 190 5288 5308
+)
+"symbeval_search.ml" 190 5288 5312 "symbeval_search.ml" 190 5288 5317
+type(
+  'a * 'b
+)
+"symbeval_search.ml" 190 5288 5311 "symbeval_search.ml" 190 5288 5318
+type(
+  ('a * 'b) list
+)
+"symbeval_search.ml" 191 5319 5327 "symbeval_search.ml" 191 5319 5335
+type(
+  'c list -> ('c * 'c list) option
+)
+ident(
+  def pop_next "symbeval_search.ml" 194 5400 5404 "symbeval_search.ml" 199 5559 5564
+)
+"symbeval_search.ml" 192 5347 5355 "symbeval_search.ml" 192 5347 5357
+type(
+  'c
+)
+ident(
+  def st "symbeval_search.ml" 192 5347 5367 "symbeval_search.ml" 192 5347 5380
+)
+"symbeval_search.ml" 192 5347 5359 "symbeval_search.ml" 192 5347 5363
+type(
+  'c list
+)
+ident(
+  def rest "symbeval_search.ml" 192 5347 5367 "symbeval_search.ml" 192 5347 5380
+)
+"symbeval_search.ml" 192 5347 5355 "symbeval_search.ml" 192 5347 5363
+type(
+  'c list
+)
+"symbeval_search.ml" 192 5347 5372 "symbeval_search.ml" 192 5347 5374
+type(
+  'c
+)
+ident(
+  int_ref st "symbeval_search.ml" 192 5347 5355 "symbeval_search.ml" 192 5347 5357
+)
+"symbeval_search.ml" 192 5347 5375 "symbeval_search.ml" 192 5347 5379
+type(
+  'c list
+)
+ident(
+  int_ref rest "symbeval_search.ml" 192 5347 5359 "symbeval_search.ml" 192 5347 5363
+)
+"symbeval_search.ml" 192 5347 5371 "symbeval_search.ml" 192 5347 5380
+type(
+  'c * 'c list
+)
+"symbeval_search.ml" 192 5347 5367 "symbeval_search.ml" 192 5347 5380
+type(
+  ('c * 'c list) option
+)
+"symbeval_search.ml" 193 5381 5389 "symbeval_search.ml" 193 5381 5391
+type(
+  'c list
+)
+"symbeval_search.ml" 193 5381 5395 "symbeval_search.ml" 193 5381 5399
+type(
+  ('c * 'c list) option
+)
+"symbeval_search.ml" 191 5319 5338 "symbeval_search.ml" 193 5381 5399
+type(
+  'c list -> ('c * 'c list) option
+)
+"symbeval_search.ml" 194 5400 5408 "symbeval_search.ml" 194 5400 5423
+type(
+  ('d * int) list -> 'e -> int -> 'd list -> ('d * int) list
+)
+ident(
+  def add_next_states "symbeval_search.ml" 198 5501 5558 "symbeval_search.ml" 199 5559 5564
+)
+"symbeval_search.ml" 194 5400 5424 "symbeval_search.ml" 194 5400 5425
+type(
+  ('d * int) list
+)
+ident(
+  def q "symbeval_search.ml" 194 5400 5426 "symbeval_search.ml" 198 5501 5558
+)
+"symbeval_search.ml" 194 5400 5426 "symbeval_search.ml" 194 5400 5428
+type(
+  'e
+)
+ident(
+  def st "symbeval_search.ml" 194 5400 5429 "symbeval_search.ml" 198 5501 5558
+)
+"symbeval_search.ml" 194 5400 5429 "symbeval_search.ml" 194 5400 5430
+type(
+  int
+)
+ident(
+  def i "symbeval_search.ml" 194 5400 5431 "symbeval_search.ml" 198 5501 5558
+)
+"symbeval_search.ml" 194 5400 5431 "symbeval_search.ml" 194 5400 5440
+type(
+  'd list
+)
+ident(
+  def newstates "symbeval_search.ml" 195 5443 5449 "symbeval_search.ml" 198 5501 5558
+)
+"symbeval_search.ml" 195 5443 5452 "symbeval_search.ml" 195 5443 5453
+type(
+  int
+)
+ident(
+  int_ref i "symbeval_search.ml" 194 5400 5429 "symbeval_search.ml" 194 5400 5430
+)
+"symbeval_search.ml" 195 5443 5454 "symbeval_search.ml" 195 5443 5456
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"symbeval_search.ml" 195 5443 5457 "symbeval_search.ml" 195 5443 5458
+type(
+  int
+)
+"symbeval_search.ml" 195 5443 5452 "symbeval_search.ml" 195 5443 5458
+type(
+  bool
+)
+"symbeval_search.ml" 195 5443 5464 "symbeval_search.ml" 195 5443 5465
+type(
+  ('d * int) list
+)
+ident(
+  int_ref q "symbeval_search.ml" 194 5400 5424 "symbeval_search.ml" 194 5400 5425
+)
+"symbeval_search.ml" 197 5477 5489 "symbeval_search.ml" 197 5477 5491
+type(
+  int
+)
+"symbeval_search.ml" 197 5477 5494 "symbeval_search.ml" 197 5477 5495
+type(
+  int
+)
+ident(
+  int_ref i "symbeval_search.ml" 194 5400 5429 "symbeval_search.ml" 194 5400 5430
+)
+"symbeval_search.ml" 197 5477 5495 "symbeval_search.ml" 197 5477 5496
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"symbeval_search.ml" 197 5477 5496 "symbeval_search.ml" 197 5477 5497
+type(
+  int
+)
+"symbeval_search.ml" 197 5477 5494 "symbeval_search.ml" 197 5477 5497
+type(
+  int
+)
+"symbeval_search.ml" 198 5501 5509 "symbeval_search.ml" 198 5501 5523
+type(
+  (('d * int) list -> 'd -> ('d * int) list) ->
+  ('d * int) list -> 'd list -> ('d * int) list
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"symbeval_search.ml" 198 5501 5529 "symbeval_search.ml" 198 5501 5530
+type(
+  ('d * int) list
+)
+ident(
+  def q "symbeval_search.ml" 198 5501 5531 "symbeval_search.ml" 198 5501 5545
+)
+"symbeval_search.ml" 198 5501 5531 "symbeval_search.ml" 198 5501 5532
+type(
+  'd
+)
+ident(
+  def s "symbeval_search.ml" 198 5501 5536 "symbeval_search.ml" 198 5501 5545
+)
+"symbeval_search.ml" 198 5501 5537 "symbeval_search.ml" 198 5501 5538
+type(
+  'd
+)
+ident(
+  int_ref s "symbeval_search.ml" 198 5501 5531 "symbeval_search.ml" 198 5501 5532
+)
+"symbeval_search.ml" 198 5501 5539 "symbeval_search.ml" 198 5501 5541
+type(
+  int
+)
+ident(
+  int_ref ni "symbeval_search.ml" 197 5477 5489 "symbeval_search.ml" 197 5477 5491
+)
+"symbeval_search.ml" 198 5501 5536 "symbeval_search.ml" 198 5501 5542
+type(
+  'd * int
+)
+"symbeval_search.ml" 198 5501 5544 "symbeval_search.ml" 198 5501 5545
+type(
+  ('d * int) list
+)
+ident(
+  int_ref q "symbeval_search.ml" 198 5501 5529 "symbeval_search.ml" 198 5501 5530
+)
+"symbeval_search.ml" 198 5501 5536 "symbeval_search.ml" 198 5501 5545
+type(
+  ('d * int) list
+)
+"symbeval_search.ml" 198 5501 5524 "symbeval_search.ml" 198 5501 5546
+type(
+  ('d * int) list -> 'd -> ('d * int) list
+)
+"symbeval_search.ml" 198 5501 5547 "symbeval_search.ml" 198 5501 5548
+type(
+  ('d * int) list
+)
+ident(
+  int_ref q "symbeval_search.ml" 194 5400 5424 "symbeval_search.ml" 194 5400 5425
+)
+"symbeval_search.ml" 198 5501 5549 "symbeval_search.ml" 198 5501 5558
+type(
+  'd list
+)
+ident(
+  int_ref newstates "symbeval_search.ml" 194 5400 5431 "symbeval_search.ml" 194 5400 5440
+)
+"symbeval_search.ml" 198 5501 5509 "symbeval_search.ml" 198 5501 5558
+call(
+  tail
+)
+type(
+  ('d * int) list
+)
+"symbeval_search.ml" 197 5477 5485 "symbeval_search.ml" 198 5501 5558
+type(
+  ('d * int) list
+)
+"symbeval_search.ml" 195 5443 5449 "symbeval_search.ml" 198 5501 5558
+type(
+  ('d * int) list
+)
+"symbeval_search.ml" 183 5108 5129 "symbeval_search.ml" 199 5559 5565
+call(
+  stack
+)
+"symbeval_search.ml" 200 5566 5592 "symbeval_search.ml" 200 5566 5614
+call(
+  stack
+)
+"symbeval_search.ml" 201 5615 5640 "symbeval_search.ml" 201 5615 5661
+call(
+  stack
+)
+"symbeval_search.ml" 202 5662 5666 "symbeval_search.ml" 202 5662 5690
+type(
+  MaxdepthDFSNaive.S.initdata ->
+  Ast.stmt list -> Ast.exp -> NaiveSymb.Form.output
+)
+ident(
+  def dfs_maxdepth_ast_program "symbeval_search.ml" 203 5727 5727 --
+)
+"symbeval_search.ml" 202 5662 5693 "symbeval_search.ml" 202 5662 5726
+type(
+  MaxdepthDFSNaive.S.initdata ->
+  Ast.stmt list -> Ast.exp -> NaiveSymb.Form.output
+)
+ident(
+  ext_ref MaxdepthDFSNaive.eval_ast_program
+)
+"symbeval_search.ml" 203 5727 5731 "symbeval_search.ml" 203 5727 5760
+type(
+  MaxdepthDFSFast.S.initdata ->
+  Ast.stmt list -> Ast.exp -> FastSymb.Form.output
+)
+ident(
+  def dfs_maxdepth_ast_program_fast "symbeval_search.ml" 206 5798 5798 --
+)
+"symbeval_search.ml" 203 5727 5763 "symbeval_search.ml" 203 5727 5795
+type(
+  MaxdepthDFSFast.S.initdata ->
+  Ast.stmt list -> Ast.exp -> FastSymb.Form.output
+)
+ident(
+  ext_ref MaxdepthDFSFast.eval_ast_program
+)
+"symbeval_search.ml" 206 5798 5862 "symbeval_search.ml" 206 5798 5869
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "symbeval_search.ml" 206 5798 5879 "symbeval_search.ml" 206 5798 5883
+)
+"symbeval_search.ml" 206 5798 5872 "symbeval_search.ml" 206 5798 5879
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"symbeval_search.ml" 206 5798 5815 "symbeval_search.ml" 206 5798 5884
+call(
+  stack
+)
+"symbeval_search.ml" 216 6154 6162 "symbeval_search.ml" 216 6154 6170
+type(
+  'a -> 'b -> ('a * 'c EdgeMap.t) list * 'b
+)
+ident(
+  def start_at "symbeval_search.ml" 217 6202 6206 "symbeval_search.ml" 232 6758 6763
+)
+"symbeval_search.ml" 216 6154 6171 "symbeval_search.ml" 216 6154 6172
+type(
+  'a
+)
+ident(
+  def s "symbeval_search.ml" 216 6154 6173 "symbeval_search.ml" 216 6154 6201
+)
+"symbeval_search.ml" 216 6154 6173 "symbeval_search.ml" 216 6154 6174
+type(
+  'b
+)
+ident(
+  def i "symbeval_search.ml" 216 6154 6177 "symbeval_search.ml" 216 6154 6201
+)
+"symbeval_search.ml" 216 6154 6180 "symbeval_search.ml" 216 6154 6181
+type(
+  'a
+)
+ident(
+  int_ref s "symbeval_search.ml" 216 6154 6171 "symbeval_search.ml" 216 6154 6172
+)
+"symbeval_search.ml" 216 6154 6182 "symbeval_search.ml" 216 6154 6195
+type(
+  'c EdgeMap.t
+)
+ident(
+  ext_ref EdgeMap.empty
+)
+"symbeval_search.ml" 216 6154 6179 "symbeval_search.ml" 216 6154 6196
+type(
+  'a * 'c EdgeMap.t
+)
+"symbeval_search.ml" 216 6154 6178 "symbeval_search.ml" 216 6154 6197
+type(
+  ('a * 'c EdgeMap.t) list
+)
+"symbeval_search.ml" 216 6154 6199 "symbeval_search.ml" 216 6154 6200
+type(
+  'b
+)
+ident(
+  int_ref i "symbeval_search.ml" 216 6154 6173 "symbeval_search.ml" 216 6154 6174
+)
+"symbeval_search.ml" 216 6154 6177 "symbeval_search.ml" 216 6154 6201
+type(
+  ('a * 'c EdgeMap.t) list * 'b
+)
+"symbeval_search.ml" 217 6202 6210 "symbeval_search.ml" 217 6202 6218
+type(
+  'd list * 'e -> ('d * ('d list * 'e)) option
+)
+ident(
+  def pop_next "symbeval_search.ml" 220 6297 6301 "symbeval_search.ml" 232 6758 6763
+)
+"symbeval_search.ml" 218 6230 6239 "symbeval_search.ml" 218 6230 6241
+type(
+  'd
+)
+ident(
+  def st "symbeval_search.ml" 218 6230 6255 "symbeval_search.ml" 218 6230 6272
+)
+"symbeval_search.ml" 218 6230 6243 "symbeval_search.ml" 218 6230 6247
+type(
+  'd list
+)
+ident(
+  def rest "symbeval_search.ml" 218 6230 6255 "symbeval_search.ml" 218 6230 6272
+)
+"symbeval_search.ml" 218 6230 6239 "symbeval_search.ml" 218 6230 6247
+type(
+  'd list
+)
+"symbeval_search.ml" 218 6230 6249 "symbeval_search.ml" 218 6230 6250
+type(
+  'e
+)
+ident(
+  def i "symbeval_search.ml" 218 6230 6255 "symbeval_search.ml" 218 6230 6272
+)
+"symbeval_search.ml" 218 6230 6238 "symbeval_search.ml" 218 6230 6251
+type(
+  'd list * 'e
+)
+"symbeval_search.ml" 218 6230 6260 "symbeval_search.ml" 218 6230 6262
+type(
+  'd
+)
+ident(
+  int_ref st "symbeval_search.ml" 218 6230 6239 "symbeval_search.ml" 218 6230 6241
+)
+"symbeval_search.ml" 218 6230 6264 "symbeval_search.ml" 218 6230 6268
+type(
+  'd list
+)
+ident(
+  int_ref rest "symbeval_search.ml" 218 6230 6243 "symbeval_search.ml" 218 6230 6247
+)
+"symbeval_search.ml" 218 6230 6269 "symbeval_search.ml" 218 6230 6270
+type(
+  'e
+)
+ident(
+  int_ref i "symbeval_search.ml" 218 6230 6249 "symbeval_search.ml" 218 6230 6250
+)
+"symbeval_search.ml" 218 6230 6263 "symbeval_search.ml" 218 6230 6271
+type(
+  'd list * 'e
+)
+"symbeval_search.ml" 218 6230 6259 "symbeval_search.ml" 218 6230 6272
+type(
+  'd * ('d list * 'e)
+)
+"symbeval_search.ml" 218 6230 6255 "symbeval_search.ml" 218 6230 6272
+type(
+  ('d * ('d list * 'e)) option
+)
+"symbeval_search.ml" 219 6273 6282 "symbeval_search.ml" 219 6273 6284
+type(
+  'd list
+)
+"symbeval_search.ml" 219 6273 6286 "symbeval_search.ml" 219 6273 6287
+type(
+  'e
+)
+"symbeval_search.ml" 219 6273 6281 "symbeval_search.ml" 219 6273 6288
+type(
+  'd list * 'e
+)
+"symbeval_search.ml" 219 6273 6292 "symbeval_search.ml" 219 6273 6296
+type(
+  ('d * ('d list * 'e)) option
+)
+"symbeval_search.ml" 217 6202 6221 "symbeval_search.ml" 219 6273 6296
+type(
+  'd list * 'e -> ('d * ('d list * 'e)) option
+)
+"symbeval_search.ml" 220 6297 6305 "symbeval_search.ml" 220 6297 6320
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list * int ->
+  ('h, 'i) Symbeval.ctx ->
+  int EdgeMap.t ->
+  ('f, 'g) Symbeval.ctx list ->
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list * int
+)
+ident(
+  def add_next_states "symbeval_search.ml" 231 6731 6757 "symbeval_search.ml" 232 6758 6763
+)
+"symbeval_search.ml" 220 6297 6323 "symbeval_search.ml" 220 6297 6324
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list
+)
+ident(
+  def q "symbeval_search.ml" 220 6297 6334 "symbeval_search.ml" 231 6731 6757
+)
+"symbeval_search.ml" 220 6297 6325 "symbeval_search.ml" 220 6297 6326
+type(
+  int
+)
+ident(
+  def i "symbeval_search.ml" 220 6297 6334 "symbeval_search.ml" 231 6731 6757
+)
+"symbeval_search.ml" 220 6297 6322 "symbeval_search.ml" 220 6297 6327
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list * int
+)
+"symbeval_search.ml" 220 6297 6321 "symbeval_search.ml" 220 6297 6333
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list * int
+)
+ident(
+  def l "symbeval_search.ml" 220 6297 6334 "symbeval_search.ml" 231 6731 6757
+)
+"symbeval_search.ml" 220 6297 6334 "symbeval_search.ml" 220 6297 6336
+type(
+  ('h, 'i) Symbeval.ctx
+)
+ident(
+  def st "symbeval_search.ml" 220 6297 6337 "symbeval_search.ml" 231 6731 6757
+)
+"symbeval_search.ml" 220 6297 6337 "symbeval_search.ml" 220 6297 6338
+type(
+  int EdgeMap.t
+)
+ident(
+  def m "symbeval_search.ml" 220 6297 6341 "symbeval_search.ml" 231 6731 6757
+)
+"symbeval_search.ml" 221 6350 6358 "symbeval_search.ml" 221 6350 6360
+type(
+  ('f, 'g) Symbeval.ctx list
+)
+"symbeval_search.ml" 221 6350 6364 "symbeval_search.ml" 221 6350 6365
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list * int
+)
+ident(
+  int_ref l "symbeval_search.ml" 220 6297 6321 "symbeval_search.ml" 220 6297 6333
+)
+"symbeval_search.ml" 222 6366 6375 "symbeval_search.ml" 222 6366 6377
+type(
+  ('f, 'g) Symbeval.ctx
+)
+ident(
+  def st "symbeval_search.ml" 222 6366 6382 "symbeval_search.ml" 222 6366 6396
+)
+"symbeval_search.ml" 222 6366 6374 "symbeval_search.ml" 222 6366 6378
+type(
+  ('f, 'g) Symbeval.ctx list
+)
+"symbeval_search.ml" 222 6366 6384 "symbeval_search.ml" 222 6366 6386
+type(
+  ('f, 'g) Symbeval.ctx
+)
+ident(
+  int_ref st "symbeval_search.ml" 222 6366 6375 "symbeval_search.ml" 222 6366 6377
+)
+"symbeval_search.ml" 222 6366 6387 "symbeval_search.ml" 222 6366 6388
+type(
+  int EdgeMap.t
+)
+ident(
+  int_ref m "symbeval_search.ml" 220 6297 6337 "symbeval_search.ml" 220 6297 6338
+)
+"symbeval_search.ml" 222 6366 6383 "symbeval_search.ml" 222 6366 6389
+type(
+  ('f, 'g) Symbeval.ctx * int EdgeMap.t
+)
+"symbeval_search.ml" 222 6366 6391 "symbeval_search.ml" 222 6366 6392
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list
+)
+ident(
+  int_ref q "symbeval_search.ml" 220 6297 6323 "symbeval_search.ml" 220 6297 6324
+)
+"symbeval_search.ml" 222 6366 6383 "symbeval_search.ml" 222 6366 6392
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list
+)
+"symbeval_search.ml" 222 6366 6394 "symbeval_search.ml" 222 6366 6395
+type(
+  int
+)
+ident(
+  int_ref i "symbeval_search.ml" 220 6297 6325 "symbeval_search.ml" 220 6297 6326
+)
+"symbeval_search.ml" 222 6366 6382 "symbeval_search.ml" 222 6366 6396
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list * int
+)
+"symbeval_search.ml" 223 6397 6405 "symbeval_search.ml" 223 6397 6414
+type(
+  ('f, 'g) Symbeval.ctx list
+)
+ident(
+  def newstates "symbeval_search.ml" 224 6418 6428 "symbeval_search.ml" 231 6731 6757
+)
+"symbeval_search.ml" 224 6418 6432 "symbeval_search.ml" 224 6418 6439
+type(
+  ('j, 'k) Symbeval.ctx -> (('j, 'k) Symbeval.ctx * int EdgeMap.t) option
+)
+"symbeval_search.ml" 224 6418 6440 "symbeval_search.ml" 224 6418 6443
+type(
+  ('j, 'k) Symbeval.ctx
+)
+ident(
+  def nst "symbeval_search.ml" 225 6446 6458 "symbeval_search.ml" 228 6595 6651
+)
+"symbeval_search.ml" 225 6446 6462 "symbeval_search.ml" 225 6446 6466
+type(
+  Type.addr * Type.addr
+)
+"symbeval_search.ml" 225 6446 6470 "symbeval_search.ml" 225 6446 6472
+type(
+  ('h, 'i) Symbeval.ctx
+)
+ident(
+  int_ref st "symbeval_search.ml" 220 6297 6334 "symbeval_search.ml" 220 6297 6336
+)
+"symbeval_search.ml" 225 6446 6470 "symbeval_search.ml" 225 6446 6475
+type(
+  Type.addr
+)
+"symbeval_search.ml" 225 6446 6477 "symbeval_search.ml" 225 6446 6480
+type(
+  ('j, 'k) Symbeval.ctx
+)
+ident(
+  int_ref nst "symbeval_search.ml" 224 6418 6440 "symbeval_search.ml" 224 6418 6443
+)
+"symbeval_search.ml" 225 6446 6477 "symbeval_search.ml" 225 6446 6483
+type(
+  Type.addr
+)
+"symbeval_search.ml" 225 6446 6469 "symbeval_search.ml" 225 6446 6484
+type(
+  Type.addr * Type.addr
+)
+"symbeval_search.ml" 226 6488 6504 "symbeval_search.ml" 226 6488 6509
+type(
+  int
+)
+"symbeval_search.ml" 226 6488 6516 "symbeval_search.ml" 226 6488 6528
+type(
+  EdgeMap.key -> int EdgeMap.t -> int
+)
+ident(
+  ext_ref EdgeMap.find
+)
+"symbeval_search.ml" 226 6488 6529 "symbeval_search.ml" 226 6488 6533
+type(
+  EdgeMap.key
+)
+ident(
+  int_ref edge "symbeval_search.ml" 225 6446 6462 "symbeval_search.ml" 225 6446 6466
+)
+"symbeval_search.ml" 226 6488 6534 "symbeval_search.ml" 226 6488 6535
+type(
+  int EdgeMap.t
+)
+ident(
+  int_ref m "symbeval_search.ml" 220 6297 6337 "symbeval_search.ml" 220 6297 6338
+)
+"symbeval_search.ml" 226 6488 6516 "symbeval_search.ml" 226 6488 6535
+call(
+  stack
+)
+type(
+  int
+)
+"symbeval_search.ml" 226 6488 6541 "symbeval_search.ml" 226 6488 6550
+type(
+  exn
+)
+"symbeval_search.ml" 226 6488 6554 "symbeval_search.ml" 226 6488 6555
+type(
+  int
+)
+"symbeval_search.ml" 226 6488 6512 "symbeval_search.ml" 226 6488 6555
+type(
+  int
+)
+"symbeval_search.ml" 227 6559 6574 "symbeval_search.ml" 227 6559 6579
+type(
+  int
+)
+ident(
+  int_ref count "symbeval_search.ml" 226 6488 6504 "symbeval_search.ml" 226 6488 6509
+)
+"symbeval_search.ml" 227 6559 6580 "symbeval_search.ml" 227 6559 6582
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"symbeval_search.ml" 227 6559 6583 "symbeval_search.ml" 227 6559 6584
+type(
+  int
+)
+ident(
+  int_ref i "symbeval_search.ml" 220 6297 6325 "symbeval_search.ml" 220 6297 6326
+)
+"symbeval_search.ml" 227 6559 6574 "symbeval_search.ml" 227 6559 6584
+type(
+  bool
+)
+"symbeval_search.ml" 227 6559 6590 "symbeval_search.ml" 227 6559 6594
+type(
+  (('j, 'k) Symbeval.ctx * int EdgeMap.t) option
+)
+"symbeval_search.ml" 228 6595 6617 "symbeval_search.ml" 228 6595 6620
+type(
+  ('j, 'k) Symbeval.ctx
+)
+ident(
+  int_ref nst "symbeval_search.ml" 224 6418 6440 "symbeval_search.ml" 224 6418 6443
+)
+"symbeval_search.ml" 228 6595 6622 "symbeval_search.ml" 228 6595 6633
+type(
+  EdgeMap.key -> int -> int EdgeMap.t -> int EdgeMap.t
+)
+ident(
+  ext_ref EdgeMap.add
+)
+"symbeval_search.ml" 228 6595 6634 "symbeval_search.ml" 228 6595 6638
+type(
+  EdgeMap.key
+)
+ident(
+  int_ref edge "symbeval_search.ml" 225 6446 6462 "symbeval_search.ml" 225 6446 6466
+)
+"symbeval_search.ml" 228 6595 6640 "symbeval_search.ml" 228 6595 6645
+type(
+  int
+)
+ident(
+  int_ref count "symbeval_search.ml" 226 6488 6504 "symbeval_search.ml" 226 6488 6509
+)
+"symbeval_search.ml" 228 6595 6645 "symbeval_search.ml" 228 6595 6646
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"symbeval_search.ml" 228 6595 6646 "symbeval_search.ml" 228 6595 6647
+type(
+  int
+)
+"symbeval_search.ml" 228 6595 6639 "symbeval_search.ml" 228 6595 6648
+type(
+  int
+)
+"symbeval_search.ml" 228 6595 6649 "symbeval_search.ml" 228 6595 6650
+type(
+  int EdgeMap.t
+)
+ident(
+  int_ref m "symbeval_search.ml" 220 6297 6337 "symbeval_search.ml" 220 6297 6338
+)
+"symbeval_search.ml" 228 6595 6622 "symbeval_search.ml" 228 6595 6650
+call(
+  stack
+)
+type(
+  int EdgeMap.t
+)
+"symbeval_search.ml" 228 6595 6616 "symbeval_search.ml" 228 6595 6651
+type(
+  ('j, 'k) Symbeval.ctx * int EdgeMap.t
+)
+"symbeval_search.ml" 228 6595 6612 "symbeval_search.ml" 228 6595 6651
+type(
+  (('j, 'k) Symbeval.ctx * int EdgeMap.t) option
+)
+"symbeval_search.ml" 227 6559 6571 "symbeval_search.ml" 228 6595 6651
+type(
+  (('j, 'k) Symbeval.ctx * int EdgeMap.t) option
+)
+"symbeval_search.ml" 226 6488 6500 "symbeval_search.ml" 228 6595 6651
+type(
+  (('j, 'k) Symbeval.ctx * int EdgeMap.t) option
+)
+"symbeval_search.ml" 225 6446 6458 "symbeval_search.ml" 228 6595 6651
+type(
+  (('j, 'k) Symbeval.ctx * int EdgeMap.t) option
+)
+"symbeval_search.ml" 230 6665 6679 "symbeval_search.ml" 230 6665 6688
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list
+)
+"symbeval_search.ml" 230 6665 6691 "symbeval_search.ml" 230 6665 6709
+type(
+  (('f, 'g) Symbeval.ctx -> (('f, 'g) Symbeval.ctx * int EdgeMap.t) option) ->
+  ('f, 'g) Symbeval.ctx list -> (('f, 'g) Symbeval.ctx * int EdgeMap.t) list
+)
+ident(
+  ext_ref BatList.filter_map
+)
+"symbeval_search.ml" 230 6665 6710 "symbeval_search.ml" 230 6665 6717
+type(
+  ('f, 'g) Symbeval.ctx -> (('f, 'g) Symbeval.ctx * int EdgeMap.t) option
+)
+ident(
+  int_ref addedge "symbeval_search.ml" 224 6418 6432 "symbeval_search.ml" 224 6418 6439
+)
+"symbeval_search.ml" 230 6665 6718 "symbeval_search.ml" 230 6665 6727
+type(
+  ('f, 'g) Symbeval.ctx list
+)
+ident(
+  int_ref newstates "symbeval_search.ml" 223 6397 6405 "symbeval_search.ml" 223 6397 6414
+)
+"symbeval_search.ml" 230 6665 6691 "symbeval_search.ml" 230 6665 6727
+call(
+  stack
+)
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list
+)
+"symbeval_search.ml" 231 6731 6742 "symbeval_search.ml" 231 6731 6751
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list
+)
+ident(
+  int_ref newstates "symbeval_search.ml" 230 6665 6679 "symbeval_search.ml" 230 6665 6688
+)
+"symbeval_search.ml" 231 6731 6751 "symbeval_search.ml" 231 6731 6752
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list ->
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list ->
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"symbeval_search.ml" 231 6731 6752 "symbeval_search.ml" 231 6731 6753
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list
+)
+ident(
+  int_ref q "symbeval_search.ml" 220 6297 6323 "symbeval_search.ml" 220 6297 6324
+)
+"symbeval_search.ml" 231 6731 6742 "symbeval_search.ml" 231 6731 6753
+call(
+  stack
+)
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list
+)
+"symbeval_search.ml" 231 6731 6755 "symbeval_search.ml" 231 6731 6756
+type(
+  int
+)
+ident(
+  int_ref i "symbeval_search.ml" 220 6297 6325 "symbeval_search.ml" 220 6297 6326
+)
+"symbeval_search.ml" 231 6731 6741 "symbeval_search.ml" 231 6731 6757
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list * int
+)
+"symbeval_search.ml" 230 6665 6675 "symbeval_search.ml" 231 6731 6757
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list * int
+)
+"symbeval_search.ml" 224 6418 6428 "symbeval_search.ml" 231 6731 6757
+type(
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list * int
+)
+"symbeval_search.ml" 220 6297 6341 "symbeval_search.ml" 231 6731 6757
+type(
+  ('f, 'g) Symbeval.ctx list ->
+  (('f, 'g) Symbeval.ctx * int EdgeMap.t) list * int
+)
+"symbeval_search.ml" 209 5957 5979 "symbeval_search.ml" 232 6758 6764
+call(
+  stack
+)
+"symbeval_search.ml" 233 6765 6792 "symbeval_search.ml" 233 6765 6815
+call(
+  stack
+)
+"symbeval_search.ml" 234 6816 6842 "symbeval_search.ml" 234 6816 6864
+call(
+  stack
+)
+"symbeval_search.ml" 235 6865 6869 "symbeval_search.ml" 235 6865 6890
+type(
+  MaxrepeatDFSNaive.S.initdata ->
+  Ast.stmt list -> Ast.exp -> NaiveSymb.Form.output
+)
+ident(
+  def maxrepeat_ast_program "symbeval_search.ml" 236 6928 6928 --
+)
+"symbeval_search.ml" 235 6865 6893 "symbeval_search.ml" 235 6865 6927
+type(
+  MaxrepeatDFSNaive.S.initdata ->
+  Ast.stmt list -> Ast.exp -> NaiveSymb.Form.output
+)
+ident(
+  ext_ref MaxrepeatDFSNaive.eval_ast_program
+)
+"symbeval_search.ml" 236 6928 6932 "symbeval_search.ml" 236 6928 6958
+type(
+  MaxrepeatDFSFast.S.initdata ->
+  Ast.stmt list -> Ast.exp -> FastSymb.Form.output
+)
+ident(
+  def maxrepeat_ast_program_fast "symbeval_search.ml" 236 6928 6994 --
+)
+"symbeval_search.ml" 236 6928 6961 "symbeval_search.ml" 236 6928 6994
+type(
+  MaxrepeatDFSFast.S.initdata ->
+  Ast.stmt list -> Ast.exp -> FastSymb.Form.output
+)
+ident(
+  ext_ref MaxrepeatDFSFast.eval_ast_program
+)

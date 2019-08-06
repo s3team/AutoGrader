@@ -1,0 +1,2475 @@
+"graphDataflow.ml" 8 109 142 "graphDataflow.ml" 8 109 146
+type(
+  string
+)
+ident(
+  def name "graphDataflow.ml" 8 109 187 "graphDataflow.ml" 8 109 191
+)
+"graphDataflow.ml" 8 109 149 "graphDataflow.ml" 8 109 164
+type(
+  string
+)
+"graphDataflow.ml" 8 109 169 "graphDataflow.ml" 8 109 176
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "graphDataflow.ml" 8 109 187 "graphDataflow.ml" 8 109 191
+)
+"graphDataflow.ml" 8 109 179 "graphDataflow.ml" 8 109 187
+type(
+  [> `NoDebug ] as 'a
+)
+"graphDataflow.ml" 8 109 120 "graphDataflow.ml" 8 109 192
+call(
+  stack
+)
+"graphDataflow.ml" 48 861 867 "graphDataflow.ml" 48 861 874
+type(
+  unit
+)
+ident(
+  def default "graphDataflow.ml" 48 861 879 "graphDataflow.ml" 49 880 883
+)
+"graphDataflow.ml" 48 861 877 "graphDataflow.ml" 48 861 879
+type(
+  unit
+)
+"graphDataflow.ml" 83 1680 1693 "graphDataflow.ml" 83 1680 1712
+call(
+  stack
+)
+"graphDataflow.ml" 85 1714 1720 "graphDataflow.ml" 85 1714 1742
+type(
+  ?init:(D.O.t -> D.G.t -> D.L.t) ->
+  ?nmeets:int -> ?opts:D.O.t -> D.G.t -> (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+ident(
+  def worklist_iterate_widen "graphDataflow.ml" 170 5017 5034 "graphDataflow.ml" 171 5035 5038
+)
+"graphDataflow.ml" 85 1714 1745 "graphDataflow.ml" 85 1714 1749
+type(
+  D.O.t -> D.G.t -> D.L.t
+)
+"graphDataflow.ml" 85 1714 1752 "graphDataflow.ml" 85 1714 1758
+type(
+  D.O.t -> D.G.t -> D.L.t
+)
+ident(
+  ext_ref D.init
+)
+type(
+  D.O.t -> D.G.t -> D.L.t
+)
+ident(
+  int_ref *sth* "graphDataflow.ml" 85 1714 1752 "graphDataflow.ml" 85 1714 1758
+)
+type(
+  (D.O.t -> D.G.t -> D.L.t) option
+)
+type(
+  (D.O.t -> D.G.t -> D.L.t) option
+)
+type(
+  D.O.t -> D.G.t -> D.L.t
+)
+ident(
+  def *sth* "graphDataflow.ml" 85 1714 1752 "graphDataflow.ml" 85 1714 1758
+)
+"graphDataflow.ml" 85 1714 1762 "graphDataflow.ml" 85 1714 1768
+type(
+  int
+)
+"graphDataflow.ml" 85 1714 1769 "graphDataflow.ml" 85 1714 1770
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "graphDataflow.ml" 85 1714 1769 "graphDataflow.ml" 85 1714 1770
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "graphDataflow.ml" 85 1714 1769 "graphDataflow.ml" 85 1714 1770
+)
+"graphDataflow.ml" 85 1714 1774 "graphDataflow.ml" 85 1714 1778
+type(
+  D.O.t
+)
+"graphDataflow.ml" 85 1714 1779 "graphDataflow.ml" 85 1714 1790
+type(
+  D.O.t
+)
+ident(
+  ext_ref D.O.default
+)
+type(
+  D.O.t
+)
+ident(
+  int_ref *sth* "graphDataflow.ml" 85 1714 1779 "graphDataflow.ml" 85 1714 1790
+)
+type(
+  D.O.t option
+)
+type(
+  D.O.t option
+)
+type(
+  D.O.t
+)
+ident(
+  def *sth* "graphDataflow.ml" 85 1714 1779 "graphDataflow.ml" 85 1714 1790
+)
+"graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+type(
+  D.G.t
+)
+ident(
+  def g "graphDataflow.ml" 86 1796 1800 "graphDataflow.ml" 170 5017 5034
+)
+"graphDataflow.ml" 86 1796 1804 "graphDataflow.ml" 86 1796 1809
+type(
+  D.G.V.t list
+)
+"graphDataflow.ml" 86 1796 1812 "graphDataflow.ml" 86 1796 1827
+type(
+  (D.G.V.t -> D.G.V.t list -> D.G.V.t list) ->
+  D.G.t -> D.G.V.t list -> D.G.V.t list
+)
+ident(
+  ext_ref D.G.fold_vertex
+)
+"graphDataflow.ml" 86 1796 1833 "graphDataflow.ml" 86 1796 1834
+type(
+  D.G.V.t
+)
+ident(
+  def x "graphDataflow.ml" 86 1796 1835 "graphDataflow.ml" 86 1796 1848
+)
+"graphDataflow.ml" 86 1796 1835 "graphDataflow.ml" 86 1796 1838
+type(
+  D.G.V.t list
+)
+ident(
+  def acc "graphDataflow.ml" 86 1796 1842 "graphDataflow.ml" 86 1796 1848
+)
+"graphDataflow.ml" 86 1796 1842 "graphDataflow.ml" 86 1796 1843
+type(
+  D.G.V.t
+)
+ident(
+  int_ref x "graphDataflow.ml" 86 1796 1833 "graphDataflow.ml" 86 1796 1834
+)
+"graphDataflow.ml" 86 1796 1845 "graphDataflow.ml" 86 1796 1848
+type(
+  D.G.V.t list
+)
+ident(
+  int_ref acc "graphDataflow.ml" 86 1796 1835 "graphDataflow.ml" 86 1796 1838
+)
+"graphDataflow.ml" 86 1796 1842 "graphDataflow.ml" 86 1796 1848
+type(
+  D.G.V.t list
+)
+"graphDataflow.ml" 86 1796 1828 "graphDataflow.ml" 86 1796 1849
+type(
+  D.G.V.t -> D.G.V.t list -> D.G.V.t list
+)
+"graphDataflow.ml" 86 1796 1850 "graphDataflow.ml" 86 1796 1851
+type(
+  D.G.t
+)
+ident(
+  int_ref g "graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+)
+"graphDataflow.ml" 86 1796 1852 "graphDataflow.ml" 86 1796 1854
+type(
+  D.G.V.t list
+)
+"graphDataflow.ml" 86 1796 1812 "graphDataflow.ml" 86 1796 1854
+call(
+  stack
+)
+type(
+  D.G.V.t list
+)
+"graphDataflow.ml" 87 1858 1866 "graphDataflow.ml" 87 1858 1869
+type(
+  H.key -> D.L.t -> D.L.t
+)
+"graphDataflow.ml" 87 1858 1872 "graphDataflow.ml" 87 1858 1896
+type(
+  D.O.t -> D.G.t -> H.key -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.node_transfer_function
+)
+"graphDataflow.ml" 87 1858 1897 "graphDataflow.ml" 87 1858 1901
+type(
+  D.O.t
+)
+ident(
+  int_ref opts "graphDataflow.ml" 85 1714 1774 "graphDataflow.ml" 85 1714 1778
+)
+"graphDataflow.ml" 87 1858 1902 "graphDataflow.ml" 87 1858 1903
+type(
+  D.G.t
+)
+ident(
+  int_ref g "graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+)
+"graphDataflow.ml" 87 1858 1872 "graphDataflow.ml" 87 1858 1903
+call(
+  stack
+)
+type(
+  H.key -> D.L.t -> D.L.t
+)
+"graphDataflow.ml" 88 1907 1915 "graphDataflow.ml" 88 1907 1921
+type(
+  H.key -> D.G.E.t list
+)
+"graphDataflow.ml" 88 1907 1922 "graphDataflow.ml" 88 1907 1928
+type(
+  D.G.V.t -> D.G.E.t list
+)
+"graphDataflow.ml" 88 1907 1929 "graphDataflow.ml" 88 1907 1932
+type(
+  D.G.E.t -> D.G.E.vertex
+)
+"graphDataflow.ml" 88 1907 1933 "graphDataflow.ml" 88 1907 1936
+type(
+  D.G.E.t -> D.G.E.vertex
+)
+"graphDataflow.ml" 88 1907 1915 "graphDataflow.ml" 88 1907 1936
+type(
+  (H.key -> D.G.E.t list) * (D.G.V.t -> D.G.E.t list) *
+  (D.G.E.t -> D.G.E.vertex) * (D.G.E.t -> D.G.E.vertex)
+)
+"graphDataflow.ml" 88 1907 1945 "graphDataflow.ml" 88 1907 1950
+type(
+  D.O.t -> direction
+)
+ident(
+  ext_ref D.dir
+)
+"graphDataflow.ml" 88 1907 1951 "graphDataflow.ml" 88 1907 1955
+type(
+  D.O.t
+)
+ident(
+  int_ref opts "graphDataflow.ml" 85 1714 1774 "graphDataflow.ml" 85 1714 1778
+)
+"graphDataflow.ml" 88 1907 1945 "graphDataflow.ml" 88 1907 1955
+call(
+  stack
+)
+type(
+  direction
+)
+"graphDataflow.ml" 89 1961 1969 "graphDataflow.ml" 89 1961 1976
+type(
+  direction
+)
+"graphDataflow.ml" 90 1980 1991 "graphDataflow.ml" 90 1980 2001
+type(
+  D.G.t -> H.key -> D.G.E.t list
+)
+ident(
+  ext_ref D.G.succ_e
+)
+"graphDataflow.ml" 90 1980 2002 "graphDataflow.ml" 90 1980 2003
+type(
+  D.G.t
+)
+ident(
+  int_ref g "graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+)
+"graphDataflow.ml" 90 1980 1991 "graphDataflow.ml" 90 1980 2003
+call(
+  stack
+)
+type(
+  H.key -> D.G.E.t list
+)
+"graphDataflow.ml" 90 1980 2005 "graphDataflow.ml" 90 1980 2015
+type(
+  D.G.t -> D.G.V.t -> D.G.E.t list
+)
+ident(
+  ext_ref D.G.pred_e
+)
+"graphDataflow.ml" 90 1980 2016 "graphDataflow.ml" 90 1980 2017
+type(
+  D.G.t
+)
+ident(
+  int_ref g "graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+)
+"graphDataflow.ml" 90 1980 2005 "graphDataflow.ml" 90 1980 2017
+call(
+  stack
+)
+type(
+  D.G.V.t -> D.G.E.t list
+)
+"graphDataflow.ml" 91 2019 2030 "graphDataflow.ml" 91 2019 2039
+type(
+  D.G.E.t -> D.G.E.vertex
+)
+ident(
+  ext_ref D.G.E.dst
+)
+"graphDataflow.ml" 91 2019 2041 "graphDataflow.ml" 91 2019 2050
+type(
+  D.G.E.t -> D.G.E.vertex
+)
+ident(
+  ext_ref D.G.E.src
+)
+"graphDataflow.ml" 90 1980 1990 "graphDataflow.ml" 91 2019 2051
+type(
+  (H.key -> D.G.E.t list) * (D.G.V.t -> D.G.E.t list) *
+  (D.G.E.t -> D.G.E.vertex) * (D.G.E.t -> D.G.E.vertex)
+)
+"graphDataflow.ml" 92 2052 2060 "graphDataflow.ml" 92 2052 2068
+type(
+  direction
+)
+"graphDataflow.ml" 93 2072 2083 "graphDataflow.ml" 93 2072 2093
+type(
+  D.G.t -> H.key -> D.G.E.t list
+)
+ident(
+  ext_ref D.G.pred_e
+)
+"graphDataflow.ml" 93 2072 2094 "graphDataflow.ml" 93 2072 2095
+type(
+  D.G.t
+)
+ident(
+  int_ref g "graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+)
+"graphDataflow.ml" 93 2072 2083 "graphDataflow.ml" 93 2072 2095
+call(
+  stack
+)
+type(
+  H.key -> D.G.E.t list
+)
+"graphDataflow.ml" 93 2072 2097 "graphDataflow.ml" 93 2072 2107
+type(
+  D.G.t -> D.G.V.t -> D.G.E.t list
+)
+ident(
+  ext_ref D.G.succ_e
+)
+"graphDataflow.ml" 93 2072 2108 "graphDataflow.ml" 93 2072 2109
+type(
+  D.G.t
+)
+ident(
+  int_ref g "graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+)
+"graphDataflow.ml" 93 2072 2097 "graphDataflow.ml" 93 2072 2109
+call(
+  stack
+)
+type(
+  D.G.V.t -> D.G.E.t list
+)
+"graphDataflow.ml" 94 2111 2122 "graphDataflow.ml" 94 2111 2131
+type(
+  D.G.E.t -> D.G.E.vertex
+)
+ident(
+  ext_ref D.G.E.src
+)
+"graphDataflow.ml" 94 2111 2133 "graphDataflow.ml" 94 2111 2142
+type(
+  D.G.E.t -> D.G.E.vertex
+)
+ident(
+  ext_ref D.G.E.dst
+)
+"graphDataflow.ml" 93 2072 2082 "graphDataflow.ml" 94 2111 2143
+type(
+  (H.key -> D.G.E.t list) * (D.G.V.t -> D.G.E.t list) *
+  (D.G.E.t -> D.G.E.vertex) * (D.G.E.t -> D.G.E.vertex)
+)
+"graphDataflow.ml" 88 1907 1939 "graphDataflow.ml" 94 2111 2143
+type(
+  (H.key -> D.G.E.t list) * (D.G.V.t -> D.G.E.t list) *
+  (D.G.E.t -> D.G.E.vertex) * (D.G.E.t -> D.G.E.vertex)
+)
+"graphDataflow.ml" 96 2151 2159 "graphDataflow.ml" 96 2151 2163
+type(
+  D.L.t H.t
+)
+"graphDataflow.ml" 96 2151 2166 "graphDataflow.ml" 96 2151 2174
+type(
+  int -> D.L.t H.t
+)
+ident(
+  ext_ref H.create
+)
+"graphDataflow.ml" 96 2151 2176 "graphDataflow.ml" 96 2151 2187
+type(
+  D.G.V.t list -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"graphDataflow.ml" 96 2151 2188 "graphDataflow.ml" 96 2151 2193
+type(
+  D.G.V.t list
+)
+ident(
+  int_ref nodes "graphDataflow.ml" 86 1796 1804 "graphDataflow.ml" 86 1796 1809
+)
+"graphDataflow.ml" 96 2151 2175 "graphDataflow.ml" 96 2151 2194
+call(
+  stack
+)
+type(
+  int
+)
+"graphDataflow.ml" 96 2151 2166 "graphDataflow.ml" 96 2151 2194
+call(
+  stack
+)
+type(
+  D.L.t H.t
+)
+"graphDataflow.ml" 97 2198 2206 "graphDataflow.ml" 97 2198 2210
+type(
+  H.key -> D.L.t
+)
+"graphDataflow.ml" 97 2198 2213 "graphDataflow.ml" 97 2198 2219
+type(
+  D.L.t H.t -> H.key -> D.L.t
+)
+ident(
+  ext_ref H.find
+)
+"graphDataflow.ml" 97 2198 2220 "graphDataflow.ml" 97 2198 2224
+type(
+  D.L.t H.t
+)
+ident(
+  int_ref htin "graphDataflow.ml" 96 2151 2159 "graphDataflow.ml" 96 2151 2163
+)
+"graphDataflow.ml" 97 2198 2213 "graphDataflow.ml" 97 2198 2224
+call(
+  stack
+)
+type(
+  H.key -> D.L.t
+)
+"graphDataflow.ml" 98 2258 2266 "graphDataflow.ml" 98 2258 2271
+type(
+  D.L.t H.t
+)
+"graphDataflow.ml" 98 2258 2274 "graphDataflow.ml" 98 2258 2282
+type(
+  int -> D.L.t H.t
+)
+ident(
+  ext_ref H.create
+)
+"graphDataflow.ml" 98 2258 2284 "graphDataflow.ml" 98 2258 2295
+type(
+  D.G.V.t list -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"graphDataflow.ml" 98 2258 2296 "graphDataflow.ml" 98 2258 2301
+type(
+  D.G.V.t list
+)
+ident(
+  int_ref nodes "graphDataflow.ml" 86 1796 1804 "graphDataflow.ml" 86 1796 1809
+)
+"graphDataflow.ml" 98 2258 2283 "graphDataflow.ml" 98 2258 2302
+call(
+  stack
+)
+type(
+  int
+)
+"graphDataflow.ml" 98 2258 2274 "graphDataflow.ml" 98 2258 2302
+call(
+  stack
+)
+type(
+  D.L.t H.t
+)
+"graphDataflow.ml" 99 2306 2314 "graphDataflow.ml" 99 2306 2319
+type(
+  H.key -> D.L.t
+)
+"graphDataflow.ml" 99 2306 2320 "graphDataflow.ml" 99 2306 2321
+type(
+  H.key
+)
+ident(
+  def n "graphDataflow.ml" 100 2324 2330 "graphDataflow.ml" 105 2446 2457
+)
+"graphDataflow.ml" 101 2334 2342 "graphDataflow.ml" 101 2334 2348
+type(
+  D.L.t H.t -> H.key -> D.L.t
+)
+ident(
+  ext_ref H.find
+)
+"graphDataflow.ml" 101 2334 2349 "graphDataflow.ml" 101 2334 2354
+type(
+  D.L.t H.t
+)
+ident(
+  int_ref htout "graphDataflow.ml" 98 2258 2266 "graphDataflow.ml" 98 2258 2271
+)
+"graphDataflow.ml" 101 2334 2355 "graphDataflow.ml" 101 2334 2356
+type(
+  H.key
+)
+ident(
+  int_ref n "graphDataflow.ml" 99 2306 2320 "graphDataflow.ml" 99 2306 2321
+)
+"graphDataflow.ml" 101 2334 2342 "graphDataflow.ml" 101 2334 2356
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"graphDataflow.ml" 102 2357 2368 "graphDataflow.ml" 102 2357 2377
+type(
+  exn
+)
+"graphDataflow.ml" 103 2381 2393 "graphDataflow.ml" 103 2381 2396
+type(
+  D.L.t
+)
+"graphDataflow.ml" 103 2381 2400 "graphDataflow.ml" 103 2381 2403
+type(
+  H.key -> D.L.t -> D.L.t
+)
+ident(
+  int_ref f_t "graphDataflow.ml" 87 1858 1866 "graphDataflow.ml" 87 1858 1869
+)
+"graphDataflow.ml" 103 2381 2404 "graphDataflow.ml" 103 2381 2405
+type(
+  H.key
+)
+ident(
+  int_ref n "graphDataflow.ml" 99 2306 2320 "graphDataflow.ml" 99 2306 2321
+)
+"graphDataflow.ml" 103 2381 2407 "graphDataflow.ml" 103 2381 2411
+type(
+  H.key -> D.L.t
+)
+ident(
+  int_ref dfin "graphDataflow.ml" 97 2198 2206 "graphDataflow.ml" 97 2198 2210
+)
+"graphDataflow.ml" 103 2381 2412 "graphDataflow.ml" 103 2381 2413
+type(
+  H.key
+)
+ident(
+  int_ref n "graphDataflow.ml" 99 2306 2320 "graphDataflow.ml" 99 2306 2321
+)
+"graphDataflow.ml" 103 2381 2406 "graphDataflow.ml" 103 2381 2414
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"graphDataflow.ml" 103 2381 2399 "graphDataflow.ml" 103 2381 2415
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"graphDataflow.ml" 104 2419 2427 "graphDataflow.ml" 104 2419 2432
+type(
+  D.L.t H.t -> H.key -> D.L.t -> unit
+)
+ident(
+  ext_ref H.add
+)
+"graphDataflow.ml" 104 2419 2433 "graphDataflow.ml" 104 2419 2438
+type(
+  D.L.t H.t
+)
+ident(
+  int_ref htout "graphDataflow.ml" 98 2258 2266 "graphDataflow.ml" 98 2258 2271
+)
+"graphDataflow.ml" 104 2419 2439 "graphDataflow.ml" 104 2419 2440
+type(
+  H.key
+)
+ident(
+  int_ref n "graphDataflow.ml" 99 2306 2320 "graphDataflow.ml" 99 2306 2321
+)
+"graphDataflow.ml" 104 2419 2441 "graphDataflow.ml" 104 2419 2444
+type(
+  D.L.t
+)
+ident(
+  int_ref out "graphDataflow.ml" 103 2381 2393 "graphDataflow.ml" 103 2381 2396
+)
+"graphDataflow.ml" 104 2419 2427 "graphDataflow.ml" 104 2419 2444
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 105 2446 2454 "graphDataflow.ml" 105 2446 2457
+type(
+  D.L.t
+)
+ident(
+  int_ref out "graphDataflow.ml" 103 2381 2393 "graphDataflow.ml" 103 2381 2396
+)
+"graphDataflow.ml" 104 2419 2427 "graphDataflow.ml" 105 2446 2457
+type(
+  D.L.t
+)
+"graphDataflow.ml" 103 2381 2389 "graphDataflow.ml" 105 2446 2457
+type(
+  D.L.t
+)
+"graphDataflow.ml" 100 2324 2330 "graphDataflow.ml" 105 2446 2457
+type(
+  D.L.t
+)
+"graphDataflow.ml" 107 2465 2473 "graphDataflow.ml" 107 2465 2480
+type(
+  unit H.t
+)
+"graphDataflow.ml" 107 2465 2483 "graphDataflow.ml" 107 2465 2491
+type(
+  int -> unit H.t
+)
+ident(
+  ext_ref H.create
+)
+"graphDataflow.ml" 107 2465 2493 "graphDataflow.ml" 107 2465 2504
+type(
+  D.G.V.t list -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"graphDataflow.ml" 107 2465 2505 "graphDataflow.ml" 107 2465 2510
+type(
+  D.G.V.t list
+)
+ident(
+  int_ref nodes "graphDataflow.ml" 86 1796 1804 "graphDataflow.ml" 86 1796 1809
+)
+"graphDataflow.ml" 107 2465 2492 "graphDataflow.ml" 107 2465 2511
+call(
+  stack
+)
+type(
+  int
+)
+"graphDataflow.ml" 107 2465 2483 "graphDataflow.ml" 107 2465 2511
+call(
+  stack
+)
+type(
+  unit H.t
+)
+"graphDataflow.ml" 108 2515 2523 "graphDataflow.ml" 108 2515 2531
+type(
+  (H.key * H.key, bool) Hashtbl.t
+)
+"graphDataflow.ml" 108 2515 2534 "graphDataflow.ml" 108 2515 2548
+type(
+  int -> (H.key * H.key, bool) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"graphDataflow.ml" 108 2515 2550 "graphDataflow.ml" 108 2515 2561
+type(
+  D.G.V.t list -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"graphDataflow.ml" 108 2515 2562 "graphDataflow.ml" 108 2515 2567
+type(
+  D.G.V.t list
+)
+ident(
+  int_ref nodes "graphDataflow.ml" 86 1796 1804 "graphDataflow.ml" 86 1796 1809
+)
+"graphDataflow.ml" 108 2515 2549 "graphDataflow.ml" 108 2515 2568
+call(
+  stack
+)
+type(
+  int
+)
+"graphDataflow.ml" 108 2515 2534 "graphDataflow.ml" 108 2515 2568
+call(
+  stack
+)
+type(
+  (H.key * H.key, bool) Hashtbl.t
+)
+"graphDataflow.ml" 109 2572 2580 "graphDataflow.ml" 109 2572 2591
+type(
+  H.key -> H.key -> bool
+)
+"graphDataflow.ml" 109 2572 2592 "graphDataflow.ml" 109 2572 2593
+type(
+  H.key
+)
+ident(
+  def s "graphDataflow.ml" 109 2572 2594 "graphDataflow.ml" 115 2856 2865
+)
+"graphDataflow.ml" 109 2572 2594 "graphDataflow.ml" 109 2572 2595
+type(
+  H.key
+)
+ident(
+  def d "graphDataflow.ml" 110 2598 2604 "graphDataflow.ml" 115 2856 2865
+)
+"graphDataflow.ml" 110 2598 2608 "graphDataflow.ml" 110 2598 2620
+type(
+  (H.key * H.key, bool) Hashtbl.t -> H.key * H.key -> bool
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"graphDataflow.ml" 110 2598 2621 "graphDataflow.ml" 110 2598 2629
+type(
+  (H.key * H.key, bool) Hashtbl.t
+)
+ident(
+  int_ref backedge "graphDataflow.ml" 108 2515 2523 "graphDataflow.ml" 108 2515 2531
+)
+"graphDataflow.ml" 110 2598 2631 "graphDataflow.ml" 110 2598 2632
+type(
+  H.key
+)
+ident(
+  int_ref s "graphDataflow.ml" 109 2572 2592 "graphDataflow.ml" 109 2572 2593
+)
+"graphDataflow.ml" 110 2598 2633 "graphDataflow.ml" 110 2598 2634
+type(
+  H.key
+)
+ident(
+  int_ref d "graphDataflow.ml" 109 2572 2594 "graphDataflow.ml" 109 2572 2595
+)
+"graphDataflow.ml" 110 2598 2630 "graphDataflow.ml" 110 2598 2635
+type(
+  H.key * H.key
+)
+"graphDataflow.ml" 110 2598 2608 "graphDataflow.ml" 110 2598 2635
+call(
+  stack
+)
+type(
+  bool
+)
+"graphDataflow.ml" 111 2636 2647 "graphDataflow.ml" 111 2636 2656
+type(
+  exn
+)
+"graphDataflow.ml" 113 2728 2740 "graphDataflow.ml" 113 2728 2741
+type(
+  bool
+)
+"graphDataflow.ml" 113 2728 2744 "graphDataflow.ml" 113 2728 2755
+type(
+  H.key -> H.key -> bool
+)
+ident(
+  ext_ref D.G.V.equal
+)
+"graphDataflow.ml" 113 2728 2756 "graphDataflow.ml" 113 2728 2757
+type(
+  H.key
+)
+ident(
+  int_ref s "graphDataflow.ml" 109 2572 2592 "graphDataflow.ml" 109 2572 2593
+)
+"graphDataflow.ml" 113 2728 2758 "graphDataflow.ml" 113 2728 2759
+type(
+  H.key
+)
+ident(
+  int_ref d "graphDataflow.ml" 109 2572 2594 "graphDataflow.ml" 109 2572 2595
+)
+"graphDataflow.ml" 113 2728 2744 "graphDataflow.ml" 113 2728 2759
+call(
+  stack
+)
+type(
+  bool
+)
+"graphDataflow.ml" 113 2728 2760 "graphDataflow.ml" 113 2728 2762
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"graphDataflow.ml" 113 2728 2764 "graphDataflow.ml" 113 2728 2769
+type(
+  unit H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"graphDataflow.ml" 113 2728 2770 "graphDataflow.ml" 113 2728 2777
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "graphDataflow.ml" 107 2465 2473 "graphDataflow.ml" 107 2465 2480
+)
+"graphDataflow.ml" 113 2728 2778 "graphDataflow.ml" 113 2728 2779
+type(
+  H.key
+)
+ident(
+  int_ref s "graphDataflow.ml" 109 2572 2592 "graphDataflow.ml" 109 2572 2593
+)
+"graphDataflow.ml" 113 2728 2764 "graphDataflow.ml" 113 2728 2779
+call(
+  stack
+)
+type(
+  bool
+)
+"graphDataflow.ml" 113 2728 2780 "graphDataflow.ml" 113 2728 2781
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graphDataflow.ml" 113 2728 2782 "graphDataflow.ml" 113 2728 2787
+type(
+  bool
+)
+"graphDataflow.ml" 113 2728 2764 "graphDataflow.ml" 113 2728 2787
+type(
+  bool
+)
+"graphDataflow.ml" 113 2728 2788 "graphDataflow.ml" 113 2728 2790
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"graphDataflow.ml" 113 2728 2791 "graphDataflow.ml" 113 2728 2796
+type(
+  unit H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"graphDataflow.ml" 113 2728 2797 "graphDataflow.ml" 113 2728 2804
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "graphDataflow.ml" 107 2465 2473 "graphDataflow.ml" 107 2465 2480
+)
+"graphDataflow.ml" 113 2728 2805 "graphDataflow.ml" 113 2728 2806
+type(
+  H.key
+)
+ident(
+  int_ref d "graphDataflow.ml" 109 2572 2594 "graphDataflow.ml" 109 2572 2595
+)
+"graphDataflow.ml" 113 2728 2791 "graphDataflow.ml" 113 2728 2806
+call(
+  stack
+)
+type(
+  bool
+)
+"graphDataflow.ml" 113 2728 2807 "graphDataflow.ml" 113 2728 2808
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"graphDataflow.ml" 113 2728 2809 "graphDataflow.ml" 113 2728 2813
+type(
+  bool
+)
+"graphDataflow.ml" 113 2728 2791 "graphDataflow.ml" 113 2728 2813
+type(
+  bool
+)
+"graphDataflow.ml" 113 2728 2763 "graphDataflow.ml" 113 2728 2814
+type(
+  bool
+)
+"graphDataflow.ml" 113 2728 2744 "graphDataflow.ml" 113 2728 2814
+type(
+  bool
+)
+"graphDataflow.ml" 114 2818 2826 "graphDataflow.ml" 114 2818 2837
+type(
+  (H.key * H.key, bool) Hashtbl.t -> H.key * H.key -> bool -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"graphDataflow.ml" 114 2818 2838 "graphDataflow.ml" 114 2818 2846
+type(
+  (H.key * H.key, bool) Hashtbl.t
+)
+ident(
+  int_ref backedge "graphDataflow.ml" 108 2515 2523 "graphDataflow.ml" 108 2515 2531
+)
+"graphDataflow.ml" 114 2818 2848 "graphDataflow.ml" 114 2818 2849
+type(
+  H.key
+)
+ident(
+  int_ref s "graphDataflow.ml" 109 2572 2592 "graphDataflow.ml" 109 2572 2593
+)
+"graphDataflow.ml" 114 2818 2850 "graphDataflow.ml" 114 2818 2851
+type(
+  H.key
+)
+ident(
+  int_ref d "graphDataflow.ml" 109 2572 2594 "graphDataflow.ml" 109 2572 2595
+)
+"graphDataflow.ml" 114 2818 2847 "graphDataflow.ml" 114 2818 2852
+type(
+  H.key * H.key
+)
+"graphDataflow.ml" 114 2818 2853 "graphDataflow.ml" 114 2818 2854
+type(
+  bool
+)
+ident(
+  int_ref v "graphDataflow.ml" 113 2728 2740 "graphDataflow.ml" 113 2728 2741
+)
+"graphDataflow.ml" 114 2818 2826 "graphDataflow.ml" 114 2818 2854
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 115 2856 2864 "graphDataflow.ml" 115 2856 2865
+type(
+  bool
+)
+ident(
+  int_ref v "graphDataflow.ml" 113 2728 2740 "graphDataflow.ml" 113 2728 2741
+)
+"graphDataflow.ml" 114 2818 2826 "graphDataflow.ml" 115 2856 2865
+type(
+  bool
+)
+"graphDataflow.ml" 113 2728 2736 "graphDataflow.ml" 115 2856 2865
+type(
+  bool
+)
+"graphDataflow.ml" 110 2598 2604 "graphDataflow.ml" 115 2856 2865
+type(
+  bool
+)
+"graphDataflow.ml" 117 2873 2881 "graphDataflow.ml" 117 2873 2889
+type(
+  (H.key, unit) Hashtbl.t
+)
+"graphDataflow.ml" 117 2873 2892 "graphDataflow.ml" 117 2873 2906
+type(
+  int -> (H.key, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"graphDataflow.ml" 117 2873 2908 "graphDataflow.ml" 117 2873 2919
+type(
+  D.G.V.t list -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"graphDataflow.ml" 117 2873 2920 "graphDataflow.ml" 117 2873 2925
+type(
+  D.G.V.t list
+)
+ident(
+  int_ref nodes "graphDataflow.ml" 86 1796 1804 "graphDataflow.ml" 86 1796 1809
+)
+"graphDataflow.ml" 117 2873 2907 "graphDataflow.ml" 117 2873 2926
+call(
+  stack
+)
+type(
+  int
+)
+"graphDataflow.ml" 117 2873 2892 "graphDataflow.ml" 117 2873 2926
+call(
+  stack
+)
+type(
+  (H.key, unit) Hashtbl.t
+)
+"graphDataflow.ml" 118 2930 2938 "graphDataflow.ml" 118 2930 2944
+type(
+  (H.key * D.G.E.vertex, int) Hashtbl.t
+)
+"graphDataflow.ml" 118 2930 2947 "graphDataflow.ml" 118 2930 2961
+type(
+  int -> (H.key * D.G.E.vertex, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"graphDataflow.ml" 118 2930 2963 "graphDataflow.ml" 118 2930 2974
+type(
+  D.G.V.t list -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"graphDataflow.ml" 118 2930 2975 "graphDataflow.ml" 118 2930 2980
+type(
+  D.G.V.t list
+)
+ident(
+  int_ref nodes "graphDataflow.ml" 86 1796 1804 "graphDataflow.ml" 86 1796 1809
+)
+"graphDataflow.ml" 118 2930 2962 "graphDataflow.ml" 118 2930 2981
+call(
+  stack
+)
+type(
+  int
+)
+"graphDataflow.ml" 118 2930 2947 "graphDataflow.ml" 118 2930 2981
+call(
+  stack
+)
+type(
+  (H.key * D.G.E.vertex, int) Hashtbl.t
+)
+"graphDataflow.ml" 119 2985 2993 "graphDataflow.ml" 119 2985 2998
+type(
+  H.key -> D.G.E.vertex -> int
+)
+"graphDataflow.ml" 119 2985 2999 "graphDataflow.ml" 119 2985 3000
+type(
+  H.key
+)
+ident(
+  def s "graphDataflow.ml" 119 2985 3001 "graphDataflow.ml" 122 3125 3132
+)
+"graphDataflow.ml" 119 2985 3001 "graphDataflow.ml" 119 2985 3002
+type(
+  D.G.E.vertex
+)
+ident(
+  def d "graphDataflow.ml" 120 3005 3011 "graphDataflow.ml" 122 3125 3132
+)
+"graphDataflow.ml" 120 3005 3015 "graphDataflow.ml" 120 3005 3016
+type(
+  int
+)
+"graphDataflow.ml" 120 3005 3024 "graphDataflow.ml" 120 3005 3036
+type(
+  (H.key * D.G.E.vertex, int) Hashtbl.t -> H.key * D.G.E.vertex -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"graphDataflow.ml" 120 3005 3037 "graphDataflow.ml" 120 3005 3043
+type(
+  (H.key * D.G.E.vertex, int) Hashtbl.t
+)
+ident(
+  int_ref counth "graphDataflow.ml" 118 2930 2938 "graphDataflow.ml" 118 2930 2944
+)
+"graphDataflow.ml" 120 3005 3045 "graphDataflow.ml" 120 3005 3046
+type(
+  H.key
+)
+ident(
+  int_ref s "graphDataflow.ml" 119 2985 2999 "graphDataflow.ml" 119 2985 3000
+)
+"graphDataflow.ml" 120 3005 3047 "graphDataflow.ml" 120 3005 3048
+type(
+  D.G.E.vertex
+)
+ident(
+  int_ref d "graphDataflow.ml" 119 2985 3001 "graphDataflow.ml" 119 2985 3002
+)
+"graphDataflow.ml" 120 3005 3044 "graphDataflow.ml" 120 3005 3049
+type(
+  H.key * D.G.E.vertex
+)
+"graphDataflow.ml" 120 3005 3024 "graphDataflow.ml" 120 3005 3049
+call(
+  stack
+)
+type(
+  int
+)
+"graphDataflow.ml" 120 3005 3055 "graphDataflow.ml" 120 3005 3064
+type(
+  exn
+)
+"graphDataflow.ml" 120 3005 3068 "graphDataflow.ml" 120 3005 3069
+type(
+  int
+)
+"graphDataflow.ml" 120 3005 3019 "graphDataflow.ml" 120 3005 3070
+type(
+  int
+)
+"graphDataflow.ml" 120 3005 3070 "graphDataflow.ml" 120 3005 3071
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"graphDataflow.ml" 120 3005 3071 "graphDataflow.ml" 120 3005 3072
+type(
+  int
+)
+"graphDataflow.ml" 120 3005 3019 "graphDataflow.ml" 120 3005 3072
+type(
+  int
+)
+"graphDataflow.ml" 121 3076 3086 "graphDataflow.ml" 121 3076 3088
+type(
+  unit
+)
+"graphDataflow.ml" 121 3076 3091 "graphDataflow.ml" 121 3076 3106
+type(
+  (H.key * D.G.E.vertex, int) Hashtbl.t ->
+  H.key * D.G.E.vertex -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"graphDataflow.ml" 121 3076 3107 "graphDataflow.ml" 121 3076 3113
+type(
+  (H.key * D.G.E.vertex, int) Hashtbl.t
+)
+ident(
+  int_ref counth "graphDataflow.ml" 118 2930 2938 "graphDataflow.ml" 118 2930 2944
+)
+"graphDataflow.ml" 121 3076 3115 "graphDataflow.ml" 121 3076 3116
+type(
+  H.key
+)
+ident(
+  int_ref s "graphDataflow.ml" 119 2985 2999 "graphDataflow.ml" 119 2985 3000
+)
+"graphDataflow.ml" 121 3076 3117 "graphDataflow.ml" 121 3076 3118
+type(
+  D.G.E.vertex
+)
+ident(
+  int_ref d "graphDataflow.ml" 119 2985 3001 "graphDataflow.ml" 119 2985 3002
+)
+"graphDataflow.ml" 121 3076 3114 "graphDataflow.ml" 121 3076 3119
+type(
+  H.key * D.G.E.vertex
+)
+"graphDataflow.ml" 121 3076 3120 "graphDataflow.ml" 121 3076 3121
+type(
+  int
+)
+ident(
+  int_ref n "graphDataflow.ml" 120 3005 3015 "graphDataflow.ml" 120 3005 3016
+)
+"graphDataflow.ml" 121 3076 3091 "graphDataflow.ml" 121 3076 3121
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 122 3125 3131 "graphDataflow.ml" 122 3125 3132
+type(
+  int
+)
+ident(
+  int_ref n "graphDataflow.ml" 120 3005 3015 "graphDataflow.ml" 120 3005 3016
+)
+"graphDataflow.ml" 121 3076 3082 "graphDataflow.ml" 122 3125 3132
+type(
+  int
+)
+"graphDataflow.ml" 120 3005 3011 "graphDataflow.ml" 122 3125 3132
+type(
+  int
+)
+"graphDataflow.ml" 124 3140 3144 "graphDataflow.ml" 124 3140 3153
+type(
+  (H.key -> unit) -> H.key list -> unit
+)
+ident(
+  ext_ref BatListFull.List.iter
+)
+"graphDataflow.ml" 124 3140 3159 "graphDataflow.ml" 124 3140 3160
+type(
+  H.key
+)
+ident(
+  def n "graphDataflow.ml" 124 3140 3164 "graphDataflow.ml" 124 3140 3184
+)
+"graphDataflow.ml" 124 3140 3164 "graphDataflow.ml" 124 3140 3169
+type(
+  D.L.t H.t -> H.key -> D.L.t -> unit
+)
+ident(
+  ext_ref H.add
+)
+"graphDataflow.ml" 124 3140 3170 "graphDataflow.ml" 124 3140 3174
+type(
+  D.L.t H.t
+)
+ident(
+  int_ref htin "graphDataflow.ml" 96 2151 2159 "graphDataflow.ml" 96 2151 2163
+)
+"graphDataflow.ml" 124 3140 3175 "graphDataflow.ml" 124 3140 3176
+type(
+  H.key
+)
+ident(
+  int_ref n "graphDataflow.ml" 124 3140 3159 "graphDataflow.ml" 124 3140 3160
+)
+"graphDataflow.ml" 124 3140 3177 "graphDataflow.ml" 124 3140 3184
+type(
+  D.L.t
+)
+ident(
+  ext_ref D.L.top
+)
+"graphDataflow.ml" 124 3140 3164 "graphDataflow.ml" 124 3140 3184
+call(
+  tail
+)
+type(
+  unit
+)
+"graphDataflow.ml" 124 3140 3154 "graphDataflow.ml" 124 3140 3185
+type(
+  H.key -> unit
+)
+"graphDataflow.ml" 124 3140 3186 "graphDataflow.ml" 124 3140 3191
+type(
+  H.key list
+)
+ident(
+  int_ref nodes "graphDataflow.ml" 86 1796 1804 "graphDataflow.ml" 86 1796 1809
+)
+"graphDataflow.ml" 124 3140 3144 "graphDataflow.ml" 124 3140 3191
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 125 3193 3197 "graphDataflow.ml" 125 3193 3206
+type(
+  D.L.t H.t -> H.key -> D.L.t -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"graphDataflow.ml" 125 3193 3207 "graphDataflow.ml" 125 3193 3211
+type(
+  D.L.t H.t
+)
+ident(
+  int_ref htin "graphDataflow.ml" 96 2151 2159 "graphDataflow.ml" 96 2151 2163
+)
+"graphDataflow.ml" 125 3193 3213 "graphDataflow.ml" 125 3193 3217
+type(
+  D.O.t -> D.G.t -> H.key
+)
+ident(
+  ext_ref D.s0
+)
+"graphDataflow.ml" 125 3193 3218 "graphDataflow.ml" 125 3193 3222
+type(
+  D.O.t
+)
+ident(
+  int_ref opts "graphDataflow.ml" 85 1714 1774 "graphDataflow.ml" 85 1714 1778
+)
+"graphDataflow.ml" 125 3193 3223 "graphDataflow.ml" 125 3193 3224
+type(
+  D.G.t
+)
+ident(
+  int_ref g "graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+)
+"graphDataflow.ml" 125 3193 3212 "graphDataflow.ml" 125 3193 3225
+call(
+  stack
+)
+type(
+  H.key
+)
+"graphDataflow.ml" 125 3193 3227 "graphDataflow.ml" 125 3193 3231
+type(
+  D.O.t -> D.G.t -> D.L.t
+)
+ident(
+  int_ref init "graphDataflow.ml" 85 1714 1745 "graphDataflow.ml" 85 1714 1749
+)
+"graphDataflow.ml" 125 3193 3232 "graphDataflow.ml" 125 3193 3236
+type(
+  D.O.t
+)
+ident(
+  int_ref opts "graphDataflow.ml" 85 1714 1774 "graphDataflow.ml" 85 1714 1778
+)
+"graphDataflow.ml" 125 3193 3237 "graphDataflow.ml" 125 3193 3238
+type(
+  D.G.t
+)
+ident(
+  int_ref g "graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+)
+"graphDataflow.ml" 125 3193 3226 "graphDataflow.ml" 125 3193 3239
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"graphDataflow.ml" 125 3193 3197 "graphDataflow.ml" 125 3193 3239
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 126 3241 3253 "graphDataflow.ml" 126 3241 3260
+type(
+  H.key list -> unit
+)
+"graphDataflow.ml" 127 3272 3280 "graphDataflow.ml" 127 3272 3282
+type(
+  H.key list
+)
+"graphDataflow.ml" 127 3272 3286 "graphDataflow.ml" 127 3272 3288
+type(
+  unit
+)
+"graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3298
+type(
+  H.key
+)
+ident(
+  def b "graphDataflow.ml" 129 3312 3322 "graphDataflow.ml" 167 4955 4982
+)
+"graphDataflow.ml" 128 3289 3300 "graphDataflow.ml" 128 3289 3308
+type(
+  D.G.E.vertex list
+)
+ident(
+  def worklist "graphDataflow.ml" 129 3312 3322 "graphDataflow.ml" 167 4955 4982
+)
+"graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3308
+type(
+  H.key list
+)
+"graphDataflow.ml" 129 3312 3326 "graphDataflow.ml" 129 3312 3331
+type(
+  D.L.t
+)
+"graphDataflow.ml" 129 3312 3335 "graphDataflow.ml" 129 3312 3339
+type(
+  H.key -> D.L.t
+)
+ident(
+  int_ref dfin "graphDataflow.ml" 97 2198 2206 "graphDataflow.ml" 97 2198 2210
+)
+"graphDataflow.ml" 129 3312 3340 "graphDataflow.ml" 129 3312 3341
+type(
+  H.key
+)
+ident(
+  int_ref b "graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3298
+)
+"graphDataflow.ml" 129 3312 3334 "graphDataflow.ml" 129 3312 3342
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"graphDataflow.ml" 130 3346 3360 "graphDataflow.ml" 130 3346 3366
+type(
+  D.L.t
+)
+"graphDataflow.ml" 130 3346 3370 "graphDataflow.ml" 130 3346 3373
+type(
+  H.key -> D.L.t -> D.L.t
+)
+ident(
+  int_ref f_t "graphDataflow.ml" 87 1858 1866 "graphDataflow.ml" 87 1858 1869
+)
+"graphDataflow.ml" 130 3346 3374 "graphDataflow.ml" 130 3346 3375
+type(
+  H.key
+)
+ident(
+  int_ref b "graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3298
+)
+"graphDataflow.ml" 130 3346 3376 "graphDataflow.ml" 130 3346 3381
+type(
+  D.L.t
+)
+ident(
+  int_ref inset "graphDataflow.ml" 129 3312 3326 "graphDataflow.ml" 129 3312 3331
+)
+"graphDataflow.ml" 130 3346 3369 "graphDataflow.ml" 130 3346 3382
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"graphDataflow.ml" 131 3387 3397 "graphDataflow.ml" 131 3387 3406
+type(
+  D.L.t H.t -> H.key -> D.L.t -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"graphDataflow.ml" 131 3387 3407 "graphDataflow.ml" 131 3387 3412
+type(
+  D.L.t H.t
+)
+ident(
+  int_ref htout "graphDataflow.ml" 98 2258 2266 "graphDataflow.ml" 98 2258 2271
+)
+"graphDataflow.ml" 131 3387 3413 "graphDataflow.ml" 131 3387 3414
+type(
+  H.key
+)
+ident(
+  int_ref b "graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3298
+)
+"graphDataflow.ml" 131 3387 3415 "graphDataflow.ml" 131 3387 3421
+type(
+  D.L.t
+)
+ident(
+  int_ref outset "graphDataflow.ml" 130 3346 3360 "graphDataflow.ml" 130 3346 3366
+)
+"graphDataflow.ml" 131 3387 3397 "graphDataflow.ml" 131 3387 3421
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 132 3423 3437 "graphDataflow.ml" 132 3423 3451
+type(
+  D.G.E.t list
+)
+"graphDataflow.ml" 133 3454 3466 "graphDataflow.ml" 133 3454 3477
+type(
+  (D.G.E.t -> bool) -> D.G.E.t list -> D.G.E.t list
+)
+ident(
+  ext_ref BatListFull.List.filter
+)
+"graphDataflow.ml" 134 3479 3498 "graphDataflow.ml" 134 3479 3500
+type(
+  D.G.E.t
+)
+ident(
+  def se "graphDataflow.ml" 135 3504 3520 "graphDataflow.ml" 158 4571 4593
+)
+"graphDataflow.ml" 135 3504 3524 "graphDataflow.ml" 135 3504 3525
+type(
+  D.G.E.vertex
+)
+"graphDataflow.ml" 135 3504 3528 "graphDataflow.ml" 135 3504 3531
+type(
+  D.G.E.t -> D.G.E.vertex
+)
+ident(
+  int_ref dst "graphDataflow.ml" 88 1907 1929 "graphDataflow.ml" 88 1907 1932
+)
+"graphDataflow.ml" 135 3504 3532 "graphDataflow.ml" 135 3504 3534
+type(
+  D.G.E.t
+)
+ident(
+  int_ref se "graphDataflow.ml" 134 3479 3498 "graphDataflow.ml" 134 3479 3500
+)
+"graphDataflow.ml" 135 3504 3528 "graphDataflow.ml" 135 3504 3534
+call(
+  stack
+)
+type(
+  D.G.E.vertex
+)
+"graphDataflow.ml" 137 3589 3609 "graphDataflow.ml" 137 3589 3616
+type(
+  D.L.t
+)
+"graphDataflow.ml" 137 3589 3619 "graphDataflow.ml" 137 3589 3643
+type(
+  D.O.t -> D.G.t -> D.G.E.t -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.edge_transfer_function
+)
+"graphDataflow.ml" 137 3589 3644 "graphDataflow.ml" 137 3589 3648
+type(
+  D.O.t
+)
+ident(
+  int_ref opts "graphDataflow.ml" 85 1714 1774 "graphDataflow.ml" 85 1714 1778
+)
+"graphDataflow.ml" 137 3589 3649 "graphDataflow.ml" 137 3589 3650
+type(
+  D.G.t
+)
+ident(
+  int_ref g "graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+)
+"graphDataflow.ml" 137 3589 3651 "graphDataflow.ml" 137 3589 3653
+type(
+  D.G.E.t
+)
+ident(
+  int_ref se "graphDataflow.ml" 134 3479 3498 "graphDataflow.ml" 134 3479 3500
+)
+"graphDataflow.ml" 137 3589 3654 "graphDataflow.ml" 137 3589 3660
+type(
+  D.L.t
+)
+ident(
+  int_ref outset "graphDataflow.ml" 130 3346 3360 "graphDataflow.ml" 130 3346 3366
+)
+"graphDataflow.ml" 137 3589 3619 "graphDataflow.ml" 137 3589 3660
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"graphDataflow.ml" 138 3664 3670 "graphDataflow.ml" 138 3664 3675
+type(
+  D.L.t
+)
+"graphDataflow.ml" 138 3664 3678 "graphDataflow.ml" 138 3664 3682
+type(
+  H.key -> D.L.t
+)
+ident(
+  int_ref dfin "graphDataflow.ml" 97 2198 2206 "graphDataflow.ml" 97 2198 2210
+)
+"graphDataflow.ml" 138 3664 3683 "graphDataflow.ml" 138 3664 3684
+type(
+  D.G.E.vertex
+)
+ident(
+  int_ref s "graphDataflow.ml" 135 3504 3524 "graphDataflow.ml" 135 3504 3525
+)
+"graphDataflow.ml" 138 3664 3678 "graphDataflow.ml" 138 3664 3684
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"graphDataflow.ml" 139 3688 3694 "graphDataflow.ml" 139 3688 3699
+type(
+  D.L.t
+)
+"graphDataflow.ml" 139 3688 3702 "graphDataflow.ml" 139 3688 3710
+type(
+  D.L.t -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.L.meet
+)
+"graphDataflow.ml" 139 3688 3711 "graphDataflow.ml" 139 3688 3716
+type(
+  D.L.t
+)
+ident(
+  int_ref oldin "graphDataflow.ml" 138 3664 3670 "graphDataflow.ml" 138 3664 3675
+)
+"graphDataflow.ml" 139 3688 3717 "graphDataflow.ml" 139 3688 3724
+type(
+  D.L.t
+)
+ident(
+  int_ref outset' "graphDataflow.ml" 137 3589 3609 "graphDataflow.ml" 137 3589 3616
+)
+"graphDataflow.ml" 139 3688 3702 "graphDataflow.ml" 139 3688 3724
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"graphDataflow.ml" 140 3728 3733 "graphDataflow.ml" 140 3728 3742
+type(
+  D.L.t -> D.L.t -> bool
+)
+ident(
+  ext_ref D.L.equal
+)
+"graphDataflow.ml" 140 3728 3743 "graphDataflow.ml" 140 3728 3748
+type(
+  D.L.t
+)
+ident(
+  int_ref oldin "graphDataflow.ml" 138 3664 3670 "graphDataflow.ml" 138 3664 3675
+)
+"graphDataflow.ml" 140 3728 3749 "graphDataflow.ml" 140 3728 3754
+type(
+  D.L.t
+)
+ident(
+  int_ref newin "graphDataflow.ml" 139 3688 3694 "graphDataflow.ml" 139 3688 3699
+)
+"graphDataflow.ml" 140 3728 3733 "graphDataflow.ml" 140 3728 3754
+call(
+  stack
+)
+type(
+  bool
+)
+"graphDataflow.ml" 141 3755 3762 "graphDataflow.ml" 141 3755 3767
+type(
+  bool
+)
+"graphDataflow.ml" 143 3775 3797 "graphDataflow.ml" 143 3775 3802
+type(
+  D.L.t
+)
+"graphDataflow.ml" 144 3805 3828 "graphDataflow.ml" 144 3805 3839
+type(
+  H.key -> H.key -> bool
+)
+ident(
+  int_ref is_backedge "graphDataflow.ml" 109 2572 2580 "graphDataflow.ml" 109 2572 2591
+)
+"graphDataflow.ml" 144 3805 3840 "graphDataflow.ml" 144 3805 3841
+type(
+  H.key
+)
+ident(
+  int_ref b "graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3298
+)
+"graphDataflow.ml" 144 3805 3842 "graphDataflow.ml" 144 3805 3843
+type(
+  D.G.E.vertex
+)
+ident(
+  int_ref s "graphDataflow.ml" 135 3504 3524 "graphDataflow.ml" 135 3504 3525
+)
+"graphDataflow.ml" 144 3805 3828 "graphDataflow.ml" 144 3805 3843
+call(
+  stack
+)
+type(
+  bool
+)
+"graphDataflow.ml" 144 3805 3844 "graphDataflow.ml" 144 3805 3846
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"graphDataflow.ml" 144 3805 3847 "graphDataflow.ml" 144 3805 3852
+type(
+  H.key -> D.G.E.vertex -> int
+)
+ident(
+  int_ref count "graphDataflow.ml" 119 2985 2993 "graphDataflow.ml" 119 2985 2998
+)
+"graphDataflow.ml" 144 3805 3853 "graphDataflow.ml" 144 3805 3854
+type(
+  H.key
+)
+ident(
+  int_ref b "graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3298
+)
+"graphDataflow.ml" 144 3805 3855 "graphDataflow.ml" 144 3805 3856
+type(
+  D.G.E.vertex
+)
+ident(
+  int_ref s "graphDataflow.ml" 135 3504 3524 "graphDataflow.ml" 135 3504 3525
+)
+"graphDataflow.ml" 144 3805 3847 "graphDataflow.ml" 144 3805 3856
+call(
+  stack
+)
+type(
+  int
+)
+"graphDataflow.ml" 144 3805 3857 "graphDataflow.ml" 144 3805 3858
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"graphDataflow.ml" 144 3805 3859 "graphDataflow.ml" 144 3805 3865
+type(
+  int
+)
+ident(
+  int_ref nmeets "graphDataflow.ml" 85 1714 1762 "graphDataflow.ml" 85 1714 1768
+)
+"graphDataflow.ml" 144 3805 3847 "graphDataflow.ml" 144 3805 3865
+type(
+  bool
+)
+"graphDataflow.ml" 144 3805 3828 "graphDataflow.ml" 144 3805 3865
+type(
+  bool
+)
+"graphDataflow.ml" 145 3866 3892 "graphDataflow.ml" 145 3866 3899
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"graphDataflow.ml" 145 3866 3900 "graphDataflow.ml" 145 3866 3910
+type(
+  (unit, unit, string, unit) format4
+)
+"graphDataflow.ml" 145 3866 3892 "graphDataflow.ml" 145 3866 3910
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 151 4237 4266 "graphDataflow.ml" 151 4237 4269
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"graphDataflow.ml" 151 4237 4271 "graphDataflow.ml" 151 4237 4282
+type(
+  (H.key, unit) Hashtbl.t -> H.key -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"graphDataflow.ml" 151 4237 4283 "graphDataflow.ml" 151 4237 4291
+type(
+  (H.key, unit) Hashtbl.t
+)
+ident(
+  int_ref widenedh "graphDataflow.ml" 117 2873 2881 "graphDataflow.ml" 117 2873 2889
+)
+"graphDataflow.ml" 151 4237 4292 "graphDataflow.ml" 151 4237 4293
+type(
+  H.key
+)
+ident(
+  int_ref b "graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3298
+)
+"graphDataflow.ml" 151 4237 4270 "graphDataflow.ml" 151 4237 4294
+call(
+  stack
+)
+type(
+  bool
+)
+"graphDataflow.ml" 151 4237 4266 "graphDataflow.ml" 151 4237 4294
+type(
+  bool
+)
+"graphDataflow.ml" 152 4295 4327 "graphDataflow.ml" 152 4295 4340
+type(
+  (H.key * D.G.E.vertex, int) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"graphDataflow.ml" 152 4295 4341 "graphDataflow.ml" 152 4295 4347
+type(
+  (H.key * D.G.E.vertex, int) Hashtbl.t
+)
+ident(
+  int_ref counth "graphDataflow.ml" 118 2930 2938 "graphDataflow.ml" 118 2930 2944
+)
+"graphDataflow.ml" 152 4295 4327 "graphDataflow.ml" 152 4295 4347
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 152 4295 4349 "graphDataflow.ml" 152 4295 4364
+type(
+  (H.key, unit) Hashtbl.t -> H.key -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"graphDataflow.ml" 152 4295 4365 "graphDataflow.ml" 152 4295 4373
+type(
+  (H.key, unit) Hashtbl.t
+)
+ident(
+  int_ref widenedh "graphDataflow.ml" 117 2873 2881 "graphDataflow.ml" 117 2873 2889
+)
+"graphDataflow.ml" 152 4295 4374 "graphDataflow.ml" 152 4295 4375
+type(
+  H.key
+)
+ident(
+  int_ref b "graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3298
+)
+"graphDataflow.ml" 152 4295 4376 "graphDataflow.ml" 152 4295 4378
+type(
+  unit
+)
+"graphDataflow.ml" 152 4295 4349 "graphDataflow.ml" 152 4295 4378
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 152 4295 4326 "graphDataflow.ml" 152 4295 4379
+type(
+  unit
+)
+"graphDataflow.ml" 153 4380 4411 "graphDataflow.ml" 153 4380 4413
+type(
+  unit
+)
+"graphDataflow.ml" 151 4237 4263 "graphDataflow.ml" 153 4380 4413
+type(
+  unit
+)
+"graphDataflow.ml" 154 4415 4441 "graphDataflow.ml" 154 4415 4450
+type(
+  D.L.t -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.L.widen
+)
+"graphDataflow.ml" 154 4415 4451 "graphDataflow.ml" 154 4415 4456
+type(
+  D.L.t
+)
+ident(
+  int_ref oldin "graphDataflow.ml" 138 3664 3670 "graphDataflow.ml" 138 3664 3675
+)
+"graphDataflow.ml" 154 4415 4457 "graphDataflow.ml" 154 4415 4464
+type(
+  D.L.t
+)
+ident(
+  int_ref outset' "graphDataflow.ml" 137 3589 3609 "graphDataflow.ml" 137 3589 3616
+)
+"graphDataflow.ml" 154 4415 4441 "graphDataflow.ml" 154 4415 4464
+call(
+  stack
+)
+type(
+  D.L.t
+)
+"graphDataflow.ml" 151 4237 4263 "graphDataflow.ml" 154 4415 4464
+type(
+  D.L.t
+)
+"graphDataflow.ml" 145 3866 3891 "graphDataflow.ml" 154 4415 4465
+type(
+  D.L.t
+)
+"graphDataflow.ml" 155 4466 4491 "graphDataflow.ml" 155 4466 4496
+type(
+  D.L.t
+)
+ident(
+  int_ref newin "graphDataflow.ml" 139 3688 3694 "graphDataflow.ml" 139 3688 3699
+)
+"graphDataflow.ml" 144 3805 3825 "graphDataflow.ml" 155 4466 4496
+type(
+  D.L.t
+)
+"graphDataflow.ml" 157 4518 4540 "graphDataflow.ml" 157 4518 4542
+type(
+  unit
+)
+"graphDataflow.ml" 157 4518 4545 "graphDataflow.ml" 157 4518 4554
+type(
+  D.L.t H.t -> H.key -> D.L.t -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"graphDataflow.ml" 157 4518 4555 "graphDataflow.ml" 157 4518 4559
+type(
+  D.L.t H.t
+)
+ident(
+  int_ref htin "graphDataflow.ml" 96 2151 2159 "graphDataflow.ml" 96 2151 2163
+)
+"graphDataflow.ml" 157 4518 4560 "graphDataflow.ml" 157 4518 4561
+type(
+  D.G.E.vertex
+)
+ident(
+  int_ref s "graphDataflow.ml" 135 3504 3524 "graphDataflow.ml" 135 3504 3525
+)
+"graphDataflow.ml" 157 4518 4562 "graphDataflow.ml" 157 4518 4567
+type(
+  D.L.t
+)
+ident(
+  int_ref newin "graphDataflow.ml" 143 3775 3797 "graphDataflow.ml" 143 3775 3802
+)
+"graphDataflow.ml" 157 4518 4545 "graphDataflow.ml" 157 4518 4567
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 158 4571 4589 "graphDataflow.ml" 158 4571 4593
+type(
+  bool
+)
+"graphDataflow.ml" 157 4518 4536 "graphDataflow.ml" 158 4571 4593
+type(
+  bool
+)
+"graphDataflow.ml" 143 3775 3793 "graphDataflow.ml" 158 4571 4593
+type(
+  bool
+)
+"graphDataflow.ml" 140 3728 3730 "graphDataflow.ml" 158 4571 4593
+type(
+  bool
+)
+"graphDataflow.ml" 139 3688 3690 "graphDataflow.ml" 158 4571 4593
+type(
+  bool
+)
+"graphDataflow.ml" 138 3664 3666 "graphDataflow.ml" 158 4571 4593
+type(
+  bool
+)
+"graphDataflow.ml" 137 3589 3605 "graphDataflow.ml" 158 4571 4593
+type(
+  bool
+)
+"graphDataflow.ml" 135 3504 3520 "graphDataflow.ml" 158 4571 4593
+type(
+  bool
+)
+"graphDataflow.ml" 134 3479 3493 "graphDataflow.ml" 158 4571 4594
+type(
+  D.G.E.t -> bool
+)
+"graphDataflow.ml" 159 4595 4610 "graphDataflow.ml" 159 4595 4616
+type(
+  H.key -> D.G.E.t list
+)
+ident(
+  int_ref succ_e "graphDataflow.ml" 88 1907 1915 "graphDataflow.ml" 88 1907 1921
+)
+"graphDataflow.ml" 159 4595 4617 "graphDataflow.ml" 159 4595 4618
+type(
+  H.key
+)
+ident(
+  int_ref b "graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3298
+)
+"graphDataflow.ml" 159 4595 4609 "graphDataflow.ml" 159 4595 4619
+call(
+  stack
+)
+type(
+  D.G.E.t list
+)
+"graphDataflow.ml" 133 3454 3466 "graphDataflow.ml" 159 4595 4619
+call(
+  stack
+)
+type(
+  D.G.E.t list
+)
+"graphDataflow.ml" 161 4633 4647 "graphDataflow.ml" 161 4633 4661
+type(
+  D.G.E.vertex list
+)
+"graphDataflow.ml" 161 4633 4664 "graphDataflow.ml" 161 4633 4672
+type(
+  (D.G.E.t -> D.G.E.vertex) -> D.G.E.t list -> D.G.E.vertex list
+)
+ident(
+  ext_ref BatListFull.List.map
+)
+"graphDataflow.ml" 161 4633 4673 "graphDataflow.ml" 161 4633 4676
+type(
+  D.G.E.t -> D.G.E.vertex
+)
+ident(
+  int_ref dst "graphDataflow.ml" 88 1907 1929 "graphDataflow.ml" 88 1907 1932
+)
+"graphDataflow.ml" 161 4633 4677 "graphDataflow.ml" 161 4633 4691
+type(
+  D.G.E.t list
+)
+ident(
+  int_ref affected_edges "graphDataflow.ml" 132 3423 3437 "graphDataflow.ml" 132 3423 3451
+)
+"graphDataflow.ml" 161 4633 4664 "graphDataflow.ml" 161 4633 4691
+call(
+  stack
+)
+type(
+  D.G.E.vertex list
+)
+"graphDataflow.ml" 164 4833 4843 "graphDataflow.ml" 164 4833 4852
+type(
+  unit H.t -> H.key -> unit -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"graphDataflow.ml" 164 4833 4853 "graphDataflow.ml" 164 4833 4860
+type(
+  unit H.t
+)
+ident(
+  int_ref visited "graphDataflow.ml" 107 2465 2473 "graphDataflow.ml" 107 2465 2480
+)
+"graphDataflow.ml" 164 4833 4861 "graphDataflow.ml" 164 4833 4862
+type(
+  H.key
+)
+ident(
+  int_ref b "graphDataflow.ml" 128 3289 3297 "graphDataflow.ml" 128 3289 3298
+)
+"graphDataflow.ml" 164 4833 4863 "graphDataflow.ml" 164 4833 4865
+type(
+  unit
+)
+"graphDataflow.ml" 164 4833 4843 "graphDataflow.ml" 164 4833 4865
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 165 4867 4881 "graphDataflow.ml" 165 4867 4890
+type(
+  H.key list
+)
+"graphDataflow.ml" 165 4867 4893 "graphDataflow.ml" 165 4867 4901
+type(
+  D.G.E.vertex list
+)
+ident(
+  int_ref worklist "graphDataflow.ml" 128 3289 3300 "graphDataflow.ml" 128 3289 3308
+)
+"graphDataflow.ml" 165 4867 4901 "graphDataflow.ml" 165 4867 4902
+type(
+  D.G.E.vertex list -> H.key list -> H.key list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"graphDataflow.ml" 165 4867 4902 "graphDataflow.ml" 165 4867 4917
+type(
+  D.G.E.vertex list -> D.G.E.vertex list -> H.key list
+)
+ident(
+  ext_ref Util.list_difference
+)
+"graphDataflow.ml" 165 4867 4918 "graphDataflow.ml" 165 4867 4932
+type(
+  D.G.E.vertex list
+)
+ident(
+  int_ref affected_elems "graphDataflow.ml" 161 4633 4647 "graphDataflow.ml" 161 4633 4661
+)
+"graphDataflow.ml" 165 4867 4933 "graphDataflow.ml" 165 4867 4941
+type(
+  D.G.E.vertex list
+)
+ident(
+  int_ref worklist "graphDataflow.ml" 128 3289 3300 "graphDataflow.ml" 128 3289 3308
+)
+"graphDataflow.ml" 165 4867 4902 "graphDataflow.ml" 165 4867 4941
+call(
+  stack
+)
+type(
+  H.key list
+)
+"graphDataflow.ml" 165 4867 4893 "graphDataflow.ml" 165 4867 4941
+call(
+  stack
+)
+type(
+  H.key list
+)
+"graphDataflow.ml" 167 4955 4965 "graphDataflow.ml" 167 4955 4972
+type(
+  H.key list -> unit
+)
+ident(
+  int_ref do_work "graphDataflow.ml" 126 3241 3253 "graphDataflow.ml" 126 3241 3260
+)
+"graphDataflow.ml" 167 4955 4973 "graphDataflow.ml" 167 4955 4982
+type(
+  H.key list
+)
+ident(
+  int_ref newwklist "graphDataflow.ml" 165 4867 4881 "graphDataflow.ml" 165 4867 4890
+)
+"graphDataflow.ml" 167 4955 4965 "graphDataflow.ml" 167 4955 4982
+call(
+  tail
+)
+type(
+  unit
+)
+"graphDataflow.ml" 165 4867 4877 "graphDataflow.ml" 167 4955 4982
+type(
+  unit
+)
+"graphDataflow.ml" 164 4833 4843 "graphDataflow.ml" 167 4955 4982
+type(
+  unit
+)
+"graphDataflow.ml" 161 4633 4643 "graphDataflow.ml" 167 4955 4982
+type(
+  unit
+)
+"graphDataflow.ml" 132 3423 3433 "graphDataflow.ml" 167 4955 4982
+type(
+  unit
+)
+"graphDataflow.ml" 131 3387 3397 "graphDataflow.ml" 167 4955 4982
+type(
+  unit
+)
+"graphDataflow.ml" 130 3346 3356 "graphDataflow.ml" 167 4955 4982
+type(
+  unit
+)
+"graphDataflow.ml" 129 3312 3322 "graphDataflow.ml" 167 4955 4982
+type(
+  unit
+)
+"graphDataflow.ml" 126 3241 3263 "graphDataflow.ml" 167 4955 4982
+type(
+  H.key list -> unit
+)
+"graphDataflow.ml" 169 4990 4994 "graphDataflow.ml" 169 4990 5001
+type(
+  H.key list -> unit
+)
+ident(
+  int_ref do_work "graphDataflow.ml" 126 3241 3253 "graphDataflow.ml" 126 3241 3260
+)
+"graphDataflow.ml" 169 4990 5003 "graphDataflow.ml" 169 4990 5007
+type(
+  D.O.t -> D.G.t -> H.key
+)
+ident(
+  ext_ref D.s0
+)
+"graphDataflow.ml" 169 4990 5008 "graphDataflow.ml" 169 4990 5012
+type(
+  D.O.t
+)
+ident(
+  int_ref opts "graphDataflow.ml" 85 1714 1774 "graphDataflow.ml" 85 1714 1778
+)
+"graphDataflow.ml" 169 4990 5013 "graphDataflow.ml" 169 4990 5014
+type(
+  D.G.t
+)
+ident(
+  int_ref g "graphDataflow.ml" 85 1714 1792 "graphDataflow.ml" 85 1714 1793
+)
+"graphDataflow.ml" 169 4990 5003 "graphDataflow.ml" 169 4990 5014
+call(
+  stack
+)
+type(
+  H.key
+)
+"graphDataflow.ml" 169 4990 5002 "graphDataflow.ml" 169 4990 5015
+type(
+  H.key list
+)
+"graphDataflow.ml" 169 4990 4994 "graphDataflow.ml" 169 4990 5015
+call(
+  stack
+)
+type(
+  unit
+)
+"graphDataflow.ml" 170 5017 5022 "graphDataflow.ml" 170 5017 5026
+type(
+  H.key -> D.L.t
+)
+ident(
+  int_ref dfin "graphDataflow.ml" 97 2198 2206 "graphDataflow.ml" 97 2198 2210
+)
+"graphDataflow.ml" 170 5017 5028 "graphDataflow.ml" 170 5017 5033
+type(
+  H.key -> D.L.t
+)
+ident(
+  int_ref dfout "graphDataflow.ml" 99 2306 2314 "graphDataflow.ml" 99 2306 2319
+)
+"graphDataflow.ml" 170 5017 5021 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 169 4990 4994 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 126 3241 3245 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 125 3193 3197 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 124 3140 3144 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 119 2985 2989 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 118 2930 2934 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 117 2873 2877 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 109 2572 2576 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 108 2515 2519 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 107 2465 2469 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 99 2306 2310 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 98 2258 2262 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 97 2198 2202 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 96 2151 2155 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 88 1907 1911 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 87 1858 1862 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 86 1796 1800 "graphDataflow.ml" 170 5017 5034
+type(
+  (H.key -> D.L.t) * (H.key -> D.L.t)
+)
+"graphDataflow.ml" 175 5075 5088 "graphDataflow.ml" 175 5075 5107
+call(
+  stack
+)
+"graphDataflow.ml" 177 5109 5115 "graphDataflow.ml" 177 5109 5131
+type(
+  ?init:(D.O.t -> D.G.t -> D.L.t) ->
+  ?opts:D.O.t -> D.G.t -> (D.G.V.t -> D.L.t) * (D.G.V.t -> D.L.t)
+)
+ident(
+  def worklist_iterate "graphDataflow.ml" 192 5527 5566 "graphDataflow.ml" 193 5567 5570
+)
+"graphDataflow.ml" 181 5209 5221 "graphDataflow.ml" 181 5209 5226
+type(
+  D.L.t -> D.L.t -> D.L.t
+)
+ident(
+  def widen "graphDataflow.ml" 181 5209 5237 "graphDataflow.ml" 182 5238 5247
+)
+"graphDataflow.ml" 181 5209 5229 "graphDataflow.ml" 181 5209 5237
+type(
+  D.L.t -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.L.meet
+)
+"graphDataflow.ml" 185 5290 5300 "graphDataflow.ml" 185 5290 5322
+type(
+  D.O.t -> D.G.t -> D.G.V.t -> D.L.t -> D.L.t
+)
+ident(
+  def node_transfer_function "graphDataflow.ml" 186 5350 5356 "graphDataflow.ml" 190 5476 5483
+)
+"graphDataflow.ml" 185 5290 5325 "graphDataflow.ml" 185 5290 5349
+type(
+  D.O.t -> D.G.t -> D.G.V.t -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.node_transfer_function
+)
+"graphDataflow.ml" 186 5350 5360 "graphDataflow.ml" 186 5350 5382
+type(
+  D.O.t -> D.G.t -> D.G.E.t -> D.L.t -> D.L.t
+)
+ident(
+  def edge_transfer_function "graphDataflow.ml" 187 5410 5416 "graphDataflow.ml" 190 5476 5483
+)
+"graphDataflow.ml" 186 5350 5385 "graphDataflow.ml" 186 5350 5409
+type(
+  D.O.t -> D.G.t -> D.G.E.t -> D.L.t -> D.L.t
+)
+ident(
+  ext_ref D.edge_transfer_function
+)
+"graphDataflow.ml" 187 5410 5420 "graphDataflow.ml" 187 5410 5422
+type(
+  D.O.t -> D.G.t -> D.G.V.t
+)
+ident(
+  def s0 "graphDataflow.ml" 188 5430 5436 "graphDataflow.ml" 190 5476 5483
+)
+"graphDataflow.ml" 187 5410 5425 "graphDataflow.ml" 187 5410 5429
+type(
+  D.O.t -> D.G.t -> D.G.V.t
+)
+ident(
+  ext_ref D.s0
+)
+"graphDataflow.ml" 188 5430 5440 "graphDataflow.ml" 188 5430 5444
+type(
+  D.O.t -> D.G.t -> D.L.t
+)
+ident(
+  def init "graphDataflow.ml" 189 5454 5460 "graphDataflow.ml" 190 5476 5483
+)
+"graphDataflow.ml" 188 5430 5447 "graphDataflow.ml" 188 5430 5453
+type(
+  D.O.t -> D.G.t -> D.L.t
+)
+ident(
+  ext_ref D.init
+)
+"graphDataflow.ml" 189 5454 5464 "graphDataflow.ml" 189 5454 5467
+type(
+  D.O.t -> direction
+)
+ident(
+  def dir "graphDataflow.ml" 189 5454 5475 "graphDataflow.ml" 190 5476 5483
+)
+"graphDataflow.ml" 189 5454 5470 "graphDataflow.ml" 189 5454 5475
+type(
+  D.O.t -> direction
+)
+ident(
+  ext_ref D.dir
+)
+"graphDataflow.ml" 191 5487 5507 "graphDataflow.ml" 191 5487 5523
+call(
+  stack
+)
+"graphDataflow.ml" 192 5527 5531 "graphDataflow.ml" 192 5527 5556
+type(
+  ?init:(D.O.t -> D.G.t -> D.L.t) ->
+  ?nmeets:int ->
+  ?opts:D.O.t -> D.G.t -> (D.G.V.t -> D.L.t) * (D.G.V.t -> D.L.t)
+)
+ident(
+  ext_ref DF.worklist_iterate_widen
+)
+"graphDataflow.ml" 192 5527 5565 "graphDataflow.ml" 192 5527 5566
+type(
+  int
+)
+"graphDataflow.ml" 192 5527 5531 "graphDataflow.ml" 192 5527 5566
+call(
+  tail
+)
+type(
+  ?init:(D.O.t -> D.G.t -> D.L.t) ->
+  ?opts:D.O.t -> D.G.t -> (D.G.V.t -> D.L.t) * (D.G.V.t -> D.L.t)
+)
+"graphDataflow.ml" 191 5487 5491 "graphDataflow.ml" 192 5527 5566
+type(
+  ?init:(D.O.t -> D.G.t -> D.L.t) ->
+  ?opts:D.O.t -> D.G.t -> (D.G.V.t -> D.L.t) * (D.G.V.t -> D.L.t)
+)
+"graphDataflow.ml" 178 5134 5138 "graphDataflow.ml" 192 5527 5566
+type(
+  ?init:(D.O.t -> D.G.t -> D.L.t) ->
+  ?opts:D.O.t -> D.G.t -> (D.G.V.t -> D.L.t) * (D.G.V.t -> D.L.t)
+)

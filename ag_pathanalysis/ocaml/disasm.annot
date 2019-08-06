@@ -1,0 +1,170 @@
+"disasm.ml" 5 45 49 "disasm.ml" 5 45 65
+type(
+  Arch.arch -> Disasm_i386.mode
+)
+ident(
+  def arch_to_x86_mode "disasm.ml" 9 140 140 --
+)
+"disasm.ml" 6 77 81 "disasm.ml" 6 77 87
+type(
+  Arch.arch
+)
+"disasm.ml" 6 77 91 "disasm.ml" 6 77 106
+type(
+  Disasm_i386.mode
+)
+"disasm.ml" 7 107 111 "disasm.ml" 7 107 117
+type(
+  Arch.arch
+)
+"disasm.ml" 7 107 121 "disasm.ml" 7 107 138
+type(
+  Disasm_i386.mode
+)
+"disasm.ml" 5 45 68 "disasm.ml" 7 107 138
+type(
+  Arch.arch -> Disasm_i386.mode
+)
+"disasm.ml" 9 140 144 "disasm.ml" 9 140 156
+type(
+  Arch.arch ->
+  (Big_int_convenience.address -> char) ->
+  Big_int_convenience.address -> Ast.stmt list * Big_int_convenience.address
+)
+ident(
+  def disasm_instr "disasm.ml" 11 214 214 --
+)
+"disasm.ml" 9 140 157 "disasm.ml" 9 140 161
+type(
+  Arch.arch
+)
+ident(
+  def arch "disasm.ml" 9 140 164 "disasm.ml" 9 140 212
+)
+"disasm.ml" 9 140 164 "disasm.ml" 9 140 188
+type(
+  Disasm_i386.mode ->
+  (Big_int_convenience.address -> char) ->
+  Big_int_convenience.address -> Ast.stmt list * Big_int_convenience.address
+)
+ident(
+  ext_ref Disasm_i386.disasm_instr
+)
+"disasm.ml" 9 140 190 "disasm.ml" 9 140 206
+type(
+  Arch.arch -> Disasm_i386.mode
+)
+ident(
+  int_ref arch_to_x86_mode "disasm.ml" 5 45 49 "disasm.ml" 5 45 65
+)
+"disasm.ml" 9 140 207 "disasm.ml" 9 140 211
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "disasm.ml" 9 140 157 "disasm.ml" 9 140 161
+)
+"disasm.ml" 9 140 189 "disasm.ml" 9 140 212
+call(
+  stack
+)
+type(
+  Disasm_i386.mode
+)
+"disasm.ml" 9 140 164 "disasm.ml" 9 140 212
+call(
+  tail
+)
+type(
+  (Big_int_convenience.address -> char) ->
+  Big_int_convenience.address -> Ast.stmt list * Big_int_convenience.address
+)
+"disasm.ml" 11 214 218 "disasm.ml" 11 214 225
+type(
+  Var.t -> bool
+)
+ident(
+  def is_temp "disasm.ml" 13 246 246 --
+)
+"disasm.ml" 11 214 228 "disasm.ml" 11 214 244
+type(
+  Var.t -> bool
+)
+ident(
+  ext_ref Var_temp.is_temp
+)
+"disasm.ml" 13 246 250 "disasm.ml" 13 246 265
+type(
+  Ast.stmt -> bool
+)
+ident(
+  def is_decode_error "disasm.ml" 15 361 375 --
+)
+"disasm.ml" 14 277 293 "disasm.ml" 14 277 294
+type(
+  string
+)
+ident(
+  def s "disasm.ml" 14 277 302 "disasm.ml" 14 277 360
+)
+"disasm.ml" 14 277 296 "disasm.ml" 14 277 297
+type(
+  Var.defuse option
+)
+"disasm.ml" 14 277 299 "disasm.ml" 14 277 300
+type(
+  Ast.attrs
+)
+"disasm.ml" 14 277 292 "disasm.ml" 14 277 301
+type(
+  string * Var.defuse option * Ast.attrs
+)
+"disasm.ml" 14 277 281 "disasm.ml" 14 277 301
+type(
+  Ast.stmt
+)
+"disasm.ml" 14 277 307 "disasm.ml" 14 277 328
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.starts_with
+)
+"disasm.ml" 14 277 329 "disasm.ml" 14 277 330
+type(
+  string
+)
+ident(
+  int_ref s "disasm.ml" 14 277 293 "disasm.ml" 14 277 294
+)
+"disasm.ml" 14 277 331 "disasm.ml" 14 277 352
+type(
+  string
+)
+"disasm.ml" 14 277 307 "disasm.ml" 14 277 352
+call(
+  stack
+)
+type(
+  bool
+)
+"disasm.ml" 14 277 356 "disasm.ml" 14 277 360
+type(
+  bool
+)
+"disasm.ml" 14 277 302 "disasm.ml" 14 277 360
+type(
+  bool
+)
+"disasm.ml" 15 361 365 "disasm.ml" 15 361 366
+type(
+  Ast.stmt
+)
+"disasm.ml" 15 361 370 "disasm.ml" 15 361 375
+type(
+  bool
+)
+"disasm.ml" 13 246 268 "disasm.ml" 15 361 375
+type(
+  Ast.stmt -> bool
+)

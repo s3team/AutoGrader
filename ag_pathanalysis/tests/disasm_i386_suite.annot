@@ -1,0 +1,191 @@
+"disasm_i386_suite.ml" 4 37 41 "disasm_i386_suite.ml" 4 37 50
+type(
+  'a -> unit
+)
+ident(
+  def parse_nop "disasm_i386_suite.ml" 10 237 237 --
+)
+"disasm_i386_suite.ml" 4 37 51 "disasm_i386_suite.ml" 4 37 52
+type(
+  'a
+)
+"disasm_i386_suite.ml" 5 56 62 "disasm_i386_suite.ml" 5 56 65
+type(
+  'b -> char
+)
+"disasm_i386_suite.ml" 5 56 66 "disasm_i386_suite.ml" 5 56 67
+type(
+  'b
+)
+"disasm_i386_suite.ml" 5 56 70 "disasm_i386_suite.ml" 5 56 76
+type(
+  char
+)
+"disasm_i386_suite.ml" 6 80 87 "disasm_i386_suite.ml" 6 80 88
+type(
+  int list
+)
+"disasm_i386_suite.ml" 6 80 89 "disasm_i386_suite.ml" 6 80 90
+type(
+  Disasm_i386.prefix
+)
+"disasm_i386_suite.ml" 6 80 91 "disasm_i386_suite.ml" 6 80 93
+type(
+  Disasm_i386.opcode
+)
+"disasm_i386_suite.ml" 6 80 94 "disasm_i386_suite.ml" 6 80 97
+type(
+  Big_int_convenience.address
+)
+"disasm_i386_suite.ml" 6 80 86 "disasm_i386_suite.ml" 6 80 98
+type(
+  int list * Disasm_i386.prefix * Disasm_i386.opcode *
+  Big_int_convenience.address
+)
+"disasm_i386_suite.ml" 6 80 101 "disasm_i386_suite.ml" 6 80 124
+type(
+  Disasm_i386.mode ->
+  (Big_int_convenience.address -> char) ->
+  Big_int_convenience.address ->
+  int list * Disasm_i386.prefix * Disasm_i386.opcode *
+  Big_int_convenience.address
+)
+ident(
+  ext_ref Disasm_i386.parse_instr
+)
+"disasm_i386_suite.ml" 6 80 125 "disasm_i386_suite.ml" 6 80 140
+type(
+  Disasm_i386.mode
+)
+"disasm_i386_suite.ml" 6 80 141 "disasm_i386_suite.ml" 6 80 144
+type(
+  Big_int_convenience.address -> char
+)
+ident(
+  int_ref nop "disasm_i386_suite.ml" 5 56 62 "disasm_i386_suite.ml" 5 56 65
+)
+"disasm_i386_suite.ml" 6 80 145 "disasm_i386_suite.ml" 6 80 148
+type(
+  Big_int_convenience.address
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"disasm_i386_suite.ml" 6 80 101 "disasm_i386_suite.ml" 6 80 148
+call(
+  stack
+)
+type(
+  int list * Disasm_i386.prefix * Disasm_i386.opcode *
+  Big_int_convenience.address
+)
+"disasm_i386_suite.ml" 7 152 158 "disasm_i386_suite.ml" 7 152 159
+type(
+  string
+)
+"disasm_i386_suite.ml" 7 152 162 "disasm_i386_suite.ml" 7 152 189
+type(
+  string
+)
+"disasm_i386_suite.ml" 8 193 195 "disasm_i386_suite.ml" 8 193 207
+type(
+  ?cmp:(Disasm_i386.opcode -> Disasm_i386.opcode -> bool) ->
+  ?printer:(Disasm_i386.opcode -> string) ->
+  ?pp_diff:(Format.formatter ->
+            Disasm_i386.opcode * Disasm_i386.opcode -> unit) ->
+  ?msg:string -> Disasm_i386.opcode -> Disasm_i386.opcode -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"disasm_i386_suite.ml" 8 193 213 "disasm_i386_suite.ml" 8 193 214
+type(
+  string
+)
+ident(
+  int_ref m "disasm_i386_suite.ml" 7 152 158 "disasm_i386_suite.ml" 7 152 159
+)
+"disasm_i386_suite.ml" 8 193 215 "disasm_i386_suite.ml" 8 193 230
+type(
+  Disasm_i386.opcode
+)
+"disasm_i386_suite.ml" 8 193 231 "disasm_i386_suite.ml" 8 193 233
+type(
+  Disasm_i386.opcode
+)
+ident(
+  int_ref op "disasm_i386_suite.ml" 6 80 91 "disasm_i386_suite.ml" 6 80 93
+)
+"disasm_i386_suite.ml" 8 193 195 "disasm_i386_suite.ml" 8 193 233
+call(
+  tail
+)
+type(
+  unit
+)
+"disasm_i386_suite.ml" 7 152 154 "disasm_i386_suite.ml" 8 193 233
+type(
+  unit
+)
+"disasm_i386_suite.ml" 6 80 82 "disasm_i386_suite.ml" 8 193 233
+type(
+  unit
+)
+"disasm_i386_suite.ml" 5 56 58 "disasm_i386_suite.ml" 8 193 233
+type(
+  unit
+)
+"disasm_i386_suite.ml" 10 237 241 "disasm_i386_suite.ml" 10 237 246
+type(
+  OUnit.test
+)
+ident(
+  def suite "disasm_i386_suite.ml" 13 300 303 --
+)
+"disasm_i386_suite.ml" 10 237 249 "disasm_i386_suite.ml" 10 237 262
+type(
+  string
+)
+"disasm_i386_suite.ml" 10 237 263 "disasm_i386_suite.ml" 10 237 267
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"disasm_i386_suite.ml" 12 272 273 "disasm_i386_suite.ml" 12 272 284
+type(
+  string
+)
+"disasm_i386_suite.ml" 12 272 285 "disasm_i386_suite.ml" 12 272 288
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"disasm_i386_suite.ml" 12 272 289 "disasm_i386_suite.ml" 12 272 298
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref parse_nop "disasm_i386_suite.ml" 4 37 41 "disasm_i386_suite.ml" 4 37 50
+)
+"disasm_i386_suite.ml" 12 272 273 "disasm_i386_suite.ml" 12 272 298
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"disasm_i386_suite.ml" 11 268 270 "disasm_i386_suite.ml" 13 300 303
+type(
+  OUnit.test list
+)
+"disasm_i386_suite.ml" 10 237 249 "disasm_i386_suite.ml" 13 300 303
+call(
+  stack
+)
+type(
+  OUnit.test
+)

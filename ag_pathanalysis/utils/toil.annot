@@ -1,0 +1,1129 @@
+"toil.ml" 2 1 5 "toil.ml" 2 1 10
+type(
+  string
+)
+ident(
+  def usage "toil.ml" 5 115 115 --
+)
+"toil.ml" 2 1 13 "toil.ml" 2 1 22
+type(
+  string
+)
+"toil.ml" 2 1 22 "toil.ml" 2 1 23
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"toil.ml" 2 1 23 "toil.ml" 2 1 31
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"toil.ml" 2 1 33 "toil.ml" 2 1 34
+type(
+  int
+)
+"toil.ml" 2 1 23 "toil.ml" 2 1 35
+type(
+  string
+)
+"toil.ml" 2 1 35 "toil.ml" 2 1 36
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"toil.ml" 2 1 36 "toil.ml" 3 69 113
+type(
+  string
+)
+"toil.ml" 2 1 23 "toil.ml" 3 69 113
+call(
+  stack
+)
+type(
+  string
+)
+"toil.ml" 2 1 13 "toil.ml" 3 69 113
+call(
+  stack
+)
+type(
+  string
+)
+"toil.ml" 5 115 119 "toil.ml" 5 115 132
+type(
+  out_channel -> Ast.stmt list -> unit
+)
+ident(
+  def output_ast_il "toil.ml" 10 202 202 --
+)
+"toil.ml" 5 115 133 "toil.ml" 5 115 135
+type(
+  out_channel
+)
+ident(
+  def oc "toil.ml" 5 115 136 "toil.ml" 8 190 200
+)
+"toil.ml" 5 115 136 "toil.ml" 5 115 137
+type(
+  Ast.stmt list
+)
+ident(
+  def p "toil.ml" 6 140 142 "toil.ml" 8 190 200
+)
+"toil.ml" 6 140 146 "toil.ml" 6 140 148
+type(
+  Pp.pp_oc
+)
+"toil.ml" 6 140 151 "toil.ml" 6 140 163
+type(
+  out_channel -> Pp.pp_oc
+)
+"toil.ml" 6 140 164 "toil.ml" 6 140 166
+type(
+  out_channel
+)
+ident(
+  int_ref oc "toil.ml" 5 115 133 "toil.ml" 5 115 135
+)
+"toil.ml" 6 140 151 "toil.ml" 6 140 166
+call(
+  stack
+)
+type(
+  Pp.pp_oc
+)
+"toil.ml" 7 170 172 "toil.ml" 7 170 174
+type(
+  Pp.pp_oc
+)
+ident(
+  int_ref pp "toil.ml" 6 140 146 "toil.ml" 6 140 148
+)
+"toil.ml" 7 170 172 "toil.ml" 7 170 186
+call(
+  stack
+)
+type(
+  Ast.stmt list -> unit
+)
+"toil.ml" 7 170 187 "toil.ml" 7 170 188
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref p "toil.ml" 5 115 136 "toil.ml" 5 115 137
+)
+"toil.ml" 7 170 172 "toil.ml" 7 170 188
+type(
+  unit
+)
+"toil.ml" 8 190 192 "toil.ml" 8 190 194
+type(
+  Pp.pp_oc
+)
+ident(
+  int_ref pp "toil.ml" 6 140 146 "toil.ml" 6 140 148
+)
+"toil.ml" 8 190 192 "toil.ml" 8 190 200
+call(
+  tail
+)
+type(
+  unit
+)
+"toil.ml" 7 170 172 "toil.ml" 8 190 200
+type(
+  unit
+)
+"toil.ml" 6 140 142 "toil.ml" 8 190 200
+type(
+  unit
+)
+"toil.ml" 10 202 206 "toil.ml" 10 202 219
+type(
+  out_channel -> Ast.program -> unit
+)
+ident(
+  def output_ast_pb "toil.ml" 16 356 356 --
+)
+"toil.ml" 10 202 220 "toil.ml" 10 202 222
+type(
+  out_channel
+)
+ident(
+  def oc "toil.ml" 10 202 223 "toil.ml" 14 324 354
+)
+"toil.ml" 10 202 223 "toil.ml" 10 202 224
+type(
+  Ast.program
+)
+ident(
+  def p "toil.ml" 11 227 229 "toil.ml" 14 324 354
+)
+"toil.ml" 11 227 233 "toil.ml" 11 227 235
+type(
+  unit
+)
+"toil.ml" 11 227 238 "toil.ml" 11 227 257
+type(
+  out_channel -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.set_binary_mode_out
+)
+"toil.ml" 11 227 258 "toil.ml" 11 227 260
+type(
+  out_channel
+)
+ident(
+  int_ref oc "toil.ml" 10 202 220 "toil.ml" 10 202 222
+)
+"toil.ml" 11 227 261 "toil.ml" 11 227 265
+type(
+  bool
+)
+"toil.ml" 11 227 238 "toil.ml" 11 227 265
+call(
+  stack
+)
+type(
+  unit
+)
+"toil.ml" 12 269 271 "toil.ml" 12 269 284
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"toil.ml" 12 269 285 "toil.ml" 12 269 287
+type(
+  out_channel
+)
+ident(
+  int_ref oc "toil.ml" 10 202 220 "toil.ml" 10 202 222
+)
+"toil.ml" 12 269 289 "toil.ml" 12 269 303
+type(
+  Ast.program -> string
+)
+ident(
+  ext_ref Ast_piqi.to_pb
+)
+"toil.ml" 12 269 304 "toil.ml" 12 269 305
+type(
+  Ast.program
+)
+ident(
+  int_ref p "toil.ml" 10 202 223 "toil.ml" 10 202 224
+)
+"toil.ml" 12 269 288 "toil.ml" 12 269 306
+call(
+  stack
+)
+type(
+  string
+)
+"toil.ml" 12 269 271 "toil.ml" 12 269 306
+call(
+  stack
+)
+type(
+  unit
+)
+"toil.ml" 13 308 310 "toil.ml" 13 308 319
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"toil.ml" 13 308 320 "toil.ml" 13 308 322
+type(
+  out_channel
+)
+ident(
+  int_ref oc "toil.ml" 10 202 220 "toil.ml" 10 202 222
+)
+"toil.ml" 13 308 310 "toil.ml" 13 308 322
+call(
+  stack
+)
+type(
+  unit
+)
+"toil.ml" 14 324 326 "toil.ml" 14 324 345
+type(
+  out_channel -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.set_binary_mode_out
+)
+"toil.ml" 14 324 346 "toil.ml" 14 324 348
+type(
+  out_channel
+)
+ident(
+  int_ref oc "toil.ml" 10 202 220 "toil.ml" 10 202 222
+)
+"toil.ml" 14 324 349 "toil.ml" 14 324 354
+type(
+  bool
+)
+"toil.ml" 14 324 326 "toil.ml" 14 324 354
+call(
+  tail
+)
+type(
+  unit
+)
+"toil.ml" 13 308 310 "toil.ml" 14 324 354
+type(
+  unit
+)
+"toil.ml" 12 269 271 "toil.ml" 14 324 354
+type(
+  unit
+)
+"toil.ml" 11 227 229 "toil.ml" 14 324 354
+type(
+  unit
+)
+"toil.ml" 16 356 360 "toil.ml" 16 356 375
+type(
+  out_channel -> Ast.program -> unit
+)
+ident(
+  def output_ast_json "toil.ml" 20 440 440 --
+)
+"toil.ml" 16 356 376 "toil.ml" 16 356 378
+type(
+  out_channel
+)
+ident(
+  def oc "toil.ml" 16 356 379 "toil.ml" 18 424 438
+)
+"toil.ml" 16 356 379 "toil.ml" 16 356 380
+type(
+  Ast.program
+)
+ident(
+  def p "toil.ml" 17 383 385 "toil.ml" 18 424 438
+)
+"toil.ml" 17 383 385 "toil.ml" 17 383 398
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"toil.ml" 17 383 399 "toil.ml" 17 383 401
+type(
+  out_channel
+)
+ident(
+  int_ref oc "toil.ml" 16 356 376 "toil.ml" 16 356 378
+)
+"toil.ml" 17 383 403 "toil.ml" 17 383 419
+type(
+  Ast.program -> string
+)
+ident(
+  ext_ref Ast_piqi.to_json
+)
+"toil.ml" 17 383 420 "toil.ml" 17 383 421
+type(
+  Ast.program
+)
+ident(
+  int_ref p "toil.ml" 16 356 379 "toil.ml" 16 356 380
+)
+"toil.ml" 17 383 402 "toil.ml" 17 383 422
+call(
+  stack
+)
+type(
+  string
+)
+"toil.ml" 17 383 385 "toil.ml" 17 383 422
+call(
+  stack
+)
+type(
+  unit
+)
+"toil.ml" 18 424 426 "toil.ml" 18 424 435
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"toil.ml" 18 424 436 "toil.ml" 18 424 438
+type(
+  out_channel
+)
+ident(
+  int_ref oc "toil.ml" 16 356 376 "toil.ml" 16 356 378
+)
+"toil.ml" 18 424 426 "toil.ml" 18 424 438
+call(
+  tail
+)
+type(
+  unit
+)
+"toil.ml" 17 383 385 "toil.ml" 18 424 438
+type(
+  unit
+)
+"toil.ml" 20 440 444 "toil.ml" 20 440 458
+type(
+  out_channel -> Ast.program -> unit
+)
+ident(
+  def output_ast_xml "toil.ml" 24 522 522 --
+)
+"toil.ml" 20 440 459 "toil.ml" 20 440 461
+type(
+  out_channel
+)
+ident(
+  def oc "toil.ml" 20 440 462 "toil.ml" 22 506 520
+)
+"toil.ml" 20 440 462 "toil.ml" 20 440 463
+type(
+  Ast.program
+)
+ident(
+  def p "toil.ml" 21 466 468 "toil.ml" 22 506 520
+)
+"toil.ml" 21 466 468 "toil.ml" 21 466 481
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"toil.ml" 21 466 482 "toil.ml" 21 466 484
+type(
+  out_channel
+)
+ident(
+  int_ref oc "toil.ml" 20 440 459 "toil.ml" 20 440 461
+)
+"toil.ml" 21 466 486 "toil.ml" 21 466 501
+type(
+  Ast.program -> string
+)
+ident(
+  ext_ref Ast_piqi.to_xml
+)
+"toil.ml" 21 466 502 "toil.ml" 21 466 503
+type(
+  Ast.program
+)
+ident(
+  int_ref p "toil.ml" 20 440 462 "toil.ml" 20 440 463
+)
+"toil.ml" 21 466 485 "toil.ml" 21 466 504
+call(
+  stack
+)
+type(
+  string
+)
+"toil.ml" 21 466 468 "toil.ml" 21 466 504
+call(
+  stack
+)
+type(
+  unit
+)
+"toil.ml" 22 506 508 "toil.ml" 22 506 517
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"toil.ml" 22 506 518 "toil.ml" 22 506 520
+type(
+  out_channel
+)
+ident(
+  int_ref oc "toil.ml" 20 440 459 "toil.ml" 20 440 461
+)
+"toil.ml" 22 506 508 "toil.ml" 22 506 520
+call(
+  tail
+)
+type(
+  unit
+)
+"toil.ml" 21 466 468 "toil.ml" 22 506 520
+type(
+  unit
+)
+"toil.ml" 24 522 526 "toil.ml" 24 522 530
+type(
+  (out_channel -> Ast.program -> unit) ref
+)
+ident(
+  def outf "toil.ml" 25 551 551 --
+)
+"toil.ml" 24 522 533 "toil.ml" 24 522 536
+type(
+  (out_channel -> Ast.program -> unit) ->
+  (out_channel -> Ast.program -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"toil.ml" 24 522 537 "toil.ml" 24 522 550
+type(
+  out_channel -> Ast.program -> unit
+)
+ident(
+  int_ref output_ast_il "toil.ml" 5 115 119 "toil.ml" 5 115 132
+)
+"toil.ml" 24 522 533 "toil.ml" 24 522 550
+type(
+  (out_channel -> Ast.program -> unit) ref
+)
+"toil.ml" 25 551 555 "toil.ml" 25 551 558
+type(
+  out_channel ref
+)
+ident(
+  def out "toil.ml" 26 572 572 --
+)
+"toil.ml" 25 551 561 "toil.ml" 25 551 564
+type(
+  out_channel -> out_channel ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"toil.ml" 25 551 565 "toil.ml" 25 551 571
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"toil.ml" 25 551 561 "toil.ml" 25 551 571
+type(
+  out_channel ref
+)
+"toil.ml" 26 572 576 "toil.ml" 26 572 584
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def speclist "toil.ml" 39 1097 1097 --
+)
+"toil.ml" 27 587 590 "toil.ml" 27 587 594
+type(
+  Arg.key
+)
+"toil.ml" 27 587 612 "toil.ml" 27 587 613
+type(
+  string
+)
+ident(
+  def f "toil.ml" 27 587 617 "toil.ml" 27 587 634
+)
+"toil.ml" 27 587 617 "toil.ml" 27 587 620
+type(
+  out_channel ref
+)
+ident(
+  int_ref out "toil.ml" 25 551 555 "toil.ml" 25 551 558
+)
+"toil.ml" 27 587 621 "toil.ml" 27 587 623
+type(
+  out_channel ref -> out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"toil.ml" 27 587 624 "toil.ml" 27 587 632
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"toil.ml" 27 587 633 "toil.ml" 27 587 634
+type(
+  string
+)
+ident(
+  int_ref f "toil.ml" 27 587 612 "toil.ml" 27 587 613
+)
+"toil.ml" 27 587 624 "toil.ml" 27 587 634
+call(
+  stack
+)
+type(
+  out_channel
+)
+"toil.ml" 27 587 617 "toil.ml" 27 587 634
+type(
+  unit
+)
+"toil.ml" 27 587 607 "toil.ml" 27 587 635
+type(
+  string -> unit
+)
+"toil.ml" 27 587 596 "toil.ml" 27 587 635
+type(
+  Arg.spec
+)
+"toil.ml" 28 637 640 "toil.ml" 28 637 691
+type(
+  Arg.doc
+)
+"toil.ml" 27 587 589 "toil.ml" 28 637 692
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"toil.ml" 29 693 699 "toil.ml" 29 693 706
+type(
+  Arg.key
+)
+"toil.ml" 29 693 722 "toil.ml" 29 693 724
+type(
+  unit
+)
+"toil.ml" 29 693 728 "toil.ml" 29 693 732
+type(
+  (out_channel -> Ast.program -> unit) ref
+)
+ident(
+  int_ref outf "toil.ml" 24 522 526 "toil.ml" 24 522 530
+)
+"toil.ml" 29 693 733 "toil.ml" 29 693 735
+type(
+  (out_channel -> Ast.program -> unit) ref ->
+  (out_channel -> Ast.program -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"toil.ml" 29 693 736 "toil.ml" 29 693 749
+type(
+  out_channel -> Ast.program -> unit
+)
+ident(
+  int_ref output_ast_il "toil.ml" 5 115 119 "toil.ml" 5 115 132
+)
+"toil.ml" 29 693 728 "toil.ml" 29 693 749
+type(
+  unit
+)
+"toil.ml" 29 693 717 "toil.ml" 29 693 750
+type(
+  unit -> unit
+)
+"toil.ml" 29 693 708 "toil.ml" 29 693 750
+type(
+  Arg.spec
+)
+"toil.ml" 30 752 758 "toil.ml" 30 752 792
+type(
+  Arg.doc
+)
+"toil.ml" 29 693 698 "toil.ml" 30 752 793
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"toil.ml" 31 794 800 "toil.ml" 31 794 807
+type(
+  Arg.key
+)
+"toil.ml" 31 794 823 "toil.ml" 31 794 825
+type(
+  unit
+)
+"toil.ml" 31 794 829 "toil.ml" 31 794 833
+type(
+  (out_channel -> Ast.program -> unit) ref
+)
+ident(
+  int_ref outf "toil.ml" 24 522 526 "toil.ml" 24 522 530
+)
+"toil.ml" 31 794 834 "toil.ml" 31 794 836
+type(
+  (out_channel -> Ast.program -> unit) ref ->
+  (out_channel -> Ast.program -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"toil.ml" 31 794 837 "toil.ml" 31 794 850
+type(
+  out_channel -> Ast.program -> unit
+)
+ident(
+  int_ref output_ast_pb "toil.ml" 10 202 206 "toil.ml" 10 202 219
+)
+"toil.ml" 31 794 829 "toil.ml" 31 794 850
+type(
+  unit
+)
+"toil.ml" 31 794 818 "toil.ml" 31 794 851
+type(
+  unit -> unit
+)
+"toil.ml" 31 794 809 "toil.ml" 31 794 851
+type(
+  Arg.spec
+)
+"toil.ml" 32 853 859 "toil.ml" 32 853 887
+type(
+  Arg.doc
+)
+"toil.ml" 31 794 799 "toil.ml" 32 853 888
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"toil.ml" 33 889 895 "toil.ml" 33 889 904
+type(
+  Arg.key
+)
+"toil.ml" 33 889 920 "toil.ml" 33 889 922
+type(
+  unit
+)
+"toil.ml" 33 889 926 "toil.ml" 33 889 930
+type(
+  (out_channel -> Ast.program -> unit) ref
+)
+ident(
+  int_ref outf "toil.ml" 24 522 526 "toil.ml" 24 522 530
+)
+"toil.ml" 33 889 931 "toil.ml" 33 889 933
+type(
+  (out_channel -> Ast.program -> unit) ref ->
+  (out_channel -> Ast.program -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"toil.ml" 33 889 934 "toil.ml" 33 889 949
+type(
+  out_channel -> Ast.program -> unit
+)
+ident(
+  int_ref output_ast_json "toil.ml" 16 356 360 "toil.ml" 16 356 375
+)
+"toil.ml" 33 889 926 "toil.ml" 33 889 949
+type(
+  unit
+)
+"toil.ml" 33 889 915 "toil.ml" 33 889 950
+type(
+  unit -> unit
+)
+"toil.ml" 33 889 906 "toil.ml" 33 889 950
+type(
+  Arg.spec
+)
+"toil.ml" 34 952 958 "toil.ml" 34 952 982
+type(
+  Arg.doc
+)
+"toil.ml" 33 889 894 "toil.ml" 34 952 983
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"toil.ml" 35 984 990 "toil.ml" 35 984 998
+type(
+  Arg.key
+)
+"toil.ml" 35 984 1014 "toil.ml" 35 984 1016
+type(
+  unit
+)
+"toil.ml" 35 984 1020 "toil.ml" 35 984 1024
+type(
+  (out_channel -> Ast.program -> unit) ref
+)
+ident(
+  int_ref outf "toil.ml" 24 522 526 "toil.ml" 24 522 530
+)
+"toil.ml" 35 984 1025 "toil.ml" 35 984 1027
+type(
+  (out_channel -> Ast.program -> unit) ref ->
+  (out_channel -> Ast.program -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"toil.ml" 35 984 1028 "toil.ml" 35 984 1042
+type(
+  out_channel -> Ast.program -> unit
+)
+ident(
+  int_ref output_ast_xml "toil.ml" 20 440 444 "toil.ml" 20 440 458
+)
+"toil.ml" 35 984 1020 "toil.ml" 35 984 1042
+type(
+  unit
+)
+"toil.ml" 35 984 1009 "toil.ml" 35 984 1043
+type(
+  unit -> unit
+)
+"toil.ml" 35 984 1000 "toil.ml" 35 984 1043
+type(
+  Arg.spec
+)
+"toil.ml" 36 1045 1051 "toil.ml" 36 1045 1074
+type(
+  Arg.doc
+)
+"toil.ml" 35 984 989 "toil.ml" 36 1045 1075
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"toil.ml" 37 1076 1081 "toil.ml" 37 1076 1095
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Input.speclist
+)
+"toil.ml" 35 984 989 "toil.ml" 37 1076 1095
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"toil.ml" 33 889 894 "toil.ml" 37 1076 1095
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"toil.ml" 31 794 799 "toil.ml" 37 1076 1095
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"toil.ml" 29 693 698 "toil.ml" 37 1076 1095
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"toil.ml" 27 587 589 "toil.ml" 37 1076 1095
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"toil.ml" 39 1097 1101 "toil.ml" 39 1097 1105
+type(
+  string -> 'a
+)
+ident(
+  def anon "toil.ml" 40 1157 1157 --
+)
+"toil.ml" 39 1097 1106 "toil.ml" 39 1097 1107
+type(
+  string
+)
+ident(
+  def x "toil.ml" 39 1097 1110 "toil.ml" 39 1097 1156
+)
+"toil.ml" 39 1097 1110 "toil.ml" 39 1097 1115
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"toil.ml" 39 1097 1124 "toil.ml" 39 1097 1148
+type(
+  string
+)
+"toil.ml" 39 1097 1148 "toil.ml" 39 1097 1149
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"toil.ml" 39 1097 1149 "toil.ml" 39 1097 1150
+type(
+  string
+)
+ident(
+  int_ref x "toil.ml" 39 1097 1106 "toil.ml" 39 1097 1107
+)
+"toil.ml" 39 1097 1150 "toil.ml" 39 1097 1151
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"toil.ml" 39 1097 1151 "toil.ml" 39 1097 1154
+type(
+  string
+)
+"toil.ml" 39 1097 1149 "toil.ml" 39 1097 1154
+call(
+  stack
+)
+type(
+  string
+)
+"toil.ml" 39 1097 1123 "toil.ml" 39 1097 1155
+call(
+  stack
+)
+type(
+  string
+)
+"toil.ml" 39 1097 1115 "toil.ml" 39 1097 1156
+type(
+  exn
+)
+"toil.ml" 39 1097 1110 "toil.ml" 39 1097 1156
+type(
+  'a
+)
+"toil.ml" 40 1157 1161 "toil.ml" 40 1157 1163
+type(
+  unit
+)
+"toil.ml" 40 1157 1166 "toil.ml" 40 1157 1175
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"toil.ml" 40 1157 1176 "toil.ml" 40 1157 1184
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "toil.ml" 26 572 576 "toil.ml" 26 572 584
+)
+"toil.ml" 40 1157 1185 "toil.ml" 40 1157 1189
+type(
+  Arg.anon_fun
+)
+ident(
+  int_ref anon "toil.ml" 39 1097 1101 "toil.ml" 39 1097 1105
+)
+"toil.ml" 40 1157 1190 "toil.ml" 40 1157 1195
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "toil.ml" 2 1 5 "toil.ml" 2 1 10
+)
+"toil.ml" 40 1157 1166 "toil.ml" 40 1157 1195
+call(
+  stack
+)
+type(
+  unit
+)
+"toil.ml" 43 1198 1202 "toil.ml" 43 1198 1206
+type(
+  Ast.program
+)
+ident(
+  def prog "toil.ml" 50 1313 1313 --
+)
+"toil.ml" 43 1198 1207 "toil.ml" 43 1198 1208
+type(
+  Grammar_scope.Scope.t
+)
+"toil.ml" 43 1198 1209 "toil.ml" 43 1198 1210
+type(
+  Arch.arch option
+)
+"toil.ml" 43 1198 1202 "toil.ml" 43 1198 1210
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"toil.ml" 44 1213 1219 "toil.ml" 44 1213 1236
+type(
+  unit -> Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  ext_ref Input.get_program
+)
+"toil.ml" 44 1213 1236 "toil.ml" 44 1213 1238
+type(
+  unit
+)
+"toil.ml" 44 1213 1219 "toil.ml" 44 1213 1238
+call(
+  stack
+)
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"toil.ml" 45 1239 1254 "toil.ml" 45 1239 1255
+type(
+  string
+)
+ident(
+  def s "toil.ml" 46 1259 1263 "toil.ml" 47 1298 1308
+)
+"toil.ml" 45 1239 1246 "toil.ml" 45 1239 1255
+type(
+  exn
+)
+"toil.ml" 46 1259 1263 "toil.ml" 46 1259 1272
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.usage
+)
+"toil.ml" 46 1259 1273 "toil.ml" 46 1259 1281
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "toil.ml" 26 572 576 "toil.ml" 26 572 584
+)
+"toil.ml" 46 1259 1283 "toil.ml" 46 1259 1284
+type(
+  string
+)
+ident(
+  int_ref s "toil.ml" 45 1239 1254 "toil.ml" 45 1239 1255
+)
+"toil.ml" 46 1259 1284 "toil.ml" 46 1259 1285
+type(
+  string -> string -> Arg.usage_msg
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"toil.ml" 46 1259 1285 "toil.ml" 46 1259 1289
+type(
+  string
+)
+"toil.ml" 46 1259 1289 "toil.ml" 46 1259 1290
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"toil.ml" 46 1259 1290 "toil.ml" 46 1259 1295
+type(
+  string
+)
+ident(
+  int_ref usage "toil.ml" 2 1 5 "toil.ml" 2 1 10
+)
+"toil.ml" 46 1259 1285 "toil.ml" 46 1259 1295
+call(
+  stack
+)
+type(
+  string
+)
+"toil.ml" 46 1259 1282 "toil.ml" 46 1259 1296
+call(
+  stack
+)
+type(
+  Arg.usage_msg
+)
+"toil.ml" 46 1259 1263 "toil.ml" 46 1259 1296
+call(
+  stack
+)
+type(
+  unit
+)
+"toil.ml" 47 1298 1302 "toil.ml" 47 1298 1306
+type(
+  int -> Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"toil.ml" 47 1298 1307 "toil.ml" 47 1298 1308
+type(
+  int
+)
+"toil.ml" 47 1298 1302 "toil.ml" 47 1298 1308
+call(
+  stack
+)
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"toil.ml" 46 1259 1263 "toil.ml" 47 1298 1308
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"toil.ml" 44 1213 1215 "toil.ml" 47 1298 1308
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"toil.ml" 50 1313 1313 "toil.ml" 50 1313 1314
+type(
+  (out_channel -> Ast.program -> unit) ref ->
+  out_channel -> Ast.program -> unit
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"toil.ml" 50 1313 1314 "toil.ml" 50 1313 1318
+type(
+  (out_channel -> Ast.program -> unit) ref
+)
+ident(
+  int_ref outf "toil.ml" 24 522 526 "toil.ml" 24 522 530
+)
+"toil.ml" 50 1313 1313 "toil.ml" 50 1313 1318
+type(
+  out_channel -> Ast.program -> unit
+)
+"toil.ml" 50 1313 1319 "toil.ml" 50 1313 1320
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"toil.ml" 50 1313 1320 "toil.ml" 50 1313 1323
+type(
+  out_channel ref
+)
+ident(
+  int_ref out "toil.ml" 25 551 555 "toil.ml" 25 551 558
+)
+"toil.ml" 50 1313 1319 "toil.ml" 50 1313 1323
+type(
+  out_channel
+)
+"toil.ml" 50 1313 1324 "toil.ml" 50 1313 1328
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "toil.ml" 43 1198 1202 "toil.ml" 43 1198 1206
+)
+"toil.ml" 50 1313 1313 "toil.ml" 50 1313 1328
+call(
+  stack
+)
+type(
+  unit
+)

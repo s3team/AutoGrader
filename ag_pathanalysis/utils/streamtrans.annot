@@ -1,0 +1,1695 @@
+"streamtrans.ml" 1 0 4 "streamtrans.ml" 1 0 9
+type(
+  string
+)
+ident(
+  def usage "streamtrans.ml" 9 358 358 --
+)
+"streamtrans.ml" 1 0 12 "streamtrans.ml" 1 0 21
+type(
+  string
+)
+"streamtrans.ml" 1 0 21 "streamtrans.ml" 1 0 22
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"streamtrans.ml" 1 0 22 "streamtrans.ml" 1 0 30
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"streamtrans.ml" 1 0 32 "streamtrans.ml" 1 0 33
+type(
+  int
+)
+"streamtrans.ml" 1 0 22 "streamtrans.ml" 1 0 34
+type(
+  string
+)
+"streamtrans.ml" 1 0 34 "streamtrans.ml" 1 0 35
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"streamtrans.ml" 1 0 35 "streamtrans.ml" 2 86 127
+type(
+  string
+)
+"streamtrans.ml" 1 0 22 "streamtrans.ml" 2 86 127
+call(
+  stack
+)
+type(
+  string
+)
+"streamtrans.ml" 1 0 12 "streamtrans.ml" 2 86 127
+call(
+  stack
+)
+type(
+  string
+)
+"streamtrans.ml" 28 704 708 "streamtrans.ml" 28 704 716
+type(
+  cmd list ref
+)
+ident(
+  def pipeline "streamtrans.ml" 30 729 729 --
+)
+"streamtrans.ml" 28 704 719 "streamtrans.ml" 28 704 722
+type(
+  cmd list -> cmd list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"streamtrans.ml" 28 704 723 "streamtrans.ml" 28 704 725
+type(
+  cmd list
+)
+"streamtrans.ml" 28 704 719 "streamtrans.ml" 28 704 725
+type(
+  cmd list ref
+)
+"streamtrans.ml" 30 729 733 "streamtrans.ml" 30 729 738
+type(
+  (unit -> unit) list ref
+)
+ident(
+  def final "streamtrans.ml" 32 751 751 --
+)
+"streamtrans.ml" 30 729 741 "streamtrans.ml" 30 729 744
+type(
+  (unit -> unit) list -> (unit -> unit) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"streamtrans.ml" 30 729 745 "streamtrans.ml" 30 729 747
+type(
+  (unit -> unit) list
+)
+"streamtrans.ml" 30 729 741 "streamtrans.ml" 30 729 747
+type(
+  (unit -> unit) list ref
+)
+"streamtrans.ml" 32 751 755 "streamtrans.ml" 32 751 758
+type(
+  cmd -> unit
+)
+ident(
+  def add "streamtrans.ml" 35 793 793 --
+)
+"streamtrans.ml" 32 751 759 "streamtrans.ml" 32 751 760
+type(
+  cmd
+)
+ident(
+  def c "streamtrans.ml" 33 763 765 "streamtrans.ml" 33 763 791
+)
+"streamtrans.ml" 33 763 765 "streamtrans.ml" 33 763 773
+type(
+  cmd list ref
+)
+ident(
+  int_ref pipeline "streamtrans.ml" 28 704 708 "streamtrans.ml" 28 704 716
+)
+"streamtrans.ml" 33 763 774 "streamtrans.ml" 33 763 776
+type(
+  cmd list ref -> cmd list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"streamtrans.ml" 33 763 777 "streamtrans.ml" 33 763 778
+type(
+  cmd
+)
+ident(
+  int_ref c "streamtrans.ml" 32 751 759 "streamtrans.ml" 32 751 760
+)
+"streamtrans.ml" 33 763 782 "streamtrans.ml" 33 763 783
+type(
+  cmd list ref -> cmd list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"streamtrans.ml" 33 763 783 "streamtrans.ml" 33 763 791
+type(
+  cmd list ref
+)
+ident(
+  int_ref pipeline "streamtrans.ml" 28 704 708 "streamtrans.ml" 28 704 716
+)
+"streamtrans.ml" 33 763 782 "streamtrans.ml" 33 763 791
+type(
+  cmd list
+)
+"streamtrans.ml" 33 763 777 "streamtrans.ml" 33 763 791
+type(
+  cmd list
+)
+"streamtrans.ml" 33 763 765 "streamtrans.ml" 33 763 791
+type(
+  unit
+)
+"streamtrans.ml" 35 793 797 "streamtrans.ml" 35 793 805
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  def addfinal "streamtrans.ml" 38 834 834 --
+)
+"streamtrans.ml" 35 793 806 "streamtrans.ml" 35 793 807
+type(
+  unit -> unit
+)
+ident(
+  def c "streamtrans.ml" 36 810 812 "streamtrans.ml" 36 810 832
+)
+"streamtrans.ml" 36 810 812 "streamtrans.ml" 36 810 817
+type(
+  (unit -> unit) list ref
+)
+ident(
+  int_ref final "streamtrans.ml" 30 729 733 "streamtrans.ml" 30 729 738
+)
+"streamtrans.ml" 36 810 818 "streamtrans.ml" 36 810 820
+type(
+  (unit -> unit) list ref -> (unit -> unit) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"streamtrans.ml" 36 810 821 "streamtrans.ml" 36 810 822
+type(
+  unit -> unit
+)
+ident(
+  int_ref c "streamtrans.ml" 35 793 806 "streamtrans.ml" 35 793 807
+)
+"streamtrans.ml" 36 810 826 "streamtrans.ml" 36 810 827
+type(
+  (unit -> unit) list ref -> (unit -> unit) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"streamtrans.ml" 36 810 827 "streamtrans.ml" 36 810 832
+type(
+  (unit -> unit) list ref
+)
+ident(
+  int_ref final "streamtrans.ml" 30 729 733 "streamtrans.ml" 30 729 738
+)
+"streamtrans.ml" 36 810 826 "streamtrans.ml" 36 810 832
+type(
+  (unit -> unit) list
+)
+"streamtrans.ml" 36 810 821 "streamtrans.ml" 36 810 832
+type(
+  (unit -> unit) list
+)
+"streamtrans.ml" 36 810 812 "streamtrans.ml" 36 810 832
+type(
+  unit
+)
+"streamtrans.ml" 38 834 838 "streamtrans.ml" 38 834 842
+type(
+  cmd -> Arg.spec
+)
+ident(
+  def uadd "streamtrans.ml" 42 898 898 --
+)
+"streamtrans.ml" 38 834 843 "streamtrans.ml" 38 834 844
+type(
+  cmd
+)
+ident(
+  def c "streamtrans.ml" 39 847 849 "streamtrans.ml" 39 847 872
+)
+"streamtrans.ml" 39 847 861 "streamtrans.ml" 39 847 863
+type(
+  unit
+)
+"streamtrans.ml" 39 847 866 "streamtrans.ml" 39 847 869
+type(
+  cmd -> unit
+)
+ident(
+  int_ref add "streamtrans.ml" 32 751 755 "streamtrans.ml" 32 751 758
+)
+"streamtrans.ml" 39 847 870 "streamtrans.ml" 39 847 871
+type(
+  cmd
+)
+ident(
+  int_ref c "streamtrans.ml" 38 834 843 "streamtrans.ml" 38 834 844
+)
+"streamtrans.ml" 39 847 866 "streamtrans.ml" 39 847 871
+call(
+  tail
+)
+type(
+  unit
+)
+"streamtrans.ml" 39 847 857 "streamtrans.ml" 39 847 872
+type(
+  unit -> unit
+)
+"streamtrans.ml" 39 847 849 "streamtrans.ml" 39 847 872
+type(
+  Arg.spec
+)
+"streamtrans.ml" 42 898 902 "streamtrans.ml" 42 898 908
+type(
+  string -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  def prints "streamtrans.ml" 49 1022 1022 --
+)
+"streamtrans.ml" 42 898 909 "streamtrans.ml" 42 898 910
+type(
+  string
+)
+ident(
+  def f "streamtrans.ml" 43 913 915 "streamtrans.ml" 47 1010 1020
+)
+"streamtrans.ml" 43 913 919 "streamtrans.ml" 43 913 921
+type(
+  out_channel
+)
+"streamtrans.ml" 43 913 924 "streamtrans.ml" 43 913 932
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"streamtrans.ml" 43 913 933 "streamtrans.ml" 43 913 934
+type(
+  string
+)
+ident(
+  int_ref f "streamtrans.ml" 42 898 909 "streamtrans.ml" 42 898 910
+)
+"streamtrans.ml" 43 913 924 "streamtrans.ml" 43 913 934
+call(
+  stack
+)
+type(
+  out_channel
+)
+"streamtrans.ml" 44 938 944 "streamtrans.ml" 44 938 946
+type(
+  Pp.pp_oc
+)
+"streamtrans.ml" 44 938 949 "streamtrans.ml" 44 938 961
+type(
+  out_channel -> Pp.pp_oc
+)
+"streamtrans.ml" 44 938 962 "streamtrans.ml" 44 938 964
+type(
+  out_channel
+)
+ident(
+  int_ref oc "streamtrans.ml" 43 913 919 "streamtrans.ml" 43 913 921
+)
+"streamtrans.ml" 44 938 949 "streamtrans.ml" 44 938 964
+call(
+  stack
+)
+type(
+  Pp.pp_oc
+)
+"streamtrans.ml" 45 968 975 "streamtrans.ml" 45 968 980
+type(
+  Ast.stmt list
+)
+ident(
+  def block "streamtrans.ml" 46 984 988 "streamtrans.ml" 47 1010 1019
+)
+"streamtrans.ml" 46 984 988 "streamtrans.ml" 46 984 990
+type(
+  Pp.pp_oc
+)
+ident(
+  int_ref pp "streamtrans.ml" 44 938 944 "streamtrans.ml" 44 938 946
+)
+"streamtrans.ml" 46 984 988 "streamtrans.ml" 46 984 1002
+call(
+  stack
+)
+type(
+  Ast.stmt list -> unit
+)
+"streamtrans.ml" 46 984 1003 "streamtrans.ml" 46 984 1008
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref block "streamtrans.ml" 45 968 975 "streamtrans.ml" 45 968 980
+)
+"streamtrans.ml" 46 984 988 "streamtrans.ml" 46 984 1008
+type(
+  unit
+)
+"streamtrans.ml" 47 1010 1014 "streamtrans.ml" 47 1010 1019
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref block "streamtrans.ml" 45 968 975 "streamtrans.ml" 45 968 980
+)
+"streamtrans.ml" 46 984 988 "streamtrans.ml" 47 1010 1019
+type(
+  Ast.stmt list
+)
+"streamtrans.ml" 45 968 970 "streamtrans.ml" 47 1010 1020
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+"streamtrans.ml" 44 938 940 "streamtrans.ml" 47 1010 1020
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+"streamtrans.ml" 43 913 915 "streamtrans.ml" 47 1010 1020
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+"streamtrans.ml" 49 1022 1026 "streamtrans.ml" 49 1022 1034
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def speclist "streamtrans.ml" 80 2204 2204 --
+)
+"streamtrans.ml" 50 1037 1040 "streamtrans.ml" 50 1037 1049
+type(
+  Arg.key
+)
+"streamtrans.ml" 50 1037 1066 "streamtrans.ml" 50 1037 1067
+type(
+  string
+)
+ident(
+  def f "streamtrans.ml" 51 1071 1075 "streamtrans.ml" 51 1071 1103
+)
+"streamtrans.ml" 51 1071 1075 "streamtrans.ml" 51 1071 1078
+type(
+  cmd -> unit
+)
+ident(
+  int_ref add "streamtrans.ml" 32 751 755 "streamtrans.ml" 32 751 758
+)
+"streamtrans.ml" 51 1071 1092 "streamtrans.ml" 51 1071 1098
+type(
+  string -> ast -> ast
+)
+ident(
+  int_ref prints "streamtrans.ml" 42 898 902 "streamtrans.ml" 42 898 908
+)
+"streamtrans.ml" 51 1071 1099 "streamtrans.ml" 51 1071 1100
+type(
+  string
+)
+ident(
+  int_ref f "streamtrans.ml" 50 1037 1066 "streamtrans.ml" 50 1037 1067
+)
+"streamtrans.ml" 51 1071 1091 "streamtrans.ml" 51 1071 1101
+call(
+  stack
+)
+type(
+  ast -> ast
+)
+"streamtrans.ml" 51 1071 1078 "streamtrans.ml" 51 1071 1102
+type(
+  cmd
+)
+"streamtrans.ml" 51 1071 1075 "streamtrans.ml" 51 1071 1103
+call(
+  tail
+)
+type(
+  unit
+)
+"streamtrans.ml" 50 1037 1061 "streamtrans.ml" 52 1104 1108
+type(
+  string -> unit
+)
+"streamtrans.ml" 50 1037 1051 "streamtrans.ml" 52 1104 1108
+type(
+  Arg.spec
+)
+"streamtrans.ml" 53 1110 1113 "streamtrans.ml" 53 1110 1164
+type(
+  Arg.doc
+)
+"streamtrans.ml" 50 1037 1039 "streamtrans.ml" 53 1110 1165
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"streamtrans.ml" 54 1166 1171 "streamtrans.ml" 54 1166 1185
+type(
+  Arg.key
+)
+"streamtrans.ml" 55 1187 1200 "streamtrans.ml" 55 1187 1224
+type(
+  bool ref
+)
+ident(
+  ext_ref Traces.consistency_check
+)
+"streamtrans.ml" 55 1187 1192 "streamtrans.ml" 55 1187 1224
+type(
+  Arg.spec
+)
+"streamtrans.ml" 56 1226 1231 "streamtrans.ml" 56 1226 1259
+type(
+  Arg.doc
+)
+"streamtrans.ml" 54 1166 1170 "streamtrans.ml" 57 1260 1265
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"streamtrans.ml" 58 1266 1271 "streamtrans.ml" 58 1266 1289
+type(
+  Arg.key
+)
+"streamtrans.ml" 59 1291 1310 "streamtrans.ml" 59 1291 1312
+type(
+  unit
+)
+"streamtrans.ml" 59 1291 1316 "streamtrans.ml" 59 1291 1331
+type(
+  bool ref
+)
+ident(
+  ext_ref Traces.checkall
+)
+"streamtrans.ml" 59 1291 1332 "streamtrans.ml" 59 1291 1334
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"streamtrans.ml" 59 1291 1335 "streamtrans.ml" 59 1291 1339
+type(
+  bool
+)
+"streamtrans.ml" 59 1291 1316 "streamtrans.ml" 59 1291 1339
+type(
+  unit
+)
+"streamtrans.ml" 60 1341 1348 "streamtrans.ml" 60 1341 1372
+type(
+  bool ref
+)
+ident(
+  ext_ref Traces.consistency_check
+)
+"streamtrans.ml" 60 1341 1373 "streamtrans.ml" 60 1341 1375
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"streamtrans.ml" 60 1341 1376 "streamtrans.ml" 60 1341 1380
+type(
+  bool
+)
+"streamtrans.ml" 60 1341 1348 "streamtrans.ml" 60 1341 1380
+type(
+  unit
+)
+"streamtrans.ml" 59 1291 1316 "streamtrans.ml" 60 1341 1380
+type(
+  unit
+)
+"streamtrans.ml" 59 1291 1305 "streamtrans.ml" 60 1341 1381
+type(
+  unit -> unit
+)
+"streamtrans.ml" 59 1291 1296 "streamtrans.ml" 60 1341 1381
+type(
+  Arg.spec
+)
+"streamtrans.ml" 61 1383 1388 "streamtrans.ml" 61 1383 1464
+type(
+  Arg.doc
+)
+"streamtrans.ml" 58 1266 1270 "streamtrans.ml" 62 1465 1470
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"streamtrans.ml" 63 1471 1476 "streamtrans.ml" 63 1471 1493
+type(
+  Arg.key
+)
+"streamtrans.ml" 64 1495 1500 "streamtrans.ml" 64 1495 1504
+type(
+  cmd -> Arg.spec
+)
+ident(
+  int_ref uadd "streamtrans.ml" 38 834 838 "streamtrans.ml" 38 834 842
+)
+"streamtrans.ml" 64 1495 1522 "streamtrans.ml" 64 1495 1544
+type(
+  bool -> Arch.arch -> ast -> ast
+)
+ident(
+  ext_ref Traces_stream.concrete
+)
+"streamtrans.ml" 64 1495 1545 "streamtrans.ml" 64 1495 1549
+type(
+  bool
+)
+"streamtrans.ml" 64 1495 1521 "streamtrans.ml" 64 1495 1550
+call(
+  stack
+)
+type(
+  Arch.arch -> ast -> ast
+)
+"streamtrans.ml" 64 1495 1504 "streamtrans.ml" 64 1495 1551
+type(
+  cmd
+)
+"streamtrans.ml" 64 1495 1500 "streamtrans.ml" 64 1495 1551
+call(
+  stack
+)
+type(
+  Arg.spec
+)
+"streamtrans.ml" 65 1553 1558 "streamtrans.ml" 65 1553 1626
+type(
+  Arg.doc
+)
+"streamtrans.ml" 63 1471 1475 "streamtrans.ml" 65 1553 1627
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"streamtrans.ml" 66 1628 1633 "streamtrans.ml" 66 1628 1655
+type(
+  Arg.key
+)
+"streamtrans.ml" 67 1657 1662 "streamtrans.ml" 67 1657 1666
+type(
+  cmd -> Arg.spec
+)
+ident(
+  int_ref uadd "streamtrans.ml" 38 834 838 "streamtrans.ml" 38 834 842
+)
+"streamtrans.ml" 67 1657 1684 "streamtrans.ml" 67 1657 1706
+type(
+  bool -> Arch.arch -> ast -> ast
+)
+ident(
+  ext_ref Traces_stream.concrete
+)
+"streamtrans.ml" 67 1657 1707 "streamtrans.ml" 67 1657 1712
+type(
+  bool
+)
+"streamtrans.ml" 67 1657 1683 "streamtrans.ml" 67 1657 1713
+call(
+  stack
+)
+type(
+  Arch.arch -> ast -> ast
+)
+"streamtrans.ml" 67 1657 1666 "streamtrans.ml" 67 1657 1714
+type(
+  cmd
+)
+"streamtrans.ml" 67 1657 1662 "streamtrans.ml" 67 1657 1714
+call(
+  stack
+)
+type(
+  Arg.spec
+)
+"streamtrans.ml" 68 1716 1721 "streamtrans.ml" 68 1716 1793
+type(
+  Arg.doc
+)
+"streamtrans.ml" 66 1628 1632 "streamtrans.ml" 68 1716 1794
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"streamtrans.ml" 69 1795 1800 "streamtrans.ml" 69 1795 1816
+type(
+  Arg.key
+)
+"streamtrans.ml" 70 1818 1838 "streamtrans.ml" 70 1818 1839
+type(
+  string
+)
+ident(
+  def f "streamtrans.ml" 71 1843 1850 "streamtrans.ml" 73 1957 1979
+)
+"streamtrans.ml" 71 1843 1854 "streamtrans.ml" 71 1843 1860
+type(
+  Arch.arch -> Ast.program -> unit
+)
+"streamtrans.ml" 71 1843 1862 "streamtrans.ml" 71 1843 1867
+type(
+  unit -> unit
+)
+"streamtrans.ml" 71 1843 1854 "streamtrans.ml" 71 1843 1867
+type(
+  (Arch.arch -> Ast.program -> unit) * (unit -> unit)
+)
+"streamtrans.ml" 71 1843 1870 "streamtrans.ml" 71 1843 1900
+type(
+  string ->
+  Smtexec.smtexec -> (Arch.arch -> Ast.program -> unit) * (unit -> unit)
+)
+ident(
+  ext_ref Traces_stream.generate_formula
+)
+"streamtrans.ml" 71 1843 1901 "streamtrans.ml" 71 1843 1902
+type(
+  string
+)
+ident(
+  int_ref f "streamtrans.ml" 70 1818 1838 "streamtrans.ml" 70 1818 1839
+)
+"streamtrans.ml" 71 1843 1903 "streamtrans.ml" 71 1843 1904
+type(
+  Smtexec.smtexec ref -> Smtexec.smtexec
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"streamtrans.ml" 71 1843 1904 "streamtrans.ml" 71 1843 1917
+type(
+  Smtexec.smtexec ref
+)
+ident(
+  ext_ref Utils_common.Solver.solver
+)
+"streamtrans.ml" 71 1843 1903 "streamtrans.ml" 71 1843 1917
+type(
+  Smtexec.smtexec
+)
+"streamtrans.ml" 71 1843 1870 "streamtrans.ml" 71 1843 1917
+call(
+  stack
+)
+type(
+  (Arch.arch -> Ast.program -> unit) * (unit -> unit)
+)
+"streamtrans.ml" 72 1921 1928 "streamtrans.ml" 72 1921 1931
+type(
+  cmd -> unit
+)
+ident(
+  int_ref add "streamtrans.ml" 32 751 755 "streamtrans.ml" 32 751 758
+)
+"streamtrans.ml" 72 1921 1948 "streamtrans.ml" 72 1921 1954
+type(
+  Arch.arch -> ast -> unit
+)
+ident(
+  int_ref stream "streamtrans.ml" 71 1843 1854 "streamtrans.ml" 71 1843 1860
+)
+"streamtrans.ml" 72 1921 1931 "streamtrans.ml" 72 1921 1955
+type(
+  cmd
+)
+"streamtrans.ml" 72 1921 1928 "streamtrans.ml" 72 1921 1955
+call(
+  stack
+)
+type(
+  unit
+)
+"streamtrans.ml" 73 1957 1964 "streamtrans.ml" 73 1957 1972
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  int_ref addfinal "streamtrans.ml" 35 793 797 "streamtrans.ml" 35 793 805
+)
+"streamtrans.ml" 73 1957 1972 "streamtrans.ml" 73 1957 1979
+type(
+  unit -> unit
+)
+ident(
+  int_ref final "streamtrans.ml" 71 1843 1862 "streamtrans.ml" 71 1843 1867
+)
+"streamtrans.ml" 73 1957 1964 "streamtrans.ml" 73 1957 1979
+call(
+  tail
+)
+type(
+  unit
+)
+"streamtrans.ml" 72 1921 1928 "streamtrans.ml" 73 1957 1979
+type(
+  unit
+)
+"streamtrans.ml" 71 1843 1850 "streamtrans.ml" 73 1957 1979
+type(
+  unit
+)
+"streamtrans.ml" 70 1818 1833 "streamtrans.ml" 74 1980 1986
+type(
+  string -> unit
+)
+"streamtrans.ml" 70 1818 1823 "streamtrans.ml" 74 1980 1986
+type(
+  Arg.spec
+)
+"streamtrans.ml" 75 1988 1993 "streamtrans.ml" 75 1988 2048
+type(
+  Arg.doc
+)
+"streamtrans.ml" 69 1795 1799 "streamtrans.ml" 75 1988 2049
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"streamtrans.ml" 76 2050 2055 "streamtrans.ml" 76 2050 2070
+type(
+  Arg.key
+)
+"streamtrans.ml" 76 2050 2083 "streamtrans.ml" 76 2050 2100
+type(
+  string -> unit
+)
+ident(
+  ext_ref Utils_common.Solver.set_solver
+)
+"streamtrans.ml" 76 2050 2072 "streamtrans.ml" 76 2050 2100
+type(
+  Arg.spec
+)
+"streamtrans.ml" 77 2102 2108 "streamtrans.ml" 77 2102 2156
+type(
+  string
+)
+"streamtrans.ml" 77 2102 2157 "streamtrans.ml" 77 2102 2158
+type(
+  string -> string -> Arg.doc
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"streamtrans.ml" 77 2102 2159 "streamtrans.ml" 77 2102 2173
+type(
+  string
+)
+ident(
+  ext_ref Utils_common.Solver.solvers
+)
+"streamtrans.ml" 77 2102 2107 "streamtrans.ml" 77 2102 2174
+call(
+  stack
+)
+type(
+  Arg.doc
+)
+"streamtrans.ml" 76 2050 2054 "streamtrans.ml" 77 2102 2175
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"streamtrans.ml" 78 2176 2181 "streamtrans.ml" 78 2176 2202
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Input.stream_speclist
+)
+"streamtrans.ml" 76 2050 2054 "streamtrans.ml" 78 2176 2202
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"streamtrans.ml" 69 1795 1799 "streamtrans.ml" 78 2176 2202
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"streamtrans.ml" 66 1628 1632 "streamtrans.ml" 78 2176 2202
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"streamtrans.ml" 63 1471 1475 "streamtrans.ml" 78 2176 2202
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"streamtrans.ml" 58 1266 1270 "streamtrans.ml" 78 2176 2202
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"streamtrans.ml" 54 1166 1170 "streamtrans.ml" 78 2176 2202
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"streamtrans.ml" 50 1037 1039 "streamtrans.ml" 78 2176 2202
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"streamtrans.ml" 80 2204 2208 "streamtrans.ml" 80 2204 2212
+type(
+  string -> 'a
+)
+ident(
+  def anon "streamtrans.ml" 81 2264 2264 --
+)
+"streamtrans.ml" 80 2204 2213 "streamtrans.ml" 80 2204 2214
+type(
+  string
+)
+ident(
+  def x "streamtrans.ml" 80 2204 2217 "streamtrans.ml" 80 2204 2263
+)
+"streamtrans.ml" 80 2204 2217 "streamtrans.ml" 80 2204 2222
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"streamtrans.ml" 80 2204 2231 "streamtrans.ml" 80 2204 2255
+type(
+  string
+)
+"streamtrans.ml" 80 2204 2255 "streamtrans.ml" 80 2204 2256
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"streamtrans.ml" 80 2204 2256 "streamtrans.ml" 80 2204 2257
+type(
+  string
+)
+ident(
+  int_ref x "streamtrans.ml" 80 2204 2213 "streamtrans.ml" 80 2204 2214
+)
+"streamtrans.ml" 80 2204 2257 "streamtrans.ml" 80 2204 2258
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"streamtrans.ml" 80 2204 2258 "streamtrans.ml" 80 2204 2261
+type(
+  string
+)
+"streamtrans.ml" 80 2204 2256 "streamtrans.ml" 80 2204 2261
+call(
+  stack
+)
+type(
+  string
+)
+"streamtrans.ml" 80 2204 2230 "streamtrans.ml" 80 2204 2262
+call(
+  stack
+)
+type(
+  string
+)
+"streamtrans.ml" 80 2204 2222 "streamtrans.ml" 80 2204 2263
+type(
+  exn
+)
+"streamtrans.ml" 80 2204 2217 "streamtrans.ml" 80 2204 2263
+type(
+  'a
+)
+"streamtrans.ml" 81 2264 2268 "streamtrans.ml" 81 2264 2270
+type(
+  unit
+)
+"streamtrans.ml" 81 2264 2273 "streamtrans.ml" 81 2264 2282
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"streamtrans.ml" 81 2264 2283 "streamtrans.ml" 81 2264 2291
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "streamtrans.ml" 49 1022 1026 "streamtrans.ml" 49 1022 1034
+)
+"streamtrans.ml" 81 2264 2292 "streamtrans.ml" 81 2264 2296
+type(
+  Arg.anon_fun
+)
+ident(
+  int_ref anon "streamtrans.ml" 80 2204 2208 "streamtrans.ml" 80 2204 2212
+)
+"streamtrans.ml" 81 2264 2297 "streamtrans.ml" 81 2264 2302
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "streamtrans.ml" 1 0 4 "streamtrans.ml" 1 0 9
+)
+"streamtrans.ml" 81 2264 2273 "streamtrans.ml" 81 2264 2302
+call(
+  stack
+)
+type(
+  unit
+)
+"streamtrans.ml" 83 2304 2308 "streamtrans.ml" 83 2304 2316
+type(
+  cmd list
+)
+ident(
+  def pipeline "streamtrans.ml" 84 2338 2338 --
+)
+"streamtrans.ml" 83 2304 2319 "streamtrans.ml" 83 2304 2327
+type(
+  cmd list -> cmd list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"streamtrans.ml" 83 2304 2328 "streamtrans.ml" 83 2304 2329
+type(
+  cmd list ref -> cmd list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"streamtrans.ml" 83 2304 2329 "streamtrans.ml" 83 2304 2337
+type(
+  cmd list ref
+)
+ident(
+  int_ref pipeline "streamtrans.ml" 28 704 708 "streamtrans.ml" 28 704 716
+)
+"streamtrans.ml" 83 2304 2328 "streamtrans.ml" 83 2304 2337
+type(
+  cmd list
+)
+"streamtrans.ml" 83 2304 2319 "streamtrans.ml" 83 2304 2337
+call(
+  stack
+)
+type(
+  cmd list
+)
+"streamtrans.ml" 84 2338 2342 "streamtrans.ml" 84 2338 2347
+type(
+  (unit -> unit) list
+)
+ident(
+  def final "streamtrans.ml" 86 2367 2367 --
+)
+"streamtrans.ml" 84 2338 2350 "streamtrans.ml" 84 2338 2358
+type(
+  (unit -> unit) list -> (unit -> unit) list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"streamtrans.ml" 84 2338 2359 "streamtrans.ml" 84 2338 2360
+type(
+  (unit -> unit) list ref -> (unit -> unit) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"streamtrans.ml" 84 2338 2360 "streamtrans.ml" 84 2338 2365
+type(
+  (unit -> unit) list ref
+)
+ident(
+  int_ref final "streamtrans.ml" 30 729 733 "streamtrans.ml" 30 729 738
+)
+"streamtrans.ml" 84 2338 2359 "streamtrans.ml" 84 2338 2365
+type(
+  (unit -> unit) list
+)
+"streamtrans.ml" 84 2338 2350 "streamtrans.ml" 84 2338 2365
+call(
+  stack
+)
+type(
+  (unit -> unit) list
+)
+"streamtrans.ml" 86 2367 2371 "streamtrans.ml" 86 2367 2375
+type(
+  Ast.program Stream.t
+)
+ident(
+  def prog "streamtrans.ml" 93 2492 2492 --
+)
+"streamtrans.ml" 86 2367 2377 "streamtrans.ml" 86 2367 2381
+type(
+  Arch.arch option
+)
+ident(
+  def arch "streamtrans.ml" 93 2492 2492 --
+)
+"streamtrans.ml" 86 2367 2371 "streamtrans.ml" 86 2367 2381
+type(
+  Ast.program Stream.t * Arch.arch option
+)
+"streamtrans.ml" 87 2384 2390 "streamtrans.ml" 87 2384 2414
+type(
+  unit -> Ast.program Stream.t * Arch.arch option
+)
+ident(
+  ext_ref Input.get_stream_program
+)
+"streamtrans.ml" 87 2384 2415 "streamtrans.ml" 87 2384 2417
+type(
+  unit
+)
+"streamtrans.ml" 87 2384 2390 "streamtrans.ml" 87 2384 2417
+call(
+  stack
+)
+type(
+  Ast.program Stream.t * Arch.arch option
+)
+"streamtrans.ml" 88 2418 2433 "streamtrans.ml" 88 2418 2434
+type(
+  string
+)
+ident(
+  def s "streamtrans.ml" 89 2438 2442 "streamtrans.ml" 90 2477 2487
+)
+"streamtrans.ml" 88 2418 2425 "streamtrans.ml" 88 2418 2434
+type(
+  exn
+)
+"streamtrans.ml" 89 2438 2442 "streamtrans.ml" 89 2438 2451
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.usage
+)
+"streamtrans.ml" 89 2438 2452 "streamtrans.ml" 89 2438 2460
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "streamtrans.ml" 49 1022 1026 "streamtrans.ml" 49 1022 1034
+)
+"streamtrans.ml" 89 2438 2462 "streamtrans.ml" 89 2438 2463
+type(
+  string
+)
+ident(
+  int_ref s "streamtrans.ml" 88 2418 2433 "streamtrans.ml" 88 2418 2434
+)
+"streamtrans.ml" 89 2438 2463 "streamtrans.ml" 89 2438 2464
+type(
+  string -> string -> Arg.usage_msg
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"streamtrans.ml" 89 2438 2464 "streamtrans.ml" 89 2438 2468
+type(
+  string
+)
+"streamtrans.ml" 89 2438 2468 "streamtrans.ml" 89 2438 2469
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"streamtrans.ml" 89 2438 2469 "streamtrans.ml" 89 2438 2474
+type(
+  string
+)
+ident(
+  int_ref usage "streamtrans.ml" 1 0 4 "streamtrans.ml" 1 0 9
+)
+"streamtrans.ml" 89 2438 2464 "streamtrans.ml" 89 2438 2474
+call(
+  stack
+)
+type(
+  string
+)
+"streamtrans.ml" 89 2438 2461 "streamtrans.ml" 89 2438 2475
+call(
+  stack
+)
+type(
+  Arg.usage_msg
+)
+"streamtrans.ml" 89 2438 2442 "streamtrans.ml" 89 2438 2475
+call(
+  stack
+)
+type(
+  unit
+)
+"streamtrans.ml" 90 2477 2481 "streamtrans.ml" 90 2477 2485
+type(
+  int -> Ast.program Stream.t * Arch.arch option
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"streamtrans.ml" 90 2477 2486 "streamtrans.ml" 90 2477 2487
+type(
+  int
+)
+"streamtrans.ml" 90 2477 2481 "streamtrans.ml" 90 2477 2487
+call(
+  stack
+)
+type(
+  Ast.program Stream.t * Arch.arch option
+)
+"streamtrans.ml" 89 2438 2442 "streamtrans.ml" 90 2477 2487
+type(
+  Ast.program Stream.t * Arch.arch option
+)
+"streamtrans.ml" 87 2384 2386 "streamtrans.ml" 90 2477 2487
+type(
+  Ast.program Stream.t * Arch.arch option
+)
+"streamtrans.ml" 93 2492 2496 "streamtrans.ml" 93 2492 2506
+type(
+  cmd -> cmd
+)
+ident(
+  def apply_arch "streamtrans.ml" 98 2694 2694 --
+)
+"streamtrans.ml" 94 2518 2538 "streamtrans.ml" 94 2518 2539
+type(
+  Arch.arch -> ast -> unit
+)
+ident(
+  def f "streamtrans.ml" 94 2518 2543 "streamtrans.ml" 94 2518 2580
+)
+"streamtrans.ml" 94 2518 2522 "streamtrans.ml" 94 2518 2539
+type(
+  cmd
+)
+"streamtrans.ml" 94 2518 2556 "streamtrans.ml" 94 2518 2557
+type(
+  Arch.arch -> ast -> unit
+)
+ident(
+  int_ref f "streamtrans.ml" 94 2518 2538 "streamtrans.ml" 94 2518 2539
+)
+"streamtrans.ml" 94 2518 2559 "streamtrans.ml" 94 2518 2573
+type(
+  Arch.arch option -> Arch.arch
+)
+ident(
+  ext_ref Input.get_arch
+)
+"streamtrans.ml" 94 2518 2574 "streamtrans.ml" 94 2518 2578
+type(
+  Arch.arch option
+)
+ident(
+  int_ref arch "streamtrans.ml" 86 2367 2377 "streamtrans.ml" 86 2367 2381
+)
+"streamtrans.ml" 94 2518 2558 "streamtrans.ml" 94 2518 2579
+call(
+  stack
+)
+type(
+  Arch.arch
+)
+"streamtrans.ml" 94 2518 2555 "streamtrans.ml" 94 2518 2580
+call(
+  stack
+)
+type(
+  ast -> unit
+)
+"streamtrans.ml" 94 2518 2543 "streamtrans.ml" 94 2518 2580
+type(
+  cmd
+)
+"streamtrans.ml" 95 2581 2602 "streamtrans.ml" 95 2581 2603
+type(
+  Arch.arch -> ast -> ast
+)
+ident(
+  def f "streamtrans.ml" 95 2581 2607 "streamtrans.ml" 95 2581 2645
+)
+"streamtrans.ml" 95 2581 2585 "streamtrans.ml" 95 2581 2603
+type(
+  cmd
+)
+"streamtrans.ml" 95 2581 2621 "streamtrans.ml" 95 2581 2622
+type(
+  Arch.arch -> ast -> ast
+)
+ident(
+  int_ref f "streamtrans.ml" 95 2581 2602 "streamtrans.ml" 95 2581 2603
+)
+"streamtrans.ml" 95 2581 2624 "streamtrans.ml" 95 2581 2638
+type(
+  Arch.arch option -> Arch.arch
+)
+ident(
+  ext_ref Input.get_arch
+)
+"streamtrans.ml" 95 2581 2639 "streamtrans.ml" 95 2581 2643
+type(
+  Arch.arch option
+)
+ident(
+  int_ref arch "streamtrans.ml" 86 2367 2377 "streamtrans.ml" 86 2367 2381
+)
+"streamtrans.ml" 95 2581 2623 "streamtrans.ml" 95 2581 2644
+call(
+  stack
+)
+type(
+  Arch.arch
+)
+"streamtrans.ml" 95 2581 2620 "streamtrans.ml" 95 2581 2645
+call(
+  stack
+)
+type(
+  ast -> ast
+)
+"streamtrans.ml" 95 2581 2607 "streamtrans.ml" 95 2581 2645
+type(
+  cmd
+)
+"streamtrans.ml" 96 2646 2663 "streamtrans.ml" 96 2646 2664
+type(
+  ast -> unit
+)
+"streamtrans.ml" 96 2646 2651 "streamtrans.ml" 96 2646 2664
+type(
+  cmd
+)
+"streamtrans.ml" 96 2646 2680 "streamtrans.ml" 96 2646 2681
+type(
+  ast -> ast
+)
+"streamtrans.ml" 96 2646 2667 "streamtrans.ml" 96 2646 2681
+type(
+  cmd
+)
+"streamtrans.ml" 96 2646 2650 "streamtrans.ml" 96 2646 2682
+type(
+  cmd
+)
+"streamtrans.ml" 96 2646 2650 "streamtrans.ml" 96 2646 2687
+type(
+  cmd
+)
+ident(
+  def x "streamtrans.ml" 96 2646 2691 "streamtrans.ml" 96 2646 2692
+)
+"streamtrans.ml" 96 2646 2691 "streamtrans.ml" 96 2646 2692
+type(
+  cmd
+)
+ident(
+  int_ref x "streamtrans.ml" 96 2646 2650 "streamtrans.ml" 96 2646 2687
+)
+"streamtrans.ml" 93 2492 2509 "streamtrans.ml" 96 2646 2692
+type(
+  cmd -> cmd
+)
+"streamtrans.ml" 98 2694 2698 "streamtrans.ml" 98 2694 2706
+type(
+  cmd list
+)
+ident(
+  def pipeline "streamtrans.ml" 100 2741 2741 --
+)
+"streamtrans.ml" 98 2694 2709 "streamtrans.ml" 98 2694 2717
+type(
+  (cmd -> cmd) -> cmd list -> cmd list
+)
+ident(
+  ext_ref BatListFull.List.map
+)
+"streamtrans.ml" 98 2694 2718 "streamtrans.ml" 98 2694 2728
+type(
+  cmd -> cmd
+)
+ident(
+  int_ref apply_arch "streamtrans.ml" 93 2492 2496 "streamtrans.ml" 93 2492 2506
+)
+"streamtrans.ml" 98 2694 2729 "streamtrans.ml" 98 2694 2737
+type(
+  cmd list
+)
+ident(
+  int_ref pipeline "streamtrans.ml" 83 2304 2308 "streamtrans.ml" 83 2304 2316
+)
+"streamtrans.ml" 98 2694 2709 "streamtrans.ml" 98 2694 2737
+call(
+  stack
+)
+type(
+  cmd list
+)
+"streamtrans.ml" 100 2741 2749 "streamtrans.ml" 100 2741 2758
+type(
+  prog -> cmd -> prog
+)
+ident(
+  def apply_cmd "streamtrans.ml" 100 2741 2741 --
+)
+"streamtrans.ml" 100 2741 2759 "streamtrans.ml" 100 2741 2763
+type(
+  prog
+)
+ident(
+  def prog "streamtrans.ml" 100 2741 2766 "streamtrans.ml" 110 2969 2994
+)
+"streamtrans.ml" 101 2775 2791 "streamtrans.ml" 101 2775 2792
+type(
+  ast -> unit
+)
+ident(
+  def f "streamtrans.ml" 101 2775 2796 "streamtrans.ml" 104 2847 2850
+)
+"streamtrans.ml" 101 2775 2779 "streamtrans.ml" 101 2775 2792
+type(
+  cmd
+)
+"streamtrans.ml" 102 2798 2808 "streamtrans.ml" 102 2798 2812
+type(
+  prog
+)
+ident(
+  int_ref prog "streamtrans.ml" 100 2741 2759 "streamtrans.ml" 100 2741 2763
+)
+"streamtrans.ml" 103 2818 2828 "streamtrans.ml" 103 2818 2829
+type(
+  ast
+)
+ident(
+  def p "streamtrans.ml" 103 2818 2839 "streamtrans.ml" 103 2818 2846
+)
+"streamtrans.ml" 103 2818 2824 "streamtrans.ml" 103 2818 2829
+type(
+  prog
+)
+"streamtrans.ml" 103 2818 2824 "streamtrans.ml" 103 2818 2835
+type(
+  prog
+)
+ident(
+  def p' "streamtrans.ml" 103 2818 2839 "streamtrans.ml" 103 2818 2846
+)
+"streamtrans.ml" 103 2818 2839 "streamtrans.ml" 103 2818 2840
+type(
+  ast -> unit
+)
+ident(
+  int_ref f "streamtrans.ml" 101 2775 2791 "streamtrans.ml" 101 2775 2792
+)
+"streamtrans.ml" 103 2818 2841 "streamtrans.ml" 103 2818 2842
+type(
+  ast
+)
+ident(
+  int_ref p "streamtrans.ml" 103 2818 2828 "streamtrans.ml" 103 2818 2829
+)
+"streamtrans.ml" 103 2818 2839 "streamtrans.ml" 103 2818 2842
+call(
+  stack
+)
+type(
+  unit
+)
+"streamtrans.ml" 103 2818 2844 "streamtrans.ml" 103 2818 2846
+type(
+  prog
+)
+ident(
+  int_ref p' "streamtrans.ml" 103 2818 2824 "streamtrans.ml" 103 2818 2835
+)
+"streamtrans.ml" 103 2818 2839 "streamtrans.ml" 103 2818 2846
+type(
+  prog
+)
+"streamtrans.ml" 101 2775 2796 "streamtrans.ml" 104 2847 2850
+type(
+  prog
+)
+"streamtrans.ml" 105 2851 2868 "streamtrans.ml" 105 2851 2869
+type(
+  ast -> ast
+)
+ident(
+  def f "streamtrans.ml" 105 2851 2873 "streamtrans.ml" 108 2919 2922
+)
+"streamtrans.ml" 105 2851 2855 "streamtrans.ml" 105 2851 2869
+type(
+  cmd
+)
+"streamtrans.ml" 106 2875 2885 "streamtrans.ml" 106 2875 2889
+type(
+  prog
+)
+ident(
+  int_ref prog "streamtrans.ml" 100 2741 2759 "streamtrans.ml" 100 2741 2763
+)
+"streamtrans.ml" 107 2895 2905 "streamtrans.ml" 107 2895 2906
+type(
+  ast
+)
+ident(
+  def p "streamtrans.ml" 107 2895 2910 "streamtrans.ml" 107 2895 2918
+)
+"streamtrans.ml" 107 2895 2901 "streamtrans.ml" 107 2895 2906
+type(
+  prog
+)
+"streamtrans.ml" 107 2895 2914 "streamtrans.ml" 107 2895 2915
+type(
+  ast -> ast
+)
+ident(
+  int_ref f "streamtrans.ml" 105 2851 2868 "streamtrans.ml" 105 2851 2869
+)
+"streamtrans.ml" 107 2895 2916 "streamtrans.ml" 107 2895 2917
+type(
+  ast
+)
+ident(
+  int_ref p "streamtrans.ml" 107 2895 2905 "streamtrans.ml" 107 2895 2906
+)
+"streamtrans.ml" 107 2895 2913 "streamtrans.ml" 107 2895 2918
+call(
+  stack
+)
+type(
+  ast
+)
+"streamtrans.ml" 107 2895 2910 "streamtrans.ml" 107 2895 2918
+type(
+  prog
+)
+"streamtrans.ml" 105 2851 2873 "streamtrans.ml" 108 2919 2922
+type(
+  prog
+)
+"streamtrans.ml" 109 2923 2943 "streamtrans.ml" 109 2923 2944
+type(
+  Arch.arch -> ast -> unit
+)
+"streamtrans.ml" 109 2923 2927 "streamtrans.ml" 109 2923 2944
+type(
+  cmd
+)
+"streamtrans.ml" 109 2923 2964 "streamtrans.ml" 109 2923 2965
+type(
+  Arch.arch -> ast -> ast
+)
+"streamtrans.ml" 109 2923 2947 "streamtrans.ml" 109 2923 2965
+type(
+  cmd
+)
+"streamtrans.ml" 109 2923 2927 "streamtrans.ml" 109 2923 2965
+type(
+  cmd
+)
+"streamtrans.ml" 110 2969 2973 "streamtrans.ml" 110 2969 2981
+type(
+  string -> prog
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"streamtrans.ml" 110 2969 2982 "streamtrans.ml" 110 2969 2994
+type(
+  string
+)
+"streamtrans.ml" 110 2969 2973 "streamtrans.ml" 110 2969 2994
+call(
+  tail
+)
+type(
+  prog
+)
+"streamtrans.ml" 100 2741 2766 "streamtrans.ml" 110 2969 2994
+type(
+  cmd -> prog
+)
+"streamtrans.ml" 113 2999 2999 "streamtrans.ml" 113 2999 3010
+type(
+  (ast -> unit) -> ast Stream.t -> unit
+)
+ident(
+  ext_ref Stream.iter
+)
+"streamtrans.ml" 114 3011 3018 "streamtrans.ml" 114 3011 3023
+type(
+  ast
+)
+ident(
+  def block "streamtrans.ml" 115 3027 3031 "streamtrans.ml" 115 3027 3084
+)
+"streamtrans.ml" 115 3027 3031 "streamtrans.ml" 115 3027 3037
+type(
+  prog -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"streamtrans.ml" 115 3027 3038 "streamtrans.ml" 115 3027 3052
+type(
+  (prog -> cmd -> prog) -> prog -> cmd list -> prog
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"streamtrans.ml" 115 3027 3053 "streamtrans.ml" 115 3027 3062
+type(
+  prog -> cmd -> prog
+)
+ident(
+  int_ref apply_cmd "streamtrans.ml" 100 2741 2749 "streamtrans.ml" 100 2741 2758
+)
+"streamtrans.ml" 115 3027 3068 "streamtrans.ml" 115 3027 3073
+type(
+  ast
+)
+ident(
+  int_ref block "streamtrans.ml" 114 3011 3018 "streamtrans.ml" 114 3011 3023
+)
+"streamtrans.ml" 115 3027 3063 "streamtrans.ml" 115 3027 3074
+type(
+  prog
+)
+"streamtrans.ml" 115 3027 3075 "streamtrans.ml" 115 3027 3083
+type(
+  cmd list
+)
+ident(
+  int_ref pipeline "streamtrans.ml" 98 2694 2698 "streamtrans.ml" 98 2694 2706
+)
+"streamtrans.ml" 115 3027 3037 "streamtrans.ml" 115 3027 3084
+call(
+  stack
+)
+type(
+  prog
+)
+"streamtrans.ml" 115 3027 3031 "streamtrans.ml" 115 3027 3084
+type(
+  unit
+)
+"streamtrans.ml" 114 3011 3013 "streamtrans.ml" 116 3085 3088
+type(
+  ast -> unit
+)
+"streamtrans.ml" 116 3085 3089 "streamtrans.ml" 116 3085 3093
+type(
+  ast Stream.t
+)
+ident(
+  int_ref prog "streamtrans.ml" 86 2367 2371 "streamtrans.ml" 86 2367 2375
+)
+"streamtrans.ml" 113 2999 2999 "streamtrans.ml" 116 3085 3093
+call(
+  stack
+)
+type(
+  unit
+)
+"streamtrans.ml" 118 3096 3096 "streamtrans.ml" 118 3096 3105
+type(
+  ((unit -> unit) -> unit) -> (unit -> unit) list -> unit
+)
+ident(
+  ext_ref BatListFull.List.iter
+)
+"streamtrans.ml" 118 3096 3111 "streamtrans.ml" 118 3096 3112
+type(
+  unit -> unit
+)
+ident(
+  def f "streamtrans.ml" 118 3096 3116 "streamtrans.ml" 118 3096 3120
+)
+"streamtrans.ml" 118 3096 3116 "streamtrans.ml" 118 3096 3117
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "streamtrans.ml" 118 3096 3111 "streamtrans.ml" 118 3096 3112
+)
+"streamtrans.ml" 118 3096 3118 "streamtrans.ml" 118 3096 3120
+type(
+  unit
+)
+"streamtrans.ml" 118 3096 3116 "streamtrans.ml" 118 3096 3120
+call(
+  tail
+)
+type(
+  unit
+)
+"streamtrans.ml" 118 3096 3106 "streamtrans.ml" 118 3096 3121
+type(
+  (unit -> unit) -> unit
+)
+"streamtrans.ml" 118 3096 3122 "streamtrans.ml" 118 3096 3127
+type(
+  (unit -> unit) list
+)
+ident(
+  int_ref final "streamtrans.ml" 84 2338 2342 "streamtrans.ml" 84 2338 2347
+)
+"streamtrans.ml" 118 3096 3096 "streamtrans.ml" 118 3096 3127
+call(
+  stack
+)
+type(
+  unit
+)
+"streamtrans.ml" 113 2999 2999 "streamtrans.ml" 118 3096 3127
+type(
+  unit
+)

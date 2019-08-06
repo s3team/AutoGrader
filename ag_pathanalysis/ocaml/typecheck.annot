@@ -1,0 +1,6088 @@
+"typecheck.ml" 8 89 122 "typecheck.ml" 8 89 126
+type(
+  string
+)
+ident(
+  def name "typecheck.ml" 8 89 159 "typecheck.ml" 8 89 163
+)
+"typecheck.ml" 8 89 127 "typecheck.ml" 8 89 138
+type(
+  string
+)
+"typecheck.ml" 8 89 143 "typecheck.ml" 8 89 150
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "typecheck.ml" 8 89 159 "typecheck.ml" 8 89 163
+)
+"typecheck.ml" 8 89 151 "typecheck.ml" 8 89 159
+type(
+  [> `NoDebug ] as 'a
+)
+"typecheck.ml" 8 89 100 "typecheck.ml" 8 89 164
+call(
+  stack
+)
+"typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+type(
+  string -> 'a
+)
+ident(
+  def terror "typecheck.ml" 16 274 274 --
+)
+"typecheck.ml" 13 204 215 "typecheck.ml" 13 204 216
+type(
+  string
+)
+ident(
+  def s "typecheck.ml" 13 204 219 "typecheck.ml" 13 204 237
+)
+"typecheck.ml" 13 204 219 "typecheck.ml" 13 204 224
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"typecheck.ml" 13 204 235 "typecheck.ml" 13 204 236
+type(
+  string
+)
+ident(
+  int_ref s "typecheck.ml" 13 204 215 "typecheck.ml" 13 204 216
+)
+"typecheck.ml" 13 204 224 "typecheck.ml" 13 204 237
+type(
+  exn
+)
+"typecheck.ml" 13 204 219 "typecheck.ml" 13 204 237
+type(
+  'a
+)
+"typecheck.ml" 16 274 278 "typecheck.ml" 16 274 280
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def eq "typecheck.ml" 20 345 345 --
+)
+"typecheck.ml" 16 274 281 "typecheck.ml" 16 274 283
+type(
+  'a
+)
+ident(
+  def t1 "typecheck.ml" 16 274 284 "typecheck.ml" 17 289 298
+)
+"typecheck.ml" 16 274 284 "typecheck.ml" 16 274 286
+type(
+  'a
+)
+ident(
+  def t2 "typecheck.ml" 17 289 291 "typecheck.ml" 17 289 298
+)
+"typecheck.ml" 17 289 291 "typecheck.ml" 17 289 293
+type(
+  'a
+)
+ident(
+  int_ref t1 "typecheck.ml" 16 274 281 "typecheck.ml" 16 274 283
+)
+"typecheck.ml" 17 289 294 "typecheck.ml" 17 289 295
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"typecheck.ml" 17 289 296 "typecheck.ml" 17 289 298
+type(
+  'a
+)
+ident(
+  int_ref t2 "typecheck.ml" 16 274 284 "typecheck.ml" 16 274 286
+)
+"typecheck.ml" 17 289 291 "typecheck.ml" 17 289 298
+type(
+  bool
+)
+"typecheck.ml" 20 345 349 "typecheck.ml" 20 345 353
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  def mult "typecheck.ml" 25 482 482 --
+)
+"typecheck.ml" 20 345 354 "typecheck.ml" 20 345 356
+type(
+  Type.typ
+)
+ident(
+  def t1 "typecheck.ml" 20 345 357 "typecheck.ml" 23 462 480
+)
+"typecheck.ml" 20 345 357 "typecheck.ml" 20 345 359
+type(
+  Type.typ
+)
+ident(
+  def t2 "typecheck.ml" 20 345 362 "typecheck.ml" 23 462 480
+)
+"typecheck.ml" 20 345 368 "typecheck.ml" 20 345 370
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "typecheck.ml" 20 345 354 "typecheck.ml" 20 345 356
+)
+"typecheck.ml" 20 345 372 "typecheck.ml" 20 345 374
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "typecheck.ml" 20 345 357 "typecheck.ml" 20 345 359
+)
+"typecheck.ml" 20 345 368 "typecheck.ml" 20 345 374
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 21 380 388 "typecheck.ml" 21 380 389
+type(
+  int
+)
+ident(
+  def x "typecheck.ml" 21 380 400 "typecheck.ml" 21 380 411
+)
+"typecheck.ml" 21 380 384 "typecheck.ml" 21 380 389
+type(
+  Type.typ
+)
+"typecheck.ml" 21 380 395 "typecheck.ml" 21 380 396
+type(
+  int
+)
+ident(
+  def y "typecheck.ml" 21 380 400 "typecheck.ml" 21 380 411
+)
+"typecheck.ml" 21 380 391 "typecheck.ml" 21 380 396
+type(
+  Type.typ
+)
+"typecheck.ml" 21 380 384 "typecheck.ml" 21 380 396
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 21 380 400 "typecheck.ml" 21 380 401
+type(
+  int
+)
+ident(
+  int_ref x "typecheck.ml" 21 380 388 "typecheck.ml" 21 380 389
+)
+"typecheck.ml" 21 380 402 "typecheck.ml" 21 380 405
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"typecheck.ml" 21 380 406 "typecheck.ml" 21 380 407
+type(
+  int
+)
+ident(
+  int_ref y "typecheck.ml" 21 380 395 "typecheck.ml" 21 380 396
+)
+"typecheck.ml" 21 380 400 "typecheck.ml" 21 380 407
+type(
+  int
+)
+"typecheck.ml" 21 380 408 "typecheck.ml" 21 380 409
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"typecheck.ml" 21 380 410 "typecheck.ml" 21 380 411
+type(
+  int
+)
+"typecheck.ml" 21 380 400 "typecheck.ml" 21 380 411
+type(
+  bool
+)
+"typecheck.ml" 23 462 466 "typecheck.ml" 23 462 467
+type(
+  Type.typ
+)
+ident(
+  def x "typecheck.ml" 23 462 474 "typecheck.ml" 23 462 480
+)
+"typecheck.ml" 23 462 469 "typecheck.ml" 23 462 470
+type(
+  Type.typ
+)
+ident(
+  def y "typecheck.ml" 23 462 474 "typecheck.ml" 23 462 480
+)
+"typecheck.ml" 23 462 466 "typecheck.ml" 23 462 470
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 23 462 474 "typecheck.ml" 23 462 476
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  int_ref eq "typecheck.ml" 16 274 278 "typecheck.ml" 16 274 280
+)
+"typecheck.ml" 23 462 477 "typecheck.ml" 23 462 478
+type(
+  Type.typ
+)
+ident(
+  int_ref x "typecheck.ml" 23 462 466 "typecheck.ml" 23 462 467
+)
+"typecheck.ml" 23 462 479 "typecheck.ml" 23 462 480
+type(
+  Type.typ
+)
+ident(
+  int_ref y "typecheck.ml" 23 462 469 "typecheck.ml" 23 462 470
+)
+"typecheck.ml" 23 462 474 "typecheck.ml" 23 462 480
+call(
+  tail
+)
+type(
+  bool
+)
+"typecheck.ml" 20 345 362 "typecheck.ml" 23 462 480
+type(
+  bool
+)
+"typecheck.ml" 25 482 486 "typecheck.ml" 25 482 491
+type(
+  (Type.typ -> Type.typ -> bool) ->
+  (string -> string -> string, unit, string) format ->
+  Type.typ -> Type.typ -> unit
+)
+ident(
+  def check "typecheck.ml" 29 623 623 --
+)
+"typecheck.ml" 25 482 492 "typecheck.ml" 25 482 498
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  def checkf "typecheck.ml" 25 482 499 "typecheck.ml" 27 543 621
+)
+"typecheck.ml" 25 482 499 "typecheck.ml" 25 482 505
+type(
+  (string -> string -> string, unit, string) format
+)
+ident(
+  def errmsg "typecheck.ml" 25 482 506 "typecheck.ml" 27 543 621
+)
+"typecheck.ml" 25 482 506 "typecheck.ml" 25 482 508
+type(
+  Type.typ
+)
+ident(
+  def t1 "typecheck.ml" 25 482 509 "typecheck.ml" 27 543 621
+)
+"typecheck.ml" 25 482 509 "typecheck.ml" 25 482 511
+type(
+  Type.typ
+)
+ident(
+  def t2 "typecheck.ml" 26 514 516 "typecheck.ml" 27 543 621
+)
+"typecheck.ml" 26 514 519 "typecheck.ml" 26 514 522
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"typecheck.ml" 26 514 524 "typecheck.ml" 26 514 530
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  int_ref checkf "typecheck.ml" 25 482 492 "typecheck.ml" 25 482 498
+)
+"typecheck.ml" 26 514 531 "typecheck.ml" 26 514 533
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "typecheck.ml" 25 482 506 "typecheck.ml" 25 482 508
+)
+"typecheck.ml" 26 514 534 "typecheck.ml" 26 514 536
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "typecheck.ml" 25 482 509 "typecheck.ml" 25 482 511
+)
+"typecheck.ml" 26 514 523 "typecheck.ml" 26 514 537
+call(
+  stack
+)
+type(
+  bool
+)
+"typecheck.ml" 26 514 519 "typecheck.ml" 26 514 537
+type(
+  bool
+)
+"typecheck.ml" 27 543 547 "typecheck.ml" 27 543 553
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 27 543 555 "typecheck.ml" 27 543 569
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"typecheck.ml" 27 543 570 "typecheck.ml" 27 543 576
+type(
+  (string -> string -> string, unit, string) format
+)
+ident(
+  int_ref errmsg "typecheck.ml" 25 482 499 "typecheck.ml" 25 482 505
+)
+"typecheck.ml" 27 543 578 "typecheck.ml" 27 543 594
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"typecheck.ml" 27 543 595 "typecheck.ml" 27 543 597
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "typecheck.ml" 25 482 506 "typecheck.ml" 25 482 508
+)
+"typecheck.ml" 27 543 577 "typecheck.ml" 27 543 598
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 27 543 600 "typecheck.ml" 27 543 616
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"typecheck.ml" 27 543 617 "typecheck.ml" 27 543 619
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "typecheck.ml" 25 482 509 "typecheck.ml" 25 482 511
+)
+"typecheck.ml" 27 543 599 "typecheck.ml" 27 543 620
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 27 543 554 "typecheck.ml" 27 543 621
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 27 543 547 "typecheck.ml" 27 543 621
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 26 514 516 "typecheck.ml" 27 543 621
+type(
+  unit
+)
+"typecheck.ml" 29 623 627 "typecheck.ml" 29 623 635
+type(
+  Type.typ ->
+  Type.typ -> (string -> string -> string, unit, string) format -> unit
+)
+ident(
+  def check_eq "typecheck.ml" 32 666 666 --
+)
+"typecheck.ml" 29 623 636 "typecheck.ml" 29 623 638
+type(
+  Type.typ
+)
+ident(
+  def t1 "typecheck.ml" 29 623 639 "typecheck.ml" 30 646 664
+)
+"typecheck.ml" 29 623 639 "typecheck.ml" 29 623 641
+type(
+  Type.typ
+)
+ident(
+  def t2 "typecheck.ml" 29 623 642 "typecheck.ml" 30 646 664
+)
+"typecheck.ml" 29 623 642 "typecheck.ml" 29 623 643
+type(
+  (string -> string -> string, unit, string) format
+)
+ident(
+  def f "typecheck.ml" 30 646 648 "typecheck.ml" 30 646 664
+)
+"typecheck.ml" 30 646 648 "typecheck.ml" 30 646 653
+type(
+  (Type.typ -> Type.typ -> bool) ->
+  (string -> string -> string, unit, string) format ->
+  Type.typ -> Type.typ -> unit
+)
+ident(
+  int_ref check "typecheck.ml" 25 482 486 "typecheck.ml" 25 482 491
+)
+"typecheck.ml" 30 646 654 "typecheck.ml" 30 646 656
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  int_ref eq "typecheck.ml" 16 274 278 "typecheck.ml" 16 274 280
+)
+"typecheck.ml" 30 646 657 "typecheck.ml" 30 646 658
+type(
+  (string -> string -> string, unit, string) format
+)
+ident(
+  int_ref f "typecheck.ml" 29 623 642 "typecheck.ml" 29 623 643
+)
+"typecheck.ml" 30 646 659 "typecheck.ml" 30 646 661
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "typecheck.ml" 29 623 636 "typecheck.ml" 29 623 638
+)
+"typecheck.ml" 30 646 662 "typecheck.ml" 30 646 664
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "typecheck.ml" 29 623 639 "typecheck.ml" 29 623 641
+)
+"typecheck.ml" 30 646 648 "typecheck.ml" 30 646 664
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 32 666 670 "typecheck.ml" 32 666 680
+type(
+  Type.typ ->
+  Type.typ -> (string -> string -> string, unit, string) format -> unit
+)
+ident(
+  def check_mult "typecheck.ml" 39 854 854 --
+)
+"typecheck.ml" 32 666 681 "typecheck.ml" 32 666 683
+type(
+  Type.typ
+)
+ident(
+  def t1 "typecheck.ml" 32 666 684 "typecheck.ml" 33 691 711
+)
+"typecheck.ml" 32 666 684 "typecheck.ml" 32 666 686
+type(
+  Type.typ
+)
+ident(
+  def t2 "typecheck.ml" 32 666 687 "typecheck.ml" 33 691 711
+)
+"typecheck.ml" 32 666 687 "typecheck.ml" 32 666 688
+type(
+  (string -> string -> string, unit, string) format
+)
+ident(
+  def f "typecheck.ml" 33 691 693 "typecheck.ml" 33 691 711
+)
+"typecheck.ml" 33 691 693 "typecheck.ml" 33 691 698
+type(
+  (Type.typ -> Type.typ -> bool) ->
+  (string -> string -> string, unit, string) format ->
+  Type.typ -> Type.typ -> unit
+)
+ident(
+  int_ref check "typecheck.ml" 25 482 486 "typecheck.ml" 25 482 491
+)
+"typecheck.ml" 33 691 699 "typecheck.ml" 33 691 703
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  int_ref mult "typecheck.ml" 20 345 349 "typecheck.ml" 20 345 353
+)
+"typecheck.ml" 33 691 704 "typecheck.ml" 33 691 705
+type(
+  (string -> string -> string, unit, string) format
+)
+ident(
+  int_ref f "typecheck.ml" 32 666 687 "typecheck.ml" 32 666 688
+)
+"typecheck.ml" 33 691 706 "typecheck.ml" 33 691 708
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "typecheck.ml" 32 666 681 "typecheck.ml" 32 666 683
+)
+"typecheck.ml" 33 691 709 "typecheck.ml" 33 691 711
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "typecheck.ml" 32 666 684 "typecheck.ml" 32 666 686
+)
+"typecheck.ml" 33 691 693 "typecheck.ml" 33 691 711
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 39 854 858 "typecheck.ml" 39 854 873
+type(
+  Type.typ -> bool
+)
+ident(
+  def is_integer_type "typecheck.ml" 43 934 934 --
+)
+"typecheck.ml" 40 885 893 "typecheck.ml" 40 885 894
+type(
+  int
+)
+"typecheck.ml" 40 885 889 "typecheck.ml" 40 885 894
+type(
+  Type.typ
+)
+"typecheck.ml" 40 885 898 "typecheck.ml" 40 885 902
+type(
+  bool
+)
+"typecheck.ml" 41 903 912 "typecheck.ml" 41 903 913
+type(
+  Type.typ
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 41 903 907 "typecheck.ml" 41 903 913
+type(
+  Type.typ
+)
+"typecheck.ml" 41 903 922 "typecheck.ml" 41 903 923
+type(
+  Type.typ
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 41 903 916 "typecheck.ml" 41 903 923
+type(
+  Type.typ
+)
+"typecheck.ml" 41 903 907 "typecheck.ml" 41 903 923
+type(
+  Type.typ
+)
+"typecheck.ml" 41 903 927 "typecheck.ml" 41 903 932
+type(
+  bool
+)
+"typecheck.ml" 39 854 876 "typecheck.ml" 41 903 932
+type(
+  Type.typ -> bool
+)
+"typecheck.ml" 43 934 938 "typecheck.ml" 43 934 949
+type(
+  Type.typ -> bool
+)
+ident(
+  def is_mem_type "typecheck.ml" 45 979 979 --
+)
+"typecheck.ml" 43 934 950 "typecheck.ml" 43 934 951
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 43 934 954 "typecheck.ml" 43 934 977
+)
+"typecheck.ml" 43 934 954 "typecheck.ml" 43 934 957
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"typecheck.ml" 43 934 959 "typecheck.ml" 43 934 974
+type(
+  Type.typ -> bool
+)
+ident(
+  int_ref is_integer_type "typecheck.ml" 39 854 858 "typecheck.ml" 39 854 873
+)
+"typecheck.ml" 43 934 975 "typecheck.ml" 43 934 976
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 43 934 950 "typecheck.ml" 43 934 951
+)
+"typecheck.ml" 43 934 958 "typecheck.ml" 43 934 977
+call(
+  stack
+)
+type(
+  bool
+)
+"typecheck.ml" 43 934 954 "typecheck.ml" 43 934 977
+type(
+  bool
+)
+"typecheck.ml" 45 979 983 "typecheck.ml" 45 979 996
+type(
+  Type.typ -> Type.typ
+)
+ident(
+  def index_type_of "typecheck.ml" 49 1089 1089 --
+)
+"typecheck.ml" 46 1008 1018 "typecheck.ml" 46 1008 1020
+type(
+  Type.typ
+)
+ident(
+  def it "typecheck.ml" 46 1008 1044 "typecheck.ml" 46 1008 1046
+)
+"typecheck.ml" 46 1008 1022 "typecheck.ml" 46 1008 1023
+type(
+  Type.typ
+)
+"typecheck.ml" 46 1008 1012 "typecheck.ml" 46 1008 1024
+type(
+  Type.typ
+)
+"typecheck.ml" 46 1008 1034 "typecheck.ml" 46 1008 1036
+type(
+  Type.typ
+)
+ident(
+  def it "typecheck.ml" 46 1008 1044 "typecheck.ml" 46 1008 1046
+)
+"typecheck.ml" 46 1008 1038 "typecheck.ml" 46 1008 1039
+type(
+  Type.typ
+)
+"typecheck.ml" 46 1008 1027 "typecheck.ml" 46 1008 1040
+type(
+  Type.typ
+)
+"typecheck.ml" 46 1008 1012 "typecheck.ml" 46 1008 1040
+type(
+  Type.typ
+)
+"typecheck.ml" 46 1008 1044 "typecheck.ml" 46 1008 1046
+type(
+  Type.typ
+)
+ident(
+  int_ref it "typecheck.ml" 46 1008 1018 "typecheck.ml" 46 1008 1020
+)
+"typecheck.ml" 47 1047 1055 "typecheck.ml" 47 1047 1056
+type(
+  int
+)
+"typecheck.ml" 47 1047 1051 "typecheck.ml" 47 1047 1056
+type(
+  Type.typ
+)
+"typecheck.ml" 47 1047 1060 "typecheck.ml" 47 1047 1071
+type(
+  string -> Type.typ
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"typecheck.ml" 47 1047 1072 "typecheck.ml" 47 1047 1087
+type(
+  string
+)
+"typecheck.ml" 47 1047 1060 "typecheck.ml" 47 1047 1087
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 45 979 999 "typecheck.ml" 47 1047 1087
+type(
+  Type.typ -> Type.typ
+)
+"typecheck.ml" 49 1089 1093 "typecheck.ml" 49 1089 1106
+type(
+  Type.typ -> Type.typ
+)
+ident(
+  def value_type_of "typecheck.ml" 54 1207 1207 --
+)
+"typecheck.ml" 50 1118 1128 "typecheck.ml" 50 1118 1129
+type(
+  Type.typ
+)
+"typecheck.ml" 50 1118 1131 "typecheck.ml" 50 1118 1133
+type(
+  Type.typ
+)
+ident(
+  def vt "typecheck.ml" 50 1118 1138 "typecheck.ml" 50 1118 1140
+)
+"typecheck.ml" 50 1118 1122 "typecheck.ml" 50 1118 1134
+type(
+  Type.typ
+)
+"typecheck.ml" 50 1118 1138 "typecheck.ml" 50 1118 1140
+type(
+  Type.typ
+)
+ident(
+  int_ref vt "typecheck.ml" 50 1118 1131 "typecheck.ml" 50 1118 1133
+)
+"typecheck.ml" 51 1141 1152 "typecheck.ml" 51 1141 1153
+type(
+  Type.typ
+)
+"typecheck.ml" 51 1141 1155 "typecheck.ml" 51 1141 1157
+type(
+  Type.typ
+)
+ident(
+  def vt "typecheck.ml" 51 1141 1162 "typecheck.ml" 51 1141 1164
+)
+"typecheck.ml" 51 1141 1145 "typecheck.ml" 51 1141 1158
+type(
+  Type.typ
+)
+"typecheck.ml" 51 1141 1162 "typecheck.ml" 51 1141 1164
+type(
+  Type.typ
+)
+ident(
+  int_ref vt "typecheck.ml" 51 1141 1155 "typecheck.ml" 51 1141 1157
+)
+"typecheck.ml" 52 1165 1173 "typecheck.ml" 52 1165 1174
+type(
+  int
+)
+"typecheck.ml" 52 1165 1169 "typecheck.ml" 52 1165 1174
+type(
+  Type.typ
+)
+"typecheck.ml" 52 1165 1178 "typecheck.ml" 52 1165 1189
+type(
+  string -> Type.typ
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"typecheck.ml" 52 1165 1190 "typecheck.ml" 52 1165 1205
+type(
+  string
+)
+"typecheck.ml" 52 1165 1178 "typecheck.ml" 52 1165 1205
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 49 1089 1109 "typecheck.ml" 52 1165 1205
+type(
+  Type.typ -> Type.typ
+)
+"typecheck.ml" 54 1207 1211 "typecheck.ml" 54 1207 1224
+type(
+  Type.typ -> int
+)
+ident(
+  def bits_of_width "typecheck.ml" 58 1289 1289 --
+)
+"typecheck.ml" 55 1236 1244 "typecheck.ml" 55 1236 1245
+type(
+  int
+)
+ident(
+  def n "typecheck.ml" 55 1236 1249 "typecheck.ml" 55 1236 1250
+)
+"typecheck.ml" 55 1236 1240 "typecheck.ml" 55 1236 1245
+type(
+  Type.typ
+)
+"typecheck.ml" 55 1236 1249 "typecheck.ml" 55 1236 1250
+type(
+  int
+)
+ident(
+  int_ref n "typecheck.ml" 55 1236 1244 "typecheck.ml" 55 1236 1245
+)
+"typecheck.ml" 56 1251 1255 "typecheck.ml" 56 1251 1256
+type(
+  Type.typ
+)
+"typecheck.ml" 56 1251 1260 "typecheck.ml" 56 1251 1271
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"typecheck.ml" 56 1251 1272 "typecheck.ml" 56 1251 1287
+type(
+  string
+)
+"typecheck.ml" 56 1251 1260 "typecheck.ml" 56 1251 1287
+type(
+  int
+)
+"typecheck.ml" 54 1207 1227 "typecheck.ml" 56 1251 1287
+type(
+  Type.typ -> int
+)
+"typecheck.ml" 58 1289 1293 "typecheck.ml" 58 1289 1307
+type(
+  Type.typ -> int
+)
+ident(
+  def bytes_of_width "typecheck.ml" 63 1410 1410 --
+)
+"typecheck.ml" 58 1289 1308 "typecheck.ml" 58 1289 1309
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 59 1312 1314 "typecheck.ml" 61 1401 1408
+)
+"typecheck.ml" 59 1312 1318 "typecheck.ml" 59 1312 1319
+type(
+  int
+)
+"typecheck.ml" 59 1312 1322 "typecheck.ml" 59 1312 1335
+type(
+  Type.typ -> int
+)
+ident(
+  int_ref bits_of_width "typecheck.ml" 54 1207 1211 "typecheck.ml" 54 1207 1224
+)
+"typecheck.ml" 59 1312 1336 "typecheck.ml" 59 1312 1337
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 58 1289 1308 "typecheck.ml" 58 1289 1309
+)
+"typecheck.ml" 59 1312 1322 "typecheck.ml" 59 1312 1337
+call(
+  stack
+)
+type(
+  int
+)
+"typecheck.ml" 60 1341 1346 "typecheck.ml" 60 1341 1349
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"typecheck.ml" 60 1341 1352 "typecheck.ml" 60 1341 1353
+type(
+  int
+)
+ident(
+  int_ref b "typecheck.ml" 59 1312 1318 "typecheck.ml" 59 1312 1319
+)
+"typecheck.ml" 60 1341 1354 "typecheck.ml" 60 1341 1357
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"typecheck.ml" 60 1341 1358 "typecheck.ml" 60 1341 1359
+type(
+  int
+)
+"typecheck.ml" 60 1341 1351 "typecheck.ml" 60 1341 1360
+type(
+  int
+)
+"typecheck.ml" 60 1341 1361 "typecheck.ml" 60 1341 1362
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"typecheck.ml" 60 1341 1363 "typecheck.ml" 60 1341 1364
+type(
+  int
+)
+"typecheck.ml" 60 1341 1350 "typecheck.ml" 60 1341 1365
+type(
+  bool
+)
+"typecheck.ml" 60 1341 1346 "typecheck.ml" 60 1341 1365
+type(
+  bool
+)
+"typecheck.ml" 60 1341 1371 "typecheck.ml" 60 1341 1382
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"typecheck.ml" 60 1341 1383 "typecheck.ml" 60 1341 1399
+type(
+  string
+)
+"typecheck.ml" 60 1341 1371 "typecheck.ml" 60 1341 1399
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 60 1341 1343 "typecheck.ml" 60 1341 1399
+type(
+  unit
+)
+"typecheck.ml" 61 1401 1403 "typecheck.ml" 61 1401 1404
+type(
+  int
+)
+ident(
+  int_ref b "typecheck.ml" 59 1312 1318 "typecheck.ml" 59 1312 1319
+)
+"typecheck.ml" 61 1401 1405 "typecheck.ml" 61 1401 1406
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"typecheck.ml" 61 1401 1407 "typecheck.ml" 61 1401 1408
+type(
+  int
+)
+"typecheck.ml" 61 1401 1403 "typecheck.ml" 61 1401 1408
+type(
+  int
+)
+"typecheck.ml" 60 1341 1343 "typecheck.ml" 61 1401 1408
+type(
+  int
+)
+"typecheck.ml" 59 1312 1314 "typecheck.ml" 61 1401 1408
+type(
+  int
+)
+"typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  def infer_ast_internal "typecheck.ml" 63 1410 1410 --
+)
+"typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+type(
+  bool
+)
+ident(
+  def check "typecheck.ml" 63 1410 1443 "typecheck.ml" 146 4213 4245
+)
+"typecheck.ml" 63 1410 1443 "typecheck.ml" 63 1410 1444
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 64 1447 1449 "typecheck.ml" 146 4213 4245
+)
+"typecheck.ml" 64 1447 1455 "typecheck.ml" 64 1447 1456
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 63 1410 1443 "typecheck.ml" 63 1410 1444
+)
+"typecheck.ml" 65 1462 1470 "typecheck.ml" 65 1462 1471
+type(
+  Ast.var
+)
+ident(
+  def v "typecheck.ml" 67 1508 1512 "typecheck.ml" 67 1508 1521
+)
+"typecheck.ml" 65 1462 1466 "typecheck.ml" 65 1462 1471
+type(
+  Ast.exp
+)
+"typecheck.ml" 67 1508 1512 "typecheck.ml" 67 1508 1519
+type(
+  Ast.var -> Type.typ
+)
+ident(
+  ext_ref Var.typ
+)
+"typecheck.ml" 67 1508 1520 "typecheck.ml" 67 1508 1521
+type(
+  Ast.var
+)
+ident(
+  int_ref v "typecheck.ml" 65 1462 1470 "typecheck.ml" 65 1462 1471
+)
+"typecheck.ml" 67 1508 1512 "typecheck.ml" 67 1508 1521
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 68 1522 1531 "typecheck.ml" 68 1522 1532
+type(
+  Type.unop_type
+)
+"typecheck.ml" 68 1522 1534 "typecheck.ml" 68 1522 1535
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 69 1540 1544 "typecheck.ml" 72 1624 1655
+)
+"typecheck.ml" 68 1522 1530 "typecheck.ml" 68 1522 1536
+type(
+  Type.unop_type * Ast.exp
+)
+"typecheck.ml" 68 1522 1526 "typecheck.ml" 68 1522 1536
+type(
+  Ast.exp
+)
+"typecheck.ml" 69 1540 1547 "typecheck.ml" 69 1540 1552
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 70 1559 1570 "typecheck.ml" 70 1559 1571
+type(
+  Type.typ
+)
+"typecheck.ml" 70 1559 1574 "typecheck.ml" 70 1559 1592
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 70 1559 1593 "typecheck.ml" 70 1559 1597
+type(
+  bool
+)
+"typecheck.ml" 70 1559 1598 "typecheck.ml" 70 1559 1599
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 68 1522 1534 "typecheck.ml" 68 1522 1535
+)
+"typecheck.ml" 70 1559 1574 "typecheck.ml" 70 1559 1599
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 71 1603 1610 "typecheck.ml" 71 1603 1619
+type(
+  Type.typ -> unit
+)
+ident(
+  int_ref check_reg "typecheck.ml" 156 4599 4603 "typecheck.ml" 156 4599 4612
+)
+"typecheck.ml" 71 1603 1620 "typecheck.ml" 71 1603 1621
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 70 1559 1570 "typecheck.ml" 70 1559 1571
+)
+"typecheck.ml" 71 1603 1610 "typecheck.ml" 71 1603 1621
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 70 1559 1565 "typecheck.ml" 71 1603 1622
+type(
+  unit
+)
+"typecheck.ml" 69 1540 1544 "typecheck.ml" 71 1603 1622
+type(
+  unit
+)
+"typecheck.ml" 72 1624 1628 "typecheck.ml" 72 1624 1646
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 72 1624 1647 "typecheck.ml" 72 1624 1652
+type(
+  bool
+)
+"typecheck.ml" 72 1624 1653 "typecheck.ml" 72 1624 1654
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 68 1522 1534 "typecheck.ml" 68 1522 1535
+)
+"typecheck.ml" 72 1624 1628 "typecheck.ml" 72 1624 1655
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 69 1540 1544 "typecheck.ml" 72 1624 1655
+type(
+  Type.typ
+)
+"typecheck.ml" 73 1656 1666 "typecheck.ml" 73 1656 1667
+type(
+  Type.binop_type
+)
+ident(
+  def o "typecheck.ml" 74 1683 1687 "typecheck.ml" 84 1990 1995
+)
+"typecheck.ml" 73 1656 1668 "typecheck.ml" 73 1656 1670
+type(
+  Ast.exp
+)
+ident(
+  def e1 "typecheck.ml" 74 1683 1687 "typecheck.ml" 84 1990 1995
+)
+"typecheck.ml" 73 1656 1671 "typecheck.ml" 73 1656 1673
+type(
+  Ast.exp
+)
+ident(
+  def e2 "typecheck.ml" 74 1683 1687 "typecheck.ml" 84 1990 1995
+)
+"typecheck.ml" 73 1656 1665 "typecheck.ml" 73 1656 1674
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"typecheck.ml" 73 1656 1660 "typecheck.ml" 73 1656 1674
+type(
+  Ast.exp
+)
+"typecheck.ml" 73 1656 1660 "typecheck.ml" 73 1656 1679
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 74 1683 1687 "typecheck.ml" 84 1990 1995
+)
+"typecheck.ml" 74 1683 1690 "typecheck.ml" 74 1683 1695
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 75 1703 1713 "typecheck.ml" 75 1703 1715
+type(
+  Type.typ
+)
+"typecheck.ml" 75 1703 1718 "typecheck.ml" 75 1703 1736
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 75 1703 1737 "typecheck.ml" 75 1703 1741
+type(
+  bool
+)
+"typecheck.ml" 75 1703 1742 "typecheck.ml" 75 1703 1744
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "typecheck.ml" 73 1656 1668 "typecheck.ml" 73 1656 1670
+)
+"typecheck.ml" 75 1703 1718 "typecheck.ml" 75 1703 1744
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 76 1745 1755 "typecheck.ml" 76 1745 1757
+type(
+  Type.typ
+)
+"typecheck.ml" 76 1745 1760 "typecheck.ml" 76 1745 1778
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 76 1745 1779 "typecheck.ml" 76 1745 1783
+type(
+  bool
+)
+"typecheck.ml" 76 1745 1784 "typecheck.ml" 76 1745 1786
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "typecheck.ml" 73 1656 1671 "typecheck.ml" 73 1656 1673
+)
+"typecheck.ml" 76 1745 1760 "typecheck.ml" 76 1745 1786
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 77 1790 1796 "typecheck.ml" 77 1790 1806
+type(
+  ?e:Ast.exp -> ?s:Ast.stmt -> Type.typ -> Type.typ -> unit
+)
+ident(
+  int_ref check_same "typecheck.ml" 148 4247 4251 "typecheck.ml" 148 4247 4261
+)
+"typecheck.ml" 77 1790 1807 "typecheck.ml" 77 1790 1809
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "typecheck.ml" 75 1703 1713 "typecheck.ml" 75 1703 1715
+)
+"typecheck.ml" 77 1790 1810 "typecheck.ml" 77 1790 1812
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "typecheck.ml" 76 1745 1755 "typecheck.ml" 76 1745 1757
+)
+"typecheck.ml" 77 1790 1814 "typecheck.ml" 77 1790 1815
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 73 1656 1660 "typecheck.ml" 73 1656 1679
+)
+"typecheck.ml" 77 1790 1796 "typecheck.ml" 77 1790 1815
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 78 1817 1829 "typecheck.ml" 78 1817 1830
+type(
+  Type.binop_type
+)
+ident(
+  int_ref o "typecheck.ml" 73 1656 1666 "typecheck.ml" 73 1656 1667
+)
+"typecheck.ml" 79 1836 1844 "typecheck.ml" 79 1836 1846
+type(
+  Type.binop_type
+)
+"typecheck.ml" 79 1836 1849 "typecheck.ml" 79 1836 1852
+type(
+  Type.binop_type
+)
+"typecheck.ml" 79 1836 1844 "typecheck.ml" 79 1836 1852
+type(
+  Type.binop_type
+)
+"typecheck.ml" 79 1836 1856 "typecheck.ml" 79 1836 1858
+type(
+  unit
+)
+"typecheck.ml" 80 1859 1867 "typecheck.ml" 80 1859 1868
+type(
+  Type.binop_type
+)
+"typecheck.ml" 80 1859 1872 "typecheck.ml" 80 1859 1881
+type(
+  Type.typ -> unit
+)
+ident(
+  int_ref check_reg "typecheck.ml" 156 4599 4603 "typecheck.ml" 156 4599 4612
+)
+"typecheck.ml" 80 1859 1882 "typecheck.ml" 80 1859 1884
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "typecheck.ml" 75 1703 1713 "typecheck.ml" 75 1703 1715
+)
+"typecheck.ml" 80 1859 1872 "typecheck.ml" 80 1859 1884
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 78 1817 1823 "typecheck.ml" 80 1859 1884
+type(
+  unit
+)
+"typecheck.ml" 77 1790 1796 "typecheck.ml" 80 1859 1884
+type(
+  unit
+)
+"typecheck.ml" 74 1683 1701 "typecheck.ml" 80 1859 1885
+type(
+  unit
+)
+"typecheck.ml" 74 1683 1687 "typecheck.ml" 80 1859 1885
+type(
+  unit
+)
+"typecheck.ml" 81 1887 1898 "typecheck.ml" 81 1887 1899
+type(
+  Type.binop_type
+)
+ident(
+  int_ref o "typecheck.ml" 73 1656 1666 "typecheck.ml" 73 1656 1667
+)
+"typecheck.ml" 82 1905 1911 "typecheck.ml" 82 1905 1913
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1916 "typecheck.ml" 82 1905 1919
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1911 "typecheck.ml" 82 1905 1919
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1922 "typecheck.ml" 82 1905 1924
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1911 "typecheck.ml" 82 1905 1924
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1927 "typecheck.ml" 82 1905 1929
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1911 "typecheck.ml" 82 1905 1929
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1932 "typecheck.ml" 82 1905 1935
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1911 "typecheck.ml" 82 1905 1935
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1938 "typecheck.ml" 82 1905 1941
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1911 "typecheck.ml" 82 1905 1941
+type(
+  Type.binop_type
+)
+"typecheck.ml" 82 1905 1945 "typecheck.ml" 82 1905 1950
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_1
+)
+"typecheck.ml" 83 1951 1957 "typecheck.ml" 83 1951 1958
+type(
+  Type.binop_type
+)
+"typecheck.ml" 83 1951 1962 "typecheck.ml" 83 1951 1980
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 83 1951 1981 "typecheck.ml" 83 1951 1986
+type(
+  bool
+)
+"typecheck.ml" 83 1951 1987 "typecheck.ml" 83 1951 1989
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "typecheck.ml" 73 1656 1668 "typecheck.ml" 73 1656 1670
+)
+"typecheck.ml" 83 1951 1962 "typecheck.ml" 83 1951 1989
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 81 1887 1891 "typecheck.ml" 84 1990 1995
+type(
+  Type.typ
+)
+"typecheck.ml" 74 1683 1687 "typecheck.ml" 84 1990 1995
+type(
+  Type.typ
+)
+"typecheck.ml" 85 1996 2004 "typecheck.ml" 85 1996 2005
+type(
+  Ast.exp
+)
+ident(
+  def b "typecheck.ml" 86 2016 2020 "typecheck.ml" 90 2150 2181
+)
+"typecheck.ml" 85 1996 2006 "typecheck.ml" 85 1996 2008
+type(
+  Ast.exp
+)
+ident(
+  def e1 "typecheck.ml" 86 2016 2020 "typecheck.ml" 90 2150 2181
+)
+"typecheck.ml" 85 1996 2009 "typecheck.ml" 85 1996 2011
+type(
+  Ast.exp
+)
+ident(
+  def e2 "typecheck.ml" 86 2016 2020 "typecheck.ml" 90 2150 2181
+)
+"typecheck.ml" 85 1996 2003 "typecheck.ml" 85 1996 2012
+type(
+  Ast.exp * Ast.exp * Ast.exp
+)
+"typecheck.ml" 85 1996 2000 "typecheck.ml" 85 1996 2012
+type(
+  Ast.exp
+)
+"typecheck.ml" 86 2016 2023 "typecheck.ml" 86 2016 2028
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 87 2035 2046 "typecheck.ml" 87 2035 2048
+type(
+  Type.typ
+)
+"typecheck.ml" 87 2035 2051 "typecheck.ml" 87 2035 2069
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 87 2035 2070 "typecheck.ml" 87 2035 2074
+type(
+  bool
+)
+"typecheck.ml" 87 2035 2075 "typecheck.ml" 87 2035 2077
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "typecheck.ml" 85 1996 2006 "typecheck.ml" 85 1996 2008
+)
+"typecheck.ml" 87 2035 2051 "typecheck.ml" 87 2035 2077
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 88 2078 2089 "typecheck.ml" 88 2078 2091
+type(
+  Type.typ
+)
+"typecheck.ml" 88 2078 2094 "typecheck.ml" 88 2078 2112
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 88 2078 2113 "typecheck.ml" 88 2078 2117
+type(
+  bool
+)
+"typecheck.ml" 88 2078 2118 "typecheck.ml" 88 2078 2120
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "typecheck.ml" 85 1996 2009 "typecheck.ml" 85 1996 2011
+)
+"typecheck.ml" 88 2078 2094 "typecheck.ml" 88 2078 2120
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 89 2124 2131 "typecheck.ml" 89 2124 2141
+type(
+  ?e:Ast.exp -> ?s:Ast.stmt -> Type.typ -> Type.typ -> unit
+)
+ident(
+  int_ref check_same "typecheck.ml" 148 4247 4251 "typecheck.ml" 148 4247 4261
+)
+"typecheck.ml" 89 2124 2142 "typecheck.ml" 89 2124 2144
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "typecheck.ml" 87 2035 2046 "typecheck.ml" 87 2035 2048
+)
+"typecheck.ml" 89 2124 2145 "typecheck.ml" 89 2124 2147
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "typecheck.ml" 88 2078 2089 "typecheck.ml" 88 2078 2091
+)
+"typecheck.ml" 89 2124 2131 "typecheck.ml" 89 2124 2147
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 87 2035 2041 "typecheck.ml" 89 2124 2148
+type(
+  unit
+)
+"typecheck.ml" 86 2016 2020 "typecheck.ml" 89 2124 2148
+type(
+  unit
+)
+"typecheck.ml" 90 2150 2154 "typecheck.ml" 90 2150 2172
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 90 2150 2173 "typecheck.ml" 90 2150 2178
+type(
+  bool
+)
+"typecheck.ml" 90 2150 2179 "typecheck.ml" 90 2150 2181
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "typecheck.ml" 85 1996 2006 "typecheck.ml" 85 1996 2008
+)
+"typecheck.ml" 90 2150 2154 "typecheck.ml" 90 2150 2181
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 86 2016 2020 "typecheck.ml" 90 2150 2181
+type(
+  Type.typ
+)
+"typecheck.ml" 91 2182 2194 "typecheck.ml" 91 2182 2195
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def h "typecheck.ml" 92 2204 2208 "typecheck.ml" 102 2699 2705
+)
+"typecheck.ml" 91 2182 2196 "typecheck.ml" 91 2182 2197
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def l "typecheck.ml" 92 2204 2208 "typecheck.ml" 102 2699 2705
+)
+"typecheck.ml" 91 2182 2198 "typecheck.ml" 91 2182 2199
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 92 2204 2208 "typecheck.ml" 102 2699 2705
+)
+"typecheck.ml" 91 2182 2193 "typecheck.ml" 91 2182 2200
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int * Ast.exp
+)
+"typecheck.ml" 91 2182 2186 "typecheck.ml" 91 2182 2200
+type(
+  Ast.exp
+)
+"typecheck.ml" 92 2204 2212 "typecheck.ml" 92 2204 2214
+type(
+  int
+)
+"typecheck.ml" 92 2204 2217 "typecheck.ml" 92 2204 2231
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Big_int_Z.int_of_big_int
+)
+"typecheck.ml" 92 2204 2232 "typecheck.ml" 92 2204 2233
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "typecheck.ml" 91 2182 2194 "typecheck.ml" 91 2182 2195
+)
+"typecheck.ml" 92 2204 2234 "typecheck.ml" 92 2204 2236
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( -% )
+)
+"typecheck.ml" 92 2204 2237 "typecheck.ml" 92 2204 2238
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "typecheck.ml" 91 2182 2196 "typecheck.ml" 91 2182 2197
+)
+"typecheck.ml" 92 2204 2232 "typecheck.ml" 92 2204 2238
+call(
+  stack
+)
+type(
+  Z.t
+)
+"typecheck.ml" 92 2204 2239 "typecheck.ml" 92 2204 2241
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( +% )
+)
+"typecheck.ml" 92 2204 2242 "typecheck.ml" 92 2204 2245
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"typecheck.ml" 92 2204 2231 "typecheck.ml" 92 2204 2246
+call(
+  stack
+)
+type(
+  Z.t
+)
+"typecheck.ml" 92 2204 2217 "typecheck.ml" 92 2204 2246
+call(
+  stack
+)
+type(
+  int
+)
+"typecheck.ml" 93 2250 2258 "typecheck.ml" 93 2250 2260
+type(
+  Type.typ
+)
+"typecheck.ml" 93 2250 2267 "typecheck.ml" 93 2250 2269
+type(
+  int
+)
+ident(
+  int_ref ns "typecheck.ml" 92 2204 2212 "typecheck.ml" 92 2204 2214
+)
+"typecheck.ml" 93 2250 2263 "typecheck.ml" 93 2250 2269
+type(
+  Type.typ
+)
+"typecheck.ml" 94 2273 2280 "typecheck.ml" 94 2273 2285
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 95 2293 2305 "typecheck.ml" 95 2293 2323
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 95 2293 2324 "typecheck.ml" 95 2293 2328
+type(
+  bool
+)
+"typecheck.ml" 95 2293 2329 "typecheck.ml" 95 2293 2330
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 91 2182 2198 "typecheck.ml" 91 2182 2199
+)
+"typecheck.ml" 95 2293 2305 "typecheck.ml" 95 2293 2330
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 96 2336 2347 "typecheck.ml" 96 2336 2353
+type(
+  int
+)
+ident(
+  def oldn "typecheck.ml" 97 2357 2365 "typecheck.ml" 99 2503 2642
+)
+"typecheck.ml" 96 2336 2344 "typecheck.ml" 96 2336 2353
+type(
+  Type.typ
+)
+"typecheck.ml" 97 2357 2369 "typecheck.ml" 97 2357 2371
+type(
+  int
+)
+ident(
+  int_ref ns "typecheck.ml" 92 2204 2212 "typecheck.ml" 92 2204 2214
+)
+"typecheck.ml" 97 2357 2372 "typecheck.ml" 97 2357 2374
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"typecheck.ml" 97 2357 2375 "typecheck.ml" 97 2357 2376
+type(
+  int
+)
+"typecheck.ml" 97 2357 2368 "typecheck.ml" 97 2357 2377
+type(
+  bool
+)
+"typecheck.ml" 97 2357 2383 "typecheck.ml" 97 2357 2389
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 97 2357 2389 "typecheck.ml" 97 2357 2430
+type(
+  string
+)
+"typecheck.ml" 97 2357 2383 "typecheck.ml" 97 2357 2430
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 97 2357 2365 "typecheck.ml" 97 2357 2430
+type(
+  unit
+)
+"typecheck.ml" 98 2432 2443 "typecheck.ml" 98 2432 2444
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "typecheck.ml" 91 2182 2196 "typecheck.ml" 91 2182 2197
+)
+"typecheck.ml" 98 2432 2445 "typecheck.ml" 98 2432 2447
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( <% )
+)
+"typecheck.ml" 98 2432 2448 "typecheck.ml" 98 2432 2451
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"typecheck.ml" 98 2432 2443 "typecheck.ml" 98 2432 2451
+call(
+  stack
+)
+type(
+  bool
+)
+"typecheck.ml" 98 2432 2457 "typecheck.ml" 98 2432 2463
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 98 2432 2463 "typecheck.ml" 98 2432 2501
+type(
+  string
+)
+"typecheck.ml" 98 2432 2457 "typecheck.ml" 98 2432 2501
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 98 2432 2440 "typecheck.ml" 98 2432 2501
+type(
+  unit
+)
+"typecheck.ml" 99 2503 2514 "typecheck.ml" 99 2503 2515
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "typecheck.ml" 91 2182 2194 "typecheck.ml" 91 2182 2195
+)
+"typecheck.ml" 99 2503 2516 "typecheck.ml" 99 2503 2518
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( >% )
+)
+"typecheck.ml" 99 2503 2520 "typecheck.ml" 99 2503 2534
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int
+)
+"typecheck.ml" 99 2503 2535 "typecheck.ml" 99 2503 2539
+type(
+  int
+)
+ident(
+  int_ref oldn "typecheck.ml" 96 2336 2347 "typecheck.ml" 96 2336 2353
+)
+"typecheck.ml" 99 2503 2519 "typecheck.ml" 99 2503 2540
+call(
+  stack
+)
+type(
+  Z.t
+)
+"typecheck.ml" 99 2503 2541 "typecheck.ml" 99 2503 2543
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( -% )
+)
+"typecheck.ml" 99 2503 2544 "typecheck.ml" 99 2503 2547
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"typecheck.ml" 99 2503 2519 "typecheck.ml" 99 2503 2547
+call(
+  stack
+)
+type(
+  Z.t
+)
+"typecheck.ml" 99 2503 2514 "typecheck.ml" 99 2503 2547
+call(
+  stack
+)
+type(
+  bool
+)
+"typecheck.ml" 99 2503 2553 "typecheck.ml" 99 2503 2559
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 99 2503 2559 "typecheck.ml" 99 2503 2642
+type(
+  string
+)
+"typecheck.ml" 99 2503 2553 "typecheck.ml" 99 2503 2642
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 99 2503 2511 "typecheck.ml" 99 2503 2642
+type(
+  unit
+)
+"typecheck.ml" 98 2432 2440 "typecheck.ml" 99 2503 2642
+type(
+  unit
+)
+"typecheck.ml" 97 2357 2365 "typecheck.ml" 99 2503 2642
+type(
+  unit
+)
+"typecheck.ml" 100 2643 2651 "typecheck.ml" 100 2643 2652
+type(
+  Type.typ
+)
+"typecheck.ml" 100 2643 2656 "typecheck.ml" 100 2643 2662
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 100 2643 2663 "typecheck.ml" 100 2643 2691
+type(
+  string
+)
+"typecheck.ml" 100 2643 2656 "typecheck.ml" 100 2643 2691
+type(
+  unit
+)
+"typecheck.ml" 94 2273 2291 "typecheck.ml" 101 2692 2697
+type(
+  unit
+)
+"typecheck.ml" 94 2273 2277 "typecheck.ml" 101 2692 2697
+type(
+  unit
+)
+"typecheck.ml" 102 2699 2703 "typecheck.ml" 102 2699 2705
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "typecheck.ml" 93 2250 2258 "typecheck.ml" 93 2250 2260
+)
+"typecheck.ml" 94 2273 2277 "typecheck.ml" 102 2699 2705
+type(
+  Type.typ
+)
+"typecheck.ml" 93 2250 2254 "typecheck.ml" 102 2699 2705
+type(
+  Type.typ
+)
+"typecheck.ml" 92 2204 2208 "typecheck.ml" 102 2699 2705
+type(
+  Type.typ
+)
+"typecheck.ml" 103 2706 2717 "typecheck.ml" 103 2706 2719
+type(
+  Ast.exp
+)
+ident(
+  def le "typecheck.ml" 104 2728 2732 "typecheck.ml" 110 2936 2942
+)
+"typecheck.ml" 103 2706 2721 "typecheck.ml" 103 2706 2723
+type(
+  Ast.exp
+)
+ident(
+  def re "typecheck.ml" 104 2728 2732 "typecheck.ml" 110 2936 2942
+)
+"typecheck.ml" 103 2706 2716 "typecheck.ml" 103 2706 2724
+type(
+  Ast.exp * Ast.exp
+)
+"typecheck.ml" 103 2706 2710 "typecheck.ml" 103 2706 2724
+type(
+  Ast.exp
+)
+"typecheck.ml" 104 2728 2736 "typecheck.ml" 104 2728 2738
+type(
+  Type.typ
+)
+"typecheck.ml" 104 2728 2740 "typecheck.ml" 104 2728 2742
+type(
+  Type.typ
+)
+"typecheck.ml" 104 2728 2736 "typecheck.ml" 104 2728 2742
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 104 2728 2745 "typecheck.ml" 104 2728 2763
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 104 2728 2764 "typecheck.ml" 104 2728 2769
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 104 2728 2770 "typecheck.ml" 104 2728 2772
+type(
+  Ast.exp
+)
+ident(
+  int_ref le "typecheck.ml" 103 2706 2717 "typecheck.ml" 103 2706 2719
+)
+"typecheck.ml" 104 2728 2745 "typecheck.ml" 104 2728 2772
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 104 2728 2774 "typecheck.ml" 104 2728 2792
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 104 2728 2793 "typecheck.ml" 104 2728 2798
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 104 2728 2799 "typecheck.ml" 104 2728 2801
+type(
+  Ast.exp
+)
+ident(
+  int_ref re "typecheck.ml" 103 2706 2721 "typecheck.ml" 103 2706 2723
+)
+"typecheck.ml" 104 2728 2774 "typecheck.ml" 104 2728 2801
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 104 2728 2745 "typecheck.ml" 104 2728 2801
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 105 2805 2813 "typecheck.ml" 105 2805 2815
+type(
+  Type.typ
+)
+"typecheck.ml" 105 2805 2824 "typecheck.ml" 105 2805 2826
+type(
+  Type.typ
+)
+ident(
+  int_ref lt "typecheck.ml" 104 2728 2736 "typecheck.ml" 104 2728 2738
+)
+"typecheck.ml" 105 2805 2828 "typecheck.ml" 105 2805 2830
+type(
+  Type.typ
+)
+ident(
+  int_ref rt "typecheck.ml" 104 2728 2740 "typecheck.ml" 104 2728 2742
+)
+"typecheck.ml" 105 2805 2824 "typecheck.ml" 105 2805 2830
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 106 2836 2847 "typecheck.ml" 106 2836 2851
+type(
+  int
+)
+ident(
+  def lb "typecheck.ml" 107 2864 2872 "typecheck.ml" 107 2864 2882
+)
+"typecheck.ml" 106 2836 2844 "typecheck.ml" 106 2836 2851
+type(
+  Type.typ
+)
+"typecheck.ml" 106 2836 2856 "typecheck.ml" 106 2836 2860
+type(
+  int
+)
+ident(
+  def rb "typecheck.ml" 107 2864 2872 "typecheck.ml" 107 2864 2882
+)
+"typecheck.ml" 106 2836 2853 "typecheck.ml" 106 2836 2860
+type(
+  Type.typ
+)
+"typecheck.ml" 106 2836 2844 "typecheck.ml" 106 2836 2860
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 107 2864 2876 "typecheck.ml" 107 2864 2878
+type(
+  int
+)
+ident(
+  int_ref lb "typecheck.ml" 106 2836 2847 "typecheck.ml" 106 2836 2851
+)
+"typecheck.ml" 107 2864 2878 "typecheck.ml" 107 2864 2879
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"typecheck.ml" 107 2864 2879 "typecheck.ml" 107 2864 2881
+type(
+  int
+)
+ident(
+  int_ref rb "typecheck.ml" 106 2836 2856 "typecheck.ml" 106 2836 2860
+)
+"typecheck.ml" 107 2864 2875 "typecheck.ml" 107 2864 2882
+type(
+  int
+)
+"typecheck.ml" 107 2864 2872 "typecheck.ml" 107 2864 2882
+type(
+  Type.typ
+)
+"typecheck.ml" 108 2883 2891 "typecheck.ml" 108 2883 2892
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 108 2883 2896 "typecheck.ml" 108 2883 2902
+type(
+  string -> Type.typ
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 108 2883 2903 "typecheck.ml" 108 2883 2928
+type(
+  string
+)
+"typecheck.ml" 108 2883 2896 "typecheck.ml" 108 2883 2928
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 105 2805 2818 "typecheck.ml" 108 2883 2928
+type(
+  Type.typ
+)
+"typecheck.ml" 110 2936 2940 "typecheck.ml" 110 2936 2942
+type(
+  Type.typ
+)
+ident(
+  int_ref nt "typecheck.ml" 105 2805 2813 "typecheck.ml" 105 2805 2815
+)
+"typecheck.ml" 105 2805 2809 "typecheck.ml" 110 2936 2942
+type(
+  Type.typ
+)
+"typecheck.ml" 104 2728 2732 "typecheck.ml" 110 2936 2942
+type(
+  Type.typ
+)
+"typecheck.ml" 111 2943 2951 "typecheck.ml" 111 2943 2952
+type(
+  string
+)
+ident(
+  def s "typecheck.ml" 113 2998 3002 "typecheck.ml" 113 2998 3008
+)
+"typecheck.ml" 111 2943 2947 "typecheck.ml" 111 2943 2952
+type(
+  Ast.exp
+)
+"typecheck.ml" 113 2998 3002 "typecheck.ml" 113 2998 3008
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_64
+)
+"typecheck.ml" 114 3009 3017 "typecheck.ml" 114 3009 3018
+type(
+  Big_int_Z.big_int
+)
+"typecheck.ml" 114 3009 3019 "typecheck.ml" 114 3009 3020
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 116 3042 3046 "typecheck.ml" 116 3042 3047
+)
+"typecheck.ml" 114 3009 3016 "typecheck.ml" 114 3009 3021
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"typecheck.ml" 114 3009 3013 "typecheck.ml" 114 3009 3021
+type(
+  Ast.exp
+)
+"typecheck.ml" 115 3022 3034 "typecheck.ml" 115 3022 3035
+type(
+  string
+)
+"typecheck.ml" 115 3022 3036 "typecheck.ml" 115 3022 3037
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 116 3042 3046 "typecheck.ml" 116 3042 3047
+)
+"typecheck.ml" 115 3022 3033 "typecheck.ml" 115 3022 3038
+type(
+  string * Type.typ
+)
+"typecheck.ml" 115 3022 3026 "typecheck.ml" 115 3022 3038
+type(
+  Ast.exp
+)
+"typecheck.ml" 114 3009 3013 "typecheck.ml" 115 3022 3038
+type(
+  Ast.exp
+)
+"typecheck.ml" 116 3042 3046 "typecheck.ml" 116 3042 3047
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 114 3009 3019 "typecheck.ml" 114 3009 3020
+)
+"typecheck.ml" 117 3048 3057 "typecheck.ml" 117 3048 3059
+type(
+  Type.cast_type
+)
+ident(
+  def ct "typecheck.ml" 118 3068 3072 "typecheck.ml" 132 3731 3736
+)
+"typecheck.ml" 117 3048 3060 "typecheck.ml" 117 3048 3061
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 118 3068 3072 "typecheck.ml" 132 3731 3736
+)
+"typecheck.ml" 117 3048 3062 "typecheck.ml" 117 3048 3063
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 118 3068 3072 "typecheck.ml" 132 3731 3736
+)
+"typecheck.ml" 117 3048 3056 "typecheck.ml" 117 3048 3064
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"typecheck.ml" 117 3048 3052 "typecheck.ml" 117 3048 3064
+type(
+  Ast.exp
+)
+"typecheck.ml" 118 3068 3076 "typecheck.ml" 118 3068 3078
+type(
+  Type.typ
+)
+"typecheck.ml" 118 3068 3081 "typecheck.ml" 118 3068 3099
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 118 3068 3100 "typecheck.ml" 118 3068 3105
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 118 3068 3106 "typecheck.ml" 118 3068 3107
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 117 3048 3062 "typecheck.ml" 117 3048 3063
+)
+"typecheck.ml" 118 3068 3081 "typecheck.ml" 118 3068 3107
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 119 3111 3118 "typecheck.ml" 119 3111 3123
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 120 3131 3137 "typecheck.ml" 120 3131 3146
+type(
+  Type.typ -> unit
+)
+ident(
+  int_ref check_reg "typecheck.ml" 156 4599 4603 "typecheck.ml" 156 4599 4612
+)
+"typecheck.ml" 120 3131 3147 "typecheck.ml" 120 3131 3148
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 117 3048 3060 "typecheck.ml" 117 3048 3061
+)
+"typecheck.ml" 120 3131 3137 "typecheck.ml" 120 3131 3148
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 121 3150 3156 "typecheck.ml" 121 3150 3165
+type(
+  Type.typ -> unit
+)
+ident(
+  int_ref check_reg "typecheck.ml" 156 4599 4603 "typecheck.ml" 156 4599 4612
+)
+"typecheck.ml" 121 3150 3166 "typecheck.ml" 121 3150 3168
+type(
+  Type.typ
+)
+ident(
+  int_ref te "typecheck.ml" 118 3068 3076 "typecheck.ml" 118 3068 3078
+)
+"typecheck.ml" 121 3150 3156 "typecheck.ml" 121 3150 3168
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 122 3170 3180 "typecheck.ml" 122 3170 3185
+type(
+  int
+)
+"typecheck.ml" 122 3170 3188 "typecheck.ml" 122 3170 3201
+type(
+  Type.typ -> int
+)
+ident(
+  int_ref bits_of_width "typecheck.ml" 54 1207 1211 "typecheck.ml" 54 1207 1224
+)
+"typecheck.ml" 122 3170 3202 "typecheck.ml" 122 3170 3204
+type(
+  Type.typ
+)
+ident(
+  int_ref te "typecheck.ml" 118 3068 3076 "typecheck.ml" 118 3068 3078
+)
+"typecheck.ml" 122 3170 3188 "typecheck.ml" 122 3170 3204
+call(
+  stack
+)
+type(
+  int
+)
+"typecheck.ml" 123 3208 3218 "typecheck.ml" 123 3208 3223
+type(
+  int
+)
+"typecheck.ml" 123 3208 3226 "typecheck.ml" 123 3208 3239
+type(
+  Type.typ -> int
+)
+ident(
+  int_ref bits_of_width "typecheck.ml" 54 1207 1211 "typecheck.ml" 54 1207 1224
+)
+"typecheck.ml" 123 3208 3240 "typecheck.ml" 123 3208 3241
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 117 3048 3060 "typecheck.ml" 117 3048 3061
+)
+"typecheck.ml" 123 3208 3226 "typecheck.ml" 123 3208 3241
+call(
+  stack
+)
+type(
+  int
+)
+"typecheck.ml" 124 3245 3257 "typecheck.ml" 124 3245 3259
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "typecheck.ml" 117 3048 3057 "typecheck.ml" 117 3048 3059
+)
+"typecheck.ml" 125 3265 3273 "typecheck.ml" 125 3265 3286
+type(
+  Type.cast_type
+)
+"typecheck.ml" 126 3287 3295 "typecheck.ml" 126 3287 3306
+type(
+  Type.cast_type
+)
+"typecheck.ml" 125 3265 3273 "typecheck.ml" 126 3287 3306
+type(
+  Type.cast_type
+)
+"typecheck.ml" 127 3310 3321 "typecheck.ml" 127 3310 3326
+type(
+  int
+)
+ident(
+  int_ref bitst "typecheck.ml" 123 3208 3218 "typecheck.ml" 123 3208 3223
+)
+"typecheck.ml" 127 3310 3327 "typecheck.ml" 127 3310 3328
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"typecheck.ml" 127 3310 3329 "typecheck.ml" 127 3310 3334
+type(
+  int
+)
+ident(
+  int_ref bitse "typecheck.ml" 122 3170 3180 "typecheck.ml" 122 3170 3185
+)
+"typecheck.ml" 127 3310 3321 "typecheck.ml" 127 3310 3334
+type(
+  bool
+)
+"typecheck.ml" 127 3310 3340 "typecheck.ml" 127 3310 3346
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 127 3310 3348 "typecheck.ml" 127 3310 3362
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"typecheck.ml" 127 3310 3363 "typecheck.ml" 127 3310 3432
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"typecheck.ml" 127 3310 3434 "typecheck.ml" 127 3310 3449
+type(
+  Type.cast_type -> string
+)
+ident(
+  ext_ref Pp.ct_to_string
+)
+"typecheck.ml" 127 3310 3450 "typecheck.ml" 127 3310 3452
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "typecheck.ml" 117 3048 3057 "typecheck.ml" 117 3048 3059
+)
+"typecheck.ml" 127 3310 3433 "typecheck.ml" 127 3310 3453
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 127 3310 3455 "typecheck.ml" 127 3310 3471
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"typecheck.ml" 127 3310 3472 "typecheck.ml" 127 3310 3474
+type(
+  Type.typ
+)
+ident(
+  int_ref te "typecheck.ml" 118 3068 3076 "typecheck.ml" 118 3068 3078
+)
+"typecheck.ml" 127 3310 3454 "typecheck.ml" 127 3310 3475
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 127 3310 3477 "typecheck.ml" 127 3310 3493
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"typecheck.ml" 127 3310 3494 "typecheck.ml" 127 3310 3495
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 117 3048 3060 "typecheck.ml" 117 3048 3061
+)
+"typecheck.ml" 127 3310 3476 "typecheck.ml" 127 3310 3496
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 127 3310 3347 "typecheck.ml" 127 3310 3497
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 127 3310 3340 "typecheck.ml" 127 3310 3497
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 127 3310 3318 "typecheck.ml" 127 3310 3497
+type(
+  unit
+)
+"typecheck.ml" 128 3498 3506 "typecheck.ml" 128 3498 3515
+type(
+  Type.cast_type
+)
+"typecheck.ml" 129 3516 3524 "typecheck.ml" 129 3516 3532
+type(
+  Type.cast_type
+)
+"typecheck.ml" 128 3498 3506 "typecheck.ml" 129 3516 3532
+type(
+  Type.cast_type
+)
+"typecheck.ml" 130 3536 3547 "typecheck.ml" 130 3536 3552
+type(
+  int
+)
+ident(
+  int_ref bitst "typecheck.ml" 123 3208 3218 "typecheck.ml" 123 3208 3223
+)
+"typecheck.ml" 130 3536 3553 "typecheck.ml" 130 3536 3554
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"typecheck.ml" 130 3536 3555 "typecheck.ml" 130 3536 3560
+type(
+  int
+)
+ident(
+  int_ref bitse "typecheck.ml" 122 3170 3180 "typecheck.ml" 122 3170 3185
+)
+"typecheck.ml" 130 3536 3547 "typecheck.ml" 130 3536 3560
+type(
+  bool
+)
+"typecheck.ml" 130 3536 3566 "typecheck.ml" 130 3536 3572
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 130 3536 3574 "typecheck.ml" 130 3536 3588
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"typecheck.ml" 130 3536 3589 "typecheck.ml" 130 3536 3658
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"typecheck.ml" 130 3536 3660 "typecheck.ml" 130 3536 3675
+type(
+  Type.cast_type -> string
+)
+ident(
+  ext_ref Pp.ct_to_string
+)
+"typecheck.ml" 130 3536 3676 "typecheck.ml" 130 3536 3678
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "typecheck.ml" 117 3048 3057 "typecheck.ml" 117 3048 3059
+)
+"typecheck.ml" 130 3536 3659 "typecheck.ml" 130 3536 3679
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 130 3536 3681 "typecheck.ml" 130 3536 3697
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"typecheck.ml" 130 3536 3698 "typecheck.ml" 130 3536 3700
+type(
+  Type.typ
+)
+ident(
+  int_ref te "typecheck.ml" 118 3068 3076 "typecheck.ml" 118 3068 3078
+)
+"typecheck.ml" 130 3536 3680 "typecheck.ml" 130 3536 3701
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 130 3536 3703 "typecheck.ml" 130 3536 3719
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"typecheck.ml" 130 3536 3720 "typecheck.ml" 130 3536 3721
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 117 3048 3060 "typecheck.ml" 117 3048 3061
+)
+"typecheck.ml" 130 3536 3702 "typecheck.ml" 130 3536 3722
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 130 3536 3573 "typecheck.ml" 130 3536 3723
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 130 3536 3566 "typecheck.ml" 130 3536 3723
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 130 3536 3544 "typecheck.ml" 130 3536 3723
+type(
+  unit
+)
+"typecheck.ml" 124 3245 3251 "typecheck.ml" 130 3536 3723
+type(
+  unit
+)
+"typecheck.ml" 123 3208 3214 "typecheck.ml" 130 3536 3723
+type(
+  unit
+)
+"typecheck.ml" 122 3170 3176 "typecheck.ml" 130 3536 3723
+type(
+  unit
+)
+"typecheck.ml" 121 3150 3156 "typecheck.ml" 130 3536 3723
+type(
+  unit
+)
+"typecheck.ml" 119 3111 3129 "typecheck.ml" 131 3724 3729
+type(
+  unit
+)
+"typecheck.ml" 119 3111 3115 "typecheck.ml" 131 3724 3729
+type(
+  unit
+)
+"typecheck.ml" 132 3731 3735 "typecheck.ml" 132 3731 3736
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 117 3048 3060 "typecheck.ml" 117 3048 3061
+)
+"typecheck.ml" 119 3111 3115 "typecheck.ml" 132 3731 3736
+type(
+  Type.typ
+)
+"typecheck.ml" 118 3068 3072 "typecheck.ml" 132 3731 3736
+type(
+  Type.typ
+)
+"typecheck.ml" 133 3737 3745 "typecheck.ml" 133 3737 3746
+type(
+  Ast.var
+)
+ident(
+  def v "typecheck.ml" 135 3816 3820 "typecheck.ml" 136 3870 3901
+)
+"typecheck.ml" 133 3737 3747 "typecheck.ml" 133 3737 3749
+type(
+  Ast.exp
+)
+ident(
+  def e1 "typecheck.ml" 135 3816 3820 "typecheck.ml" 136 3870 3901
+)
+"typecheck.ml" 133 3737 3750 "typecheck.ml" 133 3737 3752
+type(
+  Ast.exp
+)
+ident(
+  def e2 "typecheck.ml" 135 3816 3820 "typecheck.ml" 136 3870 3901
+)
+"typecheck.ml" 133 3737 3744 "typecheck.ml" 133 3737 3753
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"typecheck.ml" 133 3737 3741 "typecheck.ml" 133 3737 3753
+type(
+  Ast.exp
+)
+"typecheck.ml" 135 3816 3823 "typecheck.ml" 135 3816 3828
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 135 3816 3834 "typecheck.ml" 135 3816 3840
+type(
+  Type.typ -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"typecheck.ml" 135 3816 3841 "typecheck.ml" 135 3816 3859
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 135 3816 3860 "typecheck.ml" 135 3816 3864
+type(
+  bool
+)
+"typecheck.ml" 135 3816 3865 "typecheck.ml" 135 3816 3867
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "typecheck.ml" 133 3737 3747 "typecheck.ml" 133 3737 3749
+)
+"typecheck.ml" 135 3816 3840 "typecheck.ml" 135 3816 3868
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 135 3816 3834 "typecheck.ml" 135 3816 3868
+type(
+  unit
+)
+"typecheck.ml" 135 3816 3820 "typecheck.ml" 135 3816 3868
+type(
+  unit
+)
+"typecheck.ml" 136 3870 3874 "typecheck.ml" 136 3870 3892
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 136 3870 3893 "typecheck.ml" 136 3870 3898
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 136 3870 3899 "typecheck.ml" 136 3870 3901
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "typecheck.ml" 133 3737 3750 "typecheck.ml" 133 3737 3752
+)
+"typecheck.ml" 136 3870 3874 "typecheck.ml" 136 3870 3901
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 135 3816 3820 "typecheck.ml" 136 3870 3901
+type(
+  Type.typ
+)
+"typecheck.ml" 137 3902 3911 "typecheck.ml" 137 3902 3914
+type(
+  Ast.exp
+)
+ident(
+  def arr "typecheck.ml" 138 3933 3937 "typecheck.ml" 139 3979 3984
+)
+"typecheck.ml" 137 3902 3915 "typecheck.ml" 137 3902 3918
+type(
+  Ast.exp
+)
+ident(
+  def idx "typecheck.ml" 138 3933 3937 "typecheck.ml" 139 3979 3984
+)
+"typecheck.ml" 137 3902 3919 "typecheck.ml" 137 3902 3925
+type(
+  Ast.exp
+)
+ident(
+  def endian "typecheck.ml" 138 3933 3937 "typecheck.ml" 139 3979 3984
+)
+"typecheck.ml" 137 3902 3927 "typecheck.ml" 137 3902 3928
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 138 3933 3937 "typecheck.ml" 139 3979 3984
+)
+"typecheck.ml" 137 3902 3910 "typecheck.ml" 137 3902 3929
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"typecheck.ml" 137 3902 3906 "typecheck.ml" 137 3902 3929
+type(
+  Ast.exp
+)
+"typecheck.ml" 138 3933 3940 "typecheck.ml" 138 3933 3945
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 138 3933 3951 "typecheck.ml" 138 3933 3960
+type(
+  Ast.exp -> Ast.exp -> Ast.exp -> Type.typ -> unit
+)
+ident(
+  int_ref check_mem "typecheck.ml" 164 4860 4864 "typecheck.ml" 164 4860 4873
+)
+"typecheck.ml" 138 3933 3961 "typecheck.ml" 138 3933 3964
+type(
+  Ast.exp
+)
+ident(
+  int_ref arr "typecheck.ml" 137 3902 3911 "typecheck.ml" 137 3902 3914
+)
+"typecheck.ml" 138 3933 3965 "typecheck.ml" 138 3933 3968
+type(
+  Ast.exp
+)
+ident(
+  int_ref idx "typecheck.ml" 137 3902 3915 "typecheck.ml" 137 3902 3918
+)
+"typecheck.ml" 138 3933 3969 "typecheck.ml" 138 3933 3975
+type(
+  Ast.exp
+)
+ident(
+  int_ref endian "typecheck.ml" 137 3902 3919 "typecheck.ml" 137 3902 3925
+)
+"typecheck.ml" 138 3933 3976 "typecheck.ml" 138 3933 3977
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 137 3902 3927 "typecheck.ml" 137 3902 3928
+)
+"typecheck.ml" 138 3933 3951 "typecheck.ml" 138 3933 3977
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 138 3933 3937 "typecheck.ml" 138 3933 3977
+type(
+  unit
+)
+"typecheck.ml" 139 3979 3983 "typecheck.ml" 139 3979 3984
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 137 3902 3927 "typecheck.ml" 137 3902 3928
+)
+"typecheck.ml" 138 3933 3937 "typecheck.ml" 139 3979 3984
+type(
+  Type.typ
+)
+"typecheck.ml" 140 3985 3995 "typecheck.ml" 140 3985 3998
+type(
+  Ast.exp
+)
+ident(
+  def arr "typecheck.ml" 141 4021 4025 "typecheck.ml" 146 4213 4245
+)
+"typecheck.ml" 140 3985 3999 "typecheck.ml" 140 3985 4002
+type(
+  Ast.exp
+)
+ident(
+  def idx "typecheck.ml" 141 4021 4025 "typecheck.ml" 146 4213 4245
+)
+"typecheck.ml" 140 3985 4003 "typecheck.ml" 140 3985 4005
+type(
+  Ast.exp
+)
+ident(
+  def vl "typecheck.ml" 141 4021 4025 "typecheck.ml" 146 4213 4245
+)
+"typecheck.ml" 140 3985 4007 "typecheck.ml" 140 3985 4013
+type(
+  Ast.exp
+)
+ident(
+  def endian "typecheck.ml" 141 4021 4025 "typecheck.ml" 146 4213 4245
+)
+"typecheck.ml" 140 3985 4015 "typecheck.ml" 140 3985 4016
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 141 4021 4025 "typecheck.ml" 146 4213 4245
+)
+"typecheck.ml" 140 3985 3994 "typecheck.ml" 140 3985 4017
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"typecheck.ml" 140 3985 3989 "typecheck.ml" 140 3985 4017
+type(
+  Ast.exp
+)
+"typecheck.ml" 141 4021 4028 "typecheck.ml" 141 4021 4033
+type(
+  bool
+)
+ident(
+  int_ref check "typecheck.ml" 63 1410 1437 "typecheck.ml" 63 1410 1442
+)
+"typecheck.ml" 142 4041 4047 "typecheck.ml" 142 4041 4056
+type(
+  Ast.exp -> Ast.exp -> Ast.exp -> Type.typ -> unit
+)
+ident(
+  int_ref check_mem "typecheck.ml" 164 4860 4864 "typecheck.ml" 164 4860 4873
+)
+"typecheck.ml" 142 4041 4057 "typecheck.ml" 142 4041 4060
+type(
+  Ast.exp
+)
+ident(
+  int_ref arr "typecheck.ml" 140 3985 3995 "typecheck.ml" 140 3985 3998
+)
+"typecheck.ml" 142 4041 4061 "typecheck.ml" 142 4041 4064
+type(
+  Ast.exp
+)
+ident(
+  int_ref idx "typecheck.ml" 140 3985 3999 "typecheck.ml" 140 3985 4002
+)
+"typecheck.ml" 142 4041 4065 "typecheck.ml" 142 4041 4071
+type(
+  Ast.exp
+)
+ident(
+  int_ref endian "typecheck.ml" 140 3985 4007 "typecheck.ml" 140 3985 4013
+)
+"typecheck.ml" 142 4041 4072 "typecheck.ml" 142 4041 4073
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 140 3985 4015 "typecheck.ml" 140 3985 4016
+)
+"typecheck.ml" 142 4041 4047 "typecheck.ml" 142 4041 4073
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 143 4075 4085 "typecheck.ml" 143 4075 4087
+type(
+  Type.typ
+)
+"typecheck.ml" 143 4075 4090 "typecheck.ml" 143 4075 4108
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 143 4075 4109 "typecheck.ml" 143 4075 4113
+type(
+  bool
+)
+"typecheck.ml" 143 4075 4114 "typecheck.ml" 143 4075 4116
+type(
+  Ast.exp
+)
+ident(
+  int_ref vl "typecheck.ml" 140 3985 4003 "typecheck.ml" 140 3985 4005
+)
+"typecheck.ml" 143 4075 4090 "typecheck.ml" 143 4075 4116
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 144 4120 4126 "typecheck.ml" 144 4120 4134
+type(
+  Type.typ ->
+  Type.typ -> (string -> string -> string, unit, string) format -> unit
+)
+ident(
+  int_ref check_eq "typecheck.ml" 29 623 627 "typecheck.ml" 29 623 635
+)
+"typecheck.ml" 144 4120 4135 "typecheck.ml" 144 4120 4137
+type(
+  Type.typ
+)
+ident(
+  int_ref tv "typecheck.ml" 143 4075 4085 "typecheck.ml" 143 4075 4087
+)
+"typecheck.ml" 144 4120 4138 "typecheck.ml" 144 4120 4139
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 140 3985 4015 "typecheck.ml" 140 3985 4016
+)
+"typecheck.ml" 144 4120 4140 "typecheck.ml" 144 4120 4204
+type(
+  (string -> string -> string, unit, string) format
+)
+"typecheck.ml" 144 4120 4126 "typecheck.ml" 144 4120 4205
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 143 4075 4081 "typecheck.ml" 144 4120 4205
+type(
+  unit
+)
+"typecheck.ml" 141 4021 4039 "typecheck.ml" 145 4206 4211
+type(
+  unit
+)
+"typecheck.ml" 141 4021 4025 "typecheck.ml" 145 4206 4211
+type(
+  unit
+)
+"typecheck.ml" 146 4213 4217 "typecheck.ml" 146 4213 4235
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 146 4213 4236 "typecheck.ml" 146 4213 4241
+type(
+  bool
+)
+"typecheck.ml" 146 4213 4242 "typecheck.ml" 146 4213 4245
+type(
+  Ast.exp
+)
+ident(
+  int_ref arr "typecheck.ml" 140 3985 3995 "typecheck.ml" 140 3985 3998
+)
+"typecheck.ml" 146 4213 4217 "typecheck.ml" 146 4213 4245
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 141 4021 4025 "typecheck.ml" 146 4213 4245
+type(
+  Type.typ
+)
+"typecheck.ml" 64 1447 1449 "typecheck.ml" 146 4213 4245
+type(
+  Type.typ
+)
+"typecheck.ml" 148 4247 4251 "typecheck.ml" 148 4247 4261
+type(
+  ?e:Ast.exp -> ?s:Ast.stmt -> Type.typ -> Type.typ -> unit
+)
+ident(
+  def check_same "typecheck.ml" 63 1410 1410 --
+)
+"typecheck.ml" 148 4247 4263 "typecheck.ml" 148 4247 4264
+type(
+  Ast.exp option
+)
+ident(
+  def e "typecheck.ml" 148 4247 4265 "typecheck.ml" 154 4501 4597
+)
+"typecheck.ml" 148 4247 4266 "typecheck.ml" 148 4247 4267
+type(
+  Ast.stmt option
+)
+ident(
+  def s "typecheck.ml" 148 4247 4268 "typecheck.ml" 154 4501 4597
+)
+"typecheck.ml" 148 4247 4268 "typecheck.ml" 148 4247 4270
+type(
+  Type.typ
+)
+ident(
+  def t1 "typecheck.ml" 148 4247 4271 "typecheck.ml" 154 4501 4597
+)
+"typecheck.ml" 148 4247 4271 "typecheck.ml" 148 4247 4273
+type(
+  Type.typ
+)
+ident(
+  def t2 "typecheck.ml" 149 4276 4278 "typecheck.ml" 154 4501 4597
+)
+"typecheck.ml" 149 4276 4281 "typecheck.ml" 149 4276 4283
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "typecheck.ml" 148 4247 4268 "typecheck.ml" 148 4247 4270
+)
+"typecheck.ml" 149 4276 4284 "typecheck.ml" 149 4276 4286
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"typecheck.ml" 149 4276 4287 "typecheck.ml" 149 4276 4289
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "typecheck.ml" 148 4247 4271 "typecheck.ml" 148 4247 4273
+)
+"typecheck.ml" 149 4276 4281 "typecheck.ml" 149 4276 4289
+type(
+  bool
+)
+"typecheck.ml" 150 4295 4303 "typecheck.ml" 150 4295 4308
+type(
+  string
+)
+"typecheck.ml" 150 4295 4317 "typecheck.ml" 150 4295 4318
+type(
+  Ast.exp option
+)
+ident(
+  int_ref e "typecheck.ml" 148 4247 4263 "typecheck.ml" 148 4247 4264
+)
+"typecheck.ml" 150 4295 4320 "typecheck.ml" 150 4295 4321
+type(
+  Ast.stmt option
+)
+ident(
+  int_ref s "typecheck.ml" 148 4247 4266 "typecheck.ml" 148 4247 4267
+)
+"typecheck.ml" 150 4295 4317 "typecheck.ml" 150 4295 4321
+type(
+  Ast.exp option * Ast.stmt option
+)
+"typecheck.ml" 151 4327 4340 "typecheck.ml" 151 4327 4341
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 151 4327 4348 "typecheck.ml" 151 4327 4399
+)
+"typecheck.ml" 151 4327 4335 "typecheck.ml" 151 4327 4341
+type(
+  Ast.exp option
+)
+"typecheck.ml" 151 4327 4343 "typecheck.ml" 151 4327 4344
+type(
+  Ast.stmt option
+)
+"typecheck.ml" 151 4327 4335 "typecheck.ml" 151 4327 4344
+type(
+  Ast.exp option * Ast.stmt option
+)
+"typecheck.ml" 151 4327 4349 "typecheck.ml" 151 4327 4373
+type(
+  string
+)
+"typecheck.ml" 151 4327 4373 "typecheck.ml" 151 4327 4374
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"typecheck.ml" 151 4327 4375 "typecheck.ml" 151 4327 4395
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"typecheck.ml" 151 4327 4396 "typecheck.ml" 151 4327 4397
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 151 4327 4340 "typecheck.ml" 151 4327 4341
+)
+"typecheck.ml" 151 4327 4374 "typecheck.ml" 151 4327 4398
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 151 4327 4348 "typecheck.ml" 151 4327 4399
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 152 4400 4408 "typecheck.ml" 152 4400 4409
+type(
+  Ast.exp option
+)
+"typecheck.ml" 152 4400 4416 "typecheck.ml" 152 4400 4417
+type(
+  Ast.stmt
+)
+ident(
+  def s "typecheck.ml" 152 4400 4421 "typecheck.ml" 152 4400 4472
+)
+"typecheck.ml" 152 4400 4411 "typecheck.ml" 152 4400 4417
+type(
+  Ast.stmt option
+)
+"typecheck.ml" 152 4400 4408 "typecheck.ml" 152 4400 4417
+type(
+  Ast.exp option * Ast.stmt option
+)
+"typecheck.ml" 152 4400 4422 "typecheck.ml" 152 4400 4445
+type(
+  string
+)
+"typecheck.ml" 152 4400 4445 "typecheck.ml" 152 4400 4446
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"typecheck.ml" 152 4400 4447 "typecheck.ml" 152 4400 4468
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"typecheck.ml" 152 4400 4469 "typecheck.ml" 152 4400 4470
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "typecheck.ml" 152 4400 4416 "typecheck.ml" 152 4400 4417
+)
+"typecheck.ml" 152 4400 4446 "typecheck.ml" 152 4400 4471
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 152 4400 4421 "typecheck.ml" 152 4400 4472
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 153 4473 4481 "typecheck.ml" 153 4473 4485
+type(
+  Ast.exp option
+)
+"typecheck.ml" 153 4473 4487 "typecheck.ml" 153 4473 4491
+type(
+  Ast.stmt option
+)
+"typecheck.ml" 153 4473 4481 "typecheck.ml" 153 4473 4491
+type(
+  Ast.exp option * Ast.stmt option
+)
+"typecheck.ml" 153 4473 4495 "typecheck.ml" 153 4473 4497
+type(
+  string
+)
+"typecheck.ml" 150 4295 4311 "typecheck.ml" 153 4473 4497
+type(
+  string
+)
+"typecheck.ml" 154 4501 4505 "typecheck.ml" 154 4501 4511
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 154 4501 4513 "typecheck.ml" 154 4501 4539
+type(
+  string
+)
+"typecheck.ml" 154 4501 4539 "typecheck.ml" 154 4501 4540
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"typecheck.ml" 154 4501 4541 "typecheck.ml" 154 4501 4557
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"typecheck.ml" 154 4501 4558 "typecheck.ml" 154 4501 4560
+type(
+  Type.typ
+)
+ident(
+  int_ref t1 "typecheck.ml" 148 4247 4268 "typecheck.ml" 148 4247 4270
+)
+"typecheck.ml" 154 4501 4540 "typecheck.ml" 154 4501 4561
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 154 4501 4561 "typecheck.ml" 154 4501 4562
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"typecheck.ml" 154 4501 4562 "typecheck.ml" 154 4501 4568
+type(
+  string
+)
+"typecheck.ml" 154 4501 4568 "typecheck.ml" 154 4501 4569
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"typecheck.ml" 154 4501 4570 "typecheck.ml" 154 4501 4586
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"typecheck.ml" 154 4501 4587 "typecheck.ml" 154 4501 4589
+type(
+  Type.typ
+)
+ident(
+  int_ref t2 "typecheck.ml" 148 4247 4271 "typecheck.ml" 148 4247 4273
+)
+"typecheck.ml" 154 4501 4569 "typecheck.ml" 154 4501 4590
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 154 4501 4590 "typecheck.ml" 154 4501 4591
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"typecheck.ml" 154 4501 4591 "typecheck.ml" 154 4501 4596
+type(
+  string
+)
+ident(
+  int_ref probs "typecheck.ml" 150 4295 4303 "typecheck.ml" 150 4295 4308
+)
+"typecheck.ml" 154 4501 4569 "typecheck.ml" 154 4501 4596
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 154 4501 4562 "typecheck.ml" 154 4501 4596
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 154 4501 4540 "typecheck.ml" 154 4501 4596
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 154 4501 4512 "typecheck.ml" 154 4501 4597
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 154 4501 4505 "typecheck.ml" 154 4501 4597
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 150 4295 4299 "typecheck.ml" 154 4501 4597
+type(
+  unit
+)
+"typecheck.ml" 149 4276 4278 "typecheck.ml" 154 4501 4597
+type(
+  unit
+)
+"typecheck.ml" 156 4599 4603 "typecheck.ml" 156 4599 4612
+type(
+  Type.typ -> unit
+)
+ident(
+  def check_reg "typecheck.ml" 63 1410 1410 --
+)
+"typecheck.ml" 156 4599 4613 "typecheck.ml" 156 4599 4614
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 157 4617 4619 "typecheck.ml" 158 4651 4735
+)
+"typecheck.ml" 157 4617 4622 "typecheck.ml" 157 4617 4625
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"typecheck.ml" 157 4617 4627 "typecheck.ml" 157 4617 4642
+type(
+  Type.typ -> bool
+)
+ident(
+  int_ref is_integer_type "typecheck.ml" 39 854 858 "typecheck.ml" 39 854 873
+)
+"typecheck.ml" 157 4617 4643 "typecheck.ml" 157 4617 4644
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 156 4599 4613 "typecheck.ml" 156 4599 4614
+)
+"typecheck.ml" 157 4617 4626 "typecheck.ml" 157 4617 4645
+call(
+  stack
+)
+type(
+  bool
+)
+"typecheck.ml" 157 4617 4622 "typecheck.ml" 157 4617 4645
+type(
+  bool
+)
+"typecheck.ml" 158 4651 4655 "typecheck.ml" 158 4651 4661
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 158 4651 4663 "typecheck.ml" 158 4651 4677
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"typecheck.ml" 158 4651 4678 "typecheck.ml" 158 4651 4713
+type(
+  (string -> string, unit, string) format
+)
+"typecheck.ml" 158 4651 4715 "typecheck.ml" 158 4651 4731
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"typecheck.ml" 158 4651 4732 "typecheck.ml" 158 4651 4733
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 156 4599 4613 "typecheck.ml" 156 4599 4614
+)
+"typecheck.ml" 158 4651 4714 "typecheck.ml" 158 4651 4734
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 158 4651 4662 "typecheck.ml" 158 4651 4735
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 158 4651 4655 "typecheck.ml" 158 4651 4735
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 157 4617 4619 "typecheck.ml" 158 4651 4735
+type(
+  unit
+)
+"typecheck.ml" 160 4737 4741 "typecheck.ml" 160 4737 4751
+type(
+  Type.typ -> unit
+)
+ident(
+  def check_bool "typecheck.ml" 63 1410 1410 --
+)
+"typecheck.ml" 160 4737 4752 "typecheck.ml" 160 4737 4753
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 161 4756 4758 "typecheck.ml" 162 4777 4858
+)
+"typecheck.ml" 161 4756 4761 "typecheck.ml" 161 4756 4762
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 160 4737 4752 "typecheck.ml" 160 4737 4753
+)
+"typecheck.ml" 161 4756 4763 "typecheck.ml" 161 4756 4765
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"typecheck.ml" 161 4756 4770 "typecheck.ml" 161 4756 4771
+type(
+  int
+)
+"typecheck.ml" 161 4756 4766 "typecheck.ml" 161 4756 4771
+type(
+  Type.typ
+)
+"typecheck.ml" 161 4756 4761 "typecheck.ml" 161 4756 4771
+type(
+  bool
+)
+"typecheck.ml" 162 4777 4781 "typecheck.ml" 162 4777 4787
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 162 4777 4789 "typecheck.ml" 162 4777 4803
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"typecheck.ml" 162 4777 4804 "typecheck.ml" 162 4777 4836
+type(
+  (string -> string, unit, string) format
+)
+"typecheck.ml" 162 4777 4838 "typecheck.ml" 162 4777 4854
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"typecheck.ml" 162 4777 4855 "typecheck.ml" 162 4777 4856
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 160 4737 4752 "typecheck.ml" 160 4737 4753
+)
+"typecheck.ml" 162 4777 4837 "typecheck.ml" 162 4777 4857
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 162 4777 4788 "typecheck.ml" 162 4777 4858
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 162 4777 4781 "typecheck.ml" 162 4777 4858
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 161 4756 4758 "typecheck.ml" 162 4777 4858
+type(
+  unit
+)
+"typecheck.ml" 164 4860 4864 "typecheck.ml" 164 4860 4873
+type(
+  Ast.exp -> Ast.exp -> Ast.exp -> Type.typ -> unit
+)
+ident(
+  def check_mem "typecheck.ml" 63 1410 1410 --
+)
+"typecheck.ml" 164 4860 4874 "typecheck.ml" 164 4860 4877
+type(
+  Ast.exp
+)
+ident(
+  def arr "typecheck.ml" 164 4860 4878 "typecheck.ml" 177 5587 5645
+)
+"typecheck.ml" 164 4860 4878 "typecheck.ml" 164 4860 4881
+type(
+  Ast.exp
+)
+ident(
+  def idx "typecheck.ml" 164 4860 4882 "typecheck.ml" 177 5587 5645
+)
+"typecheck.ml" 164 4860 4882 "typecheck.ml" 164 4860 4888
+type(
+  Ast.exp
+)
+ident(
+  def endian "typecheck.ml" 164 4860 4889 "typecheck.ml" 177 5587 5645
+)
+"typecheck.ml" 164 4860 4889 "typecheck.ml" 164 4860 4890
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 165 4893 4895 "typecheck.ml" 177 5587 5645
+)
+"typecheck.ml" 165 4893 4899 "typecheck.ml" 165 4893 4901
+type(
+  Type.typ
+)
+"typecheck.ml" 165 4893 4904 "typecheck.ml" 165 4893 4922
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 165 4893 4923 "typecheck.ml" 165 4893 4927
+type(
+  bool
+)
+"typecheck.ml" 165 4893 4928 "typecheck.ml" 165 4893 4931
+type(
+  Ast.exp
+)
+ident(
+  int_ref arr "typecheck.ml" 164 4860 4874 "typecheck.ml" 164 4860 4877
+)
+"typecheck.ml" 165 4893 4904 "typecheck.ml" 165 4893 4931
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 166 4932 4938 "typecheck.ml" 166 4932 4940
+type(
+  Type.typ
+)
+"typecheck.ml" 166 4932 4943 "typecheck.ml" 166 4932 4961
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 166 4932 4962 "typecheck.ml" 166 4932 4966
+type(
+  bool
+)
+"typecheck.ml" 166 4932 4967 "typecheck.ml" 166 4932 4970
+type(
+  Ast.exp
+)
+ident(
+  int_ref idx "typecheck.ml" 164 4860 4878 "typecheck.ml" 164 4860 4881
+)
+"typecheck.ml" 166 4932 4943 "typecheck.ml" 166 4932 4970
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 167 4971 4977 "typecheck.ml" 167 4971 4979
+type(
+  Type.typ
+)
+"typecheck.ml" 167 4971 4982 "typecheck.ml" 167 4971 5000
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 167 4971 5001 "typecheck.ml" 167 4971 5005
+type(
+  bool
+)
+"typecheck.ml" 167 4971 5006 "typecheck.ml" 167 4971 5012
+type(
+  Ast.exp
+)
+ident(
+  int_ref endian "typecheck.ml" 164 4860 4882 "typecheck.ml" 164 4860 4888
+)
+"typecheck.ml" 167 4971 4982 "typecheck.ml" 167 4971 5012
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 168 5016 5021 "typecheck.ml" 168 5016 5023
+type(
+  Type.typ
+)
+ident(
+  int_ref te "typecheck.ml" 167 4971 4977 "typecheck.ml" 167 4971 4979
+)
+"typecheck.ml" 168 5016 5024 "typecheck.ml" 168 5016 5026
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"typecheck.ml" 168 5016 5027 "typecheck.ml" 168 5016 5032
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_1
+)
+"typecheck.ml" 168 5016 5021 "typecheck.ml" 168 5016 5032
+type(
+  bool
+)
+"typecheck.ml" 168 5016 5038 "typecheck.ml" 168 5016 5044
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 168 5016 5045 "typecheck.ml" 168 5016 5071
+type(
+  string
+)
+"typecheck.ml" 168 5016 5038 "typecheck.ml" 168 5016 5071
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 168 5016 5018 "typecheck.ml" 168 5016 5071
+type(
+  unit
+)
+"typecheck.ml" 169 5073 5078 "typecheck.ml" 169 5073 5081
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"typecheck.ml" 169 5073 5082 "typecheck.ml" 169 5073 5097
+type(
+  Type.typ -> bool
+)
+ident(
+  int_ref is_integer_type "typecheck.ml" 39 854 858 "typecheck.ml" 39 854 873
+)
+"typecheck.ml" 169 5073 5098 "typecheck.ml" 169 5073 5100
+type(
+  Type.typ
+)
+ident(
+  int_ref ti "typecheck.ml" 166 4932 4938 "typecheck.ml" 166 4932 4940
+)
+"typecheck.ml" 169 5073 5081 "typecheck.ml" 169 5073 5101
+call(
+  stack
+)
+type(
+  bool
+)
+"typecheck.ml" 169 5073 5078 "typecheck.ml" 169 5073 5101
+type(
+  bool
+)
+"typecheck.ml" 169 5073 5107 "typecheck.ml" 169 5073 5113
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 169 5073 5114 "typecheck.ml" 169 5073 5145
+type(
+  string
+)
+"typecheck.ml" 169 5073 5107 "typecheck.ml" 169 5073 5145
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 169 5073 5075 "typecheck.ml" 169 5073 5145
+type(
+  unit
+)
+"typecheck.ml" 170 5147 5155 "typecheck.ml" 170 5147 5157
+type(
+  Type.typ
+)
+ident(
+  int_ref ta "typecheck.ml" 165 4893 4899 "typecheck.ml" 165 4893 4901
+)
+"typecheck.ml" 171 5163 5173 "typecheck.ml" 171 5163 5174
+type(
+  Type.typ
+)
+ident(
+  def i "typecheck.ml" 172 5181 5185 "typecheck.ml" 173 5298 5371
+)
+"typecheck.ml" 171 5163 5175 "typecheck.ml" 171 5163 5176
+type(
+  Type.typ
+)
+ident(
+  def e "typecheck.ml" 172 5181 5185 "typecheck.ml" 173 5298 5371
+)
+"typecheck.ml" 171 5163 5167 "typecheck.ml" 171 5163 5177
+type(
+  Type.typ
+)
+"typecheck.ml" 172 5181 5185 "typecheck.ml" 172 5181 5193
+type(
+  Type.typ ->
+  Type.typ -> (string -> string -> string, unit, string) format -> unit
+)
+ident(
+  int_ref check_eq "typecheck.ml" 29 623 627 "typecheck.ml" 29 623 635
+)
+"typecheck.ml" 172 5181 5194 "typecheck.ml" 172 5181 5196
+type(
+  Type.typ
+)
+ident(
+  int_ref ti "typecheck.ml" 166 4932 4938 "typecheck.ml" 166 4932 4940
+)
+"typecheck.ml" 172 5181 5197 "typecheck.ml" 172 5181 5198
+type(
+  Type.typ
+)
+ident(
+  int_ref i "typecheck.ml" 171 5163 5173 "typecheck.ml" 171 5163 5174
+)
+"typecheck.ml" 172 5181 5199 "typecheck.ml" 172 5181 5296
+type(
+  (string -> string -> string, unit, string) format
+)
+"typecheck.ml" 172 5181 5185 "typecheck.ml" 172 5181 5296
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 173 5298 5302 "typecheck.ml" 173 5298 5310
+type(
+  Type.typ ->
+  Type.typ -> (string -> string -> string, unit, string) format -> unit
+)
+ident(
+  int_ref check_eq "typecheck.ml" 29 623 627 "typecheck.ml" 29 623 635
+)
+"typecheck.ml" 173 5298 5311 "typecheck.ml" 173 5298 5312
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 164 4860 4889 "typecheck.ml" 164 4860 4890
+)
+"typecheck.ml" 173 5298 5313 "typecheck.ml" 173 5298 5314
+type(
+  Type.typ
+)
+ident(
+  int_ref e "typecheck.ml" 171 5163 5175 "typecheck.ml" 171 5163 5176
+)
+"typecheck.ml" 173 5298 5315 "typecheck.ml" 173 5298 5370
+type(
+  (string -> string -> string, unit, string) format
+)
+"typecheck.ml" 173 5298 5302 "typecheck.ml" 173 5298 5371
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 172 5181 5185 "typecheck.ml" 173 5298 5371
+type(
+  unit
+)
+"typecheck.ml" 174 5372 5381 "typecheck.ml" 174 5372 5382
+type(
+  Type.typ
+)
+ident(
+  def i "typecheck.ml" 175 5389 5393 "typecheck.ml" 176 5511 5586
+)
+"typecheck.ml" 174 5372 5383 "typecheck.ml" 174 5372 5384
+type(
+  Type.typ
+)
+ident(
+  def e "typecheck.ml" 175 5389 5393 "typecheck.ml" 176 5511 5586
+)
+"typecheck.ml" 174 5372 5376 "typecheck.ml" 174 5372 5385
+type(
+  Type.typ
+)
+"typecheck.ml" 175 5389 5393 "typecheck.ml" 175 5389 5401
+type(
+  Type.typ ->
+  Type.typ -> (string -> string -> string, unit, string) format -> unit
+)
+ident(
+  int_ref check_eq "typecheck.ml" 29 623 627 "typecheck.ml" 29 623 635
+)
+"typecheck.ml" 175 5389 5402 "typecheck.ml" 175 5389 5404
+type(
+  Type.typ
+)
+ident(
+  int_ref ti "typecheck.ml" 166 4932 4938 "typecheck.ml" 166 4932 4940
+)
+"typecheck.ml" 175 5389 5405 "typecheck.ml" 175 5389 5406
+type(
+  Type.typ
+)
+ident(
+  int_ref i "typecheck.ml" 174 5372 5381 "typecheck.ml" 174 5372 5382
+)
+"typecheck.ml" 175 5389 5407 "typecheck.ml" 175 5389 5509
+type(
+  (string -> string -> string, unit, string) format
+)
+"typecheck.ml" 175 5389 5393 "typecheck.ml" 175 5389 5509
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 176 5511 5515 "typecheck.ml" 176 5511 5525
+type(
+  Type.typ ->
+  Type.typ -> (string -> string -> string, unit, string) format -> unit
+)
+ident(
+  int_ref check_mult "typecheck.ml" 32 666 670 "typecheck.ml" 32 666 680
+)
+"typecheck.ml" 176 5511 5526 "typecheck.ml" 176 5511 5527
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 164 4860 4889 "typecheck.ml" 164 4860 4890
+)
+"typecheck.ml" 176 5511 5528 "typecheck.ml" 176 5511 5529
+type(
+  Type.typ
+)
+ident(
+  int_ref e "typecheck.ml" 174 5372 5383 "typecheck.ml" 174 5372 5384
+)
+"typecheck.ml" 176 5511 5530 "typecheck.ml" 176 5511 5586
+type(
+  (string -> string -> string, unit, string) format
+)
+"typecheck.ml" 176 5511 5515 "typecheck.ml" 176 5511 5586
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 175 5389 5393 "typecheck.ml" 176 5511 5586
+type(
+  unit
+)
+"typecheck.ml" 177 5587 5591 "typecheck.ml" 177 5587 5592
+type(
+  Type.typ
+)
+"typecheck.ml" 177 5587 5596 "typecheck.ml" 177 5587 5602
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 177 5587 5603 "typecheck.ml" 177 5587 5645
+type(
+  string
+)
+"typecheck.ml" 177 5587 5596 "typecheck.ml" 177 5587 5645
+type(
+  unit
+)
+"typecheck.ml" 170 5147 5149 "typecheck.ml" 177 5587 5645
+type(
+  unit
+)
+"typecheck.ml" 169 5073 5075 "typecheck.ml" 177 5587 5645
+type(
+  unit
+)
+"typecheck.ml" 168 5016 5018 "typecheck.ml" 177 5587 5645
+type(
+  unit
+)
+"typecheck.ml" 165 4893 4895 "typecheck.ml" 177 5587 5645
+type(
+  unit
+)
+"typecheck.ml" 179 5647 5651 "typecheck.ml" 179 5647 5668
+type(
+  Ast.exp -> unit
+)
+ident(
+  def check_cjmp_direct "typecheck.ml" 63 1410 1410 --
+)
+"typecheck.ml" 179 5647 5669 "typecheck.ml" 179 5647 5670
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 180 5673 5675 "typecheck.ml" 180 5673 5788
+)
+"typecheck.ml" 180 5673 5678 "typecheck.ml" 180 5673 5692
+type(
+  Ast.exp -> Type.label option
+)
+ident(
+  ext_ref Ast.lab_of_exp
+)
+"typecheck.ml" 180 5673 5693 "typecheck.ml" 180 5673 5694
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 179 5647 5669 "typecheck.ml" 179 5647 5670
+)
+"typecheck.ml" 180 5673 5678 "typecheck.ml" 180 5673 5694
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"typecheck.ml" 180 5673 5695 "typecheck.ml" 180 5673 5696
+type(
+  Type.label option -> Type.label option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"typecheck.ml" 180 5673 5697 "typecheck.ml" 180 5673 5701
+type(
+  Type.label option
+)
+"typecheck.ml" 180 5673 5678 "typecheck.ml" 180 5673 5701
+type(
+  bool
+)
+"typecheck.ml" 180 5673 5707 "typecheck.ml" 180 5673 5713
+type(
+  string -> unit
+)
+ident(
+  int_ref terror "typecheck.ml" 13 204 208 "typecheck.ml" 13 204 214
+)
+"typecheck.ml" 180 5673 5714 "typecheck.ml" 180 5673 5788
+type(
+  string
+)
+"typecheck.ml" 180 5673 5707 "typecheck.ml" 180 5673 5788
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 180 5673 5675 "typecheck.ml" 180 5673 5788
+type(
+  unit
+)
+"typecheck.ml" 182 5790 5794 "typecheck.ml" 182 5790 5803
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  def infer_ast "typecheck.ml" 184 5832 5832 --
+)
+"typecheck.ml" 182 5790 5806 "typecheck.ml" 182 5790 5824
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 182 5790 5825 "typecheck.ml" 182 5790 5830
+type(
+  bool
+)
+"typecheck.ml" 182 5790 5806 "typecheck.ml" 182 5790 5830
+call(
+  stack
+)
+type(
+  Ast.exp -> Type.typ
+)
+"typecheck.ml" 184 5832 5840 "typecheck.ml" 184 5832 5849
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  def infer_ssa "typecheck.ml" 184 5832 5832 --
+)
+"typecheck.ml" 185 5861 5873 "typecheck.ml" 185 5861 5874
+type(
+  Big_int_Z.big_int
+)
+"typecheck.ml" 185 5861 5875 "typecheck.ml" 185 5861 5876
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 185 5861 5881 "typecheck.ml" 185 5861 5882
+)
+"typecheck.ml" 185 5861 5865 "typecheck.ml" 185 5861 5877
+type(
+  Ssa.exp
+)
+"typecheck.ml" 185 5861 5881 "typecheck.ml" 185 5861 5882
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 185 5861 5875 "typecheck.ml" 185 5861 5876
+)
+"typecheck.ml" 186 5883 5895 "typecheck.ml" 186 5883 5896
+type(
+  Ssa.var
+)
+ident(
+  def v "typecheck.ml" 186 5883 5900 "typecheck.ml" 186 5883 5909
+)
+"typecheck.ml" 186 5883 5887 "typecheck.ml" 186 5883 5896
+type(
+  Ssa.exp
+)
+"typecheck.ml" 186 5883 5900 "typecheck.ml" 186 5883 5907
+type(
+  Ssa.var -> Type.typ
+)
+ident(
+  ext_ref Var.typ
+)
+"typecheck.ml" 186 5883 5908 "typecheck.ml" 186 5883 5909
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "typecheck.ml" 186 5883 5895 "typecheck.ml" 186 5883 5896
+)
+"typecheck.ml" 186 5883 5900 "typecheck.ml" 186 5883 5909
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 187 5910 5922 "typecheck.ml" 187 5910 5923
+type(
+  string
+)
+"typecheck.ml" 187 5910 5914 "typecheck.ml" 187 5910 5923
+type(
+  Ssa.exp
+)
+"typecheck.ml" 189 5967 5971 "typecheck.ml" 189 5967 5977
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_64
+)
+"typecheck.ml" 190 5978 5991 "typecheck.ml" 190 5978 5992
+type(
+  Ssa.exp
+)
+"typecheck.ml" 190 5978 5993 "typecheck.ml" 190 5978 5994
+type(
+  Ssa.exp
+)
+"typecheck.ml" 190 5978 5995 "typecheck.ml" 190 5978 5996
+type(
+  Ssa.exp
+)
+"typecheck.ml" 190 5978 5997 "typecheck.ml" 190 5978 5998
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 193 6041 6048 "typecheck.ml" 193 6041 6049
+)
+"typecheck.ml" 190 5978 5982 "typecheck.ml" 190 5978 5999
+type(
+  Ssa.exp
+)
+"typecheck.ml" 191 6000 6013 "typecheck.ml" 191 6000 6014
+type(
+  Type.cast_type
+)
+"typecheck.ml" 191 6000 6015 "typecheck.ml" 191 6000 6016
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 193 6041 6048 "typecheck.ml" 193 6041 6049
+)
+"typecheck.ml" 191 6000 6017 "typecheck.ml" 191 6000 6018
+type(
+  Ssa.exp
+)
+"typecheck.ml" 191 6000 6004 "typecheck.ml" 191 6000 6019
+type(
+  Ssa.exp
+)
+"typecheck.ml" 190 5978 5982 "typecheck.ml" 191 6000 6019
+type(
+  Ssa.exp
+)
+"typecheck.ml" 192 6020 6036 "typecheck.ml" 192 6020 6037
+type(
+  string
+)
+"typecheck.ml" 192 6020 6038 "typecheck.ml" 192 6020 6039
+type(
+  Type.typ
+)
+ident(
+  def t "typecheck.ml" 193 6041 6048 "typecheck.ml" 193 6041 6049
+)
+"typecheck.ml" 192 6020 6024 "typecheck.ml" 192 6020 6040
+type(
+  Ssa.exp
+)
+"typecheck.ml" 190 5978 5982 "typecheck.ml" 192 6020 6040
+type(
+  Ssa.exp
+)
+"typecheck.ml" 193 6041 6048 "typecheck.ml" 193 6041 6049
+type(
+  Type.typ
+)
+ident(
+  int_ref t "typecheck.ml" 190 5978 5997 "typecheck.ml" 190 5978 5998
+)
+"typecheck.ml" 194 6050 6065 "typecheck.ml" 194 6050 6067
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6068 "typecheck.ml" 194 6050 6071
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6065 "typecheck.ml" 194 6050 6071
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6072 "typecheck.ml" 194 6050 6074
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6065 "typecheck.ml" 194 6050 6074
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6075 "typecheck.ml" 194 6050 6077
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6065 "typecheck.ml" 194 6050 6077
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6078 "typecheck.ml" 194 6050 6081
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6065 "typecheck.ml" 194 6050 6081
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6082 "typecheck.ml" 194 6050 6085
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6064 "typecheck.ml" 194 6050 6086
+type(
+  Type.binop_type
+)
+"typecheck.ml" 194 6050 6087 "typecheck.ml" 194 6050 6088
+type(
+  Ssa.exp
+)
+"typecheck.ml" 194 6050 6089 "typecheck.ml" 194 6050 6090
+type(
+  Ssa.exp
+)
+"typecheck.ml" 194 6050 6054 "typecheck.ml" 194 6050 6091
+type(
+  Ssa.exp
+)
+"typecheck.ml" 195 6092 6099 "typecheck.ml" 195 6092 6104
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_1
+)
+"typecheck.ml" 196 6105 6117 "typecheck.ml" 196 6105 6118
+type(
+  Ssa.exp
+)
+"typecheck.ml" 196 6105 6119 "typecheck.ml" 196 6105 6120
+type(
+  Ssa.exp
+)
+ident(
+  def v "typecheck.ml" 200 6191 6197 "typecheck.ml" 200 6191 6208
+)
+"typecheck.ml" 196 6105 6121 "typecheck.ml" 196 6105 6122
+type(
+  Ssa.exp
+)
+"typecheck.ml" 196 6105 6109 "typecheck.ml" 196 6105 6123
+type(
+  Ssa.exp
+)
+"typecheck.ml" 197 6124 6138 "typecheck.ml" 197 6124 6139
+type(
+  Type.binop_type
+)
+"typecheck.ml" 197 6124 6140 "typecheck.ml" 197 6124 6141
+type(
+  Ssa.exp
+)
+ident(
+  def v "typecheck.ml" 200 6191 6197 "typecheck.ml" 200 6191 6208
+)
+"typecheck.ml" 197 6124 6142 "typecheck.ml" 197 6124 6143
+type(
+  Ssa.exp
+)
+"typecheck.ml" 197 6124 6128 "typecheck.ml" 197 6124 6144
+type(
+  Ssa.exp
+)
+"typecheck.ml" 196 6105 6109 "typecheck.ml" 197 6124 6144
+type(
+  Ssa.exp
+)
+"typecheck.ml" 198 6145 6159 "typecheck.ml" 198 6145 6160
+type(
+  Ssa.exp
+)
+ident(
+  def v "typecheck.ml" 200 6191 6197 "typecheck.ml" 200 6191 6208
+)
+"typecheck.ml" 198 6145 6161 "typecheck.ml" 198 6145 6162
+type(
+  Ssa.exp
+)
+"typecheck.ml" 198 6145 6163 "typecheck.ml" 198 6145 6164
+type(
+  Ssa.exp
+)
+"typecheck.ml" 198 6145 6165 "typecheck.ml" 198 6145 6166
+type(
+  Ssa.exp
+)
+"typecheck.ml" 198 6145 6167 "typecheck.ml" 198 6145 6168
+type(
+  Type.typ
+)
+"typecheck.ml" 198 6145 6149 "typecheck.ml" 198 6145 6169
+type(
+  Ssa.exp
+)
+"typecheck.ml" 196 6105 6109 "typecheck.ml" 198 6145 6169
+type(
+  Ssa.exp
+)
+"typecheck.ml" 199 6170 6183 "typecheck.ml" 199 6170 6184
+type(
+  Type.unop_type
+)
+"typecheck.ml" 199 6170 6185 "typecheck.ml" 199 6170 6186
+type(
+  Ssa.exp
+)
+ident(
+  def v "typecheck.ml" 200 6191 6197 "typecheck.ml" 200 6191 6208
+)
+"typecheck.ml" 199 6170 6174 "typecheck.ml" 199 6170 6187
+type(
+  Ssa.exp
+)
+"typecheck.ml" 196 6105 6109 "typecheck.ml" 199 6170 6187
+type(
+  Ssa.exp
+)
+"typecheck.ml" 200 6191 6197 "typecheck.ml" 200 6191 6206
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  int_ref infer_ssa "typecheck.ml" 184 5832 5840 "typecheck.ml" 184 5832 5849
+)
+"typecheck.ml" 200 6191 6207 "typecheck.ml" 200 6191 6208
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v "typecheck.ml" 196 6105 6119 "typecheck.ml" 196 6105 6120
+)
+"typecheck.ml" 200 6191 6197 "typecheck.ml" 200 6191 6208
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 201 6209 6225 "typecheck.ml" 201 6209 6226
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def h "typecheck.ml" 202 6237 6243 "typecheck.ml" 204 6297 6324
+)
+"typecheck.ml" 201 6209 6228 "typecheck.ml" 201 6209 6229
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def l "typecheck.ml" 202 6237 6243 "typecheck.ml" 204 6297 6324
+)
+"typecheck.ml" 201 6209 6231 "typecheck.ml" 201 6209 6232
+type(
+  Ssa.exp
+)
+ident(
+  def v "typecheck.ml" 202 6237 6243 "typecheck.ml" 204 6297 6324
+)
+"typecheck.ml" 201 6209 6213 "typecheck.ml" 201 6209 6233
+type(
+  Ssa.exp
+)
+"typecheck.ml" 202 6237 6247 "typecheck.ml" 202 6237 6248
+type(
+  Z.t
+)
+"typecheck.ml" 202 6237 6253 "typecheck.ml" 202 6237 6254
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "typecheck.ml" 201 6209 6225 "typecheck.ml" 201 6209 6226
+)
+"typecheck.ml" 202 6237 6255 "typecheck.ml" 202 6237 6257
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( -% )
+)
+"typecheck.ml" 202 6237 6258 "typecheck.ml" 202 6237 6259
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "typecheck.ml" 201 6209 6228 "typecheck.ml" 201 6209 6229
+)
+"typecheck.ml" 202 6237 6252 "typecheck.ml" 202 6237 6260
+call(
+  stack
+)
+type(
+  Z.t
+)
+"typecheck.ml" 202 6237 6261 "typecheck.ml" 202 6237 6263
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.( +% )
+)
+"typecheck.ml" 202 6237 6264 "typecheck.ml" 202 6237 6267
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"typecheck.ml" 202 6237 6251 "typecheck.ml" 202 6237 6268
+call(
+  stack
+)
+type(
+  Z.t
+)
+"typecheck.ml" 203 6272 6285 "typecheck.ml" 203 6272 6286
+type(
+  Z.t
+)
+ident(
+  int_ref n "typecheck.ml" 202 6237 6247 "typecheck.ml" 202 6237 6248
+)
+"typecheck.ml" 203 6272 6287 "typecheck.ml" 203 6272 6290
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( >=% )
+)
+"typecheck.ml" 203 6272 6291 "typecheck.ml" 203 6272 6294
+type(
+  Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"typecheck.ml" 203 6272 6284 "typecheck.ml" 203 6272 6295
+call(
+  stack
+)
+type(
+  bool
+)
+"typecheck.ml" 203 6272 6278 "typecheck.ml" 203 6272 6295
+type(
+  unit
+)
+"typecheck.ml" 204 6297 6307 "typecheck.ml" 204 6297 6321
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Big_int_Z.int_of_big_int
+)
+"typecheck.ml" 204 6297 6322 "typecheck.ml" 204 6297 6323
+type(
+  Z.t
+)
+ident(
+  int_ref n "typecheck.ml" 202 6237 6247 "typecheck.ml" 202 6237 6248
+)
+"typecheck.ml" 204 6297 6306 "typecheck.ml" 204 6297 6324
+call(
+  stack
+)
+type(
+  int
+)
+"typecheck.ml" 204 6297 6303 "typecheck.ml" 204 6297 6324
+type(
+  Type.typ
+)
+"typecheck.ml" 203 6272 6278 "typecheck.ml" 204 6297 6324
+type(
+  Type.typ
+)
+"typecheck.ml" 202 6237 6243 "typecheck.ml" 204 6297 6324
+type(
+  Type.typ
+)
+"typecheck.ml" 205 6325 6340 "typecheck.ml" 205 6325 6342
+type(
+  Ssa.exp
+)
+ident(
+  def lv "typecheck.ml" 206 6351 6357 "typecheck.ml" 208 6437 6471
+)
+"typecheck.ml" 205 6325 6344 "typecheck.ml" 205 6325 6346
+type(
+  Ssa.exp
+)
+ident(
+  def rv "typecheck.ml" 206 6351 6357 "typecheck.ml" 208 6437 6471
+)
+"typecheck.ml" 205 6325 6329 "typecheck.ml" 205 6325 6347
+type(
+  Ssa.exp
+)
+"typecheck.ml" 206 6351 6364 "typecheck.ml" 206 6351 6373
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  int_ref infer_ssa "typecheck.ml" 184 5832 5840 "typecheck.ml" 184 5832 5849
+)
+"typecheck.ml" 206 6351 6374 "typecheck.ml" 206 6351 6376
+type(
+  Ssa.exp
+)
+ident(
+  int_ref lv "typecheck.ml" 205 6325 6340 "typecheck.ml" 205 6325 6342
+)
+"typecheck.ml" 206 6351 6364 "typecheck.ml" 206 6351 6376
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 206 6351 6378 "typecheck.ml" 206 6351 6387
+type(
+  Ssa.exp -> Type.typ
+)
+ident(
+  int_ref infer_ssa "typecheck.ml" 184 5832 5840 "typecheck.ml" 184 5832 5849
+)
+"typecheck.ml" 206 6351 6388 "typecheck.ml" 206 6351 6390
+type(
+  Ssa.exp
+)
+ident(
+  int_ref rv "typecheck.ml" 205 6325 6344 "typecheck.ml" 205 6325 6346
+)
+"typecheck.ml" 206 6351 6378 "typecheck.ml" 206 6351 6390
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 206 6351 6364 "typecheck.ml" 206 6351 6390
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 207 6396 6407 "typecheck.ml" 207 6396 6411
+type(
+  int
+)
+ident(
+  def lt "typecheck.ml" 207 6396 6424 "typecheck.ml" 207 6396 6436
+)
+"typecheck.ml" 207 6396 6404 "typecheck.ml" 207 6396 6411
+type(
+  Type.typ
+)
+"typecheck.ml" 207 6396 6416 "typecheck.ml" 207 6396 6420
+type(
+  int
+)
+ident(
+  def rt "typecheck.ml" 207 6396 6424 "typecheck.ml" 207 6396 6436
+)
+"typecheck.ml" 207 6396 6413 "typecheck.ml" 207 6396 6420
+type(
+  Type.typ
+)
+"typecheck.ml" 207 6396 6404 "typecheck.ml" 207 6396 6420
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 207 6396 6428 "typecheck.ml" 207 6396 6430
+type(
+  int
+)
+ident(
+  int_ref lt "typecheck.ml" 207 6396 6407 "typecheck.ml" 207 6396 6411
+)
+"typecheck.ml" 207 6396 6431 "typecheck.ml" 207 6396 6432
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"typecheck.ml" 207 6396 6433 "typecheck.ml" 207 6396 6435
+type(
+  int
+)
+ident(
+  int_ref rt "typecheck.ml" 207 6396 6416 "typecheck.ml" 207 6396 6420
+)
+"typecheck.ml" 207 6396 6427 "typecheck.ml" 207 6396 6436
+type(
+  int
+)
+"typecheck.ml" 207 6396 6424 "typecheck.ml" 207 6396 6436
+type(
+  Type.typ
+)
+"typecheck.ml" 208 6437 6445 "typecheck.ml" 208 6437 6446
+type(
+  Type.typ * Type.typ
+)
+"typecheck.ml" 208 6437 6450 "typecheck.ml" 208 6437 6458
+type(
+  string -> Type.typ
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"typecheck.ml" 208 6437 6459 "typecheck.ml" 208 6437 6470
+type(
+  string
+)
+"typecheck.ml" 208 6437 6450 "typecheck.ml" 208 6437 6470
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 206 6351 6357 "typecheck.ml" 208 6437 6471
+type(
+  Type.typ
+)
+"typecheck.ml" 209 6472 6484 "typecheck.ml" 209 6472 6485
+type(
+  Ssa.var
+)
+ident(
+  def x "typecheck.ml" 210 6490 6497 "typecheck.ml" 210 6490 6506
+)
+"typecheck.ml" 209 6472 6487 "typecheck.ml" 209 6472 6488
+type(
+  Ssa.var list
+)
+"typecheck.ml" 209 6472 6483 "typecheck.ml" 209 6472 6489
+type(
+  Ssa.var list
+)
+"typecheck.ml" 209 6472 6476 "typecheck.ml" 209 6472 6489
+type(
+  Ssa.exp
+)
+"typecheck.ml" 210 6490 6497 "typecheck.ml" 210 6490 6504
+type(
+  Ssa.var -> Type.typ
+)
+ident(
+  ext_ref Var.typ
+)
+"typecheck.ml" 210 6490 6505 "typecheck.ml" 210 6490 6506
+type(
+  Ssa.var
+)
+ident(
+  int_ref x "typecheck.ml" 209 6472 6484 "typecheck.ml" 209 6472 6485
+)
+"typecheck.ml" 210 6490 6497 "typecheck.ml" 210 6490 6506
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 211 6507 6519 "typecheck.ml" 211 6507 6521
+type(
+  Ssa.var list
+)
+"typecheck.ml" 211 6507 6511 "typecheck.ml" 211 6507 6521
+type(
+  Ssa.exp
+)
+"typecheck.ml" 212 6522 6529 "typecheck.ml" 212 6522 6537
+type(
+  string -> Type.typ
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"typecheck.ml" 212 6522 6538 "typecheck.ml" 212 6522 6561
+type(
+  string
+)
+"typecheck.ml" 212 6522 6529 "typecheck.ml" 212 6522 6561
+call(
+  tail
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 184 5832 5852 "typecheck.ml" 212 6522 6561
+type(
+  Ssa.exp -> Type.typ
+)
+"typecheck.ml" 214 6563 6567 "typecheck.ml" 214 6563 6587
+type(
+  Ast.exp -> unit
+)
+ident(
+  def typecheck_expression "typecheck.ml" 220 6716 6716 --
+)
+"typecheck.ml" 214 6563 6588 "typecheck.ml" 214 6563 6589
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 214 6563 6592 "typecheck.ml" 214 6563 6625
+)
+"typecheck.ml" 214 6563 6592 "typecheck.ml" 214 6563 6598
+type(
+  Type.typ -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"typecheck.ml" 214 6563 6599 "typecheck.ml" 214 6563 6617
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 214 6563 6618 "typecheck.ml" 214 6563 6622
+type(
+  bool
+)
+"typecheck.ml" 214 6563 6623 "typecheck.ml" 214 6563 6624
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 214 6563 6588 "typecheck.ml" 214 6563 6589
+)
+"typecheck.ml" 214 6563 6598 "typecheck.ml" 214 6563 6625
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 214 6563 6592 "typecheck.ml" 214 6563 6625
+type(
+  unit
+)
+"typecheck.ml" 220 6716 6720 "typecheck.ml" 220 6716 6734
+type(
+  Ast.stmt -> unit
+)
+ident(
+  def typecheck_stmt "typecheck.ml" 252 7484 7484 --
+)
+"typecheck.ml" 221 6737 6743 "typecheck.ml" 221 6737 6751
+type(
+  Ast.exp -> Type.typ
+)
+"typecheck.ml" 221 6737 6754 "typecheck.ml" 221 6737 6772
+type(
+  bool -> Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_ast_internal "typecheck.ml" 63 1410 1418 "typecheck.ml" 63 1410 1436
+)
+"typecheck.ml" 221 6737 6773 "typecheck.ml" 221 6737 6777
+type(
+  bool
+)
+"typecheck.ml" 221 6737 6754 "typecheck.ml" 221 6737 6777
+call(
+  stack
+)
+type(
+  Ast.exp -> Type.typ
+)
+"typecheck.ml" 223 6792 6803 "typecheck.ml" 223 6792 6804
+type(
+  Ast.var
+)
+ident(
+  def v "typecheck.ml" 224 6820 6826 "typecheck.ml" 226 6877 6902
+)
+"typecheck.ml" 223 6792 6806 "typecheck.ml" 223 6792 6807
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 224 6820 6826 "typecheck.ml" 226 6877 6902
+)
+"typecheck.ml" 223 6792 6809 "typecheck.ml" 223 6792 6810
+type(
+  Ast.attrs
+)
+"typecheck.ml" 223 6792 6802 "typecheck.ml" 223 6792 6811
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"typecheck.ml" 223 6792 6798 "typecheck.ml" 223 6792 6811
+type(
+  Ast.stmt
+)
+"typecheck.ml" 223 6792 6798 "typecheck.ml" 223 6792 6816
+type(
+  Ast.stmt
+)
+ident(
+  def s "typecheck.ml" 224 6820 6826 "typecheck.ml" 226 6877 6902
+)
+"typecheck.ml" 224 6820 6830 "typecheck.ml" 224 6820 6832
+type(
+  Type.typ
+)
+"typecheck.ml" 224 6820 6835 "typecheck.ml" 224 6820 6842
+type(
+  Ast.var -> Type.typ
+)
+ident(
+  ext_ref Var.typ
+)
+"typecheck.ml" 224 6820 6843 "typecheck.ml" 224 6820 6844
+type(
+  Ast.var
+)
+ident(
+  int_ref v "typecheck.ml" 223 6792 6803 "typecheck.ml" 223 6792 6804
+)
+"typecheck.ml" 224 6820 6835 "typecheck.ml" 224 6820 6844
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 225 6848 6858 "typecheck.ml" 225 6848 6860
+type(
+  Type.typ
+)
+"typecheck.ml" 225 6848 6863 "typecheck.ml" 225 6848 6871
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_te "typecheck.ml" 221 6737 6743 "typecheck.ml" 221 6737 6751
+)
+"typecheck.ml" 225 6848 6872 "typecheck.ml" 225 6848 6873
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 223 6792 6806 "typecheck.ml" 223 6792 6807
+)
+"typecheck.ml" 225 6848 6863 "typecheck.ml" 225 6848 6873
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 226 6877 6883 "typecheck.ml" 226 6877 6893
+type(
+  ?e:Ast.exp -> ?s:Ast.stmt -> Type.typ -> Type.typ -> unit
+)
+ident(
+  int_ref check_same "typecheck.ml" 148 4247 4251 "typecheck.ml" 148 4247 4261
+)
+"typecheck.ml" 226 6877 6895 "typecheck.ml" 226 6877 6896
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "typecheck.ml" 223 6792 6798 "typecheck.ml" 223 6792 6816
+)
+"typecheck.ml" 226 6877 6897 "typecheck.ml" 226 6877 6899
+type(
+  Type.typ
+)
+ident(
+  int_ref vt "typecheck.ml" 224 6820 6830 "typecheck.ml" 224 6820 6832
+)
+"typecheck.ml" 226 6877 6900 "typecheck.ml" 226 6877 6902
+type(
+  Type.typ
+)
+ident(
+  int_ref et "typecheck.ml" 225 6848 6858 "typecheck.ml" 225 6848 6860
+)
+"typecheck.ml" 226 6877 6883 "typecheck.ml" 226 6877 6902
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 225 6848 6854 "typecheck.ml" 226 6877 6902
+type(
+  unit
+)
+"typecheck.ml" 224 6820 6826 "typecheck.ml" 226 6877 6902
+type(
+  unit
+)
+"typecheck.ml" 227 6903 6913 "typecheck.ml" 227 6903 6914
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 228 6922 6928 "typecheck.ml" 229 6951 6969
+)
+"typecheck.ml" 227 6903 6916 "typecheck.ml" 227 6903 6917
+type(
+  Ast.attrs
+)
+"typecheck.ml" 227 6903 6912 "typecheck.ml" 227 6903 6918
+type(
+  Ast.exp * Ast.attrs
+)
+"typecheck.ml" 227 6903 6909 "typecheck.ml" 227 6903 6918
+type(
+  Ast.stmt
+)
+"typecheck.ml" 228 6922 6932 "typecheck.ml" 228 6922 6934
+type(
+  Type.typ
+)
+"typecheck.ml" 228 6922 6937 "typecheck.ml" 228 6922 6945
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_te "typecheck.ml" 221 6737 6743 "typecheck.ml" 221 6737 6751
+)
+"typecheck.ml" 228 6922 6946 "typecheck.ml" 228 6922 6947
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 227 6903 6913 "typecheck.ml" 227 6903 6914
+)
+"typecheck.ml" 228 6922 6937 "typecheck.ml" 228 6922 6947
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 229 6951 6957 "typecheck.ml" 229 6951 6966
+type(
+  Type.typ -> unit
+)
+ident(
+  int_ref check_reg "typecheck.ml" 156 4599 4603 "typecheck.ml" 156 4599 4612
+)
+"typecheck.ml" 229 6951 6967 "typecheck.ml" 229 6951 6969
+type(
+  Type.typ
+)
+ident(
+  int_ref et "typecheck.ml" 228 6922 6932 "typecheck.ml" 228 6922 6934
+)
+"typecheck.ml" 229 6951 6957 "typecheck.ml" 229 6951 6969
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 228 6922 6928 "typecheck.ml" 229 6951 6969
+type(
+  unit
+)
+"typecheck.ml" 230 6970 6981 "typecheck.ml" 230 6970 6983
+type(
+  Ast.exp
+)
+ident(
+  def ce "typecheck.ml" 231 6999 7005 "typecheck.ml" 238 7182 7208
+)
+"typecheck.ml" 230 6970 6985 "typecheck.ml" 230 6970 6987
+type(
+  Ast.exp
+)
+ident(
+  def t1 "typecheck.ml" 231 6999 7005 "typecheck.ml" 238 7182 7208
+)
+"typecheck.ml" 230 6970 6989 "typecheck.ml" 230 6970 6991
+type(
+  Ast.exp
+)
+ident(
+  def t2 "typecheck.ml" 231 6999 7005 "typecheck.ml" 238 7182 7208
+)
+"typecheck.ml" 230 6970 6993 "typecheck.ml" 230 6970 6994
+type(
+  Ast.attrs
+)
+"typecheck.ml" 230 6970 6980 "typecheck.ml" 230 6970 6995
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"typecheck.ml" 230 6970 6976 "typecheck.ml" 230 6970 6995
+type(
+  Ast.stmt
+)
+"typecheck.ml" 231 6999 7009 "typecheck.ml" 231 6999 7011
+type(
+  Type.typ
+)
+"typecheck.ml" 231 6999 7014 "typecheck.ml" 231 6999 7022
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_te "typecheck.ml" 221 6737 6743 "typecheck.ml" 221 6737 6751
+)
+"typecheck.ml" 231 6999 7023 "typecheck.ml" 231 6999 7025
+type(
+  Ast.exp
+)
+ident(
+  int_ref ce "typecheck.ml" 230 6970 6981 "typecheck.ml" 230 6970 6983
+)
+"typecheck.ml" 231 6999 7014 "typecheck.ml" 231 6999 7025
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 232 7029 7039 "typecheck.ml" 232 7029 7042
+type(
+  Type.typ
+)
+"typecheck.ml" 232 7029 7045 "typecheck.ml" 232 7029 7053
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_te "typecheck.ml" 221 6737 6743 "typecheck.ml" 221 6737 6751
+)
+"typecheck.ml" 232 7029 7054 "typecheck.ml" 232 7029 7056
+type(
+  Ast.exp
+)
+ident(
+  int_ref t1 "typecheck.ml" 230 6970 6985 "typecheck.ml" 230 6970 6987
+)
+"typecheck.ml" 232 7029 7045 "typecheck.ml" 232 7029 7056
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 233 7060 7070 "typecheck.ml" 233 7060 7073
+type(
+  Type.typ
+)
+"typecheck.ml" 233 7060 7076 "typecheck.ml" 233 7060 7084
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_te "typecheck.ml" 221 6737 6743 "typecheck.ml" 221 6737 6751
+)
+"typecheck.ml" 233 7060 7085 "typecheck.ml" 233 7060 7087
+type(
+  Ast.exp
+)
+ident(
+  int_ref t2 "typecheck.ml" 230 6970 6989 "typecheck.ml" 230 6970 6991
+)
+"typecheck.ml" 233 7060 7076 "typecheck.ml" 233 7060 7087
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 234 7091 7097 "typecheck.ml" 234 7091 7107
+type(
+  Type.typ -> unit
+)
+ident(
+  int_ref check_bool "typecheck.ml" 160 4737 4741 "typecheck.ml" 160 4737 4751
+)
+"typecheck.ml" 234 7091 7108 "typecheck.ml" 234 7091 7110
+type(
+  Type.typ
+)
+ident(
+  int_ref et "typecheck.ml" 231 6999 7009 "typecheck.ml" 231 6999 7011
+)
+"typecheck.ml" 234 7091 7097 "typecheck.ml" 234 7091 7110
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 235 7112 7118 "typecheck.ml" 235 7112 7127
+type(
+  Type.typ -> unit
+)
+ident(
+  int_ref check_reg "typecheck.ml" 156 4599 4603 "typecheck.ml" 156 4599 4612
+)
+"typecheck.ml" 235 7112 7128 "typecheck.ml" 235 7112 7131
+type(
+  Type.typ
+)
+ident(
+  int_ref t1t "typecheck.ml" 232 7029 7039 "typecheck.ml" 232 7029 7042
+)
+"typecheck.ml" 235 7112 7118 "typecheck.ml" 235 7112 7131
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 236 7133 7139 "typecheck.ml" 236 7133 7148
+type(
+  Type.typ -> unit
+)
+ident(
+  int_ref check_reg "typecheck.ml" 156 4599 4603 "typecheck.ml" 156 4599 4612
+)
+"typecheck.ml" 236 7133 7149 "typecheck.ml" 236 7133 7152
+type(
+  Type.typ
+)
+ident(
+  int_ref t2t "typecheck.ml" 233 7060 7070 "typecheck.ml" 233 7060 7073
+)
+"typecheck.ml" 236 7133 7139 "typecheck.ml" 236 7133 7152
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 237 7154 7160 "typecheck.ml" 237 7154 7177
+type(
+  Ast.exp -> unit
+)
+ident(
+  int_ref check_cjmp_direct "typecheck.ml" 179 5647 5651 "typecheck.ml" 179 5647 5668
+)
+"typecheck.ml" 237 7154 7178 "typecheck.ml" 237 7154 7180
+type(
+  Ast.exp
+)
+ident(
+  int_ref t1 "typecheck.ml" 230 6970 6985 "typecheck.ml" 230 6970 6987
+)
+"typecheck.ml" 237 7154 7160 "typecheck.ml" 237 7154 7180
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 238 7182 7188 "typecheck.ml" 238 7182 7205
+type(
+  Ast.exp -> unit
+)
+ident(
+  int_ref check_cjmp_direct "typecheck.ml" 179 5647 5651 "typecheck.ml" 179 5647 5668
+)
+"typecheck.ml" 238 7182 7206 "typecheck.ml" 238 7182 7208
+type(
+  Ast.exp
+)
+ident(
+  int_ref t2 "typecheck.ml" 230 6970 6989 "typecheck.ml" 230 6970 6991
+)
+"typecheck.ml" 238 7182 7188 "typecheck.ml" 238 7182 7208
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 237 7154 7160 "typecheck.ml" 238 7182 7208
+type(
+  unit
+)
+"typecheck.ml" 236 7133 7139 "typecheck.ml" 238 7182 7208
+type(
+  unit
+)
+"typecheck.ml" 235 7112 7118 "typecheck.ml" 238 7182 7208
+type(
+  unit
+)
+"typecheck.ml" 234 7091 7097 "typecheck.ml" 238 7182 7208
+type(
+  unit
+)
+"typecheck.ml" 233 7060 7066 "typecheck.ml" 238 7182 7208
+type(
+  unit
+)
+"typecheck.ml" 232 7029 7035 "typecheck.ml" 238 7182 7208
+type(
+  unit
+)
+"typecheck.ml" 231 6999 7005 "typecheck.ml" 238 7182 7208
+type(
+  unit
+)
+"typecheck.ml" 239 7209 7220 "typecheck.ml" 239 7209 7221
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 240 7229 7235 "typecheck.ml" 242 7316 7334
+)
+"typecheck.ml" 239 7209 7223 "typecheck.ml" 239 7209 7224
+type(
+  Ast.attrs
+)
+"typecheck.ml" 239 7209 7219 "typecheck.ml" 239 7209 7225
+type(
+  Ast.exp * Ast.attrs
+)
+"typecheck.ml" 239 7209 7215 "typecheck.ml" 239 7209 7225
+type(
+  Ast.stmt
+)
+"typecheck.ml" 240 7229 7239 "typecheck.ml" 240 7229 7241
+type(
+  Type.typ
+)
+"typecheck.ml" 240 7229 7244 "typecheck.ml" 240 7229 7252
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_te "typecheck.ml" 221 6737 6743 "typecheck.ml" 221 6737 6751
+)
+"typecheck.ml" 240 7229 7253 "typecheck.ml" 240 7229 7254
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 239 7209 7220 "typecheck.ml" 239 7209 7221
+)
+"typecheck.ml" 240 7229 7244 "typecheck.ml" 240 7229 7254
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 242 7316 7322 "typecheck.ml" 242 7316 7331
+type(
+  Type.typ -> unit
+)
+ident(
+  int_ref check_reg "typecheck.ml" 156 4599 4603 "typecheck.ml" 156 4599 4612
+)
+"typecheck.ml" 242 7316 7332 "typecheck.ml" 242 7316 7334
+type(
+  Type.typ
+)
+ident(
+  int_ref et "typecheck.ml" 240 7229 7239 "typecheck.ml" 240 7229 7241
+)
+"typecheck.ml" 242 7316 7322 "typecheck.ml" 242 7316 7334
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 240 7229 7235 "typecheck.ml" 242 7316 7334
+type(
+  unit
+)
+"typecheck.ml" 243 7335 7348 "typecheck.ml" 243 7335 7349
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 245 7376 7382 "typecheck.ml" 246 7405 7424
+)
+"typecheck.ml" 243 7335 7351 "typecheck.ml" 243 7335 7352
+type(
+  Ast.attrs
+)
+"typecheck.ml" 243 7335 7347 "typecheck.ml" 243 7335 7353
+type(
+  Ast.exp * Ast.attrs
+)
+"typecheck.ml" 243 7335 7341 "typecheck.ml" 243 7335 7353
+type(
+  Ast.stmt
+)
+"typecheck.ml" 244 7354 7367 "typecheck.ml" 244 7354 7368
+type(
+  Ast.exp
+)
+ident(
+  def e "typecheck.ml" 245 7376 7382 "typecheck.ml" 246 7405 7424
+)
+"typecheck.ml" 244 7354 7370 "typecheck.ml" 244 7354 7371
+type(
+  Ast.attrs
+)
+"typecheck.ml" 244 7354 7366 "typecheck.ml" 244 7354 7372
+type(
+  Ast.exp * Ast.attrs
+)
+"typecheck.ml" 244 7354 7360 "typecheck.ml" 244 7354 7372
+type(
+  Ast.stmt
+)
+"typecheck.ml" 243 7335 7341 "typecheck.ml" 244 7354 7372
+type(
+  Ast.stmt
+)
+"typecheck.ml" 245 7376 7386 "typecheck.ml" 245 7376 7388
+type(
+  Type.typ
+)
+"typecheck.ml" 245 7376 7391 "typecheck.ml" 245 7376 7399
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  int_ref infer_te "typecheck.ml" 221 6737 6743 "typecheck.ml" 221 6737 6751
+)
+"typecheck.ml" 245 7376 7400 "typecheck.ml" 245 7376 7401
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "typecheck.ml" 243 7335 7348 "typecheck.ml" 243 7335 7349
+)
+"typecheck.ml" 245 7376 7391 "typecheck.ml" 245 7376 7401
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"typecheck.ml" 246 7405 7411 "typecheck.ml" 246 7405 7421
+type(
+  Type.typ -> unit
+)
+ident(
+  int_ref check_bool "typecheck.ml" 160 4737 4741 "typecheck.ml" 160 4737 4751
+)
+"typecheck.ml" 246 7405 7422 "typecheck.ml" 246 7405 7424
+type(
+  Type.typ
+)
+ident(
+  int_ref et "typecheck.ml" 245 7376 7386 "typecheck.ml" 245 7376 7388
+)
+"typecheck.ml" 246 7405 7411 "typecheck.ml" 246 7405 7424
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 245 7376 7382 "typecheck.ml" 246 7405 7424
+type(
+  unit
+)
+"typecheck.ml" 247 7425 7437 "typecheck.ml" 247 7425 7438
+type(
+  Type.label * Ast.attrs
+)
+"typecheck.ml" 247 7425 7431 "typecheck.ml" 247 7425 7438
+type(
+  Ast.stmt
+)
+"typecheck.ml" 248 7439 7453 "typecheck.ml" 248 7439 7454
+type(
+  string * Ast.attrs
+)
+"typecheck.ml" 248 7439 7445 "typecheck.ml" 248 7439 7454
+type(
+  Ast.stmt
+)
+"typecheck.ml" 247 7425 7431 "typecheck.ml" 248 7439 7454
+type(
+  Ast.stmt
+)
+"typecheck.ml" 249 7455 7469 "typecheck.ml" 249 7455 7470
+type(
+  string * Var.defuse option * Ast.attrs
+)
+"typecheck.ml" 249 7455 7461 "typecheck.ml" 249 7455 7470
+type(
+  Ast.stmt
+)
+"typecheck.ml" 247 7425 7431 "typecheck.ml" 249 7455 7470
+type(
+  Ast.stmt
+)
+"typecheck.ml" 250 7474 7480 "typecheck.ml" 250 7474 7482
+type(
+  unit
+)
+"typecheck.ml" 222 6781 6783 "typecheck.ml" 250 7474 7482
+type(
+  Ast.stmt -> unit
+)
+"typecheck.ml" 221 6737 6739 "typecheck.ml" 250 7474 7482
+type(
+  Ast.stmt -> unit
+)
+"typecheck.ml" 252 7484 7488 "typecheck.ml" 252 7484 7502
+type(
+  Ast.stmt list -> unit
+)
+ident(
+  def typecheck_prog "typecheck.ml" 268 7925 7966 --
+)
+"typecheck.ml" 252 7484 7503 "typecheck.ml" 252 7484 7507
+type(
+  Ast.stmt list
+)
+ident(
+  def prog "typecheck.ml" 253 7510 7512 "typecheck.ml" 268 7925 7966
+)
+"typecheck.ml" 253 7510 7516 "typecheck.ml" 253 7510 7526
+type(
+  Ast.stmt option ref
+)
+"typecheck.ml" 253 7510 7529 "typecheck.ml" 253 7510 7532
+type(
+  Ast.stmt option -> Ast.stmt option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"typecheck.ml" 253 7510 7533 "typecheck.ml" 253 7510 7537
+type(
+  Ast.stmt option
+)
+"typecheck.ml" 253 7510 7529 "typecheck.ml" 253 7510 7537
+type(
+  Ast.stmt option ref
+)
+"typecheck.ml" 254 7541 7547 "typecheck.ml" 254 7541 7553
+type(
+  Type.attribute -> bool
+)
+"typecheck.ml" 255 7565 7575 "typecheck.ml" 255 7565 7576
+type(
+  string
+)
+"typecheck.ml" 255 7565 7571 "typecheck.ml" 255 7565 7576
+type(
+  Type.attribute
+)
+"typecheck.ml" 255 7565 7580 "typecheck.ml" 255 7565 7584
+type(
+  bool
+)
+"typecheck.ml" 256 7585 7591 "typecheck.ml" 256 7585 7592
+type(
+  Type.attribute
+)
+"typecheck.ml" 256 7585 7596 "typecheck.ml" 256 7585 7601
+type(
+  bool
+)
+"typecheck.ml" 254 7541 7556 "typecheck.ml" 256 7585 7601
+type(
+  Type.attribute -> bool
+)
+"typecheck.ml" 258 7607 7613 "typecheck.ml" 258 7607 7615
+type(
+  Ast.stmt -> unit
+)
+"typecheck.ml" 259 7627 7640 "typecheck.ml" 259 7627 7641
+type(
+  Type.label
+)
+"typecheck.ml" 259 7627 7643 "typecheck.ml" 259 7627 7648
+type(
+  Ast.attrs
+)
+ident(
+  def attrs "typecheck.ml" 259 7627 7655 "typecheck.ml" 259 7627 7708
+)
+"typecheck.ml" 259 7627 7639 "typecheck.ml" 259 7627 7649
+type(
+  Type.label * Ast.attrs
+)
+"typecheck.ml" 259 7627 7633 "typecheck.ml" 259 7627 7649
+type(
+  Ast.stmt
+)
+"typecheck.ml" 259 7627 7633 "typecheck.ml" 259 7627 7654
+type(
+  Ast.stmt
+)
+ident(
+  def s "typecheck.ml" 259 7627 7655 "typecheck.ml" 259 7627 7708
+)
+"typecheck.ml" 259 7627 7660 "typecheck.ml" 259 7627 7671
+type(
+  (Type.attribute -> bool) -> Ast.attrs -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"typecheck.ml" 259 7627 7672 "typecheck.ml" 259 7627 7678
+type(
+  Type.attribute -> bool
+)
+ident(
+  int_ref is_asm "typecheck.ml" 254 7541 7547 "typecheck.ml" 254 7541 7553
+)
+"typecheck.ml" 259 7627 7679 "typecheck.ml" 259 7627 7684
+type(
+  Ast.attrs
+)
+ident(
+  int_ref attrs "typecheck.ml" 259 7627 7643 "typecheck.ml" 259 7627 7648
+)
+"typecheck.ml" 259 7627 7660 "typecheck.ml" 259 7627 7684
+call(
+  stack
+)
+type(
+  bool
+)
+"typecheck.ml" 259 7627 7688 "typecheck.ml" 259 7627 7698
+type(
+  Ast.stmt option ref
+)
+ident(
+  int_ref last_label "typecheck.ml" 253 7510 7516 "typecheck.ml" 253 7510 7526
+)
+"typecheck.ml" 259 7627 7699 "typecheck.ml" 259 7627 7701
+type(
+  Ast.stmt option ref -> Ast.stmt option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"typecheck.ml" 259 7627 7707 "typecheck.ml" 259 7627 7708
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "typecheck.ml" 259 7627 7633 "typecheck.ml" 259 7627 7654
+)
+"typecheck.ml" 259 7627 7702 "typecheck.ml" 259 7627 7708
+type(
+  Ast.stmt option
+)
+"typecheck.ml" 259 7627 7688 "typecheck.ml" 259 7627 7708
+type(
+  unit
+)
+"typecheck.ml" 259 7627 7655 "typecheck.ml" 259 7627 7708
+type(
+  unit
+)
+"typecheck.ml" 260 7709 7715 "typecheck.ml" 260 7709 7716
+type(
+  Ast.stmt
+)
+"typecheck.ml" 260 7709 7720 "typecheck.ml" 260 7709 7722
+type(
+  unit
+)
+"typecheck.ml" 258 7607 7618 "typecheck.ml" 260 7709 7722
+type(
+  Ast.stmt -> unit
+)
+"typecheck.ml" 262 7728 7730 "typecheck.ml" 262 7728 7739
+type(
+  (Ast.stmt -> unit) -> Ast.stmt list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"typecheck.ml" 262 7728 7745 "typecheck.ml" 262 7728 7749
+type(
+  Ast.stmt
+)
+ident(
+  def stmt "typecheck.ml" 262 7728 7753 "typecheck.ml" 268 7925 7960
+)
+"typecheck.ml" 262 7728 7753 "typecheck.ml" 262 7728 7755
+type(
+  Ast.stmt -> unit
+)
+ident(
+  int_ref ts "typecheck.ml" 258 7607 7613 "typecheck.ml" 258 7607 7615
+)
+"typecheck.ml" 262 7728 7756 "typecheck.ml" 262 7728 7760
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "typecheck.ml" 262 7728 7745 "typecheck.ml" 262 7728 7749
+)
+"typecheck.ml" 262 7728 7753 "typecheck.ml" 262 7728 7760
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 263 7762 7770 "typecheck.ml" 263 7762 7784
+type(
+  Ast.stmt -> unit
+)
+ident(
+  int_ref typecheck_stmt "typecheck.ml" 220 6716 6720 "typecheck.ml" 220 6716 6734
+)
+"typecheck.ml" 263 7762 7785 "typecheck.ml" 263 7762 7789
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "typecheck.ml" 262 7728 7745 "typecheck.ml" 262 7728 7749
+)
+"typecheck.ml" 263 7762 7770 "typecheck.ml" 263 7762 7789
+call(
+  stack
+)
+type(
+  unit
+)
+"typecheck.ml" 264 7790 7809 "typecheck.ml" 264 7790 7810
+type(
+  string
+)
+ident(
+  def s "typecheck.ml" 265 7814 7820 "typecheck.ml" 268 7925 7960
+)
+"typecheck.ml" 264 7790 7799 "typecheck.ml" 264 7790 7810
+type(
+  exn
+)
+"typecheck.ml" 265 7814 7826 "typecheck.ml" 265 7814 7827
+type(
+  Ast.stmt option ref -> Ast.stmt option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"typecheck.ml" 265 7814 7827 "typecheck.ml" 265 7814 7837
+type(
+  Ast.stmt option ref
+)
+ident(
+  int_ref last_label "typecheck.ml" 253 7510 7516 "typecheck.ml" 253 7510 7526
+)
+"typecheck.ml" 265 7814 7826 "typecheck.ml" 265 7814 7837
+type(
+  Ast.stmt option
+)
+"typecheck.ml" 266 7843 7856 "typecheck.ml" 266 7843 7858
+type(
+  Ast.stmt
+)
+ident(
+  def ls "typecheck.ml" 267 7862 7870 "typecheck.ml" 267 7862 7924
+)
+"typecheck.ml" 266 7843 7851 "typecheck.ml" 266 7843 7858
+type(
+  Ast.stmt option
+)
+"typecheck.ml" 267 7862 7870 "typecheck.ml" 267 7862 7875
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"typecheck.ml" 267 7862 7888 "typecheck.ml" 267 7862 7889
+type(
+  string
+)
+ident(
+  int_ref s "typecheck.ml" 264 7790 7809 "typecheck.ml" 264 7790 7810
+)
+"typecheck.ml" 267 7862 7889 "typecheck.ml" 267 7862 7890
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"typecheck.ml" 267 7862 7890 "typecheck.ml" 267 7862 7897
+type(
+  string
+)
+"typecheck.ml" 267 7862 7897 "typecheck.ml" 267 7862 7898
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"typecheck.ml" 267 7862 7898 "typecheck.ml" 267 7862 7919
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"typecheck.ml" 267 7862 7920 "typecheck.ml" 267 7862 7922
+type(
+  Ast.stmt
+)
+ident(
+  int_ref ls "typecheck.ml" 266 7843 7856 "typecheck.ml" 266 7843 7858
+)
+"typecheck.ml" 267 7862 7898 "typecheck.ml" 267 7862 7922
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 267 7862 7890 "typecheck.ml" 267 7862 7922
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 267 7862 7887 "typecheck.ml" 267 7862 7923
+call(
+  stack
+)
+type(
+  string
+)
+"typecheck.ml" 267 7862 7876 "typecheck.ml" 267 7862 7924
+type(
+  exn
+)
+"typecheck.ml" 267 7862 7870 "typecheck.ml" 267 7862 7924
+type(
+  unit
+)
+"typecheck.ml" 268 7925 7933 "typecheck.ml" 268 7925 7937
+type(
+  Ast.stmt option
+)
+"typecheck.ml" 268 7925 7941 "typecheck.ml" 268 7925 7946
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"typecheck.ml" 268 7925 7958 "typecheck.ml" 268 7925 7959
+type(
+  string
+)
+ident(
+  int_ref s "typecheck.ml" 264 7790 7809 "typecheck.ml" 264 7790 7810
+)
+"typecheck.ml" 268 7925 7947 "typecheck.ml" 268 7925 7960
+type(
+  exn
+)
+"typecheck.ml" 268 7925 7941 "typecheck.ml" 268 7925 7960
+type(
+  unit
+)
+"typecheck.ml" 265 7814 7820 "typecheck.ml" 268 7925 7960
+type(
+  unit
+)
+"typecheck.ml" 263 7762 7766 "typecheck.ml" 268 7925 7960
+type(
+  unit
+)
+"typecheck.ml" 262 7728 7753 "typecheck.ml" 268 7925 7960
+type(
+  unit
+)
+"typecheck.ml" 262 7728 7740 "typecheck.ml" 268 7925 7961
+type(
+  Ast.stmt -> unit
+)
+"typecheck.ml" 268 7925 7962 "typecheck.ml" 268 7925 7966
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref prog "typecheck.ml" 252 7484 7503 "typecheck.ml" 252 7484 7507
+)
+"typecheck.ml" 262 7728 7730 "typecheck.ml" 268 7925 7966
+call(
+  tail
+)
+type(
+  unit
+)
+"typecheck.ml" 258 7607 7609 "typecheck.ml" 268 7925 7966
+type(
+  unit
+)
+"typecheck.ml" 254 7541 7543 "typecheck.ml" 268 7925 7966
+type(
+  unit
+)
+"typecheck.ml" 253 7510 7512 "typecheck.ml" 268 7925 7966
+type(
+  unit
+)

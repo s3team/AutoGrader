@@ -1,0 +1,7021 @@
+"traces_surgical.ml" 14 304 321 "traces_surgical.ml" 14 304 337
+call(
+  stack
+)
+"traces_surgical.ml" 51 960 964 "traces_surgical.ml" 51 960 972
+type(
+  int64 -> string
+)
+ident(
+  def mem_name "traces_surgical.ml" 53 1015 1015 --
+)
+"traces_surgical.ml" 51 960 973 "traces_surgical.ml" 51 960 976
+type(
+  int64
+)
+ident(
+  def num "traces_surgical.ml" 51 960 980 "traces_surgical.ml" 51 960 1013
+)
+"traces_surgical.ml" 51 960 980 "traces_surgical.ml" 51 960 986
+type(
+  string
+)
+"traces_surgical.ml" 51 960 986 "traces_surgical.ml" 51 960 987
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_surgical.ml" 51 960 988 "traces_surgical.ml" 51 960 1002
+type(
+  (int64 -> string, unit, string) format -> int64 -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"traces_surgical.ml" 51 960 1003 "traces_surgical.ml" 51 960 1008
+type(
+  (int64 -> string, unit, string) format
+)
+"traces_surgical.ml" 51 960 1009 "traces_surgical.ml" 51 960 1012
+type(
+  int64
+)
+ident(
+  int_ref num "traces_surgical.ml" 51 960 973 "traces_surgical.ml" 51 960 976
+)
+"traces_surgical.ml" 51 960 987 "traces_surgical.ml" 51 960 1013
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 51 960 980 "traces_surgical.ml" 51 960 1013
+call(
+  tail
+)
+type(
+  string
+)
+"traces_surgical.ml" 53 1015 1019 "traces_surgical.ml" 53 1015 1028
+type(
+  (int64, Ast.var) Hashtbl.t
+)
+ident(
+  def used_vars "traces_surgical.ml" 55 1053 1053 --
+)
+"traces_surgical.ml" 53 1015 1031 "traces_surgical.ml" 53 1015 1045
+type(
+  int -> (int64, Ast.var) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"traces_surgical.ml" 53 1015 1046 "traces_surgical.ml" 53 1015 1051
+type(
+  int
+)
+"traces_surgical.ml" 53 1015 1031 "traces_surgical.ml" 53 1015 1051
+call(
+  stack
+)
+type(
+  (int64, Ast.var) Hashtbl.t
+)
+"traces_surgical.ml" 55 1053 1057 "traces_surgical.ml" 55 1053 1063
+type(
+  int64 -> Type.typ -> Ast.var
+)
+ident(
+  def newvar "traces_surgical.ml" 66 1300 1300 --
+)
+"traces_surgical.ml" 55 1053 1064 "traces_surgical.ml" 55 1053 1067
+type(
+  int64
+)
+ident(
+  def num "traces_surgical.ml" 55 1053 1068 "traces_surgical.ml" 63 1226 1256
+)
+"traces_surgical.ml" 55 1053 1068 "traces_surgical.ml" 55 1053 1069
+type(
+  Type.typ
+)
+ident(
+  def t "traces_surgical.ml" 56 1073 1075 "traces_surgical.ml" 63 1226 1256
+)
+"traces_surgical.ml" 56 1073 1078 "traces_surgical.ml" 56 1073 1081
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"traces_surgical.ml" 56 1073 1083 "traces_surgical.ml" 56 1073 1094
+type(
+  (int64, Ast.var) Hashtbl.t -> int64 -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"traces_surgical.ml" 56 1073 1095 "traces_surgical.ml" 56 1073 1104
+type(
+  (int64, Ast.var) Hashtbl.t
+)
+ident(
+  int_ref used_vars "traces_surgical.ml" 53 1015 1019 "traces_surgical.ml" 53 1015 1028
+)
+"traces_surgical.ml" 56 1073 1105 "traces_surgical.ml" 56 1073 1108
+type(
+  int64
+)
+ident(
+  int_ref num "traces_surgical.ml" 55 1053 1064 "traces_surgical.ml" 55 1053 1067
+)
+"traces_surgical.ml" 56 1073 1082 "traces_surgical.ml" 56 1073 1109
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_surgical.ml" 56 1073 1078 "traces_surgical.ml" 56 1073 1109
+type(
+  bool
+)
+"traces_surgical.ml" 58 1121 1131 "traces_surgical.ml" 58 1121 1132
+type(
+  Var.t
+)
+ident(
+  def v "traces_surgical.ml" 59 1166 1174 "traces_surgical.ml" 60 1203 1212
+)
+"traces_surgical.ml" 58 1121 1135 "traces_surgical.ml" 58 1121 1145
+type(
+  string -> Type.typ -> Var.t
+)
+ident(
+  ext_ref Var.newvar
+)
+"traces_surgical.ml" 58 1121 1147 "traces_surgical.ml" 58 1121 1155
+type(
+  int64 -> string
+)
+ident(
+  int_ref mem_name "traces_surgical.ml" 51 960 964 "traces_surgical.ml" 51 960 972
+)
+"traces_surgical.ml" 58 1121 1156 "traces_surgical.ml" 58 1121 1159
+type(
+  int64
+)
+ident(
+  int_ref num "traces_surgical.ml" 55 1053 1064 "traces_surgical.ml" 55 1053 1067
+)
+"traces_surgical.ml" 58 1121 1146 "traces_surgical.ml" 58 1121 1160
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 58 1121 1161 "traces_surgical.ml" 58 1121 1162
+type(
+  Type.typ
+)
+ident(
+  int_ref t "traces_surgical.ml" 55 1053 1068 "traces_surgical.ml" 55 1053 1069
+)
+"traces_surgical.ml" 58 1121 1135 "traces_surgical.ml" 58 1121 1162
+call(
+  stack
+)
+type(
+  Var.t
+)
+"traces_surgical.ml" 59 1166 1174 "traces_surgical.ml" 59 1166 1185
+type(
+  (int64, Ast.var) Hashtbl.t -> int64 -> Ast.var -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"traces_surgical.ml" 59 1166 1186 "traces_surgical.ml" 59 1166 1195
+type(
+  (int64, Ast.var) Hashtbl.t
+)
+ident(
+  int_ref used_vars "traces_surgical.ml" 53 1015 1019 "traces_surgical.ml" 53 1015 1028
+)
+"traces_surgical.ml" 59 1166 1196 "traces_surgical.ml" 59 1166 1199
+type(
+  int64
+)
+ident(
+  int_ref num "traces_surgical.ml" 55 1053 1064 "traces_surgical.ml" 55 1053 1067
+)
+"traces_surgical.ml" 59 1166 1200 "traces_surgical.ml" 59 1166 1201
+type(
+  Ast.var
+)
+ident(
+  int_ref v "traces_surgical.ml" 58 1121 1131 "traces_surgical.ml" 58 1121 1132
+)
+"traces_surgical.ml" 59 1166 1174 "traces_surgical.ml" 59 1166 1201
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 60 1203 1211 "traces_surgical.ml" 60 1203 1212
+type(
+  Ast.var
+)
+ident(
+  int_ref v "traces_surgical.ml" 58 1121 1131 "traces_surgical.ml" 58 1121 1132
+)
+"traces_surgical.ml" 59 1166 1174 "traces_surgical.ml" 60 1203 1212
+type(
+  Ast.var
+)
+"traces_surgical.ml" 57 1115 1119 "traces_surgical.ml" 61 1213 1218
+type(
+  Ast.var
+)
+"traces_surgical.ml" 63 1226 1230 "traces_surgical.ml" 63 1226 1242
+type(
+  (int64, Ast.var) Hashtbl.t -> int64 -> Ast.var
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"traces_surgical.ml" 63 1226 1243 "traces_surgical.ml" 63 1226 1252
+type(
+  (int64, Ast.var) Hashtbl.t
+)
+ident(
+  int_ref used_vars "traces_surgical.ml" 53 1015 1019 "traces_surgical.ml" 53 1015 1028
+)
+"traces_surgical.ml" 63 1226 1253 "traces_surgical.ml" 63 1226 1256
+type(
+  int64
+)
+ident(
+  int_ref num "traces_surgical.ml" 55 1053 1064 "traces_surgical.ml" 55 1053 1067
+)
+"traces_surgical.ml" 63 1226 1230 "traces_surgical.ml" 63 1226 1256
+call(
+  tail
+)
+type(
+  Ast.var
+)
+"traces_surgical.ml" 56 1073 1075 "traces_surgical.ml" 63 1226 1256
+type(
+  Ast.var
+)
+"traces_surgical.ml" 66 1300 1304 "traces_surgical.ml" 66 1300 1325
+type(
+  Ast.stmt -> (Ast.exp -> Ast.exp) -> Ast.stmt list
+)
+ident(
+  def trace_transform_stmt2 "traces_surgical.ml" 147 4211 4211 --
+)
+"traces_surgical.ml" 66 1300 1326 "traces_surgical.ml" 66 1300 1330
+type(
+  Ast.stmt
+)
+ident(
+  def stmt "traces_surgical.ml" 66 1300 1331 "traces_surgical.ml" 145 4204 4209
+)
+"traces_surgical.ml" 66 1300 1331 "traces_surgical.ml" 66 1300 1336
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  def evalf "traces_surgical.ml" 67 1340 1342 "traces_surgical.ml" 145 4204 4209
+)
+"traces_surgical.ml" 67 1340 1346 "traces_surgical.ml" 67 1340 1355
+type(
+  Type.typ -> int
+)
+"traces_surgical.ml" 68 1367 1377 "traces_surgical.ml" 68 1367 1378
+type(
+  int
+)
+ident(
+  def n "traces_surgical.ml" 68 1367 1382 "traces_surgical.ml" 68 1367 1387
+)
+"traces_surgical.ml" 68 1367 1373 "traces_surgical.ml" 68 1367 1378
+type(
+  Type.typ
+)
+"traces_surgical.ml" 68 1367 1382 "traces_surgical.ml" 68 1367 1383
+type(
+  int
+)
+ident(
+  int_ref n "traces_surgical.ml" 68 1367 1377 "traces_surgical.ml" 68 1367 1378
+)
+"traces_surgical.ml" 68 1367 1384 "traces_surgical.ml" 68 1367 1385
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"traces_surgical.ml" 68 1367 1386 "traces_surgical.ml" 68 1367 1387
+type(
+  int
+)
+"traces_surgical.ml" 68 1367 1382 "traces_surgical.ml" 68 1367 1387
+type(
+  int
+)
+"traces_surgical.ml" 69 1388 1394 "traces_surgical.ml" 69 1388 1395
+type(
+  Type.typ
+)
+"traces_surgical.ml" 69 1388 1399 "traces_surgical.ml" 69 1388 1407
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_surgical.ml" 69 1388 1408 "traces_surgical.ml" 69 1388 1426
+type(
+  string
+)
+"traces_surgical.ml" 69 1388 1399 "traces_surgical.ml" 69 1388 1426
+type(
+  int
+)
+"traces_surgical.ml" 67 1340 1358 "traces_surgical.ml" 69 1388 1426
+type(
+  Type.typ -> int
+)
+"traces_surgical.ml" 71 1432 1438 "traces_surgical.ml" 71 1432 1442
+type(
+  int64 -> Type.typ -> int -> Ast.exp
+)
+"traces_surgical.ml" 71 1432 1443 "traces_surgical.ml" 71 1432 1446
+type(
+  int64
+)
+ident(
+  def num "traces_surgical.ml" 71 1432 1447 "traces_surgical.ml" 82 1907 1938
+)
+"traces_surgical.ml" 71 1432 1447 "traces_surgical.ml" 71 1432 1448
+type(
+  Type.typ
+)
+ident(
+  def t "traces_surgical.ml" 71 1432 1449 "traces_surgical.ml" 82 1907 1938
+)
+"traces_surgical.ml" 71 1432 1449 "traces_surgical.ml" 71 1432 1454
+type(
+  int
+)
+ident(
+  def bytes "traces_surgical.ml" 72 1458 1462 "traces_surgical.ml" 82 1907 1938
+)
+"traces_surgical.ml" 72 1458 1470 "traces_surgical.ml" 72 1458 1478
+type(
+  Ast.exp -> int64 -> int -> Ast.exp
+)
+"traces_surgical.ml" 72 1458 1479 "traces_surgical.ml" 72 1458 1482
+type(
+  Ast.exp
+)
+ident(
+  def acc "traces_surgical.ml" 72 1458 1483 "traces_surgical.ml" 78 1763 1814
+)
+"traces_surgical.ml" 72 1458 1483 "traces_surgical.ml" 72 1458 1488
+type(
+  int64
+)
+ident(
+  def shift "traces_surgical.ml" 72 1458 1491 "traces_surgical.ml" 78 1763 1814
+)
+"traces_surgical.ml" 73 1500 1508 "traces_surgical.ml" 73 1500 1509
+type(
+  int
+)
+"traces_surgical.ml" 73 1500 1513 "traces_surgical.ml" 73 1500 1516
+type(
+  Ast.exp
+)
+ident(
+  int_ref acc "traces_surgical.ml" 72 1458 1479 "traces_surgical.ml" 72 1458 1482
+)
+"traces_surgical.ml" 74 1517 1525 "traces_surgical.ml" 74 1517 1526
+type(
+  int
+)
+ident(
+  def n "traces_surgical.ml" 75 1531 1541 "traces_surgical.ml" 78 1763 1814
+)
+"traces_surgical.ml" 75 1531 1545 "traces_surgical.ml" 75 1531 1548
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 75 1531 1556 "traces_surgical.ml" 75 1531 1562
+type(
+  int64 -> Type.typ -> Ast.var
+)
+ident(
+  int_ref newvar "traces_surgical.ml" 55 1053 1057 "traces_surgical.ml" 55 1053 1063
+)
+"traces_surgical.ml" 75 1531 1564 "traces_surgical.ml" 75 1531 1573
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"traces_surgical.ml" 75 1531 1574 "traces_surgical.ml" 75 1531 1577
+type(
+  int64
+)
+ident(
+  int_ref num "traces_surgical.ml" 71 1432 1443 "traces_surgical.ml" 71 1432 1446
+)
+"traces_surgical.ml" 75 1531 1579 "traces_surgical.ml" 75 1531 1591
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"traces_surgical.ml" 75 1531 1593 "traces_surgical.ml" 75 1531 1598
+type(
+  int
+)
+ident(
+  int_ref bytes "traces_surgical.ml" 71 1432 1449 "traces_surgical.ml" 71 1432 1454
+)
+"traces_surgical.ml" 75 1531 1599 "traces_surgical.ml" 75 1531 1600
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"traces_surgical.ml" 75 1531 1601 "traces_surgical.ml" 75 1531 1602
+type(
+  int
+)
+ident(
+  int_ref n "traces_surgical.ml" 74 1517 1525 "traces_surgical.ml" 74 1517 1526
+)
+"traces_surgical.ml" 75 1531 1592 "traces_surgical.ml" 75 1531 1603
+type(
+  int
+)
+"traces_surgical.ml" 75 1531 1578 "traces_surgical.ml" 75 1531 1604
+type(
+  int64
+)
+"traces_surgical.ml" 75 1531 1563 "traces_surgical.ml" 75 1531 1605
+type(
+  int64
+)
+"traces_surgical.ml" 75 1531 1606 "traces_surgical.ml" 75 1531 1611
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"traces_surgical.ml" 75 1531 1555 "traces_surgical.ml" 75 1531 1612
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_surgical.ml" 75 1531 1551 "traces_surgical.ml" 75 1531 1612
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 76 1616 1630 "traces_surgical.ml" 76 1616 1633
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 76 1616 1641 "traces_surgical.ml" 76 1616 1654
+type(
+  Type.cast_type
+)
+"traces_surgical.ml" 76 1616 1656 "traces_surgical.ml" 76 1616 1657
+type(
+  Type.typ
+)
+ident(
+  int_ref t "traces_surgical.ml" 71 1432 1447 "traces_surgical.ml" 71 1432 1448
+)
+"traces_surgical.ml" 76 1616 1659 "traces_surgical.ml" 76 1616 1662
+type(
+  Ast.exp
+)
+ident(
+  int_ref var "traces_surgical.ml" 75 1531 1545 "traces_surgical.ml" 75 1531 1548
+)
+"traces_surgical.ml" 76 1616 1640 "traces_surgical.ml" 76 1616 1663
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"traces_surgical.ml" 76 1616 1636 "traces_surgical.ml" 76 1616 1663
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 77 1667 1681 "traces_surgical.ml" 77 1667 1684
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 77 1667 1694 "traces_surgical.ml" 77 1667 1696
+type(
+  Type.binop_type
+)
+"traces_surgical.ml" 77 1667 1704 "traces_surgical.ml" 77 1667 1710
+type(
+  Type.binop_type
+)
+"traces_surgical.ml" 77 1667 1712 "traces_surgical.ml" 77 1667 1715
+type(
+  Ast.exp
+)
+ident(
+  int_ref var "traces_surgical.ml" 76 1616 1630 "traces_surgical.ml" 76 1616 1633
+)
+"traces_surgical.ml" 77 1667 1721 "traces_surgical.ml" 77 1667 1737
+type(
+  int64 -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int64
+)
+"traces_surgical.ml" 77 1667 1738 "traces_surgical.ml" 77 1667 1743
+type(
+  int64
+)
+ident(
+  int_ref shift "traces_surgical.ml" 72 1458 1483 "traces_surgical.ml" 72 1458 1488
+)
+"traces_surgical.ml" 77 1667 1721 "traces_surgical.ml" 77 1667 1743
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"traces_surgical.ml" 77 1667 1745 "traces_surgical.ml" 77 1667 1751
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_32
+)
+"traces_surgical.ml" 77 1667 1720 "traces_surgical.ml" 77 1667 1752
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"traces_surgical.ml" 77 1667 1717 "traces_surgical.ml" 77 1667 1752
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 77 1667 1703 "traces_surgical.ml" 77 1667 1753
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"traces_surgical.ml" 77 1667 1698 "traces_surgical.ml" 77 1667 1753
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 77 1667 1755 "traces_surgical.ml" 77 1667 1758
+type(
+  Ast.exp
+)
+ident(
+  int_ref acc "traces_surgical.ml" 72 1458 1479 "traces_surgical.ml" 72 1458 1482
+)
+"traces_surgical.ml" 77 1667 1693 "traces_surgical.ml" 77 1667 1759
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"traces_surgical.ml" 77 1667 1687 "traces_surgical.ml" 77 1667 1759
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 78 1763 1775 "traces_surgical.ml" 78 1763 1783
+type(
+  Ast.exp -> int64 -> int -> Ast.exp
+)
+ident(
+  int_ref load_aux "traces_surgical.ml" 72 1458 1470 "traces_surgical.ml" 72 1458 1478
+)
+"traces_surgical.ml" 78 1763 1784 "traces_surgical.ml" 78 1763 1787
+type(
+  Ast.exp
+)
+ident(
+  int_ref acc "traces_surgical.ml" 77 1667 1681 "traces_surgical.ml" 77 1667 1684
+)
+"traces_surgical.ml" 78 1763 1789 "traces_surgical.ml" 78 1763 1798
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"traces_surgical.ml" 78 1763 1799 "traces_surgical.ml" 78 1763 1804
+type(
+  int64
+)
+ident(
+  int_ref shift "traces_surgical.ml" 72 1458 1483 "traces_surgical.ml" 72 1458 1488
+)
+"traces_surgical.ml" 78 1763 1805 "traces_surgical.ml" 78 1763 1807
+type(
+  int64
+)
+"traces_surgical.ml" 78 1763 1788 "traces_surgical.ml" 78 1763 1808
+type(
+  int64
+)
+"traces_surgical.ml" 78 1763 1810 "traces_surgical.ml" 78 1763 1811
+type(
+  int
+)
+ident(
+  int_ref n "traces_surgical.ml" 74 1517 1525 "traces_surgical.ml" 74 1517 1526
+)
+"traces_surgical.ml" 78 1763 1811 "traces_surgical.ml" 78 1763 1812
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"traces_surgical.ml" 78 1763 1812 "traces_surgical.ml" 78 1763 1813
+type(
+  int
+)
+"traces_surgical.ml" 78 1763 1809 "traces_surgical.ml" 78 1763 1814
+type(
+  int
+)
+"traces_surgical.ml" 78 1763 1775 "traces_surgical.ml" 78 1763 1814
+call(
+  tail
+)
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 77 1667 1677 "traces_surgical.ml" 78 1763 1814
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 76 1616 1626 "traces_surgical.ml" 78 1763 1814
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 75 1531 1541 "traces_surgical.ml" 78 1763 1814
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 72 1458 1491 "traces_surgical.ml" 78 1763 1814
+type(
+  int -> Ast.exp
+)
+"traces_surgical.ml" 80 1822 1830 "traces_surgical.ml" 80 1822 1833
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 80 1822 1841 "traces_surgical.ml" 80 1822 1847
+type(
+  int64 -> Type.typ -> Ast.var
+)
+ident(
+  int_ref newvar "traces_surgical.ml" 55 1053 1057 "traces_surgical.ml" 55 1053 1063
+)
+"traces_surgical.ml" 80 1822 1848 "traces_surgical.ml" 80 1822 1851
+type(
+  int64
+)
+ident(
+  int_ref num "traces_surgical.ml" 71 1432 1443 "traces_surgical.ml" 71 1432 1446
+)
+"traces_surgical.ml" 80 1822 1852 "traces_surgical.ml" 80 1822 1857
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"traces_surgical.ml" 80 1822 1840 "traces_surgical.ml" 80 1822 1858
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_surgical.ml" 80 1822 1836 "traces_surgical.ml" 80 1822 1858
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 81 1862 1870 "traces_surgical.ml" 81 1862 1873
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 81 1862 1881 "traces_surgical.ml" 81 1862 1894
+type(
+  Type.cast_type
+)
+"traces_surgical.ml" 81 1862 1896 "traces_surgical.ml" 81 1862 1897
+type(
+  Type.typ
+)
+ident(
+  int_ref t "traces_surgical.ml" 71 1432 1447 "traces_surgical.ml" 71 1432 1448
+)
+"traces_surgical.ml" 81 1862 1899 "traces_surgical.ml" 81 1862 1902
+type(
+  Ast.exp
+)
+ident(
+  int_ref var "traces_surgical.ml" 80 1822 1830 "traces_surgical.ml" 80 1822 1833
+)
+"traces_surgical.ml" 81 1862 1880 "traces_surgical.ml" 81 1862 1903
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"traces_surgical.ml" 81 1862 1876 "traces_surgical.ml" 81 1862 1903
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 82 1907 1913 "traces_surgical.ml" 82 1907 1921
+type(
+  Ast.exp -> int64 -> int -> Ast.exp
+)
+ident(
+  int_ref load_aux "traces_surgical.ml" 72 1458 1470 "traces_surgical.ml" 72 1458 1478
+)
+"traces_surgical.ml" 82 1907 1922 "traces_surgical.ml" 82 1907 1925
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "traces_surgical.ml" 81 1862 1870 "traces_surgical.ml" 81 1862 1873
+)
+"traces_surgical.ml" 82 1907 1926 "traces_surgical.ml" 82 1907 1928
+type(
+  int64
+)
+"traces_surgical.ml" 82 1907 1930 "traces_surgical.ml" 82 1907 1935
+type(
+  int
+)
+ident(
+  int_ref bytes "traces_surgical.ml" 71 1432 1449 "traces_surgical.ml" 71 1432 1454
+)
+"traces_surgical.ml" 82 1907 1935 "traces_surgical.ml" 82 1907 1936
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"traces_surgical.ml" 82 1907 1936 "traces_surgical.ml" 82 1907 1937
+type(
+  int
+)
+"traces_surgical.ml" 82 1907 1929 "traces_surgical.ml" 82 1907 1938
+type(
+  int
+)
+"traces_surgical.ml" 82 1907 1913 "traces_surgical.ml" 82 1907 1938
+call(
+  tail
+)
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 81 1862 1866 "traces_surgical.ml" 82 1907 1938
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 80 1822 1826 "traces_surgical.ml" 82 1907 1938
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 72 1458 1462 "traces_surgical.ml" 82 1907 1938
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 84 1944 1950 "traces_surgical.ml" 84 1944 1960
+type(
+  Ast.exp -> Big_int_Z.big_int
+)
+"traces_surgical.ml" 84 1944 1961 "traces_surgical.ml" 84 1944 1964
+type(
+  Ast.exp
+)
+ident(
+  def idx "traces_surgical.ml" 84 1944 1967 "traces_surgical.ml" 86 2010 2055
+)
+"traces_surgical.ml" 84 1944 1973 "traces_surgical.ml" 84 1944 1978
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref evalf "traces_surgical.ml" 66 1300 1331 "traces_surgical.ml" 66 1300 1336
+)
+"traces_surgical.ml" 84 1944 1979 "traces_surgical.ml" 84 1944 1982
+type(
+  Ast.exp
+)
+ident(
+  int_ref idx "traces_surgical.ml" 84 1944 1961 "traces_surgical.ml" 84 1944 1964
+)
+"traces_surgical.ml" 84 1944 1973 "traces_surgical.ml" 84 1944 1982
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 85 1988 1999 "traces_surgical.ml" 85 1988 2000
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def n "traces_surgical.ml" 85 1988 2008 "traces_surgical.ml" 85 1988 2009
+)
+"traces_surgical.ml" 85 1988 2002 "traces_surgical.ml" 85 1988 2003
+type(
+  Type.typ
+)
+ident(
+  def t "traces_surgical.ml" 85 1988 2008 "traces_surgical.ml" 85 1988 2009
+)
+"traces_surgical.ml" 85 1988 1998 "traces_surgical.ml" 85 1988 2004
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"traces_surgical.ml" 85 1988 1994 "traces_surgical.ml" 85 1988 2004
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 85 1988 2008 "traces_surgical.ml" 85 1988 2009
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref n "traces_surgical.ml" 85 1988 1999 "traces_surgical.ml" 85 1988 2000
+)
+"traces_surgical.ml" 86 2010 2016 "traces_surgical.ml" 86 2010 2017
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 86 2010 2021 "traces_surgical.ml" 86 2010 2029
+type(
+  string -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_surgical.ml" 86 2010 2030 "traces_surgical.ml" 86 2010 2055
+type(
+  string
+)
+"traces_surgical.ml" 86 2010 2021 "traces_surgical.ml" 86 2010 2055
+type(
+  Big_int_Z.big_int
+)
+"traces_surgical.ml" 84 1944 1967 "traces_surgical.ml" 86 2010 2055
+type(
+  Big_int_Z.big_int
+)
+"traces_surgical.ml" 89 2066 2072 "traces_surgical.ml" 89 2066 2076
+type(
+  Ast_visitor.nop
+)
+"traces_surgical.ml" 89 2066 2085 "traces_surgical.ml" 89 2066 2091
+type(
+  Ast_visitor.nop
+)
+"traces_surgical.ml" 92 2152 2166 "traces_surgical.ml" 92 2152 2169
+type(
+  Ast.exp
+)
+ident(
+  def mem "traces_surgical.ml" 93 2191 2201 "traces_surgical.ml" 96 2325 2349
+)
+"traces_surgical.ml" 92 2152 2171 "traces_surgical.ml" 92 2152 2174
+type(
+  Ast.exp
+)
+ident(
+  def idx "traces_surgical.ml" 93 2191 2201 "traces_surgical.ml" 96 2325 2349
+)
+"traces_surgical.ml" 92 2152 2176 "traces_surgical.ml" 92 2152 2183
+type(
+  Ast.exp
+)
+ident(
+  def _endian "traces_surgical.ml" 93 2191 2201 "traces_surgical.ml" 96 2325 2349
+)
+"traces_surgical.ml" 92 2152 2185 "traces_surgical.ml" 92 2152 2186
+type(
+  Type.typ
+)
+ident(
+  def t "traces_surgical.ml" 93 2191 2201 "traces_surgical.ml" 96 2325 2349
+)
+"traces_surgical.ml" 92 2152 2165 "traces_surgical.ml" 92 2152 2187
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_surgical.ml" 92 2152 2160 "traces_surgical.ml" 92 2152 2187
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 93 2191 2205 "traces_surgical.ml" 93 2191 2208
+type(
+  Big_int_Z.big_int
+)
+"traces_surgical.ml" 93 2191 2211 "traces_surgical.ml" 93 2191 2221
+type(
+  Ast.exp -> Big_int_Z.big_int
+)
+ident(
+  int_ref concretize "traces_surgical.ml" 84 1944 1950 "traces_surgical.ml" 84 1944 1960
+)
+"traces_surgical.ml" 93 2191 2222 "traces_surgical.ml" 93 2191 2225
+type(
+  Ast.exp
+)
+ident(
+  int_ref idx "traces_surgical.ml" 92 2152 2171 "traces_surgical.ml" 92 2152 2174
+)
+"traces_surgical.ml" 93 2191 2211 "traces_surgical.ml" 93 2191 2225
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"traces_surgical.ml" 94 2229 2243 "traces_surgical.ml" 94 2229 2248
+type(
+  int
+)
+"traces_surgical.ml" 94 2229 2251 "traces_surgical.ml" 94 2229 2260
+type(
+  Type.typ -> int
+)
+ident(
+  int_ref get_bytes "traces_surgical.ml" 67 1340 1346 "traces_surgical.ml" 67 1340 1355
+)
+"traces_surgical.ml" 94 2229 2261 "traces_surgical.ml" 94 2229 2262
+type(
+  Type.typ
+)
+ident(
+  int_ref t "traces_surgical.ml" 92 2152 2185 "traces_surgical.ml" 92 2152 2186
+)
+"traces_surgical.ml" 94 2229 2251 "traces_surgical.ml" 94 2229 2262
+call(
+  stack
+)
+type(
+  int
+)
+"traces_surgical.ml" 95 2266 2280 "traces_surgical.ml" 95 2266 2283
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 95 2266 2286 "traces_surgical.ml" 95 2266 2290
+type(
+  int64 -> Type.typ -> int -> Ast.exp
+)
+ident(
+  int_ref load "traces_surgical.ml" 71 1432 1438 "traces_surgical.ml" 71 1432 1442
+)
+"traces_surgical.ml" 95 2266 2292 "traces_surgical.ml" 95 2266 2308
+type(
+  Big_int_Z.big_int -> int64
+)
+ident(
+  ext_ref Big_int_Z.int64_of_big_int
+)
+"traces_surgical.ml" 95 2266 2309 "traces_surgical.ml" 95 2266 2312
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref num "traces_surgical.ml" 93 2191 2205 "traces_surgical.ml" 93 2191 2208
+)
+"traces_surgical.ml" 95 2266 2291 "traces_surgical.ml" 95 2266 2313
+call(
+  stack
+)
+type(
+  int64
+)
+"traces_surgical.ml" 95 2266 2314 "traces_surgical.ml" 95 2266 2315
+type(
+  Type.typ
+)
+ident(
+  int_ref t "traces_surgical.ml" 92 2152 2185 "traces_surgical.ml" 92 2152 2186
+)
+"traces_surgical.ml" 95 2266 2316 "traces_surgical.ml" 95 2266 2321
+type(
+  int
+)
+ident(
+  int_ref bytes "traces_surgical.ml" 94 2229 2243 "traces_surgical.ml" 94 2229 2248
+)
+"traces_surgical.ml" 95 2266 2286 "traces_surgical.ml" 95 2266 2321
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 96 2325 2346 "traces_surgical.ml" 96 2325 2349
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "traces_surgical.ml" 95 2266 2280 "traces_surgical.ml" 95 2266 2283
+)
+"traces_surgical.ml" 96 2325 2337 "traces_surgical.ml" 96 2325 2349
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 95 2266 2276 "traces_surgical.ml" 96 2325 2349
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 94 2229 2239 "traces_surgical.ml" 96 2325 2349
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 93 2191 2201 "traces_surgical.ml" 96 2325 2349
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 97 2350 2358 "traces_surgical.ml" 97 2350 2359
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 97 2350 2363 "traces_surgical.ml" 97 2350 2373
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 91 2120 2143 "traces_surgical.ml" 97 2350 2373
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 99 2407 2415 "traces_surgical.ml" 99 2407 2416
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 99 2407 2420 "traces_surgical.ml" 99 2407 2430
+type(
+  Ast.stmt Type.visit_action
+)
+"traces_surgical.ml" 98 2374 2398 "traces_surgical.ml" 99 2407 2430
+type(
+  Ast.stmt -> Ast.stmt Type.visit_action
+)
+type(
+  Ast.stmt -> Ast.stmt Type.visit_action
+)
+"traces_surgical.ml" 89 2066 2079 "traces_surgical.ml" 100 2431 2436
+type(
+  Ast_visitor.nop
+)
+"traces_surgical.ml" 102 2442 2448 "traces_surgical.ml" 102 2442 2458
+type(
+  int64 -> Ast.exp -> 'a -> int -> Ast.stmt list
+)
+"traces_surgical.ml" 102 2442 2459 "traces_surgical.ml" 102 2442 2462
+type(
+  int64
+)
+ident(
+  def num "traces_surgical.ml" 102 2442 2463 "traces_surgical.ml" 114 2964 3015
+)
+"traces_surgical.ml" 102 2442 2463 "traces_surgical.ml" 102 2442 2468
+type(
+  Ast.exp
+)
+ident(
+  def value "traces_surgical.ml" 102 2442 2469 "traces_surgical.ml" 114 2964 3015
+)
+"traces_surgical.ml" 102 2442 2469 "traces_surgical.ml" 102 2442 2470
+type(
+  'a
+)
+ident(
+  def t "traces_surgical.ml" 102 2442 2471 "traces_surgical.ml" 114 2964 3015
+)
+"traces_surgical.ml" 102 2442 2471 "traces_surgical.ml" 102 2442 2476
+type(
+  int
+)
+ident(
+  def bytes "traces_surgical.ml" 103 2479 2483 "traces_surgical.ml" 114 2964 3015
+)
+"traces_surgical.ml" 103 2479 2491 "traces_surgical.ml" 103 2479 2500
+type(
+  Ast.stmt list -> int64 -> int -> Ast.stmt list
+)
+"traces_surgical.ml" 103 2479 2501 "traces_surgical.ml" 103 2479 2504
+type(
+  Ast.stmt list
+)
+ident(
+  def acc "traces_surgical.ml" 103 2479 2505 "traces_surgical.ml" 110 2817 2871
+)
+"traces_surgical.ml" 103 2479 2505 "traces_surgical.ml" 103 2479 2510
+type(
+  int64
+)
+ident(
+  def shift "traces_surgical.ml" 103 2479 2513 "traces_surgical.ml" 110 2817 2871
+)
+"traces_surgical.ml" 104 2522 2530 "traces_surgical.ml" 104 2522 2531
+type(
+  int
+)
+"traces_surgical.ml" 104 2522 2535 "traces_surgical.ml" 104 2522 2538
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 103 2479 2501 "traces_surgical.ml" 103 2479 2504
+)
+"traces_surgical.ml" 105 2539 2547 "traces_surgical.ml" 105 2539 2548
+type(
+  int
+)
+ident(
+  def n "traces_surgical.ml" 106 2552 2562 "traces_surgical.ml" 110 2817 2871
+)
+"traces_surgical.ml" 106 2552 2566 "traces_surgical.ml" 106 2552 2569
+type(
+  Ast.var
+)
+"traces_surgical.ml" 106 2552 2572 "traces_surgical.ml" 106 2552 2578
+type(
+  int64 -> Type.typ -> Ast.var
+)
+ident(
+  int_ref newvar "traces_surgical.ml" 55 1053 1057 "traces_surgical.ml" 55 1053 1063
+)
+"traces_surgical.ml" 106 2552 2580 "traces_surgical.ml" 106 2552 2589
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"traces_surgical.ml" 106 2552 2590 "traces_surgical.ml" 106 2552 2593
+type(
+  int64
+)
+ident(
+  int_ref num "traces_surgical.ml" 102 2442 2459 "traces_surgical.ml" 102 2442 2462
+)
+"traces_surgical.ml" 106 2552 2595 "traces_surgical.ml" 106 2552 2607
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"traces_surgical.ml" 106 2552 2609 "traces_surgical.ml" 106 2552 2614
+type(
+  int
+)
+ident(
+  int_ref bytes "traces_surgical.ml" 102 2442 2471 "traces_surgical.ml" 102 2442 2476
+)
+"traces_surgical.ml" 106 2552 2614 "traces_surgical.ml" 106 2552 2615
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"traces_surgical.ml" 106 2552 2615 "traces_surgical.ml" 106 2552 2616
+type(
+  int
+)
+ident(
+  int_ref n "traces_surgical.ml" 105 2539 2547 "traces_surgical.ml" 105 2539 2548
+)
+"traces_surgical.ml" 106 2552 2608 "traces_surgical.ml" 106 2552 2617
+type(
+  int
+)
+"traces_surgical.ml" 106 2552 2594 "traces_surgical.ml" 106 2552 2618
+type(
+  int64
+)
+"traces_surgical.ml" 106 2552 2579 "traces_surgical.ml" 106 2552 2619
+type(
+  int64
+)
+"traces_surgical.ml" 106 2552 2620 "traces_surgical.ml" 106 2552 2625
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"traces_surgical.ml" 106 2552 2572 "traces_surgical.ml" 106 2552 2625
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_surgical.ml" 107 2629 2643 "traces_surgical.ml" 107 2629 2646
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 107 2629 2656 "traces_surgical.ml" 107 2629 2662
+type(
+  Type.binop_type
+)
+"traces_surgical.ml" 107 2629 2664 "traces_surgical.ml" 107 2629 2669
+type(
+  Ast.exp
+)
+ident(
+  int_ref value "traces_surgical.ml" 102 2442 2463 "traces_surgical.ml" 102 2442 2468
+)
+"traces_surgical.ml" 107 2629 2675 "traces_surgical.ml" 107 2629 2691
+type(
+  int64 -> Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_Z.big_int_of_int64
+)
+"traces_surgical.ml" 107 2629 2692 "traces_surgical.ml" 107 2629 2697
+type(
+  int64
+)
+ident(
+  int_ref shift "traces_surgical.ml" 103 2479 2505 "traces_surgical.ml" 103 2479 2510
+)
+"traces_surgical.ml" 107 2629 2675 "traces_surgical.ml" 107 2629 2697
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"traces_surgical.ml" 107 2629 2699 "traces_surgical.ml" 107 2629 2705
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_32
+)
+"traces_surgical.ml" 107 2629 2674 "traces_surgical.ml" 107 2629 2706
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"traces_surgical.ml" 107 2629 2671 "traces_surgical.ml" 107 2629 2706
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 107 2629 2655 "traces_surgical.ml" 107 2629 2707
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"traces_surgical.ml" 107 2629 2649 "traces_surgical.ml" 107 2629 2707
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 108 2711 2725 "traces_surgical.ml" 108 2711 2728
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 108 2711 2736 "traces_surgical.ml" 108 2711 2749
+type(
+  Type.cast_type
+)
+"traces_surgical.ml" 108 2711 2751 "traces_surgical.ml" 108 2711 2756
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"traces_surgical.ml" 108 2711 2758 "traces_surgical.ml" 108 2711 2761
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "traces_surgical.ml" 107 2629 2643 "traces_surgical.ml" 107 2629 2646
+)
+"traces_surgical.ml" 108 2711 2735 "traces_surgical.ml" 108 2711 2762
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"traces_surgical.ml" 108 2711 2731 "traces_surgical.ml" 108 2711 2762
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 109 2766 2780 "traces_surgical.ml" 109 2766 2783
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 109 2766 2792 "traces_surgical.ml" 109 2766 2795
+type(
+  Ast.var
+)
+ident(
+  int_ref var "traces_surgical.ml" 106 2552 2566 "traces_surgical.ml" 106 2552 2569
+)
+"traces_surgical.ml" 109 2766 2797 "traces_surgical.ml" 109 2766 2800
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "traces_surgical.ml" 108 2711 2725 "traces_surgical.ml" 108 2711 2728
+)
+"traces_surgical.ml" 109 2766 2802 "traces_surgical.ml" 109 2766 2804
+type(
+  Ast.attrs
+)
+"traces_surgical.ml" 109 2766 2791 "traces_surgical.ml" 109 2766 2805
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 109 2766 2786 "traces_surgical.ml" 109 2766 2806
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 109 2766 2810 "traces_surgical.ml" 109 2766 2813
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 103 2479 2501 "traces_surgical.ml" 103 2479 2504
+)
+"traces_surgical.ml" 109 2766 2786 "traces_surgical.ml" 109 2766 2813
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 110 2817 2829 "traces_surgical.ml" 110 2817 2838
+type(
+  Ast.stmt list -> int64 -> int -> Ast.stmt list
+)
+ident(
+  int_ref break_aux "traces_surgical.ml" 103 2479 2491 "traces_surgical.ml" 103 2479 2500
+)
+"traces_surgical.ml" 110 2817 2839 "traces_surgical.ml" 110 2817 2842
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 109 2766 2780 "traces_surgical.ml" 109 2766 2783
+)
+"traces_surgical.ml" 110 2817 2844 "traces_surgical.ml" 110 2817 2853
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"traces_surgical.ml" 110 2817 2854 "traces_surgical.ml" 110 2817 2859
+type(
+  int64
+)
+ident(
+  int_ref shift "traces_surgical.ml" 103 2479 2505 "traces_surgical.ml" 103 2479 2510
+)
+"traces_surgical.ml" 110 2817 2860 "traces_surgical.ml" 110 2817 2862
+type(
+  int64
+)
+"traces_surgical.ml" 110 2817 2843 "traces_surgical.ml" 110 2817 2863
+type(
+  int64
+)
+"traces_surgical.ml" 110 2817 2865 "traces_surgical.ml" 110 2817 2866
+type(
+  int
+)
+ident(
+  int_ref n "traces_surgical.ml" 105 2539 2547 "traces_surgical.ml" 105 2539 2548
+)
+"traces_surgical.ml" 110 2817 2867 "traces_surgical.ml" 110 2817 2868
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"traces_surgical.ml" 110 2817 2869 "traces_surgical.ml" 110 2817 2870
+type(
+  int
+)
+"traces_surgical.ml" 110 2817 2864 "traces_surgical.ml" 110 2817 2871
+type(
+  int
+)
+"traces_surgical.ml" 110 2817 2829 "traces_surgical.ml" 110 2817 2871
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 109 2766 2776 "traces_surgical.ml" 110 2817 2871
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 108 2711 2721 "traces_surgical.ml" 110 2817 2871
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 107 2629 2639 "traces_surgical.ml" 110 2817 2871
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 106 2552 2562 "traces_surgical.ml" 110 2817 2871
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 103 2479 2513 "traces_surgical.ml" 110 2817 2871
+type(
+  int -> Ast.stmt list
+)
+"traces_surgical.ml" 112 2879 2887 "traces_surgical.ml" 112 2879 2890
+type(
+  Ast.var
+)
+"traces_surgical.ml" 112 2879 2893 "traces_surgical.ml" 112 2879 2899
+type(
+  int64 -> Type.typ -> Ast.var
+)
+ident(
+  int_ref newvar "traces_surgical.ml" 55 1053 1057 "traces_surgical.ml" 55 1053 1063
+)
+"traces_surgical.ml" 112 2879 2900 "traces_surgical.ml" 112 2879 2903
+type(
+  int64
+)
+ident(
+  int_ref num "traces_surgical.ml" 102 2442 2459 "traces_surgical.ml" 102 2442 2462
+)
+"traces_surgical.ml" 112 2879 2904 "traces_surgical.ml" 112 2879 2909
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"traces_surgical.ml" 112 2879 2893 "traces_surgical.ml" 112 2879 2909
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_surgical.ml" 113 2913 2921 "traces_surgical.ml" 113 2913 2924
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 113 2913 2932 "traces_surgical.ml" 113 2913 2945
+type(
+  Type.cast_type
+)
+"traces_surgical.ml" 113 2913 2947 "traces_surgical.ml" 113 2913 2952
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"traces_surgical.ml" 113 2913 2954 "traces_surgical.ml" 113 2913 2959
+type(
+  Ast.exp
+)
+ident(
+  int_ref value "traces_surgical.ml" 102 2442 2463 "traces_surgical.ml" 102 2442 2468
+)
+"traces_surgical.ml" 113 2913 2931 "traces_surgical.ml" 113 2913 2960
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"traces_surgical.ml" 113 2913 2927 "traces_surgical.ml" 113 2913 2960
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 114 2964 2970 "traces_surgical.ml" 114 2964 2979
+type(
+  Ast.stmt list -> int64 -> int -> Ast.stmt list
+)
+ident(
+  int_ref break_aux "traces_surgical.ml" 103 2479 2491 "traces_surgical.ml" 103 2479 2500
+)
+"traces_surgical.ml" 114 2964 2986 "traces_surgical.ml" 114 2964 2989
+type(
+  Ast.var
+)
+ident(
+  int_ref var "traces_surgical.ml" 112 2879 2887 "traces_surgical.ml" 112 2879 2890
+)
+"traces_surgical.ml" 114 2964 2991 "traces_surgical.ml" 114 2964 2994
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "traces_surgical.ml" 113 2913 2921 "traces_surgical.ml" 113 2913 2924
+)
+"traces_surgical.ml" 114 2964 2996 "traces_surgical.ml" 114 2964 2998
+type(
+  Ast.attrs
+)
+"traces_surgical.ml" 114 2964 2985 "traces_surgical.ml" 114 2964 2999
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 114 2964 2981 "traces_surgical.ml" 114 2964 2999
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 114 2964 2980 "traces_surgical.ml" 114 2964 3000
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 114 2964 3001 "traces_surgical.ml" 114 2964 3003
+type(
+  int64
+)
+"traces_surgical.ml" 114 2964 3005 "traces_surgical.ml" 114 2964 3010
+type(
+  int
+)
+ident(
+  int_ref bytes "traces_surgical.ml" 102 2442 2471 "traces_surgical.ml" 102 2442 2476
+)
+"traces_surgical.ml" 114 2964 3011 "traces_surgical.ml" 114 2964 3012
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"traces_surgical.ml" 114 2964 3013 "traces_surgical.ml" 114 2964 3014
+type(
+  int
+)
+"traces_surgical.ml" 114 2964 3004 "traces_surgical.ml" 114 2964 3015
+type(
+  int
+)
+"traces_surgical.ml" 114 2964 2970 "traces_surgical.ml" 114 2964 3015
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 113 2913 2917 "traces_surgical.ml" 114 2964 3015
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 112 2879 2883 "traces_surgical.ml" 114 2964 3015
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 103 2479 2483 "traces_surgical.ml" 114 2964 3015
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 118 3062 3068 "traces_surgical.ml" 118 3062 3072
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 119 3075 3082 "traces_surgical.ml" 119 3075 3085
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"traces_surgical.ml" 119 3075 3086 "traces_surgical.ml" 119 3075 3087
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 119 3075 3087 "traces_surgical.ml" 119 3075 3109
+type(
+  bool ref
+)
+ident(
+  ext_ref Traces.allow_symbolic_indices
+)
+"traces_surgical.ml" 119 3075 3086 "traces_surgical.ml" 119 3075 3109
+type(
+  bool
+)
+"traces_surgical.ml" 119 3075 3082 "traces_surgical.ml" 119 3075 3109
+type(
+  bool
+)
+"traces_surgical.ml" 120 3115 3121 "traces_surgical.ml" 120 3115 3144
+type(
+  Ast_visitor.t -> Ast.stmt -> Ast.stmt
+)
+ident(
+  ext_ref Ast_visitor.stmt_accept
+)
+"traces_surgical.ml" 120 3115 3145 "traces_surgical.ml" 120 3115 3149
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref cvis "traces_surgical.ml" 89 2066 2072 "traces_surgical.ml" 89 2066 2076
+)
+"traces_surgical.ml" 120 3115 3150 "traces_surgical.ml" 120 3115 3154
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 66 1300 1326 "traces_surgical.ml" 66 1300 1330
+)
+"traces_surgical.ml" 120 3115 3121 "traces_surgical.ml" 120 3115 3154
+call(
+  stack
+)
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 121 3155 3164 "traces_surgical.ml" 121 3155 3168
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 66 1300 1326 "traces_surgical.ml" 66 1300 1330
+)
+"traces_surgical.ml" 119 3075 3079 "traces_surgical.ml" 121 3155 3168
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 123 3174 3180 "traces_surgical.ml" 123 3174 3181
+type(
+  string
+)
+"traces_surgical.ml" 123 3174 3184 "traces_surgical.ml" 123 3174 3198
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"traces_surgical.ml" 123 3174 3199 "traces_surgical.ml" 123 3174 3212
+type(
+  (string -> string, unit, string) format
+)
+"traces_surgical.ml" 123 3174 3214 "traces_surgical.ml" 123 3174 3235
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"traces_surgical.ml" 123 3174 3236 "traces_surgical.ml" 123 3174 3240
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 118 3062 3068 "traces_surgical.ml" 118 3062 3072
+)
+"traces_surgical.ml" 123 3174 3213 "traces_surgical.ml" 123 3174 3241
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 123 3174 3184 "traces_surgical.ml" 123 3174 3241
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 124 3245 3251 "traces_surgical.ml" 124 3245 3254
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 124 3245 3269 "traces_surgical.ml" 124 3245 3270
+type(
+  string
+)
+ident(
+  int_ref s "traces_surgical.ml" 123 3174 3180 "traces_surgical.ml" 123 3174 3181
+)
+"traces_surgical.ml" 124 3245 3272 "traces_surgical.ml" 124 3245 3274
+type(
+  Ast.attrs
+)
+"traces_surgical.ml" 124 3245 3268 "traces_surgical.ml" 124 3245 3275
+type(
+  string * Ast.attrs
+)
+"traces_surgical.ml" 124 3245 3257 "traces_surgical.ml" 124 3245 3275
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 125 3279 3285 "traces_surgical.ml" 125 3279 3286
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 125 3279 3295 "traces_surgical.ml" 125 3279 3299
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 118 3062 3068 "traces_surgical.ml" 118 3062 3072
+)
+"traces_surgical.ml" 126 3305 3322 "traces_surgical.ml" 126 3305 3323
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_surgical.ml" 126 3305 3337 "traces_surgical.ml" 127 3376 3410
+)
+"traces_surgical.ml" 126 3305 3324 "traces_surgical.ml" 126 3305 3326
+type(
+  Ast.exp
+)
+ident(
+  def tl "traces_surgical.ml" 126 3305 3337 "traces_surgical.ml" 127 3376 3410
+)
+"traces_surgical.ml" 126 3305 3327 "traces_surgical.ml" 126 3305 3328
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 126 3305 3329 "traces_surgical.ml" 126 3305 3334
+type(
+  Ast.attrs
+)
+ident(
+  def atts1 "traces_surgical.ml" 126 3305 3337 "traces_surgical.ml" 127 3376 3410
+)
+"traces_surgical.ml" 126 3305 3321 "traces_surgical.ml" 126 3305 3335
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 126 3305 3311 "traces_surgical.ml" 126 3305 3336
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 126 3305 3342 "traces_surgical.ml" 126 3305 3353
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Ast.full_exp_eq
+)
+"traces_surgical.ml" 126 3305 3355 "traces_surgical.ml" 126 3305 3360
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref evalf "traces_surgical.ml" 66 1300 1331 "traces_surgical.ml" 66 1300 1336
+)
+"traces_surgical.ml" 126 3305 3361 "traces_surgical.ml" 126 3305 3362
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_surgical.ml" 126 3305 3322 "traces_surgical.ml" 126 3305 3323
+)
+"traces_surgical.ml" 126 3305 3354 "traces_surgical.ml" 126 3305 3363
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 126 3305 3364 "traces_surgical.ml" 126 3305 3372
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_true
+)
+"traces_surgical.ml" 126 3305 3342 "traces_surgical.ml" 126 3305 3372
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_surgical.ml" 127 3376 3385 "traces_surgical.ml" 127 3376 3388
+type(
+  Ast.stmt
+)
+ident(
+  int_ref com "traces_surgical.ml" 124 3245 3251 "traces_surgical.ml" 124 3245 3254
+)
+"traces_surgical.ml" 127 3376 3401 "traces_surgical.ml" 127 3376 3402
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_surgical.ml" 126 3305 3322 "traces_surgical.ml" 126 3305 3323
+)
+"traces_surgical.ml" 127 3376 3403 "traces_surgical.ml" 127 3376 3408
+type(
+  Ast.attrs
+)
+ident(
+  int_ref atts1 "traces_surgical.ml" 126 3305 3329 "traces_surgical.ml" 126 3305 3334
+)
+"traces_surgical.ml" 127 3376 3400 "traces_surgical.ml" 127 3376 3409
+type(
+  Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 127 3376 3390 "traces_surgical.ml" 127 3376 3409
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 127 3376 3384 "traces_surgical.ml" 127 3376 3410
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 126 3305 3337 "traces_surgical.ml" 127 3376 3410
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 128 3411 3428 "traces_surgical.ml" 128 3411 3429
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_surgical.ml" 128 3411 3443 "traces_surgical.ml" 129 3483 3527
+)
+"traces_surgical.ml" 128 3411 3430 "traces_surgical.ml" 128 3411 3431
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 128 3411 3432 "traces_surgical.ml" 128 3411 3434
+type(
+  Ast.exp
+)
+ident(
+  def fl "traces_surgical.ml" 128 3411 3443 "traces_surgical.ml" 129 3483 3527
+)
+"traces_surgical.ml" 128 3411 3435 "traces_surgical.ml" 128 3411 3440
+type(
+  Ast.attrs
+)
+ident(
+  def atts1 "traces_surgical.ml" 128 3411 3443 "traces_surgical.ml" 129 3483 3527
+)
+"traces_surgical.ml" 128 3411 3427 "traces_surgical.ml" 128 3411 3441
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 128 3411 3417 "traces_surgical.ml" 128 3411 3442
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 128 3411 3448 "traces_surgical.ml" 128 3411 3459
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Ast.full_exp_eq
+)
+"traces_surgical.ml" 128 3411 3461 "traces_surgical.ml" 128 3411 3466
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref evalf "traces_surgical.ml" 66 1300 1331 "traces_surgical.ml" 66 1300 1336
+)
+"traces_surgical.ml" 128 3411 3467 "traces_surgical.ml" 128 3411 3468
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_surgical.ml" 128 3411 3428 "traces_surgical.ml" 128 3411 3429
+)
+"traces_surgical.ml" 128 3411 3460 "traces_surgical.ml" 128 3411 3469
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 128 3411 3470 "traces_surgical.ml" 128 3411 3479
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_false
+)
+"traces_surgical.ml" 128 3411 3448 "traces_surgical.ml" 128 3411 3479
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_surgical.ml" 129 3483 3492 "traces_surgical.ml" 129 3483 3495
+type(
+  Ast.stmt
+)
+ident(
+  int_ref com "traces_surgical.ml" 124 3245 3251 "traces_surgical.ml" 124 3245 3254
+)
+"traces_surgical.ml" 129 3483 3513 "traces_surgical.ml" 129 3483 3516
+type(
+  Type.unop_type
+)
+"traces_surgical.ml" 129 3483 3517 "traces_surgical.ml" 129 3483 3518
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_surgical.ml" 128 3411 3428 "traces_surgical.ml" 128 3411 3429
+)
+"traces_surgical.ml" 129 3483 3512 "traces_surgical.ml" 129 3483 3519
+type(
+  Type.unop_type * Ast.exp
+)
+"traces_surgical.ml" 129 3483 3508 "traces_surgical.ml" 129 3483 3519
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 129 3483 3520 "traces_surgical.ml" 129 3483 3525
+type(
+  Ast.attrs
+)
+ident(
+  int_ref atts1 "traces_surgical.ml" 128 3411 3435 "traces_surgical.ml" 128 3411 3440
+)
+"traces_surgical.ml" 129 3483 3507 "traces_surgical.ml" 129 3483 3526
+type(
+  Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 129 3483 3497 "traces_surgical.ml" 129 3483 3526
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 129 3483 3491 "traces_surgical.ml" 129 3483 3527
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 128 3411 3443 "traces_surgical.ml" 129 3483 3527
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 130 3528 3543 "traces_surgical.ml" 130 3528 3544
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 130 3528 3534 "traces_surgical.ml" 130 3528 3544
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 130 3528 3548 "traces_surgical.ml" 130 3528 3556
+type(
+  string -> Ast.stmt list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_surgical.ml" 130 3528 3557 "traces_surgical.ml" 130 3528 3578
+type(
+  string
+)
+"traces_surgical.ml" 130 3528 3548 "traces_surgical.ml" 130 3528 3578
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 131 3579 3594 "traces_surgical.ml" 131 3579 3595
+type(
+  Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 131 3579 3585 "traces_surgical.ml" 131 3579 3596
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 132 3600 3609 "traces_surgical.ml" 132 3600 3612
+type(
+  Ast.stmt
+)
+ident(
+  int_ref com "traces_surgical.ml" 124 3245 3251 "traces_surgical.ml" 124 3245 3254
+)
+"traces_surgical.ml" 132 3600 3608 "traces_surgical.ml" 132 3600 3613
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 135 3723 3739 "traces_surgical.ml" 135 3723 3740
+type(
+  Ast.var
+)
+ident(
+  def v "traces_surgical.ml" 136 3784 3792 "traces_surgical.ml" 138 3855 3912
+)
+"traces_surgical.ml" 135 3723 3748 "traces_surgical.ml" 135 3723 3751
+type(
+  Ast.exp
+)
+ident(
+  def mem "traces_surgical.ml" 136 3784 3792 "traces_surgical.ml" 138 3855 3912
+)
+"traces_surgical.ml" 135 3723 3753 "traces_surgical.ml" 135 3723 3756
+type(
+  Ast.exp
+)
+ident(
+  def idx "traces_surgical.ml" 136 3784 3792 "traces_surgical.ml" 138 3855 3912
+)
+"traces_surgical.ml" 135 3723 3758 "traces_surgical.ml" 135 3723 3763
+type(
+  Ast.exp
+)
+ident(
+  def value "traces_surgical.ml" 136 3784 3792 "traces_surgical.ml" 138 3855 3912
+)
+"traces_surgical.ml" 135 3723 3765 "traces_surgical.ml" 135 3723 3772
+type(
+  Ast.exp
+)
+ident(
+  def _endian "traces_surgical.ml" 136 3784 3792 "traces_surgical.ml" 138 3855 3912
+)
+"traces_surgical.ml" 135 3723 3774 "traces_surgical.ml" 135 3723 3775
+type(
+  Type.typ
+)
+ident(
+  def t "traces_surgical.ml" 136 3784 3792 "traces_surgical.ml" 138 3855 3912
+)
+"traces_surgical.ml" 135 3723 3747 "traces_surgical.ml" 135 3723 3776
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_surgical.ml" 135 3723 3742 "traces_surgical.ml" 135 3723 3776
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 135 3723 3778 "traces_surgical.ml" 135 3723 3779
+type(
+  Ast.attrs
+)
+"traces_surgical.ml" 135 3723 3738 "traces_surgical.ml" 135 3723 3780
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 135 3723 3729 "traces_surgical.ml" 135 3723 3780
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 136 3784 3796 "traces_surgical.ml" 136 3784 3799
+type(
+  Big_int_Z.big_int
+)
+"traces_surgical.ml" 136 3784 3802 "traces_surgical.ml" 136 3784 3812
+type(
+  Ast.exp -> Big_int_Z.big_int
+)
+ident(
+  int_ref concretize "traces_surgical.ml" 84 1944 1950 "traces_surgical.ml" 84 1944 1960
+)
+"traces_surgical.ml" 136 3784 3813 "traces_surgical.ml" 136 3784 3816
+type(
+  Ast.exp
+)
+ident(
+  int_ref idx "traces_surgical.ml" 135 3723 3753 "traces_surgical.ml" 135 3723 3756
+)
+"traces_surgical.ml" 136 3784 3802 "traces_surgical.ml" 136 3784 3816
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int
+)
+"traces_surgical.ml" 137 3820 3832 "traces_surgical.ml" 137 3820 3837
+type(
+  int
+)
+"traces_surgical.ml" 137 3820 3840 "traces_surgical.ml" 137 3820 3849
+type(
+  Type.typ -> int
+)
+ident(
+  int_ref get_bytes "traces_surgical.ml" 67 1340 1346 "traces_surgical.ml" 67 1340 1355
+)
+"traces_surgical.ml" 137 3820 3850 "traces_surgical.ml" 137 3820 3851
+type(
+  Type.typ
+)
+ident(
+  int_ref t "traces_surgical.ml" 135 3723 3774 "traces_surgical.ml" 135 3723 3775
+)
+"traces_surgical.ml" 137 3820 3840 "traces_surgical.ml" 137 3820 3851
+call(
+  stack
+)
+type(
+  int
+)
+"traces_surgical.ml" 138 3855 3865 "traces_surgical.ml" 138 3855 3875
+type(
+  int64 -> Ast.exp -> Type.typ -> int -> Ast.stmt list
+)
+ident(
+  int_ref break_move "traces_surgical.ml" 102 2442 2448 "traces_surgical.ml" 102 2442 2458
+)
+"traces_surgical.ml" 138 3855 3877 "traces_surgical.ml" 138 3855 3893
+type(
+  Big_int_Z.big_int -> int64
+)
+ident(
+  ext_ref Big_int_Z.int64_of_big_int
+)
+"traces_surgical.ml" 138 3855 3894 "traces_surgical.ml" 138 3855 3897
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref idx "traces_surgical.ml" 136 3784 3796 "traces_surgical.ml" 136 3784 3799
+)
+"traces_surgical.ml" 138 3855 3876 "traces_surgical.ml" 138 3855 3898
+call(
+  stack
+)
+type(
+  int64
+)
+"traces_surgical.ml" 138 3855 3899 "traces_surgical.ml" 138 3855 3904
+type(
+  Ast.exp
+)
+ident(
+  int_ref value "traces_surgical.ml" 135 3723 3758 "traces_surgical.ml" 135 3723 3763
+)
+"traces_surgical.ml" 138 3855 3905 "traces_surgical.ml" 138 3855 3906
+type(
+  Type.typ
+)
+ident(
+  int_ref t "traces_surgical.ml" 135 3723 3774 "traces_surgical.ml" 135 3723 3775
+)
+"traces_surgical.ml" 138 3855 3907 "traces_surgical.ml" 138 3855 3912
+type(
+  int
+)
+ident(
+  int_ref bytes "traces_surgical.ml" 137 3820 3832 "traces_surgical.ml" 137 3820 3837
+)
+"traces_surgical.ml" 138 3855 3865 "traces_surgical.ml" 138 3855 3912
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 137 3820 3828 "traces_surgical.ml" 138 3855 3912
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 136 3784 3792 "traces_surgical.ml" 138 3855 3912
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 139 3914 3930 "traces_surgical.ml" 139 3914 3931
+type(
+  Ast.var
+)
+"traces_surgical.ml" 139 3914 3933 "traces_surgical.ml" 139 3914 3934
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 139 3914 3936 "traces_surgical.ml" 139 3914 3940
+type(
+  Ast.attrs
+)
+ident(
+  def atts "traces_surgical.ml" 139 3914 3942 "traces_surgical.ml" 139 3914 3984
+)
+"traces_surgical.ml" 139 3914 3929 "traces_surgical.ml" 139 3914 3941
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 139 3914 3920 "traces_surgical.ml" 139 3914 3941
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 139 3914 3947 "traces_surgical.ml" 139 3914 3958
+type(
+  (Type.attribute -> bool) -> Ast.attrs -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"traces_surgical.ml" 139 3914 3959 "traces_surgical.ml" 139 3914 3973
+type(
+  Type.attribute -> bool
+)
+ident(
+  ext_ref Traces.is_tconcassign
+)
+"traces_surgical.ml" 139 3914 3974 "traces_surgical.ml" 139 3914 3978
+type(
+  Ast.attrs
+)
+ident(
+  int_ref atts "traces_surgical.ml" 139 3914 3936 "traces_surgical.ml" 139 3914 3940
+)
+"traces_surgical.ml" 139 3914 3947 "traces_surgical.ml" 139 3914 3978
+type(
+  bool
+)
+"traces_surgical.ml" 139 3914 3982 "traces_surgical.ml" 139 3914 3984
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 139 3914 3942 "traces_surgical.ml" 139 3914 3984
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 140 3985 3991 "traces_surgical.ml" 140 3985 3992
+type(
+  Ast.stmt
+)
+ident(
+  def s "traces_surgical.ml" 140 3985 3996 "traces_surgical.ml" 140 3985 3999
+)
+"traces_surgical.ml" 140 3985 3997 "traces_surgical.ml" 140 3985 3998
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "traces_surgical.ml" 140 3985 3991 "traces_surgical.ml" 140 3985 3992
+)
+"traces_surgical.ml" 140 3985 3996 "traces_surgical.ml" 140 3985 3999
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 125 3279 3289 "traces_surgical.ml" 140 3985 3999
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 145 4204 4208 "traces_surgical.ml" 145 4204 4209
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref s "traces_surgical.ml" 125 3279 3285 "traces_surgical.ml" 125 3279 3286
+)
+"traces_surgical.ml" 125 3279 3281 "traces_surgical.ml" 145 4204 4209
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 124 3245 3247 "traces_surgical.ml" 145 4204 4209
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 123 3174 3176 "traces_surgical.ml" 145 4204 4209
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 118 3062 3064 "traces_surgical.ml" 145 4204 4209
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 102 2442 2444 "traces_surgical.ml" 145 4204 4209
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 89 2066 2068 "traces_surgical.ml" 145 4204 4209
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 84 1944 1946 "traces_surgical.ml" 145 4204 4209
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 71 1432 1434 "traces_surgical.ml" 145 4204 4209
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 67 1340 1342 "traces_surgical.ml" 145 4204 4209
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 147 4211 4215 "traces_surgical.ml" 147 4211 4234
+type(
+  'a -> Ast.stmt -> Ast.stmt list
+)
+ident(
+  def get_symbolic_seeds2 "traces_surgical.ml" 166 4981 4981 --
+)
+"traces_surgical.ml" 147 4211 4235 "traces_surgical.ml" 147 4211 4239
+type(
+  'a
+)
+ident(
+  def memv "traces_surgical.ml" 147 4211 4242 "traces_surgical.ml" 163 4931 4942
+)
+"traces_surgical.ml" 148 4251 4268 "traces_surgical.ml" 148 4251 4269
+type(
+  string
+)
+ident(
+  def s "traces_surgical.ml" 148 4251 4276 "traces_surgical.ml" 162 4898 4930
+)
+"traces_surgical.ml" 148 4251 4270 "traces_surgical.ml" 148 4251 4274
+type(
+  Ast.attrs
+)
+ident(
+  def atts "traces_surgical.ml" 148 4251 4276 "traces_surgical.ml" 162 4898 4930
+)
+"traces_surgical.ml" 148 4251 4267 "traces_surgical.ml" 148 4251 4275
+type(
+  string * Ast.attrs
+)
+"traces_surgical.ml" 148 4251 4255 "traces_surgical.ml" 148 4251 4275
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 148 4251 4281 "traces_surgical.ml" 148 4251 4294
+type(
+  string -> bool
+)
+ident(
+  ext_ref Traces.is_seed_label
+)
+"traces_surgical.ml" 148 4251 4295 "traces_surgical.ml" 148 4251 4296
+type(
+  string
+)
+ident(
+  int_ref s "traces_surgical.ml" 148 4251 4268 "traces_surgical.ml" 148 4251 4269
+)
+"traces_surgical.ml" 148 4251 4281 "traces_surgical.ml" 148 4251 4296
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_surgical.ml" 149 4300 4306 "traces_surgical.ml" 149 4300 4320
+type(
+  (Ast.stmt list -> Type.context -> Ast.stmt list) ->
+  Ast.stmt list -> Type.context list -> Ast.stmt list
+)
+ident(
+  ext_ref List.fold_left
+)
+"traces_surgical.ml" 150 4321 4334 "traces_surgical.ml" 150 4321 4337
+type(
+  Ast.stmt list
+)
+ident(
+  def acc "traces_surgical.ml" 150 4321 4338 "traces_surgical.ml" 161 4875 4897
+)
+"traces_surgical.ml" 150 4321 4345 "traces_surgical.ml" 150 4321 4350
+type(
+  Type.addr
+)
+ident(
+  def index "traces_surgical.ml" 151 4374 4385 "traces_surgical.ml" 161 4875 4897
+)
+"traces_surgical.ml" 150 4321 4364 "traces_surgical.ml" 150 4321 4369
+type(
+  int
+)
+ident(
+  def taint "traces_surgical.ml" 151 4374 4385 "traces_surgical.ml" 161 4875 4897
+)
+"traces_surgical.ml" 150 4321 4358 "traces_surgical.ml" 150 4321 4369
+type(
+  Type.taint_type
+)
+"traces_surgical.ml" 150 4321 4338 "traces_surgical.ml" 150 4321 4370
+type(
+  Type.context
+)
+"traces_surgical.ml" 151 4374 4389 "traces_surgical.ml" 151 4374 4399
+type(
+  string
+)
+"traces_surgical.ml" 151 4374 4402 "traces_surgical.ml" 151 4374 4409
+type(
+  string
+)
+"traces_surgical.ml" 151 4374 4410 "traces_surgical.ml" 151 4374 4411
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_surgical.ml" 151 4374 4413 "traces_surgical.ml" 151 4374 4426
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"traces_surgical.ml" 151 4374 4427 "traces_surgical.ml" 151 4374 4432
+type(
+  int
+)
+ident(
+  int_ref taint "traces_surgical.ml" 150 4321 4364 "traces_surgical.ml" 150 4321 4369
+)
+"traces_surgical.ml" 151 4374 4412 "traces_surgical.ml" 151 4374 4433
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 151 4374 4402 "traces_surgical.ml" 151 4374 4433
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 152 4437 4452 "traces_surgical.ml" 152 4437 4459
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 152 4437 4467 "traces_surgical.ml" 152 4437 4477
+type(
+  string -> Type.typ -> Ast.var
+)
+ident(
+  ext_ref Var.newvar
+)
+"traces_surgical.ml" 152 4437 4478 "traces_surgical.ml" 152 4437 4488
+type(
+  string
+)
+ident(
+  int_ref newvarname "traces_surgical.ml" 151 4374 4389 "traces_surgical.ml" 151 4374 4399
+)
+"traces_surgical.ml" 152 4437 4489 "traces_surgical.ml" 152 4437 4494
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"traces_surgical.ml" 152 4437 4466 "traces_surgical.ml" 152 4437 4495
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_surgical.ml" 152 4437 4462 "traces_surgical.ml" 152 4437 4495
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 153 4499 4512 "traces_surgical.ml" 153 4499 4518
+type(
+  string -> unit
+)
+ident(
+  ext_ref D.pdebug
+)
+"traces_surgical.ml" 153 4499 4520 "traces_surgical.ml" 153 4499 4544
+type(
+  string
+)
+"traces_surgical.ml" 154 4546 4567 "traces_surgical.ml" 154 4546 4568
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_surgical.ml" 154 4546 4569 "traces_surgical.ml" 154 4546 4583
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"traces_surgical.ml" 154 4546 4584 "traces_surgical.ml" 154 4546 4588
+type(
+  (string -> string, unit, string) format
+)
+"traces_surgical.ml" 154 4546 4590 "traces_surgical.ml" 154 4546 4592
+type(
+  Type.addr -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"traces_surgical.ml" 154 4546 4593 "traces_surgical.ml" 154 4546 4598
+type(
+  Type.addr
+)
+ident(
+  int_ref index "traces_surgical.ml" 150 4321 4345 "traces_surgical.ml" 150 4321 4350
+)
+"traces_surgical.ml" 154 4546 4589 "traces_surgical.ml" 154 4546 4599
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 154 4546 4568 "traces_surgical.ml" 154 4546 4600
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 155 4601 4622 "traces_surgical.ml" 155 4601 4623
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_surgical.ml" 155 4601 4623 "traces_surgical.ml" 155 4601 4629
+type(
+  string
+)
+"traces_surgical.ml" 156 4630 4651 "traces_surgical.ml" 156 4630 4652
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_surgical.ml" 156 4630 4653 "traces_surgical.ml" 156 4630 4673
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"traces_surgical.ml" 156 4630 4674 "traces_surgical.ml" 156 4630 4681
+type(
+  Ast.exp
+)
+ident(
+  int_ref sym_var "traces_surgical.ml" 152 4437 4452 "traces_surgical.ml" 152 4437 4459
+)
+"traces_surgical.ml" 156 4630 4652 "traces_surgical.ml" 156 4630 4682
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 155 4601 4623 "traces_surgical.ml" 156 4630 4682
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 154 4546 4568 "traces_surgical.ml" 156 4630 4682
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 153 4499 4519 "traces_surgical.ml" 156 4630 4683
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 153 4499 4512 "traces_surgical.ml" 156 4630 4683
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 157 4685 4698 "traces_surgical.ml" 157 4685 4710
+type(
+  Big_int_Z.big_int -> Ast.exp -> unit
+)
+ident(
+  ext_ref Traces.add_symbolic
+)
+"traces_surgical.ml" 157 4685 4711 "traces_surgical.ml" 157 4685 4716
+type(
+  Type.addr
+)
+ident(
+  int_ref index "traces_surgical.ml" 150 4321 4345 "traces_surgical.ml" 150 4321 4350
+)
+"traces_surgical.ml" 157 4685 4717 "traces_surgical.ml" 157 4685 4724
+type(
+  Ast.exp
+)
+ident(
+  int_ref sym_var "traces_surgical.ml" 152 4437 4452 "traces_surgical.ml" 152 4437 4459
+)
+"traces_surgical.ml" 157 4685 4698 "traces_surgical.ml" 157 4685 4724
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 159 4764 4781 "traces_surgical.ml" 159 4764 4784
+type(
+  Ast.var
+)
+"traces_surgical.ml" 159 4764 4787 "traces_surgical.ml" 159 4764 4793
+type(
+  int64 -> Type.typ -> Ast.var
+)
+ident(
+  int_ref newvar "traces_surgical.ml" 55 1053 1057 "traces_surgical.ml" 55 1053 1063
+)
+"traces_surgical.ml" 159 4764 4795 "traces_surgical.ml" 159 4764 4808
+type(
+  Type.addr -> int64
+)
+ident(
+  ext_ref Big_int_convenience.addr_to_int64
+)
+"traces_surgical.ml" 159 4764 4809 "traces_surgical.ml" 159 4764 4814
+type(
+  Type.addr
+)
+ident(
+  int_ref index "traces_surgical.ml" 150 4321 4345 "traces_surgical.ml" 150 4321 4350
+)
+"traces_surgical.ml" 159 4764 4794 "traces_surgical.ml" 159 4764 4815
+call(
+  stack
+)
+type(
+  int64
+)
+"traces_surgical.ml" 159 4764 4816 "traces_surgical.ml" 159 4764 4821
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"traces_surgical.ml" 159 4764 4787 "traces_surgical.ml" 159 4764 4821
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"traces_surgical.ml" 160 4825 4842 "traces_surgical.ml" 160 4825 4846
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 160 4825 4854 "traces_surgical.ml" 160 4825 4857
+type(
+  Ast.var
+)
+ident(
+  int_ref mem "traces_surgical.ml" 159 4764 4781 "traces_surgical.ml" 159 4764 4784
+)
+"traces_surgical.ml" 160 4825 4859 "traces_surgical.ml" 160 4825 4866
+type(
+  Ast.exp
+)
+ident(
+  int_ref sym_var "traces_surgical.ml" 152 4437 4452 "traces_surgical.ml" 152 4437 4459
+)
+"traces_surgical.ml" 160 4825 4868 "traces_surgical.ml" 160 4825 4870
+type(
+  Ast.attrs
+)
+"traces_surgical.ml" 160 4825 4853 "traces_surgical.ml" 160 4825 4871
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 160 4825 4849 "traces_surgical.ml" 160 4825 4871
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 161 4875 4888 "traces_surgical.ml" 161 4875 4892
+type(
+  Ast.stmt
+)
+ident(
+  int_ref move "traces_surgical.ml" 160 4825 4842 "traces_surgical.ml" 160 4825 4846
+)
+"traces_surgical.ml" 161 4875 4894 "traces_surgical.ml" 161 4875 4897
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 150 4321 4334 "traces_surgical.ml" 150 4321 4337
+)
+"traces_surgical.ml" 161 4875 4888 "traces_surgical.ml" 161 4875 4897
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 160 4825 4838 "traces_surgical.ml" 161 4875 4897
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 159 4764 4777 "traces_surgical.ml" 161 4875 4897
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 157 4685 4698 "traces_surgical.ml" 161 4875 4897
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 153 4499 4512 "traces_surgical.ml" 161 4875 4897
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 152 4437 4448 "traces_surgical.ml" 161 4875 4897
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 151 4374 4385 "traces_surgical.ml" 161 4875 4897
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 150 4321 4329 "traces_surgical.ml" 162 4898 4907
+type(
+  Ast.stmt list -> Type.context -> Ast.stmt list
+)
+"traces_surgical.ml" 162 4898 4908 "traces_surgical.ml" 162 4898 4910
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 162 4898 4912 "traces_surgical.ml" 162 4898 4924
+type(
+  Ast.attrs -> Type.context list
+)
+ident(
+  ext_ref Traces.filter_taint
+)
+"traces_surgical.ml" 162 4898 4925 "traces_surgical.ml" 162 4898 4929
+type(
+  Ast.attrs
+)
+ident(
+  int_ref atts "traces_surgical.ml" 148 4251 4270 "traces_surgical.ml" 148 4251 4274
+)
+"traces_surgical.ml" 162 4898 4911 "traces_surgical.ml" 162 4898 4930
+call(
+  stack
+)
+type(
+  Type.context list
+)
+"traces_surgical.ml" 149 4300 4306 "traces_surgical.ml" 162 4898 4930
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 148 4251 4276 "traces_surgical.ml" 162 4898 4930
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 163 4931 4935 "traces_surgical.ml" 163 4931 4936
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 163 4931 4940 "traces_surgical.ml" 163 4931 4942
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 147 4211 4242 "traces_surgical.ml" 163 4931 4942
+type(
+  Ast.stmt -> Ast.stmt list
+)
+"traces_surgical.ml" 166 4981 4985 "traces_surgical.ml" 166 4981 5004
+type(
+  Arch.arch ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Ast.var ->
+  Ast.var Traces.TVHash.t -> Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  def run_and_subst_block "traces_surgical.ml" 244 8001 8001 --
+)
+"traces_surgical.ml" 166 4981 5005 "traces_surgical.ml" 166 4981 5009
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_surgical.ml" 166 4981 5010 "traces_surgical.ml" 242 7947 7999
+)
+"traces_surgical.ml" 166 4981 5010 "traces_surgical.ml" 166 4981 5015
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  def state "traces_surgical.ml" 166 4981 5016 "traces_surgical.ml" 242 7947 7999
+)
+"traces_surgical.ml" 166 4981 5016 "traces_surgical.ml" 166 4981 5020
+type(
+  Ast.var
+)
+ident(
+  def memv "traces_surgical.ml" 166 4981 5021 "traces_surgical.ml" 242 7947 7999
+)
+"traces_surgical.ml" 166 4981 5021 "traces_surgical.ml" 166 4981 5031
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  def thread_map "traces_surgical.ml" 166 4981 5032 "traces_surgical.ml" 242 7947 7999
+)
+"traces_surgical.ml" 166 4981 5032 "traces_surgical.ml" 166 4981 5037
+type(
+  Symbeval.instr list
+)
+ident(
+  def block "traces_surgical.ml" 167 5041 5043 "traces_surgical.ml" 242 7947 7999
+)
+"traces_surgical.ml" 167 5041 5047 "traces_surgical.ml" 167 5041 5051
+type(
+  Symbeval.instr
+)
+"traces_surgical.ml" 167 5041 5053 "traces_surgical.ml" 167 5041 5058
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 167 5041 5047 "traces_surgical.ml" 167 5041 5058
+type(
+  Symbeval.instr * Symbeval.instr list
+)
+"traces_surgical.ml" 167 5041 5061 "traces_surgical.ml" 167 5041 5066
+type(
+  Symbeval.instr list -> Symbeval.instr * Symbeval.instr list
+)
+ident(
+  ext_ref Traces.hd_tl
+)
+"traces_surgical.ml" 167 5041 5067 "traces_surgical.ml" 167 5041 5072
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_surgical.ml" 166 4981 5032 "traces_surgical.ml" 166 4981 5037
+)
+"traces_surgical.ml" 167 5041 5061 "traces_surgical.ml" 167 5041 5072
+call(
+  stack
+)
+type(
+  Symbeval.instr * Symbeval.instr list
+)
+"traces_surgical.ml" 168 5076 5082 "traces_surgical.ml" 168 5076 5093
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 168 5076 5096 "traces_surgical.ml" 168 5076 5115
+type(
+  Ast.var -> Symbeval.instr -> Ast.stmt list
+)
+ident(
+  int_ref get_symbolic_seeds2 "traces_surgical.ml" 147 4211 4215 "traces_surgical.ml" 147 4211 4234
+)
+"traces_surgical.ml" 168 5076 5116 "traces_surgical.ml" 168 5076 5120
+type(
+  Ast.var
+)
+ident(
+  int_ref memv "traces_surgical.ml" 166 4981 5016 "traces_surgical.ml" 166 4981 5020
+)
+"traces_surgical.ml" 168 5076 5121 "traces_surgical.ml" 168 5076 5125
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref addr "traces_surgical.ml" 167 5041 5047 "traces_surgical.ml" 167 5041 5051
+)
+"traces_surgical.ml" 168 5076 5096 "traces_surgical.ml" 168 5076 5125
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 169 5129 5131 "traces_surgical.ml" 169 5129 5137
+type(
+  string -> unit
+)
+ident(
+  ext_ref D.pdebug
+)
+"traces_surgical.ml" 169 5129 5139 "traces_surgical.ml" 169 5129 5156
+type(
+  string
+)
+"traces_surgical.ml" 169 5129 5157 "traces_surgical.ml" 169 5129 5158
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_surgical.ml" 169 5129 5160 "traces_surgical.ml" 169 5129 5173
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"traces_surgical.ml" 169 5129 5174 "traces_surgical.ml" 169 5129 5175
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 169 5129 5175 "traces_surgical.ml" 169 5129 5182
+type(
+  int ref
+)
+ident(
+  ext_ref Traces.counter
+)
+"traces_surgical.ml" 169 5129 5174 "traces_surgical.ml" 169 5129 5182
+type(
+  int
+)
+"traces_surgical.ml" 169 5129 5159 "traces_surgical.ml" 169 5129 5183
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 169 5129 5184 "traces_surgical.ml" 169 5129 5185
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_surgical.ml" 169 5129 5186 "traces_surgical.ml" 169 5129 5189
+type(
+  string
+)
+"traces_surgical.ml" 169 5129 5190 "traces_surgical.ml" 169 5129 5191
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_surgical.ml" 169 5129 5193 "traces_surgical.ml" 169 5129 5214
+type(
+  Symbeval.instr -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"traces_surgical.ml" 169 5129 5215 "traces_surgical.ml" 169 5129 5219
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref addr "traces_surgical.ml" 167 5041 5047 "traces_surgical.ml" 167 5041 5051
+)
+"traces_surgical.ml" 169 5129 5192 "traces_surgical.ml" 169 5129 5220
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 169 5129 5186 "traces_surgical.ml" 169 5129 5220
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 169 5129 5159 "traces_surgical.ml" 169 5129 5220
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 169 5129 5138 "traces_surgical.ml" 169 5129 5221
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 169 5129 5131 "traces_surgical.ml" 169 5129 5221
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 170 5223 5229 "traces_surgical.ml" 170 5223 5233
+type(
+  Symbeval.instr
+)
+"traces_surgical.ml" 170 5223 5235 "traces_surgical.ml" 170 5223 5240
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 170 5223 5229 "traces_surgical.ml" 170 5223 5240
+type(
+  Symbeval.instr * Symbeval.instr list
+)
+"traces_surgical.ml" 170 5223 5243 "traces_surgical.ml" 170 5223 5248
+type(
+  Symbeval.instr list -> Symbeval.instr * Symbeval.instr list
+)
+ident(
+  ext_ref Traces.hd_tl
+)
+"traces_surgical.ml" 170 5223 5249 "traces_surgical.ml" 170 5223 5254
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_surgical.ml" 167 5041 5053 "traces_surgical.ml" 167 5041 5058
+)
+"traces_surgical.ml" 170 5223 5243 "traces_surgical.ml" 170 5223 5254
+call(
+  stack
+)
+type(
+  Symbeval.instr * Symbeval.instr list
+)
+"traces_surgical.ml" 171 5258 5260 "traces_surgical.ml" 171 5258 5267
+type(
+  int ref
+)
+ident(
+  ext_ref Traces.counter
+)
+"traces_surgical.ml" 171 5258 5268 "traces_surgical.ml" 171 5258 5270
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_surgical.ml" 171 5258 5271 "traces_surgical.ml" 171 5258 5272
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 171 5258 5272 "traces_surgical.ml" 171 5258 5279
+type(
+  int ref
+)
+ident(
+  ext_ref Traces.counter
+)
+"traces_surgical.ml" 171 5258 5271 "traces_surgical.ml" 171 5258 5279
+type(
+  int
+)
+"traces_surgical.ml" 171 5258 5280 "traces_surgical.ml" 171 5258 5281
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"traces_surgical.ml" 171 5258 5282 "traces_surgical.ml" 171 5258 5283
+type(
+  int
+)
+"traces_surgical.ml" 171 5258 5271 "traces_surgical.ml" 171 5258 5283
+type(
+  int
+)
+"traces_surgical.ml" 171 5258 5260 "traces_surgical.ml" 171 5258 5283
+type(
+  unit
+)
+"traces_surgical.ml" 172 5286 5292 "traces_surgical.ml" 172 5286 5293
+type(
+  unit
+)
+"traces_surgical.ml" 172 5286 5296 "traces_surgical.ml" 172 5286 5302
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_surgical.ml" 172 5286 5303 "traces_surgical.ml" 172 5286 5318
+type(
+  Symbeval.instr -> bool
+)
+ident(
+  ext_ref Traces.update_concrete
+)
+"traces_surgical.ml" 172 5286 5319 "traces_surgical.ml" 172 5286 5323
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref addr "traces_surgical.ml" 167 5041 5047 "traces_surgical.ml" 167 5041 5051
+)
+"traces_surgical.ml" 172 5286 5302 "traces_surgical.ml" 172 5286 5324
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_surgical.ml" 172 5286 5296 "traces_surgical.ml" 172 5286 5324
+type(
+  unit
+)
+"traces_surgical.ml" 173 5328 5333 "traces_surgical.ml" 173 5328 5334
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 173 5328 5334 "traces_surgical.ml" 173 5328 5351
+type(
+  bool ref
+)
+ident(
+  ext_ref Traces.consistency_check
+)
+"traces_surgical.ml" 173 5328 5333 "traces_surgical.ml" 173 5328 5351
+type(
+  bool
+)
+"traces_surgical.ml" 176 5402 5406 "traces_surgical.ml" 176 5402 5417
+type(
+  Symbeval.varval Symbeval.VH.t -> unit
+)
+ident(
+  ext_ref Traces.clean_delta
+)
+"traces_surgical.ml" 176 5402 5418 "traces_surgical.ml" 176 5402 5423
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 166 4981 5010 "traces_surgical.ml" 166 4981 5015
+)
+"traces_surgical.ml" 176 5402 5418 "traces_surgical.ml" 176 5402 5429
+type(
+  Symbeval.varval Symbeval.VH.t
+)
+"traces_surgical.ml" 176 5402 5406 "traces_surgical.ml" 176 5402 5429
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 177 5431 5435 "traces_surgical.ml" 177 5431 5441
+type(
+  Traces.TraceConcrete.MemL.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_surgical.ml" 177 5431 5442 "traces_surgical.ml" 177 5431 5453
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  int option -> Traces.TraceConcrete.MemL.t
+)
+ident(
+  ext_ref Traces.check_delta
+)
+"traces_surgical.ml" 177 5431 5454 "traces_surgical.ml" 177 5431 5459
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 166 4981 5010 "traces_surgical.ml" 166 4981 5015
+)
+"traces_surgical.ml" 177 5431 5461 "traces_surgical.ml" 177 5431 5468
+type(
+  Symbeval.instr list -> int option
+)
+ident(
+  ext_ref Traces.get_tid
+)
+"traces_surgical.ml" 177 5431 5469 "traces_surgical.ml" 177 5431 5474
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_surgical.ml" 170 5223 5235 "traces_surgical.ml" 170 5223 5240
+)
+"traces_surgical.ml" 177 5431 5460 "traces_surgical.ml" 177 5431 5475
+call(
+  stack
+)
+type(
+  int option
+)
+"traces_surgical.ml" 177 5431 5441 "traces_surgical.ml" 177 5431 5476
+call(
+  stack
+)
+type(
+  Traces.TraceConcrete.MemL.t
+)
+"traces_surgical.ml" 177 5431 5435 "traces_surgical.ml" 177 5431 5477
+type(
+  unit
+)
+"traces_surgical.ml" 173 5328 5357 "traces_surgical.ml" 180 5575 5578
+type(
+  unit
+)
+"traces_surgical.ml" 173 5328 5330 "traces_surgical.ml" 180 5575 5578
+type(
+  unit
+)
+"traces_surgical.ml" 183 5627 5633 "traces_surgical.ml" 183 5627 5638
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 183 5627 5640 "traces_surgical.ml" 183 5627 5645
+type(
+  int
+)
+"traces_surgical.ml" 183 5627 5633 "traces_surgical.ml" 183 5627 5645
+type(
+  Symbeval.instr list * int
+)
+"traces_surgical.ml" 184 5648 5656 "traces_surgical.ml" 184 5648 5663
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 184 5648 5666 "traces_surgical.ml" 184 5648 5677
+type(
+  Arch.arch -> Ast.var -> (Ast.var -> Ast.var) -> bool -> Ast.stmt list
+)
+ident(
+  ext_ref Traces.assign_vars
+)
+"traces_surgical.ml" 184 5648 5678 "traces_surgical.ml" 184 5648 5682
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_surgical.ml" 166 4981 5005 "traces_surgical.ml" 166 4981 5009
+)
+"traces_surgical.ml" 184 5648 5683 "traces_surgical.ml" 184 5648 5687
+type(
+  Ast.var
+)
+ident(
+  int_ref memv "traces_surgical.ml" 166 4981 5016 "traces_surgical.ml" 166 4981 5020
+)
+"traces_surgical.ml" 184 5648 5689 "traces_surgical.ml" 184 5648 5706
+type(
+  Ast.var Traces.TVHash.t -> int option -> Ast.var -> Ast.var
+)
+ident(
+  ext_ref Traces.lookup_thread_map
+)
+"traces_surgical.ml" 184 5648 5707 "traces_surgical.ml" 184 5648 5717
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  int_ref thread_map "traces_surgical.ml" 166 4981 5021 "traces_surgical.ml" 166 4981 5031
+)
+"traces_surgical.ml" 184 5648 5719 "traces_surgical.ml" 184 5648 5726
+type(
+  Symbeval.instr list -> int option
+)
+ident(
+  ext_ref Traces.get_tid
+)
+"traces_surgical.ml" 184 5648 5727 "traces_surgical.ml" 184 5648 5732
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_surgical.ml" 170 5223 5235 "traces_surgical.ml" 170 5223 5240
+)
+"traces_surgical.ml" 184 5648 5718 "traces_surgical.ml" 184 5648 5733
+call(
+  stack
+)
+type(
+  int option
+)
+"traces_surgical.ml" 184 5648 5688 "traces_surgical.ml" 184 5648 5734
+call(
+  stack
+)
+type(
+  Ast.var -> Ast.var
+)
+"traces_surgical.ml" 184 5648 5735 "traces_surgical.ml" 184 5648 5740
+type(
+  bool
+)
+"traces_surgical.ml" 184 5648 5666 "traces_surgical.ml" 184 5648 5740
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 187 5856 5860 "traces_surgical.ml" 187 5856 5867
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref assigns "traces_surgical.ml" 184 5648 5656 "traces_surgical.ml" 184 5648 5663
+)
+"traces_surgical.ml" 187 5856 5868 "traces_surgical.ml" 187 5856 5869
+type(
+  Symbeval.instr list -> Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"traces_surgical.ml" 187 5856 5870 "traces_surgical.ml" 187 5856 5875
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_surgical.ml" 170 5223 5235 "traces_surgical.ml" 170 5223 5240
+)
+"traces_surgical.ml" 187 5856 5860 "traces_surgical.ml" 187 5856 5875
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 187 5856 5877 "traces_surgical.ml" 187 5856 5888
+type(
+  Ast.stmt list -> int
+)
+ident(
+  ext_ref List.length
+)
+"traces_surgical.ml" 187 5856 5889 "traces_surgical.ml" 187 5856 5896
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref assigns "traces_surgical.ml" 184 5648 5656 "traces_surgical.ml" 184 5648 5663
+)
+"traces_surgical.ml" 187 5856 5877 "traces_surgical.ml" 187 5856 5896
+call(
+  stack
+)
+type(
+  int
+)
+"traces_surgical.ml" 187 5856 5860 "traces_surgical.ml" 187 5856 5896
+type(
+  Symbeval.instr list * int
+)
+"traces_surgical.ml" 184 5648 5652 "traces_surgical.ml" 187 5856 5896
+type(
+  Symbeval.instr list * int
+)
+"traces_surgical.ml" 190 5903 5909 "traces_surgical.ml" 190 5903 5914
+type(
+  int ref
+)
+"traces_surgical.ml" 190 5903 5917 "traces_surgical.ml" 190 5903 5920
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_surgical.ml" 190 5903 5921 "traces_surgical.ml" 190 5903 5922
+type(
+  int
+)
+"traces_surgical.ml" 190 5903 5917 "traces_surgical.ml" 190 5903 5922
+type(
+  int ref
+)
+"traces_surgical.ml" 192 5927 5933 "traces_surgical.ml" 192 5927 5938
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 192 5927 5941 "traces_surgical.ml" 192 5927 5952
+type(
+  Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  ext_ref Traces.append_halt
+)
+"traces_surgical.ml" 192 5927 5953 "traces_surgical.ml" 192 5927 5958
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_surgical.ml" 183 5627 5633 "traces_surgical.ml" 183 5627 5638
+)
+"traces_surgical.ml" 192 5927 5941 "traces_surgical.ml" 192 5927 5958
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 193 5963 5965 "traces_surgical.ml" 193 5963 5994
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Symbeval.instr list -> unit
+)
+ident(
+  ext_ref Traces.TraceConcrete.initialize_prog
+)
+"traces_surgical.ml" 193 5963 5995 "traces_surgical.ml" 193 5963 6000
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 166 4981 5010 "traces_surgical.ml" 166 4981 5015
+)
+"traces_surgical.ml" 193 5963 6001 "traces_surgical.ml" 193 5963 6006
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_surgical.ml" 192 5927 5933 "traces_surgical.ml" 192 5927 5938
+)
+"traces_surgical.ml" 193 5963 5965 "traces_surgical.ml" 193 5963 6006
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 194 6009 6011 "traces_surgical.ml" 194 6009 6022
+type(
+  Symbeval.varval Symbeval.VH.t -> unit
+)
+ident(
+  ext_ref Traces.clean_delta
+)
+"traces_surgical.ml" 194 6009 6023 "traces_surgical.ml" 194 6009 6028
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 166 4981 5010 "traces_surgical.ml" 166 4981 5015
+)
+"traces_surgical.ml" 194 6009 6023 "traces_surgical.ml" 194 6009 6034
+type(
+  Symbeval.varval Symbeval.VH.t
+)
+"traces_surgical.ml" 194 6009 6011 "traces_surgical.ml" 194 6009 6034
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 195 6036 6042 "traces_surgical.ml" 195 6036 6046
+type(
+  Symbeval.instr
+)
+"traces_surgical.ml" 195 6036 6049 "traces_surgical.ml" 195 6036 6073
+type(
+  (Type.addr, Symbeval.instr) Hashtbl.t -> Type.addr -> Symbeval.instr
+)
+ident(
+  ext_ref Traces.TraceConcrete.inst_fetch
+)
+"traces_surgical.ml" 195 6036 6074 "traces_surgical.ml" 195 6036 6079
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 166 4981 5010 "traces_surgical.ml" 166 4981 5015
+)
+"traces_surgical.ml" 195 6036 6074 "traces_surgical.ml" 195 6036 6085
+type(
+  (Type.addr, Symbeval.instr) Hashtbl.t
+)
+"traces_surgical.ml" 195 6036 6086 "traces_surgical.ml" 195 6036 6091
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 166 4981 5010 "traces_surgical.ml" 166 4981 5015
+)
+"traces_surgical.ml" 195 6036 6086 "traces_surgical.ml" 195 6036 6094
+type(
+  Type.addr
+)
+"traces_surgical.ml" 195 6036 6049 "traces_surgical.ml" 195 6036 6094
+call(
+  stack
+)
+type(
+  Symbeval.instr
+)
+"traces_surgical.ml" 196 6098 6104 "traces_surgical.ml" 196 6098 6112
+type(
+  Symbeval.instr list ref
+)
+"traces_surgical.ml" 196 6098 6115 "traces_surgical.ml" 196 6098 6118
+type(
+  Symbeval.instr list -> Symbeval.instr list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_surgical.ml" 196 6098 6119 "traces_surgical.ml" 196 6098 6121
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 196 6098 6115 "traces_surgical.ml" 196 6098 6121
+type(
+  Symbeval.instr list ref
+)
+"traces_surgical.ml" 197 6125 6135 "traces_surgical.ml" 197 6125 6145
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Symbeval.instr -> 'a
+)
+"traces_surgical.ml" 197 6125 6146 "traces_surgical.ml" 197 6125 6151
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  def state "traces_surgical.ml" 197 6125 6152 "traces_surgical.ml" 227 7419 7467
+)
+"traces_surgical.ml" 197 6125 6152 "traces_surgical.ml" 197 6125 6156
+type(
+  Symbeval.instr
+)
+ident(
+  def stmt "traces_surgical.ml" 198 6160 6164 "traces_surgical.ml" 227 7419 7467
+)
+"traces_surgical.ml" 198 6160 6164 "traces_surgical.ml" 198 6160 6170
+type(
+  string -> unit
+)
+ident(
+  ext_ref D.pdebug
+)
+"traces_surgical.ml" 198 6160 6172 "traces_surgical.ml" 198 6160 6185
+type(
+  string
+)
+"traces_surgical.ml" 198 6160 6186 "traces_surgical.ml" 198 6160 6187
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_surgical.ml" 198 6160 6189 "traces_surgical.ml" 198 6160 6210
+type(
+  Symbeval.instr -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"traces_surgical.ml" 198 6160 6211 "traces_surgical.ml" 198 6160 6215
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 197 6125 6152 "traces_surgical.ml" 197 6125 6156
+)
+"traces_surgical.ml" 198 6160 6188 "traces_surgical.ml" 198 6160 6216
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 198 6160 6171 "traces_surgical.ml" 198 6160 6217
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 198 6160 6164 "traces_surgical.ml" 198 6160 6217
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 200 6335 6343 "traces_surgical.ml" 200 6335 6348
+type(
+  Ast.exp -> Ast.exp
+)
+"traces_surgical.ml" 200 6335 6349 "traces_surgical.ml" 200 6335 6350
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_surgical.ml" 200 6335 6353 "traces_surgical.ml" 202 6427 6468
+)
+"traces_surgical.ml" 200 6335 6359 "traces_surgical.ml" 200 6335 6382
+type(
+  Traces.TraceConcrete.MemL.t -> Ast.exp -> Symbeval.varval
+)
+ident(
+  ext_ref Traces.TraceConcrete.eval_expr
+)
+"traces_surgical.ml" 200 6335 6383 "traces_surgical.ml" 200 6335 6388
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 197 6125 6146 "traces_surgical.ml" 197 6125 6151
+)
+"traces_surgical.ml" 200 6335 6383 "traces_surgical.ml" 200 6335 6394
+type(
+  Traces.TraceConcrete.MemL.t
+)
+"traces_surgical.ml" 200 6335 6395 "traces_surgical.ml" 200 6335 6396
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_surgical.ml" 200 6335 6349 "traces_surgical.ml" 200 6335 6350
+)
+"traces_surgical.ml" 200 6335 6359 "traces_surgical.ml" 200 6335 6396
+call(
+  stack
+)
+type(
+  Symbeval.varval
+)
+"traces_surgical.ml" 201 6402 6418 "traces_surgical.ml" 201 6402 6421
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_surgical.ml" 201 6402 6425 "traces_surgical.ml" 201 6402 6426
+)
+"traces_surgical.ml" 201 6402 6410 "traces_surgical.ml" 201 6402 6421
+type(
+  Symbeval.varval
+)
+"traces_surgical.ml" 201 6402 6425 "traces_surgical.ml" 201 6402 6426
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_surgical.ml" 201 6402 6418 "traces_surgical.ml" 201 6402 6421
+)
+"traces_surgical.ml" 202 6427 6435 "traces_surgical.ml" 202 6427 6436
+type(
+  Symbeval.varval
+)
+"traces_surgical.ml" 202 6427 6440 "traces_surgical.ml" 202 6427 6448
+type(
+  string -> Ast.exp
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_surgical.ml" 202 6427 6449 "traces_surgical.ml" 202 6427 6468
+type(
+  string
+)
+"traces_surgical.ml" 202 6427 6440 "traces_surgical.ml" 202 6427 6468
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 200 6335 6353 "traces_surgical.ml" 202 6427 6468
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 204 6477 6481 "traces_surgical.ml" 204 6477 6489
+type(
+  Symbeval.instr list ref
+)
+ident(
+  int_ref executed "traces_surgical.ml" 196 6098 6104 "traces_surgical.ml" 196 6098 6112
+)
+"traces_surgical.ml" 204 6477 6490 "traces_surgical.ml" 204 6477 6492
+type(
+  Symbeval.instr list ref -> Symbeval.instr list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_surgical.ml" 204 6477 6493 "traces_surgical.ml" 204 6477 6507
+type(
+  Symbeval.instr list -> Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  ext_ref BatList.append
+)
+"traces_surgical.ml" 204 6477 6508 "traces_surgical.ml" 204 6477 6519
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref input_seeds "traces_surgical.ml" 168 5076 5082 "traces_surgical.ml" 168 5076 5093
+)
+"traces_surgical.ml" 204 6477 6520 "traces_surgical.ml" 204 6477 6521
+type(
+  Symbeval.instr list ref -> Symbeval.instr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 204 6477 6521 "traces_surgical.ml" 204 6477 6529
+type(
+  Symbeval.instr list ref
+)
+ident(
+  int_ref executed "traces_surgical.ml" 196 6098 6104 "traces_surgical.ml" 196 6098 6112
+)
+"traces_surgical.ml" 204 6477 6520 "traces_surgical.ml" 204 6477 6529
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 204 6477 6493 "traces_surgical.ml" 204 6477 6529
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 204 6477 6481 "traces_surgical.ml" 204 6477 6529
+type(
+  unit
+)
+"traces_surgical.ml" 205 6532 6541 "traces_surgical.ml" 205 6532 6542
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 205 6532 6542 "traces_surgical.ml" 205 6532 6547
+type(
+  int ref
+)
+ident(
+  int_ref place "traces_surgical.ml" 190 5903 5909 "traces_surgical.ml" 190 5903 5914
+)
+"traces_surgical.ml" 205 6532 6541 "traces_surgical.ml" 205 6532 6547
+type(
+  int
+)
+"traces_surgical.ml" 205 6532 6548 "traces_surgical.ml" 205 6532 6550
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"traces_surgical.ml" 205 6532 6551 "traces_surgical.ml" 205 6532 6556
+type(
+  int
+)
+ident(
+  int_ref extra "traces_surgical.ml" 183 5627 5640 "traces_surgical.ml" 183 5627 5645
+)
+"traces_surgical.ml" 205 6532 6541 "traces_surgical.ml" 205 6532 6556
+type(
+  bool
+)
+"traces_surgical.ml" 206 6564 6568 "traces_surgical.ml" 206 6564 6576
+type(
+  Symbeval.instr list ref
+)
+ident(
+  int_ref executed "traces_surgical.ml" 196 6098 6104 "traces_surgical.ml" 196 6098 6112
+)
+"traces_surgical.ml" 206 6564 6577 "traces_surgical.ml" 206 6564 6579
+type(
+  Symbeval.instr list ref -> Symbeval.instr list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_surgical.ml" 206 6564 6580 "traces_surgical.ml" 206 6564 6594
+type(
+  Symbeval.instr list -> Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  ext_ref BatList.append
+)
+"traces_surgical.ml" 206 6564 6596 "traces_surgical.ml" 206 6564 6617
+type(
+  Symbeval.instr -> (Ast.exp -> Ast.exp) -> Symbeval.instr list
+)
+ident(
+  int_ref trace_transform_stmt2 "traces_surgical.ml" 66 1300 1304 "traces_surgical.ml" 66 1300 1325
+)
+"traces_surgical.ml" 206 6564 6618 "traces_surgical.ml" 206 6564 6622
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 197 6125 6152 "traces_surgical.ml" 197 6125 6156
+)
+"traces_surgical.ml" 206 6564 6623 "traces_surgical.ml" 206 6564 6628
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref evalf "traces_surgical.ml" 200 6335 6343 "traces_surgical.ml" 200 6335 6348
+)
+"traces_surgical.ml" 206 6564 6595 "traces_surgical.ml" 206 6564 6629
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 206 6564 6630 "traces_surgical.ml" 206 6564 6631
+type(
+  Symbeval.instr list ref -> Symbeval.instr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 206 6564 6631 "traces_surgical.ml" 206 6564 6639
+type(
+  Symbeval.instr list ref
+)
+ident(
+  int_ref executed "traces_surgical.ml" 196 6098 6104 "traces_surgical.ml" 196 6098 6112
+)
+"traces_surgical.ml" 206 6564 6630 "traces_surgical.ml" 206 6564 6639
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 206 6564 6580 "traces_surgical.ml" 206 6564 6639
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 205 6532 6562 "traces_surgical.ml" 207 6643 6650
+type(
+  unit
+)
+"traces_surgical.ml" 205 6532 6538 "traces_surgical.ml" 207 6643 6650
+type(
+  unit
+)
+"traces_surgical.ml" 208 6652 6660 "traces_surgical.ml" 208 6652 6665
+type(
+  int ref
+)
+ident(
+  int_ref place "traces_surgical.ml" 190 5903 5909 "traces_surgical.ml" 190 5903 5914
+)
+"traces_surgical.ml" 208 6652 6666 "traces_surgical.ml" 208 6652 6668
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_surgical.ml" 208 6652 6669 "traces_surgical.ml" 208 6652 6670
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 208 6652 6670 "traces_surgical.ml" 208 6652 6675
+type(
+  int ref
+)
+ident(
+  int_ref place "traces_surgical.ml" 190 5903 5909 "traces_surgical.ml" 190 5903 5914
+)
+"traces_surgical.ml" 208 6652 6669 "traces_surgical.ml" 208 6652 6675
+type(
+  int
+)
+"traces_surgical.ml" 208 6652 6676 "traces_surgical.ml" 208 6652 6677
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"traces_surgical.ml" 208 6652 6678 "traces_surgical.ml" 208 6652 6679
+type(
+  int
+)
+"traces_surgical.ml" 208 6652 6669 "traces_surgical.ml" 208 6652 6679
+type(
+  int
+)
+"traces_surgical.ml" 208 6652 6660 "traces_surgical.ml" 208 6652 6679
+type(
+  unit
+)
+"traces_surgical.ml" 212 6744 6757 "traces_surgical.ml" 212 6744 6780
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Symbeval.instr ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+  list
+)
+ident(
+  ext_ref Traces.TraceConcrete.eval_stmt
+)
+"traces_surgical.ml" 212 6744 6781 "traces_surgical.ml" 212 6744 6786
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 197 6125 6146 "traces_surgical.ml" 197 6125 6151
+)
+"traces_surgical.ml" 212 6744 6787 "traces_surgical.ml" 212 6744 6791
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 197 6125 6152 "traces_surgical.ml" 197 6125 6156
+)
+"traces_surgical.ml" 212 6744 6757 "traces_surgical.ml" 212 6744 6791
+call(
+  stack
+)
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+  list
+)
+"traces_surgical.ml" 213 6797 6809 "traces_surgical.ml" 213 6797 6817
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  def newstate "traces_surgical.ml" 214 6822 6835 "traces_surgical.ml" 216 6970 7009
+)
+"traces_surgical.ml" 213 6797 6808 "traces_surgical.ml" 213 6797 6818
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+  list
+)
+"traces_surgical.ml" 214 6822 6839 "traces_surgical.ml" 214 6822 6843
+type(
+  Symbeval.instr
+)
+"traces_surgical.ml" 214 6822 6846 "traces_surgical.ml" 214 6822 6870
+type(
+  (Type.addr, Symbeval.instr) Hashtbl.t -> Type.addr -> Symbeval.instr
+)
+ident(
+  ext_ref Traces.TraceConcrete.inst_fetch
+)
+"traces_surgical.ml" 214 6822 6871 "traces_surgical.ml" 214 6822 6879
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref newstate "traces_surgical.ml" 213 6797 6809 "traces_surgical.ml" 213 6797 6817
+)
+"traces_surgical.ml" 214 6822 6871 "traces_surgical.ml" 214 6822 6885
+type(
+  (Type.addr, Symbeval.instr) Hashtbl.t
+)
+"traces_surgical.ml" 214 6822 6886 "traces_surgical.ml" 214 6822 6894
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref newstate "traces_surgical.ml" 213 6797 6809 "traces_surgical.ml" 213 6797 6817
+)
+"traces_surgical.ml" 214 6822 6886 "traces_surgical.ml" 214 6822 6897
+type(
+  Type.addr
+)
+"traces_surgical.ml" 214 6822 6846 "traces_surgical.ml" 214 6822 6897
+call(
+  stack
+)
+type(
+  Symbeval.instr
+)
+"traces_surgical.ml" 216 6970 6985 "traces_surgical.ml" 216 6970 6995
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Symbeval.instr -> 'a
+)
+ident(
+  int_ref eval_block "traces_surgical.ml" 197 6125 6135 "traces_surgical.ml" 197 6125 6145
+)
+"traces_surgical.ml" 216 6970 6996 "traces_surgical.ml" 216 6970 7004
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref newstate "traces_surgical.ml" 213 6797 6809 "traces_surgical.ml" 213 6797 6817
+)
+"traces_surgical.ml" 216 6970 7005 "traces_surgical.ml" 216 6970 7009
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref next "traces_surgical.ml" 214 6822 6839 "traces_surgical.ml" 214 6822 6843
+)
+"traces_surgical.ml" 216 6970 6985 "traces_surgical.ml" 216 6970 7009
+call(
+  stack
+)
+type(
+  'a
+)
+"traces_surgical.ml" 214 6822 6835 "traces_surgical.ml" 216 6970 7009
+type(
+  'a
+)
+"traces_surgical.ml" 217 7010 7021 "traces_surgical.ml" 217 7010 7022
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+  list
+)
+"traces_surgical.ml" 218 7027 7039 "traces_surgical.ml" 218 7027 7047
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_surgical.ml" 218 7027 7048 "traces_surgical.ml" 218 7027 7069
+type(
+  string
+)
+"traces_surgical.ml" 218 7027 7039 "traces_surgical.ml" 218 7027 7069
+call(
+  stack
+)
+type(
+  'a
+)
+"traces_surgical.ml" 212 6744 6750 "traces_surgical.ml" 219 7070 7077
+type(
+  'a
+)
+"traces_surgical.ml" 222 7162 7195 "traces_surgical.ml" 222 7162 7196
+type(
+  Traces.TraceConcrete.myctx
+)
+"traces_surgical.ml" 222 7162 7168 "traces_surgical.ml" 222 7162 7196
+type(
+  exn
+)
+"traces_surgical.ml" 222 7162 7168 "traces_surgical.ml" 222 7162 7202
+type(
+  exn
+)
+ident(
+  def _e "traces_surgical.ml" 223 7207 7217 "traces_surgical.ml" 227 7419 7467
+)
+"traces_surgical.ml" 223 7207 7217 "traces_surgical.ml" 223 7207 7224
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.wprintf
+)
+"traces_surgical.ml" 223 7207 7225 "traces_surgical.ml" 223 7207 7247
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"traces_surgical.ml" 223 7207 7249 "traces_surgical.ml" 223 7207 7270
+type(
+  Symbeval.instr -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"traces_surgical.ml" 223 7207 7271 "traces_surgical.ml" 223 7207 7275
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 197 6125 6152 "traces_surgical.ml" 197 6125 6156
+)
+"traces_surgical.ml" 223 7207 7248 "traces_surgical.ml" 223 7207 7276
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 223 7207 7217 "traces_surgical.ml" 223 7207 7276
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 225 7303 7317 "traces_surgical.ml" 225 7303 7323
+type(
+  Z.t
+)
+"traces_surgical.ml" 225 7303 7326 "traces_surgical.ml" 225 7303 7338
+type(
+  Type.addr -> Z.t
+)
+ident(
+  ext_ref Big_int_Z.succ_big_int
+)
+"traces_surgical.ml" 225 7303 7339 "traces_surgical.ml" 225 7303 7344
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 197 6125 6146 "traces_surgical.ml" 197 6125 6151
+)
+"traces_surgical.ml" 225 7303 7339 "traces_surgical.ml" 225 7303 7347
+type(
+  Type.addr
+)
+"traces_surgical.ml" 225 7303 7326 "traces_surgical.ml" 225 7303 7347
+call(
+  stack
+)
+type(
+  Z.t
+)
+"traces_surgical.ml" 226 7351 7365 "traces_surgical.ml" 226 7351 7369
+type(
+  Symbeval.instr
+)
+"traces_surgical.ml" 226 7351 7372 "traces_surgical.ml" 226 7351 7396
+type(
+  (Type.addr, Symbeval.instr) Hashtbl.t -> Type.addr -> Symbeval.instr
+)
+ident(
+  ext_ref Traces.TraceConcrete.inst_fetch
+)
+"traces_surgical.ml" 226 7351 7397 "traces_surgical.ml" 226 7351 7402
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 197 6125 6146 "traces_surgical.ml" 197 6125 6151
+)
+"traces_surgical.ml" 226 7351 7397 "traces_surgical.ml" 226 7351 7408
+type(
+  (Type.addr, Symbeval.instr) Hashtbl.t
+)
+"traces_surgical.ml" 226 7351 7409 "traces_surgical.ml" 226 7351 7415
+type(
+  Type.addr
+)
+ident(
+  int_ref new_pc "traces_surgical.ml" 225 7303 7317 "traces_surgical.ml" 225 7303 7323
+)
+"traces_surgical.ml" 226 7351 7372 "traces_surgical.ml" 226 7351 7415
+call(
+  stack
+)
+type(
+  Symbeval.instr
+)
+"traces_surgical.ml" 227 7419 7429 "traces_surgical.ml" 227 7419 7439
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Symbeval.instr -> 'a
+)
+ident(
+  int_ref eval_block "traces_surgical.ml" 197 6125 6135 "traces_surgical.ml" 197 6125 6145
+)
+"traces_surgical.ml" 227 7419 7441 "traces_surgical.ml" 227 7419 7446
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 197 6125 6146 "traces_surgical.ml" 197 6125 6151
+)
+"traces_surgical.ml" 227 7419 7455 "traces_surgical.ml" 227 7419 7461
+type(
+  Type.addr
+)
+ident(
+  int_ref new_pc "traces_surgical.ml" 225 7303 7317 "traces_surgical.ml" 225 7303 7323
+)
+"traces_surgical.ml" 227 7419 7440 "traces_surgical.ml" 227 7419 7462
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+"traces_surgical.ml" 227 7419 7463 "traces_surgical.ml" 227 7419 7467
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref next "traces_surgical.ml" 226 7351 7365 "traces_surgical.ml" 226 7351 7369
+)
+"traces_surgical.ml" 227 7419 7429 "traces_surgical.ml" 227 7419 7467
+call(
+  tail
+)
+type(
+  'a
+)
+"traces_surgical.ml" 226 7351 7361 "traces_surgical.ml" 227 7419 7467
+type(
+  'a
+)
+"traces_surgical.ml" 225 7303 7313 "traces_surgical.ml" 227 7419 7467
+type(
+  'a
+)
+"traces_surgical.ml" 223 7207 7217 "traces_surgical.ml" 227 7419 7467
+type(
+  'a
+)
+"traces_surgical.ml" 211 6735 6739 "traces_surgical.ml" 227 7419 7467
+type(
+  'a
+)
+"traces_surgical.ml" 208 6652 6660 "traces_surgical.ml" 227 7419 7467
+type(
+  'a
+)
+"traces_surgical.ml" 205 6532 6538 "traces_surgical.ml" 227 7419 7467
+type(
+  'a
+)
+"traces_surgical.ml" 204 6477 6481 "traces_surgical.ml" 227 7419 7467
+type(
+  'a
+)
+"traces_surgical.ml" 200 6335 6339 "traces_surgical.ml" 227 7419 7467
+type(
+  'a
+)
+"traces_surgical.ml" 198 6160 6164 "traces_surgical.ml" 227 7419 7467
+type(
+  'a
+)
+"traces_surgical.ml" 230 7481 7487 "traces_surgical.ml" 230 7481 7497
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Symbeval.instr -> Symbeval.instr list
+)
+ident(
+  int_ref eval_block "traces_surgical.ml" 197 6125 6135 "traces_surgical.ml" 197 6125 6145
+)
+"traces_surgical.ml" 230 7481 7498 "traces_surgical.ml" 230 7481 7503
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 166 4981 5010 "traces_surgical.ml" 166 4981 5015
+)
+"traces_surgical.ml" 230 7481 7504 "traces_surgical.ml" 230 7481 7508
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref init "traces_surgical.ml" 195 6036 6042 "traces_surgical.ml" 195 6036 6046
+)
+"traces_surgical.ml" 230 7481 7487 "traces_surgical.ml" 230 7481 7508
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 232 7519 7535 "traces_surgical.ml" 232 7519 7536
+type(
+  string
+)
+ident(
+  def s "traces_surgical.ml" 233 7546 7556 "traces_surgical.ml" 236 7723 7742
+)
+"traces_surgical.ml" 232 7519 7527 "traces_surgical.ml" 232 7519 7536
+type(
+  exn
+)
+"traces_surgical.ml" 232 7519 7527 "traces_surgical.ml" 232 7519 7541
+type(
+  exn
+)
+ident(
+  def e "traces_surgical.ml" 233 7546 7556 "traces_surgical.ml" 236 7723 7742
+)
+"traces_surgical.ml" 233 7546 7556 "traces_surgical.ml" 233 7546 7561
+type(
+  string -> unit
+)
+ident(
+  ext_ref D.pwarn
+)
+"traces_surgical.ml" 233 7546 7563 "traces_surgical.ml" 233 7546 7601
+type(
+  string
+)
+"traces_surgical.ml" 233 7546 7601 "traces_surgical.ml" 233 7546 7602
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"traces_surgical.ml" 233 7546 7602 "traces_surgical.ml" 233 7546 7603
+type(
+  string
+)
+ident(
+  int_ref s "traces_surgical.ml" 232 7519 7535 "traces_surgical.ml" 232 7519 7536
+)
+"traces_surgical.ml" 233 7546 7562 "traces_surgical.ml" 233 7546 7604
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 233 7546 7556 "traces_surgical.ml" 233 7546 7604
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 234 7607 7617 "traces_surgical.ml" 234 7607 7626
+type(
+  (Symbeval.instr -> unit) -> Symbeval.instr list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"traces_surgical.ml" 234 7607 7632 "traces_surgical.ml" 234 7607 7633
+type(
+  Symbeval.instr
+)
+ident(
+  def s "traces_surgical.ml" 234 7607 7637 "traces_surgical.ml" 234 7607 7669
+)
+"traces_surgical.ml" 234 7607 7637 "traces_surgical.ml" 234 7607 7643
+type(
+  string -> unit
+)
+ident(
+  ext_ref D.pdebug
+)
+"traces_surgical.ml" 234 7607 7645 "traces_surgical.ml" 234 7607 7666
+type(
+  Symbeval.instr -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"traces_surgical.ml" 234 7607 7667 "traces_surgical.ml" 234 7607 7668
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref s "traces_surgical.ml" 234 7607 7632 "traces_surgical.ml" 234 7607 7633
+)
+"traces_surgical.ml" 234 7607 7644 "traces_surgical.ml" 234 7607 7669
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 234 7607 7637 "traces_surgical.ml" 234 7607 7669
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_surgical.ml" 234 7607 7627 "traces_surgical.ml" 234 7607 7670
+type(
+  Symbeval.instr -> unit
+)
+"traces_surgical.ml" 234 7607 7671 "traces_surgical.ml" 234 7607 7676
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_surgical.ml" 192 5927 5933 "traces_surgical.ml" 192 5927 5938
+)
+"traces_surgical.ml" 234 7607 7617 "traces_surgical.ml" 234 7607 7676
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 236 7723 7735 "traces_surgical.ml" 236 7723 7740
+type(
+  exn -> Symbeval.instr list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"traces_surgical.ml" 236 7723 7741 "traces_surgical.ml" 236 7723 7742
+type(
+  exn
+)
+ident(
+  int_ref e "traces_surgical.ml" 232 7519 7527 "traces_surgical.ml" 232 7519 7541
+)
+"traces_surgical.ml" 236 7723 7735 "traces_surgical.ml" 236 7723 7742
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 234 7607 7617 "traces_surgical.ml" 236 7723 7742
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 233 7546 7556 "traces_surgical.ml" 236 7723 7742
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 239 7827 7862 "traces_surgical.ml" 239 7827 7863
+type(
+  Symbeval.label_kind
+)
+"traces_surgical.ml" 239 7827 7835 "traces_surgical.ml" 239 7827 7863
+type(
+  exn
+)
+"traces_surgical.ml" 240 7867 7878 "traces_surgical.ml" 240 7867 7882
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref addr "traces_surgical.ml" 167 5041 5047 "traces_surgical.ml" 167 5041 5051
+)
+"traces_surgical.ml" 240 7867 7884 "traces_surgical.ml" 240 7867 7888
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref info "traces_surgical.ml" 170 5223 5229 "traces_surgical.ml" 170 5223 5233
+)
+"traces_surgical.ml" 240 7867 7890 "traces_surgical.ml" 240 7867 7898
+type(
+  Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  ext_ref List.rev
+)
+"traces_surgical.ml" 240 7867 7900 "traces_surgical.ml" 240 7867 7901
+type(
+  Symbeval.instr list ref -> Symbeval.instr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 240 7867 7901 "traces_surgical.ml" 240 7867 7909
+type(
+  Symbeval.instr list ref
+)
+ident(
+  int_ref executed "traces_surgical.ml" 196 6098 6104 "traces_surgical.ml" 196 6098 6112
+)
+"traces_surgical.ml" 240 7867 7899 "traces_surgical.ml" 240 7867 7910
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 240 7867 7890 "traces_surgical.ml" 240 7867 7910
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 240 7867 7884 "traces_surgical.ml" 240 7867 7910
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 240 7867 7877 "traces_surgical.ml" 240 7867 7911
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 241 7912 7941 "traces_surgical.ml" 241 7912 7942
+type(
+  Traces.TraceConcrete.myctx
+)
+type(
+  Symbeval.varval option
+)
+"traces_surgical.ml" 241 7912 7920 "traces_surgical.ml" 241 7912 7942
+type(
+  exn
+)
+"traces_surgical.ml" 242 7947 7958 "traces_surgical.ml" 242 7947 7962
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref addr "traces_surgical.ml" 167 5041 5047 "traces_surgical.ml" 167 5041 5051
+)
+"traces_surgical.ml" 242 7947 7964 "traces_surgical.ml" 242 7947 7968
+type(
+  Symbeval.instr
+)
+ident(
+  int_ref info "traces_surgical.ml" 170 5223 5229 "traces_surgical.ml" 170 5223 5233
+)
+"traces_surgical.ml" 242 7947 7970 "traces_surgical.ml" 242 7947 7978
+type(
+  Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  ext_ref List.rev
+)
+"traces_surgical.ml" 242 7947 7980 "traces_surgical.ml" 242 7947 7987
+type(
+  Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  ext_ref List.tl
+)
+"traces_surgical.ml" 242 7947 7988 "traces_surgical.ml" 242 7947 7989
+type(
+  Symbeval.instr list ref -> Symbeval.instr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 242 7947 7989 "traces_surgical.ml" 242 7947 7997
+type(
+  Symbeval.instr list ref
+)
+ident(
+  int_ref executed "traces_surgical.ml" 196 6098 6104 "traces_surgical.ml" 196 6098 6112
+)
+"traces_surgical.ml" 242 7947 7988 "traces_surgical.ml" 242 7947 7997
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 242 7947 7979 "traces_surgical.ml" 242 7947 7998
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 242 7947 7970 "traces_surgical.ml" 242 7947 7998
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 242 7947 7964 "traces_surgical.ml" 242 7947 7998
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 242 7947 7957 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 229 7473 7477 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 197 6125 6127 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 196 6098 6100 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 195 6036 6038 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 194 6009 6011 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 193 5963 5965 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 192 5927 5929 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 190 5903 5905 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 183 5627 5629 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 173 5328 5330 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 172 5286 5288 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 171 5258 5260 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 170 5223 5225 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 169 5129 5131 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 168 5076 5078 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 167 5041 5043 "traces_surgical.ml" 242 7947 7999
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 244 8001 8005 "traces_surgical.ml" 244 8001 8025
+type(
+  Arch.arch ->
+  Symbeval.instr list list ->
+  Ast.var -> Ast.var Traces.TVHash.t -> int -> Symbeval.instr list
+)
+ident(
+  def run_and_subst_blocks "traces_surgical.ml" 257 8404 8404 --
+)
+"traces_surgical.ml" 244 8001 8026 "traces_surgical.ml" 244 8001 8030
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_surgical.ml" 244 8001 8031 "traces_surgical.ml" 255 8382 8402
+)
+"traces_surgical.ml" 244 8001 8031 "traces_surgical.ml" 244 8001 8037
+type(
+  Symbeval.instr list list
+)
+ident(
+  def blocks "traces_surgical.ml" 244 8001 8038 "traces_surgical.ml" 255 8382 8402
+)
+"traces_surgical.ml" 244 8001 8038 "traces_surgical.ml" 244 8001 8042
+type(
+  Ast.var
+)
+ident(
+  def memv "traces_surgical.ml" 244 8001 8043 "traces_surgical.ml" 255 8382 8402
+)
+"traces_surgical.ml" 244 8001 8043 "traces_surgical.ml" 244 8001 8053
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  def thread_map "traces_surgical.ml" 244 8001 8054 "traces_surgical.ml" 255 8382 8402
+)
+"traces_surgical.ml" 244 8001 8054 "traces_surgical.ml" 244 8001 8060
+type(
+  int
+)
+ident(
+  def length "traces_surgical.ml" 245 8063 8065 "traces_surgical.ml" 255 8382 8402
+)
+"traces_surgical.ml" 245 8063 8065 "traces_surgical.ml" 245 8063 8072
+type(
+  int ref
+)
+ident(
+  ext_ref Traces.counter
+)
+"traces_surgical.ml" 245 8063 8073 "traces_surgical.ml" 245 8063 8075
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_surgical.ml" 245 8063 8076 "traces_surgical.ml" 245 8063 8077
+type(
+  int
+)
+"traces_surgical.ml" 245 8063 8065 "traces_surgical.ml" 245 8063 8077
+type(
+  unit
+)
+"traces_surgical.ml" 246 8080 8082 "traces_surgical.ml" 246 8080 8093
+type(
+  string -> int -> unit
+)
+ident(
+  ext_ref Traces.Status.init
+)
+"traces_surgical.ml" 246 8080 8094 "traces_surgical.ml" 246 8080 8121
+type(
+  string
+)
+"traces_surgical.ml" 246 8080 8122 "traces_surgical.ml" 246 8080 8128
+type(
+  int
+)
+ident(
+  int_ref length "traces_surgical.ml" 244 8001 8054 "traces_surgical.ml" 244 8001 8060
+)
+"traces_surgical.ml" 246 8080 8082 "traces_surgical.ml" 246 8080 8128
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 247 8131 8137 "traces_surgical.ml" 247 8131 8142
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+"traces_surgical.ml" 247 8131 8145 "traces_surgical.ml" 247 8131 8171
+type(
+  Traces.TraceConcrete.Form.init ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  ext_ref Traces.TraceConcrete.create_state
+)
+"traces_surgical.ml" 247 8131 8172 "traces_surgical.ml" 247 8131 8174
+type(
+  Traces.TraceConcrete.Form.init
+)
+"traces_surgical.ml" 247 8131 8145 "traces_surgical.ml" 247 8131 8174
+call(
+  stack
+)
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+"traces_surgical.ml" 248 8178 8184 "traces_surgical.ml" 248 8178 8193
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 248 8178 8196 "traces_surgical.ml" 248 8178 8210
+type(
+  (Symbeval.instr list -> Symbeval.instr list -> Symbeval.instr list) ->
+  Symbeval.instr list -> Symbeval.instr list list -> Symbeval.instr list
+)
+ident(
+  ext_ref List.fold_left
+)
+"traces_surgical.ml" 249 8212 8221 "traces_surgical.ml" 249 8212 8224
+type(
+  Symbeval.instr list
+)
+ident(
+  def acc "traces_surgical.ml" 249 8212 8225 "traces_surgical.ml" 251 8260 8341
+)
+"traces_surgical.ml" 249 8212 8225 "traces_surgical.ml" 249 8212 8230
+type(
+  Symbeval.instr list
+)
+ident(
+  def block "traces_surgical.ml" 250 8235 8242 "traces_surgical.ml" 251 8260 8341
+)
+"traces_surgical.ml" 250 8235 8242 "traces_surgical.ml" 250 8235 8252
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Traces.Status.inc
+)
+"traces_surgical.ml" 250 8235 8252 "traces_surgical.ml" 250 8235 8254
+type(
+  unit
+)
+"traces_surgical.ml" 250 8235 8242 "traces_surgical.ml" 250 8235 8254
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 251 8260 8267 "traces_surgical.ml" 251 8260 8282
+type(
+  Symbeval.instr list -> Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  ext_ref List.rev_append
+)
+"traces_surgical.ml" 251 8260 8284 "traces_surgical.ml" 251 8260 8303
+type(
+  Arch.arch ->
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx ->
+  Ast.var ->
+  Ast.var Traces.TVHash.t -> Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  int_ref run_and_subst_block "traces_surgical.ml" 166 4981 4985 "traces_surgical.ml" 166 4981 5004
+)
+"traces_surgical.ml" 251 8260 8304 "traces_surgical.ml" 251 8260 8308
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_surgical.ml" 244 8001 8026 "traces_surgical.ml" 244 8001 8030
+)
+"traces_surgical.ml" 251 8260 8309 "traces_surgical.ml" 251 8260 8314
+type(
+  (Traces.TraceConcrete.MemL.t, Traces.TraceConcrete.Form.t) Symbeval.ctx
+)
+ident(
+  int_ref state "traces_surgical.ml" 247 8131 8137 "traces_surgical.ml" 247 8131 8142
+)
+"traces_surgical.ml" 251 8260 8315 "traces_surgical.ml" 251 8260 8319
+type(
+  Ast.var
+)
+ident(
+  int_ref memv "traces_surgical.ml" 244 8001 8038 "traces_surgical.ml" 244 8001 8042
+)
+"traces_surgical.ml" 251 8260 8320 "traces_surgical.ml" 251 8260 8330
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  int_ref thread_map "traces_surgical.ml" 244 8001 8043 "traces_surgical.ml" 244 8001 8053
+)
+"traces_surgical.ml" 251 8260 8331 "traces_surgical.ml" 251 8260 8336
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref block "traces_surgical.ml" 249 8212 8225 "traces_surgical.ml" 249 8212 8230
+)
+"traces_surgical.ml" 251 8260 8283 "traces_surgical.ml" 251 8260 8337
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 251 8260 8338 "traces_surgical.ml" 251 8260 8341
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 249 8212 8221 "traces_surgical.ml" 249 8212 8224
+)
+"traces_surgical.ml" 251 8260 8267 "traces_surgical.ml" 251 8260 8341
+call(
+  tail
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 250 8235 8242 "traces_surgical.ml" 251 8260 8341
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 249 8212 8216 "traces_surgical.ml" 252 8342 8347
+type(
+  Symbeval.instr list -> Symbeval.instr list -> Symbeval.instr list
+)
+"traces_surgical.ml" 252 8342 8348 "traces_surgical.ml" 252 8342 8350
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 252 8342 8351 "traces_surgical.ml" 252 8342 8357
+type(
+  Symbeval.instr list list
+)
+ident(
+  int_ref blocks "traces_surgical.ml" 244 8001 8031 "traces_surgical.ml" 244 8001 8037
+)
+"traces_surgical.ml" 248 8178 8196 "traces_surgical.ml" 252 8342 8357
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 254 8363 8365 "traces_surgical.ml" 254 8363 8376
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Traces.Status.stop
+)
+"traces_surgical.ml" 254 8363 8377 "traces_surgical.ml" 254 8363 8379
+type(
+  unit
+)
+"traces_surgical.ml" 254 8363 8365 "traces_surgical.ml" 254 8363 8379
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 255 8382 8384 "traces_surgical.ml" 255 8382 8392
+type(
+  Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  ext_ref List.rev
+)
+"traces_surgical.ml" 255 8382 8393 "traces_surgical.ml" 255 8382 8402
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref rev_trace "traces_surgical.ml" 248 8178 8184 "traces_surgical.ml" 248 8178 8193
+)
+"traces_surgical.ml" 255 8382 8384 "traces_surgical.ml" 255 8382 8402
+call(
+  tail
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 254 8363 8365 "traces_surgical.ml" 255 8382 8402
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 248 8178 8180 "traces_surgical.ml" 255 8382 8402
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 247 8131 8133 "traces_surgical.ml" 255 8382 8402
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 246 8080 8082 "traces_surgical.ml" 255 8382 8402
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 245 8063 8065 "traces_surgical.ml" 255 8382 8402
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 257 8404 8408 "traces_surgical.ml" 257 8404 8413
+type(
+  NameSet.t -> Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  def dicer "traces_surgical.ml" 308 9891 9891 --
+)
+"traces_surgical.ml" 259 8418 8424 "traces_surgical.ml" 259 8418 8436
+type(
+  NameSet.t -> Ast.stmt -> NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 259 8418 8437 "traces_surgical.ml" 259 8418 8443
+type(
+  NameSet.t
+)
+ident(
+  def outset "traces_surgical.ml" 259 8418 8444 "traces_surgical.ml" 282 9133 9154
+)
+"traces_surgical.ml" 259 8418 8444 "traces_surgical.ml" 259 8418 8448
+type(
+  Ast.stmt
+)
+ident(
+  def stmt "traces_surgical.ml" 260 8452 8456 "traces_surgical.ml" 282 9133 9154
+)
+"traces_surgical.ml" 260 8452 8460 "traces_surgical.ml" 260 8452 8465
+type(
+  NameSet.t ref
+)
+"traces_surgical.ml" 260 8452 8468 "traces_surgical.ml" 260 8452 8471
+type(
+  NameSet.t -> NameSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_surgical.ml" 260 8452 8472 "traces_surgical.ml" 260 8452 8485
+type(
+  NameSet.t
+)
+ident(
+  ext_ref NameSet.empty
+)
+"traces_surgical.ml" 260 8452 8468 "traces_surgical.ml" 260 8452 8485
+type(
+  NameSet.t ref
+)
+"traces_surgical.ml" 261 8489 8497 "traces_surgical.ml" 261 8489 8503
+type(
+  NameSet.t ref
+)
+"traces_surgical.ml" 261 8489 8506 "traces_surgical.ml" 261 8489 8509
+type(
+  NameSet.t -> NameSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_surgical.ml" 261 8489 8510 "traces_surgical.ml" 261 8489 8523
+type(
+  NameSet.t
+)
+ident(
+  ext_ref NameSet.empty
+)
+"traces_surgical.ml" 261 8489 8506 "traces_surgical.ml" 261 8489 8523
+type(
+  NameSet.t ref
+)
+"traces_surgical.ml" 262 8527 8535 "traces_surgical.ml" 262 8527 8538
+type(
+  Ast_visitor.nop
+)
+"traces_surgical.ml" 262 8527 8547 "traces_surgical.ml" 262 8527 8553
+type(
+  Ast_visitor.nop
+)
+"traces_surgical.ml" 265 8618 8636 "traces_surgical.ml" 265 8618 8637
+type(
+  Ast.var
+)
+ident(
+  def v "traces_surgical.ml" 265 8618 8641 "traces_surgical.ml" 265 8618 8694
+)
+"traces_surgical.ml" 265 8618 8628 "traces_surgical.ml" 265 8618 8637
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 265 8618 8641 "traces_surgical.ml" 265 8618 8646
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref inset "traces_surgical.ml" 260 8452 8460 "traces_surgical.ml" 260 8452 8465
+)
+"traces_surgical.ml" 265 8618 8647 "traces_surgical.ml" 265 8618 8649
+type(
+  NameSet.t ref -> NameSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_surgical.ml" 265 8618 8650 "traces_surgical.ml" 265 8618 8661
+type(
+  NameSet.elt -> NameSet.t -> NameSet.t
+)
+ident(
+  ext_ref NameSet.add
+)
+"traces_surgical.ml" 265 8618 8663 "traces_surgical.ml" 265 8618 8671
+type(
+  Ast.var -> NameSet.elt
+)
+ident(
+  ext_ref Var.name
+)
+"traces_surgical.ml" 265 8618 8672 "traces_surgical.ml" 265 8618 8673
+type(
+  Ast.var
+)
+ident(
+  int_ref v "traces_surgical.ml" 265 8618 8636 "traces_surgical.ml" 265 8618 8637
+)
+"traces_surgical.ml" 265 8618 8662 "traces_surgical.ml" 265 8618 8674
+call(
+  stack
+)
+type(
+  NameSet.elt
+)
+"traces_surgical.ml" 265 8618 8675 "traces_surgical.ml" 265 8618 8676
+type(
+  NameSet.t ref -> NameSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 265 8618 8676 "traces_surgical.ml" 265 8618 8681
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref inset "traces_surgical.ml" 260 8452 8460 "traces_surgical.ml" 260 8452 8465
+)
+"traces_surgical.ml" 265 8618 8675 "traces_surgical.ml" 265 8618 8681
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 265 8618 8650 "traces_surgical.ml" 265 8618 8681
+call(
+  stack
+)
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 265 8618 8641 "traces_surgical.ml" 265 8618 8681
+type(
+  unit
+)
+"traces_surgical.ml" 265 8618 8684 "traces_surgical.ml" 265 8618 8694
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 265 8618 8641 "traces_surgical.ml" 265 8618 8694
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 266 8696 8706 "traces_surgical.ml" 266 8696 8707
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 266 8696 8711 "traces_surgical.ml" 266 8696 8721
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 264 8584 8609 "traces_surgical.ml" 266 8696 8721
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 262 8527 8541 "traces_surgical.ml" 267 8722 8729
+type(
+  Ast_visitor.nop
+)
+"traces_surgical.ml" 269 8737 8745 "traces_surgical.ml" 269 8737 8754
+type(
+  Ast.stmt -> unit
+)
+"traces_surgical.ml" 270 8766 8783 "traces_surgical.ml" 270 8766 8784
+type(
+  Ast.var
+)
+ident(
+  def v "traces_surgical.ml" 271 8795 8805 "traces_surgical.ml" 276 8997 9012
+)
+"traces_surgical.ml" 270 8766 8786 "traces_surgical.ml" 270 8766 8787
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_surgical.ml" 271 8795 8805 "traces_surgical.ml" 276 8997 9012
+)
+"traces_surgical.ml" 270 8766 8789 "traces_surgical.ml" 270 8766 8790
+type(
+  Ast.attrs
+)
+"traces_surgical.ml" 270 8766 8782 "traces_surgical.ml" 270 8766 8791
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 270 8766 8774 "traces_surgical.ml" 270 8766 8791
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 271 8795 8809 "traces_surgical.ml" 271 8795 8813
+type(
+  string
+)
+"traces_surgical.ml" 271 8795 8816 "traces_surgical.ml" 271 8795 8824
+type(
+  Ast.var -> string
+)
+ident(
+  ext_ref Var.name
+)
+"traces_surgical.ml" 271 8795 8825 "traces_surgical.ml" 271 8795 8826
+type(
+  Ast.var
+)
+ident(
+  int_ref v "traces_surgical.ml" 270 8766 8783 "traces_surgical.ml" 270 8766 8784
+)
+"traces_surgical.ml" 271 8795 8816 "traces_surgical.ml" 271 8795 8826
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 272 8830 8845 "traces_surgical.ml" 272 8830 8856
+type(
+  NameSet.elt -> NameSet.t -> bool
+)
+ident(
+  ext_ref NameSet.mem
+)
+"traces_surgical.ml" 272 8830 8857 "traces_surgical.ml" 272 8830 8861
+type(
+  NameSet.elt
+)
+ident(
+  int_ref name "traces_surgical.ml" 271 8795 8809 "traces_surgical.ml" 271 8795 8813
+)
+"traces_surgical.ml" 272 8830 8862 "traces_surgical.ml" 272 8830 8868
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 259 8418 8437 "traces_surgical.ml" 259 8418 8443
+)
+"traces_surgical.ml" 272 8830 8845 "traces_surgical.ml" 272 8830 8868
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_surgical.ml" 274 8890 8906 "traces_surgical.ml" 274 8890 8912
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_surgical.ml" 274 8890 8914 "traces_surgical.ml" 274 8890 8936
+type(
+  Ast_visitor.t -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"traces_surgical.ml" 274 8890 8937 "traces_surgical.ml" 274 8890 8940
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref vis "traces_surgical.ml" 262 8527 8535 "traces_surgical.ml" 262 8527 8538
+)
+"traces_surgical.ml" 274 8890 8941 "traces_surgical.ml" 274 8890 8942
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_surgical.ml" 270 8766 8786 "traces_surgical.ml" 270 8766 8787
+)
+"traces_surgical.ml" 274 8890 8913 "traces_surgical.ml" 274 8890 8944
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 274 8890 8906 "traces_surgical.ml" 274 8890 8944
+type(
+  unit
+)
+"traces_surgical.ml" 275 8946 8962 "traces_surgical.ml" 275 8946 8968
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref delset "traces_surgical.ml" 261 8489 8497 "traces_surgical.ml" 261 8489 8503
+)
+"traces_surgical.ml" 275 8946 8969 "traces_surgical.ml" 275 8946 8971
+type(
+  NameSet.t ref -> NameSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_surgical.ml" 275 8946 8972 "traces_surgical.ml" 275 8946 8983
+type(
+  NameSet.elt -> NameSet.t -> NameSet.t
+)
+ident(
+  ext_ref NameSet.add
+)
+"traces_surgical.ml" 275 8946 8984 "traces_surgical.ml" 275 8946 8988
+type(
+  NameSet.elt
+)
+ident(
+  int_ref name "traces_surgical.ml" 271 8795 8809 "traces_surgical.ml" 271 8795 8813
+)
+"traces_surgical.ml" 275 8946 8989 "traces_surgical.ml" 275 8946 8990
+type(
+  NameSet.t ref -> NameSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 275 8946 8990 "traces_surgical.ml" 275 8946 8996
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref delset "traces_surgical.ml" 261 8489 8497 "traces_surgical.ml" 261 8489 8503
+)
+"traces_surgical.ml" 275 8946 8989 "traces_surgical.ml" 275 8946 8996
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 275 8946 8972 "traces_surgical.ml" 275 8946 8996
+call(
+  stack
+)
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 275 8946 8962 "traces_surgical.ml" 275 8946 8996
+type(
+  unit
+)
+"traces_surgical.ml" 273 8874 8888 "traces_surgical.ml" 276 8997 9012
+type(
+  unit
+)
+"traces_surgical.ml" 272 8830 8842 "traces_surgical.ml" 276 8997 9012
+type(
+  unit
+)
+"traces_surgical.ml" 271 8795 8805 "traces_surgical.ml" 276 8997 9012
+type(
+  unit
+)
+"traces_surgical.ml" 277 9013 9032 "traces_surgical.ml" 277 9013 9033
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_surgical.ml" 278 9040 9050 "traces_surgical.ml" 278 9040 9087
+)
+"traces_surgical.ml" 277 9013 9034 "traces_surgical.ml" 277 9013 9035
+type(
+  Ast.attrs
+)
+"traces_surgical.ml" 277 9013 9031 "traces_surgical.ml" 277 9013 9036
+type(
+  Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 277 9013 9021 "traces_surgical.ml" 277 9013 9036
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 278 9040 9050 "traces_surgical.ml" 278 9040 9056
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_surgical.ml" 278 9040 9058 "traces_surgical.ml" 278 9040 9080
+type(
+  Ast_visitor.t -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"traces_surgical.ml" 278 9040 9081 "traces_surgical.ml" 278 9040 9084
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref vis "traces_surgical.ml" 262 8527 8535 "traces_surgical.ml" 262 8527 8538
+)
+"traces_surgical.ml" 278 9040 9085 "traces_surgical.ml" 278 9040 9086
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_surgical.ml" 277 9013 9032 "traces_surgical.ml" 277 9013 9033
+)
+"traces_surgical.ml" 278 9040 9057 "traces_surgical.ml" 278 9040 9087
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 278 9040 9050 "traces_surgical.ml" 278 9040 9087
+type(
+  unit
+)
+"traces_surgical.ml" 279 9088 9096 "traces_surgical.ml" 279 9088 9097
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 279 9088 9101 "traces_surgical.ml" 279 9088 9103
+type(
+  unit
+)
+"traces_surgical.ml" 269 8737 8757 "traces_surgical.ml" 279 9088 9103
+type(
+  Ast.stmt -> unit
+)
+"traces_surgical.ml" 281 9111 9117 "traces_surgical.ml" 281 9111 9126
+type(
+  Ast.stmt -> unit
+)
+ident(
+  int_ref make_sets "traces_surgical.ml" 269 8737 8745 "traces_surgical.ml" 269 8737 8754
+)
+"traces_surgical.ml" 281 9111 9127 "traces_surgical.ml" 281 9111 9131
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 259 8418 8444 "traces_surgical.ml" 259 8418 8448
+)
+"traces_surgical.ml" 281 9111 9117 "traces_surgical.ml" 281 9111 9131
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_surgical.ml" 282 9133 9139 "traces_surgical.ml" 282 9133 9140
+type(
+  NameSet.t ref -> NameSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 282 9133 9140 "traces_surgical.ml" 282 9133 9145
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref inset "traces_surgical.ml" 260 8452 8460 "traces_surgical.ml" 260 8452 8465
+)
+"traces_surgical.ml" 282 9133 9139 "traces_surgical.ml" 282 9133 9145
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 282 9133 9147 "traces_surgical.ml" 282 9133 9148
+type(
+  NameSet.t ref -> NameSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 282 9133 9148 "traces_surgical.ml" 282 9133 9154
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref delset "traces_surgical.ml" 261 8489 8497 "traces_surgical.ml" 261 8489 8503
+)
+"traces_surgical.ml" 282 9133 9147 "traces_surgical.ml" 282 9133 9154
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 282 9133 9139 "traces_surgical.ml" 282 9133 9154
+type(
+  NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 281 9111 9117 "traces_surgical.ml" 282 9133 9154
+type(
+  NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 269 8737 8741 "traces_surgical.ml" 282 9133 9154
+type(
+  NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 262 8527 8531 "traces_surgical.ml" 282 9133 9154
+type(
+  NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 261 8489 8493 "traces_surgical.ml" 282 9133 9154
+type(
+  NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 260 8452 8456 "traces_surgical.ml" 282 9133 9154
+type(
+  NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 285 9168 9178 "traces_surgical.ml" 285 9168 9184
+type(
+  NameSet.t -> Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+"traces_surgical.ml" 285 9168 9185 "traces_surgical.ml" 285 9168 9191
+type(
+  NameSet.t
+)
+ident(
+  def outset "traces_surgical.ml" 285 9168 9192 "traces_surgical.ml" 303 9825 9864
+)
+"traces_surgical.ml" 285 9168 9192 "traces_surgical.ml" 285 9168 9195
+type(
+  Ast.stmt list
+)
+ident(
+  def acc "traces_surgical.ml" 285 9168 9198 "traces_surgical.ml" 303 9825 9864
+)
+"traces_surgical.ml" 286 9207 9213 "traces_surgical.ml" 286 9207 9215
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 287 9219 9227 "traces_surgical.ml" 287 9219 9230
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 285 9168 9192 "traces_surgical.ml" 285 9168 9195
+)
+"traces_surgical.ml" 288 9231 9247 "traces_surgical.ml" 288 9231 9248
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 288 9231 9238 "traces_surgical.ml" 288 9231 9248
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 288 9231 9237 "traces_surgical.ml" 288 9231 9257
+type(
+  Ast.stmt
+)
+ident(
+  def stmt "traces_surgical.ml" 289 9269 9277 "traces_surgical.ml" 295 9519 9562
+)
+"traces_surgical.ml" 288 9231 9259 "traces_surgical.ml" 288 9231 9264
+type(
+  Ast.stmt list
+)
+ident(
+  def stmts "traces_surgical.ml" 289 9269 9277 "traces_surgical.ml" 295 9519 9562
+)
+"traces_surgical.ml" 288 9231 9237 "traces_surgical.ml" 288 9231 9264
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 289 9269 9281 "traces_surgical.ml" 289 9269 9286
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 289 9269 9288 "traces_surgical.ml" 289 9269 9294
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 289 9269 9281 "traces_surgical.ml" 289 9269 9294
+type(
+  NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 289 9269 9297 "traces_surgical.ml" 289 9269 9309
+type(
+  NameSet.t -> Ast.stmt -> NameSet.t * NameSet.t
+)
+ident(
+  int_ref process_stmt "traces_surgical.ml" 259 8418 8424 "traces_surgical.ml" 259 8418 8436
+)
+"traces_surgical.ml" 289 9269 9310 "traces_surgical.ml" 289 9269 9316
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 285 9168 9185 "traces_surgical.ml" 285 9168 9191
+)
+"traces_surgical.ml" 289 9269 9317 "traces_surgical.ml" 289 9269 9321
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 288 9231 9237 "traces_surgical.ml" 288 9231 9257
+)
+"traces_surgical.ml" 289 9269 9297 "traces_surgical.ml" 289 9269 9321
+call(
+  stack
+)
+type(
+  NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 290 9325 9337 "traces_surgical.ml" 290 9325 9343
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 290 9325 9346 "traces_surgical.ml" 290 9325 9358
+type(
+  NameSet.t -> NameSet.t -> NameSet.t
+)
+ident(
+  ext_ref NameSet.diff
+)
+"traces_surgical.ml" 290 9325 9359 "traces_surgical.ml" 290 9325 9365
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 285 9168 9185 "traces_surgical.ml" 285 9168 9191
+)
+"traces_surgical.ml" 290 9325 9366 "traces_surgical.ml" 290 9325 9372
+type(
+  NameSet.t
+)
+ident(
+  int_ref delset "traces_surgical.ml" 289 9269 9288 "traces_surgical.ml" 289 9269 9294
+)
+"traces_surgical.ml" 290 9325 9346 "traces_surgical.ml" 290 9325 9372
+call(
+  stack
+)
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 291 9376 9388 "traces_surgical.ml" 291 9376 9394
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 291 9376 9397 "traces_surgical.ml" 291 9376 9410
+type(
+  NameSet.t -> NameSet.t -> NameSet.t
+)
+ident(
+  ext_ref NameSet.union
+)
+"traces_surgical.ml" 291 9376 9411 "traces_surgical.ml" 291 9376 9417
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 290 9325 9337 "traces_surgical.ml" 290 9325 9343
+)
+"traces_surgical.ml" 291 9376 9418 "traces_surgical.ml" 291 9376 9423
+type(
+  NameSet.t
+)
+ident(
+  int_ref inset "traces_surgical.ml" 289 9269 9281 "traces_surgical.ml" 289 9269 9286
+)
+"traces_surgical.ml" 291 9376 9397 "traces_surgical.ml" 291 9376 9423
+call(
+  stack
+)
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 292 9427 9440 "traces_surgical.ml" 292 9427 9456
+type(
+  NameSet.t -> bool
+)
+ident(
+  ext_ref NameSet.is_empty
+)
+"traces_surgical.ml" 292 9427 9457 "traces_surgical.ml" 292 9427 9462
+type(
+  NameSet.t
+)
+ident(
+  int_ref inset "traces_surgical.ml" 289 9269 9281 "traces_surgical.ml" 289 9269 9286
+)
+"traces_surgical.ml" 292 9427 9440 "traces_surgical.ml" 292 9427 9462
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_surgical.ml" 293 9468 9480 "traces_surgical.ml" 293 9468 9486
+type(
+  NameSet.t -> Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref slicer "traces_surgical.ml" 285 9168 9178 "traces_surgical.ml" 285 9168 9184
+)
+"traces_surgical.ml" 293 9468 9487 "traces_surgical.ml" 293 9468 9493
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 291 9376 9388 "traces_surgical.ml" 291 9376 9394
+)
+"traces_surgical.ml" 293 9468 9494 "traces_surgical.ml" 293 9468 9497
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 285 9168 9192 "traces_surgical.ml" 285 9168 9195
+)
+"traces_surgical.ml" 293 9468 9498 "traces_surgical.ml" 293 9468 9503
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref stmts "traces_surgical.ml" 288 9231 9259 "traces_surgical.ml" 288 9231 9264
+)
+"traces_surgical.ml" 293 9468 9480 "traces_surgical.ml" 293 9468 9503
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 295 9519 9531 "traces_surgical.ml" 295 9519 9537
+type(
+  NameSet.t -> Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref slicer "traces_surgical.ml" 285 9168 9178 "traces_surgical.ml" 285 9168 9184
+)
+"traces_surgical.ml" 295 9519 9538 "traces_surgical.ml" 295 9519 9544
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 291 9376 9388 "traces_surgical.ml" 291 9376 9394
+)
+"traces_surgical.ml" 295 9519 9546 "traces_surgical.ml" 295 9519 9550
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 288 9231 9237 "traces_surgical.ml" 288 9231 9257
+)
+"traces_surgical.ml" 295 9519 9552 "traces_surgical.ml" 295 9519 9555
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 285 9168 9192 "traces_surgical.ml" 285 9168 9195
+)
+"traces_surgical.ml" 295 9519 9545 "traces_surgical.ml" 295 9519 9556
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 295 9519 9557 "traces_surgical.ml" 295 9519 9562
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref stmts "traces_surgical.ml" 288 9231 9259 "traces_surgical.ml" 288 9231 9264
+)
+"traces_surgical.ml" 295 9519 9531 "traces_surgical.ml" 295 9519 9562
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 292 9427 9437 "traces_surgical.ml" 295 9519 9562
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 291 9376 9384 "traces_surgical.ml" 295 9519 9562
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 290 9325 9333 "traces_surgical.ml" 295 9519 9562
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 289 9269 9277 "traces_surgical.ml" 295 9519 9562
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 296 9563 9581 "traces_surgical.ml" 296 9563 9582
+type(
+  Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 296 9563 9570 "traces_surgical.ml" 296 9563 9582
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 296 9563 9569 "traces_surgical.ml" 296 9563 9591
+type(
+  Ast.stmt
+)
+ident(
+  def stmt "traces_surgical.ml" 297 9602 9610 "traces_surgical.ml" 301 9762 9803
+)
+"traces_surgical.ml" 296 9563 9593 "traces_surgical.ml" 296 9563 9598
+type(
+  Ast.stmt list
+)
+ident(
+  def stmts "traces_surgical.ml" 297 9602 9610 "traces_surgical.ml" 301 9762 9803
+)
+"traces_surgical.ml" 296 9563 9569 "traces_surgical.ml" 296 9563 9598
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 297 9602 9614 "traces_surgical.ml" 297 9602 9619
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 297 9602 9621 "traces_surgical.ml" 297 9602 9622
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 297 9602 9614 "traces_surgical.ml" 297 9602 9622
+type(
+  NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 297 9602 9625 "traces_surgical.ml" 297 9602 9637
+type(
+  NameSet.t -> Ast.stmt -> NameSet.t * NameSet.t
+)
+ident(
+  int_ref process_stmt "traces_surgical.ml" 259 8418 8424 "traces_surgical.ml" 259 8418 8436
+)
+"traces_surgical.ml" 297 9602 9638 "traces_surgical.ml" 297 9602 9644
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 285 9168 9185 "traces_surgical.ml" 285 9168 9191
+)
+"traces_surgical.ml" 297 9602 9645 "traces_surgical.ml" 297 9602 9649
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 296 9563 9569 "traces_surgical.ml" 296 9563 9591
+)
+"traces_surgical.ml" 297 9602 9625 "traces_surgical.ml" 297 9602 9649
+call(
+  stack
+)
+type(
+  NameSet.t * NameSet.t
+)
+"traces_surgical.ml" 298 9653 9664 "traces_surgical.ml" 298 9653 9680
+type(
+  NameSet.t -> bool
+)
+ident(
+  ext_ref NameSet.is_empty
+)
+"traces_surgical.ml" 298 9653 9682 "traces_surgical.ml" 298 9653 9695
+type(
+  NameSet.t -> NameSet.t -> NameSet.t
+)
+ident(
+  ext_ref NameSet.inter
+)
+"traces_surgical.ml" 298 9653 9696 "traces_surgical.ml" 298 9653 9701
+type(
+  NameSet.t
+)
+ident(
+  int_ref inset "traces_surgical.ml" 297 9602 9614 "traces_surgical.ml" 297 9602 9619
+)
+"traces_surgical.ml" 298 9653 9702 "traces_surgical.ml" 298 9653 9708
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 285 9168 9185 "traces_surgical.ml" 285 9168 9191
+)
+"traces_surgical.ml" 298 9653 9681 "traces_surgical.ml" 298 9653 9709
+call(
+  stack
+)
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 298 9653 9664 "traces_surgical.ml" 298 9653 9709
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_surgical.ml" 299 9715 9725 "traces_surgical.ml" 299 9715 9731
+type(
+  NameSet.t -> Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref slicer "traces_surgical.ml" 285 9168 9178 "traces_surgical.ml" 285 9168 9184
+)
+"traces_surgical.ml" 299 9715 9732 "traces_surgical.ml" 299 9715 9738
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 285 9168 9185 "traces_surgical.ml" 285 9168 9191
+)
+"traces_surgical.ml" 299 9715 9739 "traces_surgical.ml" 299 9715 9742
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 285 9168 9192 "traces_surgical.ml" 285 9168 9195
+)
+"traces_surgical.ml" 299 9715 9743 "traces_surgical.ml" 299 9715 9748
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref stmts "traces_surgical.ml" 296 9563 9593 "traces_surgical.ml" 296 9563 9598
+)
+"traces_surgical.ml" 299 9715 9725 "traces_surgical.ml" 299 9715 9748
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 301 9762 9772 "traces_surgical.ml" 301 9762 9778
+type(
+  NameSet.t -> Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref slicer "traces_surgical.ml" 285 9168 9178 "traces_surgical.ml" 285 9168 9184
+)
+"traces_surgical.ml" 301 9762 9779 "traces_surgical.ml" 301 9762 9785
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 285 9168 9185 "traces_surgical.ml" 285 9168 9191
+)
+"traces_surgical.ml" 301 9762 9787 "traces_surgical.ml" 301 9762 9791
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 296 9563 9569 "traces_surgical.ml" 296 9563 9591
+)
+"traces_surgical.ml" 301 9762 9793 "traces_surgical.ml" 301 9762 9796
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 285 9168 9192 "traces_surgical.ml" 285 9168 9195
+)
+"traces_surgical.ml" 301 9762 9786 "traces_surgical.ml" 301 9762 9797
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 301 9762 9798 "traces_surgical.ml" 301 9762 9803
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref stmts "traces_surgical.ml" 296 9563 9593 "traces_surgical.ml" 296 9563 9598
+)
+"traces_surgical.ml" 301 9762 9772 "traces_surgical.ml" 301 9762 9803
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 298 9653 9661 "traces_surgical.ml" 301 9762 9803
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 297 9602 9610 "traces_surgical.ml" 301 9762 9803
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 302 9804 9810 "traces_surgical.ml" 302 9804 9814
+type(
+  Ast.stmt
+)
+ident(
+  def stmt "traces_surgical.ml" 303 9825 9833 "traces_surgical.ml" 303 9825 9864
+)
+"traces_surgical.ml" 302 9804 9816 "traces_surgical.ml" 302 9804 9821
+type(
+  Ast.stmt list
+)
+ident(
+  def stmts "traces_surgical.ml" 303 9825 9833 "traces_surgical.ml" 303 9825 9864
+)
+"traces_surgical.ml" 302 9804 9810 "traces_surgical.ml" 302 9804 9821
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 303 9825 9833 "traces_surgical.ml" 303 9825 9839
+type(
+  NameSet.t -> Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref slicer "traces_surgical.ml" 285 9168 9178 "traces_surgical.ml" 285 9168 9184
+)
+"traces_surgical.ml" 303 9825 9840 "traces_surgical.ml" 303 9825 9846
+type(
+  NameSet.t
+)
+ident(
+  int_ref outset "traces_surgical.ml" 285 9168 9185 "traces_surgical.ml" 285 9168 9191
+)
+"traces_surgical.ml" 303 9825 9848 "traces_surgical.ml" 303 9825 9852
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_surgical.ml" 302 9804 9810 "traces_surgical.ml" 302 9804 9814
+)
+"traces_surgical.ml" 303 9825 9854 "traces_surgical.ml" 303 9825 9857
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 285 9168 9192 "traces_surgical.ml" 285 9168 9195
+)
+"traces_surgical.ml" 303 9825 9847 "traces_surgical.ml" 303 9825 9858
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 303 9825 9859 "traces_surgical.ml" 303 9825 9864
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref stmts "traces_surgical.ml" 302 9804 9816 "traces_surgical.ml" 302 9804 9821
+)
+"traces_surgical.ml" 303 9825 9833 "traces_surgical.ml" 303 9825 9864
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 285 9168 9198 "traces_surgical.ml" 303 9825 9864
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+"traces_surgical.ml" 306 9879 9883 "traces_surgical.ml" 306 9879 9889
+type(
+  NameSet.t -> Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref slicer "traces_surgical.ml" 285 9168 9178 "traces_surgical.ml" 285 9168 9184
+)
+"traces_surgical.ml" 285 9168 9170 "traces_surgical.ml" 306 9879 9889
+type(
+  NameSet.t -> Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+"traces_surgical.ml" 259 8418 8420 "traces_surgical.ml" 306 9879 9889
+type(
+  NameSet.t -> Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+"traces_surgical.ml" 308 9891 9895 "traces_surgical.ml" 308 9891 9916
+type(
+  Arch.arch -> Ast.program -> Symbeval.instr list
+)
+ident(
+  def concrete_substitution "traces_surgical.ml" 322 10509 10509 --
+)
+"traces_surgical.ml" 308 9891 9917 "traces_surgical.ml" 308 9891 9921
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_surgical.ml" 308 9891 9922 "traces_surgical.ml" 320 10491 10507
+)
+"traces_surgical.ml" 308 9891 9922 "traces_surgical.ml" 308 9891 9927
+type(
+  Ast.program
+)
+ident(
+  def trace "traces_surgical.ml" 309 9931 9933 "traces_surgical.ml" 320 10491 10507
+)
+"traces_surgical.ml" 309 9931 9933 "traces_surgical.ml" 309 9931 9944
+type(
+  Symbeval.VH.key Symbeval.VH.t option ref
+)
+ident(
+  ext_ref Traces.dsa_rev_map
+)
+"traces_surgical.ml" 309 9931 9945 "traces_surgical.ml" 309 9931 9947
+type(
+  Symbeval.VH.key Symbeval.VH.t option ref ->
+  Symbeval.VH.key Symbeval.VH.t option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_surgical.ml" 309 9931 9948 "traces_surgical.ml" 309 9931 9952
+type(
+  Symbeval.VH.key Symbeval.VH.t option
+)
+"traces_surgical.ml" 309 9931 9933 "traces_surgical.ml" 309 9931 9952
+type(
+  unit
+)
+"traces_surgical.ml" 311 10006 10012 "traces_surgical.ml" 311 10006 10023
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 311 10006 10026 "traces_surgical.ml" 311 10006 10041
+type(
+  Ast.program -> Symbeval.instr list
+)
+ident(
+  ext_ref Traces.remove_specials
+)
+"traces_surgical.ml" 311 10006 10042 "traces_surgical.ml" 311 10006 10047
+type(
+  Ast.program
+)
+ident(
+  int_ref trace "traces_surgical.ml" 308 9891 9922 "traces_surgical.ml" 308 9891 9927
+)
+"traces_surgical.ml" 311 10006 10026 "traces_surgical.ml" 311 10006 10047
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 313 10108 10114 "traces_surgical.ml" 313 10108 10118
+type(
+  Symbeval.VH.key
+)
+"traces_surgical.ml" 313 10108 10121 "traces_surgical.ml" 313 10108 10130
+type(
+  Ast.program -> Symbeval.VH.key
+)
+ident(
+  ext_ref Traces.find_memv
+)
+"traces_surgical.ml" 313 10108 10131 "traces_surgical.ml" 313 10108 10142
+type(
+  Ast.program
+)
+ident(
+  int_ref no_specials "traces_surgical.ml" 311 10006 10012 "traces_surgical.ml" 311 10006 10023
+)
+"traces_surgical.ml" 313 10108 10121 "traces_surgical.ml" 313 10108 10142
+call(
+  stack
+)
+type(
+  Symbeval.VH.key
+)
+"traces_surgical.ml" 314 10146 10152 "traces_surgical.ml" 314 10146 10162
+type(
+  Ast.var Traces.TVHash.t
+)
+"traces_surgical.ml" 314 10146 10165 "traces_surgical.ml" 314 10146 10188
+type(
+  unit -> Ast.var Traces.TVHash.t
+)
+ident(
+  ext_ref Traces.create_thread_map_state
+)
+"traces_surgical.ml" 314 10146 10188 "traces_surgical.ml" 314 10146 10190
+type(
+  unit
+)
+"traces_surgical.ml" 314 10146 10165 "traces_surgical.ml" 314 10146 10190
+call(
+  stack
+)
+type(
+  Ast.var Traces.TVHash.t
+)
+"traces_surgical.ml" 315 10194 10200 "traces_surgical.ml" 315 10194 10211
+type(
+  Ast.program
+)
+"traces_surgical.ml" 315 10194 10214 "traces_surgical.ml" 315 10194 10235
+type(
+  Ast.program -> Ast.var Traces.TVHash.t -> Ast.program
+)
+ident(
+  ext_ref Traces.explicit_thread_stmts
+)
+"traces_surgical.ml" 315 10194 10236 "traces_surgical.ml" 315 10194 10247
+type(
+  Ast.program
+)
+ident(
+  int_ref no_specials "traces_surgical.ml" 311 10006 10012 "traces_surgical.ml" 311 10006 10023
+)
+"traces_surgical.ml" 315 10194 10248 "traces_surgical.ml" 315 10194 10258
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  int_ref thread_map "traces_surgical.ml" 314 10146 10152 "traces_surgical.ml" 314 10146 10162
+)
+"traces_surgical.ml" 315 10194 10214 "traces_surgical.ml" 315 10194 10258
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"traces_surgical.ml" 316 10262 10268 "traces_surgical.ml" 316 10262 10274
+type(
+  Ast.stmt list list
+)
+"traces_surgical.ml" 316 10262 10277 "traces_surgical.ml" 316 10262 10292
+type(
+  Ast.program -> Ast.stmt list list
+)
+ident(
+  ext_ref Traces.trace_to_blocks
+)
+"traces_surgical.ml" 316 10262 10293 "traces_surgical.ml" 316 10262 10304
+type(
+  Ast.program
+)
+ident(
+  int_ref no_specials "traces_surgical.ml" 315 10194 10200 "traces_surgical.ml" 315 10194 10211
+)
+"traces_surgical.ml" 316 10262 10277 "traces_surgical.ml" 316 10262 10304
+call(
+  stack
+)
+type(
+  Ast.stmt list list
+)
+"traces_surgical.ml" 318 10374 10380 "traces_surgical.ml" 318 10374 10386
+type(
+  int
+)
+"traces_surgical.ml" 318 10374 10389 "traces_surgical.ml" 318 10374 10400
+type(
+  Ast.stmt list list -> int
+)
+ident(
+  ext_ref List.length
+)
+"traces_surgical.ml" 318 10374 10401 "traces_surgical.ml" 318 10374 10407
+type(
+  Ast.stmt list list
+)
+ident(
+  int_ref blocks "traces_surgical.ml" 316 10262 10268 "traces_surgical.ml" 316 10262 10274
+)
+"traces_surgical.ml" 318 10374 10389 "traces_surgical.ml" 318 10374 10407
+call(
+  stack
+)
+type(
+  int
+)
+"traces_surgical.ml" 319 10411 10417 "traces_surgical.ml" 319 10411 10429
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 319 10411 10432 "traces_surgical.ml" 319 10411 10452
+type(
+  Arch.arch ->
+  Symbeval.instr list list ->
+  Ast.var -> Ast.var Traces.TVHash.t -> int -> Symbeval.instr list
+)
+ident(
+  int_ref run_and_subst_blocks "traces_surgical.ml" 244 8001 8005 "traces_surgical.ml" 244 8001 8025
+)
+"traces_surgical.ml" 319 10411 10453 "traces_surgical.ml" 319 10411 10457
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_surgical.ml" 308 9891 9917 "traces_surgical.ml" 308 9891 9921
+)
+"traces_surgical.ml" 319 10411 10458 "traces_surgical.ml" 319 10411 10464
+type(
+  Symbeval.instr list list
+)
+ident(
+  int_ref blocks "traces_surgical.ml" 316 10262 10268 "traces_surgical.ml" 316 10262 10274
+)
+"traces_surgical.ml" 319 10411 10465 "traces_surgical.ml" 319 10411 10469
+type(
+  Symbeval.VH.key
+)
+ident(
+  int_ref memv "traces_surgical.ml" 313 10108 10114 "traces_surgical.ml" 313 10108 10118
+)
+"traces_surgical.ml" 319 10411 10470 "traces_surgical.ml" 319 10411 10480
+type(
+  Ast.var Traces.TVHash.t
+)
+ident(
+  int_ref thread_map "traces_surgical.ml" 314 10146 10152 "traces_surgical.ml" 314 10146 10162
+)
+"traces_surgical.ml" 319 10411 10481 "traces_surgical.ml" 319 10411 10487
+type(
+  int
+)
+ident(
+  int_ref length "traces_surgical.ml" 318 10374 10380 "traces_surgical.ml" 318 10374 10386
+)
+"traces_surgical.ml" 319 10411 10432 "traces_surgical.ml" 319 10411 10487
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 320 10491 10495 "traces_surgical.ml" 320 10491 10507
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref actual_trace "traces_surgical.ml" 319 10411 10417 "traces_surgical.ml" 319 10411 10429
+)
+"traces_surgical.ml" 319 10411 10413 "traces_surgical.ml" 320 10491 10507
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 318 10374 10376 "traces_surgical.ml" 320 10491 10507
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 316 10262 10264 "traces_surgical.ml" 320 10491 10507
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 315 10194 10196 "traces_surgical.ml" 320 10491 10507
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 314 10146 10148 "traces_surgical.ml" 320 10491 10507
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 313 10108 10110 "traces_surgical.ml" 320 10491 10507
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 311 10006 10008 "traces_surgical.ml" 320 10491 10507
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 309 9931 9933 "traces_surgical.ml" 320 10491 10507
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 322 10509 10513 "traces_surgical.ml" 322 10509 10524
+type(
+  Arch.arch -> Ast.program -> Symbeval.instr list
+)
+ident(
+  def check_slice "traces_surgical.ml" 328 10741 10741 --
+)
+"traces_surgical.ml" 322 10509 10525 "traces_surgical.ml" 322 10509 10529
+type(
+  Arch.arch
+)
+ident(
+  def arch "traces_surgical.ml" 322 10509 10530 "traces_surgical.ml" 325 10680 10698
+)
+"traces_surgical.ml" 322 10509 10530 "traces_surgical.ml" 322 10509 10535
+type(
+  Ast.program
+)
+ident(
+  def trace "traces_surgical.ml" 323 10539 10541 "traces_surgical.ml" 325 10680 10698
+)
+"traces_surgical.ml" 323 10539 10545 "traces_surgical.ml" 323 10539 10557
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 323 10539 10560 "traces_surgical.ml" 323 10539 10581
+type(
+  Arch.arch -> Ast.program -> Symbeval.instr list
+)
+ident(
+  int_ref concrete_substitution "traces_surgical.ml" 308 9891 9895 "traces_surgical.ml" 308 9891 9916
+)
+"traces_surgical.ml" 323 10539 10582 "traces_surgical.ml" 323 10539 10586
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "traces_surgical.ml" 322 10509 10525 "traces_surgical.ml" 322 10509 10529
+)
+"traces_surgical.ml" 323 10539 10587 "traces_surgical.ml" 323 10539 10592
+type(
+  Ast.program
+)
+ident(
+  int_ref trace "traces_surgical.ml" 322 10509 10530 "traces_surgical.ml" 322 10509 10535
+)
+"traces_surgical.ml" 323 10539 10560 "traces_surgical.ml" 323 10539 10592
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 324 10596 10602 "traces_surgical.ml" 324 10596 10616
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 324 10596 10619 "traces_surgical.ml" 324 10596 10624
+type(
+  NameSet.t ->
+  Symbeval.instr list -> Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  int_ref dicer "traces_surgical.ml" 257 8404 8408 "traces_surgical.ml" 257 8404 8413
+)
+"traces_surgical.ml" 324 10596 10626 "traces_surgical.ml" 324 10596 10643
+type(
+  NameSet.elt -> NameSet.t
+)
+ident(
+  ext_ref NameSet.singleton
+)
+"traces_surgical.ml" 324 10596 10644 "traces_surgical.ml" 324 10596 10648
+type(
+  NameSet.elt
+)
+"traces_surgical.ml" 324 10596 10625 "traces_surgical.ml" 324 10596 10649
+call(
+  stack
+)
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 324 10596 10650 "traces_surgical.ml" 324 10596 10652
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 324 10596 10654 "traces_surgical.ml" 324 10596 10662
+type(
+  Symbeval.instr list -> Symbeval.instr list
+)
+ident(
+  ext_ref List.rev
+)
+"traces_surgical.ml" 324 10596 10663 "traces_surgical.ml" 324 10596 10675
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref actual_trace "traces_surgical.ml" 323 10539 10545 "traces_surgical.ml" 323 10539 10557
+)
+"traces_surgical.ml" 324 10596 10653 "traces_surgical.ml" 324 10596 10676
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 324 10596 10619 "traces_surgical.ml" 324 10596 10676
+call(
+  stack
+)
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 325 10680 10684 "traces_surgical.ml" 325 10680 10698
+type(
+  Symbeval.instr list
+)
+ident(
+  int_ref accurate_trace "traces_surgical.ml" 324 10596 10602 "traces_surgical.ml" 324 10596 10616
+)
+"traces_surgical.ml" 324 10596 10598 "traces_surgical.ml" 325 10680 10698
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 323 10539 10541 "traces_surgical.ml" 325 10680 10698
+type(
+  Symbeval.instr list
+)
+"traces_surgical.ml" 328 10741 10745 "traces_surgical.ml" 328 10741 10750
+type(
+  NameSet.elt -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  def slice "traces_surgical.ml" 350 11368 11401 --
+)
+"traces_surgical.ml" 328 10741 10751 "traces_surgical.ml" 328 10741 10758
+type(
+  NameSet.elt
+)
+ident(
+  def varname "traces_surgical.ml" 328 10741 10759 "traces_surgical.ml" 350 11368 11401
+)
+"traces_surgical.ml" 328 10741 10759 "traces_surgical.ml" 328 10741 10764
+type(
+  Ast.stmt list
+)
+ident(
+  def trace "traces_surgical.ml" 329 10768 10770 "traces_surgical.ml" 350 11368 11401
+)
+"traces_surgical.ml" 329 10768 10774 "traces_surgical.ml" 329 10768 10777
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 329 10768 10780 "traces_surgical.ml" 329 10768 10788
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"traces_surgical.ml" 329 10768 10789 "traces_surgical.ml" 329 10768 10794
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref trace "traces_surgical.ml" 328 10741 10759 "traces_surgical.ml" 328 10741 10764
+)
+"traces_surgical.ml" 329 10768 10780 "traces_surgical.ml" 329 10768 10794
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 330 10798 10804 "traces_surgical.ml" 330 10798 10808
+type(
+  NameSet.t ref
+)
+"traces_surgical.ml" 330 10798 10811 "traces_surgical.ml" 330 10798 10814
+type(
+  NameSet.t -> NameSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_surgical.ml" 330 10798 10816 "traces_surgical.ml" 330 10798 10833
+type(
+  NameSet.elt -> NameSet.t
+)
+ident(
+  ext_ref NameSet.singleton
+)
+"traces_surgical.ml" 330 10798 10834 "traces_surgical.ml" 330 10798 10841
+type(
+  NameSet.elt
+)
+ident(
+  int_ref varname "traces_surgical.ml" 328 10741 10751 "traces_surgical.ml" 328 10741 10758
+)
+"traces_surgical.ml" 330 10798 10815 "traces_surgical.ml" 330 10798 10842
+call(
+  stack
+)
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 330 10798 10811 "traces_surgical.ml" 330 10798 10842
+type(
+  NameSet.t ref
+)
+"traces_surgical.ml" 331 10846 10852 "traces_surgical.ml" 331 10846 10855
+type(
+  Ast_visitor.nop
+)
+"traces_surgical.ml" 331 10846 10864 "traces_surgical.ml" 331 10846 10870
+type(
+  Ast_visitor.nop
+)
+"traces_surgical.ml" 334 10931 10947 "traces_surgical.ml" 334 10931 10948
+type(
+  Ast.var
+)
+ident(
+  def v "traces_surgical.ml" 334 10931 10952 "traces_surgical.ml" 334 10931 11003
+)
+"traces_surgical.ml" 334 10931 10939 "traces_surgical.ml" 334 10931 10948
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 334 10931 10952 "traces_surgical.ml" 334 10931 10956
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref maps "traces_surgical.ml" 330 10798 10804 "traces_surgical.ml" 330 10798 10808
+)
+"traces_surgical.ml" 334 10931 10957 "traces_surgical.ml" 334 10931 10959
+type(
+  NameSet.t ref -> NameSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_surgical.ml" 334 10931 10960 "traces_surgical.ml" 334 10931 10971
+type(
+  NameSet.elt -> NameSet.t -> NameSet.t
+)
+ident(
+  ext_ref NameSet.add
+)
+"traces_surgical.ml" 334 10931 10973 "traces_surgical.ml" 334 10931 10981
+type(
+  Ast.var -> NameSet.elt
+)
+ident(
+  ext_ref Var.name
+)
+"traces_surgical.ml" 334 10931 10982 "traces_surgical.ml" 334 10931 10983
+type(
+  Ast.var
+)
+ident(
+  int_ref v "traces_surgical.ml" 334 10931 10947 "traces_surgical.ml" 334 10931 10948
+)
+"traces_surgical.ml" 334 10931 10972 "traces_surgical.ml" 334 10931 10984
+call(
+  stack
+)
+type(
+  NameSet.elt
+)
+"traces_surgical.ml" 334 10931 10985 "traces_surgical.ml" 334 10931 10986
+type(
+  NameSet.t ref -> NameSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 334 10931 10986 "traces_surgical.ml" 334 10931 10990
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref maps "traces_surgical.ml" 330 10798 10804 "traces_surgical.ml" 330 10798 10808
+)
+"traces_surgical.ml" 334 10931 10985 "traces_surgical.ml" 334 10931 10990
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 334 10931 10960 "traces_surgical.ml" 334 10931 10990
+call(
+  stack
+)
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 334 10931 10952 "traces_surgical.ml" 334 10931 10990
+type(
+  unit
+)
+"traces_surgical.ml" 334 10931 10993 "traces_surgical.ml" 334 10931 11003
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 334 10931 10952 "traces_surgical.ml" 334 10931 11003
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 335 11005 11013 "traces_surgical.ml" 335 11005 11014
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 335 11005 11018 "traces_surgical.ml" 335 11005 11028
+type(
+  Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 333 10899 10922 "traces_surgical.ml" 335 11005 11028
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+"traces_surgical.ml" 331 10846 10858 "traces_surgical.ml" 336 11029 11034
+type(
+  Ast_visitor.nop
+)
+"traces_surgical.ml" 338 11040 11046 "traces_surgical.ml" 338 11040 11053
+type(
+  Ast.stmt list -> Ast.stmt -> Ast.stmt list
+)
+"traces_surgical.ml" 338 11040 11054 "traces_surgical.ml" 338 11040 11057
+type(
+  Ast.stmt list
+)
+ident(
+  def acc "traces_surgical.ml" 338 11040 11060 "traces_surgical.ml" 348 11348 11362
+)
+"traces_surgical.ml" 339 11070 11085 "traces_surgical.ml" 339 11070 11086
+type(
+  Ast.var
+)
+ident(
+  def v "traces_surgical.ml" 340 11102 11110 "traces_surgical.ml" 347 11329 11347
+)
+"traces_surgical.ml" 339 11070 11088 "traces_surgical.ml" 339 11070 11089
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_surgical.ml" 340 11102 11110 "traces_surgical.ml" 347 11329 11347
+)
+"traces_surgical.ml" 339 11070 11091 "traces_surgical.ml" 339 11070 11092
+type(
+  Ast.attrs
+)
+"traces_surgical.ml" 339 11070 11084 "traces_surgical.ml" 339 11070 11093
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"traces_surgical.ml" 339 11070 11076 "traces_surgical.ml" 339 11070 11093
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 339 11070 11076 "traces_surgical.ml" 339 11070 11098
+type(
+  Ast.stmt
+)
+ident(
+  def s "traces_surgical.ml" 340 11102 11110 "traces_surgical.ml" 347 11329 11347
+)
+"traces_surgical.ml" 340 11102 11114 "traces_surgical.ml" 340 11102 11118
+type(
+  string
+)
+"traces_surgical.ml" 340 11102 11121 "traces_surgical.ml" 340 11102 11129
+type(
+  Ast.var -> string
+)
+ident(
+  ext_ref Var.name
+)
+"traces_surgical.ml" 340 11102 11130 "traces_surgical.ml" 340 11102 11131
+type(
+  Ast.var
+)
+ident(
+  int_ref v "traces_surgical.ml" 339 11070 11085 "traces_surgical.ml" 339 11070 11086
+)
+"traces_surgical.ml" 340 11102 11121 "traces_surgical.ml" 340 11102 11131
+call(
+  stack
+)
+type(
+  string
+)
+"traces_surgical.ml" 341 11135 11148 "traces_surgical.ml" 341 11135 11159
+type(
+  NameSet.elt -> NameSet.t -> bool
+)
+ident(
+  ext_ref NameSet.mem
+)
+"traces_surgical.ml" 341 11135 11160 "traces_surgical.ml" 341 11135 11164
+type(
+  NameSet.elt
+)
+ident(
+  int_ref name "traces_surgical.ml" 340 11102 11114 "traces_surgical.ml" 340 11102 11118
+)
+"traces_surgical.ml" 341 11135 11165 "traces_surgical.ml" 341 11135 11166
+type(
+  NameSet.t ref -> NameSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 341 11135 11166 "traces_surgical.ml" 341 11135 11170
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref maps "traces_surgical.ml" 330 10798 10804 "traces_surgical.ml" 330 10798 10808
+)
+"traces_surgical.ml" 341 11135 11165 "traces_surgical.ml" 341 11135 11170
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 341 11135 11148 "traces_surgical.ml" 341 11135 11170
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_surgical.ml" 343 11190 11204 "traces_surgical.ml" 343 11190 11210
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_surgical.ml" 343 11190 11212 "traces_surgical.ml" 343 11190 11234
+type(
+  Ast_visitor.t -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"traces_surgical.ml" 343 11190 11235 "traces_surgical.ml" 343 11190 11238
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref vis "traces_surgical.ml" 331 10846 10852 "traces_surgical.ml" 331 10846 10855
+)
+"traces_surgical.ml" 343 11190 11239 "traces_surgical.ml" 343 11190 11240
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_surgical.ml" 339 11070 11088 "traces_surgical.ml" 339 11070 11089
+)
+"traces_surgical.ml" 343 11190 11210 "traces_surgical.ml" 343 11190 11242
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_surgical.ml" 343 11190 11204 "traces_surgical.ml" 343 11190 11242
+type(
+  unit
+)
+"traces_surgical.ml" 344 11244 11258 "traces_surgical.ml" 344 11244 11262
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref maps "traces_surgical.ml" 330 10798 10804 "traces_surgical.ml" 330 10798 10808
+)
+"traces_surgical.ml" 344 11244 11263 "traces_surgical.ml" 344 11244 11265
+type(
+  NameSet.t ref -> NameSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_surgical.ml" 344 11244 11266 "traces_surgical.ml" 344 11244 11280
+type(
+  NameSet.elt -> NameSet.t -> NameSet.t
+)
+ident(
+  ext_ref NameSet.remove
+)
+"traces_surgical.ml" 344 11244 11281 "traces_surgical.ml" 344 11244 11285
+type(
+  NameSet.elt
+)
+ident(
+  int_ref name "traces_surgical.ml" 340 11102 11114 "traces_surgical.ml" 340 11102 11118
+)
+"traces_surgical.ml" 344 11244 11286 "traces_surgical.ml" 344 11244 11287
+type(
+  NameSet.t ref -> NameSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_surgical.ml" 344 11244 11287 "traces_surgical.ml" 344 11244 11291
+type(
+  NameSet.t ref
+)
+ident(
+  int_ref maps "traces_surgical.ml" 330 10798 10804 "traces_surgical.ml" 330 10798 10808
+)
+"traces_surgical.ml" 344 11244 11286 "traces_surgical.ml" 344 11244 11291
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 344 11244 11266 "traces_surgical.ml" 344 11244 11291
+call(
+  stack
+)
+type(
+  NameSet.t
+)
+"traces_surgical.ml" 344 11244 11258 "traces_surgical.ml" 344 11244 11291
+type(
+  unit
+)
+"traces_surgical.ml" 345 11294 11308 "traces_surgical.ml" 345 11294 11309
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "traces_surgical.ml" 339 11070 11076 "traces_surgical.ml" 339 11070 11098
+)
+"traces_surgical.ml" 345 11294 11311 "traces_surgical.ml" 345 11294 11314
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 338 11040 11054 "traces_surgical.ml" 338 11040 11057
+)
+"traces_surgical.ml" 345 11294 11308 "traces_surgical.ml" 345 11294 11314
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 344 11244 11258 "traces_surgical.ml" 345 11294 11314
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 342 11176 11188 "traces_surgical.ml" 346 11315 11328
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 347 11329 11344 "traces_surgical.ml" 347 11329 11347
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 338 11040 11054 "traces_surgical.ml" 338 11040 11057
+)
+"traces_surgical.ml" 341 11135 11145 "traces_surgical.ml" 347 11329 11347
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 340 11102 11110 "traces_surgical.ml" 347 11329 11347
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 348 11348 11354 "traces_surgical.ml" 348 11348 11355
+type(
+  Ast.stmt
+)
+"traces_surgical.ml" 348 11348 11359 "traces_surgical.ml" 348 11348 11362
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref acc "traces_surgical.ml" 338 11040 11054 "traces_surgical.ml" 338 11040 11057
+)
+"traces_surgical.ml" 338 11040 11060 "traces_surgical.ml" 348 11348 11362
+type(
+  Ast.stmt -> Ast.stmt list
+)
+"traces_surgical.ml" 350 11368 11372 "traces_surgical.ml" 350 11368 11386
+type(
+  (Ast.stmt list -> Ast.stmt -> Ast.stmt list) ->
+  Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref List.fold_left
+)
+"traces_surgical.ml" 350 11368 11387 "traces_surgical.ml" 350 11368 11394
+type(
+  Ast.stmt list -> Ast.stmt -> Ast.stmt list
+)
+ident(
+  int_ref run_all "traces_surgical.ml" 338 11040 11046 "traces_surgical.ml" 338 11040 11053
+)
+"traces_surgical.ml" 350 11368 11395 "traces_surgical.ml" 350 11368 11397
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 350 11368 11398 "traces_surgical.ml" 350 11368 11401
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref rev "traces_surgical.ml" 329 10768 10774 "traces_surgical.ml" 329 10768 10777
+)
+"traces_surgical.ml" 350 11368 11372 "traces_surgical.ml" 350 11368 11401
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 338 11040 11042 "traces_surgical.ml" 350 11368 11401
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 331 10846 10848 "traces_surgical.ml" 350 11368 11401
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 330 10798 10800 "traces_surgical.ml" 350 11368 11401
+type(
+  Ast.stmt list
+)
+"traces_surgical.ml" 329 10768 10770 "traces_surgical.ml" 350 11368 11401
+type(
+  Ast.stmt list
+)

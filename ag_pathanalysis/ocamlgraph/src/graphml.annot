@@ -1,0 +1,1216 @@
+"src/graphml.ml" 42 1604 1610 "src/graphml.ml" 42 1604 1616
+type(
+  string
+)
+ident(
+  def header "src/graphml.ml" 50 1912 1914 "src/graphml.ml" 105 3580 3583
+)
+"src/graphml.ml" 43 1619 1619 "src/graphml.ml" 47 1843 1905
+type(
+  string
+)
+"src/graphml.ml" 50 1912 1918 "src/graphml.ml" 50 1912 1925
+type(
+  Format.formatter -> string * string -> unit
+)
+ident(
+  def data_pp "src/graphml.ml" 53 2007 2009 "src/graphml.ml" 105 3580 3583
+)
+"src/graphml.ml" 50 1912 1926 "src/graphml.ml" 50 1912 1929
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/graphml.ml" 50 1912 1930 "src/graphml.ml" 51 1944 2005
+)
+"src/graphml.ml" 50 1912 1931 "src/graphml.ml" 50 1912 1934
+type(
+  string
+)
+ident(
+  def key "src/graphml.ml" 51 1944 1948 "src/graphml.ml" 51 1944 2005
+)
+"src/graphml.ml" 50 1912 1935 "src/graphml.ml" 50 1912 1940
+type(
+  string
+)
+ident(
+  def value "src/graphml.ml" 51 1944 1948 "src/graphml.ml" 51 1944 2005
+)
+"src/graphml.ml" 50 1912 1930 "src/graphml.ml" 50 1912 1941
+type(
+  string * string
+)
+"src/graphml.ml" 51 1944 1948 "src/graphml.ml" 51 1944 1962
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 51 1944 1963 "src/graphml.ml" 51 1944 1966
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 50 1912 1926 "src/graphml.ml" 50 1912 1929
+)
+"src/graphml.ml" 51 1944 1967 "src/graphml.ml" 51 1944 1995
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 51 1944 1996 "src/graphml.ml" 51 1944 1999
+type(
+  string
+)
+ident(
+  int_ref key "src/graphml.ml" 50 1912 1931 "src/graphml.ml" 50 1912 1934
+)
+"src/graphml.ml" 51 1944 2000 "src/graphml.ml" 51 1944 2005
+type(
+  string
+)
+ident(
+  int_ref value "src/graphml.ml" 50 1912 1935 "src/graphml.ml" 50 1912 1940
+)
+"src/graphml.ml" 51 1944 1948 "src/graphml.ml" 51 1944 2005
+call(
+  tail
+)
+type(
+  unit
+)
+"src/graphml.ml" 53 2007 2013 "src/graphml.ml" 53 2007 2020
+type(
+  Format.formatter -> string -> string -> string -> string option -> unit
+)
+ident(
+  def pp_type "src/graphml.ml" 62 2338 2340 "src/graphml.ml" 105 3580 3583
+)
+"src/graphml.ml" 53 2007 2021 "src/graphml.ml" 53 2007 2024
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/graphml.ml" 53 2007 2025 "src/graphml.ml" 60 2329 2336
+)
+"src/graphml.ml" 53 2007 2025 "src/graphml.ml" 53 2007 2026
+type(
+  string
+)
+ident(
+  def t "src/graphml.ml" 53 2007 2027 "src/graphml.ml" 60 2329 2336
+)
+"src/graphml.ml" 53 2007 2027 "src/graphml.ml" 53 2007 2031
+type(
+  string
+)
+ident(
+  def prop "src/graphml.ml" 53 2007 2032 "src/graphml.ml" 60 2329 2336
+)
+"src/graphml.ml" 53 2007 2032 "src/graphml.ml" 53 2007 2035
+type(
+  string
+)
+ident(
+  def typ "src/graphml.ml" 53 2007 2036 "src/graphml.ml" 60 2329 2336
+)
+"src/graphml.ml" 53 2007 2036 "src/graphml.ml" 53 2007 2043
+type(
+  string option
+)
+ident(
+  def default "src/graphml.ml" 54 2046 2050 "src/graphml.ml" 60 2329 2336
+)
+"src/graphml.ml" 54 2046 2050 "src/graphml.ml" 54 2046 2064
+type(
+  Format.formatter ->
+  (string -> string -> string -> string -> unit, Format.formatter, unit)
+  format -> string -> string -> string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 54 2046 2065 "src/graphml.ml" 54 2046 2068
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 53 2007 2021 "src/graphml.ml" 53 2007 2024
+)
+"src/graphml.ml" 54 2046 2069 "src/graphml.ml" 54 2046 2131
+type(
+  (string -> string -> string -> string -> unit, Format.formatter, unit)
+  format
+)
+"src/graphml.ml" 54 2046 2132 "src/graphml.ml" 54 2046 2133
+type(
+  string
+)
+ident(
+  int_ref t "src/graphml.ml" 53 2007 2025 "src/graphml.ml" 53 2007 2026
+)
+"src/graphml.ml" 54 2046 2134 "src/graphml.ml" 54 2046 2138
+type(
+  string
+)
+ident(
+  int_ref prop "src/graphml.ml" 53 2007 2027 "src/graphml.ml" 53 2007 2031
+)
+"src/graphml.ml" 54 2046 2139 "src/graphml.ml" 54 2046 2143
+type(
+  string
+)
+ident(
+  int_ref prop "src/graphml.ml" 53 2007 2027 "src/graphml.ml" 53 2007 2031
+)
+"src/graphml.ml" 54 2046 2144 "src/graphml.ml" 54 2046 2147
+type(
+  string
+)
+ident(
+  int_ref typ "src/graphml.ml" 53 2007 2032 "src/graphml.ml" 53 2007 2035
+)
+"src/graphml.ml" 54 2046 2050 "src/graphml.ml" 54 2046 2147
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 55 2149 2159 "src/graphml.ml" 55 2149 2166
+type(
+  string option
+)
+ident(
+  int_ref default "src/graphml.ml" 53 2007 2036 "src/graphml.ml" 53 2007 2043
+)
+"src/graphml.ml" 56 2172 2177 "src/graphml.ml" 56 2172 2181
+type(
+  string option
+)
+"src/graphml.ml" 56 2172 2185 "src/graphml.ml" 56 2172 2199
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 56 2172 2200 "src/graphml.ml" 56 2172 2203
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 53 2007 2021 "src/graphml.ml" 53 2007 2024
+)
+"src/graphml.ml" 56 2172 2204 "src/graphml.ml" 56 2172 2214
+type(
+  (unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 56 2172 2185 "src/graphml.ml" 56 2172 2214
+call(
+  tail
+)
+type(
+  unit
+)
+"src/graphml.ml" 57 2215 2225 "src/graphml.ml" 57 2215 2226
+type(
+  string
+)
+ident(
+  def s "src/graphml.ml" 57 2215 2230 "src/graphml.ml" 60 2329 2336
+)
+"src/graphml.ml" 57 2215 2220 "src/graphml.ml" 57 2215 2226
+type(
+  string option
+)
+"src/graphml.ml" 58 2236 2242 "src/graphml.ml" 58 2236 2256
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 58 2236 2257 "src/graphml.ml" 58 2236 2260
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 53 2007 2021 "src/graphml.ml" 53 2007 2024
+)
+"src/graphml.ml" 58 2236 2261 "src/graphml.ml" 58 2236 2289
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 58 2236 2290 "src/graphml.ml" 58 2236 2291
+type(
+  string
+)
+ident(
+  int_ref s "src/graphml.ml" 57 2215 2225 "src/graphml.ml" 57 2215 2226
+)
+"src/graphml.ml" 58 2236 2242 "src/graphml.ml" 58 2236 2291
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 59 2293 2299 "src/graphml.ml" 59 2293 2313
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 59 2293 2314 "src/graphml.ml" 59 2293 2317
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 53 2007 2021 "src/graphml.ml" 53 2007 2024
+)
+"src/graphml.ml" 59 2293 2318 "src/graphml.ml" 59 2293 2328
+type(
+  (unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 59 2293 2299 "src/graphml.ml" 59 2293 2328
+call(
+  tail
+)
+type(
+  unit
+)
+"src/graphml.ml" 57 2215 2230 "src/graphml.ml" 60 2329 2336
+type(
+  unit
+)
+"src/graphml.ml" 55 2149 2153 "src/graphml.ml" 60 2329 2336
+type(
+  unit
+)
+"src/graphml.ml" 54 2046 2050 "src/graphml.ml" 60 2329 2336
+type(
+  unit
+)
+"src/graphml.ml" 62 2338 2344 "src/graphml.ml" 62 2338 2349
+type(
+  Format.formatter -> G.t -> unit
+)
+ident(
+  def print "src/graphml.ml" 103 3541 3578 "src/graphml.ml" 105 3580 3583
+)
+"src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/graphml.ml" 62 2338 2354 "src/graphml.ml" 103 3541 3578
+)
+"src/graphml.ml" 62 2338 2354 "src/graphml.ml" 62 2338 2359
+type(
+  G.t
+)
+ident(
+  def graph "src/graphml.ml" 64 2363 2367 "src/graphml.ml" 103 3541 3578
+)
+"src/graphml.ml" 64 2363 2367 "src/graphml.ml" 64 2363 2381
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 64 2363 2382 "src/graphml.ml" 64 2363 2385
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 64 2363 2386 "src/graphml.ml" 64 2363 2392
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 64 2363 2393 "src/graphml.ml" 64 2363 2399
+type(
+  string
+)
+ident(
+  int_ref header "src/graphml.ml" 42 1604 1610 "src/graphml.ml" 42 1604 1616
+)
+"src/graphml.ml" 64 2363 2367 "src/graphml.ml" 64 2363 2399
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 67 2440 2444 "src/graphml.ml" 67 2440 2453
+type(
+  (string * string * string option -> unit) ->
+  (string * string * string option) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/graphml.ml" 68 2454 2466 "src/graphml.ml" 68 2454 2470
+type(
+  string
+)
+ident(
+  def prop "src/graphml.ml" 68 2454 2487 "src/graphml.ml" 68 2454 2522
+)
+"src/graphml.ml" 68 2454 2471 "src/graphml.ml" 68 2454 2474
+type(
+  string
+)
+ident(
+  def typ "src/graphml.ml" 68 2454 2487 "src/graphml.ml" 68 2454 2522
+)
+"src/graphml.ml" 68 2454 2475 "src/graphml.ml" 68 2454 2482
+type(
+  string option
+)
+ident(
+  def default "src/graphml.ml" 68 2454 2487 "src/graphml.ml" 68 2454 2522
+)
+"src/graphml.ml" 68 2454 2465 "src/graphml.ml" 68 2454 2483
+type(
+  string * string * string option
+)
+"src/graphml.ml" 68 2454 2487 "src/graphml.ml" 68 2454 2494
+type(
+  Format.formatter -> string -> string -> string -> string option -> unit
+)
+ident(
+  int_ref pp_type "src/graphml.ml" 53 2007 2013 "src/graphml.ml" 53 2007 2020
+)
+"src/graphml.ml" 68 2454 2495 "src/graphml.ml" 68 2454 2498
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 68 2454 2499 "src/graphml.ml" 68 2454 2505
+type(
+  string
+)
+"src/graphml.ml" 68 2454 2506 "src/graphml.ml" 68 2454 2510
+type(
+  string
+)
+ident(
+  int_ref prop "src/graphml.ml" 68 2454 2466 "src/graphml.ml" 68 2454 2470
+)
+"src/graphml.ml" 68 2454 2511 "src/graphml.ml" 68 2454 2514
+type(
+  string
+)
+ident(
+  int_ref typ "src/graphml.ml" 68 2454 2471 "src/graphml.ml" 68 2454 2474
+)
+"src/graphml.ml" 68 2454 2515 "src/graphml.ml" 68 2454 2522
+type(
+  string option
+)
+ident(
+  int_ref default "src/graphml.ml" 68 2454 2475 "src/graphml.ml" 68 2454 2482
+)
+"src/graphml.ml" 68 2454 2487 "src/graphml.ml" 68 2454 2522
+call(
+  tail
+)
+type(
+  unit
+)
+"src/graphml.ml" 68 2454 2460 "src/graphml.ml" 68 2454 2523
+type(
+  string * string * string option -> unit
+)
+"src/graphml.ml" 69 2524 2530 "src/graphml.ml" 69 2524 2549
+type(
+  (string * string * string option) list
+)
+ident(
+  ext_ref L.vertex_properties
+)
+"src/graphml.ml" 67 2440 2444 "src/graphml.ml" 69 2524 2549
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 72 2590 2594 "src/graphml.ml" 72 2590 2603
+type(
+  (string * string * string option -> unit) ->
+  (string * string * string option) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/graphml.ml" 73 2604 2616 "src/graphml.ml" 73 2604 2620
+type(
+  string
+)
+ident(
+  def prop "src/graphml.ml" 73 2604 2637 "src/graphml.ml" 73 2604 2672
+)
+"src/graphml.ml" 73 2604 2621 "src/graphml.ml" 73 2604 2624
+type(
+  string
+)
+ident(
+  def typ "src/graphml.ml" 73 2604 2637 "src/graphml.ml" 73 2604 2672
+)
+"src/graphml.ml" 73 2604 2625 "src/graphml.ml" 73 2604 2632
+type(
+  string option
+)
+ident(
+  def default "src/graphml.ml" 73 2604 2637 "src/graphml.ml" 73 2604 2672
+)
+"src/graphml.ml" 73 2604 2615 "src/graphml.ml" 73 2604 2633
+type(
+  string * string * string option
+)
+"src/graphml.ml" 73 2604 2637 "src/graphml.ml" 73 2604 2644
+type(
+  Format.formatter -> string -> string -> string -> string option -> unit
+)
+ident(
+  int_ref pp_type "src/graphml.ml" 53 2007 2013 "src/graphml.ml" 53 2007 2020
+)
+"src/graphml.ml" 73 2604 2645 "src/graphml.ml" 73 2604 2648
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 73 2604 2649 "src/graphml.ml" 73 2604 2655
+type(
+  string
+)
+"src/graphml.ml" 73 2604 2656 "src/graphml.ml" 73 2604 2660
+type(
+  string
+)
+ident(
+  int_ref prop "src/graphml.ml" 73 2604 2616 "src/graphml.ml" 73 2604 2620
+)
+"src/graphml.ml" 73 2604 2661 "src/graphml.ml" 73 2604 2664
+type(
+  string
+)
+ident(
+  int_ref typ "src/graphml.ml" 73 2604 2621 "src/graphml.ml" 73 2604 2624
+)
+"src/graphml.ml" 73 2604 2665 "src/graphml.ml" 73 2604 2672
+type(
+  string option
+)
+ident(
+  int_ref default "src/graphml.ml" 73 2604 2625 "src/graphml.ml" 73 2604 2632
+)
+"src/graphml.ml" 73 2604 2637 "src/graphml.ml" 73 2604 2672
+call(
+  tail
+)
+type(
+  unit
+)
+"src/graphml.ml" 73 2604 2610 "src/graphml.ml" 73 2604 2673
+type(
+  string * string * string option -> unit
+)
+"src/graphml.ml" 74 2674 2680 "src/graphml.ml" 74 2674 2697
+type(
+  (string * string * string option) list
+)
+ident(
+  ext_ref L.edge_properties
+)
+"src/graphml.ml" 72 2590 2594 "src/graphml.ml" 74 2674 2697
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 76 2701 2709 "src/graphml.ml" 76 2701 2717
+type(
+  string
+)
+"src/graphml.ml" 76 2701 2723 "src/graphml.ml" 76 2701 2736
+type(
+  bool
+)
+ident(
+  ext_ref G.is_directed
+)
+"src/graphml.ml" 76 2701 2742 "src/graphml.ml" 76 2701 2768
+type(
+  string
+)
+"src/graphml.ml" 76 2701 2774 "src/graphml.ml" 76 2701 2776
+type(
+  string
+)
+"src/graphml.ml" 76 2701 2720 "src/graphml.ml" 76 2701 2776
+type(
+  string
+)
+"src/graphml.ml" 77 2780 2784 "src/graphml.ml" 77 2780 2798
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 77 2780 2799 "src/graphml.ml" 77 2780 2802
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 77 2780 2803 "src/graphml.ml" 77 2780 2826
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 77 2780 2827 "src/graphml.ml" 77 2780 2835
+type(
+  string
+)
+ident(
+  int_ref directed "src/graphml.ml" 76 2701 2709 "src/graphml.ml" 76 2701 2717
+)
+"src/graphml.ml" 77 2780 2784 "src/graphml.ml" 77 2780 2835
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 80 2863 2867 "src/graphml.ml" 80 2863 2880
+type(
+  (G.vertex -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref G.iter_vertex
+)
+"src/graphml.ml" 81 2881 2892 "src/graphml.ml" 81 2881 2898
+type(
+  G.vertex
+)
+ident(
+  def vertex "src/graphml.ml" 82 2902 2903 "src/graphml.ml" 86 3066 3098
+)
+"src/graphml.ml" 82 2902 2907 "src/graphml.ml" 82 2902 2909
+type(
+  int
+)
+"src/graphml.ml" 82 2902 2912 "src/graphml.ml" 82 2902 2924
+type(
+  G.vertex -> int
+)
+ident(
+  ext_ref L.vertex_uid
+)
+"src/graphml.ml" 82 2902 2925 "src/graphml.ml" 82 2902 2931
+type(
+  G.vertex
+)
+ident(
+  int_ref vertex "src/graphml.ml" 81 2881 2892 "src/graphml.ml" 81 2881 2898
+)
+"src/graphml.ml" 82 2902 2912 "src/graphml.ml" 82 2902 2931
+call(
+  stack
+)
+type(
+  int
+)
+"src/graphml.ml" 83 2935 2940 "src/graphml.ml" 83 2935 2941
+type(
+  (string * string) list
+)
+"src/graphml.ml" 83 2935 2944 "src/graphml.ml" 83 2935 2956
+type(
+  G.vertex -> (string * string) list
+)
+ident(
+  ext_ref L.map_vertex
+)
+"src/graphml.ml" 83 2935 2957 "src/graphml.ml" 83 2935 2963
+type(
+  G.vertex
+)
+ident(
+  int_ref vertex "src/graphml.ml" 81 2881 2892 "src/graphml.ml" 81 2881 2898
+)
+"src/graphml.ml" 83 2935 2944 "src/graphml.ml" 83 2935 2963
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"src/graphml.ml" 84 2967 2968 "src/graphml.ml" 84 2967 2982
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 84 2967 2983 "src/graphml.ml" 84 2967 2986
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 84 2967 2987 "src/graphml.ml" 84 2967 3009
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 84 2967 3010 "src/graphml.ml" 84 2967 3012
+type(
+  int
+)
+ident(
+  int_ref id "src/graphml.ml" 82 2902 2907 "src/graphml.ml" 82 2902 2909
+)
+"src/graphml.ml" 84 2967 2968 "src/graphml.ml" 84 2967 3012
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 85 3014 3015 "src/graphml.ml" 85 3014 3024
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/graphml.ml" 85 3014 3026 "src/graphml.ml" 85 3014 3040
+type(
+  Format.formatter ->
+  ((Format.formatter -> string * string -> unit) -> string * string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string * string -> unit) -> string * string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 85 3014 3041 "src/graphml.ml" 85 3014 3044
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 85 3014 3045 "src/graphml.ml" 85 3014 3053
+type(
+  ((Format.formatter -> string * string -> unit) -> string * string -> unit,
+   Format.formatter, unit)
+  format
+)
+"src/graphml.ml" 85 3014 3054 "src/graphml.ml" 85 3014 3061
+type(
+  Format.formatter -> string * string -> unit
+)
+ident(
+  int_ref data_pp "src/graphml.ml" 50 1912 1918 "src/graphml.ml" 50 1912 1925
+)
+"src/graphml.ml" 85 3014 3025 "src/graphml.ml" 85 3014 3062
+call(
+  stack
+)
+type(
+  string * string -> unit
+)
+"src/graphml.ml" 85 3014 3063 "src/graphml.ml" 85 3014 3064
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "src/graphml.ml" 83 2935 2940 "src/graphml.ml" 83 2935 2941
+)
+"src/graphml.ml" 85 3014 3015 "src/graphml.ml" 85 3014 3064
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 86 3066 3067 "src/graphml.ml" 86 3066 3081
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 86 3066 3082 "src/graphml.ml" 86 3066 3085
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 86 3066 3086 "src/graphml.ml" 86 3066 3098
+type(
+  (unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 86 3066 3067 "src/graphml.ml" 86 3066 3098
+call(
+  tail
+)
+type(
+  unit
+)
+"src/graphml.ml" 85 3014 3015 "src/graphml.ml" 86 3066 3098
+type(
+  unit
+)
+"src/graphml.ml" 84 2967 2968 "src/graphml.ml" 86 3066 3098
+type(
+  unit
+)
+"src/graphml.ml" 83 2935 2936 "src/graphml.ml" 86 3066 3098
+type(
+  unit
+)
+"src/graphml.ml" 82 2902 2903 "src/graphml.ml" 86 3066 3098
+type(
+  unit
+)
+"src/graphml.ml" 81 2881 2887 "src/graphml.ml" 86 3066 3099
+type(
+  G.vertex -> unit
+)
+"src/graphml.ml" 87 3100 3106 "src/graphml.ml" 87 3100 3111
+type(
+  G.t
+)
+ident(
+  int_ref graph "src/graphml.ml" 62 2338 2354 "src/graphml.ml" 62 2338 2359
+)
+"src/graphml.ml" 80 2863 2867 "src/graphml.ml" 87 3100 3111
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 90 3138 3142 "src/graphml.ml" 90 3138 3156
+type(
+  (G.E.t -> unit) -> G.t -> unit
+)
+ident(
+  ext_ref G.iter_edges_e
+)
+"src/graphml.ml" 91 3157 3168 "src/graphml.ml" 91 3157 3172
+type(
+  G.E.t
+)
+ident(
+  def edge "src/graphml.ml" 92 3176 3177 "src/graphml.ml" 99 3455 3487
+)
+"src/graphml.ml" 92 3176 3181 "src/graphml.ml" 92 3176 3183
+type(
+  int
+)
+"src/graphml.ml" 92 3176 3186 "src/graphml.ml" 92 3176 3198
+type(
+  G.vertex -> int
+)
+ident(
+  ext_ref L.vertex_uid
+)
+"src/graphml.ml" 92 3176 3200 "src/graphml.ml" 92 3176 3207
+type(
+  G.E.t -> G.vertex
+)
+ident(
+  ext_ref G.E.src
+)
+"src/graphml.ml" 92 3176 3208 "src/graphml.ml" 92 3176 3212
+type(
+  G.E.t
+)
+ident(
+  int_ref edge "src/graphml.ml" 91 3157 3168 "src/graphml.ml" 91 3157 3172
+)
+"src/graphml.ml" 92 3176 3199 "src/graphml.ml" 92 3176 3213
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"src/graphml.ml" 92 3176 3186 "src/graphml.ml" 92 3176 3213
+call(
+  stack
+)
+type(
+  int
+)
+"src/graphml.ml" 93 3217 3222 "src/graphml.ml" 93 3217 3224
+type(
+  int
+)
+"src/graphml.ml" 93 3217 3227 "src/graphml.ml" 93 3217 3239
+type(
+  G.vertex -> int
+)
+ident(
+  ext_ref L.vertex_uid
+)
+"src/graphml.ml" 93 3217 3241 "src/graphml.ml" 93 3217 3248
+type(
+  G.E.t -> G.vertex
+)
+ident(
+  ext_ref G.E.dst
+)
+"src/graphml.ml" 93 3217 3249 "src/graphml.ml" 93 3217 3253
+type(
+  G.E.t
+)
+ident(
+  int_ref edge "src/graphml.ml" 91 3157 3168 "src/graphml.ml" 91 3157 3172
+)
+"src/graphml.ml" 93 3217 3240 "src/graphml.ml" 93 3217 3254
+call(
+  stack
+)
+type(
+  G.vertex
+)
+"src/graphml.ml" 93 3217 3227 "src/graphml.ml" 93 3217 3254
+call(
+  stack
+)
+type(
+  int
+)
+"src/graphml.ml" 94 3258 3263 "src/graphml.ml" 94 3258 3266
+type(
+  int
+)
+"src/graphml.ml" 94 3258 3269 "src/graphml.ml" 94 3258 3279
+type(
+  G.E.t -> int
+)
+ident(
+  ext_ref L.edge_uid
+)
+"src/graphml.ml" 94 3258 3280 "src/graphml.ml" 94 3258 3284
+type(
+  G.E.t
+)
+ident(
+  int_ref edge "src/graphml.ml" 91 3157 3168 "src/graphml.ml" 91 3157 3172
+)
+"src/graphml.ml" 94 3258 3269 "src/graphml.ml" 94 3258 3284
+call(
+  stack
+)
+type(
+  int
+)
+"src/graphml.ml" 95 3288 3293 "src/graphml.ml" 95 3288 3294
+type(
+  (string * string) list
+)
+"src/graphml.ml" 95 3288 3297 "src/graphml.ml" 95 3288 3307
+type(
+  G.E.t -> (string * string) list
+)
+ident(
+  ext_ref L.map_edge
+)
+"src/graphml.ml" 95 3288 3308 "src/graphml.ml" 95 3288 3312
+type(
+  G.E.t
+)
+ident(
+  int_ref edge "src/graphml.ml" 91 3157 3168 "src/graphml.ml" 91 3157 3172
+)
+"src/graphml.ml" 95 3288 3297 "src/graphml.ml" 95 3288 3312
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"src/graphml.ml" 96 3316 3317 "src/graphml.ml" 96 3316 3331
+type(
+  Format.formatter ->
+  (int -> int -> int -> unit, Format.formatter, unit) format ->
+  int -> int -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 96 3316 3332 "src/graphml.ml" 96 3316 3335
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 97 3336 3339 "src/graphml.ml" 97 3336 3391
+type(
+  (int -> int -> int -> unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 97 3336 3392 "src/graphml.ml" 97 3336 3395
+type(
+  int
+)
+ident(
+  int_ref eid "src/graphml.ml" 94 3258 3263 "src/graphml.ml" 94 3258 3266
+)
+"src/graphml.ml" 97 3336 3396 "src/graphml.ml" 97 3336 3398
+type(
+  int
+)
+ident(
+  int_ref n1 "src/graphml.ml" 92 3176 3181 "src/graphml.ml" 92 3176 3183
+)
+"src/graphml.ml" 97 3336 3399 "src/graphml.ml" 97 3336 3401
+type(
+  int
+)
+ident(
+  int_ref n2 "src/graphml.ml" 93 3217 3222 "src/graphml.ml" 93 3217 3224
+)
+"src/graphml.ml" 96 3316 3317 "src/graphml.ml" 97 3336 3401
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 98 3403 3404 "src/graphml.ml" 98 3403 3413
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/graphml.ml" 98 3403 3415 "src/graphml.ml" 98 3403 3429
+type(
+  Format.formatter ->
+  ((Format.formatter -> string * string -> unit) -> string * string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string * string -> unit) -> string * string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 98 3403 3430 "src/graphml.ml" 98 3403 3433
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 98 3403 3434 "src/graphml.ml" 98 3403 3442
+type(
+  ((Format.formatter -> string * string -> unit) -> string * string -> unit,
+   Format.formatter, unit)
+  format
+)
+"src/graphml.ml" 98 3403 3443 "src/graphml.ml" 98 3403 3450
+type(
+  Format.formatter -> string * string -> unit
+)
+ident(
+  int_ref data_pp "src/graphml.ml" 50 1912 1918 "src/graphml.ml" 50 1912 1925
+)
+"src/graphml.ml" 98 3403 3414 "src/graphml.ml" 98 3403 3451
+call(
+  stack
+)
+type(
+  string * string -> unit
+)
+"src/graphml.ml" 98 3403 3452 "src/graphml.ml" 98 3403 3453
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "src/graphml.ml" 95 3288 3293 "src/graphml.ml" 95 3288 3294
+)
+"src/graphml.ml" 98 3403 3404 "src/graphml.ml" 98 3403 3453
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 99 3455 3456 "src/graphml.ml" 99 3455 3470
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 99 3455 3471 "src/graphml.ml" 99 3455 3474
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 99 3455 3475 "src/graphml.ml" 99 3455 3487
+type(
+  (unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 99 3455 3456 "src/graphml.ml" 99 3455 3487
+call(
+  tail
+)
+type(
+  unit
+)
+"src/graphml.ml" 98 3403 3404 "src/graphml.ml" 99 3455 3487
+type(
+  unit
+)
+"src/graphml.ml" 96 3316 3317 "src/graphml.ml" 99 3455 3487
+type(
+  unit
+)
+"src/graphml.ml" 95 3288 3289 "src/graphml.ml" 99 3455 3487
+type(
+  unit
+)
+"src/graphml.ml" 94 3258 3259 "src/graphml.ml" 99 3455 3487
+type(
+  unit
+)
+"src/graphml.ml" 93 3217 3218 "src/graphml.ml" 99 3455 3487
+type(
+  unit
+)
+"src/graphml.ml" 92 3176 3177 "src/graphml.ml" 99 3455 3487
+type(
+  unit
+)
+"src/graphml.ml" 91 3157 3163 "src/graphml.ml" 99 3455 3488
+type(
+  G.E.t -> unit
+)
+"src/graphml.ml" 100 3489 3495 "src/graphml.ml" 100 3489 3500
+type(
+  G.t
+)
+ident(
+  int_ref graph "src/graphml.ml" 62 2338 2354 "src/graphml.ml" 62 2338 2359
+)
+"src/graphml.ml" 90 3138 3142 "src/graphml.ml" 100 3489 3500
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 102 3504 3508 "src/graphml.ml" 102 3504 3522
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 102 3504 3523 "src/graphml.ml" 102 3504 3526
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 102 3504 3527 "src/graphml.ml" 102 3504 3539
+type(
+  (unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 102 3504 3508 "src/graphml.ml" 102 3504 3539
+call(
+  stack
+)
+type(
+  unit
+)
+"src/graphml.ml" 103 3541 3545 "src/graphml.ml" 103 3541 3559
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/graphml.ml" 103 3541 3560 "src/graphml.ml" 103 3541 3563
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/graphml.ml" 62 2338 2350 "src/graphml.ml" 62 2338 2353
+)
+"src/graphml.ml" 103 3541 3564 "src/graphml.ml" 103 3541 3578
+type(
+  (unit, Format.formatter, unit) format
+)
+"src/graphml.ml" 103 3541 3545 "src/graphml.ml" 103 3541 3578
+call(
+  tail
+)
+type(
+  unit
+)
+"src/graphml.ml" 102 3504 3508 "src/graphml.ml" 103 3541 3578
+type(
+  unit
+)
+"src/graphml.ml" 90 3138 3142 "src/graphml.ml" 103 3541 3578
+type(
+  unit
+)
+"src/graphml.ml" 80 2863 2867 "src/graphml.ml" 103 3541 3578
+type(
+  unit
+)
+"src/graphml.ml" 77 2780 2784 "src/graphml.ml" 103 3541 3578
+type(
+  unit
+)
+"src/graphml.ml" 76 2701 2705 "src/graphml.ml" 103 3541 3578
+type(
+  unit
+)
+"src/graphml.ml" 72 2590 2594 "src/graphml.ml" 103 3541 3578
+type(
+  unit
+)
+"src/graphml.ml" 67 2440 2444 "src/graphml.ml" 103 3541 3578
+type(
+  unit
+)
+"src/graphml.ml" 64 2363 2367 "src/graphml.ml" 103 3541 3578
+type(
+  unit
+)

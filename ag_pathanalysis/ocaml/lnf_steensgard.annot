@@ -1,0 +1,375 @@
+"lnf_steensgard.ml" 12 278 296 "lnf_steensgard.ml" 12 278 312
+call(
+  stack
+)
+"lnf_steensgard.ml" 16 337 347 "lnf_steensgard.ml" 16 337 351
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  def init "lnf_steensgard.ml" 17 365 371 "lnf_steensgard.ml" 25 696 703
+)
+"lnf_steensgard.ml" 16 337 352 "lnf_steensgard.ml" 16 337 355
+type(
+  'a
+)
+ident(
+  def cfg "lnf_steensgard.ml" 16 337 356 "lnf_steensgard.ml" 16 337 364
+)
+"lnf_steensgard.ml" 16 337 356 "lnf_steensgard.ml" 16 337 358
+type(
+  'b
+)
+ident(
+  def v0 "lnf_steensgard.ml" 16 337 361 "lnf_steensgard.ml" 16 337 364
+)
+"lnf_steensgard.ml" 16 337 361 "lnf_steensgard.ml" 16 337 364
+type(
+  'a
+)
+ident(
+  int_ref cfg "lnf_steensgard.ml" 16 337 352 "lnf_steensgard.ml" 16 337 355
+)
+"lnf_steensgard.ml" 17 365 375 "lnf_steensgard.ml" 17 365 387
+type(
+  Gr.G.t -> Gr.G.V.t list -> VS.elt list
+)
+ident(
+  def find_headers "lnf_steensgard.ml" 24 655 695 "lnf_steensgard.ml" 25 696 703
+)
+"lnf_steensgard.ml" 17 365 388 "lnf_steensgard.ml" 17 365 391
+type(
+  Gr.G.t
+)
+ident(
+  def cfg "lnf_steensgard.ml" 17 365 392 "lnf_steensgard.ml" 24 655 695
+)
+"lnf_steensgard.ml" 17 365 392 "lnf_steensgard.ml" 17 365 395
+type(
+  Gr.G.V.t list
+)
+ident(
+  def scc "lnf_steensgard.ml" 18 398 406 "lnf_steensgard.ml" 24 655 695
+)
+"lnf_steensgard.ml" 18 398 410 "lnf_steensgard.ml" 18 398 413
+type(
+  VS.t
+)
+"lnf_steensgard.ml" 18 398 416 "lnf_steensgard.ml" 18 398 433
+type(
+  (Gr.G.edge -> VS.t -> VS.t) -> Gr.G.t -> VS.t -> VS.t
+)
+ident(
+  ext_ref Gr.G.fold_edges_e
+)
+"lnf_steensgard.ml" 18 398 439 "lnf_steensgard.ml" 18 398 440
+type(
+  Gr.G.edge
+)
+ident(
+  def e "lnf_steensgard.ml" 18 398 441 "lnf_steensgard.ml" 22 612 628
+)
+"lnf_steensgard.ml" 18 398 441 "lnf_steensgard.ml" 18 398 442
+type(
+  VS.t
+)
+ident(
+  def s "lnf_steensgard.ml" 19 446 456 "lnf_steensgard.ml" 22 612 628
+)
+"lnf_steensgard.ml" 19 446 460 "lnf_steensgard.ml" 19 446 466
+type(
+  Gr.G.V.t -> bool
+)
+"lnf_steensgard.ml" 19 446 467 "lnf_steensgard.ml" 19 446 468
+type(
+  Gr.G.V.t
+)
+ident(
+  def v "lnf_steensgard.ml" 19 446 471 "lnf_steensgard.ml" 19 446 503
+)
+"lnf_steensgard.ml" 19 446 471 "lnf_steensgard.ml" 19 446 482
+type(
+  (Gr.G.V.t -> bool) -> Gr.G.V.t list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"lnf_steensgard.ml" 19 446 484 "lnf_steensgard.ml" 19 446 496
+type(
+  Gr.G.V.t -> Gr.G.V.t -> bool
+)
+ident(
+  ext_ref Gr.G.V.equal
+)
+"lnf_steensgard.ml" 19 446 497 "lnf_steensgard.ml" 19 446 498
+type(
+  Gr.G.V.t
+)
+ident(
+  int_ref v "lnf_steensgard.ml" 19 446 467 "lnf_steensgard.ml" 19 446 468
+)
+"lnf_steensgard.ml" 19 446 483 "lnf_steensgard.ml" 19 446 499
+call(
+  stack
+)
+type(
+  Gr.G.V.t -> bool
+)
+"lnf_steensgard.ml" 19 446 500 "lnf_steensgard.ml" 19 446 503
+type(
+  Gr.G.V.t list
+)
+ident(
+  int_ref scc "lnf_steensgard.ml" 17 365 392 "lnf_steensgard.ml" 17 365 395
+)
+"lnf_steensgard.ml" 19 446 471 "lnf_steensgard.ml" 19 446 503
+call(
+  tail
+)
+type(
+  bool
+)
+"lnf_steensgard.ml" 20 507 520 "lnf_steensgard.ml" 20 507 526
+type(
+  Gr.G.E.vertex -> bool
+)
+ident(
+  int_ref in_scc "lnf_steensgard.ml" 19 446 460 "lnf_steensgard.ml" 19 446 466
+)
+"lnf_steensgard.ml" 20 507 528 "lnf_steensgard.ml" 20 507 538
+type(
+  Gr.G.edge -> Gr.G.E.vertex
+)
+ident(
+  ext_ref Gr.G.E.dst
+)
+"lnf_steensgard.ml" 20 507 539 "lnf_steensgard.ml" 20 507 540
+type(
+  Gr.G.edge
+)
+ident(
+  int_ref e "lnf_steensgard.ml" 18 398 439 "lnf_steensgard.ml" 18 398 440
+)
+"lnf_steensgard.ml" 20 507 527 "lnf_steensgard.ml" 20 507 541
+call(
+  stack
+)
+type(
+  Gr.G.E.vertex
+)
+"lnf_steensgard.ml" 20 507 520 "lnf_steensgard.ml" 20 507 541
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_steensgard.ml" 20 507 542 "lnf_steensgard.ml" 20 507 544
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"lnf_steensgard.ml" 20 507 545 "lnf_steensgard.ml" 20 507 548
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"lnf_steensgard.ml" 20 507 550 "lnf_steensgard.ml" 20 507 556
+type(
+  Gr.G.E.vertex -> bool
+)
+ident(
+  int_ref in_scc "lnf_steensgard.ml" 19 446 460 "lnf_steensgard.ml" 19 446 466
+)
+"lnf_steensgard.ml" 20 507 558 "lnf_steensgard.ml" 20 507 568
+type(
+  Gr.G.edge -> Gr.G.E.vertex
+)
+ident(
+  ext_ref Gr.G.E.src
+)
+"lnf_steensgard.ml" 20 507 569 "lnf_steensgard.ml" 20 507 570
+type(
+  Gr.G.edge
+)
+ident(
+  int_ref e "lnf_steensgard.ml" 18 398 439 "lnf_steensgard.ml" 18 398 440
+)
+"lnf_steensgard.ml" 20 507 557 "lnf_steensgard.ml" 20 507 571
+call(
+  stack
+)
+type(
+  Gr.G.E.vertex
+)
+"lnf_steensgard.ml" 20 507 549 "lnf_steensgard.ml" 20 507 572
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_steensgard.ml" 20 507 545 "lnf_steensgard.ml" 20 507 572
+type(
+  bool
+)
+"lnf_steensgard.ml" 20 507 520 "lnf_steensgard.ml" 20 507 572
+type(
+  bool
+)
+"lnf_steensgard.ml" 21 573 588 "lnf_steensgard.ml" 21 573 594
+type(
+  VS.elt -> VS.t -> VS.t
+)
+ident(
+  ext_ref VS.add
+)
+"lnf_steensgard.ml" 21 573 596 "lnf_steensgard.ml" 21 573 606
+type(
+  Gr.G.edge -> Gr.G.E.vertex
+)
+ident(
+  ext_ref Gr.G.E.dst
+)
+"lnf_steensgard.ml" 21 573 607 "lnf_steensgard.ml" 21 573 608
+type(
+  Gr.G.edge
+)
+ident(
+  int_ref e "lnf_steensgard.ml" 18 398 439 "lnf_steensgard.ml" 18 398 440
+)
+"lnf_steensgard.ml" 21 573 595 "lnf_steensgard.ml" 21 573 609
+call(
+  stack
+)
+type(
+  Gr.G.E.vertex
+)
+"lnf_steensgard.ml" 21 573 610 "lnf_steensgard.ml" 21 573 611
+type(
+  VS.t
+)
+ident(
+  int_ref s "lnf_steensgard.ml" 18 398 441 "lnf_steensgard.ml" 18 398 442
+)
+"lnf_steensgard.ml" 21 573 588 "lnf_steensgard.ml" 21 573 611
+call(
+  tail
+)
+type(
+  VS.t
+)
+"lnf_steensgard.ml" 22 612 627 "lnf_steensgard.ml" 22 612 628
+type(
+  VS.t
+)
+ident(
+  int_ref s "lnf_steensgard.ml" 18 398 441 "lnf_steensgard.ml" 18 398 442
+)
+"lnf_steensgard.ml" 20 507 517 "lnf_steensgard.ml" 22 612 628
+type(
+  VS.t
+)
+"lnf_steensgard.ml" 19 446 456 "lnf_steensgard.ml" 22 612 628
+type(
+  VS.t
+)
+"lnf_steensgard.ml" 18 398 434 "lnf_steensgard.ml" 23 629 638
+type(
+  Gr.G.edge -> VS.t -> VS.t
+)
+"lnf_steensgard.ml" 23 629 639 "lnf_steensgard.ml" 23 629 642
+type(
+  Gr.G.t
+)
+ident(
+  int_ref cfg "lnf_steensgard.ml" 17 365 388 "lnf_steensgard.ml" 17 365 391
+)
+"lnf_steensgard.ml" 23 629 643 "lnf_steensgard.ml" 23 629 651
+type(
+  VS.t
+)
+ident(
+  ext_ref VS.empty
+)
+"lnf_steensgard.ml" 18 398 416 "lnf_steensgard.ml" 23 629 651
+call(
+  stack
+)
+type(
+  VS.t
+)
+"lnf_steensgard.ml" 24 655 663 "lnf_steensgard.ml" 24 655 670
+type(
+  (VS.elt -> VS.elt list -> VS.elt list) ->
+  VS.t -> VS.elt list -> VS.elt list
+)
+ident(
+  ext_ref VS.fold
+)
+"lnf_steensgard.ml" 24 655 676 "lnf_steensgard.ml" 24 655 677
+type(
+  VS.elt
+)
+ident(
+  def v "lnf_steensgard.ml" 24 655 678 "lnf_steensgard.ml" 24 655 687
+)
+"lnf_steensgard.ml" 24 655 678 "lnf_steensgard.ml" 24 655 679
+type(
+  VS.elt list
+)
+ident(
+  def l "lnf_steensgard.ml" 24 655 683 "lnf_steensgard.ml" 24 655 687
+)
+"lnf_steensgard.ml" 24 655 683 "lnf_steensgard.ml" 24 655 684
+type(
+  VS.elt
+)
+ident(
+  int_ref v "lnf_steensgard.ml" 24 655 676 "lnf_steensgard.ml" 24 655 677
+)
+"lnf_steensgard.ml" 24 655 686 "lnf_steensgard.ml" 24 655 687
+type(
+  VS.elt list
+)
+ident(
+  int_ref l "lnf_steensgard.ml" 24 655 678 "lnf_steensgard.ml" 24 655 679
+)
+"lnf_steensgard.ml" 24 655 683 "lnf_steensgard.ml" 24 655 687
+type(
+  VS.elt list
+)
+"lnf_steensgard.ml" 24 655 671 "lnf_steensgard.ml" 24 655 688
+type(
+  VS.elt -> VS.elt list -> VS.elt list
+)
+"lnf_steensgard.ml" 24 655 689 "lnf_steensgard.ml" 24 655 692
+type(
+  VS.t
+)
+ident(
+  int_ref set "lnf_steensgard.ml" 18 398 410 "lnf_steensgard.ml" 18 398 413
+)
+"lnf_steensgard.ml" 24 655 693 "lnf_steensgard.ml" 24 655 695
+type(
+  VS.elt list
+)
+"lnf_steensgard.ml" 24 655 663 "lnf_steensgard.ml" 24 655 695
+call(
+  tail
+)
+type(
+  VS.elt list
+)
+"lnf_steensgard.ml" 18 398 406 "lnf_steensgard.ml" 24 655 695
+type(
+  VS.elt list
+)
+"lnf_steensgard.ml" 27 705 730 "lnf_steensgard.ml" 27 705 772
+call(
+  tail
+)

@@ -1,0 +1,862 @@
+"ssa_simp.ml" 6 113 144 "ssa_simp.ml" 6 113 148
+type(
+  string
+)
+ident(
+  def name "ssa_simp.ml" 6 113 180 "ssa_simp.ml" 6 113 184
+)
+"ssa_simp.ml" 6 113 149 "ssa_simp.ml" 6 113 159
+type(
+  string
+)
+"ssa_simp.ml" 6 113 164 "ssa_simp.ml" 6 113 171
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "ssa_simp.ml" 6 113 180 "ssa_simp.ml" 6 113 184
+)
+"ssa_simp.ml" 6 113 172 "ssa_simp.ml" 6 113 180
+type(
+  [> `NoDebug ] as 'a
+)
+"ssa_simp.ml" 6 113 122 "ssa_simp.ml" 6 113 185
+call(
+  stack
+)
+"ssa_simp.ml" 10 207 211 "ssa_simp.ml" 10 207 219
+type(
+  ?liveout:Var.t list ->
+  ?usedc:bool ->
+  ?usesccvn:bool -> ?usemisc:bool -> Cfg.SSA.G.t -> Cfg.SSA.G.t
+)
+ident(
+  def simp_cfg "ssa_simp.ml" 28 969 969 --
+)
+"ssa_simp.ml" 10 207 222 "ssa_simp.ml" 10 207 229
+type(
+  Var.t list
+)
+"ssa_simp.ml" 10 207 230 "ssa_simp.ml" 10 207 232
+type(
+  Var.t list
+)
+type(
+  Var.t list
+)
+ident(
+  int_ref *sth* "ssa_simp.ml" 10 207 230 "ssa_simp.ml" 10 207 232
+)
+type(
+  Var.t list option
+)
+type(
+  Var.t list option
+)
+type(
+  Var.t list
+)
+ident(
+  def *sth* "ssa_simp.ml" 10 207 230 "ssa_simp.ml" 10 207 232
+)
+"ssa_simp.ml" 10 207 236 "ssa_simp.ml" 10 207 241
+type(
+  bool
+)
+"ssa_simp.ml" 10 207 242 "ssa_simp.ml" 10 207 246
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ssa_simp.ml" 10 207 242 "ssa_simp.ml" 10 207 246
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "ssa_simp.ml" 10 207 242 "ssa_simp.ml" 10 207 246
+)
+"ssa_simp.ml" 10 207 250 "ssa_simp.ml" 10 207 258
+type(
+  bool
+)
+"ssa_simp.ml" 10 207 259 "ssa_simp.ml" 10 207 263
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ssa_simp.ml" 10 207 259 "ssa_simp.ml" 10 207 263
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "ssa_simp.ml" 10 207 259 "ssa_simp.ml" 10 207 263
+)
+"ssa_simp.ml" 10 207 267 "ssa_simp.ml" 10 207 274
+type(
+  bool
+)
+"ssa_simp.ml" 10 207 275 "ssa_simp.ml" 10 207 279
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ssa_simp.ml" 10 207 275 "ssa_simp.ml" 10 207 279
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "ssa_simp.ml" 10 207 275 "ssa_simp.ml" 10 207 279
+)
+"ssa_simp.ml" 10 207 281 "ssa_simp.ml" 10 207 284
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  def cfg "ssa_simp.ml" 11 287 289 "ssa_simp.ml" 26 958 967
+)
+"ssa_simp.ml" 11 287 293 "ssa_simp.ml" 11 287 299
+type(
+  Cfg.SSA.G.t ref
+)
+"ssa_simp.ml" 11 287 302 "ssa_simp.ml" 11 287 305
+type(
+  Cfg.SSA.G.t -> Cfg.SSA.G.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ssa_simp.ml" 11 287 306 "ssa_simp.ml" 11 287 309
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref cfg "ssa_simp.ml" 10 207 281 "ssa_simp.ml" 10 207 284
+)
+"ssa_simp.ml" 11 287 302 "ssa_simp.ml" 11 287 309
+type(
+  Cfg.SSA.G.t ref
+)
+"ssa_simp.ml" 12 313 319 "ssa_simp.ml" 12 313 326
+type(
+  bool ref
+)
+"ssa_simp.ml" 12 313 329 "ssa_simp.ml" 12 313 332
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ssa_simp.ml" 12 313 333 "ssa_simp.ml" 12 313 337
+type(
+  bool
+)
+"ssa_simp.ml" 12 313 329 "ssa_simp.ml" 12 313 337
+type(
+  bool ref
+)
+"ssa_simp.ml" 13 341 347 "ssa_simp.ml" 13 341 351
+type(
+  int ref
+)
+"ssa_simp.ml" 13 341 354 "ssa_simp.ml" 13 341 357
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ssa_simp.ml" 13 341 358 "ssa_simp.ml" 13 341 359
+type(
+  int
+)
+"ssa_simp.ml" 13 341 354 "ssa_simp.ml" 13 341 359
+type(
+  int ref
+)
+"ssa_simp.ml" 14 363 371 "ssa_simp.ml" 14 363 372
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ssa_simp.ml" 14 363 372 "ssa_simp.ml" 14 363 379
+type(
+  bool ref
+)
+ident(
+  int_ref changed "ssa_simp.ml" 12 313 319 "ssa_simp.ml" 12 313 326
+)
+"ssa_simp.ml" 14 363 371 "ssa_simp.ml" 14 363 379
+type(
+  bool
+)
+"ssa_simp.ml" 15 383 387 "ssa_simp.ml" 15 383 394
+type(
+  (int -> unit, unit, string, unit) format4 -> int -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"ssa_simp.ml" 15 383 395 "ssa_simp.ml" 15 383 418
+type(
+  (int -> unit, unit, string, unit) format4
+)
+"ssa_simp.ml" 15 383 419 "ssa_simp.ml" 15 383 420
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ssa_simp.ml" 15 383 420 "ssa_simp.ml" 15 383 424
+type(
+  int ref
+)
+ident(
+  int_ref iter "ssa_simp.ml" 13 341 347 "ssa_simp.ml" 13 341 351
+)
+"ssa_simp.ml" 15 383 419 "ssa_simp.ml" 15 383 424
+type(
+  int
+)
+"ssa_simp.ml" 15 383 387 "ssa_simp.ml" 15 383 424
+call(
+  stack
+)
+type(
+  unit
+)
+"ssa_simp.ml" 16 426 430 "ssa_simp.ml" 16 426 434
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ssa_simp.ml" 16 426 435 "ssa_simp.ml" 16 426 439
+type(
+  int ref
+)
+ident(
+  int_ref iter "ssa_simp.ml" 13 341 347 "ssa_simp.ml" 13 341 351
+)
+"ssa_simp.ml" 16 426 430 "ssa_simp.ml" 16 426 439
+type(
+  unit
+)
+"ssa_simp.ml" 17 441 450 "ssa_simp.ml" 17 441 453
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  def cfg "ssa_simp.ml" 18 534 538 "ssa_simp.ml" 24 857 949
+)
+"ssa_simp.ml" 17 441 454 "ssa_simp.ml" 17 441 456
+type(
+  bool
+)
+ident(
+  def c1 "ssa_simp.ml" 18 534 538 "ssa_simp.ml" 24 857 949
+)
+"ssa_simp.ml" 17 441 449 "ssa_simp.ml" 17 441 457
+type(
+  Cfg.SSA.G.t * bool
+)
+"ssa_simp.ml" 17 441 463 "ssa_simp.ml" 17 441 471
+type(
+  bool
+)
+ident(
+  int_ref usesccvn "ssa_simp.ml" 10 207 250 "ssa_simp.ml" 10 207 258
+)
+"ssa_simp.ml" 17 441 477 "ssa_simp.ml" 17 441 491
+type(
+  ?opt:bool -> Cfg.SSA.G.t -> Cfg.SSA.G.t * bool
+)
+ident(
+  ext_ref Sccvn.replacer
+)
+"ssa_simp.ml" 17 441 497 "ssa_simp.ml" 17 441 501
+type(
+  bool
+)
+"ssa_simp.ml" 17 441 502 "ssa_simp.ml" 17 441 503
+type(
+  Cfg.SSA.G.t ref -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ssa_simp.ml" 17 441 503 "ssa_simp.ml" 17 441 509
+type(
+  Cfg.SSA.G.t ref
+)
+ident(
+  int_ref cfgref "ssa_simp.ml" 11 287 293 "ssa_simp.ml" 11 287 299
+)
+"ssa_simp.ml" 17 441 502 "ssa_simp.ml" 17 441 509
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 17 441 477 "ssa_simp.ml" 17 441 509
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.t * bool
+)
+"ssa_simp.ml" 17 441 516 "ssa_simp.ml" 17 441 517
+type(
+  Cfg.SSA.G.t ref -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ssa_simp.ml" 17 441 517 "ssa_simp.ml" 17 441 523
+type(
+  Cfg.SSA.G.t ref
+)
+ident(
+  int_ref cfgref "ssa_simp.ml" 11 287 293 "ssa_simp.ml" 11 287 299
+)
+"ssa_simp.ml" 17 441 516 "ssa_simp.ml" 17 441 523
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 17 441 524 "ssa_simp.ml" 17 441 529
+type(
+  bool
+)
+"ssa_simp.ml" 17 441 515 "ssa_simp.ml" 17 441 530
+type(
+  Cfg.SSA.G.t * bool
+)
+"ssa_simp.ml" 17 441 460 "ssa_simp.ml" 17 441 530
+type(
+  Cfg.SSA.G.t * bool
+)
+"ssa_simp.ml" 18 534 543 "ssa_simp.ml" 18 534 546
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  def cfg "ssa_simp.ml" 21 739 743 "ssa_simp.ml" 24 857 949
+)
+"ssa_simp.ml" 18 534 547 "ssa_simp.ml" 18 534 549
+type(
+  bool
+)
+ident(
+  def c2 "ssa_simp.ml" 21 739 743 "ssa_simp.ml" 24 857 949
+)
+"ssa_simp.ml" 18 534 542 "ssa_simp.ml" 18 534 550
+type(
+  Cfg.SSA.G.t * bool
+)
+"ssa_simp.ml" 18 534 556 "ssa_simp.ml" 18 534 561
+type(
+  bool
+)
+ident(
+  int_ref usedc "ssa_simp.ml" 10 207 236 "ssa_simp.ml" 10 207 241
+)
+"ssa_simp.ml" 18 534 567 "ssa_simp.ml" 18 534 582
+type(
+  ?globals:Var.t list -> Cfg.SSA.G.t -> Cfg.SSA.G.t * bool
+)
+ident(
+  ext_ref Deadcode.do_dce
+)
+"ssa_simp.ml" 18 534 592 "ssa_simp.ml" 18 534 599
+type(
+  Var.t list
+)
+ident(
+  int_ref liveout "ssa_simp.ml" 10 207 222 "ssa_simp.ml" 10 207 229
+)
+"ssa_simp.ml" 18 534 600 "ssa_simp.ml" 18 534 603
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref cfg "ssa_simp.ml" 17 441 450 "ssa_simp.ml" 17 441 453
+)
+"ssa_simp.ml" 18 534 567 "ssa_simp.ml" 18 534 603
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.t * bool
+)
+"ssa_simp.ml" 18 534 610 "ssa_simp.ml" 18 534 613
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref cfg "ssa_simp.ml" 17 441 450 "ssa_simp.ml" 17 441 453
+)
+"ssa_simp.ml" 18 534 614 "ssa_simp.ml" 18 534 619
+type(
+  bool
+)
+"ssa_simp.ml" 18 534 609 "ssa_simp.ml" 18 534 620
+type(
+  Cfg.SSA.G.t * bool
+)
+"ssa_simp.ml" 18 534 553 "ssa_simp.ml" 18 534 620
+type(
+  Cfg.SSA.G.t * bool
+)
+"ssa_simp.ml" 21 739 743 "ssa_simp.ml" 21 739 749
+type(
+  Cfg.SSA.G.t ref
+)
+ident(
+  int_ref cfgref "ssa_simp.ml" 11 287 293 "ssa_simp.ml" 11 287 299
+)
+"ssa_simp.ml" 21 739 750 "ssa_simp.ml" 21 739 752
+type(
+  Cfg.SSA.G.t ref -> Cfg.SSA.G.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ssa_simp.ml" 21 739 753 "ssa_simp.ml" 21 739 756
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref cfg "ssa_simp.ml" 18 534 543 "ssa_simp.ml" 18 534 546
+)
+"ssa_simp.ml" 21 739 743 "ssa_simp.ml" 21 739 756
+type(
+  unit
+)
+"ssa_simp.ml" 22 758 762 "ssa_simp.ml" 22 758 769
+type(
+  bool ref
+)
+ident(
+  int_ref changed "ssa_simp.ml" 12 313 319 "ssa_simp.ml" 12 313 326
+)
+"ssa_simp.ml" 22 758 770 "ssa_simp.ml" 22 758 772
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ssa_simp.ml" 22 758 773 "ssa_simp.ml" 22 758 775
+type(
+  bool
+)
+ident(
+  int_ref c1 "ssa_simp.ml" 17 441 454 "ssa_simp.ml" 17 441 456
+)
+"ssa_simp.ml" 22 758 776 "ssa_simp.ml" 22 758 778
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ssa_simp.ml" 22 758 779 "ssa_simp.ml" 22 758 781
+type(
+  bool
+)
+ident(
+  int_ref c2 "ssa_simp.ml" 18 534 547 "ssa_simp.ml" 18 534 549
+)
+"ssa_simp.ml" 22 758 773 "ssa_simp.ml" 22 758 781
+type(
+  bool
+)
+"ssa_simp.ml" 22 758 762 "ssa_simp.ml" 22 758 781
+type(
+  unit
+)
+"ssa_simp.ml" 24 857 861 "ssa_simp.ml" 24 857 867
+type(
+  Cfg.SSA.G.t ref
+)
+ident(
+  int_ref cfgref "ssa_simp.ml" 11 287 293 "ssa_simp.ml" 11 287 299
+)
+"ssa_simp.ml" 24 857 868 "ssa_simp.ml" 24 857 870
+type(
+  Cfg.SSA.G.t ref -> Cfg.SSA.G.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ssa_simp.ml" 24 857 874 "ssa_simp.ml" 24 857 875
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ssa_simp.ml" 24 857 875 "ssa_simp.ml" 24 857 882
+type(
+  bool ref
+)
+ident(
+  int_ref changed "ssa_simp.ml" 12 313 319 "ssa_simp.ml" 12 313 326
+)
+"ssa_simp.ml" 24 857 874 "ssa_simp.ml" 24 857 882
+type(
+  bool
+)
+"ssa_simp.ml" 24 857 888 "ssa_simp.ml" 24 857 927
+type(
+  Cfg.SSA.G.t -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Prune_unreachable.prune_unreachable_ssa
+)
+"ssa_simp.ml" 24 857 928 "ssa_simp.ml" 24 857 929
+type(
+  Cfg.SSA.G.t ref -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ssa_simp.ml" 24 857 929 "ssa_simp.ml" 24 857 935
+type(
+  Cfg.SSA.G.t ref
+)
+ident(
+  int_ref cfgref "ssa_simp.ml" 11 287 293 "ssa_simp.ml" 11 287 299
+)
+"ssa_simp.ml" 24 857 928 "ssa_simp.ml" 24 857 935
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 24 857 888 "ssa_simp.ml" 24 857 935
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 24 857 941 "ssa_simp.ml" 24 857 942
+type(
+  Cfg.SSA.G.t ref -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ssa_simp.ml" 24 857 942 "ssa_simp.ml" 24 857 948
+type(
+  Cfg.SSA.G.t ref
+)
+ident(
+  int_ref cfgref "ssa_simp.ml" 11 287 293 "ssa_simp.ml" 11 287 299
+)
+"ssa_simp.ml" 24 857 941 "ssa_simp.ml" 24 857 948
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 24 857 871 "ssa_simp.ml" 24 857 948
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 24 857 861 "ssa_simp.ml" 24 857 949
+type(
+  unit
+)
+"ssa_simp.ml" 22 758 762 "ssa_simp.ml" 24 857 949
+type(
+  unit
+)
+"ssa_simp.ml" 21 739 743 "ssa_simp.ml" 24 857 949
+type(
+  unit
+)
+"ssa_simp.ml" 18 534 538 "ssa_simp.ml" 24 857 949
+type(
+  unit
+)
+"ssa_simp.ml" 17 441 445 "ssa_simp.ml" 24 857 949
+type(
+  unit
+)
+"ssa_simp.ml" 16 426 430 "ssa_simp.ml" 24 857 949
+type(
+  unit
+)
+"ssa_simp.ml" 15 383 387 "ssa_simp.ml" 24 857 949
+type(
+  unit
+)
+"ssa_simp.ml" 14 363 365 "ssa_simp.ml" 25 950 956
+type(
+  unit
+)
+"ssa_simp.ml" 26 958 960 "ssa_simp.ml" 26 958 961
+type(
+  Cfg.SSA.G.t ref -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ssa_simp.ml" 26 958 961 "ssa_simp.ml" 26 958 967
+type(
+  Cfg.SSA.G.t ref
+)
+ident(
+  int_ref cfgref "ssa_simp.ml" 11 287 293 "ssa_simp.ml" 11 287 299
+)
+"ssa_simp.ml" 26 958 960 "ssa_simp.ml" 26 958 967
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 14 363 365 "ssa_simp.ml" 26 958 967
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 13 341 343 "ssa_simp.ml" 26 958 967
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 12 313 315 "ssa_simp.ml" 26 958 967
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 11 287 289 "ssa_simp.ml" 26 958 967
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 28 969 973 "ssa_simp.ml" 28 969 984
+type(
+  ?liveout:Var.t list ->
+  ?usedc:bool ->
+  ?usesccvn:bool -> ?usemisc:bool -> Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  def simp_astcfg "ssa_simp.ml" 31 1178 1204 --
+)
+"ssa_simp.ml" 28 969 987 "ssa_simp.ml" 28 969 994
+type(
+  Var.t list
+)
+"ssa_simp.ml" 28 969 995 "ssa_simp.ml" 28 969 997
+type(
+  Var.t list
+)
+type(
+  Var.t list
+)
+ident(
+  int_ref *sth* "ssa_simp.ml" 28 969 995 "ssa_simp.ml" 28 969 997
+)
+type(
+  Var.t list option
+)
+type(
+  Var.t list option
+)
+type(
+  Var.t list
+)
+ident(
+  def *sth* "ssa_simp.ml" 28 969 995 "ssa_simp.ml" 28 969 997
+)
+"ssa_simp.ml" 28 969 1000 "ssa_simp.ml" 28 969 1005
+type(
+  bool option
+)
+ident(
+  def usedc "ssa_simp.ml" 28 969 1006 "ssa_simp.ml" 31 1178 1204
+)
+"ssa_simp.ml" 28 969 1007 "ssa_simp.ml" 28 969 1015
+type(
+  bool option
+)
+ident(
+  def usesccvn "ssa_simp.ml" 28 969 1016 "ssa_simp.ml" 31 1178 1204
+)
+"ssa_simp.ml" 28 969 1017 "ssa_simp.ml" 28 969 1024
+type(
+  bool option
+)
+ident(
+  def usemisc "ssa_simp.ml" 28 969 1025 "ssa_simp.ml" 31 1178 1204
+)
+"ssa_simp.ml" 28 969 1025 "ssa_simp.ml" 28 969 1026
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def g "ssa_simp.ml" 29 1029 1031 "ssa_simp.ml" 31 1178 1204
+)
+"ssa_simp.ml" 29 1029 1036 "ssa_simp.ml" 29 1029 1042
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 29 1029 1036 "ssa_simp.ml" 29 1029 1053
+type(
+  Var.t -> Var.t
+)
+"ssa_simp.ml" 29 1029 1035 "ssa_simp.ml" 29 1029 1054
+type(
+  Cfg_ssa.cfg_translation_results
+)
+"ssa_simp.ml" 29 1029 1057 "ssa_simp.ml" 29 1029 1074
+type(
+  ?tac:bool -> Cfg.AST.G.t -> Cfg_ssa.cfg_translation_results
+)
+ident(
+  ext_ref Cfg_ssa.trans_cfg
+)
+"ssa_simp.ml" 29 1029 1075 "ssa_simp.ml" 29 1029 1076
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ssa_simp.ml" 28 969 1025 "ssa_simp.ml" 28 969 1026
+)
+"ssa_simp.ml" 29 1029 1057 "ssa_simp.ml" 29 1029 1076
+call(
+  stack
+)
+type(
+  Cfg_ssa.cfg_translation_results
+)
+"ssa_simp.ml" 30 1080 1086 "ssa_simp.ml" 30 1080 1092
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 30 1080 1095 "ssa_simp.ml" 30 1080 1103
+type(
+  ?liveout:Var.t list ->
+  ?usedc:bool ->
+  ?usesccvn:bool -> ?usemisc:bool -> Cfg.SSA.G.t -> Cfg.SSA.G.t
+)
+ident(
+  int_ref simp_cfg "ssa_simp.ml" 10 207 211 "ssa_simp.ml" 10 207 219
+)
+"ssa_simp.ml" 30 1080 1105 "ssa_simp.ml" 30 1080 1110
+type(
+  bool option
+)
+ident(
+  int_ref usedc "ssa_simp.ml" 28 969 1000 "ssa_simp.ml" 28 969 1005
+)
+"ssa_simp.ml" 30 1080 1112 "ssa_simp.ml" 30 1080 1120
+type(
+  bool option
+)
+ident(
+  int_ref usesccvn "ssa_simp.ml" 28 969 1007 "ssa_simp.ml" 28 969 1015
+)
+"ssa_simp.ml" 30 1080 1122 "ssa_simp.ml" 30 1080 1129
+type(
+  bool option
+)
+ident(
+  int_ref usemisc "ssa_simp.ml" 28 969 1017 "ssa_simp.ml" 28 969 1024
+)
+"ssa_simp.ml" 30 1080 1140 "ssa_simp.ml" 30 1080 1148
+type(
+  (Var.t -> Var.t) -> Var.t list -> Var.t list
+)
+ident(
+  ext_ref List.map
+)
+"ssa_simp.ml" 30 1080 1149 "ssa_simp.ml" 30 1080 1158
+type(
+  Var.t -> Var.t
+)
+ident(
+  int_ref to_ssavar "ssa_simp.ml" 29 1029 1036 "ssa_simp.ml" 29 1029 1053
+)
+"ssa_simp.ml" 30 1080 1159 "ssa_simp.ml" 30 1080 1166
+type(
+  Var.t list
+)
+ident(
+  int_ref liveout "ssa_simp.ml" 28 969 987 "ssa_simp.ml" 28 969 994
+)
+"ssa_simp.ml" 30 1080 1139 "ssa_simp.ml" 30 1080 1167
+call(
+  stack
+)
+type(
+  Var.t list
+)
+"ssa_simp.ml" 30 1080 1168 "ssa_simp.ml" 30 1080 1174
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref ssacfg "ssa_simp.ml" 29 1029 1036 "ssa_simp.ml" 29 1029 1042
+)
+"ssa_simp.ml" 30 1080 1095 "ssa_simp.ml" 30 1080 1174
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.t
+)
+"ssa_simp.ml" 31 1178 1180 "ssa_simp.ml" 31 1178 1197
+type(
+  ?remove_temps:bool -> ?dsa:bool -> Cfg.SSA.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg_ssa.to_astcfg
+)
+"ssa_simp.ml" 31 1178 1198 "ssa_simp.ml" 31 1178 1204
+type(
+  Cfg.SSA.G.t
+)
+ident(
+  int_ref ssacfg "ssa_simp.ml" 30 1080 1086 "ssa_simp.ml" 30 1080 1092
+)
+"ssa_simp.ml" 31 1178 1180 "ssa_simp.ml" 31 1178 1204
+call(
+  tail
+)
+type(
+  Cfg.AST.G.t
+)
+"ssa_simp.ml" 30 1080 1082 "ssa_simp.ml" 31 1178 1204
+type(
+  Cfg.AST.G.t
+)
+"ssa_simp.ml" 29 1029 1031 "ssa_simp.ml" 31 1178 1204
+type(
+  Cfg.AST.G.t
+)

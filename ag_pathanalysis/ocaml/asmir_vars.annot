@@ -1,0 +1,2644 @@
+"asmir_vars.ml" 5 35 39 "asmir_vars.ml" 5 35 47
+type(
+  Var.t list
+)
+ident(
+  def x86_regs "asmir_vars.ml" 6 71 71 --
+)
+"asmir_vars.ml" 5 35 50 "asmir_vars.ml" 5 35 70
+type(
+  Var.t list
+)
+ident(
+  ext_ref Disasm_i386.regs_x86
+)
+"asmir_vars.ml" 6 71 75 "asmir_vars.ml" 6 71 83
+type(
+  Var.t list
+)
+ident(
+  def x64_regs "asmir_vars.ml" 7 110 110 --
+)
+"asmir_vars.ml" 6 71 86 "asmir_vars.ml" 6 71 109
+type(
+  Var.t list
+)
+ident(
+  ext_ref Disasm_i386.regs_x86_64
+)
+"asmir_vars.ml" 7 110 114 "asmir_vars.ml" 7 110 123
+type(
+  Var.t list
+)
+ident(
+  def full_regs "asmir_vars.ml" 9 149 149 --
+)
+"asmir_vars.ml" 7 110 126 "asmir_vars.ml" 7 110 147
+type(
+  Var.t list
+)
+ident(
+  ext_ref Disasm_i386.regs_full
+)
+"asmir_vars.ml" 9 149 153 "asmir_vars.ml" 9 149 160
+type(
+  Var.t
+)
+ident(
+  def x86_mem "asmir_vars.ml" 10 183 183 --
+)
+"asmir_vars.ml" 9 149 163 "asmir_vars.ml" 9 149 182
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.mem
+)
+"asmir_vars.ml" 10 183 187 "asmir_vars.ml" 10 183 194
+type(
+  Var.t
+)
+ident(
+  def x64_mem "asmir_vars.ml" 12 218 218 --
+)
+"asmir_vars.ml" 10 183 197 "asmir_vars.ml" 10 183 216
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R64.mem
+)
+"asmir_vars.ml" 17 305 309 "asmir_vars.ml" 17 305 320
+type(
+  Type.typ -> Var.t
+)
+ident(
+  def mem_of_type "asmir_vars.ml" 22 487 487 --
+)
+"asmir_vars.ml" 18 332 345 "asmir_vars.ml" 18 332 347
+type(
+  int
+)
+"asmir_vars.ml" 18 332 336 "asmir_vars.ml" 18 332 347
+type(
+  Type.typ
+)
+"asmir_vars.ml" 18 332 351 "asmir_vars.ml" 18 332 358
+type(
+  Var.t
+)
+ident(
+  int_ref x86_mem "asmir_vars.ml" 9 149 153 "asmir_vars.ml" 9 149 160
+)
+"asmir_vars.ml" 19 359 372 "asmir_vars.ml" 19 359 374
+type(
+  int
+)
+"asmir_vars.ml" 19 359 363 "asmir_vars.ml" 19 359 374
+type(
+  Type.typ
+)
+"asmir_vars.ml" 19 359 378 "asmir_vars.ml" 19 359 385
+type(
+  Var.t
+)
+ident(
+  int_ref x64_mem "asmir_vars.ml" 10 183 187 "asmir_vars.ml" 10 183 194
+)
+"asmir_vars.ml" 20 386 390 "asmir_vars.ml" 20 386 391
+type(
+  Type.typ
+)
+ident(
+  def t "asmir_vars.ml" 20 386 395 "asmir_vars.ml" 20 386 485
+)
+"asmir_vars.ml" 20 386 395 "asmir_vars.ml" 20 386 403
+type(
+  string -> Var.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"asmir_vars.ml" 20 386 405 "asmir_vars.ml" 20 386 419
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 20 386 420 "asmir_vars.ml" 20 386 463
+type(
+  (string -> string, unit, string) format
+)
+"asmir_vars.ml" 20 386 465 "asmir_vars.ml" 20 386 481
+type(
+  Type.typ -> string
+)
+ident(
+  ext_ref Pp.typ_to_string
+)
+"asmir_vars.ml" 20 386 482 "asmir_vars.ml" 20 386 483
+type(
+  Type.typ
+)
+ident(
+  int_ref t "asmir_vars.ml" 20 386 390 "asmir_vars.ml" 20 386 391
+)
+"asmir_vars.ml" 20 386 464 "asmir_vars.ml" 20 386 484
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 20 386 404 "asmir_vars.ml" 20 386 485
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 20 386 395 "asmir_vars.ml" 20 386 485
+call(
+  tail
+)
+type(
+  Var.t
+)
+"asmir_vars.ml" 17 305 323 "asmir_vars.ml" 20 386 485
+type(
+  Type.typ -> Var.t
+)
+"asmir_vars.ml" 22 487 491 "asmir_vars.ml" 22 487 499
+type(
+  Var.t list
+)
+ident(
+  def arm_regs "asmir_vars.ml" 47 830 830 --
+)
+"asmir_vars.ml" 23 502 504 "asmir_vars.ml" 23 502 512
+type(
+  (string -> Var.t) -> string list -> Var.t list
+)
+ident(
+  ext_ref List.map
+)
+"asmir_vars.ml" 23 502 518 "asmir_vars.ml" 23 502 519
+type(
+  string
+)
+ident(
+  def n "asmir_vars.ml" 23 502 523 "asmir_vars.ml" 23 502 544
+)
+"asmir_vars.ml" 23 502 523 "asmir_vars.ml" 23 502 533
+type(
+  string -> Type.typ -> Var.t
+)
+ident(
+  ext_ref Var.newvar
+)
+"asmir_vars.ml" 23 502 534 "asmir_vars.ml" 23 502 535
+type(
+  string
+)
+ident(
+  int_ref n "asmir_vars.ml" 23 502 518 "asmir_vars.ml" 23 502 519
+)
+"asmir_vars.ml" 23 502 541 "asmir_vars.ml" 23 502 543
+type(
+  int
+)
+"asmir_vars.ml" 23 502 536 "asmir_vars.ml" 23 502 544
+type(
+  Type.typ
+)
+"asmir_vars.ml" 23 502 523 "asmir_vars.ml" 23 502 544
+call(
+  tail
+)
+type(
+  Var.t
+)
+"asmir_vars.ml" 23 502 513 "asmir_vars.ml" 23 502 545
+type(
+  string -> Var.t
+)
+"asmir_vars.ml" 24 546 552 "asmir_vars.ml" 24 546 556
+type(
+  string
+)
+"asmir_vars.ml" 25 558 564 "asmir_vars.ml" 25 558 568
+type(
+  string
+)
+"asmir_vars.ml" 26 570 576 "asmir_vars.ml" 26 570 580
+type(
+  string
+)
+"asmir_vars.ml" 27 582 588 "asmir_vars.ml" 27 582 592
+type(
+  string
+)
+"asmir_vars.ml" 28 594 600 "asmir_vars.ml" 28 594 604
+type(
+  string
+)
+"asmir_vars.ml" 29 606 612 "asmir_vars.ml" 29 606 616
+type(
+  string
+)
+"asmir_vars.ml" 30 618 624 "asmir_vars.ml" 30 618 628
+type(
+  string
+)
+"asmir_vars.ml" 31 630 636 "asmir_vars.ml" 31 630 640
+type(
+  string
+)
+"asmir_vars.ml" 32 642 648 "asmir_vars.ml" 32 642 652
+type(
+  string
+)
+"asmir_vars.ml" 33 654 660 "asmir_vars.ml" 33 654 664
+type(
+  string
+)
+"asmir_vars.ml" 34 666 672 "asmir_vars.ml" 34 666 677
+type(
+  string
+)
+"asmir_vars.ml" 35 679 685 "asmir_vars.ml" 35 679 690
+type(
+  string
+)
+"asmir_vars.ml" 36 692 698 "asmir_vars.ml" 36 692 703
+type(
+  string
+)
+"asmir_vars.ml" 37 705 711 "asmir_vars.ml" 37 705 716
+type(
+  string
+)
+"asmir_vars.ml" 38 718 724 "asmir_vars.ml" 38 718 729
+type(
+  string
+)
+"asmir_vars.ml" 39 731 737 "asmir_vars.ml" 39 731 743
+type(
+  string
+)
+"asmir_vars.ml" 40 745 751 "asmir_vars.ml" 40 745 755
+type(
+  string
+)
+"asmir_vars.ml" 41 757 763 "asmir_vars.ml" 41 757 770
+type(
+  string
+)
+"asmir_vars.ml" 42 772 778 "asmir_vars.ml" 42 772 787
+type(
+  string
+)
+"asmir_vars.ml" 43 789 795 "asmir_vars.ml" 43 789 804
+type(
+  string
+)
+"asmir_vars.ml" 44 806 812 "asmir_vars.ml" 44 806 821
+type(
+  string
+)
+"asmir_vars.ml" 24 546 550 "asmir_vars.ml" 45 823 828
+type(
+  string list
+)
+"asmir_vars.ml" 23 502 504 "asmir_vars.ml" 45 823 828
+call(
+  stack
+)
+type(
+  Var.t list
+)
+"asmir_vars.ml" 47 830 834 "asmir_vars.ml" 47 830 841
+type(
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  def subregs "asmir_vars.ml" 119 3599 3599 --
+)
+"asmir_vars.ml" 50 875 880 "asmir_vars.ml" 50 875 889
+type(
+  string
+)
+"asmir_vars.ml" 50 875 892 "asmir_vars.ml" 50 875 902
+type(
+  string
+)
+"asmir_vars.ml" 50 875 904 "asmir_vars.ml" 50 875 905
+type(
+  int
+)
+"asmir_vars.ml" 50 875 911 "asmir_vars.ml" 50 875 913
+type(
+  int
+)
+"asmir_vars.ml" 50 875 907 "asmir_vars.ml" 50 875 913
+type(
+  Type.typ
+)
+"asmir_vars.ml" 50 875 891 "asmir_vars.ml" 50 875 914
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 50 875 879 "asmir_vars.ml" 50 875 915
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 51 917 922 "asmir_vars.ml" 51 917 931
+type(
+  string
+)
+"asmir_vars.ml" 51 917 934 "asmir_vars.ml" 51 917 944
+type(
+  string
+)
+"asmir_vars.ml" 51 917 946 "asmir_vars.ml" 51 917 947
+type(
+  int
+)
+"asmir_vars.ml" 51 917 953 "asmir_vars.ml" 51 917 955
+type(
+  int
+)
+"asmir_vars.ml" 51 917 949 "asmir_vars.ml" 51 917 955
+type(
+  Type.typ
+)
+"asmir_vars.ml" 51 917 933 "asmir_vars.ml" 51 917 956
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 51 917 921 "asmir_vars.ml" 51 917 957
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 52 959 964 "asmir_vars.ml" 52 959 973
+type(
+  string
+)
+"asmir_vars.ml" 52 959 976 "asmir_vars.ml" 52 959 986
+type(
+  string
+)
+"asmir_vars.ml" 52 959 988 "asmir_vars.ml" 52 959 989
+type(
+  int
+)
+"asmir_vars.ml" 52 959 995 "asmir_vars.ml" 52 959 997
+type(
+  int
+)
+"asmir_vars.ml" 52 959 991 "asmir_vars.ml" 52 959 997
+type(
+  Type.typ
+)
+"asmir_vars.ml" 52 959 975 "asmir_vars.ml" 52 959 998
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 52 959 963 "asmir_vars.ml" 52 959 999
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 53 1001 1006 "asmir_vars.ml" 53 1001 1015
+type(
+  string
+)
+"asmir_vars.ml" 53 1001 1018 "asmir_vars.ml" 53 1001 1028
+type(
+  string
+)
+"asmir_vars.ml" 53 1001 1030 "asmir_vars.ml" 53 1001 1031
+type(
+  int
+)
+"asmir_vars.ml" 53 1001 1037 "asmir_vars.ml" 53 1001 1039
+type(
+  int
+)
+"asmir_vars.ml" 53 1001 1033 "asmir_vars.ml" 53 1001 1039
+type(
+  Type.typ
+)
+"asmir_vars.ml" 53 1001 1017 "asmir_vars.ml" 53 1001 1040
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 53 1001 1005 "asmir_vars.ml" 53 1001 1041
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 55 1044 1049 "asmir_vars.ml" 55 1044 1058
+type(
+  string
+)
+"asmir_vars.ml" 55 1044 1061 "asmir_vars.ml" 55 1044 1071
+type(
+  string
+)
+"asmir_vars.ml" 55 1044 1073 "asmir_vars.ml" 55 1044 1074
+type(
+  int
+)
+"asmir_vars.ml" 55 1044 1080 "asmir_vars.ml" 55 1044 1082
+type(
+  int
+)
+"asmir_vars.ml" 55 1044 1076 "asmir_vars.ml" 55 1044 1082
+type(
+  Type.typ
+)
+"asmir_vars.ml" 55 1044 1060 "asmir_vars.ml" 55 1044 1083
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 55 1044 1048 "asmir_vars.ml" 55 1044 1084
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 56 1086 1091 "asmir_vars.ml" 56 1086 1100
+type(
+  string
+)
+"asmir_vars.ml" 56 1086 1103 "asmir_vars.ml" 56 1086 1113
+type(
+  string
+)
+"asmir_vars.ml" 56 1086 1115 "asmir_vars.ml" 56 1086 1116
+type(
+  int
+)
+"asmir_vars.ml" 56 1086 1122 "asmir_vars.ml" 56 1086 1124
+type(
+  int
+)
+"asmir_vars.ml" 56 1086 1118 "asmir_vars.ml" 56 1086 1124
+type(
+  Type.typ
+)
+"asmir_vars.ml" 56 1086 1102 "asmir_vars.ml" 56 1086 1125
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 56 1086 1090 "asmir_vars.ml" 56 1086 1126
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 57 1128 1133 "asmir_vars.ml" 57 1128 1142
+type(
+  string
+)
+"asmir_vars.ml" 57 1128 1145 "asmir_vars.ml" 57 1128 1155
+type(
+  string
+)
+"asmir_vars.ml" 57 1128 1157 "asmir_vars.ml" 57 1128 1158
+type(
+  int
+)
+"asmir_vars.ml" 57 1128 1164 "asmir_vars.ml" 57 1128 1166
+type(
+  int
+)
+"asmir_vars.ml" 57 1128 1160 "asmir_vars.ml" 57 1128 1166
+type(
+  Type.typ
+)
+"asmir_vars.ml" 57 1128 1144 "asmir_vars.ml" 57 1128 1167
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 57 1128 1132 "asmir_vars.ml" 57 1128 1168
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 58 1170 1175 "asmir_vars.ml" 58 1170 1184
+type(
+  string
+)
+"asmir_vars.ml" 58 1170 1187 "asmir_vars.ml" 58 1170 1197
+type(
+  string
+)
+"asmir_vars.ml" 58 1170 1199 "asmir_vars.ml" 58 1170 1200
+type(
+  int
+)
+"asmir_vars.ml" 58 1170 1206 "asmir_vars.ml" 58 1170 1208
+type(
+  int
+)
+"asmir_vars.ml" 58 1170 1202 "asmir_vars.ml" 58 1170 1208
+type(
+  Type.typ
+)
+"asmir_vars.ml" 58 1170 1186 "asmir_vars.ml" 58 1170 1209
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 58 1170 1174 "asmir_vars.ml" 58 1170 1210
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 60 1213 1218 "asmir_vars.ml" 60 1213 1227
+type(
+  string
+)
+"asmir_vars.ml" 60 1213 1230 "asmir_vars.ml" 60 1213 1240
+type(
+  string
+)
+"asmir_vars.ml" 60 1213 1242 "asmir_vars.ml" 60 1213 1243
+type(
+  int
+)
+"asmir_vars.ml" 60 1213 1249 "asmir_vars.ml" 60 1213 1251
+type(
+  int
+)
+"asmir_vars.ml" 60 1213 1245 "asmir_vars.ml" 60 1213 1251
+type(
+  Type.typ
+)
+"asmir_vars.ml" 60 1213 1229 "asmir_vars.ml" 60 1213 1252
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 60 1213 1217 "asmir_vars.ml" 60 1213 1253
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 61 1255 1260 "asmir_vars.ml" 61 1255 1269
+type(
+  string
+)
+"asmir_vars.ml" 61 1255 1272 "asmir_vars.ml" 61 1255 1282
+type(
+  string
+)
+"asmir_vars.ml" 61 1255 1284 "asmir_vars.ml" 61 1255 1285
+type(
+  int
+)
+"asmir_vars.ml" 61 1255 1291 "asmir_vars.ml" 61 1255 1293
+type(
+  int
+)
+"asmir_vars.ml" 61 1255 1287 "asmir_vars.ml" 61 1255 1293
+type(
+  Type.typ
+)
+"asmir_vars.ml" 61 1255 1271 "asmir_vars.ml" 61 1255 1294
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 61 1255 1259 "asmir_vars.ml" 61 1255 1295
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 62 1297 1302 "asmir_vars.ml" 62 1297 1311
+type(
+  string
+)
+"asmir_vars.ml" 62 1297 1314 "asmir_vars.ml" 62 1297 1324
+type(
+  string
+)
+"asmir_vars.ml" 62 1297 1326 "asmir_vars.ml" 62 1297 1327
+type(
+  int
+)
+"asmir_vars.ml" 62 1297 1333 "asmir_vars.ml" 62 1297 1335
+type(
+  int
+)
+"asmir_vars.ml" 62 1297 1329 "asmir_vars.ml" 62 1297 1335
+type(
+  Type.typ
+)
+"asmir_vars.ml" 62 1297 1313 "asmir_vars.ml" 62 1297 1336
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 62 1297 1301 "asmir_vars.ml" 62 1297 1337
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 63 1339 1344 "asmir_vars.ml" 63 1339 1353
+type(
+  string
+)
+"asmir_vars.ml" 63 1339 1356 "asmir_vars.ml" 63 1339 1366
+type(
+  string
+)
+"asmir_vars.ml" 63 1339 1368 "asmir_vars.ml" 63 1339 1369
+type(
+  int
+)
+"asmir_vars.ml" 63 1339 1375 "asmir_vars.ml" 63 1339 1377
+type(
+  int
+)
+"asmir_vars.ml" 63 1339 1371 "asmir_vars.ml" 63 1339 1377
+type(
+  Type.typ
+)
+"asmir_vars.ml" 63 1339 1355 "asmir_vars.ml" 63 1339 1378
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 63 1339 1343 "asmir_vars.ml" 63 1339 1379
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 64 1381 1386 "asmir_vars.ml" 64 1381 1395
+type(
+  string
+)
+"asmir_vars.ml" 64 1381 1398 "asmir_vars.ml" 64 1381 1408
+type(
+  string
+)
+"asmir_vars.ml" 64 1381 1410 "asmir_vars.ml" 64 1381 1411
+type(
+  int
+)
+"asmir_vars.ml" 64 1381 1417 "asmir_vars.ml" 64 1381 1419
+type(
+  int
+)
+"asmir_vars.ml" 64 1381 1413 "asmir_vars.ml" 64 1381 1419
+type(
+  Type.typ
+)
+"asmir_vars.ml" 64 1381 1397 "asmir_vars.ml" 64 1381 1420
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 64 1381 1385 "asmir_vars.ml" 64 1381 1421
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 66 1424 1429 "asmir_vars.ml" 66 1424 1438
+type(
+  string
+)
+"asmir_vars.ml" 66 1424 1441 "asmir_vars.ml" 66 1424 1451
+type(
+  string
+)
+"asmir_vars.ml" 66 1424 1453 "asmir_vars.ml" 66 1424 1454
+type(
+  int
+)
+"asmir_vars.ml" 66 1424 1460 "asmir_vars.ml" 66 1424 1462
+type(
+  int
+)
+"asmir_vars.ml" 66 1424 1456 "asmir_vars.ml" 66 1424 1462
+type(
+  Type.typ
+)
+"asmir_vars.ml" 66 1424 1440 "asmir_vars.ml" 66 1424 1463
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 66 1424 1428 "asmir_vars.ml" 66 1424 1464
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 67 1466 1471 "asmir_vars.ml" 67 1466 1480
+type(
+  string
+)
+"asmir_vars.ml" 67 1466 1483 "asmir_vars.ml" 67 1466 1493
+type(
+  string
+)
+"asmir_vars.ml" 67 1466 1495 "asmir_vars.ml" 67 1466 1496
+type(
+  int
+)
+"asmir_vars.ml" 67 1466 1502 "asmir_vars.ml" 67 1466 1504
+type(
+  int
+)
+"asmir_vars.ml" 67 1466 1498 "asmir_vars.ml" 67 1466 1504
+type(
+  Type.typ
+)
+"asmir_vars.ml" 67 1466 1482 "asmir_vars.ml" 67 1466 1505
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 67 1466 1470 "asmir_vars.ml" 67 1466 1506
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 68 1508 1513 "asmir_vars.ml" 68 1508 1522
+type(
+  string
+)
+"asmir_vars.ml" 68 1508 1525 "asmir_vars.ml" 68 1508 1535
+type(
+  string
+)
+"asmir_vars.ml" 68 1508 1537 "asmir_vars.ml" 68 1508 1538
+type(
+  int
+)
+"asmir_vars.ml" 68 1508 1544 "asmir_vars.ml" 68 1508 1546
+type(
+  int
+)
+"asmir_vars.ml" 68 1508 1540 "asmir_vars.ml" 68 1508 1546
+type(
+  Type.typ
+)
+"asmir_vars.ml" 68 1508 1524 "asmir_vars.ml" 68 1508 1547
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 68 1508 1512 "asmir_vars.ml" 68 1508 1548
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 69 1550 1555 "asmir_vars.ml" 69 1550 1564
+type(
+  string
+)
+"asmir_vars.ml" 69 1550 1567 "asmir_vars.ml" 69 1550 1577
+type(
+  string
+)
+"asmir_vars.ml" 69 1550 1579 "asmir_vars.ml" 69 1550 1580
+type(
+  int
+)
+"asmir_vars.ml" 69 1550 1586 "asmir_vars.ml" 69 1550 1588
+type(
+  int
+)
+"asmir_vars.ml" 69 1550 1582 "asmir_vars.ml" 69 1550 1588
+type(
+  Type.typ
+)
+"asmir_vars.ml" 69 1550 1566 "asmir_vars.ml" 69 1550 1589
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 69 1550 1554 "asmir_vars.ml" 69 1550 1590
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 70 1592 1597 "asmir_vars.ml" 70 1592 1606
+type(
+  string
+)
+"asmir_vars.ml" 70 1592 1609 "asmir_vars.ml" 70 1592 1619
+type(
+  string
+)
+"asmir_vars.ml" 70 1592 1621 "asmir_vars.ml" 70 1592 1622
+type(
+  int
+)
+"asmir_vars.ml" 70 1592 1628 "asmir_vars.ml" 70 1592 1630
+type(
+  int
+)
+"asmir_vars.ml" 70 1592 1624 "asmir_vars.ml" 70 1592 1630
+type(
+  Type.typ
+)
+"asmir_vars.ml" 70 1592 1608 "asmir_vars.ml" 70 1592 1631
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 70 1592 1596 "asmir_vars.ml" 70 1592 1632
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 71 1634 1639 "asmir_vars.ml" 71 1634 1648
+type(
+  string
+)
+"asmir_vars.ml" 71 1634 1651 "asmir_vars.ml" 71 1634 1661
+type(
+  string
+)
+"asmir_vars.ml" 71 1634 1663 "asmir_vars.ml" 71 1634 1664
+type(
+  int
+)
+"asmir_vars.ml" 71 1634 1670 "asmir_vars.ml" 71 1634 1672
+type(
+  int
+)
+"asmir_vars.ml" 71 1634 1666 "asmir_vars.ml" 71 1634 1672
+type(
+  Type.typ
+)
+"asmir_vars.ml" 71 1634 1650 "asmir_vars.ml" 71 1634 1673
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 71 1634 1638 "asmir_vars.ml" 71 1634 1674
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 72 1676 1681 "asmir_vars.ml" 72 1676 1690
+type(
+  string
+)
+"asmir_vars.ml" 72 1676 1693 "asmir_vars.ml" 72 1676 1703
+type(
+  string
+)
+"asmir_vars.ml" 72 1676 1705 "asmir_vars.ml" 72 1676 1706
+type(
+  int
+)
+"asmir_vars.ml" 72 1676 1712 "asmir_vars.ml" 72 1676 1714
+type(
+  int
+)
+"asmir_vars.ml" 72 1676 1708 "asmir_vars.ml" 72 1676 1714
+type(
+  Type.typ
+)
+"asmir_vars.ml" 72 1676 1692 "asmir_vars.ml" 72 1676 1715
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 72 1676 1680 "asmir_vars.ml" 72 1676 1716
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 75 1746 1751 "asmir_vars.ml" 75 1746 1760
+type(
+  string
+)
+"asmir_vars.ml" 75 1746 1763 "asmir_vars.ml" 75 1746 1770
+type(
+  string
+)
+"asmir_vars.ml" 75 1746 1772 "asmir_vars.ml" 75 1746 1773
+type(
+  int
+)
+"asmir_vars.ml" 75 1746 1779 "asmir_vars.ml" 75 1746 1781
+type(
+  int
+)
+"asmir_vars.ml" 75 1746 1775 "asmir_vars.ml" 75 1746 1781
+type(
+  Type.typ
+)
+"asmir_vars.ml" 75 1746 1762 "asmir_vars.ml" 75 1746 1782
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 75 1746 1750 "asmir_vars.ml" 75 1746 1783
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 76 1785 1790 "asmir_vars.ml" 76 1785 1799
+type(
+  string
+)
+"asmir_vars.ml" 76 1785 1802 "asmir_vars.ml" 76 1785 1809
+type(
+  string
+)
+"asmir_vars.ml" 76 1785 1811 "asmir_vars.ml" 76 1785 1812
+type(
+  int
+)
+"asmir_vars.ml" 76 1785 1818 "asmir_vars.ml" 76 1785 1820
+type(
+  int
+)
+"asmir_vars.ml" 76 1785 1814 "asmir_vars.ml" 76 1785 1820
+type(
+  Type.typ
+)
+"asmir_vars.ml" 76 1785 1801 "asmir_vars.ml" 76 1785 1821
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 76 1785 1789 "asmir_vars.ml" 76 1785 1822
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 77 1824 1829 "asmir_vars.ml" 77 1824 1838
+type(
+  string
+)
+"asmir_vars.ml" 77 1824 1841 "asmir_vars.ml" 77 1824 1848
+type(
+  string
+)
+"asmir_vars.ml" 77 1824 1850 "asmir_vars.ml" 77 1824 1851
+type(
+  int
+)
+"asmir_vars.ml" 77 1824 1857 "asmir_vars.ml" 77 1824 1859
+type(
+  int
+)
+"asmir_vars.ml" 77 1824 1853 "asmir_vars.ml" 77 1824 1859
+type(
+  Type.typ
+)
+"asmir_vars.ml" 77 1824 1840 "asmir_vars.ml" 77 1824 1860
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 77 1824 1828 "asmir_vars.ml" 77 1824 1861
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 78 1863 1868 "asmir_vars.ml" 78 1863 1877
+type(
+  string
+)
+"asmir_vars.ml" 78 1863 1880 "asmir_vars.ml" 78 1863 1887
+type(
+  string
+)
+"asmir_vars.ml" 78 1863 1889 "asmir_vars.ml" 78 1863 1890
+type(
+  int
+)
+"asmir_vars.ml" 78 1863 1896 "asmir_vars.ml" 78 1863 1898
+type(
+  int
+)
+"asmir_vars.ml" 78 1863 1892 "asmir_vars.ml" 78 1863 1898
+type(
+  Type.typ
+)
+"asmir_vars.ml" 78 1863 1879 "asmir_vars.ml" 78 1863 1899
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 78 1863 1867 "asmir_vars.ml" 78 1863 1900
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 80 1903 1908 "asmir_vars.ml" 80 1903 1917
+type(
+  string
+)
+"asmir_vars.ml" 80 1903 1920 "asmir_vars.ml" 80 1903 1927
+type(
+  string
+)
+"asmir_vars.ml" 80 1903 1929 "asmir_vars.ml" 80 1903 1930
+type(
+  int
+)
+"asmir_vars.ml" 80 1903 1936 "asmir_vars.ml" 80 1903 1938
+type(
+  int
+)
+"asmir_vars.ml" 80 1903 1932 "asmir_vars.ml" 80 1903 1938
+type(
+  Type.typ
+)
+"asmir_vars.ml" 80 1903 1919 "asmir_vars.ml" 80 1903 1939
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 80 1903 1907 "asmir_vars.ml" 80 1903 1940
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 81 1942 1947 "asmir_vars.ml" 81 1942 1956
+type(
+  string
+)
+"asmir_vars.ml" 81 1942 1959 "asmir_vars.ml" 81 1942 1966
+type(
+  string
+)
+"asmir_vars.ml" 81 1942 1968 "asmir_vars.ml" 81 1942 1969
+type(
+  int
+)
+"asmir_vars.ml" 81 1942 1975 "asmir_vars.ml" 81 1942 1977
+type(
+  int
+)
+"asmir_vars.ml" 81 1942 1971 "asmir_vars.ml" 81 1942 1977
+type(
+  Type.typ
+)
+"asmir_vars.ml" 81 1942 1958 "asmir_vars.ml" 81 1942 1978
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 81 1942 1946 "asmir_vars.ml" 81 1942 1979
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 82 1981 1986 "asmir_vars.ml" 82 1981 1995
+type(
+  string
+)
+"asmir_vars.ml" 82 1981 1998 "asmir_vars.ml" 82 1981 2005
+type(
+  string
+)
+"asmir_vars.ml" 82 1981 2007 "asmir_vars.ml" 82 1981 2008
+type(
+  int
+)
+"asmir_vars.ml" 82 1981 2014 "asmir_vars.ml" 82 1981 2016
+type(
+  int
+)
+"asmir_vars.ml" 82 1981 2010 "asmir_vars.ml" 82 1981 2016
+type(
+  Type.typ
+)
+"asmir_vars.ml" 82 1981 1997 "asmir_vars.ml" 82 1981 2017
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 82 1981 1985 "asmir_vars.ml" 82 1981 2018
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 83 2020 2025 "asmir_vars.ml" 83 2020 2034
+type(
+  string
+)
+"asmir_vars.ml" 83 2020 2037 "asmir_vars.ml" 83 2020 2044
+type(
+  string
+)
+"asmir_vars.ml" 83 2020 2046 "asmir_vars.ml" 83 2020 2047
+type(
+  int
+)
+"asmir_vars.ml" 83 2020 2053 "asmir_vars.ml" 83 2020 2055
+type(
+  int
+)
+"asmir_vars.ml" 83 2020 2049 "asmir_vars.ml" 83 2020 2055
+type(
+  Type.typ
+)
+"asmir_vars.ml" 83 2020 2036 "asmir_vars.ml" 83 2020 2056
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 83 2020 2024 "asmir_vars.ml" 83 2020 2057
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 85 2060 2065 "asmir_vars.ml" 85 2060 2072
+type(
+  string
+)
+"asmir_vars.ml" 85 2060 2075 "asmir_vars.ml" 85 2060 2082
+type(
+  string
+)
+"asmir_vars.ml" 85 2060 2084 "asmir_vars.ml" 85 2060 2085
+type(
+  int
+)
+"asmir_vars.ml" 85 2060 2091 "asmir_vars.ml" 85 2060 2093
+type(
+  int
+)
+"asmir_vars.ml" 85 2060 2087 "asmir_vars.ml" 85 2060 2093
+type(
+  Type.typ
+)
+"asmir_vars.ml" 85 2060 2074 "asmir_vars.ml" 85 2060 2094
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 85 2060 2064 "asmir_vars.ml" 85 2060 2095
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 86 2097 2102 "asmir_vars.ml" 86 2097 2109
+type(
+  string
+)
+"asmir_vars.ml" 86 2097 2112 "asmir_vars.ml" 86 2097 2119
+type(
+  string
+)
+"asmir_vars.ml" 86 2097 2121 "asmir_vars.ml" 86 2097 2122
+type(
+  int
+)
+"asmir_vars.ml" 86 2097 2128 "asmir_vars.ml" 86 2097 2130
+type(
+  int
+)
+"asmir_vars.ml" 86 2097 2124 "asmir_vars.ml" 86 2097 2130
+type(
+  Type.typ
+)
+"asmir_vars.ml" 86 2097 2111 "asmir_vars.ml" 86 2097 2131
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 86 2097 2101 "asmir_vars.ml" 86 2097 2132
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 87 2134 2139 "asmir_vars.ml" 87 2134 2146
+type(
+  string
+)
+"asmir_vars.ml" 87 2134 2149 "asmir_vars.ml" 87 2134 2156
+type(
+  string
+)
+"asmir_vars.ml" 87 2134 2158 "asmir_vars.ml" 87 2134 2159
+type(
+  int
+)
+"asmir_vars.ml" 87 2134 2165 "asmir_vars.ml" 87 2134 2167
+type(
+  int
+)
+"asmir_vars.ml" 87 2134 2161 "asmir_vars.ml" 87 2134 2167
+type(
+  Type.typ
+)
+"asmir_vars.ml" 87 2134 2148 "asmir_vars.ml" 87 2134 2168
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 87 2134 2138 "asmir_vars.ml" 87 2134 2169
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 88 2171 2176 "asmir_vars.ml" 88 2171 2183
+type(
+  string
+)
+"asmir_vars.ml" 88 2171 2186 "asmir_vars.ml" 88 2171 2193
+type(
+  string
+)
+"asmir_vars.ml" 88 2171 2195 "asmir_vars.ml" 88 2171 2196
+type(
+  int
+)
+"asmir_vars.ml" 88 2171 2202 "asmir_vars.ml" 88 2171 2204
+type(
+  int
+)
+"asmir_vars.ml" 88 2171 2198 "asmir_vars.ml" 88 2171 2204
+type(
+  Type.typ
+)
+"asmir_vars.ml" 88 2171 2185 "asmir_vars.ml" 88 2171 2205
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 88 2171 2175 "asmir_vars.ml" 88 2171 2206
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 90 2209 2214 "asmir_vars.ml" 90 2209 2223
+type(
+  string
+)
+"asmir_vars.ml" 90 2209 2226 "asmir_vars.ml" 90 2209 2233
+type(
+  string
+)
+"asmir_vars.ml" 90 2209 2235 "asmir_vars.ml" 90 2209 2236
+type(
+  int
+)
+"asmir_vars.ml" 90 2209 2242 "asmir_vars.ml" 90 2209 2244
+type(
+  int
+)
+"asmir_vars.ml" 90 2209 2238 "asmir_vars.ml" 90 2209 2244
+type(
+  Type.typ
+)
+"asmir_vars.ml" 90 2209 2225 "asmir_vars.ml" 90 2209 2245
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 90 2209 2213 "asmir_vars.ml" 90 2209 2246
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 91 2248 2253 "asmir_vars.ml" 91 2248 2262
+type(
+  string
+)
+"asmir_vars.ml" 91 2248 2265 "asmir_vars.ml" 91 2248 2272
+type(
+  string
+)
+"asmir_vars.ml" 91 2248 2274 "asmir_vars.ml" 91 2248 2275
+type(
+  int
+)
+"asmir_vars.ml" 91 2248 2281 "asmir_vars.ml" 91 2248 2283
+type(
+  int
+)
+"asmir_vars.ml" 91 2248 2277 "asmir_vars.ml" 91 2248 2283
+type(
+  Type.typ
+)
+"asmir_vars.ml" 91 2248 2264 "asmir_vars.ml" 91 2248 2284
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 91 2248 2252 "asmir_vars.ml" 91 2248 2285
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 92 2287 2292 "asmir_vars.ml" 92 2287 2301
+type(
+  string
+)
+"asmir_vars.ml" 92 2287 2304 "asmir_vars.ml" 92 2287 2311
+type(
+  string
+)
+"asmir_vars.ml" 92 2287 2313 "asmir_vars.ml" 92 2287 2314
+type(
+  int
+)
+"asmir_vars.ml" 92 2287 2320 "asmir_vars.ml" 92 2287 2322
+type(
+  int
+)
+"asmir_vars.ml" 92 2287 2316 "asmir_vars.ml" 92 2287 2322
+type(
+  Type.typ
+)
+"asmir_vars.ml" 92 2287 2303 "asmir_vars.ml" 92 2287 2323
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 92 2287 2291 "asmir_vars.ml" 92 2287 2324
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 93 2326 2331 "asmir_vars.ml" 93 2326 2340
+type(
+  string
+)
+"asmir_vars.ml" 93 2326 2343 "asmir_vars.ml" 93 2326 2350
+type(
+  string
+)
+"asmir_vars.ml" 93 2326 2352 "asmir_vars.ml" 93 2326 2353
+type(
+  int
+)
+"asmir_vars.ml" 93 2326 2359 "asmir_vars.ml" 93 2326 2361
+type(
+  int
+)
+"asmir_vars.ml" 93 2326 2355 "asmir_vars.ml" 93 2326 2361
+type(
+  Type.typ
+)
+"asmir_vars.ml" 93 2326 2342 "asmir_vars.ml" 93 2326 2362
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 93 2326 2330 "asmir_vars.ml" 93 2326 2363
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 95 2366 2371 "asmir_vars.ml" 95 2366 2380
+type(
+  string
+)
+"asmir_vars.ml" 95 2366 2383 "asmir_vars.ml" 95 2366 2390
+type(
+  string
+)
+"asmir_vars.ml" 95 2366 2392 "asmir_vars.ml" 95 2366 2393
+type(
+  int
+)
+"asmir_vars.ml" 95 2366 2399 "asmir_vars.ml" 95 2366 2401
+type(
+  int
+)
+"asmir_vars.ml" 95 2366 2395 "asmir_vars.ml" 95 2366 2401
+type(
+  Type.typ
+)
+"asmir_vars.ml" 95 2366 2382 "asmir_vars.ml" 95 2366 2402
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 95 2366 2370 "asmir_vars.ml" 95 2366 2403
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 96 2405 2410 "asmir_vars.ml" 96 2405 2419
+type(
+  string
+)
+"asmir_vars.ml" 96 2405 2422 "asmir_vars.ml" 96 2405 2429
+type(
+  string
+)
+"asmir_vars.ml" 96 2405 2431 "asmir_vars.ml" 96 2405 2432
+type(
+  int
+)
+"asmir_vars.ml" 96 2405 2438 "asmir_vars.ml" 96 2405 2440
+type(
+  int
+)
+"asmir_vars.ml" 96 2405 2434 "asmir_vars.ml" 96 2405 2440
+type(
+  Type.typ
+)
+"asmir_vars.ml" 96 2405 2421 "asmir_vars.ml" 96 2405 2441
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 96 2405 2409 "asmir_vars.ml" 96 2405 2442
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 97 2444 2449 "asmir_vars.ml" 97 2444 2458
+type(
+  string
+)
+"asmir_vars.ml" 97 2444 2461 "asmir_vars.ml" 97 2444 2468
+type(
+  string
+)
+"asmir_vars.ml" 97 2444 2470 "asmir_vars.ml" 97 2444 2471
+type(
+  int
+)
+"asmir_vars.ml" 97 2444 2477 "asmir_vars.ml" 97 2444 2479
+type(
+  int
+)
+"asmir_vars.ml" 97 2444 2473 "asmir_vars.ml" 97 2444 2479
+type(
+  Type.typ
+)
+"asmir_vars.ml" 97 2444 2460 "asmir_vars.ml" 97 2444 2480
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 97 2444 2448 "asmir_vars.ml" 97 2444 2481
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 98 2483 2488 "asmir_vars.ml" 98 2483 2497
+type(
+  string
+)
+"asmir_vars.ml" 98 2483 2500 "asmir_vars.ml" 98 2483 2507
+type(
+  string
+)
+"asmir_vars.ml" 98 2483 2509 "asmir_vars.ml" 98 2483 2510
+type(
+  int
+)
+"asmir_vars.ml" 98 2483 2516 "asmir_vars.ml" 98 2483 2518
+type(
+  int
+)
+"asmir_vars.ml" 98 2483 2512 "asmir_vars.ml" 98 2483 2518
+type(
+  Type.typ
+)
+"asmir_vars.ml" 98 2483 2499 "asmir_vars.ml" 98 2483 2519
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 98 2483 2487 "asmir_vars.ml" 98 2483 2520
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 99 2522 2527 "asmir_vars.ml" 99 2522 2536
+type(
+  string
+)
+"asmir_vars.ml" 99 2522 2539 "asmir_vars.ml" 99 2522 2546
+type(
+  string
+)
+"asmir_vars.ml" 99 2522 2548 "asmir_vars.ml" 99 2522 2549
+type(
+  int
+)
+"asmir_vars.ml" 99 2522 2555 "asmir_vars.ml" 99 2522 2557
+type(
+  int
+)
+"asmir_vars.ml" 99 2522 2551 "asmir_vars.ml" 99 2522 2557
+type(
+  Type.typ
+)
+"asmir_vars.ml" 99 2522 2538 "asmir_vars.ml" 99 2522 2558
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 99 2522 2526 "asmir_vars.ml" 99 2522 2559
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 100 2561 2566 "asmir_vars.ml" 100 2561 2575
+type(
+  string
+)
+"asmir_vars.ml" 100 2561 2578 "asmir_vars.ml" 100 2561 2585
+type(
+  string
+)
+"asmir_vars.ml" 100 2561 2587 "asmir_vars.ml" 100 2561 2588
+type(
+  int
+)
+"asmir_vars.ml" 100 2561 2594 "asmir_vars.ml" 100 2561 2596
+type(
+  int
+)
+"asmir_vars.ml" 100 2561 2590 "asmir_vars.ml" 100 2561 2596
+type(
+  Type.typ
+)
+"asmir_vars.ml" 100 2561 2577 "asmir_vars.ml" 100 2561 2597
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 100 2561 2565 "asmir_vars.ml" 100 2561 2598
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 101 2600 2605 "asmir_vars.ml" 101 2600 2614
+type(
+  string
+)
+"asmir_vars.ml" 101 2600 2617 "asmir_vars.ml" 101 2600 2624
+type(
+  string
+)
+"asmir_vars.ml" 101 2600 2626 "asmir_vars.ml" 101 2600 2627
+type(
+  int
+)
+"asmir_vars.ml" 101 2600 2633 "asmir_vars.ml" 101 2600 2635
+type(
+  int
+)
+"asmir_vars.ml" 101 2600 2629 "asmir_vars.ml" 101 2600 2635
+type(
+  Type.typ
+)
+"asmir_vars.ml" 101 2600 2616 "asmir_vars.ml" 101 2600 2636
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 101 2600 2604 "asmir_vars.ml" 101 2600 2637
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 102 2639 2644 "asmir_vars.ml" 102 2639 2653
+type(
+  string
+)
+"asmir_vars.ml" 102 2639 2656 "asmir_vars.ml" 102 2639 2663
+type(
+  string
+)
+"asmir_vars.ml" 102 2639 2665 "asmir_vars.ml" 102 2639 2666
+type(
+  int
+)
+"asmir_vars.ml" 102 2639 2672 "asmir_vars.ml" 102 2639 2674
+type(
+  int
+)
+"asmir_vars.ml" 102 2639 2668 "asmir_vars.ml" 102 2639 2674
+type(
+  Type.typ
+)
+"asmir_vars.ml" 102 2639 2655 "asmir_vars.ml" 102 2639 2675
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 102 2639 2643 "asmir_vars.ml" 102 2639 2676
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 104 2679 2684 "asmir_vars.ml" 104 2679 2694
+type(
+  string
+)
+"asmir_vars.ml" 104 2679 2697 "asmir_vars.ml" 104 2679 2704
+type(
+  string
+)
+"asmir_vars.ml" 104 2679 2706 "asmir_vars.ml" 104 2679 2707
+type(
+  int
+)
+"asmir_vars.ml" 104 2679 2713 "asmir_vars.ml" 104 2679 2715
+type(
+  int
+)
+"asmir_vars.ml" 104 2679 2709 "asmir_vars.ml" 104 2679 2715
+type(
+  Type.typ
+)
+"asmir_vars.ml" 104 2679 2696 "asmir_vars.ml" 104 2679 2716
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 104 2679 2683 "asmir_vars.ml" 104 2679 2717
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 105 2719 2724 "asmir_vars.ml" 105 2719 2734
+type(
+  string
+)
+"asmir_vars.ml" 105 2719 2737 "asmir_vars.ml" 105 2719 2744
+type(
+  string
+)
+"asmir_vars.ml" 105 2719 2746 "asmir_vars.ml" 105 2719 2747
+type(
+  int
+)
+"asmir_vars.ml" 105 2719 2753 "asmir_vars.ml" 105 2719 2755
+type(
+  int
+)
+"asmir_vars.ml" 105 2719 2749 "asmir_vars.ml" 105 2719 2755
+type(
+  Type.typ
+)
+"asmir_vars.ml" 105 2719 2736 "asmir_vars.ml" 105 2719 2756
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 105 2719 2723 "asmir_vars.ml" 105 2719 2757
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 106 2759 2764 "asmir_vars.ml" 106 2759 2774
+type(
+  string
+)
+"asmir_vars.ml" 106 2759 2777 "asmir_vars.ml" 106 2759 2784
+type(
+  string
+)
+"asmir_vars.ml" 106 2759 2786 "asmir_vars.ml" 106 2759 2787
+type(
+  int
+)
+"asmir_vars.ml" 106 2759 2793 "asmir_vars.ml" 106 2759 2795
+type(
+  int
+)
+"asmir_vars.ml" 106 2759 2789 "asmir_vars.ml" 106 2759 2795
+type(
+  Type.typ
+)
+"asmir_vars.ml" 106 2759 2776 "asmir_vars.ml" 106 2759 2796
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 106 2759 2763 "asmir_vars.ml" 106 2759 2797
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 107 2799 2804 "asmir_vars.ml" 107 2799 2814
+type(
+  string
+)
+"asmir_vars.ml" 107 2799 2817 "asmir_vars.ml" 107 2799 2824
+type(
+  string
+)
+"asmir_vars.ml" 107 2799 2826 "asmir_vars.ml" 107 2799 2827
+type(
+  int
+)
+"asmir_vars.ml" 107 2799 2833 "asmir_vars.ml" 107 2799 2835
+type(
+  int
+)
+"asmir_vars.ml" 107 2799 2829 "asmir_vars.ml" 107 2799 2835
+type(
+  Type.typ
+)
+"asmir_vars.ml" 107 2799 2816 "asmir_vars.ml" 107 2799 2836
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 107 2799 2803 "asmir_vars.ml" 107 2799 2837
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 108 2839 2844 "asmir_vars.ml" 108 2839 2854
+type(
+  string
+)
+"asmir_vars.ml" 108 2839 2857 "asmir_vars.ml" 108 2839 2864
+type(
+  string
+)
+"asmir_vars.ml" 108 2839 2866 "asmir_vars.ml" 108 2839 2867
+type(
+  int
+)
+"asmir_vars.ml" 108 2839 2873 "asmir_vars.ml" 108 2839 2875
+type(
+  int
+)
+"asmir_vars.ml" 108 2839 2869 "asmir_vars.ml" 108 2839 2875
+type(
+  Type.typ
+)
+"asmir_vars.ml" 108 2839 2856 "asmir_vars.ml" 108 2839 2876
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 108 2839 2843 "asmir_vars.ml" 108 2839 2877
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 109 2879 2884 "asmir_vars.ml" 109 2879 2894
+type(
+  string
+)
+"asmir_vars.ml" 109 2879 2897 "asmir_vars.ml" 109 2879 2904
+type(
+  string
+)
+"asmir_vars.ml" 109 2879 2906 "asmir_vars.ml" 109 2879 2907
+type(
+  int
+)
+"asmir_vars.ml" 109 2879 2913 "asmir_vars.ml" 109 2879 2915
+type(
+  int
+)
+"asmir_vars.ml" 109 2879 2909 "asmir_vars.ml" 109 2879 2915
+type(
+  Type.typ
+)
+"asmir_vars.ml" 109 2879 2896 "asmir_vars.ml" 109 2879 2916
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 109 2879 2883 "asmir_vars.ml" 109 2879 2917
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 110 2919 2924 "asmir_vars.ml" 110 2919 2934
+type(
+  string
+)
+"asmir_vars.ml" 110 2919 2937 "asmir_vars.ml" 110 2919 2944
+type(
+  string
+)
+"asmir_vars.ml" 110 2919 2946 "asmir_vars.ml" 110 2919 2947
+type(
+  int
+)
+"asmir_vars.ml" 110 2919 2953 "asmir_vars.ml" 110 2919 2955
+type(
+  int
+)
+"asmir_vars.ml" 110 2919 2949 "asmir_vars.ml" 110 2919 2955
+type(
+  Type.typ
+)
+"asmir_vars.ml" 110 2919 2936 "asmir_vars.ml" 110 2919 2956
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 110 2919 2923 "asmir_vars.ml" 110 2919 2957
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 111 2959 2964 "asmir_vars.ml" 111 2959 2974
+type(
+  string
+)
+"asmir_vars.ml" 111 2959 2977 "asmir_vars.ml" 111 2959 2984
+type(
+  string
+)
+"asmir_vars.ml" 111 2959 2986 "asmir_vars.ml" 111 2959 2987
+type(
+  int
+)
+"asmir_vars.ml" 111 2959 2993 "asmir_vars.ml" 111 2959 2995
+type(
+  int
+)
+"asmir_vars.ml" 111 2959 2989 "asmir_vars.ml" 111 2959 2995
+type(
+  Type.typ
+)
+"asmir_vars.ml" 111 2959 2976 "asmir_vars.ml" 111 2959 2996
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 111 2959 2963 "asmir_vars.ml" 111 2959 2997
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 48 844 846 "asmir_vars.ml" 113 3000 3003
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 113 3000 3004 "asmir_vars.ml" 113 3000 3005
+type(
+  (string * (string * int * Type.typ)) list ->
+  (string * (string * int * Type.typ)) list ->
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"asmir_vars.ml" 113 3000 3006 "asmir_vars.ml" 113 3000 3019
+type(
+  (string * (string * int * Type.typ)) array ->
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  ext_ref Array.to_list
+)
+"asmir_vars.ml" 113 3000 3021 "asmir_vars.ml" 113 3000 3031
+type(
+  int ->
+  (int -> string * (string * int * Type.typ)) ->
+  (string * (string * int * Type.typ)) array
+)
+ident(
+  ext_ref Array.init
+)
+"asmir_vars.ml" 113 3000 3032 "asmir_vars.ml" 113 3000 3034
+type(
+  int
+)
+"asmir_vars.ml" 113 3000 3040 "asmir_vars.ml" 113 3000 3041
+type(
+  int
+)
+ident(
+  def i "asmir_vars.ml" 113 3000 3045 "asmir_vars.ml" 113 3000 3115
+)
+"asmir_vars.ml" 113 3000 3046 "asmir_vars.ml" 113 3000 3060
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 113 3000 3061 "asmir_vars.ml" 113 3000 3070
+type(
+  (int -> string, unit, string) format
+)
+"asmir_vars.ml" 113 3000 3071 "asmir_vars.ml" 113 3000 3072
+type(
+  int
+)
+ident(
+  int_ref i "asmir_vars.ml" 113 3000 3040 "asmir_vars.ml" 113 3000 3041
+)
+"asmir_vars.ml" 113 3000 3046 "asmir_vars.ml" 113 3000 3072
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 113 3000 3075 "asmir_vars.ml" 113 3000 3089
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 113 3000 3090 "asmir_vars.ml" 113 3000 3099
+type(
+  (int -> string, unit, string) format
+)
+"asmir_vars.ml" 113 3000 3100 "asmir_vars.ml" 113 3000 3101
+type(
+  int
+)
+ident(
+  int_ref i "asmir_vars.ml" 113 3000 3040 "asmir_vars.ml" 113 3000 3041
+)
+"asmir_vars.ml" 113 3000 3075 "asmir_vars.ml" 113 3000 3101
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 113 3000 3103 "asmir_vars.ml" 113 3000 3104
+type(
+  int
+)
+"asmir_vars.ml" 113 3000 3110 "asmir_vars.ml" 113 3000 3113
+type(
+  int
+)
+"asmir_vars.ml" 113 3000 3106 "asmir_vars.ml" 113 3000 3113
+type(
+  Type.typ
+)
+"asmir_vars.ml" 113 3000 3074 "asmir_vars.ml" 113 3000 3114
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 113 3000 3045 "asmir_vars.ml" 113 3000 3115
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 113 3000 3035 "asmir_vars.ml" 113 3000 3116
+type(
+  int -> string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 113 3000 3020 "asmir_vars.ml" 113 3000 3117
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) array
+)
+"asmir_vars.ml" 113 3000 3006 "asmir_vars.ml" 113 3000 3117
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 114 3118 3122 "asmir_vars.ml" 114 3118 3123
+type(
+  (string * (string * int * Type.typ)) list ->
+  (string * (string * int * Type.typ)) list ->
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"asmir_vars.ml" 114 3118 3124 "asmir_vars.ml" 114 3118 3137
+type(
+  (string * (string * int * Type.typ)) array ->
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  ext_ref Array.to_list
+)
+"asmir_vars.ml" 114 3118 3139 "asmir_vars.ml" 114 3118 3149
+type(
+  int ->
+  (int -> string * (string * int * Type.typ)) ->
+  (string * (string * int * Type.typ)) array
+)
+ident(
+  ext_ref Array.init
+)
+"asmir_vars.ml" 114 3118 3150 "asmir_vars.ml" 114 3118 3152
+type(
+  int
+)
+"asmir_vars.ml" 114 3118 3158 "asmir_vars.ml" 114 3118 3159
+type(
+  int
+)
+ident(
+  def i "asmir_vars.ml" 114 3118 3163 "asmir_vars.ml" 114 3118 3232
+)
+"asmir_vars.ml" 114 3118 3164 "asmir_vars.ml" 114 3118 3178
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 114 3118 3179 "asmir_vars.ml" 114 3118 3187
+type(
+  (int -> string, unit, string) format
+)
+"asmir_vars.ml" 114 3118 3188 "asmir_vars.ml" 114 3118 3189
+type(
+  int
+)
+ident(
+  int_ref i "asmir_vars.ml" 114 3118 3158 "asmir_vars.ml" 114 3118 3159
+)
+"asmir_vars.ml" 114 3118 3164 "asmir_vars.ml" 114 3118 3189
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 114 3118 3192 "asmir_vars.ml" 114 3118 3206
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 114 3118 3207 "asmir_vars.ml" 114 3118 3216
+type(
+  (int -> string, unit, string) format
+)
+"asmir_vars.ml" 114 3118 3217 "asmir_vars.ml" 114 3118 3218
+type(
+  int
+)
+ident(
+  int_ref i "asmir_vars.ml" 114 3118 3158 "asmir_vars.ml" 114 3118 3159
+)
+"asmir_vars.ml" 114 3118 3192 "asmir_vars.ml" 114 3118 3218
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 114 3118 3220 "asmir_vars.ml" 114 3118 3221
+type(
+  int
+)
+"asmir_vars.ml" 114 3118 3227 "asmir_vars.ml" 114 3118 3230
+type(
+  int
+)
+"asmir_vars.ml" 114 3118 3223 "asmir_vars.ml" 114 3118 3230
+type(
+  Type.typ
+)
+"asmir_vars.ml" 114 3118 3191 "asmir_vars.ml" 114 3118 3231
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 114 3118 3163 "asmir_vars.ml" 114 3118 3232
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 114 3118 3153 "asmir_vars.ml" 114 3118 3233
+type(
+  int -> string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 114 3118 3138 "asmir_vars.ml" 114 3118 3234
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) array
+)
+"asmir_vars.ml" 114 3118 3124 "asmir_vars.ml" 114 3118 3234
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 115 3235 3239 "asmir_vars.ml" 115 3235 3240
+type(
+  (string * (string * int * Type.typ)) list ->
+  (string * (string * int * Type.typ)) list ->
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"asmir_vars.ml" 115 3235 3241 "asmir_vars.ml" 115 3235 3254
+type(
+  (string * (string * int * Type.typ)) array ->
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  ext_ref Array.to_list
+)
+"asmir_vars.ml" 115 3235 3256 "asmir_vars.ml" 115 3235 3266
+type(
+  int ->
+  (int -> string * (string * int * Type.typ)) ->
+  (string * (string * int * Type.typ)) array
+)
+ident(
+  ext_ref Array.init
+)
+"asmir_vars.ml" 115 3235 3267 "asmir_vars.ml" 115 3235 3268
+type(
+  int
+)
+"asmir_vars.ml" 115 3235 3274 "asmir_vars.ml" 115 3235 3275
+type(
+  int
+)
+ident(
+  def i "asmir_vars.ml" 115 3235 3279 "asmir_vars.ml" 115 3235 3353
+)
+"asmir_vars.ml" 115 3235 3280 "asmir_vars.ml" 115 3235 3294
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 115 3235 3295 "asmir_vars.ml" 115 3235 3303
+type(
+  (int -> string, unit, string) format
+)
+"asmir_vars.ml" 115 3235 3305 "asmir_vars.ml" 115 3235 3306
+type(
+  int
+)
+ident(
+  int_ref i "asmir_vars.ml" 115 3235 3274 "asmir_vars.ml" 115 3235 3275
+)
+"asmir_vars.ml" 115 3235 3306 "asmir_vars.ml" 115 3235 3307
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"asmir_vars.ml" 115 3235 3307 "asmir_vars.ml" 115 3235 3308
+type(
+  int
+)
+"asmir_vars.ml" 115 3235 3304 "asmir_vars.ml" 115 3235 3309
+type(
+  int
+)
+"asmir_vars.ml" 115 3235 3280 "asmir_vars.ml" 115 3235 3309
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 115 3235 3312 "asmir_vars.ml" 115 3235 3326
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 115 3235 3327 "asmir_vars.ml" 115 3235 3334
+type(
+  (int -> string, unit, string) format
+)
+"asmir_vars.ml" 115 3235 3336 "asmir_vars.ml" 115 3235 3337
+type(
+  int
+)
+ident(
+  int_ref i "asmir_vars.ml" 115 3235 3274 "asmir_vars.ml" 115 3235 3275
+)
+"asmir_vars.ml" 115 3235 3337 "asmir_vars.ml" 115 3235 3338
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"asmir_vars.ml" 115 3235 3338 "asmir_vars.ml" 115 3235 3339
+type(
+  int
+)
+"asmir_vars.ml" 115 3235 3335 "asmir_vars.ml" 115 3235 3340
+type(
+  int
+)
+"asmir_vars.ml" 115 3235 3312 "asmir_vars.ml" 115 3235 3340
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 115 3235 3342 "asmir_vars.ml" 115 3235 3343
+type(
+  int
+)
+"asmir_vars.ml" 115 3235 3349 "asmir_vars.ml" 115 3235 3351
+type(
+  int
+)
+"asmir_vars.ml" 115 3235 3345 "asmir_vars.ml" 115 3235 3351
+type(
+  Type.typ
+)
+"asmir_vars.ml" 115 3235 3311 "asmir_vars.ml" 115 3235 3352
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 115 3235 3279 "asmir_vars.ml" 115 3235 3353
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 115 3235 3269 "asmir_vars.ml" 115 3235 3354
+type(
+  int -> string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 115 3235 3255 "asmir_vars.ml" 115 3235 3355
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) array
+)
+"asmir_vars.ml" 115 3235 3241 "asmir_vars.ml" 115 3235 3355
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 116 3356 3360 "asmir_vars.ml" 116 3356 3361
+type(
+  (string * (string * int * Type.typ)) list ->
+  (string * (string * int * Type.typ)) list ->
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"asmir_vars.ml" 116 3356 3362 "asmir_vars.ml" 116 3356 3375
+type(
+  (string * (string * int * Type.typ)) array ->
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  ext_ref Array.to_list
+)
+"asmir_vars.ml" 116 3356 3377 "asmir_vars.ml" 116 3356 3387
+type(
+  int ->
+  (int -> string * (string * int * Type.typ)) ->
+  (string * (string * int * Type.typ)) array
+)
+ident(
+  ext_ref Array.init
+)
+"asmir_vars.ml" 116 3356 3388 "asmir_vars.ml" 116 3356 3389
+type(
+  int
+)
+"asmir_vars.ml" 116 3356 3395 "asmir_vars.ml" 116 3356 3396
+type(
+  int
+)
+ident(
+  def i "asmir_vars.ml" 116 3356 3400 "asmir_vars.ml" 116 3356 3474
+)
+"asmir_vars.ml" 116 3356 3401 "asmir_vars.ml" 116 3356 3415
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 116 3356 3416 "asmir_vars.ml" 116 3356 3424
+type(
+  (int -> string, unit, string) format
+)
+"asmir_vars.ml" 116 3356 3426 "asmir_vars.ml" 116 3356 3427
+type(
+  int
+)
+ident(
+  int_ref i "asmir_vars.ml" 116 3356 3395 "asmir_vars.ml" 116 3356 3396
+)
+"asmir_vars.ml" 116 3356 3427 "asmir_vars.ml" 116 3356 3428
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"asmir_vars.ml" 116 3356 3428 "asmir_vars.ml" 116 3356 3429
+type(
+  int
+)
+"asmir_vars.ml" 116 3356 3425 "asmir_vars.ml" 116 3356 3430
+type(
+  int
+)
+"asmir_vars.ml" 116 3356 3401 "asmir_vars.ml" 116 3356 3430
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 116 3356 3433 "asmir_vars.ml" 116 3356 3447
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 116 3356 3448 "asmir_vars.ml" 116 3356 3455
+type(
+  (int -> string, unit, string) format
+)
+"asmir_vars.ml" 116 3356 3457 "asmir_vars.ml" 116 3356 3458
+type(
+  int
+)
+ident(
+  int_ref i "asmir_vars.ml" 116 3356 3395 "asmir_vars.ml" 116 3356 3396
+)
+"asmir_vars.ml" 116 3356 3458 "asmir_vars.ml" 116 3356 3459
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"asmir_vars.ml" 116 3356 3459 "asmir_vars.ml" 116 3356 3460
+type(
+  int
+)
+"asmir_vars.ml" 116 3356 3456 "asmir_vars.ml" 116 3356 3461
+type(
+  int
+)
+"asmir_vars.ml" 116 3356 3433 "asmir_vars.ml" 116 3356 3461
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 116 3356 3463 "asmir_vars.ml" 116 3356 3464
+type(
+  int
+)
+"asmir_vars.ml" 116 3356 3470 "asmir_vars.ml" 116 3356 3472
+type(
+  int
+)
+"asmir_vars.ml" 116 3356 3466 "asmir_vars.ml" 116 3356 3472
+type(
+  Type.typ
+)
+"asmir_vars.ml" 116 3356 3432 "asmir_vars.ml" 116 3356 3473
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 116 3356 3400 "asmir_vars.ml" 116 3356 3474
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 116 3356 3390 "asmir_vars.ml" 116 3356 3475
+type(
+  int -> string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 116 3356 3376 "asmir_vars.ml" 116 3356 3476
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) array
+)
+"asmir_vars.ml" 116 3356 3362 "asmir_vars.ml" 116 3356 3476
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 117 3477 3481 "asmir_vars.ml" 117 3477 3482
+type(
+  (string * (string * int * Type.typ)) list ->
+  (string * (string * int * Type.typ)) list ->
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"asmir_vars.ml" 117 3477 3483 "asmir_vars.ml" 117 3477 3496
+type(
+  (string * (string * int * Type.typ)) array ->
+  (string * (string * int * Type.typ)) list
+)
+ident(
+  ext_ref Array.to_list
+)
+"asmir_vars.ml" 117 3477 3498 "asmir_vars.ml" 117 3477 3508
+type(
+  int ->
+  (int -> string * (string * int * Type.typ)) ->
+  (string * (string * int * Type.typ)) array
+)
+ident(
+  ext_ref Array.init
+)
+"asmir_vars.ml" 117 3477 3509 "asmir_vars.ml" 117 3477 3510
+type(
+  int
+)
+"asmir_vars.ml" 117 3477 3516 "asmir_vars.ml" 117 3477 3517
+type(
+  int
+)
+ident(
+  def i "asmir_vars.ml" 117 3477 3521 "asmir_vars.ml" 117 3477 3595
+)
+"asmir_vars.ml" 117 3477 3522 "asmir_vars.ml" 117 3477 3536
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 117 3477 3537 "asmir_vars.ml" 117 3477 3545
+type(
+  (int -> string, unit, string) format
+)
+"asmir_vars.ml" 117 3477 3547 "asmir_vars.ml" 117 3477 3548
+type(
+  int
+)
+ident(
+  int_ref i "asmir_vars.ml" 117 3477 3516 "asmir_vars.ml" 117 3477 3517
+)
+"asmir_vars.ml" 117 3477 3548 "asmir_vars.ml" 117 3477 3549
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"asmir_vars.ml" 117 3477 3549 "asmir_vars.ml" 117 3477 3550
+type(
+  int
+)
+"asmir_vars.ml" 117 3477 3546 "asmir_vars.ml" 117 3477 3551
+type(
+  int
+)
+"asmir_vars.ml" 117 3477 3522 "asmir_vars.ml" 117 3477 3551
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 117 3477 3554 "asmir_vars.ml" 117 3477 3568
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"asmir_vars.ml" 117 3477 3569 "asmir_vars.ml" 117 3477 3576
+type(
+  (int -> string, unit, string) format
+)
+"asmir_vars.ml" 117 3477 3578 "asmir_vars.ml" 117 3477 3579
+type(
+  int
+)
+ident(
+  int_ref i "asmir_vars.ml" 117 3477 3516 "asmir_vars.ml" 117 3477 3517
+)
+"asmir_vars.ml" 117 3477 3579 "asmir_vars.ml" 117 3477 3580
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"asmir_vars.ml" 117 3477 3580 "asmir_vars.ml" 117 3477 3581
+type(
+  int
+)
+"asmir_vars.ml" 117 3477 3577 "asmir_vars.ml" 117 3477 3582
+type(
+  int
+)
+"asmir_vars.ml" 117 3477 3554 "asmir_vars.ml" 117 3477 3582
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_vars.ml" 117 3477 3584 "asmir_vars.ml" 117 3477 3585
+type(
+  int
+)
+"asmir_vars.ml" 117 3477 3591 "asmir_vars.ml" 117 3477 3593
+type(
+  int
+)
+"asmir_vars.ml" 117 3477 3587 "asmir_vars.ml" 117 3477 3593
+type(
+  Type.typ
+)
+"asmir_vars.ml" 117 3477 3553 "asmir_vars.ml" 117 3477 3594
+type(
+  string * int * Type.typ
+)
+"asmir_vars.ml" 117 3477 3521 "asmir_vars.ml" 117 3477 3595
+type(
+  string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 117 3477 3511 "asmir_vars.ml" 117 3477 3596
+type(
+  int -> string * (string * int * Type.typ)
+)
+"asmir_vars.ml" 117 3477 3497 "asmir_vars.ml" 117 3477 3597
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) array
+)
+"asmir_vars.ml" 117 3477 3483 "asmir_vars.ml" 117 3477 3597
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 116 3356 3362 "asmir_vars.ml" 117 3477 3597
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 115 3235 3241 "asmir_vars.ml" 117 3477 3597
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 114 3118 3124 "asmir_vars.ml" 117 3477 3597
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 113 3000 3006 "asmir_vars.ml" 117 3477 3597
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 48 844 846 "asmir_vars.ml" 117 3477 3597
+call(
+  stack
+)
+type(
+  (string * (string * int * Type.typ)) list
+)
+"asmir_vars.ml" 119 3599 3603 "asmir_vars.ml" 119 3599 3615
+type(
+  Var.t list
+)
+ident(
+  def x86_all_regs "asmir_vars.ml" 120 3649 3649 --
+)
+"asmir_vars.ml" 119 3599 3618 "asmir_vars.ml" 119 3599 3625
+type(
+  Var.t
+)
+ident(
+  int_ref x86_mem "asmir_vars.ml" 9 149 153 "asmir_vars.ml" 9 149 160
+)
+"asmir_vars.ml" 119 3599 3629 "asmir_vars.ml" 119 3599 3637
+type(
+  Var.t list
+)
+ident(
+  int_ref x86_regs "asmir_vars.ml" 5 35 39 "asmir_vars.ml" 5 35 47
+)
+"asmir_vars.ml" 119 3599 3618 "asmir_vars.ml" 119 3599 3637
+type(
+  Var.t list
+)
+"asmir_vars.ml" 119 3599 3638 "asmir_vars.ml" 119 3599 3639
+type(
+  Var.t list -> Var.t list -> Var.t list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"asmir_vars.ml" 119 3599 3640 "asmir_vars.ml" 119 3599 3648
+type(
+  Var.t list
+)
+ident(
+  int_ref arm_regs "asmir_vars.ml" 22 487 491 "asmir_vars.ml" 22 487 499
+)
+"asmir_vars.ml" 119 3599 3618 "asmir_vars.ml" 119 3599 3648
+call(
+  stack
+)
+type(
+  Var.t list
+)
+"asmir_vars.ml" 120 3649 3653 "asmir_vars.ml" 120 3649 3665
+type(
+  Var.t list
+)
+ident(
+  def x64_all_regs "asmir_vars.ml" 121 3688 3688 --
+)
+"asmir_vars.ml" 120 3649 3668 "asmir_vars.ml" 120 3649 3675
+type(
+  Var.t
+)
+ident(
+  int_ref x64_mem "asmir_vars.ml" 10 183 187 "asmir_vars.ml" 10 183 194
+)
+"asmir_vars.ml" 120 3649 3679 "asmir_vars.ml" 120 3649 3687
+type(
+  Var.t list
+)
+ident(
+  int_ref x64_regs "asmir_vars.ml" 6 71 75 "asmir_vars.ml" 6 71 83
+)
+"asmir_vars.ml" 120 3649 3668 "asmir_vars.ml" 120 3649 3687
+type(
+  Var.t list
+)
+"asmir_vars.ml" 121 3688 3692 "asmir_vars.ml" 121 3688 3710
+type(
+  Var.t list
+)
+ident(
+  def multiarch_all_regs "asmir_vars.ml" 121 3688 3744 --
+)
+"asmir_vars.ml" 121 3688 3713 "asmir_vars.ml" 121 3688 3720
+type(
+  Var.t
+)
+ident(
+  int_ref x64_mem "asmir_vars.ml" 10 183 187 "asmir_vars.ml" 10 183 194
+)
+"asmir_vars.ml" 121 3688 3724 "asmir_vars.ml" 121 3688 3731
+type(
+  Var.t
+)
+ident(
+  int_ref x86_mem "asmir_vars.ml" 9 149 153 "asmir_vars.ml" 9 149 160
+)
+"asmir_vars.ml" 121 3688 3735 "asmir_vars.ml" 121 3688 3744
+type(
+  Var.t list
+)
+ident(
+  int_ref full_regs "asmir_vars.ml" 7 110 114 "asmir_vars.ml" 7 110 123
+)
+"asmir_vars.ml" 121 3688 3724 "asmir_vars.ml" 121 3688 3744
+type(
+  Var.t list
+)
+"asmir_vars.ml" 121 3688 3713 "asmir_vars.ml" 121 3688 3744
+type(
+  Var.t list
+)

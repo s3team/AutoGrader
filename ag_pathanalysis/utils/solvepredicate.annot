@@ -1,0 +1,938 @@
+"solvepredicate.ml" 8 86 90 "solvepredicate.ml" 8 86 95
+type(
+  string
+)
+ident(
+  def usage "solvepredicate.ml" 11 188 188 --
+)
+"solvepredicate.ml" 8 86 98 "solvepredicate.ml" 8 86 107
+type(
+  string
+)
+"solvepredicate.ml" 8 86 107 "solvepredicate.ml" 8 86 108
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"solvepredicate.ml" 8 86 108 "solvepredicate.ml" 8 86 116
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"solvepredicate.ml" 8 86 118 "solvepredicate.ml" 8 86 119
+type(
+  int
+)
+"solvepredicate.ml" 8 86 108 "solvepredicate.ml" 8 86 120
+type(
+  string
+)
+"solvepredicate.ml" 8 86 120 "solvepredicate.ml" 8 86 121
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"solvepredicate.ml" 8 86 121 "solvepredicate.ml" 9 156 186
+type(
+  string
+)
+"solvepredicate.ml" 8 86 108 "solvepredicate.ml" 9 156 186
+call(
+  stack
+)
+type(
+  string
+)
+"solvepredicate.ml" 8 86 98 "solvepredicate.ml" 9 156 186
+call(
+  stack
+)
+type(
+  string
+)
+"solvepredicate.ml" 11 188 192 "solvepredicate.ml" 11 188 197
+type(
+  string option ref
+)
+ident(
+  def fname "solvepredicate.ml" 12 209 209 --
+)
+"solvepredicate.ml" 11 188 200 "solvepredicate.ml" 11 188 203
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"solvepredicate.ml" 11 188 204 "solvepredicate.ml" 11 188 208
+type(
+  string option
+)
+"solvepredicate.ml" 11 188 200 "solvepredicate.ml" 11 188 208
+type(
+  string option ref
+)
+"solvepredicate.ml" 12 209 213 "solvepredicate.ml" 12 209 219
+type(
+  Smtexec.smtexec ref
+)
+ident(
+  def solver "solvepredicate.ml" 14 246 246 --
+)
+"solvepredicate.ml" 12 209 222 "solvepredicate.ml" 12 209 225
+type(
+  Smtexec.smtexec -> Smtexec.smtexec ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"solvepredicate.ml" 12 209 226 "solvepredicate.ml" 12 209 242
+type(
+  Smtexec.smtexec
+)
+ident(
+  ext_ref Smtexec.STP.si
+)
+"solvepredicate.ml" 12 209 222 "solvepredicate.ml" 12 209 242
+type(
+  Smtexec.smtexec ref
+)
+"solvepredicate.ml" 14 246 250 "solvepredicate.ml" 14 246 260
+type(
+  string -> unit
+)
+ident(
+  def set_solver "solvepredicate.ml" 19 363 363 --
+)
+"solvepredicate.ml" 14 246 261 "solvepredicate.ml" 14 246 262
+type(
+  string
+)
+ident(
+  def s "solvepredicate.ml" 15 265 267 "solvepredicate.ml" 17 332 361
+)
+"solvepredicate.ml" 15 265 267 "solvepredicate.ml" 15 265 273
+type(
+  Smtexec.smtexec ref
+)
+ident(
+  int_ref solver "solvepredicate.ml" 12 209 213 "solvepredicate.ml" 12 209 219
+)
+"solvepredicate.ml" 15 265 274 "solvepredicate.ml" 15 265 276
+type(
+  Smtexec.smtexec ref -> Smtexec.smtexec -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"solvepredicate.ml" 15 265 281 "solvepredicate.ml" 15 265 293
+type(
+  (string, Smtexec.smtexec) Hashtbl.t -> string -> Smtexec.smtexec
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"solvepredicate.ml" 15 265 294 "solvepredicate.ml" 15 265 309
+type(
+  (string, Smtexec.smtexec) Hashtbl.t
+)
+ident(
+  ext_ref Smtexec.solvers
+)
+"solvepredicate.ml" 15 265 310 "solvepredicate.ml" 15 265 311
+type(
+  string
+)
+ident(
+  int_ref s "solvepredicate.ml" 14 246 261 "solvepredicate.ml" 14 246 262
+)
+"solvepredicate.ml" 15 265 281 "solvepredicate.ml" 15 265 311
+call(
+  stack
+)
+type(
+  Smtexec.smtexec
+)
+"solvepredicate.ml" 16 312 319 "solvepredicate.ml" 16 312 328
+type(
+  exn
+)
+"solvepredicate.ml" 17 332 336 "solvepredicate.ml" 17 332 344
+type(
+  string -> Smtexec.smtexec
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"solvepredicate.ml" 17 332 345 "solvepredicate.ml" 17 332 361
+type(
+  string
+)
+"solvepredicate.ml" 17 332 336 "solvepredicate.ml" 17 332 361
+call(
+  stack
+)
+type(
+  Smtexec.smtexec
+)
+"solvepredicate.ml" 15 265 277 "solvepredicate.ml" 17 332 361
+type(
+  Smtexec.smtexec
+)
+"solvepredicate.ml" 15 265 267 "solvepredicate.ml" 17 332 361
+type(
+  unit
+)
+"solvepredicate.ml" 19 363 367 "solvepredicate.ml" 19 363 374
+type(
+  string
+)
+ident(
+  def solvers "solvepredicate.ml" 21 437 437 --
+)
+"solvepredicate.ml" 19 363 377 "solvepredicate.ml" 19 363 389
+type(
+  (string -> Smtexec.smtexec -> string -> string) ->
+  (string, Smtexec.smtexec) Hashtbl.t -> string -> string
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"solvepredicate.ml" 19 363 395 "solvepredicate.ml" 19 363 396
+type(
+  string
+)
+ident(
+  def k "solvepredicate.ml" 19 363 397 "solvepredicate.ml" 19 363 415
+)
+"solvepredicate.ml" 19 363 397 "solvepredicate.ml" 19 363 398
+type(
+  Smtexec.smtexec
+)
+"solvepredicate.ml" 19 363 399 "solvepredicate.ml" 19 363 400
+type(
+  string
+)
+ident(
+  def s "solvepredicate.ml" 19 363 404 "solvepredicate.ml" 19 363 415
+)
+"solvepredicate.ml" 19 363 404 "solvepredicate.ml" 19 363 405
+type(
+  string
+)
+ident(
+  int_ref k "solvepredicate.ml" 19 363 395 "solvepredicate.ml" 19 363 396
+)
+"solvepredicate.ml" 19 363 406 "solvepredicate.ml" 19 363 407
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"solvepredicate.ml" 19 363 408 "solvepredicate.ml" 19 363 411
+type(
+  string
+)
+"solvepredicate.ml" 19 363 412 "solvepredicate.ml" 19 363 413
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"solvepredicate.ml" 19 363 414 "solvepredicate.ml" 19 363 415
+type(
+  string
+)
+ident(
+  int_ref s "solvepredicate.ml" 19 363 399 "solvepredicate.ml" 19 363 400
+)
+"solvepredicate.ml" 19 363 408 "solvepredicate.ml" 19 363 415
+call(
+  stack
+)
+type(
+  string
+)
+"solvepredicate.ml" 19 363 404 "solvepredicate.ml" 19 363 415
+call(
+  tail
+)
+type(
+  string
+)
+"solvepredicate.ml" 19 363 390 "solvepredicate.ml" 19 363 416
+type(
+  string -> Smtexec.smtexec -> string -> string
+)
+"solvepredicate.ml" 19 363 417 "solvepredicate.ml" 19 363 432
+type(
+  (string, Smtexec.smtexec) Hashtbl.t
+)
+ident(
+  ext_ref Smtexec.solvers
+)
+"solvepredicate.ml" 19 363 433 "solvepredicate.ml" 19 363 435
+type(
+  string
+)
+"solvepredicate.ml" 19 363 377 "solvepredicate.ml" 19 363 435
+call(
+  stack
+)
+type(
+  string
+)
+"solvepredicate.ml" 21 437 441 "solvepredicate.ml" 21 437 449
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def speclist "solvepredicate.ml" 26 552 552 --
+)
+"solvepredicate.ml" 22 452 455 "solvepredicate.ml" 22 452 464
+type(
+  string
+)
+"solvepredicate.ml" 22 452 477 "solvepredicate.ml" 22 452 487
+type(
+  string -> unit
+)
+ident(
+  int_ref set_solver "solvepredicate.ml" 14 246 250 "solvepredicate.ml" 14 246 260
+)
+"solvepredicate.ml" 22 452 466 "solvepredicate.ml" 22 452 487
+type(
+  Arg.spec
+)
+"solvepredicate.ml" 23 489 493 "solvepredicate.ml" 23 489 530
+type(
+  string
+)
+"solvepredicate.ml" 23 489 531 "solvepredicate.ml" 23 489 532
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"solvepredicate.ml" 23 489 533 "solvepredicate.ml" 23 489 540
+type(
+  string
+)
+ident(
+  int_ref solvers "solvepredicate.ml" 19 363 367 "solvepredicate.ml" 19 363 374
+)
+"solvepredicate.ml" 23 489 492 "solvepredicate.ml" 23 489 541
+call(
+  stack
+)
+type(
+  string
+)
+"solvepredicate.ml" 22 452 454 "solvepredicate.ml" 23 489 542
+type(
+  string * Arg.spec * string
+)
+"solvepredicate.ml" 24 543 548 "solvepredicate.ml" 24 543 550
+type(
+  (string * Arg.spec * string) list
+)
+"solvepredicate.ml" 22 452 454 "solvepredicate.ml" 24 543 550
+type(
+  (string * Arg.spec * string) list
+)
+"solvepredicate.ml" 26 552 556 "solvepredicate.ml" 26 552 558
+type(
+  unit
+)
+"solvepredicate.ml" 26 552 561 "solvepredicate.ml" 26 552 574
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Tunegc.set_gc
+)
+"solvepredicate.ml" 26 552 575 "solvepredicate.ml" 26 552 577
+type(
+  unit
+)
+"solvepredicate.ml" 26 552 561 "solvepredicate.ml" 26 552 577
+call(
+  stack
+)
+type(
+  unit
+)
+"solvepredicate.ml" 27 578 582 "solvepredicate.ml" 27 578 586
+type(
+  string -> unit
+)
+ident(
+  def anon "solvepredicate.ml" 31 700 700 --
+)
+"solvepredicate.ml" 27 578 587 "solvepredicate.ml" 27 578 588
+type(
+  string
+)
+ident(
+  def x "solvepredicate.ml" 28 591 593 "solvepredicate.ml" 30 639 699
+)
+"solvepredicate.ml" 28 591 599 "solvepredicate.ml" 28 591 600
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"solvepredicate.ml" 28 591 600 "solvepredicate.ml" 28 591 605
+type(
+  string option ref
+)
+ident(
+  int_ref fname "solvepredicate.ml" 11 188 192 "solvepredicate.ml" 11 188 197
+)
+"solvepredicate.ml" 28 591 599 "solvepredicate.ml" 28 591 605
+type(
+  string option
+)
+"solvepredicate.ml" 29 611 615 "solvepredicate.ml" 29 611 619
+type(
+  string option
+)
+"solvepredicate.ml" 29 611 623 "solvepredicate.ml" 29 611 628
+type(
+  string option ref
+)
+ident(
+  int_ref fname "solvepredicate.ml" 11 188 192 "solvepredicate.ml" 11 188 197
+)
+"solvepredicate.ml" 29 611 629 "solvepredicate.ml" 29 611 631
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"solvepredicate.ml" 29 611 637 "solvepredicate.ml" 29 611 638
+type(
+  string
+)
+ident(
+  int_ref x "solvepredicate.ml" 27 578 587 "solvepredicate.ml" 27 578 588
+)
+"solvepredicate.ml" 29 611 632 "solvepredicate.ml" 29 611 638
+type(
+  string option
+)
+"solvepredicate.ml" 29 611 623 "solvepredicate.ml" 29 611 638
+type(
+  unit
+)
+"solvepredicate.ml" 30 639 648 "solvepredicate.ml" 30 639 649
+type(
+  string
+)
+"solvepredicate.ml" 30 639 643 "solvepredicate.ml" 30 639 649
+type(
+  string option
+)
+"solvepredicate.ml" 30 639 653 "solvepredicate.ml" 30 639 658
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"solvepredicate.ml" 30 639 667 "solvepredicate.ml" 30 639 691
+type(
+  string
+)
+"solvepredicate.ml" 30 639 691 "solvepredicate.ml" 30 639 692
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"solvepredicate.ml" 30 639 692 "solvepredicate.ml" 30 639 693
+type(
+  string
+)
+ident(
+  int_ref x "solvepredicate.ml" 27 578 587 "solvepredicate.ml" 27 578 588
+)
+"solvepredicate.ml" 30 639 693 "solvepredicate.ml" 30 639 694
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"solvepredicate.ml" 30 639 694 "solvepredicate.ml" 30 639 697
+type(
+  string
+)
+"solvepredicate.ml" 30 639 692 "solvepredicate.ml" 30 639 697
+call(
+  stack
+)
+type(
+  string
+)
+"solvepredicate.ml" 30 639 666 "solvepredicate.ml" 30 639 698
+call(
+  stack
+)
+type(
+  string
+)
+"solvepredicate.ml" 30 639 658 "solvepredicate.ml" 30 639 699
+type(
+  exn
+)
+"solvepredicate.ml" 30 639 653 "solvepredicate.ml" 30 639 699
+type(
+  unit
+)
+"solvepredicate.ml" 28 591 593 "solvepredicate.ml" 30 639 699
+type(
+  unit
+)
+"solvepredicate.ml" 31 700 704 "solvepredicate.ml" 31 700 706
+type(
+  unit
+)
+"solvepredicate.ml" 32 709 715 "solvepredicate.ml" 32 709 724
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"solvepredicate.ml" 32 709 725 "solvepredicate.ml" 32 709 733
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "solvepredicate.ml" 21 437 441 "solvepredicate.ml" 21 437 449
+)
+"solvepredicate.ml" 32 709 734 "solvepredicate.ml" 32 709 738
+type(
+  Arg.anon_fun
+)
+ident(
+  int_ref anon "solvepredicate.ml" 27 578 582 "solvepredicate.ml" 27 578 586
+)
+"solvepredicate.ml" 32 709 739 "solvepredicate.ml" 32 709 744
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "solvepredicate.ml" 8 86 90 "solvepredicate.ml" 8 86 95
+)
+"solvepredicate.ml" 32 709 715 "solvepredicate.ml" 32 709 744
+call(
+  stack
+)
+type(
+  unit
+)
+"solvepredicate.ml" 33 746 758 "solvepredicate.ml" 33 746 759
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"solvepredicate.ml" 33 746 759 "solvepredicate.ml" 33 746 764
+type(
+  string option ref
+)
+ident(
+  int_ref fname "solvepredicate.ml" 11 188 192 "solvepredicate.ml" 11 188 197
+)
+"solvepredicate.ml" 33 746 758 "solvepredicate.ml" 33 746 764
+type(
+  string option
+)
+"solvepredicate.ml" 34 770 778 "solvepredicate.ml" 34 770 782
+type(
+  string option
+)
+"solvepredicate.ml" 34 770 786 "solvepredicate.ml" 34 770 791
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"solvepredicate.ml" 34 770 799 "solvepredicate.ml" 34 770 830
+type(
+  string
+)
+"solvepredicate.ml" 34 770 791 "solvepredicate.ml" 34 770 831
+type(
+  exn
+)
+"solvepredicate.ml" 34 770 786 "solvepredicate.ml" 34 770 831
+type(
+  unit
+)
+"solvepredicate.ml" 35 832 845 "solvepredicate.ml" 35 832 846
+type(
+  string
+)
+"solvepredicate.ml" 35 832 840 "solvepredicate.ml" 35 832 846
+type(
+  string option
+)
+"solvepredicate.ml" 35 832 850 "solvepredicate.ml" 35 832 852
+type(
+  unit
+)
+"solvepredicate.ml" 33 746 752 "solvepredicate.ml" 35 832 852
+type(
+  unit
+)
+"solvepredicate.ml" 32 709 715 "solvepredicate.ml" 35 832 852
+type(
+  unit
+)
+"solvepredicate.ml" 36 853 868 "solvepredicate.ml" 36 853 869
+type(
+  string
+)
+ident(
+  def s "solvepredicate.ml" 37 873 877 "solvepredicate.ml" 38 912 922
+)
+"solvepredicate.ml" 36 853 860 "solvepredicate.ml" 36 853 869
+type(
+  exn
+)
+"solvepredicate.ml" 37 873 877 "solvepredicate.ml" 37 873 886
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.usage
+)
+"solvepredicate.ml" 37 873 887 "solvepredicate.ml" 37 873 895
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "solvepredicate.ml" 21 437 441 "solvepredicate.ml" 21 437 449
+)
+"solvepredicate.ml" 37 873 897 "solvepredicate.ml" 37 873 898
+type(
+  string
+)
+ident(
+  int_ref s "solvepredicate.ml" 36 853 868 "solvepredicate.ml" 36 853 869
+)
+"solvepredicate.ml" 37 873 898 "solvepredicate.ml" 37 873 899
+type(
+  string -> string -> Arg.usage_msg
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"solvepredicate.ml" 37 873 899 "solvepredicate.ml" 37 873 903
+type(
+  string
+)
+"solvepredicate.ml" 37 873 903 "solvepredicate.ml" 37 873 904
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"solvepredicate.ml" 37 873 904 "solvepredicate.ml" 37 873 909
+type(
+  string
+)
+ident(
+  int_ref usage "solvepredicate.ml" 8 86 90 "solvepredicate.ml" 8 86 95
+)
+"solvepredicate.ml" 37 873 899 "solvepredicate.ml" 37 873 909
+call(
+  stack
+)
+type(
+  string
+)
+"solvepredicate.ml" 37 873 896 "solvepredicate.ml" 37 873 910
+call(
+  stack
+)
+type(
+  Arg.usage_msg
+)
+"solvepredicate.ml" 37 873 877 "solvepredicate.ml" 37 873 910
+call(
+  stack
+)
+type(
+  unit
+)
+"solvepredicate.ml" 38 912 916 "solvepredicate.ml" 38 912 920
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"solvepredicate.ml" 38 912 921 "solvepredicate.ml" 38 912 922
+type(
+  int
+)
+"solvepredicate.ml" 38 912 916 "solvepredicate.ml" 38 912 922
+call(
+  stack
+)
+type(
+  unit
+)
+"solvepredicate.ml" 37 873 877 "solvepredicate.ml" 38 912 922
+type(
+  unit
+)
+"solvepredicate.ml" 32 709 711 "solvepredicate.ml" 38 912 922
+type(
+  unit
+)
+"solvepredicate.ml" 41 927 927 "solvepredicate.ml" 41 927 941
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"solvepredicate.ml" 41 927 942 "solvepredicate.ml" 41 927 948
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"solvepredicate.ml" 41 927 949 "solvepredicate.ml" 41 927 960
+type(
+  (unit, out_channel, unit) format
+)
+"solvepredicate.ml" 41 927 927 "solvepredicate.ml" 41 927 960
+call(
+  stack
+)
+type(
+  unit
+)
+"solvepredicate.ml" 41 927 962 "solvepredicate.ml" 41 927 967
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"solvepredicate.ml" 41 927 968 "solvepredicate.ml" 41 927 974
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"solvepredicate.ml" 41 927 962 "solvepredicate.ml" 41 927 974
+call(
+  stack
+)
+type(
+  unit
+)
+"solvepredicate.ml" 42 976 980 "solvepredicate.ml" 42 976 981
+type(
+  Smtexec.result
+)
+ident(
+  def r "solvepredicate.ml" 43 1054 1054 "solvepredicate.ml" 44 1127 1197
+)
+"solvepredicate.ml" 42 976 985 "solvepredicate.ml" 42 976 986
+type(
+  Smtexec.smtexec ref -> Smtexec.smtexec
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"solvepredicate.ml" 42 976 986 "solvepredicate.ml" 42 976 992
+type(
+  Smtexec.smtexec ref
+)
+ident(
+  int_ref solver "solvepredicate.ml" 12 209 213 "solvepredicate.ml" 12 209 219
+)
+"solvepredicate.ml" 42 976 984 "solvepredicate.ml" 42 976 993
+type(
+  Smtexec.smtexec
+)
+"solvepredicate.ml" 42 976 984 "solvepredicate.ml" 42 976 1012
+call(
+  stack
+)
+type(
+  ?timeout:int -> ?remove:bool -> ?getmodel:bool -> string -> Smtexec.result
+)
+"solvepredicate.ml" 42 976 1023 "solvepredicate.ml" 42 976 1027
+type(
+  bool
+)
+"solvepredicate.ml" 42 976 1029 "solvepredicate.ml" 42 976 1042
+type(
+  string option -> string
+)
+ident(
+  ext_ref BatOption.get
+)
+"solvepredicate.ml" 42 976 1043 "solvepredicate.ml" 42 976 1044
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"solvepredicate.ml" 42 976 1044 "solvepredicate.ml" 42 976 1049
+type(
+  string option ref
+)
+ident(
+  int_ref fname "solvepredicate.ml" 11 188 192 "solvepredicate.ml" 11 188 197
+)
+"solvepredicate.ml" 42 976 1043 "solvepredicate.ml" 42 976 1049
+type(
+  string option
+)
+"solvepredicate.ml" 42 976 1028 "solvepredicate.ml" 42 976 1050
+call(
+  stack
+)
+type(
+  string
+)
+"solvepredicate.ml" 42 976 984 "solvepredicate.ml" 42 976 1050
+type(
+  Smtexec.result
+)
+"solvepredicate.ml" 43 1054 1054 "solvepredicate.ml" 43 1054 1068
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"solvepredicate.ml" 43 1054 1069 "solvepredicate.ml" 43 1054 1075
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"solvepredicate.ml" 43 1054 1076 "solvepredicate.ml" 43 1054 1096
+type(
+  (string -> unit, out_channel, unit) format
+)
+"solvepredicate.ml" 43 1054 1098 "solvepredicate.ml" 43 1054 1122
+type(
+  Smtexec.result -> string
+)
+ident(
+  ext_ref Smtexec.result_to_string
+)
+"solvepredicate.ml" 43 1054 1123 "solvepredicate.ml" 43 1054 1124
+type(
+  Smtexec.result
+)
+ident(
+  int_ref r "solvepredicate.ml" 42 976 980 "solvepredicate.ml" 42 976 981
+)
+"solvepredicate.ml" 43 1054 1097 "solvepredicate.ml" 43 1054 1125
+call(
+  stack
+)
+type(
+  string
+)
+"solvepredicate.ml" 43 1054 1054 "solvepredicate.ml" 43 1054 1125
+call(
+  stack
+)
+type(
+  unit
+)
+"solvepredicate.ml" 44 1127 1133 "solvepredicate.ml" 44 1127 1134
+type(
+  Smtexec.result
+)
+ident(
+  int_ref r "solvepredicate.ml" 42 976 980 "solvepredicate.ml" 42 976 981
+)
+"solvepredicate.ml" 44 1127 1159 "solvepredicate.ml" 44 1127 1160
+type(
+  string
+)
+"solvepredicate.ml" 44 1127 1142 "solvepredicate.ml" 44 1127 1160
+type(
+  Smtexec.result
+)
+"solvepredicate.ml" 44 1127 1164 "solvepredicate.ml" 44 1127 1172
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"solvepredicate.ml" 44 1127 1173 "solvepredicate.ml" 44 1127 1187
+type(
+  string
+)
+"solvepredicate.ml" 44 1127 1164 "solvepredicate.ml" 44 1127 1187
+call(
+  stack
+)
+type(
+  unit
+)
+"solvepredicate.ml" 44 1127 1190 "solvepredicate.ml" 44 1127 1191
+type(
+  Smtexec.result
+)
+"solvepredicate.ml" 44 1127 1195 "solvepredicate.ml" 44 1127 1197
+type(
+  unit
+)
+"solvepredicate.ml" 44 1127 1127 "solvepredicate.ml" 44 1127 1197
+type(
+  unit
+)
+"solvepredicate.ml" 43 1054 1054 "solvepredicate.ml" 44 1127 1197
+type(
+  unit
+)
+"solvepredicate.ml" 42 976 976 "solvepredicate.ml" 44 1127 1197
+type(
+  unit
+)
+"solvepredicate.ml" 41 927 962 "solvepredicate.ml" 44 1127 1197
+type(
+  unit
+)
+"solvepredicate.ml" 41 927 927 "solvepredicate.ml" 44 1127 1197
+type(
+  unit
+)

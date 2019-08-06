@@ -1,0 +1,752 @@
+"src/contraction.ml" 40 1771 1784 "src/contraction.ml" 40 1771 1797
+call(
+  stack
+)
+"src/contraction.ml" 41 1798 1811 "src/contraction.ml" 41 1798 1824
+call(
+  stack
+)
+"src/contraction.ml" 43 1826 1832 "src/contraction.ml" 43 1826 1840
+type(
+  (G.edge -> bool) -> G.t -> G.t
+)
+ident(
+  def contract "src/contraction.ml" 76 3063 3099 "src/contraction.ml" 78 3101 3104
+)
+"src/contraction.ml" 43 1826 1841 "src/contraction.ml" 43 1826 1845
+type(
+  G.edge -> bool
+)
+ident(
+  def prop "src/contraction.ml" 43 1826 1846 "src/contraction.ml" 76 3063 3099
+)
+"src/contraction.ml" 43 1826 1846 "src/contraction.ml" 43 1826 1847
+type(
+  G.t
+)
+ident(
+  def g "src/contraction.ml" 47 2030 2034 "src/contraction.ml" 76 3063 3099
+)
+"src/contraction.ml" 47 2030 2038 "src/contraction.ml" 47 2030 2039
+type(
+  G.edge -> S.t M.t -> S.t M.t
+)
+"src/contraction.ml" 47 2030 2040 "src/contraction.ml" 47 2030 2044
+type(
+  G.edge
+)
+ident(
+  def edge "src/contraction.ml" 47 2030 2045 "src/contraction.ml" 53 2256 2265
+)
+"src/contraction.ml" 47 2030 2045 "src/contraction.ml" 47 2030 2046
+type(
+  S.t M.t
+)
+ident(
+  def m "src/contraction.ml" 48 2049 2055 "src/contraction.ml" 53 2256 2265
+)
+"src/contraction.ml" 48 2049 2058 "src/contraction.ml" 48 2049 2062
+type(
+  G.edge -> bool
+)
+ident(
+  int_ref prop "src/contraction.ml" 43 1826 1841 "src/contraction.ml" 43 1826 1845
+)
+"src/contraction.ml" 48 2049 2063 "src/contraction.ml" 48 2049 2067
+type(
+  G.edge
+)
+ident(
+  int_ref edge "src/contraction.ml" 47 2030 2040 "src/contraction.ml" 47 2030 2044
+)
+"src/contraction.ml" 48 2049 2058 "src/contraction.ml" 48 2049 2067
+call(
+  stack
+)
+type(
+  bool
+)
+"src/contraction.ml" 49 2073 2085 "src/contraction.ml" 49 2073 2090
+type(
+  S.t
+)
+ident(
+  def s_src "src/contraction.ml" 50 2152 2160 "src/contraction.ml" 51 2191 2244
+)
+"src/contraction.ml" 49 2073 2092 "src/contraction.ml" 49 2073 2097
+type(
+  S.t
+)
+ident(
+  def s_dst "src/contraction.ml" 50 2152 2160 "src/contraction.ml" 51 2191 2244
+)
+"src/contraction.ml" 49 2073 2085 "src/contraction.ml" 49 2073 2097
+type(
+  S.t * S.t
+)
+"src/contraction.ml" 49 2073 2100 "src/contraction.ml" 49 2073 2106
+type(
+  M.key -> S.t M.t -> S.t
+)
+ident(
+  ext_ref M.find
+)
+"src/contraction.ml" 49 2073 2108 "src/contraction.ml" 49 2073 2115
+type(
+  G.edge -> G.E.vertex
+)
+ident(
+  ext_ref G.E.src
+)
+"src/contraction.ml" 49 2073 2116 "src/contraction.ml" 49 2073 2120
+type(
+  G.edge
+)
+ident(
+  int_ref edge "src/contraction.ml" 47 2030 2040 "src/contraction.ml" 47 2030 2044
+)
+"src/contraction.ml" 49 2073 2107 "src/contraction.ml" 49 2073 2121
+call(
+  stack
+)
+type(
+  G.E.vertex
+)
+"src/contraction.ml" 49 2073 2122 "src/contraction.ml" 49 2073 2123
+type(
+  S.t M.t
+)
+ident(
+  int_ref m "src/contraction.ml" 47 2030 2045 "src/contraction.ml" 47 2030 2046
+)
+"src/contraction.ml" 49 2073 2100 "src/contraction.ml" 49 2073 2123
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/contraction.ml" 49 2073 2125 "src/contraction.ml" 49 2073 2131
+type(
+  M.key -> S.t M.t -> S.t
+)
+ident(
+  ext_ref M.find
+)
+"src/contraction.ml" 49 2073 2133 "src/contraction.ml" 49 2073 2140
+type(
+  G.edge -> G.E.vertex
+)
+ident(
+  ext_ref G.E.dst
+)
+"src/contraction.ml" 49 2073 2141 "src/contraction.ml" 49 2073 2145
+type(
+  G.edge
+)
+ident(
+  int_ref edge "src/contraction.ml" 47 2030 2040 "src/contraction.ml" 47 2030 2044
+)
+"src/contraction.ml" 49 2073 2132 "src/contraction.ml" 49 2073 2146
+call(
+  stack
+)
+type(
+  G.E.vertex
+)
+"src/contraction.ml" 49 2073 2147 "src/contraction.ml" 49 2073 2148
+type(
+  S.t M.t
+)
+ident(
+  int_ref m "src/contraction.ml" 47 2030 2045 "src/contraction.ml" 47 2030 2046
+)
+"src/contraction.ml" 49 2073 2125 "src/contraction.ml" 49 2073 2148
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/contraction.ml" 49 2073 2100 "src/contraction.ml" 49 2073 2148
+type(
+  S.t * S.t
+)
+"src/contraction.ml" 50 2152 2164 "src/contraction.ml" 50 2152 2165
+type(
+  S.t
+)
+ident(
+  def s "src/contraction.ml" 51 2191 2199 "src/contraction.ml" 51 2191 2244
+)
+"src/contraction.ml" 50 2152 2168 "src/contraction.ml" 50 2152 2175
+type(
+  S.t -> S.t -> S.t
+)
+ident(
+  ext_ref S.union
+)
+"src/contraction.ml" 50 2152 2176 "src/contraction.ml" 50 2152 2181
+type(
+  S.t
+)
+ident(
+  int_ref s_src "src/contraction.ml" 49 2073 2085 "src/contraction.ml" 49 2073 2090
+)
+"src/contraction.ml" 50 2152 2182 "src/contraction.ml" 50 2152 2187
+type(
+  S.t
+)
+ident(
+  int_ref s_dst "src/contraction.ml" 49 2073 2092 "src/contraction.ml" 49 2073 2097
+)
+"src/contraction.ml" 50 2152 2168 "src/contraction.ml" 50 2152 2187
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/contraction.ml" 51 2191 2199 "src/contraction.ml" 51 2191 2205
+type(
+  (S.elt -> S.t M.t -> S.t M.t) -> S.t -> S.t M.t -> S.t M.t
+)
+ident(
+  ext_ref S.fold
+)
+"src/contraction.ml" 51 2191 2211 "src/contraction.ml" 51 2191 2217
+type(
+  S.elt
+)
+ident(
+  def vertex "src/contraction.ml" 51 2191 2218 "src/contraction.ml" 51 2191 2239
+)
+"src/contraction.ml" 51 2191 2218 "src/contraction.ml" 51 2191 2219
+type(
+  S.t M.t
+)
+ident(
+  def m "src/contraction.ml" 51 2191 2223 "src/contraction.ml" 51 2191 2239
+)
+"src/contraction.ml" 51 2191 2223 "src/contraction.ml" 51 2191 2228
+type(
+  M.key -> S.t -> S.t M.t -> S.t M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/contraction.ml" 51 2191 2229 "src/contraction.ml" 51 2191 2235
+type(
+  S.elt
+)
+ident(
+  int_ref vertex "src/contraction.ml" 51 2191 2211 "src/contraction.ml" 51 2191 2217
+)
+"src/contraction.ml" 51 2191 2236 "src/contraction.ml" 51 2191 2237
+type(
+  S.t
+)
+ident(
+  int_ref s "src/contraction.ml" 50 2152 2164 "src/contraction.ml" 50 2152 2165
+)
+"src/contraction.ml" 51 2191 2238 "src/contraction.ml" 51 2191 2239
+type(
+  S.t M.t
+)
+ident(
+  int_ref m "src/contraction.ml" 51 2191 2218 "src/contraction.ml" 51 2191 2219
+)
+"src/contraction.ml" 51 2191 2223 "src/contraction.ml" 51 2191 2239
+call(
+  tail
+)
+type(
+  S.t M.t
+)
+"src/contraction.ml" 51 2191 2206 "src/contraction.ml" 51 2191 2240
+type(
+  S.elt -> S.t M.t -> S.t M.t
+)
+"src/contraction.ml" 51 2191 2241 "src/contraction.ml" 51 2191 2242
+type(
+  S.t
+)
+ident(
+  int_ref s "src/contraction.ml" 50 2152 2164 "src/contraction.ml" 50 2152 2165
+)
+"src/contraction.ml" 51 2191 2243 "src/contraction.ml" 51 2191 2244
+type(
+  S.t M.t
+)
+ident(
+  int_ref m "src/contraction.ml" 47 2030 2045 "src/contraction.ml" 47 2030 2046
+)
+"src/contraction.ml" 51 2191 2199 "src/contraction.ml" 51 2191 2244
+call(
+  tail
+)
+type(
+  S.t M.t
+)
+"src/contraction.ml" 50 2152 2160 "src/contraction.ml" 51 2191 2244
+type(
+  S.t M.t
+)
+"src/contraction.ml" 49 2073 2081 "src/contraction.ml" 51 2191 2244
+type(
+  S.t M.t
+)
+"src/contraction.ml" 53 2256 2264 "src/contraction.ml" 53 2256 2265
+type(
+  S.t M.t
+)
+ident(
+  int_ref m "src/contraction.ml" 47 2030 2045 "src/contraction.ml" 47 2030 2046
+)
+"src/contraction.ml" 48 2049 2055 "src/contraction.ml" 53 2256 2265
+type(
+  S.t M.t
+)
+"src/contraction.ml" 59 2518 2526 "src/contraction.ml" 59 2518 2529
+type(
+  S.t M.t -> G.edge -> G.t -> G.t
+)
+"src/contraction.ml" 59 2518 2530 "src/contraction.ml" 59 2518 2531
+type(
+  S.t M.t
+)
+ident(
+  def m "src/contraction.ml" 59 2518 2532 "src/contraction.ml" 66 2721 2755
+)
+"src/contraction.ml" 59 2518 2532 "src/contraction.ml" 59 2518 2536
+type(
+  G.edge
+)
+ident(
+  def edge "src/contraction.ml" 59 2518 2537 "src/contraction.ml" 66 2721 2755
+)
+"src/contraction.ml" 59 2518 2537 "src/contraction.ml" 59 2518 2538
+type(
+  G.t
+)
+ident(
+  def g "src/contraction.ml" 60 2541 2547 "src/contraction.ml" 66 2721 2755
+)
+"src/contraction.ml" 60 2541 2550 "src/contraction.ml" 60 2541 2554
+type(
+  G.edge -> bool
+)
+ident(
+  int_ref prop "src/contraction.ml" 43 1826 1841 "src/contraction.ml" 43 1826 1845
+)
+"src/contraction.ml" 60 2541 2555 "src/contraction.ml" 60 2541 2559
+type(
+  G.edge
+)
+ident(
+  int_ref edge "src/contraction.ml" 59 2518 2532 "src/contraction.ml" 59 2518 2536
+)
+"src/contraction.ml" 60 2541 2550 "src/contraction.ml" 60 2541 2559
+call(
+  stack
+)
+type(
+  bool
+)
+"src/contraction.ml" 61 2565 2573 "src/contraction.ml" 61 2565 2574
+type(
+  G.t
+)
+ident(
+  int_ref g "src/contraction.ml" 59 2518 2537 "src/contraction.ml" 59 2518 2538
+)
+"src/contraction.ml" 63 2586 2598 "src/contraction.ml" 63 2586 2604
+type(
+  M.key -> S.elt
+)
+"src/contraction.ml" 63 2586 2605 "src/contraction.ml" 63 2586 2606
+type(
+  M.key
+)
+ident(
+  def n "src/contraction.ml" 63 2586 2609 "src/contraction.ml" 63 2586 2631
+)
+"src/contraction.ml" 63 2586 2609 "src/contraction.ml" 63 2586 2618
+type(
+  S.t -> S.elt
+)
+ident(
+  ext_ref S.min_elt
+)
+"src/contraction.ml" 63 2586 2620 "src/contraction.ml" 63 2586 2626
+type(
+  M.key -> S.t M.t -> S.t
+)
+ident(
+  ext_ref M.find
+)
+"src/contraction.ml" 63 2586 2627 "src/contraction.ml" 63 2586 2628
+type(
+  M.key
+)
+ident(
+  int_ref n "src/contraction.ml" 63 2586 2605 "src/contraction.ml" 63 2586 2606
+)
+"src/contraction.ml" 63 2586 2629 "src/contraction.ml" 63 2586 2630
+type(
+  S.t M.t
+)
+ident(
+  int_ref m "src/contraction.ml" 59 2518 2530 "src/contraction.ml" 59 2518 2531
+)
+"src/contraction.ml" 63 2586 2619 "src/contraction.ml" 63 2586 2631
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/contraction.ml" 63 2586 2609 "src/contraction.ml" 63 2586 2631
+call(
+  tail
+)
+type(
+  S.elt
+)
+"src/contraction.ml" 64 2635 2643 "src/contraction.ml" 64 2635 2655
+type(
+  G.t -> G.edge -> G.t
+)
+ident(
+  ext_ref G.add_edge_e
+)
+"src/contraction.ml" 64 2635 2656 "src/contraction.ml" 64 2635 2657
+type(
+  G.t
+)
+ident(
+  int_ref g "src/contraction.ml" 59 2518 2537 "src/contraction.ml" 59 2518 2538
+)
+"src/contraction.ml" 65 2658 2669 "src/contraction.ml" 65 2658 2679
+type(
+  G.E.vertex -> G.E.label -> G.E.vertex -> G.edge
+)
+ident(
+  ext_ref G.E.create
+)
+"src/contraction.ml" 65 2658 2681 "src/contraction.ml" 65 2658 2687
+type(
+  M.key -> S.elt
+)
+ident(
+  int_ref lookup "src/contraction.ml" 63 2586 2598 "src/contraction.ml" 63 2586 2604
+)
+"src/contraction.ml" 65 2658 2689 "src/contraction.ml" 65 2658 2696
+type(
+  G.edge -> G.E.vertex
+)
+ident(
+  ext_ref G.E.src
+)
+"src/contraction.ml" 65 2658 2697 "src/contraction.ml" 65 2658 2701
+type(
+  G.edge
+)
+ident(
+  int_ref edge "src/contraction.ml" 59 2518 2532 "src/contraction.ml" 59 2518 2536
+)
+"src/contraction.ml" 65 2658 2688 "src/contraction.ml" 65 2658 2702
+call(
+  stack
+)
+type(
+  G.E.vertex
+)
+"src/contraction.ml" 65 2658 2680 "src/contraction.ml" 65 2658 2703
+call(
+  stack
+)
+type(
+  S.elt
+)
+"src/contraction.ml" 65 2658 2705 "src/contraction.ml" 65 2658 2714
+type(
+  G.edge -> G.E.label
+)
+ident(
+  ext_ref G.E.label
+)
+"src/contraction.ml" 65 2658 2715 "src/contraction.ml" 65 2658 2719
+type(
+  G.edge
+)
+ident(
+  int_ref edge "src/contraction.ml" 59 2518 2532 "src/contraction.ml" 59 2518 2536
+)
+"src/contraction.ml" 65 2658 2704 "src/contraction.ml" 65 2658 2720
+call(
+  stack
+)
+type(
+  G.E.label
+)
+"src/contraction.ml" 66 2721 2732 "src/contraction.ml" 66 2721 2738
+type(
+  M.key -> S.elt
+)
+ident(
+  int_ref lookup "src/contraction.ml" 63 2586 2598 "src/contraction.ml" 63 2586 2604
+)
+"src/contraction.ml" 66 2721 2740 "src/contraction.ml" 66 2721 2747
+type(
+  G.edge -> G.E.vertex
+)
+ident(
+  ext_ref G.E.dst
+)
+"src/contraction.ml" 66 2721 2748 "src/contraction.ml" 66 2721 2752
+type(
+  G.edge
+)
+ident(
+  int_ref edge "src/contraction.ml" 59 2518 2532 "src/contraction.ml" 59 2518 2536
+)
+"src/contraction.ml" 66 2721 2739 "src/contraction.ml" 66 2721 2753
+call(
+  stack
+)
+type(
+  G.E.vertex
+)
+"src/contraction.ml" 66 2721 2731 "src/contraction.ml" 66 2721 2754
+call(
+  stack
+)
+type(
+  S.elt
+)
+"src/contraction.ml" 65 2658 2668 "src/contraction.ml" 66 2721 2755
+call(
+  stack
+)
+type(
+  G.edge
+)
+"src/contraction.ml" 64 2635 2643 "src/contraction.ml" 66 2721 2755
+call(
+  tail
+)
+type(
+  G.t
+)
+"src/contraction.ml" 63 2586 2594 "src/contraction.ml" 66 2721 2755
+type(
+  G.t
+)
+"src/contraction.ml" 60 2541 2547 "src/contraction.ml" 66 2721 2755
+type(
+  G.t
+)
+"src/contraction.ml" 69 2835 2843 "src/contraction.ml" 69 2835 2844
+type(
+  S.t M.t
+)
+"src/contraction.ml" 70 2847 2853 "src/contraction.ml" 70 2847 2866
+type(
+  (G.vertex -> S.t M.t -> S.t M.t) -> G.t -> S.t M.t -> S.t M.t
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"src/contraction.ml" 70 2847 2872 "src/contraction.ml" 70 2847 2878
+type(
+  G.vertex
+)
+ident(
+  def vertex "src/contraction.ml" 70 2847 2879 "src/contraction.ml" 70 2847 2919
+)
+"src/contraction.ml" 70 2847 2879 "src/contraction.ml" 70 2847 2880
+type(
+  S.t M.t
+)
+ident(
+  def m "src/contraction.ml" 70 2847 2884 "src/contraction.ml" 70 2847 2919
+)
+"src/contraction.ml" 70 2847 2884 "src/contraction.ml" 70 2847 2889
+type(
+  M.key -> S.t -> S.t M.t -> S.t M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/contraction.ml" 70 2847 2890 "src/contraction.ml" 70 2847 2896
+type(
+  G.vertex
+)
+ident(
+  int_ref vertex "src/contraction.ml" 70 2847 2872 "src/contraction.ml" 70 2847 2878
+)
+"src/contraction.ml" 70 2847 2898 "src/contraction.ml" 70 2847 2909
+type(
+  S.elt -> S.t
+)
+ident(
+  ext_ref S.singleton
+)
+"src/contraction.ml" 70 2847 2910 "src/contraction.ml" 70 2847 2916
+type(
+  G.vertex
+)
+ident(
+  int_ref vertex "src/contraction.ml" 70 2847 2872 "src/contraction.ml" 70 2847 2878
+)
+"src/contraction.ml" 70 2847 2897 "src/contraction.ml" 70 2847 2917
+call(
+  stack
+)
+type(
+  S.t
+)
+"src/contraction.ml" 70 2847 2918 "src/contraction.ml" 70 2847 2919
+type(
+  S.t M.t
+)
+ident(
+  int_ref m "src/contraction.ml" 70 2847 2879 "src/contraction.ml" 70 2847 2880
+)
+"src/contraction.ml" 70 2847 2884 "src/contraction.ml" 70 2847 2919
+call(
+  tail
+)
+type(
+  S.t M.t
+)
+"src/contraction.ml" 70 2847 2867 "src/contraction.ml" 70 2847 2920
+type(
+  G.vertex -> S.t M.t -> S.t M.t
+)
+"src/contraction.ml" 71 2921 2929 "src/contraction.ml" 71 2921 2930
+type(
+  G.t
+)
+ident(
+  int_ref g "src/contraction.ml" 43 1826 1846 "src/contraction.ml" 43 1826 1847
+)
+"src/contraction.ml" 71 2921 2931 "src/contraction.ml" 71 2921 2938
+type(
+  S.t M.t
+)
+ident(
+  ext_ref M.empty
+)
+"src/contraction.ml" 70 2847 2853 "src/contraction.ml" 71 2921 2938
+call(
+  stack
+)
+type(
+  S.t M.t
+)
+"src/contraction.ml" 74 2974 2982 "src/contraction.ml" 74 2974 2983
+type(
+  S.t M.t
+)
+"src/contraction.ml" 74 2974 2986 "src/contraction.ml" 74 2974 3000
+type(
+  (G.edge -> S.t M.t -> S.t M.t) -> G.t -> S.t M.t -> S.t M.t
+)
+ident(
+  ext_ref G.fold_edges_e
+)
+"src/contraction.ml" 74 2974 3001 "src/contraction.ml" 74 2974 3002
+type(
+  G.edge -> S.t M.t -> S.t M.t
+)
+ident(
+  int_ref f "src/contraction.ml" 47 2030 2038 "src/contraction.ml" 47 2030 2039
+)
+"src/contraction.ml" 74 2974 3003 "src/contraction.ml" 74 2974 3004
+type(
+  G.t
+)
+ident(
+  int_ref g "src/contraction.ml" 43 1826 1846 "src/contraction.ml" 43 1826 1847
+)
+"src/contraction.ml" 74 2974 3005 "src/contraction.ml" 74 2974 3006
+type(
+  S.t M.t
+)
+ident(
+  int_ref m "src/contraction.ml" 69 2835 2843 "src/contraction.ml" 69 2835 2844
+)
+"src/contraction.ml" 74 2974 2986 "src/contraction.ml" 74 2974 3006
+call(
+  stack
+)
+type(
+  S.t M.t
+)
+"src/contraction.ml" 76 3063 3067 "src/contraction.ml" 76 3063 3081
+type(
+  (G.edge -> G.t -> G.t) -> G.t -> G.t -> G.t
+)
+ident(
+  ext_ref G.fold_edges_e
+)
+"src/contraction.ml" 76 3063 3083 "src/contraction.ml" 76 3063 3086
+type(
+  S.t M.t -> G.edge -> G.t -> G.t
+)
+ident(
+  int_ref add "src/contraction.ml" 59 2518 2526 "src/contraction.ml" 59 2518 2529
+)
+"src/contraction.ml" 76 3063 3087 "src/contraction.ml" 76 3063 3088
+type(
+  S.t M.t
+)
+ident(
+  int_ref m "src/contraction.ml" 74 2974 2982 "src/contraction.ml" 74 2974 2983
+)
+"src/contraction.ml" 76 3063 3082 "src/contraction.ml" 76 3063 3089
+call(
+  stack
+)
+type(
+  G.edge -> G.t -> G.t
+)
+"src/contraction.ml" 76 3063 3090 "src/contraction.ml" 76 3063 3091
+type(
+  G.t
+)
+ident(
+  int_ref g "src/contraction.ml" 43 1826 1846 "src/contraction.ml" 43 1826 1847
+)
+"src/contraction.ml" 76 3063 3092 "src/contraction.ml" 76 3063 3099
+type(
+  G.t
+)
+ident(
+  ext_ref G.empty
+)
+"src/contraction.ml" 76 3063 3067 "src/contraction.ml" 76 3063 3099
+call(
+  tail
+)
+type(
+  G.t
+)
+"src/contraction.ml" 74 2974 2978 "src/contraction.ml" 76 3063 3099
+type(
+  G.t
+)
+"src/contraction.ml" 69 2835 2839 "src/contraction.ml" 76 3063 3099
+type(
+  G.t
+)
+"src/contraction.ml" 59 2518 2522 "src/contraction.ml" 76 3063 3099
+type(
+  G.t
+)
+"src/contraction.ml" 47 2030 2034 "src/contraction.ml" 76 3063 3099
+type(
+  G.t
+)

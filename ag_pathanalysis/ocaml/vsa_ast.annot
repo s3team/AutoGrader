@@ -1,0 +1,9248 @@
+"vsa_ast.ml" 31 912 945 "vsa_ast.ml" 31 912 949
+type(
+  string
+)
+ident(
+  def name "vsa_ast.ml" 31 912 982 "vsa_ast.ml" 31 912 986
+)
+"vsa_ast.ml" 31 912 952 "vsa_ast.ml" 31 912 961
+type(
+  string
+)
+"vsa_ast.ml" 31 912 966 "vsa_ast.ml" 31 912 973
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "vsa_ast.ml" 31 912 982 "vsa_ast.ml" 31 912 986
+)
+"vsa_ast.ml" 31 912 974 "vsa_ast.ml" 31 912 982
+type(
+  [> `NoDebug ] as 'a
+)
+"vsa_ast.ml" 31 912 923 "vsa_ast.ml" 31 912 987
+call(
+  stack
+)
+"vsa_ast.ml" 33 995 1029 "vsa_ast.ml" 33 995 1033
+type(
+  string
+)
+ident(
+  def name "vsa_ast.ml" 33 995 1073 "vsa_ast.ml" 33 995 1077
+)
+"vsa_ast.ml" 33 995 1036 "vsa_ast.ml" 33 995 1052
+type(
+  string
+)
+"vsa_ast.ml" 33 995 1057 "vsa_ast.ml" 33 995 1064
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "vsa_ast.ml" 33 995 1073 "vsa_ast.ml" 33 995 1077
+)
+"vsa_ast.ml" 33 995 1065 "vsa_ast.ml" 33 995 1073
+type(
+  [> `NoDebug ] as 'a
+)
+"vsa_ast.ml" 33 995 1007 "vsa_ast.ml" 33 995 1078
+call(
+  stack
+)
+"vsa_ast.ml" 37 1196 1200 "vsa_ast.ml" 37 1196 1210
+type(
+  Var.t
+)
+ident(
+  def default_sp "vsa_ast.ml" 41 1384 1384 --
+)
+"vsa_ast.ml" 37 1196 1213 "vsa_ast.ml" 37 1196 1223
+type(
+  string -> Type.typ -> Var.t
+)
+ident(
+  ext_ref Var.newvar
+)
+"vsa_ast.ml" 37 1196 1224 "vsa_ast.ml" 37 1196 1236
+type(
+  string
+)
+"vsa_ast.ml" 37 1196 1237 "vsa_ast.ml" 37 1196 1242
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_1
+)
+"vsa_ast.ml" 37 1196 1213 "vsa_ast.ml" 37 1196 1242
+call(
+  stack
+)
+type(
+  Var.t
+)
+"vsa_ast.ml" 41 1384 1388 "vsa_ast.ml" 41 1384 1403
+type(
+  bool ref
+)
+ident(
+  def signedness_hack "vsa_ast.ml" 43 1416 1416 --
+)
+"vsa_ast.ml" 41 1384 1406 "vsa_ast.ml" 41 1384 1409
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"vsa_ast.ml" 41 1384 1410 "vsa_ast.ml" 41 1384 1414
+type(
+  bool
+)
+"vsa_ast.ml" 41 1384 1406 "vsa_ast.ml" 41 1384 1414
+type(
+  bool ref
+)
+"vsa_ast.ml" 43 1416 1420 "vsa_ast.ml" 43 1416 1431
+type(
+  Ast.exp -> int
+)
+ident(
+  def bits_of_exp "vsa_ast.ml" 45 1475 1475 --
+)
+"vsa_ast.ml" 43 1416 1432 "vsa_ast.ml" 43 1416 1433
+type(
+  Ast.exp
+)
+ident(
+  def e "vsa_ast.ml" 43 1416 1436 "vsa_ast.ml" 43 1416 1473
+)
+"vsa_ast.ml" 43 1416 1436 "vsa_ast.ml" 43 1416 1449
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Vsa.bits_of_width
+)
+"vsa_ast.ml" 43 1416 1451 "vsa_ast.ml" 43 1416 1470
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"vsa_ast.ml" 43 1416 1471 "vsa_ast.ml" 43 1416 1472
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "vsa_ast.ml" 43 1416 1432 "vsa_ast.ml" 43 1416 1433
+)
+"vsa_ast.ml" 43 1416 1450 "vsa_ast.ml" 43 1416 1473
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"vsa_ast.ml" 43 1416 1436 "vsa_ast.ml" 43 1416 1473
+call(
+  tail
+)
+type(
+  int
+)
+"vsa_ast.ml" 60 1791 1801 "vsa_ast.ml" 60 1791 1804
+type(
+  'a option
+)
+ident(
+  def top "vsa_ast.ml" 61 1812 1818 "vsa_ast.ml" 117 4401 4408
+)
+"vsa_ast.ml" 60 1791 1807 "vsa_ast.ml" 60 1791 1811
+type(
+  'a option
+)
+"vsa_ast.ml" 61 1812 1822 "vsa_ast.ml" 61 1812 1827
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "vsa_ast.ml" 62 1860 1866 "vsa_ast.ml" 117 4401 4408
+)
+"vsa_ast.ml" 61 1812 1830 "vsa_ast.ml" 61 1812 1842
+type(
+  ?eq:(AbsEnv.value Vsa.VM.t -> AbsEnv.value Vsa.VM.t -> bool) ->
+  t -> t -> bool
+)
+ident(
+  ext_ref BatOption.eq
+)
+"vsa_ast.ml" 61 1812 1847 "vsa_ast.ml" 61 1812 1859
+type(
+  AbsEnv.value Vsa.VM.t -> AbsEnv.value Vsa.VM.t -> bool
+)
+ident(
+  ext_ref AbsEnv.equal
+)
+"vsa_ast.ml" 61 1812 1830 "vsa_ast.ml" 61 1812 1859
+call(
+  stack
+)
+type(
+  t -> t -> bool
+)
+"vsa_ast.ml" 62 1860 1870 "vsa_ast.ml" 62 1860 1874
+type(
+  t -> t -> t
+)
+ident(
+  def meet "vsa_ast.ml" 84 2941 2947 "vsa_ast.ml" 117 4401 4408
+)
+"vsa_ast.ml" 62 1860 1876 "vsa_ast.ml" 62 1860 1877
+type(
+  t
+)
+ident(
+  def x "vsa_ast.ml" 62 1860 1881 "vsa_ast.ml" 83 2896 2940
+)
+"vsa_ast.ml" 62 1860 1882 "vsa_ast.ml" 62 1860 1883
+type(
+  t
+)
+ident(
+  def y "vsa_ast.ml" 63 1889 1897 "vsa_ast.ml" 83 2896 2940
+)
+"vsa_ast.ml" 63 1889 1900 "vsa_ast.ml" 63 1889 1905
+type(
+  t -> t -> bool
+)
+ident(
+  int_ref equal "vsa_ast.ml" 61 1812 1822 "vsa_ast.ml" 61 1812 1827
+)
+"vsa_ast.ml" 63 1889 1906 "vsa_ast.ml" 63 1889 1907
+type(
+  t
+)
+ident(
+  int_ref x "vsa_ast.ml" 62 1860 1876 "vsa_ast.ml" 62 1860 1877
+)
+"vsa_ast.ml" 63 1889 1908 "vsa_ast.ml" 63 1889 1909
+type(
+  t
+)
+ident(
+  int_ref y "vsa_ast.ml" 62 1860 1882 "vsa_ast.ml" 62 1860 1883
+)
+"vsa_ast.ml" 63 1889 1900 "vsa_ast.ml" 63 1889 1909
+call(
+  stack
+)
+type(
+  bool
+)
+"vsa_ast.ml" 63 1889 1915 "vsa_ast.ml" 63 1889 1916
+type(
+  t
+)
+ident(
+  int_ref x "vsa_ast.ml" 62 1860 1876 "vsa_ast.ml" 62 1860 1877
+)
+"vsa_ast.ml" 64 1917 1936 "vsa_ast.ml" 64 1917 1937
+type(
+  t
+)
+ident(
+  int_ref x "vsa_ast.ml" 62 1860 1876 "vsa_ast.ml" 62 1860 1877
+)
+"vsa_ast.ml" 64 1917 1939 "vsa_ast.ml" 64 1917 1940
+type(
+  t
+)
+ident(
+  int_ref y "vsa_ast.ml" 62 1860 1882 "vsa_ast.ml" 62 1860 1883
+)
+"vsa_ast.ml" 64 1917 1936 "vsa_ast.ml" 64 1917 1940
+type(
+  t * t
+)
+"vsa_ast.ml" 65 1946 1956 "vsa_ast.ml" 65 1946 1960
+type(
+  t
+)
+"vsa_ast.ml" 65 1946 1962 "vsa_ast.ml" 65 1946 1966
+type(
+  t
+)
+"vsa_ast.ml" 65 1946 1956 "vsa_ast.ml" 65 1946 1966
+type(
+  t * t
+)
+"vsa_ast.ml" 65 1946 1970 "vsa_ast.ml" 65 1946 1974
+type(
+  t
+)
+"vsa_ast.ml" 66 1975 1991 "vsa_ast.ml" 66 1975 1992
+type(
+  AbsEnv.t
+)
+"vsa_ast.ml" 66 1975 1986 "vsa_ast.ml" 66 1975 1992
+type(
+  t
+)
+"vsa_ast.ml" 66 1975 1985 "vsa_ast.ml" 66 1975 1998
+type(
+  t
+)
+ident(
+  def s "vsa_ast.ml" 67 2005 2038 "vsa_ast.ml" 67 2005 2039
+)
+"vsa_ast.ml" 66 1975 2000 "vsa_ast.ml" 66 1975 2004
+type(
+  t
+)
+"vsa_ast.ml" 66 1975 1985 "vsa_ast.ml" 66 1975 2004
+type(
+  t * t
+)
+"vsa_ast.ml" 67 2005 2015 "vsa_ast.ml" 67 2005 2019
+type(
+  t
+)
+"vsa_ast.ml" 67 2005 2027 "vsa_ast.ml" 67 2005 2028
+type(
+  AbsEnv.t
+)
+"vsa_ast.ml" 67 2005 2022 "vsa_ast.ml" 67 2005 2028
+type(
+  t
+)
+"vsa_ast.ml" 67 2005 2021 "vsa_ast.ml" 67 2005 2034
+type(
+  t
+)
+ident(
+  def s "vsa_ast.ml" 67 2005 2038 "vsa_ast.ml" 67 2005 2039
+)
+"vsa_ast.ml" 67 2005 2015 "vsa_ast.ml" 67 2005 2034
+type(
+  t * t
+)
+"vsa_ast.ml" 66 1975 1985 "vsa_ast.ml" 67 2005 2034
+type(
+  t * t
+)
+"vsa_ast.ml" 67 2005 2038 "vsa_ast.ml" 67 2005 2039
+type(
+  t
+)
+ident(
+  int_ref s "vsa_ast.ml" 66 1975 1985 "vsa_ast.ml" 66 1975 1998
+)
+"vsa_ast.ml" 68 2040 2055 "vsa_ast.ml" 68 2040 2056
+type(
+  AbsEnv.t
+)
+ident(
+  def x "vsa_ast.ml" 69 2068 2078 "vsa_ast.ml" 83 2896 2940
+)
+"vsa_ast.ml" 68 2040 2050 "vsa_ast.ml" 68 2040 2056
+type(
+  t
+)
+"vsa_ast.ml" 68 2040 2063 "vsa_ast.ml" 68 2040 2064
+type(
+  AbsEnv.t
+)
+ident(
+  def y "vsa_ast.ml" 69 2068 2078 "vsa_ast.ml" 83 2896 2940
+)
+"vsa_ast.ml" 68 2040 2058 "vsa_ast.ml" 68 2040 2064
+type(
+  t
+)
+"vsa_ast.ml" 68 2040 2050 "vsa_ast.ml" 68 2040 2064
+type(
+  t * t
+)
+"vsa_ast.ml" 69 2068 2084 "vsa_ast.ml" 69 2068 2092
+type(
+  (Vsa.VM.key ->
+   AbsEnv.value option -> AbsEnv.value option -> AbsEnv.value option) ->
+  AbsEnv.value Vsa.VM.t -> AbsEnv.value Vsa.VM.t -> AbsEnv.value Vsa.VM.t
+)
+ident(
+  ext_ref Vsa.VM.merge
+)
+"vsa_ast.ml" 70 2093 2116 "vsa_ast.ml" 70 2093 2117
+type(
+  Vsa.VM.key
+)
+ident(
+  def k "vsa_ast.ml" 70 2093 2118 "vsa_ast.ml" 83 2896 2934
+)
+"vsa_ast.ml" 70 2093 2118 "vsa_ast.ml" 70 2093 2120
+type(
+  AbsEnv.value option
+)
+ident(
+  def v1 "vsa_ast.ml" 70 2093 2121 "vsa_ast.ml" 83 2896 2934
+)
+"vsa_ast.ml" 70 2093 2121 "vsa_ast.ml" 70 2093 2123
+type(
+  AbsEnv.value option
+)
+ident(
+  def v2 "vsa_ast.ml" 70 2093 2127 "vsa_ast.ml" 83 2896 2934
+)
+"vsa_ast.ml" 70 2093 2133 "vsa_ast.ml" 70 2093 2135
+type(
+  AbsEnv.value option
+)
+ident(
+  int_ref v1 "vsa_ast.ml" 70 2093 2118 "vsa_ast.ml" 70 2093 2120
+)
+"vsa_ast.ml" 70 2093 2137 "vsa_ast.ml" 70 2093 2139
+type(
+  AbsEnv.value option
+)
+ident(
+  int_ref v2 "vsa_ast.ml" 70 2093 2121 "vsa_ast.ml" 70 2093 2123
+)
+"vsa_ast.ml" 70 2093 2133 "vsa_ast.ml" 70 2093 2139
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 71 2145 2179 "vsa_ast.ml" 71 2145 2180
+type(
+  Vsa.VS.t
+)
+ident(
+  def a "vsa_ast.ml" 71 2145 2203 "vsa_ast.ml" 71 2145 2231
+)
+"vsa_ast.ml" 71 2145 2170 "vsa_ast.ml" 71 2145 2181
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 71 2145 2165 "vsa_ast.ml" 71 2145 2181
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 71 2145 2197 "vsa_ast.ml" 71 2145 2198
+type(
+  Vsa.VS.t
+)
+ident(
+  def b "vsa_ast.ml" 71 2145 2203 "vsa_ast.ml" 71 2145 2231
+)
+"vsa_ast.ml" 71 2145 2188 "vsa_ast.ml" 71 2145 2199
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 71 2145 2183 "vsa_ast.ml" 71 2145 2199
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 71 2145 2165 "vsa_ast.ml" 71 2145 2199
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 71 2145 2216 "vsa_ast.ml" 71 2145 2224
+type(
+  Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.union
+)
+"vsa_ast.ml" 71 2145 2225 "vsa_ast.ml" 71 2145 2226
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref a "vsa_ast.ml" 71 2145 2179 "vsa_ast.ml" 71 2145 2180
+)
+"vsa_ast.ml" 71 2145 2227 "vsa_ast.ml" 71 2145 2228
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref b "vsa_ast.ml" 71 2145 2197 "vsa_ast.ml" 71 2145 2198
+)
+"vsa_ast.ml" 71 2145 2215 "vsa_ast.ml" 71 2145 2230
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 71 2145 2207 "vsa_ast.ml" 71 2145 2231
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 71 2145 2203 "vsa_ast.ml" 71 2145 2231
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 72 2232 2265 "vsa_ast.ml" 72 2232 2266
+type(
+  MemStore.t
+)
+ident(
+  def a "vsa_ast.ml" 72 2232 2288 "vsa_ast.ml" 72 2232 2320
+)
+"vsa_ast.ml" 72 2232 2257 "vsa_ast.ml" 72 2232 2267
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 72 2232 2252 "vsa_ast.ml" 72 2232 2267
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 72 2232 2282 "vsa_ast.ml" 72 2232 2283
+type(
+  MemStore.t
+)
+ident(
+  def b "vsa_ast.ml" 72 2232 2288 "vsa_ast.ml" 72 2232 2320
+)
+"vsa_ast.ml" 72 2232 2274 "vsa_ast.ml" 72 2232 2284
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 72 2232 2269 "vsa_ast.ml" 72 2232 2284
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 72 2232 2252 "vsa_ast.ml" 72 2232 2284
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 72 2232 2300 "vsa_ast.ml" 72 2232 2314
+type(
+  MemStore.t -> MemStore.t -> MemStore.t
+)
+ident(
+  ext_ref MemStore.union
+)
+"vsa_ast.ml" 72 2232 2315 "vsa_ast.ml" 72 2232 2316
+type(
+  MemStore.t
+)
+ident(
+  int_ref a "vsa_ast.ml" 72 2232 2265 "vsa_ast.ml" 72 2232 2266
+)
+"vsa_ast.ml" 72 2232 2317 "vsa_ast.ml" 72 2232 2318
+type(
+  MemStore.t
+)
+ident(
+  int_ref b "vsa_ast.ml" 72 2232 2282 "vsa_ast.ml" 72 2232 2283
+)
+"vsa_ast.ml" 72 2232 2299 "vsa_ast.ml" 72 2232 2319
+call(
+  stack
+)
+type(
+  MemStore.t
+)
+"vsa_ast.ml" 72 2232 2292 "vsa_ast.ml" 72 2232 2320
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 72 2232 2288 "vsa_ast.ml" 72 2232 2320
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 73 2321 2355 "vsa_ast.ml" 73 2321 2356
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 73 2321 2346 "vsa_ast.ml" 73 2321 2357
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 73 2321 2341 "vsa_ast.ml" 73 2321 2357
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 73 2321 2372 "vsa_ast.ml" 73 2321 2373
+type(
+  MemStore.t
+)
+"vsa_ast.ml" 73 2321 2364 "vsa_ast.ml" 73 2321 2374
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 73 2321 2359 "vsa_ast.ml" 73 2321 2374
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 73 2321 2341 "vsa_ast.ml" 73 2321 2374
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 74 2375 2408 "vsa_ast.ml" 74 2375 2409
+type(
+  MemStore.t
+)
+"vsa_ast.ml" 74 2375 2400 "vsa_ast.ml" 74 2375 2410
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 74 2375 2395 "vsa_ast.ml" 74 2375 2410
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 74 2375 2426 "vsa_ast.ml" 74 2375 2427
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 74 2375 2417 "vsa_ast.ml" 74 2375 2428
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 74 2375 2412 "vsa_ast.ml" 74 2375 2428
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 74 2375 2395 "vsa_ast.ml" 74 2375 2428
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 73 2321 2341 "vsa_ast.ml" 74 2375 2428
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 74 2375 2432 "vsa_ast.ml" 74 2375 2440
+type(
+  string -> AbsEnv.value option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 74 2375 2441 "vsa_ast.ml" 74 2375 2473
+type(
+  string
+)
+"vsa_ast.ml" 74 2375 2432 "vsa_ast.ml" 74 2375 2473
+call(
+  tail
+)
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 75 2474 2508 "vsa_ast.ml" 75 2474 2509
+type(
+  Vsa.VS.t
+)
+ident(
+  def a "vsa_ast.ml" 78 2634 2654 "vsa_ast.ml" 78 2634 2690
+)
+"vsa_ast.ml" 75 2474 2499 "vsa_ast.ml" 75 2474 2510
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 75 2474 2494 "vsa_ast.ml" 75 2474 2510
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 75 2474 2512 "vsa_ast.ml" 75 2474 2516
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 75 2474 2494 "vsa_ast.ml" 75 2474 2516
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 76 2517 2537 "vsa_ast.ml" 76 2517 2541
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 76 2517 2557 "vsa_ast.ml" 76 2517 2558
+type(
+  Vsa.VS.t
+)
+ident(
+  def a "vsa_ast.ml" 78 2634 2654 "vsa_ast.ml" 78 2634 2690
+)
+"vsa_ast.ml" 76 2517 2548 "vsa_ast.ml" 76 2517 2559
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 76 2517 2543 "vsa_ast.ml" 76 2517 2559
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 76 2517 2537 "vsa_ast.ml" 76 2517 2559
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 75 2474 2494 "vsa_ast.ml" 76 2517 2559
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 78 2634 2669 "vsa_ast.ml" 78 2634 2675
+type(
+  int -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.top
+)
+"vsa_ast.ml" 78 2634 2677 "vsa_ast.ml" 78 2634 2685
+type(
+  Vsa.VS.t -> int
+)
+ident(
+  ext_ref VS.width
+)
+"vsa_ast.ml" 78 2634 2686 "vsa_ast.ml" 78 2634 2687
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref a "vsa_ast.ml" 75 2474 2508 "vsa_ast.ml" 75 2474 2509
+)
+"vsa_ast.ml" 78 2634 2676 "vsa_ast.ml" 78 2634 2688
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 78 2634 2668 "vsa_ast.ml" 78 2634 2689
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 78 2634 2659 "vsa_ast.ml" 78 2634 2690
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 78 2634 2654 "vsa_ast.ml" 78 2634 2690
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 79 2691 2724 "vsa_ast.ml" 79 2691 2725
+type(
+  MemStore.t
+)
+ident(
+  def a "vsa_ast.ml" 82 2849 2869 "vsa_ast.ml" 82 2849 2895
+)
+"vsa_ast.ml" 79 2691 2716 "vsa_ast.ml" 79 2691 2726
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 79 2691 2711 "vsa_ast.ml" 79 2691 2726
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 79 2691 2728 "vsa_ast.ml" 79 2691 2732
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 79 2691 2711 "vsa_ast.ml" 79 2691 2732
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 80 2733 2753 "vsa_ast.ml" 80 2733 2757
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 80 2733 2772 "vsa_ast.ml" 80 2733 2773
+type(
+  MemStore.t
+)
+ident(
+  def a "vsa_ast.ml" 82 2849 2869 "vsa_ast.ml" 82 2849 2895
+)
+"vsa_ast.ml" 80 2733 2764 "vsa_ast.ml" 80 2733 2774
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 80 2733 2759 "vsa_ast.ml" 80 2733 2774
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 80 2733 2753 "vsa_ast.ml" 80 2733 2774
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 79 2691 2711 "vsa_ast.ml" 80 2733 2774
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 82 2849 2882 "vsa_ast.ml" 82 2849 2894
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  ext_ref MemStore.top
+)
+"vsa_ast.ml" 82 2849 2874 "vsa_ast.ml" 82 2849 2895
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 82 2849 2869 "vsa_ast.ml" 82 2849 2895
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 83 2896 2916 "vsa_ast.ml" 83 2896 2920
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 83 2896 2922 "vsa_ast.ml" 83 2896 2926
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 83 2896 2916 "vsa_ast.ml" 83 2896 2926
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 83 2896 2930 "vsa_ast.ml" 83 2896 2934
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 70 2093 2127 "vsa_ast.ml" 83 2896 2934
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 70 2093 2111 "vsa_ast.ml" 83 2896 2935
+type(
+  Vsa.VM.key ->
+  AbsEnv.value option -> AbsEnv.value option -> AbsEnv.value option
+)
+"vsa_ast.ml" 83 2896 2936 "vsa_ast.ml" 83 2896 2937
+type(
+  AbsEnv.t
+)
+ident(
+  int_ref x "vsa_ast.ml" 68 2040 2055 "vsa_ast.ml" 68 2040 2056
+)
+"vsa_ast.ml" 83 2896 2938 "vsa_ast.ml" 83 2896 2939
+type(
+  AbsEnv.t
+)
+ident(
+  int_ref y "vsa_ast.ml" 68 2040 2063 "vsa_ast.ml" 68 2040 2064
+)
+"vsa_ast.ml" 69 2068 2083 "vsa_ast.ml" 83 2896 2940
+call(
+  stack
+)
+type(
+  AbsEnv.value Vsa.VM.t
+)
+"vsa_ast.ml" 69 2068 2078 "vsa_ast.ml" 83 2896 2940
+type(
+  t
+)
+"vsa_ast.ml" 64 1917 1930 "vsa_ast.ml" 83 2896 2940
+type(
+  t
+)
+"vsa_ast.ml" 63 1889 1897 "vsa_ast.ml" 83 2896 2940
+type(
+  t
+)
+"vsa_ast.ml" 84 2941 2951 "vsa_ast.ml" 84 2941 2956
+type(
+  t -> t -> t
+)
+ident(
+  def widen "vsa_ast.ml" 105 4067 4111 "vsa_ast.ml" 117 4401 4408
+)
+"vsa_ast.ml" 84 2941 2958 "vsa_ast.ml" 84 2941 2959
+type(
+  t
+)
+ident(
+  def x "vsa_ast.ml" 84 2941 2963 "vsa_ast.ml" 105 4067 4111
+)
+"vsa_ast.ml" 84 2941 2964 "vsa_ast.ml" 84 2941 2965
+type(
+  t
+)
+ident(
+  def y "vsa_ast.ml" 85 2971 2979 "vsa_ast.ml" 105 4067 4111
+)
+"vsa_ast.ml" 85 2971 2982 "vsa_ast.ml" 85 2971 2987
+type(
+  t -> t -> bool
+)
+ident(
+  int_ref equal "vsa_ast.ml" 61 1812 1822 "vsa_ast.ml" 61 1812 1827
+)
+"vsa_ast.ml" 85 2971 2988 "vsa_ast.ml" 85 2971 2989
+type(
+  t
+)
+ident(
+  int_ref x "vsa_ast.ml" 84 2941 2958 "vsa_ast.ml" 84 2941 2959
+)
+"vsa_ast.ml" 85 2971 2990 "vsa_ast.ml" 85 2971 2991
+type(
+  t
+)
+ident(
+  int_ref y "vsa_ast.ml" 84 2941 2964 "vsa_ast.ml" 84 2941 2965
+)
+"vsa_ast.ml" 85 2971 2982 "vsa_ast.ml" 85 2971 2991
+call(
+  stack
+)
+type(
+  bool
+)
+"vsa_ast.ml" 85 2971 2997 "vsa_ast.ml" 85 2971 2998
+type(
+  t
+)
+ident(
+  int_ref x "vsa_ast.ml" 84 2941 2958 "vsa_ast.ml" 84 2941 2959
+)
+"vsa_ast.ml" 86 2999 3018 "vsa_ast.ml" 86 2999 3019
+type(
+  t
+)
+ident(
+  int_ref x "vsa_ast.ml" 84 2941 2958 "vsa_ast.ml" 84 2941 2959
+)
+"vsa_ast.ml" 86 2999 3021 "vsa_ast.ml" 86 2999 3022
+type(
+  t
+)
+ident(
+  int_ref y "vsa_ast.ml" 84 2941 2964 "vsa_ast.ml" 84 2941 2965
+)
+"vsa_ast.ml" 86 2999 3018 "vsa_ast.ml" 86 2999 3022
+type(
+  t * t
+)
+"vsa_ast.ml" 87 3028 3038 "vsa_ast.ml" 87 3028 3042
+type(
+  t
+)
+"vsa_ast.ml" 87 3028 3044 "vsa_ast.ml" 87 3028 3048
+type(
+  t
+)
+"vsa_ast.ml" 87 3028 3038 "vsa_ast.ml" 87 3028 3048
+type(
+  t * t
+)
+"vsa_ast.ml" 87 3028 3052 "vsa_ast.ml" 87 3028 3056
+type(
+  t
+)
+"vsa_ast.ml" 88 3057 3073 "vsa_ast.ml" 88 3057 3074
+type(
+  AbsEnv.t
+)
+"vsa_ast.ml" 88 3057 3068 "vsa_ast.ml" 88 3057 3074
+type(
+  t
+)
+"vsa_ast.ml" 88 3057 3067 "vsa_ast.ml" 88 3057 3080
+type(
+  t
+)
+ident(
+  def s "vsa_ast.ml" 89 3087 3120 "vsa_ast.ml" 89 3087 3121
+)
+"vsa_ast.ml" 88 3057 3082 "vsa_ast.ml" 88 3057 3086
+type(
+  t
+)
+"vsa_ast.ml" 88 3057 3067 "vsa_ast.ml" 88 3057 3086
+type(
+  t * t
+)
+"vsa_ast.ml" 89 3087 3097 "vsa_ast.ml" 89 3087 3101
+type(
+  t
+)
+"vsa_ast.ml" 89 3087 3109 "vsa_ast.ml" 89 3087 3110
+type(
+  AbsEnv.t
+)
+"vsa_ast.ml" 89 3087 3104 "vsa_ast.ml" 89 3087 3110
+type(
+  t
+)
+"vsa_ast.ml" 89 3087 3103 "vsa_ast.ml" 89 3087 3116
+type(
+  t
+)
+ident(
+  def s "vsa_ast.ml" 89 3087 3120 "vsa_ast.ml" 89 3087 3121
+)
+"vsa_ast.ml" 89 3087 3097 "vsa_ast.ml" 89 3087 3116
+type(
+  t * t
+)
+"vsa_ast.ml" 88 3057 3067 "vsa_ast.ml" 89 3087 3116
+type(
+  t * t
+)
+"vsa_ast.ml" 89 3087 3120 "vsa_ast.ml" 89 3087 3121
+type(
+  t
+)
+ident(
+  int_ref s "vsa_ast.ml" 88 3057 3067 "vsa_ast.ml" 88 3057 3080
+)
+"vsa_ast.ml" 90 3122 3137 "vsa_ast.ml" 90 3122 3138
+type(
+  AbsEnv.t
+)
+ident(
+  def x "vsa_ast.ml" 91 3150 3160 "vsa_ast.ml" 105 4067 4111
+)
+"vsa_ast.ml" 90 3122 3132 "vsa_ast.ml" 90 3122 3138
+type(
+  t
+)
+"vsa_ast.ml" 90 3122 3145 "vsa_ast.ml" 90 3122 3146
+type(
+  AbsEnv.t
+)
+ident(
+  def y "vsa_ast.ml" 91 3150 3160 "vsa_ast.ml" 105 4067 4111
+)
+"vsa_ast.ml" 90 3122 3140 "vsa_ast.ml" 90 3122 3146
+type(
+  t
+)
+"vsa_ast.ml" 90 3122 3132 "vsa_ast.ml" 90 3122 3146
+type(
+  t * t
+)
+"vsa_ast.ml" 91 3150 3166 "vsa_ast.ml" 91 3150 3174
+type(
+  (Vsa.VM.key ->
+   AbsEnv.value option -> AbsEnv.value option -> AbsEnv.value option) ->
+  AbsEnv.value Vsa.VM.t -> AbsEnv.value Vsa.VM.t -> AbsEnv.value Vsa.VM.t
+)
+ident(
+  ext_ref Vsa.VM.merge
+)
+"vsa_ast.ml" 92 3175 3198 "vsa_ast.ml" 92 3175 3199
+type(
+  Vsa.VM.key
+)
+ident(
+  def k "vsa_ast.ml" 92 3175 3200 "vsa_ast.ml" 105 4067 4105
+)
+"vsa_ast.ml" 92 3175 3200 "vsa_ast.ml" 92 3175 3202
+type(
+  AbsEnv.value option
+)
+ident(
+  def v1 "vsa_ast.ml" 92 3175 3203 "vsa_ast.ml" 105 4067 4105
+)
+"vsa_ast.ml" 92 3175 3203 "vsa_ast.ml" 92 3175 3205
+type(
+  AbsEnv.value option
+)
+ident(
+  def v2 "vsa_ast.ml" 92 3175 3209 "vsa_ast.ml" 105 4067 4105
+)
+"vsa_ast.ml" 92 3175 3215 "vsa_ast.ml" 92 3175 3217
+type(
+  AbsEnv.value option
+)
+ident(
+  int_ref v1 "vsa_ast.ml" 92 3175 3200 "vsa_ast.ml" 92 3175 3202
+)
+"vsa_ast.ml" 92 3175 3219 "vsa_ast.ml" 92 3175 3221
+type(
+  AbsEnv.value option
+)
+ident(
+  int_ref v2 "vsa_ast.ml" 92 3175 3203 "vsa_ast.ml" 92 3175 3205
+)
+"vsa_ast.ml" 92 3175 3215 "vsa_ast.ml" 92 3175 3221
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 93 3227 3261 "vsa_ast.ml" 93 3227 3262
+type(
+  Vsa.VS.t
+)
+ident(
+  def a "vsa_ast.ml" 93 3227 3285 "vsa_ast.ml" 93 3227 3357
+)
+"vsa_ast.ml" 93 3227 3252 "vsa_ast.ml" 93 3227 3263
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 93 3227 3247 "vsa_ast.ml" 93 3227 3263
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 93 3227 3279 "vsa_ast.ml" 93 3227 3280
+type(
+  Vsa.VS.t
+)
+ident(
+  def b "vsa_ast.ml" 93 3227 3285 "vsa_ast.ml" 93 3227 3357
+)
+"vsa_ast.ml" 93 3227 3270 "vsa_ast.ml" 93 3227 3281
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 93 3227 3265 "vsa_ast.ml" 93 3227 3281
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 93 3227 3247 "vsa_ast.ml" 93 3227 3281
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 93 3227 3285 "vsa_ast.ml" 93 3227 3292
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"vsa_ast.ml" 93 3227 3293 "vsa_ast.ml" 93 3227 3306
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"vsa_ast.ml" 93 3227 3308 "vsa_ast.ml" 93 3227 3324
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"vsa_ast.ml" 93 3227 3325 "vsa_ast.ml" 93 3227 3326
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref k "vsa_ast.ml" 92 3175 3198 "vsa_ast.ml" 92 3175 3199
+)
+"vsa_ast.ml" 93 3227 3307 "vsa_ast.ml" 93 3227 3327
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 93 3227 3285 "vsa_ast.ml" 93 3227 3327
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 93 3227 3342 "vsa_ast.ml" 93 3227 3350
+type(
+  Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.widen
+)
+"vsa_ast.ml" 93 3227 3351 "vsa_ast.ml" 93 3227 3352
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref a "vsa_ast.ml" 93 3227 3261 "vsa_ast.ml" 93 3227 3262
+)
+"vsa_ast.ml" 93 3227 3353 "vsa_ast.ml" 93 3227 3354
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref b "vsa_ast.ml" 93 3227 3279 "vsa_ast.ml" 93 3227 3280
+)
+"vsa_ast.ml" 93 3227 3341 "vsa_ast.ml" 93 3227 3356
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 93 3227 3333 "vsa_ast.ml" 93 3227 3357
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 93 3227 3329 "vsa_ast.ml" 93 3227 3357
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 93 3227 3285 "vsa_ast.ml" 93 3227 3357
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 94 3358 3391 "vsa_ast.ml" 94 3358 3392
+type(
+  MemStore.t
+)
+ident(
+  def a "vsa_ast.ml" 94 3358 3414 "vsa_ast.ml" 94 3358 3490
+)
+"vsa_ast.ml" 94 3358 3383 "vsa_ast.ml" 94 3358 3393
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 94 3358 3378 "vsa_ast.ml" 94 3358 3393
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 94 3358 3408 "vsa_ast.ml" 94 3358 3409
+type(
+  MemStore.t
+)
+ident(
+  def b "vsa_ast.ml" 94 3358 3414 "vsa_ast.ml" 94 3358 3490
+)
+"vsa_ast.ml" 94 3358 3400 "vsa_ast.ml" 94 3358 3410
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 94 3358 3395 "vsa_ast.ml" 94 3358 3410
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 94 3358 3378 "vsa_ast.ml" 94 3358 3410
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 94 3358 3414 "vsa_ast.ml" 94 3358 3421
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"vsa_ast.ml" 94 3358 3422 "vsa_ast.ml" 94 3358 3435
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"vsa_ast.ml" 94 3358 3437 "vsa_ast.ml" 94 3358 3453
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"vsa_ast.ml" 94 3358 3454 "vsa_ast.ml" 94 3358 3455
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref k "vsa_ast.ml" 92 3175 3198 "vsa_ast.ml" 92 3175 3199
+)
+"vsa_ast.ml" 94 3358 3436 "vsa_ast.ml" 94 3358 3456
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 94 3358 3414 "vsa_ast.ml" 94 3358 3456
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 94 3358 3470 "vsa_ast.ml" 94 3358 3484
+type(
+  MemStore.t -> MemStore.t -> MemStore.t
+)
+ident(
+  ext_ref MemStore.widen
+)
+"vsa_ast.ml" 94 3358 3485 "vsa_ast.ml" 94 3358 3486
+type(
+  MemStore.t
+)
+ident(
+  int_ref a "vsa_ast.ml" 94 3358 3391 "vsa_ast.ml" 94 3358 3392
+)
+"vsa_ast.ml" 94 3358 3487 "vsa_ast.ml" 94 3358 3488
+type(
+  MemStore.t
+)
+ident(
+  int_ref b "vsa_ast.ml" 94 3358 3408 "vsa_ast.ml" 94 3358 3409
+)
+"vsa_ast.ml" 94 3358 3469 "vsa_ast.ml" 94 3358 3489
+call(
+  stack
+)
+type(
+  MemStore.t
+)
+"vsa_ast.ml" 94 3358 3462 "vsa_ast.ml" 94 3358 3490
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 94 3358 3458 "vsa_ast.ml" 94 3358 3490
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 94 3358 3414 "vsa_ast.ml" 94 3358 3490
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 95 3491 3525 "vsa_ast.ml" 95 3491 3526
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 95 3491 3516 "vsa_ast.ml" 95 3491 3527
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 95 3491 3511 "vsa_ast.ml" 95 3491 3527
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 95 3491 3542 "vsa_ast.ml" 95 3491 3543
+type(
+  MemStore.t
+)
+"vsa_ast.ml" 95 3491 3534 "vsa_ast.ml" 95 3491 3544
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 95 3491 3529 "vsa_ast.ml" 95 3491 3544
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 95 3491 3511 "vsa_ast.ml" 95 3491 3544
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 96 3545 3578 "vsa_ast.ml" 96 3545 3579
+type(
+  MemStore.t
+)
+"vsa_ast.ml" 96 3545 3570 "vsa_ast.ml" 96 3545 3580
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 96 3545 3565 "vsa_ast.ml" 96 3545 3580
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 96 3545 3596 "vsa_ast.ml" 96 3545 3597
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 96 3545 3587 "vsa_ast.ml" 96 3545 3598
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 96 3545 3582 "vsa_ast.ml" 96 3545 3598
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 96 3545 3565 "vsa_ast.ml" 96 3545 3598
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 95 3491 3511 "vsa_ast.ml" 96 3545 3598
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 96 3545 3602 "vsa_ast.ml" 96 3545 3610
+type(
+  string -> AbsEnv.value option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 96 3545 3611 "vsa_ast.ml" 96 3545 3644
+type(
+  string
+)
+"vsa_ast.ml" 96 3545 3602 "vsa_ast.ml" 96 3545 3644
+call(
+  tail
+)
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 97 3645 3679 "vsa_ast.ml" 97 3645 3680
+type(
+  Vsa.VS.t
+)
+ident(
+  def a "vsa_ast.ml" 100 3805 3825 "vsa_ast.ml" 100 3805 3861
+)
+"vsa_ast.ml" 97 3645 3670 "vsa_ast.ml" 97 3645 3681
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 97 3645 3665 "vsa_ast.ml" 97 3645 3681
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 97 3645 3683 "vsa_ast.ml" 97 3645 3687
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 97 3645 3665 "vsa_ast.ml" 97 3645 3687
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 98 3688 3708 "vsa_ast.ml" 98 3688 3712
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 98 3688 3728 "vsa_ast.ml" 98 3688 3729
+type(
+  Vsa.VS.t
+)
+ident(
+  def a "vsa_ast.ml" 100 3805 3825 "vsa_ast.ml" 100 3805 3861
+)
+"vsa_ast.ml" 98 3688 3719 "vsa_ast.ml" 98 3688 3730
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 98 3688 3714 "vsa_ast.ml" 98 3688 3730
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 98 3688 3708 "vsa_ast.ml" 98 3688 3730
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 97 3645 3665 "vsa_ast.ml" 98 3688 3730
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 100 3805 3840 "vsa_ast.ml" 100 3805 3846
+type(
+  int -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.top
+)
+"vsa_ast.ml" 100 3805 3848 "vsa_ast.ml" 100 3805 3856
+type(
+  Vsa.VS.t -> int
+)
+ident(
+  ext_ref VS.width
+)
+"vsa_ast.ml" 100 3805 3857 "vsa_ast.ml" 100 3805 3858
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref a "vsa_ast.ml" 97 3645 3679 "vsa_ast.ml" 97 3645 3680
+)
+"vsa_ast.ml" 100 3805 3847 "vsa_ast.ml" 100 3805 3859
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 100 3805 3839 "vsa_ast.ml" 100 3805 3860
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 100 3805 3830 "vsa_ast.ml" 100 3805 3861
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 100 3805 3825 "vsa_ast.ml" 100 3805 3861
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 101 3862 3895 "vsa_ast.ml" 101 3862 3896
+type(
+  MemStore.t
+)
+ident(
+  def a "vsa_ast.ml" 104 4020 4040 "vsa_ast.ml" 104 4020 4066
+)
+"vsa_ast.ml" 101 3862 3887 "vsa_ast.ml" 101 3862 3897
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 101 3862 3882 "vsa_ast.ml" 101 3862 3897
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 101 3862 3899 "vsa_ast.ml" 101 3862 3903
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 101 3862 3882 "vsa_ast.ml" 101 3862 3903
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 102 3904 3924 "vsa_ast.ml" 102 3904 3928
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 102 3904 3943 "vsa_ast.ml" 102 3904 3944
+type(
+  MemStore.t
+)
+ident(
+  def a "vsa_ast.ml" 104 4020 4040 "vsa_ast.ml" 104 4020 4066
+)
+"vsa_ast.ml" 102 3904 3935 "vsa_ast.ml" 102 3904 3945
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 102 3904 3930 "vsa_ast.ml" 102 3904 3945
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 102 3904 3924 "vsa_ast.ml" 102 3904 3945
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 101 3862 3882 "vsa_ast.ml" 102 3904 3945
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 104 4020 4053 "vsa_ast.ml" 104 4020 4065
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  ext_ref MemStore.top
+)
+"vsa_ast.ml" 104 4020 4045 "vsa_ast.ml" 104 4020 4066
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 104 4020 4040 "vsa_ast.ml" 104 4020 4066
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 105 4067 4087 "vsa_ast.ml" 105 4067 4091
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 105 4067 4093 "vsa_ast.ml" 105 4067 4097
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 105 4067 4087 "vsa_ast.ml" 105 4067 4097
+type(
+  AbsEnv.value option * AbsEnv.value option
+)
+"vsa_ast.ml" 105 4067 4101 "vsa_ast.ml" 105 4067 4105
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 92 3175 3209 "vsa_ast.ml" 105 4067 4105
+type(
+  AbsEnv.value option
+)
+"vsa_ast.ml" 92 3175 3193 "vsa_ast.ml" 105 4067 4106
+type(
+  Vsa.VM.key ->
+  AbsEnv.value option -> AbsEnv.value option -> AbsEnv.value option
+)
+"vsa_ast.ml" 105 4067 4107 "vsa_ast.ml" 105 4067 4108
+type(
+  AbsEnv.t
+)
+ident(
+  int_ref x "vsa_ast.ml" 90 3122 3137 "vsa_ast.ml" 90 3122 3138
+)
+"vsa_ast.ml" 105 4067 4109 "vsa_ast.ml" 105 4067 4110
+type(
+  AbsEnv.t
+)
+ident(
+  int_ref y "vsa_ast.ml" 90 3122 3145 "vsa_ast.ml" 90 3122 3146
+)
+"vsa_ast.ml" 91 3150 3165 "vsa_ast.ml" 105 4067 4111
+call(
+  stack
+)
+type(
+  AbsEnv.value Vsa.VM.t
+)
+"vsa_ast.ml" 91 3150 3160 "vsa_ast.ml" 105 4067 4111
+type(
+  t
+)
+"vsa_ast.ml" 86 2999 3012 "vsa_ast.ml" 105 4067 4111
+type(
+  t
+)
+"vsa_ast.ml" 85 2971 2979 "vsa_ast.ml" 105 4067 4111
+type(
+  t
+)
+"vsa_ast.ml" 121 4526 4536 "vsa_ast.ml" 121 4526 4543
+type(
+  Vsa.options
+)
+ident(
+  def default "vsa_ast.ml" 126 4783 4804 "vsa_ast.ml" 127 4805 4812
+)
+"vsa_ast.ml" 121 4526 4562 "vsa_ast.ml" 121 4526 4564
+type(
+  (Type.addr * char) list
+)
+"vsa_ast.ml" 124 4704 4731 "vsa_ast.ml" 124 4704 4741
+type(
+  Var.t
+)
+ident(
+  int_ref default_sp "vsa_ast.ml" 37 1196 1200 "vsa_ast.ml" 37 1196 1210
+)
+"vsa_ast.ml" 125 4743 4771 "vsa_ast.ml" 125 4743 4781
+type(
+  Var.t
+)
+ident(
+  int_ref default_sp "vsa_ast.ml" 37 1196 1200 "vsa_ast.ml" 37 1196 1210
+)
+"vsa_ast.ml" 121 4526 4546 "vsa_ast.ml" 126 4783 4804
+type(
+  Vsa.options
+)
+"vsa_ast.ml" 129 4814 4822 "vsa_ast.ml" 129 4814 4824
+type(
+  'b -> 'c -> CFG.G.V.t
+)
+ident(
+  def s0 "vsa_ast.ml" 134 5021 5025 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 129 4814 4825 "vsa_ast.ml" 129 4814 4826
+type(
+  'b
+)
+"vsa_ast.ml" 129 4814 4827 "vsa_ast.ml" 129 4814 4828
+type(
+  'c
+)
+"vsa_ast.ml" 129 4814 4831 "vsa_ast.ml" 129 4814 4845
+type(
+  CFG.G.V.label -> CFG.G.V.t
+)
+ident(
+  ext_ref CFG.G.V.create
+)
+"vsa_ast.ml" 129 4814 4846 "vsa_ast.ml" 129 4814 4858
+type(
+  CFG.G.V.label
+)
+"vsa_ast.ml" 129 4814 4831 "vsa_ast.ml" 129 4814 4858
+call(
+  tail
+)
+type(
+  CFG.G.V.t
+)
+"vsa_ast.ml" 134 5021 5029 "vsa_ast.ml" 134 5021 5038
+type(
+  Vsa.VM.key list ->
+  [> `Scalar of (Vsa.VM.key * (int * Z.t * Z.t * Z.t)) list ] Vsa.VM.t
+)
+ident(
+  def init_vars "vsa_ast.ml" 137 5165 5169 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 134 5021 5039 "vsa_ast.ml" 134 5021 5043
+type(
+  Vsa.VM.key list
+)
+ident(
+  def vars "vsa_ast.ml" 135 5046 5052 "vsa_ast.ml" 135 5046 5163
+)
+"vsa_ast.ml" 135 5046 5052 "vsa_ast.ml" 135 5046 5066
+type(
+  (([> `Scalar of (Vsa.VM.key * (int * Z.t * Z.t * Z.t)) list ] as 'd)
+   Vsa.VM.t -> Vsa.VM.key -> 'd Vsa.VM.t) ->
+  'd Vsa.VM.t -> Vsa.VM.key list -> 'd Vsa.VM.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"vsa_ast.ml" 135 5046 5072 "vsa_ast.ml" 135 5046 5074
+type(
+  'd Vsa.VM.t
+)
+ident(
+  def vm "vsa_ast.ml" 135 5046 5075 "vsa_ast.ml" 135 5046 5144
+)
+"vsa_ast.ml" 135 5046 5075 "vsa_ast.ml" 135 5046 5076
+type(
+  Vsa.VM.key
+)
+ident(
+  def x "vsa_ast.ml" 135 5046 5080 "vsa_ast.ml" 135 5046 5144
+)
+"vsa_ast.ml" 135 5046 5080 "vsa_ast.ml" 135 5046 5086
+type(
+  Vsa.VM.key -> 'd -> 'd Vsa.VM.t -> 'd Vsa.VM.t
+)
+ident(
+  ext_ref Vsa.VM.add
+)
+"vsa_ast.ml" 135 5046 5087 "vsa_ast.ml" 135 5046 5088
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref x "vsa_ast.ml" 135 5046 5075 "vsa_ast.ml" 135 5046 5076
+)
+"vsa_ast.ml" 135 5046 5100 "vsa_ast.ml" 135 5046 5101
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref x "vsa_ast.ml" 135 5046 5075 "vsa_ast.ml" 135 5046 5076
+)
+"vsa_ast.ml" 135 5046 5103 "vsa_ast.ml" 135 5046 5110
+type(
+  int -> int * Z.t * Z.t * Z.t
+)
+ident(
+  ext_ref SI.zero
+)
+"vsa_ast.ml" 135 5046 5112 "vsa_ast.ml" 135 5046 5125
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Vsa.bits_of_width
+)
+"vsa_ast.ml" 135 5046 5127 "vsa_ast.ml" 135 5046 5134
+type(
+  Vsa.VM.key -> Type.typ
+)
+ident(
+  ext_ref Var.typ
+)
+"vsa_ast.ml" 135 5046 5135 "vsa_ast.ml" 135 5046 5136
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref x "vsa_ast.ml" 135 5046 5075 "vsa_ast.ml" 135 5046 5076
+)
+"vsa_ast.ml" 135 5046 5126 "vsa_ast.ml" 135 5046 5137
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"vsa_ast.ml" 135 5046 5111 "vsa_ast.ml" 135 5046 5138
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 135 5046 5103 "vsa_ast.ml" 135 5046 5138
+call(
+  stack
+)
+type(
+  int * Z.t * Z.t * Z.t
+)
+"vsa_ast.ml" 135 5046 5099 "vsa_ast.ml" 135 5046 5139
+type(
+  Vsa.VM.key * (int * Z.t * Z.t * Z.t)
+)
+"vsa_ast.ml" 135 5046 5098 "vsa_ast.ml" 135 5046 5140
+type(
+  (Vsa.VM.key * (int * Z.t * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 135 5046 5089 "vsa_ast.ml" 135 5046 5141
+type(
+  'd
+)
+"vsa_ast.ml" 135 5046 5142 "vsa_ast.ml" 135 5046 5144
+type(
+  'd Vsa.VM.t
+)
+ident(
+  int_ref vm "vsa_ast.ml" 135 5046 5072 "vsa_ast.ml" 135 5046 5074
+)
+"vsa_ast.ml" 135 5046 5080 "vsa_ast.ml" 135 5046 5144
+call(
+  tail
+)
+type(
+  'd Vsa.VM.t
+)
+"vsa_ast.ml" 135 5046 5067 "vsa_ast.ml" 135 5046 5145
+type(
+  'd Vsa.VM.t -> Vsa.VM.key -> 'd Vsa.VM.t
+)
+"vsa_ast.ml" 135 5046 5146 "vsa_ast.ml" 135 5046 5158
+type(
+  'd Vsa.VM.t
+)
+ident(
+  ext_ref AbsEnv.empty
+)
+"vsa_ast.ml" 135 5046 5159 "vsa_ast.ml" 135 5046 5163
+type(
+  Vsa.VM.key list
+)
+ident(
+  int_ref vars "vsa_ast.ml" 134 5021 5039 "vsa_ast.ml" 134 5021 5043
+)
+"vsa_ast.ml" 135 5046 5052 "vsa_ast.ml" 135 5046 5163
+call(
+  tail
+)
+type(
+  'd Vsa.VM.t
+)
+"vsa_ast.ml" 137 5165 5173 "vsa_ast.ml" 137 5165 5181
+type(
+  ([> `Array of (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t ] as 'e)
+  Vsa.VM.t -> Vsa.options -> 'e Vsa.VM.t
+)
+ident(
+  def init_mem "vsa_ast.ml" 152 5884 5888 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 137 5165 5182 "vsa_ast.ml" 137 5165 5184
+type(
+  'e Vsa.VM.t
+)
+ident(
+  def vm "vsa_ast.ml" 137 5165 5185 "vsa_ast.ml" 150 5852 5882
+)
+"vsa_ast.ml" 137 5165 5186 "vsa_ast.ml" 137 5165 5197
+type(
+  (MemStore.M2.key * char) list
+)
+ident(
+  def initial_mem "vsa_ast.ml" 138 5206 5212 "vsa_ast.ml" 150 5852 5882
+)
+"vsa_ast.ml" 137 5165 5186 "vsa_ast.ml" 137 5165 5202
+type(
+  Vsa.VM.key
+)
+ident(
+  def mem "vsa_ast.ml" 138 5206 5212 "vsa_ast.ml" 150 5852 5882
+)
+"vsa_ast.ml" 137 5165 5185 "vsa_ast.ml" 137 5165 5203
+type(
+  Vsa.options
+)
+"vsa_ast.ml" 138 5206 5216 "vsa_ast.ml" 138 5206 5225
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t ->
+  MemStore.M2.key * char ->
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 138 5206 5226 "vsa_ast.ml" 138 5206 5227
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+ident(
+  def m "vsa_ast.ml" 138 5206 5228 "vsa_ast.ml" 145 5608 5675
+)
+"vsa_ast.ml" 138 5206 5229 "vsa_ast.ml" 138 5206 5230
+type(
+  MemStore.M2.key
+)
+ident(
+  def a "vsa_ast.ml" 139 5236 5244 "vsa_ast.ml" 145 5608 5675
+)
+"vsa_ast.ml" 138 5206 5231 "vsa_ast.ml" 138 5206 5232
+type(
+  char
+)
+ident(
+  def v "vsa_ast.ml" 139 5236 5244 "vsa_ast.ml" 145 5608 5675
+)
+"vsa_ast.ml" 138 5206 5228 "vsa_ast.ml" 138 5206 5233
+type(
+  MemStore.M2.key * char
+)
+"vsa_ast.ml" 139 5236 5244 "vsa_ast.ml" 139 5236 5254
+type(
+  (int -> string -> unit, unit, string, unit) format4 ->
+  int -> string -> unit
+)
+ident(
+  ext_ref DV.dprintf
+)
+"vsa_ast.ml" 139 5236 5255 "vsa_ast.ml" 139 5236 5274
+type(
+  (int -> string -> unit, unit, string, unit) format4
+)
+"vsa_ast.ml" 139 5236 5276 "vsa_ast.ml" 139 5236 5285
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"vsa_ast.ml" 139 5236 5286 "vsa_ast.ml" 139 5236 5287
+type(
+  char
+)
+ident(
+  int_ref v "vsa_ast.ml" 138 5206 5231 "vsa_ast.ml" 138 5206 5232
+)
+"vsa_ast.ml" 139 5236 5275 "vsa_ast.ml" 139 5236 5288
+type(
+  int
+)
+"vsa_ast.ml" 139 5236 5290 "vsa_ast.ml" 139 5236 5292
+type(
+  MemStore.M2.key -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"vsa_ast.ml" 139 5236 5293 "vsa_ast.ml" 139 5236 5294
+type(
+  MemStore.M2.key
+)
+ident(
+  int_ref a "vsa_ast.ml" 138 5206 5229 "vsa_ast.ml" 138 5206 5230
+)
+"vsa_ast.ml" 139 5236 5289 "vsa_ast.ml" 139 5236 5295
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 139 5236 5244 "vsa_ast.ml" 139 5236 5295
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 140 5297 5309 "vsa_ast.ml" 140 5297 5310
+type(
+  Z.t
+)
+"vsa_ast.ml" 140 5297 5313 "vsa_ast.ml" 140 5297 5315
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Big_int_convenience.bi
+)
+"vsa_ast.ml" 140 5297 5317 "vsa_ast.ml" 140 5297 5326
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"vsa_ast.ml" 140 5297 5327 "vsa_ast.ml" 140 5297 5328
+type(
+  char
+)
+ident(
+  int_ref v "vsa_ast.ml" 138 5206 5231 "vsa_ast.ml" 138 5206 5232
+)
+"vsa_ast.ml" 140 5297 5316 "vsa_ast.ml" 140 5297 5329
+type(
+  int
+)
+"vsa_ast.ml" 140 5297 5313 "vsa_ast.ml" 140 5297 5329
+call(
+  stack
+)
+type(
+  Z.t
+)
+"vsa_ast.ml" 141 5333 5345 "vsa_ast.ml" 141 5333 5355
+type(
+  int
+)
+"vsa_ast.ml" 141 5333 5358 "vsa_ast.ml" 141 5333 5381
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"vsa_ast.ml" 141 5333 5383 "vsa_ast.ml" 141 5333 5406
+type(
+  Type.typ -> Type.typ
+)
+ident(
+  ext_ref Typecheck.index_type_of
+)
+"vsa_ast.ml" 141 5333 5408 "vsa_ast.ml" 141 5333 5415
+type(
+  Vsa.VM.key -> Type.typ
+)
+ident(
+  ext_ref Var.typ
+)
+"vsa_ast.ml" 141 5333 5416 "vsa_ast.ml" 141 5333 5419
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref mem "vsa_ast.ml" 137 5165 5186 "vsa_ast.ml" 137 5165 5202
+)
+"vsa_ast.ml" 141 5333 5407 "vsa_ast.ml" 141 5333 5420
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"vsa_ast.ml" 141 5333 5382 "vsa_ast.ml" 141 5333 5421
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"vsa_ast.ml" 141 5333 5358 "vsa_ast.ml" 141 5333 5421
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 142 5425 5437 "vsa_ast.ml" 142 5425 5447
+type(
+  int
+)
+"vsa_ast.ml" 142 5425 5450 "vsa_ast.ml" 142 5425 5473
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Typecheck.bits_of_width
+)
+"vsa_ast.ml" 142 5425 5475 "vsa_ast.ml" 142 5425 5498
+type(
+  Type.typ -> Type.typ
+)
+ident(
+  ext_ref Typecheck.value_type_of
+)
+"vsa_ast.ml" 142 5425 5500 "vsa_ast.ml" 142 5425 5507
+type(
+  Vsa.VM.key -> Type.typ
+)
+ident(
+  ext_ref Var.typ
+)
+"vsa_ast.ml" 142 5425 5508 "vsa_ast.ml" 142 5425 5511
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref mem "vsa_ast.ml" 137 5165 5186 "vsa_ast.ml" 137 5165 5202
+)
+"vsa_ast.ml" 142 5425 5499 "vsa_ast.ml" 142 5425 5512
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"vsa_ast.ml" 142 5425 5474 "vsa_ast.ml" 142 5425 5513
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"vsa_ast.ml" 142 5425 5450 "vsa_ast.ml" 142 5425 5513
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 143 5517 5528 "vsa_ast.ml" 143 5517 5538
+type(
+  int
+)
+ident(
+  int_ref value_bits "vsa_ast.ml" 142 5425 5437 "vsa_ast.ml" 142 5425 5447
+)
+"vsa_ast.ml" 143 5517 5539 "vsa_ast.ml" 143 5517 5541
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"vsa_ast.ml" 143 5517 5542 "vsa_ast.ml" 143 5517 5543
+type(
+  int
+)
+"vsa_ast.ml" 143 5517 5528 "vsa_ast.ml" 143 5517 5543
+type(
+  bool
+)
+"vsa_ast.ml" 144 5544 5557 "vsa_ast.ml" 144 5544 5565
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 144 5544 5566 "vsa_ast.ml" 144 5544 5606
+type(
+  string
+)
+"vsa_ast.ml" 144 5544 5557 "vsa_ast.ml" 144 5544 5606
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 143 5517 5525 "vsa_ast.ml" 144 5544 5606
+type(
+  unit
+)
+"vsa_ast.ml" 145 5608 5616 "vsa_ast.ml" 145 5608 5630
+type(
+  int ->
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t ->
+  (MemStore.M1.key * (int * Z.t * MemStore.M2.key * MemStore.M2.key)) list ->
+  (Var.t * Vsa.SI.t) list ->
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+ident(
+  ext_ref MemStore.write
+)
+"vsa_ast.ml" 145 5608 5631 "vsa_ast.ml" 145 5608 5632
+type(
+  int
+)
+"vsa_ast.ml" 145 5608 5633 "vsa_ast.ml" 145 5608 5634
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+ident(
+  int_ref m "vsa_ast.ml" 138 5206 5226 "vsa_ast.ml" 138 5206 5227
+)
+"vsa_ast.ml" 145 5608 5636 "vsa_ast.ml" 145 5608 5645
+type(
+  int ->
+  MemStore.M2.key ->
+  (MemStore.M1.key * (int * Z.t * MemStore.M2.key * MemStore.M2.key)) list
+)
+ident(
+  ext_ref VS.single
+)
+"vsa_ast.ml" 145 5608 5646 "vsa_ast.ml" 145 5608 5656
+type(
+  int
+)
+ident(
+  int_ref index_bits "vsa_ast.ml" 141 5333 5345 "vsa_ast.ml" 141 5333 5355
+)
+"vsa_ast.ml" 145 5608 5657 "vsa_ast.ml" 145 5608 5658
+type(
+  MemStore.M2.key
+)
+ident(
+  int_ref a "vsa_ast.ml" 138 5206 5229 "vsa_ast.ml" 138 5206 5230
+)
+"vsa_ast.ml" 145 5608 5635 "vsa_ast.ml" 145 5608 5659
+call(
+  stack
+)
+type(
+  (MemStore.M1.key * (int * Z.t * MemStore.M2.key * MemStore.M2.key)) list
+)
+"vsa_ast.ml" 145 5608 5661 "vsa_ast.ml" 145 5608 5670
+type(
+  int -> Big_int_Z.big_int -> (Var.t * Vsa.SI.t) list
+)
+ident(
+  ext_ref VS.single
+)
+"vsa_ast.ml" 145 5608 5671 "vsa_ast.ml" 145 5608 5672
+type(
+  int
+)
+"vsa_ast.ml" 145 5608 5673 "vsa_ast.ml" 145 5608 5674
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref v "vsa_ast.ml" 140 5297 5309 "vsa_ast.ml" 140 5297 5310
+)
+"vsa_ast.ml" 145 5608 5660 "vsa_ast.ml" 145 5608 5675
+call(
+  stack
+)
+type(
+  (Var.t * Vsa.SI.t) list
+)
+"vsa_ast.ml" 145 5608 5616 "vsa_ast.ml" 145 5608 5675
+call(
+  tail
+)
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 143 5517 5525 "vsa_ast.ml" 145 5608 5675
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 142 5425 5433 "vsa_ast.ml" 145 5608 5675
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 141 5333 5341 "vsa_ast.ml" 145 5608 5675
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 140 5297 5305 "vsa_ast.ml" 145 5608 5675
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 139 5236 5244 "vsa_ast.ml" 145 5608 5675
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 147 5685 5695 "vsa_ast.ml" 147 5685 5696
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 147 5685 5699 "vsa_ast.ml" 147 5685 5713
+type(
+  ((Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t ->
+   MemStore.M2.key * char ->
+   (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t) ->
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t ->
+  (MemStore.M2.key * char) list ->
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"vsa_ast.ml" 147 5685 5714 "vsa_ast.ml" 147 5685 5723
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t ->
+  MemStore.M2.key * char ->
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+ident(
+  int_ref write_mem "vsa_ast.ml" 138 5206 5216 "vsa_ast.ml" 138 5206 5225
+)
+"vsa_ast.ml" 147 5685 5724 "vsa_ast.ml" 147 5685 5738
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+ident(
+  ext_ref MemStore.top
+)
+"vsa_ast.ml" 147 5685 5739 "vsa_ast.ml" 147 5685 5750
+type(
+  (MemStore.M2.key * char) list
+)
+ident(
+  int_ref initial_mem "vsa_ast.ml" 137 5165 5186 "vsa_ast.ml" 137 5165 5197
+)
+"vsa_ast.ml" 147 5685 5699 "vsa_ast.ml" 147 5685 5750
+call(
+  stack
+)
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 148 5754 5763 "vsa_ast.ml" 148 5754 5772
+type(
+  Vsa.VM.key -> Var.t -> bool
+)
+ident(
+  ext_ref Var.equal
+)
+"vsa_ast.ml" 148 5754 5773 "vsa_ast.ml" 148 5754 5776
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref mem "vsa_ast.ml" 137 5165 5186 "vsa_ast.ml" 137 5165 5202
+)
+"vsa_ast.ml" 148 5754 5777 "vsa_ast.ml" 148 5754 5787
+type(
+  Var.t
+)
+ident(
+  int_ref default_sp "vsa_ast.ml" 37 1196 1200 "vsa_ast.ml" 37 1196 1210
+)
+"vsa_ast.ml" 148 5754 5763 "vsa_ast.ml" 148 5754 5787
+call(
+  stack
+)
+type(
+  bool
+)
+"vsa_ast.ml" 149 5788 5799 "vsa_ast.ml" 149 5788 5807
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 149 5788 5808 "vsa_ast.ml" 149 5788 5850
+type(
+  string
+)
+"vsa_ast.ml" 149 5788 5799 "vsa_ast.ml" 149 5788 5850
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 148 5754 5760 "vsa_ast.ml" 149 5788 5850
+type(
+  unit
+)
+"vsa_ast.ml" 150 5852 5858 "vsa_ast.ml" 150 5852 5864
+type(
+  Vsa.VM.key -> 'e -> 'e Vsa.VM.t -> 'e Vsa.VM.t
+)
+ident(
+  ext_ref Vsa.VM.add
+)
+"vsa_ast.ml" 150 5852 5865 "vsa_ast.ml" 150 5852 5868
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref mem "vsa_ast.ml" 137 5165 5186 "vsa_ast.ml" 137 5165 5202
+)
+"vsa_ast.ml" 150 5852 5877 "vsa_ast.ml" 150 5852 5878
+type(
+  (Var.t * Vsa.SI.t) list MemStore.M2.t MemStore.M1.t
+)
+ident(
+  int_ref m "vsa_ast.ml" 147 5685 5695 "vsa_ast.ml" 147 5685 5696
+)
+"vsa_ast.ml" 150 5852 5869 "vsa_ast.ml" 150 5852 5879
+type(
+  'e
+)
+"vsa_ast.ml" 150 5852 5880 "vsa_ast.ml" 150 5852 5882
+type(
+  'e Vsa.VM.t
+)
+ident(
+  int_ref vm "vsa_ast.ml" 137 5165 5182 "vsa_ast.ml" 137 5165 5184
+)
+"vsa_ast.ml" 150 5852 5858 "vsa_ast.ml" 150 5852 5882
+call(
+  tail
+)
+type(
+  'e Vsa.VM.t
+)
+"vsa_ast.ml" 148 5754 5760 "vsa_ast.ml" 150 5852 5882
+type(
+  'e Vsa.VM.t
+)
+"vsa_ast.ml" 147 5685 5691 "vsa_ast.ml" 150 5852 5882
+type(
+  'e Vsa.VM.t
+)
+"vsa_ast.ml" 138 5206 5212 "vsa_ast.ml" 150 5852 5882
+type(
+  'e Vsa.VM.t
+)
+"vsa_ast.ml" 152 5884 5892 "vsa_ast.ml" 152 5884 5896
+type(
+  Vsa.options -> 'f -> L.t
+)
+ident(
+  def init "vsa_ast.ml" 158 6080 6084 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 152 5884 5899 "vsa_ast.ml" 152 5884 5901
+type(
+  Vsa.VM.key
+)
+ident(
+  def sp "vsa_ast.ml" 152 5884 5909 "vsa_ast.ml" 156 6053 6078
+)
+"vsa_ast.ml" 152 5884 5898 "vsa_ast.ml" 152 5884 5902
+type(
+  Vsa.options
+)
+"vsa_ast.ml" 152 5884 5897 "vsa_ast.ml" 152 5884 5908
+type(
+  Vsa.options
+)
+ident(
+  def o "vsa_ast.ml" 152 5884 5909 "vsa_ast.ml" 156 6053 6078
+)
+"vsa_ast.ml" 152 5884 5909 "vsa_ast.ml" 152 5884 5910
+type(
+  'f
+)
+ident(
+  def g "vsa_ast.ml" 152 5884 5911 "vsa_ast.ml" 156 6053 6078
+)
+"vsa_ast.ml" 153 5919 5928 "vsa_ast.ml" 153 5919 5937
+type(
+  Vsa.VM.key -> Var.t -> bool
+)
+ident(
+  ext_ref Var.equal
+)
+"vsa_ast.ml" 153 5919 5938 "vsa_ast.ml" 153 5919 5940
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref sp "vsa_ast.ml" 152 5884 5899 "vsa_ast.ml" 152 5884 5901
+)
+"vsa_ast.ml" 153 5919 5941 "vsa_ast.ml" 153 5919 5951
+type(
+  Var.t
+)
+ident(
+  int_ref default_sp "vsa_ast.ml" 37 1196 1200 "vsa_ast.ml" 37 1196 1210
+)
+"vsa_ast.ml" 153 5919 5928 "vsa_ast.ml" 153 5919 5951
+call(
+  stack
+)
+type(
+  bool
+)
+"vsa_ast.ml" 154 5952 5963 "vsa_ast.ml" 154 5952 5971
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 154 5952 5972 "vsa_ast.ml" 154 5952 6018
+type(
+  string
+)
+"vsa_ast.ml" 154 5952 5963 "vsa_ast.ml" 154 5952 6018
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 153 5919 5925 "vsa_ast.ml" 154 5952 6018
+type(
+  unit
+)
+"vsa_ast.ml" 155 6020 6030 "vsa_ast.ml" 155 6020 6032
+type(
+  [> `Scalar of (Vsa.VM.key * (int * Z.t * Z.t * Z.t)) list ] Vsa.VM.t
+)
+"vsa_ast.ml" 155 6020 6035 "vsa_ast.ml" 155 6020 6044
+type(
+  Vsa.VM.key list ->
+  ([> `Scalar of (Vsa.VM.key * (int * Z.t * Z.t * Z.t)) list ] as 'g)
+  Vsa.VM.t
+)
+ident(
+  int_ref init_vars "vsa_ast.ml" 134 5021 5029 "vsa_ast.ml" 134 5021 5038
+)
+"vsa_ast.ml" 155 6020 6046 "vsa_ast.ml" 155 6020 6048
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref sp "vsa_ast.ml" 152 5884 5899 "vsa_ast.ml" 152 5884 5901
+)
+"vsa_ast.ml" 155 6020 6045 "vsa_ast.ml" 155 6020 6049
+type(
+  Vsa.VM.key list
+)
+"vsa_ast.ml" 155 6020 6035 "vsa_ast.ml" 155 6020 6049
+call(
+  stack
+)
+type(
+  'g Vsa.VM.t
+)
+"vsa_ast.ml" 156 6053 6064 "vsa_ast.ml" 156 6053 6072
+type(
+  AbsEnv.value Vsa.VM.t -> Vsa.options -> AbsEnv.value Vsa.VM.t
+)
+ident(
+  int_ref init_mem "vsa_ast.ml" 137 5165 5173 "vsa_ast.ml" 137 5165 5181
+)
+"vsa_ast.ml" 156 6053 6073 "vsa_ast.ml" 156 6053 6075
+type(
+  AbsEnv.value Vsa.VM.t
+)
+ident(
+  int_ref vm "vsa_ast.ml" 155 6020 6030 "vsa_ast.ml" 155 6020 6032
+)
+"vsa_ast.ml" 156 6053 6076 "vsa_ast.ml" 156 6053 6077
+type(
+  Vsa.options
+)
+ident(
+  int_ref o "vsa_ast.ml" 152 5884 5897 "vsa_ast.ml" 152 5884 5908
+)
+"vsa_ast.ml" 156 6053 6063 "vsa_ast.ml" 156 6053 6078
+call(
+  stack
+)
+type(
+  AbsEnv.value Vsa.VM.t
+)
+"vsa_ast.ml" 156 6053 6059 "vsa_ast.ml" 156 6053 6078
+type(
+  L.t
+)
+"vsa_ast.ml" 155 6020 6026 "vsa_ast.ml" 156 6053 6078
+type(
+  L.t
+)
+"vsa_ast.ml" 153 5919 5925 "vsa_ast.ml" 156 6053 6078
+type(
+  L.t
+)
+type(
+  L.t
+)
+"vsa_ast.ml" 158 6080 6088 "vsa_ast.ml" 158 6080 6091
+type(
+  'h -> GraphDataflow.direction
+)
+ident(
+  def dir "vsa_ast.ml" 160 6119 6123 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 158 6080 6092 "vsa_ast.ml" 158 6080 6093
+type(
+  'h
+)
+"vsa_ast.ml" 158 6080 6096 "vsa_ast.ml" 158 6080 6117
+type(
+  GraphDataflow.direction
+)
+"vsa_ast.ml" 160 6119 6127 "vsa_ast.ml" 160 6119 6131
+type(
+  Vsa.VM.key -> 'i Vsa.VM.t -> 'i
+)
+ident(
+  def find "vsa_ast.ml" 161 6150 6154 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 160 6119 6132 "vsa_ast.ml" 160 6119 6133
+type(
+  Vsa.VM.key
+)
+ident(
+  def v "vsa_ast.ml" 160 6119 6134 "vsa_ast.ml" 160 6119 6149
+)
+"vsa_ast.ml" 160 6119 6134 "vsa_ast.ml" 160 6119 6135
+type(
+  'i Vsa.VM.t
+)
+ident(
+  def l "vsa_ast.ml" 160 6119 6138 "vsa_ast.ml" 160 6119 6149
+)
+"vsa_ast.ml" 160 6119 6138 "vsa_ast.ml" 160 6119 6145
+type(
+  Vsa.VM.key -> 'i Vsa.VM.t -> 'i
+)
+ident(
+  ext_ref Vsa.VM.find
+)
+"vsa_ast.ml" 160 6119 6146 "vsa_ast.ml" 160 6119 6147
+type(
+  Vsa.VM.key
+)
+ident(
+  int_ref v "vsa_ast.ml" 160 6119 6132 "vsa_ast.ml" 160 6119 6133
+)
+"vsa_ast.ml" 160 6119 6148 "vsa_ast.ml" 160 6119 6149
+type(
+  'i Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 160 6119 6134 "vsa_ast.ml" 160 6119 6135
+)
+"vsa_ast.ml" 160 6119 6138 "vsa_ast.ml" 160 6119 6149
+call(
+  tail
+)
+type(
+  'i
+)
+"vsa_ast.ml" 161 6150 6158 "vsa_ast.ml" 161 6150 6165
+type(
+  [> `Scalar of (Var.t * (int * Z.t * Z.t * Z.t)) list ] Vsa.VM.t ->
+  Vsa.VM.key -> (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+ident(
+  def do_find "vsa_ast.ml" 162 6186 6190 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 161 6150 6168 "vsa_ast.ml" 161 6150 6185
+type(
+  ([> `Scalar of (Var.t * (int * Z.t * Z.t * Z.t)) list ] as 'j) Vsa.VM.t ->
+  Vsa.VM.key -> (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+ident(
+  ext_ref AbsEnv.do_find_vs
+)
+"vsa_ast.ml" 162 6186 6194 "vsa_ast.ml" 162 6186 6204
+type(
+  [> `Array of 'k Vsa.MemStore.M1.t ] Vsa.VM.t ->
+  Vsa.VM.key -> 'k Vsa.MemStore.M1.t
+)
+ident(
+  def do_find_ae "vsa_ast.ml" 165 6269 6273 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 162 6186 6207 "vsa_ast.ml" 162 6186 6224
+type(
+  ([> `Array of 'k Vsa.MemStore.M1.t ] as 'l) Vsa.VM.t ->
+  Vsa.VM.key -> 'k Vsa.MemStore.M1.t
+)
+ident(
+  ext_ref AbsEnv.do_find_ae
+)
+"vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+type(
+  ?o:'m ->
+  [> `Array of Vsa.VS.t MemStore.M2.t MemStore.M1.t | `Scalar of Vsa.VS.t ]
+  Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  def exp2vs "vsa_ast.ml" 165 6269 6273 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 165 6269 6289 "vsa_ast.ml" 165 6269 6290
+type(
+  'm option
+)
+ident(
+  def o "vsa_ast.ml" 165 6269 6291 "vsa_ast.ml" 168 6354 6401
+)
+"vsa_ast.ml" 165 6269 6291 "vsa_ast.ml" 165 6269 6292
+type(
+  ([> `Array of Vsa.VS.t MemStore.M2.t MemStore.M1.t | `Scalar of Vsa.VS.t ]
+   as 'n)
+  Vsa.VM.t
+)
+ident(
+  def l "vsa_ast.ml" 165 6269 6293 "vsa_ast.ml" 168 6354 6401
+)
+"vsa_ast.ml" 165 6269 6293 "vsa_ast.ml" 165 6269 6294
+type(
+  Ast.exp
+)
+ident(
+  def e "vsa_ast.ml" 166 6297 6303 "vsa_ast.ml" 168 6354 6401
+)
+"vsa_ast.ml" 166 6297 6309 "vsa_ast.ml" 166 6297 6316
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> AbsEnv.value
+)
+ident(
+  int_ref exp2aev "vsa_ast.ml" 169 6402 6410 "vsa_ast.ml" 169 6402 6417
+)
+"vsa_ast.ml" 166 6297 6318 "vsa_ast.ml" 166 6297 6319
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 165 6269 6289 "vsa_ast.ml" 165 6269 6290
+)
+"vsa_ast.ml" 166 6297 6320 "vsa_ast.ml" 166 6297 6321
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 165 6269 6291 "vsa_ast.ml" 165 6269 6292
+)
+"vsa_ast.ml" 166 6297 6322 "vsa_ast.ml" 166 6297 6323
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "vsa_ast.ml" 165 6269 6293 "vsa_ast.ml" 165 6269 6294
+)
+"vsa_ast.ml" 166 6297 6309 "vsa_ast.ml" 166 6297 6323
+call(
+  stack
+)
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 167 6329 6345 "vsa_ast.ml" 167 6329 6347
+type(
+  Vsa.VS.t
+)
+ident(
+  def vs "vsa_ast.ml" 167 6329 6351 "vsa_ast.ml" 167 6329 6353
+)
+"vsa_ast.ml" 167 6329 6337 "vsa_ast.ml" 167 6329 6347
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 167 6329 6351 "vsa_ast.ml" 167 6329 6353
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs "vsa_ast.ml" 167 6329 6345 "vsa_ast.ml" 167 6329 6347
+)
+"vsa_ast.ml" 168 6354 6362 "vsa_ast.ml" 168 6354 6363
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 168 6354 6367 "vsa_ast.ml" 168 6354 6375
+type(
+  string -> Vsa.VS.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 168 6354 6376 "vsa_ast.ml" 168 6354 6401
+type(
+  string
+)
+"vsa_ast.ml" 168 6354 6367 "vsa_ast.ml" 168 6354 6401
+call(
+  tail
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 166 6297 6303 "vsa_ast.ml" 168 6354 6401
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 169 6402 6410 "vsa_ast.ml" 169 6402 6417
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> AbsEnv.value
+)
+ident(
+  def exp2aev "vsa_ast.ml" 165 6269 6273 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+type(
+  'm option
+)
+ident(
+  def o "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 215 8611 8618
+)
+"vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+type(
+  'n Vsa.VM.t
+)
+ident(
+  def l "vsa_ast.ml" 169 6402 6423 "vsa_ast.ml" 215 8611 8618
+)
+"vsa_ast.ml" 169 6402 6423 "vsa_ast.ml" 169 6402 6424
+type(
+  Ast.exp
+)
+ident(
+  def e "vsa_ast.ml" 169 6402 6425 "vsa_ast.ml" 215 8611 8618
+)
+"vsa_ast.ml" 170 6442 6454 "vsa_ast.ml" 170 6442 6473
+type(
+  Ast.exp -> Type.typ
+)
+ident(
+  ext_ref Typecheck.infer_ast
+)
+"vsa_ast.ml" 170 6442 6474 "vsa_ast.ml" 170 6442 6475
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "vsa_ast.ml" 169 6402 6423 "vsa_ast.ml" 169 6402 6424
+)
+"vsa_ast.ml" 170 6442 6454 "vsa_ast.ml" 170 6442 6475
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"vsa_ast.ml" 171 6481 6493 "vsa_ast.ml" 171 6481 6498
+type(
+  int
+)
+ident(
+  def nbits "vsa_ast.ml" 171 6481 6502 "vsa_ast.ml" 199 7816 7823
+)
+"vsa_ast.ml" 171 6481 6489 "vsa_ast.ml" 171 6481 6498
+type(
+  Type.typ
+)
+"vsa_ast.ml" 172 6504 6516 "vsa_ast.ml" 172 6504 6522
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 172 6504 6536 "vsa_ast.ml" 172 6504 6537
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "vsa_ast.ml" 169 6402 6423 "vsa_ast.ml" 169 6402 6424
+)
+"vsa_ast.ml" 173 6543 6559 "vsa_ast.ml" 173 6543 6560
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "vsa_ast.ml" 174 6566 6578 "vsa_ast.ml" 174 6566 6595
+)
+"vsa_ast.ml" 173 6543 6561 "vsa_ast.ml" 173 6543 6562
+type(
+  Type.typ
+)
+ident(
+  def t "vsa_ast.ml" 174 6566 6578 "vsa_ast.ml" 174 6566 6595
+)
+"vsa_ast.ml" 173 6543 6558 "vsa_ast.ml" 173 6543 6563
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 173 6543 6555 "vsa_ast.ml" 173 6543 6563
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 174 6566 6578 "vsa_ast.ml" 174 6566 6591
+type(
+  Big_int_Z.big_int -> Type.typ -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.of_bap_int
+)
+"vsa_ast.ml" 174 6566 6592 "vsa_ast.ml" 174 6566 6593
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "vsa_ast.ml" 173 6543 6559 "vsa_ast.ml" 173 6543 6560
+)
+"vsa_ast.ml" 174 6566 6594 "vsa_ast.ml" 174 6566 6595
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 173 6543 6561 "vsa_ast.ml" 173 6543 6562
+)
+"vsa_ast.ml" 174 6566 6578 "vsa_ast.ml" 174 6566 6595
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 175 6596 6612 "vsa_ast.ml" 175 6596 6613
+type(
+  string
+)
+"vsa_ast.ml" 175 6596 6608 "vsa_ast.ml" 175 6596 6613
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 175 6596 6617 "vsa_ast.ml" 175 6596 6622
+type(
+  exn -> Vsa.VS.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"vsa_ast.ml" 175 6596 6637 "vsa_ast.ml" 175 6596 6678
+type(
+  string
+)
+"vsa_ast.ml" 175 6596 6622 "vsa_ast.ml" 175 6596 6679
+type(
+  exn
+)
+"vsa_ast.ml" 175 6596 6617 "vsa_ast.ml" 175 6596 6679
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 176 6680 6696 "vsa_ast.ml" 176 6680 6697
+type(
+  Ast.var
+)
+ident(
+  def v "vsa_ast.ml" 176 6680 6701 "vsa_ast.ml" 176 6680 6712
+)
+"vsa_ast.ml" 176 6680 6692 "vsa_ast.ml" 176 6680 6697
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 176 6680 6701 "vsa_ast.ml" 176 6680 6708
+type(
+  'n Vsa.VM.t -> Vsa.VM.key -> Vsa.VS.t
+)
+ident(
+  int_ref do_find "vsa_ast.ml" 161 6150 6158 "vsa_ast.ml" 161 6150 6165
+)
+"vsa_ast.ml" 176 6680 6709 "vsa_ast.ml" 176 6680 6710
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 176 6680 6711 "vsa_ast.ml" 176 6680 6712
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 176 6680 6696 "vsa_ast.ml" 176 6680 6697
+)
+"vsa_ast.ml" 176 6680 6701 "vsa_ast.ml" 176 6680 6712
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 177 6713 6731 "vsa_ast.ml" 177 6713 6733
+type(
+  Type.binop_type
+)
+ident(
+  def op "vsa_ast.ml" 178 6744 6756 "vsa_ast.ml" 180 6831 6878
+)
+"vsa_ast.ml" 177 6713 6735 "vsa_ast.ml" 177 6713 6736
+type(
+  Ast.exp
+)
+ident(
+  def x "vsa_ast.ml" 178 6744 6756 "vsa_ast.ml" 180 6831 6878
+)
+"vsa_ast.ml" 177 6713 6738 "vsa_ast.ml" 177 6713 6739
+type(
+  Ast.exp
+)
+ident(
+  def y "vsa_ast.ml" 178 6744 6756 "vsa_ast.ml" 180 6831 6878
+)
+"vsa_ast.ml" 177 6713 6730 "vsa_ast.ml" 177 6713 6740
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 177 6713 6725 "vsa_ast.ml" 177 6713 6740
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 178 6744 6760 "vsa_ast.ml" 178 6744 6761
+type(
+  int -> Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+"vsa_ast.ml" 178 6744 6764 "vsa_ast.ml" 178 6744 6787
+type(
+  Type.binop_type -> int -> Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.binop_to_vs_function
+)
+"vsa_ast.ml" 178 6744 6788 "vsa_ast.ml" 178 6744 6790
+type(
+  Type.binop_type
+)
+ident(
+  int_ref op "vsa_ast.ml" 177 6713 6731 "vsa_ast.ml" 177 6713 6733
+)
+"vsa_ast.ml" 178 6744 6764 "vsa_ast.ml" 178 6744 6790
+call(
+  stack
+)
+type(
+  int -> Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+"vsa_ast.ml" 179 6794 6810 "vsa_ast.ml" 179 6794 6811
+type(
+  int
+)
+"vsa_ast.ml" 179 6794 6814 "vsa_ast.ml" 179 6794 6825
+type(
+  Ast.exp -> int
+)
+ident(
+  int_ref bits_of_exp "vsa_ast.ml" 43 1416 1420 "vsa_ast.ml" 43 1416 1431
+)
+"vsa_ast.ml" 179 6794 6826 "vsa_ast.ml" 179 6794 6827
+type(
+  Ast.exp
+)
+ident(
+  int_ref x "vsa_ast.ml" 177 6713 6735 "vsa_ast.ml" 177 6713 6736
+)
+"vsa_ast.ml" 179 6794 6814 "vsa_ast.ml" 179 6794 6827
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 180 6831 6843 "vsa_ast.ml" 180 6831 6844
+type(
+  int -> Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  int_ref f "vsa_ast.ml" 178 6744 6760 "vsa_ast.ml" 178 6744 6761
+)
+"vsa_ast.ml" 180 6831 6845 "vsa_ast.ml" 180 6831 6846
+type(
+  int
+)
+ident(
+  int_ref k "vsa_ast.ml" 179 6794 6810 "vsa_ast.ml" 179 6794 6811
+)
+"vsa_ast.ml" 180 6831 6848 "vsa_ast.ml" 180 6831 6854
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 180 6831 6856 "vsa_ast.ml" 180 6831 6857
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 180 6831 6858 "vsa_ast.ml" 180 6831 6859
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 180 6831 6860 "vsa_ast.ml" 180 6831 6861
+type(
+  Ast.exp
+)
+ident(
+  int_ref x "vsa_ast.ml" 177 6713 6735 "vsa_ast.ml" 177 6713 6736
+)
+"vsa_ast.ml" 180 6831 6847 "vsa_ast.ml" 180 6831 6862
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 180 6831 6864 "vsa_ast.ml" 180 6831 6870
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 180 6831 6872 "vsa_ast.ml" 180 6831 6873
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 180 6831 6874 "vsa_ast.ml" 180 6831 6875
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 180 6831 6876 "vsa_ast.ml" 180 6831 6877
+type(
+  Ast.exp
+)
+ident(
+  int_ref y "vsa_ast.ml" 177 6713 6738 "vsa_ast.ml" 177 6713 6739
+)
+"vsa_ast.ml" 180 6831 6863 "vsa_ast.ml" 180 6831 6878
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 180 6831 6843 "vsa_ast.ml" 180 6831 6878
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 179 6794 6806 "vsa_ast.ml" 180 6831 6878
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 178 6744 6756 "vsa_ast.ml" 180 6831 6878
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 181 6879 6896 "vsa_ast.ml" 181 6879 6898
+type(
+  Type.unop_type
+)
+ident(
+  def op "vsa_ast.ml" 182 6906 6918 "vsa_ast.ml" 184 6992 7023
+)
+"vsa_ast.ml" 181 6879 6900 "vsa_ast.ml" 181 6879 6901
+type(
+  Ast.exp
+)
+ident(
+  def x "vsa_ast.ml" 182 6906 6918 "vsa_ast.ml" 184 6992 7023
+)
+"vsa_ast.ml" 181 6879 6895 "vsa_ast.ml" 181 6879 6902
+type(
+  Type.unop_type * Ast.exp
+)
+"vsa_ast.ml" 181 6879 6891 "vsa_ast.ml" 181 6879 6902
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 182 6906 6922 "vsa_ast.ml" 182 6906 6923
+type(
+  int ->
+  Vsa.VS.t -> (Vsa.VS.region * (int * Big_int_Z.big_int * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 182 6906 6926 "vsa_ast.ml" 182 6906 6948
+type(
+  Type.unop_type ->
+  int ->
+  Vsa.VS.t -> (Vsa.VS.region * (int * Big_int_Z.big_int * Z.t * Z.t)) list
+)
+ident(
+  ext_ref VS.unop_to_vs_function
+)
+"vsa_ast.ml" 182 6906 6949 "vsa_ast.ml" 182 6906 6951
+type(
+  Type.unop_type
+)
+ident(
+  int_ref op "vsa_ast.ml" 181 6879 6896 "vsa_ast.ml" 181 6879 6898
+)
+"vsa_ast.ml" 182 6906 6926 "vsa_ast.ml" 182 6906 6951
+call(
+  stack
+)
+type(
+  int ->
+  Vsa.VS.t -> (Vsa.VS.region * (int * Big_int_Z.big_int * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 183 6955 6971 "vsa_ast.ml" 183 6955 6972
+type(
+  int
+)
+"vsa_ast.ml" 183 6955 6975 "vsa_ast.ml" 183 6955 6986
+type(
+  Ast.exp -> int
+)
+ident(
+  int_ref bits_of_exp "vsa_ast.ml" 43 1416 1420 "vsa_ast.ml" 43 1416 1431
+)
+"vsa_ast.ml" 183 6955 6987 "vsa_ast.ml" 183 6955 6988
+type(
+  Ast.exp
+)
+ident(
+  int_ref x "vsa_ast.ml" 181 6879 6900 "vsa_ast.ml" 181 6879 6901
+)
+"vsa_ast.ml" 183 6955 6975 "vsa_ast.ml" 183 6955 6988
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 184 6992 7004 "vsa_ast.ml" 184 6992 7005
+type(
+  int -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  int_ref f "vsa_ast.ml" 182 6906 6922 "vsa_ast.ml" 182 6906 6923
+)
+"vsa_ast.ml" 184 6992 7006 "vsa_ast.ml" 184 6992 7007
+type(
+  int
+)
+ident(
+  int_ref k "vsa_ast.ml" 183 6955 6971 "vsa_ast.ml" 183 6955 6972
+)
+"vsa_ast.ml" 184 6992 7009 "vsa_ast.ml" 184 6992 7015
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 184 6992 7017 "vsa_ast.ml" 184 6992 7018
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 184 6992 7019 "vsa_ast.ml" 184 6992 7020
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 184 6992 7021 "vsa_ast.ml" 184 6992 7022
+type(
+  Ast.exp
+)
+ident(
+  int_ref x "vsa_ast.ml" 181 6879 6900 "vsa_ast.ml" 181 6879 6901
+)
+"vsa_ast.ml" 184 6992 7008 "vsa_ast.ml" 184 6992 7023
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 184 6992 7004 "vsa_ast.ml" 184 6992 7023
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 183 6955 6967 "vsa_ast.ml" 184 6992 7023
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 182 6906 6918 "vsa_ast.ml" 184 6992 7023
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 185 7024 7045 "vsa_ast.ml" 185 7024 7046
+type(
+  Ast.var
+)
+ident(
+  def m "vsa_ast.ml" 189 7202 7214 "vsa_ast.ml" 190 7280 7359
+)
+"vsa_ast.ml" 185 7024 7041 "vsa_ast.ml" 185 7024 7046
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 185 7024 7048 "vsa_ast.ml" 185 7024 7049
+type(
+  Ast.exp
+)
+ident(
+  def i "vsa_ast.ml" 189 7202 7214 "vsa_ast.ml" 190 7280 7359
+)
+"vsa_ast.ml" 185 7024 7051 "vsa_ast.ml" 185 7024 7053
+type(
+  Ast.exp
+)
+ident(
+  def _e "vsa_ast.ml" 189 7202 7214 "vsa_ast.ml" 190 7280 7359
+)
+"vsa_ast.ml" 185 7024 7055 "vsa_ast.ml" 185 7024 7056
+type(
+  Type.typ
+)
+ident(
+  def t "vsa_ast.ml" 189 7202 7214 "vsa_ast.ml" 190 7280 7359
+)
+"vsa_ast.ml" 185 7024 7040 "vsa_ast.ml" 185 7024 7057
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"vsa_ast.ml" 185 7024 7036 "vsa_ast.ml" 185 7024 7057
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 189 7202 7214 "vsa_ast.ml" 189 7202 7224
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref DV.dprintf
+)
+"vsa_ast.ml" 189 7202 7225 "vsa_ast.ml" 189 7202 7247
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"vsa_ast.ml" 189 7202 7249 "vsa_ast.ml" 189 7202 7261
+type(
+  Vsa.VS.t -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 189 7202 7263 "vsa_ast.ml" 189 7202 7269
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 189 7202 7271 "vsa_ast.ml" 189 7202 7272
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 189 7202 7273 "vsa_ast.ml" 189 7202 7274
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 189 7202 7275 "vsa_ast.ml" 189 7202 7276
+type(
+  Ast.exp
+)
+ident(
+  int_ref i "vsa_ast.ml" 185 7024 7048 "vsa_ast.ml" 185 7024 7049
+)
+"vsa_ast.ml" 189 7202 7262 "vsa_ast.ml" 189 7202 7277
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 189 7202 7248 "vsa_ast.ml" 189 7202 7278
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 189 7202 7214 "vsa_ast.ml" 189 7202 7278
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 190 7280 7292 "vsa_ast.ml" 190 7280 7305
+type(
+  int ->
+  ?o:'m -> Vsa.VS.t MemStore.M2.t MemStore.M1.t -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  ext_ref MemStore.read
+)
+"vsa_ast.ml" 190 7280 7307 "vsa_ast.ml" 190 7280 7320
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Vsa.bits_of_width
+)
+"vsa_ast.ml" 190 7280 7321 "vsa_ast.ml" 190 7280 7322
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 185 7024 7055 "vsa_ast.ml" 185 7024 7056
+)
+"vsa_ast.ml" 190 7280 7306 "vsa_ast.ml" 190 7280 7323
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 190 7280 7325 "vsa_ast.ml" 190 7280 7326
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 190 7280 7328 "vsa_ast.ml" 190 7280 7338
+type(
+  'n Vsa.VM.t -> Vsa.VM.key -> Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  int_ref do_find_ae "vsa_ast.ml" 162 6186 6194 "vsa_ast.ml" 162 6186 6204
+)
+"vsa_ast.ml" 190 7280 7339 "vsa_ast.ml" 190 7280 7340
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 190 7280 7341 "vsa_ast.ml" 190 7280 7342
+type(
+  Ast.var
+)
+ident(
+  int_ref m "vsa_ast.ml" 185 7024 7045 "vsa_ast.ml" 185 7024 7046
+)
+"vsa_ast.ml" 190 7280 7327 "vsa_ast.ml" 190 7280 7343
+call(
+  stack
+)
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 190 7280 7345 "vsa_ast.ml" 190 7280 7351
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 190 7280 7353 "vsa_ast.ml" 190 7280 7354
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 190 7280 7355 "vsa_ast.ml" 190 7280 7356
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 190 7280 7357 "vsa_ast.ml" 190 7280 7358
+type(
+  Ast.exp
+)
+ident(
+  int_ref i "vsa_ast.ml" 185 7024 7048 "vsa_ast.ml" 185 7024 7049
+)
+"vsa_ast.ml" 190 7280 7344 "vsa_ast.ml" 190 7280 7359
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 190 7280 7292 "vsa_ast.ml" 190 7280 7359
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 189 7202 7214 "vsa_ast.ml" 190 7280 7359
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 191 7360 7378 "vsa_ast.ml" 191 7360 7380
+type(
+  Type.cast_type
+)
+ident(
+  def ct "vsa_ast.ml" 192 7391 7403 "vsa_ast.ml" 194 7479 7510
+)
+"vsa_ast.ml" 191 7360 7382 "vsa_ast.ml" 191 7360 7383
+type(
+  Type.typ
+)
+ident(
+  def t "vsa_ast.ml" 192 7391 7403 "vsa_ast.ml" 194 7479 7510
+)
+"vsa_ast.ml" 191 7360 7385 "vsa_ast.ml" 191 7360 7386
+type(
+  Ast.exp
+)
+ident(
+  def x "vsa_ast.ml" 192 7391 7403 "vsa_ast.ml" 194 7479 7510
+)
+"vsa_ast.ml" 191 7360 7377 "vsa_ast.ml" 191 7360 7387
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"vsa_ast.ml" 191 7360 7372 "vsa_ast.ml" 191 7360 7387
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 192 7391 7407 "vsa_ast.ml" 192 7391 7408
+type(
+  int ->
+  Vsa.VS.t ->
+  (Vsa.VS.region *
+   (int * Big_int_Z.big_int * Big_int_Z.big_int * Big_int_Z.big_int))
+  list
+)
+"vsa_ast.ml" 192 7391 7411 "vsa_ast.ml" 192 7391 7433
+type(
+  Type.cast_type ->
+  int ->
+  Vsa.VS.t ->
+  (Vsa.VS.region *
+   (int * Big_int_Z.big_int * Big_int_Z.big_int * Big_int_Z.big_int))
+  list
+)
+ident(
+  ext_ref VS.cast_to_vs_function
+)
+"vsa_ast.ml" 192 7391 7434 "vsa_ast.ml" 192 7391 7436
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "vsa_ast.ml" 191 7360 7378 "vsa_ast.ml" 191 7360 7380
+)
+"vsa_ast.ml" 192 7391 7411 "vsa_ast.ml" 192 7391 7436
+call(
+  stack
+)
+type(
+  int ->
+  Vsa.VS.t ->
+  (Vsa.VS.region *
+   (int * Big_int_Z.big_int * Big_int_Z.big_int * Big_int_Z.big_int))
+  list
+)
+"vsa_ast.ml" 193 7440 7456 "vsa_ast.ml" 193 7440 7457
+type(
+  int
+)
+"vsa_ast.ml" 193 7440 7460 "vsa_ast.ml" 193 7440 7473
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Vsa.bits_of_width
+)
+"vsa_ast.ml" 193 7440 7474 "vsa_ast.ml" 193 7440 7475
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 191 7360 7382 "vsa_ast.ml" 191 7360 7383
+)
+"vsa_ast.ml" 193 7440 7460 "vsa_ast.ml" 193 7440 7475
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 194 7479 7491 "vsa_ast.ml" 194 7479 7492
+type(
+  int -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  int_ref f "vsa_ast.ml" 192 7391 7407 "vsa_ast.ml" 192 7391 7408
+)
+"vsa_ast.ml" 194 7479 7493 "vsa_ast.ml" 194 7479 7494
+type(
+  int
+)
+ident(
+  int_ref k "vsa_ast.ml" 193 7440 7456 "vsa_ast.ml" 193 7440 7457
+)
+"vsa_ast.ml" 194 7479 7496 "vsa_ast.ml" 194 7479 7502
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 194 7479 7504 "vsa_ast.ml" 194 7479 7505
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 194 7479 7506 "vsa_ast.ml" 194 7479 7507
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 194 7479 7508 "vsa_ast.ml" 194 7479 7509
+type(
+  Ast.exp
+)
+ident(
+  int_ref x "vsa_ast.ml" 191 7360 7385 "vsa_ast.ml" 191 7360 7386
+)
+"vsa_ast.ml" 194 7479 7495 "vsa_ast.ml" 194 7479 7510
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 194 7479 7491 "vsa_ast.ml" 194 7479 7510
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 193 7440 7452 "vsa_ast.ml" 194 7479 7510
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 192 7391 7403 "vsa_ast.ml" 194 7479 7510
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 195 7511 7528 "vsa_ast.ml" 195 7511 7529
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"vsa_ast.ml" 195 7511 7523 "vsa_ast.ml" 195 7511 7529
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7539 "vsa_ast.ml" 195 7511 7540
+type(
+  Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 195 7511 7532 "vsa_ast.ml" 195 7511 7540
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7523 "vsa_ast.ml" 195 7511 7540
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7551 "vsa_ast.ml" 195 7511 7552
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int * Ast.exp
+)
+"vsa_ast.ml" 195 7511 7543 "vsa_ast.ml" 195 7511 7552
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7523 "vsa_ast.ml" 195 7511 7552
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7559 "vsa_ast.ml" 195 7511 7560
+type(
+  Ast.exp * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 195 7511 7555 "vsa_ast.ml" 195 7511 7560
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7523 "vsa_ast.ml" 195 7511 7560
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7571 "vsa_ast.ml" 195 7511 7572
+type(
+  string * Type.typ
+)
+"vsa_ast.ml" 195 7511 7563 "vsa_ast.ml" 195 7511 7572
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7523 "vsa_ast.ml" 195 7511 7572
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7579 "vsa_ast.ml" 195 7511 7580
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 195 7511 7575 "vsa_ast.ml" 195 7511 7580
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7523 "vsa_ast.ml" 195 7511 7580
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7589 "vsa_ast.ml" 195 7511 7590
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"vsa_ast.ml" 195 7511 7583 "vsa_ast.ml" 195 7511 7590
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 195 7511 7523 "vsa_ast.ml" 195 7511 7590
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 196 7594 7606 "vsa_ast.ml" 196 7594 7611
+type(
+  exn -> Vsa.VS.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"vsa_ast.ml" 196 7594 7626 "vsa_ast.ml" 196 7594 7657
+type(
+  string
+)
+"vsa_ast.ml" 196 7594 7611 "vsa_ast.ml" 196 7594 7658
+type(
+  exn
+)
+"vsa_ast.ml" 196 7594 7606 "vsa_ast.ml" 196 7594 7658
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 172 6504 6529 "vsa_ast.ml" 196 7594 7659
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 197 7660 7689 "vsa_ast.ml" 197 7660 7690
+type(
+  string
+)
+ident(
+  def s "vsa_ast.ml" 197 7660 7715 "vsa_ast.ml" 197 7660 7789
+)
+"vsa_ast.ml" 197 7660 7675 "vsa_ast.ml" 197 7660 7690
+type(
+  exn
+)
+"vsa_ast.ml" 197 7660 7710 "vsa_ast.ml" 197 7660 7711
+type(
+  string
+)
+ident(
+  def s "vsa_ast.ml" 197 7660 7715 "vsa_ast.ml" 197 7660 7789
+)
+"vsa_ast.ml" 197 7660 7693 "vsa_ast.ml" 197 7660 7711
+type(
+  exn
+)
+"vsa_ast.ml" 197 7660 7675 "vsa_ast.ml" 197 7660 7711
+type(
+  exn
+)
+"vsa_ast.ml" 197 7660 7715 "vsa_ast.ml" 197 7660 7725
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref DV.dprintf
+)
+"vsa_ast.ml" 197 7660 7726 "vsa_ast.ml" 197 7660 7748
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"vsa_ast.ml" 197 7660 7749 "vsa_ast.ml" 197 7660 7750
+type(
+  string
+)
+ident(
+  int_ref s "vsa_ast.ml" 197 7660 7689 "vsa_ast.ml" 197 7660 7690
+)
+"vsa_ast.ml" 197 7660 7752 "vsa_ast.ml" 197 7660 7772
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"vsa_ast.ml" 197 7660 7773 "vsa_ast.ml" 197 7660 7774
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "vsa_ast.ml" 169 6402 6423 "vsa_ast.ml" 169 6402 6424
+)
+"vsa_ast.ml" 197 7660 7751 "vsa_ast.ml" 197 7660 7775
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 197 7660 7715 "vsa_ast.ml" 197 7660 7775
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 197 7660 7777 "vsa_ast.ml" 197 7660 7783
+type(
+  int -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.top
+)
+"vsa_ast.ml" 197 7660 7784 "vsa_ast.ml" 197 7660 7789
+type(
+  int
+)
+ident(
+  int_ref nbits "vsa_ast.ml" 171 6481 6493 "vsa_ast.ml" 171 6481 6498
+)
+"vsa_ast.ml" 197 7660 7777 "vsa_ast.ml" 197 7660 7789
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 197 7660 7715 "vsa_ast.ml" 197 7660 7789
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 172 6504 6525 "vsa_ast.ml" 197 7660 7789
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 198 7790 7809 "vsa_ast.ml" 198 7790 7815
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref new_vs "vsa_ast.ml" 172 6504 6516 "vsa_ast.ml" 172 6504 6522
+)
+"vsa_ast.ml" 198 7790 7801 "vsa_ast.ml" 198 7790 7815
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 171 6481 6502 "vsa_ast.ml" 199 7816 7823
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 200 7824 7837 "vsa_ast.ml" 200 7824 7838
+type(
+  Type.typ
+)
+type(
+  Type.typ
+)
+"vsa_ast.ml" 200 7824 7832 "vsa_ast.ml" 200 7824 7838
+type(
+  Type.typ
+)
+"vsa_ast.ml" 200 7824 7847 "vsa_ast.ml" 200 7824 7848
+type(
+  Type.typ
+)
+type(
+  Type.typ
+)
+"vsa_ast.ml" 200 7824 7841 "vsa_ast.ml" 200 7824 7848
+type(
+  Type.typ
+)
+"vsa_ast.ml" 200 7824 7832 "vsa_ast.ml" 200 7824 7848
+type(
+  Type.typ
+)
+"vsa_ast.ml" 201 7854 7866 "vsa_ast.ml" 201 7854 7872
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 201 7854 7886 "vsa_ast.ml" 201 7854 7887
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "vsa_ast.ml" 169 6402 6423 "vsa_ast.ml" 169 6402 6424
+)
+"vsa_ast.ml" 202 7893 7909 "vsa_ast.ml" 202 7893 7910
+type(
+  Ast.var
+)
+ident(
+  def v "vsa_ast.ml" 203 7914 7926 "vsa_ast.ml" 203 7914 7940
+)
+"vsa_ast.ml" 202 7893 7905 "vsa_ast.ml" 202 7893 7910
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 203 7914 7926 "vsa_ast.ml" 203 7914 7936
+type(
+  'n Vsa.VM.t -> Vsa.VM.key -> Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  int_ref do_find_ae "vsa_ast.ml" 162 6186 6194 "vsa_ast.ml" 162 6186 6204
+)
+"vsa_ast.ml" 203 7914 7937 "vsa_ast.ml" 203 7914 7938
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 203 7914 7939 "vsa_ast.ml" 203 7914 7940
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 202 7893 7909 "vsa_ast.ml" 202 7893 7910
+)
+"vsa_ast.ml" 203 7914 7926 "vsa_ast.ml" 203 7914 7940
+call(
+  stack
+)
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 204 7941 7963 "vsa_ast.ml" 204 7941 7964
+type(
+  Ast.var
+)
+ident(
+  def m "vsa_ast.ml" 208 8143 8155 "vsa_ast.ml" 210 8333 8427
+)
+"vsa_ast.ml" 204 7941 7959 "vsa_ast.ml" 204 7941 7964
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 204 7941 7965 "vsa_ast.ml" 204 7941 7966
+type(
+  Ast.exp
+)
+ident(
+  def i "vsa_ast.ml" 208 8143 8155 "vsa_ast.ml" 210 8333 8427
+)
+"vsa_ast.ml" 204 7941 7967 "vsa_ast.ml" 204 7941 7968
+type(
+  Ast.exp
+)
+ident(
+  def v "vsa_ast.ml" 208 8143 8155 "vsa_ast.ml" 210 8333 8427
+)
+"vsa_ast.ml" 204 7941 7969 "vsa_ast.ml" 204 7941 7971
+type(
+  Ast.exp
+)
+ident(
+  def _e "vsa_ast.ml" 208 8143 8155 "vsa_ast.ml" 210 8333 8427
+)
+"vsa_ast.ml" 204 7941 7972 "vsa_ast.ml" 204 7941 7973
+type(
+  Type.typ
+)
+ident(
+  def t "vsa_ast.ml" 208 8143 8155 "vsa_ast.ml" 210 8333 8427
+)
+"vsa_ast.ml" 204 7941 7958 "vsa_ast.ml" 204 7941 7974
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"vsa_ast.ml" 204 7941 7953 "vsa_ast.ml" 204 7941 7974
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 208 8143 8155 "vsa_ast.ml" 208 8143 8165
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref DV.dprintf
+)
+"vsa_ast.ml" 208 8143 8166 "vsa_ast.ml" 208 8143 8197
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"vsa_ast.ml" 208 8143 8199 "vsa_ast.ml" 208 8143 8211
+type(
+  Vsa.VS.t -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 208 8143 8213 "vsa_ast.ml" 208 8143 8219
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 208 8143 8221 "vsa_ast.ml" 208 8143 8222
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 208 8143 8223 "vsa_ast.ml" 208 8143 8224
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 208 8143 8225 "vsa_ast.ml" 208 8143 8226
+type(
+  Ast.exp
+)
+ident(
+  int_ref i "vsa_ast.ml" 204 7941 7965 "vsa_ast.ml" 204 7941 7966
+)
+"vsa_ast.ml" 208 8143 8212 "vsa_ast.ml" 208 8143 8227
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 208 8143 8198 "vsa_ast.ml" 208 8143 8228
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 208 8143 8230 "vsa_ast.ml" 208 8143 8242
+type(
+  Vsa.VS.t -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 208 8143 8244 "vsa_ast.ml" 208 8143 8250
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 208 8143 8252 "vsa_ast.ml" 208 8143 8253
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 208 8143 8254 "vsa_ast.ml" 208 8143 8255
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 208 8143 8256 "vsa_ast.ml" 208 8143 8257
+type(
+  Ast.exp
+)
+ident(
+  int_ref v "vsa_ast.ml" 204 7941 7967 "vsa_ast.ml" 204 7941 7968
+)
+"vsa_ast.ml" 208 8143 8243 "vsa_ast.ml" 208 8143 8258
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 208 8143 8229 "vsa_ast.ml" 208 8143 8259
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 208 8143 8155 "vsa_ast.ml" 208 8143 8259
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 210 8333 8345 "vsa_ast.ml" 210 8333 8359
+type(
+  int ->
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t ->
+  Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  ext_ref MemStore.write
+)
+"vsa_ast.ml" 210 8333 8361 "vsa_ast.ml" 210 8333 8374
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Vsa.bits_of_width
+)
+"vsa_ast.ml" 210 8333 8375 "vsa_ast.ml" 210 8333 8376
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 204 7941 7972 "vsa_ast.ml" 204 7941 7973
+)
+"vsa_ast.ml" 210 8333 8360 "vsa_ast.ml" 210 8333 8377
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 210 8333 8380 "vsa_ast.ml" 210 8333 8390
+type(
+  'n Vsa.VM.t -> Vsa.VM.key -> Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  int_ref do_find_ae "vsa_ast.ml" 162 6186 6194 "vsa_ast.ml" 162 6186 6204
+)
+"vsa_ast.ml" 210 8333 8391 "vsa_ast.ml" 210 8333 8392
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 210 8333 8393 "vsa_ast.ml" 210 8333 8394
+type(
+  Ast.var
+)
+ident(
+  int_ref m "vsa_ast.ml" 204 7941 7963 "vsa_ast.ml" 204 7941 7964
+)
+"vsa_ast.ml" 210 8333 8379 "vsa_ast.ml" 210 8333 8395
+call(
+  stack
+)
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 210 8333 8397 "vsa_ast.ml" 210 8333 8403
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 210 8333 8405 "vsa_ast.ml" 210 8333 8406
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 210 8333 8407 "vsa_ast.ml" 210 8333 8408
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 210 8333 8409 "vsa_ast.ml" 210 8333 8410
+type(
+  Ast.exp
+)
+ident(
+  int_ref i "vsa_ast.ml" 204 7941 7965 "vsa_ast.ml" 204 7941 7966
+)
+"vsa_ast.ml" 210 8333 8396 "vsa_ast.ml" 210 8333 8411
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 210 8333 8413 "vsa_ast.ml" 210 8333 8419
+type(
+  ?o:'m -> 'n Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 210 8333 8421 "vsa_ast.ml" 210 8333 8422
+type(
+  'm option
+)
+ident(
+  int_ref o "vsa_ast.ml" 169 6402 6419 "vsa_ast.ml" 169 6402 6420
+)
+"vsa_ast.ml" 210 8333 8423 "vsa_ast.ml" 210 8333 8424
+type(
+  'n Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 169 6402 6421 "vsa_ast.ml" 169 6402 6422
+)
+"vsa_ast.ml" 210 8333 8425 "vsa_ast.ml" 210 8333 8426
+type(
+  Ast.exp
+)
+ident(
+  int_ref v "vsa_ast.ml" 204 7941 7967 "vsa_ast.ml" 204 7941 7968
+)
+"vsa_ast.ml" 210 8333 8412 "vsa_ast.ml" 210 8333 8427
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 210 8333 8345 "vsa_ast.ml" 210 8333 8427
+call(
+  stack
+)
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 208 8143 8155 "vsa_ast.ml" 210 8333 8427
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 211 8428 8440 "vsa_ast.ml" 211 8428 8441
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 212 8445 8457 "vsa_ast.ml" 212 8445 8462
+type(
+  exn -> Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"vsa_ast.ml" 212 8445 8477 "vsa_ast.ml" 212 8445 8515
+type(
+  string
+)
+"vsa_ast.ml" 212 8445 8462 "vsa_ast.ml" 212 8445 8516
+type(
+  exn
+)
+"vsa_ast.ml" 212 8445 8457 "vsa_ast.ml" 212 8445 8516
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 201 7854 7879 "vsa_ast.ml" 212 8445 8517
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 213 8518 8547 "vsa_ast.ml" 213 8518 8548
+type(
+  string
+)
+"vsa_ast.ml" 213 8518 8533 "vsa_ast.ml" 213 8518 8548
+type(
+  exn
+)
+"vsa_ast.ml" 213 8518 8568 "vsa_ast.ml" 213 8518 8569
+type(
+  string
+)
+"vsa_ast.ml" 213 8518 8551 "vsa_ast.ml" 213 8518 8569
+type(
+  exn
+)
+"vsa_ast.ml" 213 8518 8533 "vsa_ast.ml" 213 8518 8569
+type(
+  exn
+)
+"vsa_ast.ml" 213 8518 8573 "vsa_ast.ml" 213 8518 8585
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  ext_ref MemStore.top
+)
+"vsa_ast.ml" 201 7854 7875 "vsa_ast.ml" 213 8518 8585
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 214 8586 8604 "vsa_ast.ml" 214 8586 8610
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  int_ref new_vs "vsa_ast.ml" 201 7854 7866 "vsa_ast.ml" 201 7854 7872
+)
+"vsa_ast.ml" 214 8586 8597 "vsa_ast.ml" 214 8586 8610
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 200 7824 7852 "vsa_ast.ml" 215 8611 8618
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 170 6442 6448 "vsa_ast.ml" 215 8611 8618
+type(
+  AbsEnv.value
+)
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 217 8620 8628 "vsa_ast.ml" 217 8620 8635
+type(
+  'o option -> 'o
+)
+ident(
+  def get_map "vsa_ast.ml" 221 8744 8748 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 218 8647 8660 "vsa_ast.ml" 218 8647 8661
+type(
+  'o
+)
+ident(
+  def l "vsa_ast.ml" 218 8647 8665 "vsa_ast.ml" 218 8647 8666
+)
+"vsa_ast.ml" 218 8647 8655 "vsa_ast.ml" 218 8647 8661
+type(
+  'o option
+)
+"vsa_ast.ml" 218 8647 8665 "vsa_ast.ml" 218 8647 8666
+type(
+  'o
+)
+ident(
+  int_ref l "vsa_ast.ml" 218 8647 8660 "vsa_ast.ml" 218 8647 8661
+)
+"vsa_ast.ml" 219 8667 8675 "vsa_ast.ml" 219 8667 8679
+type(
+  'o option
+)
+"vsa_ast.ml" 219 8667 8683 "vsa_ast.ml" 219 8667 8691
+type(
+  string -> 'o
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 219 8667 8692 "vsa_ast.ml" 219 8667 8742
+type(
+  string
+)
+"vsa_ast.ml" 219 8667 8683 "vsa_ast.ml" 219 8667 8742
+call(
+  tail
+)
+type(
+  'o
+)
+"vsa_ast.ml" 217 8620 8638 "vsa_ast.ml" 219 8667 8742
+type(
+  'o option -> 'o
+)
+"vsa_ast.ml" 221 8744 8756 "vsa_ast.ml" 221 8744 8778
+type(
+  'p ->
+  'q ->
+  'r ->
+  Ast.stmt -> AbsEnv.value Vsa.VM.t option -> AbsEnv.value Vsa.VM.t option
+)
+ident(
+  def stmt_transfer_function "vsa_ast.ml" 221 8744 8748 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 221 8744 8779 "vsa_ast.ml" 221 8744 8780
+type(
+  'p
+)
+ident(
+  def o "vsa_ast.ml" 221 8744 8781 "vsa_ast.ml" 240 9474 9492
+)
+"vsa_ast.ml" 221 8744 8781 "vsa_ast.ml" 221 8744 8782
+type(
+  'q
+)
+"vsa_ast.ml" 221 8744 8783 "vsa_ast.ml" 221 8744 8784
+type(
+  'r
+)
+"vsa_ast.ml" 221 8744 8785 "vsa_ast.ml" 221 8744 8786
+type(
+  Ast.stmt
+)
+ident(
+  def s "vsa_ast.ml" 221 8744 8787 "vsa_ast.ml" 240 9474 9492
+)
+"vsa_ast.ml" 221 8744 8787 "vsa_ast.ml" 221 8744 8788
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+ident(
+  def l "vsa_ast.ml" 222 8791 8797 "vsa_ast.ml" 240 9474 9492
+)
+"vsa_ast.ml" 222 8791 8797 "vsa_ast.ml" 222 8791 8804
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"vsa_ast.ml" 222 8791 8805 "vsa_ast.ml" 222 8791 8819
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"vsa_ast.ml" 222 8791 8821 "vsa_ast.ml" 222 8791 8842
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"vsa_ast.ml" 222 8791 8843 "vsa_ast.ml" 222 8791 8844
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "vsa_ast.ml" 221 8744 8785 "vsa_ast.ml" 221 8744 8786
+)
+"vsa_ast.ml" 222 8791 8820 "vsa_ast.ml" 222 8791 8845
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 222 8791 8797 "vsa_ast.ml" 222 8791 8845
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 223 8847 8859 "vsa_ast.ml" 223 8847 8860
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "vsa_ast.ml" 221 8744 8785 "vsa_ast.ml" 221 8744 8786
+)
+"vsa_ast.ml" 224 8866 8887 "vsa_ast.ml" 224 8866 8888
+type(
+  Ast.var
+)
+"vsa_ast.ml" 224 8866 8883 "vsa_ast.ml" 224 8866 8888
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 224 8866 8890 "vsa_ast.ml" 224 8866 8891
+type(
+  Ast.attrs
+)
+"vsa_ast.ml" 224 8866 8882 "vsa_ast.ml" 224 8866 8892
+type(
+  Ast.exp * Ast.attrs
+)
+"vsa_ast.ml" 224 8866 8876 "vsa_ast.ml" 224 8866 8892
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 225 8936 8953 "vsa_ast.ml" 225 8936 8954
+type(
+  Ast.exp * Ast.attrs
+)
+"vsa_ast.ml" 225 8936 8946 "vsa_ast.ml" 225 8936 8954
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 224 8866 8876 "vsa_ast.ml" 225 8936 8954
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 225 8936 8964 "vsa_ast.ml" 225 8936 8965
+type(
+  Ast.exp * Ast.attrs
+)
+"vsa_ast.ml" 225 8936 8957 "vsa_ast.ml" 225 8936 8965
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 224 8866 8876 "vsa_ast.ml" 225 8936 8965
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 225 8936 8972 "vsa_ast.ml" 225 8936 8973
+type(
+  Ast.exp * Ast.attrs
+)
+"vsa_ast.ml" 225 8936 8968 "vsa_ast.ml" 225 8936 8973
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 224 8866 8876 "vsa_ast.ml" 225 8936 8973
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 225 8936 8981 "vsa_ast.ml" 225 8936 8982
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"vsa_ast.ml" 225 8936 8976 "vsa_ast.ml" 225 8936 8982
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 224 8866 8876 "vsa_ast.ml" 225 8936 8982
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 225 8936 8991 "vsa_ast.ml" 225 8936 8992
+type(
+  Type.label * Ast.attrs
+)
+"vsa_ast.ml" 225 8936 8985 "vsa_ast.ml" 225 8936 8992
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 224 8866 8876 "vsa_ast.ml" 225 8936 8992
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 225 8936 9003 "vsa_ast.ml" 225 8936 9004
+type(
+  string * Ast.attrs
+)
+"vsa_ast.ml" 225 8936 8995 "vsa_ast.ml" 225 8936 9004
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 224 8866 8876 "vsa_ast.ml" 225 8936 9004
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 226 9005 9020 "vsa_ast.ml" 226 9005 9021
+type(
+  Ast.exp * Ast.attrs
+)
+"vsa_ast.ml" 226 9005 9015 "vsa_ast.ml" 226 9005 9021
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 224 8866 8876 "vsa_ast.ml" 226 9005 9021
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 227 9025 9037 "vsa_ast.ml" 227 9025 9038
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+ident(
+  int_ref l "vsa_ast.ml" 221 8744 8787 "vsa_ast.ml" 221 8744 8788
+)
+"vsa_ast.ml" 228 9039 9057 "vsa_ast.ml" 228 9039 9058
+type(
+  string * Var.defuse option * Ast.attrs
+)
+"vsa_ast.ml" 228 9039 9049 "vsa_ast.ml" 228 9039 9058
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 228 9039 9062 "vsa_ast.ml" 228 9039 9067
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+ident(
+  ext_ref L.top
+)
+"vsa_ast.ml" 229 9068 9083 "vsa_ast.ml" 229 9068 9084
+type(
+  Ast.var
+)
+ident(
+  def v "vsa_ast.ml" 230 9095 9105 "vsa_ast.ml" 240 9474 9492
+)
+"vsa_ast.ml" 229 9068 9086 "vsa_ast.ml" 229 9068 9087
+type(
+  Ast.exp
+)
+ident(
+  def e "vsa_ast.ml" 230 9095 9105 "vsa_ast.ml" 240 9474 9492
+)
+"vsa_ast.ml" 229 9068 9089 "vsa_ast.ml" 229 9068 9090
+type(
+  Ast.attrs
+)
+"vsa_ast.ml" 229 9068 9082 "vsa_ast.ml" 229 9068 9091
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"vsa_ast.ml" 229 9068 9078 "vsa_ast.ml" 229 9068 9091
+type(
+  Ast.stmt
+)
+"vsa_ast.ml" 230 9095 9109 "vsa_ast.ml" 230 9095 9110
+type(
+  AbsEnv.value Vsa.VM.t
+)
+"vsa_ast.ml" 230 9095 9113 "vsa_ast.ml" 230 9095 9120
+type(
+  AbsEnv.value Vsa.VM.t option -> AbsEnv.value Vsa.VM.t
+)
+ident(
+  int_ref get_map "vsa_ast.ml" 217 8620 8628 "vsa_ast.ml" 217 8620 8635
+)
+"vsa_ast.ml" 230 9095 9121 "vsa_ast.ml" 230 9095 9122
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+ident(
+  int_ref l "vsa_ast.ml" 221 8744 8787 "vsa_ast.ml" 221 8744 8788
+)
+"vsa_ast.ml" 230 9095 9113 "vsa_ast.ml" 230 9095 9122
+call(
+  stack
+)
+type(
+  AbsEnv.value Vsa.VM.t
+)
+"vsa_ast.ml" 232 9140 9156 "vsa_ast.ml" 232 9140 9162
+type(
+  AbsEnv.value
+)
+ident(
+  def new_vs "vsa_ast.ml" 233 9183 9195 "vsa_ast.ml" 238 9388 9424
+)
+"vsa_ast.ml" 232 9140 9165 "vsa_ast.ml" 232 9140 9172
+type(
+  ?o:'p -> AbsEnv.value Vsa.VM.t -> Ast.exp -> AbsEnv.value
+)
+ident(
+  int_ref exp2aev "vsa_ast.ml" 169 6402 6410 "vsa_ast.ml" 169 6402 6417
+)
+"vsa_ast.ml" 232 9140 9174 "vsa_ast.ml" 232 9140 9175
+type(
+  'p
+)
+ident(
+  int_ref o "vsa_ast.ml" 221 8744 8779 "vsa_ast.ml" 221 8744 8780
+)
+"vsa_ast.ml" 232 9140 9176 "vsa_ast.ml" 232 9140 9177
+type(
+  AbsEnv.value Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 230 9095 9109 "vsa_ast.ml" 230 9095 9110
+)
+"vsa_ast.ml" 232 9140 9178 "vsa_ast.ml" 232 9140 9179
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "vsa_ast.ml" 229 9068 9086 "vsa_ast.ml" 229 9068 9087
+)
+"vsa_ast.ml" 232 9140 9165 "vsa_ast.ml" 232 9140 9179
+call(
+  stack
+)
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 233 9183 9198 "vsa_ast.ml" 233 9183 9206
+type(
+  unit -> bool
+)
+ident(
+  ext_ref DV.debug
+)
+"vsa_ast.ml" 233 9183 9207 "vsa_ast.ml" 233 9183 9209
+type(
+  unit
+)
+"vsa_ast.ml" 233 9183 9198 "vsa_ast.ml" 233 9183 9209
+call(
+  stack
+)
+type(
+  bool
+)
+"vsa_ast.ml" 234 9215 9234 "vsa_ast.ml" 234 9215 9240
+type(
+  AbsEnv.value
+)
+ident(
+  int_ref new_vs "vsa_ast.ml" 232 9140 9156 "vsa_ast.ml" 232 9140 9162
+)
+"vsa_ast.ml" 235 9246 9268 "vsa_ast.ml" 235 9246 9274
+type(
+  Vsa.VS.t
+)
+ident(
+  def new_vs "vsa_ast.ml" 236 9278 9292 "vsa_ast.ml" 236 9278 9363
+)
+"vsa_ast.ml" 235 9246 9260 "vsa_ast.ml" 235 9246 9274
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 236 9278 9292 "vsa_ast.ml" 236 9278 9302
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref DV.dprintf
+)
+"vsa_ast.ml" 236 9278 9303 "vsa_ast.ml" 236 9278 9320
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"vsa_ast.ml" 236 9278 9322 "vsa_ast.ml" 236 9278 9338
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"vsa_ast.ml" 236 9278 9339 "vsa_ast.ml" 236 9278 9340
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 229 9068 9083 "vsa_ast.ml" 229 9068 9084
+)
+"vsa_ast.ml" 236 9278 9321 "vsa_ast.ml" 236 9278 9341
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 236 9278 9343 "vsa_ast.ml" 236 9278 9355
+type(
+  Vsa.VS.t -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 236 9278 9356 "vsa_ast.ml" 236 9278 9362
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref new_vs "vsa_ast.ml" 235 9246 9268 "vsa_ast.ml" 235 9246 9274
+)
+"vsa_ast.ml" 236 9278 9342 "vsa_ast.ml" 236 9278 9363
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 236 9278 9292 "vsa_ast.ml" 236 9278 9363
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 237 9364 9378 "vsa_ast.ml" 237 9364 9379
+type(
+  AbsEnv.value
+)
+"vsa_ast.ml" 237 9364 9383 "vsa_ast.ml" 237 9364 9385
+type(
+  unit
+)
+"vsa_ast.ml" 234 9215 9227 "vsa_ast.ml" 237 9364 9386
+type(
+  unit
+)
+"vsa_ast.ml" 233 9183 9195 "vsa_ast.ml" 237 9364 9386
+type(
+  unit
+)
+"vsa_ast.ml" 238 9388 9406 "vsa_ast.ml" 238 9388 9412
+type(
+  Vsa.VM.key ->
+  AbsEnv.value -> AbsEnv.value Vsa.VM.t -> AbsEnv.value Vsa.VM.t
+)
+ident(
+  ext_ref Vsa.VM.add
+)
+"vsa_ast.ml" 238 9388 9413 "vsa_ast.ml" 238 9388 9414
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 229 9068 9083 "vsa_ast.ml" 229 9068 9084
+)
+"vsa_ast.ml" 238 9388 9415 "vsa_ast.ml" 238 9388 9421
+type(
+  AbsEnv.value
+)
+ident(
+  int_ref new_vs "vsa_ast.ml" 232 9140 9156 "vsa_ast.ml" 232 9140 9162
+)
+"vsa_ast.ml" 238 9388 9422 "vsa_ast.ml" 238 9388 9423
+type(
+  AbsEnv.value Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 230 9095 9109 "vsa_ast.ml" 230 9095 9110
+)
+"vsa_ast.ml" 238 9388 9405 "vsa_ast.ml" 238 9388 9424
+call(
+  stack
+)
+type(
+  AbsEnv.value Vsa.VM.t
+)
+"vsa_ast.ml" 238 9388 9400 "vsa_ast.ml" 238 9388 9424
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+"vsa_ast.ml" 233 9183 9195 "vsa_ast.ml" 238 9388 9424
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+"vsa_ast.ml" 232 9140 9152 "vsa_ast.ml" 238 9388 9424
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+"vsa_ast.ml" 239 9425 9457 "vsa_ast.ml" 239 9425 9458
+type(
+  string
+)
+"vsa_ast.ml" 239 9425 9440 "vsa_ast.ml" 239 9425 9458
+type(
+  exn
+)
+"vsa_ast.ml" 239 9425 9461 "vsa_ast.ml" 239 9425 9470
+type(
+  exn
+)
+"vsa_ast.ml" 239 9425 9440 "vsa_ast.ml" 239 9425 9470
+type(
+  exn
+)
+"vsa_ast.ml" 240 9474 9491 "vsa_ast.ml" 240 9474 9492
+type(
+  AbsEnv.value Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 230 9095 9109 "vsa_ast.ml" 230 9095 9110
+)
+"vsa_ast.ml" 240 9474 9486 "vsa_ast.ml" 240 9474 9492
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+"vsa_ast.ml" 231 9126 9136 "vsa_ast.ml" 240 9474 9492
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+"vsa_ast.ml" 230 9095 9105 "vsa_ast.ml" 240 9474 9492
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+"vsa_ast.ml" 223 8847 8853 "vsa_ast.ml" 240 9474 9492
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+"vsa_ast.ml" 222 8791 8797 "vsa_ast.ml" 240 9474 9492
+type(
+  AbsEnv.value Vsa.VM.t option
+)
+"vsa_ast.ml" 242 9494 9502 "vsa_ast.ml" 242 9494 9524
+type(
+  's ->
+  't ->
+  CFG.G.E.t ->
+  'u ->
+  ([> `Array of Vsa.VS.t MemStore.M2.t MemStore.M1.t | `Scalar of Vsa.VS.t ]
+   as 'v)
+  Vsa.VM.t option -> 'v Vsa.VM.t option
+)
+ident(
+  def edge_transfer_function "vsa_ast.ml" 368 14931 14946 "vsa_ast.ml" 370 14948 14953
+)
+"vsa_ast.ml" 242 9494 9525 "vsa_ast.ml" 242 9494 9526
+type(
+  's
+)
+ident(
+  def o "vsa_ast.ml" 242 9494 9527 "vsa_ast.ml" 368 14931 14946
+)
+"vsa_ast.ml" 242 9494 9527 "vsa_ast.ml" 242 9494 9528
+type(
+  't
+)
+ident(
+  def g "vsa_ast.ml" 242 9494 9529 "vsa_ast.ml" 368 14931 14946
+)
+"vsa_ast.ml" 242 9494 9529 "vsa_ast.ml" 242 9494 9533
+type(
+  CFG.G.E.t
+)
+ident(
+  def edge "vsa_ast.ml" 242 9494 9534 "vsa_ast.ml" 368 14931 14946
+)
+"vsa_ast.ml" 242 9494 9534 "vsa_ast.ml" 242 9494 9535
+type(
+  'u
+)
+"vsa_ast.ml" 242 9494 9536 "vsa_ast.ml" 242 9494 9537
+type(
+  'v Vsa.VM.t option
+)
+ident(
+  def l "vsa_ast.ml" 243 9540 9546 "vsa_ast.ml" 368 14931 14946
+)
+"vsa_ast.ml" 243 9540 9546 "vsa_ast.ml" 243 9540 9553
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"vsa_ast.ml" 243 9540 9554 "vsa_ast.ml" 243 9540 9574
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"vsa_ast.ml" 243 9540 9576 "vsa_ast.ml" 243 9540 9587
+type(
+  Cfg.AST.G.E.vertex -> string
+)
+ident(
+  ext_ref Cfg_ast.v2s
+)
+"vsa_ast.ml" 243 9540 9589 "vsa_ast.ml" 243 9540 9604
+type(
+  CFG.G.E.t -> Cfg.AST.G.E.vertex
+)
+ident(
+  ext_ref Cfg.AST.G.E.src
+)
+"vsa_ast.ml" 243 9540 9605 "vsa_ast.ml" 243 9540 9609
+type(
+  CFG.G.E.t
+)
+ident(
+  int_ref edge "vsa_ast.ml" 242 9494 9529 "vsa_ast.ml" 242 9494 9533
+)
+"vsa_ast.ml" 243 9540 9588 "vsa_ast.ml" 243 9540 9610
+call(
+  stack
+)
+type(
+  Cfg.AST.G.E.vertex
+)
+"vsa_ast.ml" 243 9540 9575 "vsa_ast.ml" 243 9540 9611
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 243 9540 9613 "vsa_ast.ml" 243 9540 9624
+type(
+  Cfg.AST.G.E.vertex -> string
+)
+ident(
+  ext_ref Cfg_ast.v2s
+)
+"vsa_ast.ml" 243 9540 9626 "vsa_ast.ml" 243 9540 9641
+type(
+  CFG.G.E.t -> Cfg.AST.G.E.vertex
+)
+ident(
+  ext_ref Cfg.AST.G.E.dst
+)
+"vsa_ast.ml" 243 9540 9642 "vsa_ast.ml" 243 9540 9646
+type(
+  CFG.G.E.t
+)
+ident(
+  int_ref edge "vsa_ast.ml" 242 9494 9529 "vsa_ast.ml" 242 9494 9533
+)
+"vsa_ast.ml" 243 9540 9625 "vsa_ast.ml" 243 9540 9647
+call(
+  stack
+)
+type(
+  Cfg.AST.G.E.vertex
+)
+"vsa_ast.ml" 243 9540 9612 "vsa_ast.ml" 243 9540 9648
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 243 9540 9546 "vsa_ast.ml" 243 9540 9648
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 244 9650 9664 "vsa_ast.ml" 244 9650 9671
+type(
+  'v Vsa.VM.t option -> 'v Vsa.VM.t
+)
+ident(
+  int_ref get_map "vsa_ast.ml" 217 8620 8628 "vsa_ast.ml" 217 8620 8635
+)
+"vsa_ast.ml" 244 9650 9672 "vsa_ast.ml" 244 9650 9673
+type(
+  'v Vsa.VM.t option
+)
+ident(
+  int_ref l "vsa_ast.ml" 242 9494 9536 "vsa_ast.ml" 242 9494 9537
+)
+"vsa_ast.ml" 244 9650 9664 "vsa_ast.ml" 244 9650 9673
+call(
+  stack
+)
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 245 9677 9687 "vsa_ast.ml" 245 9677 9704
+type(
+  Type.binop_type -> bool
+)
+"vsa_ast.ml" 245 9677 9705 "vsa_ast.ml" 245 9677 9708
+type(
+  Type.binop_type
+)
+ident(
+  def bop "vsa_ast.ml" 246 9711 9719 "vsa_ast.ml" 249 9827 9850
+)
+"vsa_ast.ml" 246 9711 9725 "vsa_ast.ml" 246 9711 9726
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"vsa_ast.ml" 246 9711 9726 "vsa_ast.ml" 246 9711 9741
+type(
+  bool ref
+)
+ident(
+  int_ref signedness_hack "vsa_ast.ml" 41 1384 1388 "vsa_ast.ml" 41 1384 1403
+)
+"vsa_ast.ml" 246 9711 9725 "vsa_ast.ml" 246 9711 9741
+type(
+  bool
+)
+"vsa_ast.ml" 246 9711 9743 "vsa_ast.ml" 246 9711 9746
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "vsa_ast.ml" 245 9677 9705 "vsa_ast.ml" 245 9677 9708
+)
+"vsa_ast.ml" 246 9711 9725 "vsa_ast.ml" 246 9711 9746
+type(
+  bool * Type.binop_type
+)
+"vsa_ast.ml" 247 9752 9762 "vsa_ast.ml" 247 9752 9767
+type(
+  bool
+)
+"vsa_ast.ml" 247 9752 9770 "vsa_ast.ml" 247 9752 9773
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 247 9752 9774 "vsa_ast.ml" 247 9752 9777
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 247 9752 9769 "vsa_ast.ml" 247 9752 9778
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 247 9752 9762 "vsa_ast.ml" 247 9752 9778
+type(
+  bool * Type.binop_type
+)
+"vsa_ast.ml" 247 9752 9782 "vsa_ast.ml" 247 9752 9786
+type(
+  bool
+)
+"vsa_ast.ml" 248 9787 9797 "vsa_ast.ml" 248 9787 9801
+type(
+  bool
+)
+"vsa_ast.ml" 248 9787 9804 "vsa_ast.ml" 248 9787 9807
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 248 9787 9808 "vsa_ast.ml" 248 9787 9811
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 248 9787 9804 "vsa_ast.ml" 248 9787 9811
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 248 9787 9812 "vsa_ast.ml" 248 9787 9814
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 248 9787 9804 "vsa_ast.ml" 248 9787 9814
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 248 9787 9815 "vsa_ast.ml" 248 9787 9817
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 248 9787 9803 "vsa_ast.ml" 248 9787 9818
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 248 9787 9797 "vsa_ast.ml" 248 9787 9818
+type(
+  bool * Type.binop_type
+)
+"vsa_ast.ml" 248 9787 9822 "vsa_ast.ml" 248 9787 9826
+type(
+  bool
+)
+"vsa_ast.ml" 249 9827 9837 "vsa_ast.ml" 249 9827 9838
+type(
+  bool
+)
+"vsa_ast.ml" 249 9827 9840 "vsa_ast.ml" 249 9827 9841
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 249 9827 9837 "vsa_ast.ml" 249 9827 9841
+type(
+  bool * Type.binop_type
+)
+"vsa_ast.ml" 249 9827 9845 "vsa_ast.ml" 249 9827 9850
+type(
+  bool
+)
+"vsa_ast.ml" 246 9711 9719 "vsa_ast.ml" 249 9827 9850
+type(
+  bool
+)
+"vsa_ast.ml" 251 9860 9870 "vsa_ast.ml" 251 9860 9871
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 251 9860 9880 "vsa_ast.ml" 251 9860 9893
+type(
+  CFG.G.E.t -> CFG.G.E.label
+)
+ident(
+  ext_ref CFG.G.E.label
+)
+"vsa_ast.ml" 251 9860 9894 "vsa_ast.ml" 251 9860 9898
+type(
+  CFG.G.E.t
+)
+ident(
+  int_ref edge "vsa_ast.ml" 242 9494 9529 "vsa_ast.ml" 242 9494 9533
+)
+"vsa_ast.ml" 251 9860 9880 "vsa_ast.ml" 251 9860 9898
+call(
+  stack
+)
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 255 10057 10070 "vsa_ast.ml" 255 10057 10071
+type(
+  bool option
+)
+"vsa_ast.ml" 255 10057 10079 "vsa_ast.ml" 255 10057 10081
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 255 10057 10091 "vsa_ast.ml" 255 10057 10094
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 255 10057 10095 "vsa_ast.ml" 255 10057 10098
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 255 10057 10091 "vsa_ast.ml" 255 10057 10098
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 255 10057 10099 "vsa_ast.ml" 255 10057 10101
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 255 10057 10091 "vsa_ast.ml" 255 10057 10101
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 255 10057 10102 "vsa_ast.ml" 255 10057 10104
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 255 10057 10090 "vsa_ast.ml" 255 10057 10105
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 255 10057 10090 "vsa_ast.ml" 255 10057 10112
+type(
+  Type.binop_type
+)
+ident(
+  def bop "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 255 10057 10118 "vsa_ast.ml" 255 10057 10119
+type(
+  Ast.var
+)
+ident(
+  def v "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 255 10057 10114 "vsa_ast.ml" 255 10057 10119
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 255 10057 10125 "vsa_ast.ml" 255 10057 10126
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 255 10057 10128 "vsa_ast.ml" 255 10057 10129
+type(
+  Type.typ
+)
+ident(
+  def t "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 255 10057 10124 "vsa_ast.ml" 255 10057 10130
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 255 10057 10121 "vsa_ast.ml" 255 10057 10130
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 255 10057 10089 "vsa_ast.ml" 255 10057 10131
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 255 10057 10084 "vsa_ast.ml" 255 10057 10131
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 255 10057 10083 "vsa_ast.ml" 255 10057 10138
+type(
+  Ast.exp
+)
+ident(
+  def be "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 255 10057 10144 "vsa_ast.ml" 255 10057 10146
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i' "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 255 10057 10148 "vsa_ast.ml" 255 10057 10150
+type(
+  Type.typ
+)
+ident(
+  def t' "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 255 10057 10143 "vsa_ast.ml" 255 10057 10151
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 255 10057 10140 "vsa_ast.ml" 255 10057 10151
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 255 10057 10078 "vsa_ast.ml" 255 10057 10152
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 255 10057 10073 "vsa_ast.ml" 255 10057 10152
+type(
+  CFG.exp
+)
+"vsa_ast.ml" 255 10057 10069 "vsa_ast.ml" 255 10057 10153
+type(
+  bool option * CFG.exp
+)
+"vsa_ast.ml" 255 10057 10065 "vsa_ast.ml" 255 10057 10153
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 256 10154 10167 "vsa_ast.ml" 256 10154 10168
+type(
+  bool option
+)
+"vsa_ast.ml" 256 10154 10176 "vsa_ast.ml" 256 10154 10178
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 256 10154 10188 "vsa_ast.ml" 256 10154 10191
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 256 10154 10192 "vsa_ast.ml" 256 10154 10195
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 256 10154 10188 "vsa_ast.ml" 256 10154 10195
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 256 10154 10196 "vsa_ast.ml" 256 10154 10198
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 256 10154 10188 "vsa_ast.ml" 256 10154 10198
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 256 10154 10199 "vsa_ast.ml" 256 10154 10201
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 256 10154 10187 "vsa_ast.ml" 256 10154 10202
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 256 10154 10187 "vsa_ast.ml" 256 10154 10209
+type(
+  Type.binop_type
+)
+ident(
+  def bop "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 256 10154 10215 "vsa_ast.ml" 256 10154 10216
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 256 10154 10218 "vsa_ast.ml" 256 10154 10219
+type(
+  Type.typ
+)
+ident(
+  def t "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 256 10154 10214 "vsa_ast.ml" 256 10154 10220
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 256 10154 10211 "vsa_ast.ml" 256 10154 10220
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 256 10154 10226 "vsa_ast.ml" 256 10154 10227
+type(
+  Ast.var
+)
+ident(
+  def v "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 256 10154 10222 "vsa_ast.ml" 256 10154 10227
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 256 10154 10186 "vsa_ast.ml" 256 10154 10228
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 256 10154 10181 "vsa_ast.ml" 256 10154 10228
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 256 10154 10180 "vsa_ast.ml" 256 10154 10235
+type(
+  Ast.exp
+)
+ident(
+  def be "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 256 10154 10241 "vsa_ast.ml" 256 10154 10243
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i' "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 256 10154 10245 "vsa_ast.ml" 256 10154 10247
+type(
+  Type.typ
+)
+ident(
+  def t' "vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+)
+"vsa_ast.ml" 256 10154 10240 "vsa_ast.ml" 256 10154 10248
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 256 10154 10237 "vsa_ast.ml" 256 10154 10248
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 256 10154 10175 "vsa_ast.ml" 256 10154 10249
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 256 10154 10170 "vsa_ast.ml" 256 10154 10249
+type(
+  CFG.exp
+)
+"vsa_ast.ml" 256 10154 10166 "vsa_ast.ml" 256 10154 10250
+type(
+  bool option * CFG.exp
+)
+"vsa_ast.ml" 256 10154 10162 "vsa_ast.ml" 256 10154 10250
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 255 10057 10065 "vsa_ast.ml" 256 10154 10250
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 257 10251 10266 "vsa_ast.ml" 257 10251 10283
+type(
+  Type.binop_type -> bool
+)
+ident(
+  int_ref accept_signed_bop "vsa_ast.ml" 245 9677 9687 "vsa_ast.ml" 245 9677 9704
+)
+"vsa_ast.ml" 257 10251 10284 "vsa_ast.ml" 257 10251 10287
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "vsa_ast.ml" 255 10057 10090 "vsa_ast.ml" 255 10057 10112
+)
+"vsa_ast.ml" 257 10251 10266 "vsa_ast.ml" 257 10251 10287
+call(
+  stack
+)
+type(
+  bool
+)
+"vsa_ast.ml" 259 10292 10304 "vsa_ast.ml" 259 10292 10307
+type(
+  [> `Above | `Below ]
+)
+"vsa_ast.ml" 259 10292 10316 "vsa_ast.ml" 259 10292 10318
+type(
+  Ast.exp
+)
+ident(
+  int_ref be "vsa_ast.ml" 255 10057 10083 "vsa_ast.ml" 255 10057 10138
+)
+"vsa_ast.ml" 260 10324 10342 "vsa_ast.ml" 260 10324 10343
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 260 10324 10349 "vsa_ast.ml" 260 10324 10350
+type(
+  Ast.var
+)
+"vsa_ast.ml" 260 10324 10345 "vsa_ast.ml" 260 10324 10350
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 260 10324 10356 "vsa_ast.ml" 260 10324 10357
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 260 10324 10352 "vsa_ast.ml" 260 10324 10357
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 260 10324 10341 "vsa_ast.ml" 260 10324 10358
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 260 10324 10336 "vsa_ast.ml" 260 10324 10358
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 260 10324 10362 "vsa_ast.ml" 260 10324 10368
+type(
+  [> `Above | `Below ] as 'w
+)
+"vsa_ast.ml" 261 10369 10387 "vsa_ast.ml" 261 10369 10388
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 261 10369 10394 "vsa_ast.ml" 261 10369 10395
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 261 10369 10390 "vsa_ast.ml" 261 10369 10395
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 261 10369 10401 "vsa_ast.ml" 261 10369 10402
+type(
+  Ast.var
+)
+"vsa_ast.ml" 261 10369 10397 "vsa_ast.ml" 261 10369 10402
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 261 10369 10386 "vsa_ast.ml" 261 10369 10403
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 261 10369 10381 "vsa_ast.ml" 261 10369 10403
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 261 10369 10407 "vsa_ast.ml" 261 10369 10413
+type(
+  'w
+)
+"vsa_ast.ml" 262 10414 10426 "vsa_ast.ml" 262 10414 10427
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 262 10414 10431 "vsa_ast.ml" 262 10414 10439
+type(
+  string -> 'w
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 262 10414 10440 "vsa_ast.ml" 262 10414 10452
+type(
+  string
+)
+"vsa_ast.ml" 262 10414 10431 "vsa_ast.ml" 262 10414 10452
+call(
+  stack
+)
+type(
+  'w
+)
+"vsa_ast.ml" 259 10292 10310 "vsa_ast.ml" 262 10414 10452
+type(
+  'w
+)
+"vsa_ast.ml" 266 10497 10509 "vsa_ast.ml" 266 10497 10510
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 266 10497 10512 "vsa_ast.ml" 266 10497 10515
+type(
+  [> `Above | `Below ]
+)
+"vsa_ast.ml" 266 10497 10517 "vsa_ast.ml" 266 10497 10520
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 266 10497 10509 "vsa_ast.ml" 266 10497 10520
+type(
+  Ast.exp * ([> `Above | `Below ] as 'x) * Type.binop_type
+)
+"vsa_ast.ml" 267 10523 10536 "vsa_ast.ml" 267 10523 10545
+type(
+  Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Big_int_convenience.bi_is_one
+)
+"vsa_ast.ml" 267 10523 10546 "vsa_ast.ml" 267 10523 10548
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i' "vsa_ast.ml" 255 10057 10144 "vsa_ast.ml" 255 10057 10146
+)
+"vsa_ast.ml" 267 10523 10536 "vsa_ast.ml" 267 10523 10548
+call(
+  stack
+)
+type(
+  bool
+)
+"vsa_ast.ml" 267 10523 10554 "vsa_ast.ml" 267 10523 10556
+type(
+  Ast.exp
+)
+ident(
+  int_ref be "vsa_ast.ml" 255 10057 10083 "vsa_ast.ml" 255 10057 10138
+)
+"vsa_ast.ml" 267 10523 10558 "vsa_ast.ml" 267 10523 10561
+type(
+  'x
+)
+ident(
+  int_ref dir "vsa_ast.ml" 259 10292 10304 "vsa_ast.ml" 259 10292 10307
+)
+"vsa_ast.ml" 267 10523 10563 "vsa_ast.ml" 267 10523 10566
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "vsa_ast.ml" 255 10057 10090 "vsa_ast.ml" 255 10057 10112
+)
+"vsa_ast.ml" 267 10523 10554 "vsa_ast.ml" 267 10523 10566
+type(
+  Ast.exp * 'x * Type.binop_type
+)
+"vsa_ast.ml" 269 10582 10598 "vsa_ast.ml" 269 10582 10604
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 269 10582 10613 "vsa_ast.ml" 269 10582 10616
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "vsa_ast.ml" 255 10057 10090 "vsa_ast.ml" 255 10057 10112
+)
+"vsa_ast.ml" 270 10622 10638 "vsa_ast.ml" 270 10622 10641
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 270 10622 10645 "vsa_ast.ml" 270 10622 10648
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 271 10649 10665 "vsa_ast.ml" 271 10649 10668
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 271 10649 10672 "vsa_ast.ml" 271 10649 10675
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 272 10676 10692 "vsa_ast.ml" 272 10676 10694
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 272 10676 10698 "vsa_ast.ml" 272 10676 10700
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 273 10701 10717 "vsa_ast.ml" 273 10701 10719
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 273 10701 10723 "vsa_ast.ml" 273 10701 10725
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 274 10726 10742 "vsa_ast.ml" 274 10726 10743
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 274 10726 10747 "vsa_ast.ml" 274 10726 10755
+type(
+  string -> Type.binop_type
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 274 10726 10756 "vsa_ast.ml" 274 10726 10768
+type(
+  string
+)
+"vsa_ast.ml" 274 10726 10747 "vsa_ast.ml" 274 10726 10768
+call(
+  stack
+)
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 269 10582 10607 "vsa_ast.ml" 274 10726 10768
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 276 10784 10802 "vsa_ast.ml" 276 10784 10805
+type(
+  [ `Above | `Below ]
+)
+ident(
+  int_ref dir "vsa_ast.ml" 259 10292 10304 "vsa_ast.ml" 259 10292 10307
+)
+"vsa_ast.ml" 277 10811 10825 "vsa_ast.ml" 277 10811 10831
+type(
+  [ `Above | `Below ]
+)
+"vsa_ast.ml" 277 10811 10841 "vsa_ast.ml" 277 10811 10847
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "vsa_ast.ml" 269 10582 10598 "vsa_ast.ml" 269 10582 10604
+)
+"vsa_ast.ml" 277 10811 10853 "vsa_ast.ml" 277 10811 10854
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "vsa_ast.ml" 255 10057 10125 "vsa_ast.ml" 255 10057 10126
+)
+"vsa_ast.ml" 277 10811 10856 "vsa_ast.ml" 277 10811 10857
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 255 10057 10128 "vsa_ast.ml" 255 10057 10129
+)
+"vsa_ast.ml" 277 10811 10852 "vsa_ast.ml" 277 10811 10858
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 277 10811 10849 "vsa_ast.ml" 277 10811 10858
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 277 10811 10864 "vsa_ast.ml" 277 10811 10865
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 255 10057 10118 "vsa_ast.ml" 255 10057 10119
+)
+"vsa_ast.ml" 277 10811 10860 "vsa_ast.ml" 277 10811 10865
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 277 10811 10840 "vsa_ast.ml" 277 10811 10866
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 277 10811 10835 "vsa_ast.ml" 277 10811 10866
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 277 10811 10868 "vsa_ast.ml" 277 10811 10874
+type(
+  'x
+)
+"vsa_ast.ml" 277 10811 10876 "vsa_ast.ml" 277 10811 10882
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "vsa_ast.ml" 269 10582 10598 "vsa_ast.ml" 269 10582 10604
+)
+"vsa_ast.ml" 277 10811 10835 "vsa_ast.ml" 277 10811 10882
+type(
+  Ast.exp * 'x * Type.binop_type
+)
+"vsa_ast.ml" 278 10883 10897 "vsa_ast.ml" 278 10883 10903
+type(
+  [ `Above | `Below ]
+)
+"vsa_ast.ml" 278 10883 10913 "vsa_ast.ml" 278 10883 10919
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "vsa_ast.ml" 269 10582 10598 "vsa_ast.ml" 269 10582 10604
+)
+"vsa_ast.ml" 278 10883 10925 "vsa_ast.ml" 278 10883 10926
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 255 10057 10118 "vsa_ast.ml" 255 10057 10119
+)
+"vsa_ast.ml" 278 10883 10921 "vsa_ast.ml" 278 10883 10926
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 278 10883 10932 "vsa_ast.ml" 278 10883 10933
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "vsa_ast.ml" 255 10057 10125 "vsa_ast.ml" 255 10057 10126
+)
+"vsa_ast.ml" 278 10883 10935 "vsa_ast.ml" 278 10883 10936
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 255 10057 10128 "vsa_ast.ml" 255 10057 10129
+)
+"vsa_ast.ml" 278 10883 10931 "vsa_ast.ml" 278 10883 10937
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 278 10883 10928 "vsa_ast.ml" 278 10883 10937
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 278 10883 10912 "vsa_ast.ml" 278 10883 10938
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 278 10883 10907 "vsa_ast.ml" 278 10883 10938
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 278 10883 10940 "vsa_ast.ml" 278 10883 10946
+type(
+  'x
+)
+"vsa_ast.ml" 278 10883 10948 "vsa_ast.ml" 278 10883 10954
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "vsa_ast.ml" 269 10582 10598 "vsa_ast.ml" 269 10582 10604
+)
+"vsa_ast.ml" 278 10883 10907 "vsa_ast.ml" 278 10883 10954
+type(
+  Ast.exp * 'x * Type.binop_type
+)
+"vsa_ast.ml" 276 10784 10796 "vsa_ast.ml" 278 10883 10954
+type(
+  Ast.exp * 'x * Type.binop_type
+)
+"vsa_ast.ml" 269 10582 10594 "vsa_ast.ml" 278 10883 10954
+type(
+  Ast.exp * 'x * Type.binop_type
+)
+"vsa_ast.ml" 267 10523 10533 "vsa_ast.ml" 278 10883 10954
+type(
+  Ast.exp * 'x * Type.binop_type
+)
+"vsa_ast.ml" 280 10966 10978 "vsa_ast.ml" 280 10966 10981
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 280 10966 10990 "vsa_ast.ml" 280 10966 10993
+type(
+  _[> `Above | `Below ]
+)
+ident(
+  int_ref dir "vsa_ast.ml" 266 10497 10512 "vsa_ast.ml" 266 10497 10515
+)
+"vsa_ast.ml" 280 10966 10995 "vsa_ast.ml" 280 10966 10998
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "vsa_ast.ml" 266 10497 10517 "vsa_ast.ml" 266 10497 10520
+)
+"vsa_ast.ml" 280 10966 10990 "vsa_ast.ml" 280 10966 10998
+type(
+  (_[> `Above | `Below ] as 'y) * Type.binop_type
+)
+"vsa_ast.ml" 281 11004 11016 "vsa_ast.ml" 281 11004 11022
+type(
+  'y
+)
+"vsa_ast.ml" 281 11004 11024 "vsa_ast.ml" 281 11004 11027
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 281 11004 11016 "vsa_ast.ml" 281 11004 11027
+type(
+  'y * Type.binop_type
+)
+"vsa_ast.ml" 281 11004 11031 "vsa_ast.ml" 281 11004 11041
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.beloweq
+)
+"vsa_ast.ml" 282 11042 11054 "vsa_ast.ml" 282 11042 11060
+type(
+  'y
+)
+"vsa_ast.ml" 282 11042 11062 "vsa_ast.ml" 282 11042 11064
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 282 11042 11054 "vsa_ast.ml" 282 11042 11064
+type(
+  'y * Type.binop_type
+)
+"vsa_ast.ml" 282 11042 11068 "vsa_ast.ml" 282 11042 11087
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.beloweq_unsigned
+)
+"vsa_ast.ml" 283 11088 11100 "vsa_ast.ml" 283 11088 11106
+type(
+  'y
+)
+"vsa_ast.ml" 283 11088 11108 "vsa_ast.ml" 283 11088 11111
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 283 11088 11100 "vsa_ast.ml" 283 11088 11111
+type(
+  'y * Type.binop_type
+)
+"vsa_ast.ml" 283 11088 11115 "vsa_ast.ml" 283 11088 11123
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.below
+)
+"vsa_ast.ml" 284 11124 11136 "vsa_ast.ml" 284 11124 11142
+type(
+  'y
+)
+"vsa_ast.ml" 284 11124 11144 "vsa_ast.ml" 284 11124 11146
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 284 11124 11136 "vsa_ast.ml" 284 11124 11146
+type(
+  'y * Type.binop_type
+)
+"vsa_ast.ml" 284 11124 11150 "vsa_ast.ml" 284 11124 11167
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.below_unsigned
+)
+"vsa_ast.ml" 285 11168 11180 "vsa_ast.ml" 285 11168 11186
+type(
+  'y
+)
+"vsa_ast.ml" 285 11168 11188 "vsa_ast.ml" 285 11168 11191
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 285 11168 11180 "vsa_ast.ml" 285 11168 11191
+type(
+  'y * Type.binop_type
+)
+"vsa_ast.ml" 285 11168 11195 "vsa_ast.ml" 285 11168 11205
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.aboveeq
+)
+"vsa_ast.ml" 286 11206 11218 "vsa_ast.ml" 286 11206 11224
+type(
+  'y
+)
+"vsa_ast.ml" 286 11206 11226 "vsa_ast.ml" 286 11206 11228
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 286 11206 11218 "vsa_ast.ml" 286 11206 11228
+type(
+  'y * Type.binop_type
+)
+"vsa_ast.ml" 286 11206 11232 "vsa_ast.ml" 286 11206 11251
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.aboveeq_unsigned
+)
+"vsa_ast.ml" 287 11252 11264 "vsa_ast.ml" 287 11252 11270
+type(
+  'y
+)
+"vsa_ast.ml" 287 11252 11272 "vsa_ast.ml" 287 11252 11275
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 287 11252 11264 "vsa_ast.ml" 287 11252 11275
+type(
+  'y * Type.binop_type
+)
+"vsa_ast.ml" 287 11252 11279 "vsa_ast.ml" 287 11252 11287
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.above
+)
+"vsa_ast.ml" 288 11288 11300 "vsa_ast.ml" 288 11288 11306
+type(
+  'y
+)
+"vsa_ast.ml" 288 11288 11308 "vsa_ast.ml" 288 11288 11310
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 288 11288 11300 "vsa_ast.ml" 288 11288 11310
+type(
+  'y * Type.binop_type
+)
+"vsa_ast.ml" 288 11288 11314 "vsa_ast.ml" 288 11288 11331
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.above_unsigned
+)
+"vsa_ast.ml" 289 11332 11344 "vsa_ast.ml" 289 11332 11345
+type(
+  'y * Type.binop_type
+)
+"vsa_ast.ml" 289 11332 11349 "vsa_ast.ml" 289 11332 11357
+type(
+  string ->
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 289 11332 11358 "vsa_ast.ml" 289 11332 11370
+type(
+  string
+)
+"vsa_ast.ml" 289 11332 11349 "vsa_ast.ml" 289 11332 11370
+call(
+  stack
+)
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 280 10966 10984 "vsa_ast.ml" 289 11332 11370
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 291 11382 11394 "vsa_ast.ml" 291 11382 11398
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 291 11382 11401 "vsa_ast.ml" 291 11382 11408
+type(
+  'v Vsa.VM.t -> Vsa.VM.key -> Vsa.VS.t
+)
+ident(
+  int_ref do_find "vsa_ast.ml" 161 6150 6158 "vsa_ast.ml" 161 6150 6165
+)
+"vsa_ast.ml" 291 11382 11409 "vsa_ast.ml" 291 11382 11410
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 291 11382 11411 "vsa_ast.ml" 291 11382 11412
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 255 10057 10118 "vsa_ast.ml" 255 10057 10119
+)
+"vsa_ast.ml" 291 11382 11401 "vsa_ast.ml" 291 11382 11412
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 292 11416 11428 "vsa_ast.ml" 292 11416 11432
+type(
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 292 11416 11435 "vsa_ast.ml" 292 11416 11438
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  int_ref vsf "vsa_ast.ml" 280 10966 10978 "vsa_ast.ml" 280 10966 10981
+)
+"vsa_ast.ml" 292 11416 11440 "vsa_ast.ml" 292 11416 11453
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Vsa.bits_of_width
+)
+"vsa_ast.ml" 292 11416 11454 "vsa_ast.ml" 292 11416 11455
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 255 10057 10128 "vsa_ast.ml" 255 10057 10129
+)
+"vsa_ast.ml" 292 11416 11439 "vsa_ast.ml" 292 11416 11456
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 292 11416 11457 "vsa_ast.ml" 292 11416 11458
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "vsa_ast.ml" 255 10057 10125 "vsa_ast.ml" 255 10057 10126
+)
+"vsa_ast.ml" 292 11416 11435 "vsa_ast.ml" 292 11416 11458
+call(
+  stack
+)
+type(
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 293 11462 11474 "vsa_ast.ml" 293 11462 11480
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 293 11462 11483 "vsa_ast.ml" 293 11462 11498
+type(
+  Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.intersection
+)
+"vsa_ast.ml" 293 11462 11499 "vsa_ast.ml" 293 11462 11503
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v "vsa_ast.ml" 291 11382 11394 "vsa_ast.ml" 291 11382 11398
+)
+"vsa_ast.ml" 293 11462 11504 "vsa_ast.ml" 293 11462 11508
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_c "vsa_ast.ml" 292 11416 11428 "vsa_ast.ml" 292 11416 11432
+)
+"vsa_ast.ml" 293 11462 11483 "vsa_ast.ml" 293 11462 11508
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 294 11512 11520 "vsa_ast.ml" 294 11512 11527
+type(
+  (string -> string -> string -> string -> string -> unit, unit, string,
+   unit)
+  format4 -> string -> string -> string -> string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"vsa_ast.ml" 294 11512 11528 "vsa_ast.ml" 294 11512 11565
+type(
+  (string -> string -> string -> string -> string -> unit, unit, string,
+   unit)
+  format4
+)
+"vsa_ast.ml" 294 11512 11567 "vsa_ast.ml" 294 11512 11583
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"vsa_ast.ml" 294 11512 11584 "vsa_ast.ml" 294 11512 11585
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 255 10057 10118 "vsa_ast.ml" 255 10057 10119
+)
+"vsa_ast.ml" 294 11512 11566 "vsa_ast.ml" 294 11512 11586
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 294 11512 11588 "vsa_ast.ml" 294 11512 11599
+type(
+  CFG.G.E.vertex -> string
+)
+ident(
+  ext_ref Cfg_ast.v2s
+)
+"vsa_ast.ml" 294 11512 11601 "vsa_ast.ml" 294 11512 11612
+type(
+  CFG.G.E.t -> CFG.G.E.vertex
+)
+ident(
+  ext_ref CFG.G.E.dst
+)
+"vsa_ast.ml" 294 11512 11613 "vsa_ast.ml" 294 11512 11617
+type(
+  CFG.G.E.t
+)
+ident(
+  int_ref edge "vsa_ast.ml" 242 9494 9529 "vsa_ast.ml" 242 9494 9533
+)
+"vsa_ast.ml" 294 11512 11600 "vsa_ast.ml" 294 11512 11618
+call(
+  stack
+)
+type(
+  CFG.G.E.vertex
+)
+"vsa_ast.ml" 294 11512 11587 "vsa_ast.ml" 294 11512 11619
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 294 11512 11621 "vsa_ast.ml" 294 11512 11633
+type(
+  Vsa.VS.t -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 294 11512 11634 "vsa_ast.ml" 294 11512 11638
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v "vsa_ast.ml" 291 11382 11394 "vsa_ast.ml" 291 11382 11398
+)
+"vsa_ast.ml" 294 11512 11620 "vsa_ast.ml" 294 11512 11639
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 294 11512 11641 "vsa_ast.ml" 294 11512 11653
+type(
+  (Pp.VH.key * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list ->
+  string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 294 11512 11654 "vsa_ast.ml" 294 11512 11658
+type(
+  (Pp.VH.key * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  int_ref vs_c "vsa_ast.ml" 292 11416 11428 "vsa_ast.ml" 292 11416 11432
+)
+"vsa_ast.ml" 294 11512 11640 "vsa_ast.ml" 294 11512 11659
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 294 11512 11661 "vsa_ast.ml" 294 11512 11673
+type(
+  Vsa.VS.t -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 294 11512 11674 "vsa_ast.ml" 294 11512 11680
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_int "vsa_ast.ml" 293 11462 11474 "vsa_ast.ml" 293 11462 11480
+)
+"vsa_ast.ml" 294 11512 11660 "vsa_ast.ml" 294 11512 11681
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 294 11512 11520 "vsa_ast.ml" 294 11512 11681
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 295 11683 11691 "vsa_ast.ml" 295 11683 11697
+type(
+  Vsa.VM.key -> 'v -> 'v Vsa.VM.t -> 'v Vsa.VM.t
+)
+ident(
+  ext_ref Vsa.VM.add
+)
+"vsa_ast.ml" 295 11683 11698 "vsa_ast.ml" 295 11683 11699
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 255 10057 10118 "vsa_ast.ml" 255 10057 10119
+)
+"vsa_ast.ml" 295 11683 11709 "vsa_ast.ml" 295 11683 11715
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_int "vsa_ast.ml" 293 11462 11474 "vsa_ast.ml" 293 11462 11480
+)
+"vsa_ast.ml" 295 11683 11700 "vsa_ast.ml" 295 11683 11716
+type(
+  'v
+)
+"vsa_ast.ml" 295 11683 11717 "vsa_ast.ml" 295 11683 11718
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 295 11683 11691 "vsa_ast.ml" 295 11683 11718
+call(
+  stack
+)
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 294 11512 11520 "vsa_ast.ml" 295 11683 11718
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 293 11462 11470 "vsa_ast.ml" 295 11683 11718
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 292 11416 11424 "vsa_ast.ml" 295 11683 11718
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 291 11382 11390 "vsa_ast.ml" 295 11683 11718
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 280 10966 10974 "vsa_ast.ml" 295 11683 11718
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 266 10497 10505 "vsa_ast.ml" 295 11683 11718
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 259 10292 10300 "vsa_ast.ml" 295 11683 11718
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 257 10251 10261 "vsa_ast.ml" 295 11683 11718
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 296 11719 11732 "vsa_ast.ml" 296 11719 11733
+type(
+  bool option
+)
+"vsa_ast.ml" 296 11719 11741 "vsa_ast.ml" 296 11719 11743
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 296 11719 11753 "vsa_ast.ml" 296 11719 11756
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 296 11719 11757 "vsa_ast.ml" 296 11719 11760
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 296 11719 11753 "vsa_ast.ml" 296 11719 11760
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 296 11719 11761 "vsa_ast.ml" 296 11719 11763
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 296 11719 11753 "vsa_ast.ml" 296 11719 11763
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 296 11719 11764 "vsa_ast.ml" 296 11719 11766
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 296 11719 11752 "vsa_ast.ml" 296 11719 11767
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 296 11719 11752 "vsa_ast.ml" 296 11719 11774
+type(
+  Type.binop_type
+)
+ident(
+  def bop "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11786 "vsa_ast.ml" 296 11719 11787
+type(
+  Ast.var
+)
+ident(
+  def m "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11782 "vsa_ast.ml" 296 11719 11787
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 296 11719 11789 "vsa_ast.ml" 296 11719 11792
+type(
+  Ast.exp
+)
+ident(
+  def ind "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11794 "vsa_ast.ml" 296 11719 11796
+type(
+  Ast.exp
+)
+ident(
+  def _e "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11798 "vsa_ast.ml" 296 11719 11799
+type(
+  Type.typ
+)
+ident(
+  def t "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11781 "vsa_ast.ml" 296 11719 11800
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"vsa_ast.ml" 296 11719 11777 "vsa_ast.ml" 296 11719 11800
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 296 11719 11776 "vsa_ast.ml" 296 11719 11807
+type(
+  Ast.exp
+)
+ident(
+  def le "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11813 "vsa_ast.ml" 296 11719 11814
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11816 "vsa_ast.ml" 296 11719 11818
+type(
+  Type.typ
+)
+ident(
+  def t' "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11812 "vsa_ast.ml" 296 11719 11819
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 296 11719 11809 "vsa_ast.ml" 296 11719 11819
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 296 11719 11751 "vsa_ast.ml" 296 11719 11820
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 296 11719 11746 "vsa_ast.ml" 296 11719 11820
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 296 11719 11745 "vsa_ast.ml" 296 11719 11827
+type(
+  Ast.exp
+)
+ident(
+  def be "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11833 "vsa_ast.ml" 296 11719 11835
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i' "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11837 "vsa_ast.ml" 296 11719 11840
+type(
+  Type.typ
+)
+ident(
+  def t'' "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 296 11719 11832 "vsa_ast.ml" 296 11719 11841
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 296 11719 11829 "vsa_ast.ml" 296 11719 11841
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 296 11719 11740 "vsa_ast.ml" 296 11719 11842
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 296 11719 11735 "vsa_ast.ml" 296 11719 11842
+type(
+  CFG.exp
+)
+"vsa_ast.ml" 296 11719 11731 "vsa_ast.ml" 296 11719 11843
+type(
+  bool option * CFG.exp
+)
+"vsa_ast.ml" 296 11719 11727 "vsa_ast.ml" 296 11719 11843
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 297 11844 11857 "vsa_ast.ml" 297 11844 11858
+type(
+  bool option
+)
+"vsa_ast.ml" 297 11844 11866 "vsa_ast.ml" 297 11844 11868
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 297 11844 11878 "vsa_ast.ml" 297 11844 11881
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 297 11844 11882 "vsa_ast.ml" 297 11844 11885
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 297 11844 11878 "vsa_ast.ml" 297 11844 11885
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 297 11844 11886 "vsa_ast.ml" 297 11844 11888
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 297 11844 11878 "vsa_ast.ml" 297 11844 11888
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 297 11844 11889 "vsa_ast.ml" 297 11844 11891
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 297 11844 11877 "vsa_ast.ml" 297 11844 11892
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 297 11844 11877 "vsa_ast.ml" 297 11844 11899
+type(
+  Type.binop_type
+)
+ident(
+  def bop "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11905 "vsa_ast.ml" 297 11844 11906
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11908 "vsa_ast.ml" 297 11844 11910
+type(
+  Type.typ
+)
+ident(
+  def t' "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11904 "vsa_ast.ml" 297 11844 11911
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 297 11844 11901 "vsa_ast.ml" 297 11844 11911
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 297 11844 11923 "vsa_ast.ml" 297 11844 11924
+type(
+  Ast.var
+)
+ident(
+  def m "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11919 "vsa_ast.ml" 297 11844 11924
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 297 11844 11926 "vsa_ast.ml" 297 11844 11929
+type(
+  Ast.exp
+)
+ident(
+  def ind "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11931 "vsa_ast.ml" 297 11844 11933
+type(
+  Ast.exp
+)
+ident(
+  def _e "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11935 "vsa_ast.ml" 297 11844 11936
+type(
+  Type.typ
+)
+ident(
+  def t "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11918 "vsa_ast.ml" 297 11844 11937
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"vsa_ast.ml" 297 11844 11914 "vsa_ast.ml" 297 11844 11937
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 297 11844 11913 "vsa_ast.ml" 297 11844 11944
+type(
+  Ast.exp
+)
+ident(
+  def le "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11876 "vsa_ast.ml" 297 11844 11945
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 297 11844 11871 "vsa_ast.ml" 297 11844 11945
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 297 11844 11870 "vsa_ast.ml" 297 11844 11952
+type(
+  Ast.exp
+)
+ident(
+  def be "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11958 "vsa_ast.ml" 297 11844 11960
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i' "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11962 "vsa_ast.ml" 297 11844 11965
+type(
+  Type.typ
+)
+ident(
+  def t'' "vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+)
+"vsa_ast.ml" 297 11844 11957 "vsa_ast.ml" 297 11844 11966
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 297 11844 11954 "vsa_ast.ml" 297 11844 11966
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 297 11844 11865 "vsa_ast.ml" 297 11844 11967
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 297 11844 11860 "vsa_ast.ml" 297 11844 11967
+type(
+  CFG.exp
+)
+"vsa_ast.ml" 297 11844 11856 "vsa_ast.ml" 297 11844 11968
+type(
+  bool option * CFG.exp
+)
+"vsa_ast.ml" 297 11844 11852 "vsa_ast.ml" 297 11844 11968
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 296 11719 11727 "vsa_ast.ml" 297 11844 11968
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 298 11969 11984 "vsa_ast.ml" 298 11969 12001
+type(
+  Type.binop_type -> bool
+)
+ident(
+  int_ref accept_signed_bop "vsa_ast.ml" 245 9677 9687 "vsa_ast.ml" 245 9677 9704
+)
+"vsa_ast.ml" 298 11969 12002 "vsa_ast.ml" 298 11969 12005
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "vsa_ast.ml" 296 11719 11752 "vsa_ast.ml" 296 11719 11774
+)
+"vsa_ast.ml" 298 11969 11984 "vsa_ast.ml" 298 11969 12005
+call(
+  stack
+)
+type(
+  bool
+)
+"vsa_ast.ml" 299 12009 12021 "vsa_ast.ml" 299 12009 12024
+type(
+  [> `Above | `Below ]
+)
+"vsa_ast.ml" 299 12009 12033 "vsa_ast.ml" 299 12009 12035
+type(
+  Ast.exp
+)
+ident(
+  int_ref be "vsa_ast.ml" 296 11719 11745 "vsa_ast.ml" 296 11719 11827
+)
+"vsa_ast.ml" 300 12041 12059 "vsa_ast.ml" 300 12041 12060
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 300 12041 12067 "vsa_ast.ml" 300 12041 12068
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"vsa_ast.ml" 300 12041 12062 "vsa_ast.ml" 300 12041 12068
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 300 12041 12074 "vsa_ast.ml" 300 12041 12075
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 300 12041 12070 "vsa_ast.ml" 300 12041 12075
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 300 12041 12058 "vsa_ast.ml" 300 12041 12076
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 300 12041 12053 "vsa_ast.ml" 300 12041 12076
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 300 12041 12080 "vsa_ast.ml" 300 12041 12086
+type(
+  [> `Above | `Below ] as 'z
+)
+"vsa_ast.ml" 301 12087 12105 "vsa_ast.ml" 301 12087 12106
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 301 12087 12112 "vsa_ast.ml" 301 12087 12113
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 301 12087 12108 "vsa_ast.ml" 301 12087 12113
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 301 12087 12120 "vsa_ast.ml" 301 12087 12121
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"vsa_ast.ml" 301 12087 12115 "vsa_ast.ml" 301 12087 12121
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 301 12087 12104 "vsa_ast.ml" 301 12087 12122
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 301 12087 12099 "vsa_ast.ml" 301 12087 12122
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 301 12087 12126 "vsa_ast.ml" 301 12087 12132
+type(
+  'z
+)
+"vsa_ast.ml" 302 12133 12145 "vsa_ast.ml" 302 12133 12146
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 302 12133 12150 "vsa_ast.ml" 302 12133 12158
+type(
+  string -> 'z
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 302 12133 12159 "vsa_ast.ml" 302 12133 12171
+type(
+  string
+)
+"vsa_ast.ml" 302 12133 12150 "vsa_ast.ml" 302 12133 12171
+call(
+  stack
+)
+type(
+  'z
+)
+"vsa_ast.ml" 299 12009 12027 "vsa_ast.ml" 302 12133 12171
+type(
+  'z
+)
+"vsa_ast.ml" 306 12216 12228 "vsa_ast.ml" 306 12216 12229
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 306 12216 12231 "vsa_ast.ml" 306 12216 12234
+type(
+  [> `Above | `Below ]
+)
+"vsa_ast.ml" 306 12216 12236 "vsa_ast.ml" 306 12216 12239
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 306 12216 12228 "vsa_ast.ml" 306 12216 12239
+type(
+  Ast.exp * ([> `Above | `Below ] as 'a1) * Type.binop_type
+)
+"vsa_ast.ml" 307 12242 12255 "vsa_ast.ml" 307 12242 12264
+type(
+  Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Big_int_convenience.bi_is_one
+)
+"vsa_ast.ml" 307 12242 12265 "vsa_ast.ml" 307 12242 12267
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i' "vsa_ast.ml" 296 11719 11833 "vsa_ast.ml" 296 11719 11835
+)
+"vsa_ast.ml" 307 12242 12255 "vsa_ast.ml" 307 12242 12267
+call(
+  stack
+)
+type(
+  bool
+)
+"vsa_ast.ml" 307 12242 12273 "vsa_ast.ml" 307 12242 12275
+type(
+  Ast.exp
+)
+ident(
+  int_ref be "vsa_ast.ml" 296 11719 11745 "vsa_ast.ml" 296 11719 11827
+)
+"vsa_ast.ml" 307 12242 12277 "vsa_ast.ml" 307 12242 12280
+type(
+  'a1
+)
+ident(
+  int_ref dir "vsa_ast.ml" 299 12009 12021 "vsa_ast.ml" 299 12009 12024
+)
+"vsa_ast.ml" 307 12242 12282 "vsa_ast.ml" 307 12242 12285
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "vsa_ast.ml" 296 11719 11752 "vsa_ast.ml" 296 11719 11774
+)
+"vsa_ast.ml" 307 12242 12273 "vsa_ast.ml" 307 12242 12285
+type(
+  Ast.exp * 'a1 * Type.binop_type
+)
+"vsa_ast.ml" 309 12301 12317 "vsa_ast.ml" 309 12301 12323
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 309 12301 12332 "vsa_ast.ml" 309 12301 12335
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "vsa_ast.ml" 296 11719 11752 "vsa_ast.ml" 296 11719 11774
+)
+"vsa_ast.ml" 310 12341 12357 "vsa_ast.ml" 310 12341 12360
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 310 12341 12364 "vsa_ast.ml" 310 12341 12367
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 311 12368 12384 "vsa_ast.ml" 311 12368 12387
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 311 12368 12391 "vsa_ast.ml" 311 12368 12394
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 312 12395 12411 "vsa_ast.ml" 312 12395 12413
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 312 12395 12417 "vsa_ast.ml" 312 12395 12419
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 313 12420 12436 "vsa_ast.ml" 313 12420 12438
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 313 12420 12442 "vsa_ast.ml" 313 12420 12444
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 314 12445 12461 "vsa_ast.ml" 314 12445 12462
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 314 12445 12466 "vsa_ast.ml" 314 12445 12474
+type(
+  string -> Type.binop_type
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 314 12445 12475 "vsa_ast.ml" 314 12445 12487
+type(
+  string
+)
+"vsa_ast.ml" 314 12445 12466 "vsa_ast.ml" 314 12445 12487
+call(
+  stack
+)
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 309 12301 12326 "vsa_ast.ml" 314 12445 12487
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 316 12503 12521 "vsa_ast.ml" 316 12503 12524
+type(
+  [ `Above | `Below ]
+)
+ident(
+  int_ref dir "vsa_ast.ml" 299 12009 12021 "vsa_ast.ml" 299 12009 12024
+)
+"vsa_ast.ml" 317 12530 12544 "vsa_ast.ml" 317 12530 12550
+type(
+  [ `Above | `Below ]
+)
+"vsa_ast.ml" 317 12530 12560 "vsa_ast.ml" 317 12530 12566
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "vsa_ast.ml" 309 12301 12317 "vsa_ast.ml" 309 12301 12323
+)
+"vsa_ast.ml" 317 12530 12572 "vsa_ast.ml" 317 12530 12573
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "vsa_ast.ml" 296 11719 11813 "vsa_ast.ml" 296 11719 11814
+)
+"vsa_ast.ml" 317 12530 12575 "vsa_ast.ml" 317 12530 12576
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 296 11719 11798 "vsa_ast.ml" 296 11719 11799
+)
+"vsa_ast.ml" 317 12530 12571 "vsa_ast.ml" 317 12530 12577
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 317 12530 12568 "vsa_ast.ml" 317 12530 12577
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 317 12530 12588 "vsa_ast.ml" 317 12530 12589
+type(
+  Ast.var
+)
+ident(
+  int_ref m "vsa_ast.ml" 296 11719 11786 "vsa_ast.ml" 296 11719 11787
+)
+"vsa_ast.ml" 317 12530 12584 "vsa_ast.ml" 317 12530 12589
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 317 12530 12591 "vsa_ast.ml" 317 12530 12594
+type(
+  Ast.exp
+)
+ident(
+  int_ref ind "vsa_ast.ml" 296 11719 11789 "vsa_ast.ml" 296 11719 11792
+)
+"vsa_ast.ml" 317 12530 12596 "vsa_ast.ml" 317 12530 12598
+type(
+  Ast.exp
+)
+ident(
+  int_ref _e "vsa_ast.ml" 296 11719 11794 "vsa_ast.ml" 296 11719 11796
+)
+"vsa_ast.ml" 317 12530 12600 "vsa_ast.ml" 317 12530 12601
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 296 11719 11798 "vsa_ast.ml" 296 11719 11799
+)
+"vsa_ast.ml" 317 12530 12583 "vsa_ast.ml" 317 12530 12602
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"vsa_ast.ml" 317 12530 12579 "vsa_ast.ml" 317 12530 12602
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 317 12530 12559 "vsa_ast.ml" 317 12530 12603
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 317 12530 12554 "vsa_ast.ml" 317 12530 12603
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 317 12530 12605 "vsa_ast.ml" 317 12530 12611
+type(
+  'a1
+)
+"vsa_ast.ml" 317 12530 12613 "vsa_ast.ml" 317 12530 12619
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "vsa_ast.ml" 309 12301 12317 "vsa_ast.ml" 309 12301 12323
+)
+"vsa_ast.ml" 317 12530 12554 "vsa_ast.ml" 317 12530 12619
+type(
+  Ast.exp * 'a1 * Type.binop_type
+)
+"vsa_ast.ml" 318 12620 12634 "vsa_ast.ml" 318 12620 12640
+type(
+  [ `Above | `Below ]
+)
+"vsa_ast.ml" 318 12620 12650 "vsa_ast.ml" 318 12620 12656
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "vsa_ast.ml" 309 12301 12317 "vsa_ast.ml" 309 12301 12323
+)
+"vsa_ast.ml" 318 12620 12667 "vsa_ast.ml" 318 12620 12668
+type(
+  Ast.var
+)
+ident(
+  int_ref m "vsa_ast.ml" 296 11719 11786 "vsa_ast.ml" 296 11719 11787
+)
+"vsa_ast.ml" 318 12620 12663 "vsa_ast.ml" 318 12620 12668
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 318 12620 12670 "vsa_ast.ml" 318 12620 12673
+type(
+  Ast.exp
+)
+ident(
+  int_ref ind "vsa_ast.ml" 296 11719 11789 "vsa_ast.ml" 296 11719 11792
+)
+"vsa_ast.ml" 318 12620 12675 "vsa_ast.ml" 318 12620 12677
+type(
+  Ast.exp
+)
+ident(
+  int_ref _e "vsa_ast.ml" 296 11719 11794 "vsa_ast.ml" 296 11719 11796
+)
+"vsa_ast.ml" 318 12620 12679 "vsa_ast.ml" 318 12620 12680
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 296 11719 11798 "vsa_ast.ml" 296 11719 11799
+)
+"vsa_ast.ml" 318 12620 12662 "vsa_ast.ml" 318 12620 12681
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"vsa_ast.ml" 318 12620 12658 "vsa_ast.ml" 318 12620 12681
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 318 12620 12687 "vsa_ast.ml" 318 12620 12688
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "vsa_ast.ml" 296 11719 11813 "vsa_ast.ml" 296 11719 11814
+)
+"vsa_ast.ml" 318 12620 12690 "vsa_ast.ml" 318 12620 12691
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 296 11719 11798 "vsa_ast.ml" 296 11719 11799
+)
+"vsa_ast.ml" 318 12620 12686 "vsa_ast.ml" 318 12620 12692
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 318 12620 12683 "vsa_ast.ml" 318 12620 12692
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 318 12620 12649 "vsa_ast.ml" 318 12620 12693
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 318 12620 12644 "vsa_ast.ml" 318 12620 12693
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 318 12620 12695 "vsa_ast.ml" 318 12620 12701
+type(
+  'a1
+)
+"vsa_ast.ml" 318 12620 12703 "vsa_ast.ml" 318 12620 12709
+type(
+  Type.binop_type
+)
+ident(
+  int_ref newbop "vsa_ast.ml" 309 12301 12317 "vsa_ast.ml" 309 12301 12323
+)
+"vsa_ast.ml" 318 12620 12644 "vsa_ast.ml" 318 12620 12709
+type(
+  Ast.exp * 'a1 * Type.binop_type
+)
+"vsa_ast.ml" 316 12503 12515 "vsa_ast.ml" 318 12620 12709
+type(
+  Ast.exp * 'a1 * Type.binop_type
+)
+"vsa_ast.ml" 309 12301 12313 "vsa_ast.ml" 318 12620 12709
+type(
+  Ast.exp * 'a1 * Type.binop_type
+)
+"vsa_ast.ml" 307 12242 12252 "vsa_ast.ml" 318 12620 12709
+type(
+  Ast.exp * 'a1 * Type.binop_type
+)
+"vsa_ast.ml" 320 12721 12733 "vsa_ast.ml" 320 12721 12736
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 320 12721 12745 "vsa_ast.ml" 320 12721 12748
+type(
+  _[> `Above | `Below ]
+)
+ident(
+  int_ref dir "vsa_ast.ml" 306 12216 12231 "vsa_ast.ml" 306 12216 12234
+)
+"vsa_ast.ml" 320 12721 12750 "vsa_ast.ml" 320 12721 12753
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "vsa_ast.ml" 306 12216 12236 "vsa_ast.ml" 306 12216 12239
+)
+"vsa_ast.ml" 320 12721 12745 "vsa_ast.ml" 320 12721 12753
+type(
+  (_[> `Above | `Below ] as 'b1) * Type.binop_type
+)
+"vsa_ast.ml" 321 12759 12771 "vsa_ast.ml" 321 12759 12777
+type(
+  'b1
+)
+"vsa_ast.ml" 321 12759 12779 "vsa_ast.ml" 321 12759 12782
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 321 12759 12771 "vsa_ast.ml" 321 12759 12782
+type(
+  'b1 * Type.binop_type
+)
+"vsa_ast.ml" 321 12759 12786 "vsa_ast.ml" 321 12759 12796
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.beloweq
+)
+"vsa_ast.ml" 322 12797 12809 "vsa_ast.ml" 322 12797 12815
+type(
+  'b1
+)
+"vsa_ast.ml" 322 12797 12817 "vsa_ast.ml" 322 12797 12819
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 322 12797 12809 "vsa_ast.ml" 322 12797 12819
+type(
+  'b1 * Type.binop_type
+)
+"vsa_ast.ml" 322 12797 12823 "vsa_ast.ml" 322 12797 12842
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.beloweq_unsigned
+)
+"vsa_ast.ml" 323 12843 12855 "vsa_ast.ml" 323 12843 12861
+type(
+  'b1
+)
+"vsa_ast.ml" 323 12843 12863 "vsa_ast.ml" 323 12843 12866
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 323 12843 12855 "vsa_ast.ml" 323 12843 12866
+type(
+  'b1 * Type.binop_type
+)
+"vsa_ast.ml" 323 12843 12870 "vsa_ast.ml" 323 12843 12878
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.below
+)
+"vsa_ast.ml" 324 12879 12891 "vsa_ast.ml" 324 12879 12897
+type(
+  'b1
+)
+"vsa_ast.ml" 324 12879 12899 "vsa_ast.ml" 324 12879 12901
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 324 12879 12891 "vsa_ast.ml" 324 12879 12901
+type(
+  'b1 * Type.binop_type
+)
+"vsa_ast.ml" 324 12879 12905 "vsa_ast.ml" 324 12879 12922
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.below_unsigned
+)
+"vsa_ast.ml" 325 12923 12935 "vsa_ast.ml" 325 12923 12941
+type(
+  'b1
+)
+"vsa_ast.ml" 325 12923 12943 "vsa_ast.ml" 325 12923 12946
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 325 12923 12935 "vsa_ast.ml" 325 12923 12946
+type(
+  'b1 * Type.binop_type
+)
+"vsa_ast.ml" 325 12923 12950 "vsa_ast.ml" 325 12923 12960
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.aboveeq
+)
+"vsa_ast.ml" 326 12961 12973 "vsa_ast.ml" 326 12961 12979
+type(
+  'b1
+)
+"vsa_ast.ml" 326 12961 12981 "vsa_ast.ml" 326 12961 12983
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 326 12961 12973 "vsa_ast.ml" 326 12961 12983
+type(
+  'b1 * Type.binop_type
+)
+"vsa_ast.ml" 326 12961 12987 "vsa_ast.ml" 326 12961 13006
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.aboveeq_unsigned
+)
+"vsa_ast.ml" 327 13007 13019 "vsa_ast.ml" 327 13007 13025
+type(
+  'b1
+)
+"vsa_ast.ml" 327 13007 13027 "vsa_ast.ml" 327 13007 13030
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 327 13007 13019 "vsa_ast.ml" 327 13007 13030
+type(
+  'b1 * Type.binop_type
+)
+"vsa_ast.ml" 327 13007 13034 "vsa_ast.ml" 327 13007 13042
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.above
+)
+"vsa_ast.ml" 328 13043 13055 "vsa_ast.ml" 328 13043 13061
+type(
+  'b1
+)
+"vsa_ast.ml" 328 13043 13063 "vsa_ast.ml" 328 13043 13065
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 328 13043 13055 "vsa_ast.ml" 328 13043 13065
+type(
+  'b1 * Type.binop_type
+)
+"vsa_ast.ml" 328 13043 13069 "vsa_ast.ml" 328 13043 13086
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.above_unsigned
+)
+"vsa_ast.ml" 329 13087 13099 "vsa_ast.ml" 329 13087 13100
+type(
+  'b1 * Type.binop_type
+)
+"vsa_ast.ml" 329 13087 13104 "vsa_ast.ml" 329 13087 13112
+type(
+  string ->
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"vsa_ast.ml" 329 13087 13113 "vsa_ast.ml" 329 13087 13125
+type(
+  string
+)
+"vsa_ast.ml" 329 13087 13104 "vsa_ast.ml" 329 13087 13125
+call(
+  stack
+)
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 320 12721 12739 "vsa_ast.ml" 329 13087 13125
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 331 13137 13149 "vsa_ast.ml" 331 13137 13153
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 331 13137 13156 "vsa_ast.ml" 331 13137 13162
+type(
+  ?o:'s -> 'v Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 331 13137 13164 "vsa_ast.ml" 331 13137 13165
+type(
+  's
+)
+ident(
+  int_ref o "vsa_ast.ml" 242 9494 9525 "vsa_ast.ml" 242 9494 9526
+)
+"vsa_ast.ml" 331 13137 13166 "vsa_ast.ml" 331 13137 13167
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 331 13137 13168 "vsa_ast.ml" 331 13137 13170
+type(
+  Ast.exp
+)
+ident(
+  int_ref le "vsa_ast.ml" 296 11719 11776 "vsa_ast.ml" 296 11719 11807
+)
+"vsa_ast.ml" 331 13137 13156 "vsa_ast.ml" 331 13137 13170
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 332 13174 13186 "vsa_ast.ml" 332 13174 13190
+type(
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 332 13174 13193 "vsa_ast.ml" 332 13174 13196
+type(
+  int ->
+  Big_int_Z.big_int ->
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  int_ref vsf "vsa_ast.ml" 320 12721 12733 "vsa_ast.ml" 320 12721 12736
+)
+"vsa_ast.ml" 332 13174 13198 "vsa_ast.ml" 332 13174 13211
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Vsa.bits_of_width
+)
+"vsa_ast.ml" 332 13174 13212 "vsa_ast.ml" 332 13174 13213
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 296 11719 11798 "vsa_ast.ml" 296 11719 11799
+)
+"vsa_ast.ml" 332 13174 13197 "vsa_ast.ml" 332 13174 13214
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 332 13174 13215 "vsa_ast.ml" 332 13174 13216
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "vsa_ast.ml" 296 11719 11813 "vsa_ast.ml" 296 11719 11814
+)
+"vsa_ast.ml" 332 13174 13193 "vsa_ast.ml" 332 13174 13216
+call(
+  stack
+)
+type(
+  (Var.t * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 333 13220 13232 "vsa_ast.ml" 333 13220 13238
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 333 13220 13241 "vsa_ast.ml" 333 13220 13256
+type(
+  Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.intersection
+)
+"vsa_ast.ml" 333 13220 13257 "vsa_ast.ml" 333 13220 13261
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v "vsa_ast.ml" 331 13137 13149 "vsa_ast.ml" 331 13137 13153
+)
+"vsa_ast.ml" 333 13220 13262 "vsa_ast.ml" 333 13220 13266
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_c "vsa_ast.ml" 332 13174 13186 "vsa_ast.ml" 332 13174 13190
+)
+"vsa_ast.ml" 333 13220 13241 "vsa_ast.ml" 333 13220 13266
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 334 13270 13278 "vsa_ast.ml" 334 13270 13285
+type(
+  (string -> string -> string -> string -> string -> unit, unit, string,
+   unit)
+  format4 -> string -> string -> string -> string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"vsa_ast.ml" 334 13270 13286 "vsa_ast.ml" 334 13270 13323
+type(
+  (string -> string -> string -> string -> string -> unit, unit, string,
+   unit)
+  format4
+)
+"vsa_ast.ml" 334 13270 13325 "vsa_ast.ml" 334 13270 13345
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"vsa_ast.ml" 334 13270 13346 "vsa_ast.ml" 334 13270 13348
+type(
+  Ast.exp
+)
+ident(
+  int_ref le "vsa_ast.ml" 296 11719 11776 "vsa_ast.ml" 296 11719 11807
+)
+"vsa_ast.ml" 334 13270 13324 "vsa_ast.ml" 334 13270 13349
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 334 13270 13351 "vsa_ast.ml" 334 13270 13362
+type(
+  CFG.G.E.vertex -> string
+)
+ident(
+  ext_ref Cfg_ast.v2s
+)
+"vsa_ast.ml" 334 13270 13364 "vsa_ast.ml" 334 13270 13375
+type(
+  CFG.G.E.t -> CFG.G.E.vertex
+)
+ident(
+  ext_ref CFG.G.E.dst
+)
+"vsa_ast.ml" 334 13270 13376 "vsa_ast.ml" 334 13270 13380
+type(
+  CFG.G.E.t
+)
+ident(
+  int_ref edge "vsa_ast.ml" 242 9494 9529 "vsa_ast.ml" 242 9494 9533
+)
+"vsa_ast.ml" 334 13270 13363 "vsa_ast.ml" 334 13270 13381
+call(
+  stack
+)
+type(
+  CFG.G.E.vertex
+)
+"vsa_ast.ml" 334 13270 13350 "vsa_ast.ml" 334 13270 13382
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 334 13270 13384 "vsa_ast.ml" 334 13270 13396
+type(
+  Vsa.VS.t -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 334 13270 13397 "vsa_ast.ml" 334 13270 13401
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v "vsa_ast.ml" 331 13137 13149 "vsa_ast.ml" 331 13137 13153
+)
+"vsa_ast.ml" 334 13270 13383 "vsa_ast.ml" 334 13270 13402
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 334 13270 13404 "vsa_ast.ml" 334 13270 13416
+type(
+  (Pp.VH.key * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list ->
+  string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 334 13270 13417 "vsa_ast.ml" 334 13270 13421
+type(
+  (Pp.VH.key * (int * Z.t * Big_int_Z.big_int * Big_int_Z.big_int)) list
+)
+ident(
+  int_ref vs_c "vsa_ast.ml" 332 13174 13186 "vsa_ast.ml" 332 13174 13190
+)
+"vsa_ast.ml" 334 13270 13403 "vsa_ast.ml" 334 13270 13422
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 334 13270 13424 "vsa_ast.ml" 334 13270 13436
+type(
+  Vsa.VS.t -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 334 13270 13437 "vsa_ast.ml" 334 13270 13443
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_int "vsa_ast.ml" 333 13220 13232 "vsa_ast.ml" 333 13220 13238
+)
+"vsa_ast.ml" 334 13270 13423 "vsa_ast.ml" 334 13270 13444
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 334 13270 13278 "vsa_ast.ml" 334 13270 13444
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 335 13446 13458 "vsa_ast.ml" 335 13446 13466
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 335 13446 13469 "vsa_ast.ml" 335 13446 13479
+type(
+  'v Vsa.VM.t -> Vsa.VM.key -> Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  int_ref do_find_ae "vsa_ast.ml" 162 6186 6194 "vsa_ast.ml" 162 6186 6204
+)
+"vsa_ast.ml" 335 13446 13480 "vsa_ast.ml" 335 13446 13481
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 335 13446 13482 "vsa_ast.ml" 335 13446 13483
+type(
+  Ast.var
+)
+ident(
+  int_ref m "vsa_ast.ml" 296 11719 11786 "vsa_ast.ml" 296 11719 11787
+)
+"vsa_ast.ml" 335 13446 13469 "vsa_ast.ml" 335 13446 13483
+call(
+  stack
+)
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 336 13487 13499 "vsa_ast.ml" 336 13487 13506
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 336 13487 13509 "vsa_ast.ml" 336 13487 13536
+type(
+  int ->
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t ->
+  Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  ext_ref MemStore.write_intersection
+)
+"vsa_ast.ml" 336 13487 13538 "vsa_ast.ml" 336 13487 13551
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Vsa.bits_of_width
+)
+"vsa_ast.ml" 336 13487 13552 "vsa_ast.ml" 336 13487 13553
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 296 11719 11798 "vsa_ast.ml" 296 11719 11799
+)
+"vsa_ast.ml" 336 13487 13537 "vsa_ast.ml" 336 13487 13554
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 336 13487 13555 "vsa_ast.ml" 336 13487 13563
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  int_ref orig_mem "vsa_ast.ml" 335 13446 13458 "vsa_ast.ml" 335 13446 13466
+)
+"vsa_ast.ml" 336 13487 13565 "vsa_ast.ml" 336 13487 13571
+type(
+  ?o:'_c1 -> 'v Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  int_ref exp2vs "vsa_ast.ml" 165 6269 6281 "vsa_ast.ml" 165 6269 6287
+)
+"vsa_ast.ml" 336 13487 13572 "vsa_ast.ml" 336 13487 13573
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 336 13487 13574 "vsa_ast.ml" 336 13487 13577
+type(
+  Ast.exp
+)
+ident(
+  int_ref ind "vsa_ast.ml" 296 11719 11789 "vsa_ast.ml" 296 11719 11792
+)
+"vsa_ast.ml" 336 13487 13564 "vsa_ast.ml" 336 13487 13578
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 336 13487 13579 "vsa_ast.ml" 336 13487 13585
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_int "vsa_ast.ml" 333 13220 13232 "vsa_ast.ml" 333 13220 13238
+)
+"vsa_ast.ml" 336 13487 13509 "vsa_ast.ml" 336 13487 13585
+call(
+  stack
+)
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+"vsa_ast.ml" 337 13589 13597 "vsa_ast.ml" 337 13589 13603
+type(
+  Vsa.VM.key -> 'v -> 'v Vsa.VM.t -> 'v Vsa.VM.t
+)
+ident(
+  ext_ref Vsa.VM.add
+)
+"vsa_ast.ml" 337 13589 13604 "vsa_ast.ml" 337 13589 13605
+type(
+  Ast.var
+)
+ident(
+  int_ref m "vsa_ast.ml" 296 11719 11786 "vsa_ast.ml" 296 11719 11787
+)
+"vsa_ast.ml" 337 13589 13614 "vsa_ast.ml" 337 13589 13621
+type(
+  Vsa.VS.t MemStore.M2.t MemStore.M1.t
+)
+ident(
+  int_ref new_mem "vsa_ast.ml" 336 13487 13499 "vsa_ast.ml" 336 13487 13506
+)
+"vsa_ast.ml" 337 13589 13606 "vsa_ast.ml" 337 13589 13622
+type(
+  'v
+)
+"vsa_ast.ml" 337 13589 13623 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 337 13589 13597 "vsa_ast.ml" 337 13589 13624
+call(
+  stack
+)
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 336 13487 13495 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 335 13446 13454 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 334 13270 13278 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 333 13220 13228 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 332 13174 13182 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 331 13137 13145 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 320 12721 12729 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 306 12216 12224 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 299 12009 12017 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 298 11969 11979 "vsa_ast.ml" 337 13589 13624
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 338 13625 13638 "vsa_ast.ml" 338 13625 13639
+type(
+  bool option
+)
+"vsa_ast.ml" 338 13625 13647 "vsa_ast.ml" 338 13625 13649
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 338 13625 13658 "vsa_ast.ml" 338 13625 13660
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 338 13625 13661 "vsa_ast.ml" 338 13625 13664
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 338 13625 13658 "vsa_ast.ml" 338 13625 13664
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 338 13625 13658 "vsa_ast.ml" 338 13625 13671
+type(
+  Type.binop_type
+)
+ident(
+  def bop "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 338 13625 13677 "vsa_ast.ml" 338 13625 13678
+type(
+  Ast.var
+)
+ident(
+  def v "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 338 13625 13673 "vsa_ast.ml" 338 13625 13678
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 338 13625 13684 "vsa_ast.ml" 338 13625 13685
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 338 13625 13687 "vsa_ast.ml" 338 13625 13688
+type(
+  Type.typ
+)
+ident(
+  def t "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 338 13625 13683 "vsa_ast.ml" 338 13625 13689
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 338 13625 13680 "vsa_ast.ml" 338 13625 13689
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 338 13625 13657 "vsa_ast.ml" 338 13625 13690
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 338 13625 13651 "vsa_ast.ml" 338 13625 13691
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 338 13625 13697 "vsa_ast.ml" 338 13625 13699
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i' "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 338 13625 13701 "vsa_ast.ml" 338 13625 13703
+type(
+  Type.typ
+)
+ident(
+  def t' "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 338 13625 13696 "vsa_ast.ml" 338 13625 13704
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 338 13625 13693 "vsa_ast.ml" 338 13625 13704
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 338 13625 13646 "vsa_ast.ml" 338 13625 13705
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 338 13625 13641 "vsa_ast.ml" 338 13625 13705
+type(
+  CFG.exp
+)
+"vsa_ast.ml" 338 13625 13637 "vsa_ast.ml" 338 13625 13706
+type(
+  bool option * CFG.exp
+)
+"vsa_ast.ml" 338 13625 13633 "vsa_ast.ml" 338 13625 13706
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 339 13707 13720 "vsa_ast.ml" 339 13707 13721
+type(
+  bool option
+)
+"vsa_ast.ml" 339 13707 13729 "vsa_ast.ml" 339 13707 13731
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 339 13707 13740 "vsa_ast.ml" 339 13707 13742
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 339 13707 13743 "vsa_ast.ml" 339 13707 13746
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 339 13707 13740 "vsa_ast.ml" 339 13707 13746
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 339 13707 13740 "vsa_ast.ml" 339 13707 13753
+type(
+  Type.binop_type
+)
+ident(
+  def bop "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 339 13707 13759 "vsa_ast.ml" 339 13707 13760
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 339 13707 13762 "vsa_ast.ml" 339 13707 13763
+type(
+  Type.typ
+)
+ident(
+  def t "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 339 13707 13758 "vsa_ast.ml" 339 13707 13764
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 339 13707 13755 "vsa_ast.ml" 339 13707 13764
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 339 13707 13770 "vsa_ast.ml" 339 13707 13771
+type(
+  Ast.var
+)
+ident(
+  def v "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 339 13707 13766 "vsa_ast.ml" 339 13707 13771
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 339 13707 13739 "vsa_ast.ml" 339 13707 13772
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 339 13707 13733 "vsa_ast.ml" 339 13707 13773
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 339 13707 13779 "vsa_ast.ml" 339 13707 13781
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i' "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 339 13707 13783 "vsa_ast.ml" 339 13707 13785
+type(
+  Type.typ
+)
+ident(
+  def t' "vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+)
+"vsa_ast.ml" 339 13707 13778 "vsa_ast.ml" 339 13707 13786
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"vsa_ast.ml" 339 13707 13775 "vsa_ast.ml" 339 13707 13786
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 339 13707 13728 "vsa_ast.ml" 339 13707 13787
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 339 13707 13723 "vsa_ast.ml" 339 13707 13787
+type(
+  CFG.exp
+)
+"vsa_ast.ml" 339 13707 13719 "vsa_ast.ml" 339 13707 13788
+type(
+  bool option * CFG.exp
+)
+"vsa_ast.ml" 339 13707 13715 "vsa_ast.ml" 339 13707 13788
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 338 13625 13633 "vsa_ast.ml" 339 13707 13788
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 343 13880 13892 "vsa_ast.ml" 343 13880 13896
+type(
+  (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 344 13899 13913 "vsa_ast.ml" 344 13899 13914
+type(
+  (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 344 13899 13917 "vsa_ast.ml" 344 13899 13930
+type(
+  Big_int_Z.big_int -> Type.typ -> (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+ident(
+  ext_ref VS.of_bap_int
+)
+"vsa_ast.ml" 344 13899 13931 "vsa_ast.ml" 344 13899 13932
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "vsa_ast.ml" 338 13625 13684 "vsa_ast.ml" 338 13625 13685
+)
+"vsa_ast.ml" 344 13899 13933 "vsa_ast.ml" 344 13899 13934
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 338 13625 13687 "vsa_ast.ml" 338 13625 13688
+)
+"vsa_ast.ml" 344 13899 13917 "vsa_ast.ml" 344 13899 13934
+call(
+  stack
+)
+type(
+  (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 345 13938 13954 "vsa_ast.ml" 345 13938 13957
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "vsa_ast.ml" 338 13625 13658 "vsa_ast.ml" 338 13625 13671
+)
+"vsa_ast.ml" 346 13963 13975 "vsa_ast.ml" 346 13963 13977
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 346 13963 13983 "vsa_ast.ml" 346 13963 13985
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i' "vsa_ast.ml" 338 13625 13697 "vsa_ast.ml" 338 13625 13699
+)
+"vsa_ast.ml" 346 13963 13986 "vsa_ast.ml" 346 13963 13987
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"vsa_ast.ml" 346 13963 13988 "vsa_ast.ml" 346 13963 13991
+type(
+  Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.bi1
+)
+"vsa_ast.ml" 346 13963 13983 "vsa_ast.ml" 346 13963 13991
+type(
+  bool
+)
+"vsa_ast.ml" 346 13963 13995 "vsa_ast.ml" 346 13963 13996
+type(
+  (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+ident(
+  int_ref s "vsa_ast.ml" 344 13899 13913 "vsa_ast.ml" 344 13899 13914
+)
+"vsa_ast.ml" 346 13963 13978 "vsa_ast.ml" 346 13963 13996
+type(
+  (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 347 13997 14009 "vsa_ast.ml" 347 13997 14012
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 347 13997 14018 "vsa_ast.ml" 347 13997 14020
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i' "vsa_ast.ml" 338 13625 13697 "vsa_ast.ml" 338 13625 13699
+)
+"vsa_ast.ml" 347 13997 14021 "vsa_ast.ml" 347 13997 14022
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"vsa_ast.ml" 347 13997 14023 "vsa_ast.ml" 347 13997 14026
+type(
+  Big_int_Z.big_int
+)
+ident(
+  ext_ref Big_int_convenience.bi0
+)
+"vsa_ast.ml" 347 13997 14018 "vsa_ast.ml" 347 13997 14026
+type(
+  bool
+)
+"vsa_ast.ml" 347 13997 14030 "vsa_ast.ml" 347 13997 14031
+type(
+  (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+ident(
+  int_ref s "vsa_ast.ml" 344 13899 13913 "vsa_ast.ml" 344 13899 13914
+)
+"vsa_ast.ml" 347 13997 14013 "vsa_ast.ml" 347 13997 14031
+type(
+  (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 348 14032 14044 "vsa_ast.ml" 348 14032 14045
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 348 14032 14049 "vsa_ast.ml" 348 14032 14055
+type(
+  int -> (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+ident(
+  ext_ref VS.top
+)
+"vsa_ast.ml" 348 14032 14057 "vsa_ast.ml" 348 14032 14070
+type(
+  Type.typ -> int
+)
+ident(
+  ext_ref Vsa.bits_of_width
+)
+"vsa_ast.ml" 348 14032 14071 "vsa_ast.ml" 348 14032 14072
+type(
+  Type.typ
+)
+ident(
+  int_ref t "vsa_ast.ml" 338 13625 13687 "vsa_ast.ml" 338 13625 13688
+)
+"vsa_ast.ml" 348 14032 14056 "vsa_ast.ml" 348 14032 14073
+call(
+  stack
+)
+type(
+  int
+)
+"vsa_ast.ml" 348 14032 14049 "vsa_ast.ml" 348 14032 14073
+call(
+  stack
+)
+type(
+  (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 345 13938 13948 "vsa_ast.ml" 348 14032 14073
+type(
+  (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 344 13899 13909 "vsa_ast.ml" 348 14032 14073
+type(
+  (Var.t * (int * Z.t * Z.t * Z.t)) list
+)
+"vsa_ast.ml" 351 14086 14098 "vsa_ast.ml" 351 14086 14102
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 351 14086 14105 "vsa_ast.ml" 351 14086 14112
+type(
+  'v Vsa.VM.t -> Vsa.VM.key -> Vsa.VS.t
+)
+ident(
+  int_ref do_find "vsa_ast.ml" 161 6150 6158 "vsa_ast.ml" 161 6150 6165
+)
+"vsa_ast.ml" 351 14086 14113 "vsa_ast.ml" 351 14086 14114
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 351 14086 14115 "vsa_ast.ml" 351 14086 14116
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 338 13625 13677 "vsa_ast.ml" 338 13625 13678
+)
+"vsa_ast.ml" 351 14086 14105 "vsa_ast.ml" 351 14086 14116
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 352 14120 14132 "vsa_ast.ml" 352 14120 14138
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 352 14120 14141 "vsa_ast.ml" 352 14120 14156
+type(
+  Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.intersection
+)
+"vsa_ast.ml" 352 14120 14157 "vsa_ast.ml" 352 14120 14161
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v "vsa_ast.ml" 351 14086 14098 "vsa_ast.ml" 351 14086 14102
+)
+"vsa_ast.ml" 352 14120 14162 "vsa_ast.ml" 352 14120 14166
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_c "vsa_ast.ml" 343 13880 13892 "vsa_ast.ml" 343 13880 13896
+)
+"vsa_ast.ml" 352 14120 14141 "vsa_ast.ml" 352 14120 14166
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 353 14170 14178 "vsa_ast.ml" 353 14170 14185
+type(
+  (string -> string -> string -> string -> string -> unit, unit, string,
+   unit)
+  format4 -> string -> string -> string -> string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"vsa_ast.ml" 353 14170 14186 "vsa_ast.ml" 353 14170 14223
+type(
+  (string -> string -> string -> string -> string -> unit, unit, string,
+   unit)
+  format4
+)
+"vsa_ast.ml" 353 14170 14225 "vsa_ast.ml" 353 14170 14241
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"vsa_ast.ml" 353 14170 14242 "vsa_ast.ml" 353 14170 14243
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 338 13625 13677 "vsa_ast.ml" 338 13625 13678
+)
+"vsa_ast.ml" 353 14170 14224 "vsa_ast.ml" 353 14170 14244
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 353 14170 14246 "vsa_ast.ml" 353 14170 14257
+type(
+  CFG.G.E.vertex -> string
+)
+ident(
+  ext_ref Cfg_ast.v2s
+)
+"vsa_ast.ml" 353 14170 14259 "vsa_ast.ml" 353 14170 14270
+type(
+  CFG.G.E.t -> CFG.G.E.vertex
+)
+ident(
+  ext_ref CFG.G.E.dst
+)
+"vsa_ast.ml" 353 14170 14271 "vsa_ast.ml" 353 14170 14275
+type(
+  CFG.G.E.t
+)
+ident(
+  int_ref edge "vsa_ast.ml" 242 9494 9529 "vsa_ast.ml" 242 9494 9533
+)
+"vsa_ast.ml" 353 14170 14258 "vsa_ast.ml" 353 14170 14276
+call(
+  stack
+)
+type(
+  CFG.G.E.vertex
+)
+"vsa_ast.ml" 353 14170 14245 "vsa_ast.ml" 353 14170 14277
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 353 14170 14279 "vsa_ast.ml" 353 14170 14291
+type(
+  Vsa.VS.t -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 353 14170 14292 "vsa_ast.ml" 353 14170 14296
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v "vsa_ast.ml" 351 14086 14098 "vsa_ast.ml" 351 14086 14102
+)
+"vsa_ast.ml" 353 14170 14278 "vsa_ast.ml" 353 14170 14297
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 353 14170 14299 "vsa_ast.ml" 353 14170 14311
+type(
+  (Pp.VH.key * (int * Z.t * Z.t * Z.t)) list -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 353 14170 14312 "vsa_ast.ml" 353 14170 14316
+type(
+  (Pp.VH.key * (int * Z.t * Z.t * Z.t)) list
+)
+ident(
+  int_ref vs_c "vsa_ast.ml" 343 13880 13892 "vsa_ast.ml" 343 13880 13896
+)
+"vsa_ast.ml" 353 14170 14298 "vsa_ast.ml" 353 14170 14317
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 353 14170 14319 "vsa_ast.ml" 353 14170 14331
+type(
+  Vsa.VS.t -> string
+)
+ident(
+  ext_ref VS.to_string
+)
+"vsa_ast.ml" 353 14170 14332 "vsa_ast.ml" 353 14170 14338
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_int "vsa_ast.ml" 352 14120 14132 "vsa_ast.ml" 352 14120 14138
+)
+"vsa_ast.ml" 353 14170 14318 "vsa_ast.ml" 353 14170 14339
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 353 14170 14178 "vsa_ast.ml" 353 14170 14339
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 354 14341 14349 "vsa_ast.ml" 354 14341 14355
+type(
+  Vsa.VM.key -> 'v -> 'v Vsa.VM.t -> 'v Vsa.VM.t
+)
+ident(
+  ext_ref Vsa.VM.add
+)
+"vsa_ast.ml" 354 14341 14356 "vsa_ast.ml" 354 14341 14357
+type(
+  Ast.var
+)
+ident(
+  int_ref v "vsa_ast.ml" 338 13625 13677 "vsa_ast.ml" 338 13625 13678
+)
+"vsa_ast.ml" 354 14341 14367 "vsa_ast.ml" 354 14341 14373
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_int "vsa_ast.ml" 352 14120 14132 "vsa_ast.ml" 352 14120 14138
+)
+"vsa_ast.ml" 354 14341 14358 "vsa_ast.ml" 354 14341 14374
+type(
+  'v
+)
+"vsa_ast.ml" 354 14341 14375 "vsa_ast.ml" 354 14341 14376
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 354 14341 14349 "vsa_ast.ml" 354 14341 14376
+call(
+  stack
+)
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 353 14170 14178 "vsa_ast.ml" 354 14341 14376
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 352 14120 14128 "vsa_ast.ml" 354 14341 14376
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 351 14086 14094 "vsa_ast.ml" 354 14341 14376
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 343 13880 13888 "vsa_ast.ml" 354 14341 14376
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 356 14378 14391 "vsa_ast.ml" 356 14378 14392
+type(
+  bool option
+)
+"vsa_ast.ml" 356 14378 14401 "vsa_ast.ml" 356 14378 14404
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 356 14378 14405 "vsa_ast.ml" 356 14378 14408
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 356 14378 14400 "vsa_ast.ml" 356 14378 14409
+type(
+  Type.binop_type
+)
+"vsa_ast.ml" 356 14378 14415 "vsa_ast.ml" 356 14378 14417
+type(
+  Ast.var
+)
+ident(
+  def v2 "vsa_ast.ml" 358 14489 14497 "vsa_ast.ml" 365 14803 14838
+)
+"vsa_ast.ml" 356 14378 14411 "vsa_ast.ml" 356 14378 14417
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 356 14378 14423 "vsa_ast.ml" 356 14378 14425
+type(
+  Ast.var
+)
+ident(
+  def v1 "vsa_ast.ml" 358 14489 14497 "vsa_ast.ml" 365 14803 14838
+)
+"vsa_ast.ml" 356 14378 14419 "vsa_ast.ml" 356 14378 14425
+type(
+  Ast.exp
+)
+"vsa_ast.ml" 356 14378 14399 "vsa_ast.ml" 356 14378 14426
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"vsa_ast.ml" 356 14378 14394 "vsa_ast.ml" 356 14378 14426
+type(
+  CFG.exp
+)
+"vsa_ast.ml" 356 14378 14390 "vsa_ast.ml" 356 14378 14427
+type(
+  bool option * CFG.exp
+)
+"vsa_ast.ml" 356 14378 14386 "vsa_ast.ml" 356 14378 14427
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 358 14489 14501 "vsa_ast.ml" 358 14489 14506
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 358 14489 14509 "vsa_ast.ml" 358 14489 14516
+type(
+  'v Vsa.VM.t -> Vsa.VM.key -> Vsa.VS.t
+)
+ident(
+  int_ref do_find "vsa_ast.ml" 161 6150 6158 "vsa_ast.ml" 161 6150 6165
+)
+"vsa_ast.ml" 358 14489 14517 "vsa_ast.ml" 358 14489 14518
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 358 14489 14519 "vsa_ast.ml" 358 14489 14521
+type(
+  Ast.var
+)
+ident(
+  int_ref v1 "vsa_ast.ml" 356 14378 14423 "vsa_ast.ml" 356 14378 14425
+)
+"vsa_ast.ml" 358 14489 14509 "vsa_ast.ml" 358 14489 14521
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 359 14522 14534 "vsa_ast.ml" 359 14522 14539
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 359 14522 14542 "vsa_ast.ml" 359 14522 14549
+type(
+  'v Vsa.VM.t -> Vsa.VM.key -> Vsa.VS.t
+)
+ident(
+  int_ref do_find "vsa_ast.ml" 161 6150 6158 "vsa_ast.ml" 161 6150 6165
+)
+"vsa_ast.ml" 359 14522 14550 "vsa_ast.ml" 359 14522 14551
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 359 14522 14552 "vsa_ast.ml" 359 14522 14554
+type(
+  Ast.var
+)
+ident(
+  int_ref v2 "vsa_ast.ml" 356 14378 14415 "vsa_ast.ml" 356 14378 14417
+)
+"vsa_ast.ml" 359 14522 14542 "vsa_ast.ml" 359 14522 14554
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 360 14558 14570 "vsa_ast.ml" 360 14558 14575
+type(
+  (VS.region * (int * Big_int_Z.big_int * Big_int_Z.big_int * Z.t)) list
+)
+"vsa_ast.ml" 360 14558 14578 "vsa_ast.ml" 360 14558 14599
+type(
+  Vsa.VS.t ->
+  (VS.region * (int * Big_int_Z.big_int * Big_int_Z.big_int * Z.t)) list
+)
+ident(
+  ext_ref VS.remove_upper_bound
+)
+"vsa_ast.ml" 360 14558 14600 "vsa_ast.ml" 360 14558 14605
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v2 "vsa_ast.ml" 359 14522 14534 "vsa_ast.ml" 359 14522 14539
+)
+"vsa_ast.ml" 360 14558 14578 "vsa_ast.ml" 360 14558 14605
+call(
+  stack
+)
+type(
+  (VS.region * (int * Big_int_Z.big_int * Big_int_Z.big_int * Z.t)) list
+)
+"vsa_ast.ml" 361 14606 14618 "vsa_ast.ml" 361 14606 14623
+type(
+  (VS.region * (int * Big_int_Z.big_int * Z.t * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 361 14606 14626 "vsa_ast.ml" 361 14606 14647
+type(
+  Vsa.VS.t ->
+  (VS.region * (int * Big_int_Z.big_int * Z.t * Big_int_Z.big_int)) list
+)
+ident(
+  ext_ref VS.remove_lower_bound
+)
+"vsa_ast.ml" 361 14606 14648 "vsa_ast.ml" 361 14606 14653
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v1 "vsa_ast.ml" 358 14489 14501 "vsa_ast.ml" 358 14489 14506
+)
+"vsa_ast.ml" 361 14606 14626 "vsa_ast.ml" 361 14606 14653
+call(
+  stack
+)
+type(
+  (VS.region * (int * Big_int_Z.big_int * Z.t * Big_int_Z.big_int)) list
+)
+"vsa_ast.ml" 362 14657 14669 "vsa_ast.ml" 362 14657 14674
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 362 14657 14677 "vsa_ast.ml" 362 14657 14692
+type(
+  Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.intersection
+)
+"vsa_ast.ml" 362 14657 14693 "vsa_ast.ml" 362 14657 14698
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v1 "vsa_ast.ml" 358 14489 14501 "vsa_ast.ml" 358 14489 14506
+)
+"vsa_ast.ml" 362 14657 14699 "vsa_ast.ml" 362 14657 14704
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_lb "vsa_ast.ml" 360 14558 14570 "vsa_ast.ml" 360 14558 14575
+)
+"vsa_ast.ml" 362 14657 14677 "vsa_ast.ml" 362 14657 14704
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 363 14705 14717 "vsa_ast.ml" 363 14705 14722
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 363 14705 14725 "vsa_ast.ml" 363 14705 14740
+type(
+  Vsa.VS.t -> Vsa.VS.t -> Vsa.VS.t
+)
+ident(
+  ext_ref VS.intersection
+)
+"vsa_ast.ml" 363 14705 14741 "vsa_ast.ml" 363 14705 14746
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v2 "vsa_ast.ml" 359 14522 14534 "vsa_ast.ml" 359 14522 14539
+)
+"vsa_ast.ml" 363 14705 14747 "vsa_ast.ml" 363 14705 14752
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_ub "vsa_ast.ml" 361 14606 14618 "vsa_ast.ml" 361 14606 14623
+)
+"vsa_ast.ml" 363 14705 14725 "vsa_ast.ml" 363 14705 14752
+call(
+  stack
+)
+type(
+  Vsa.VS.t
+)
+"vsa_ast.ml" 364 14756 14768 "vsa_ast.ml" 364 14756 14769
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 364 14756 14772 "vsa_ast.ml" 364 14756 14778
+type(
+  Vsa.VM.key -> 'v -> 'v Vsa.VM.t -> 'v Vsa.VM.t
+)
+ident(
+  ext_ref Vsa.VM.add
+)
+"vsa_ast.ml" 364 14756 14779 "vsa_ast.ml" 364 14756 14781
+type(
+  Ast.var
+)
+ident(
+  int_ref v1 "vsa_ast.ml" 356 14378 14423 "vsa_ast.ml" 356 14378 14425
+)
+"vsa_ast.ml" 364 14756 14791 "vsa_ast.ml" 364 14756 14796
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v1 "vsa_ast.ml" 362 14657 14669 "vsa_ast.ml" 362 14657 14674
+)
+"vsa_ast.ml" 364 14756 14782 "vsa_ast.ml" 364 14756 14797
+type(
+  'v
+)
+"vsa_ast.ml" 364 14756 14798 "vsa_ast.ml" 364 14756 14799
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 364 14756 14772 "vsa_ast.ml" 364 14756 14799
+call(
+  stack
+)
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 365 14803 14811 "vsa_ast.ml" 365 14803 14817
+type(
+  Vsa.VM.key -> 'v -> 'v Vsa.VM.t -> 'v Vsa.VM.t
+)
+ident(
+  ext_ref Vsa.VM.add
+)
+"vsa_ast.ml" 365 14803 14818 "vsa_ast.ml" 365 14803 14820
+type(
+  Ast.var
+)
+ident(
+  int_ref v2 "vsa_ast.ml" 356 14378 14415 "vsa_ast.ml" 356 14378 14417
+)
+"vsa_ast.ml" 365 14803 14830 "vsa_ast.ml" 365 14803 14835
+type(
+  Vsa.VS.t
+)
+ident(
+  int_ref vs_v2 "vsa_ast.ml" 363 14705 14717 "vsa_ast.ml" 363 14705 14722
+)
+"vsa_ast.ml" 365 14803 14821 "vsa_ast.ml" 365 14803 14836
+type(
+  'v
+)
+"vsa_ast.ml" 365 14803 14837 "vsa_ast.ml" 365 14803 14838
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 364 14756 14768 "vsa_ast.ml" 364 14756 14769
+)
+"vsa_ast.ml" 365 14803 14811 "vsa_ast.ml" 365 14803 14838
+call(
+  stack
+)
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 364 14756 14764 "vsa_ast.ml" 365 14803 14838
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 362 14657 14665 "vsa_ast.ml" 365 14803 14838
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 360 14558 14566 "vsa_ast.ml" 365 14803 14838
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 358 14489 14497 "vsa_ast.ml" 365 14803 14838
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 366 14839 14852 "vsa_ast.ml" 366 14839 14853
+type(
+  bool option
+)
+"vsa_ast.ml" 366 14839 14855 "vsa_ast.ml" 366 14839 14856
+type(
+  CFG.exp
+)
+ident(
+  def e "vsa_ast.ml" 366 14839 14861 "vsa_ast.ml" 366 14839 14915
+)
+"vsa_ast.ml" 366 14839 14851 "vsa_ast.ml" 366 14839 14857
+type(
+  bool option * CFG.exp
+)
+"vsa_ast.ml" 366 14839 14847 "vsa_ast.ml" 366 14839 14857
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 366 14839 14861 "vsa_ast.ml" 366 14839 14868
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"vsa_ast.ml" 366 14839 14869 "vsa_ast.ml" 366 14839 14887
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"vsa_ast.ml" 366 14839 14889 "vsa_ast.ml" 366 14839 14909
+type(
+  CFG.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"vsa_ast.ml" 366 14839 14910 "vsa_ast.ml" 366 14839 14911
+type(
+  CFG.exp
+)
+ident(
+  int_ref e "vsa_ast.ml" 366 14839 14855 "vsa_ast.ml" 366 14839 14856
+)
+"vsa_ast.ml" 366 14839 14888 "vsa_ast.ml" 366 14839 14912
+call(
+  stack
+)
+type(
+  string
+)
+"vsa_ast.ml" 366 14839 14861 "vsa_ast.ml" 366 14839 14912
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 366 14839 14914 "vsa_ast.ml" 366 14839 14915
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 366 14839 14861 "vsa_ast.ml" 366 14839 14915
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 367 14916 14924 "vsa_ast.ml" 367 14916 14925
+type(
+  CFG.G.E.label
+)
+"vsa_ast.ml" 367 14916 14929 "vsa_ast.ml" 367 14916 14930
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 244 9650 9660 "vsa_ast.ml" 244 9650 9661
+)
+"vsa_ast.ml" 251 9860 9874 "vsa_ast.ml" 367 14916 14930
+type(
+  'v Vsa.VM.t
+)
+"vsa_ast.ml" 368 14931 14945 "vsa_ast.ml" 368 14931 14946
+type(
+  'v Vsa.VM.t
+)
+ident(
+  int_ref l "vsa_ast.ml" 251 9860 9870 "vsa_ast.ml" 251 9860 9871
+)
+"vsa_ast.ml" 368 14931 14940 "vsa_ast.ml" 368 14931 14946
+type(
+  'v Vsa.VM.t option
+)
+"vsa_ast.ml" 251 9860 9866 "vsa_ast.ml" 368 14931 14946
+type(
+  'v Vsa.VM.t option
+)
+"vsa_ast.ml" 245 9677 9683 "vsa_ast.ml" 368 14931 14946
+type(
+  'v Vsa.VM.t option
+)
+"vsa_ast.ml" 244 9650 9656 "vsa_ast.ml" 368 14931 14946
+type(
+  'v Vsa.VM.t option
+)
+"vsa_ast.ml" 243 9540 9546 "vsa_ast.ml" 368 14931 14946
+type(
+  'v Vsa.VM.t option
+)
+"vsa_ast.ml" 372 14955 14969 "vsa_ast.ml" 372 14955 14994
+call(
+  stack
+)
+"vsa_ast.ml" 376 15001 15005 "vsa_ast.ml" 376 15001 15011
+type(
+  [> `Array of Vsa.VS.t MemStore.M2.t MemStore.M1.t | `Scalar of Vsa.VS.t ]
+  Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  def exp2vs "vsa_ast.ml" 379 15069 15069 --
+)
+"vsa_ast.ml" 376 15001 15014 "vsa_ast.ml" 376 15001 15034
+type(
+  ?o:'_a ->
+  ([> `Array of Vsa.VS.t MemStore.M2.t MemStore.M1.t | `Scalar of Vsa.VS.t ]
+   as 'b)
+  Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+ident(
+  ext_ref AlmostVSA.DFP.exp2vs
+)
+"vsa_ast.ml" 376 15001 15038 "vsa_ast.ml" 376 15001 15042
+type(
+  '_a option
+)
+"vsa_ast.ml" 376 15001 15014 "vsa_ast.ml" 376 15001 15042
+call(
+  stack
+)
+type(
+  'b Vsa.VM.t -> Ast.exp -> Vsa.VS.t
+)
+"vsa_ast.ml" 379 15069 15073 "vsa_ast.ml" 379 15069 15076
+type(
+  ?nmeets:int ->
+  AlmostVSA.DFP.O.t ->
+  AlmostVSA.DFP.CFG.G.t ->
+  (AlmostVSA.DFP.CFG.G.V.t * int -> AlmostVSA.DFP.L.t) *
+  (AlmostVSA.DFP.CFG.G.V.t * int -> AlmostVSA.DFP.L.t)
+)
+ident(
+  def vsa "vsa_ast.ml" 383 15189 15189 --
+)
+"vsa_ast.ml" 379 15069 15078 "vsa_ast.ml" 379 15069 15084
+type(
+  int option
+)
+ident(
+  def nmeets "vsa_ast.ml" 379 15069 15085 "vsa_ast.ml" 381 15129 15187
+)
+"vsa_ast.ml" 379 15069 15085 "vsa_ast.ml" 379 15069 15089
+type(
+  AlmostVSA.DFP.O.t
+)
+ident(
+  def opts "vsa_ast.ml" 379 15069 15090 "vsa_ast.ml" 381 15129 15187
+)
+"vsa_ast.ml" 379 15069 15090 "vsa_ast.ml" 379 15069 15091
+type(
+  AlmostVSA.DFP.CFG.G.t
+)
+ident(
+  def g "vsa_ast.ml" 380 15094 15096 "vsa_ast.ml" 381 15129 15187
+)
+"vsa_ast.ml" 380 15094 15096 "vsa_ast.ml" 380 15094 15119
+type(
+  AlmostVSA.DFP.CFG.G.t Checks.sanityf
+)
+ident(
+  ext_ref Checks.connected_astcfg
+)
+"vsa_ast.ml" 380 15094 15120 "vsa_ast.ml" 380 15094 15121
+type(
+  AlmostVSA.DFP.CFG.G.t
+)
+ident(
+  int_ref g "vsa_ast.ml" 379 15069 15090 "vsa_ast.ml" 379 15069 15091
+)
+"vsa_ast.ml" 380 15094 15122 "vsa_ast.ml" 380 15094 15127
+type(
+  string
+)
+"vsa_ast.ml" 380 15094 15096 "vsa_ast.ml" 380 15094 15127
+call(
+  stack
+)
+type(
+  unit
+)
+"vsa_ast.ml" 381 15129 15131 "vsa_ast.ml" 381 15129 15171
+type(
+  ?init:(AlmostVSA.DFP.O.t -> AlmostVSA.DFP.CFG.G.t -> AlmostVSA.DFP.L.t) ->
+  ?nmeets:int ->
+  ?opts:AlmostVSA.DFP.O.t ->
+  AlmostVSA.DFP.CFG.G.t ->
+  (AlmostVSA.DFP.CFG.G.V.t * int -> AlmostVSA.DFP.L.t) *
+  (AlmostVSA.DFP.CFG.G.V.t * int -> AlmostVSA.DFP.L.t)
+)
+ident(
+  ext_ref AlmostVSA.DF.worklist_iterate_widen_stmt
+)
+"vsa_ast.ml" 381 15129 15173 "vsa_ast.ml" 381 15129 15179
+type(
+  int option
+)
+ident(
+  int_ref nmeets "vsa_ast.ml" 379 15069 15078 "vsa_ast.ml" 379 15069 15084
+)
+"vsa_ast.ml" 381 15129 15181 "vsa_ast.ml" 381 15129 15185
+type(
+  AlmostVSA.DFP.O.t
+)
+ident(
+  int_ref opts "vsa_ast.ml" 379 15069 15085 "vsa_ast.ml" 379 15069 15089
+)
+"vsa_ast.ml" 381 15129 15186 "vsa_ast.ml" 381 15129 15187
+type(
+  AlmostVSA.DFP.CFG.G.t
+)
+ident(
+  int_ref g "vsa_ast.ml" 379 15069 15090 "vsa_ast.ml" 379 15069 15091
+)
+"vsa_ast.ml" 381 15129 15131 "vsa_ast.ml" 381 15129 15187
+call(
+  tail
+)
+type(
+  (AlmostVSA.DFP.CFG.G.V.t * int -> AlmostVSA.DFP.L.t) *
+  (AlmostVSA.DFP.CFG.G.V.t * int -> AlmostVSA.DFP.L.t)
+)
+"vsa_ast.ml" 380 15094 15096 "vsa_ast.ml" 381 15129 15187
+type(
+  (AlmostVSA.DFP.CFG.G.V.t * int -> AlmostVSA.DFP.L.t) *
+  (AlmostVSA.DFP.CFG.G.V.t * int -> AlmostVSA.DFP.L.t)
+)
+"vsa_ast.ml" 383 15189 15193 "vsa_ast.ml" 383 15189 15201
+type(
+  AlmostVSA.DFP.CFG.G.t ->
+  AlmostVSA.DFP.CFG.G.V.t -> AlmostVSA.DFP.CFG.G.V.t * int
+)
+ident(
+  def last_loc "vsa_ast.ml" 385 15227 15227 --
+)
+"vsa_ast.ml" 383 15189 15204 "vsa_ast.ml" 383 15189 15225
+type(
+  AlmostVSA.DFP.CFG.G.t ->
+  AlmostVSA.DFP.CFG.G.V.t -> AlmostVSA.DFP.CFG.G.V.t * int
+)
+ident(
+  ext_ref AlmostVSA.DF.last_loc
+)
+"vsa_ast.ml" 385 15227 15231 "vsa_ast.ml" 385 15227 15257
+type(
+  Arch.arch -> Vsa.options
+)
+ident(
+  def build_default_arch_options "vsa_ast.ml" 392 15356 15356 --
+)
+"vsa_ast.ml" 385 15227 15258 "vsa_ast.ml" 385 15227 15262
+type(
+  Arch.arch
+)
+ident(
+  def arch "vsa_ast.ml" 386 15265 15267 "vsa_ast.ml" 390 15351 15354
+)
+"vsa_ast.ml" 387 15269 15287 "vsa_ast.ml" 387 15269 15289
+type(
+  (Type.addr * char) list
+)
+"vsa_ast.ml" 388 15291 15298 "vsa_ast.ml" 388 15291 15313
+type(
+  Arch.arch -> Var.t
+)
+ident(
+  ext_ref Arch.sp_of_arch
+)
+"vsa_ast.ml" 388 15291 15314 "vsa_ast.ml" 388 15291 15318
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "vsa_ast.ml" 385 15227 15258 "vsa_ast.ml" 385 15227 15262
+)
+"vsa_ast.ml" 388 15291 15298 "vsa_ast.ml" 388 15291 15318
+call(
+  stack
+)
+type(
+  Var.t
+)
+"vsa_ast.ml" 389 15320 15328 "vsa_ast.ml" 389 15320 15344
+type(
+  Arch.arch -> Var.t
+)
+ident(
+  ext_ref Arch.mem_of_arch
+)
+"vsa_ast.ml" 389 15320 15345 "vsa_ast.ml" 389 15320 15349
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "vsa_ast.ml" 385 15227 15258 "vsa_ast.ml" 385 15227 15262
+)
+"vsa_ast.ml" 389 15320 15328 "vsa_ast.ml" 389 15320 15349
+call(
+  stack
+)
+type(
+  Var.t
+)
+"vsa_ast.ml" 386 15265 15267 "vsa_ast.ml" 390 15351 15354
+type(
+  Vsa.options
+)
+"vsa_ast.ml" 392 15356 15360 "vsa_ast.ml" 392 15356 15386
+type(
+  Asmir.asmprogram -> Vsa.options
+)
+ident(
+  def build_default_prog_options "vsa_ast.ml" 395 15532 15535 --
+)
+"vsa_ast.ml" 392 15356 15387 "vsa_ast.ml" 392 15356 15391
+type(
+  Asmir.asmprogram
+)
+ident(
+  def asmp "vsa_ast.ml" 393 15394 15396 "vsa_ast.ml" 395 15532 15535
+)
+"vsa_ast.ml" 393 15394 15400 "vsa_ast.ml" 393 15394 15401
+type(
+  Vsa.options
+)
+"vsa_ast.ml" 393 15394 15404 "vsa_ast.ml" 393 15394 15430
+type(
+  Arch.arch -> Vsa.options
+)
+ident(
+  int_ref build_default_arch_options "vsa_ast.ml" 385 15227 15231 "vsa_ast.ml" 385 15227 15257
+)
+"vsa_ast.ml" 393 15394 15432 "vsa_ast.ml" 393 15394 15457
+type(
+  Asmir.asmprogram -> Arch.arch
+)
+ident(
+  ext_ref Asmir.get_asmprogram_arch
+)
+"vsa_ast.ml" 393 15394 15458 "vsa_ast.ml" 393 15394 15462
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "vsa_ast.ml" 392 15356 15387 "vsa_ast.ml" 392 15356 15391
+)
+"vsa_ast.ml" 393 15394 15431 "vsa_ast.ml" 393 15394 15463
+call(
+  stack
+)
+type(
+  Arch.arch
+)
+"vsa_ast.ml" 393 15394 15404 "vsa_ast.ml" 393 15394 15463
+call(
+  stack
+)
+type(
+  Vsa.options
+)
+"vsa_ast.ml" 394 15467 15471 "vsa_ast.ml" 394 15467 15472
+type(
+  Vsa.options
+)
+ident(
+  int_ref x "vsa_ast.ml" 393 15394 15400 "vsa_ast.ml" 393 15394 15401
+)
+"vsa_ast.ml" 394 15467 15490 "vsa_ast.ml" 394 15467 15526
+type(
+  Asmir.asmprogram -> (Type.addr * char) list
+)
+ident(
+  ext_ref Asmir.get_readable_mem_contents_list
+)
+"vsa_ast.ml" 394 15467 15527 "vsa_ast.ml" 394 15467 15531
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "vsa_ast.ml" 392 15356 15387 "vsa_ast.ml" 392 15356 15391
+)
+"vsa_ast.ml" 394 15467 15490 "vsa_ast.ml" 394 15467 15531
+call(
+  stack
+)
+type(
+  (Type.addr * char) list
+)
+"vsa_ast.ml" 394 15467 15469 "vsa_ast.ml" 395 15532 15535
+type(
+  Vsa.options
+)
+"vsa_ast.ml" 393 15394 15396 "vsa_ast.ml" 395 15532 15535
+type(
+  Vsa.options
+)

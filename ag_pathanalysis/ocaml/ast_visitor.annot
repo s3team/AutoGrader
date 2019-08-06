@@ -1,0 +1,3264 @@
+"ast_visitor.ml" 29 546 565 "ast_visitor.ml" 29 546 566
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 29 546 571 "ast_visitor.ml" 29 546 581
+type(
+  Ast.exp Type.visit_action
+)
+"ast_visitor.ml" 30 582 602 "ast_visitor.ml" 30 582 603
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 30 582 607 "ast_visitor.ml" 30 582 617
+type(
+  Ast.stmt Type.visit_action
+)
+"ast_visitor.ml" 31 618 639 "ast_visitor.ml" 31 618 640
+type(
+  Type.label
+)
+"ast_visitor.ml" 31 618 643 "ast_visitor.ml" 31 618 653
+type(
+  Type.label Type.visit_action
+)
+"ast_visitor.ml" 32 654 674 "ast_visitor.ml" 32 654 675
+type(
+  Ast.var
+)
+"ast_visitor.ml" 32 654 679 "ast_visitor.ml" 32 654 689
+type(
+  Ast.var Type.visit_action
+)
+"ast_visitor.ml" 33 690 710 "ast_visitor.ml" 33 690 711
+type(
+  Ast.var
+)
+"ast_visitor.ml" 33 690 715 "ast_visitor.ml" 33 690 725
+type(
+  Ast.var Type.visit_action
+)
+"ast_visitor.ml" 34 726 750 "ast_visitor.ml" 34 726 751
+type(
+  Ast.var * Ast.exp
+)
+"ast_visitor.ml" 34 726 754 "ast_visitor.ml" 34 726 764
+type(
+  (Ast.var * Ast.exp) Type.visit_action
+)
+"ast_visitor.ml" 35 765 790 "ast_visitor.ml" 35 765 791
+type(
+  Ast.var
+)
+"ast_visitor.ml" 35 765 794 "ast_visitor.ml" 35 765 804
+type(
+  Ast.var Type.visit_action
+)
+"ast_visitor.ml" 39 811 819 "ast_visitor.ml" 39 811 825
+type(
+  ('a -> 'a) -> ('a -> 'a Type.visit_action) -> 'a -> 'a
+)
+ident(
+  def action "ast_visitor.ml" 39 811 811 --
+)
+"ast_visitor.ml" 39 811 826 "ast_visitor.ml" 39 811 833
+type(
+  'a -> 'a
+)
+ident(
+  def vischil "ast_visitor.ml" 39 811 834 "ast_visitor.ml" 44 986 1026
+)
+"ast_visitor.ml" 39 811 834 "ast_visitor.ml" 39 811 844
+type(
+  'a -> 'a Type.visit_action
+)
+ident(
+  def startvisit "ast_visitor.ml" 39 811 845 "ast_visitor.ml" 44 986 1026
+)
+"ast_visitor.ml" 39 811 845 "ast_visitor.ml" 39 811 849
+type(
+  'a
+)
+ident(
+  def node "ast_visitor.ml" 40 851 853 "ast_visitor.ml" 44 986 1026
+)
+"ast_visitor.ml" 40 851 859 "ast_visitor.ml" 40 851 869
+type(
+  'a -> 'a Type.visit_action
+)
+ident(
+  int_ref startvisit "ast_visitor.ml" 39 811 834 "ast_visitor.ml" 39 811 844
+)
+"ast_visitor.ml" 40 851 870 "ast_visitor.ml" 40 851 874
+type(
+  'a
+)
+ident(
+  int_ref node "ast_visitor.ml" 39 811 845 "ast_visitor.ml" 39 811 849
+)
+"ast_visitor.ml" 40 851 859 "ast_visitor.ml" 40 851 874
+call(
+  stack
+)
+type(
+  'a Type.visit_action
+)
+"ast_visitor.ml" 41 880 884 "ast_visitor.ml" 41 880 896
+type(
+  'a Type.visit_action
+)
+"ast_visitor.ml" 41 880 900 "ast_visitor.ml" 41 880 904
+type(
+  'a
+)
+ident(
+  int_ref node "ast_visitor.ml" 39 811 845 "ast_visitor.ml" 39 811 849
+)
+"ast_visitor.ml" 42 905 918 "ast_visitor.ml" 42 905 919
+type(
+  'a
+)
+ident(
+  def x "ast_visitor.ml" 42 905 923 "ast_visitor.ml" 42 905 924
+)
+"ast_visitor.ml" 42 905 909 "ast_visitor.ml" 42 905 919
+type(
+  'a Type.visit_action
+)
+"ast_visitor.ml" 42 905 923 "ast_visitor.ml" 42 905 924
+type(
+  'a
+)
+ident(
+  int_ref x "ast_visitor.ml" 42 905 918 "ast_visitor.ml" 42 905 919
+)
+"ast_visitor.ml" 43 955 959 "ast_visitor.ml" 43 955 969
+type(
+  'a Type.visit_action
+)
+"ast_visitor.ml" 43 955 973 "ast_visitor.ml" 43 955 980
+type(
+  'a -> 'a
+)
+ident(
+  int_ref vischil "ast_visitor.ml" 39 811 826 "ast_visitor.ml" 39 811 833
+)
+"ast_visitor.ml" 43 955 981 "ast_visitor.ml" 43 955 985
+type(
+  'a
+)
+ident(
+  int_ref node "ast_visitor.ml" 39 811 845 "ast_visitor.ml" 39 811 849
+)
+"ast_visitor.ml" 43 955 973 "ast_visitor.ml" 43 955 985
+call(
+  tail
+)
+type(
+  'a
+)
+"ast_visitor.ml" 44 986 1012 "ast_visitor.ml" 44 986 1013
+type(
+  'a
+)
+ident(
+  def x "ast_visitor.ml" 44 986 1017 "ast_visitor.ml" 44 986 1026
+)
+"ast_visitor.ml" 44 986 990 "ast_visitor.ml" 44 986 1013
+type(
+  'a Type.visit_action
+)
+"ast_visitor.ml" 44 986 1017 "ast_visitor.ml" 44 986 1024
+type(
+  'a -> 'a
+)
+ident(
+  int_ref vischil "ast_visitor.ml" 39 811 826 "ast_visitor.ml" 39 811 833
+)
+"ast_visitor.ml" 44 986 1025 "ast_visitor.ml" 44 986 1026
+type(
+  'a
+)
+ident(
+  int_ref x "ast_visitor.ml" 44 986 1012 "ast_visitor.ml" 44 986 1013
+)
+"ast_visitor.ml" 44 986 1017 "ast_visitor.ml" 44 986 1026
+call(
+  tail
+)
+type(
+  'a
+)
+"ast_visitor.ml" 40 851 853 "ast_visitor.ml" 44 986 1026
+type(
+  'a
+)
+"ast_visitor.ml" 46 1028 1032 "ast_visitor.ml" 46 1028 1040
+type(
+  (Ast.stmt -> Ast.stmt) -> Ast.stmt -> Ast.stmt
+)
+ident(
+  def wrapstmt "ast_visitor.ml" 47 1100 1100 --
+)
+"ast_visitor.ml" 46 1028 1041 "ast_visitor.ml" 46 1028 1042
+type(
+  Ast.stmt -> Ast.stmt
+)
+ident(
+  def f "ast_visitor.ml" 46 1028 1043 "ast_visitor.ml" 46 1028 1099
+)
+"ast_visitor.ml" 46 1028 1043 "ast_visitor.ml" 46 1028 1044
+type(
+  Ast.stmt
+)
+ident(
+  def v "ast_visitor.ml" 46 1028 1047 "ast_visitor.ml" 46 1028 1099
+)
+"ast_visitor.ml" 46 1028 1051 "ast_visitor.ml" 46 1028 1053
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 46 1028 1056 "ast_visitor.ml" 46 1028 1057
+type(
+  Ast.stmt -> Ast.stmt
+)
+ident(
+  int_ref f "ast_visitor.ml" 46 1028 1041 "ast_visitor.ml" 46 1028 1042
+)
+"ast_visitor.ml" 46 1028 1058 "ast_visitor.ml" 46 1028 1059
+type(
+  Ast.stmt
+)
+ident(
+  int_ref v "ast_visitor.ml" 46 1028 1043 "ast_visitor.ml" 46 1028 1044
+)
+"ast_visitor.ml" 46 1028 1056 "ast_visitor.ml" 46 1028 1059
+call(
+  stack
+)
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 46 1028 1066 "ast_visitor.ml" 46 1028 1079
+type(
+  Ast.stmt -> Ast.stmt -> bool
+)
+ident(
+  ext_ref Ast.quick_stmt_eq
+)
+"ast_visitor.ml" 46 1028 1080 "ast_visitor.ml" 46 1028 1081
+type(
+  Ast.stmt
+)
+ident(
+  int_ref v "ast_visitor.ml" 46 1028 1043 "ast_visitor.ml" 46 1028 1044
+)
+"ast_visitor.ml" 46 1028 1082 "ast_visitor.ml" 46 1028 1084
+type(
+  Ast.stmt
+)
+ident(
+  int_ref v' "ast_visitor.ml" 46 1028 1051 "ast_visitor.ml" 46 1028 1053
+)
+"ast_visitor.ml" 46 1028 1066 "ast_visitor.ml" 46 1028 1084
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_visitor.ml" 46 1028 1090 "ast_visitor.ml" 46 1028 1091
+type(
+  Ast.stmt
+)
+ident(
+  int_ref v "ast_visitor.ml" 46 1028 1043 "ast_visitor.ml" 46 1028 1044
+)
+"ast_visitor.ml" 46 1028 1097 "ast_visitor.ml" 46 1028 1099
+type(
+  Ast.stmt
+)
+ident(
+  int_ref v' "ast_visitor.ml" 46 1028 1051 "ast_visitor.ml" 46 1028 1053
+)
+"ast_visitor.ml" 46 1028 1063 "ast_visitor.ml" 46 1028 1099
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 46 1028 1047 "ast_visitor.ml" 46 1028 1099
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 47 1100 1104 "ast_visitor.ml" 47 1100 1111
+type(
+  (Ast.exp -> Ast.exp) -> Ast.exp -> Ast.exp
+)
+ident(
+  def wrapexp "ast_visitor.ml" 49 1171 1171 --
+)
+"ast_visitor.ml" 47 1100 1112 "ast_visitor.ml" 47 1100 1113
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  def f "ast_visitor.ml" 47 1100 1114 "ast_visitor.ml" 47 1100 1169
+)
+"ast_visitor.ml" 47 1100 1114 "ast_visitor.ml" 47 1100 1115
+type(
+  Ast.exp
+)
+ident(
+  def v "ast_visitor.ml" 47 1100 1118 "ast_visitor.ml" 47 1100 1169
+)
+"ast_visitor.ml" 47 1100 1122 "ast_visitor.ml" 47 1100 1124
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 47 1100 1127 "ast_visitor.ml" 47 1100 1128
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref f "ast_visitor.ml" 47 1100 1112 "ast_visitor.ml" 47 1100 1113
+)
+"ast_visitor.ml" 47 1100 1129 "ast_visitor.ml" 47 1100 1130
+type(
+  Ast.exp
+)
+ident(
+  int_ref v "ast_visitor.ml" 47 1100 1114 "ast_visitor.ml" 47 1100 1115
+)
+"ast_visitor.ml" 47 1100 1127 "ast_visitor.ml" 47 1100 1130
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 47 1100 1137 "ast_visitor.ml" 47 1100 1149
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Ast.quick_exp_eq
+)
+"ast_visitor.ml" 47 1100 1150 "ast_visitor.ml" 47 1100 1151
+type(
+  Ast.exp
+)
+ident(
+  int_ref v "ast_visitor.ml" 47 1100 1114 "ast_visitor.ml" 47 1100 1115
+)
+"ast_visitor.ml" 47 1100 1152 "ast_visitor.ml" 47 1100 1154
+type(
+  Ast.exp
+)
+ident(
+  int_ref v' "ast_visitor.ml" 47 1100 1122 "ast_visitor.ml" 47 1100 1124
+)
+"ast_visitor.ml" 47 1100 1137 "ast_visitor.ml" 47 1100 1154
+call(
+  stack
+)
+type(
+  bool
+)
+"ast_visitor.ml" 47 1100 1160 "ast_visitor.ml" 47 1100 1161
+type(
+  Ast.exp
+)
+ident(
+  int_ref v "ast_visitor.ml" 47 1100 1114 "ast_visitor.ml" 47 1100 1115
+)
+"ast_visitor.ml" 47 1100 1167 "ast_visitor.ml" 47 1100 1169
+type(
+  Ast.exp
+)
+ident(
+  int_ref v' "ast_visitor.ml" 47 1100 1122 "ast_visitor.ml" 47 1100 1124
+)
+"ast_visitor.ml" 47 1100 1134 "ast_visitor.ml" 47 1100 1169
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 47 1100 1118 "ast_visitor.ml" 47 1100 1169
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+type(
+  < visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Cfg.AST.stmt -> Cfg.AST.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action; .. > ->
+  Ast.exp -> Ast.exp
+)
+ident(
+  def exp_accept "ast_visitor.ml" 49 1171 1171 --
+)
+"ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+type(
+  < visit_avar : Ast.var -> Ast.var Type.visit_action;
+    visit_exp : Ast.exp -> Ast.exp Type.visit_action;
+    visit_label : Type.label -> Type.label Type.visit_action;
+    visit_lbinding : Ast.var * Ast.exp ->
+                     (Ast.var * Ast.exp) Type.visit_action;
+    visit_rvar : Ast.var -> Ast.var Type.visit_action;
+    visit_stmt : Cfg.AST.stmt -> Cfg.AST.stmt Type.visit_action;
+    visit_ulbinding : Ast.var -> Ast.var Type.visit_action; .. >
+  as 'a
+)
+ident(
+  def visitor "ast_visitor.ml" 50 1200 1202 "ast_visitor.ml" 95 2692 2736
+)
+"ast_visitor.ml" 50 1200 1206 "ast_visitor.ml" 50 1200 1213
+type(
+  Ast.exp -> Ast.exp
+)
+"ast_visitor.ml" 51 1225 1235 "ast_visitor.ml" 51 1225 1236
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"ast_visitor.ml" 51 1225 1231 "ast_visitor.ml" 51 1225 1236
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 51 1225 1231 "ast_visitor.ml" 51 1225 1241
+type(
+  Ast.exp
+)
+ident(
+  def i "ast_visitor.ml" 51 1225 1245 "ast_visitor.ml" 51 1225 1246
+)
+"ast_visitor.ml" 51 1225 1245 "ast_visitor.ml" 51 1225 1246
+type(
+  Ast.exp
+)
+ident(
+  int_ref i "ast_visitor.ml" 51 1225 1231 "ast_visitor.ml" 51 1225 1241
+)
+"ast_visitor.ml" 52 1247 1257 "ast_visitor.ml" 52 1247 1258
+type(
+  string
+)
+"ast_visitor.ml" 52 1247 1253 "ast_visitor.ml" 52 1247 1258
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 52 1247 1253 "ast_visitor.ml" 52 1247 1263
+type(
+  Ast.exp
+)
+ident(
+  def l "ast_visitor.ml" 52 1247 1267 "ast_visitor.ml" 52 1247 1268
+)
+"ast_visitor.ml" 52 1247 1267 "ast_visitor.ml" 52 1247 1268
+type(
+  Ast.exp
+)
+ident(
+  int_ref l "ast_visitor.ml" 52 1247 1253 "ast_visitor.ml" 52 1247 1263
+)
+"ast_visitor.ml" 53 1269 1279 "ast_visitor.ml" 53 1269 1280
+type(
+  Ast.var
+)
+ident(
+  def v "ast_visitor.ml" 54 1284 1292 "ast_visitor.ml" 54 1284 1318
+)
+"ast_visitor.ml" 53 1269 1275 "ast_visitor.ml" 53 1269 1280
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 54 1284 1296 "ast_visitor.ml" 54 1284 1307
+type(
+  'a -> Ast.var -> Ast.var
+)
+ident(
+  int_ref rvar_accept "ast_visitor.ml" 102 2865 2869 "ast_visitor.ml" 102 2865 2880
+)
+"ast_visitor.ml" 54 1284 1308 "ast_visitor.ml" 54 1284 1315
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 54 1284 1316 "ast_visitor.ml" 54 1284 1317
+type(
+  Ast.var
+)
+ident(
+  int_ref v "ast_visitor.ml" 53 1269 1279 "ast_visitor.ml" 53 1269 1280
+)
+"ast_visitor.ml" 54 1284 1295 "ast_visitor.ml" 54 1284 1318
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"ast_visitor.ml" 54 1284 1292 "ast_visitor.ml" 54 1284 1318
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 55 1319 1329 "ast_visitor.ml" 55 1319 1330
+type(
+  Ast.exp
+)
+ident(
+  def b "ast_visitor.ml" 56 1343 1351 "ast_visitor.ml" 59 1470 1495
+)
+"ast_visitor.ml" 55 1319 1332 "ast_visitor.ml" 55 1319 1334
+type(
+  Ast.exp
+)
+ident(
+  def v1 "ast_visitor.ml" 56 1343 1351 "ast_visitor.ml" 59 1470 1495
+)
+"ast_visitor.ml" 55 1319 1336 "ast_visitor.ml" 55 1319 1338
+type(
+  Ast.exp
+)
+ident(
+  def v2 "ast_visitor.ml" 56 1343 1351 "ast_visitor.ml" 59 1470 1495
+)
+"ast_visitor.ml" 55 1319 1328 "ast_visitor.ml" 55 1319 1339
+type(
+  Ast.exp * Ast.exp * Ast.exp
+)
+"ast_visitor.ml" 55 1319 1325 "ast_visitor.ml" 55 1319 1339
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 56 1343 1355 "ast_visitor.ml" 56 1343 1357
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 56 1343 1360 "ast_visitor.ml" 56 1343 1370
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 56 1343 1371 "ast_visitor.ml" 56 1343 1378
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 56 1343 1379 "ast_visitor.ml" 56 1343 1380
+type(
+  Ast.exp
+)
+ident(
+  int_ref b "ast_visitor.ml" 55 1319 1329 "ast_visitor.ml" 55 1319 1330
+)
+"ast_visitor.ml" 56 1343 1360 "ast_visitor.ml" 56 1343 1380
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 57 1384 1396 "ast_visitor.ml" 57 1384 1399
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 57 1384 1402 "ast_visitor.ml" 57 1384 1412
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 57 1384 1413 "ast_visitor.ml" 57 1384 1420
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 57 1384 1421 "ast_visitor.ml" 57 1384 1423
+type(
+  Ast.exp
+)
+ident(
+  int_ref v1 "ast_visitor.ml" 55 1319 1332 "ast_visitor.ml" 55 1319 1334
+)
+"ast_visitor.ml" 57 1384 1402 "ast_visitor.ml" 57 1384 1423
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 58 1427 1439 "ast_visitor.ml" 58 1427 1442
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 58 1427 1445 "ast_visitor.ml" 58 1427 1455
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 58 1427 1456 "ast_visitor.ml" 58 1427 1463
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 58 1427 1464 "ast_visitor.ml" 58 1427 1466
+type(
+  Ast.exp
+)
+ident(
+  int_ref v2 "ast_visitor.ml" 55 1319 1336 "ast_visitor.ml" 55 1319 1338
+)
+"ast_visitor.ml" 58 1427 1445 "ast_visitor.ml" 58 1427 1466
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 59 1470 1482 "ast_visitor.ml" 59 1470 1484
+type(
+  Ast.exp
+)
+ident(
+  int_ref b' "ast_visitor.ml" 56 1343 1355 "ast_visitor.ml" 56 1343 1357
+)
+"ast_visitor.ml" 59 1470 1486 "ast_visitor.ml" 59 1470 1489
+type(
+  Ast.exp
+)
+ident(
+  int_ref v1' "ast_visitor.ml" 57 1384 1396 "ast_visitor.ml" 57 1384 1399
+)
+"ast_visitor.ml" 59 1470 1491 "ast_visitor.ml" 59 1470 1494
+type(
+  Ast.exp
+)
+ident(
+  int_ref v2' "ast_visitor.ml" 58 1427 1439 "ast_visitor.ml" 58 1427 1442
+)
+"ast_visitor.ml" 59 1470 1481 "ast_visitor.ml" 59 1470 1495
+type(
+  Ast.exp * Ast.exp * Ast.exp
+)
+"ast_visitor.ml" 59 1470 1478 "ast_visitor.ml" 59 1470 1495
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 58 1427 1435 "ast_visitor.ml" 59 1470 1495
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 57 1384 1392 "ast_visitor.ml" 59 1470 1495
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 56 1343 1351 "ast_visitor.ml" 59 1470 1495
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 60 1496 1510 "ast_visitor.ml" 60 1496 1511
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def h "ast_visitor.ml" 61 1522 1530 "ast_visitor.ml" 62 1563 1588
+)
+"ast_visitor.ml" 60 1496 1513 "ast_visitor.ml" 60 1496 1514
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def l "ast_visitor.ml" 61 1522 1530 "ast_visitor.ml" 62 1563 1588
+)
+"ast_visitor.ml" 60 1496 1516 "ast_visitor.ml" 60 1496 1517
+type(
+  Ast.exp
+)
+ident(
+  def v "ast_visitor.ml" 61 1522 1530 "ast_visitor.ml" 62 1563 1588
+)
+"ast_visitor.ml" 60 1496 1509 "ast_visitor.ml" 60 1496 1518
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int * Ast.exp
+)
+"ast_visitor.ml" 60 1496 1502 "ast_visitor.ml" 60 1496 1518
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 61 1522 1534 "ast_visitor.ml" 61 1522 1536
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 61 1522 1539 "ast_visitor.ml" 61 1522 1549
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 61 1522 1550 "ast_visitor.ml" 61 1522 1557
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 61 1522 1558 "ast_visitor.ml" 61 1522 1559
+type(
+  Ast.exp
+)
+ident(
+  int_ref v "ast_visitor.ml" 60 1496 1516 "ast_visitor.ml" 60 1496 1517
+)
+"ast_visitor.ml" 61 1522 1539 "ast_visitor.ml" 61 1522 1559
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 62 1563 1579 "ast_visitor.ml" 62 1563 1580
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref h "ast_visitor.ml" 60 1496 1510 "ast_visitor.ml" 60 1496 1511
+)
+"ast_visitor.ml" 62 1563 1582 "ast_visitor.ml" 62 1563 1583
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref l "ast_visitor.ml" 60 1496 1513 "ast_visitor.ml" 60 1496 1514
+)
+"ast_visitor.ml" 62 1563 1585 "ast_visitor.ml" 62 1563 1587
+type(
+  Ast.exp
+)
+ident(
+  int_ref v' "ast_visitor.ml" 61 1522 1534 "ast_visitor.ml" 61 1522 1536
+)
+"ast_visitor.ml" 62 1563 1578 "ast_visitor.ml" 62 1563 1588
+type(
+  Big_int_Z.big_int * Big_int_Z.big_int * Ast.exp
+)
+"ast_visitor.ml" 62 1563 1571 "ast_visitor.ml" 62 1563 1588
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 61 1522 1530 "ast_visitor.ml" 62 1563 1588
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 63 1589 1602 "ast_visitor.ml" 63 1589 1604
+type(
+  Ast.exp
+)
+ident(
+  def vl "ast_visitor.ml" 64 1613 1621 "ast_visitor.ml" 66 1699 1723
+)
+"ast_visitor.ml" 63 1589 1606 "ast_visitor.ml" 63 1589 1608
+type(
+  Ast.exp
+)
+ident(
+  def vr "ast_visitor.ml" 64 1613 1621 "ast_visitor.ml" 66 1699 1723
+)
+"ast_visitor.ml" 63 1589 1601 "ast_visitor.ml" 63 1589 1609
+type(
+  Ast.exp * Ast.exp
+)
+"ast_visitor.ml" 63 1589 1595 "ast_visitor.ml" 63 1589 1609
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 64 1613 1625 "ast_visitor.ml" 64 1613 1628
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 64 1613 1631 "ast_visitor.ml" 64 1613 1641
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 64 1613 1642 "ast_visitor.ml" 64 1613 1649
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 64 1613 1650 "ast_visitor.ml" 64 1613 1652
+type(
+  Ast.exp
+)
+ident(
+  int_ref vl "ast_visitor.ml" 63 1589 1602 "ast_visitor.ml" 63 1589 1604
+)
+"ast_visitor.ml" 64 1613 1631 "ast_visitor.ml" 64 1613 1652
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 65 1656 1668 "ast_visitor.ml" 65 1656 1671
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 65 1656 1674 "ast_visitor.ml" 65 1656 1684
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 65 1656 1685 "ast_visitor.ml" 65 1656 1692
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 65 1656 1693 "ast_visitor.ml" 65 1656 1695
+type(
+  Ast.exp
+)
+ident(
+  int_ref vr "ast_visitor.ml" 63 1589 1606 "ast_visitor.ml" 63 1589 1608
+)
+"ast_visitor.ml" 65 1656 1674 "ast_visitor.ml" 65 1656 1695
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 66 1699 1714 "ast_visitor.ml" 66 1699 1717
+type(
+  Ast.exp
+)
+ident(
+  int_ref vl' "ast_visitor.ml" 64 1613 1625 "ast_visitor.ml" 64 1613 1628
+)
+"ast_visitor.ml" 66 1699 1719 "ast_visitor.ml" 66 1699 1722
+type(
+  Ast.exp
+)
+ident(
+  int_ref vr' "ast_visitor.ml" 65 1656 1668 "ast_visitor.ml" 65 1656 1671
+)
+"ast_visitor.ml" 66 1699 1713 "ast_visitor.ml" 66 1699 1723
+type(
+  Ast.exp * Ast.exp
+)
+"ast_visitor.ml" 66 1699 1707 "ast_visitor.ml" 66 1699 1723
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 65 1656 1664 "ast_visitor.ml" 66 1699 1723
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 64 1613 1621 "ast_visitor.ml" 66 1699 1723
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 67 1724 1736 "ast_visitor.ml" 67 1724 1739
+type(
+  Type.binop_type
+)
+ident(
+  def bop "ast_visitor.ml" 68 1753 1761 "ast_visitor.ml" 70 1841 1869
+)
+"ast_visitor.ml" 67 1724 1741 "ast_visitor.ml" 67 1724 1743
+type(
+  Ast.exp
+)
+ident(
+  def v1 "ast_visitor.ml" 68 1753 1761 "ast_visitor.ml" 70 1841 1869
+)
+"ast_visitor.ml" 67 1724 1745 "ast_visitor.ml" 67 1724 1747
+type(
+  Ast.exp
+)
+ident(
+  def v2 "ast_visitor.ml" 68 1753 1761 "ast_visitor.ml" 70 1841 1869
+)
+"ast_visitor.ml" 67 1724 1735 "ast_visitor.ml" 67 1724 1748
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_visitor.ml" 67 1724 1730 "ast_visitor.ml" 67 1724 1748
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 68 1753 1765 "ast_visitor.ml" 68 1753 1768
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 68 1753 1771 "ast_visitor.ml" 68 1753 1781
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 68 1753 1782 "ast_visitor.ml" 68 1753 1789
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 68 1753 1790 "ast_visitor.ml" 68 1753 1792
+type(
+  Ast.exp
+)
+ident(
+  int_ref v1 "ast_visitor.ml" 67 1724 1741 "ast_visitor.ml" 67 1724 1743
+)
+"ast_visitor.ml" 68 1753 1771 "ast_visitor.ml" 68 1753 1792
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 69 1797 1809 "ast_visitor.ml" 69 1797 1812
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 69 1797 1815 "ast_visitor.ml" 69 1797 1825
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 69 1797 1826 "ast_visitor.ml" 69 1797 1833
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 69 1797 1834 "ast_visitor.ml" 69 1797 1836
+type(
+  Ast.exp
+)
+ident(
+  int_ref v2 "ast_visitor.ml" 67 1724 1745 "ast_visitor.ml" 67 1724 1747
+)
+"ast_visitor.ml" 69 1797 1815 "ast_visitor.ml" 69 1797 1836
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 70 1841 1855 "ast_visitor.ml" 70 1841 1858
+type(
+  Type.binop_type
+)
+ident(
+  int_ref bop "ast_visitor.ml" 67 1724 1736 "ast_visitor.ml" 67 1724 1739
+)
+"ast_visitor.ml" 70 1841 1860 "ast_visitor.ml" 70 1841 1863
+type(
+  Ast.exp
+)
+ident(
+  int_ref v1' "ast_visitor.ml" 68 1753 1765 "ast_visitor.ml" 68 1753 1768
+)
+"ast_visitor.ml" 70 1841 1865 "ast_visitor.ml" 70 1841 1868
+type(
+  Ast.exp
+)
+ident(
+  int_ref v2' "ast_visitor.ml" 69 1797 1809 "ast_visitor.ml" 69 1797 1812
+)
+"ast_visitor.ml" 70 1841 1854 "ast_visitor.ml" 70 1841 1869
+type(
+  Type.binop_type * Ast.exp * Ast.exp
+)
+"ast_visitor.ml" 70 1841 1849 "ast_visitor.ml" 70 1841 1869
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 69 1797 1805 "ast_visitor.ml" 70 1841 1869
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 68 1753 1761 "ast_visitor.ml" 70 1841 1869
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 71 1870 1881 "ast_visitor.ml" 71 1870 1883
+type(
+  Type.unop_type
+)
+ident(
+  def up "ast_visitor.ml" 72 1892 1900 "ast_visitor.ml" 73 1934 1954
+)
+"ast_visitor.ml" 71 1870 1885 "ast_visitor.ml" 71 1870 1886
+type(
+  Ast.exp
+)
+ident(
+  def v "ast_visitor.ml" 72 1892 1900 "ast_visitor.ml" 73 1934 1954
+)
+"ast_visitor.ml" 71 1870 1880 "ast_visitor.ml" 71 1870 1887
+type(
+  Type.unop_type * Ast.exp
+)
+"ast_visitor.ml" 71 1870 1876 "ast_visitor.ml" 71 1870 1887
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 72 1892 1904 "ast_visitor.ml" 72 1892 1906
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 72 1892 1909 "ast_visitor.ml" 72 1892 1919
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 72 1892 1920 "ast_visitor.ml" 72 1892 1927
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 72 1892 1928 "ast_visitor.ml" 72 1892 1929
+type(
+  Ast.exp
+)
+ident(
+  int_ref v "ast_visitor.ml" 71 1870 1885 "ast_visitor.ml" 71 1870 1886
+)
+"ast_visitor.ml" 72 1892 1909 "ast_visitor.ml" 72 1892 1929
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 73 1934 1947 "ast_visitor.ml" 73 1934 1949
+type(
+  Type.unop_type
+)
+ident(
+  int_ref up "ast_visitor.ml" 71 1870 1881 "ast_visitor.ml" 71 1870 1883
+)
+"ast_visitor.ml" 73 1934 1951 "ast_visitor.ml" 73 1934 1953
+type(
+  Ast.exp
+)
+ident(
+  int_ref v' "ast_visitor.ml" 72 1892 1904 "ast_visitor.ml" 72 1892 1906
+)
+"ast_visitor.ml" 73 1934 1946 "ast_visitor.ml" 73 1934 1954
+type(
+  Type.unop_type * Ast.exp
+)
+"ast_visitor.ml" 73 1934 1942 "ast_visitor.ml" 73 1934 1954
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 72 1892 1900 "ast_visitor.ml" 73 1934 1954
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 74 1955 1966 "ast_visitor.ml" 74 1955 1968
+type(
+  Type.cast_type
+)
+ident(
+  def ct "ast_visitor.ml" 75 1979 1987 "ast_visitor.ml" 76 2020 2041
+)
+"ast_visitor.ml" 74 1955 1970 "ast_visitor.ml" 74 1955 1971
+type(
+  Type.typ
+)
+ident(
+  def t "ast_visitor.ml" 75 1979 1987 "ast_visitor.ml" 76 2020 2041
+)
+"ast_visitor.ml" 74 1955 1973 "ast_visitor.ml" 74 1955 1974
+type(
+  Ast.exp
+)
+ident(
+  def v "ast_visitor.ml" 75 1979 1987 "ast_visitor.ml" 76 2020 2041
+)
+"ast_visitor.ml" 74 1955 1965 "ast_visitor.ml" 74 1955 1975
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_visitor.ml" 74 1955 1961 "ast_visitor.ml" 74 1955 1975
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 75 1979 1991 "ast_visitor.ml" 75 1979 1993
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 75 1979 1996 "ast_visitor.ml" 75 1979 2006
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 75 1979 2007 "ast_visitor.ml" 75 1979 2014
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 75 1979 2015 "ast_visitor.ml" 75 1979 2016
+type(
+  Ast.exp
+)
+ident(
+  int_ref v "ast_visitor.ml" 74 1955 1973 "ast_visitor.ml" 74 1955 1974
+)
+"ast_visitor.ml" 75 1979 1996 "ast_visitor.ml" 75 1979 2016
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 76 2020 2033 "ast_visitor.ml" 76 2020 2035
+type(
+  Type.cast_type
+)
+ident(
+  int_ref ct "ast_visitor.ml" 74 1955 1966 "ast_visitor.ml" 74 1955 1968
+)
+"ast_visitor.ml" 76 2020 2036 "ast_visitor.ml" 76 2020 2037
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ast_visitor.ml" 74 1955 1970 "ast_visitor.ml" 74 1955 1971
+)
+"ast_visitor.ml" 76 2020 2038 "ast_visitor.ml" 76 2020 2040
+type(
+  Ast.exp
+)
+ident(
+  int_ref v' "ast_visitor.ml" 75 1979 1991 "ast_visitor.ml" 75 1979 1993
+)
+"ast_visitor.ml" 76 2020 2032 "ast_visitor.ml" 76 2020 2041
+type(
+  Type.cast_type * Type.typ * Ast.exp
+)
+"ast_visitor.ml" 76 2020 2028 "ast_visitor.ml" 76 2020 2041
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 75 1979 1987 "ast_visitor.ml" 76 2020 2041
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 77 2042 2056 "ast_visitor.ml" 77 2042 2057
+type(
+  string * Type.typ
+)
+"ast_visitor.ml" 77 2042 2048 "ast_visitor.ml" 77 2042 2057
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 77 2042 2048 "ast_visitor.ml" 77 2042 2064
+type(
+  Ast.exp
+)
+ident(
+  def exp "ast_visitor.ml" 77 2042 2068 "ast_visitor.ml" 77 2042 2071
+)
+"ast_visitor.ml" 77 2042 2068 "ast_visitor.ml" 77 2042 2071
+type(
+  Ast.exp
+)
+ident(
+  int_ref exp "ast_visitor.ml" 77 2042 2048 "ast_visitor.ml" 77 2042 2064
+)
+"ast_visitor.ml" 78 2072 2083 "ast_visitor.ml" 78 2072 2085
+type(
+  Ast.exp
+)
+ident(
+  def v1 "ast_visitor.ml" 79 2099 2107 "ast_visitor.ml" 82 2228 2254
+)
+"ast_visitor.ml" 78 2072 2086 "ast_visitor.ml" 78 2072 2088
+type(
+  Ast.exp
+)
+ident(
+  def v2 "ast_visitor.ml" 79 2099 2107 "ast_visitor.ml" 82 2228 2254
+)
+"ast_visitor.ml" 78 2072 2089 "ast_visitor.ml" 78 2072 2091
+type(
+  Ast.exp
+)
+ident(
+  def v3 "ast_visitor.ml" 79 2099 2107 "ast_visitor.ml" 82 2228 2254
+)
+"ast_visitor.ml" 78 2072 2093 "ast_visitor.ml" 78 2072 2094
+type(
+  Type.typ
+)
+ident(
+  def t "ast_visitor.ml" 79 2099 2107 "ast_visitor.ml" 82 2228 2254
+)
+"ast_visitor.ml" 78 2072 2082 "ast_visitor.ml" 78 2072 2095
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"ast_visitor.ml" 78 2072 2078 "ast_visitor.ml" 78 2072 2095
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 79 2099 2111 "ast_visitor.ml" 79 2099 2114
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 79 2099 2117 "ast_visitor.ml" 79 2099 2127
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 79 2099 2128 "ast_visitor.ml" 79 2099 2135
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 79 2099 2136 "ast_visitor.ml" 79 2099 2138
+type(
+  Ast.exp
+)
+ident(
+  int_ref v1 "ast_visitor.ml" 78 2072 2083 "ast_visitor.ml" 78 2072 2085
+)
+"ast_visitor.ml" 79 2099 2117 "ast_visitor.ml" 79 2099 2138
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 80 2142 2154 "ast_visitor.ml" 80 2142 2157
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 80 2142 2160 "ast_visitor.ml" 80 2142 2170
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 80 2142 2171 "ast_visitor.ml" 80 2142 2178
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 80 2142 2179 "ast_visitor.ml" 80 2142 2181
+type(
+  Ast.exp
+)
+ident(
+  int_ref v2 "ast_visitor.ml" 78 2072 2086 "ast_visitor.ml" 78 2072 2088
+)
+"ast_visitor.ml" 80 2142 2160 "ast_visitor.ml" 80 2142 2181
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 81 2185 2197 "ast_visitor.ml" 81 2185 2200
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 81 2185 2203 "ast_visitor.ml" 81 2185 2213
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 81 2185 2214 "ast_visitor.ml" 81 2185 2221
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 81 2185 2222 "ast_visitor.ml" 81 2185 2224
+type(
+  Ast.exp
+)
+ident(
+  int_ref v3 "ast_visitor.ml" 78 2072 2089 "ast_visitor.ml" 78 2072 2091
+)
+"ast_visitor.ml" 81 2185 2203 "ast_visitor.ml" 81 2185 2224
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 82 2228 2239 "ast_visitor.ml" 82 2228 2242
+type(
+  Ast.exp
+)
+ident(
+  int_ref v1' "ast_visitor.ml" 79 2099 2111 "ast_visitor.ml" 79 2099 2114
+)
+"ast_visitor.ml" 82 2228 2243 "ast_visitor.ml" 82 2228 2246
+type(
+  Ast.exp
+)
+ident(
+  int_ref v2' "ast_visitor.ml" 80 2142 2154 "ast_visitor.ml" 80 2142 2157
+)
+"ast_visitor.ml" 82 2228 2247 "ast_visitor.ml" 82 2228 2250
+type(
+  Ast.exp
+)
+ident(
+  int_ref v3' "ast_visitor.ml" 81 2185 2197 "ast_visitor.ml" 81 2185 2200
+)
+"ast_visitor.ml" 82 2228 2252 "ast_visitor.ml" 82 2228 2253
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ast_visitor.ml" 78 2072 2093 "ast_visitor.ml" 78 2072 2094
+)
+"ast_visitor.ml" 82 2228 2238 "ast_visitor.ml" 82 2228 2254
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"ast_visitor.ml" 82 2228 2234 "ast_visitor.ml" 82 2228 2254
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 81 2185 2193 "ast_visitor.ml" 82 2228 2254
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 80 2142 2150 "ast_visitor.ml" 82 2228 2254
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 79 2099 2107 "ast_visitor.ml" 82 2228 2254
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 83 2255 2267 "ast_visitor.ml" 83 2255 2269
+type(
+  Ast.exp
+)
+ident(
+  def v1 "ast_visitor.ml" 84 2286 2294 "ast_visitor.ml" 88 2458 2490
+)
+"ast_visitor.ml" 83 2255 2270 "ast_visitor.ml" 83 2255 2272
+type(
+  Ast.exp
+)
+ident(
+  def v2 "ast_visitor.ml" 84 2286 2294 "ast_visitor.ml" 88 2458 2490
+)
+"ast_visitor.ml" 83 2255 2273 "ast_visitor.ml" 83 2255 2275
+type(
+  Ast.exp
+)
+ident(
+  def v3 "ast_visitor.ml" 84 2286 2294 "ast_visitor.ml" 88 2458 2490
+)
+"ast_visitor.ml" 83 2255 2276 "ast_visitor.ml" 83 2255 2278
+type(
+  Ast.exp
+)
+ident(
+  def v4 "ast_visitor.ml" 84 2286 2294 "ast_visitor.ml" 88 2458 2490
+)
+"ast_visitor.ml" 83 2255 2280 "ast_visitor.ml" 83 2255 2281
+type(
+  Type.typ
+)
+ident(
+  def t "ast_visitor.ml" 84 2286 2294 "ast_visitor.ml" 88 2458 2490
+)
+"ast_visitor.ml" 83 2255 2266 "ast_visitor.ml" 83 2255 2282
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"ast_visitor.ml" 83 2255 2261 "ast_visitor.ml" 83 2255 2282
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 84 2286 2298 "ast_visitor.ml" 84 2286 2301
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 84 2286 2304 "ast_visitor.ml" 84 2286 2314
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 84 2286 2315 "ast_visitor.ml" 84 2286 2322
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 84 2286 2323 "ast_visitor.ml" 84 2286 2325
+type(
+  Ast.exp
+)
+ident(
+  int_ref v1 "ast_visitor.ml" 83 2255 2267 "ast_visitor.ml" 83 2255 2269
+)
+"ast_visitor.ml" 84 2286 2304 "ast_visitor.ml" 84 2286 2325
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 85 2329 2341 "ast_visitor.ml" 85 2329 2344
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 85 2329 2347 "ast_visitor.ml" 85 2329 2357
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 85 2329 2358 "ast_visitor.ml" 85 2329 2365
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 85 2329 2366 "ast_visitor.ml" 85 2329 2368
+type(
+  Ast.exp
+)
+ident(
+  int_ref v2 "ast_visitor.ml" 83 2255 2270 "ast_visitor.ml" 83 2255 2272
+)
+"ast_visitor.ml" 85 2329 2347 "ast_visitor.ml" 85 2329 2368
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 86 2372 2384 "ast_visitor.ml" 86 2372 2387
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 86 2372 2390 "ast_visitor.ml" 86 2372 2400
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 86 2372 2401 "ast_visitor.ml" 86 2372 2408
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 86 2372 2409 "ast_visitor.ml" 86 2372 2411
+type(
+  Ast.exp
+)
+ident(
+  int_ref v3 "ast_visitor.ml" 83 2255 2273 "ast_visitor.ml" 83 2255 2275
+)
+"ast_visitor.ml" 86 2372 2390 "ast_visitor.ml" 86 2372 2411
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 87 2415 2427 "ast_visitor.ml" 87 2415 2430
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 87 2415 2433 "ast_visitor.ml" 87 2415 2443
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 87 2415 2444 "ast_visitor.ml" 87 2415 2451
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 87 2415 2452 "ast_visitor.ml" 87 2415 2454
+type(
+  Ast.exp
+)
+ident(
+  int_ref v4 "ast_visitor.ml" 83 2255 2276 "ast_visitor.ml" 83 2255 2278
+)
+"ast_visitor.ml" 87 2415 2433 "ast_visitor.ml" 87 2415 2454
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 88 2458 2472 "ast_visitor.ml" 88 2458 2475
+type(
+  Ast.exp
+)
+ident(
+  int_ref v1' "ast_visitor.ml" 84 2286 2298 "ast_visitor.ml" 84 2286 2301
+)
+"ast_visitor.ml" 88 2458 2476 "ast_visitor.ml" 88 2458 2479
+type(
+  Ast.exp
+)
+ident(
+  int_ref v2' "ast_visitor.ml" 85 2329 2341 "ast_visitor.ml" 85 2329 2344
+)
+"ast_visitor.ml" 88 2458 2480 "ast_visitor.ml" 88 2458 2483
+type(
+  Ast.exp
+)
+ident(
+  int_ref v3' "ast_visitor.ml" 86 2372 2384 "ast_visitor.ml" 86 2372 2387
+)
+"ast_visitor.ml" 88 2458 2484 "ast_visitor.ml" 88 2458 2487
+type(
+  Ast.exp
+)
+ident(
+  int_ref v4' "ast_visitor.ml" 87 2415 2427 "ast_visitor.ml" 87 2415 2430
+)
+"ast_visitor.ml" 88 2458 2488 "ast_visitor.ml" 88 2458 2489
+type(
+  Type.typ
+)
+ident(
+  int_ref t "ast_visitor.ml" 83 2255 2280 "ast_visitor.ml" 83 2255 2281
+)
+"ast_visitor.ml" 88 2458 2471 "ast_visitor.ml" 88 2458 2490
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"ast_visitor.ml" 88 2458 2466 "ast_visitor.ml" 88 2458 2490
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 87 2415 2423 "ast_visitor.ml" 88 2458 2490
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 86 2372 2380 "ast_visitor.ml" 88 2458 2490
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 85 2329 2337 "ast_visitor.ml" 88 2458 2490
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 84 2286 2294 "ast_visitor.ml" 88 2458 2490
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 89 2491 2501 "ast_visitor.ml" 89 2491 2502
+type(
+  Ast.var
+)
+ident(
+  def v "ast_visitor.ml" 90 2513 2521 "ast_visitor.ml" 93 2661 2686
+)
+"ast_visitor.ml" 89 2491 2503 "ast_visitor.ml" 89 2491 2505
+type(
+  Ast.exp
+)
+ident(
+  def e1 "ast_visitor.ml" 90 2513 2521 "ast_visitor.ml" 93 2661 2686
+)
+"ast_visitor.ml" 89 2491 2506 "ast_visitor.ml" 89 2491 2508
+type(
+  Ast.exp
+)
+ident(
+  def e2 "ast_visitor.ml" 90 2513 2521 "ast_visitor.ml" 93 2661 2686
+)
+"ast_visitor.ml" 89 2491 2500 "ast_visitor.ml" 89 2491 2509
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"ast_visitor.ml" 89 2491 2497 "ast_visitor.ml" 89 2491 2509
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 90 2513 2526 "ast_visitor.ml" 90 2513 2528
+type(
+  Ast.var
+)
+"ast_visitor.ml" 90 2513 2529 "ast_visitor.ml" 90 2513 2532
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 90 2513 2525 "ast_visitor.ml" 90 2513 2533
+type(
+  Ast.var * Ast.exp
+)
+"ast_visitor.ml" 90 2513 2536 "ast_visitor.ml" 90 2513 2551
+type(
+  'a -> Ast.var * Ast.exp -> Ast.var * Ast.exp
+)
+ident(
+  int_ref lbinding_accept "ast_visitor.ml" 105 2928 2932 "ast_visitor.ml" 105 2928 2947
+)
+"ast_visitor.ml" 90 2513 2552 "ast_visitor.ml" 90 2513 2559
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 90 2513 2561 "ast_visitor.ml" 90 2513 2562
+type(
+  Ast.var
+)
+ident(
+  int_ref v "ast_visitor.ml" 89 2491 2501 "ast_visitor.ml" 89 2491 2502
+)
+"ast_visitor.ml" 90 2513 2563 "ast_visitor.ml" 90 2513 2565
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "ast_visitor.ml" 89 2491 2503 "ast_visitor.ml" 89 2491 2505
+)
+"ast_visitor.ml" 90 2513 2560 "ast_visitor.ml" 90 2513 2566
+type(
+  Ast.var * Ast.exp
+)
+"ast_visitor.ml" 90 2513 2536 "ast_visitor.ml" 90 2513 2566
+call(
+  stack
+)
+type(
+  Ast.var * Ast.exp
+)
+"ast_visitor.ml" 91 2570 2582 "ast_visitor.ml" 91 2570 2585
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 91 2570 2588 "ast_visitor.ml" 91 2570 2598
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 91 2570 2599 "ast_visitor.ml" 91 2570 2606
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 91 2570 2607 "ast_visitor.ml" 91 2570 2609
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "ast_visitor.ml" 89 2491 2506 "ast_visitor.ml" 89 2491 2508
+)
+"ast_visitor.ml" 91 2570 2588 "ast_visitor.ml" 91 2570 2609
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 92 2613 2625 "ast_visitor.ml" 92 2613 2627
+type(
+  Ast.var
+)
+"ast_visitor.ml" 92 2613 2630 "ast_visitor.ml" 92 2613 2646
+type(
+  'a -> Ast.var -> Ast.var
+)
+ident(
+  int_ref ulbinding_accept "ast_visitor.ml" 113 3114 3118 "ast_visitor.ml" 113 3114 3134
+)
+"ast_visitor.ml" 92 2613 2647 "ast_visitor.ml" 92 2613 2654
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 92 2613 2655 "ast_visitor.ml" 92 2613 2657
+type(
+  Ast.var
+)
+ident(
+  int_ref v' "ast_visitor.ml" 90 2513 2526 "ast_visitor.ml" 90 2513 2528
+)
+"ast_visitor.ml" 92 2613 2630 "ast_visitor.ml" 92 2613 2657
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"ast_visitor.ml" 93 2661 2673 "ast_visitor.ml" 93 2661 2675
+type(
+  Ast.var
+)
+ident(
+  int_ref v' "ast_visitor.ml" 92 2613 2625 "ast_visitor.ml" 92 2613 2627
+)
+"ast_visitor.ml" 93 2661 2677 "ast_visitor.ml" 93 2661 2680
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1' "ast_visitor.ml" 90 2513 2529 "ast_visitor.ml" 90 2513 2532
+)
+"ast_visitor.ml" 93 2661 2682 "ast_visitor.ml" 93 2661 2685
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2' "ast_visitor.ml" 91 2570 2582 "ast_visitor.ml" 91 2570 2585
+)
+"ast_visitor.ml" 93 2661 2672 "ast_visitor.ml" 93 2661 2686
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"ast_visitor.ml" 93 2661 2669 "ast_visitor.ml" 93 2661 2686
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 92 2613 2621 "ast_visitor.ml" 93 2661 2686
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 91 2570 2578 "ast_visitor.ml" 93 2661 2686
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 90 2513 2521 "ast_visitor.ml" 93 2661 2686
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 50 1200 1216 "ast_visitor.ml" 93 2661 2686
+type(
+  Ast.exp -> Ast.exp
+)
+"ast_visitor.ml" 95 2692 2694 "ast_visitor.ml" 95 2692 2700
+type(
+  (Ast.exp -> Ast.exp) ->
+  (Ast.exp -> Ast.exp Type.visit_action) -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref action "ast_visitor.ml" 39 811 819 "ast_visitor.ml" 39 811 825
+)
+"ast_visitor.ml" 95 2692 2702 "ast_visitor.ml" 95 2692 2709
+type(
+  (Ast.exp -> Ast.exp) -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref wrapexp "ast_visitor.ml" 47 1100 1104 "ast_visitor.ml" 47 1100 1111
+)
+"ast_visitor.ml" 95 2692 2710 "ast_visitor.ml" 95 2692 2717
+type(
+  Ast.exp -> Ast.exp
+)
+ident(
+  int_ref vischil "ast_visitor.ml" 50 1200 1206 "ast_visitor.ml" 50 1200 1213
+)
+"ast_visitor.ml" 95 2692 2701 "ast_visitor.ml" 95 2692 2718
+call(
+  stack
+)
+type(
+  Ast.exp -> Ast.exp
+)
+"ast_visitor.ml" 95 2692 2719 "ast_visitor.ml" 95 2692 2726
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 49 1171 1190 "ast_visitor.ml" 49 1171 1197
+)
+"ast_visitor.ml" 95 2692 2719 "ast_visitor.ml" 95 2692 2736
+call(
+  stack
+)
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+"ast_visitor.ml" 95 2692 2694 "ast_visitor.ml" 95 2692 2736
+call(
+  tail
+)
+type(
+  Ast.exp -> Ast.exp
+)
+"ast_visitor.ml" 50 1200 1202 "ast_visitor.ml" 95 2692 2736
+type(
+  Ast.exp -> Ast.exp
+)
+"ast_visitor.ml" 97 2738 2742 "ast_visitor.ml" 97 2738 2754
+type(
+  'a -> Type.label -> Type.label
+)
+ident(
+  def label_accept "ast_visitor.ml" 49 1171 1171 --
+)
+"ast_visitor.ml" 97 2738 2755 "ast_visitor.ml" 97 2738 2762
+type(
+  'a
+)
+ident(
+  def visitor "ast_visitor.ml" 98 2765 2767 "ast_visitor.ml" 98 2765 2801
+)
+"ast_visitor.ml" 98 2765 2767 "ast_visitor.ml" 98 2765 2773
+type(
+  (Type.label -> Type.label) ->
+  (Type.label -> Type.label Type.visit_action) -> Type.label -> Type.label
+)
+ident(
+  int_ref action "ast_visitor.ml" 39 811 819 "ast_visitor.ml" 39 811 825
+)
+"ast_visitor.ml" 98 2765 2774 "ast_visitor.ml" 98 2765 2781
+type(
+  Type.label -> Type.label
+)
+ident(
+  ext_ref Util.id
+)
+"ast_visitor.ml" 98 2765 2782 "ast_visitor.ml" 98 2765 2789
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 97 2738 2755 "ast_visitor.ml" 97 2738 2762
+)
+"ast_visitor.ml" 98 2765 2782 "ast_visitor.ml" 98 2765 2801
+call(
+  stack
+)
+type(
+  Type.label -> Type.label Type.visit_action
+)
+"ast_visitor.ml" 98 2765 2767 "ast_visitor.ml" 98 2765 2801
+call(
+  tail
+)
+type(
+  Type.label -> Type.label
+)
+"ast_visitor.ml" 100 2803 2807 "ast_visitor.ml" 100 2803 2818
+type(
+  'a -> Ast.var -> Ast.var
+)
+ident(
+  def avar_accept "ast_visitor.ml" 49 1171 1171 --
+)
+"ast_visitor.ml" 100 2803 2819 "ast_visitor.ml" 100 2803 2826
+type(
+  'a
+)
+ident(
+  def visitor "ast_visitor.ml" 101 2829 2831 "ast_visitor.ml" 101 2829 2864
+)
+"ast_visitor.ml" 101 2829 2831 "ast_visitor.ml" 101 2829 2837
+type(
+  (Ast.var -> Ast.var) ->
+  (Ast.var -> Ast.var Type.visit_action) -> Ast.var -> Ast.var
+)
+ident(
+  int_ref action "ast_visitor.ml" 39 811 819 "ast_visitor.ml" 39 811 825
+)
+"ast_visitor.ml" 101 2829 2838 "ast_visitor.ml" 101 2829 2845
+type(
+  Ast.var -> Ast.var
+)
+ident(
+  ext_ref Util.id
+)
+"ast_visitor.ml" 101 2829 2846 "ast_visitor.ml" 101 2829 2853
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 100 2803 2819 "ast_visitor.ml" 100 2803 2826
+)
+"ast_visitor.ml" 101 2829 2846 "ast_visitor.ml" 101 2829 2864
+call(
+  stack
+)
+type(
+  Ast.var -> Ast.var Type.visit_action
+)
+"ast_visitor.ml" 101 2829 2831 "ast_visitor.ml" 101 2829 2864
+call(
+  tail
+)
+type(
+  Ast.var -> Ast.var
+)
+"ast_visitor.ml" 102 2865 2869 "ast_visitor.ml" 102 2865 2880
+type(
+  'a -> Ast.var -> Ast.var
+)
+ident(
+  def rvar_accept "ast_visitor.ml" 49 1171 1171 --
+)
+"ast_visitor.ml" 102 2865 2881 "ast_visitor.ml" 102 2865 2888
+type(
+  'a
+)
+ident(
+  def visitor "ast_visitor.ml" 103 2891 2893 "ast_visitor.ml" 103 2891 2926
+)
+"ast_visitor.ml" 103 2891 2893 "ast_visitor.ml" 103 2891 2899
+type(
+  (Ast.var -> Ast.var) ->
+  (Ast.var -> Ast.var Type.visit_action) -> Ast.var -> Ast.var
+)
+ident(
+  int_ref action "ast_visitor.ml" 39 811 819 "ast_visitor.ml" 39 811 825
+)
+"ast_visitor.ml" 103 2891 2900 "ast_visitor.ml" 103 2891 2907
+type(
+  Ast.var -> Ast.var
+)
+ident(
+  ext_ref Util.id
+)
+"ast_visitor.ml" 103 2891 2908 "ast_visitor.ml" 103 2891 2915
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 102 2865 2881 "ast_visitor.ml" 102 2865 2888
+)
+"ast_visitor.ml" 103 2891 2908 "ast_visitor.ml" 103 2891 2926
+call(
+  stack
+)
+type(
+  Ast.var -> Ast.var Type.visit_action
+)
+"ast_visitor.ml" 103 2891 2893 "ast_visitor.ml" 103 2891 2926
+call(
+  tail
+)
+type(
+  Ast.var -> Ast.var
+)
+"ast_visitor.ml" 105 2928 2932 "ast_visitor.ml" 105 2928 2947
+type(
+  'a -> Ast.var * Ast.exp -> Ast.var * Ast.exp
+)
+ident(
+  def lbinding_accept "ast_visitor.ml" 49 1171 1171 --
+)
+"ast_visitor.ml" 105 2928 2948 "ast_visitor.ml" 105 2928 2955
+type(
+  'a
+)
+ident(
+  def visitor "ast_visitor.ml" 106 2958 2960 "ast_visitor.ml" 111 3073 3112
+)
+"ast_visitor.ml" 106 2958 2964 "ast_visitor.ml" 106 2958 2971
+type(
+  Ast.var * Ast.exp -> Ast.var * Ast.exp
+)
+"ast_visitor.ml" 106 2958 2973 "ast_visitor.ml" 106 2958 2974
+type(
+  Ast.var
+)
+ident(
+  def v "ast_visitor.ml" 107 2980 2984 "ast_visitor.ml" 109 3055 3067
+)
+"ast_visitor.ml" 106 2958 2975 "ast_visitor.ml" 106 2958 2976
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_visitor.ml" 107 2980 2984 "ast_visitor.ml" 109 3055 3067
+)
+"ast_visitor.ml" 106 2958 2972 "ast_visitor.ml" 106 2958 2977
+type(
+  Ast.var * Ast.exp
+)
+"ast_visitor.ml" 107 2980 2988 "ast_visitor.ml" 107 2980 2990
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 107 2980 2993 "ast_visitor.ml" 107 2980 3003
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 107 2980 3004 "ast_visitor.ml" 107 2980 3011
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 105 2928 2948 "ast_visitor.ml" 105 2928 2955
+)
+"ast_visitor.ml" 107 2980 3012 "ast_visitor.ml" 107 2980 3013
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_visitor.ml" 106 2958 2975 "ast_visitor.ml" 106 2958 2976
+)
+"ast_visitor.ml" 107 2980 2993 "ast_visitor.ml" 107 2980 3013
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 108 3017 3025 "ast_visitor.ml" 108 3017 3027
+type(
+  Ast.var
+)
+"ast_visitor.ml" 108 3017 3030 "ast_visitor.ml" 108 3017 3041
+type(
+  'a -> Ast.var -> Ast.var
+)
+ident(
+  int_ref avar_accept "ast_visitor.ml" 100 2803 2807 "ast_visitor.ml" 100 2803 2818
+)
+"ast_visitor.ml" 108 3017 3042 "ast_visitor.ml" 108 3017 3049
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 105 2928 2948 "ast_visitor.ml" 105 2928 2955
+)
+"ast_visitor.ml" 108 3017 3050 "ast_visitor.ml" 108 3017 3051
+type(
+  Ast.var
+)
+ident(
+  int_ref v "ast_visitor.ml" 106 2958 2973 "ast_visitor.ml" 106 2958 2974
+)
+"ast_visitor.ml" 108 3017 3030 "ast_visitor.ml" 108 3017 3051
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"ast_visitor.ml" 109 3055 3060 "ast_visitor.ml" 109 3055 3062
+type(
+  Ast.var
+)
+ident(
+  int_ref v' "ast_visitor.ml" 108 3017 3025 "ast_visitor.ml" 108 3017 3027
+)
+"ast_visitor.ml" 109 3055 3064 "ast_visitor.ml" 109 3055 3066
+type(
+  Ast.exp
+)
+ident(
+  int_ref e' "ast_visitor.ml" 107 2980 2988 "ast_visitor.ml" 107 2980 2990
+)
+"ast_visitor.ml" 109 3055 3059 "ast_visitor.ml" 109 3055 3067
+type(
+  Ast.var * Ast.exp
+)
+"ast_visitor.ml" 108 3017 3021 "ast_visitor.ml" 109 3055 3067
+type(
+  Ast.var * Ast.exp
+)
+"ast_visitor.ml" 107 2980 2984 "ast_visitor.ml" 109 3055 3067
+type(
+  Ast.var * Ast.exp
+)
+"ast_visitor.ml" 111 3073 3075 "ast_visitor.ml" 111 3073 3081
+type(
+  (Ast.var * Ast.exp -> Ast.var * Ast.exp) ->
+  (Ast.var * Ast.exp -> (Ast.var * Ast.exp) Type.visit_action) ->
+  Ast.var * Ast.exp -> Ast.var * Ast.exp
+)
+ident(
+  int_ref action "ast_visitor.ml" 39 811 819 "ast_visitor.ml" 39 811 825
+)
+"ast_visitor.ml" 111 3073 3082 "ast_visitor.ml" 111 3073 3089
+type(
+  Ast.var * Ast.exp -> Ast.var * Ast.exp
+)
+ident(
+  int_ref vischil "ast_visitor.ml" 106 2958 2964 "ast_visitor.ml" 106 2958 2971
+)
+"ast_visitor.ml" 111 3073 3090 "ast_visitor.ml" 111 3073 3097
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 105 2928 2948 "ast_visitor.ml" 105 2928 2955
+)
+"ast_visitor.ml" 111 3073 3090 "ast_visitor.ml" 111 3073 3112
+call(
+  stack
+)
+type(
+  Ast.var * Ast.exp -> (Ast.var * Ast.exp) Type.visit_action
+)
+"ast_visitor.ml" 111 3073 3075 "ast_visitor.ml" 111 3073 3112
+call(
+  tail
+)
+type(
+  Ast.var * Ast.exp -> Ast.var * Ast.exp
+)
+"ast_visitor.ml" 106 2958 2960 "ast_visitor.ml" 111 3073 3112
+type(
+  Ast.var * Ast.exp -> Ast.var * Ast.exp
+)
+"ast_visitor.ml" 113 3114 3118 "ast_visitor.ml" 113 3114 3134
+type(
+  'a -> Ast.var -> Ast.var
+)
+ident(
+  def ulbinding_accept "ast_visitor.ml" 49 1171 1171 --
+)
+"ast_visitor.ml" 113 3114 3135 "ast_visitor.ml" 113 3114 3142
+type(
+  'a
+)
+ident(
+  def visitor "ast_visitor.ml" 114 3145 3147 "ast_visitor.ml" 119 3275 3315
+)
+"ast_visitor.ml" 114 3145 3151 "ast_visitor.ml" 114 3145 3158
+type(
+  'b -> 'b
+)
+"ast_visitor.ml" 114 3145 3159 "ast_visitor.ml" 114 3145 3160
+type(
+  'b
+)
+ident(
+  def v "ast_visitor.ml" 117 3264 3268 "ast_visitor.ml" 117 3264 3269
+)
+"ast_visitor.ml" 117 3264 3268 "ast_visitor.ml" 117 3264 3269
+type(
+  'b
+)
+ident(
+  int_ref v "ast_visitor.ml" 114 3145 3159 "ast_visitor.ml" 114 3145 3160
+)
+"ast_visitor.ml" 119 3275 3277 "ast_visitor.ml" 119 3275 3283
+type(
+  (Ast.var -> Ast.var) ->
+  (Ast.var -> Ast.var Type.visit_action) -> Ast.var -> Ast.var
+)
+ident(
+  int_ref action "ast_visitor.ml" 39 811 819 "ast_visitor.ml" 39 811 825
+)
+"ast_visitor.ml" 119 3275 3284 "ast_visitor.ml" 119 3275 3291
+type(
+  Ast.var -> Ast.var
+)
+ident(
+  int_ref vischil "ast_visitor.ml" 114 3145 3151 "ast_visitor.ml" 114 3145 3158
+)
+"ast_visitor.ml" 119 3275 3292 "ast_visitor.ml" 119 3275 3299
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 113 3114 3135 "ast_visitor.ml" 113 3114 3142
+)
+"ast_visitor.ml" 119 3275 3292 "ast_visitor.ml" 119 3275 3315
+call(
+  stack
+)
+type(
+  Ast.var -> Ast.var Type.visit_action
+)
+"ast_visitor.ml" 119 3275 3277 "ast_visitor.ml" 119 3275 3315
+call(
+  tail
+)
+type(
+  Ast.var -> Ast.var
+)
+"ast_visitor.ml" 114 3145 3147 "ast_visitor.ml" 119 3275 3315
+type(
+  Ast.var -> Ast.var
+)
+"ast_visitor.ml" 121 3317 3321 "ast_visitor.ml" 121 3317 3332
+type(
+  'a -> Cfg.AST.stmt -> Cfg.AST.stmt
+)
+ident(
+  def stmt_accept "ast_visitor.ml" 49 1171 1171 --
+)
+"ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+type(
+  'a
+)
+ident(
+  def visitor "ast_visitor.ml" 122 3343 3345 "ast_visitor.ml" 142 4020 4068
+)
+"ast_visitor.ml" 122 3343 3349 "ast_visitor.ml" 122 3343 3356
+type(
+  Ast.stmt -> Ast.stmt
+)
+"ast_visitor.ml" 124 3398 3408 "ast_visitor.ml" 124 3398 3409
+type(
+  Ast.exp
+)
+ident(
+  def l "ast_visitor.ml" 125 3417 3423 "ast_visitor.ml" 125 3417 3451
+)
+"ast_visitor.ml" 124 3398 3411 "ast_visitor.ml" 124 3398 3412
+type(
+  Ast.attrs
+)
+ident(
+  def a "ast_visitor.ml" 125 3417 3423 "ast_visitor.ml" 125 3417 3451
+)
+"ast_visitor.ml" 124 3398 3407 "ast_visitor.ml" 124 3398 3413
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 124 3398 3404 "ast_visitor.ml" 124 3398 3413
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 125 3417 3427 "ast_visitor.ml" 125 3417 3437
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 125 3417 3438 "ast_visitor.ml" 125 3417 3445
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 125 3417 3446 "ast_visitor.ml" 125 3417 3447
+type(
+  Ast.exp
+)
+ident(
+  int_ref l "ast_visitor.ml" 124 3398 3408 "ast_visitor.ml" 124 3398 3409
+)
+"ast_visitor.ml" 125 3417 3427 "ast_visitor.ml" 125 3417 3447
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 125 3417 3449 "ast_visitor.ml" 125 3417 3450
+type(
+  Ast.attrs
+)
+ident(
+  int_ref a "ast_visitor.ml" 124 3398 3411 "ast_visitor.ml" 124 3398 3412
+)
+"ast_visitor.ml" 125 3417 3426 "ast_visitor.ml" 125 3417 3451
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 125 3417 3423 "ast_visitor.ml" 125 3417 3451
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 126 3452 3463 "ast_visitor.ml" 126 3452 3464
+type(
+  Ast.exp
+)
+ident(
+  def c "ast_visitor.ml" 127 3480 3486 "ast_visitor.ml" 130 3601 3628
+)
+"ast_visitor.ml" 126 3452 3466 "ast_visitor.ml" 126 3452 3468
+type(
+  Ast.exp
+)
+ident(
+  def l1 "ast_visitor.ml" 127 3480 3486 "ast_visitor.ml" 130 3601 3628
+)
+"ast_visitor.ml" 126 3452 3470 "ast_visitor.ml" 126 3452 3472
+type(
+  Ast.exp
+)
+ident(
+  def l2 "ast_visitor.ml" 127 3480 3486 "ast_visitor.ml" 130 3601 3628
+)
+"ast_visitor.ml" 126 3452 3474 "ast_visitor.ml" 126 3452 3475
+type(
+  Ast.attrs
+)
+ident(
+  def a "ast_visitor.ml" 127 3480 3486 "ast_visitor.ml" 130 3601 3628
+)
+"ast_visitor.ml" 126 3452 3462 "ast_visitor.ml" 126 3452 3476
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 126 3452 3458 "ast_visitor.ml" 126 3452 3476
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 127 3480 3490 "ast_visitor.ml" 127 3480 3492
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 127 3480 3495 "ast_visitor.ml" 127 3480 3505
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 127 3480 3506 "ast_visitor.ml" 127 3480 3513
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 127 3480 3514 "ast_visitor.ml" 127 3480 3515
+type(
+  Ast.exp
+)
+ident(
+  int_ref c "ast_visitor.ml" 126 3452 3463 "ast_visitor.ml" 126 3452 3464
+)
+"ast_visitor.ml" 127 3480 3495 "ast_visitor.ml" 127 3480 3515
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 128 3519 3529 "ast_visitor.ml" 128 3519 3532
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 128 3519 3535 "ast_visitor.ml" 128 3519 3545
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 128 3519 3546 "ast_visitor.ml" 128 3519 3553
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 128 3519 3554 "ast_visitor.ml" 128 3519 3556
+type(
+  Ast.exp
+)
+ident(
+  int_ref l1 "ast_visitor.ml" 126 3452 3466 "ast_visitor.ml" 126 3452 3468
+)
+"ast_visitor.ml" 128 3519 3535 "ast_visitor.ml" 128 3519 3556
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 129 3560 3570 "ast_visitor.ml" 129 3560 3573
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 129 3560 3576 "ast_visitor.ml" 129 3560 3586
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 129 3560 3587 "ast_visitor.ml" 129 3560 3594
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 129 3560 3595 "ast_visitor.ml" 129 3560 3597
+type(
+  Ast.exp
+)
+ident(
+  int_ref l2 "ast_visitor.ml" 126 3452 3470 "ast_visitor.ml" 126 3452 3472
+)
+"ast_visitor.ml" 129 3560 3576 "ast_visitor.ml" 129 3560 3597
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 130 3601 3612 "ast_visitor.ml" 130 3601 3614
+type(
+  Ast.exp
+)
+ident(
+  int_ref c' "ast_visitor.ml" 127 3480 3490 "ast_visitor.ml" 127 3480 3492
+)
+"ast_visitor.ml" 130 3601 3616 "ast_visitor.ml" 130 3601 3619
+type(
+  Ast.exp
+)
+ident(
+  int_ref l1' "ast_visitor.ml" 128 3519 3529 "ast_visitor.ml" 128 3519 3532
+)
+"ast_visitor.ml" 130 3601 3621 "ast_visitor.ml" 130 3601 3624
+type(
+  Ast.exp
+)
+ident(
+  int_ref l2' "ast_visitor.ml" 129 3560 3570 "ast_visitor.ml" 129 3560 3573
+)
+"ast_visitor.ml" 130 3601 3626 "ast_visitor.ml" 130 3601 3627
+type(
+  Ast.attrs
+)
+ident(
+  int_ref a "ast_visitor.ml" 126 3452 3474 "ast_visitor.ml" 126 3452 3475
+)
+"ast_visitor.ml" 130 3601 3611 "ast_visitor.ml" 130 3601 3628
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 130 3601 3607 "ast_visitor.ml" 130 3601 3628
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 129 3560 3566 "ast_visitor.ml" 130 3601 3628
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 128 3519 3525 "ast_visitor.ml" 130 3601 3628
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 127 3480 3486 "ast_visitor.ml" 130 3601 3628
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 131 3629 3640 "ast_visitor.ml" 131 3629 3642
+type(
+  Ast.var
+)
+ident(
+  def lv "ast_visitor.ml" 132 3653 3659 "ast_visitor.ml" 134 3732 3752
+)
+"ast_visitor.ml" 131 3629 3644 "ast_visitor.ml" 131 3629 3645
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_visitor.ml" 132 3653 3659 "ast_visitor.ml" 134 3732 3752
+)
+"ast_visitor.ml" 131 3629 3647 "ast_visitor.ml" 131 3629 3648
+type(
+  Ast.attrs
+)
+ident(
+  def a "ast_visitor.ml" 132 3653 3659 "ast_visitor.ml" 134 3732 3752
+)
+"ast_visitor.ml" 131 3629 3639 "ast_visitor.ml" 131 3629 3649
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 131 3629 3635 "ast_visitor.ml" 131 3629 3649
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 132 3653 3663 "ast_visitor.ml" 132 3653 3664
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 132 3653 3667 "ast_visitor.ml" 132 3653 3677
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 132 3653 3678 "ast_visitor.ml" 132 3653 3685
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 132 3653 3686 "ast_visitor.ml" 132 3653 3687
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_visitor.ml" 131 3629 3644 "ast_visitor.ml" 131 3629 3645
+)
+"ast_visitor.ml" 132 3653 3667 "ast_visitor.ml" 132 3653 3687
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 133 3691 3701 "ast_visitor.ml" 133 3691 3703
+type(
+  Ast.var
+)
+"ast_visitor.ml" 133 3691 3706 "ast_visitor.ml" 133 3691 3717
+type(
+  'a -> Ast.var -> Ast.var
+)
+ident(
+  int_ref avar_accept "ast_visitor.ml" 100 2803 2807 "ast_visitor.ml" 100 2803 2818
+)
+"ast_visitor.ml" 133 3691 3718 "ast_visitor.ml" 133 3691 3725
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 133 3691 3726 "ast_visitor.ml" 133 3691 3728
+type(
+  Ast.var
+)
+ident(
+  int_ref lv "ast_visitor.ml" 131 3629 3640 "ast_visitor.ml" 131 3629 3642
+)
+"ast_visitor.ml" 133 3691 3706 "ast_visitor.ml" 133 3691 3728
+call(
+  stack
+)
+type(
+  Ast.var
+)
+"ast_visitor.ml" 134 3732 3743 "ast_visitor.ml" 134 3732 3745
+type(
+  Ast.var
+)
+ident(
+  int_ref lv "ast_visitor.ml" 133 3691 3701 "ast_visitor.ml" 133 3691 3703
+)
+"ast_visitor.ml" 134 3732 3747 "ast_visitor.ml" 134 3732 3748
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_visitor.ml" 132 3653 3663 "ast_visitor.ml" 132 3653 3664
+)
+"ast_visitor.ml" 134 3732 3750 "ast_visitor.ml" 134 3732 3751
+type(
+  Ast.attrs
+)
+ident(
+  int_ref a "ast_visitor.ml" 131 3629 3647 "ast_visitor.ml" 131 3629 3648
+)
+"ast_visitor.ml" 134 3732 3742 "ast_visitor.ml" 134 3732 3752
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 134 3732 3738 "ast_visitor.ml" 134 3732 3752
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 133 3691 3697 "ast_visitor.ml" 134 3732 3752
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 132 3653 3659 "ast_visitor.ml" 134 3732 3752
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 135 3753 3766 "ast_visitor.ml" 135 3753 3767
+type(
+  Type.label
+)
+ident(
+  def l "ast_visitor.ml" 135 3753 3774 "ast_visitor.ml" 135 3753 3807
+)
+"ast_visitor.ml" 135 3753 3768 "ast_visitor.ml" 135 3753 3769
+type(
+  Ast.attrs
+)
+ident(
+  def a "ast_visitor.ml" 135 3753 3774 "ast_visitor.ml" 135 3753 3807
+)
+"ast_visitor.ml" 135 3753 3765 "ast_visitor.ml" 135 3753 3770
+type(
+  Type.label * Ast.attrs
+)
+"ast_visitor.ml" 135 3753 3759 "ast_visitor.ml" 135 3753 3770
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 135 3753 3781 "ast_visitor.ml" 135 3753 3793
+type(
+  'a -> Type.label -> Type.label
+)
+ident(
+  int_ref label_accept "ast_visitor.ml" 97 2738 2742 "ast_visitor.ml" 97 2738 2754
+)
+"ast_visitor.ml" 135 3753 3794 "ast_visitor.ml" 135 3753 3801
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 135 3753 3802 "ast_visitor.ml" 135 3753 3803
+type(
+  Type.label
+)
+ident(
+  int_ref l "ast_visitor.ml" 135 3753 3766 "ast_visitor.ml" 135 3753 3767
+)
+"ast_visitor.ml" 135 3753 3781 "ast_visitor.ml" 135 3753 3803
+call(
+  stack
+)
+type(
+  Type.label
+)
+"ast_visitor.ml" 135 3753 3805 "ast_visitor.ml" 135 3753 3806
+type(
+  Ast.attrs
+)
+ident(
+  int_ref a "ast_visitor.ml" 135 3753 3768 "ast_visitor.ml" 135 3753 3769
+)
+"ast_visitor.ml" 135 3753 3780 "ast_visitor.ml" 135 3753 3807
+type(
+  Type.label * Ast.attrs
+)
+"ast_visitor.ml" 135 3753 3774 "ast_visitor.ml" 135 3753 3807
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 136 3808 3822 "ast_visitor.ml" 136 3808 3823
+type(
+  string * Ast.attrs
+)
+"ast_visitor.ml" 136 3808 3814 "ast_visitor.ml" 136 3808 3823
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 136 3808 3814 "ast_visitor.ml" 136 3808 3828
+type(
+  Ast.stmt
+)
+ident(
+  def s "ast_visitor.ml" 136 3808 3832 "ast_visitor.ml" 136 3808 3833
+)
+"ast_visitor.ml" 136 3808 3832 "ast_visitor.ml" 136 3808 3833
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "ast_visitor.ml" 136 3808 3814 "ast_visitor.ml" 136 3808 3828
+)
+"ast_visitor.ml" 137 3834 3847 "ast_visitor.ml" 137 3834 3848
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_visitor.ml" 137 3834 3855 "ast_visitor.ml" 137 3834 3886
+)
+"ast_visitor.ml" 137 3834 3849 "ast_visitor.ml" 137 3834 3850
+type(
+  Ast.attrs
+)
+ident(
+  def a "ast_visitor.ml" 137 3834 3855 "ast_visitor.ml" 137 3834 3886
+)
+"ast_visitor.ml" 137 3834 3846 "ast_visitor.ml" 137 3834 3851
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 137 3834 3840 "ast_visitor.ml" 137 3834 3851
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 137 3834 3862 "ast_visitor.ml" 137 3834 3872
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 137 3834 3873 "ast_visitor.ml" 137 3834 3880
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 137 3834 3881 "ast_visitor.ml" 137 3834 3882
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_visitor.ml" 137 3834 3847 "ast_visitor.ml" 137 3834 3848
+)
+"ast_visitor.ml" 137 3834 3862 "ast_visitor.ml" 137 3834 3882
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 137 3834 3884 "ast_visitor.ml" 137 3834 3885
+type(
+  Ast.attrs
+)
+ident(
+  int_ref a "ast_visitor.ml" 137 3834 3849 "ast_visitor.ml" 137 3834 3850
+)
+"ast_visitor.ml" 137 3834 3861 "ast_visitor.ml" 137 3834 3886
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 137 3834 3855 "ast_visitor.ml" 137 3834 3886
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 138 3887 3900 "ast_visitor.ml" 138 3887 3901
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_visitor.ml" 138 3887 3908 "ast_visitor.ml" 138 3887 3939
+)
+"ast_visitor.ml" 138 3887 3902 "ast_visitor.ml" 138 3887 3903
+type(
+  Ast.attrs
+)
+ident(
+  def a "ast_visitor.ml" 138 3887 3908 "ast_visitor.ml" 138 3887 3939
+)
+"ast_visitor.ml" 138 3887 3899 "ast_visitor.ml" 138 3887 3904
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 138 3887 3893 "ast_visitor.ml" 138 3887 3904
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 138 3887 3915 "ast_visitor.ml" 138 3887 3925
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 138 3887 3926 "ast_visitor.ml" 138 3887 3933
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 138 3887 3934 "ast_visitor.ml" 138 3887 3935
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_visitor.ml" 138 3887 3900 "ast_visitor.ml" 138 3887 3901
+)
+"ast_visitor.ml" 138 3887 3915 "ast_visitor.ml" 138 3887 3935
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 138 3887 3937 "ast_visitor.ml" 138 3887 3938
+type(
+  Ast.attrs
+)
+ident(
+  int_ref a "ast_visitor.ml" 138 3887 3902 "ast_visitor.ml" 138 3887 3903
+)
+"ast_visitor.ml" 138 3887 3914 "ast_visitor.ml" 138 3887 3939
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 138 3887 3908 "ast_visitor.ml" 138 3887 3939
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 139 3940 3951 "ast_visitor.ml" 139 3940 3952
+type(
+  Ast.exp
+)
+ident(
+  def e "ast_visitor.ml" 139 3940 3959 "ast_visitor.ml" 139 3940 3988
+)
+"ast_visitor.ml" 139 3940 3953 "ast_visitor.ml" 139 3940 3954
+type(
+  Ast.attrs
+)
+ident(
+  def a "ast_visitor.ml" 139 3940 3959 "ast_visitor.ml" 139 3940 3988
+)
+"ast_visitor.ml" 139 3940 3950 "ast_visitor.ml" 139 3940 3955
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 139 3940 3946 "ast_visitor.ml" 139 3940 3955
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 139 3940 3964 "ast_visitor.ml" 139 3940 3974
+type(
+  'a -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref exp_accept "ast_visitor.ml" 49 1171 1179 "ast_visitor.ml" 49 1171 1189
+)
+"ast_visitor.ml" 139 3940 3975 "ast_visitor.ml" 139 3940 3982
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 139 3940 3983 "ast_visitor.ml" 139 3940 3984
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "ast_visitor.ml" 139 3940 3951 "ast_visitor.ml" 139 3940 3952
+)
+"ast_visitor.ml" 139 3940 3964 "ast_visitor.ml" 139 3940 3984
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"ast_visitor.ml" 139 3940 3986 "ast_visitor.ml" 139 3940 3987
+type(
+  Ast.attrs
+)
+ident(
+  int_ref a "ast_visitor.ml" 139 3940 3953 "ast_visitor.ml" 139 3940 3954
+)
+"ast_visitor.ml" 139 3940 3963 "ast_visitor.ml" 139 3940 3988
+type(
+  Ast.exp * Ast.attrs
+)
+"ast_visitor.ml" 139 3940 3959 "ast_visitor.ml" 139 3940 3988
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 140 3989 4003 "ast_visitor.ml" 140 3989 4004
+type(
+  string * Var.defuse option * Ast.attrs
+)
+"ast_visitor.ml" 140 3989 3995 "ast_visitor.ml" 140 3989 4004
+type(
+  Ast.stmt
+)
+"ast_visitor.ml" 140 3989 3995 "ast_visitor.ml" 140 3989 4009
+type(
+  Ast.stmt
+)
+ident(
+  def s "ast_visitor.ml" 140 3989 4013 "ast_visitor.ml" 140 3989 4014
+)
+"ast_visitor.ml" 140 3989 4013 "ast_visitor.ml" 140 3989 4014
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "ast_visitor.ml" 140 3989 3995 "ast_visitor.ml" 140 3989 4009
+)
+"ast_visitor.ml" 122 3343 3359 "ast_visitor.ml" 140 3989 4014
+type(
+  Ast.stmt -> Ast.stmt
+)
+"ast_visitor.ml" 142 4020 4022 "ast_visitor.ml" 142 4020 4028
+type(
+  (Cfg.AST.stmt -> Cfg.AST.stmt) ->
+  (Cfg.AST.stmt -> Cfg.AST.stmt Type.visit_action) ->
+  Cfg.AST.stmt -> Cfg.AST.stmt
+)
+ident(
+  int_ref action "ast_visitor.ml" 39 811 819 "ast_visitor.ml" 39 811 825
+)
+"ast_visitor.ml" 142 4020 4030 "ast_visitor.ml" 142 4020 4038
+type(
+  (Cfg.AST.stmt -> Cfg.AST.stmt) -> Cfg.AST.stmt -> Cfg.AST.stmt
+)
+ident(
+  int_ref wrapstmt "ast_visitor.ml" 46 1028 1032 "ast_visitor.ml" 46 1028 1040
+)
+"ast_visitor.ml" 142 4020 4039 "ast_visitor.ml" 142 4020 4046
+type(
+  Cfg.AST.stmt -> Cfg.AST.stmt
+)
+ident(
+  int_ref vischil "ast_visitor.ml" 122 3343 3349 "ast_visitor.ml" 122 3343 3356
+)
+"ast_visitor.ml" 142 4020 4029 "ast_visitor.ml" 142 4020 4047
+call(
+  stack
+)
+type(
+  Cfg.AST.stmt -> Cfg.AST.stmt
+)
+"ast_visitor.ml" 142 4020 4049 "ast_visitor.ml" 142 4020 4056
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 121 3317 3333 "ast_visitor.ml" 121 3317 3340
+)
+"ast_visitor.ml" 142 4020 4048 "ast_visitor.ml" 142 4020 4068
+call(
+  stack
+)
+type(
+  Cfg.AST.stmt -> Cfg.AST.stmt Type.visit_action
+)
+"ast_visitor.ml" 142 4020 4022 "ast_visitor.ml" 142 4020 4068
+call(
+  tail
+)
+type(
+  Cfg.AST.stmt -> Cfg.AST.stmt
+)
+"ast_visitor.ml" 122 3343 3345 "ast_visitor.ml" 142 4020 4068
+type(
+  Cfg.AST.stmt -> Cfg.AST.stmt
+)
+"ast_visitor.ml" 144 4070 4074 "ast_visitor.ml" 144 4070 4085
+type(
+  'a -> Cfg.AST.lang -> Cfg.AST.lang
+)
+ident(
+  def prog_accept "ast_visitor.ml" 49 1171 1171 --
+)
+"ast_visitor.ml" 144 4070 4086 "ast_visitor.ml" 144 4070 4093
+type(
+  'a
+)
+ident(
+  def visitor "ast_visitor.ml" 144 4070 4094 "ast_visitor.ml" 145 4101 4159
+)
+"ast_visitor.ml" 144 4070 4094 "ast_visitor.ml" 144 4070 4098
+type(
+  Cfg.AST.lang
+)
+ident(
+  def prog "ast_visitor.ml" 145 4101 4103 "ast_visitor.ml" 145 4101 4159
+)
+"ast_visitor.ml" 145 4101 4103 "ast_visitor.ml" 145 4101 4111
+type(
+  (Cfg.AST.stmt -> Cfg.AST.stmt) -> Cfg.AST.lang -> Cfg.AST.lang
+)
+ident(
+  ext_ref BatListFull.List.map
+)
+"ast_visitor.ml" 145 4101 4117 "ast_visitor.ml" 145 4101 4123
+type(
+  Cfg.AST.stmt
+)
+ident(
+  def instmt "ast_visitor.ml" 145 4101 4127 "ast_visitor.ml" 145 4101 4153
+)
+"ast_visitor.ml" 145 4101 4127 "ast_visitor.ml" 145 4101 4138
+type(
+  'a -> Cfg.AST.stmt -> Cfg.AST.stmt
+)
+ident(
+  int_ref stmt_accept "ast_visitor.ml" 121 3317 3321 "ast_visitor.ml" 121 3317 3332
+)
+"ast_visitor.ml" 145 4101 4139 "ast_visitor.ml" 145 4101 4146
+type(
+  'a
+)
+ident(
+  int_ref visitor "ast_visitor.ml" 144 4070 4086 "ast_visitor.ml" 144 4070 4093
+)
+"ast_visitor.ml" 145 4101 4147 "ast_visitor.ml" 145 4101 4153
+type(
+  Cfg.AST.stmt
+)
+ident(
+  int_ref instmt "ast_visitor.ml" 145 4101 4117 "ast_visitor.ml" 145 4101 4123
+)
+"ast_visitor.ml" 145 4101 4127 "ast_visitor.ml" 145 4101 4153
+call(
+  tail
+)
+type(
+  Cfg.AST.stmt
+)
+"ast_visitor.ml" 145 4101 4112 "ast_visitor.ml" 145 4101 4154
+type(
+  Cfg.AST.stmt -> Cfg.AST.stmt
+)
+"ast_visitor.ml" 145 4101 4155 "ast_visitor.ml" 145 4101 4159
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref prog "ast_visitor.ml" 144 4070 4094 "ast_visitor.ml" 144 4070 4098
+)
+"ast_visitor.ml" 145 4101 4103 "ast_visitor.ml" 145 4101 4159
+call(
+  tail
+)
+type(
+  Cfg.AST.lang
+)
+"ast_visitor.ml" 147 4161 4165 "ast_visitor.ml" 147 4161 4175
+type(
+  'a -> Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  def cfg_accept "ast_visitor.ml" 49 1171 1171 --
+)
+"ast_visitor.ml" 147 4161 4176 "ast_visitor.ml" 147 4161 4179
+type(
+  'a
+)
+ident(
+  def vis "ast_visitor.ml" 147 4161 4180 "ast_visitor.ml" 152 4325 4369
+)
+"ast_visitor.ml" 147 4161 4180 "ast_visitor.ml" 147 4161 4181
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def p "ast_visitor.ml" 148 4184 4186 "ast_visitor.ml" 152 4325 4369
+)
+"ast_visitor.ml" 148 4184 4186 "ast_visitor.ml" 148 4184 4207
+type(
+  (Cfg.AST.G.vertex -> Cfg.AST.G.t -> Cfg.AST.G.t) ->
+  Cfg.AST.G.t -> Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.G.fold_vertex
+)
+"ast_visitor.ml" 149 4208 4217 "ast_visitor.ml" 149 4208 4220
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  def abb "ast_visitor.ml" 149 4208 4221 "ast_visitor.ml" 152 4325 4364
+)
+"ast_visitor.ml" 149 4208 4221 "ast_visitor.ml" 149 4208 4222
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def g "ast_visitor.ml" 150 4226 4233 "ast_visitor.ml" 152 4325 4364
+)
+"ast_visitor.ml" 150 4226 4237 "ast_visitor.ml" 150 4226 4245
+type(
+  Cfg.AST.lang
+)
+"ast_visitor.ml" 150 4226 4248 "ast_visitor.ml" 150 4226 4265
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.vertex -> Cfg.AST.lang
+)
+ident(
+  ext_ref Cfg.AST.get_stmts
+)
+"ast_visitor.ml" 150 4226 4266 "ast_visitor.ml" 150 4226 4267
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_visitor.ml" 149 4208 4221 "ast_visitor.ml" 149 4208 4222
+)
+"ast_visitor.ml" 150 4226 4268 "ast_visitor.ml" 150 4226 4271
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref abb "ast_visitor.ml" 149 4208 4217 "ast_visitor.ml" 149 4208 4220
+)
+"ast_visitor.ml" 150 4226 4248 "ast_visitor.ml" 150 4226 4271
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_visitor.ml" 151 4275 4286 "ast_visitor.ml" 151 4275 4294
+type(
+  Cfg.AST.lang
+)
+"ast_visitor.ml" 151 4275 4297 "ast_visitor.ml" 151 4275 4308
+type(
+  'a -> Cfg.AST.lang -> Cfg.AST.lang
+)
+ident(
+  int_ref prog_accept "ast_visitor.ml" 144 4070 4074 "ast_visitor.ml" 144 4070 4085
+)
+"ast_visitor.ml" 151 4275 4309 "ast_visitor.ml" 151 4275 4312
+type(
+  'a
+)
+ident(
+  int_ref vis "ast_visitor.ml" 147 4161 4176 "ast_visitor.ml" 147 4161 4179
+)
+"ast_visitor.ml" 151 4275 4313 "ast_visitor.ml" 151 4275 4321
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref oldstmts "ast_visitor.ml" 150 4226 4237 "ast_visitor.ml" 150 4226 4245
+)
+"ast_visitor.ml" 151 4275 4297 "ast_visitor.ml" 151 4275 4321
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"ast_visitor.ml" 152 4325 4332 "ast_visitor.ml" 152 4325 4349
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.vertex -> Cfg.AST.lang -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Cfg.AST.set_stmts
+)
+"ast_visitor.ml" 152 4325 4350 "ast_visitor.ml" 152 4325 4351
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "ast_visitor.ml" 149 4208 4221 "ast_visitor.ml" 149 4208 4222
+)
+"ast_visitor.ml" 152 4325 4352 "ast_visitor.ml" 152 4325 4355
+type(
+  Cfg.AST.G.vertex
+)
+ident(
+  int_ref abb "ast_visitor.ml" 149 4208 4217 "ast_visitor.ml" 149 4208 4220
+)
+"ast_visitor.ml" 152 4325 4356 "ast_visitor.ml" 152 4325 4364
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref newstmts "ast_visitor.ml" 151 4275 4286 "ast_visitor.ml" 151 4275 4294
+)
+"ast_visitor.ml" 152 4325 4332 "ast_visitor.ml" 152 4325 4364
+call(
+  tail
+)
+type(
+  Cfg.AST.G.t
+)
+"ast_visitor.ml" 151 4275 4282 "ast_visitor.ml" 152 4325 4364
+type(
+  Cfg.AST.G.t
+)
+"ast_visitor.ml" 150 4226 4233 "ast_visitor.ml" 152 4325 4364
+type(
+  Cfg.AST.G.t
+)
+"ast_visitor.ml" 149 4208 4212 "ast_visitor.ml" 152 4325 4365
+type(
+  Cfg.AST.G.vertex -> Cfg.AST.G.t -> Cfg.AST.G.t
+)
+"ast_visitor.ml" 152 4325 4366 "ast_visitor.ml" 152 4325 4367
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref p "ast_visitor.ml" 147 4161 4180 "ast_visitor.ml" 147 4161 4181
+)
+"ast_visitor.ml" 152 4325 4368 "ast_visitor.ml" 152 4325 4369
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref p "ast_visitor.ml" 147 4161 4180 "ast_visitor.ml" 147 4161 4181
+)
+"ast_visitor.ml" 148 4184 4186 "ast_visitor.ml" 152 4325 4369
+call(
+  tail
+)
+type(
+  Cfg.AST.G.t
+)

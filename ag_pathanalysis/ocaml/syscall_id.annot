@@ -1,0 +1,1026 @@
+"syscall_id.ml" 8 120 153 "syscall_id.ml" 8 120 157
+type(
+  string
+)
+ident(
+  def name "syscall_id.ml" 8 120 193 "syscall_id.ml" 8 120 197
+)
+"syscall_id.ml" 8 120 160 "syscall_id.ml" 8 120 172
+type(
+  string
+)
+"syscall_id.ml" 8 120 177 "syscall_id.ml" 8 120 184
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "syscall_id.ml" 8 120 193 "syscall_id.ml" 8 120 197
+)
+"syscall_id.ml" 8 120 185 "syscall_id.ml" 8 120 193
+type(
+  [> `NoDebug ] as 'a
+)
+"syscall_id.ml" 8 120 131 "syscall_id.ml" 8 120 198
+call(
+  stack
+)
+"syscall_id.ml" 11 207 211 "syscall_id.ml" 11 207 222
+type(
+  Var.t
+)
+ident(
+  def syscall_reg "syscall_id.ml" 13 248 248 --
+)
+"syscall_id.ml" 11 207 225 "syscall_id.ml" 11 207 244
+type(
+  Var.t
+)
+ident(
+  ext_ref Disasm_i386.R32.eax
+)
+"syscall_id.ml" 19 380 388 "syscall_id.ml" 19 380 391
+type(
+  t
+)
+ident(
+  def top "syscall_id.ml" 20 398 402 "syscall_id.ml" 28 637 642
+)
+"syscall_id.ml" 19 380 394 "syscall_id.ml" 19 380 397
+type(
+  t
+)
+"syscall_id.ml" 20 398 406 "syscall_id.ml" 20 398 411
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "syscall_id.ml" 24 517 521 "syscall_id.ml" 28 637 642
+)
+"syscall_id.ml" 20 398 412 "syscall_id.ml" 20 398 413
+type(
+  t
+)
+ident(
+  def x "syscall_id.ml" 20 398 414 "syscall_id.ml" 23 498 516
+)
+"syscall_id.ml" 20 398 414 "syscall_id.ml" 20 398 415
+type(
+  t
+)
+ident(
+  def y "syscall_id.ml" 20 398 418 "syscall_id.ml" 23 498 516
+)
+"syscall_id.ml" 20 398 424 "syscall_id.ml" 20 398 425
+type(
+  t
+)
+ident(
+  int_ref x "syscall_id.ml" 20 398 412 "syscall_id.ml" 20 398 413
+)
+"syscall_id.ml" 20 398 426 "syscall_id.ml" 20 398 427
+type(
+  t
+)
+ident(
+  int_ref y "syscall_id.ml" 20 398 414 "syscall_id.ml" 20 398 415
+)
+"syscall_id.ml" 20 398 424 "syscall_id.ml" 20 398 427
+type(
+  t * t
+)
+"syscall_id.ml" 21 433 441 "syscall_id.ml" 21 433 444
+type(
+  t
+)
+"syscall_id.ml" 21 433 446 "syscall_id.ml" 21 433 449
+type(
+  t
+)
+"syscall_id.ml" 21 433 441 "syscall_id.ml" 21 433 449
+type(
+  t * t
+)
+"syscall_id.ml" 21 433 453 "syscall_id.ml" 21 433 457
+type(
+  bool
+)
+"syscall_id.ml" 22 458 470 "syscall_id.ml" 22 458 472
+type(
+  S.t
+)
+ident(
+  def s1 "syscall_id.ml" 22 458 484 "syscall_id.ml" 22 458 497
+)
+"syscall_id.ml" 22 458 466 "syscall_id.ml" 22 458 472
+type(
+  t
+)
+"syscall_id.ml" 22 458 478 "syscall_id.ml" 22 458 480
+type(
+  S.t
+)
+ident(
+  def s2 "syscall_id.ml" 22 458 484 "syscall_id.ml" 22 458 497
+)
+"syscall_id.ml" 22 458 474 "syscall_id.ml" 22 458 480
+type(
+  t
+)
+"syscall_id.ml" 22 458 466 "syscall_id.ml" 22 458 480
+type(
+  t * t
+)
+"syscall_id.ml" 22 458 484 "syscall_id.ml" 22 458 491
+type(
+  S.t -> S.t -> bool
+)
+ident(
+  ext_ref S.equal
+)
+"syscall_id.ml" 22 458 492 "syscall_id.ml" 22 458 494
+type(
+  S.t
+)
+ident(
+  int_ref s1 "syscall_id.ml" 22 458 470 "syscall_id.ml" 22 458 472
+)
+"syscall_id.ml" 22 458 495 "syscall_id.ml" 22 458 497
+type(
+  S.t
+)
+ident(
+  int_ref s2 "syscall_id.ml" 22 458 478 "syscall_id.ml" 22 458 480
+)
+"syscall_id.ml" 22 458 484 "syscall_id.ml" 22 458 497
+call(
+  tail
+)
+type(
+  bool
+)
+"syscall_id.ml" 23 498 506 "syscall_id.ml" 23 498 507
+type(
+  t * t
+)
+"syscall_id.ml" 23 498 511 "syscall_id.ml" 23 498 516
+type(
+  bool
+)
+"syscall_id.ml" 20 398 418 "syscall_id.ml" 23 498 516
+type(
+  bool
+)
+"syscall_id.ml" 24 517 525 "syscall_id.ml" 24 517 529
+type(
+  t -> t -> t
+)
+ident(
+  def meet "syscall_id.ml" 27 591 636 "syscall_id.ml" 28 637 642
+)
+"syscall_id.ml" 24 517 530 "syscall_id.ml" 24 517 531
+type(
+  t
+)
+ident(
+  def x "syscall_id.ml" 24 517 532 "syscall_id.ml" 27 591 636
+)
+"syscall_id.ml" 24 517 532 "syscall_id.ml" 24 517 533
+type(
+  t
+)
+ident(
+  def y "syscall_id.ml" 24 517 536 "syscall_id.ml" 27 591 636
+)
+"syscall_id.ml" 24 517 542 "syscall_id.ml" 24 517 543
+type(
+  t
+)
+ident(
+  int_ref x "syscall_id.ml" 24 517 530 "syscall_id.ml" 24 517 531
+)
+"syscall_id.ml" 24 517 544 "syscall_id.ml" 24 517 545
+type(
+  t
+)
+ident(
+  int_ref y "syscall_id.ml" 24 517 532 "syscall_id.ml" 24 517 533
+)
+"syscall_id.ml" 24 517 542 "syscall_id.ml" 24 517 545
+type(
+  t * t
+)
+"syscall_id.ml" 25 551 559 "syscall_id.ml" 25 551 562
+type(
+  t
+)
+"syscall_id.ml" 25 551 564 "syscall_id.ml" 25 551 565
+type(
+  t
+)
+ident(
+  def x "syscall_id.ml" 25 551 569 "syscall_id.ml" 25 551 570
+)
+"syscall_id.ml" 25 551 559 "syscall_id.ml" 25 551 565
+type(
+  t * t
+)
+"syscall_id.ml" 25 551 569 "syscall_id.ml" 25 551 570
+type(
+  t
+)
+ident(
+  int_ref x "syscall_id.ml" 25 551 564 "syscall_id.ml" 25 551 565
+)
+"syscall_id.ml" 26 571 579 "syscall_id.ml" 26 571 580
+type(
+  t
+)
+ident(
+  def x "syscall_id.ml" 26 571 589 "syscall_id.ml" 26 571 590
+)
+"syscall_id.ml" 26 571 582 "syscall_id.ml" 26 571 585
+type(
+  t
+)
+"syscall_id.ml" 26 571 579 "syscall_id.ml" 26 571 585
+type(
+  t * t
+)
+"syscall_id.ml" 26 571 589 "syscall_id.ml" 26 571 590
+type(
+  t
+)
+ident(
+  int_ref x "syscall_id.ml" 26 571 579 "syscall_id.ml" 26 571 580
+)
+"syscall_id.ml" 27 591 603 "syscall_id.ml" 27 591 605
+type(
+  S.t
+)
+ident(
+  def s1 "syscall_id.ml" 27 591 617 "syscall_id.ml" 27 591 636
+)
+"syscall_id.ml" 27 591 599 "syscall_id.ml" 27 591 605
+type(
+  t
+)
+"syscall_id.ml" 27 591 611 "syscall_id.ml" 27 591 613
+type(
+  S.t
+)
+ident(
+  def s2 "syscall_id.ml" 27 591 617 "syscall_id.ml" 27 591 636
+)
+"syscall_id.ml" 27 591 607 "syscall_id.ml" 27 591 613
+type(
+  t
+)
+"syscall_id.ml" 27 591 599 "syscall_id.ml" 27 591 613
+type(
+  t * t
+)
+"syscall_id.ml" 27 591 622 "syscall_id.ml" 27 591 629
+type(
+  S.t -> S.t -> S.t
+)
+ident(
+  ext_ref S.union
+)
+"syscall_id.ml" 27 591 630 "syscall_id.ml" 27 591 632
+type(
+  S.t
+)
+ident(
+  int_ref s1 "syscall_id.ml" 27 591 603 "syscall_id.ml" 27 591 605
+)
+"syscall_id.ml" 27 591 633 "syscall_id.ml" 27 591 635
+type(
+  S.t
+)
+ident(
+  int_ref s2 "syscall_id.ml" 27 591 611 "syscall_id.ml" 27 591 613
+)
+"syscall_id.ml" 27 591 621 "syscall_id.ml" 27 591 636
+call(
+  stack
+)
+type(
+  S.t
+)
+"syscall_id.ml" 27 591 617 "syscall_id.ml" 27 591 636
+type(
+  t
+)
+"syscall_id.ml" 24 517 536 "syscall_id.ml" 27 591 636
+type(
+  t
+)
+"syscall_id.ml" 31 681 687 "syscall_id.ml" 31 681 709
+type(
+  'a -> Cfg.AST.G.t -> Cfg.AST.G.V.t -> L.t -> L.t
+)
+ident(
+  def node_transfer_function "syscall_id.ml" 49 1345 1347 "syscall_id.ml" 61 1737 1740
+)
+"syscall_id.ml" 31 681 710 "syscall_id.ml" 31 681 711
+type(
+  'a
+)
+"syscall_id.ml" 31 681 712 "syscall_id.ml" 31 681 713
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def g "syscall_id.ml" 31 681 714 "syscall_id.ml" 48 1302 1344
+)
+"syscall_id.ml" 31 681 714 "syscall_id.ml" 31 681 715
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  def n "syscall_id.ml" 31 681 716 "syscall_id.ml" 48 1302 1344
+)
+"syscall_id.ml" 31 681 716 "syscall_id.ml" 31 681 720
+type(
+  L.t
+)
+ident(
+  def init "syscall_id.ml" 32 723 727 "syscall_id.ml" 48 1302 1344
+)
+"syscall_id.ml" 32 723 731 "syscall_id.ml" 32 723 736
+type(
+  Cfg.AST.lang
+)
+"syscall_id.ml" 32 723 739 "syscall_id.ml" 32 723 756
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.V.t -> Cfg.AST.lang
+)
+ident(
+  ext_ref Cfg.AST.get_stmts
+)
+"syscall_id.ml" 32 723 757 "syscall_id.ml" 32 723 758
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "syscall_id.ml" 31 681 712 "syscall_id.ml" 31 681 713
+)
+"syscall_id.ml" 32 723 759 "syscall_id.ml" 32 723 760
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref n "syscall_id.ml" 31 681 714 "syscall_id.ml" 31 681 715
+)
+"syscall_id.ml" 32 723 739 "syscall_id.ml" 32 723 760
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"syscall_id.ml" 33 764 772 "syscall_id.ml" 33 764 784
+type(
+  L.t -> Ast.stmt -> L.t
+)
+"syscall_id.ml" 33 764 785 "syscall_id.ml" 33 764 786
+type(
+  L.t
+)
+ident(
+  def a "syscall_id.ml" 33 764 787 "syscall_id.ml" 38 952 966
+)
+"syscall_id.ml" 33 764 787 "syscall_id.ml" 33 764 788
+type(
+  Ast.stmt
+)
+ident(
+  def s "syscall_id.ml" 33 764 791 "syscall_id.ml" 38 952 966
+)
+"syscall_id.ml" 33 764 797 "syscall_id.ml" 33 764 798
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "syscall_id.ml" 33 764 787 "syscall_id.ml" 33 764 788
+)
+"syscall_id.ml" 34 804 817 "syscall_id.ml" 34 804 818
+type(
+  Ast.var
+)
+ident(
+  def v "syscall_id.ml" 34 804 834 "syscall_id.ml" 35 856 884
+)
+"syscall_id.ml" 34 804 824 "syscall_id.ml" 34 804 825
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "syscall_id.ml" 34 804 834 "syscall_id.ml" 35 856 884
+)
+"syscall_id.ml" 34 804 827 "syscall_id.ml" 34 804 828
+type(
+  Type.typ
+)
+ident(
+  def t "syscall_id.ml" 34 804 834 "syscall_id.ml" 35 856 884
+)
+"syscall_id.ml" 34 804 823 "syscall_id.ml" 34 804 829
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"syscall_id.ml" 34 804 820 "syscall_id.ml" 34 804 829
+type(
+  Ast.exp
+)
+"syscall_id.ml" 34 804 831 "syscall_id.ml" 34 804 832
+type(
+  Ast.attrs
+)
+"syscall_id.ml" 34 804 816 "syscall_id.ml" 34 804 833
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"syscall_id.ml" 34 804 812 "syscall_id.ml" 34 804 833
+type(
+  Ast.stmt
+)
+"syscall_id.ml" 34 804 839 "syscall_id.ml" 34 804 840
+type(
+  Ast.var
+)
+ident(
+  int_ref v "syscall_id.ml" 34 804 817 "syscall_id.ml" 34 804 818
+)
+"syscall_id.ml" 34 804 840 "syscall_id.ml" 34 804 841
+type(
+  Ast.var -> Ast.var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"syscall_id.ml" 34 804 841 "syscall_id.ml" 34 804 852
+type(
+  Ast.var
+)
+ident(
+  int_ref syscall_reg "syscall_id.ml" 11 207 211 "syscall_id.ml" 11 207 222
+)
+"syscall_id.ml" 34 804 839 "syscall_id.ml" 34 804 852
+type(
+  bool
+)
+"syscall_id.ml" 35 856 870 "syscall_id.ml" 35 856 881
+type(
+  S.elt -> S.t
+)
+ident(
+  ext_ref S.singleton
+)
+"syscall_id.ml" 35 856 882 "syscall_id.ml" 35 856 883
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "syscall_id.ml" 34 804 824 "syscall_id.ml" 34 804 825
+)
+"syscall_id.ml" 35 856 869 "syscall_id.ml" 35 856 884
+call(
+  stack
+)
+type(
+  S.t
+)
+"syscall_id.ml" 35 856 864 "syscall_id.ml" 35 856 884
+type(
+  L.t
+)
+"syscall_id.ml" 34 804 834 "syscall_id.ml" 35 856 884
+type(
+  L.t
+)
+"syscall_id.ml" 36 885 898 "syscall_id.ml" 36 885 899
+type(
+  Ast.var
+)
+ident(
+  def v "syscall_id.ml" 36 885 907 "syscall_id.ml" 37 929 951
+)
+"syscall_id.ml" 36 885 901 "syscall_id.ml" 36 885 902
+type(
+  Ast.exp
+)
+"syscall_id.ml" 36 885 904 "syscall_id.ml" 36 885 905
+type(
+  Ast.attrs
+)
+"syscall_id.ml" 36 885 897 "syscall_id.ml" 36 885 906
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"syscall_id.ml" 36 885 893 "syscall_id.ml" 36 885 906
+type(
+  Ast.stmt
+)
+"syscall_id.ml" 36 885 912 "syscall_id.ml" 36 885 913
+type(
+  Ast.var
+)
+ident(
+  int_ref v "syscall_id.ml" 36 885 898 "syscall_id.ml" 36 885 899
+)
+"syscall_id.ml" 36 885 913 "syscall_id.ml" 36 885 914
+type(
+  Ast.var -> Ast.var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"syscall_id.ml" 36 885 914 "syscall_id.ml" 36 885 925
+type(
+  Ast.var
+)
+ident(
+  int_ref syscall_reg "syscall_id.ml" 11 207 211 "syscall_id.ml" 11 207 222
+)
+"syscall_id.ml" 36 885 912 "syscall_id.ml" 36 885 925
+type(
+  bool
+)
+"syscall_id.ml" 37 929 942 "syscall_id.ml" 37 929 951
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"syscall_id.ml" 37 929 937 "syscall_id.ml" 37 929 951
+type(
+  L.t
+)
+"syscall_id.ml" 36 885 907 "syscall_id.ml" 37 929 951
+type(
+  L.t
+)
+"syscall_id.ml" 38 952 960 "syscall_id.ml" 38 952 961
+type(
+  Ast.stmt
+)
+"syscall_id.ml" 38 952 965 "syscall_id.ml" 38 952 966
+type(
+  L.t
+)
+ident(
+  int_ref a "syscall_id.ml" 33 764 785 "syscall_id.ml" 33 764 786
+)
+"syscall_id.ml" 33 764 791 "syscall_id.ml" 38 952 966
+type(
+  L.t
+)
+"syscall_id.ml" 48 1302 1306 "syscall_id.ml" 48 1302 1320
+type(
+  (L.t -> Cfg.AST.stmt -> L.t) -> L.t -> Cfg.AST.lang -> L.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"syscall_id.ml" 48 1302 1321 "syscall_id.ml" 48 1302 1333
+type(
+  L.t -> Cfg.AST.stmt -> L.t
+)
+ident(
+  int_ref process_stmt "syscall_id.ml" 33 764 772 "syscall_id.ml" 33 764 784
+)
+"syscall_id.ml" 48 1302 1334 "syscall_id.ml" 48 1302 1338
+type(
+  L.t
+)
+ident(
+  int_ref init "syscall_id.ml" 31 681 716 "syscall_id.ml" 31 681 720
+)
+"syscall_id.ml" 48 1302 1339 "syscall_id.ml" 48 1302 1344
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref stmts "syscall_id.ml" 32 723 731 "syscall_id.ml" 32 723 736
+)
+"syscall_id.ml" 48 1302 1306 "syscall_id.ml" 48 1302 1344
+call(
+  tail
+)
+type(
+  L.t
+)
+"syscall_id.ml" 33 764 768 "syscall_id.ml" 48 1302 1344
+type(
+  L.t
+)
+"syscall_id.ml" 32 723 727 "syscall_id.ml" 48 1302 1344
+type(
+  L.t
+)
+"syscall_id.ml" 49 1345 1351 "syscall_id.ml" 49 1345 1373
+type(
+  'b -> 'c -> 'd -> 'e -> 'e
+)
+ident(
+  def edge_transfer_function "syscall_id.ml" 50 1390 1392 "syscall_id.ml" 61 1737 1740
+)
+"syscall_id.ml" 49 1345 1374 "syscall_id.ml" 49 1345 1375
+type(
+  'b
+)
+"syscall_id.ml" 49 1345 1376 "syscall_id.ml" 49 1345 1377
+type(
+  'c
+)
+ident(
+  def g "syscall_id.ml" 49 1345 1378 "syscall_id.ml" 49 1345 1389
+)
+"syscall_id.ml" 49 1345 1378 "syscall_id.ml" 49 1345 1379
+type(
+  'd
+)
+ident(
+  def e "syscall_id.ml" 49 1345 1382 "syscall_id.ml" 49 1345 1389
+)
+"syscall_id.ml" 49 1345 1382 "syscall_id.ml" 49 1345 1389
+type(
+  'e -> 'e
+)
+ident(
+  ext_ref Util.id
+)
+"syscall_id.ml" 50 1390 1396 "syscall_id.ml" 50 1390 1398
+type(
+  'f -> Cfg.AST.G.t -> Cfg.AST.G.V.t
+)
+ident(
+  def s0 "syscall_id.ml" 58 1668 1670 "syscall_id.ml" 61 1737 1740
+)
+"syscall_id.ml" 50 1390 1399 "syscall_id.ml" 50 1390 1400
+type(
+  'f
+)
+"syscall_id.ml" 50 1390 1401 "syscall_id.ml" 50 1390 1402
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def g "syscall_id.ml" 57 1638 1642 "syscall_id.ml" 57 1638 1667
+)
+"syscall_id.ml" 57 1638 1642 "syscall_id.ml" 57 1638 1645
+type(
+  Cfg.AST.G.t * Cfg.AST.G.V.t -> Cfg.AST.G.V.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"syscall_id.ml" 57 1638 1646 "syscall_id.ml" 57 1638 1664
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t * Cfg.AST.G.V.t
+)
+ident(
+  ext_ref Cfg_ast.find_entry
+)
+"syscall_id.ml" 57 1638 1665 "syscall_id.ml" 57 1638 1666
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref g "syscall_id.ml" 50 1390 1401 "syscall_id.ml" 50 1390 1402
+)
+"syscall_id.ml" 57 1638 1645 "syscall_id.ml" 57 1638 1667
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t * Cfg.AST.G.V.t
+)
+"syscall_id.ml" 57 1638 1642 "syscall_id.ml" 57 1638 1667
+type(
+  Cfg.AST.G.V.t
+)
+"syscall_id.ml" 58 1668 1674 "syscall_id.ml" 58 1668 1678
+type(
+  'g -> 'h -> L.t
+)
+ident(
+  def init "syscall_id.ml" 59 1700 1702 "syscall_id.ml" 61 1737 1740
+)
+"syscall_id.ml" 58 1668 1679 "syscall_id.ml" 58 1668 1680
+type(
+  'g
+)
+"syscall_id.ml" 58 1668 1681 "syscall_id.ml" 58 1668 1682
+type(
+  'h
+)
+"syscall_id.ml" 58 1668 1690 "syscall_id.ml" 58 1668 1699
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"syscall_id.ml" 58 1668 1685 "syscall_id.ml" 58 1668 1699
+type(
+  L.t
+)
+"syscall_id.ml" 59 1700 1706 "syscall_id.ml" 59 1700 1709
+type(
+  'i -> GraphDataflow.direction
+)
+ident(
+  def dir "syscall_id.ml" 59 1700 1735 "syscall_id.ml" 61 1737 1740
+)
+"syscall_id.ml" 59 1700 1710 "syscall_id.ml" 59 1700 1711
+type(
+  'i
+)
+"syscall_id.ml" 59 1700 1714 "syscall_id.ml" 59 1700 1735
+type(
+  GraphDataflow.direction
+)
+"syscall_id.ml" 63 1742 1754 "syscall_id.ml" 63 1742 1780
+call(
+  stack
+)
+"syscall_id.ml" 65 1782 1786 "syscall_id.ml" 65 1782 1799
+type(
+  DFSPEC.G.t -> (DFSPEC.G.V.t * S.elt list) list
+)
+ident(
+  def find_syscalls "syscall_id.ml" 90 2667 2710 --
+)
+"syscall_id.ml" 65 1782 1800 "syscall_id.ml" 65 1782 1801
+type(
+  DFSPEC.G.t
+)
+ident(
+  def g "syscall_id.ml" 66 1804 1806 "syscall_id.ml" 90 2667 2710
+)
+"syscall_id.ml" 66 1804 1810 "syscall_id.ml" 66 1804 1813
+type(
+  DFSPEC.G.V.t -> DFSPEC.L.t
+)
+"syscall_id.ml" 66 1804 1815 "syscall_id.ml" 66 1804 1818
+type(
+  DFSPEC.G.V.t -> DFSPEC.L.t
+)
+"syscall_id.ml" 66 1804 1810 "syscall_id.ml" 66 1804 1818
+type(
+  (DFSPEC.G.V.t -> DFSPEC.L.t) * (DFSPEC.G.V.t -> DFSPEC.L.t)
+)
+"syscall_id.ml" 66 1804 1821 "syscall_id.ml" 66 1804 1840
+type(
+  ?init:(DFSPEC.O.t -> DFSPEC.G.t -> DFSPEC.L.t) ->
+  ?opts:DFSPEC.O.t ->
+  DFSPEC.G.t -> (DFSPEC.G.V.t -> DFSPEC.L.t) * (DFSPEC.G.V.t -> DFSPEC.L.t)
+)
+ident(
+  ext_ref DF.worklist_iterate
+)
+"syscall_id.ml" 66 1804 1841 "syscall_id.ml" 66 1804 1842
+type(
+  DFSPEC.G.t
+)
+ident(
+  int_ref g "syscall_id.ml" 65 1782 1800 "syscall_id.ml" 65 1782 1801
+)
+"syscall_id.ml" 66 1804 1821 "syscall_id.ml" 66 1804 1842
+call(
+  stack
+)
+type(
+  (DFSPEC.G.V.t -> DFSPEC.L.t) * (DFSPEC.G.V.t -> DFSPEC.L.t)
+)
+"syscall_id.ml" 67 1846 1852 "syscall_id.ml" 67 1846 1866
+type(
+  DFSPEC.G.V.t ->
+  (DFSPEC.G.V.t * S.elt list) list -> (DFSPEC.G.V.t * S.elt list) list
+)
+"syscall_id.ml" 67 1846 1867 "syscall_id.ml" 67 1846 1868
+type(
+  DFSPEC.G.V.t
+)
+ident(
+  def n "syscall_id.ml" 67 1846 1869 "syscall_id.ml" 88 2654 2661
+)
+"syscall_id.ml" 67 1846 1869 "syscall_id.ml" 67 1846 1870
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+ident(
+  def a "syscall_id.ml" 68 1873 1877 "syscall_id.ml" 88 2654 2661
+)
+"syscall_id.ml" 68 1873 1883 "syscall_id.ml" 68 1873 1886
+type(
+  DFSPEC.G.V.t -> DFSPEC.L.t
+)
+ident(
+  int_ref out "syscall_id.ml" 66 1804 1815 "syscall_id.ml" 66 1804 1818
+)
+"syscall_id.ml" 68 1873 1887 "syscall_id.ml" 68 1873 1888
+type(
+  DFSPEC.G.V.t
+)
+ident(
+  int_ref n "syscall_id.ml" 67 1846 1867 "syscall_id.ml" 67 1846 1868
+)
+"syscall_id.ml" 68 1873 1883 "syscall_id.ml" 68 1873 1888
+call(
+  stack
+)
+type(
+  DFSPEC.L.t
+)
+"syscall_id.ml" 80 2319 2338 "syscall_id.ml" 80 2319 2339
+type(
+  S.t
+)
+ident(
+  def s "syscall_id.ml" 81 2343 2349 "syscall_id.ml" 86 2629 2641
+)
+"syscall_id.ml" 80 2319 2325 "syscall_id.ml" 80 2319 2339
+type(
+  DFSPEC.L.t
+)
+"syscall_id.ml" 81 2343 2353 "syscall_id.ml" 81 2343 2358
+type(
+  Cfg.AST.lang
+)
+"syscall_id.ml" 81 2343 2361 "syscall_id.ml" 81 2343 2378
+type(
+  DFSPEC.G.t -> DFSPEC.G.V.t -> Cfg.AST.lang
+)
+ident(
+  ext_ref Cfg.AST.get_stmts
+)
+"syscall_id.ml" 81 2343 2379 "syscall_id.ml" 81 2343 2380
+type(
+  DFSPEC.G.t
+)
+ident(
+  int_ref g "syscall_id.ml" 65 1782 1800 "syscall_id.ml" 65 1782 1801
+)
+"syscall_id.ml" 81 2343 2381 "syscall_id.ml" 81 2343 2382
+type(
+  DFSPEC.G.V.t
+)
+ident(
+  int_ref n "syscall_id.ml" 67 1846 1867 "syscall_id.ml" 67 1846 1868
+)
+"syscall_id.ml" 81 2343 2361 "syscall_id.ml" 81 2343 2382
+call(
+  stack
+)
+type(
+  Cfg.AST.lang
+)
+"syscall_id.ml" 83 2444 2453 "syscall_id.ml" 83 2444 2464
+type(
+  (Cfg.AST.stmt -> bool) -> Cfg.AST.lang -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"syscall_id.ml" 83 2444 2465 "syscall_id.ml" 83 2444 2475
+type(
+  Cfg.AST.stmt -> bool
+)
+ident(
+  ext_ref Ast.is_syscall
+)
+"syscall_id.ml" 83 2444 2476 "syscall_id.ml" 83 2444 2481
+type(
+  Cfg.AST.lang
+)
+ident(
+  int_ref stmts "syscall_id.ml" 81 2343 2353 "syscall_id.ml" 81 2343 2358
+)
+"syscall_id.ml" 83 2444 2453 "syscall_id.ml" 83 2444 2481
+call(
+  stack
+)
+type(
+  bool
+)
+"syscall_id.ml" 85 2600 2609 "syscall_id.ml" 85 2600 2610
+type(
+  DFSPEC.G.V.t
+)
+ident(
+  int_ref n "syscall_id.ml" 67 1846 1867 "syscall_id.ml" 67 1846 1868
+)
+"syscall_id.ml" 85 2600 2612 "syscall_id.ml" 85 2600 2622
+type(
+  S.t -> S.elt list
+)
+ident(
+  ext_ref S.elements
+)
+"syscall_id.ml" 85 2600 2623 "syscall_id.ml" 85 2600 2624
+type(
+  S.t
+)
+ident(
+  int_ref s "syscall_id.ml" 80 2319 2338 "syscall_id.ml" 80 2319 2339
+)
+"syscall_id.ml" 85 2600 2612 "syscall_id.ml" 85 2600 2624
+call(
+  stack
+)
+type(
+  S.elt list
+)
+"syscall_id.ml" 85 2600 2608 "syscall_id.ml" 85 2600 2625
+type(
+  DFSPEC.G.V.t * S.elt list
+)
+"syscall_id.ml" 85 2600 2627 "syscall_id.ml" 85 2600 2628
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+ident(
+  int_ref a "syscall_id.ml" 67 1846 1869 "syscall_id.ml" 67 1846 1870
+)
+"syscall_id.ml" 85 2600 2608 "syscall_id.ml" 85 2600 2628
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+"syscall_id.ml" 86 2629 2640 "syscall_id.ml" 86 2629 2641
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+ident(
+  int_ref a "syscall_id.ml" 67 1846 1869 "syscall_id.ml" 67 1846 1870
+)
+"syscall_id.ml" 83 2444 2450 "syscall_id.ml" 86 2629 2641
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+"syscall_id.ml" 81 2343 2349 "syscall_id.ml" 86 2629 2641
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+"syscall_id.ml" 87 2642 2648 "syscall_id.ml" 87 2642 2649
+type(
+  DFSPEC.L.t
+)
+"syscall_id.ml" 88 2654 2660 "syscall_id.ml" 88 2654 2661
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+ident(
+  int_ref a "syscall_id.ml" 67 1846 1869 "syscall_id.ml" 67 1846 1870
+)
+"syscall_id.ml" 68 1873 1877 "syscall_id.ml" 88 2654 2661
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+"syscall_id.ml" 90 2667 2669 "syscall_id.ml" 90 2667 2690
+type(
+  (Cfg.AST.G.vertex ->
+   (DFSPEC.G.V.t * S.elt list) list -> (DFSPEC.G.V.t * S.elt list) list) ->
+  DFSPEC.G.t ->
+  (DFSPEC.G.V.t * S.elt list) list -> (DFSPEC.G.V.t * S.elt list) list
+)
+ident(
+  ext_ref Cfg.AST.G.fold_vertex
+)
+"syscall_id.ml" 90 2667 2691 "syscall_id.ml" 90 2667 2705
+type(
+  Cfg.AST.G.vertex ->
+  (DFSPEC.G.V.t * S.elt list) list -> (DFSPEC.G.V.t * S.elt list) list
+)
+ident(
+  int_ref process_vertex "syscall_id.ml" 67 1846 1852 "syscall_id.ml" 67 1846 1866
+)
+"syscall_id.ml" 90 2667 2706 "syscall_id.ml" 90 2667 2707
+type(
+  DFSPEC.G.t
+)
+ident(
+  int_ref g "syscall_id.ml" 65 1782 1800 "syscall_id.ml" 65 1782 1801
+)
+"syscall_id.ml" 90 2667 2708 "syscall_id.ml" 90 2667 2710
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+"syscall_id.ml" 90 2667 2669 "syscall_id.ml" 90 2667 2710
+call(
+  tail
+)
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+"syscall_id.ml" 67 1846 1848 "syscall_id.ml" 90 2667 2710
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)
+"syscall_id.ml" 66 1804 1806 "syscall_id.ml" 90 2667 2710
+type(
+  (DFSPEC.G.V.t * S.elt list) list
+)

@@ -1,0 +1,1451 @@
+"src/minsep.ml" 45 1989 2002 "src/minsep.ml" 45 1989 2023
+call(
+  stack
+)
+"src/minsep.ml" 47 2059 2078 "src/minsep.ml" 47 2059 2098
+call(
+  stack
+)
+"src/minsep.ml" 49 2100 2106 "src/minsep.ml" 49 2100 2120
+type(
+  G.t -> N.Vertex_Set.t list
+)
+ident(
+  def initialisation "src/minsep.ml" 60 2387 2389 "src/minsep.ml" 93 3315 3318
+)
+"src/minsep.ml" 49 2100 2121 "src/minsep.ml" 49 2100 2122
+type(
+  G.t
+)
+ident(
+  def g "src/minsep.ml" 50 2125 2129 "src/minsep.ml" 58 2375 2385
+)
+"src/minsep.ml" 50 2125 2133 "src/minsep.ml" 50 2125 2135
+type(
+  G.V.t list -> G.V.t list list
+)
+"src/minsep.ml" 50 2125 2138 "src/minsep.ml" 50 2125 2142
+type(
+  G.t -> G.V.t list -> G.V.t list list
+)
+ident(
+  ext_ref G.cc
+)
+"src/minsep.ml" 50 2125 2143 "src/minsep.ml" 50 2125 2144
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 49 2100 2121 "src/minsep.ml" 49 2100 2122
+)
+"src/minsep.ml" 50 2125 2138 "src/minsep.ml" 50 2125 2144
+call(
+  stack
+)
+type(
+  G.V.t list -> G.V.t list list
+)
+"src/minsep.ml" 51 2148 2156 "src/minsep.ml" 51 2148 2169
+type(
+  G.V.t -> G.V.t list
+)
+"src/minsep.ml" 51 2148 2172 "src/minsep.ml" 51 2148 2190
+type(
+  G.t -> G.V.t -> G.V.t list
+)
+ident(
+  ext_ref N.list_from_vertex
+)
+"src/minsep.ml" 51 2148 2191 "src/minsep.ml" 51 2148 2192
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 49 2100 2121 "src/minsep.ml" 49 2100 2122
+)
+"src/minsep.ml" 51 2148 2172 "src/minsep.ml" 51 2148 2192
+call(
+  stack
+)
+type(
+  G.V.t -> G.V.t list
+)
+"src/minsep.ml" 52 2196 2204 "src/minsep.ml" 52 2196 2218
+type(
+  G.V.t list -> N.Vertex_Set.t
+)
+"src/minsep.ml" 52 2196 2221 "src/minsep.ml" 52 2196 2240
+type(
+  G.t -> G.V.t list -> N.Vertex_Set.t
+)
+ident(
+  ext_ref N.set_from_vertices
+)
+"src/minsep.ml" 52 2196 2241 "src/minsep.ml" 52 2196 2242
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 49 2100 2121 "src/minsep.ml" 49 2100 2122
+)
+"src/minsep.ml" 52 2196 2221 "src/minsep.ml" 52 2196 2242
+call(
+  stack
+)
+type(
+  G.V.t list -> N.Vertex_Set.t
+)
+"src/minsep.ml" 53 2246 2250 "src/minsep.ml" 53 2246 2263
+type(
+  (G.V.t -> N.Vertex_Set.t list -> N.Vertex_Set.t list) ->
+  G.t -> N.Vertex_Set.t list -> N.Vertex_Set.t list
+)
+ident(
+  ext_ref G.fold_vertex
+)
+"src/minsep.ml" 54 2264 2275 "src/minsep.ml" 54 2264 2276
+type(
+  G.V.t
+)
+ident(
+  def v "src/minsep.ml" 54 2264 2277 "src/minsep.ml" 57 2340 2373
+)
+"src/minsep.ml" 54 2264 2277 "src/minsep.ml" 54 2264 2278
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  def s "src/minsep.ml" 55 2283 2285 "src/minsep.ml" 57 2340 2373
+)
+"src/minsep.ml" 55 2283 2285 "src/minsep.ml" 55 2283 2299
+type(
+  (N.Vertex_Set.t list -> G.V.t list -> N.Vertex_Set.t list) ->
+  N.Vertex_Set.t list -> G.V.t list list -> N.Vertex_Set.t list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/minsep.ml" 56 2301 2310 "src/minsep.ml" 56 2301 2311
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  def s "src/minsep.ml" 56 2301 2312 "src/minsep.ml" 56 2301 2338
+)
+"src/minsep.ml" 56 2301 2312 "src/minsep.ml" 56 2301 2313
+type(
+  G.V.t list
+)
+ident(
+  def l "src/minsep.ml" 56 2301 2317 "src/minsep.ml" 56 2301 2338
+)
+"src/minsep.ml" 56 2301 2317 "src/minsep.ml" 56 2301 2331
+type(
+  G.V.t list -> N.Vertex_Set.t
+)
+ident(
+  int_ref neighbourhoods "src/minsep.ml" 52 2196 2204 "src/minsep.ml" 52 2196 2218
+)
+"src/minsep.ml" 56 2301 2332 "src/minsep.ml" 56 2301 2333
+type(
+  G.V.t list
+)
+ident(
+  int_ref l "src/minsep.ml" 56 2301 2312 "src/minsep.ml" 56 2301 2313
+)
+"src/minsep.ml" 56 2301 2317 "src/minsep.ml" 56 2301 2333
+call(
+  stack
+)
+type(
+  N.Vertex_Set.t
+)
+"src/minsep.ml" 56 2301 2337 "src/minsep.ml" 56 2301 2338
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  int_ref s "src/minsep.ml" 56 2301 2310 "src/minsep.ml" 56 2301 2311
+)
+"src/minsep.ml" 56 2301 2317 "src/minsep.ml" 56 2301 2338
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 56 2301 2305 "src/minsep.ml" 56 2301 2339
+type(
+  N.Vertex_Set.t list -> G.V.t list -> N.Vertex_Set.t list
+)
+"src/minsep.ml" 57 2340 2344 "src/minsep.ml" 57 2340 2345
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  int_ref s "src/minsep.ml" 54 2264 2277 "src/minsep.ml" 54 2264 2278
+)
+"src/minsep.ml" 57 2340 2347 "src/minsep.ml" 57 2340 2349
+type(
+  G.V.t list -> G.V.t list list
+)
+ident(
+  int_ref cc "src/minsep.ml" 50 2125 2133 "src/minsep.ml" 50 2125 2135
+)
+"src/minsep.ml" 57 2340 2351 "src/minsep.ml" 57 2340 2352
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/minsep.ml" 54 2264 2275 "src/minsep.ml" 54 2264 2276
+)
+"src/minsep.ml" 57 2340 2356 "src/minsep.ml" 57 2340 2369
+type(
+  G.V.t -> G.V.t list
+)
+ident(
+  int_ref neighbourhood "src/minsep.ml" 51 2148 2156 "src/minsep.ml" 51 2148 2169
+)
+"src/minsep.ml" 57 2340 2370 "src/minsep.ml" 57 2340 2371
+type(
+  G.V.t
+)
+ident(
+  int_ref v "src/minsep.ml" 54 2264 2275 "src/minsep.ml" 54 2264 2276
+)
+"src/minsep.ml" 57 2340 2356 "src/minsep.ml" 57 2340 2371
+call(
+  stack
+)
+type(
+  G.V.t list
+)
+"src/minsep.ml" 57 2340 2350 "src/minsep.ml" 57 2340 2372
+type(
+  G.V.t list
+)
+"src/minsep.ml" 57 2340 2346 "src/minsep.ml" 57 2340 2373
+call(
+  stack
+)
+type(
+  G.V.t list list
+)
+"src/minsep.ml" 55 2283 2285 "src/minsep.ml" 57 2340 2373
+call(
+  tail
+)
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 54 2264 2270 "src/minsep.ml" 57 2340 2374
+type(
+  G.V.t -> N.Vertex_Set.t list -> N.Vertex_Set.t list
+)
+"src/minsep.ml" 58 2375 2381 "src/minsep.ml" 58 2375 2382
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 49 2100 2121 "src/minsep.ml" 49 2100 2122
+)
+"src/minsep.ml" 58 2375 2383 "src/minsep.ml" 58 2375 2385
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 53 2246 2250 "src/minsep.ml" 58 2375 2385
+call(
+  tail
+)
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 52 2196 2200 "src/minsep.ml" 58 2375 2385
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 51 2148 2152 "src/minsep.ml" 58 2375 2385
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 50 2125 2129 "src/minsep.ml" 58 2375 2385
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 60 2387 2393 "src/minsep.ml" 60 2387 2403
+type(
+  G.t -> Vertex_Set.t list -> Vertex_Set.t list
+)
+ident(
+  def generation "src/minsep.ml" 85 3072 3074 "src/minsep.ml" 93 3315 3318
+)
+"src/minsep.ml" 60 2387 2404 "src/minsep.ml" 60 2387 2405
+type(
+  G.t
+)
+ident(
+  def g "src/minsep.ml" 61 2408 2412 "src/minsep.ml" 83 3023 3070
+)
+"src/minsep.ml" 61 2408 2416 "src/minsep.ml" 61 2408 2429
+type(
+  Vertex_Set.elt -> G.V.t list
+)
+"src/minsep.ml" 61 2408 2432 "src/minsep.ml" 61 2408 2450
+type(
+  G.t -> Vertex_Set.elt -> G.V.t list
+)
+ident(
+  ext_ref N.list_from_vertex
+)
+"src/minsep.ml" 61 2408 2451 "src/minsep.ml" 61 2408 2452
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 60 2387 2404 "src/minsep.ml" 60 2387 2405
+)
+"src/minsep.ml" 61 2408 2432 "src/minsep.ml" 61 2408 2452
+call(
+  stack
+)
+type(
+  Vertex_Set.elt -> G.V.t list
+)
+"src/minsep.ml" 62 2456 2464 "src/minsep.ml" 62 2456 2478
+type(
+  G.V.t list -> N.Vertex_Set.t
+)
+"src/minsep.ml" 62 2456 2481 "src/minsep.ml" 62 2456 2500
+type(
+  G.t -> G.V.t list -> N.Vertex_Set.t
+)
+ident(
+  ext_ref N.set_from_vertices
+)
+"src/minsep.ml" 62 2456 2501 "src/minsep.ml" 62 2456 2502
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 60 2387 2404 "src/minsep.ml" 60 2387 2405
+)
+"src/minsep.ml" 62 2456 2481 "src/minsep.ml" 62 2456 2502
+call(
+  stack
+)
+type(
+  G.V.t list -> N.Vertex_Set.t
+)
+"src/minsep.ml" 63 2506 2514 "src/minsep.ml" 63 2506 2516
+type(
+  Vertex_Set.elt list -> G.V.t list list
+)
+"src/minsep.ml" 63 2506 2519 "src/minsep.ml" 63 2506 2523
+type(
+  G.t -> Vertex_Set.elt list -> G.V.t list list
+)
+ident(
+  ext_ref G.cc
+)
+"src/minsep.ml" 63 2506 2524 "src/minsep.ml" 63 2506 2525
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 60 2387 2404 "src/minsep.ml" 60 2387 2405
+)
+"src/minsep.ml" 63 2506 2519 "src/minsep.ml" 63 2506 2525
+call(
+  stack
+)
+type(
+  Vertex_Set.elt list -> G.V.t list list
+)
+"src/minsep.ml" 64 2529 2541 "src/minsep.ml" 64 2529 2548
+type(
+  VSetset.t ->
+  N.Vertex_Set.t list -> Vertex_Set.t list -> N.Vertex_Set.t list
+)
+"src/minsep.ml" 64 2529 2549 "src/minsep.ml" 64 2529 2553
+type(
+  VSetset.t
+)
+ident(
+  def seen "src/minsep.ml" 64 2529 2554 "src/minsep.ml" 81 2992 3015
+)
+"src/minsep.ml" 64 2529 2554 "src/minsep.ml" 64 2529 2558
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  def bigs "src/minsep.ml" 64 2529 2561 "src/minsep.ml" 81 2992 3015
+)
+"src/minsep.ml" 65 2570 2578 "src/minsep.ml" 65 2570 2580
+type(
+  Vertex_Set.t list
+)
+"src/minsep.ml" 65 2570 2584 "src/minsep.ml" 65 2570 2588
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  int_ref bigs "src/minsep.ml" 64 2529 2554 "src/minsep.ml" 64 2529 2558
+)
+"src/minsep.ml" 66 2589 2597 "src/minsep.ml" 66 2589 2598
+type(
+  Vertex_Set.t
+)
+ident(
+  def s "src/minsep.ml" 67 2608 2611 "src/minsep.ml" 81 2992 3015
+)
+"src/minsep.ml" 66 2589 2602 "src/minsep.ml" 66 2589 2604
+type(
+  Vertex_Set.t list
+)
+ident(
+  def tl "src/minsep.ml" 67 2608 2611 "src/minsep.ml" 81 2992 3015
+)
+"src/minsep.ml" 66 2589 2597 "src/minsep.ml" 66 2589 2604
+type(
+  Vertex_Set.t list
+)
+"src/minsep.ml" 67 2608 2615 "src/minsep.ml" 67 2608 2616
+type(
+  Vertex_Set.elt list
+)
+"src/minsep.ml" 67 2608 2619 "src/minsep.ml" 67 2608 2638
+type(
+  Vertex_Set.t -> Vertex_Set.elt list
+)
+ident(
+  ext_ref Vertex_Set.elements
+)
+"src/minsep.ml" 67 2608 2639 "src/minsep.ml" 67 2608 2640
+type(
+  Vertex_Set.t
+)
+ident(
+  int_ref s "src/minsep.ml" 66 2589 2597 "src/minsep.ml" 66 2589 2598
+)
+"src/minsep.ml" 67 2608 2619 "src/minsep.ml" 67 2608 2640
+call(
+  stack
+)
+type(
+  Vertex_Set.elt list
+)
+"src/minsep.ml" 68 2644 2651 "src/minsep.ml" 68 2644 2655
+type(
+  VSetset.t
+)
+"src/minsep.ml" 68 2644 2658 "src/minsep.ml" 68 2644 2669
+type(
+  VSetset.elt -> VSetset.t -> VSetset.t
+)
+ident(
+  ext_ref VSetset.add
+)
+"src/minsep.ml" 68 2644 2670 "src/minsep.ml" 68 2644 2671
+type(
+  Vertex_Set.t
+)
+ident(
+  int_ref s "src/minsep.ml" 66 2589 2597 "src/minsep.ml" 66 2589 2598
+)
+"src/minsep.ml" 68 2644 2672 "src/minsep.ml" 68 2644 2676
+type(
+  VSetset.t
+)
+ident(
+  int_ref seen "src/minsep.ml" 64 2529 2549 "src/minsep.ml" 64 2529 2553
+)
+"src/minsep.ml" 68 2644 2658 "src/minsep.ml" 68 2644 2676
+call(
+  stack
+)
+type(
+  VSetset.t
+)
+"src/minsep.ml" 69 2680 2687 "src/minsep.ml" 69 2680 2691
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 69 2680 2693 "src/minsep.ml" 69 2680 2695
+type(
+  Vertex_Set.t list
+)
+"src/minsep.ml" 69 2680 2687 "src/minsep.ml" 69 2680 2695
+type(
+  N.Vertex_Set.t list * Vertex_Set.t list
+)
+"src/minsep.ml" 70 2698 2703 "src/minsep.ml" 70 2698 2718
+type(
+  (Vertex_Set.elt ->
+   N.Vertex_Set.t list * Vertex_Set.t list ->
+   N.Vertex_Set.t list * Vertex_Set.t list) ->
+  Vertex_Set.t ->
+  N.Vertex_Set.t list * Vertex_Set.t list ->
+  N.Vertex_Set.t list * Vertex_Set.t list
+)
+ident(
+  ext_ref Vertex_Set.fold
+)
+"src/minsep.ml" 71 2720 2732 "src/minsep.ml" 71 2720 2733
+type(
+  Vertex_Set.elt
+)
+ident(
+  def v "src/minsep.ml" 71 2720 2734 "src/minsep.ml" 78 2922 2964
+)
+"src/minsep.ml" 71 2720 2734 "src/minsep.ml" 71 2720 2735
+type(
+  N.Vertex_Set.t list * Vertex_Set.t list
+)
+ident(
+  def c "src/minsep.ml" 72 2739 2742 "src/minsep.ml" 78 2922 2964
+)
+"src/minsep.ml" 72 2739 2746 "src/minsep.ml" 72 2739 2764
+type(
+  N.Vertex_Set.t list * N.Vertex_Set.t list ->
+  G.V.t list -> N.Vertex_Set.t list * N.Vertex_Set.t list
+)
+"src/minsep.ml" 72 2739 2766 "src/minsep.ml" 72 2739 2770
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  def bigs "src/minsep.ml" 72 2739 2776 "src/minsep.ml" 74 2814 2872
+)
+"src/minsep.ml" 72 2739 2772 "src/minsep.ml" 72 2739 2774
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  def tl "src/minsep.ml" 72 2739 2776 "src/minsep.ml" 74 2814 2872
+)
+"src/minsep.ml" 72 2739 2765 "src/minsep.ml" 72 2739 2775
+type(
+  N.Vertex_Set.t list * N.Vertex_Set.t list
+)
+"src/minsep.ml" 72 2739 2776 "src/minsep.ml" 72 2739 2777
+type(
+  G.V.t list
+)
+ident(
+  def l "src/minsep.ml" 73 2781 2786 "src/minsep.ml" 74 2814 2872
+)
+"src/minsep.ml" 73 2781 2790 "src/minsep.ml" 73 2781 2791
+type(
+  N.Vertex_Set.t
+)
+"src/minsep.ml" 73 2781 2794 "src/minsep.ml" 73 2781 2808
+type(
+  G.V.t list -> N.Vertex_Set.t
+)
+ident(
+  int_ref neighbourhoods "src/minsep.ml" 62 2456 2464 "src/minsep.ml" 62 2456 2478
+)
+"src/minsep.ml" 73 2781 2809 "src/minsep.ml" 73 2781 2810
+type(
+  G.V.t list
+)
+ident(
+  int_ref l "src/minsep.ml" 72 2739 2776 "src/minsep.ml" 72 2739 2777
+)
+"src/minsep.ml" 73 2781 2794 "src/minsep.ml" 73 2781 2810
+call(
+  stack
+)
+type(
+  N.Vertex_Set.t
+)
+"src/minsep.ml" 74 2814 2819 "src/minsep.ml" 74 2814 2820
+type(
+  N.Vertex_Set.t
+)
+ident(
+  int_ref s "src/minsep.ml" 73 2781 2790 "src/minsep.ml" 73 2781 2791
+)
+"src/minsep.ml" 74 2814 2824 "src/minsep.ml" 74 2814 2828
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  int_ref bigs "src/minsep.ml" 72 2739 2766 "src/minsep.ml" 72 2739 2770
+)
+"src/minsep.ml" 74 2814 2819 "src/minsep.ml" 74 2814 2828
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 74 2814 2833 "src/minsep.ml" 74 2814 2844
+type(
+  VSetset.elt -> VSetset.t -> bool
+)
+ident(
+  ext_ref VSetset.mem
+)
+"src/minsep.ml" 74 2814 2845 "src/minsep.ml" 74 2814 2846
+type(
+  N.Vertex_Set.t
+)
+ident(
+  int_ref s "src/minsep.ml" 73 2781 2790 "src/minsep.ml" 73 2781 2791
+)
+"src/minsep.ml" 74 2814 2847 "src/minsep.ml" 74 2814 2851
+type(
+  VSetset.t
+)
+ident(
+  int_ref seen "src/minsep.ml" 68 2644 2651 "src/minsep.ml" 68 2644 2655
+)
+"src/minsep.ml" 74 2814 2833 "src/minsep.ml" 74 2814 2851
+call(
+  stack
+)
+type(
+  bool
+)
+"src/minsep.ml" 74 2814 2857 "src/minsep.ml" 74 2814 2859
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  int_ref tl "src/minsep.ml" 72 2739 2772 "src/minsep.ml" 72 2739 2774
+)
+"src/minsep.ml" 74 2814 2865 "src/minsep.ml" 74 2814 2866
+type(
+  N.Vertex_Set.t
+)
+ident(
+  int_ref s "src/minsep.ml" 73 2781 2790 "src/minsep.ml" 73 2781 2791
+)
+"src/minsep.ml" 74 2814 2870 "src/minsep.ml" 74 2814 2872
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  int_ref tl "src/minsep.ml" 72 2739 2772 "src/minsep.ml" 72 2739 2774
+)
+"src/minsep.ml" 74 2814 2865 "src/minsep.ml" 74 2814 2872
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 74 2814 2830 "src/minsep.ml" 74 2814 2872
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 74 2814 2819 "src/minsep.ml" 74 2814 2872
+type(
+  N.Vertex_Set.t list * N.Vertex_Set.t list
+)
+"src/minsep.ml" 73 2781 2786 "src/minsep.ml" 74 2814 2872
+type(
+  N.Vertex_Set.t list * N.Vertex_Set.t list
+)
+"src/minsep.ml" 76 2879 2882 "src/minsep.ml" 76 2879 2896
+type(
+  (N.Vertex_Set.t list * Vertex_Set.t list ->
+   G.V.t list -> N.Vertex_Set.t list * Vertex_Set.t list) ->
+  N.Vertex_Set.t list * Vertex_Set.t list ->
+  G.V.t list list -> N.Vertex_Set.t list * Vertex_Set.t list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/minsep.ml" 77 2898 2903 "src/minsep.ml" 77 2898 2921
+type(
+  N.Vertex_Set.t list * Vertex_Set.t list ->
+  G.V.t list -> N.Vertex_Set.t list * Vertex_Set.t list
+)
+ident(
+  int_ref add_neighbourhoods "src/minsep.ml" 72 2739 2746 "src/minsep.ml" 72 2739 2764
+)
+"src/minsep.ml" 78 2922 2928 "src/minsep.ml" 78 2922 2932
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  int_ref bigs "src/minsep.ml" 64 2529 2554 "src/minsep.ml" 64 2529 2558
+)
+"src/minsep.ml" 78 2922 2934 "src/minsep.ml" 78 2922 2936
+type(
+  Vertex_Set.t list
+)
+ident(
+  int_ref tl "src/minsep.ml" 66 2589 2602 "src/minsep.ml" 66 2589 2604
+)
+"src/minsep.ml" 78 2922 2927 "src/minsep.ml" 78 2922 2937
+type(
+  N.Vertex_Set.t list * Vertex_Set.t list
+)
+"src/minsep.ml" 78 2922 2939 "src/minsep.ml" 78 2922 2941
+type(
+  Vertex_Set.elt list -> G.V.t list list
+)
+ident(
+  int_ref cc "src/minsep.ml" 63 2506 2514 "src/minsep.ml" 63 2506 2516
+)
+"src/minsep.ml" 78 2922 2943 "src/minsep.ml" 78 2922 2944
+type(
+  Vertex_Set.elt list
+)
+ident(
+  int_ref l "src/minsep.ml" 67 2608 2615 "src/minsep.ml" 67 2608 2616
+)
+"src/minsep.ml" 78 2922 2945 "src/minsep.ml" 78 2922 2946
+type(
+  Vertex_Set.elt list -> Vertex_Set.elt list -> Vertex_Set.elt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/minsep.ml" 78 2922 2947 "src/minsep.ml" 78 2922 2960
+type(
+  Vertex_Set.elt -> Vertex_Set.elt list
+)
+ident(
+  int_ref neighbourhood "src/minsep.ml" 61 2408 2416 "src/minsep.ml" 61 2408 2429
+)
+"src/minsep.ml" 78 2922 2961 "src/minsep.ml" 78 2922 2962
+type(
+  Vertex_Set.elt
+)
+ident(
+  int_ref v "src/minsep.ml" 71 2720 2732 "src/minsep.ml" 71 2720 2733
+)
+"src/minsep.ml" 78 2922 2947 "src/minsep.ml" 78 2922 2962
+call(
+  stack
+)
+type(
+  Vertex_Set.elt list
+)
+"src/minsep.ml" 78 2922 2942 "src/minsep.ml" 78 2922 2963
+call(
+  stack
+)
+type(
+  Vertex_Set.elt list
+)
+"src/minsep.ml" 78 2922 2938 "src/minsep.ml" 78 2922 2964
+call(
+  stack
+)
+type(
+  G.V.t list list
+)
+"src/minsep.ml" 76 2879 2882 "src/minsep.ml" 78 2922 2964
+call(
+  tail
+)
+type(
+  N.Vertex_Set.t list * Vertex_Set.t list
+)
+"src/minsep.ml" 72 2739 2742 "src/minsep.ml" 78 2922 2964
+type(
+  N.Vertex_Set.t list * Vertex_Set.t list
+)
+"src/minsep.ml" 71 2720 2727 "src/minsep.ml" 78 2922 2965
+type(
+  Vertex_Set.elt ->
+  N.Vertex_Set.t list * Vertex_Set.t list ->
+  N.Vertex_Set.t list * Vertex_Set.t list
+)
+"src/minsep.ml" 79 2966 2973 "src/minsep.ml" 79 2966 2974
+type(
+  Vertex_Set.t
+)
+ident(
+  int_ref s "src/minsep.ml" 66 2589 2597 "src/minsep.ml" 66 2589 2598
+)
+"src/minsep.ml" 79 2966 2976 "src/minsep.ml" 79 2966 2980
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  int_ref bigs "src/minsep.ml" 64 2529 2554 "src/minsep.ml" 64 2529 2558
+)
+"src/minsep.ml" 79 2966 2982 "src/minsep.ml" 79 2966 2984
+type(
+  Vertex_Set.t list
+)
+ident(
+  int_ref tl "src/minsep.ml" 66 2589 2602 "src/minsep.ml" 66 2589 2604
+)
+"src/minsep.ml" 79 2966 2975 "src/minsep.ml" 79 2966 2985
+type(
+  N.Vertex_Set.t list * Vertex_Set.t list
+)
+"src/minsep.ml" 70 2698 2703 "src/minsep.ml" 79 2966 2985
+call(
+  stack
+)
+type(
+  N.Vertex_Set.t list * Vertex_Set.t list
+)
+"src/minsep.ml" 81 2992 2995 "src/minsep.ml" 81 2992 3002
+type(
+  VSetset.t ->
+  N.Vertex_Set.t list -> Vertex_Set.t list -> N.Vertex_Set.t list
+)
+ident(
+  int_ref gen_aux "src/minsep.ml" 64 2529 2541 "src/minsep.ml" 64 2529 2548
+)
+"src/minsep.ml" 81 2992 3003 "src/minsep.ml" 81 2992 3007
+type(
+  VSetset.t
+)
+ident(
+  int_ref seen "src/minsep.ml" 68 2644 2651 "src/minsep.ml" 68 2644 2655
+)
+"src/minsep.ml" 81 2992 3008 "src/minsep.ml" 81 2992 3012
+type(
+  N.Vertex_Set.t list
+)
+ident(
+  int_ref bigs "src/minsep.ml" 69 2680 2687 "src/minsep.ml" 69 2680 2691
+)
+"src/minsep.ml" 81 2992 3013 "src/minsep.ml" 81 2992 3015
+type(
+  Vertex_Set.t list
+)
+ident(
+  int_ref tl "src/minsep.ml" 69 2680 2693 "src/minsep.ml" 69 2680 2695
+)
+"src/minsep.ml" 81 2992 2995 "src/minsep.ml" 81 2992 3015
+call(
+  tail
+)
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 69 2680 2683 "src/minsep.ml" 81 2992 3015
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 68 2644 2647 "src/minsep.ml" 81 2992 3015
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 67 2608 2611 "src/minsep.ml" 81 2992 3015
+type(
+  N.Vertex_Set.t list
+)
+"src/minsep.ml" 64 2529 2561 "src/minsep.ml" 81 2992 3015
+type(
+  Vertex_Set.t list -> N.Vertex_Set.t list
+)
+"src/minsep.ml" 83 3023 3031 "src/minsep.ml" 83 3023 3035
+type(
+  Vertex_Set.t list
+)
+ident(
+  def bigs "src/minsep.ml" 83 3023 3039 "src/minsep.ml" 83 3023 3070
+)
+"src/minsep.ml" 83 3023 3039 "src/minsep.ml" 83 3023 3046
+type(
+  VSetset.t -> Vertex_Set.t list -> Vertex_Set.t list -> Vertex_Set.t list
+)
+ident(
+  int_ref gen_aux "src/minsep.ml" 64 2529 2541 "src/minsep.ml" 64 2529 2548
+)
+"src/minsep.ml" 83 3023 3047 "src/minsep.ml" 83 3023 3060
+type(
+  VSetset.t
+)
+ident(
+  ext_ref VSetset.empty
+)
+"src/minsep.ml" 83 3023 3061 "src/minsep.ml" 83 3023 3065
+type(
+  Vertex_Set.t list
+)
+ident(
+  int_ref bigs "src/minsep.ml" 83 3023 3031 "src/minsep.ml" 83 3023 3035
+)
+"src/minsep.ml" 83 3023 3066 "src/minsep.ml" 83 3023 3070
+type(
+  Vertex_Set.t list
+)
+ident(
+  int_ref bigs "src/minsep.ml" 83 3023 3031 "src/minsep.ml" 83 3023 3035
+)
+"src/minsep.ml" 83 3023 3039 "src/minsep.ml" 83 3023 3070
+call(
+  tail
+)
+type(
+  Vertex_Set.t list
+)
+"src/minsep.ml" 83 3023 3027 "src/minsep.ml" 83 3023 3070
+type(
+  Vertex_Set.t list -> Vertex_Set.t list
+)
+"src/minsep.ml" 64 2529 2533 "src/minsep.ml" 83 3023 3070
+type(
+  Vertex_Set.t list -> Vertex_Set.t list
+)
+"src/minsep.ml" 63 2506 2510 "src/minsep.ml" 83 3023 3070
+type(
+  Vertex_Set.t list -> Vertex_Set.t list
+)
+"src/minsep.ml" 62 2456 2460 "src/minsep.ml" 83 3023 3070
+type(
+  Vertex_Set.t list -> Vertex_Set.t list
+)
+"src/minsep.ml" 61 2408 2412 "src/minsep.ml" 83 3023 3070
+type(
+  Vertex_Set.t list -> Vertex_Set.t list
+)
+"src/minsep.ml" 85 3072 3078 "src/minsep.ml" 85 3072 3087
+type(
+  G.t -> Vertex_Set.t list
+)
+ident(
+  def allminsep "src/minsep.ml" 87 3125 3127 "src/minsep.ml" 93 3315 3318
+)
+"src/minsep.ml" 85 3072 3088 "src/minsep.ml" 85 3072 3089
+type(
+  G.t
+)
+ident(
+  def g "src/minsep.ml" 85 3072 3092 "src/minsep.ml" 85 3072 3123
+)
+"src/minsep.ml" 85 3072 3092 "src/minsep.ml" 85 3072 3102
+type(
+  G.t -> Vertex_Set.t list -> Vertex_Set.t list
+)
+ident(
+  int_ref generation "src/minsep.ml" 60 2387 2393 "src/minsep.ml" 60 2387 2403
+)
+"src/minsep.ml" 85 3072 3103 "src/minsep.ml" 85 3072 3104
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 85 3072 3088 "src/minsep.ml" 85 3072 3089
+)
+"src/minsep.ml" 85 3072 3106 "src/minsep.ml" 85 3072 3120
+type(
+  G.t -> Vertex_Set.t list
+)
+ident(
+  int_ref initialisation "src/minsep.ml" 49 2100 2106 "src/minsep.ml" 49 2100 2120
+)
+"src/minsep.ml" 85 3072 3121 "src/minsep.ml" 85 3072 3122
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 85 3072 3088 "src/minsep.ml" 85 3072 3089
+)
+"src/minsep.ml" 85 3072 3105 "src/minsep.ml" 85 3072 3123
+call(
+  stack
+)
+type(
+  Vertex_Set.t list
+)
+"src/minsep.ml" 85 3072 3092 "src/minsep.ml" 85 3072 3123
+call(
+  tail
+)
+type(
+  Vertex_Set.t list
+)
+"src/minsep.ml" 87 3125 3131 "src/minsep.ml" 87 3125 3147
+type(
+  G.t -> VSetset.t
+)
+ident(
+  def set_of_allminsep "src/minsep.ml" 91 3243 3245 "src/minsep.ml" 93 3315 3318
+)
+"src/minsep.ml" 87 3125 3148 "src/minsep.ml" 87 3125 3149
+type(
+  G.t
+)
+ident(
+  def g "src/minsep.ml" 88 3153 3157 "src/minsep.ml" 89 3173 3241
+)
+"src/minsep.ml" 88 3153 3157 "src/minsep.ml" 88 3153 3171
+type(
+  (VSetset.t -> VSetset.elt -> VSetset.t) ->
+  VSetset.t -> VSetset.elt list -> VSetset.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/minsep.ml" 89 3173 3184 "src/minsep.ml" 89 3173 3188
+type(
+  VSetset.t
+)
+ident(
+  def bigs "src/minsep.ml" 89 3173 3189 "src/minsep.ml" 89 3173 3212
+)
+"src/minsep.ml" 89 3173 3189 "src/minsep.ml" 89 3173 3190
+type(
+  VSetset.elt
+)
+ident(
+  def s "src/minsep.ml" 89 3173 3194 "src/minsep.ml" 89 3173 3212
+)
+"src/minsep.ml" 89 3173 3194 "src/minsep.ml" 89 3173 3205
+type(
+  VSetset.elt -> VSetset.t -> VSetset.t
+)
+ident(
+  ext_ref VSetset.add
+)
+"src/minsep.ml" 89 3173 3206 "src/minsep.ml" 89 3173 3207
+type(
+  VSetset.elt
+)
+ident(
+  int_ref s "src/minsep.ml" 89 3173 3189 "src/minsep.ml" 89 3173 3190
+)
+"src/minsep.ml" 89 3173 3208 "src/minsep.ml" 89 3173 3212
+type(
+  VSetset.t
+)
+ident(
+  int_ref bigs "src/minsep.ml" 89 3173 3184 "src/minsep.ml" 89 3173 3188
+)
+"src/minsep.ml" 89 3173 3194 "src/minsep.ml" 89 3173 3212
+call(
+  tail
+)
+type(
+  VSetset.t
+)
+"src/minsep.ml" 89 3173 3179 "src/minsep.ml" 89 3173 3213
+type(
+  VSetset.t -> VSetset.elt -> VSetset.t
+)
+"src/minsep.ml" 89 3173 3214 "src/minsep.ml" 89 3173 3227
+type(
+  VSetset.t
+)
+ident(
+  ext_ref VSetset.empty
+)
+"src/minsep.ml" 89 3173 3229 "src/minsep.ml" 89 3173 3238
+type(
+  G.t -> VSetset.elt list
+)
+ident(
+  int_ref allminsep "src/minsep.ml" 85 3072 3078 "src/minsep.ml" 85 3072 3087
+)
+"src/minsep.ml" 89 3173 3239 "src/minsep.ml" 89 3173 3240
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 87 3125 3148 "src/minsep.ml" 87 3125 3149
+)
+"src/minsep.ml" 89 3173 3228 "src/minsep.ml" 89 3173 3241
+call(
+  stack
+)
+type(
+  VSetset.elt list
+)
+"src/minsep.ml" 88 3153 3157 "src/minsep.ml" 89 3173 3241
+call(
+  tail
+)
+type(
+  VSetset.t
+)
+"src/minsep.ml" 91 3243 3249 "src/minsep.ml" 91 3243 3266
+type(
+  G.t -> Vertex_Set.elt list list
+)
+ident(
+  def list_of_allminsep "src/minsep.ml" 91 3243 3313 "src/minsep.ml" 93 3315 3318
+)
+"src/minsep.ml" 91 3243 3267 "src/minsep.ml" 91 3243 3268
+type(
+  G.t
+)
+ident(
+  def g "src/minsep.ml" 91 3243 3271 "src/minsep.ml" 91 3243 3313
+)
+"src/minsep.ml" 91 3243 3271 "src/minsep.ml" 91 3243 3279
+type(
+  (Vertex_Set.t -> Vertex_Set.elt list) ->
+  Vertex_Set.t list -> Vertex_Set.elt list list
+)
+ident(
+  ext_ref List.map
+)
+"src/minsep.ml" 91 3243 3280 "src/minsep.ml" 91 3243 3299
+type(
+  Vertex_Set.t -> Vertex_Set.elt list
+)
+ident(
+  ext_ref Vertex_Set.elements
+)
+"src/minsep.ml" 91 3243 3301 "src/minsep.ml" 91 3243 3310
+type(
+  G.t -> Vertex_Set.t list
+)
+ident(
+  int_ref allminsep "src/minsep.ml" 85 3072 3078 "src/minsep.ml" 85 3072 3087
+)
+"src/minsep.ml" 91 3243 3311 "src/minsep.ml" 91 3243 3312
+type(
+  G.t
+)
+ident(
+  int_ref g "src/minsep.ml" 91 3243 3267 "src/minsep.ml" 91 3243 3268
+)
+"src/minsep.ml" 91 3243 3300 "src/minsep.ml" 91 3243 3313
+call(
+  stack
+)
+type(
+  Vertex_Set.t list
+)
+"src/minsep.ml" 91 3243 3271 "src/minsep.ml" 91 3243 3313
+call(
+  tail
+)
+type(
+  Vertex_Set.elt list list
+)
+"src/minsep.ml" 99 3445 3452 "src/minsep.ml" 99 3445 3454
+type(
+  t -> V.t list -> G.V.t list list
+)
+ident(
+  def cc "src/minsep.ml" 103 3567 3587 "src/minsep.ml" 104 3588 3599
+)
+"src/minsep.ml" 100 3457 3478 "src/minsep.ml" 100 3457 3496
+call(
+  stack
+)
+"src/minsep.ml" 101 3500 3509 "src/minsep.ml" 101 3500 3510
+type(
+  t
+)
+ident(
+  def g "src/minsep.ml" 101 3500 3511 "src/minsep.ml" 103 3567 3587
+)
+"src/minsep.ml" 101 3500 3511 "src/minsep.ml" 101 3500 3512
+type(
+  V.t list
+)
+ident(
+  def l "src/minsep.ml" 102 3516 3523 "src/minsep.ml" 103 3567 3587
+)
+"src/minsep.ml" 102 3516 3527 "src/minsep.ml" 102 3516 3528
+type(
+  t
+)
+"src/minsep.ml" 102 3516 3531 "src/minsep.ml" 102 3516 3545
+type(
+  (t -> V.t -> t) -> t -> V.t list -> t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/minsep.ml" 102 3516 3546 "src/minsep.ml" 102 3516 3559
+type(
+  t -> V.t -> t
+)
+"src/minsep.ml" 102 3516 3560 "src/minsep.ml" 102 3516 3561
+type(
+  t
+)
+ident(
+  int_ref g "src/minsep.ml" 101 3500 3509 "src/minsep.ml" 101 3500 3510
+)
+"src/minsep.ml" 102 3516 3562 "src/minsep.ml" 102 3516 3563
+type(
+  V.t list
+)
+ident(
+  int_ref l "src/minsep.ml" 101 3500 3511 "src/minsep.ml" 101 3500 3512
+)
+"src/minsep.ml" 102 3516 3531 "src/minsep.ml" 102 3516 3563
+call(
+  stack
+)
+type(
+  t
+)
+"src/minsep.ml" 103 3567 3574 "src/minsep.ml" 103 3567 3585
+type(
+  G.t -> G.V.t list list
+)
+ident(
+  ext_ref CC.scc_list
+)
+"src/minsep.ml" 103 3567 3586 "src/minsep.ml" 103 3567 3587
+type(
+  t
+)
+ident(
+  int_ref g "src/minsep.ml" 102 3516 3527 "src/minsep.ml" 102 3516 3528
+)
+"src/minsep.ml" 103 3567 3574 "src/minsep.ml" 103 3567 3587
+call(
+  tail
+)
+type(
+  G.V.t list list
+)
+"src/minsep.ml" 102 3516 3523 "src/minsep.ml" 103 3567 3587
+type(
+  G.V.t list list
+)
+"src/minsep.ml" 101 3500 3505 "src/minsep.ml" 103 3567 3587
+type(
+  t -> V.t list -> G.V.t list list
+)
+"src/minsep.ml" 100 3457 3462 "src/minsep.ml" 103 3567 3587
+type(
+  t -> V.t list -> G.V.t list list
+)
+"src/minsep.ml" 97 3410 3420 "src/minsep.ml" 104 3588 3600
+call(
+  stack
+)
+"src/minsep.ml" 115 3777 3784 "src/minsep.ml" 115 3777 3786
+type(
+  G.Mark.graph -> G.Mark.vertex list -> G.V.t list list
+)
+ident(
+  def cc "src/minsep.ml" 127 4052 4072 "src/minsep.ml" 128 4073 4084
+)
+"src/minsep.ml" 120 3869 3878 "src/minsep.ml" 120 3869 3889
+type(
+  (V.t -> unit) -> t -> unit
+)
+ident(
+  def iter_vertex "src/minsep.ml" 121 3895 3949 "src/minsep.ml" 122 3950 3956
+)
+"src/minsep.ml" 120 3869 3890 "src/minsep.ml" 120 3869 3891
+type(
+  V.t -> unit
+)
+ident(
+  def f "src/minsep.ml" 121 3895 3902 "src/minsep.ml" 121 3895 3949
+)
+"src/minsep.ml" 121 3895 3902 "src/minsep.ml" 121 3895 3913
+type(
+  (V.t -> unit) -> t -> unit
+)
+"src/minsep.ml" 121 3895 3919 "src/minsep.ml" 121 3895 3920
+type(
+  V.t
+)
+ident(
+  def v "src/minsep.ml" 121 3895 3924 "src/minsep.ml" 121 3895 3948
+)
+"src/minsep.ml" 121 3895 3927 "src/minsep.ml" 121 3895 3935
+type(
+  Mark.vertex -> int
+)
+ident(
+  ext_ref Mark.get
+)
+"src/minsep.ml" 121 3895 3936 "src/minsep.ml" 121 3895 3937
+type(
+  V.t
+)
+ident(
+  int_ref v "src/minsep.ml" 121 3895 3919 "src/minsep.ml" 121 3895 3920
+)
+"src/minsep.ml" 121 3895 3927 "src/minsep.ml" 121 3895 3937
+call(
+  stack
+)
+type(
+  int
+)
+"src/minsep.ml" 121 3895 3937 "src/minsep.ml" 121 3895 3938
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/minsep.ml" 121 3895 3938 "src/minsep.ml" 121 3895 3939
+type(
+  int
+)
+"src/minsep.ml" 121 3895 3927 "src/minsep.ml" 121 3895 3939
+type(
+  bool
+)
+"src/minsep.ml" 121 3895 3945 "src/minsep.ml" 121 3895 3946
+type(
+  V.t -> unit
+)
+ident(
+  int_ref f "src/minsep.ml" 120 3869 3890 "src/minsep.ml" 120 3869 3891
+)
+"src/minsep.ml" 121 3895 3947 "src/minsep.ml" 121 3895 3948
+type(
+  V.t
+)
+ident(
+  int_ref v "src/minsep.ml" 121 3895 3919 "src/minsep.ml" 121 3895 3920
+)
+"src/minsep.ml" 121 3895 3945 "src/minsep.ml" 121 3895 3948
+call(
+  tail
+)
+type(
+  unit
+)
+"src/minsep.ml" 121 3895 3924 "src/minsep.ml" 121 3895 3948
+type(
+  unit
+)
+"src/minsep.ml" 121 3895 3914 "src/minsep.ml" 121 3895 3949
+type(
+  V.t -> unit
+)
+"src/minsep.ml" 121 3895 3902 "src/minsep.ml" 121 3895 3949
+call(
+  tail
+)
+type(
+  t -> unit
+)
+"src/minsep.ml" 117 3812 3819 "src/minsep.ml" 122 3950 3957
+call(
+  stack
+)
+"src/minsep.ml" 124 3967 3976 "src/minsep.ml" 124 3967 3977
+type(
+  G.Mark.graph
+)
+ident(
+  def g "src/minsep.ml" 124 3967 3978 "src/minsep.ml" 127 4052 4072
+)
+"src/minsep.ml" 124 3967 3978 "src/minsep.ml" 124 3967 3979
+type(
+  G.Mark.vertex list
+)
+ident(
+  def l "src/minsep.ml" 125 3983 3990 "src/minsep.ml" 127 4052 4072
+)
+"src/minsep.ml" 125 3983 3990 "src/minsep.ml" 125 3983 4002
+type(
+  G.Mark.graph -> unit
+)
+ident(
+  ext_ref G.Mark.clear
+)
+"src/minsep.ml" 125 3983 4003 "src/minsep.ml" 125 3983 4004
+type(
+  G.Mark.graph
+)
+ident(
+  int_ref g "src/minsep.ml" 124 3967 3976 "src/minsep.ml" 124 3967 3977
+)
+"src/minsep.ml" 125 3983 3990 "src/minsep.ml" 125 3983 4004
+call(
+  stack
+)
+type(
+  unit
+)
+"src/minsep.ml" 126 4006 4013 "src/minsep.ml" 126 4006 4022
+type(
+  (G.Mark.vertex -> unit) -> G.Mark.vertex list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/minsep.ml" 126 4006 4028 "src/minsep.ml" 126 4006 4029
+type(
+  G.Mark.vertex
+)
+ident(
+  def v "src/minsep.ml" 126 4006 4033 "src/minsep.ml" 126 4006 4047
+)
+"src/minsep.ml" 126 4006 4033 "src/minsep.ml" 126 4006 4043
+type(
+  G.Mark.vertex -> int -> unit
+)
+ident(
+  ext_ref G.Mark.set
+)
+"src/minsep.ml" 126 4006 4044 "src/minsep.ml" 126 4006 4045
+type(
+  G.Mark.vertex
+)
+ident(
+  int_ref v "src/minsep.ml" 126 4006 4028 "src/minsep.ml" 126 4006 4029
+)
+"src/minsep.ml" 126 4006 4046 "src/minsep.ml" 126 4006 4047
+type(
+  int
+)
+"src/minsep.ml" 126 4006 4033 "src/minsep.ml" 126 4006 4047
+call(
+  tail
+)
+type(
+  unit
+)
+"src/minsep.ml" 126 4006 4023 "src/minsep.ml" 126 4006 4048
+type(
+  G.Mark.vertex -> unit
+)
+"src/minsep.ml" 126 4006 4049 "src/minsep.ml" 126 4006 4050
+type(
+  G.Mark.vertex list
+)
+ident(
+  int_ref l "src/minsep.ml" 124 3967 3978 "src/minsep.ml" 124 3967 3979
+)
+"src/minsep.ml" 126 4006 4013 "src/minsep.ml" 126 4006 4050
+call(
+  stack
+)
+type(
+  unit
+)
+"src/minsep.ml" 127 4052 4059 "src/minsep.ml" 127 4052 4070
+type(
+  G.Mark.graph -> G.V.t list list
+)
+ident(
+  ext_ref CC.scc_list
+)
+"src/minsep.ml" 127 4052 4071 "src/minsep.ml" 127 4052 4072
+type(
+  G.Mark.graph
+)
+ident(
+  int_ref g "src/minsep.ml" 124 3967 3976 "src/minsep.ml" 124 3967 3977
+)
+"src/minsep.ml" 127 4052 4059 "src/minsep.ml" 127 4052 4072
+call(
+  tail
+)
+type(
+  G.V.t list list
+)
+"src/minsep.ml" 126 4006 4013 "src/minsep.ml" 127 4052 4072
+type(
+  G.V.t list list
+)
+"src/minsep.ml" 125 3983 3990 "src/minsep.ml" 127 4052 4072
+type(
+  G.V.t list list
+)
+"src/minsep.ml" 124 3967 3972 "src/minsep.ml" 127 4052 4072
+type(
+  G.Mark.graph -> G.Mark.vertex list -> G.V.t list list
+)
+"src/minsep.ml" 116 3790 3795 "src/minsep.ml" 127 4052 4072
+type(
+  G.Mark.graph -> G.Mark.vertex list -> G.V.t list list
+)
+"src/minsep.ml" 113 3742 3752 "src/minsep.ml" 128 4073 4085
+call(
+  stack
+)

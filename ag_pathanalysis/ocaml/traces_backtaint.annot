@@ -1,0 +1,3795 @@
+"traces_backtaint.ml" 7 87 120 "traces_backtaint.ml" 7 87 124
+type(
+  string
+)
+ident(
+  def name "traces_backtaint.ml" 7 87 161 "traces_backtaint.ml" 7 87 165
+)
+"traces_backtaint.ml" 7 87 127 "traces_backtaint.ml" 7 87 140
+type(
+  string
+)
+"traces_backtaint.ml" 7 87 145 "traces_backtaint.ml" 7 87 152
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "traces_backtaint.ml" 7 87 161 "traces_backtaint.ml" 7 87 165
+)
+"traces_backtaint.ml" 7 87 153 "traces_backtaint.ml" 7 87 161
+type(
+  [> `NoDebug ] as 'a
+)
+"traces_backtaint.ml" 7 87 98 "traces_backtaint.ml" 7 87 166
+call(
+  stack
+)
+"traces_backtaint.ml" 14 332 338 "traces_backtaint.ml" 14 332 345
+type(
+  t -> t -> int
+)
+ident(
+  def compare "traces_backtaint.ml" 20 520 522 "traces_backtaint.ml" 23 649 652
+)
+"traces_backtaint.ml" 14 332 346 "traces_backtaint.ml" 14 332 349
+type(
+  t
+)
+ident(
+  def mv1 "traces_backtaint.ml" 14 332 350 "traces_backtaint.ml" 19 495 519
+)
+"traces_backtaint.ml" 14 332 350 "traces_backtaint.ml" 14 332 353
+type(
+  t
+)
+ident(
+  def mv2 "traces_backtaint.ml" 15 356 360 "traces_backtaint.ml" 19 495 519
+)
+"traces_backtaint.ml" 15 356 367 "traces_backtaint.ml" 15 356 370
+type(
+  t
+)
+ident(
+  int_ref mv1 "traces_backtaint.ml" 14 332 346 "traces_backtaint.ml" 14 332 349
+)
+"traces_backtaint.ml" 15 356 371 "traces_backtaint.ml" 15 356 374
+type(
+  t
+)
+ident(
+  int_ref mv2 "traces_backtaint.ml" 14 332 350 "traces_backtaint.ml" 14 332 353
+)
+"traces_backtaint.ml" 15 356 366 "traces_backtaint.ml" 15 356 375
+type(
+  t * t
+)
+"traces_backtaint.ml" 16 381 391 "traces_backtaint.ml" 16 381 392
+type(
+  Var.t
+)
+ident(
+  def x "traces_backtaint.ml" 16 381 404 "traces_backtaint.ml" 16 381 415
+)
+"traces_backtaint.ml" 16 381 388 "traces_backtaint.ml" 16 381 393
+type(
+  t
+)
+"traces_backtaint.ml" 16 381 397 "traces_backtaint.ml" 16 381 398
+type(
+  Var.t
+)
+ident(
+  def y "traces_backtaint.ml" 16 381 404 "traces_backtaint.ml" 16 381 415
+)
+"traces_backtaint.ml" 16 381 394 "traces_backtaint.ml" 16 381 399
+type(
+  t
+)
+"traces_backtaint.ml" 16 381 387 "traces_backtaint.ml" 16 381 400
+type(
+  t * t
+)
+"traces_backtaint.ml" 16 381 404 "traces_backtaint.ml" 16 381 411
+type(
+  Var.t -> Var.t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"traces_backtaint.ml" 16 381 412 "traces_backtaint.ml" 16 381 413
+type(
+  Var.t
+)
+ident(
+  int_ref x "traces_backtaint.ml" 16 381 391 "traces_backtaint.ml" 16 381 392
+)
+"traces_backtaint.ml" 16 381 414 "traces_backtaint.ml" 16 381 415
+type(
+  Var.t
+)
+ident(
+  int_ref y "traces_backtaint.ml" 16 381 397 "traces_backtaint.ml" 16 381 398
+)
+"traces_backtaint.ml" 16 381 404 "traces_backtaint.ml" 16 381 415
+type(
+  int
+)
+"traces_backtaint.ml" 17 416 426 "traces_backtaint.ml" 17 416 427
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def x "traces_backtaint.ml" 17 416 439 "traces_backtaint.ml" 17 416 468
+)
+"traces_backtaint.ml" 17 416 423 "traces_backtaint.ml" 17 416 428
+type(
+  t
+)
+"traces_backtaint.ml" 17 416 432 "traces_backtaint.ml" 17 416 433
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def y "traces_backtaint.ml" 17 416 439 "traces_backtaint.ml" 17 416 468
+)
+"traces_backtaint.ml" 17 416 429 "traces_backtaint.ml" 17 416 434
+type(
+  t
+)
+"traces_backtaint.ml" 17 416 422 "traces_backtaint.ml" 17 416 435
+type(
+  t * t
+)
+"traces_backtaint.ml" 17 416 439 "traces_backtaint.ml" 17 416 464
+type(
+  Big_int_Z.big_int -> Big_int_Z.big_int -> int
+)
+ident(
+  ext_ref Big_int_Z.compare_big_int
+)
+"traces_backtaint.ml" 17 416 465 "traces_backtaint.ml" 17 416 466
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref x "traces_backtaint.ml" 17 416 426 "traces_backtaint.ml" 17 416 427
+)
+"traces_backtaint.ml" 17 416 467 "traces_backtaint.ml" 17 416 468
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref y "traces_backtaint.ml" 17 416 432 "traces_backtaint.ml" 17 416 433
+)
+"traces_backtaint.ml" 17 416 439 "traces_backtaint.ml" 17 416 468
+call(
+  tail
+)
+type(
+  int
+)
+"traces_backtaint.ml" 18 469 479 "traces_backtaint.ml" 18 469 480
+type(
+  Var.t
+)
+"traces_backtaint.ml" 18 469 476 "traces_backtaint.ml" 18 469 481
+type(
+  t
+)
+"traces_backtaint.ml" 18 469 485 "traces_backtaint.ml" 18 469 486
+type(
+  Big_int_Z.big_int
+)
+"traces_backtaint.ml" 18 469 482 "traces_backtaint.ml" 18 469 487
+type(
+  t
+)
+"traces_backtaint.ml" 18 469 475 "traces_backtaint.ml" 18 469 488
+type(
+  t * t
+)
+"traces_backtaint.ml" 18 469 492 "traces_backtaint.ml" 18 469 494
+type(
+  int
+)
+"traces_backtaint.ml" 19 495 505 "traces_backtaint.ml" 19 495 506
+type(
+  Big_int_Z.big_int
+)
+"traces_backtaint.ml" 19 495 502 "traces_backtaint.ml" 19 495 507
+type(
+  t
+)
+"traces_backtaint.ml" 19 495 511 "traces_backtaint.ml" 19 495 512
+type(
+  Var.t
+)
+"traces_backtaint.ml" 19 495 508 "traces_backtaint.ml" 19 495 513
+type(
+  t
+)
+"traces_backtaint.ml" 19 495 501 "traces_backtaint.ml" 19 495 514
+type(
+  t * t
+)
+"traces_backtaint.ml" 19 495 518 "traces_backtaint.ml" 19 495 519
+type(
+  int
+)
+"traces_backtaint.ml" 15 356 360 "traces_backtaint.ml" 19 495 519
+type(
+  int
+)
+"traces_backtaint.ml" 20 520 526 "traces_backtaint.ml" 20 520 535
+type(
+  t -> string
+)
+ident(
+  def to_string "traces_backtaint.ml" 22 605 648 "traces_backtaint.ml" 23 649 652
+)
+"traces_backtaint.ml" 21 547 554 "traces_backtaint.ml" 21 547 557
+type(
+  Pp.VH.key
+)
+ident(
+  def v "traces_backtaint.ml" 21 547 561 "traces_backtaint.ml" 21 547 604
+)
+"traces_backtaint.ml" 21 547 553 "traces_backtaint.ml" 21 547 557
+type(
+  t
+)
+"traces_backtaint.ml" 21 547 561 "traces_backtaint.ml" 21 547 575
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"traces_backtaint.ml" 21 547 576 "traces_backtaint.ml" 21 547 583
+type(
+  (string -> string, unit, string) format
+)
+"traces_backtaint.ml" 21 547 585 "traces_backtaint.ml" 21 547 601
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"traces_backtaint.ml" 21 547 602 "traces_backtaint.ml" 21 547 603
+type(
+  Pp.VH.key
+)
+ident(
+  int_ref v "traces_backtaint.ml" 21 547 554 "traces_backtaint.ml" 21 547 557
+)
+"traces_backtaint.ml" 21 547 584 "traces_backtaint.ml" 21 547 604
+call(
+  stack
+)
+type(
+  string
+)
+"traces_backtaint.ml" 21 547 561 "traces_backtaint.ml" 21 547 604
+call(
+  tail
+)
+type(
+  string
+)
+"traces_backtaint.ml" 22 605 612 "traces_backtaint.ml" 22 605 615
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "traces_backtaint.ml" 22 605 619 "traces_backtaint.ml" 22 605 648
+)
+"traces_backtaint.ml" 22 605 611 "traces_backtaint.ml" 22 605 615
+type(
+  t
+)
+"traces_backtaint.ml" 22 605 619 "traces_backtaint.ml" 22 605 633
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"traces_backtaint.ml" 22 605 634 "traces_backtaint.ml" 22 605 641
+type(
+  (string -> string, unit, string) format
+)
+"traces_backtaint.ml" 22 605 643 "traces_backtaint.ml" 22 605 645
+type(
+  Big_int_Z.big_int -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"traces_backtaint.ml" 22 605 646 "traces_backtaint.ml" 22 605 647
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "traces_backtaint.ml" 22 605 612 "traces_backtaint.ml" 22 605 615
+)
+"traces_backtaint.ml" 22 605 642 "traces_backtaint.ml" 22 605 648
+call(
+  stack
+)
+type(
+  string
+)
+"traces_backtaint.ml" 22 605 619 "traces_backtaint.ml" 22 605 648
+call(
+  tail
+)
+type(
+  string
+)
+"traces_backtaint.ml" 20 520 538 "traces_backtaint.ml" 22 605 648
+type(
+  t -> string
+)
+"traces_backtaint.ml" 25 654 670 "traces_backtaint.ml" 25 654 683
+call(
+  stack
+)
+"traces_backtaint.ml" 29 710 714 "traces_backtaint.ml" 29 710 726
+type(
+  LocSet.t -> unit
+)
+ident(
+  def print_locset "traces_backtaint.ml" 38 1089 1089 --
+)
+"traces_backtaint.ml" 29 710 727 "traces_backtaint.ml" 29 710 731
+type(
+  LocSet.t
+)
+ident(
+  def vars "traces_backtaint.ml" 30 734 736 "traces_backtaint.ml" 33 919 998
+)
+"traces_backtaint.ml" 30 734 736 "traces_backtaint.ml" 30 734 749
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"traces_backtaint.ml" 30 734 750 "traces_backtaint.ml" 30 734 782
+type(
+  (int -> unit, out_channel, unit) format
+)
+"traces_backtaint.ml" 30 734 784 "traces_backtaint.ml" 30 734 799
+type(
+  LocSet.t -> int
+)
+ident(
+  ext_ref LocSet.cardinal
+)
+"traces_backtaint.ml" 30 734 800 "traces_backtaint.ml" 30 734 804
+type(
+  LocSet.t
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 29 710 727 "traces_backtaint.ml" 29 710 731
+)
+"traces_backtaint.ml" 30 734 783 "traces_backtaint.ml" 30 734 805
+call(
+  stack
+)
+type(
+  int
+)
+"traces_backtaint.ml" 30 734 736 "traces_backtaint.ml" 30 734 805
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 31 807 809 "traces_backtaint.ml" 31 807 820
+type(
+  (LocSet.elt -> unit) -> LocSet.t -> unit
+)
+ident(
+  ext_ref LocSet.iter
+)
+"traces_backtaint.ml" 31 807 826 "traces_backtaint.ml" 31 807 827
+type(
+  LocSet.elt
+)
+ident(
+  def k "traces_backtaint.ml" 31 807 831 "traces_backtaint.ml" 33 919 992
+)
+"traces_backtaint.ml" 31 807 837 "traces_backtaint.ml" 31 807 838
+type(
+  LocSet.elt
+)
+ident(
+  int_ref k "traces_backtaint.ml" 31 807 826 "traces_backtaint.ml" 31 807 827
+)
+"traces_backtaint.ml" 32 844 853 "traces_backtaint.ml" 32 844 856
+type(
+  Pp.VH.key
+)
+ident(
+  def x "traces_backtaint.ml" 32 844 860 "traces_backtaint.ml" 32 844 918
+)
+"traces_backtaint.ml" 32 844 848 "traces_backtaint.ml" 32 844 856
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 32 844 860 "traces_backtaint.ml" 32 844 873
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"traces_backtaint.ml" 32 844 874 "traces_backtaint.ml" 32 844 897
+type(
+  (string -> unit, out_channel, unit) format
+)
+"traces_backtaint.ml" 32 844 899 "traces_backtaint.ml" 32 844 915
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"traces_backtaint.ml" 32 844 916 "traces_backtaint.ml" 32 844 917
+type(
+  Pp.VH.key
+)
+ident(
+  int_ref x "traces_backtaint.ml" 32 844 853 "traces_backtaint.ml" 32 844 856
+)
+"traces_backtaint.ml" 32 844 898 "traces_backtaint.ml" 32 844 918
+call(
+  stack
+)
+type(
+  string
+)
+"traces_backtaint.ml" 32 844 860 "traces_backtaint.ml" 32 844 918
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 33 919 928 "traces_backtaint.ml" 33 919 931
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def x "traces_backtaint.ml" 33 919 935 "traces_backtaint.ml" 33 919 992
+)
+"traces_backtaint.ml" 33 919 923 "traces_backtaint.ml" 33 919 931
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 33 919 935 "traces_backtaint.ml" 33 919 948
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"traces_backtaint.ml" 33 919 949 "traces_backtaint.ml" 33 919 968
+type(
+  (string -> unit, out_channel, unit) format
+)
+"traces_backtaint.ml" 33 919 970 "traces_backtaint.ml" 33 919 989
+type(
+  ?pad:int -> Big_int_Z.big_int -> string
+)
+ident(
+  ext_ref Util.big_int_to_hex
+)
+"traces_backtaint.ml" 33 919 990 "traces_backtaint.ml" 33 919 991
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref x "traces_backtaint.ml" 33 919 928 "traces_backtaint.ml" 33 919 931
+)
+"traces_backtaint.ml" 33 919 969 "traces_backtaint.ml" 33 919 992
+call(
+  stack
+)
+type(
+  string
+)
+"traces_backtaint.ml" 33 919 935 "traces_backtaint.ml" 33 919 992
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 31 807 831 "traces_backtaint.ml" 33 919 992
+type(
+  unit
+)
+"traces_backtaint.ml" 31 807 821 "traces_backtaint.ml" 33 919 993
+type(
+  LocSet.elt -> unit
+)
+"traces_backtaint.ml" 33 919 994 "traces_backtaint.ml" 33 919 998
+type(
+  LocSet.t
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 29 710 727 "traces_backtaint.ml" 29 710 731
+)
+"traces_backtaint.ml" 31 807 809 "traces_backtaint.ml" 33 919 998
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 30 734 736 "traces_backtaint.ml" 33 919 998
+type(
+  unit
+)
+"traces_backtaint.ml" 38 1089 1093 "traces_backtaint.ml" 38 1089 1107
+type(
+  LocSet.t ref -> Ast.exp -> LocSet.t
+)
+ident(
+  def add_referenced "traces_backtaint.ml" 71 2290 2290 --
+)
+"traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+type(
+  LocSet.t ref
+)
+ident(
+  def vars "traces_backtaint.ml" 38 1089 1113 "traces_backtaint.ml" 67 2161 2168
+)
+"traces_backtaint.ml" 38 1089 1113 "traces_backtaint.ml" 38 1089 1114
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_backtaint.ml" 39 1117 1119 "traces_backtaint.ml" 67 2161 2168
+)
+"traces_backtaint.ml" 39 1117 1123 "traces_backtaint.ml" 39 1117 1129
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 39 1117 1138 "traces_backtaint.ml" 39 1117 1144
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 42 1174 1195 "traces_backtaint.ml" 42 1174 1196
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_backtaint.ml" 43 1199 1205 "traces_backtaint.ml" 58 1893 1916
+)
+"traces_backtaint.ml" 43 1199 1211 "traces_backtaint.ml" 43 1199 1212
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 42 1174 1195 "traces_backtaint.ml" 42 1174 1196
+)
+"traces_backtaint.ml" 44 1218 1231 "traces_backtaint.ml" 44 1218 1232
+type(
+  Ast.var
+)
+ident(
+  def v "traces_backtaint.ml" 46 1298 1306 "traces_backtaint.ml" 52 1594 1614
+)
+"traces_backtaint.ml" 44 1218 1234 "traces_backtaint.ml" 44 1218 1236
+type(
+  Ast.exp
+)
+ident(
+  def e1 "traces_backtaint.ml" 46 1298 1306 "traces_backtaint.ml" 52 1594 1614
+)
+"traces_backtaint.ml" 44 1218 1238 "traces_backtaint.ml" 44 1218 1240
+type(
+  Ast.exp
+)
+ident(
+  def e2 "traces_backtaint.ml" 46 1298 1306 "traces_backtaint.ml" 52 1594 1614
+)
+"traces_backtaint.ml" 44 1218 1230 "traces_backtaint.ml" 44 1218 1241
+type(
+  Ast.var * Ast.exp * Ast.exp
+)
+"traces_backtaint.ml" 44 1218 1226 "traces_backtaint.ml" 44 1218 1241
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 46 1298 1306 "traces_backtaint.ml" 46 1298 1312
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_backtaint.ml" 46 1298 1313 "traces_backtaint.ml" 46 1298 1335
+type(
+  Ast_visitor.nop -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"traces_backtaint.ml" 46 1298 1336 "traces_backtaint.ml" 46 1298 1340
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 46 1298 1341 "traces_backtaint.ml" 46 1298 1343
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "traces_backtaint.ml" 44 1218 1234 "traces_backtaint.ml" 44 1218 1236
+)
+"traces_backtaint.ml" 46 1298 1312 "traces_backtaint.ml" 46 1298 1344
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 46 1298 1306 "traces_backtaint.ml" 46 1298 1344
+type(
+  unit
+)
+"traces_backtaint.ml" 47 1346 1354 "traces_backtaint.ml" 47 1346 1358
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+)
+"traces_backtaint.ml" 47 1346 1359 "traces_backtaint.ml" 47 1346 1361
+type(
+  LocSet.t ref -> LocSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 47 1346 1362 "traces_backtaint.ml" 47 1346 1372
+type(
+  LocSet.elt -> LocSet.t -> LocSet.t
+)
+ident(
+  ext_ref LocSet.add
+)
+"traces_backtaint.ml" 47 1346 1380 "traces_backtaint.ml" 47 1346 1381
+type(
+  Ast.var
+)
+ident(
+  int_ref v "traces_backtaint.ml" 44 1218 1231 "traces_backtaint.ml" 44 1218 1232
+)
+"traces_backtaint.ml" 47 1346 1373 "traces_backtaint.ml" 47 1346 1382
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 47 1346 1383 "traces_backtaint.ml" 47 1346 1384
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 47 1346 1384 "traces_backtaint.ml" 47 1346 1388
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+)
+"traces_backtaint.ml" 47 1346 1383 "traces_backtaint.ml" 47 1346 1388
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 47 1346 1362 "traces_backtaint.ml" 47 1346 1388
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 47 1346 1354 "traces_backtaint.ml" 47 1346 1388
+type(
+  unit
+)
+"traces_backtaint.ml" 48 1390 1398 "traces_backtaint.ml" 48 1390 1404
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_backtaint.ml" 48 1390 1405 "traces_backtaint.ml" 48 1390 1427
+type(
+  Ast_visitor.nop -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"traces_backtaint.ml" 48 1390 1428 "traces_backtaint.ml" 48 1390 1432
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 48 1390 1433 "traces_backtaint.ml" 48 1390 1435
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "traces_backtaint.ml" 44 1218 1238 "traces_backtaint.ml" 44 1218 1240
+)
+"traces_backtaint.ml" 48 1390 1404 "traces_backtaint.ml" 48 1390 1436
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 48 1390 1398 "traces_backtaint.ml" 48 1390 1436
+type(
+  unit
+)
+"traces_backtaint.ml" 51 1547 1555 "traces_backtaint.ml" 51 1547 1559
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+)
+"traces_backtaint.ml" 51 1547 1560 "traces_backtaint.ml" 51 1547 1562
+type(
+  LocSet.t ref -> LocSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 51 1547 1563 "traces_backtaint.ml" 51 1547 1576
+type(
+  LocSet.elt -> LocSet.t -> LocSet.t
+)
+ident(
+  ext_ref LocSet.remove
+)
+"traces_backtaint.ml" 51 1547 1584 "traces_backtaint.ml" 51 1547 1585
+type(
+  Ast.var
+)
+ident(
+  int_ref v "traces_backtaint.ml" 44 1218 1231 "traces_backtaint.ml" 44 1218 1232
+)
+"traces_backtaint.ml" 51 1547 1577 "traces_backtaint.ml" 51 1547 1586
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 51 1547 1587 "traces_backtaint.ml" 51 1547 1588
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 51 1547 1588 "traces_backtaint.ml" 51 1547 1592
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+)
+"traces_backtaint.ml" 51 1547 1587 "traces_backtaint.ml" 51 1547 1592
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 51 1547 1563 "traces_backtaint.ml" 51 1547 1592
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 51 1547 1555 "traces_backtaint.ml" 51 1547 1592
+type(
+  unit
+)
+"traces_backtaint.ml" 52 1594 1602 "traces_backtaint.ml" 52 1594 1614
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 51 1547 1555 "traces_backtaint.ml" 52 1594 1614
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 48 1390 1398 "traces_backtaint.ml" 52 1594 1614
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 47 1346 1354 "traces_backtaint.ml" 52 1594 1614
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 46 1298 1306 "traces_backtaint.ml" 52 1594 1614
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 53 1615 1629 "traces_backtaint.ml" 53 1615 1630
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 53 1615 1635 "traces_backtaint.ml" 53 1615 1639
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def addr "traces_backtaint.ml" 54 1651 1659 "traces_backtaint.ml" 55 1698 1716
+)
+"traces_backtaint.ml" 53 1615 1640 "traces_backtaint.ml" 53 1615 1641
+type(
+  Type.typ
+)
+"traces_backtaint.ml" 53 1615 1634 "traces_backtaint.ml" 53 1615 1642
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"traces_backtaint.ml" 53 1615 1631 "traces_backtaint.ml" 53 1615 1642
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 53 1615 1643 "traces_backtaint.ml" 53 1615 1644
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 53 1615 1645 "traces_backtaint.ml" 53 1615 1646
+type(
+  Type.typ
+)
+"traces_backtaint.ml" 53 1615 1628 "traces_backtaint.ml" 53 1615 1647
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_backtaint.ml" 53 1615 1623 "traces_backtaint.ml" 53 1615 1647
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 54 1651 1659 "traces_backtaint.ml" 54 1651 1663
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+)
+"traces_backtaint.ml" 54 1651 1664 "traces_backtaint.ml" 54 1651 1666
+type(
+  LocSet.t ref -> LocSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 54 1651 1667 "traces_backtaint.ml" 54 1651 1677
+type(
+  LocSet.elt -> LocSet.t -> LocSet.t
+)
+ident(
+  ext_ref LocSet.add
+)
+"traces_backtaint.ml" 54 1651 1685 "traces_backtaint.ml" 54 1651 1689
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref addr "traces_backtaint.ml" 53 1615 1635 "traces_backtaint.ml" 53 1615 1639
+)
+"traces_backtaint.ml" 54 1651 1678 "traces_backtaint.ml" 54 1651 1690
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 54 1651 1691 "traces_backtaint.ml" 54 1651 1692
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 54 1651 1692 "traces_backtaint.ml" 54 1651 1696
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+)
+"traces_backtaint.ml" 54 1651 1691 "traces_backtaint.ml" 54 1651 1696
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 54 1651 1667 "traces_backtaint.ml" 54 1651 1696
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 54 1651 1659 "traces_backtaint.ml" 54 1651 1696
+type(
+  unit
+)
+"traces_backtaint.ml" 55 1698 1706 "traces_backtaint.ml" 55 1698 1716
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 54 1651 1659 "traces_backtaint.ml" 55 1698 1716
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 56 1717 1730 "traces_backtaint.ml" 56 1717 1731
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_backtaint.ml" 56 1717 1725 "traces_backtaint.ml" 56 1717 1731
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 56 1717 1725 "traces_backtaint.ml" 56 1717 1736
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_backtaint.ml" 57 1740 1748 "traces_backtaint.ml" 57 1740 1892
+)
+"traces_backtaint.ml" 57 1740 1748 "traces_backtaint.ml" 57 1740 1756
+type(
+  string -> Ast.exp Type.visit_action
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_backtaint.ml" 57 1740 1758 "traces_backtaint.ml" 57 1740 1772
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"traces_backtaint.ml" 57 1740 1773 "traces_backtaint.ml" 57 1740 1866
+type(
+  (string -> string, unit, string) format
+)
+"traces_backtaint.ml" 57 1740 1868 "traces_backtaint.ml" 57 1740 1888
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"traces_backtaint.ml" 57 1740 1889 "traces_backtaint.ml" 57 1740 1890
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 56 1717 1725 "traces_backtaint.ml" 56 1717 1736
+)
+"traces_backtaint.ml" 57 1740 1867 "traces_backtaint.ml" 57 1740 1891
+type(
+  string
+)
+"traces_backtaint.ml" 57 1740 1757 "traces_backtaint.ml" 57 1740 1892
+type(
+  string
+)
+"traces_backtaint.ml" 57 1740 1748 "traces_backtaint.ml" 57 1740 1892
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 58 1893 1901 "traces_backtaint.ml" 58 1893 1902
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 58 1893 1906 "traces_backtaint.ml" 58 1893 1916
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 43 1199 1205 "traces_backtaint.ml" 58 1893 1916
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 59 1917 1939 "traces_backtaint.ml" 59 1917 1940
+type(
+  Ast.var
+)
+ident(
+  def r "traces_backtaint.ml" 60 1943 1949 "traces_backtaint.ml" 63 2090 2106
+)
+"traces_backtaint.ml" 60 1943 1952 "traces_backtaint.ml" 60 1943 1955
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"traces_backtaint.ml" 60 1943 1957 "traces_backtaint.ml" 60 1943 1967
+type(
+  LocSet.elt -> LocSet.t -> bool
+)
+ident(
+  ext_ref LocSet.mem
+)
+"traces_backtaint.ml" 60 1943 1975 "traces_backtaint.ml" 60 1943 1976
+type(
+  Ast.var
+)
+ident(
+  int_ref r "traces_backtaint.ml" 59 1917 1939 "traces_backtaint.ml" 59 1917 1940
+)
+"traces_backtaint.ml" 60 1943 1968 "traces_backtaint.ml" 60 1943 1977
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 60 1943 1978 "traces_backtaint.ml" 60 1943 1979
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 60 1943 1979 "traces_backtaint.ml" 60 1943 1983
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+)
+"traces_backtaint.ml" 60 1943 1978 "traces_backtaint.ml" 60 1943 1983
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 60 1943 1956 "traces_backtaint.ml" 60 1943 1984
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_backtaint.ml" 60 1943 1952 "traces_backtaint.ml" 60 1943 1984
+type(
+  bool
+)
+"traces_backtaint.ml" 61 1990 2001 "traces_backtaint.ml" 61 1990 2026
+type(
+  Type.typ -> bool
+)
+ident(
+  ext_ref Typecheck.is_integer_type
+)
+"traces_backtaint.ml" 61 1990 2028 "traces_backtaint.ml" 61 1990 2035
+type(
+  Ast.var -> Type.typ
+)
+ident(
+  ext_ref Var.typ
+)
+"traces_backtaint.ml" 61 1990 2036 "traces_backtaint.ml" 61 1990 2037
+type(
+  Ast.var
+)
+ident(
+  int_ref r "traces_backtaint.ml" 59 1917 1939 "traces_backtaint.ml" 59 1917 1940
+)
+"traces_backtaint.ml" 61 1990 2027 "traces_backtaint.ml" 61 1990 2038
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"traces_backtaint.ml" 61 1990 2001 "traces_backtaint.ml" 61 1990 2038
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_backtaint.ml" 62 2044 2054 "traces_backtaint.ml" 62 2044 2058
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+)
+"traces_backtaint.ml" 62 2044 2059 "traces_backtaint.ml" 62 2044 2061
+type(
+  LocSet.t ref -> LocSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 62 2044 2062 "traces_backtaint.ml" 62 2044 2072
+type(
+  LocSet.elt -> LocSet.t -> LocSet.t
+)
+ident(
+  ext_ref LocSet.add
+)
+"traces_backtaint.ml" 62 2044 2080 "traces_backtaint.ml" 62 2044 2081
+type(
+  Ast.var
+)
+ident(
+  int_ref r "traces_backtaint.ml" 59 1917 1939 "traces_backtaint.ml" 59 1917 1940
+)
+"traces_backtaint.ml" 62 2044 2073 "traces_backtaint.ml" 62 2044 2082
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 62 2044 2083 "traces_backtaint.ml" 62 2044 2084
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 62 2044 2084 "traces_backtaint.ml" 62 2044 2088
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+)
+"traces_backtaint.ml" 62 2044 2083 "traces_backtaint.ml" 62 2044 2088
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 62 2044 2062 "traces_backtaint.ml" 62 2044 2088
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 62 2044 2054 "traces_backtaint.ml" 62 2044 2088
+type(
+  unit
+)
+"traces_backtaint.ml" 61 1990 1998 "traces_backtaint.ml" 62 2044 2088
+type(
+  unit
+)
+"traces_backtaint.ml" 60 1943 1949 "traces_backtaint.ml" 62 2044 2088
+type(
+  unit
+)
+"traces_backtaint.ml" 63 2090 2096 "traces_backtaint.ml" 63 2090 2106
+type(
+  Ast.var Type.visit_action
+)
+"traces_backtaint.ml" 60 1943 1949 "traces_backtaint.ml" 63 2090 2106
+type(
+  Ast.var Type.visit_action
+)
+"traces_backtaint.ml" 39 1117 1132 "traces_backtaint.ml" 64 2107 2112
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 66 2118 2120 "traces_backtaint.ml" 66 2118 2126
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_backtaint.ml" 66 2118 2127 "traces_backtaint.ml" 66 2118 2149
+type(
+  Ast_visitor.t -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"traces_backtaint.ml" 66 2118 2150 "traces_backtaint.ml" 66 2118 2156
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref varvis "traces_backtaint.ml" 39 1117 1123 "traces_backtaint.ml" 39 1117 1129
+)
+"traces_backtaint.ml" 66 2118 2157 "traces_backtaint.ml" 66 2118 2158
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 38 1089 1113 "traces_backtaint.ml" 38 1089 1114
+)
+"traces_backtaint.ml" 66 2118 2126 "traces_backtaint.ml" 66 2118 2159
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 66 2118 2120 "traces_backtaint.ml" 66 2118 2159
+type(
+  unit
+)
+"traces_backtaint.ml" 67 2161 2163 "traces_backtaint.ml" 67 2161 2164
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 67 2161 2164 "traces_backtaint.ml" 67 2161 2168
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 38 1089 1108 "traces_backtaint.ml" 38 1089 1112
+)
+"traces_backtaint.ml" 67 2161 2163 "traces_backtaint.ml" 67 2161 2168
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 66 2118 2120 "traces_backtaint.ml" 67 2161 2168
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 39 1117 1119 "traces_backtaint.ml" 67 2161 2168
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 71 2290 2294 "traces_backtaint.ml" 71 2290 2315
+type(
+  LocSet.t ref -> Ast.exp -> bool * LocSet.t
+)
+ident(
+  def interesting_mem_write "traces_backtaint.ml" 94 2937 2937 --
+)
+"traces_backtaint.ml" 71 2290 2316 "traces_backtaint.ml" 71 2290 2320
+type(
+  LocSet.t ref
+)
+ident(
+  def vars "traces_backtaint.ml" 71 2290 2321 "traces_backtaint.ml" 90 2796 2824
+)
+"traces_backtaint.ml" 71 2290 2321 "traces_backtaint.ml" 71 2290 2322
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_backtaint.ml" 72 2325 2327 "traces_backtaint.ml" 90 2796 2824
+)
+"traces_backtaint.ml" 72 2325 2331 "traces_backtaint.ml" 72 2325 2347
+type(
+  bool ref
+)
+"traces_backtaint.ml" 72 2325 2350 "traces_backtaint.ml" 72 2325 2353
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_backtaint.ml" 72 2325 2354 "traces_backtaint.ml" 72 2325 2359
+type(
+  bool
+)
+"traces_backtaint.ml" 72 2325 2350 "traces_backtaint.ml" 72 2325 2359
+type(
+  bool ref
+)
+"traces_backtaint.ml" 73 2363 2369 "traces_backtaint.ml" 73 2363 2373
+type(
+  LocSet.t ref
+)
+"traces_backtaint.ml" 73 2363 2376 "traces_backtaint.ml" 73 2363 2379
+type(
+  LocSet.t -> LocSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_backtaint.ml" 73 2363 2380 "traces_backtaint.ml" 73 2363 2392
+type(
+  LocSet.t
+)
+ident(
+  ext_ref LocSet.empty
+)
+"traces_backtaint.ml" 73 2363 2376 "traces_backtaint.ml" 73 2363 2392
+type(
+  LocSet.t ref
+)
+"traces_backtaint.ml" 74 2396 2402 "traces_backtaint.ml" 74 2396 2412
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 74 2396 2421 "traces_backtaint.ml" 74 2396 2427
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 77 2455 2474 "traces_backtaint.ml" 77 2455 2475
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_backtaint.ml" 78 2478 2482 "traces_backtaint.ml" 86 2716 2737
+)
+"traces_backtaint.ml" 78 2478 2488 "traces_backtaint.ml" 78 2478 2489
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 77 2455 2474 "traces_backtaint.ml" 77 2455 2475
+)
+"traces_backtaint.ml" 79 2495 2507 "traces_backtaint.ml" 79 2495 2508
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 79 2495 2513 "traces_backtaint.ml" 79 2495 2517
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def addr "traces_backtaint.ml" 80 2535 2541 "traces_backtaint.ml" 85 2697 2715
+)
+"traces_backtaint.ml" 79 2495 2518 "traces_backtaint.ml" 79 2495 2519
+type(
+  Type.typ
+)
+"traces_backtaint.ml" 79 2495 2512 "traces_backtaint.ml" 79 2495 2520
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"traces_backtaint.ml" 79 2495 2509 "traces_backtaint.ml" 79 2495 2520
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 79 2495 2521 "traces_backtaint.ml" 79 2495 2526
+type(
+  Ast.exp
+)
+ident(
+  def value "traces_backtaint.ml" 80 2535 2541 "traces_backtaint.ml" 85 2697 2715
+)
+"traces_backtaint.ml" 79 2495 2527 "traces_backtaint.ml" 79 2495 2528
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 79 2495 2529 "traces_backtaint.ml" 79 2495 2530
+type(
+  Type.typ
+)
+"traces_backtaint.ml" 79 2495 2506 "traces_backtaint.ml" 79 2495 2531
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_backtaint.ml" 79 2495 2501 "traces_backtaint.ml" 79 2495 2531
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 80 2535 2545 "traces_backtaint.ml" 80 2535 2555
+type(
+  LocSet.elt -> LocSet.t -> bool
+)
+ident(
+  ext_ref LocSet.mem
+)
+"traces_backtaint.ml" 80 2535 2563 "traces_backtaint.ml" 80 2535 2567
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref addr "traces_backtaint.ml" 79 2495 2513 "traces_backtaint.ml" 79 2495 2517
+)
+"traces_backtaint.ml" 80 2535 2556 "traces_backtaint.ml" 80 2535 2568
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 80 2535 2569 "traces_backtaint.ml" 80 2535 2570
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 80 2535 2570 "traces_backtaint.ml" 80 2535 2574
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 71 2290 2316 "traces_backtaint.ml" 71 2290 2320
+)
+"traces_backtaint.ml" 80 2535 2569 "traces_backtaint.ml" 80 2535 2574
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 80 2535 2544 "traces_backtaint.ml" 80 2535 2575
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_backtaint.ml" 81 2583 2591 "traces_backtaint.ml" 81 2583 2595
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref mems "traces_backtaint.ml" 73 2363 2369 "traces_backtaint.ml" 73 2363 2373
+)
+"traces_backtaint.ml" 81 2583 2596 "traces_backtaint.ml" 81 2583 2598
+type(
+  LocSet.t ref -> LocSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 81 2583 2599 "traces_backtaint.ml" 81 2583 2609
+type(
+  LocSet.elt -> LocSet.t -> LocSet.t
+)
+ident(
+  ext_ref LocSet.add
+)
+"traces_backtaint.ml" 81 2583 2617 "traces_backtaint.ml" 81 2583 2621
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref addr "traces_backtaint.ml" 79 2495 2513 "traces_backtaint.ml" 79 2495 2517
+)
+"traces_backtaint.ml" 81 2583 2610 "traces_backtaint.ml" 81 2583 2622
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 81 2583 2623 "traces_backtaint.ml" 81 2583 2624
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 81 2583 2624 "traces_backtaint.ml" 81 2583 2628
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref mems "traces_backtaint.ml" 73 2363 2369 "traces_backtaint.ml" 73 2363 2373
+)
+"traces_backtaint.ml" 81 2583 2623 "traces_backtaint.ml" 81 2583 2628
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 81 2583 2599 "traces_backtaint.ml" 81 2583 2628
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 81 2583 2591 "traces_backtaint.ml" 81 2583 2628
+type(
+  unit
+)
+"traces_backtaint.ml" 82 2630 2638 "traces_backtaint.ml" 82 2630 2654
+type(
+  bool ref
+)
+ident(
+  int_ref interesting_flag "traces_backtaint.ml" 72 2325 2331 "traces_backtaint.ml" 72 2325 2347
+)
+"traces_backtaint.ml" 82 2630 2655 "traces_backtaint.ml" 82 2630 2657
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 82 2630 2658 "traces_backtaint.ml" 82 2630 2662
+type(
+  bool
+)
+"traces_backtaint.ml" 82 2630 2638 "traces_backtaint.ml" 82 2630 2662
+type(
+  unit
+)
+"traces_backtaint.ml" 83 2664 2672 "traces_backtaint.ml" 83 2664 2684
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 82 2630 2638 "traces_backtaint.ml" 83 2664 2684
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 80 2535 2581 "traces_backtaint.ml" 83 2664 2685
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 85 2697 2705 "traces_backtaint.ml" 85 2697 2715
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 80 2535 2541 "traces_backtaint.ml" 85 2697 2715
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 86 2716 2722 "traces_backtaint.ml" 86 2716 2723
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 86 2716 2727 "traces_backtaint.ml" 86 2716 2737
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 78 2478 2482 "traces_backtaint.ml" 86 2716 2737
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 74 2396 2415 "traces_backtaint.ml" 87 2738 2743
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 89 2749 2751 "traces_backtaint.ml" 89 2749 2757
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_backtaint.ml" 89 2749 2758 "traces_backtaint.ml" 89 2749 2780
+type(
+  Ast_visitor.t -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"traces_backtaint.ml" 89 2749 2781 "traces_backtaint.ml" 89 2749 2791
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref memvis_one "traces_backtaint.ml" 74 2396 2402 "traces_backtaint.ml" 74 2396 2412
+)
+"traces_backtaint.ml" 89 2749 2792 "traces_backtaint.ml" 89 2749 2793
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 71 2290 2321 "traces_backtaint.ml" 71 2290 2322
+)
+"traces_backtaint.ml" 89 2749 2757 "traces_backtaint.ml" 89 2749 2794
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 89 2749 2751 "traces_backtaint.ml" 89 2749 2794
+type(
+  unit
+)
+"traces_backtaint.ml" 90 2796 2799 "traces_backtaint.ml" 90 2796 2800
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 90 2796 2800 "traces_backtaint.ml" 90 2796 2816
+type(
+  bool ref
+)
+ident(
+  int_ref interesting_flag "traces_backtaint.ml" 72 2325 2331 "traces_backtaint.ml" 72 2325 2347
+)
+"traces_backtaint.ml" 90 2796 2799 "traces_backtaint.ml" 90 2796 2816
+type(
+  bool
+)
+"traces_backtaint.ml" 90 2796 2818 "traces_backtaint.ml" 90 2796 2819
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 90 2796 2819 "traces_backtaint.ml" 90 2796 2823
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref mems "traces_backtaint.ml" 73 2363 2369 "traces_backtaint.ml" 73 2363 2373
+)
+"traces_backtaint.ml" 90 2796 2818 "traces_backtaint.ml" 90 2796 2823
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 90 2796 2798 "traces_backtaint.ml" 90 2796 2824
+type(
+  bool * LocSet.t
+)
+"traces_backtaint.ml" 89 2749 2751 "traces_backtaint.ml" 90 2796 2824
+type(
+  bool * LocSet.t
+)
+"traces_backtaint.ml" 74 2396 2398 "traces_backtaint.ml" 90 2796 2824
+type(
+  bool * LocSet.t
+)
+"traces_backtaint.ml" 73 2363 2365 "traces_backtaint.ml" 90 2796 2824
+type(
+  bool * LocSet.t
+)
+"traces_backtaint.ml" 72 2325 2327 "traces_backtaint.ml" 90 2796 2824
+type(
+  bool * LocSet.t
+)
+"traces_backtaint.ml" 94 2937 2941 "traces_backtaint.ml" 94 2937 2956
+type(
+  Ast.stmt list -> LocSet.t -> LocSet.t
+)
+ident(
+  def backwards_taint "traces_backtaint.ml" 134 4400 4400 --
+)
+"traces_backtaint.ml" 94 2937 2957 "traces_backtaint.ml" 94 2937 2962
+type(
+  Ast.stmt list
+)
+ident(
+  def stmts "traces_backtaint.ml" 94 2937 2963 "traces_backtaint.ml" 131 4354 4361
+)
+"traces_backtaint.ml" 94 2937 2963 "traces_backtaint.ml" 94 2937 2969
+type(
+  LocSet.t
+)
+ident(
+  def locset "traces_backtaint.ml" 95 2972 2974 "traces_backtaint.ml" 131 4354 4361
+)
+"traces_backtaint.ml" 95 2972 2978 "traces_backtaint.ml" 95 2972 2987
+type(
+  Ast.stmt list
+)
+"traces_backtaint.ml" 95 2972 2990 "traces_backtaint.ml" 95 2972 2998
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"traces_backtaint.ml" 95 2972 2999 "traces_backtaint.ml" 95 2972 3004
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref stmts "traces_backtaint.ml" 94 2937 2957 "traces_backtaint.ml" 94 2937 2962
+)
+"traces_backtaint.ml" 95 2972 2990 "traces_backtaint.ml" 95 2972 3004
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+type(
+  LocSet.t ref
+)
+"traces_backtaint.ml" 96 3008 3021 "traces_backtaint.ml" 96 3008 3024
+type(
+  LocSet.t -> LocSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_backtaint.ml" 96 3008 3025 "traces_backtaint.ml" 96 3008 3031
+type(
+  LocSet.t
+)
+ident(
+  int_ref locset "traces_backtaint.ml" 94 2937 2963 "traces_backtaint.ml" 94 2937 2969
+)
+"traces_backtaint.ml" 96 3008 3021 "traces_backtaint.ml" 96 3008 3031
+type(
+  LocSet.t ref
+)
+"traces_backtaint.ml" 97 3035 3037 "traces_backtaint.ml" 97 3035 3046
+type(
+  (Ast.stmt -> unit) -> Ast.stmt list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"traces_backtaint.ml" 97 3035 3052 "traces_backtaint.ml" 97 3035 3056
+type(
+  Ast.stmt
+)
+ident(
+  def stmt "traces_backtaint.ml" 98 3060 3064 "traces_backtaint.ml" 127 4183 4299
+)
+"traces_backtaint.ml" 98 3060 3071 "traces_backtaint.ml" 98 3060 3075
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_backtaint.ml" 97 3035 3052 "traces_backtaint.ml" 97 3035 3056
+)
+"traces_backtaint.ml" 99 3081 3092 "traces_backtaint.ml" 99 3081 3093
+type(
+  Ast.var
+)
+ident(
+  def l "traces_backtaint.ml" 102 3200 3206 "traces_backtaint.ml" 123 4152 4159
+)
+"traces_backtaint.ml" 99 3081 3095 "traces_backtaint.ml" 99 3081 3096
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_backtaint.ml" 102 3200 3206 "traces_backtaint.ml" 123 4152 4159
+)
+"traces_backtaint.ml" 99 3081 3098 "traces_backtaint.ml" 99 3081 3099
+type(
+  Ast.attrs
+)
+"traces_backtaint.ml" 99 3081 3091 "traces_backtaint.ml" 99 3081 3100
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"traces_backtaint.ml" 99 3081 3087 "traces_backtaint.ml" 99 3081 3100
+type(
+  Ast.stmt
+)
+"traces_backtaint.ml" 102 3200 3210 "traces_backtaint.ml" 102 3200 3220
+type(
+  LocSet.elt -> LocSet.t -> bool
+)
+ident(
+  ext_ref LocSet.mem
+)
+"traces_backtaint.ml" 102 3200 3228 "traces_backtaint.ml" 102 3200 3229
+type(
+  Ast.var
+)
+ident(
+  int_ref l "traces_backtaint.ml" 99 3081 3092 "traces_backtaint.ml" 99 3081 3093
+)
+"traces_backtaint.ml" 102 3200 3221 "traces_backtaint.ml" 102 3200 3230
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 102 3200 3231 "traces_backtaint.ml" 102 3200 3232
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 102 3200 3232 "traces_backtaint.ml" 102 3200 3236
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 102 3200 3231 "traces_backtaint.ml" 102 3200 3236
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 102 3200 3210 "traces_backtaint.ml" 102 3200 3236
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_backtaint.ml" 102 3200 3237 "traces_backtaint.ml" 102 3200 3239
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"traces_backtaint.ml" 103 3240 3252 "traces_backtaint.ml" 103 3240 3277
+type(
+  Type.typ -> bool
+)
+ident(
+  ext_ref Typecheck.is_integer_type
+)
+"traces_backtaint.ml" 103 3240 3279 "traces_backtaint.ml" 103 3240 3286
+type(
+  Ast.var -> Type.typ
+)
+ident(
+  ext_ref Var.typ
+)
+"traces_backtaint.ml" 103 3240 3287 "traces_backtaint.ml" 103 3240 3288
+type(
+  Ast.var
+)
+ident(
+  int_ref l "traces_backtaint.ml" 99 3081 3092 "traces_backtaint.ml" 99 3081 3093
+)
+"traces_backtaint.ml" 103 3240 3278 "traces_backtaint.ml" 103 3240 3289
+call(
+  stack
+)
+type(
+  Type.typ
+)
+"traces_backtaint.ml" 103 3240 3252 "traces_backtaint.ml" 103 3240 3289
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_backtaint.ml" 102 3200 3209 "traces_backtaint.ml" 103 3240 3290
+type(
+  bool
+)
+"traces_backtaint.ml" 104 3298 3306 "traces_backtaint.ml" 104 3298 3313
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"traces_backtaint.ml" 104 3298 3314 "traces_backtaint.ml" 104 3298 3331
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"traces_backtaint.ml" 104 3298 3333 "traces_backtaint.ml" 104 3298 3354
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"traces_backtaint.ml" 104 3298 3355 "traces_backtaint.ml" 104 3298 3359
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_backtaint.ml" 97 3035 3052 "traces_backtaint.ml" 97 3035 3056
+)
+"traces_backtaint.ml" 104 3298 3332 "traces_backtaint.ml" 104 3298 3360
+call(
+  stack
+)
+type(
+  string
+)
+"traces_backtaint.ml" 104 3298 3306 "traces_backtaint.ml" 104 3298 3360
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 105 3362 3370 "traces_backtaint.ml" 105 3362 3374
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 105 3362 3375 "traces_backtaint.ml" 105 3362 3377
+type(
+  LocSet.t ref -> LocSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 105 3362 3379 "traces_backtaint.ml" 105 3362 3392
+type(
+  LocSet.elt -> LocSet.t -> LocSet.t
+)
+ident(
+  ext_ref LocSet.remove
+)
+"traces_backtaint.ml" 105 3362 3400 "traces_backtaint.ml" 105 3362 3401
+type(
+  Ast.var
+)
+ident(
+  int_ref l "traces_backtaint.ml" 99 3081 3092 "traces_backtaint.ml" 99 3081 3093
+)
+"traces_backtaint.ml" 105 3362 3393 "traces_backtaint.ml" 105 3362 3402
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 105 3362 3403 "traces_backtaint.ml" 105 3362 3404
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 105 3362 3404 "traces_backtaint.ml" 105 3362 3408
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 105 3362 3403 "traces_backtaint.ml" 105 3362 3408
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 105 3362 3378 "traces_backtaint.ml" 105 3362 3409
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 105 3362 3370 "traces_backtaint.ml" 105 3362 3409
+type(
+  unit
+)
+"traces_backtaint.ml" 106 3411 3423 "traces_backtaint.ml" 106 3411 3431
+type(
+  LocSet.t
+)
+ident(
+  def old_vars "traces_backtaint.ml" 107 3443 3451 "traces_backtaint.ml" 109 3515 3592
+)
+"traces_backtaint.ml" 106 3411 3434 "traces_backtaint.ml" 106 3411 3435
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 106 3411 3435 "traces_backtaint.ml" 106 3411 3439
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 106 3411 3434 "traces_backtaint.ml" 106 3411 3439
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 107 3443 3451 "traces_backtaint.ml" 107 3443 3455
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 107 3443 3456 "traces_backtaint.ml" 107 3443 3458
+type(
+  LocSet.t ref -> LocSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 107 3443 3459 "traces_backtaint.ml" 107 3443 3473
+type(
+  LocSet.t ref -> Ast.exp -> LocSet.t
+)
+ident(
+  int_ref add_referenced "traces_backtaint.ml" 38 1089 1093 "traces_backtaint.ml" 38 1089 1107
+)
+"traces_backtaint.ml" 107 3443 3474 "traces_backtaint.ml" 107 3443 3478
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 107 3443 3479 "traces_backtaint.ml" 107 3443 3480
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 99 3081 3095 "traces_backtaint.ml" 99 3081 3096
+)
+"traces_backtaint.ml" 107 3443 3459 "traces_backtaint.ml" 107 3443 3480
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 107 3443 3451 "traces_backtaint.ml" 107 3443 3480
+type(
+  unit
+)
+"traces_backtaint.ml" 108 3482 3493 "traces_backtaint.ml" 108 3482 3494
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 108 3482 3494 "traces_backtaint.ml" 108 3482 3498
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 108 3482 3493 "traces_backtaint.ml" 108 3482 3498
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 108 3482 3499 "traces_backtaint.ml" 108 3482 3500
+type(
+  LocSet.t -> LocSet.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"traces_backtaint.ml" 108 3482 3501 "traces_backtaint.ml" 108 3482 3509
+type(
+  LocSet.t
+)
+ident(
+  int_ref old_vars "traces_backtaint.ml" 106 3411 3423 "traces_backtaint.ml" 106 3411 3431
+)
+"traces_backtaint.ml" 108 3482 3493 "traces_backtaint.ml" 108 3482 3509
+type(
+  bool
+)
+"traces_backtaint.ml" 109 3515 3525 "traces_backtaint.ml" 109 3515 3538
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"traces_backtaint.ml" 109 3515 3539 "traces_backtaint.ml" 109 3515 3563
+type(
+  (string -> unit, out_channel, unit) format
+)
+"traces_backtaint.ml" 109 3515 3565 "traces_backtaint.ml" 109 3515 3586
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"traces_backtaint.ml" 109 3515 3587 "traces_backtaint.ml" 109 3515 3591
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_backtaint.ml" 97 3035 3052 "traces_backtaint.ml" 97 3035 3056
+)
+"traces_backtaint.ml" 109 3515 3564 "traces_backtaint.ml" 109 3515 3592
+call(
+  stack
+)
+type(
+  string
+)
+"traces_backtaint.ml" 109 3515 3525 "traces_backtaint.ml" 109 3515 3592
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 108 3482 3490 "traces_backtaint.ml" 109 3515 3592
+type(
+  unit
+)
+"traces_backtaint.ml" 107 3443 3451 "traces_backtaint.ml" 109 3515 3592
+type(
+  unit
+)
+"traces_backtaint.ml" 106 3411 3419 "traces_backtaint.ml" 109 3515 3592
+type(
+  unit
+)
+"traces_backtaint.ml" 105 3362 3370 "traces_backtaint.ml" 109 3515 3592
+type(
+  unit
+)
+"traces_backtaint.ml" 103 3240 3296 "traces_backtaint.ml" 110 3593 3600
+type(
+  unit
+)
+"traces_backtaint.ml" 114 3764 3776 "traces_backtaint.ml" 114 3764 3780
+type(
+  bool
+)
+"traces_backtaint.ml" 114 3764 3782 "traces_backtaint.ml" 114 3764 3786
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 114 3764 3776 "traces_backtaint.ml" 114 3764 3786
+type(
+  bool * LocSet.t
+)
+"traces_backtaint.ml" 114 3764 3789 "traces_backtaint.ml" 114 3764 3810
+type(
+  LocSet.t ref -> Ast.exp -> bool * LocSet.t
+)
+ident(
+  int_ref interesting_mem_write "traces_backtaint.ml" 71 2290 2294 "traces_backtaint.ml" 71 2290 2315
+)
+"traces_backtaint.ml" 114 3764 3811 "traces_backtaint.ml" 114 3764 3815
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 114 3764 3816 "traces_backtaint.ml" 114 3764 3817
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 99 3081 3095 "traces_backtaint.ml" 99 3081 3096
+)
+"traces_backtaint.ml" 114 3764 3789 "traces_backtaint.ml" 114 3764 3817
+call(
+  stack
+)
+type(
+  bool * LocSet.t
+)
+"traces_backtaint.ml" 115 3821 3832 "traces_backtaint.ml" 115 3821 3836
+type(
+  bool
+)
+ident(
+  int_ref flag "traces_backtaint.ml" 114 3764 3776 "traces_backtaint.ml" 114 3764 3780
+)
+"traces_backtaint.ml" 116 3844 3854 "traces_backtaint.ml" 116 3844 3861
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"traces_backtaint.ml" 116 3844 3862 "traces_backtaint.ml" 116 3844 3879
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"traces_backtaint.ml" 116 3844 3881 "traces_backtaint.ml" 116 3844 3902
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"traces_backtaint.ml" 116 3844 3903 "traces_backtaint.ml" 116 3844 3907
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_backtaint.ml" 97 3035 3052 "traces_backtaint.ml" 97 3035 3056
+)
+"traces_backtaint.ml" 116 3844 3880 "traces_backtaint.ml" 116 3844 3908
+call(
+  stack
+)
+type(
+  string
+)
+"traces_backtaint.ml" 116 3844 3854 "traces_backtaint.ml" 116 3844 3908
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 117 3910 3920 "traces_backtaint.ml" 117 3910 3924
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 117 3910 3925 "traces_backtaint.ml" 117 3910 3927
+type(
+  LocSet.t ref -> LocSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 117 3910 3928 "traces_backtaint.ml" 117 3910 3939
+type(
+  LocSet.t -> LocSet.t -> LocSet.t
+)
+ident(
+  ext_ref LocSet.diff
+)
+"traces_backtaint.ml" 117 3910 3940 "traces_backtaint.ml" 117 3910 3941
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 117 3910 3941 "traces_backtaint.ml" 117 3910 3945
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 117 3910 3940 "traces_backtaint.ml" 117 3910 3945
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 117 3910 3946 "traces_backtaint.ml" 117 3910 3950
+type(
+  LocSet.t
+)
+ident(
+  int_ref mems "traces_backtaint.ml" 114 3764 3782 "traces_backtaint.ml" 114 3764 3786
+)
+"traces_backtaint.ml" 117 3910 3928 "traces_backtaint.ml" 117 3910 3950
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 117 3910 3920 "traces_backtaint.ml" 117 3910 3950
+type(
+  unit
+)
+"traces_backtaint.ml" 118 3952 3966 "traces_backtaint.ml" 118 3952 3974
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 118 3952 3977 "traces_backtaint.ml" 118 3952 3978
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 118 3952 3978 "traces_backtaint.ml" 118 3952 3982
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 118 3952 3977 "traces_backtaint.ml" 118 3952 3982
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 119 3986 3996 "traces_backtaint.ml" 119 3986 4000
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 119 3986 4001 "traces_backtaint.ml" 119 3986 4003
+type(
+  LocSet.t ref -> LocSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 119 3986 4004 "traces_backtaint.ml" 119 3986 4018
+type(
+  LocSet.t ref -> Ast.exp -> LocSet.t
+)
+ident(
+  int_ref add_referenced "traces_backtaint.ml" 38 1089 1093 "traces_backtaint.ml" 38 1089 1107
+)
+"traces_backtaint.ml" 119 3986 4019 "traces_backtaint.ml" 119 3986 4023
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 119 3986 4024 "traces_backtaint.ml" 119 3986 4025
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 99 3081 3095 "traces_backtaint.ml" 99 3081 3096
+)
+"traces_backtaint.ml" 119 3986 4004 "traces_backtaint.ml" 119 3986 4025
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 119 3986 3996 "traces_backtaint.ml" 119 3986 4025
+type(
+  unit
+)
+"traces_backtaint.ml" 120 4027 4040 "traces_backtaint.ml" 120 4027 4041
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 120 4027 4041 "traces_backtaint.ml" 120 4027 4045
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 120 4027 4040 "traces_backtaint.ml" 120 4027 4045
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 120 4027 4046 "traces_backtaint.ml" 120 4027 4047
+type(
+  LocSet.t -> LocSet.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"traces_backtaint.ml" 120 4027 4048 "traces_backtaint.ml" 120 4027 4056
+type(
+  LocSet.t
+)
+ident(
+  int_ref old_vars "traces_backtaint.ml" 118 3952 3966 "traces_backtaint.ml" 118 3952 3974
+)
+"traces_backtaint.ml" 120 4027 4040 "traces_backtaint.ml" 120 4027 4056
+type(
+  bool
+)
+"traces_backtaint.ml" 121 4062 4074 "traces_backtaint.ml" 121 4062 4087
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"traces_backtaint.ml" 121 4062 4088 "traces_backtaint.ml" 121 4062 4112
+type(
+  (string -> unit, out_channel, unit) format
+)
+"traces_backtaint.ml" 121 4062 4114 "traces_backtaint.ml" 121 4062 4135
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"traces_backtaint.ml" 121 4062 4136 "traces_backtaint.ml" 121 4062 4140
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_backtaint.ml" 97 3035 3052 "traces_backtaint.ml" 97 3035 3056
+)
+"traces_backtaint.ml" 121 4062 4113 "traces_backtaint.ml" 121 4062 4141
+call(
+  stack
+)
+type(
+  string
+)
+"traces_backtaint.ml" 121 4062 4074 "traces_backtaint.ml" 121 4062 4141
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 120 4027 4037 "traces_backtaint.ml" 121 4062 4141
+type(
+  unit
+)
+"traces_backtaint.ml" 119 3986 3996 "traces_backtaint.ml" 121 4062 4141
+type(
+  unit
+)
+"traces_backtaint.ml" 118 3952 3962 "traces_backtaint.ml" 121 4062 4141
+type(
+  unit
+)
+"traces_backtaint.ml" 117 3910 3920 "traces_backtaint.ml" 121 4062 4141
+type(
+  unit
+)
+"traces_backtaint.ml" 115 3821 3842 "traces_backtaint.ml" 122 4142 4151
+type(
+  unit
+)
+"traces_backtaint.ml" 115 3821 3829 "traces_backtaint.ml" 122 4142 4151
+type(
+  unit
+)
+"traces_backtaint.ml" 110 3593 3606 "traces_backtaint.ml" 123 4152 4159
+type(
+  unit
+)
+"traces_backtaint.ml" 102 3200 3206 "traces_backtaint.ml" 123 4152 4159
+type(
+  unit
+)
+"traces_backtaint.ml" 124 4160 4166 "traces_backtaint.ml" 124 4160 4167
+type(
+  Ast.stmt
+)
+"traces_backtaint.ml" 124 4160 4171 "traces_backtaint.ml" 124 4160 4174
+type(
+  unit
+)
+"traces_backtaint.ml" 98 3060 3064 "traces_backtaint.ml" 125 4175 4180
+type(
+  unit
+)
+"traces_backtaint.ml" 127 4183 4190 "traces_backtaint.ml" 127 4183 4205
+type(
+  LocSet.t -> int
+)
+ident(
+  ext_ref LocSet.cardinal
+)
+"traces_backtaint.ml" 127 4183 4206 "traces_backtaint.ml" 127 4183 4207
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 127 4183 4207 "traces_backtaint.ml" 127 4183 4211
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 127 4183 4206 "traces_backtaint.ml" 127 4183 4211
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 127 4183 4190 "traces_backtaint.ml" 127 4183 4211
+call(
+  stack
+)
+type(
+  int
+)
+"traces_backtaint.ml" 127 4183 4212 "traces_backtaint.ml" 127 4183 4213
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"traces_backtaint.ml" 127 4183 4214 "traces_backtaint.ml" 127 4183 4215
+type(
+  int
+)
+"traces_backtaint.ml" 127 4183 4190 "traces_backtaint.ml" 127 4183 4215
+type(
+  bool
+)
+"traces_backtaint.ml" 127 4183 4221 "traces_backtaint.ml" 127 4183 4229
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_backtaint.ml" 127 4183 4231 "traces_backtaint.ml" 127 4183 4245
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"traces_backtaint.ml" 127 4183 4246 "traces_backtaint.ml" 127 4183 4269
+type(
+  (string -> string, unit, string) format
+)
+"traces_backtaint.ml" 127 4183 4271 "traces_backtaint.ml" 127 4183 4292
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"traces_backtaint.ml" 127 4183 4293 "traces_backtaint.ml" 127 4183 4297
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "traces_backtaint.ml" 97 3035 3052 "traces_backtaint.ml" 97 3035 3056
+)
+"traces_backtaint.ml" 127 4183 4270 "traces_backtaint.ml" 127 4183 4298
+call(
+  stack
+)
+type(
+  string
+)
+"traces_backtaint.ml" 127 4183 4230 "traces_backtaint.ml" 127 4183 4299
+call(
+  stack
+)
+type(
+  string
+)
+"traces_backtaint.ml" 127 4183 4221 "traces_backtaint.ml" 127 4183 4299
+call(
+  tail
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 127 4183 4187 "traces_backtaint.ml" 127 4183 4299
+type(
+  unit
+)
+"traces_backtaint.ml" 98 3060 3064 "traces_backtaint.ml" 127 4183 4299
+type(
+  unit
+)
+"traces_backtaint.ml" 97 3035 3047 "traces_backtaint.ml" 129 4301 4304
+type(
+  Ast.stmt -> unit
+)
+"traces_backtaint.ml" 129 4301 4305 "traces_backtaint.ml" 129 4301 4314
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref rev_stmts "traces_backtaint.ml" 95 2972 2978 "traces_backtaint.ml" 95 2972 2987
+)
+"traces_backtaint.ml" 97 3035 3037 "traces_backtaint.ml" 129 4301 4314
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 130 4316 4321 "traces_backtaint.ml" 130 4316 4326
+type(
+  unit -> bool
+)
+ident(
+  ext_ref D.debug
+)
+"traces_backtaint.ml" 130 4316 4326 "traces_backtaint.ml" 130 4316 4328
+type(
+  unit
+)
+"traces_backtaint.ml" 130 4316 4321 "traces_backtaint.ml" 130 4316 4328
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_backtaint.ml" 130 4316 4334 "traces_backtaint.ml" 130 4316 4346
+type(
+  LocSet.t -> unit
+)
+ident(
+  int_ref print_locset "traces_backtaint.ml" 29 710 714 "traces_backtaint.ml" 29 710 726
+)
+"traces_backtaint.ml" 130 4316 4347 "traces_backtaint.ml" 130 4316 4348
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 130 4316 4348 "traces_backtaint.ml" 130 4316 4352
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 130 4316 4347 "traces_backtaint.ml" 130 4316 4352
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 130 4316 4334 "traces_backtaint.ml" 130 4316 4352
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 130 4316 4318 "traces_backtaint.ml" 130 4316 4352
+type(
+  unit
+)
+"traces_backtaint.ml" 131 4354 4356 "traces_backtaint.ml" 131 4354 4357
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 131 4354 4357 "traces_backtaint.ml" 131 4354 4361
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref vars "traces_backtaint.ml" 96 3008 3014 "traces_backtaint.ml" 96 3008 3018
+)
+"traces_backtaint.ml" 131 4354 4356 "traces_backtaint.ml" 131 4354 4361
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 130 4316 4318 "traces_backtaint.ml" 131 4354 4361
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 97 3035 3037 "traces_backtaint.ml" 131 4354 4361
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 96 3008 3010 "traces_backtaint.ml" 131 4354 4361
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 95 2972 2974 "traces_backtaint.ml" 131 4354 4361
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 134 4400 4404 "traces_backtaint.ml" 134 4400 4417
+type(
+  Ast.exp -> LocSet.t
+)
+ident(
+  def exp_to_locset "traces_backtaint.ml" 153 4993 4993 --
+)
+"traces_backtaint.ml" 134 4400 4418 "traces_backtaint.ml" 134 4400 4419
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_backtaint.ml" 135 4422 4424 "traces_backtaint.ml" 150 4928 4932
+)
+"traces_backtaint.ml" 135 4422 4428 "traces_backtaint.ml" 135 4422 4429
+type(
+  LocSet.t ref
+)
+"traces_backtaint.ml" 135 4422 4432 "traces_backtaint.ml" 135 4422 4435
+type(
+  LocSet.t -> LocSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_backtaint.ml" 135 4422 4436 "traces_backtaint.ml" 135 4422 4448
+type(
+  LocSet.t
+)
+ident(
+  ext_ref LocSet.empty
+)
+"traces_backtaint.ml" 135 4422 4432 "traces_backtaint.ml" 135 4422 4448
+type(
+  LocSet.t ref
+)
+"traces_backtaint.ml" 136 4452 4458 "traces_backtaint.ml" 136 4452 4461
+type(
+  LocSet.elt -> unit
+)
+"traces_backtaint.ml" 136 4452 4462 "traces_backtaint.ml" 136 4452 4463
+type(
+  LocSet.elt
+)
+ident(
+  def l "traces_backtaint.ml" 136 4452 4466 "traces_backtaint.ml" 136 4452 4486
+)
+"traces_backtaint.ml" 136 4452 4466 "traces_backtaint.ml" 136 4452 4467
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref s "traces_backtaint.ml" 135 4422 4428 "traces_backtaint.ml" 135 4422 4429
+)
+"traces_backtaint.ml" 136 4452 4468 "traces_backtaint.ml" 136 4452 4470
+type(
+  LocSet.t ref -> LocSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 136 4452 4471 "traces_backtaint.ml" 136 4452 4481
+type(
+  LocSet.elt -> LocSet.t -> LocSet.t
+)
+ident(
+  ext_ref LocSet.add
+)
+"traces_backtaint.ml" 136 4452 4482 "traces_backtaint.ml" 136 4452 4483
+type(
+  LocSet.elt
+)
+ident(
+  int_ref l "traces_backtaint.ml" 136 4452 4462 "traces_backtaint.ml" 136 4452 4463
+)
+"traces_backtaint.ml" 136 4452 4484 "traces_backtaint.ml" 136 4452 4485
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 136 4452 4485 "traces_backtaint.ml" 136 4452 4486
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref s "traces_backtaint.ml" 135 4422 4428 "traces_backtaint.ml" 135 4422 4429
+)
+"traces_backtaint.ml" 136 4452 4484 "traces_backtaint.ml" 136 4452 4486
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 136 4452 4471 "traces_backtaint.ml" 136 4452 4486
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 136 4452 4466 "traces_backtaint.ml" 136 4452 4486
+type(
+  unit
+)
+"traces_backtaint.ml" 138 4491 4497 "traces_backtaint.ml" 138 4491 4498
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 138 4491 4507 "traces_backtaint.ml" 138 4491 4513
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 140 4542 4564 "traces_backtaint.ml" 140 4542 4565
+type(
+  Ast.var
+)
+ident(
+  def v "traces_backtaint.ml" 140 4542 4568 "traces_backtaint.ml" 140 4542 4595
+)
+"traces_backtaint.ml" 140 4542 4568 "traces_backtaint.ml" 140 4542 4571
+type(
+  LocSet.elt -> unit
+)
+ident(
+  int_ref add "traces_backtaint.ml" 136 4452 4458 "traces_backtaint.ml" 136 4452 4461
+)
+"traces_backtaint.ml" 140 4542 4579 "traces_backtaint.ml" 140 4542 4580
+type(
+  Ast.var
+)
+ident(
+  int_ref v "traces_backtaint.ml" 140 4542 4564 "traces_backtaint.ml" 140 4542 4565
+)
+"traces_backtaint.ml" 140 4542 4572 "traces_backtaint.ml" 140 4542 4581
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 140 4542 4568 "traces_backtaint.ml" 140 4542 4581
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 140 4542 4583 "traces_backtaint.ml" 140 4542 4595
+type(
+  Ast.var Type.visit_action
+)
+"traces_backtaint.ml" 140 4542 4568 "traces_backtaint.ml" 140 4542 4595
+type(
+  Ast.var Type.visit_action
+)
+"traces_backtaint.ml" 142 4628 4641 "traces_backtaint.ml" 142 4628 4642
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 142 4628 4647 "traces_backtaint.ml" 142 4628 4651
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def addr "traces_backtaint.ml" 142 4628 4660 "traces_backtaint.ml" 144 4704 4722
+)
+"traces_backtaint.ml" 142 4628 4652 "traces_backtaint.ml" 142 4628 4653
+type(
+  Type.typ
+)
+"traces_backtaint.ml" 142 4628 4646 "traces_backtaint.ml" 142 4628 4654
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"traces_backtaint.ml" 142 4628 4643 "traces_backtaint.ml" 142 4628 4654
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 142 4628 4655 "traces_backtaint.ml" 142 4628 4656
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 142 4628 4657 "traces_backtaint.ml" 142 4628 4658
+type(
+  Type.typ
+)
+ident(
+  def t "traces_backtaint.ml" 142 4628 4660 "traces_backtaint.ml" 144 4704 4722
+)
+"traces_backtaint.ml" 142 4628 4640 "traces_backtaint.ml" 142 4628 4659
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_backtaint.ml" 142 4628 4636 "traces_backtaint.ml" 142 4628 4659
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 142 4628 4665 "traces_backtaint.ml" 142 4628 4666
+type(
+  Type.typ
+)
+ident(
+  int_ref t "traces_backtaint.ml" 142 4628 4657 "traces_backtaint.ml" 142 4628 4658
+)
+"traces_backtaint.ml" 142 4628 4667 "traces_backtaint.ml" 142 4628 4668
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"traces_backtaint.ml" 142 4628 4669 "traces_backtaint.ml" 142 4628 4674
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"traces_backtaint.ml" 142 4628 4665 "traces_backtaint.ml" 142 4628 4674
+type(
+  bool
+)
+"traces_backtaint.ml" 143 4678 4686 "traces_backtaint.ml" 143 4678 4689
+type(
+  LocSet.elt -> unit
+)
+ident(
+  int_ref add "traces_backtaint.ml" 136 4452 4458 "traces_backtaint.ml" 136 4452 4461
+)
+"traces_backtaint.ml" 143 4678 4697 "traces_backtaint.ml" 143 4678 4701
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref addr "traces_backtaint.ml" 142 4628 4647 "traces_backtaint.ml" 142 4628 4651
+)
+"traces_backtaint.ml" 143 4678 4690 "traces_backtaint.ml" 143 4678 4702
+type(
+  LocSet.elt
+)
+"traces_backtaint.ml" 143 4678 4686 "traces_backtaint.ml" 143 4678 4702
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 144 4704 4712 "traces_backtaint.ml" 144 4704 4722
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 143 4678 4686 "traces_backtaint.ml" 144 4704 4722
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 142 4628 4660 "traces_backtaint.ml" 144 4704 4722
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 145 4723 4736 "traces_backtaint.ml" 145 4723 4737
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_backtaint.ml" 145 4723 4731 "traces_backtaint.ml" 145 4723 4737
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 146 4741 4749 "traces_backtaint.ml" 146 4741 4757
+type(
+  string -> Ast.exp Type.visit_action
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_backtaint.ml" 146 4741 4758 "traces_backtaint.ml" 146 4741 4856
+type(
+  string
+)
+"traces_backtaint.ml" 146 4741 4749 "traces_backtaint.ml" 146 4741 4856
+call(
+  tail
+)
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 147 4857 4865 "traces_backtaint.ml" 147 4857 4866
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 147 4857 4870 "traces_backtaint.ml" 147 4857 4880
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 141 4596 4619 "traces_backtaint.ml" 147 4857 4880
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 138 4491 4501 "traces_backtaint.ml" 148 4881 4886
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 149 4890 4892 "traces_backtaint.ml" 149 4890 4898
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_backtaint.ml" 149 4890 4899 "traces_backtaint.ml" 149 4890 4921
+type(
+  Ast_visitor.t -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"traces_backtaint.ml" 149 4890 4922 "traces_backtaint.ml" 149 4890 4923
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref v "traces_backtaint.ml" 138 4491 4497 "traces_backtaint.ml" 138 4491 4498
+)
+"traces_backtaint.ml" 149 4890 4924 "traces_backtaint.ml" 149 4890 4925
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 134 4400 4418 "traces_backtaint.ml" 134 4400 4419
+)
+"traces_backtaint.ml" 149 4890 4898 "traces_backtaint.ml" 149 4890 4926
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 149 4890 4892 "traces_backtaint.ml" 149 4890 4926
+type(
+  unit
+)
+"traces_backtaint.ml" 150 4928 4930 "traces_backtaint.ml" 150 4928 4931
+type(
+  LocSet.t ref -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 150 4928 4931 "traces_backtaint.ml" 150 4928 4932
+type(
+  LocSet.t ref
+)
+ident(
+  int_ref s "traces_backtaint.ml" 135 4422 4428 "traces_backtaint.ml" 135 4422 4429
+)
+"traces_backtaint.ml" 150 4928 4930 "traces_backtaint.ml" 150 4928 4932
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 149 4890 4892 "traces_backtaint.ml" 150 4928 4932
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 138 4491 4493 "traces_backtaint.ml" 150 4928 4932
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 136 4452 4454 "traces_backtaint.ml" 150 4928 4932
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 135 4422 4424 "traces_backtaint.ml" 150 4928 4932
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 153 4993 4997 "traces_backtaint.ml" 153 4993 5020
+type(
+  Ast.stmt list -> LocSet.t
+)
+ident(
+  def identify_fault_location "traces_backtaint.ml" 182 6024 6029 --
+)
+"traces_backtaint.ml" 153 4993 5021 "traces_backtaint.ml" 153 4993 5022
+type(
+  Ast.stmt list
+)
+ident(
+  def t "traces_backtaint.ml" 154 5025 5027 "traces_backtaint.ml" 182 6024 6029
+)
+"traces_backtaint.ml" 154 5025 5031 "traces_backtaint.ml" 154 5025 5035
+type(
+  Ast.stmt list
+)
+"traces_backtaint.ml" 154 5025 5038 "traces_backtaint.ml" 154 5025 5046
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"traces_backtaint.ml" 154 5025 5047 "traces_backtaint.ml" 154 5025 5048
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref t "traces_backtaint.ml" 153 4993 5021 "traces_backtaint.ml" 153 4993 5022
+)
+"traces_backtaint.ml" 154 5025 5038 "traces_backtaint.ml" 154 5025 5048
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"traces_backtaint.ml" 155 5052 5058 "traces_backtaint.ml" 155 5052 5068
+type(
+  Ast.stmt -> Loc.t list
+)
+"traces_backtaint.ml" 155 5052 5069 "traces_backtaint.ml" 155 5052 5070
+type(
+  Ast.stmt
+)
+ident(
+  def s "traces_backtaint.ml" 156 5073 5077 "traces_backtaint.ml" 170 5571 5581
+)
+"traces_backtaint.ml" 156 5073 5081 "traces_backtaint.ml" 156 5073 5086
+type(
+  Loc.t list ref
+)
+"traces_backtaint.ml" 156 5073 5089 "traces_backtaint.ml" 156 5073 5092
+type(
+  Loc.t list -> Loc.t list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"traces_backtaint.ml" 156 5073 5093 "traces_backtaint.ml" 156 5073 5095
+type(
+  Loc.t list
+)
+"traces_backtaint.ml" 156 5073 5089 "traces_backtaint.ml" 156 5073 5095
+type(
+  Loc.t list ref
+)
+"traces_backtaint.ml" 157 5099 5107 "traces_backtaint.ml" 157 5099 5108
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 157 5099 5117 "traces_backtaint.ml" 157 5099 5123
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 160 5188 5204 "traces_backtaint.ml" 160 5188 5205
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 160 5188 5211 "traces_backtaint.ml" 160 5188 5212
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "traces_backtaint.ml" 161 5223 5262 "traces_backtaint.ml" 163 5320 5340
+)
+"traces_backtaint.ml" 160 5188 5213 "traces_backtaint.ml" 160 5188 5214
+type(
+  Type.typ
+)
+"traces_backtaint.ml" 160 5188 5210 "traces_backtaint.ml" 160 5188 5215
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"traces_backtaint.ml" 160 5188 5207 "traces_backtaint.ml" 160 5188 5215
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 160 5188 5217 "traces_backtaint.ml" 160 5188 5218
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 160 5188 5220 "traces_backtaint.ml" 160 5188 5221
+type(
+  Type.typ
+)
+ident(
+  def t "traces_backtaint.ml" 161 5223 5262 "traces_backtaint.ml" 163 5320 5340
+)
+"traces_backtaint.ml" 160 5188 5203 "traces_backtaint.ml" 160 5188 5222
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_backtaint.ml" 160 5188 5198 "traces_backtaint.ml" 160 5188 5222
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 161 5223 5240 "traces_backtaint.ml" 161 5223 5241
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 161 5223 5247 "traces_backtaint.ml" 161 5223 5248
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "traces_backtaint.ml" 161 5223 5262 "traces_backtaint.ml" 163 5320 5340
+)
+"traces_backtaint.ml" 161 5223 5249 "traces_backtaint.ml" 161 5223 5250
+type(
+  Type.typ
+)
+"traces_backtaint.ml" 161 5223 5246 "traces_backtaint.ml" 161 5223 5251
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"traces_backtaint.ml" 161 5223 5243 "traces_backtaint.ml" 161 5223 5251
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 161 5223 5253 "traces_backtaint.ml" 161 5223 5254
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 161 5223 5256 "traces_backtaint.ml" 161 5223 5257
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 161 5223 5259 "traces_backtaint.ml" 161 5223 5260
+type(
+  Type.typ
+)
+ident(
+  def t "traces_backtaint.ml" 161 5223 5262 "traces_backtaint.ml" 163 5320 5340
+)
+"traces_backtaint.ml" 161 5223 5239 "traces_backtaint.ml" 161 5223 5261
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_backtaint.ml" 161 5223 5233 "traces_backtaint.ml" 161 5223 5261
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 160 5188 5198 "traces_backtaint.ml" 161 5223 5261
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 161 5223 5267 "traces_backtaint.ml" 161 5223 5268
+type(
+  Type.typ
+)
+ident(
+  int_ref t "traces_backtaint.ml" 160 5188 5220 "traces_backtaint.ml" 160 5188 5221
+)
+"traces_backtaint.ml" 161 5223 5269 "traces_backtaint.ml" 161 5223 5270
+type(
+  Type.typ -> Type.typ -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"traces_backtaint.ml" 161 5223 5271 "traces_backtaint.ml" 161 5223 5276
+type(
+  Type.typ
+)
+ident(
+  ext_ref Type.reg_8
+)
+"traces_backtaint.ml" 161 5223 5267 "traces_backtaint.ml" 161 5223 5276
+type(
+  bool
+)
+"traces_backtaint.ml" 162 5280 5290 "traces_backtaint.ml" 162 5280 5295
+type(
+  Loc.t list ref
+)
+ident(
+  int_ref addrs "traces_backtaint.ml" 156 5073 5081 "traces_backtaint.ml" 156 5073 5086
+)
+"traces_backtaint.ml" 162 5280 5296 "traces_backtaint.ml" 162 5280 5298
+type(
+  Loc.t list ref -> Loc.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"traces_backtaint.ml" 162 5280 5306 "traces_backtaint.ml" 162 5280 5307
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "traces_backtaint.ml" 160 5188 5211 "traces_backtaint.ml" 160 5188 5212
+)
+"traces_backtaint.ml" 162 5280 5299 "traces_backtaint.ml" 162 5280 5308
+type(
+  Loc.t
+)
+"traces_backtaint.ml" 162 5280 5312 "traces_backtaint.ml" 162 5280 5313
+type(
+  Loc.t list ref -> Loc.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 162 5280 5313 "traces_backtaint.ml" 162 5280 5318
+type(
+  Loc.t list ref
+)
+ident(
+  int_ref addrs "traces_backtaint.ml" 156 5073 5081 "traces_backtaint.ml" 156 5073 5086
+)
+"traces_backtaint.ml" 162 5280 5312 "traces_backtaint.ml" 162 5280 5318
+type(
+  Loc.t list
+)
+"traces_backtaint.ml" 162 5280 5299 "traces_backtaint.ml" 162 5280 5318
+type(
+  Loc.t list
+)
+"traces_backtaint.ml" 162 5280 5290 "traces_backtaint.ml" 162 5280 5318
+type(
+  unit
+)
+"traces_backtaint.ml" 163 5320 5330 "traces_backtaint.ml" 163 5320 5340
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 162 5280 5290 "traces_backtaint.ml" 163 5320 5340
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 161 5223 5262 "traces_backtaint.ml" 163 5320 5340
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 164 5341 5356 "traces_backtaint.ml" 164 5341 5357
+type(
+  Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_backtaint.ml" 164 5341 5351 "traces_backtaint.ml" 164 5341 5357
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 164 5341 5366 "traces_backtaint.ml" 164 5341 5367
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.exp * Type.typ
+)
+"traces_backtaint.ml" 164 5341 5360 "traces_backtaint.ml" 164 5341 5367
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 164 5341 5351 "traces_backtaint.ml" 164 5341 5367
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 165 5371 5381 "traces_backtaint.ml" 165 5371 5389
+type(
+  string -> Ast.exp Type.visit_action
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_backtaint.ml" 165 5371 5390 "traces_backtaint.ml" 165 5371 5488
+type(
+  string
+)
+"traces_backtaint.ml" 165 5371 5381 "traces_backtaint.ml" 165 5371 5488
+call(
+  tail
+)
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 166 5489 5499 "traces_backtaint.ml" 166 5489 5500
+type(
+  Ast.exp
+)
+"traces_backtaint.ml" 166 5489 5504 "traces_backtaint.ml" 166 5489 5514
+type(
+  Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 159 5154 5179 "traces_backtaint.ml" 166 5489 5514
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+"traces_backtaint.ml" 157 5099 5111 "traces_backtaint.ml" 167 5515 5522
+type(
+  Ast_visitor.nop
+)
+"traces_backtaint.ml" 169 5530 5534 "traces_backtaint.ml" 169 5530 5540
+type(
+  Ast.stmt -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"traces_backtaint.ml" 169 5530 5541 "traces_backtaint.ml" 169 5530 5564
+type(
+  Ast_visitor.t -> Ast.stmt -> Ast.stmt
+)
+ident(
+  ext_ref Ast_visitor.stmt_accept
+)
+"traces_backtaint.ml" 169 5530 5565 "traces_backtaint.ml" 169 5530 5566
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref v "traces_backtaint.ml" 157 5099 5107 "traces_backtaint.ml" 157 5099 5108
+)
+"traces_backtaint.ml" 169 5530 5567 "traces_backtaint.ml" 169 5530 5568
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "traces_backtaint.ml" 155 5052 5069 "traces_backtaint.ml" 155 5052 5070
+)
+"traces_backtaint.ml" 169 5530 5540 "traces_backtaint.ml" 169 5530 5569
+call(
+  stack
+)
+type(
+  Ast.stmt
+)
+"traces_backtaint.ml" 169 5530 5534 "traces_backtaint.ml" 169 5530 5569
+type(
+  unit
+)
+"traces_backtaint.ml" 170 5571 5575 "traces_backtaint.ml" 170 5571 5576
+type(
+  Loc.t list ref -> Loc.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"traces_backtaint.ml" 170 5571 5576 "traces_backtaint.ml" 170 5571 5581
+type(
+  Loc.t list ref
+)
+ident(
+  int_ref addrs "traces_backtaint.ml" 156 5073 5081 "traces_backtaint.ml" 156 5073 5086
+)
+"traces_backtaint.ml" 170 5571 5575 "traces_backtaint.ml" 170 5571 5581
+type(
+  Loc.t list
+)
+"traces_backtaint.ml" 169 5530 5534 "traces_backtaint.ml" 170 5571 5581
+type(
+  Loc.t list
+)
+"traces_backtaint.ml" 157 5099 5103 "traces_backtaint.ml" 170 5571 5581
+type(
+  Loc.t list
+)
+"traces_backtaint.ml" 156 5073 5077 "traces_backtaint.ml" 170 5571 5581
+type(
+  Loc.t list
+)
+"traces_backtaint.ml" 172 5587 5597 "traces_backtaint.ml" 172 5587 5607
+type(
+  Ast.stmt list -> LocSet.t
+)
+"traces_backtaint.ml" 174 5669 5679 "traces_backtaint.ml" 174 5669 5680
+type(
+  Ast.exp
+)
+ident(
+  def e "traces_backtaint.ml" 174 5669 5688 "traces_backtaint.ml" 174 5669 5731
+)
+"traces_backtaint.ml" 174 5669 5682 "traces_backtaint.ml" 174 5669 5683
+type(
+  Ast.attrs
+)
+"traces_backtaint.ml" 174 5669 5678 "traces_backtaint.ml" 174 5669 5684
+type(
+  Ast.exp * Ast.attrs
+)
+"traces_backtaint.ml" 174 5669 5675 "traces_backtaint.ml" 174 5669 5684
+type(
+  Ast.stmt
+)
+"traces_backtaint.ml" 174 5669 5686 "traces_backtaint.ml" 174 5669 5687
+type(
+  Ast.stmt list
+)
+"traces_backtaint.ml" 174 5669 5675 "traces_backtaint.ml" 174 5669 5687
+type(
+  Ast.stmt list
+)
+"traces_backtaint.ml" 174 5669 5693 "traces_backtaint.ml" 174 5669 5703
+type(
+  Ast.exp -> Type.label option
+)
+ident(
+  ext_ref Ast.lab_of_exp
+)
+"traces_backtaint.ml" 174 5669 5704 "traces_backtaint.ml" 174 5669 5705
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 174 5669 5679 "traces_backtaint.ml" 174 5669 5680
+)
+"traces_backtaint.ml" 174 5669 5693 "traces_backtaint.ml" 174 5669 5705
+call(
+  stack
+)
+type(
+  Type.label option
+)
+"traces_backtaint.ml" 174 5669 5706 "traces_backtaint.ml" 174 5669 5707
+type(
+  Type.label option -> Type.label option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"traces_backtaint.ml" 174 5669 5708 "traces_backtaint.ml" 174 5669 5712
+type(
+  Type.label option
+)
+"traces_backtaint.ml" 174 5669 5693 "traces_backtaint.ml" 174 5669 5712
+type(
+  bool
+)
+"traces_backtaint.ml" 174 5669 5716 "traces_backtaint.ml" 174 5669 5729
+type(
+  Ast.exp -> LocSet.t
+)
+ident(
+  int_ref exp_to_locset "traces_backtaint.ml" 134 4400 4404 "traces_backtaint.ml" 134 4400 4417
+)
+"traces_backtaint.ml" 174 5669 5730 "traces_backtaint.ml" 174 5669 5731
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "traces_backtaint.ml" 174 5669 5679 "traces_backtaint.ml" 174 5669 5680
+)
+"traces_backtaint.ml" 174 5669 5716 "traces_backtaint.ml" 174 5669 5731
+call(
+  tail
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 174 5669 5688 "traces_backtaint.ml" 174 5669 5731
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 175 5732 5738 "traces_backtaint.ml" 175 5732 5739
+type(
+  Ast.stmt
+)
+ident(
+  def s "traces_backtaint.ml" 175 5732 5743 "traces_backtaint.ml" 176 5770 5846
+)
+"traces_backtaint.ml" 175 5732 5741 "traces_backtaint.ml" 175 5732 5742
+type(
+  Ast.stmt list
+)
+"traces_backtaint.ml" 175 5732 5738 "traces_backtaint.ml" 175 5732 5742
+type(
+  Ast.stmt list
+)
+"traces_backtaint.ml" 175 5732 5748 "traces_backtaint.ml" 175 5732 5758
+type(
+  Ast.stmt -> Loc.t list
+)
+ident(
+  int_ref get_memory "traces_backtaint.ml" 155 5052 5058 "traces_backtaint.ml" 155 5052 5068
+)
+"traces_backtaint.ml" 175 5732 5759 "traces_backtaint.ml" 175 5732 5760
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "traces_backtaint.ml" 175 5732 5738 "traces_backtaint.ml" 175 5732 5739
+)
+"traces_backtaint.ml" 175 5732 5748 "traces_backtaint.ml" 175 5732 5760
+call(
+  stack
+)
+type(
+  Loc.t list
+)
+"traces_backtaint.ml" 175 5732 5761 "traces_backtaint.ml" 175 5732 5763
+type(
+  Loc.t list -> Loc.t list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"traces_backtaint.ml" 175 5732 5764 "traces_backtaint.ml" 175 5732 5766
+type(
+  Loc.t list
+)
+"traces_backtaint.ml" 175 5732 5748 "traces_backtaint.ml" 175 5732 5766
+type(
+  bool
+)
+"traces_backtaint.ml" 176 5770 5776 "traces_backtaint.ml" 176 5770 5790
+type(
+  (LocSet.t -> LocSet.elt -> LocSet.t) ->
+  LocSet.t -> LocSet.elt list -> LocSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"traces_backtaint.ml" 176 5770 5796 "traces_backtaint.ml" 176 5770 5797
+type(
+  LocSet.t
+)
+ident(
+  def s "traces_backtaint.ml" 176 5770 5798 "traces_backtaint.ml" 176 5770 5817
+)
+"traces_backtaint.ml" 176 5770 5798 "traces_backtaint.ml" 176 5770 5799
+type(
+  LocSet.elt
+)
+ident(
+  def l "traces_backtaint.ml" 176 5770 5803 "traces_backtaint.ml" 176 5770 5817
+)
+"traces_backtaint.ml" 176 5770 5803 "traces_backtaint.ml" 176 5770 5813
+type(
+  LocSet.elt -> LocSet.t -> LocSet.t
+)
+ident(
+  ext_ref LocSet.add
+)
+"traces_backtaint.ml" 176 5770 5814 "traces_backtaint.ml" 176 5770 5815
+type(
+  LocSet.elt
+)
+ident(
+  int_ref l "traces_backtaint.ml" 176 5770 5798 "traces_backtaint.ml" 176 5770 5799
+)
+"traces_backtaint.ml" 176 5770 5816 "traces_backtaint.ml" 176 5770 5817
+type(
+  LocSet.t
+)
+ident(
+  int_ref s "traces_backtaint.ml" 176 5770 5796 "traces_backtaint.ml" 176 5770 5797
+)
+"traces_backtaint.ml" 176 5770 5803 "traces_backtaint.ml" 176 5770 5817
+call(
+  tail
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 176 5770 5791 "traces_backtaint.ml" 176 5770 5818
+type(
+  LocSet.t -> LocSet.elt -> LocSet.t
+)
+"traces_backtaint.ml" 176 5770 5819 "traces_backtaint.ml" 176 5770 5831
+type(
+  LocSet.t
+)
+ident(
+  ext_ref LocSet.empty
+)
+"traces_backtaint.ml" 176 5770 5833 "traces_backtaint.ml" 176 5770 5843
+type(
+  Ast.stmt -> LocSet.elt list
+)
+ident(
+  int_ref get_memory "traces_backtaint.ml" 155 5052 5058 "traces_backtaint.ml" 155 5052 5068
+)
+"traces_backtaint.ml" 176 5770 5844 "traces_backtaint.ml" 176 5770 5845
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "traces_backtaint.ml" 175 5732 5738 "traces_backtaint.ml" 175 5732 5739
+)
+"traces_backtaint.ml" 176 5770 5832 "traces_backtaint.ml" 176 5770 5846
+call(
+  stack
+)
+type(
+  LocSet.elt list
+)
+"traces_backtaint.ml" 176 5770 5776 "traces_backtaint.ml" 176 5770 5846
+call(
+  tail
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 175 5732 5743 "traces_backtaint.ml" 176 5770 5846
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 177 5847 5853 "traces_backtaint.ml" 177 5847 5854
+type(
+  Ast.stmt
+)
+"traces_backtaint.ml" 177 5847 5856 "traces_backtaint.ml" 177 5847 5858
+type(
+  Ast.stmt list
+)
+ident(
+  def tl "traces_backtaint.ml" 177 5847 5862 "traces_backtaint.ml" 177 5847 5875
+)
+"traces_backtaint.ml" 177 5847 5853 "traces_backtaint.ml" 177 5847 5858
+type(
+  Ast.stmt list
+)
+"traces_backtaint.ml" 177 5847 5862 "traces_backtaint.ml" 177 5847 5872
+type(
+  Ast.stmt list -> LocSet.t
+)
+ident(
+  int_ref find_fault "traces_backtaint.ml" 172 5587 5597 "traces_backtaint.ml" 172 5587 5607
+)
+"traces_backtaint.ml" 177 5847 5873 "traces_backtaint.ml" 177 5847 5875
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref tl "traces_backtaint.ml" 177 5847 5856 "traces_backtaint.ml" 177 5847 5858
+)
+"traces_backtaint.ml" 177 5847 5862 "traces_backtaint.ml" 177 5847 5875
+call(
+  tail
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 178 5876 5882 "traces_backtaint.ml" 178 5876 5884
+type(
+  Ast.stmt list
+)
+"traces_backtaint.ml" 178 5876 5888 "traces_backtaint.ml" 178 5876 5896
+type(
+  string -> LocSet.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"traces_backtaint.ml" 178 5876 5897 "traces_backtaint.ml" 178 5876 5951
+type(
+  string
+)
+"traces_backtaint.ml" 178 5876 5888 "traces_backtaint.ml" 178 5876 5951
+call(
+  tail
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 172 5587 5610 "traces_backtaint.ml" 178 5876 5951
+type(
+  Ast.stmt list -> LocSet.t
+)
+"traces_backtaint.ml" 180 5957 5963 "traces_backtaint.ml" 180 5957 5966
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 180 5957 5969 "traces_backtaint.ml" 180 5957 5979
+type(
+  Ast.stmt list -> LocSet.t
+)
+ident(
+  int_ref find_fault "traces_backtaint.ml" 172 5587 5597 "traces_backtaint.ml" 172 5587 5607
+)
+"traces_backtaint.ml" 180 5957 5980 "traces_backtaint.ml" 180 5957 5984
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref revt "traces_backtaint.ml" 154 5025 5031 "traces_backtaint.ml" 154 5025 5035
+)
+"traces_backtaint.ml" 180 5957 5969 "traces_backtaint.ml" 180 5957 5984
+call(
+  stack
+)
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 181 5988 5993 "traces_backtaint.ml" 181 5988 5998
+type(
+  unit -> bool
+)
+ident(
+  ext_ref D.debug
+)
+"traces_backtaint.ml" 181 5988 5998 "traces_backtaint.ml" 181 5988 6000
+type(
+  unit
+)
+"traces_backtaint.ml" 181 5988 5993 "traces_backtaint.ml" 181 5988 6000
+call(
+  stack
+)
+type(
+  bool
+)
+"traces_backtaint.ml" 181 5988 6006 "traces_backtaint.ml" 181 5988 6018
+type(
+  LocSet.t -> unit
+)
+ident(
+  int_ref print_locset "traces_backtaint.ml" 29 710 714 "traces_backtaint.ml" 29 710 726
+)
+"traces_backtaint.ml" 181 5988 6019 "traces_backtaint.ml" 181 5988 6022
+type(
+  LocSet.t
+)
+ident(
+  int_ref loc "traces_backtaint.ml" 180 5957 5963 "traces_backtaint.ml" 180 5957 5966
+)
+"traces_backtaint.ml" 181 5988 6006 "traces_backtaint.ml" 181 5988 6022
+call(
+  stack
+)
+type(
+  unit
+)
+"traces_backtaint.ml" 181 5988 5990 "traces_backtaint.ml" 181 5988 6022
+type(
+  unit
+)
+"traces_backtaint.ml" 182 6024 6026 "traces_backtaint.ml" 182 6024 6029
+type(
+  LocSet.t
+)
+ident(
+  int_ref loc "traces_backtaint.ml" 180 5957 5963 "traces_backtaint.ml" 180 5957 5966
+)
+"traces_backtaint.ml" 181 5988 5990 "traces_backtaint.ml" 182 6024 6029
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 180 5957 5959 "traces_backtaint.ml" 182 6024 6029
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 172 5587 5589 "traces_backtaint.ml" 182 6024 6029
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 155 5052 5054 "traces_backtaint.ml" 182 6024 6029
+type(
+  LocSet.t
+)
+"traces_backtaint.ml" 154 5025 5027 "traces_backtaint.ml" 182 6024 6029
+type(
+  LocSet.t
+)

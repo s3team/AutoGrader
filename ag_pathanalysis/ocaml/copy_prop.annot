@@ -1,0 +1,5143 @@
+"copy_prop.ml" 11 140 173 "copy_prop.ml" 11 140 177
+type(
+  string
+)
+ident(
+  def name "copy_prop.ml" 11 140 212 "copy_prop.ml" 11 140 216
+)
+"copy_prop.ml" 11 140 180 "copy_prop.ml" 11 140 191
+type(
+  string
+)
+"copy_prop.ml" 11 140 196 "copy_prop.ml" 11 140 203
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "copy_prop.ml" 11 140 212 "copy_prop.ml" 11 140 216
+)
+"copy_prop.ml" 11 140 204 "copy_prop.ml" 11 140 212
+type(
+  [> `NoDebug ] as 'a
+)
+"copy_prop.ml" 11 140 151 "copy_prop.ml" 11 140 217
+call(
+  stack
+)
+"copy_prop.ml" 21 438 446 "copy_prop.ml" 21 438 458
+type(
+  et -> string
+)
+ident(
+  def et_to_string "copy_prop.ml" 24 569 573 "copy_prop.ml" 46 1363 1368
+)
+"copy_prop.ml" 22 470 485 "copy_prop.ml" 22 470 486
+type(
+  Ssa.exp
+)
+ident(
+  def e "copy_prop.ml" 22 470 490 "copy_prop.ml" 22 470 541
+)
+"copy_prop.ml" 22 470 478 "copy_prop.ml" 22 470 486
+type(
+  et
+)
+"copy_prop.ml" 22 470 490 "copy_prop.ml" 22 470 504
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"copy_prop.ml" 22 470 505 "copy_prop.ml" 22 470 516
+type(
+  (string -> string, unit, string) format
+)
+"copy_prop.ml" 22 470 518 "copy_prop.ml" 22 470 538
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"copy_prop.ml" 22 470 539 "copy_prop.ml" 22 470 540
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 22 470 485 "copy_prop.ml" 22 470 486
+)
+"copy_prop.ml" 22 470 517 "copy_prop.ml" 22 470 541
+call(
+  stack
+)
+type(
+  string
+)
+"copy_prop.ml" 22 470 490 "copy_prop.ml" 22 470 541
+call(
+  tail
+)
+type(
+  string
+)
+"copy_prop.ml" 23 542 550 "copy_prop.ml" 23 542 556
+type(
+  et
+)
+"copy_prop.ml" 23 542 560 "copy_prop.ml" 23 542 568
+type(
+  string
+)
+"copy_prop.ml" 21 438 461 "copy_prop.ml" 23 542 568
+type(
+  et -> string
+)
+"copy_prop.ml" 25 603 611 "copy_prop.ml" 25 603 614
+type(
+  t
+)
+ident(
+  def top "copy_prop.ml" 26 621 625 "copy_prop.ml" 46 1363 1368
+)
+"copy_prop.ml" 25 603 617 "copy_prop.ml" 25 603 620
+type(
+  t
+)
+"copy_prop.ml" 26 621 629 "copy_prop.ml" 26 621 640
+type(
+  et -> et -> et
+)
+ident(
+  def elementmeet "copy_prop.ml" 31 842 846 "copy_prop.ml" 46 1363 1368
+)
+"copy_prop.ml" 26 621 641 "copy_prop.ml" 26 621 642
+type(
+  et
+)
+ident(
+  def x "copy_prop.ml" 26 621 643 "copy_prop.ml" 30 777 841
+)
+"copy_prop.ml" 26 621 643 "copy_prop.ml" 26 621 644
+type(
+  et
+)
+ident(
+  def y "copy_prop.ml" 26 621 647 "copy_prop.ml" 30 777 841
+)
+"copy_prop.ml" 26 621 653 "copy_prop.ml" 26 621 654
+type(
+  et
+)
+ident(
+  int_ref x "copy_prop.ml" 26 621 641 "copy_prop.ml" 26 621 642
+)
+"copy_prop.ml" 26 621 655 "copy_prop.ml" 26 621 656
+type(
+  et
+)
+ident(
+  int_ref y "copy_prop.ml" 26 621 643 "copy_prop.ml" 26 621 644
+)
+"copy_prop.ml" 26 621 653 "copy_prop.ml" 26 621 656
+type(
+  et * et
+)
+"copy_prop.ml" 27 662 670 "copy_prop.ml" 27 662 676
+type(
+  et
+)
+"copy_prop.ml" 27 662 678 "copy_prop.ml" 27 662 679
+type(
+  et
+)
+"copy_prop.ml" 27 662 670 "copy_prop.ml" 27 662 679
+type(
+  et * et
+)
+"copy_prop.ml" 27 662 683 "copy_prop.ml" 27 662 689
+type(
+  et
+)
+"copy_prop.ml" 28 690 698 "copy_prop.ml" 28 690 699
+type(
+  et
+)
+"copy_prop.ml" 28 690 701 "copy_prop.ml" 28 690 707
+type(
+  et
+)
+"copy_prop.ml" 28 690 698 "copy_prop.ml" 28 690 707
+type(
+  et * et
+)
+"copy_prop.ml" 28 690 711 "copy_prop.ml" 28 690 717
+type(
+  et
+)
+"copy_prop.ml" 29 718 726 "copy_prop.ml" 29 718 727
+type(
+  et
+)
+ident(
+  def x "copy_prop.ml" 29 718 731 "copy_prop.ml" 29 718 776
+)
+"copy_prop.ml" 29 718 729 "copy_prop.ml" 29 718 730
+type(
+  et
+)
+ident(
+  def y "copy_prop.ml" 29 718 731 "copy_prop.ml" 29 718 776
+)
+"copy_prop.ml" 29 718 726 "copy_prop.ml" 29 718 730
+type(
+  et * et
+)
+"copy_prop.ml" 29 718 736 "copy_prop.ml" 29 718 737
+type(
+  et
+)
+ident(
+  int_ref x "copy_prop.ml" 29 718 726 "copy_prop.ml" 29 718 727
+)
+"copy_prop.ml" 29 718 738 "copy_prop.ml" 29 718 739
+type(
+  et -> et -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"copy_prop.ml" 29 718 740 "copy_prop.ml" 29 718 741
+type(
+  et
+)
+ident(
+  int_ref y "copy_prop.ml" 29 718 729 "copy_prop.ml" 29 718 730
+)
+"copy_prop.ml" 29 718 736 "copy_prop.ml" 29 718 741
+type(
+  bool
+)
+"copy_prop.ml" 29 718 775 "copy_prop.ml" 29 718 776
+type(
+  et
+)
+ident(
+  int_ref x "copy_prop.ml" 29 718 726 "copy_prop.ml" 29 718 727
+)
+"copy_prop.ml" 29 718 731 "copy_prop.ml" 29 718 776
+type(
+  et
+)
+"copy_prop.ml" 30 777 785 "copy_prop.ml" 30 777 786
+type(
+  et
+)
+ident(
+  def x "copy_prop.ml" 30 777 835 "copy_prop.ml" 30 777 841
+)
+"copy_prop.ml" 30 777 788 "copy_prop.ml" 30 777 789
+type(
+  et
+)
+ident(
+  def y "copy_prop.ml" 30 777 835 "copy_prop.ml" 30 777 841
+)
+"copy_prop.ml" 30 777 785 "copy_prop.ml" 30 777 789
+type(
+  et * et
+)
+"copy_prop.ml" 30 777 835 "copy_prop.ml" 30 777 841
+type(
+  et
+)
+"copy_prop.ml" 26 621 647 "copy_prop.ml" 30 777 841
+type(
+  et
+)
+"copy_prop.ml" 31 842 850 "copy_prop.ml" 31 842 854
+type(
+  t -> t -> t
+)
+ident(
+  def meet "copy_prop.ml" 42 1239 1243 "copy_prop.ml" 46 1363 1368
+)
+"copy_prop.ml" 31 842 855 "copy_prop.ml" 31 842 856
+type(
+  t
+)
+ident(
+  def x "copy_prop.ml" 31 842 857 "copy_prop.ml" 41 1222 1238
+)
+"copy_prop.ml" 31 842 857 "copy_prop.ml" 31 842 858
+type(
+  t
+)
+ident(
+  def y "copy_prop.ml" 31 842 861 "copy_prop.ml" 41 1222 1238
+)
+"copy_prop.ml" 31 842 867 "copy_prop.ml" 31 842 868
+type(
+  t
+)
+ident(
+  int_ref x "copy_prop.ml" 31 842 855 "copy_prop.ml" 31 842 856
+)
+"copy_prop.ml" 31 842 870 "copy_prop.ml" 31 842 871
+type(
+  t
+)
+ident(
+  int_ref y "copy_prop.ml" 31 842 857 "copy_prop.ml" 31 842 858
+)
+"copy_prop.ml" 31 842 867 "copy_prop.ml" 31 842 871
+type(
+  t * t
+)
+"copy_prop.ml" 32 877 885 "copy_prop.ml" 32 877 888
+type(
+  t
+)
+"copy_prop.ml" 32 877 890 "copy_prop.ml" 32 877 891
+type(
+  t
+)
+ident(
+  def x "copy_prop.ml" 32 877 895 "copy_prop.ml" 32 877 896
+)
+"copy_prop.ml" 32 877 885 "copy_prop.ml" 32 877 891
+type(
+  t * t
+)
+"copy_prop.ml" 32 877 895 "copy_prop.ml" 32 877 896
+type(
+  t
+)
+ident(
+  int_ref x "copy_prop.ml" 32 877 890 "copy_prop.ml" 32 877 891
+)
+"copy_prop.ml" 33 897 905 "copy_prop.ml" 33 897 906
+type(
+  t
+)
+ident(
+  def x "copy_prop.ml" 33 897 915 "copy_prop.ml" 33 897 916
+)
+"copy_prop.ml" 33 897 908 "copy_prop.ml" 33 897 911
+type(
+  t
+)
+"copy_prop.ml" 33 897 905 "copy_prop.ml" 33 897 911
+type(
+  t * t
+)
+"copy_prop.ml" 33 897 915 "copy_prop.ml" 33 897 916
+type(
+  t
+)
+ident(
+  int_ref x "copy_prop.ml" 33 897 905 "copy_prop.ml" 33 897 906
+)
+"copy_prop.ml" 34 917 929 "copy_prop.ml" 34 917 930
+type(
+  et VM.t
+)
+ident(
+  def x "copy_prop.ml" 35 941 949 "copy_prop.ml" 41 1222 1238
+)
+"copy_prop.ml" 34 917 925 "copy_prop.ml" 34 917 930
+type(
+  t
+)
+"copy_prop.ml" 34 917 936 "copy_prop.ml" 34 917 937
+type(
+  et VM.t
+)
+ident(
+  def y "copy_prop.ml" 35 941 949 "copy_prop.ml" 41 1222 1238
+)
+"copy_prop.ml" 34 917 932 "copy_prop.ml" 34 917 937
+type(
+  t
+)
+"copy_prop.ml" 34 917 925 "copy_prop.ml" 34 917 937
+type(
+  t * t
+)
+"copy_prop.ml" 35 941 954 "copy_prop.ml" 35 941 961
+type(
+  (VM.key -> et -> et VM.t -> et VM.t) -> et VM.t -> et VM.t -> et VM.t
+)
+ident(
+  ext_ref VM.fold
+)
+"copy_prop.ml" 36 962 977 "copy_prop.ml" 36 962 978
+type(
+  VM.key
+)
+ident(
+  def k "copy_prop.ml" 36 962 979 "copy_prop.ml" 40 1173 1221
+)
+"copy_prop.ml" 36 962 979 "copy_prop.ml" 36 962 980
+type(
+  et
+)
+ident(
+  def v "copy_prop.ml" 36 962 981 "copy_prop.ml" 40 1173 1221
+)
+"copy_prop.ml" 36 962 981 "copy_prop.ml" 36 962 987
+type(
+  et VM.t
+)
+ident(
+  def newmap "copy_prop.ml" 39 1106 1120 "copy_prop.ml" 40 1173 1221
+)
+"copy_prop.ml" 39 1106 1124 "copy_prop.ml" 39 1106 1126
+type(
+  et
+)
+"copy_prop.ml" 39 1106 1133 "copy_prop.ml" 39 1106 1140
+type(
+  VM.key -> et VM.t -> et
+)
+ident(
+  ext_ref VM.find
+)
+"copy_prop.ml" 39 1106 1141 "copy_prop.ml" 39 1106 1142
+type(
+  VM.key
+)
+ident(
+  int_ref k "copy_prop.ml" 36 962 977 "copy_prop.ml" 36 962 978
+)
+"copy_prop.ml" 39 1106 1143 "copy_prop.ml" 39 1106 1149
+type(
+  et VM.t
+)
+ident(
+  int_ref newmap "copy_prop.ml" 36 962 981 "copy_prop.ml" 36 962 987
+)
+"copy_prop.ml" 39 1106 1133 "copy_prop.ml" 39 1106 1149
+call(
+  stack
+)
+type(
+  et
+)
+"copy_prop.ml" 39 1106 1155 "copy_prop.ml" 39 1106 1164
+type(
+  exn
+)
+"copy_prop.ml" 39 1106 1168 "copy_prop.ml" 39 1106 1169
+type(
+  et
+)
+ident(
+  int_ref v "copy_prop.ml" 36 962 979 "copy_prop.ml" 36 962 980
+)
+"copy_prop.ml" 39 1106 1129 "copy_prop.ml" 39 1106 1169
+type(
+  et
+)
+"copy_prop.ml" 40 1173 1187 "copy_prop.ml" 40 1173 1193
+type(
+  VM.key -> et -> et VM.t -> et VM.t
+)
+ident(
+  ext_ref VM.add
+)
+"copy_prop.ml" 40 1173 1194 "copy_prop.ml" 40 1173 1195
+type(
+  VM.key
+)
+ident(
+  int_ref k "copy_prop.ml" 36 962 977 "copy_prop.ml" 36 962 978
+)
+"copy_prop.ml" 40 1173 1197 "copy_prop.ml" 40 1173 1208
+type(
+  et -> et -> et
+)
+ident(
+  int_ref elementmeet "copy_prop.ml" 26 621 629 "copy_prop.ml" 26 621 640
+)
+"copy_prop.ml" 40 1173 1209 "copy_prop.ml" 40 1173 1210
+type(
+  et
+)
+ident(
+  int_ref v "copy_prop.ml" 36 962 979 "copy_prop.ml" 36 962 980
+)
+"copy_prop.ml" 40 1173 1211 "copy_prop.ml" 40 1173 1213
+type(
+  et
+)
+ident(
+  int_ref v' "copy_prop.ml" 39 1106 1124 "copy_prop.ml" 39 1106 1126
+)
+"copy_prop.ml" 40 1173 1196 "copy_prop.ml" 40 1173 1214
+call(
+  stack
+)
+type(
+  et
+)
+"copy_prop.ml" 40 1173 1215 "copy_prop.ml" 40 1173 1221
+type(
+  et VM.t
+)
+ident(
+  int_ref newmap "copy_prop.ml" 36 962 981 "copy_prop.ml" 36 962 987
+)
+"copy_prop.ml" 40 1173 1187 "copy_prop.ml" 40 1173 1221
+call(
+  tail
+)
+type(
+  et VM.t
+)
+"copy_prop.ml" 39 1106 1120 "copy_prop.ml" 40 1173 1221
+type(
+  et VM.t
+)
+"copy_prop.ml" 36 962 972 "copy_prop.ml" 41 1222 1233
+type(
+  VM.key -> et -> et VM.t -> et VM.t
+)
+"copy_prop.ml" 41 1222 1234 "copy_prop.ml" 41 1222 1235
+type(
+  et VM.t
+)
+ident(
+  int_ref x "copy_prop.ml" 34 917 929 "copy_prop.ml" 34 917 930
+)
+"copy_prop.ml" 41 1222 1236 "copy_prop.ml" 41 1222 1237
+type(
+  et VM.t
+)
+ident(
+  int_ref y "copy_prop.ml" 34 917 936 "copy_prop.ml" 34 917 937
+)
+"copy_prop.ml" 35 941 953 "copy_prop.ml" 41 1222 1238
+call(
+  stack
+)
+type(
+  et VM.t
+)
+"copy_prop.ml" 35 941 949 "copy_prop.ml" 41 1222 1238
+type(
+  t
+)
+"copy_prop.ml" 31 842 861 "copy_prop.ml" 41 1222 1238
+type(
+  t
+)
+"copy_prop.ml" 42 1239 1247 "copy_prop.ml" 42 1239 1252
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "copy_prop.ml" 45 1341 1362 "copy_prop.ml" 46 1363 1368
+)
+"copy_prop.ml" 42 1239 1253 "copy_prop.ml" 42 1239 1254
+type(
+  t
+)
+ident(
+  def x "copy_prop.ml" 42 1239 1255 "copy_prop.ml" 45 1341 1362
+)
+"copy_prop.ml" 42 1239 1255 "copy_prop.ml" 42 1239 1256
+type(
+  t
+)
+ident(
+  def y "copy_prop.ml" 42 1239 1259 "copy_prop.ml" 45 1341 1362
+)
+"copy_prop.ml" 42 1239 1265 "copy_prop.ml" 42 1239 1266
+type(
+  t
+)
+ident(
+  int_ref x "copy_prop.ml" 42 1239 1253 "copy_prop.ml" 42 1239 1254
+)
+"copy_prop.ml" 42 1239 1268 "copy_prop.ml" 42 1239 1269
+type(
+  t
+)
+ident(
+  int_ref y "copy_prop.ml" 42 1239 1255 "copy_prop.ml" 42 1239 1256
+)
+"copy_prop.ml" 42 1239 1265 "copy_prop.ml" 42 1239 1269
+type(
+  t * t
+)
+"copy_prop.ml" 43 1275 1283 "copy_prop.ml" 43 1275 1286
+type(
+  t
+)
+"copy_prop.ml" 43 1275 1288 "copy_prop.ml" 43 1275 1291
+type(
+  t
+)
+"copy_prop.ml" 43 1275 1283 "copy_prop.ml" 43 1275 1291
+type(
+  t * t
+)
+"copy_prop.ml" 43 1275 1295 "copy_prop.ml" 43 1275 1299
+type(
+  bool
+)
+"copy_prop.ml" 44 1300 1312 "copy_prop.ml" 44 1300 1313
+type(
+  et VM.t
+)
+ident(
+  def x "copy_prop.ml" 44 1300 1324 "copy_prop.ml" 44 1300 1340
+)
+"copy_prop.ml" 44 1300 1308 "copy_prop.ml" 44 1300 1313
+type(
+  t
+)
+"copy_prop.ml" 44 1300 1319 "copy_prop.ml" 44 1300 1320
+type(
+  et VM.t
+)
+ident(
+  def y "copy_prop.ml" 44 1300 1324 "copy_prop.ml" 44 1300 1340
+)
+"copy_prop.ml" 44 1300 1315 "copy_prop.ml" 44 1300 1320
+type(
+  t
+)
+"copy_prop.ml" 44 1300 1308 "copy_prop.ml" 44 1300 1320
+type(
+  t * t
+)
+"copy_prop.ml" 44 1300 1324 "copy_prop.ml" 44 1300 1332
+type(
+  (et -> et -> bool) -> et VM.t -> et VM.t -> bool
+)
+ident(
+  ext_ref VM.equal
+)
+"copy_prop.ml" 44 1300 1333 "copy_prop.ml" 44 1300 1336
+type(
+  et -> et -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"copy_prop.ml" 44 1300 1337 "copy_prop.ml" 44 1300 1338
+type(
+  et VM.t
+)
+ident(
+  int_ref x "copy_prop.ml" 44 1300 1312 "copy_prop.ml" 44 1300 1313
+)
+"copy_prop.ml" 44 1300 1339 "copy_prop.ml" 44 1300 1340
+type(
+  et VM.t
+)
+ident(
+  int_ref y "copy_prop.ml" 44 1300 1319 "copy_prop.ml" 44 1300 1320
+)
+"copy_prop.ml" 44 1300 1324 "copy_prop.ml" 44 1300 1340
+call(
+  tail
+)
+type(
+  bool
+)
+"copy_prop.ml" 45 1341 1349 "copy_prop.ml" 45 1341 1350
+type(
+  t
+)
+"copy_prop.ml" 45 1341 1352 "copy_prop.ml" 45 1341 1353
+type(
+  t
+)
+"copy_prop.ml" 45 1341 1349 "copy_prop.ml" 45 1341 1353
+type(
+  t * t
+)
+"copy_prop.ml" 45 1341 1357 "copy_prop.ml" 45 1341 1362
+type(
+  bool
+)
+"copy_prop.ml" 42 1239 1259 "copy_prop.ml" 45 1341 1362
+type(
+  bool
+)
+"copy_prop.ml" 50 1430 1436 "copy_prop.ml" 50 1430 1458
+type(
+  unit -> 'a -> Cfg.SSA.G.V.t * 'b -> Ssa.stmt -> L.t -> L.t
+)
+ident(
+  def stmt_transfer_function "copy_prop.ml" 60 1817 1819 "copy_prop.ml" 65 1976 1979
+)
+"copy_prop.ml" 50 1430 1459 "copy_prop.ml" 50 1430 1461
+type(
+  unit
+)
+"copy_prop.ml" 50 1430 1462 "copy_prop.ml" 50 1430 1464
+type(
+  'a
+)
+ident(
+  def _g "copy_prop.ml" 50 1430 1465 "copy_prop.ml" 58 1802 1815
+)
+"copy_prop.ml" 50 1430 1466 "copy_prop.ml" 50 1430 1469
+type(
+  Cfg.SSA.G.V.t
+)
+ident(
+  def _bb "copy_prop.ml" 50 1430 1473 "copy_prop.ml" 58 1802 1815
+)
+"copy_prop.ml" 50 1430 1470 "copy_prop.ml" 50 1430 1471
+type(
+  'b
+)
+"copy_prop.ml" 50 1430 1465 "copy_prop.ml" 50 1430 1472
+type(
+  Cfg.SSA.G.V.t * 'b
+)
+"copy_prop.ml" 50 1430 1473 "copy_prop.ml" 50 1430 1477
+type(
+  Ssa.stmt
+)
+ident(
+  def stmt "copy_prop.ml" 50 1430 1478 "copy_prop.ml" 58 1802 1815
+)
+"copy_prop.ml" 50 1430 1478 "copy_prop.ml" 50 1430 1479
+type(
+  L.t
+)
+ident(
+  def l "copy_prop.ml" 51 1482 1486 "copy_prop.ml" 58 1802 1815
+)
+"copy_prop.ml" 51 1482 1490 "copy_prop.ml" 51 1482 1491
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 51 1482 1500 "copy_prop.ml" 51 1482 1501
+type(
+  L.t
+)
+ident(
+  int_ref l "copy_prop.ml" 50 1430 1478 "copy_prop.ml" 50 1430 1479
+)
+"copy_prop.ml" 51 1482 1515 "copy_prop.ml" 51 1482 1516
+type(
+  L.et VM.t
+)
+ident(
+  def m "copy_prop.ml" 51 1482 1520 "copy_prop.ml" 51 1482 1521
+)
+"copy_prop.ml" 51 1482 1509 "copy_prop.ml" 51 1482 1516
+type(
+  L.t
+)
+"copy_prop.ml" 51 1482 1520 "copy_prop.ml" 51 1482 1521
+type(
+  L.et VM.t
+)
+ident(
+  int_ref m "copy_prop.ml" 51 1482 1515 "copy_prop.ml" 51 1482 1516
+)
+"copy_prop.ml" 51 1482 1524 "copy_prop.ml" 51 1482 1529
+type(
+  L.t
+)
+"copy_prop.ml" 51 1482 1533 "copy_prop.ml" 51 1482 1541
+type(
+  string -> L.et VM.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"copy_prop.ml" 51 1482 1543 "copy_prop.ml" 51 1482 1557
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"copy_prop.ml" 51 1482 1558 "copy_prop.ml" 51 1482 1587
+type(
+  (string -> string, unit, string) format
+)
+"copy_prop.ml" 51 1482 1589 "copy_prop.ml" 51 1482 1600
+type(
+  Cfg.SSA.G.V.t -> string
+)
+ident(
+  ext_ref Cfg_ssa.v2s
+)
+"copy_prop.ml" 51 1482 1601 "copy_prop.ml" 51 1482 1604
+type(
+  Cfg.SSA.G.V.t
+)
+ident(
+  int_ref _bb "copy_prop.ml" 50 1430 1466 "copy_prop.ml" 50 1430 1469
+)
+"copy_prop.ml" 51 1482 1588 "copy_prop.ml" 51 1482 1605
+call(
+  stack
+)
+type(
+  string
+)
+"copy_prop.ml" 51 1482 1542 "copy_prop.ml" 51 1482 1606
+call(
+  stack
+)
+type(
+  string
+)
+"copy_prop.ml" 51 1482 1533 "copy_prop.ml" 51 1482 1606
+call(
+  stack
+)
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 51 1482 1494 "copy_prop.ml" 51 1482 1606
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 52 1610 1627 "copy_prop.ml" 52 1610 1631
+type(
+  Ssa.stmt
+)
+ident(
+  int_ref stmt "copy_prop.ml" 50 1430 1473 "copy_prop.ml" 50 1430 1477
+)
+"copy_prop.ml" 53 1637 1648 "copy_prop.ml" 53 1637 1649
+type(
+  Ssa.var
+)
+ident(
+  def v "copy_prop.ml" 54 1664 1670 "copy_prop.ml" 54 1664 1689
+)
+"copy_prop.ml" 53 1637 1655 "copy_prop.ml" 53 1637 1656
+type(
+  Ssa.var list
+)
+"copy_prop.ml" 53 1637 1651 "copy_prop.ml" 53 1637 1656
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 53 1637 1658 "copy_prop.ml" 53 1637 1659
+type(
+  Ssa.attrs
+)
+"copy_prop.ml" 53 1637 1643 "copy_prop.ml" 53 1637 1660
+type(
+  Ssa.stmt
+)
+"copy_prop.ml" 54 1664 1670 "copy_prop.ml" 54 1664 1676
+type(
+  VM.key -> L.et -> L.et VM.t -> L.et VM.t
+)
+ident(
+  ext_ref VM.add
+)
+"copy_prop.ml" 54 1664 1677 "copy_prop.ml" 54 1664 1678
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "copy_prop.ml" 53 1637 1648 "copy_prop.ml" 53 1637 1649
+)
+"copy_prop.ml" 54 1664 1679 "copy_prop.ml" 54 1664 1687
+type(
+  L.et
+)
+"copy_prop.ml" 54 1664 1688 "copy_prop.ml" 54 1664 1689
+type(
+  L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 51 1482 1490 "copy_prop.ml" 51 1482 1491
+)
+"copy_prop.ml" 54 1664 1670 "copy_prop.ml" 54 1664 1689
+call(
+  stack
+)
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 55 1690 1701 "copy_prop.ml" 55 1690 1702
+type(
+  Ssa.var
+)
+ident(
+  def v "copy_prop.ml" 57 1772 1778 "copy_prop.ml" 57 1772 1801
+)
+"copy_prop.ml" 55 1690 1703 "copy_prop.ml" 55 1690 1704
+type(
+  Ssa.exp
+)
+ident(
+  def e "copy_prop.ml" 57 1772 1778 "copy_prop.ml" 57 1772 1801
+)
+"copy_prop.ml" 55 1690 1705 "copy_prop.ml" 55 1690 1706
+type(
+  Ssa.attrs
+)
+"copy_prop.ml" 55 1690 1696 "copy_prop.ml" 55 1690 1707
+type(
+  Ssa.stmt
+)
+"copy_prop.ml" 57 1772 1778 "copy_prop.ml" 57 1772 1784
+type(
+  VM.key -> L.et -> L.et VM.t -> L.et VM.t
+)
+ident(
+  ext_ref VM.add
+)
+"copy_prop.ml" 57 1772 1785 "copy_prop.ml" 57 1772 1786
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "copy_prop.ml" 55 1690 1701 "copy_prop.ml" 55 1690 1702
+)
+"copy_prop.ml" 57 1772 1797 "copy_prop.ml" 57 1772 1798
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 55 1690 1703 "copy_prop.ml" 55 1690 1704
+)
+"copy_prop.ml" 57 1772 1787 "copy_prop.ml" 57 1772 1799
+type(
+  L.et
+)
+"copy_prop.ml" 57 1772 1800 "copy_prop.ml" 57 1772 1801
+type(
+  L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 51 1482 1490 "copy_prop.ml" 51 1482 1491
+)
+"copy_prop.ml" 57 1772 1778 "copy_prop.ml" 57 1772 1801
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 58 1802 1808 "copy_prop.ml" 58 1802 1809
+type(
+  Ssa.stmt
+)
+"copy_prop.ml" 58 1802 1813 "copy_prop.ml" 58 1802 1814
+type(
+  L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 51 1482 1490 "copy_prop.ml" 51 1482 1491
+)
+"copy_prop.ml" 52 1610 1620 "copy_prop.ml" 58 1802 1815
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 52 1610 1614 "copy_prop.ml" 58 1802 1815
+type(
+  L.t
+)
+"copy_prop.ml" 51 1482 1486 "copy_prop.ml" 58 1802 1815
+type(
+  L.t
+)
+"copy_prop.ml" 60 1817 1823 "copy_prop.ml" 60 1817 1845
+type(
+  'c -> 'd -> 'e -> 'f -> 'g -> 'g
+)
+ident(
+  def edge_transfer_function "copy_prop.ml" 62 1861 1863 "copy_prop.ml" 65 1976 1979
+)
+"copy_prop.ml" 60 1817 1846 "copy_prop.ml" 60 1817 1847
+type(
+  'c
+)
+"copy_prop.ml" 60 1817 1848 "copy_prop.ml" 60 1817 1849
+type(
+  'd
+)
+ident(
+  def g "copy_prop.ml" 60 1817 1850 "copy_prop.ml" 60 1817 1859
+)
+"copy_prop.ml" 60 1817 1850 "copy_prop.ml" 60 1817 1851
+type(
+  'e
+)
+"copy_prop.ml" 60 1817 1852 "copy_prop.ml" 60 1817 1853
+type(
+  'f
+)
+"copy_prop.ml" 60 1817 1854 "copy_prop.ml" 60 1817 1855
+type(
+  'g
+)
+ident(
+  def l "copy_prop.ml" 60 1817 1858 "copy_prop.ml" 60 1817 1859
+)
+"copy_prop.ml" 60 1817 1858 "copy_prop.ml" 60 1817 1859
+type(
+  'g
+)
+ident(
+  int_ref l "copy_prop.ml" 60 1817 1854 "copy_prop.ml" 60 1817 1855
+)
+"copy_prop.ml" 62 1861 1867 "copy_prop.ml" 62 1861 1869
+type(
+  'h -> 'i -> Cfg.SSA.G.V.t
+)
+ident(
+  def s0 "copy_prop.ml" 63 1908 1910 "copy_prop.ml" 65 1976 1979
+)
+"copy_prop.ml" 62 1861 1870 "copy_prop.ml" 62 1861 1871
+type(
+  'h
+)
+"copy_prop.ml" 62 1861 1872 "copy_prop.ml" 62 1861 1873
+type(
+  'i
+)
+"copy_prop.ml" 62 1861 1876 "copy_prop.ml" 62 1861 1894
+type(
+  Cfg.SSA.G.V.label -> Cfg.SSA.G.V.t
+)
+ident(
+  ext_ref Cfg.SSA.G.V.create
+)
+"copy_prop.ml" 62 1861 1895 "copy_prop.ml" 62 1861 1907
+type(
+  Cfg.SSA.G.V.label
+)
+"copy_prop.ml" 62 1861 1876 "copy_prop.ml" 62 1861 1907
+call(
+  tail
+)
+type(
+  Cfg.SSA.G.V.t
+)
+"copy_prop.ml" 63 1908 1914 "copy_prop.ml" 63 1908 1918
+type(
+  'j -> 'k -> L.t
+)
+ident(
+  def init "copy_prop.ml" 64 1940 1942 "copy_prop.ml" 65 1976 1979
+)
+"copy_prop.ml" 63 1908 1919 "copy_prop.ml" 63 1908 1920
+type(
+  'j
+)
+"copy_prop.ml" 63 1908 1921 "copy_prop.ml" 63 1908 1922
+type(
+  'k
+)
+"copy_prop.ml" 63 1908 1931 "copy_prop.ml" 63 1908 1939
+type(
+  L.et VM.t
+)
+ident(
+  ext_ref VM.empty
+)
+"copy_prop.ml" 63 1908 1925 "copy_prop.ml" 63 1908 1939
+type(
+  L.t
+)
+"copy_prop.ml" 64 1940 1946 "copy_prop.ml" 64 1940 1949
+type(
+  'l -> GraphDataflow.direction
+)
+ident(
+  def dir "copy_prop.ml" 64 1940 1975 "copy_prop.ml" 65 1976 1979
+)
+"copy_prop.ml" 64 1940 1950 "copy_prop.ml" 64 1940 1951
+type(
+  'l
+)
+"copy_prop.ml" 64 1940 1954 "copy_prop.ml" 64 1940 1975
+type(
+  GraphDataflow.direction
+)
+"copy_prop.ml" 73 2161 2169 "copy_prop.ml" 73 2161 2181
+type(
+  et -> string
+)
+ident(
+  def et_to_string "copy_prop.ml" 76 2296 2300 "copy_prop.ml" 98 3090 3095
+)
+"copy_prop.ml" 74 2193 2209 "copy_prop.ml" 74 2193 2210
+type(
+  Cfg.AST.G.V.t * int
+)
+ident(
+  def v "copy_prop.ml" 74 2193 2217 "copy_prop.ml" 74 2193 2268
+)
+"copy_prop.ml" 74 2193 2211 "copy_prop.ml" 74 2193 2212
+type(
+  Ast.exp
+)
+ident(
+  def e "copy_prop.ml" 74 2193 2217 "copy_prop.ml" 74 2193 2268
+)
+"copy_prop.ml" 74 2193 2201 "copy_prop.ml" 74 2193 2213
+type(
+  et
+)
+"copy_prop.ml" 74 2193 2217 "copy_prop.ml" 74 2193 2231
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"copy_prop.ml" 74 2193 2232 "copy_prop.ml" 74 2193 2243
+type(
+  (string -> string, unit, string) format
+)
+"copy_prop.ml" 74 2193 2245 "copy_prop.ml" 74 2193 2265
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Pp.ast_exp_to_string
+)
+"copy_prop.ml" 74 2193 2266 "copy_prop.ml" 74 2193 2267
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 74 2193 2211 "copy_prop.ml" 74 2193 2212
+)
+"copy_prop.ml" 74 2193 2244 "copy_prop.ml" 74 2193 2268
+call(
+  stack
+)
+type(
+  string
+)
+"copy_prop.ml" 74 2193 2217 "copy_prop.ml" 74 2193 2268
+call(
+  tail
+)
+type(
+  string
+)
+"copy_prop.ml" 75 2269 2277 "copy_prop.ml" 75 2269 2283
+type(
+  et
+)
+"copy_prop.ml" 75 2269 2287 "copy_prop.ml" 75 2269 2295
+type(
+  string
+)
+"copy_prop.ml" 73 2161 2184 "copy_prop.ml" 75 2269 2295
+type(
+  et -> string
+)
+"copy_prop.ml" 77 2330 2338 "copy_prop.ml" 77 2330 2341
+type(
+  t
+)
+ident(
+  def top "copy_prop.ml" 78 2348 2352 "copy_prop.ml" 98 3090 3095
+)
+"copy_prop.ml" 77 2330 2344 "copy_prop.ml" 77 2330 2347
+type(
+  t
+)
+"copy_prop.ml" 78 2348 2356 "copy_prop.ml" 78 2348 2367
+type(
+  et -> et -> et
+)
+ident(
+  def elementmeet "copy_prop.ml" 83 2569 2573 "copy_prop.ml" 98 3090 3095
+)
+"copy_prop.ml" 78 2348 2368 "copy_prop.ml" 78 2348 2369
+type(
+  et
+)
+ident(
+  def x "copy_prop.ml" 78 2348 2370 "copy_prop.ml" 82 2504 2568
+)
+"copy_prop.ml" 78 2348 2370 "copy_prop.ml" 78 2348 2371
+type(
+  et
+)
+ident(
+  def y "copy_prop.ml" 78 2348 2374 "copy_prop.ml" 82 2504 2568
+)
+"copy_prop.ml" 78 2348 2380 "copy_prop.ml" 78 2348 2381
+type(
+  et
+)
+ident(
+  int_ref x "copy_prop.ml" 78 2348 2368 "copy_prop.ml" 78 2348 2369
+)
+"copy_prop.ml" 78 2348 2382 "copy_prop.ml" 78 2348 2383
+type(
+  et
+)
+ident(
+  int_ref y "copy_prop.ml" 78 2348 2370 "copy_prop.ml" 78 2348 2371
+)
+"copy_prop.ml" 78 2348 2380 "copy_prop.ml" 78 2348 2383
+type(
+  et * et
+)
+"copy_prop.ml" 79 2389 2397 "copy_prop.ml" 79 2389 2403
+type(
+  et
+)
+"copy_prop.ml" 79 2389 2405 "copy_prop.ml" 79 2389 2406
+type(
+  et
+)
+"copy_prop.ml" 79 2389 2397 "copy_prop.ml" 79 2389 2406
+type(
+  et * et
+)
+"copy_prop.ml" 79 2389 2410 "copy_prop.ml" 79 2389 2416
+type(
+  et
+)
+"copy_prop.ml" 80 2417 2425 "copy_prop.ml" 80 2417 2426
+type(
+  et
+)
+"copy_prop.ml" 80 2417 2428 "copy_prop.ml" 80 2417 2434
+type(
+  et
+)
+"copy_prop.ml" 80 2417 2425 "copy_prop.ml" 80 2417 2434
+type(
+  et * et
+)
+"copy_prop.ml" 80 2417 2438 "copy_prop.ml" 80 2417 2444
+type(
+  et
+)
+"copy_prop.ml" 81 2445 2453 "copy_prop.ml" 81 2445 2454
+type(
+  et
+)
+ident(
+  def x "copy_prop.ml" 81 2445 2458 "copy_prop.ml" 81 2445 2503
+)
+"copy_prop.ml" 81 2445 2456 "copy_prop.ml" 81 2445 2457
+type(
+  et
+)
+ident(
+  def y "copy_prop.ml" 81 2445 2458 "copy_prop.ml" 81 2445 2503
+)
+"copy_prop.ml" 81 2445 2453 "copy_prop.ml" 81 2445 2457
+type(
+  et * et
+)
+"copy_prop.ml" 81 2445 2463 "copy_prop.ml" 81 2445 2464
+type(
+  et
+)
+ident(
+  int_ref x "copy_prop.ml" 81 2445 2453 "copy_prop.ml" 81 2445 2454
+)
+"copy_prop.ml" 81 2445 2465 "copy_prop.ml" 81 2445 2466
+type(
+  et -> et -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"copy_prop.ml" 81 2445 2467 "copy_prop.ml" 81 2445 2468
+type(
+  et
+)
+ident(
+  int_ref y "copy_prop.ml" 81 2445 2456 "copy_prop.ml" 81 2445 2457
+)
+"copy_prop.ml" 81 2445 2463 "copy_prop.ml" 81 2445 2468
+type(
+  bool
+)
+"copy_prop.ml" 81 2445 2502 "copy_prop.ml" 81 2445 2503
+type(
+  et
+)
+ident(
+  int_ref x "copy_prop.ml" 81 2445 2453 "copy_prop.ml" 81 2445 2454
+)
+"copy_prop.ml" 81 2445 2458 "copy_prop.ml" 81 2445 2503
+type(
+  et
+)
+"copy_prop.ml" 82 2504 2512 "copy_prop.ml" 82 2504 2513
+type(
+  et
+)
+ident(
+  def x "copy_prop.ml" 82 2504 2562 "copy_prop.ml" 82 2504 2568
+)
+"copy_prop.ml" 82 2504 2515 "copy_prop.ml" 82 2504 2516
+type(
+  et
+)
+ident(
+  def y "copy_prop.ml" 82 2504 2562 "copy_prop.ml" 82 2504 2568
+)
+"copy_prop.ml" 82 2504 2512 "copy_prop.ml" 82 2504 2516
+type(
+  et * et
+)
+"copy_prop.ml" 82 2504 2562 "copy_prop.ml" 82 2504 2568
+type(
+  et
+)
+"copy_prop.ml" 78 2348 2374 "copy_prop.ml" 82 2504 2568
+type(
+  et
+)
+"copy_prop.ml" 83 2569 2577 "copy_prop.ml" 83 2569 2581
+type(
+  t -> t -> t
+)
+ident(
+  def meet "copy_prop.ml" 94 2966 2970 "copy_prop.ml" 98 3090 3095
+)
+"copy_prop.ml" 83 2569 2582 "copy_prop.ml" 83 2569 2583
+type(
+  t
+)
+ident(
+  def x "copy_prop.ml" 83 2569 2584 "copy_prop.ml" 93 2949 2965
+)
+"copy_prop.ml" 83 2569 2584 "copy_prop.ml" 83 2569 2585
+type(
+  t
+)
+ident(
+  def y "copy_prop.ml" 83 2569 2588 "copy_prop.ml" 93 2949 2965
+)
+"copy_prop.ml" 83 2569 2594 "copy_prop.ml" 83 2569 2595
+type(
+  t
+)
+ident(
+  int_ref x "copy_prop.ml" 83 2569 2582 "copy_prop.ml" 83 2569 2583
+)
+"copy_prop.ml" 83 2569 2597 "copy_prop.ml" 83 2569 2598
+type(
+  t
+)
+ident(
+  int_ref y "copy_prop.ml" 83 2569 2584 "copy_prop.ml" 83 2569 2585
+)
+"copy_prop.ml" 83 2569 2594 "copy_prop.ml" 83 2569 2598
+type(
+  t * t
+)
+"copy_prop.ml" 84 2604 2612 "copy_prop.ml" 84 2604 2615
+type(
+  t
+)
+"copy_prop.ml" 84 2604 2617 "copy_prop.ml" 84 2604 2618
+type(
+  t
+)
+ident(
+  def x "copy_prop.ml" 84 2604 2622 "copy_prop.ml" 84 2604 2623
+)
+"copy_prop.ml" 84 2604 2612 "copy_prop.ml" 84 2604 2618
+type(
+  t * t
+)
+"copy_prop.ml" 84 2604 2622 "copy_prop.ml" 84 2604 2623
+type(
+  t
+)
+ident(
+  int_ref x "copy_prop.ml" 84 2604 2617 "copy_prop.ml" 84 2604 2618
+)
+"copy_prop.ml" 85 2624 2632 "copy_prop.ml" 85 2624 2633
+type(
+  t
+)
+ident(
+  def x "copy_prop.ml" 85 2624 2642 "copy_prop.ml" 85 2624 2643
+)
+"copy_prop.ml" 85 2624 2635 "copy_prop.ml" 85 2624 2638
+type(
+  t
+)
+"copy_prop.ml" 85 2624 2632 "copy_prop.ml" 85 2624 2638
+type(
+  t * t
+)
+"copy_prop.ml" 85 2624 2642 "copy_prop.ml" 85 2624 2643
+type(
+  t
+)
+ident(
+  int_ref x "copy_prop.ml" 85 2624 2632 "copy_prop.ml" 85 2624 2633
+)
+"copy_prop.ml" 86 2644 2656 "copy_prop.ml" 86 2644 2657
+type(
+  et VM.t
+)
+ident(
+  def x "copy_prop.ml" 87 2668 2676 "copy_prop.ml" 93 2949 2965
+)
+"copy_prop.ml" 86 2644 2652 "copy_prop.ml" 86 2644 2657
+type(
+  t
+)
+"copy_prop.ml" 86 2644 2663 "copy_prop.ml" 86 2644 2664
+type(
+  et VM.t
+)
+ident(
+  def y "copy_prop.ml" 87 2668 2676 "copy_prop.ml" 93 2949 2965
+)
+"copy_prop.ml" 86 2644 2659 "copy_prop.ml" 86 2644 2664
+type(
+  t
+)
+"copy_prop.ml" 86 2644 2652 "copy_prop.ml" 86 2644 2664
+type(
+  t * t
+)
+"copy_prop.ml" 87 2668 2681 "copy_prop.ml" 87 2668 2688
+type(
+  (VM.key -> et -> et VM.t -> et VM.t) -> et VM.t -> et VM.t -> et VM.t
+)
+ident(
+  ext_ref VM.fold
+)
+"copy_prop.ml" 88 2689 2704 "copy_prop.ml" 88 2689 2705
+type(
+  VM.key
+)
+ident(
+  def k "copy_prop.ml" 88 2689 2706 "copy_prop.ml" 92 2900 2948
+)
+"copy_prop.ml" 88 2689 2706 "copy_prop.ml" 88 2689 2707
+type(
+  et
+)
+ident(
+  def v "copy_prop.ml" 88 2689 2708 "copy_prop.ml" 92 2900 2948
+)
+"copy_prop.ml" 88 2689 2708 "copy_prop.ml" 88 2689 2714
+type(
+  et VM.t
+)
+ident(
+  def newmap "copy_prop.ml" 91 2833 2847 "copy_prop.ml" 92 2900 2948
+)
+"copy_prop.ml" 91 2833 2851 "copy_prop.ml" 91 2833 2853
+type(
+  et
+)
+"copy_prop.ml" 91 2833 2860 "copy_prop.ml" 91 2833 2867
+type(
+  VM.key -> et VM.t -> et
+)
+ident(
+  ext_ref VM.find
+)
+"copy_prop.ml" 91 2833 2868 "copy_prop.ml" 91 2833 2869
+type(
+  VM.key
+)
+ident(
+  int_ref k "copy_prop.ml" 88 2689 2704 "copy_prop.ml" 88 2689 2705
+)
+"copy_prop.ml" 91 2833 2870 "copy_prop.ml" 91 2833 2876
+type(
+  et VM.t
+)
+ident(
+  int_ref newmap "copy_prop.ml" 88 2689 2708 "copy_prop.ml" 88 2689 2714
+)
+"copy_prop.ml" 91 2833 2860 "copy_prop.ml" 91 2833 2876
+call(
+  stack
+)
+type(
+  et
+)
+"copy_prop.ml" 91 2833 2882 "copy_prop.ml" 91 2833 2891
+type(
+  exn
+)
+"copy_prop.ml" 91 2833 2895 "copy_prop.ml" 91 2833 2896
+type(
+  et
+)
+ident(
+  int_ref v "copy_prop.ml" 88 2689 2706 "copy_prop.ml" 88 2689 2707
+)
+"copy_prop.ml" 91 2833 2856 "copy_prop.ml" 91 2833 2896
+type(
+  et
+)
+"copy_prop.ml" 92 2900 2914 "copy_prop.ml" 92 2900 2920
+type(
+  VM.key -> et -> et VM.t -> et VM.t
+)
+ident(
+  ext_ref VM.add
+)
+"copy_prop.ml" 92 2900 2921 "copy_prop.ml" 92 2900 2922
+type(
+  VM.key
+)
+ident(
+  int_ref k "copy_prop.ml" 88 2689 2704 "copy_prop.ml" 88 2689 2705
+)
+"copy_prop.ml" 92 2900 2924 "copy_prop.ml" 92 2900 2935
+type(
+  et -> et -> et
+)
+ident(
+  int_ref elementmeet "copy_prop.ml" 78 2348 2356 "copy_prop.ml" 78 2348 2367
+)
+"copy_prop.ml" 92 2900 2936 "copy_prop.ml" 92 2900 2937
+type(
+  et
+)
+ident(
+  int_ref v "copy_prop.ml" 88 2689 2706 "copy_prop.ml" 88 2689 2707
+)
+"copy_prop.ml" 92 2900 2938 "copy_prop.ml" 92 2900 2940
+type(
+  et
+)
+ident(
+  int_ref v' "copy_prop.ml" 91 2833 2851 "copy_prop.ml" 91 2833 2853
+)
+"copy_prop.ml" 92 2900 2923 "copy_prop.ml" 92 2900 2941
+call(
+  stack
+)
+type(
+  et
+)
+"copy_prop.ml" 92 2900 2942 "copy_prop.ml" 92 2900 2948
+type(
+  et VM.t
+)
+ident(
+  int_ref newmap "copy_prop.ml" 88 2689 2708 "copy_prop.ml" 88 2689 2714
+)
+"copy_prop.ml" 92 2900 2914 "copy_prop.ml" 92 2900 2948
+call(
+  tail
+)
+type(
+  et VM.t
+)
+"copy_prop.ml" 91 2833 2847 "copy_prop.ml" 92 2900 2948
+type(
+  et VM.t
+)
+"copy_prop.ml" 88 2689 2699 "copy_prop.ml" 93 2949 2960
+type(
+  VM.key -> et -> et VM.t -> et VM.t
+)
+"copy_prop.ml" 93 2949 2961 "copy_prop.ml" 93 2949 2962
+type(
+  et VM.t
+)
+ident(
+  int_ref x "copy_prop.ml" 86 2644 2656 "copy_prop.ml" 86 2644 2657
+)
+"copy_prop.ml" 93 2949 2963 "copy_prop.ml" 93 2949 2964
+type(
+  et VM.t
+)
+ident(
+  int_ref y "copy_prop.ml" 86 2644 2663 "copy_prop.ml" 86 2644 2664
+)
+"copy_prop.ml" 87 2668 2680 "copy_prop.ml" 93 2949 2965
+call(
+  stack
+)
+type(
+  et VM.t
+)
+"copy_prop.ml" 87 2668 2676 "copy_prop.ml" 93 2949 2965
+type(
+  t
+)
+"copy_prop.ml" 83 2569 2588 "copy_prop.ml" 93 2949 2965
+type(
+  t
+)
+"copy_prop.ml" 94 2966 2974 "copy_prop.ml" 94 2966 2979
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "copy_prop.ml" 97 3068 3089 "copy_prop.ml" 98 3090 3095
+)
+"copy_prop.ml" 94 2966 2980 "copy_prop.ml" 94 2966 2981
+type(
+  t
+)
+ident(
+  def x "copy_prop.ml" 94 2966 2982 "copy_prop.ml" 97 3068 3089
+)
+"copy_prop.ml" 94 2966 2982 "copy_prop.ml" 94 2966 2983
+type(
+  t
+)
+ident(
+  def y "copy_prop.ml" 94 2966 2986 "copy_prop.ml" 97 3068 3089
+)
+"copy_prop.ml" 94 2966 2992 "copy_prop.ml" 94 2966 2993
+type(
+  t
+)
+ident(
+  int_ref x "copy_prop.ml" 94 2966 2980 "copy_prop.ml" 94 2966 2981
+)
+"copy_prop.ml" 94 2966 2995 "copy_prop.ml" 94 2966 2996
+type(
+  t
+)
+ident(
+  int_ref y "copy_prop.ml" 94 2966 2982 "copy_prop.ml" 94 2966 2983
+)
+"copy_prop.ml" 94 2966 2992 "copy_prop.ml" 94 2966 2996
+type(
+  t * t
+)
+"copy_prop.ml" 95 3002 3010 "copy_prop.ml" 95 3002 3013
+type(
+  t
+)
+"copy_prop.ml" 95 3002 3015 "copy_prop.ml" 95 3002 3018
+type(
+  t
+)
+"copy_prop.ml" 95 3002 3010 "copy_prop.ml" 95 3002 3018
+type(
+  t * t
+)
+"copy_prop.ml" 95 3002 3022 "copy_prop.ml" 95 3002 3026
+type(
+  bool
+)
+"copy_prop.ml" 96 3027 3039 "copy_prop.ml" 96 3027 3040
+type(
+  et VM.t
+)
+ident(
+  def x "copy_prop.ml" 96 3027 3051 "copy_prop.ml" 96 3027 3067
+)
+"copy_prop.ml" 96 3027 3035 "copy_prop.ml" 96 3027 3040
+type(
+  t
+)
+"copy_prop.ml" 96 3027 3046 "copy_prop.ml" 96 3027 3047
+type(
+  et VM.t
+)
+ident(
+  def y "copy_prop.ml" 96 3027 3051 "copy_prop.ml" 96 3027 3067
+)
+"copy_prop.ml" 96 3027 3042 "copy_prop.ml" 96 3027 3047
+type(
+  t
+)
+"copy_prop.ml" 96 3027 3035 "copy_prop.ml" 96 3027 3047
+type(
+  t * t
+)
+"copy_prop.ml" 96 3027 3051 "copy_prop.ml" 96 3027 3059
+type(
+  (et -> et -> bool) -> et VM.t -> et VM.t -> bool
+)
+ident(
+  ext_ref VM.equal
+)
+"copy_prop.ml" 96 3027 3060 "copy_prop.ml" 96 3027 3063
+type(
+  et -> et -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"copy_prop.ml" 96 3027 3064 "copy_prop.ml" 96 3027 3065
+type(
+  et VM.t
+)
+ident(
+  int_ref x "copy_prop.ml" 96 3027 3039 "copy_prop.ml" 96 3027 3040
+)
+"copy_prop.ml" 96 3027 3066 "copy_prop.ml" 96 3027 3067
+type(
+  et VM.t
+)
+ident(
+  int_ref y "copy_prop.ml" 96 3027 3046 "copy_prop.ml" 96 3027 3047
+)
+"copy_prop.ml" 96 3027 3051 "copy_prop.ml" 96 3027 3067
+call(
+  tail
+)
+type(
+  bool
+)
+"copy_prop.ml" 97 3068 3076 "copy_prop.ml" 97 3068 3077
+type(
+  t
+)
+"copy_prop.ml" 97 3068 3079 "copy_prop.ml" 97 3068 3080
+type(
+  t
+)
+"copy_prop.ml" 97 3068 3076 "copy_prop.ml" 97 3068 3080
+type(
+  t * t
+)
+"copy_prop.ml" 97 3068 3084 "copy_prop.ml" 97 3068 3089
+type(
+  bool
+)
+"copy_prop.ml" 94 2966 2986 "copy_prop.ml" 97 3068 3089
+type(
+  bool
+)
+"copy_prop.ml" 102 3157 3163 "copy_prop.ml" 102 3157 3185
+type(
+  unit -> 'a -> Cfg.AST.G.V.t * int -> Ast.stmt -> L.t -> L.t
+)
+ident(
+  def stmt_transfer_function "copy_prop.ml" 110 3508 3510 "copy_prop.ml" 115 3667 3670
+)
+"copy_prop.ml" 102 3157 3186 "copy_prop.ml" 102 3157 3188
+type(
+  unit
+)
+"copy_prop.ml" 102 3157 3189 "copy_prop.ml" 102 3157 3190
+type(
+  'a
+)
+ident(
+  def g "copy_prop.ml" 102 3157 3191 "copy_prop.ml" 108 3493 3506
+)
+"copy_prop.ml" 102 3157 3193 "copy_prop.ml" 102 3157 3196
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  def _bb "copy_prop.ml" 102 3157 3208 "copy_prop.ml" 108 3493 3506
+)
+"copy_prop.ml" 102 3157 3197 "copy_prop.ml" 102 3157 3198
+type(
+  int
+)
+"copy_prop.ml" 102 3157 3192 "copy_prop.ml" 102 3157 3199
+type(
+  Cfg.AST.G.V.t * int
+)
+"copy_prop.ml" 102 3157 3191 "copy_prop.ml" 102 3157 3207
+type(
+  Cfg.AST.G.V.t * int
+)
+ident(
+  def loc "copy_prop.ml" 102 3157 3208 "copy_prop.ml" 108 3493 3506
+)
+"copy_prop.ml" 102 3157 3208 "copy_prop.ml" 102 3157 3212
+type(
+  Ast.stmt
+)
+ident(
+  def stmt "copy_prop.ml" 102 3157 3213 "copy_prop.ml" 108 3493 3506
+)
+"copy_prop.ml" 102 3157 3213 "copy_prop.ml" 102 3157 3214
+type(
+  L.t
+)
+ident(
+  def l "copy_prop.ml" 103 3217 3221 "copy_prop.ml" 108 3493 3506
+)
+"copy_prop.ml" 103 3217 3225 "copy_prop.ml" 103 3217 3226
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 103 3217 3235 "copy_prop.ml" 103 3217 3236
+type(
+  L.t
+)
+ident(
+  int_ref l "copy_prop.ml" 102 3157 3213 "copy_prop.ml" 102 3157 3214
+)
+"copy_prop.ml" 103 3217 3250 "copy_prop.ml" 103 3217 3251
+type(
+  L.et VM.t
+)
+ident(
+  def m "copy_prop.ml" 103 3217 3255 "copy_prop.ml" 103 3217 3256
+)
+"copy_prop.ml" 103 3217 3244 "copy_prop.ml" 103 3217 3251
+type(
+  L.t
+)
+"copy_prop.ml" 103 3217 3255 "copy_prop.ml" 103 3217 3256
+type(
+  L.et VM.t
+)
+ident(
+  int_ref m "copy_prop.ml" 103 3217 3250 "copy_prop.ml" 103 3217 3251
+)
+"copy_prop.ml" 103 3217 3259 "copy_prop.ml" 103 3217 3264
+type(
+  L.t
+)
+"copy_prop.ml" 103 3217 3268 "copy_prop.ml" 103 3217 3276
+type(
+  string -> L.et VM.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"copy_prop.ml" 103 3217 3278 "copy_prop.ml" 103 3217 3292
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"copy_prop.ml" 103 3217 3293 "copy_prop.ml" 103 3217 3322
+type(
+  (string -> string, unit, string) format
+)
+"copy_prop.ml" 103 3217 3324 "copy_prop.ml" 103 3217 3335
+type(
+  Cfg.AST.G.V.t -> string
+)
+ident(
+  ext_ref Cfg_ast.v2s
+)
+"copy_prop.ml" 103 3217 3336 "copy_prop.ml" 103 3217 3339
+type(
+  Cfg.AST.G.V.t
+)
+ident(
+  int_ref _bb "copy_prop.ml" 102 3157 3193 "copy_prop.ml" 102 3157 3196
+)
+"copy_prop.ml" 103 3217 3323 "copy_prop.ml" 103 3217 3340
+call(
+  stack
+)
+type(
+  string
+)
+"copy_prop.ml" 103 3217 3277 "copy_prop.ml" 103 3217 3341
+call(
+  stack
+)
+type(
+  string
+)
+"copy_prop.ml" 103 3217 3268 "copy_prop.ml" 103 3217 3341
+call(
+  stack
+)
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 103 3217 3229 "copy_prop.ml" 103 3217 3341
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 104 3345 3362 "copy_prop.ml" 104 3345 3366
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "copy_prop.ml" 102 3157 3208 "copy_prop.ml" 102 3157 3212
+)
+"copy_prop.ml" 105 3372 3387 "copy_prop.ml" 105 3372 3388
+type(
+  Ast.var
+)
+ident(
+  def v "copy_prop.ml" 107 3456 3462 "copy_prop.ml" 107 3456 3492
+)
+"copy_prop.ml" 105 3372 3389 "copy_prop.ml" 105 3372 3390
+type(
+  Ast.exp
+)
+ident(
+  def e "copy_prop.ml" 107 3456 3462 "copy_prop.ml" 107 3456 3492
+)
+"copy_prop.ml" 105 3372 3391 "copy_prop.ml" 105 3372 3392
+type(
+  Ast.attrs
+)
+"copy_prop.ml" 105 3372 3386 "copy_prop.ml" 105 3372 3393
+type(
+  Ast.var * Ast.exp * Ast.attrs
+)
+"copy_prop.ml" 105 3372 3378 "copy_prop.ml" 105 3372 3393
+type(
+  Ast.stmt
+)
+"copy_prop.ml" 107 3456 3462 "copy_prop.ml" 107 3456 3468
+type(
+  VM.key -> L.et -> L.et VM.t -> L.et VM.t
+)
+ident(
+  ext_ref VM.add
+)
+"copy_prop.ml" 107 3456 3469 "copy_prop.ml" 107 3456 3470
+type(
+  Ast.var
+)
+ident(
+  int_ref v "copy_prop.ml" 105 3372 3387 "copy_prop.ml" 105 3372 3388
+)
+"copy_prop.ml" 107 3456 3482 "copy_prop.ml" 107 3456 3485
+type(
+  Cfg.AST.G.V.t * int
+)
+ident(
+  int_ref loc "copy_prop.ml" 102 3157 3191 "copy_prop.ml" 102 3157 3207
+)
+"copy_prop.ml" 107 3456 3487 "copy_prop.ml" 107 3456 3488
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 105 3372 3389 "copy_prop.ml" 105 3372 3390
+)
+"copy_prop.ml" 107 3456 3471 "copy_prop.ml" 107 3456 3490
+type(
+  L.et
+)
+"copy_prop.ml" 107 3456 3491 "copy_prop.ml" 107 3456 3492
+type(
+  L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 103 3217 3225 "copy_prop.ml" 103 3217 3226
+)
+"copy_prop.ml" 107 3456 3462 "copy_prop.ml" 107 3456 3492
+call(
+  stack
+)
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 108 3493 3499 "copy_prop.ml" 108 3493 3500
+type(
+  Ast.stmt
+)
+"copy_prop.ml" 108 3493 3504 "copy_prop.ml" 108 3493 3505
+type(
+  L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 103 3217 3225 "copy_prop.ml" 103 3217 3226
+)
+"copy_prop.ml" 104 3345 3355 "copy_prop.ml" 108 3493 3506
+type(
+  L.et VM.t
+)
+"copy_prop.ml" 104 3345 3349 "copy_prop.ml" 108 3493 3506
+type(
+  L.t
+)
+"copy_prop.ml" 103 3217 3221 "copy_prop.ml" 108 3493 3506
+type(
+  L.t
+)
+"copy_prop.ml" 110 3508 3514 "copy_prop.ml" 110 3508 3536
+type(
+  'b -> 'c -> 'd -> 'e -> 'f -> 'f
+)
+ident(
+  def edge_transfer_function "copy_prop.ml" 112 3552 3554 "copy_prop.ml" 115 3667 3670
+)
+"copy_prop.ml" 110 3508 3537 "copy_prop.ml" 110 3508 3538
+type(
+  'b
+)
+"copy_prop.ml" 110 3508 3539 "copy_prop.ml" 110 3508 3540
+type(
+  'c
+)
+ident(
+  def g "copy_prop.ml" 110 3508 3541 "copy_prop.ml" 110 3508 3550
+)
+"copy_prop.ml" 110 3508 3541 "copy_prop.ml" 110 3508 3542
+type(
+  'd
+)
+"copy_prop.ml" 110 3508 3543 "copy_prop.ml" 110 3508 3544
+type(
+  'e
+)
+"copy_prop.ml" 110 3508 3545 "copy_prop.ml" 110 3508 3546
+type(
+  'f
+)
+ident(
+  def l "copy_prop.ml" 110 3508 3549 "copy_prop.ml" 110 3508 3550
+)
+"copy_prop.ml" 110 3508 3549 "copy_prop.ml" 110 3508 3550
+type(
+  'f
+)
+ident(
+  int_ref l "copy_prop.ml" 110 3508 3545 "copy_prop.ml" 110 3508 3546
+)
+"copy_prop.ml" 112 3552 3558 "copy_prop.ml" 112 3552 3560
+type(
+  'g -> 'h -> Cfg.AST.G.V.t
+)
+ident(
+  def s0 "copy_prop.ml" 113 3599 3601 "copy_prop.ml" 115 3667 3670
+)
+"copy_prop.ml" 112 3552 3561 "copy_prop.ml" 112 3552 3562
+type(
+  'g
+)
+"copy_prop.ml" 112 3552 3563 "copy_prop.ml" 112 3552 3564
+type(
+  'h
+)
+"copy_prop.ml" 112 3552 3567 "copy_prop.ml" 112 3552 3585
+type(
+  Cfg.AST.G.V.label -> Cfg.AST.G.V.t
+)
+ident(
+  ext_ref Cfg.AST.G.V.create
+)
+"copy_prop.ml" 112 3552 3586 "copy_prop.ml" 112 3552 3598
+type(
+  Cfg.AST.G.V.label
+)
+"copy_prop.ml" 112 3552 3567 "copy_prop.ml" 112 3552 3598
+call(
+  tail
+)
+type(
+  Cfg.AST.G.V.t
+)
+"copy_prop.ml" 113 3599 3605 "copy_prop.ml" 113 3599 3609
+type(
+  'i -> 'j -> L.t
+)
+ident(
+  def init "copy_prop.ml" 114 3631 3633 "copy_prop.ml" 115 3667 3670
+)
+"copy_prop.ml" 113 3599 3610 "copy_prop.ml" 113 3599 3611
+type(
+  'i
+)
+"copy_prop.ml" 113 3599 3612 "copy_prop.ml" 113 3599 3613
+type(
+  'j
+)
+"copy_prop.ml" 113 3599 3622 "copy_prop.ml" 113 3599 3630
+type(
+  L.et VM.t
+)
+ident(
+  ext_ref VM.empty
+)
+"copy_prop.ml" 113 3599 3616 "copy_prop.ml" 113 3599 3630
+type(
+  L.t
+)
+"copy_prop.ml" 114 3631 3637 "copy_prop.ml" 114 3631 3640
+type(
+  'k -> GraphDataflow.direction
+)
+ident(
+  def dir "copy_prop.ml" 114 3631 3666 "copy_prop.ml" 115 3667 3670
+)
+"copy_prop.ml" 114 3631 3641 "copy_prop.ml" 114 3631 3642
+type(
+  'k
+)
+"copy_prop.ml" 114 3631 3645 "copy_prop.ml" 114 3631 3666
+type(
+  GraphDataflow.direction
+)
+"copy_prop.ml" 117 3672 3687 "copy_prop.ml" 117 3672 3714
+call(
+  stack
+)
+"copy_prop.ml" 119 3716 3720 "copy_prop.ml" 119 3716 3732
+type(
+  ?stop_before:(Ssa.exp -> bool) ->
+  ?stop_after:(Ssa.exp -> bool) ->
+  CPSpecSSA.CFG.G.t ->
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+ident(
+  def copyprop_ssa "copy_prop.ml" 178 5461 5461 --
+)
+"copy_prop.ml" 119 3716 3735 "copy_prop.ml" 119 3716 3746
+type(
+  Ssa.exp -> bool
+)
+"copy_prop.ml" 119 3716 3752 "copy_prop.ml" 119 3716 3753
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 119 3716 3757 "copy_prop.ml" 119 3716 3762
+type(
+  bool
+)
+"copy_prop.ml" 119 3716 3747 "copy_prop.ml" 119 3716 3763
+type(
+  Ssa.exp -> bool
+)
+type(
+  Ssa.exp -> bool
+)
+ident(
+  int_ref *sth* "copy_prop.ml" 119 3716 3747 "copy_prop.ml" 119 3716 3763
+)
+type(
+  (Ssa.exp -> bool) option
+)
+type(
+  (Ssa.exp -> bool) option
+)
+type(
+  Ssa.exp -> bool
+)
+ident(
+  def *sth* "copy_prop.ml" 119 3716 3747 "copy_prop.ml" 119 3716 3763
+)
+"copy_prop.ml" 119 3716 3767 "copy_prop.ml" 119 3716 3777
+type(
+  Ssa.exp -> bool
+)
+"copy_prop.ml" 119 3716 3783 "copy_prop.ml" 119 3716 3784
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 119 3716 3788 "copy_prop.ml" 119 3716 3793
+type(
+  bool
+)
+"copy_prop.ml" 119 3716 3778 "copy_prop.ml" 119 3716 3794
+type(
+  Ssa.exp -> bool
+)
+type(
+  Ssa.exp -> bool
+)
+ident(
+  int_ref *sth* "copy_prop.ml" 119 3716 3778 "copy_prop.ml" 119 3716 3794
+)
+type(
+  (Ssa.exp -> bool) option
+)
+type(
+  (Ssa.exp -> bool) option
+)
+type(
+  Ssa.exp -> bool
+)
+ident(
+  def *sth* "copy_prop.ml" 119 3716 3778 "copy_prop.ml" 119 3716 3794
+)
+"copy_prop.ml" 119 3716 3796 "copy_prop.ml" 119 3716 3797
+type(
+  CPSpecSSA.CFG.G.t
+)
+ident(
+  def g "copy_prop.ml" 120 3800 3802 "copy_prop.ml" 176 5438 5459
+)
+"copy_prop.ml" 120 3800 3806 "copy_prop.ml" 120 3800 3807
+type(
+  CPSpecSSA.CFG.G.V.t -> CPSpecSSA.L.t
+)
+"copy_prop.ml" 120 3800 3809 "copy_prop.ml" 120 3800 3814
+type(
+  CPSpecSSA.CFG.G.V.t -> CPSpecSSA.L.t
+)
+"copy_prop.ml" 120 3800 3806 "copy_prop.ml" 120 3800 3814
+type(
+  (CPSpecSSA.CFG.G.V.t -> CPSpecSSA.L.t) *
+  (CPSpecSSA.CFG.G.V.t -> CPSpecSSA.L.t)
+)
+"copy_prop.ml" 121 3817 3821 "copy_prop.ml" 121 3817 3843
+type(
+  ?init:(CPSpecSSA.O.t -> CPSpecSSA.CFG.G.t -> CPSpecSSA.L.t) ->
+  ?opts:CPSpecSSA.O.t ->
+  CPSpecSSA.CFG.G.t ->
+  (CPSpecSSA.CFG.G.V.t -> CPSpecSSA.L.t) *
+  (CPSpecSSA.CFG.G.V.t -> CPSpecSSA.L.t)
+)
+ident(
+  ext_ref CPSSA.worklist_iterate
+)
+"copy_prop.ml" 121 3817 3844 "copy_prop.ml" 121 3817 3845
+type(
+  CPSpecSSA.CFG.G.t
+)
+ident(
+  int_ref g "copy_prop.ml" 119 3716 3796 "copy_prop.ml" 119 3716 3797
+)
+"copy_prop.ml" 121 3817 3821 "copy_prop.ml" 121 3817 3845
+call(
+  stack
+)
+type(
+  (CPSpecSSA.CFG.G.V.t -> CPSpecSSA.L.t) *
+  (CPSpecSSA.CFG.G.V.t -> CPSpecSSA.L.t)
+)
+"copy_prop.ml" 122 3849 3855 "copy_prop.ml" 122 3849 3858
+type(
+  (Ssa.exp -> bool) -> Ssa.exp -> bool
+)
+"copy_prop.ml" 122 3849 3859 "copy_prop.ml" 122 3849 3860
+type(
+  Ssa.exp -> bool
+)
+ident(
+  def f "copy_prop.ml" 122 3849 3861 "copy_prop.ml" 132 4079 4100
+)
+"copy_prop.ml" 122 3849 3861 "copy_prop.ml" 122 3849 3862
+type(
+  Ssa.exp
+)
+ident(
+  def e "copy_prop.ml" 123 3865 3869 "copy_prop.ml" 132 4079 4100
+)
+"copy_prop.ml" 123 3865 3873 "copy_prop.ml" 123 3865 3876
+type(
+  Ssa_visitor.nop
+)
+"copy_prop.ml" 123 3865 3885 "copy_prop.ml" 123 3865 3891
+type(
+  Ssa_visitor.nop
+)
+"copy_prop.ml" 125 3922 3945 "copy_prop.ml" 125 3922 3946
+type(
+  Ssa.exp
+)
+ident(
+  def e "copy_prop.ml" 126 3949 3957 "copy_prop.ml" 128 3988 4011
+)
+"copy_prop.ml" 126 3949 3960 "copy_prop.ml" 126 3949 3961
+type(
+  Ssa.exp -> bool
+)
+ident(
+  int_ref f "copy_prop.ml" 122 3849 3859 "copy_prop.ml" 122 3849 3860
+)
+"copy_prop.ml" 126 3949 3962 "copy_prop.ml" 126 3949 3963
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 125 3922 3945 "copy_prop.ml" 125 3922 3946
+)
+"copy_prop.ml" 126 3949 3960 "copy_prop.ml" 126 3949 3963
+call(
+  stack
+)
+type(
+  bool
+)
+"copy_prop.ml" 127 3964 3977 "copy_prop.ml" 127 3964 3982
+type(
+  exn -> Ssa.exp Type.visit_action
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"copy_prop.ml" 127 3964 3983 "copy_prop.ml" 127 3964 3987
+type(
+  exn
+)
+"copy_prop.ml" 127 3964 3977 "copy_prop.ml" 127 3964 3987
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 128 3988 4001 "copy_prop.ml" 128 3988 4011
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 126 3949 3957 "copy_prop.ml" 128 3988 4011
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 123 3865 3879 "copy_prop.ml" 129 4012 4019
+type(
+  Ssa_visitor.nop
+)
+"copy_prop.ml" 131 4027 4035 "copy_prop.ml" 131 4027 4041
+type(
+  Ssa.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"copy_prop.ml" 131 4027 4042 "copy_prop.ml" 131 4027 4064
+type(
+  Ssa_visitor.t -> Ssa.exp -> Ssa.exp
+)
+ident(
+  ext_ref Ssa_visitor.exp_accept
+)
+"copy_prop.ml" 131 4027 4065 "copy_prop.ml" 131 4027 4068
+type(
+  Ssa_visitor.t
+)
+ident(
+  int_ref vis "copy_prop.ml" 123 3865 3873 "copy_prop.ml" 123 3865 3876
+)
+"copy_prop.ml" 131 4027 4069 "copy_prop.ml" 131 4027 4070
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 122 3849 3861 "copy_prop.ml" 122 3849 3862
+)
+"copy_prop.ml" 131 4027 4041 "copy_prop.ml" 131 4027 4071
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 131 4027 4035 "copy_prop.ml" 131 4027 4071
+type(
+  unit
+)
+"copy_prop.ml" 131 4027 4073 "copy_prop.ml" 131 4027 4078
+type(
+  bool
+)
+"copy_prop.ml" 131 4027 4035 "copy_prop.ml" 131 4027 4078
+type(
+  bool
+)
+"copy_prop.ml" 132 4079 4088 "copy_prop.ml" 132 4079 4092
+type(
+  exn
+)
+"copy_prop.ml" 132 4079 4096 "copy_prop.ml" 132 4079 4100
+type(
+  bool
+)
+"copy_prop.ml" 131 4027 4031 "copy_prop.ml" 132 4079 4100
+type(
+  bool
+)
+"copy_prop.ml" 123 3865 3869 "copy_prop.ml" 132 4079 4100
+type(
+  bool
+)
+"copy_prop.ml" 134 4106 4112 "copy_prop.ml" 134 4106 4121
+type(
+  CPSpecSSA.L.et VM.t -> Ssa.exp -> Ssa.exp
+)
+"copy_prop.ml" 134 4106 4122 "copy_prop.ml" 134 4106 4123
+type(
+  CPSpecSSA.L.et VM.t
+)
+ident(
+  def l "copy_prop.ml" 134 4106 4124 "copy_prop.ml" 150 4748 4780
+)
+"copy_prop.ml" 134 4106 4124 "copy_prop.ml" 134 4106 4125
+type(
+  Ssa.exp
+)
+ident(
+  def v "copy_prop.ml" 135 4128 4132 "copy_prop.ml" 150 4748 4780
+)
+"copy_prop.ml" 135 4128 4136 "copy_prop.ml" 135 4128 4139
+type(
+  Ssa_visitor.nop
+)
+"copy_prop.ml" 135 4128 4148 "copy_prop.ml" 135 4128 4154
+type(
+  Ssa_visitor.nop
+)
+"copy_prop.ml" 137 4185 4208 "copy_prop.ml" 137 4185 4209
+type(
+  Ssa.exp
+)
+ident(
+  def e "copy_prop.ml" 137 4185 4212 "copy_prop.ml" 148 4711 4736
+)
+"copy_prop.ml" 137 4185 4212 "copy_prop.ml" 137 4185 4219
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"copy_prop.ml" 137 4185 4220 "copy_prop.ml" 137 4185 4234
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"copy_prop.ml" 137 4185 4236 "copy_prop.ml" 137 4185 4256
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"copy_prop.ml" 137 4185 4257 "copy_prop.ml" 137 4185 4258
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 137 4185 4208 "copy_prop.ml" 137 4185 4209
+)
+"copy_prop.ml" 137 4185 4235 "copy_prop.ml" 137 4185 4259
+call(
+  stack
+)
+type(
+  string
+)
+"copy_prop.ml" 137 4185 4212 "copy_prop.ml" 137 4185 4259
+call(
+  stack
+)
+type(
+  unit
+)
+"copy_prop.ml" 137 4185 4267 "copy_prop.ml" 137 4185 4268
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 137 4185 4208 "copy_prop.ml" 137 4185 4209
+)
+"copy_prop.ml" 138 4287 4305 "copy_prop.ml" 138 4287 4306
+type(
+  Ssa.var
+)
+ident(
+  def v "copy_prop.ml" 139 4310 4320 "copy_prop.ml" 147 4668 4710
+)
+"copy_prop.ml" 138 4287 4297 "copy_prop.ml" 138 4287 4306
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 140 4325 4344 "copy_prop.ml" 140 4325 4351
+type(
+  VM.key -> CPSpecSSA.L.et VM.t -> CPSpecSSA.L.et
+)
+ident(
+  ext_ref VM.find
+)
+"copy_prop.ml" 140 4325 4352 "copy_prop.ml" 140 4325 4353
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "copy_prop.ml" 138 4287 4305 "copy_prop.ml" 138 4287 4306
+)
+"copy_prop.ml" 140 4325 4354 "copy_prop.ml" 140 4325 4355
+type(
+  CPSpecSSA.L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 134 4106 4122 "copy_prop.ml" 134 4106 4123
+)
+"copy_prop.ml" 140 4325 4344 "copy_prop.ml" 140 4325 4355
+call(
+  stack
+)
+type(
+  CPSpecSSA.L.et
+)
+"copy_prop.ml" 141 4361 4395 "copy_prop.ml" 141 4361 4396
+type(
+  Ssa.exp
+)
+ident(
+  def e "copy_prop.ml" 142 4400 4415 "copy_prop.ml" 145 4591 4634
+)
+"copy_prop.ml" 141 4361 4376 "copy_prop.ml" 141 4361 4396
+type(
+  CPSpecSSA.L.et
+)
+"copy_prop.ml" 142 4400 4415 "copy_prop.ml" 142 4400 4422
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"copy_prop.ml" 142 4400 4423 "copy_prop.ml" 142 4400 4433
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"copy_prop.ml" 142 4400 4435 "copy_prop.ml" 142 4400 4451
+type(
+  ?ctx:string Pp.VH.t * (string, unit) Hashtbl.t -> Pp.VH.key -> string
+)
+ident(
+  ext_ref Pp.var_to_string
+)
+"copy_prop.ml" 142 4400 4452 "copy_prop.ml" 142 4400 4453
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "copy_prop.ml" 138 4287 4305 "copy_prop.ml" 138 4287 4306
+)
+"copy_prop.ml" 142 4400 4434 "copy_prop.ml" 142 4400 4454
+call(
+  stack
+)
+type(
+  string
+)
+"copy_prop.ml" 142 4400 4456 "copy_prop.ml" 142 4400 4476
+type(
+  Ssa.exp -> string
+)
+ident(
+  ext_ref Pp.ssa_exp_to_string
+)
+"copy_prop.ml" 142 4400 4477 "copy_prop.ml" 142 4400 4478
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 141 4361 4395 "copy_prop.ml" 141 4361 4396
+)
+"copy_prop.ml" 142 4400 4455 "copy_prop.ml" 142 4400 4479
+call(
+  stack
+)
+type(
+  string
+)
+"copy_prop.ml" 142 4400 4415 "copy_prop.ml" 142 4400 4479
+call(
+  stack
+)
+type(
+  unit
+)
+"copy_prop.ml" 143 4481 4499 "copy_prop.ml" 143 4481 4502
+type(
+  (Ssa.exp -> bool) -> Ssa.exp -> bool
+)
+ident(
+  int_ref has "copy_prop.ml" 122 3849 3855 "copy_prop.ml" 122 3849 3858
+)
+"copy_prop.ml" 143 4481 4503 "copy_prop.ml" 143 4481 4514
+type(
+  Ssa.exp -> bool
+)
+ident(
+  int_ref stop_before "copy_prop.ml" 119 3716 3735 "copy_prop.ml" 119 3716 3746
+)
+"copy_prop.ml" 143 4481 4515 "copy_prop.ml" 143 4481 4516
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 141 4361 4395 "copy_prop.ml" 141 4361 4396
+)
+"copy_prop.ml" 143 4481 4499 "copy_prop.ml" 143 4481 4516
+call(
+  stack
+)
+type(
+  bool
+)
+"copy_prop.ml" 143 4481 4522 "copy_prop.ml" 143 4481 4534
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 144 4535 4558 "copy_prop.ml" 144 4535 4561
+type(
+  (Ssa.exp -> bool) -> Ssa.exp -> bool
+)
+ident(
+  int_ref has "copy_prop.ml" 122 3849 3855 "copy_prop.ml" 122 3849 3858
+)
+"copy_prop.ml" 144 4535 4562 "copy_prop.ml" 144 4535 4572
+type(
+  Ssa.exp -> bool
+)
+ident(
+  int_ref stop_after "copy_prop.ml" 119 3716 3767 "copy_prop.ml" 119 3716 3777
+)
+"copy_prop.ml" 144 4535 4573 "copy_prop.ml" 144 4535 4574
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 141 4361 4395 "copy_prop.ml" 141 4361 4396
+)
+"copy_prop.ml" 144 4535 4558 "copy_prop.ml" 144 4535 4574
+call(
+  stack
+)
+type(
+  bool
+)
+"copy_prop.ml" 144 4535 4589 "copy_prop.ml" 144 4535 4590
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 141 4361 4395 "copy_prop.ml" 141 4361 4396
+)
+"copy_prop.ml" 144 4535 4580 "copy_prop.ml" 144 4535 4590
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 145 4591 4633 "copy_prop.ml" 145 4591 4634
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 141 4361 4395 "copy_prop.ml" 141 4361 4396
+)
+"copy_prop.ml" 145 4591 4611 "copy_prop.ml" 145 4591 4634
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 144 4535 4555 "copy_prop.ml" 145 4591 4634
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 143 4481 4496 "copy_prop.ml" 145 4591 4634
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 142 4400 4415 "copy_prop.ml" 145 4591 4634
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 146 4635 4650 "copy_prop.ml" 146 4635 4651
+type(
+  CPSpecSSA.L.et
+)
+"copy_prop.ml" 146 4635 4655 "copy_prop.ml" 146 4635 4667
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 140 4325 4338 "copy_prop.ml" 146 4635 4667
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 147 4668 4684 "copy_prop.ml" 147 4668 4693
+type(
+  exn
+)
+"copy_prop.ml" 147 4668 4697 "copy_prop.ml" 147 4668 4709
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 139 4310 4320 "copy_prop.ml" 147 4668 4710
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 148 4711 4721 "copy_prop.ml" 148 4711 4722
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 148 4711 4726 "copy_prop.ml" 148 4711 4736
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 137 4185 4261 "copy_prop.ml" 148 4711 4736
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 137 4185 4212 "copy_prop.ml" 148 4711 4736
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 135 4128 4142 "copy_prop.ml" 149 4737 4744
+type(
+  Ssa_visitor.nop
+)
+"copy_prop.ml" 150 4748 4752 "copy_prop.ml" 150 4748 4774
+type(
+  Ssa_visitor.t -> Ssa.exp -> Ssa.exp
+)
+ident(
+  ext_ref Ssa_visitor.exp_accept
+)
+"copy_prop.ml" 150 4748 4775 "copy_prop.ml" 150 4748 4778
+type(
+  Ssa_visitor.t
+)
+ident(
+  int_ref vis "copy_prop.ml" 135 4128 4136 "copy_prop.ml" 135 4128 4139
+)
+"copy_prop.ml" 150 4748 4779 "copy_prop.ml" 150 4748 4780
+type(
+  Ssa.exp
+)
+ident(
+  int_ref v "copy_prop.ml" 134 4106 4124 "copy_prop.ml" 134 4106 4125
+)
+"copy_prop.ml" 150 4748 4752 "copy_prop.ml" 150 4748 4780
+call(
+  tail
+)
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 135 4128 4132 "copy_prop.ml" 150 4748 4780
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 153 4787 4793 "copy_prop.ml" 153 4787 4794
+type(
+  CPSpecSSA.L.t
+)
+"copy_prop.ml" 153 4787 4797 "copy_prop.ml" 153 4787 4802
+type(
+  CPSpecSSA.CFG.G.V.t -> CPSpecSSA.L.t
+)
+ident(
+  int_ref dfout "copy_prop.ml" 120 3800 3809 "copy_prop.ml" 120 3800 3814
+)
+"copy_prop.ml" 153 4787 4804 "copy_prop.ml" 153 4787 4822
+type(
+  Cfg.SSA.G.V.label -> CPSpecSSA.CFG.G.V.t
+)
+ident(
+  ext_ref Cfg.SSA.G.V.create
+)
+"copy_prop.ml" 153 4787 4823 "copy_prop.ml" 153 4787 4834
+type(
+  Cfg.SSA.G.V.label
+)
+"copy_prop.ml" 153 4787 4803 "copy_prop.ml" 153 4787 4835
+call(
+  stack
+)
+type(
+  CPSpecSSA.CFG.G.V.t
+)
+"copy_prop.ml" 153 4787 4797 "copy_prop.ml" 153 4787 4835
+call(
+  stack
+)
+type(
+  CPSpecSSA.L.t
+)
+"copy_prop.ml" 154 4839 4845 "copy_prop.ml" 154 4839 4846
+type(
+  CPSpecSSA.L.et VM.t
+)
+"copy_prop.ml" 154 4839 4855 "copy_prop.ml" 154 4839 4856
+type(
+  CPSpecSSA.L.t
+)
+ident(
+  int_ref l "copy_prop.ml" 153 4787 4793 "copy_prop.ml" 153 4787 4794
+)
+"copy_prop.ml" 155 4862 4884 "copy_prop.ml" 155 4862 4885
+type(
+  CPSpecSSA.L.et VM.t
+)
+ident(
+  def m "copy_prop.ml" 155 4862 4889 "copy_prop.ml" 155 4862 4890
+)
+"copy_prop.ml" 155 4862 4868 "copy_prop.ml" 155 4862 4885
+type(
+  CPSpecSSA.L.t
+)
+"copy_prop.ml" 155 4862 4889 "copy_prop.ml" 155 4862 4890
+type(
+  CPSpecSSA.L.et VM.t
+)
+ident(
+  int_ref m "copy_prop.ml" 155 4862 4884 "copy_prop.ml" 155 4862 4885
+)
+"copy_prop.ml" 156 4891 4897 "copy_prop.ml" 156 4891 4898
+type(
+  CPSpecSSA.L.t
+)
+"copy_prop.ml" 156 4891 4902 "copy_prop.ml" 156 4891 4910
+type(
+  string -> CPSpecSSA.L.et VM.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"copy_prop.ml" 156 4891 4911 "copy_prop.ml" 156 4891 4965
+type(
+  string
+)
+"copy_prop.ml" 156 4891 4902 "copy_prop.ml" 156 4891 4965
+call(
+  stack
+)
+type(
+  CPSpecSSA.L.et VM.t
+)
+"copy_prop.ml" 154 4839 4849 "copy_prop.ml" 156 4891 4965
+type(
+  CPSpecSSA.L.et VM.t
+)
+"copy_prop.ml" 158 4971 4977 "copy_prop.ml" 158 4971 4979
+type(
+  Ssa.exp VM.t lazy_t
+)
+"copy_prop.ml" 160 4991 4998 "copy_prop.ml" 160 4991 5005
+type(
+  (VM.key -> CPSpecSSA.L.et -> Ssa.exp VM.t -> Ssa.exp VM.t) ->
+  CPSpecSSA.L.et VM.t -> Ssa.exp VM.t -> Ssa.exp VM.t
+)
+ident(
+  ext_ref VM.fold
+)
+"copy_prop.ml" 160 4991 5011 "copy_prop.ml" 160 4991 5012
+type(
+  VM.key
+)
+ident(
+  def k "copy_prop.ml" 160 4991 5013 "copy_prop.ml" 167 5253 5270
+)
+"copy_prop.ml" 160 4991 5013 "copy_prop.ml" 160 4991 5014
+type(
+  CPSpecSSA.L.et
+)
+ident(
+  def v "copy_prop.ml" 160 4991 5015 "copy_prop.ml" 167 5253 5270
+)
+"copy_prop.ml" 160 4991 5015 "copy_prop.ml" 160 4991 5021
+type(
+  Ssa.exp VM.t
+)
+ident(
+  def newmap "copy_prop.ml" 161 5025 5033 "copy_prop.ml" 167 5253 5270
+)
+"copy_prop.ml" 161 5025 5040 "copy_prop.ml" 161 5025 5041
+type(
+  CPSpecSSA.L.et
+)
+ident(
+  int_ref v "copy_prop.ml" 160 4991 5013 "copy_prop.ml" 160 4991 5014
+)
+"copy_prop.ml" 162 5047 5076 "copy_prop.ml" 162 5047 5077
+type(
+  Ssa.exp
+)
+ident(
+  def x "copy_prop.ml" 163 5081 5091 "copy_prop.ml" 165 5207 5237
+)
+"copy_prop.ml" 162 5047 5057 "copy_prop.ml" 162 5047 5077
+type(
+  CPSpecSSA.L.et
+)
+"copy_prop.ml" 163 5081 5095 "copy_prop.ml" 163 5081 5099
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 163 5081 5102 "copy_prop.ml" 163 5081 5111
+type(
+  CPSpecSSA.L.et VM.t -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref propagate "copy_prop.ml" 134 4106 4112 "copy_prop.ml" 134 4106 4121
+)
+"copy_prop.ml" 163 5081 5112 "copy_prop.ml" 163 5081 5113
+type(
+  CPSpecSSA.L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 154 4839 4845 "copy_prop.ml" 154 4839 4846
+)
+"copy_prop.ml" 163 5081 5114 "copy_prop.ml" 163 5081 5115
+type(
+  Ssa.exp
+)
+ident(
+  int_ref x "copy_prop.ml" 162 5047 5076 "copy_prop.ml" 162 5047 5077
+)
+"copy_prop.ml" 163 5081 5102 "copy_prop.ml" 163 5081 5115
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 165 5207 5217 "copy_prop.ml" 165 5207 5223
+type(
+  VM.key -> Ssa.exp -> Ssa.exp VM.t -> Ssa.exp VM.t
+)
+ident(
+  ext_ref VM.add
+)
+"copy_prop.ml" 165 5207 5224 "copy_prop.ml" 165 5207 5225
+type(
+  VM.key
+)
+ident(
+  int_ref k "copy_prop.ml" 160 4991 5011 "copy_prop.ml" 160 4991 5012
+)
+"copy_prop.ml" 165 5207 5226 "copy_prop.ml" 165 5207 5230
+type(
+  Ssa.exp
+)
+ident(
+  int_ref ssae "copy_prop.ml" 163 5081 5095 "copy_prop.ml" 163 5081 5099
+)
+"copy_prop.ml" 165 5207 5231 "copy_prop.ml" 165 5207 5237
+type(
+  Ssa.exp VM.t
+)
+ident(
+  int_ref newmap "copy_prop.ml" 160 4991 5015 "copy_prop.ml" 160 4991 5021
+)
+"copy_prop.ml" 165 5207 5217 "copy_prop.ml" 165 5207 5237
+call(
+  tail
+)
+type(
+  Ssa.exp VM.t
+)
+"copy_prop.ml" 163 5081 5091 "copy_prop.ml" 165 5207 5237
+type(
+  Ssa.exp VM.t
+)
+"copy_prop.ml" 166 5238 5248 "copy_prop.ml" 166 5238 5249
+type(
+  CPSpecSSA.L.et
+)
+"copy_prop.ml" 167 5253 5263 "copy_prop.ml" 167 5253 5269
+type(
+  Ssa.exp VM.t
+)
+ident(
+  int_ref newmap "copy_prop.ml" 160 4991 5015 "copy_prop.ml" 160 4991 5021
+)
+"copy_prop.ml" 161 5025 5033 "copy_prop.ml" 167 5253 5270
+type(
+  Ssa.exp VM.t
+)
+"copy_prop.ml" 160 4991 5006 "copy_prop.ml" 168 5271 5279
+type(
+  VM.key -> CPSpecSSA.L.et -> Ssa.exp VM.t -> Ssa.exp VM.t
+)
+"copy_prop.ml" 168 5271 5280 "copy_prop.ml" 168 5271 5281
+type(
+  CPSpecSSA.L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 154 4839 4845 "copy_prop.ml" 154 4839 4846
+)
+"copy_prop.ml" 168 5271 5282 "copy_prop.ml" 168 5271 5290
+type(
+  Ssa.exp VM.t
+)
+ident(
+  ext_ref VM.empty
+)
+"copy_prop.ml" 160 4991 4997 "copy_prop.ml" 168 5271 5291
+call(
+  tail
+)
+type(
+  Ssa.exp VM.t
+)
+"copy_prop.ml" 159 4982 4986 "copy_prop.ml" 168 5271 5291
+type(
+  Ssa.exp VM.t lazy_t
+)
+"copy_prop.ml" 170 5297 5303 "copy_prop.ml" 170 5297 5305
+type(
+  Ssa.exp VM.t
+)
+"copy_prop.ml" 171 5308 5312 "copy_prop.ml" 171 5308 5325
+type(
+  (VM.key -> CPSpecSSA.L.et -> Ssa.exp option) ->
+  CPSpecSSA.L.et VM.t -> Ssa.exp VM.t
+)
+ident(
+  ext_ref VM.filter_map
+)
+"copy_prop.ml" 171 5308 5331 "copy_prop.ml" 171 5308 5332
+type(
+  VM.key
+)
+ident(
+  def k "copy_prop.ml" 171 5308 5333 "copy_prop.ml" 173 5390 5424
+)
+"copy_prop.ml" 171 5308 5333 "copy_prop.ml" 171 5308 5334
+type(
+  CPSpecSSA.L.et
+)
+ident(
+  def v "copy_prop.ml" 171 5308 5338 "copy_prop.ml" 173 5390 5424
+)
+"copy_prop.ml" 171 5308 5344 "copy_prop.ml" 171 5308 5345
+type(
+  CPSpecSSA.L.et
+)
+ident(
+  int_ref v "copy_prop.ml" 171 5308 5333 "copy_prop.ml" 171 5308 5334
+)
+"copy_prop.ml" 172 5351 5378 "copy_prop.ml" 172 5351 5379
+type(
+  Ssa.exp
+)
+ident(
+  def x "copy_prop.ml" 172 5351 5383 "copy_prop.ml" 172 5351 5389
+)
+"copy_prop.ml" 172 5351 5359 "copy_prop.ml" 172 5351 5379
+type(
+  CPSpecSSA.L.et
+)
+"copy_prop.ml" 172 5351 5388 "copy_prop.ml" 172 5351 5389
+type(
+  Ssa.exp
+)
+ident(
+  int_ref x "copy_prop.ml" 172 5351 5378 "copy_prop.ml" 172 5351 5379
+)
+"copy_prop.ml" 172 5351 5383 "copy_prop.ml" 172 5351 5389
+type(
+  Ssa.exp option
+)
+"copy_prop.ml" 173 5390 5398 "copy_prop.ml" 173 5390 5416
+type(
+  CPSpecSSA.L.et
+)
+"copy_prop.ml" 173 5390 5420 "copy_prop.ml" 173 5390 5424
+type(
+  Ssa.exp option
+)
+"copy_prop.ml" 171 5308 5338 "copy_prop.ml" 173 5390 5424
+type(
+  Ssa.exp option
+)
+"copy_prop.ml" 171 5308 5326 "copy_prop.ml" 174 5425 5430
+type(
+  VM.key -> CPSpecSSA.L.et -> Ssa.exp option
+)
+"copy_prop.ml" 174 5425 5431 "copy_prop.ml" 174 5425 5432
+type(
+  CPSpecSSA.L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 154 4839 4845 "copy_prop.ml" 154 4839 4846
+)
+"copy_prop.ml" 171 5308 5312 "copy_prop.ml" 174 5425 5432
+call(
+  stack
+)
+type(
+  Ssa.exp VM.t
+)
+"copy_prop.ml" 176 5438 5440 "copy_prop.ml" 176 5438 5442
+type(
+  Ssa.exp VM.t lazy_t
+)
+ident(
+  int_ref cm "copy_prop.ml" 158 4971 4977 "copy_prop.ml" 158 4971 4979
+)
+"copy_prop.ml" 176 5438 5444 "copy_prop.ml" 176 5438 5446
+type(
+  Ssa.exp VM.t
+)
+ident(
+  int_ref rm "copy_prop.ml" 170 5297 5303 "copy_prop.ml" 170 5297 5305
+)
+"copy_prop.ml" 176 5438 5448 "copy_prop.ml" 176 5438 5457
+type(
+  CPSpecSSA.L.et VM.t -> Ssa.exp -> Ssa.exp
+)
+ident(
+  int_ref propagate "copy_prop.ml" 134 4106 4112 "copy_prop.ml" 134 4106 4121
+)
+"copy_prop.ml" 176 5438 5458 "copy_prop.ml" 176 5438 5459
+type(
+  CPSpecSSA.L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 154 4839 4845 "copy_prop.ml" 154 4839 4846
+)
+"copy_prop.ml" 176 5438 5448 "copy_prop.ml" 176 5438 5459
+call(
+  stack
+)
+type(
+  Ssa.exp -> Ssa.exp
+)
+"copy_prop.ml" 176 5438 5440 "copy_prop.ml" 176 5438 5459
+type(
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+"copy_prop.ml" 170 5297 5299 "copy_prop.ml" 176 5438 5459
+type(
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+"copy_prop.ml" 158 4971 4973 "copy_prop.ml" 176 5438 5459
+type(
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+"copy_prop.ml" 154 4839 4841 "copy_prop.ml" 176 5438 5459
+type(
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+"copy_prop.ml" 153 4787 4789 "copy_prop.ml" 176 5438 5459
+type(
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+"copy_prop.ml" 134 4106 4108 "copy_prop.ml" 176 5438 5459
+type(
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+"copy_prop.ml" 122 3849 3851 "copy_prop.ml" 176 5438 5459
+type(
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+"copy_prop.ml" 120 3800 3802 "copy_prop.ml" 176 5438 5459
+type(
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+"copy_prop.ml" 178 5461 5476 "copy_prop.ml" 178 5461 5503
+call(
+  stack
+)
+"copy_prop.ml" 180 5505 5509 "copy_prop.ml" 180 5505 5521
+type(
+  ?stop_before:(Ast.exp -> bool) ->
+  ?stop_after:(Ast.exp -> bool) ->
+  CPSpecAST.CFG.G.t ->
+  Depgraphs.UseDef_AST.location ->
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+ident(
+  def copyprop_ast "copy_prop.ml" 269 8618 8618 --
+)
+"copy_prop.ml" 180 5505 5524 "copy_prop.ml" 180 5505 5535
+type(
+  Ast.exp -> bool
+)
+"copy_prop.ml" 180 5505 5541 "copy_prop.ml" 180 5505 5542
+type(
+  Ast.exp
+)
+"copy_prop.ml" 180 5505 5546 "copy_prop.ml" 180 5505 5551
+type(
+  bool
+)
+"copy_prop.ml" 180 5505 5536 "copy_prop.ml" 180 5505 5552
+type(
+  Ast.exp -> bool
+)
+type(
+  Ast.exp -> bool
+)
+ident(
+  int_ref *sth* "copy_prop.ml" 180 5505 5536 "copy_prop.ml" 180 5505 5552
+)
+type(
+  (Ast.exp -> bool) option
+)
+type(
+  (Ast.exp -> bool) option
+)
+type(
+  Ast.exp -> bool
+)
+ident(
+  def *sth* "copy_prop.ml" 180 5505 5536 "copy_prop.ml" 180 5505 5552
+)
+"copy_prop.ml" 180 5505 5556 "copy_prop.ml" 180 5505 5566
+type(
+  Ast.exp -> bool
+)
+"copy_prop.ml" 180 5505 5572 "copy_prop.ml" 180 5505 5573
+type(
+  Ast.exp
+)
+"copy_prop.ml" 180 5505 5577 "copy_prop.ml" 180 5505 5582
+type(
+  bool
+)
+"copy_prop.ml" 180 5505 5567 "copy_prop.ml" 180 5505 5583
+type(
+  Ast.exp -> bool
+)
+type(
+  Ast.exp -> bool
+)
+ident(
+  int_ref *sth* "copy_prop.ml" 180 5505 5567 "copy_prop.ml" 180 5505 5583
+)
+type(
+  (Ast.exp -> bool) option
+)
+type(
+  (Ast.exp -> bool) option
+)
+type(
+  Ast.exp -> bool
+)
+ident(
+  def *sth* "copy_prop.ml" 180 5505 5567 "copy_prop.ml" 180 5505 5583
+)
+"copy_prop.ml" 180 5505 5585 "copy_prop.ml" 180 5505 5586
+type(
+  CPSpecAST.CFG.G.t
+)
+ident(
+  def g "copy_prop.ml" 181 5589 5591 "copy_prop.ml" 267 8613 8616
+)
+"copy_prop.ml" 181 5589 5595 "copy_prop.ml" 181 5589 5599
+type(
+  Depgraphs.UseDef_AST.location -> CPSpecAST.L.t
+)
+"copy_prop.ml" 181 5589 5601 "copy_prop.ml" 181 5589 5602
+type(
+  CPSpecAST.CFG.G.V.t * int -> CPSpecAST.L.t
+)
+"copy_prop.ml" 181 5589 5595 "copy_prop.ml" 181 5589 5602
+type(
+  (Depgraphs.UseDef_AST.location -> CPSpecAST.L.t) *
+  (CPSpecAST.CFG.G.V.t * int -> CPSpecAST.L.t)
+)
+"copy_prop.ml" 181 5589 5605 "copy_prop.ml" 181 5589 5632
+type(
+  ?init:(CPSpecAST.O.t -> CPSpecAST.CFG.G.t -> CPSpecAST.L.t) ->
+  ?opts:CPSpecAST.O.t ->
+  CPSpecAST.CFG.G.t ->
+  (Depgraphs.UseDef_AST.location -> CPSpecAST.L.t) *
+  (CPSpecAST.CFG.G.V.t * int -> CPSpecAST.L.t)
+)
+ident(
+  ext_ref CPAST.worklist_iterate_stmt
+)
+"copy_prop.ml" 181 5589 5633 "copy_prop.ml" 181 5589 5634
+type(
+  CPSpecAST.CFG.G.t
+)
+ident(
+  int_ref g "copy_prop.ml" 180 5505 5585 "copy_prop.ml" 180 5505 5586
+)
+"copy_prop.ml" 181 5589 5605 "copy_prop.ml" 181 5589 5634
+call(
+  stack
+)
+type(
+  (Depgraphs.UseDef_AST.location -> CPSpecAST.L.t) *
+  (CPSpecAST.CFG.G.V.t * int -> CPSpecAST.L.t)
+)
+"copy_prop.ml" 182 5638 5644 "copy_prop.ml" 182 5638 5651
+type(
+  CPSpecAST.L.t -> CPSpecAST.L.et VM.t
+)
+"copy_prop.ml" 183 5663 5685 "copy_prop.ml" 183 5663 5686
+type(
+  CPSpecAST.L.et VM.t
+)
+ident(
+  def m "copy_prop.ml" 183 5663 5690 "copy_prop.ml" 183 5663 5691
+)
+"copy_prop.ml" 183 5663 5669 "copy_prop.ml" 183 5663 5686
+type(
+  CPSpecAST.L.t
+)
+"copy_prop.ml" 183 5663 5690 "copy_prop.ml" 183 5663 5691
+type(
+  CPSpecAST.L.et VM.t
+)
+ident(
+  int_ref m "copy_prop.ml" 183 5663 5685 "copy_prop.ml" 183 5663 5686
+)
+"copy_prop.ml" 184 5692 5698 "copy_prop.ml" 184 5692 5699
+type(
+  CPSpecAST.L.t
+)
+"copy_prop.ml" 184 5692 5703 "copy_prop.ml" 184 5692 5711
+type(
+  string -> CPSpecAST.L.et VM.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"copy_prop.ml" 184 5692 5712 "copy_prop.ml" 184 5692 5766
+type(
+  string
+)
+"copy_prop.ml" 184 5692 5703 "copy_prop.ml" 184 5692 5766
+call(
+  tail
+)
+type(
+  CPSpecAST.L.et VM.t
+)
+"copy_prop.ml" 182 5638 5654 "copy_prop.ml" 184 5692 5766
+type(
+  CPSpecAST.L.t -> CPSpecAST.L.et VM.t
+)
+"copy_prop.ml" 186 5772 5778 "copy_prop.ml" 186 5772 5779
+type(
+  (Depgraphs.UseDef_AST.location, Depgraphs.UseDef_AST.LS.t Var.VarMap.t)
+  Hashtbl.t
+)
+"copy_prop.ml" 186 5772 5781 "copy_prop.ml" 186 5772 5785
+type(
+  Depgraphs.UseDef_AST.location -> VS.elt -> Depgraphs.UseDef_AST.LS.t
+)
+"copy_prop.ml" 186 5772 5778 "copy_prop.ml" 186 5772 5785
+type(
+  (Depgraphs.UseDef_AST.location, Depgraphs.UseDef_AST.LS.t Var.VarMap.t)
+  Hashtbl.t *
+  (Depgraphs.UseDef_AST.location -> VS.elt -> Depgraphs.UseDef_AST.LS.t)
+)
+"copy_prop.ml" 186 5772 5788 "copy_prop.ml" 186 5772 5815
+type(
+  CPSpecAST.CFG.G.t ->
+  (Depgraphs.UseDef_AST.location, Depgraphs.UseDef_AST.LS.t Var.VarMap.t)
+  Hashtbl.t *
+  (Depgraphs.UseDef_AST.location -> VS.elt -> Depgraphs.UseDef_AST.LS.t)
+)
+ident(
+  ext_ref Depgraphs.UseDef_AST.usedef
+)
+"copy_prop.ml" 186 5772 5816 "copy_prop.ml" 186 5772 5817
+type(
+  CPSpecAST.CFG.G.t
+)
+ident(
+  int_ref g "copy_prop.ml" 180 5505 5585 "copy_prop.ml" 180 5505 5586
+)
+"copy_prop.ml" 186 5772 5788 "copy_prop.ml" 186 5772 5817
+call(
+  stack
+)
+type(
+  (Depgraphs.UseDef_AST.location, Depgraphs.UseDef_AST.LS.t Var.VarMap.t)
+  Hashtbl.t *
+  (Depgraphs.UseDef_AST.location -> VS.elt -> Depgraphs.UseDef_AST.LS.t)
+)
+"copy_prop.ml" 187 5821 5827 "copy_prop.ml" 187 5821 5834
+type(
+  Ast.exp -> VS.t
+)
+"copy_prop.ml" 187 5821 5835 "copy_prop.ml" 187 5821 5836
+type(
+  Ast.exp
+)
+ident(
+  def e "copy_prop.ml" 188 5839 5843 "copy_prop.ml" 196 6048 6054
+)
+"copy_prop.ml" 188 5839 5847 "copy_prop.ml" 188 5839 5848
+type(
+  VS.t ref
+)
+"copy_prop.ml" 188 5839 5851 "copy_prop.ml" 188 5839 5854
+type(
+  VS.t -> VS.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"copy_prop.ml" 188 5839 5855 "copy_prop.ml" 188 5839 5863
+type(
+  VS.t
+)
+ident(
+  ext_ref VS.empty
+)
+"copy_prop.ml" 188 5839 5851 "copy_prop.ml" 188 5839 5863
+type(
+  VS.t ref
+)
+"copy_prop.ml" 189 5867 5875 "copy_prop.ml" 189 5867 5876
+type(
+  Ast_visitor.nop
+)
+"copy_prop.ml" 189 5867 5885 "copy_prop.ml" 189 5867 5891
+type(
+  Ast_visitor.nop
+)
+"copy_prop.ml" 191 5922 5946 "copy_prop.ml" 191 5922 5947
+type(
+  Ast.var
+)
+ident(
+  def v "copy_prop.ml" 192 5950 5958 "copy_prop.ml" 193 5976 5996
+)
+"copy_prop.ml" 192 5950 5958 "copy_prop.ml" 192 5950 5959
+type(
+  VS.t ref
+)
+ident(
+  int_ref s "copy_prop.ml" 188 5839 5847 "copy_prop.ml" 188 5839 5848
+)
+"copy_prop.ml" 192 5950 5960 "copy_prop.ml" 192 5950 5962
+type(
+  VS.t ref -> VS.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"copy_prop.ml" 192 5950 5963 "copy_prop.ml" 192 5950 5969
+type(
+  VS.elt -> VS.t -> VS.t
+)
+ident(
+  ext_ref VS.add
+)
+"copy_prop.ml" 192 5950 5970 "copy_prop.ml" 192 5950 5971
+type(
+  Ast.var
+)
+ident(
+  int_ref v "copy_prop.ml" 191 5922 5946 "copy_prop.ml" 191 5922 5947
+)
+"copy_prop.ml" 192 5950 5972 "copy_prop.ml" 192 5950 5973
+type(
+  VS.t ref -> VS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"copy_prop.ml" 192 5950 5973 "copy_prop.ml" 192 5950 5974
+type(
+  VS.t ref
+)
+ident(
+  int_ref s "copy_prop.ml" 188 5839 5847 "copy_prop.ml" 188 5839 5848
+)
+"copy_prop.ml" 192 5950 5972 "copy_prop.ml" 192 5950 5974
+type(
+  VS.t
+)
+"copy_prop.ml" 192 5950 5963 "copy_prop.ml" 192 5950 5974
+call(
+  stack
+)
+type(
+  VS.t
+)
+"copy_prop.ml" 192 5950 5958 "copy_prop.ml" 192 5950 5974
+type(
+  unit
+)
+"copy_prop.ml" 193 5976 5984 "copy_prop.ml" 193 5976 5996
+type(
+  Ast.var Type.visit_action
+)
+"copy_prop.ml" 192 5950 5958 "copy_prop.ml" 193 5976 5996
+type(
+  Ast.var Type.visit_action
+)
+"copy_prop.ml" 189 5867 5879 "copy_prop.ml" 194 5997 6004
+type(
+  Ast_visitor.nop
+)
+"copy_prop.ml" 195 6008 6012 "copy_prop.ml" 195 6008 6018
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"copy_prop.ml" 195 6008 6019 "copy_prop.ml" 195 6008 6041
+type(
+  Ast_visitor.t -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"copy_prop.ml" 195 6008 6042 "copy_prop.ml" 195 6008 6043
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref v "copy_prop.ml" 189 5867 5875 "copy_prop.ml" 189 5867 5876
+)
+"copy_prop.ml" 195 6008 6044 "copy_prop.ml" 195 6008 6045
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 187 5821 5835 "copy_prop.ml" 187 5821 5836
+)
+"copy_prop.ml" 195 6008 6018 "copy_prop.ml" 195 6008 6046
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"copy_prop.ml" 195 6008 6012 "copy_prop.ml" 195 6008 6046
+type(
+  unit
+)
+"copy_prop.ml" 196 6048 6052 "copy_prop.ml" 196 6048 6053
+type(
+  VS.t ref -> VS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"copy_prop.ml" 196 6048 6053 "copy_prop.ml" 196 6048 6054
+type(
+  VS.t ref
+)
+ident(
+  int_ref s "copy_prop.ml" 188 5839 5847 "copy_prop.ml" 188 5839 5848
+)
+"copy_prop.ml" 196 6048 6052 "copy_prop.ml" 196 6048 6054
+type(
+  VS.t
+)
+"copy_prop.ml" 195 6008 6012 "copy_prop.ml" 196 6048 6054
+type(
+  VS.t
+)
+"copy_prop.ml" 189 5867 5871 "copy_prop.ml" 196 6048 6054
+type(
+  VS.t
+)
+"copy_prop.ml" 188 5839 5843 "copy_prop.ml" 196 6048 6054
+type(
+  VS.t
+)
+"copy_prop.ml" 200 6129 6135 "copy_prop.ml" 200 6129 6138
+type(
+  (Ast.exp -> bool) -> Ast.exp -> bool
+)
+ident(
+  def has "copy_prop.ml" 212 6386 6388 "copy_prop.ml" 267 8613 8616
+)
+"copy_prop.ml" 200 6129 6139 "copy_prop.ml" 200 6129 6140
+type(
+  Ast.exp -> bool
+)
+ident(
+  def f "copy_prop.ml" 200 6129 6141 "copy_prop.ml" 210 6359 6380
+)
+"copy_prop.ml" 200 6129 6141 "copy_prop.ml" 200 6129 6142
+type(
+  Ast.exp
+)
+ident(
+  def e "copy_prop.ml" 201 6145 6149 "copy_prop.ml" 210 6359 6380
+)
+"copy_prop.ml" 201 6145 6153 "copy_prop.ml" 201 6145 6156
+type(
+  Ast_visitor.nop
+)
+"copy_prop.ml" 201 6145 6165 "copy_prop.ml" 201 6145 6171
+type(
+  Ast_visitor.nop
+)
+"copy_prop.ml" 203 6202 6225 "copy_prop.ml" 203 6202 6226
+type(
+  Ast.exp
+)
+ident(
+  def e "copy_prop.ml" 204 6229 6237 "copy_prop.ml" 206 6268 6291
+)
+"copy_prop.ml" 204 6229 6240 "copy_prop.ml" 204 6229 6241
+type(
+  Ast.exp -> bool
+)
+ident(
+  int_ref f "copy_prop.ml" 200 6129 6139 "copy_prop.ml" 200 6129 6140
+)
+"copy_prop.ml" 204 6229 6242 "copy_prop.ml" 204 6229 6243
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 203 6202 6225 "copy_prop.ml" 203 6202 6226
+)
+"copy_prop.ml" 204 6229 6240 "copy_prop.ml" 204 6229 6243
+call(
+  stack
+)
+type(
+  bool
+)
+"copy_prop.ml" 205 6244 6257 "copy_prop.ml" 205 6244 6262
+type(
+  exn -> Ast.exp Type.visit_action
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"copy_prop.ml" 205 6244 6263 "copy_prop.ml" 205 6244 6267
+type(
+  exn
+)
+"copy_prop.ml" 205 6244 6257 "copy_prop.ml" 205 6244 6267
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 206 6268 6281 "copy_prop.ml" 206 6268 6291
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 204 6229 6237 "copy_prop.ml" 206 6268 6291
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 201 6145 6159 "copy_prop.ml" 207 6292 6299
+type(
+  Ast_visitor.nop
+)
+"copy_prop.ml" 209 6307 6315 "copy_prop.ml" 209 6307 6321
+type(
+  Ast.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"copy_prop.ml" 209 6307 6322 "copy_prop.ml" 209 6307 6344
+type(
+  Ast_visitor.t -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"copy_prop.ml" 209 6307 6345 "copy_prop.ml" 209 6307 6348
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref vis "copy_prop.ml" 201 6145 6153 "copy_prop.ml" 201 6145 6156
+)
+"copy_prop.ml" 209 6307 6349 "copy_prop.ml" 209 6307 6350
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 200 6129 6141 "copy_prop.ml" 200 6129 6142
+)
+"copy_prop.ml" 209 6307 6321 "copy_prop.ml" 209 6307 6351
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"copy_prop.ml" 209 6307 6315 "copy_prop.ml" 209 6307 6351
+type(
+  unit
+)
+"copy_prop.ml" 209 6307 6353 "copy_prop.ml" 209 6307 6358
+type(
+  bool
+)
+"copy_prop.ml" 209 6307 6315 "copy_prop.ml" 209 6307 6358
+type(
+  bool
+)
+"copy_prop.ml" 210 6359 6368 "copy_prop.ml" 210 6359 6372
+type(
+  exn
+)
+"copy_prop.ml" 210 6359 6376 "copy_prop.ml" 210 6359 6380
+type(
+  bool
+)
+"copy_prop.ml" 209 6307 6311 "copy_prop.ml" 210 6359 6380
+type(
+  bool
+)
+"copy_prop.ml" 201 6145 6149 "copy_prop.ml" 210 6359 6380
+type(
+  bool
+)
+"copy_prop.ml" 212 6386 6396 "copy_prop.ml" 212 6386 6405
+type(
+  (Depgraphs.UseDef_AST.location -> CPSpecAST.L.t) ->
+  Depgraphs.UseDef_AST.location ->
+  LS.t -> Depgraphs.UseDef_AST.location -> Ast.exp -> Ast.exp
+)
+ident(
+  def propagate "copy_prop.ml" 212 6386 6388 "copy_prop.ml" 267 8613 8616
+)
+"copy_prop.ml" 212 6386 6406 "copy_prop.ml" 212 6386 6410
+type(
+  Depgraphs.UseDef_AST.location -> CPSpecAST.L.t
+)
+ident(
+  def dfin "copy_prop.ml" 212 6386 6411 "copy_prop.ml" 246 7939 7971
+)
+"copy_prop.ml" 212 6386 6411 "copy_prop.ml" 212 6386 6418
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  def origloc "copy_prop.ml" 212 6386 6419 "copy_prop.ml" 246 7939 7971
+)
+"copy_prop.ml" 212 6386 6419 "copy_prop.ml" 212 6386 6430
+type(
+  LS.t
+)
+ident(
+  def visitedlocs "copy_prop.ml" 212 6386 6431 "copy_prop.ml" 246 7939 7971
+)
+"copy_prop.ml" 212 6386 6431 "copy_prop.ml" 212 6386 6434
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  def loc "copy_prop.ml" 212 6386 6435 "copy_prop.ml" 246 7939 7971
+)
+"copy_prop.ml" 212 6386 6435 "copy_prop.ml" 212 6386 6436
+type(
+  Ast.exp
+)
+ident(
+  def e "copy_prop.ml" 213 6439 6443 "copy_prop.ml" 246 7939 7971
+)
+"copy_prop.ml" 213 6439 6447 "copy_prop.ml" 213 6439 6448
+type(
+  CPSpecAST.L.et VM.t
+)
+"copy_prop.ml" 213 6439 6451 "copy_prop.ml" 213 6439 6458
+type(
+  CPSpecAST.L.t -> CPSpecAST.L.et VM.t
+)
+ident(
+  int_ref get_map "copy_prop.ml" 182 5638 5644 "copy_prop.ml" 182 5638 5651
+)
+"copy_prop.ml" 213 6439 6460 "copy_prop.ml" 213 6439 6464
+type(
+  Depgraphs.UseDef_AST.location -> CPSpecAST.L.t
+)
+ident(
+  int_ref dfin "copy_prop.ml" 212 6386 6406 "copy_prop.ml" 212 6386 6410
+)
+"copy_prop.ml" 213 6439 6465 "copy_prop.ml" 213 6439 6468
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref loc "copy_prop.ml" 212 6386 6431 "copy_prop.ml" 212 6386 6434
+)
+"copy_prop.ml" 213 6439 6459 "copy_prop.ml" 213 6439 6469
+call(
+  stack
+)
+type(
+  CPSpecAST.L.t
+)
+"copy_prop.ml" 213 6439 6451 "copy_prop.ml" 213 6439 6469
+call(
+  stack
+)
+type(
+  CPSpecAST.L.et VM.t
+)
+"copy_prop.ml" 214 6473 6481 "copy_prop.ml" 214 6473 6484
+type(
+  Ast_visitor.nop
+)
+"copy_prop.ml" 214 6473 6493 "copy_prop.ml" 214 6473 6499
+type(
+  Ast_visitor.nop
+)
+"copy_prop.ml" 218 6595 6613 "copy_prop.ml" 218 6595 6614
+type(
+  Ast.var
+)
+ident(
+  def v "copy_prop.ml" 219 6618 6628 "copy_prop.ml" 243 7859 7901
+)
+"copy_prop.ml" 218 6595 6605 "copy_prop.ml" 218 6595 6614
+type(
+  Ast.exp
+)
+"copy_prop.ml" 220 6633 6652 "copy_prop.ml" 220 6633 6659
+type(
+  VM.key -> CPSpecAST.L.et VM.t -> CPSpecAST.L.et
+)
+ident(
+  ext_ref VM.find
+)
+"copy_prop.ml" 220 6633 6660 "copy_prop.ml" 220 6633 6661
+type(
+  Ast.var
+)
+ident(
+  int_ref v "copy_prop.ml" 218 6595 6613 "copy_prop.ml" 218 6595 6614
+)
+"copy_prop.ml" 220 6633 6662 "copy_prop.ml" 220 6633 6663
+type(
+  CPSpecAST.L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 213 6439 6447 "copy_prop.ml" 213 6439 6448
+)
+"copy_prop.ml" 220 6633 6652 "copy_prop.ml" 220 6633 6663
+call(
+  stack
+)
+type(
+  CPSpecAST.L.et
+)
+"copy_prop.ml" 221 6669 6704 "copy_prop.ml" 221 6669 6710
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  def newloc "copy_prop.ml" 228 7086 7101 "copy_prop.ml" 241 7791 7825
+)
+"copy_prop.ml" 221 6669 6712 "copy_prop.ml" 221 6669 6713
+type(
+  Ast.exp
+)
+ident(
+  def e "copy_prop.ml" 228 7086 7101 "copy_prop.ml" 241 7791 7825
+)
+"copy_prop.ml" 221 6669 6684 "copy_prop.ml" 221 6669 6714
+type(
+  CPSpecAST.L.et
+)
+"copy_prop.ml" 228 7086 7105 "copy_prop.ml" 228 7086 7113
+type(
+  bool
+)
+"copy_prop.ml" 228 7086 7116 "copy_prop.ml" 228 7086 7126
+type(
+  (VS.elt -> bool) -> VS.t -> bool
+)
+ident(
+  ext_ref VS.for_all
+)
+"copy_prop.ml" 229 7127 7149 "copy_prop.ml" 229 7127 7152
+type(
+  VS.elt
+)
+ident(
+  def use "copy_prop.ml" 230 7156 7175 "copy_prop.ml" 235 7430 7492
+)
+"copy_prop.ml" 230 7156 7179 "copy_prop.ml" 230 7156 7184
+type(
+  Depgraphs.UseDef_AST.LS.t
+)
+"copy_prop.ml" 230 7156 7187 "copy_prop.ml" 230 7156 7191
+type(
+  Depgraphs.UseDef_AST.location -> VS.elt -> Depgraphs.UseDef_AST.LS.t
+)
+ident(
+  int_ref defs "copy_prop.ml" 186 5772 5781 "copy_prop.ml" 186 5772 5785
+)
+"copy_prop.ml" 230 7156 7192 "copy_prop.ml" 230 7156 7199
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref origloc "copy_prop.ml" 212 6386 6411 "copy_prop.ml" 212 6386 6418
+)
+"copy_prop.ml" 230 7156 7200 "copy_prop.ml" 230 7156 7203
+type(
+  VS.elt
+)
+ident(
+  int_ref use "copy_prop.ml" 229 7127 7149 "copy_prop.ml" 229 7127 7152
+)
+"copy_prop.ml" 230 7156 7187 "copy_prop.ml" 230 7156 7203
+call(
+  stack
+)
+type(
+  Depgraphs.UseDef_AST.LS.t
+)
+"copy_prop.ml" 231 7207 7230 "copy_prop.ml" 231 7207 7236
+type(
+  Depgraphs.UseDef_AST.LS.t
+)
+"copy_prop.ml" 231 7207 7239 "copy_prop.ml" 231 7207 7243
+type(
+  Depgraphs.UseDef_AST.location -> VS.elt -> Depgraphs.UseDef_AST.LS.t
+)
+ident(
+  int_ref defs "copy_prop.ml" 186 5772 5781 "copy_prop.ml" 186 5772 5785
+)
+"copy_prop.ml" 231 7207 7244 "copy_prop.ml" 231 7207 7250
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref newloc "copy_prop.ml" 221 6669 6704 "copy_prop.ml" 221 6669 6710
+)
+"copy_prop.ml" 231 7207 7251 "copy_prop.ml" 231 7207 7254
+type(
+  VS.elt
+)
+ident(
+  int_ref use "copy_prop.ml" 229 7127 7149 "copy_prop.ml" 229 7127 7152
+)
+"copy_prop.ml" 231 7207 7239 "copy_prop.ml" 231 7207 7254
+call(
+  stack
+)
+type(
+  Depgraphs.UseDef_AST.LS.t
+)
+"copy_prop.ml" 233 7300 7319 "copy_prop.ml" 233 7300 7324
+type(
+  Depgraphs.UseDef_AST.LS.t
+)
+ident(
+  int_ref vdefs "copy_prop.ml" 230 7156 7179 "copy_prop.ml" 230 7156 7184
+)
+"copy_prop.ml" 233 7300 7325 "copy_prop.ml" 233 7300 7326
+type(
+  Depgraphs.UseDef_AST.LS.t -> Depgraphs.UseDef_AST.LS.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"copy_prop.ml" 233 7300 7327 "copy_prop.ml" 233 7300 7333
+type(
+  Depgraphs.UseDef_AST.LS.t
+)
+ident(
+  int_ref vdefs' "copy_prop.ml" 231 7207 7230 "copy_prop.ml" 231 7207 7236
+)
+"copy_prop.ml" 233 7300 7319 "copy_prop.ml" 233 7300 7333
+type(
+  bool
+)
+"copy_prop.ml" 235 7430 7449 "copy_prop.ml" 235 7430 7451
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"copy_prop.ml" 235 7430 7452 "copy_prop.ml" 235 7430 7463
+type(
+  LS.t -> bool
+)
+ident(
+  ext_ref LS.is_empty
+)
+"copy_prop.ml" 235 7430 7465 "copy_prop.ml" 235 7430 7473
+type(
+  LS.t -> LS.t -> LS.t
+)
+ident(
+  ext_ref LS.inter
+)
+"copy_prop.ml" 235 7430 7474 "copy_prop.ml" 235 7430 7479
+type(
+  LS.t
+)
+ident(
+  int_ref vdefs "copy_prop.ml" 230 7156 7179 "copy_prop.ml" 230 7156 7184
+)
+"copy_prop.ml" 235 7430 7480 "copy_prop.ml" 235 7430 7491
+type(
+  LS.t
+)
+ident(
+  int_ref visitedlocs "copy_prop.ml" 212 6386 6419 "copy_prop.ml" 212 6386 6430
+)
+"copy_prop.ml" 235 7430 7464 "copy_prop.ml" 235 7430 7492
+call(
+  stack
+)
+type(
+  LS.t
+)
+"copy_prop.ml" 235 7430 7452 "copy_prop.ml" 235 7430 7492
+call(
+  tail
+)
+type(
+  bool
+)
+"copy_prop.ml" 233 7300 7319 "copy_prop.ml" 235 7430 7492
+type(
+  bool
+)
+"copy_prop.ml" 231 7207 7226 "copy_prop.ml" 235 7430 7492
+type(
+  bool
+)
+"copy_prop.ml" 230 7156 7175 "copy_prop.ml" 235 7430 7492
+type(
+  bool
+)
+"copy_prop.ml" 229 7127 7144 "copy_prop.ml" 236 7493 7512
+type(
+  VS.elt -> bool
+)
+"copy_prop.ml" 236 7493 7514 "copy_prop.ml" 236 7493 7521
+type(
+  Ast.exp -> VS.t
+)
+ident(
+  int_ref vars_in "copy_prop.ml" 187 5821 5827 "copy_prop.ml" 187 5821 5834
+)
+"copy_prop.ml" 236 7493 7522 "copy_prop.ml" 236 7493 7523
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 221 6669 6712 "copy_prop.ml" 221 6669 6713
+)
+"copy_prop.ml" 236 7493 7513 "copy_prop.ml" 236 7493 7524
+call(
+  stack
+)
+type(
+  VS.t
+)
+"copy_prop.ml" 228 7086 7116 "copy_prop.ml" 236 7493 7524
+call(
+  stack
+)
+type(
+  bool
+)
+"copy_prop.ml" 237 7528 7546 "copy_prop.ml" 237 7528 7554
+type(
+  bool
+)
+ident(
+  int_ref can_copy "copy_prop.ml" 228 7086 7105 "copy_prop.ml" 228 7086 7113
+)
+"copy_prop.ml" 238 7562 7582 "copy_prop.ml" 238 7562 7585
+type(
+  (Ast.exp -> bool) -> Ast.exp -> bool
+)
+ident(
+  int_ref has "copy_prop.ml" 200 6129 6135 "copy_prop.ml" 200 6129 6138
+)
+"copy_prop.ml" 238 7562 7586 "copy_prop.ml" 238 7562 7597
+type(
+  Ast.exp -> bool
+)
+ident(
+  int_ref stop_before "copy_prop.ml" 180 5505 5524 "copy_prop.ml" 180 5505 5535
+)
+"copy_prop.ml" 238 7562 7598 "copy_prop.ml" 238 7562 7599
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 221 6669 6712 "copy_prop.ml" 221 6669 6713
+)
+"copy_prop.ml" 238 7562 7582 "copy_prop.ml" 238 7562 7599
+call(
+  stack
+)
+type(
+  bool
+)
+"copy_prop.ml" 238 7562 7605 "copy_prop.ml" 238 7562 7617
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 239 7618 7643 "copy_prop.ml" 239 7618 7646
+type(
+  (Ast.exp -> bool) -> Ast.exp -> bool
+)
+ident(
+  int_ref has "copy_prop.ml" 200 6129 6135 "copy_prop.ml" 200 6129 6138
+)
+"copy_prop.ml" 239 7618 7647 "copy_prop.ml" 239 7618 7657
+type(
+  Ast.exp -> bool
+)
+ident(
+  int_ref stop_after "copy_prop.ml" 180 5505 5556 "copy_prop.ml" 180 5505 5566
+)
+"copy_prop.ml" 239 7618 7658 "copy_prop.ml" 239 7618 7659
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 221 6669 6712 "copy_prop.ml" 221 6669 6713
+)
+"copy_prop.ml" 239 7618 7643 "copy_prop.ml" 239 7618 7659
+call(
+  stack
+)
+type(
+  bool
+)
+"copy_prop.ml" 239 7618 7674 "copy_prop.ml" 239 7618 7675
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 221 6669 6712 "copy_prop.ml" 221 6669 6713
+)
+"copy_prop.ml" 239 7618 7665 "copy_prop.ml" 239 7618 7675
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 240 7676 7708 "copy_prop.ml" 240 7676 7717
+type(
+  (Depgraphs.UseDef_AST.location -> CPSpecAST.L.t) ->
+  Depgraphs.UseDef_AST.location ->
+  LS.t -> Depgraphs.UseDef_AST.location -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref propagate "copy_prop.ml" 212 6386 6396 "copy_prop.ml" 212 6386 6405
+)
+"copy_prop.ml" 240 7676 7718 "copy_prop.ml" 240 7676 7722
+type(
+  Depgraphs.UseDef_AST.location -> CPSpecAST.L.t
+)
+ident(
+  int_ref dfin "copy_prop.ml" 212 6386 6406 "copy_prop.ml" 212 6386 6410
+)
+"copy_prop.ml" 240 7676 7723 "copy_prop.ml" 240 7676 7730
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref origloc "copy_prop.ml" 212 6386 6411 "copy_prop.ml" 212 6386 6418
+)
+"copy_prop.ml" 240 7676 7732 "copy_prop.ml" 240 7676 7738
+type(
+  LS.elt -> LS.t -> LS.t
+)
+ident(
+  ext_ref LS.add
+)
+"copy_prop.ml" 240 7676 7760 "copy_prop.ml" 240 7676 7766
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref newloc "copy_prop.ml" 221 6669 6704 "copy_prop.ml" 221 6669 6710
+)
+"copy_prop.ml" 240 7676 7739 "copy_prop.ml" 240 7676 7767
+type(
+  UD.LocationType.t
+)
+"copy_prop.ml" 240 7676 7768 "copy_prop.ml" 240 7676 7779
+type(
+  LS.t
+)
+ident(
+  int_ref visitedlocs "copy_prop.ml" 212 6386 6419 "copy_prop.ml" 212 6386 6430
+)
+"copy_prop.ml" 240 7676 7731 "copy_prop.ml" 240 7676 7780
+call(
+  stack
+)
+type(
+  LS.t
+)
+"copy_prop.ml" 240 7676 7781 "copy_prop.ml" 240 7676 7787
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref newloc "copy_prop.ml" 221 6669 6704 "copy_prop.ml" 221 6669 6710
+)
+"copy_prop.ml" 240 7676 7788 "copy_prop.ml" 240 7676 7789
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 221 6669 6712 "copy_prop.ml" 221 6669 6713
+)
+"copy_prop.ml" 240 7676 7707 "copy_prop.ml" 240 7676 7790
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"copy_prop.ml" 240 7676 7698 "copy_prop.ml" 240 7676 7790
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 239 7618 7640 "copy_prop.ml" 240 7676 7790
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 237 7528 7560 "copy_prop.ml" 241 7791 7807
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 241 7791 7813 "copy_prop.ml" 241 7791 7825
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 237 7528 7543 "copy_prop.ml" 241 7791 7825
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 228 7086 7101 "copy_prop.ml" 241 7791 7825
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 242 7826 7841 "copy_prop.ml" 242 7826 7842
+type(
+  CPSpecAST.L.et
+)
+"copy_prop.ml" 242 7826 7846 "copy_prop.ml" 242 7826 7858
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 220 6633 6646 "copy_prop.ml" 242 7826 7858
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 243 7859 7875 "copy_prop.ml" 243 7859 7884
+type(
+  exn
+)
+"copy_prop.ml" 243 7859 7888 "copy_prop.ml" 243 7859 7900
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 219 6618 6628 "copy_prop.ml" 243 7859 7901
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 244 7902 7912 "copy_prop.ml" 244 7902 7913
+type(
+  Ast.exp
+)
+"copy_prop.ml" 244 7902 7917 "copy_prop.ml" 244 7902 7927
+type(
+  Ast.exp Type.visit_action
+)
+"copy_prop.ml" 216 6530 6555 "copy_prop.ml" 244 7902 7927
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+type(
+  Ast.exp -> Ast.exp Type.visit_action
+)
+"copy_prop.ml" 214 6473 6487 "copy_prop.ml" 245 7928 7935
+type(
+  Ast_visitor.nop
+)
+"copy_prop.ml" 246 7939 7943 "copy_prop.ml" 246 7939 7965
+type(
+  Ast_visitor.t -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Ast_visitor.exp_accept
+)
+"copy_prop.ml" 246 7939 7966 "copy_prop.ml" 246 7939 7969
+type(
+  Ast_visitor.t
+)
+ident(
+  int_ref vis "copy_prop.ml" 214 6473 6481 "copy_prop.ml" 214 6473 6484
+)
+"copy_prop.ml" 246 7939 7970 "copy_prop.ml" 246 7939 7971
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 212 6386 6435 "copy_prop.ml" 212 6386 6436
+)
+"copy_prop.ml" 246 7939 7943 "copy_prop.ml" 246 7939 7971
+call(
+  tail
+)
+type(
+  Ast.exp
+)
+"copy_prop.ml" 214 6473 6477 "copy_prop.ml" 246 7939 7971
+type(
+  Ast.exp
+)
+"copy_prop.ml" 213 6439 6443 "copy_prop.ml" 246 7939 7971
+type(
+  Ast.exp
+)
+"copy_prop.ml" 249 7978 7985 "copy_prop.ml" 249 7978 7988
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  def loc "copy_prop.ml" 250 7992 7996 "copy_prop.ml" 266 8545 8612
+)
+"copy_prop.ml" 250 7992 8000 "copy_prop.ml" 250 7992 8001
+type(
+  CPSpecAST.L.et VM.t
+)
+"copy_prop.ml" 250 7992 8004 "copy_prop.ml" 250 7992 8011
+type(
+  CPSpecAST.L.t -> CPSpecAST.L.et VM.t
+)
+ident(
+  int_ref get_map "copy_prop.ml" 182 5638 5644 "copy_prop.ml" 182 5638 5651
+)
+"copy_prop.ml" 250 7992 8013 "copy_prop.ml" 250 7992 8017
+type(
+  Depgraphs.UseDef_AST.location -> CPSpecAST.L.t
+)
+ident(
+  int_ref dfin "copy_prop.ml" 181 5589 5595 "copy_prop.ml" 181 5589 5599
+)
+"copy_prop.ml" 250 7992 8018 "copy_prop.ml" 250 7992 8021
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref loc "copy_prop.ml" 249 7978 7985 "copy_prop.ml" 249 7978 7988
+)
+"copy_prop.ml" 250 7992 8012 "copy_prop.ml" 250 7992 8022
+call(
+  stack
+)
+type(
+  CPSpecAST.L.t
+)
+"copy_prop.ml" 250 7992 8004 "copy_prop.ml" 250 7992 8022
+call(
+  stack
+)
+type(
+  CPSpecAST.L.et VM.t
+)
+"copy_prop.ml" 251 8026 8030 "copy_prop.ml" 251 8026 8037
+type(
+  (VM.key -> CPSpecAST.L.et -> Ast.exp VM.t -> Ast.exp VM.t) ->
+  CPSpecAST.L.et VM.t -> Ast.exp VM.t -> Ast.exp VM.t
+)
+ident(
+  ext_ref VM.fold
+)
+"copy_prop.ml" 251 8026 8043 "copy_prop.ml" 251 8026 8044
+type(
+  VM.key
+)
+ident(
+  def k "copy_prop.ml" 251 8026 8045 "copy_prop.ml" 258 8334 8349
+)
+"copy_prop.ml" 251 8026 8045 "copy_prop.ml" 251 8026 8046
+type(
+  CPSpecAST.L.et
+)
+ident(
+  def v "copy_prop.ml" 251 8026 8047 "copy_prop.ml" 258 8334 8349
+)
+"copy_prop.ml" 251 8026 8047 "copy_prop.ml" 251 8026 8053
+type(
+  Ast.exp VM.t
+)
+ident(
+  def newmap "copy_prop.ml" 252 8057 8063 "copy_prop.ml" 258 8334 8349
+)
+"copy_prop.ml" 252 8057 8070 "copy_prop.ml" 252 8057 8071
+type(
+  CPSpecAST.L.et
+)
+ident(
+  int_ref v "copy_prop.ml" 251 8026 8045 "copy_prop.ml" 251 8026 8046
+)
+"copy_prop.ml" 253 8077 8105 "copy_prop.ml" 253 8077 8108
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  def loc "copy_prop.ml" 254 8116 8124 "copy_prop.ml" 256 8292 8320
+)
+"copy_prop.ml" 253 8077 8110 "copy_prop.ml" 253 8077 8111
+type(
+  Ast.exp
+)
+ident(
+  def x "copy_prop.ml" 254 8116 8124 "copy_prop.ml" 256 8292 8320
+)
+"copy_prop.ml" 253 8077 8085 "copy_prop.ml" 253 8077 8112
+type(
+  CPSpecAST.L.et
+)
+"copy_prop.ml" 254 8116 8128 "copy_prop.ml" 254 8116 8132
+type(
+  Ast.exp
+)
+"copy_prop.ml" 254 8116 8135 "copy_prop.ml" 254 8116 8144
+type(
+  (Depgraphs.UseDef_AST.location -> CPSpecAST.L.t) ->
+  Depgraphs.UseDef_AST.location ->
+  LS.t -> Depgraphs.UseDef_AST.location -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref propagate "copy_prop.ml" 212 6386 6396 "copy_prop.ml" 212 6386 6405
+)
+"copy_prop.ml" 254 8116 8145 "copy_prop.ml" 254 8116 8149
+type(
+  Depgraphs.UseDef_AST.location -> CPSpecAST.L.t
+)
+ident(
+  int_ref dfin "copy_prop.ml" 181 5589 5595 "copy_prop.ml" 181 5589 5599
+)
+"copy_prop.ml" 254 8116 8150 "copy_prop.ml" 254 8116 8153
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref loc "copy_prop.ml" 253 8077 8105 "copy_prop.ml" 253 8077 8108
+)
+"copy_prop.ml" 254 8116 8155 "copy_prop.ml" 254 8116 8167
+type(
+  LS.elt -> LS.t
+)
+ident(
+  ext_ref LS.singleton
+)
+"copy_prop.ml" 254 8116 8189 "copy_prop.ml" 254 8116 8192
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref loc "copy_prop.ml" 253 8077 8105 "copy_prop.ml" 253 8077 8108
+)
+"copy_prop.ml" 254 8116 8168 "copy_prop.ml" 254 8116 8193
+type(
+  UD.LocationType.t
+)
+"copy_prop.ml" 254 8116 8154 "copy_prop.ml" 254 8116 8194
+call(
+  stack
+)
+type(
+  LS.t
+)
+"copy_prop.ml" 254 8116 8195 "copy_prop.ml" 254 8116 8198
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref loc "copy_prop.ml" 253 8077 8105 "copy_prop.ml" 253 8077 8108
+)
+"copy_prop.ml" 254 8116 8199 "copy_prop.ml" 254 8116 8200
+type(
+  Ast.exp
+)
+ident(
+  int_ref x "copy_prop.ml" 253 8077 8110 "copy_prop.ml" 253 8077 8111
+)
+"copy_prop.ml" 254 8116 8135 "copy_prop.ml" 254 8116 8200
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"copy_prop.ml" 256 8292 8300 "copy_prop.ml" 256 8292 8306
+type(
+  VM.key -> Ast.exp -> Ast.exp VM.t -> Ast.exp VM.t
+)
+ident(
+  ext_ref VM.add
+)
+"copy_prop.ml" 256 8292 8307 "copy_prop.ml" 256 8292 8308
+type(
+  VM.key
+)
+ident(
+  int_ref k "copy_prop.ml" 251 8026 8043 "copy_prop.ml" 251 8026 8044
+)
+"copy_prop.ml" 256 8292 8309 "copy_prop.ml" 256 8292 8313
+type(
+  Ast.exp
+)
+ident(
+  int_ref aste "copy_prop.ml" 254 8116 8128 "copy_prop.ml" 254 8116 8132
+)
+"copy_prop.ml" 256 8292 8314 "copy_prop.ml" 256 8292 8320
+type(
+  Ast.exp VM.t
+)
+ident(
+  int_ref newmap "copy_prop.ml" 251 8026 8047 "copy_prop.ml" 251 8026 8053
+)
+"copy_prop.ml" 256 8292 8300 "copy_prop.ml" 256 8292 8320
+call(
+  tail
+)
+type(
+  Ast.exp VM.t
+)
+"copy_prop.ml" 254 8116 8124 "copy_prop.ml" 256 8292 8320
+type(
+  Ast.exp VM.t
+)
+"copy_prop.ml" 257 8321 8329 "copy_prop.ml" 257 8321 8330
+type(
+  CPSpecAST.L.et
+)
+"copy_prop.ml" 258 8334 8342 "copy_prop.ml" 258 8334 8348
+type(
+  Ast.exp VM.t
+)
+ident(
+  int_ref newmap "copy_prop.ml" 251 8026 8047 "copy_prop.ml" 251 8026 8053
+)
+"copy_prop.ml" 252 8057 8063 "copy_prop.ml" 258 8334 8349
+type(
+  Ast.exp VM.t
+)
+"copy_prop.ml" 251 8026 8038 "copy_prop.ml" 259 8350 8355
+type(
+  VM.key -> CPSpecAST.L.et -> Ast.exp VM.t -> Ast.exp VM.t
+)
+"copy_prop.ml" 259 8350 8356 "copy_prop.ml" 259 8350 8357
+type(
+  CPSpecAST.L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 250 7992 8000 "copy_prop.ml" 250 7992 8001
+)
+"copy_prop.ml" 259 8350 8358 "copy_prop.ml" 259 8350 8366
+type(
+  Ast.exp VM.t
+)
+ident(
+  ext_ref VM.empty
+)
+"copy_prop.ml" 251 8026 8030 "copy_prop.ml" 259 8350 8366
+call(
+  stack
+)
+type(
+  Ast.exp VM.t
+)
+"copy_prop.ml" 262 8410 8414 "copy_prop.ml" 262 8410 8427
+type(
+  (VM.key -> CPSpecAST.L.et -> ((Cfg.AST.G.V.t * int) * Ast.exp) option) ->
+  CPSpecAST.L.et VM.t -> ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t
+)
+ident(
+  ext_ref VM.filter_map
+)
+"copy_prop.ml" 262 8410 8433 "copy_prop.ml" 262 8410 8434
+type(
+  VM.key
+)
+"copy_prop.ml" 262 8410 8435 "copy_prop.ml" 262 8410 8436
+type(
+  CPSpecAST.L.et
+)
+ident(
+  def v "copy_prop.ml" 262 8410 8440 "copy_prop.ml" 264 8505 8539
+)
+"copy_prop.ml" 262 8410 8446 "copy_prop.ml" 262 8410 8447
+type(
+  CPSpecAST.L.et
+)
+ident(
+  int_ref v "copy_prop.ml" 262 8410 8435 "copy_prop.ml" 262 8410 8436
+)
+"copy_prop.ml" 263 8453 8481 "copy_prop.ml" 263 8453 8484
+type(
+  Cfg.AST.G.V.t * int
+)
+ident(
+  def loc "copy_prop.ml" 263 8453 8492 "copy_prop.ml" 263 8453 8504
+)
+"copy_prop.ml" 263 8453 8486 "copy_prop.ml" 263 8453 8487
+type(
+  Ast.exp
+)
+ident(
+  def e "copy_prop.ml" 263 8453 8492 "copy_prop.ml" 263 8453 8504
+)
+"copy_prop.ml" 263 8453 8461 "copy_prop.ml" 263 8453 8488
+type(
+  CPSpecAST.L.et
+)
+"copy_prop.ml" 263 8453 8497 "copy_prop.ml" 263 8453 8500
+type(
+  Cfg.AST.G.V.t * int
+)
+ident(
+  int_ref loc "copy_prop.ml" 263 8453 8481 "copy_prop.ml" 263 8453 8484
+)
+"copy_prop.ml" 263 8453 8502 "copy_prop.ml" 263 8453 8503
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 263 8453 8486 "copy_prop.ml" 263 8453 8487
+)
+"copy_prop.ml" 263 8453 8496 "copy_prop.ml" 263 8453 8504
+type(
+  (Cfg.AST.G.V.t * int) * Ast.exp
+)
+"copy_prop.ml" 263 8453 8492 "copy_prop.ml" 263 8453 8504
+type(
+  ((Cfg.AST.G.V.t * int) * Ast.exp) option
+)
+"copy_prop.ml" 264 8505 8513 "copy_prop.ml" 264 8505 8531
+type(
+  CPSpecAST.L.et
+)
+"copy_prop.ml" 264 8505 8535 "copy_prop.ml" 264 8505 8539
+type(
+  ((Cfg.AST.G.V.t * int) * Ast.exp) option
+)
+"copy_prop.ml" 262 8410 8440 "copy_prop.ml" 264 8505 8539
+type(
+  ((Cfg.AST.G.V.t * int) * Ast.exp) option
+)
+"copy_prop.ml" 262 8410 8428 "copy_prop.ml" 264 8505 8540
+type(
+  VM.key -> CPSpecAST.L.et -> ((Cfg.AST.G.V.t * int) * Ast.exp) option
+)
+"copy_prop.ml" 264 8505 8541 "copy_prop.ml" 264 8505 8542
+type(
+  CPSpecAST.L.et VM.t
+)
+ident(
+  int_ref l "copy_prop.ml" 250 7992 8000 "copy_prop.ml" 250 7992 8001
+)
+"copy_prop.ml" 262 8410 8414 "copy_prop.ml" 264 8505 8542
+call(
+  stack
+)
+type(
+  ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t
+)
+"copy_prop.ml" 266 8545 8549 "copy_prop.ml" 266 8545 8558
+type(
+  (Depgraphs.UseDef_AST.location -> CPSpecAST.L.t) ->
+  Depgraphs.UseDef_AST.location ->
+  LS.t -> Depgraphs.UseDef_AST.location -> Ast.exp -> Ast.exp
+)
+ident(
+  int_ref propagate "copy_prop.ml" 212 6386 6396 "copy_prop.ml" 212 6386 6405
+)
+"copy_prop.ml" 266 8545 8559 "copy_prop.ml" 266 8545 8563
+type(
+  Depgraphs.UseDef_AST.location -> CPSpecAST.L.t
+)
+ident(
+  int_ref dfin "copy_prop.ml" 181 5589 5595 "copy_prop.ml" 181 5589 5599
+)
+"copy_prop.ml" 266 8545 8564 "copy_prop.ml" 266 8545 8567
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref loc "copy_prop.ml" 249 7978 7985 "copy_prop.ml" 249 7978 7988
+)
+"copy_prop.ml" 266 8545 8569 "copy_prop.ml" 266 8545 8581
+type(
+  LS.elt -> LS.t
+)
+ident(
+  ext_ref LS.singleton
+)
+"copy_prop.ml" 266 8545 8603 "copy_prop.ml" 266 8545 8606
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref loc "copy_prop.ml" 249 7978 7985 "copy_prop.ml" 249 7978 7988
+)
+"copy_prop.ml" 266 8545 8582 "copy_prop.ml" 266 8545 8607
+type(
+  UD.LocationType.t
+)
+"copy_prop.ml" 266 8545 8568 "copy_prop.ml" 266 8545 8608
+call(
+  stack
+)
+type(
+  LS.t
+)
+"copy_prop.ml" 266 8545 8609 "copy_prop.ml" 266 8545 8612
+type(
+  Depgraphs.UseDef_AST.location
+)
+ident(
+  int_ref loc "copy_prop.ml" 249 7978 7985 "copy_prop.ml" 249 7978 7988
+)
+"copy_prop.ml" 266 8545 8549 "copy_prop.ml" 266 8545 8612
+call(
+  stack
+)
+type(
+  Ast.exp -> Ast.exp
+)
+"copy_prop.ml" 251 8026 8030 "copy_prop.ml" 266 8545 8612
+type(
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 250 7992 7996 "copy_prop.ml" 266 8545 8612
+type(
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 249 7978 7980 "copy_prop.ml" 267 8613 8616
+type(
+  Depgraphs.UseDef_AST.location ->
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 212 6386 6388 "copy_prop.ml" 267 8613 8616
+type(
+  Depgraphs.UseDef_AST.location ->
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 200 6129 6131 "copy_prop.ml" 267 8613 8616
+type(
+  Depgraphs.UseDef_AST.location ->
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 199 6102 6104 "copy_prop.ml" 267 8613 8616
+type(
+  Depgraphs.UseDef_AST.location ->
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 198 6060 6062 "copy_prop.ml" 267 8613 8616
+type(
+  Depgraphs.UseDef_AST.location ->
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 187 5821 5823 "copy_prop.ml" 267 8613 8616
+type(
+  Depgraphs.UseDef_AST.location ->
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 186 5772 5774 "copy_prop.ml" 267 8613 8616
+type(
+  Depgraphs.UseDef_AST.location ->
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 182 5638 5640 "copy_prop.ml" 267 8613 8616
+type(
+  Depgraphs.UseDef_AST.location ->
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 181 5589 5591 "copy_prop.ml" 267 8613 8616
+type(
+  Depgraphs.UseDef_AST.location ->
+  Ast.exp VM.t * ((Cfg.AST.G.V.t * int) * Ast.exp) VM.t *
+  (Ast.exp -> Ast.exp)
+)
+"copy_prop.ml" 269 8618 8622 "copy_prop.ml" 269 8618 8630
+type(
+  ?stop_before:(Ssa.exp -> bool) ->
+  ?stop_after:(Ssa.exp -> bool) -> CPSpecSSA.CFG.G.t -> Ssa.exp list -> VS.t
+)
+ident(
+  def get_vars "copy_prop.ml" 284 9083 9087 --
+)
+"copy_prop.ml" 269 8618 8632 "copy_prop.ml" 269 8618 8643
+type(
+  (Ssa.exp -> bool) option
+)
+ident(
+  def stop_before "copy_prop.ml" 269 8618 8644 "copy_prop.ml" 284 9083 9087
+)
+"copy_prop.ml" 269 8618 8645 "copy_prop.ml" 269 8618 8655
+type(
+  (Ssa.exp -> bool) option
+)
+ident(
+  def stop_after "copy_prop.ml" 269 8618 8656 "copy_prop.ml" 284 9083 9087
+)
+"copy_prop.ml" 269 8618 8656 "copy_prop.ml" 269 8618 8657
+type(
+  CPSpecSSA.CFG.G.t
+)
+ident(
+  def g "copy_prop.ml" 269 8618 8658 "copy_prop.ml" 284 9083 9087
+)
+"copy_prop.ml" 269 8618 8658 "copy_prop.ml" 269 8618 8660
+type(
+  Ssa.exp list
+)
+ident(
+  def es "copy_prop.ml" 270 8663 8665 "copy_prop.ml" 284 9083 9087
+)
+"copy_prop.ml" 270 8663 8669 "copy_prop.ml" 270 8663 8670
+type(
+  Ssa.exp VM.t lazy_t
+)
+"copy_prop.ml" 270 8663 8672 "copy_prop.ml" 270 8663 8673
+type(
+  Ssa.exp VM.t
+)
+"copy_prop.ml" 270 8663 8675 "copy_prop.ml" 270 8663 8676
+type(
+  Ssa.exp -> Ssa.exp
+)
+"copy_prop.ml" 270 8663 8669 "copy_prop.ml" 270 8663 8676
+type(
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+"copy_prop.ml" 270 8663 8679 "copy_prop.ml" 270 8663 8691
+type(
+  ?stop_before:(Ssa.exp -> bool) ->
+  ?stop_after:(Ssa.exp -> bool) ->
+  CPSpecSSA.CFG.G.t ->
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+ident(
+  int_ref copyprop_ssa "copy_prop.ml" 119 3716 3720 "copy_prop.ml" 119 3716 3732
+)
+"copy_prop.ml" 270 8663 8693 "copy_prop.ml" 270 8663 8704
+type(
+  (Ssa.exp -> bool) option
+)
+ident(
+  int_ref stop_before "copy_prop.ml" 269 8618 8632 "copy_prop.ml" 269 8618 8643
+)
+"copy_prop.ml" 270 8663 8706 "copy_prop.ml" 270 8663 8716
+type(
+  (Ssa.exp -> bool) option
+)
+ident(
+  int_ref stop_after "copy_prop.ml" 269 8618 8645 "copy_prop.ml" 269 8618 8655
+)
+"copy_prop.ml" 270 8663 8717 "copy_prop.ml" 270 8663 8718
+type(
+  CPSpecSSA.CFG.G.t
+)
+ident(
+  int_ref g "copy_prop.ml" 269 8618 8656 "copy_prop.ml" 269 8618 8657
+)
+"copy_prop.ml" 270 8663 8679 "copy_prop.ml" 270 8663 8718
+call(
+  stack
+)
+type(
+  Ssa.exp VM.t lazy_t * Ssa.exp VM.t * (Ssa.exp -> Ssa.exp)
+)
+"copy_prop.ml" 272 8723 8729 "copy_prop.ml" 272 8723 8730
+type(
+  VS.t ref
+)
+"copy_prop.ml" 272 8723 8733 "copy_prop.ml" 272 8723 8736
+type(
+  VS.t -> VS.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"copy_prop.ml" 272 8723 8737 "copy_prop.ml" 272 8723 8745
+type(
+  VS.t
+)
+ident(
+  ext_ref VS.empty
+)
+"copy_prop.ml" 272 8723 8733 "copy_prop.ml" 272 8723 8745
+type(
+  VS.t ref
+)
+"copy_prop.ml" 273 8749 8755 "copy_prop.ml" 273 8749 8758
+type(
+  VS.elt -> unit
+)
+"copy_prop.ml" 273 8749 8759 "copy_prop.ml" 273 8749 8760
+type(
+  VS.elt
+)
+ident(
+  def v "copy_prop.ml" 273 8749 8763 "copy_prop.ml" 273 8749 8779
+)
+"copy_prop.ml" 273 8749 8763 "copy_prop.ml" 273 8749 8764
+type(
+  VS.t ref
+)
+ident(
+  int_ref s "copy_prop.ml" 272 8723 8729 "copy_prop.ml" 272 8723 8730
+)
+"copy_prop.ml" 273 8749 8765 "copy_prop.ml" 273 8749 8767
+type(
+  VS.t ref -> VS.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"copy_prop.ml" 273 8749 8768 "copy_prop.ml" 273 8749 8774
+type(
+  VS.elt -> VS.t -> VS.t
+)
+ident(
+  ext_ref VS.add
+)
+"copy_prop.ml" 273 8749 8775 "copy_prop.ml" 273 8749 8776
+type(
+  VS.elt
+)
+ident(
+  int_ref v "copy_prop.ml" 273 8749 8759 "copy_prop.ml" 273 8749 8760
+)
+"copy_prop.ml" 273 8749 8777 "copy_prop.ml" 273 8749 8778
+type(
+  VS.t ref -> VS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"copy_prop.ml" 273 8749 8778 "copy_prop.ml" 273 8749 8779
+type(
+  VS.t ref
+)
+ident(
+  int_ref s "copy_prop.ml" 272 8723 8729 "copy_prop.ml" 272 8723 8730
+)
+"copy_prop.ml" 273 8749 8777 "copy_prop.ml" 273 8749 8779
+type(
+  VS.t
+)
+"copy_prop.ml" 273 8749 8768 "copy_prop.ml" 273 8749 8779
+call(
+  stack
+)
+type(
+  VS.t
+)
+"copy_prop.ml" 273 8749 8763 "copy_prop.ml" 273 8749 8779
+type(
+  unit
+)
+"copy_prop.ml" 274 8783 8789 "copy_prop.ml" 274 8783 8790
+type(
+  Ssa_visitor.nop
+)
+"copy_prop.ml" 274 8783 8799 "copy_prop.ml" 274 8783 8805
+type(
+  Ssa_visitor.nop
+)
+"copy_prop.ml" 277 8866 8878 "copy_prop.ml" 277 8866 8879
+type(
+  Ssa.var
+)
+ident(
+  def v "copy_prop.ml" 278 8883 8891 "copy_prop.ml" 280 8947 8987
+)
+"copy_prop.ml" 277 8866 8874 "copy_prop.ml" 277 8866 8879
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 278 8883 8891 "copy_prop.ml" 278 8883 8894
+type(
+  VS.elt -> unit
+)
+ident(
+  int_ref add "copy_prop.ml" 273 8749 8755 "copy_prop.ml" 273 8749 8758
+)
+"copy_prop.ml" 278 8883 8895 "copy_prop.ml" 278 8883 8896
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "copy_prop.ml" 277 8866 8878 "copy_prop.ml" 277 8866 8879
+)
+"copy_prop.ml" 278 8883 8891 "copy_prop.ml" 278 8883 8896
+call(
+  stack
+)
+type(
+  unit
+)
+"copy_prop.ml" 279 8898 8934 "copy_prop.ml" 279 8898 8941
+type(
+  VM.key -> Ssa.exp VM.t -> Ssa.exp
+)
+ident(
+  ext_ref VM.find
+)
+"copy_prop.ml" 279 8898 8942 "copy_prop.ml" 279 8898 8943
+type(
+  Ssa.var
+)
+ident(
+  int_ref v "copy_prop.ml" 277 8866 8878 "copy_prop.ml" 277 8866 8879
+)
+"copy_prop.ml" 279 8898 8944 "copy_prop.ml" 279 8898 8945
+type(
+  Ssa.exp VM.t
+)
+ident(
+  int_ref m "copy_prop.ml" 270 8663 8672 "copy_prop.ml" 270 8663 8673
+)
+"copy_prop.ml" 279 8898 8933 "copy_prop.ml" 279 8898 8946
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 279 8898 8911 "copy_prop.ml" 279 8898 8946
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 280 8947 8961 "copy_prop.ml" 280 8947 8970
+type(
+  exn
+)
+"copy_prop.ml" 280 8947 8974 "copy_prop.ml" 280 8947 8986
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 279 8898 8906 "copy_prop.ml" 280 8947 8987
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 278 8883 8891 "copy_prop.ml" 280 8947 8987
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 281 8988 8996 "copy_prop.ml" 281 8988 8997
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 281 8988 9001 "copy_prop.ml" 281 8988 9011
+type(
+  Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 276 8834 8857 "copy_prop.ml" 281 8988 9011
+type(
+  Ssa.exp -> Ssa.exp Type.visit_action
+)
+type(
+  Ssa.exp -> Ssa.exp Type.visit_action
+)
+"copy_prop.ml" 274 8783 8793 "copy_prop.ml" 282 9012 9017
+type(
+  Ssa_visitor.nop
+)
+"copy_prop.ml" 283 9021 9023 "copy_prop.ml" 283 9021 9032
+type(
+  (Ssa.exp -> unit) -> Ssa.exp list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"copy_prop.ml" 283 9021 9038 "copy_prop.ml" 283 9021 9039
+type(
+  Ssa.exp
+)
+ident(
+  def e "copy_prop.ml" 283 9021 9043 "copy_prop.ml" 283 9021 9077
+)
+"copy_prop.ml" 283 9021 9043 "copy_prop.ml" 283 9021 9049
+type(
+  Ssa.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"copy_prop.ml" 283 9021 9050 "copy_prop.ml" 283 9021 9072
+type(
+  Ssa_visitor.t -> Ssa.exp -> Ssa.exp
+)
+ident(
+  ext_ref Ssa_visitor.exp_accept
+)
+"copy_prop.ml" 283 9021 9073 "copy_prop.ml" 283 9021 9074
+type(
+  Ssa_visitor.t
+)
+ident(
+  int_ref v "copy_prop.ml" 274 8783 8789 "copy_prop.ml" 274 8783 8790
+)
+"copy_prop.ml" 283 9021 9075 "copy_prop.ml" 283 9021 9076
+type(
+  Ssa.exp
+)
+ident(
+  int_ref e "copy_prop.ml" 283 9021 9038 "copy_prop.ml" 283 9021 9039
+)
+"copy_prop.ml" 283 9021 9049 "copy_prop.ml" 283 9021 9077
+call(
+  stack
+)
+type(
+  Ssa.exp
+)
+"copy_prop.ml" 283 9021 9043 "copy_prop.ml" 283 9021 9077
+type(
+  unit
+)
+"copy_prop.ml" 283 9021 9033 "copy_prop.ml" 283 9021 9078
+type(
+  Ssa.exp -> unit
+)
+"copy_prop.ml" 283 9021 9079 "copy_prop.ml" 283 9021 9081
+type(
+  Ssa.exp list
+)
+ident(
+  int_ref es "copy_prop.ml" 269 8618 8658 "copy_prop.ml" 269 8618 8660
+)
+"copy_prop.ml" 283 9021 9023 "copy_prop.ml" 283 9021 9081
+call(
+  stack
+)
+type(
+  unit
+)
+"copy_prop.ml" 284 9083 9085 "copy_prop.ml" 284 9083 9086
+type(
+  VS.t ref -> VS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"copy_prop.ml" 284 9083 9086 "copy_prop.ml" 284 9083 9087
+type(
+  VS.t ref
+)
+ident(
+  int_ref s "copy_prop.ml" 272 8723 8729 "copy_prop.ml" 272 8723 8730
+)
+"copy_prop.ml" 284 9083 9085 "copy_prop.ml" 284 9083 9087
+type(
+  VS.t
+)
+"copy_prop.ml" 283 9021 9023 "copy_prop.ml" 284 9083 9087
+type(
+  VS.t
+)
+"copy_prop.ml" 274 8783 8785 "copy_prop.ml" 284 9083 9087
+type(
+  VS.t
+)
+"copy_prop.ml" 273 8749 8751 "copy_prop.ml" 284 9083 9087
+type(
+  VS.t
+)
+"copy_prop.ml" 272 8723 8725 "copy_prop.ml" 284 9083 9087
+type(
+  VS.t
+)
+"copy_prop.ml" 270 8663 8665 "copy_prop.ml" 284 9083 9087
+type(
+  VS.t
+)

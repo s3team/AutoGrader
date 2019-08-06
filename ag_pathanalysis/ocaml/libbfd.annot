@@ -1,0 +1,792 @@
+"libbfd.ml" 127 2629 2633 "libbfd.ml" 127 2629 2647
+type(
+  int
+)
+ident(
+  def mACH_i386_i386 "libbfd.ml" 129 2653 2653 --
+)
+"libbfd.ml" 127 2629 2650 "libbfd.ml" 127 2629 2651
+type(
+  int
+)
+"libbfd.ml" 129 2653 2657 "libbfd.ml" 129 2653 2673
+type(
+  int
+)
+ident(
+  def mACH_i386_x86_64 "libbfd.ml" 131 2679 2679 --
+)
+"libbfd.ml" 129 2653 2676 "libbfd.ml" 129 2653 2677
+type(
+  int
+)
+"libbfd.ml" 149 3368 3372 "libbfd.ml" 149 3368 3384
+type(
+  int64
+)
+ident(
+  def sEC_NO_FLAGS "libbfd.ml" 151 3408 3408 --
+)
+"libbfd.ml" 149 3368 3387 "libbfd.ml" 149 3368 3402
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 149 3368 3403 "libbfd.ml" 149 3368 3406
+type(
+  string
+)
+"libbfd.ml" 149 3368 3387 "libbfd.ml" 149 3368 3406
+type(
+  int64
+)
+"libbfd.ml" 151 3408 3412 "libbfd.ml" 151 3408 3421
+type(
+  int64
+)
+ident(
+  def sEC_ALLOC "libbfd.ml" 153 3445 3445 --
+)
+"libbfd.ml" 151 3408 3424 "libbfd.ml" 151 3408 3439
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 151 3408 3440 "libbfd.ml" 151 3408 3443
+type(
+  string
+)
+"libbfd.ml" 151 3408 3424 "libbfd.ml" 151 3408 3443
+type(
+  int64
+)
+"libbfd.ml" 153 3445 3449 "libbfd.ml" 153 3445 3457
+type(
+  int64
+)
+ident(
+  def sEC_LOAD "libbfd.ml" 155 3481 3481 --
+)
+"libbfd.ml" 153 3445 3460 "libbfd.ml" 153 3445 3475
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 153 3445 3476 "libbfd.ml" 153 3445 3479
+type(
+  string
+)
+"libbfd.ml" 153 3445 3460 "libbfd.ml" 153 3445 3479
+type(
+  int64
+)
+"libbfd.ml" 155 3481 3485 "libbfd.ml" 155 3481 3494
+type(
+  int64
+)
+ident(
+  def sEC_RELOC "libbfd.ml" 157 3518 3518 --
+)
+"libbfd.ml" 155 3481 3497 "libbfd.ml" 155 3481 3512
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 155 3481 3513 "libbfd.ml" 155 3481 3516
+type(
+  string
+)
+"libbfd.ml" 155 3481 3497 "libbfd.ml" 155 3481 3516
+type(
+  int64
+)
+"libbfd.ml" 157 3518 3522 "libbfd.ml" 157 3518 3534
+type(
+  int64
+)
+ident(
+  def sEC_READONLY "libbfd.ml" 159 3558 3558 --
+)
+"libbfd.ml" 157 3518 3537 "libbfd.ml" 157 3518 3552
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 157 3518 3553 "libbfd.ml" 157 3518 3556
+type(
+  string
+)
+"libbfd.ml" 157 3518 3537 "libbfd.ml" 157 3518 3556
+type(
+  int64
+)
+"libbfd.ml" 159 3558 3562 "libbfd.ml" 159 3558 3570
+type(
+  int64
+)
+ident(
+  def sEC_CODE "libbfd.ml" 161 3595 3595 --
+)
+"libbfd.ml" 159 3558 3573 "libbfd.ml" 159 3558 3588
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 159 3558 3589 "libbfd.ml" 159 3558 3593
+type(
+  string
+)
+"libbfd.ml" 159 3558 3573 "libbfd.ml" 159 3558 3593
+type(
+  int64
+)
+"libbfd.ml" 161 3595 3599 "libbfd.ml" 161 3595 3607
+type(
+  int64
+)
+ident(
+  def sEC_DATA "libbfd.ml" 163 3632 3632 --
+)
+"libbfd.ml" 161 3595 3610 "libbfd.ml" 161 3595 3625
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 161 3595 3626 "libbfd.ml" 161 3595 3630
+type(
+  string
+)
+"libbfd.ml" 161 3595 3610 "libbfd.ml" 161 3595 3630
+type(
+  int64
+)
+"libbfd.ml" 163 3632 3636 "libbfd.ml" 163 3632 3643
+type(
+  int64
+)
+ident(
+  def sEC_ROM "libbfd.ml" 165 3668 3668 --
+)
+"libbfd.ml" 163 3632 3646 "libbfd.ml" 163 3632 3661
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 163 3632 3662 "libbfd.ml" 163 3632 3666
+type(
+  string
+)
+"libbfd.ml" 163 3632 3646 "libbfd.ml" 163 3632 3666
+type(
+  int64
+)
+"libbfd.ml" 165 3668 3672 "libbfd.ml" 165 3668 3687
+type(
+  int64
+)
+ident(
+  def sEC_CONSTRUCTOR "libbfd.ml" 167 3713 3713 --
+)
+"libbfd.ml" 165 3668 3690 "libbfd.ml" 165 3668 3705
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 165 3668 3706 "libbfd.ml" 165 3668 3711
+type(
+  string
+)
+"libbfd.ml" 165 3668 3690 "libbfd.ml" 165 3668 3711
+type(
+  int64
+)
+"libbfd.ml" 167 3713 3717 "libbfd.ml" 167 3713 3733
+type(
+  int64
+)
+ident(
+  def sEC_HAS_CONTENTS "libbfd.ml" 169 3759 3759 --
+)
+"libbfd.ml" 167 3713 3736 "libbfd.ml" 167 3713 3751
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 167 3713 3752 "libbfd.ml" 167 3713 3757
+type(
+  string
+)
+"libbfd.ml" 167 3713 3736 "libbfd.ml" 167 3713 3757
+type(
+  int64
+)
+"libbfd.ml" 169 3759 3763 "libbfd.ml" 169 3759 3777
+type(
+  int64
+)
+ident(
+  def sEC_NEVER_LOAD "libbfd.ml" 171 3803 3803 --
+)
+"libbfd.ml" 169 3759 3780 "libbfd.ml" 169 3759 3795
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 169 3759 3796 "libbfd.ml" 169 3759 3801
+type(
+  string
+)
+"libbfd.ml" 169 3759 3780 "libbfd.ml" 169 3759 3801
+type(
+  int64
+)
+"libbfd.ml" 171 3803 3807 "libbfd.ml" 171 3803 3823
+type(
+  int64
+)
+ident(
+  def sEC_THREAD_LOCAL "libbfd.ml" 173 3850 3850 --
+)
+"libbfd.ml" 171 3803 3826 "libbfd.ml" 171 3803 3841
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 171 3803 3842 "libbfd.ml" 171 3803 3848
+type(
+  string
+)
+"libbfd.ml" 171 3803 3826 "libbfd.ml" 171 3803 3848
+type(
+  int64
+)
+"libbfd.ml" 173 3850 3854 "libbfd.ml" 173 3850 3869
+type(
+  int64
+)
+ident(
+  def sEC_HAS_GOT_REF "libbfd.ml" 175 3896 3896 --
+)
+"libbfd.ml" 173 3850 3872 "libbfd.ml" 173 3850 3887
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 173 3850 3888 "libbfd.ml" 173 3850 3894
+type(
+  string
+)
+"libbfd.ml" 173 3850 3872 "libbfd.ml" 173 3850 3894
+type(
+  int64
+)
+"libbfd.ml" 175 3896 3900 "libbfd.ml" 175 3896 3913
+type(
+  int64
+)
+ident(
+  def sEC_IS_COMMON "libbfd.ml" 177 3940 3940 --
+)
+"libbfd.ml" 175 3896 3916 "libbfd.ml" 175 3896 3931
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 175 3896 3932 "libbfd.ml" 175 3896 3938
+type(
+  string
+)
+"libbfd.ml" 175 3896 3916 "libbfd.ml" 175 3896 3938
+type(
+  int64
+)
+"libbfd.ml" 177 3940 3944 "libbfd.ml" 177 3940 3957
+type(
+  int64
+)
+ident(
+  def sEC_DEBUGGING "libbfd.ml" 179 3984 3984 --
+)
+"libbfd.ml" 177 3940 3960 "libbfd.ml" 177 3940 3975
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 177 3940 3976 "libbfd.ml" 177 3940 3982
+type(
+  string
+)
+"libbfd.ml" 177 3940 3960 "libbfd.ml" 177 3940 3982
+type(
+  int64
+)
+"libbfd.ml" 179 3984 3988 "libbfd.ml" 179 3984 4001
+type(
+  int64
+)
+ident(
+  def sEC_IN_MEMORY "libbfd.ml" 181 4029 4029 --
+)
+"libbfd.ml" 179 3984 4004 "libbfd.ml" 179 3984 4019
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 179 3984 4020 "libbfd.ml" 179 3984 4027
+type(
+  string
+)
+"libbfd.ml" 179 3984 4004 "libbfd.ml" 179 3984 4027
+type(
+  int64
+)
+"libbfd.ml" 181 4029 4033 "libbfd.ml" 181 4029 4044
+type(
+  int64
+)
+ident(
+  def sEC_EXCLUDE "libbfd.ml" 183 4072 4072 --
+)
+"libbfd.ml" 181 4029 4047 "libbfd.ml" 181 4029 4062
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 181 4029 4063 "libbfd.ml" 181 4029 4070
+type(
+  string
+)
+"libbfd.ml" 181 4029 4047 "libbfd.ml" 181 4029 4070
+type(
+  int64
+)
+"libbfd.ml" 183 4072 4076 "libbfd.ml" 183 4072 4092
+type(
+  int64
+)
+ident(
+  def sEC_SORT_ENTRIES "libbfd.ml" 185 4120 4120 --
+)
+"libbfd.ml" 183 4072 4095 "libbfd.ml" 183 4072 4110
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 183 4072 4111 "libbfd.ml" 183 4072 4118
+type(
+  string
+)
+"libbfd.ml" 183 4072 4095 "libbfd.ml" 183 4072 4118
+type(
+  int64
+)
+"libbfd.ml" 185 4120 4124 "libbfd.ml" 185 4120 4137
+type(
+  int64
+)
+ident(
+  def sEC_LINK_ONCE "libbfd.ml" 187 4166 4166 --
+)
+"libbfd.ml" 185 4120 4140 "libbfd.ml" 185 4120 4155
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 185 4120 4156 "libbfd.ml" 185 4120 4164
+type(
+  string
+)
+"libbfd.ml" 185 4120 4140 "libbfd.ml" 185 4120 4164
+type(
+  int64
+)
+"libbfd.ml" 187 4166 4170 "libbfd.ml" 187 4166 4189
+type(
+  int64
+)
+ident(
+  def sEC_LINK_DUPLICATES "libbfd.ml" 189 4218 4218 --
+)
+"libbfd.ml" 187 4166 4192 "libbfd.ml" 187 4166 4207
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 187 4166 4208 "libbfd.ml" 187 4166 4216
+type(
+  string
+)
+"libbfd.ml" 187 4166 4192 "libbfd.ml" 187 4166 4216
+type(
+  int64
+)
+"libbfd.ml" 189 4218 4222 "libbfd.ml" 189 4218 4249
+type(
+  int64
+)
+ident(
+  def sEC_LINK_DUPLICATES_DISCARD "libbfd.ml" 191 4273 4273 --
+)
+"libbfd.ml" 189 4218 4252 "libbfd.ml" 189 4218 4267
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 189 4218 4268 "libbfd.ml" 189 4218 4271
+type(
+  string
+)
+"libbfd.ml" 189 4218 4252 "libbfd.ml" 189 4218 4271
+type(
+  int64
+)
+"libbfd.ml" 191 4273 4277 "libbfd.ml" 191 4273 4305
+type(
+  int64
+)
+ident(
+  def sEC_LINK_DUPLICATES_ONE_ONLY "libbfd.ml" 193 4334 4334 --
+)
+"libbfd.ml" 191 4273 4308 "libbfd.ml" 191 4273 4323
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 191 4273 4324 "libbfd.ml" 191 4273 4332
+type(
+  string
+)
+"libbfd.ml" 191 4273 4308 "libbfd.ml" 191 4273 4332
+type(
+  int64
+)
+"libbfd.ml" 193 4334 4338 "libbfd.ml" 193 4334 4367
+type(
+  int64
+)
+ident(
+  def sEC_LINK_DUPLICATES_SAME_SIZE "libbfd.ml" 195 4396 4396 --
+)
+"libbfd.ml" 193 4334 4370 "libbfd.ml" 193 4334 4385
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 193 4334 4386 "libbfd.ml" 193 4334 4394
+type(
+  string
+)
+"libbfd.ml" 193 4334 4370 "libbfd.ml" 193 4334 4394
+type(
+  int64
+)
+"libbfd.ml" 195 4396 4400 "libbfd.ml" 195 4396 4433
+type(
+  int64
+)
+ident(
+  def sEC_LINK_DUPLICATES_SAME_CONTENTS "libbfd.ml" 197 4462 4462 --
+)
+"libbfd.ml" 195 4396 4436 "libbfd.ml" 195 4396 4451
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 195 4396 4452 "libbfd.ml" 195 4396 4460
+type(
+  string
+)
+"libbfd.ml" 195 4396 4436 "libbfd.ml" 195 4396 4460
+type(
+  int64
+)
+"libbfd.ml" 197 4462 4466 "libbfd.ml" 197 4462 4484
+type(
+  int64
+)
+ident(
+  def sEC_LINKER_CREATED "libbfd.ml" 199 4514 4514 --
+)
+"libbfd.ml" 197 4462 4487 "libbfd.ml" 197 4462 4502
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 197 4462 4503 "libbfd.ml" 197 4462 4512
+type(
+  string
+)
+"libbfd.ml" 197 4462 4487 "libbfd.ml" 197 4462 4512
+type(
+  int64
+)
+"libbfd.ml" 199 4514 4518 "libbfd.ml" 199 4514 4526
+type(
+  int64
+)
+ident(
+  def sEC_KEEP "libbfd.ml" 201 4556 4556 --
+)
+"libbfd.ml" 199 4514 4529 "libbfd.ml" 199 4514 4544
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 199 4514 4545 "libbfd.ml" 199 4514 4554
+type(
+  string
+)
+"libbfd.ml" 199 4514 4529 "libbfd.ml" 199 4514 4554
+type(
+  int64
+)
+"libbfd.ml" 201 4556 4560 "libbfd.ml" 201 4556 4574
+type(
+  int64
+)
+ident(
+  def sEC_SMALL_DATA "libbfd.ml" 203 4604 4604 --
+)
+"libbfd.ml" 201 4556 4577 "libbfd.ml" 201 4556 4592
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 201 4556 4593 "libbfd.ml" 201 4556 4602
+type(
+  string
+)
+"libbfd.ml" 201 4556 4577 "libbfd.ml" 201 4556 4602
+type(
+  int64
+)
+"libbfd.ml" 203 4604 4608 "libbfd.ml" 203 4604 4617
+type(
+  int64
+)
+ident(
+  def sEC_MERGE "libbfd.ml" 205 4647 4647 --
+)
+"libbfd.ml" 203 4604 4620 "libbfd.ml" 203 4604 4635
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 203 4604 4636 "libbfd.ml" 203 4604 4645
+type(
+  string
+)
+"libbfd.ml" 203 4604 4620 "libbfd.ml" 203 4604 4645
+type(
+  int64
+)
+"libbfd.ml" 205 4647 4651 "libbfd.ml" 205 4647 4662
+type(
+  int64
+)
+ident(
+  def sEC_STRINGS "libbfd.ml" 207 4693 4693 --
+)
+"libbfd.ml" 205 4647 4665 "libbfd.ml" 205 4647 4680
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 205 4647 4681 "libbfd.ml" 205 4647 4691
+type(
+  string
+)
+"libbfd.ml" 205 4647 4665 "libbfd.ml" 205 4647 4691
+type(
+  int64
+)
+"libbfd.ml" 207 4693 4697 "libbfd.ml" 207 4693 4706
+type(
+  int64
+)
+ident(
+  def sEC_GROUP "libbfd.ml" 209 4737 4737 --
+)
+"libbfd.ml" 207 4693 4709 "libbfd.ml" 207 4693 4724
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 207 4693 4725 "libbfd.ml" 207 4693 4735
+type(
+  string
+)
+"libbfd.ml" 207 4693 4709 "libbfd.ml" 207 4693 4735
+type(
+  int64
+)
+"libbfd.ml" 209 4737 4741 "libbfd.ml" 209 4737 4764
+type(
+  int64
+)
+ident(
+  def sEC_COFF_SHARED_LIBRARY "libbfd.ml" 211 4795 4795 --
+)
+"libbfd.ml" 209 4737 4767 "libbfd.ml" 209 4737 4782
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 209 4737 4783 "libbfd.ml" 209 4737 4793
+type(
+  string
+)
+"libbfd.ml" 209 4737 4767 "libbfd.ml" 209 4737 4793
+type(
+  int64
+)
+"libbfd.ml" 211 4795 4799 "libbfd.ml" 211 4795 4814
+type(
+  int64
+)
+ident(
+  def sEC_COFF_SHARED "libbfd.ml" 213 4846 4846 --
+)
+"libbfd.ml" 211 4795 4817 "libbfd.ml" 211 4795 4832
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 211 4795 4833 "libbfd.ml" 211 4795 4844
+type(
+  string
+)
+"libbfd.ml" 211 4795 4817 "libbfd.ml" 211 4795 4844
+type(
+  int64
+)
+"libbfd.ml" 213 4846 4850 "libbfd.ml" 213 4846 4866
+type(
+  int64
+)
+ident(
+  def sEC_TIC54X_BLOCK "libbfd.ml" 215 4898 4898 --
+)
+"libbfd.ml" 213 4846 4869 "libbfd.ml" 213 4846 4884
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 213 4846 4885 "libbfd.ml" 213 4846 4896
+type(
+  string
+)
+"libbfd.ml" 213 4846 4869 "libbfd.ml" 213 4846 4896
+type(
+  int64
+)
+"libbfd.ml" 215 4898 4902 "libbfd.ml" 215 4898 4918
+type(
+  int64
+)
+ident(
+  def sEC_TIC54X_CLINK "libbfd.ml" 217 4950 4950 --
+)
+"libbfd.ml" 215 4898 4921 "libbfd.ml" 215 4898 4936
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 215 4898 4937 "libbfd.ml" 215 4898 4948
+type(
+  string
+)
+"libbfd.ml" 215 4898 4921 "libbfd.ml" 215 4898 4948
+type(
+  int64
+)
+"libbfd.ml" 217 4950 4954 "libbfd.ml" 217 4950 4969
+type(
+  int64
+)
+ident(
+  def sEC_COFF_NOREAD "libbfd.ml" 217 4950 5000 --
+)
+"libbfd.ml" 217 4950 4972 "libbfd.ml" 217 4950 4987
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"libbfd.ml" 217 4950 4988 "libbfd.ml" 217 4950 5000
+type(
+  string
+)
+"libbfd.ml" 217 4950 4972 "libbfd.ml" 217 4950 5000
+type(
+  int64
+)

@@ -1,0 +1,6301 @@
+"smtexec.ml" 9 143 176 "smtexec.ml" 9 143 180
+type(
+  string
+)
+ident(
+  def name "smtexec.ml" 9 143 213 "smtexec.ml" 9 143 217
+)
+"smtexec.ml" 9 143 183 "smtexec.ml" 9 143 192
+type(
+  string
+)
+"smtexec.ml" 9 143 197 "smtexec.ml" 9 143 204
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "smtexec.ml" 9 143 213 "smtexec.ml" 9 143 217
+)
+"smtexec.ml" 9 143 205 "smtexec.ml" 9 143 213
+type(
+  [> `NoDebug ] as 'a
+)
+"smtexec.ml" 9 143 154 "smtexec.ml" 9 143 218
+call(
+  stack
+)
+"smtexec.ml" 52 1781 1785 "smtexec.ml" 52 1781 1799
+type(
+  float
+)
+ident(
+  def select_timeout "smtexec.ml" 54 1821 1821 --
+)
+"smtexec.ml" 52 1781 1802 "smtexec.ml" 52 1781 1805
+type(
+  float
+)
+"smtexec.ml" 54 1821 1825 "smtexec.ml" 54 1821 1838
+type(
+  'a -> 'b
+)
+ident(
+  def alarm_handler "smtexec.ml" 57 1874 1874 --
+)
+"smtexec.ml" 54 1821 1839 "smtexec.ml" 54 1821 1840
+type(
+  'a
+)
+ident(
+  def i "smtexec.ml" 55 1843 1845 "smtexec.ml" 55 1843 1872
+)
+"smtexec.ml" 55 1843 1845 "smtexec.ml" 55 1843 1850
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smtexec.ml" 55 1843 1851 "smtexec.ml" 55 1843 1872
+type(
+  exn
+)
+"smtexec.ml" 55 1843 1845 "smtexec.ml" 55 1843 1872
+type(
+  'b
+)
+"smtexec.ml" 57 1874 1878 "smtexec.ml" 57 1874 1895
+type(
+  Cfg.AST.G.t -> Ast.exp -> Ast.exp * 'a list
+)
+ident(
+  def compute_wp_boring "smtexec.ml" 66 2216 2216 --
+)
+"smtexec.ml" 57 1874 1896 "smtexec.ml" 57 1874 1899
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def cfg "smtexec.ml" 57 1874 1900 "smtexec.ml" 59 1940 1964
+)
+"smtexec.ml" 57 1874 1900 "smtexec.ml" 57 1874 1904
+type(
+  Ast.exp
+)
+ident(
+  def post "smtexec.ml" 58 1907 1909 "smtexec.ml" 59 1940 1964
+)
+"smtexec.ml" 58 1907 1913 "smtexec.ml" 58 1907 1916
+type(
+  Gcl.t
+)
+"smtexec.ml" 58 1907 1919 "smtexec.ml" 58 1907 1932
+type(
+  ?entry:Cfg.AST.G.V.t -> ?exit:Cfg.AST.G.V.t -> Cfg.AST.G.t -> Gcl.t
+)
+ident(
+  ext_ref Gcl.of_astcfg
+)
+"smtexec.ml" 58 1907 1933 "smtexec.ml" 58 1907 1936
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref cfg "smtexec.ml" 57 1874 1896 "smtexec.ml" 57 1874 1899
+)
+"smtexec.ml" 58 1907 1919 "smtexec.ml" 58 1907 1936
+call(
+  stack
+)
+type(
+  Gcl.t
+)
+"smtexec.ml" 59 1940 1945 "smtexec.ml" 59 1940 1950
+type(
+  ?simp:(Ast.exp -> Ast.exp) -> Gcl.t -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Wp.wp
+)
+"smtexec.ml" 59 1940 1951 "smtexec.ml" 59 1940 1954
+type(
+  Gcl.t
+)
+ident(
+  int_ref gcl "smtexec.ml" 58 1907 1913 "smtexec.ml" 58 1907 1916
+)
+"smtexec.ml" 59 1940 1955 "smtexec.ml" 59 1940 1959
+type(
+  Ast.exp
+)
+ident(
+  int_ref post "smtexec.ml" 57 1874 1900 "smtexec.ml" 57 1874 1904
+)
+"smtexec.ml" 59 1940 1945 "smtexec.ml" 59 1940 1959
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"smtexec.ml" 59 1940 1961 "smtexec.ml" 59 1940 1963
+type(
+  'a list
+)
+"smtexec.ml" 59 1940 1944 "smtexec.ml" 59 1940 1964
+type(
+  Ast.exp * 'a list
+)
+"smtexec.ml" 58 1907 1909 "smtexec.ml" 59 1940 1964
+type(
+  Ast.exp * 'a list
+)
+"smtexec.ml" 66 2216 2220 "smtexec.ml" 66 2216 2232
+type(
+  string -> string * string array
+)
+ident(
+  def split_cmdstr "smtexec.ml" 73 2395 2395 --
+)
+"smtexec.ml" 66 2216 2233 "smtexec.ml" 66 2216 2239
+type(
+  string
+)
+ident(
+  def cmdstr "smtexec.ml" 67 2242 2244 "smtexec.ml" 70 2352 2363
+)
+"smtexec.ml" 67 2242 2248 "smtexec.ml" 67 2242 2253
+type(
+  string list
+)
+"smtexec.ml" 67 2242 2256 "smtexec.ml" 67 2242 2272
+type(
+  string -> by:string -> string list
+)
+ident(
+  ext_ref BatString.nsplit
+)
+"smtexec.ml" 67 2242 2273 "smtexec.ml" 67 2242 2279
+type(
+  string
+)
+ident(
+  int_ref cmdstr "smtexec.ml" 66 2216 2233 "smtexec.ml" 66 2216 2239
+)
+"smtexec.ml" 67 2242 2280 "smtexec.ml" 67 2242 2283
+type(
+  string
+)
+"smtexec.ml" 67 2242 2256 "smtexec.ml" 67 2242 2283
+call(
+  stack
+)
+type(
+  string list
+)
+"smtexec.ml" 68 2287 2293 "smtexec.ml" 68 2287 2296
+type(
+  string
+)
+"smtexec.ml" 68 2287 2299 "smtexec.ml" 68 2287 2306
+type(
+  string list -> string
+)
+ident(
+  ext_ref List.hd
+)
+"smtexec.ml" 68 2287 2307 "smtexec.ml" 68 2287 2312
+type(
+  string list
+)
+ident(
+  int_ref slist "smtexec.ml" 67 2242 2248 "smtexec.ml" 67 2242 2253
+)
+"smtexec.ml" 68 2287 2299 "smtexec.ml" 68 2287 2312
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 69 2316 2322 "smtexec.ml" 69 2316 2326
+type(
+  string array
+)
+"smtexec.ml" 69 2316 2329 "smtexec.ml" 69 2316 2342
+type(
+  string list -> string array
+)
+ident(
+  ext_ref Array.of_list
+)
+"smtexec.ml" 69 2316 2343 "smtexec.ml" 69 2316 2348
+type(
+  string list
+)
+ident(
+  int_ref slist "smtexec.ml" 67 2242 2248 "smtexec.ml" 67 2242 2253
+)
+"smtexec.ml" 69 2316 2329 "smtexec.ml" 69 2316 2348
+call(
+  stack
+)
+type(
+  string array
+)
+"smtexec.ml" 70 2352 2354 "smtexec.ml" 70 2352 2357
+type(
+  string
+)
+ident(
+  int_ref cmd "smtexec.ml" 68 2287 2293 "smtexec.ml" 68 2287 2296
+)
+"smtexec.ml" 70 2352 2359 "smtexec.ml" 70 2352 2363
+type(
+  string array
+)
+ident(
+  int_ref args "smtexec.ml" 69 2316 2322 "smtexec.ml" 69 2316 2326
+)
+"smtexec.ml" 70 2352 2354 "smtexec.ml" 70 2352 2363
+type(
+  string * string array
+)
+"smtexec.ml" 69 2316 2318 "smtexec.ml" 70 2352 2363
+type(
+  string * string array
+)
+"smtexec.ml" 68 2287 2289 "smtexec.ml" 70 2352 2363
+type(
+  string * string array
+)
+"smtexec.ml" 67 2242 2244 "smtexec.ml" 70 2352 2363
+type(
+  string * string array
+)
+"smtexec.ml" 73 2395 2399 "smtexec.ml" 73 2395 2406
+type(
+  string -> string * string * Unix.process_status
+)
+ident(
+  def syscall "smtexec.ml" 136 4390 4390 --
+)
+"smtexec.ml" 73 2395 2407 "smtexec.ml" 73 2395 2410
+type(
+  string
+)
+ident(
+  def cmd "smtexec.ml" 74 2413 2415 "smtexec.ml" 134 4357 4388
+)
+"smtexec.ml" 74 2413 2419 "smtexec.ml" 74 2413 2421
+type(
+  unit
+)
+"smtexec.ml" 74 2413 2424 "smtexec.ml" 74 2413 2438
+type(
+  int -> Sys.signal_behavior -> unit
+)
+ident(
+  ext_ref Sys.set_signal
+)
+"smtexec.ml" 74 2413 2439 "smtexec.ml" 74 2413 2450
+type(
+  int
+)
+ident(
+  ext_ref Sys.sigalrm
+)
+"smtexec.ml" 74 2413 2470 "smtexec.ml" 74 2413 2483
+type(
+  int -> unit
+)
+ident(
+  int_ref alarm_handler "smtexec.ml" 54 1821 1825 "smtexec.ml" 54 1821 1838
+)
+"smtexec.ml" 74 2413 2451 "smtexec.ml" 74 2413 2484
+type(
+  Sys.signal_behavior
+)
+"smtexec.ml" 74 2413 2424 "smtexec.ml" 74 2413 2484
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 75 2488 2495 "smtexec.ml" 75 2488 2505
+type(
+  Unix.file_descr
+)
+"smtexec.ml" 75 2488 2506 "smtexec.ml" 75 2488 2517
+type(
+  Unix.file_descr
+)
+"smtexec.ml" 75 2488 2494 "smtexec.ml" 75 2488 2518
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"smtexec.ml" 75 2488 2521 "smtexec.ml" 75 2488 2525
+type(
+  unit -> Unix.file_descr * Unix.file_descr
+)
+ident(
+  ext_ref Unix.pipe
+)
+"smtexec.ml" 75 2488 2526 "smtexec.ml" 75 2488 2528
+type(
+  unit
+)
+"smtexec.ml" 75 2488 2521 "smtexec.ml" 75 2488 2528
+call(
+  stack
+)
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"smtexec.ml" 76 2532 2539 "smtexec.ml" 76 2532 2549
+type(
+  Unix.file_descr
+)
+"smtexec.ml" 76 2532 2550 "smtexec.ml" 76 2532 2561
+type(
+  Unix.file_descr
+)
+"smtexec.ml" 76 2532 2538 "smtexec.ml" 76 2532 2562
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"smtexec.ml" 76 2532 2565 "smtexec.ml" 76 2532 2569
+type(
+  unit -> Unix.file_descr * Unix.file_descr
+)
+ident(
+  ext_ref Unix.pipe
+)
+"smtexec.ml" 76 2532 2570 "smtexec.ml" 76 2532 2572
+type(
+  unit
+)
+"smtexec.ml" 76 2532 2565 "smtexec.ml" 76 2532 2572
+call(
+  stack
+)
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"smtexec.ml" 77 2576 2583 "smtexec.ml" 77 2576 2592
+type(
+  Unix.file_descr
+)
+"smtexec.ml" 77 2576 2593 "smtexec.ml" 77 2576 2603
+type(
+  Unix.file_descr
+)
+"smtexec.ml" 77 2576 2582 "smtexec.ml" 77 2576 2604
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"smtexec.ml" 77 2576 2607 "smtexec.ml" 77 2576 2611
+type(
+  unit -> Unix.file_descr * Unix.file_descr
+)
+ident(
+  ext_ref Unix.pipe
+)
+"smtexec.ml" 77 2576 2612 "smtexec.ml" 77 2576 2614
+type(
+  unit
+)
+"smtexec.ml" 77 2576 2607 "smtexec.ml" 77 2576 2614
+call(
+  stack
+)
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"smtexec.ml" 78 2618 2624 "smtexec.ml" 78 2618 2631
+type(
+  string
+)
+"smtexec.ml" 78 2618 2633 "smtexec.ml" 78 2618 2637
+type(
+  string array
+)
+"smtexec.ml" 78 2618 2624 "smtexec.ml" 78 2618 2637
+type(
+  string * string array
+)
+"smtexec.ml" 78 2618 2640 "smtexec.ml" 78 2618 2652
+type(
+  string -> string * string array
+)
+ident(
+  int_ref split_cmdstr "smtexec.ml" 66 2216 2220 "smtexec.ml" 66 2216 2232
+)
+"smtexec.ml" 78 2618 2653 "smtexec.ml" 78 2618 2656
+type(
+  string
+)
+ident(
+  int_ref cmd "smtexec.ml" 73 2395 2407 "smtexec.ml" 73 2395 2410
+)
+"smtexec.ml" 78 2618 2640 "smtexec.ml" 78 2618 2656
+call(
+  stack
+)
+type(
+  string * string array
+)
+"smtexec.ml" 79 2660 2666 "smtexec.ml" 79 2660 2669
+type(
+  int
+)
+"smtexec.ml" 79 2660 2672 "smtexec.ml" 79 2660 2686
+type(
+  string ->
+  string array ->
+  Unix.file_descr -> Unix.file_descr -> Unix.file_descr -> int
+)
+ident(
+  ext_ref Unix.create_process
+)
+"smtexec.ml" 79 2660 2687 "smtexec.ml" 79 2660 2694
+type(
+  string
+)
+ident(
+  int_ref cmdname "smtexec.ml" 78 2618 2624 "smtexec.ml" 78 2618 2631
+)
+"smtexec.ml" 79 2660 2695 "smtexec.ml" 79 2660 2699
+type(
+  string array
+)
+ident(
+  int_ref args "smtexec.ml" 78 2618 2633 "smtexec.ml" 78 2618 2637
+)
+"smtexec.ml" 79 2660 2700 "smtexec.ml" 79 2660 2709
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stdinread "smtexec.ml" 77 2576 2583 "smtexec.ml" 77 2576 2592
+)
+"smtexec.ml" 79 2660 2710 "smtexec.ml" 79 2660 2721
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stdoutwrite "smtexec.ml" 75 2488 2506 "smtexec.ml" 75 2488 2517
+)
+"smtexec.ml" 79 2660 2722 "smtexec.ml" 79 2660 2733
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stderrwrite "smtexec.ml" 76 2532 2550 "smtexec.ml" 76 2532 2561
+)
+"smtexec.ml" 79 2660 2672 "smtexec.ml" 79 2660 2733
+call(
+  stack
+)
+type(
+  int
+)
+"smtexec.ml" 80 2737 2739 "smtexec.ml" 80 2737 2744
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"smtexec.ml" 80 2737 2745 "smtexec.ml" 80 2737 2756
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stdoutwrite "smtexec.ml" 75 2488 2506 "smtexec.ml" 75 2488 2517
+)
+"smtexec.ml" 80 2737 2739 "smtexec.ml" 80 2737 2756
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 81 2758 2760 "smtexec.ml" 81 2758 2765
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"smtexec.ml" 81 2758 2766 "smtexec.ml" 81 2758 2777
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stderrwrite "smtexec.ml" 76 2532 2550 "smtexec.ml" 76 2532 2561
+)
+"smtexec.ml" 81 2758 2760 "smtexec.ml" 81 2758 2777
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 82 2779 2781 "smtexec.ml" 82 2779 2786
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"smtexec.ml" 82 2779 2787 "smtexec.ml" 82 2779 2796
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stdinread "smtexec.ml" 77 2576 2583 "smtexec.ml" 77 2576 2592
+)
+"smtexec.ml" 82 2779 2781 "smtexec.ml" 82 2779 2796
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 83 2798 2800 "smtexec.ml" 83 2798 2805
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"smtexec.ml" 83 2798 2806 "smtexec.ml" 83 2798 2816
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stdinwrite "smtexec.ml" 77 2576 2593 "smtexec.ml" 77 2576 2603
+)
+"smtexec.ml" 83 2798 2800 "smtexec.ml" 83 2798 2816
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 85 2825 2834 "smtexec.ml" 85 2825 2838
+type(
+  Buffer.t
+)
+ident(
+  def obuf "smtexec.ml" 86 2861 2866 "smtexec.ml" 130 4202 4277
+)
+"smtexec.ml" 85 2825 2841 "smtexec.ml" 85 2825 2854
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"smtexec.ml" 85 2825 2855 "smtexec.ml" 85 2825 2857
+type(
+  int
+)
+"smtexec.ml" 85 2825 2841 "smtexec.ml" 85 2825 2857
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"smtexec.ml" 86 2861 2870 "smtexec.ml" 86 2861 2874
+type(
+  Buffer.t
+)
+ident(
+  def ebuf "smtexec.ml" 87 2897 2902 "smtexec.ml" 130 4202 4277
+)
+"smtexec.ml" 86 2861 2877 "smtexec.ml" 86 2861 2890
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"smtexec.ml" 86 2861 2891 "smtexec.ml" 86 2861 2893
+type(
+  int
+)
+"smtexec.ml" 86 2861 2877 "smtexec.ml" 86 2861 2893
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"smtexec.ml" 87 2897 2906 "smtexec.ml" 87 2897 2912
+type(
+  Unix.file_descr list
+)
+ident(
+  def fdlist "smtexec.ml" 88 2943 2948 "smtexec.ml" 130 4202 4277
+)
+"smtexec.ml" 87 2897 2916 "smtexec.ml" 87 2897 2926
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stdoutread "smtexec.ml" 75 2488 2495 "smtexec.ml" 75 2488 2505
+)
+"smtexec.ml" 87 2897 2928 "smtexec.ml" 87 2897 2938
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stderrread "smtexec.ml" 76 2532 2539 "smtexec.ml" 76 2532 2549
+)
+"smtexec.ml" 87 2897 2915 "smtexec.ml" 87 2897 2939
+type(
+  Unix.file_descr list
+)
+"smtexec.ml" 88 2943 2948 "smtexec.ml" 88 2943 2957
+type(
+  (Unix.file_descr -> unit) -> Unix.file_descr list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"smtexec.ml" 88 2943 2958 "smtexec.ml" 88 2943 2970
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.set_nonblock
+)
+"smtexec.ml" 88 2943 2971 "smtexec.ml" 88 2943 2977
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref fdlist "smtexec.ml" 87 2897 2906 "smtexec.ml" 87 2897 2912
+)
+"smtexec.ml" 88 2943 2948 "smtexec.ml" 88 2943 2977
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 89 2979 2988 "smtexec.ml" 89 2979 2992
+type(
+  bool ref
+)
+ident(
+  def wait "smtexec.ml" 90 3007 3012 "smtexec.ml" 130 4202 4277
+)
+"smtexec.ml" 89 2979 2995 "smtexec.ml" 89 2979 2998
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"smtexec.ml" 89 2979 2999 "smtexec.ml" 89 2979 3003
+type(
+  bool
+)
+"smtexec.ml" 89 2979 2995 "smtexec.ml" 89 2979 3003
+type(
+  bool ref
+)
+"smtexec.ml" 90 3007 3016 "smtexec.ml" 90 3007 3023
+type(
+  Unix.process_status option ref
+)
+ident(
+  def estatus "smtexec.ml" 91 3038 3043 "smtexec.ml" 130 4202 4277
+)
+"smtexec.ml" 90 3007 3026 "smtexec.ml" 90 3007 3029
+type(
+  Unix.process_status option -> Unix.process_status option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"smtexec.ml" 90 3007 3030 "smtexec.ml" 90 3007 3034
+type(
+  Unix.process_status option
+)
+"smtexec.ml" 90 3007 3026 "smtexec.ml" 90 3007 3034
+type(
+  Unix.process_status option ref
+)
+"smtexec.ml" 91 3038 3047 "smtexec.ml" 91 3038 3050
+type(
+  string
+)
+ident(
+  def buf "smtexec.ml" 92 3072 3077 "smtexec.ml" 130 4202 4277
+)
+"smtexec.ml" 91 3038 3053 "smtexec.ml" 91 3038 3066
+type(
+  int -> string
+)
+ident(
+  ext_ref String.create
+)
+"smtexec.ml" 91 3038 3067 "smtexec.ml" 91 3038 3068
+type(
+  int
+)
+"smtexec.ml" 91 3038 3053 "smtexec.ml" 91 3038 3068
+type(
+  string
+)
+"smtexec.ml" 92 3072 3083 "smtexec.ml" 92 3072 3084
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smtexec.ml" 92 3072 3084 "smtexec.ml" 92 3072 3088
+type(
+  bool ref
+)
+ident(
+  int_ref wait "smtexec.ml" 89 2979 2988 "smtexec.ml" 89 2979 2992
+)
+"smtexec.ml" 92 3072 3083 "smtexec.ml" 92 3072 3088
+type(
+  bool
+)
+"smtexec.ml" 95 3143 3154 "smtexec.ml" 95 3143 3156
+type(
+  float -> unit
+)
+ident(
+  def rd "smtexec.ml" 115 3845 3852 "smtexec.ml" 125 4129 4143
+)
+"smtexec.ml" 95 3143 3157 "smtexec.ml" 95 3143 3164
+type(
+  float
+)
+ident(
+  def timeout "smtexec.ml" 96 3168 3177 "smtexec.ml" 110 3726 3742
+)
+"smtexec.ml" 96 3168 3181 "smtexec.ml" 96 3168 3183
+type(
+  Unix.file_descr list
+)
+"smtexec.ml" 96 3168 3184 "smtexec.ml" 96 3168 3185
+type(
+  Unix.file_descr list
+)
+"smtexec.ml" 96 3168 3186 "smtexec.ml" 96 3168 3187
+type(
+  Unix.file_descr list
+)
+"smtexec.ml" 96 3168 3181 "smtexec.ml" 96 3168 3187
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"smtexec.ml" 96 3168 3190 "smtexec.ml" 96 3168 3196
+type(
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  float -> Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  ext_ref Unix.select
+)
+"smtexec.ml" 96 3168 3197 "smtexec.ml" 96 3168 3203
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref fdlist "smtexec.ml" 87 2897 2906 "smtexec.ml" 87 2897 2912
+)
+"smtexec.ml" 96 3168 3204 "smtexec.ml" 96 3168 3206
+type(
+  Unix.file_descr list
+)
+"smtexec.ml" 96 3168 3207 "smtexec.ml" 96 3168 3213
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref fdlist "smtexec.ml" 87 2897 2906 "smtexec.ml" 87 2897 2912
+)
+"smtexec.ml" 96 3168 3214 "smtexec.ml" 96 3168 3221
+type(
+  float
+)
+ident(
+  int_ref timeout "smtexec.ml" 95 3143 3157 "smtexec.ml" 95 3143 3164
+)
+"smtexec.ml" 96 3168 3190 "smtexec.ml" 96 3168 3221
+call(
+  stack
+)
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"smtexec.ml" 97 3225 3234 "smtexec.ml" 97 3225 3243
+type(
+  (Unix.file_descr -> unit) -> Unix.file_descr list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"smtexec.ml" 98 3244 3260 "smtexec.ml" 98 3244 3262
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "smtexec.ml" 99 3266 3280 "smtexec.ml" 109 3641 3725
+)
+"smtexec.ml" 99 3266 3284 "smtexec.ml" 99 3266 3290
+type(
+  Buffer.t
+)
+"smtexec.ml" 99 3266 3296 "smtexec.ml" 99 3266 3298
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "smtexec.ml" 98 3244 3260 "smtexec.ml" 98 3244 3262
+)
+"smtexec.ml" 99 3266 3298 "smtexec.ml" 99 3266 3299
+type(
+  Unix.file_descr -> Unix.file_descr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smtexec.ml" 99 3266 3299 "smtexec.ml" 99 3266 3309
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stdoutread "smtexec.ml" 75 2488 2495 "smtexec.ml" 75 2488 2505
+)
+"smtexec.ml" 99 3266 3296 "smtexec.ml" 99 3266 3309
+type(
+  bool
+)
+"smtexec.ml" 99 3266 3315 "smtexec.ml" 99 3266 3319
+type(
+  Buffer.t
+)
+ident(
+  int_ref obuf "smtexec.ml" 85 2825 2834 "smtexec.ml" 85 2825 2838
+)
+"smtexec.ml" 99 3266 3325 "smtexec.ml" 99 3266 3329
+type(
+  Buffer.t
+)
+ident(
+  int_ref ebuf "smtexec.ml" 86 2861 2870 "smtexec.ml" 86 2861 2874
+)
+"smtexec.ml" 99 3266 3293 "smtexec.ml" 99 3266 3329
+type(
+  Buffer.t
+)
+"smtexec.ml" 101 3351 3373 "smtexec.ml" 101 3351 3377
+type(
+  bool
+)
+"smtexec.ml" 102 3381 3406 "smtexec.ml" 102 3381 3410
+type(
+  Unix.file_descr -> string -> int -> int -> int
+)
+ident(
+  ext_ref Unix.read
+)
+"smtexec.ml" 102 3381 3411 "smtexec.ml" 102 3381 3413
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "smtexec.ml" 98 3244 3260 "smtexec.ml" 98 3244 3262
+)
+"smtexec.ml" 102 3381 3414 "smtexec.ml" 102 3381 3417
+type(
+  string
+)
+ident(
+  int_ref buf "smtexec.ml" 91 3038 3047 "smtexec.ml" 91 3038 3050
+)
+"smtexec.ml" 102 3381 3418 "smtexec.ml" 102 3381 3419
+type(
+  int
+)
+"smtexec.ml" 102 3381 3420 "smtexec.ml" 102 3381 3421
+type(
+  int
+)
+"smtexec.ml" 102 3381 3406 "smtexec.ml" 102 3381 3421
+call(
+  stack
+)
+type(
+  int
+)
+"smtexec.ml" 103 3427 3448 "smtexec.ml" 103 3427 3449
+type(
+  int
+)
+"smtexec.ml" 104 3453 3476 "smtexec.ml" 104 3453 3493
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"smtexec.ml" 104 3453 3494 "smtexec.ml" 104 3453 3500
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "smtexec.ml" 99 3266 3284 "smtexec.ml" 99 3266 3290
+)
+"smtexec.ml" 104 3453 3501 "smtexec.ml" 104 3453 3504
+type(
+  string
+)
+ident(
+  int_ref buf "smtexec.ml" 91 3038 3047 "smtexec.ml" 91 3038 3050
+)
+"smtexec.ml" 104 3453 3476 "smtexec.ml" 104 3453 3504
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 105 3505 3526 "smtexec.ml" 105 3505 3527
+type(
+  int
+)
+"smtexec.ml" 105 3505 3531 "smtexec.ml" 105 3505 3536
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smtexec.ml" 105 3505 3537 "smtexec.ml" 105 3505 3541
+type(
+  exn
+)
+"smtexec.ml" 105 3505 3531 "smtexec.ml" 105 3505 3541
+type(
+  unit
+)
+"smtexec.ml" 106 3542 3563 "smtexec.ml" 106 3542 3564
+type(
+  int
+)
+"smtexec.ml" 107 3568 3591 "smtexec.ml" 107 3568 3599
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"smtexec.ml" 107 3568 3600 "smtexec.ml" 107 3568 3617
+type(
+  string
+)
+"smtexec.ml" 107 3568 3591 "smtexec.ml" 107 3568 3617
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 102 3381 3399 "smtexec.ml" 107 3568 3619
+type(
+  unit
+)
+"smtexec.ml" 101 3351 3367 "smtexec.ml" 108 3620 3640
+type(
+  unit
+)
+"smtexec.ml" 109 3641 3660 "smtexec.ml" 109 3641 3664
+type(
+  exn
+)
+"smtexec.ml" 109 3641 3678 "smtexec.ml" 109 3641 3689
+type(
+  Unix.error
+)
+"smtexec.ml" 109 3641 3690 "smtexec.ml" 109 3641 3691
+type(
+  string
+)
+"smtexec.ml" 109 3641 3692 "smtexec.ml" 109 3641 3693
+type(
+  string
+)
+"smtexec.ml" 109 3641 3667 "smtexec.ml" 109 3641 3694
+type(
+  exn
+)
+"smtexec.ml" 109 3641 3660 "smtexec.ml" 109 3641 3694
+type(
+  exn
+)
+"smtexec.ml" 109 3641 3708 "smtexec.ml" 109 3641 3714
+type(
+  Unix.error
+)
+"smtexec.ml" 109 3641 3715 "smtexec.ml" 109 3641 3716
+type(
+  string
+)
+"smtexec.ml" 109 3641 3717 "smtexec.ml" 109 3641 3718
+type(
+  string
+)
+"smtexec.ml" 109 3641 3697 "smtexec.ml" 109 3641 3719
+type(
+  exn
+)
+"smtexec.ml" 109 3641 3660 "smtexec.ml" 109 3641 3719
+type(
+  exn
+)
+"smtexec.ml" 109 3641 3723 "smtexec.ml" 109 3641 3725
+type(
+  unit
+)
+"smtexec.ml" 100 3333 3347 "smtexec.ml" 109 3641 3725
+type(
+  unit
+)
+"smtexec.ml" 99 3266 3280 "smtexec.ml" 109 3641 3725
+type(
+  unit
+)
+"smtexec.ml" 98 3244 3255 "smtexec.ml" 110 3726 3738
+type(
+  Unix.file_descr -> unit
+)
+"smtexec.ml" 110 3726 3739 "smtexec.ml" 110 3726 3741
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref rl "smtexec.ml" 96 3168 3181 "smtexec.ml" 96 3168 3183
+)
+"smtexec.ml" 97 3225 3234 "smtexec.ml" 110 3726 3742
+call(
+  tail
+)
+type(
+  unit
+)
+"smtexec.ml" 96 3168 3177 "smtexec.ml" 110 3726 3742
+type(
+  unit
+)
+"smtexec.ml" 115 3845 3852 "smtexec.ml" 115 3845 3854
+type(
+  float -> unit
+)
+ident(
+  int_ref rd "smtexec.ml" 95 3143 3154 "smtexec.ml" 95 3143 3156
+)
+"smtexec.ml" 115 3845 3855 "smtexec.ml" 115 3845 3869
+type(
+  float
+)
+ident(
+  int_ref select_timeout "smtexec.ml" 52 1781 1785 "smtexec.ml" 52 1781 1799
+)
+"smtexec.ml" 115 3845 3852 "smtexec.ml" 115 3845 3869
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 118 3918 3929 "smtexec.ml" 118 3918 3933
+type(
+  int
+)
+ident(
+  def pid' "smtexec.ml" 119 3970 3977 "smtexec.ml" 125 4129 4143
+)
+"smtexec.ml" 118 3918 3934 "smtexec.ml" 118 3918 3942
+type(
+  Unix.process_status
+)
+ident(
+  def estatus' "smtexec.ml" 119 3970 3977 "smtexec.ml" 125 4129 4143
+)
+"smtexec.ml" 118 3918 3929 "smtexec.ml" 118 3918 3942
+type(
+  int * Unix.process_status
+)
+"smtexec.ml" 118 3918 3945 "smtexec.ml" 118 3918 3952
+type(
+  Unix.wait_flag list -> int -> int * Unix.process_status
+)
+ident(
+  ext_ref Unix.waitpid
+)
+"smtexec.ml" 118 3918 3954 "smtexec.ml" 118 3918 3961
+type(
+  Unix.wait_flag
+)
+"smtexec.ml" 118 3918 3953 "smtexec.ml" 118 3918 3962
+type(
+  Unix.wait_flag list
+)
+"smtexec.ml" 118 3918 3963 "smtexec.ml" 118 3918 3966
+type(
+  int
+)
+ident(
+  int_ref pid "smtexec.ml" 79 2660 2666 "smtexec.ml" 79 2660 2669
+)
+"smtexec.ml" 118 3918 3945 "smtexec.ml" 118 3918 3966
+call(
+  stack
+)
+type(
+  int * Unix.process_status
+)
+"smtexec.ml" 119 3970 3980 "smtexec.ml" 119 3970 3984
+type(
+  int
+)
+ident(
+  int_ref pid' "smtexec.ml" 118 3918 3929 "smtexec.ml" 118 3918 3933
+)
+"smtexec.ml" 119 3970 3985 "smtexec.ml" 119 3970 3986
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smtexec.ml" 119 3970 3987 "smtexec.ml" 119 3970 3990
+type(
+  int
+)
+ident(
+  int_ref pid "smtexec.ml" 79 2660 2666 "smtexec.ml" 79 2660 2669
+)
+"smtexec.ml" 119 3970 3980 "smtexec.ml" 119 3970 3990
+type(
+  bool
+)
+"smtexec.ml" 120 4002 4011 "smtexec.ml" 120 4002 4015
+type(
+  bool ref
+)
+ident(
+  int_ref wait "smtexec.ml" 89 2979 2988 "smtexec.ml" 89 2979 2992
+)
+"smtexec.ml" 120 4002 4016 "smtexec.ml" 120 4002 4018
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"smtexec.ml" 120 4002 4019 "smtexec.ml" 120 4002 4024
+type(
+  bool
+)
+"smtexec.ml" 120 4002 4011 "smtexec.ml" 120 4002 4024
+type(
+  unit
+)
+"smtexec.ml" 121 4026 4035 "smtexec.ml" 121 4026 4042
+type(
+  Unix.process_status option ref
+)
+ident(
+  int_ref estatus "smtexec.ml" 90 3007 3016 "smtexec.ml" 90 3007 3023
+)
+"smtexec.ml" 121 4026 4043 "smtexec.ml" 121 4026 4045
+type(
+  Unix.process_status option ref -> Unix.process_status option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"smtexec.ml" 121 4026 4050 "smtexec.ml" 121 4026 4060
+type(
+  Unix.process_status
+)
+ident(
+  int_ref estatus' "smtexec.ml" 118 3918 3934 "smtexec.ml" 118 3918 3942
+)
+"smtexec.ml" 121 4026 4046 "smtexec.ml" 121 4026 4060
+type(
+  Unix.process_status option
+)
+"smtexec.ml" 121 4026 4035 "smtexec.ml" 121 4026 4060
+type(
+  unit
+)
+"smtexec.ml" 119 3970 3996 "smtexec.ml" 122 4061 4071
+type(
+  unit
+)
+"smtexec.ml" 119 3970 3977 "smtexec.ml" 122 4061 4071
+type(
+  unit
+)
+"smtexec.ml" 125 4129 4136 "smtexec.ml" 125 4129 4138
+type(
+  float -> unit
+)
+ident(
+  int_ref rd "smtexec.ml" 95 3143 3154 "smtexec.ml" 95 3143 3156
+)
+"smtexec.ml" 125 4129 4139 "smtexec.ml" 125 4129 4142
+type(
+  float
+)
+"smtexec.ml" 125 4129 4136 "smtexec.ml" 125 4129 4143
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 119 3970 3977 "smtexec.ml" 125 4129 4143
+type(
+  unit
+)
+"smtexec.ml" 118 3918 3925 "smtexec.ml" 125 4129 4143
+type(
+  unit
+)
+"smtexec.ml" 115 3845 3852 "smtexec.ml" 125 4129 4143
+type(
+  unit
+)
+"smtexec.ml" 95 3143 3150 "smtexec.ml" 125 4129 4143
+type(
+  unit
+)
+"smtexec.ml" 92 3072 3077 "smtexec.ml" 127 4145 4154
+type(
+  unit
+)
+"smtexec.ml" 128 4156 4161 "smtexec.ml" 128 4156 4166
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"smtexec.ml" 128 4156 4167 "smtexec.ml" 128 4156 4177
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stdoutread "smtexec.ml" 75 2488 2495 "smtexec.ml" 75 2488 2505
+)
+"smtexec.ml" 128 4156 4161 "smtexec.ml" 128 4156 4177
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 129 4179 4184 "smtexec.ml" 129 4179 4189
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"smtexec.ml" 129 4179 4190 "smtexec.ml" 129 4179 4200
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stderrread "smtexec.ml" 76 2532 2539 "smtexec.ml" 76 2532 2549
+)
+"smtexec.ml" 129 4179 4184 "smtexec.ml" 129 4179 4200
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 130 4202 4208 "smtexec.ml" 130 4202 4223
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"smtexec.ml" 130 4202 4224 "smtexec.ml" 130 4202 4228
+type(
+  Buffer.t
+)
+ident(
+  int_ref obuf "smtexec.ml" 85 2825 2834 "smtexec.ml" 85 2825 2838
+)
+"smtexec.ml" 130 4202 4207 "smtexec.ml" 130 4202 4229
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 130 4202 4232 "smtexec.ml" 130 4202 4247
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"smtexec.ml" 130 4202 4248 "smtexec.ml" 130 4202 4252
+type(
+  Buffer.t
+)
+ident(
+  int_ref ebuf "smtexec.ml" 86 2861 2870 "smtexec.ml" 86 2861 2874
+)
+"smtexec.ml" 130 4202 4231 "smtexec.ml" 130 4202 4253
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 130 4202 4255 "smtexec.ml" 130 4202 4268
+type(
+  Unix.process_status option -> Unix.process_status
+)
+ident(
+  ext_ref BatOption.get
+)
+"smtexec.ml" 130 4202 4269 "smtexec.ml" 130 4202 4270
+type(
+  Unix.process_status option ref -> Unix.process_status option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smtexec.ml" 130 4202 4270 "smtexec.ml" 130 4202 4277
+type(
+  Unix.process_status option ref
+)
+ident(
+  int_ref estatus "smtexec.ml" 90 3007 3016 "smtexec.ml" 90 3007 3023
+)
+"smtexec.ml" 130 4202 4269 "smtexec.ml" 130 4202 4277
+type(
+  Unix.process_status option
+)
+"smtexec.ml" 130 4202 4255 "smtexec.ml" 130 4202 4277
+call(
+  stack
+)
+type(
+  Unix.process_status
+)
+"smtexec.ml" 130 4202 4207 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 129 4179 4184 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 128 4156 4161 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 92 3072 3077 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 91 3038 3043 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 90 3007 3012 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 89 2979 2984 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 88 2943 2948 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 87 2897 2902 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 86 2861 2866 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 85 2825 2830 "smtexec.ml" 130 4202 4277
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 131 4278 4286 "smtexec.ml" 131 4278 4307
+type(
+  exn
+)
+"smtexec.ml" 132 4311 4316 "smtexec.ml" 132 4311 4321
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"smtexec.ml" 132 4311 4322 "smtexec.ml" 132 4311 4332
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stdoutread "smtexec.ml" 75 2488 2495 "smtexec.ml" 75 2488 2505
+)
+"smtexec.ml" 132 4311 4316 "smtexec.ml" 132 4311 4332
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 133 4334 4339 "smtexec.ml" 133 4334 4344
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"smtexec.ml" 133 4334 4345 "smtexec.ml" 133 4334 4355
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref stderrread "smtexec.ml" 76 2532 2539 "smtexec.ml" 76 2532 2549
+)
+"smtexec.ml" 133 4334 4339 "smtexec.ml" 133 4334 4355
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 134 4357 4362 "smtexec.ml" 134 4357 4367
+type(
+  exn -> string * string * Unix.process_status
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smtexec.ml" 134 4357 4382 "smtexec.ml" 134 4357 4385
+type(
+  int
+)
+ident(
+  int_ref pid "smtexec.ml" 79 2660 2666 "smtexec.ml" 79 2660 2669
+)
+"smtexec.ml" 134 4357 4368 "smtexec.ml" 134 4357 4386
+type(
+  exn
+)
+"smtexec.ml" 134 4357 4362 "smtexec.ml" 134 4357 4386
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 133 4334 4339 "smtexec.ml" 134 4357 4386
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 132 4311 4316 "smtexec.ml" 134 4357 4386
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 84 2818 2820 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 83 2798 2800 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 82 2779 2781 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 81 2758 2760 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 80 2737 2739 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 79 2660 2662 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 78 2618 2620 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 77 2576 2578 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 76 2532 2534 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 75 2488 2490 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 74 2413 2415 "smtexec.ml" 134 4357 4388
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 136 4390 4394 "smtexec.ml" 136 4390 4410
+type(
+  result -> string
+)
+ident(
+  def result_to_string "smtexec.ml" 143 4549 4549 --
+)
+"smtexec.ml" 136 4390 4411 "smtexec.ml" 136 4390 4417
+type(
+  result
+)
+ident(
+  def result "smtexec.ml" 137 4420 4422 "smtexec.ml" 141 4523 4547
+)
+"smtexec.ml" 137 4420 4428 "smtexec.ml" 137 4420 4434
+type(
+  result
+)
+ident(
+  int_ref result "smtexec.ml" 136 4390 4411 "smtexec.ml" 136 4390 4417
+)
+"smtexec.ml" 138 4440 4444 "smtexec.ml" 138 4440 4449
+type(
+  result
+)
+"smtexec.ml" 138 4440 4453 "smtexec.ml" 138 4440 4460
+type(
+  string
+)
+"smtexec.ml" 139 4461 4473 "smtexec.ml" 139 4461 4474
+type(
+  model
+)
+"smtexec.ml" 139 4461 4465 "smtexec.ml" 139 4461 4474
+type(
+  result
+)
+"smtexec.ml" 139 4461 4478 "smtexec.ml" 139 4461 4487
+type(
+  string
+)
+"smtexec.ml" 140 4488 4501 "smtexec.ml" 140 4488 4502
+type(
+  string
+)
+ident(
+  def s "smtexec.ml" 140 4488 4506 "smtexec.ml" 140 4488 4522
+)
+"smtexec.ml" 140 4488 4492 "smtexec.ml" 140 4488 4502
+type(
+  result
+)
+"smtexec.ml" 140 4488 4506 "smtexec.ml" 140 4488 4518
+type(
+  string
+)
+"smtexec.ml" 140 4488 4519 "smtexec.ml" 140 4488 4520
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 140 4488 4521 "smtexec.ml" 140 4488 4522
+type(
+  string
+)
+ident(
+  int_ref s "smtexec.ml" 140 4488 4501 "smtexec.ml" 140 4488 4502
+)
+"smtexec.ml" 140 4488 4506 "smtexec.ml" 140 4488 4522
+call(
+  tail
+)
+type(
+  string
+)
+"smtexec.ml" 141 4523 4527 "smtexec.ml" 141 4523 4534
+type(
+  result
+)
+"smtexec.ml" 141 4523 4538 "smtexec.ml" 141 4523 4547
+type(
+  string
+)
+"smtexec.ml" 137 4420 4422 "smtexec.ml" 141 4523 4547
+type(
+  string
+)
+"smtexec.ml" 143 4549 4553 "smtexec.ml" 143 4549 4564
+type(
+  (string * Z.t) list option -> unit
+)
+ident(
+  def print_model "smtexec.ml" 147 4726 4726 --
+)
+"smtexec.ml" 144 4576 4584 "smtexec.ml" 144 4576 4587
+type(
+  (string * Z.t) list
+)
+ident(
+  def l "smtexec.ml" 144 4576 4591 "smtexec.ml" 144 4576 4679
+)
+"smtexec.ml" 144 4576 4580 "smtexec.ml" 144 4576 4587
+type(
+  (string * Z.t) list option
+)
+"smtexec.ml" 144 4576 4591 "smtexec.ml" 144 4576 4604
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"smtexec.ml" 144 4576 4605 "smtexec.ml" 144 4576 4615
+type(
+  (unit, out_channel, unit) format
+)
+"smtexec.ml" 144 4576 4591 "smtexec.ml" 144 4576 4615
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 144 4576 4617 "smtexec.ml" 144 4576 4626
+type(
+  (string * Z.t -> unit) -> (string * Z.t) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"smtexec.ml" 144 4576 4633 "smtexec.ml" 144 4576 4634
+type(
+  string
+)
+ident(
+  def v "smtexec.ml" 144 4576 4641 "smtexec.ml" 144 4576 4676
+)
+"smtexec.ml" 144 4576 4635 "smtexec.ml" 144 4576 4636
+type(
+  Z.t
+)
+ident(
+  def i "smtexec.ml" 144 4576 4641 "smtexec.ml" 144 4576 4676
+)
+"smtexec.ml" 144 4576 4632 "smtexec.ml" 144 4576 4637
+type(
+  string * Z.t
+)
+"smtexec.ml" 144 4576 4641 "smtexec.ml" 144 4576 4654
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"smtexec.ml" 144 4576 4655 "smtexec.ml" 144 4576 4667
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"smtexec.ml" 144 4576 4668 "smtexec.ml" 144 4576 4669
+type(
+  string
+)
+ident(
+  int_ref v "smtexec.ml" 144 4576 4633 "smtexec.ml" 144 4576 4634
+)
+"smtexec.ml" 144 4576 4671 "smtexec.ml" 144 4576 4673
+type(
+  Z.t -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"smtexec.ml" 144 4576 4674 "smtexec.ml" 144 4576 4675
+type(
+  Z.t
+)
+ident(
+  int_ref i "smtexec.ml" 144 4576 4635 "smtexec.ml" 144 4576 4636
+)
+"smtexec.ml" 144 4576 4670 "smtexec.ml" 144 4576 4676
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 144 4576 4641 "smtexec.ml" 144 4576 4676
+call(
+  tail
+)
+type(
+  unit
+)
+"smtexec.ml" 144 4576 4627 "smtexec.ml" 144 4576 4677
+type(
+  string * Z.t -> unit
+)
+"smtexec.ml" 144 4576 4678 "smtexec.ml" 144 4576 4679
+type(
+  (string * Z.t) list
+)
+ident(
+  int_ref l "smtexec.ml" 144 4576 4584 "smtexec.ml" 144 4576 4587
+)
+"smtexec.ml" 144 4576 4617 "smtexec.ml" 144 4576 4679
+call(
+  tail
+)
+type(
+  unit
+)
+"smtexec.ml" 144 4576 4591 "smtexec.ml" 144 4576 4679
+type(
+  unit
+)
+"smtexec.ml" 145 4680 4684 "smtexec.ml" 145 4680 4688
+type(
+  (string * Z.t) list option
+)
+"smtexec.ml" 145 4680 4692 "smtexec.ml" 145 4680 4705
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"smtexec.ml" 145 4680 4706 "smtexec.ml" 145 4680 4724
+type(
+  (unit, out_channel, unit) format
+)
+"smtexec.ml" 145 4680 4692 "smtexec.ml" 145 4680 4724
+call(
+  tail
+)
+type(
+  unit
+)
+"smtexec.ml" 143 4549 4567 "smtexec.ml" 145 4680 4724
+type(
+  (string * Z.t) list option -> unit
+)
+"smtexec.ml" 150 4776 4782 "smtexec.ml" 150 4776 4792
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 152 4809 4811 "smtexec.ml" 225 7373 7378
+)
+"smtexec.ml" 150 4776 4795 "smtexec.ml" 150 4776 4807
+type(
+  string
+)
+ident(
+  ext_ref S.solvername
+)
+"smtexec.ml" 152 4809 4815 "smtexec.ml" 152 4809 4827
+type(
+  bool -> string -> unit
+)
+ident(
+  def maybe_remove "smtexec.ml" 160 5000 5004 "smtexec.ml" 225 7373 7378
+)
+"smtexec.ml" 152 4809 4828 "smtexec.ml" 152 4809 4834
+type(
+  bool
+)
+ident(
+  def remove "smtexec.ml" 152 4809 4835 "smtexec.ml" 157 4911 4922
+)
+"smtexec.ml" 152 4809 4835 "smtexec.ml" 152 4809 4839
+type(
+  string
+)
+ident(
+  def name "smtexec.ml" 153 4842 4846 "smtexec.ml" 157 4911 4922
+)
+"smtexec.ml" 153 4842 4849 "smtexec.ml" 153 4842 4855
+type(
+  bool
+)
+ident(
+  int_ref remove "smtexec.ml" 152 4809 4828 "smtexec.ml" 152 4809 4834
+)
+"smtexec.ml" 155 4870 4876 "smtexec.ml" 155 4870 4887
+type(
+  string -> unit
+)
+ident(
+  ext_ref Unix.unlink
+)
+"smtexec.ml" 155 4870 4888 "smtexec.ml" 155 4870 4892
+type(
+  string
+)
+ident(
+  int_ref name "smtexec.ml" 152 4809 4835 "smtexec.ml" 152 4809 4839
+)
+"smtexec.ml" 155 4870 4876 "smtexec.ml" 155 4870 4892
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 156 4893 4902 "smtexec.ml" 156 4893 4903
+type(
+  exn
+)
+"smtexec.ml" 156 4893 4907 "smtexec.ml" 156 4893 4909
+type(
+  unit
+)
+"smtexec.ml" 154 4861 4865 "smtexec.ml" 156 4893 4910
+type(
+  unit
+)
+"smtexec.ml" 157 4911 4920 "smtexec.ml" 157 4911 4922
+type(
+  unit
+)
+"smtexec.ml" 153 4842 4846 "smtexec.ml" 157 4911 4922
+type(
+  unit
+)
+"smtexec.ml" 160 5000 5008 "smtexec.ml" 160 5000 5021
+type(
+  ?exists:Ast.var list ->
+  ?foralls:Ast.var list -> ?remove:bool -> Ast.exp -> string
+)
+ident(
+  def write_formula "smtexec.ml" 172 5550 5554 "smtexec.ml" 225 7373 7378
+)
+"smtexec.ml" 160 5000 5024 "smtexec.ml" 160 5000 5030
+type(
+  Ast.var list
+)
+"smtexec.ml" 160 5000 5031 "smtexec.ml" 160 5000 5033
+type(
+  Ast.var list
+)
+type(
+  Ast.var list
+)
+ident(
+  int_ref *sth* "smtexec.ml" 160 5000 5031 "smtexec.ml" 160 5000 5033
+)
+type(
+  Ast.var list option
+)
+type(
+  Ast.var list option
+)
+type(
+  Ast.var list
+)
+ident(
+  def *sth* "smtexec.ml" 160 5000 5031 "smtexec.ml" 160 5000 5033
+)
+"smtexec.ml" 160 5000 5037 "smtexec.ml" 160 5000 5044
+type(
+  Ast.var list
+)
+"smtexec.ml" 160 5000 5045 "smtexec.ml" 160 5000 5047
+type(
+  Ast.var list
+)
+type(
+  Ast.var list
+)
+ident(
+  int_ref *sth* "smtexec.ml" 160 5000 5045 "smtexec.ml" 160 5000 5047
+)
+type(
+  Ast.var list option
+)
+type(
+  Ast.var list option
+)
+type(
+  Ast.var list
+)
+ident(
+  def *sth* "smtexec.ml" 160 5000 5045 "smtexec.ml" 160 5000 5047
+)
+"smtexec.ml" 160 5000 5051 "smtexec.ml" 160 5000 5057
+type(
+  bool
+)
+"smtexec.ml" 160 5000 5058 "smtexec.ml" 160 5000 5062
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "smtexec.ml" 160 5000 5058 "smtexec.ml" 160 5000 5062
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "smtexec.ml" 160 5000 5058 "smtexec.ml" 160 5000 5062
+)
+"smtexec.ml" 160 5000 5064 "smtexec.ml" 160 5000 5065
+type(
+  Ast.exp
+)
+ident(
+  def f "smtexec.ml" 161 5069 5075 "smtexec.ml" 169 5454 5464
+)
+"smtexec.ml" 161 5069 5079 "smtexec.ml" 161 5069 5083
+type(
+  string
+)
+"smtexec.ml" 161 5069 5085 "smtexec.ml" 161 5069 5087
+type(
+  out_channel
+)
+"smtexec.ml" 161 5069 5079 "smtexec.ml" 161 5069 5087
+type(
+  string * out_channel
+)
+"smtexec.ml" 161 5069 5090 "smtexec.ml" 161 5069 5113
+type(
+  ?mode:open_flag list ->
+  ?temp_dir:string -> string -> string -> string * out_channel
+)
+ident(
+  ext_ref Filename.open_temp_file
+)
+"smtexec.ml" 161 5069 5115 "smtexec.ml" 161 5069 5124
+type(
+  string
+)
+"smtexec.ml" 161 5069 5125 "smtexec.ml" 161 5069 5126
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 161 5069 5128 "smtexec.ml" 161 5069 5141
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"smtexec.ml" 161 5069 5143 "smtexec.ml" 161 5069 5149
+type(
+  unit -> int
+)
+ident(
+  ext_ref Unix.getpid
+)
+"smtexec.ml" 161 5069 5150 "smtexec.ml" 161 5069 5152
+type(
+  unit
+)
+"smtexec.ml" 161 5069 5142 "smtexec.ml" 161 5069 5153
+call(
+  stack
+)
+type(
+  int
+)
+"smtexec.ml" 161 5069 5127 "smtexec.ml" 161 5069 5154
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 161 5069 5114 "smtexec.ml" 161 5069 5155
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 161 5069 5157 "smtexec.ml" 161 5069 5163
+type(
+  string
+)
+"smtexec.ml" 161 5069 5090 "smtexec.ml" 161 5069 5163
+call(
+  stack
+)
+type(
+  string * out_channel
+)
+"smtexec.ml" 162 5167 5173 "smtexec.ml" 162 5167 5180
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.at_exit
+)
+"smtexec.ml" 162 5167 5186 "smtexec.ml" 162 5167 5188
+type(
+  unit
+)
+"smtexec.ml" 162 5167 5192 "smtexec.ml" 162 5167 5204
+type(
+  bool -> string -> unit
+)
+ident(
+  int_ref maybe_remove "smtexec.ml" 152 4809 4815 "smtexec.ml" 152 4809 4827
+)
+"smtexec.ml" 162 5167 5205 "smtexec.ml" 162 5167 5211
+type(
+  bool
+)
+ident(
+  int_ref remove "smtexec.ml" 160 5000 5051 "smtexec.ml" 160 5000 5057
+)
+"smtexec.ml" 162 5167 5212 "smtexec.ml" 162 5167 5216
+type(
+  string
+)
+ident(
+  int_ref name "smtexec.ml" 161 5069 5079 "smtexec.ml" 161 5069 5083
+)
+"smtexec.ml" 162 5167 5192 "smtexec.ml" 162 5167 5216
+call(
+  tail
+)
+type(
+  unit
+)
+"smtexec.ml" 162 5167 5181 "smtexec.ml" 162 5167 5217
+type(
+  unit -> unit
+)
+"smtexec.ml" 162 5167 5173 "smtexec.ml" 162 5167 5217
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 163 5219 5225 "smtexec.ml" 163 5219 5232
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"smtexec.ml" 163 5219 5233 "smtexec.ml" 163 5219 5258
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"smtexec.ml" 163 5219 5259 "smtexec.ml" 163 5219 5263
+type(
+  string
+)
+ident(
+  int_ref name "smtexec.ml" 161 5069 5079 "smtexec.ml" 161 5069 5083
+)
+"smtexec.ml" 163 5219 5225 "smtexec.ml" 163 5219 5263
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 164 5265 5275 "smtexec.ml" 164 5265 5277
+type(
+  Formulap.fpp_oc
+)
+"smtexec.ml" 164 5265 5280 "smtexec.ml" 164 5265 5289
+type(
+  Formulap.fppf
+)
+ident(
+  ext_ref S.printer
+)
+"smtexec.ml" 164 5265 5290 "smtexec.ml" 164 5265 5292
+type(
+  out_channel
+)
+ident(
+  int_ref oc "smtexec.ml" 161 5069 5085 "smtexec.ml" 161 5069 5087
+)
+"smtexec.ml" 164 5265 5280 "smtexec.ml" 164 5265 5292
+call(
+  stack
+)
+type(
+  Formulap.fpp_oc
+)
+"smtexec.ml" 165 5296 5302 "smtexec.ml" 165 5296 5304
+type(
+  Formulap.fpp_oc
+)
+ident(
+  int_ref pp "smtexec.ml" 164 5265 5275 "smtexec.ml" 164 5265 5277
+)
+"smtexec.ml" 165 5296 5302 "smtexec.ml" 165 5296 5318
+call(
+  stack
+)
+type(
+  ?exists:Ast.var list -> ?foralls:Ast.var list -> Ast.exp -> unit
+)
+"smtexec.ml" 165 5296 5327 "smtexec.ml" 165 5296 5333
+type(
+  Ast.var list
+)
+ident(
+  int_ref exists "smtexec.ml" 160 5000 5024 "smtexec.ml" 160 5000 5030
+)
+"smtexec.ml" 165 5296 5343 "smtexec.ml" 165 5296 5350
+type(
+  Ast.var list
+)
+ident(
+  int_ref foralls "smtexec.ml" 160 5000 5037 "smtexec.ml" 160 5000 5044
+)
+"smtexec.ml" 165 5296 5351 "smtexec.ml" 165 5296 5352
+type(
+  Ast.exp
+)
+ident(
+  int_ref f "smtexec.ml" 160 5000 5064 "smtexec.ml" 160 5000 5065
+)
+"smtexec.ml" 165 5296 5302 "smtexec.ml" 165 5296 5352
+type(
+  unit
+)
+"smtexec.ml" 166 5354 5360 "smtexec.ml" 166 5354 5362
+type(
+  Formulap.fpp_oc
+)
+ident(
+  int_ref pp "smtexec.ml" 164 5265 5275 "smtexec.ml" 164 5265 5277
+)
+"smtexec.ml" 166 5354 5360 "smtexec.ml" 166 5354 5368
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 168 5438 5444 "smtexec.ml" 168 5438 5446
+type(
+  Formulap.fpp_oc
+)
+ident(
+  int_ref pp "smtexec.ml" 164 5265 5275 "smtexec.ml" 164 5265 5277
+)
+"smtexec.ml" 168 5438 5444 "smtexec.ml" 168 5438 5452
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 169 5454 5460 "smtexec.ml" 169 5454 5464
+type(
+  string
+)
+ident(
+  int_ref name "smtexec.ml" 161 5069 5079 "smtexec.ml" 161 5069 5083
+)
+"smtexec.ml" 168 5438 5444 "smtexec.ml" 169 5454 5464
+type(
+  string
+)
+"smtexec.ml" 166 5354 5360 "smtexec.ml" 169 5454 5464
+type(
+  string
+)
+"smtexec.ml" 165 5296 5302 "smtexec.ml" 169 5454 5464
+type(
+  string
+)
+"smtexec.ml" 164 5265 5271 "smtexec.ml" 169 5454 5464
+type(
+  string
+)
+"smtexec.ml" 163 5219 5225 "smtexec.ml" 169 5454 5464
+type(
+  string
+)
+"smtexec.ml" 162 5167 5173 "smtexec.ml" 169 5454 5464
+type(
+  string
+)
+"smtexec.ml" 161 5069 5075 "smtexec.ml" 169 5454 5464
+type(
+  string
+)
+"smtexec.ml" 172 5550 5558 "smtexec.ml" 172 5550 5576
+type(
+  ?remove:bool ->
+  ?exists:Ast.var list -> ?foralls:Ast.var list -> Cfg.AST.G.t -> string
+)
+ident(
+  def create_cfg_formula "smtexec.ml" 182 6044 6048 "smtexec.ml" 225 7373 7378
+)
+"smtexec.ml" 172 5550 5578 "smtexec.ml" 172 5550 5584
+type(
+  bool option
+)
+ident(
+  def remove "smtexec.ml" 172 5550 5585 "smtexec.ml" 180 5995 6042
+)
+"smtexec.ml" 172 5550 5587 "smtexec.ml" 172 5550 5593
+type(
+  Ast.var list
+)
+"smtexec.ml" 172 5550 5594 "smtexec.ml" 172 5550 5596
+type(
+  Ast.var list
+)
+type(
+  Ast.var list
+)
+ident(
+  int_ref *sth* "smtexec.ml" 172 5550 5594 "smtexec.ml" 172 5550 5596
+)
+type(
+  Ast.var list option
+)
+type(
+  Ast.var list option
+)
+type(
+  Ast.var list
+)
+ident(
+  def *sth* "smtexec.ml" 172 5550 5594 "smtexec.ml" 172 5550 5596
+)
+"smtexec.ml" 172 5550 5600 "smtexec.ml" 172 5550 5607
+type(
+  Ast.var list
+)
+"smtexec.ml" 172 5550 5608 "smtexec.ml" 172 5550 5610
+type(
+  Ast.var list
+)
+type(
+  Ast.var list
+)
+ident(
+  int_ref *sth* "smtexec.ml" 172 5550 5608 "smtexec.ml" 172 5550 5610
+)
+type(
+  Ast.var list option
+)
+type(
+  Ast.var list option
+)
+type(
+  Ast.var list
+)
+ident(
+  def *sth* "smtexec.ml" 172 5550 5608 "smtexec.ml" 172 5550 5610
+)
+"smtexec.ml" 172 5550 5612 "smtexec.ml" 172 5550 5613
+type(
+  Cfg.AST.G.t
+)
+ident(
+  def p "smtexec.ml" 173 5617 5623 "smtexec.ml" 180 5995 6042
+)
+"smtexec.ml" 173 5617 5627 "smtexec.ml" 173 5617 5628
+type(
+  Cfg.AST.G.t
+)
+"smtexec.ml" 173 5617 5631 "smtexec.ml" 173 5617 5670
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Prune_unreachable.prune_unreachable_ast
+)
+"smtexec.ml" 173 5617 5671 "smtexec.ml" 173 5617 5672
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref p "smtexec.ml" 172 5550 5612 "smtexec.ml" 172 5550 5613
+)
+"smtexec.ml" 173 5617 5631 "smtexec.ml" 173 5617 5672
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"smtexec.ml" 174 5676 5686 "smtexec.ml" 174 5676 5690
+type(
+  Ast.exp
+)
+"smtexec.ml" 174 5676 5693 "smtexec.ml" 174 5676 5705
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_true
+)
+"smtexec.ml" 175 5709 5720 "smtexec.ml" 175 5709 5722
+type(
+  Ast.exp
+)
+"smtexec.ml" 175 5709 5724 "smtexec.ml" 175 5709 5732
+type(
+  'a list
+)
+"smtexec.ml" 175 5709 5719 "smtexec.ml" 175 5709 5733
+type(
+  Ast.exp * 'a list
+)
+"smtexec.ml" 175 5709 5736 "smtexec.ml" 175 5709 5753
+type(
+  Cfg.AST.G.t -> Ast.exp -> Ast.exp * 'a list
+)
+ident(
+  int_ref compute_wp_boring "smtexec.ml" 57 1874 1878 "smtexec.ml" 57 1874 1895
+)
+"smtexec.ml" 175 5709 5754 "smtexec.ml" 175 5709 5755
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref p "smtexec.ml" 173 5617 5627 "smtexec.ml" 173 5617 5628
+)
+"smtexec.ml" 175 5709 5756 "smtexec.ml" 175 5709 5760
+type(
+  Ast.exp
+)
+ident(
+  int_ref post "smtexec.ml" 174 5676 5686 "smtexec.ml" 174 5676 5690
+)
+"smtexec.ml" 175 5709 5736 "smtexec.ml" 175 5709 5760
+call(
+  stack
+)
+type(
+  Ast.exp * 'a list
+)
+"smtexec.ml" 176 5764 5774 "smtexec.ml" 176 5764 5782
+type(
+  Memory2array.state
+)
+"smtexec.ml" 176 5764 5785 "smtexec.ml" 176 5764 5810
+type(
+  unit -> Memory2array.state
+)
+ident(
+  ext_ref Memory2array.create_state
+)
+"smtexec.ml" 176 5764 5811 "smtexec.ml" 176 5764 5813
+type(
+  unit
+)
+"smtexec.ml" 176 5764 5785 "smtexec.ml" 176 5764 5813
+call(
+  stack
+)
+type(
+  Memory2array.state
+)
+"smtexec.ml" 177 5817 5827 "smtexec.ml" 177 5817 5829
+type(
+  Ast.exp
+)
+"smtexec.ml" 177 5817 5832 "smtexec.ml" 177 5817 5861
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * '_b ->
+  Memory2array.state -> Ast.exp -> Ast.exp
+)
+ident(
+  ext_ref Memory2array.coerce_exp_state
+)
+"smtexec.ml" 177 5817 5862 "smtexec.ml" 177 5817 5870
+type(
+  Memory2array.state
+)
+ident(
+  int_ref mem_hash "smtexec.ml" 176 5764 5774 "smtexec.ml" 176 5764 5782
+)
+"smtexec.ml" 177 5817 5871 "smtexec.ml" 177 5817 5873
+type(
+  Ast.exp
+)
+ident(
+  int_ref wp "smtexec.ml" 175 5709 5720 "smtexec.ml" 175 5709 5722
+)
+"smtexec.ml" 177 5817 5832 "smtexec.ml" 177 5817 5873
+call(
+  stack
+)
+type(
+  Ast.exp
+)
+"smtexec.ml" 178 5877 5887 "smtexec.ml" 178 5877 5894
+type(
+  Ast.var list
+)
+"smtexec.ml" 178 5877 5897 "smtexec.ml" 178 5877 5905
+type(
+  (Ast.var -> Ast.var) -> Ast.var list -> Ast.var list
+)
+ident(
+  ext_ref List.map
+)
+"smtexec.ml" 178 5877 5907 "smtexec.ml" 178 5877 5937
+type(
+  ?scope:(string, Ast.var) Hashtbl.t * '_c ->
+  Memory2array.state -> Ast.var -> Ast.var
+)
+ident(
+  ext_ref Memory2array.coerce_rvar_state
+)
+"smtexec.ml" 178 5877 5938 "smtexec.ml" 178 5877 5946
+type(
+  Memory2array.state
+)
+ident(
+  int_ref mem_hash "smtexec.ml" 176 5764 5774 "smtexec.ml" 176 5764 5782
+)
+"smtexec.ml" 178 5877 5906 "smtexec.ml" 178 5877 5947
+call(
+  stack
+)
+type(
+  Ast.var -> Ast.var
+)
+"smtexec.ml" 178 5877 5948 "smtexec.ml" 178 5877 5955
+type(
+  Ast.var list
+)
+ident(
+  int_ref foralls "smtexec.ml" 172 5550 5600 "smtexec.ml" 172 5550 5607
+)
+"smtexec.ml" 178 5877 5897 "smtexec.ml" 178 5877 5955
+call(
+  stack
+)
+type(
+  Ast.var list
+)
+"smtexec.ml" 180 5995 6001 "smtexec.ml" 180 5995 6014
+type(
+  ?exists:Ast.var list ->
+  ?foralls:Ast.var list -> ?remove:bool -> Ast.exp -> string
+)
+ident(
+  int_ref write_formula "smtexec.ml" 160 5000 5008 "smtexec.ml" 160 5000 5021
+)
+"smtexec.ml" 180 5995 6016 "smtexec.ml" 180 5995 6022
+type(
+  Ast.var list
+)
+ident(
+  int_ref exists "smtexec.ml" 172 5550 5587 "smtexec.ml" 172 5550 5593
+)
+"smtexec.ml" 180 5995 6024 "smtexec.ml" 180 5995 6031
+type(
+  Ast.var list
+)
+ident(
+  int_ref foralls "smtexec.ml" 178 5877 5887 "smtexec.ml" 178 5877 5894
+)
+"smtexec.ml" 180 5995 6033 "smtexec.ml" 180 5995 6039
+type(
+  bool option
+)
+ident(
+  int_ref remove "smtexec.ml" 172 5550 5578 "smtexec.ml" 172 5550 5584
+)
+"smtexec.ml" 180 5995 6040 "smtexec.ml" 180 5995 6042
+type(
+  Ast.exp
+)
+ident(
+  int_ref wp "smtexec.ml" 177 5817 5827 "smtexec.ml" 177 5817 5829
+)
+"smtexec.ml" 180 5995 6001 "smtexec.ml" 180 5995 6042
+call(
+  tail
+)
+type(
+  string
+)
+"smtexec.ml" 178 5877 5883 "smtexec.ml" 180 5995 6042
+type(
+  string
+)
+"smtexec.ml" 177 5817 5823 "smtexec.ml" 180 5995 6042
+type(
+  string
+)
+"smtexec.ml" 176 5764 5770 "smtexec.ml" 180 5995 6042
+type(
+  string
+)
+"smtexec.ml" 175 5709 5715 "smtexec.ml" 180 5995 6042
+type(
+  string
+)
+"smtexec.ml" 174 5676 5682 "smtexec.ml" 180 5995 6042
+type(
+  string
+)
+"smtexec.ml" 173 5617 5623 "smtexec.ml" 180 5995 6042
+type(
+  string
+)
+"smtexec.ml" 182 6044 6052 "smtexec.ml" 182 6044 6059
+type(
+  unit -> bool
+)
+ident(
+  def in_path "smtexec.ml" 185 6140 6144 "smtexec.ml" 225 7373 7378
+)
+"smtexec.ml" 182 6044 6060 "smtexec.ml" 182 6044 6062
+type(
+  unit
+)
+"smtexec.ml" 183 6065 6071 "smtexec.ml" 183 6065 6082
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"smtexec.ml" 183 6065 6084 "smtexec.ml" 183 6065 6098
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"smtexec.ml" 183 6065 6099 "smtexec.ml" 183 6065 6121
+type(
+  (string -> string, unit, string) format
+)
+"smtexec.ml" 183 6065 6122 "smtexec.ml" 183 6065 6132
+type(
+  string
+)
+ident(
+  ext_ref S.progname
+)
+"smtexec.ml" 183 6065 6083 "smtexec.ml" 183 6065 6133
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 183 6065 6071 "smtexec.ml" 183 6065 6133
+type(
+  int
+)
+"smtexec.ml" 183 6065 6134 "smtexec.ml" 183 6065 6136
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"smtexec.ml" 183 6065 6137 "smtexec.ml" 183 6065 6138
+type(
+  int
+)
+"smtexec.ml" 183 6065 6071 "smtexec.ml" 183 6065 6138
+type(
+  bool
+)
+"smtexec.ml" 185 6140 6148 "smtexec.ml" 185 6140 6166
+type(
+  ?timeout:int -> ?remove:bool -> ?getmodel:bool -> string -> result
+)
+ident(
+  def solve_formula_file "smtexec.ml" 211 6919 6923 "smtexec.ml" 225 7373 7378
+)
+"smtexec.ml" 185 6140 6168 "smtexec.ml" 185 6140 6175
+type(
+  int option
+)
+ident(
+  def timeout "smtexec.ml" 185 6140 6176 "smtexec.ml" 209 6902 6917
+)
+"smtexec.ml" 185 6140 6178 "smtexec.ml" 185 6140 6184
+type(
+  bool
+)
+"smtexec.ml" 185 6140 6185 "smtexec.ml" 185 6140 6190
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "smtexec.ml" 185 6140 6185 "smtexec.ml" 185 6140 6190
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "smtexec.ml" 185 6140 6185 "smtexec.ml" 185 6140 6190
+)
+"smtexec.ml" 185 6140 6194 "smtexec.ml" 185 6140 6202
+type(
+  bool
+)
+"smtexec.ml" 185 6140 6203 "smtexec.ml" 185 6140 6208
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "smtexec.ml" 185 6140 6203 "smtexec.ml" 185 6140 6208
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "smtexec.ml" 185 6140 6203 "smtexec.ml" 185 6140 6208
+)
+"smtexec.ml" 185 6140 6210 "smtexec.ml" 185 6140 6214
+type(
+  string
+)
+ident(
+  def file "smtexec.ml" 186 6217 6223 "smtexec.ml" 209 6902 6917
+)
+"smtexec.ml" 186 6217 6230 "smtexec.ml" 186 6217 6237
+type(
+  int option
+)
+ident(
+  int_ref timeout "smtexec.ml" 185 6140 6168 "smtexec.ml" 185 6140 6175
+)
+"smtexec.ml" 187 6243 6256 "smtexec.ml" 187 6243 6263
+type(
+  int
+)
+ident(
+  def timeout "smtexec.ml" 188 6267 6275 "smtexec.ml" 188 6267 6296
+)
+"smtexec.ml" 187 6243 6251 "smtexec.ml" 187 6243 6263
+type(
+  int option
+)
+"smtexec.ml" 188 6267 6275 "smtexec.ml" 188 6267 6281
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"smtexec.ml" 188 6267 6282 "smtexec.ml" 188 6267 6287
+type(
+  int -> int
+)
+ident(
+  ext_ref Unix.alarm
+)
+"smtexec.ml" 188 6267 6288 "smtexec.ml" 188 6267 6295
+type(
+  int
+)
+ident(
+  int_ref timeout "smtexec.ml" 187 6243 6256 "smtexec.ml" 187 6243 6263
+)
+"smtexec.ml" 188 6267 6281 "smtexec.ml" 188 6267 6296
+call(
+  stack
+)
+type(
+  int
+)
+"smtexec.ml" 188 6267 6275 "smtexec.ml" 188 6267 6296
+type(
+  unit
+)
+"smtexec.ml" 189 6297 6305 "smtexec.ml" 189 6297 6309
+type(
+  int option
+)
+"smtexec.ml" 189 6297 6313 "smtexec.ml" 189 6297 6315
+type(
+  unit
+)
+"smtexec.ml" 186 6217 6223 "smtexec.ml" 189 6297 6316
+type(
+  unit
+)
+"smtexec.ml" 190 6318 6328 "smtexec.ml" 190 6318 6335
+type(
+  string
+)
+"smtexec.ml" 190 6318 6338 "smtexec.ml" 190 6318 6348
+type(
+  string
+)
+ident(
+  ext_ref S.progname
+)
+"smtexec.ml" 190 6318 6349 "smtexec.ml" 190 6318 6350
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 190 6318 6351 "smtexec.ml" 190 6318 6354
+type(
+  string
+)
+"smtexec.ml" 190 6318 6355 "smtexec.ml" 190 6318 6356
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 190 6318 6357 "smtexec.ml" 190 6318 6365
+type(
+  string -> string
+)
+ident(
+  ext_ref S.cmdstr
+)
+"smtexec.ml" 190 6318 6366 "smtexec.ml" 190 6318 6370
+type(
+  string
+)
+ident(
+  int_ref file "smtexec.ml" 185 6140 6210 "smtexec.ml" 185 6140 6214
+)
+"smtexec.ml" 190 6318 6357 "smtexec.ml" 190 6318 6370
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 190 6318 6351 "smtexec.ml" 190 6318 6370
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 190 6318 6338 "smtexec.ml" 190 6318 6370
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 193 6385 6393 "smtexec.ml" 193 6385 6400
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"smtexec.ml" 193 6385 6401 "smtexec.ml" 193 6385 6416
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"smtexec.ml" 193 6385 6417 "smtexec.ml" 193 6385 6424
+type(
+  string
+)
+ident(
+  int_ref cmdline "smtexec.ml" 190 6318 6328 "smtexec.ml" 190 6318 6335
+)
+"smtexec.ml" 193 6385 6393 "smtexec.ml" 193 6385 6424
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 194 6426 6437 "smtexec.ml" 194 6426 6444
+type(
+  unit -> bool
+)
+ident(
+  int_ref in_path "smtexec.ml" 182 6044 6052 "smtexec.ml" 182 6044 6059
+)
+"smtexec.ml" 194 6426 6444 "smtexec.ml" 194 6426 6446
+type(
+  unit
+)
+"smtexec.ml" 194 6426 6437 "smtexec.ml" 194 6426 6446
+call(
+  stack
+)
+type(
+  bool
+)
+"smtexec.ml" 194 6426 6447 "smtexec.ml" 194 6426 6448
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smtexec.ml" 194 6426 6449 "smtexec.ml" 194 6426 6454
+type(
+  bool
+)
+"smtexec.ml" 194 6426 6437 "smtexec.ml" 194 6426 6454
+type(
+  bool
+)
+"smtexec.ml" 195 6460 6480 "smtexec.ml" 195 6460 6494
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"smtexec.ml" 195 6460 6495 "smtexec.ml" 195 6460 6526
+type(
+  (string -> string, unit, string) format
+)
+"smtexec.ml" 195 6460 6527 "smtexec.ml" 195 6460 6537
+type(
+  string
+)
+ident(
+  ext_ref S.progname
+)
+"smtexec.ml" 195 6460 6479 "smtexec.ml" 195 6460 6538
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 195 6460 6470 "smtexec.ml" 195 6460 6538
+type(
+  result
+)
+"smtexec.ml" 197 6554 6568 "smtexec.ml" 197 6554 6572
+type(
+  string
+)
+"smtexec.ml" 197 6554 6573 "smtexec.ml" 197 6554 6577
+type(
+  string
+)
+"smtexec.ml" 197 6554 6578 "smtexec.ml" 197 6554 6585
+type(
+  Unix.process_status
+)
+"smtexec.ml" 197 6554 6568 "smtexec.ml" 197 6554 6585
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 197 6554 6588 "smtexec.ml" 197 6554 6595
+type(
+  string -> string * string * Unix.process_status
+)
+ident(
+  int_ref syscall "smtexec.ml" 73 2395 2399 "smtexec.ml" 73 2395 2406
+)
+"smtexec.ml" 197 6554 6596 "smtexec.ml" 197 6554 6603
+type(
+  string
+)
+ident(
+  int_ref cmdline "smtexec.ml" 190 6318 6328 "smtexec.ml" 190 6318 6335
+)
+"smtexec.ml" 197 6554 6588 "smtexec.ml" 197 6554 6603
+call(
+  stack
+)
+type(
+  string * string * Unix.process_status
+)
+"smtexec.ml" 200 6643 6653 "smtexec.ml" 200 6643 6659
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"smtexec.ml" 200 6643 6660 "smtexec.ml" 200 6643 6665
+type(
+  int -> int
+)
+ident(
+  ext_ref Unix.alarm
+)
+"smtexec.ml" 200 6643 6666 "smtexec.ml" 200 6643 6667
+type(
+  int
+)
+"smtexec.ml" 200 6643 6659 "smtexec.ml" 200 6643 6668
+call(
+  stack
+)
+type(
+  int
+)
+"smtexec.ml" 200 6643 6653 "smtexec.ml" 200 6643 6668
+type(
+  unit
+)
+"smtexec.ml" 202 6671 6681 "smtexec.ml" 202 6671 6688
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"smtexec.ml" 202 6671 6689 "smtexec.ml" 202 6671 6708
+type(
+  (unit, unit, string, unit) format4
+)
+"smtexec.ml" 202 6671 6681 "smtexec.ml" 202 6671 6708
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 203 6710 6724 "smtexec.ml" 203 6710 6725
+type(
+  result
+)
+"smtexec.ml" 203 6710 6728 "smtexec.ml" 203 6710 6742
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  ext_ref S.parse_result
+)
+"smtexec.ml" 203 6710 6744 "smtexec.ml" 203 6710 6752
+type(
+  bool
+)
+ident(
+  int_ref getmodel "smtexec.ml" 185 6140 6194 "smtexec.ml" 185 6140 6202
+)
+"smtexec.ml" 203 6710 6753 "smtexec.ml" 203 6710 6757
+type(
+  string
+)
+ident(
+  int_ref sout "smtexec.ml" 197 6554 6568 "smtexec.ml" 197 6554 6572
+)
+"smtexec.ml" 203 6710 6758 "smtexec.ml" 203 6710 6762
+type(
+  string
+)
+ident(
+  int_ref serr "smtexec.ml" 197 6554 6573 "smtexec.ml" 197 6554 6577
+)
+"smtexec.ml" 203 6710 6763 "smtexec.ml" 203 6710 6770
+type(
+  Unix.process_status
+)
+ident(
+  int_ref pstatus "smtexec.ml" 197 6554 6578 "smtexec.ml" 197 6554 6585
+)
+"smtexec.ml" 203 6710 6728 "smtexec.ml" 203 6710 6770
+call(
+  stack
+)
+type(
+  result
+)
+"smtexec.ml" 204 6774 6787 "smtexec.ml" 204 6774 6793
+type(
+  bool
+)
+ident(
+  int_ref remove "smtexec.ml" 185 6140 6178 "smtexec.ml" 185 6140 6184
+)
+"smtexec.ml" 204 6774 6804 "smtexec.ml" 204 6774 6815
+type(
+  string -> unit
+)
+ident(
+  ext_ref Unix.unlink
+)
+"smtexec.ml" 204 6774 6816 "smtexec.ml" 204 6774 6820
+type(
+  string
+)
+ident(
+  int_ref file "smtexec.ml" 185 6140 6210 "smtexec.ml" 185 6140 6214
+)
+"smtexec.ml" 204 6774 6804 "smtexec.ml" 204 6774 6820
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 204 6774 6826 "smtexec.ml" 204 6774 6827
+type(
+  exn
+)
+"smtexec.ml" 204 6774 6831 "smtexec.ml" 204 6774 6833
+type(
+  unit
+)
+"smtexec.ml" 204 6774 6799 "smtexec.ml" 204 6774 6834
+type(
+  unit
+)
+"smtexec.ml" 204 6774 6784 "smtexec.ml" 204 6774 6834
+type(
+  unit
+)
+"smtexec.ml" 205 6836 6846 "smtexec.ml" 205 6836 6847
+type(
+  result
+)
+ident(
+  int_ref r "smtexec.ml" 203 6710 6724 "smtexec.ml" 203 6710 6725
+)
+"smtexec.ml" 204 6774 6784 "smtexec.ml" 205 6836 6847
+type(
+  result
+)
+"smtexec.ml" 203 6710 6720 "smtexec.ml" 205 6836 6847
+type(
+  result
+)
+"smtexec.ml" 202 6671 6681 "smtexec.ml" 205 6836 6847
+type(
+  result
+)
+"smtexec.ml" 200 6643 6653 "smtexec.ml" 205 6836 6847
+type(
+  result
+)
+"smtexec.ml" 196 6539 6552 "smtexec.ml" 205 6836 6848
+type(
+  result
+)
+"smtexec.ml" 194 6426 6434 "smtexec.ml" 205 6836 6848
+type(
+  result
+)
+"smtexec.ml" 193 6385 6393 "smtexec.ml" 205 6836 6848
+type(
+  result
+)
+"smtexec.ml" 207 6850 6873 "smtexec.ml" 207 6850 6878
+type(
+  int
+)
+ident(
+  def pid "smtexec.ml" 208 6882 6890 "smtexec.ml" 209 6902 6917
+)
+"smtexec.ml" 207 6850 6861 "smtexec.ml" 207 6850 6878
+type(
+  exn
+)
+"smtexec.ml" 208 6882 6890 "smtexec.ml" 208 6882 6894
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Unix.kill
+)
+"smtexec.ml" 208 6882 6895 "smtexec.ml" 208 6882 6898
+type(
+  int
+)
+ident(
+  int_ref pid "smtexec.ml" 207 6850 6873 "smtexec.ml" 207 6850 6878
+)
+"smtexec.ml" 208 6882 6899 "smtexec.ml" 208 6882 6900
+type(
+  int
+)
+"smtexec.ml" 208 6882 6890 "smtexec.ml" 208 6882 6900
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 209 6902 6910 "smtexec.ml" 209 6902 6917
+type(
+  result
+)
+"smtexec.ml" 208 6882 6890 "smtexec.ml" 209 6902 6917
+type(
+  result
+)
+"smtexec.ml" 192 6375 6381 "smtexec.ml" 209 6902 6917
+type(
+  result
+)
+"smtexec.ml" 190 6318 6324 "smtexec.ml" 209 6902 6917
+type(
+  result
+)
+"smtexec.ml" 186 6217 6223 "smtexec.ml" 209 6902 6917
+type(
+  result
+)
+"smtexec.ml" 211 6919 6927 "smtexec.ml" 211 6919 6945
+type(
+  ?timeout:int ->
+  ?remove:bool ->
+  ?exists:Ast.var list -> ?foralls:Ast.var list -> Ast.exp -> result
+)
+ident(
+  def check_exp_validity "smtexec.ml" 215 7108 7112 "smtexec.ml" 225 7373 7378
+)
+"smtexec.ml" 211 6919 6947 "smtexec.ml" 211 6919 6954
+type(
+  int option
+)
+ident(
+  def timeout "smtexec.ml" 211 6919 6955 "smtexec.ml" 213 7056 7106
+)
+"smtexec.ml" 211 6919 6957 "smtexec.ml" 211 6919 6963
+type(
+  bool
+)
+"smtexec.ml" 211 6919 6964 "smtexec.ml" 211 6919 6968
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "smtexec.ml" 211 6919 6964 "smtexec.ml" 211 6919 6968
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "smtexec.ml" 211 6919 6964 "smtexec.ml" 211 6919 6968
+)
+"smtexec.ml" 211 6919 6971 "smtexec.ml" 211 6919 6977
+type(
+  Ast.var list option
+)
+ident(
+  def exists "smtexec.ml" 211 6919 6978 "smtexec.ml" 213 7056 7106
+)
+"smtexec.ml" 211 6919 6979 "smtexec.ml" 211 6919 6986
+type(
+  Ast.var list option
+)
+ident(
+  def foralls "smtexec.ml" 211 6919 6987 "smtexec.ml" 213 7056 7106
+)
+"smtexec.ml" 211 6919 6987 "smtexec.ml" 211 6919 6988
+type(
+  Ast.exp
+)
+ident(
+  def f "smtexec.ml" 212 6991 6997 "smtexec.ml" 213 7056 7106
+)
+"smtexec.ml" 212 6991 7001 "smtexec.ml" 212 6991 7009
+type(
+  string
+)
+"smtexec.ml" 212 6991 7012 "smtexec.ml" 212 6991 7025
+type(
+  ?exists:Ast.var list ->
+  ?foralls:Ast.var list -> ?remove:bool -> Ast.exp -> string
+)
+ident(
+  int_ref write_formula "smtexec.ml" 160 5000 5008 "smtexec.ml" 160 5000 5021
+)
+"smtexec.ml" 212 6991 7027 "smtexec.ml" 212 6991 7033
+type(
+  Ast.var list option
+)
+ident(
+  int_ref exists "smtexec.ml" 211 6919 6971 "smtexec.ml" 211 6919 6977
+)
+"smtexec.ml" 212 6991 7035 "smtexec.ml" 212 6991 7042
+type(
+  Ast.var list option
+)
+ident(
+  int_ref foralls "smtexec.ml" 211 6919 6979 "smtexec.ml" 211 6919 6986
+)
+"smtexec.ml" 212 6991 7044 "smtexec.ml" 212 6991 7050
+type(
+  bool
+)
+ident(
+  int_ref remove "smtexec.ml" 211 6919 6957 "smtexec.ml" 211 6919 6963
+)
+"smtexec.ml" 212 6991 7051 "smtexec.ml" 212 6991 7052
+type(
+  Ast.exp
+)
+ident(
+  int_ref f "smtexec.ml" 211 6919 6987 "smtexec.ml" 211 6919 6988
+)
+"smtexec.ml" 212 6991 7012 "smtexec.ml" 212 6991 7052
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 213 7056 7062 "smtexec.ml" 213 7056 7080
+type(
+  ?timeout:int -> ?remove:bool -> ?getmodel:bool -> string -> result
+)
+ident(
+  int_ref solve_formula_file "smtexec.ml" 185 6140 6148 "smtexec.ml" 185 6140 6166
+)
+"smtexec.ml" 213 7056 7082 "smtexec.ml" 213 7056 7088
+type(
+  bool
+)
+ident(
+  int_ref remove "smtexec.ml" 211 6919 6957 "smtexec.ml" 211 6919 6963
+)
+"smtexec.ml" 213 7056 7090 "smtexec.ml" 213 7056 7097
+type(
+  int option
+)
+ident(
+  int_ref timeout "smtexec.ml" 211 6919 6947 "smtexec.ml" 211 6919 6954
+)
+"smtexec.ml" 213 7056 7098 "smtexec.ml" 213 7056 7106
+type(
+  string
+)
+ident(
+  int_ref filename "smtexec.ml" 212 6991 7001 "smtexec.ml" 212 6991 7009
+)
+"smtexec.ml" 213 7056 7062 "smtexec.ml" 213 7056 7106
+call(
+  tail
+)
+type(
+  result
+)
+"smtexec.ml" 212 6991 6997 "smtexec.ml" 213 7056 7106
+type(
+  result
+)
+"smtexec.ml" 215 7108 7128 "smtexec.ml" 215 7108 7134
+type(
+  < in_path : unit -> bool; printer : Formulap.fppf;
+    solve_formula_file : ?timeout:int ->
+                         ?remove:bool -> ?getmodel:bool -> string -> result;
+    solvername : string; streaming_printer : Formulap.stream_fppf; .. >
+)
+"smtexec.ml" 216 7135 7158 "smtexec.ml" 216 7135 7165
+type(
+  unit -> bool
+)
+type(
+  unit -> bool
+)
+ident(
+  int_ref in_path "smtexec.ml" 182 6044 6052 "smtexec.ml" 182 6044 6059
+)
+"smtexec.ml" 217 7166 7189 "smtexec.ml" 217 7166 7198
+type(
+  Formulap.fppf
+)
+type(
+  Formulap.fppf
+)
+ident(
+  ext_ref S.printer
+)
+"smtexec.ml" 218 7199 7233 "smtexec.ml" 218 7199 7251
+type(
+  ?timeout:int -> ?remove:bool -> ?getmodel:bool -> string -> result
+)
+type(
+  ?timeout:int -> ?remove:bool -> ?getmodel:bool -> string -> result
+)
+ident(
+  int_ref solve_formula_file "smtexec.ml" 185 6140 6148 "smtexec.ml" 185 6140 6166
+)
+"smtexec.ml" 219 7252 7278 "smtexec.ml" 219 7252 7290
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  ext_ref S.solvername
+)
+"smtexec.ml" 220 7291 7324 "smtexec.ml" 220 7291 7343
+type(
+  Formulap.stream_fppf
+)
+type(
+  Formulap.stream_fppf
+)
+ident(
+  ext_ref S.streaming_printer
+)
+"smtexec.ml" 223 7353 7361 "smtexec.ml" 223 7353 7363
+type(
+  c
+)
+ident(
+  def si "smtexec.ml" 223 7353 7371 "smtexec.ml" 225 7373 7378
+)
+"smtexec.ml" 223 7353 7366 "smtexec.ml" 223 7353 7371
+type(
+  c
+)
+"smtexec.ml" 227 7382 7386 "smtexec.ml" 227 7382 7397
+type(
+  string -> string -> (string * Big_int_Z.big_int) list option
+)
+ident(
+  def parse_model "smtexec.ml" 242 7880 7880 --
+)
+"smtexec.ml" 227 7382 7398 "smtexec.ml" 227 7382 7404
+type(
+  string
+)
+ident(
+  def solver "smtexec.ml" 227 7382 7405 "smtexec.ml" 240 7870 7878
+)
+"smtexec.ml" 227 7382 7405 "smtexec.ml" 227 7382 7406
+type(
+  string
+)
+ident(
+  def s "smtexec.ml" 228 7409 7411 "smtexec.ml" 240 7870 7878
+)
+"smtexec.ml" 228 7409 7411 "smtexec.ml" 228 7409 7418
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"smtexec.ml" 228 7409 7419 "smtexec.ml" 228 7409 7442
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"smtexec.ml" 228 7409 7443 "smtexec.ml" 228 7409 7449
+type(
+  string
+)
+ident(
+  int_ref solver "smtexec.ml" 227 7382 7398 "smtexec.ml" 227 7382 7404
+)
+"smtexec.ml" 228 7409 7450 "smtexec.ml" 228 7409 7451
+type(
+  string
+)
+ident(
+  int_ref s "smtexec.ml" 227 7382 7405 "smtexec.ml" 227 7382 7406
+)
+"smtexec.ml" 228 7409 7411 "smtexec.ml" 228 7409 7451
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 230 7459 7467 "smtexec.ml" 230 7459 7473
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "smtexec.ml" 231 7500 7504 "smtexec.ml" 238 7827 7839
+)
+"smtexec.ml" 230 7459 7476 "smtexec.ml" 230 7459 7494
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"smtexec.ml" 230 7459 7495 "smtexec.ml" 230 7459 7496
+type(
+  string
+)
+ident(
+  int_ref s "smtexec.ml" 227 7382 7405 "smtexec.ml" 227 7382 7406
+)
+"smtexec.ml" 230 7459 7476 "smtexec.ml" 230 7459 7496
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"smtexec.ml" 231 7500 7508 "smtexec.ml" 231 7500 7516
+type(
+  (string * Big_int_Z.big_int) list option
+)
+ident(
+  def solution "smtexec.ml" 237 7796 7800 "smtexec.ml" 238 7827 7839
+)
+"smtexec.ml" 231 7500 7525 "smtexec.ml" 231 7500 7531
+type(
+  string
+)
+ident(
+  int_ref solver "smtexec.ml" 227 7382 7398 "smtexec.ml" 227 7382 7404
+)
+"smtexec.ml" 232 7537 7545 "smtexec.ml" 232 7537 7550
+type(
+  string
+)
+"smtexec.ml" 232 7537 7554 "smtexec.ml" 232 7537 7570
+type(
+  (Lexing.lexbuf -> Stp_grammar.token) ->
+  Lexing.lexbuf -> (string * Big_int_Z.big_int) list option
+)
+ident(
+  ext_ref Stp_grammar.main
+)
+"smtexec.ml" 232 7537 7571 "smtexec.ml" 232 7537 7586
+type(
+  Lexing.lexbuf -> Stp_grammar.token
+)
+ident(
+  ext_ref Stp_lexer.token
+)
+"smtexec.ml" 232 7537 7587 "smtexec.ml" 232 7537 7593
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "smtexec.ml" 230 7459 7467 "smtexec.ml" 230 7459 7473
+)
+"smtexec.ml" 232 7537 7554 "smtexec.ml" 232 7537 7593
+call(
+  stack
+)
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 233 7594 7602 "smtexec.ml" 233 7594 7608
+type(
+  string
+)
+"smtexec.ml" 233 7594 7612 "smtexec.ml" 233 7594 7629
+type(
+  (Lexing.lexbuf -> Cvc3_grammar.token) ->
+  Lexing.lexbuf -> (string * Big_int_Z.big_int) list option
+)
+ident(
+  ext_ref Cvc3_grammar.main
+)
+"smtexec.ml" 233 7594 7630 "smtexec.ml" 233 7594 7646
+type(
+  Lexing.lexbuf -> Cvc3_grammar.token
+)
+ident(
+  ext_ref Cvc3_lexer.token
+)
+"smtexec.ml" 233 7594 7647 "smtexec.ml" 233 7594 7653
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "smtexec.ml" 230 7459 7467 "smtexec.ml" 230 7459 7473
+)
+"smtexec.ml" 233 7594 7612 "smtexec.ml" 233 7594 7653
+call(
+  stack
+)
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 234 7654 7662 "smtexec.ml" 234 7654 7669
+type(
+  string
+)
+"smtexec.ml" 234 7654 7673 "smtexec.ml" 234 7654 7691
+type(
+  (Lexing.lexbuf -> Yices_grammar.token) ->
+  Lexing.lexbuf -> (string * Big_int_Z.big_int) list option
+)
+ident(
+  ext_ref Yices_grammar.main
+)
+"smtexec.ml" 234 7654 7692 "smtexec.ml" 234 7654 7709
+type(
+  Lexing.lexbuf -> Yices_grammar.token
+)
+ident(
+  ext_ref Yices_lexer.token
+)
+"smtexec.ml" 234 7654 7710 "smtexec.ml" 234 7654 7716
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "smtexec.ml" 230 7459 7467 "smtexec.ml" 230 7459 7473
+)
+"smtexec.ml" 234 7654 7673 "smtexec.ml" 234 7654 7716
+call(
+  stack
+)
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 235 7717 7725 "smtexec.ml" 235 7717 7730
+type(
+  string
+)
+ident(
+  def other "smtexec.ml" 235 7717 7734 "smtexec.ml" 235 7717 7788
+)
+"smtexec.ml" 235 7717 7734 "smtexec.ml" 235 7717 7741
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.wprintf
+)
+"smtexec.ml" 235 7717 7742 "smtexec.ml" 235 7717 7776
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"smtexec.ml" 235 7717 7777 "smtexec.ml" 235 7717 7782
+type(
+  string
+)
+ident(
+  int_ref other "smtexec.ml" 235 7717 7725 "smtexec.ml" 235 7717 7730
+)
+"smtexec.ml" 235 7717 7734 "smtexec.ml" 235 7717 7782
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 235 7717 7784 "smtexec.ml" 235 7717 7788
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 235 7717 7734 "smtexec.ml" 235 7717 7788
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 231 7500 7519 "smtexec.ml" 235 7717 7788
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 237 7796 7800 "smtexec.ml" 237 7796 7818
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Lexing.flush_input
+)
+"smtexec.ml" 237 7796 7819 "smtexec.ml" 237 7796 7825
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "smtexec.ml" 230 7459 7467 "smtexec.ml" 230 7459 7473
+)
+"smtexec.ml" 237 7796 7800 "smtexec.ml" 237 7796 7825
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 238 7827 7831 "smtexec.ml" 238 7827 7839
+type(
+  (string * Big_int_Z.big_int) list option
+)
+ident(
+  int_ref solution "smtexec.ml" 231 7500 7508 "smtexec.ml" 231 7500 7516
+)
+"smtexec.ml" 237 7796 7800 "smtexec.ml" 238 7827 7839
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 231 7500 7504 "smtexec.ml" 238 7827 7839
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 230 7459 7463 "smtexec.ml" 238 7827 7839
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 239 7840 7847 "smtexec.ml" 239 7840 7866
+type(
+  exn
+)
+"smtexec.ml" 240 7870 7874 "smtexec.ml" 240 7870 7878
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 229 7453 7455 "smtexec.ml" 240 7870 7878
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 228 7409 7411 "smtexec.ml" 240 7870 7878
+type(
+  (string * Big_int_Z.big_int) list option
+)
+"smtexec.ml" 244 7905 7911 "smtexec.ml" 244 7905 7921
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 245 7930 7932 "smtexec.ml" 271 8883 8886
+)
+"smtexec.ml" 244 7905 7924 "smtexec.ml" 244 7905 7929
+type(
+  string
+)
+"smtexec.ml" 245 7930 7936 "smtexec.ml" 245 7930 7944
+type(
+  string
+)
+ident(
+  def progname "smtexec.ml" 246 7953 7955 "smtexec.ml" 271 8883 8886
+)
+"smtexec.ml" 245 7930 7947 "smtexec.ml" 245 7930 7952
+type(
+  string
+)
+"smtexec.ml" 246 7953 7959 "smtexec.ml" 246 7953 7965
+type(
+  string -> string
+)
+ident(
+  def cmdstr "smtexec.ml" 247 7980 7982 "smtexec.ml" 271 8883 8886
+)
+"smtexec.ml" 246 7953 7966 "smtexec.ml" 246 7953 7967
+type(
+  string
+)
+ident(
+  def f "smtexec.ml" 246 7953 7970 "smtexec.ml" 246 7953 7979
+)
+"smtexec.ml" 246 7953 7970 "smtexec.ml" 246 7953 7975
+type(
+  string
+)
+"smtexec.ml" 246 7953 7976 "smtexec.ml" 246 7953 7977
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 246 7953 7978 "smtexec.ml" 246 7953 7979
+type(
+  string
+)
+ident(
+  int_ref f "smtexec.ml" 246 7953 7966 "smtexec.ml" 246 7953 7967
+)
+"smtexec.ml" 246 7953 7970 "smtexec.ml" 246 7953 7979
+call(
+  tail
+)
+type(
+  string
+)
+"smtexec.ml" 247 7980 7986 "smtexec.ml" 247 7980 8006
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result_builder "smtexec.ml" 268 8711 8713 "smtexec.ml" 271 8883 8886
+)
+"smtexec.ml" 247 7980 8007 "smtexec.ml" 247 7980 8017
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 247 7980 8018 "smtexec.ml" 267 8668 8710
+)
+"smtexec.ml" 247 7980 8020 "smtexec.ml" 247 7980 8028
+type(
+  bool
+)
+"smtexec.ml" 247 7980 8029 "smtexec.ml" 247 7980 8034
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "smtexec.ml" 247 7980 8029 "smtexec.ml" 247 7980 8034
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "smtexec.ml" 247 7980 8029 "smtexec.ml" 247 7980 8034
+)
+"smtexec.ml" 247 7980 8036 "smtexec.ml" 247 7980 8042
+type(
+  string
+)
+ident(
+  def stdout "smtexec.ml" 247 7980 8043 "smtexec.ml" 267 8668 8710
+)
+"smtexec.ml" 247 7980 8043 "smtexec.ml" 247 7980 8049
+type(
+  string
+)
+ident(
+  def stderr "smtexec.ml" 247 7980 8050 "smtexec.ml" 267 8668 8710
+)
+"smtexec.ml" 247 7980 8050 "smtexec.ml" 247 7980 8057
+type(
+  Unix.process_status
+)
+ident(
+  def pstatus "smtexec.ml" 248 8060 8064 "smtexec.ml" 267 8668 8710
+)
+"smtexec.ml" 248 8060 8068 "smtexec.ml" 248 8060 8076
+type(
+  bool
+)
+"smtexec.ml" 248 8060 8085 "smtexec.ml" 248 8060 8092
+type(
+  Unix.process_status
+)
+ident(
+  int_ref pstatus "smtexec.ml" 247 7980 8050 "smtexec.ml" 247 7980 8057
+)
+"smtexec.ml" 249 8098 8113 "smtexec.ml" 249 8098 8116
+type(
+  int
+)
+ident(
+  def c "smtexec.ml" 249 8098 8120 "smtexec.ml" 249 8098 8125
+)
+"smtexec.ml" 249 8098 8106 "smtexec.ml" 249 8098 8116
+type(
+  Unix.process_status
+)
+"smtexec.ml" 249 8098 8120 "smtexec.ml" 249 8098 8121
+type(
+  int
+)
+ident(
+  int_ref c "smtexec.ml" 249 8098 8113 "smtexec.ml" 249 8098 8116
+)
+"smtexec.ml" 249 8098 8122 "smtexec.ml" 249 8098 8123
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"smtexec.ml" 249 8098 8124 "smtexec.ml" 249 8098 8125
+type(
+  int
+)
+"smtexec.ml" 249 8098 8120 "smtexec.ml" 249 8098 8125
+type(
+  bool
+)
+"smtexec.ml" 250 8126 8134 "smtexec.ml" 250 8126 8135
+type(
+  Unix.process_status
+)
+"smtexec.ml" 250 8126 8139 "smtexec.ml" 250 8126 8143
+type(
+  bool
+)
+"smtexec.ml" 248 8060 8079 "smtexec.ml" 250 8126 8143
+type(
+  bool
+)
+"smtexec.ml" 252 8151 8159 "smtexec.ml" 252 8151 8163
+type(
+  bool
+)
+"smtexec.ml" 252 8151 8166 "smtexec.ml" 252 8151 8174
+type(
+  bool
+)
+ident(
+  int_ref failstat "smtexec.ml" 248 8060 8068 "smtexec.ml" 248 8060 8076
+)
+"smtexec.ml" 252 8151 8175 "smtexec.ml" 252 8151 8177
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"smtexec.ml" 252 8151 8178 "smtexec.ml" 252 8151 8194
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.exists
+)
+"smtexec.ml" 252 8151 8195 "smtexec.ml" 252 8151 8201
+type(
+  string
+)
+ident(
+  int_ref stderr "smtexec.ml" 247 7980 8043 "smtexec.ml" 247 7980 8049
+)
+"smtexec.ml" 252 8151 8202 "smtexec.ml" 252 8151 8209
+type(
+  string
+)
+"smtexec.ml" 252 8151 8178 "smtexec.ml" 252 8151 8209
+call(
+  stack
+)
+type(
+  bool
+)
+"smtexec.ml" 252 8151 8166 "smtexec.ml" 252 8151 8209
+type(
+  bool
+)
+"smtexec.ml" 253 8213 8221 "smtexec.ml" 253 8213 8230
+type(
+  bool
+)
+"smtexec.ml" 253 8213 8233 "smtexec.ml" 253 8213 8249
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.exists
+)
+"smtexec.ml" 253 8213 8250 "smtexec.ml" 253 8213 8256
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 247 7980 8036 "smtexec.ml" 247 7980 8042
+)
+"smtexec.ml" 253 8213 8257 "smtexec.ml" 253 8213 8267
+type(
+  string
+)
+"smtexec.ml" 253 8213 8233 "smtexec.ml" 253 8213 8267
+call(
+  stack
+)
+type(
+  bool
+)
+"smtexec.ml" 254 8271 8279 "smtexec.ml" 254 8271 8286
+type(
+  bool
+)
+"smtexec.ml" 254 8271 8289 "smtexec.ml" 254 8271 8305
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.exists
+)
+"smtexec.ml" 254 8271 8306 "smtexec.ml" 254 8271 8312
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 247 7980 8036 "smtexec.ml" 247 7980 8042
+)
+"smtexec.ml" 254 8271 8313 "smtexec.ml" 254 8271 8321
+type(
+  string
+)
+"smtexec.ml" 254 8271 8289 "smtexec.ml" 254 8271 8321
+call(
+  stack
+)
+type(
+  bool
+)
+"smtexec.ml" 258 8392 8399 "smtexec.ml" 258 8392 8406
+type(
+  bool
+)
+ident(
+  int_ref isvalid "smtexec.ml" 254 8271 8279 "smtexec.ml" 254 8271 8286
+)
+"smtexec.ml" 259 8412 8418 "smtexec.ml" 259 8412 8423
+type(
+  result
+)
+"smtexec.ml" 260 8424 8436 "smtexec.ml" 260 8424 8445
+type(
+  bool
+)
+ident(
+  int_ref isinvalid "smtexec.ml" 253 8213 8221 "smtexec.ml" 253 8213 8230
+)
+"smtexec.ml" 261 8453 8471 "smtexec.ml" 261 8453 8479
+type(
+  bool
+)
+ident(
+  int_ref getmodel "smtexec.ml" 247 7980 8020 "smtexec.ml" 247 7980 8028
+)
+"smtexec.ml" 261 8453 8485 "smtexec.ml" 261 8453 8496
+type(
+  string -> string -> model
+)
+ident(
+  int_ref parse_model "smtexec.ml" 227 7382 7386 "smtexec.ml" 227 7382 7397
+)
+"smtexec.ml" 261 8453 8497 "smtexec.ml" 261 8453 8507
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 247 7980 8007 "smtexec.ml" 247 7980 8017
+)
+"smtexec.ml" 261 8453 8508 "smtexec.ml" 261 8453 8514
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 247 7980 8036 "smtexec.ml" 247 7980 8042
+)
+"smtexec.ml" 261 8453 8485 "smtexec.ml" 261 8453 8514
+call(
+  stack
+)
+type(
+  model
+)
+"smtexec.ml" 261 8453 8520 "smtexec.ml" 261 8453 8524
+type(
+  model
+)
+"smtexec.ml" 261 8453 8467 "smtexec.ml" 261 8453 8525
+type(
+  model
+)
+"smtexec.ml" 260 8424 8451 "smtexec.ml" 262 8526 8531
+type(
+  result
+)
+"smtexec.ml" 262 8526 8540 "smtexec.ml" 262 8526 8544
+type(
+  bool
+)
+ident(
+  int_ref fail "smtexec.ml" 252 8151 8159 "smtexec.ml" 252 8151 8163
+)
+"smtexec.ml" 263 8552 8558 "smtexec.ml" 263 8552 8565
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"smtexec.ml" 263 8552 8566 "smtexec.ml" 263 8552 8589
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"smtexec.ml" 263 8552 8590 "smtexec.ml" 263 8552 8596
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 247 7980 8036 "smtexec.ml" 247 7980 8042
+)
+"smtexec.ml" 263 8552 8597 "smtexec.ml" 263 8552 8603
+type(
+  string
+)
+ident(
+  int_ref stderr "smtexec.ml" 247 7980 8043 "smtexec.ml" 247 7980 8049
+)
+"smtexec.ml" 263 8552 8558 "smtexec.ml" 263 8552 8603
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 264 8605 8621 "smtexec.ml" 264 8605 8642
+type(
+  string
+)
+"smtexec.ml" 264 8605 8643 "smtexec.ml" 264 8605 8644
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 264 8605 8645 "smtexec.ml" 264 8605 8651
+type(
+  string
+)
+ident(
+  int_ref stderr "smtexec.ml" 247 7980 8043 "smtexec.ml" 247 7980 8049
+)
+"smtexec.ml" 264 8605 8620 "smtexec.ml" 264 8605 8652
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 264 8605 8611 "smtexec.ml" 264 8605 8652
+type(
+  result
+)
+"smtexec.ml" 262 8526 8550 "smtexec.ml" 265 8653 8658
+type(
+  result
+)
+"smtexec.ml" 267 8668 8674 "smtexec.ml" 267 8668 8682
+type(
+  string -> result
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"smtexec.ml" 267 8668 8683 "smtexec.ml" 267 8668 8710
+type(
+  string
+)
+"smtexec.ml" 267 8668 8674 "smtexec.ml" 267 8668 8710
+call(
+  tail
+)
+type(
+  result
+)
+"smtexec.ml" 262 8526 8537 "smtexec.ml" 267 8668 8710
+type(
+  result
+)
+"smtexec.ml" 260 8424 8433 "smtexec.ml" 267 8668 8710
+type(
+  result
+)
+"smtexec.ml" 258 8392 8396 "smtexec.ml" 267 8668 8710
+type(
+  result
+)
+"smtexec.ml" 254 8271 8275 "smtexec.ml" 267 8668 8710
+type(
+  result
+)
+"smtexec.ml" 253 8213 8217 "smtexec.ml" 267 8668 8710
+type(
+  result
+)
+"smtexec.ml" 252 8151 8155 "smtexec.ml" 267 8668 8710
+type(
+  result
+)
+"smtexec.ml" 248 8060 8064 "smtexec.ml" 267 8668 8710
+type(
+  result
+)
+"smtexec.ml" 268 8711 8717 "smtexec.ml" 268 8711 8729
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result "smtexec.ml" 269 8764 8766 "smtexec.ml" 271 8883 8886
+)
+"smtexec.ml" 268 8711 8732 "smtexec.ml" 268 8711 8752
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  int_ref parse_result_builder "smtexec.ml" 247 7980 7986 "smtexec.ml" 247 7980 8006
+)
+"smtexec.ml" 268 8711 8753 "smtexec.ml" 268 8711 8763
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 244 7905 7911 "smtexec.ml" 244 7905 7921
+)
+"smtexec.ml" 268 8711 8732 "smtexec.ml" 268 8711 8763
+call(
+  stack
+)
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+"smtexec.ml" 269 8764 8770 "smtexec.ml" 269 8764 8777
+type(
+  Formulap.fppf
+)
+ident(
+  def printer "smtexec.ml" 270 8815 8817 "smtexec.ml" 271 8883 8886
+)
+"smtexec.ml" 269 8764 8781 "smtexec.ml" 269 8764 8796
+type(
+  Formulap.fppf
+)
+type(
+  out_channel -> Stp.pp_oc
+)
+"smtexec.ml" 270 8815 8821 "smtexec.ml" 270 8815 8838
+type(
+  Formulap.stream_fppf
+)
+ident(
+  def streaming_printer "smtexec.ml" 270 8815 8882 "smtexec.ml" 271 8883 8886
+)
+"smtexec.ml" 270 8815 8842 "smtexec.ml" 270 8815 8857
+type(
+  Formulap.stream_fppf
+)
+type(
+  out_channel -> Stp.pp_oc
+)
+"smtexec.ml" 273 8888 8901 "smtexec.ml" 273 8888 8915
+call(
+  stack
+)
+"smtexec.ml" 277 8948 8954 "smtexec.ml" 277 8948 8964
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 278 8980 8982 "smtexec.ml" 303 9954 9957
+)
+"smtexec.ml" 277 8948 8967 "smtexec.ml" 277 8948 8979
+type(
+  string
+)
+"smtexec.ml" 278 8980 8986 "smtexec.ml" 278 8980 8994
+type(
+  string
+)
+ident(
+  def progname "smtexec.ml" 279 9003 9005 "smtexec.ml" 303 9954 9957
+)
+"smtexec.ml" 278 8980 8997 "smtexec.ml" 278 8980 9002
+type(
+  string
+)
+"smtexec.ml" 279 9003 9009 "smtexec.ml" 279 9003 9015
+type(
+  string -> string
+)
+ident(
+  def cmdstr "smtexec.ml" 280 9040 9042 "smtexec.ml" 303 9954 9957
+)
+"smtexec.ml" 279 9003 9016 "smtexec.ml" 279 9003 9017
+type(
+  string
+)
+ident(
+  def f "smtexec.ml" 279 9003 9020 "smtexec.ml" 279 9003 9039
+)
+"smtexec.ml" 279 9003 9020 "smtexec.ml" 279 9003 9035
+type(
+  string
+)
+"smtexec.ml" 279 9003 9036 "smtexec.ml" 279 9003 9037
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 279 9003 9038 "smtexec.ml" 279 9003 9039
+type(
+  string
+)
+ident(
+  int_ref f "smtexec.ml" 279 9003 9016 "smtexec.ml" 279 9003 9017
+)
+"smtexec.ml" 279 9003 9020 "smtexec.ml" 279 9003 9039
+call(
+  tail
+)
+type(
+  string
+)
+"smtexec.ml" 280 9040 9046 "smtexec.ml" 280 9040 9066
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result_builder "smtexec.ml" 300 9756 9758 "smtexec.ml" 303 9954 9957
+)
+"smtexec.ml" 280 9040 9067 "smtexec.ml" 280 9040 9077
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 280 9040 9078 "smtexec.ml" 299 9711 9755
+)
+"smtexec.ml" 280 9040 9080 "smtexec.ml" 280 9040 9088
+type(
+  bool
+)
+"smtexec.ml" 280 9040 9089 "smtexec.ml" 280 9040 9094
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "smtexec.ml" 280 9040 9089 "smtexec.ml" 280 9040 9094
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "smtexec.ml" 280 9040 9089 "smtexec.ml" 280 9040 9094
+)
+"smtexec.ml" 280 9040 9096 "smtexec.ml" 280 9040 9102
+type(
+  string
+)
+ident(
+  def stdout "smtexec.ml" 280 9040 9103 "smtexec.ml" 299 9711 9755
+)
+"smtexec.ml" 280 9040 9103 "smtexec.ml" 280 9040 9109
+type(
+  string
+)
+ident(
+  def stderr "smtexec.ml" 280 9040 9110 "smtexec.ml" 299 9711 9755
+)
+"smtexec.ml" 280 9040 9110 "smtexec.ml" 280 9040 9117
+type(
+  Unix.process_status
+)
+ident(
+  def pstatus "smtexec.ml" 281 9120 9124 "smtexec.ml" 299 9711 9755
+)
+"smtexec.ml" 281 9120 9128 "smtexec.ml" 281 9120 9136
+type(
+  bool
+)
+"smtexec.ml" 281 9120 9145 "smtexec.ml" 281 9120 9152
+type(
+  Unix.process_status
+)
+ident(
+  int_ref pstatus "smtexec.ml" 280 9040 9110 "smtexec.ml" 280 9040 9117
+)
+"smtexec.ml" 282 9158 9173 "smtexec.ml" 282 9158 9176
+type(
+  int
+)
+ident(
+  def c "smtexec.ml" 282 9158 9180 "smtexec.ml" 282 9158 9185
+)
+"smtexec.ml" 282 9158 9166 "smtexec.ml" 282 9158 9176
+type(
+  Unix.process_status
+)
+"smtexec.ml" 282 9158 9180 "smtexec.ml" 282 9158 9181
+type(
+  int
+)
+ident(
+  int_ref c "smtexec.ml" 282 9158 9173 "smtexec.ml" 282 9158 9176
+)
+"smtexec.ml" 282 9158 9182 "smtexec.ml" 282 9158 9183
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"smtexec.ml" 282 9158 9184 "smtexec.ml" 282 9158 9185
+type(
+  int
+)
+"smtexec.ml" 282 9158 9180 "smtexec.ml" 282 9158 9185
+type(
+  bool
+)
+"smtexec.ml" 283 9186 9194 "smtexec.ml" 283 9186 9195
+type(
+  Unix.process_status
+)
+"smtexec.ml" 283 9186 9199 "smtexec.ml" 283 9186 9203
+type(
+  bool
+)
+"smtexec.ml" 281 9120 9139 "smtexec.ml" 283 9186 9203
+type(
+  bool
+)
+"smtexec.ml" 285 9211 9219 "smtexec.ml" 285 9211 9223
+type(
+  bool
+)
+"smtexec.ml" 285 9211 9226 "smtexec.ml" 285 9211 9234
+type(
+  bool
+)
+ident(
+  int_ref failstat "smtexec.ml" 281 9120 9128 "smtexec.ml" 281 9120 9136
+)
+"smtexec.ml" 285 9211 9235 "smtexec.ml" 285 9211 9237
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"smtexec.ml" 285 9211 9238 "smtexec.ml" 285 9211 9254
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.exists
+)
+"smtexec.ml" 285 9211 9255 "smtexec.ml" 285 9211 9261
+type(
+  string
+)
+ident(
+  int_ref stderr "smtexec.ml" 280 9040 9103 "smtexec.ml" 280 9040 9109
+)
+"smtexec.ml" 285 9211 9262 "smtexec.ml" 285 9211 9269
+type(
+  string
+)
+"smtexec.ml" 285 9211 9238 "smtexec.ml" 285 9211 9269
+call(
+  stack
+)
+type(
+  bool
+)
+"smtexec.ml" 285 9211 9226 "smtexec.ml" 285 9211 9269
+type(
+  bool
+)
+"smtexec.ml" 286 9273 9281 "smtexec.ml" 286 9273 9286
+type(
+  bool
+)
+"smtexec.ml" 286 9273 9289 "smtexec.ml" 286 9273 9305
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.exists
+)
+"smtexec.ml" 286 9273 9306 "smtexec.ml" 286 9273 9312
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 280 9040 9096 "smtexec.ml" 280 9040 9102
+)
+"smtexec.ml" 286 9273 9313 "smtexec.ml" 286 9273 9318
+type(
+  string
+)
+"smtexec.ml" 286 9273 9289 "smtexec.ml" 286 9273 9318
+call(
+  stack
+)
+type(
+  bool
+)
+"smtexec.ml" 287 9322 9330 "smtexec.ml" 287 9322 9337
+type(
+  bool
+)
+"smtexec.ml" 287 9322 9340 "smtexec.ml" 287 9322 9356
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.exists
+)
+"smtexec.ml" 287 9322 9357 "smtexec.ml" 287 9322 9363
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 280 9040 9096 "smtexec.ml" 280 9040 9102
+)
+"smtexec.ml" 287 9322 9364 "smtexec.ml" 287 9322 9371
+type(
+  string
+)
+"smtexec.ml" 287 9322 9340 "smtexec.ml" 287 9322 9371
+call(
+  stack
+)
+type(
+  bool
+)
+"smtexec.ml" 289 9376 9380 "smtexec.ml" 289 9376 9387
+type(
+  (bool -> bool -> bool -> unit, unit, string, unit) format4 ->
+  bool -> bool -> bool -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"smtexec.ml" 289 9376 9388 "smtexec.ml" 289 9376 9404
+type(
+  (bool -> bool -> bool -> unit, unit, string, unit) format4
+)
+"smtexec.ml" 289 9376 9405 "smtexec.ml" 289 9376 9409
+type(
+  bool
+)
+ident(
+  int_ref fail "smtexec.ml" 285 9211 9219 "smtexec.ml" 285 9211 9223
+)
+"smtexec.ml" 289 9376 9410 "smtexec.ml" 289 9376 9415
+type(
+  bool
+)
+ident(
+  int_ref issat "smtexec.ml" 286 9273 9281 "smtexec.ml" 286 9273 9286
+)
+"smtexec.ml" 289 9376 9416 "smtexec.ml" 289 9376 9423
+type(
+  bool
+)
+ident(
+  int_ref isunsat "smtexec.ml" 287 9322 9330 "smtexec.ml" 287 9322 9337
+)
+"smtexec.ml" 289 9376 9380 "smtexec.ml" 289 9376 9423
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 291 9426 9433 "smtexec.ml" 291 9426 9437
+type(
+  bool
+)
+ident(
+  int_ref fail "smtexec.ml" 285 9211 9219 "smtexec.ml" 285 9211 9223
+)
+"smtexec.ml" 292 9445 9451 "smtexec.ml" 292 9445 9458
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"smtexec.ml" 292 9445 9459 "smtexec.ml" 292 9445 9482
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"smtexec.ml" 292 9445 9483 "smtexec.ml" 292 9445 9489
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 280 9040 9096 "smtexec.ml" 280 9040 9102
+)
+"smtexec.ml" 292 9445 9490 "smtexec.ml" 292 9445 9496
+type(
+  string
+)
+ident(
+  int_ref stderr "smtexec.ml" 280 9040 9103 "smtexec.ml" 280 9040 9109
+)
+"smtexec.ml" 292 9445 9451 "smtexec.ml" 292 9445 9496
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 293 9498 9514 "smtexec.ml" 293 9498 9535
+type(
+  string
+)
+"smtexec.ml" 293 9498 9536 "smtexec.ml" 293 9498 9537
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 293 9498 9539 "smtexec.ml" 293 9498 9545
+type(
+  string
+)
+ident(
+  int_ref stderr "smtexec.ml" 280 9040 9103 "smtexec.ml" 280 9040 9109
+)
+"smtexec.ml" 293 9498 9545 "smtexec.ml" 293 9498 9546
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 293 9498 9546 "smtexec.ml" 293 9498 9552
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 280 9040 9096 "smtexec.ml" 280 9040 9102
+)
+"smtexec.ml" 293 9498 9538 "smtexec.ml" 293 9498 9553
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 293 9498 9513 "smtexec.ml" 293 9498 9554
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 293 9498 9504 "smtexec.ml" 293 9498 9554
+type(
+  result
+)
+"smtexec.ml" 291 9426 9443 "smtexec.ml" 294 9555 9560
+type(
+  result
+)
+"smtexec.ml" 294 9555 9569 "smtexec.ml" 294 9555 9576
+type(
+  bool
+)
+ident(
+  int_ref isunsat "smtexec.ml" 287 9322 9330 "smtexec.ml" 287 9322 9337
+)
+"smtexec.ml" 295 9582 9590 "smtexec.ml" 295 9582 9595
+type(
+  result
+)
+"smtexec.ml" 296 9596 9610 "smtexec.ml" 296 9596 9615
+type(
+  bool
+)
+ident(
+  int_ref issat "smtexec.ml" 286 9273 9281 "smtexec.ml" 286 9273 9286
+)
+"smtexec.ml" 297 9623 9643 "smtexec.ml" 297 9623 9651
+type(
+  bool
+)
+ident(
+  int_ref getmodel "smtexec.ml" 280 9040 9080 "smtexec.ml" 280 9040 9088
+)
+"smtexec.ml" 297 9623 9657 "smtexec.ml" 297 9623 9668
+type(
+  string -> string -> model
+)
+ident(
+  int_ref parse_model "smtexec.ml" 227 7382 7386 "smtexec.ml" 227 7382 7397
+)
+"smtexec.ml" 297 9623 9669 "smtexec.ml" 297 9623 9679
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 280 9040 9067 "smtexec.ml" 280 9040 9077
+)
+"smtexec.ml" 297 9623 9680 "smtexec.ml" 297 9623 9686
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 280 9040 9096 "smtexec.ml" 280 9040 9102
+)
+"smtexec.ml" 297 9623 9657 "smtexec.ml" 297 9623 9686
+call(
+  stack
+)
+type(
+  model
+)
+"smtexec.ml" 297 9623 9692 "smtexec.ml" 297 9623 9696
+type(
+  model
+)
+"smtexec.ml" 297 9623 9639 "smtexec.ml" 297 9623 9697
+type(
+  model
+)
+"smtexec.ml" 296 9596 9621 "smtexec.ml" 298 9698 9705
+type(
+  result
+)
+"smtexec.ml" 299 9711 9719 "smtexec.ml" 299 9711 9727
+type(
+  string -> result
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"smtexec.ml" 299 9711 9728 "smtexec.ml" 299 9711 9755
+type(
+  string
+)
+"smtexec.ml" 299 9711 9719 "smtexec.ml" 299 9711 9755
+call(
+  tail
+)
+type(
+  result
+)
+"smtexec.ml" 296 9596 9607 "smtexec.ml" 299 9711 9755
+type(
+  result
+)
+"smtexec.ml" 294 9555 9566 "smtexec.ml" 299 9711 9755
+type(
+  result
+)
+"smtexec.ml" 291 9426 9430 "smtexec.ml" 299 9711 9755
+type(
+  result
+)
+"smtexec.ml" 289 9376 9380 "smtexec.ml" 299 9711 9755
+type(
+  result
+)
+"smtexec.ml" 287 9322 9326 "smtexec.ml" 299 9711 9755
+type(
+  result
+)
+"smtexec.ml" 286 9273 9277 "smtexec.ml" 299 9711 9755
+type(
+  result
+)
+"smtexec.ml" 285 9211 9215 "smtexec.ml" 299 9711 9755
+type(
+  result
+)
+"smtexec.ml" 281 9120 9124 "smtexec.ml" 299 9711 9755
+type(
+  result
+)
+"smtexec.ml" 300 9756 9762 "smtexec.ml" 300 9756 9774
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result "smtexec.ml" 301 9809 9811 "smtexec.ml" 303 9954 9957
+)
+"smtexec.ml" 300 9756 9777 "smtexec.ml" 300 9756 9797
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  int_ref parse_result_builder "smtexec.ml" 280 9040 9046 "smtexec.ml" 280 9040 9066
+)
+"smtexec.ml" 300 9756 9798 "smtexec.ml" 300 9756 9808
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 277 8948 8954 "smtexec.ml" 277 8948 8964
+)
+"smtexec.ml" 300 9756 9777 "smtexec.ml" 300 9756 9808
+call(
+  stack
+)
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+"smtexec.ml" 301 9809 9815 "smtexec.ml" 301 9809 9822
+type(
+  Formulap.fppf
+)
+ident(
+  def printer "smtexec.ml" 302 9873 9875 "smtexec.ml" 303 9954 9957
+)
+"smtexec.ml" 301 9809 9827 "smtexec.ml" 301 9809 9844
+type(
+  ?opts:Smtlib2.option list -> out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 301 9809 9851 "smtexec.ml" 301 9809 9853
+type(
+  Smtlib2.option list
+)
+"smtexec.ml" 301 9809 9826 "smtexec.ml" 301 9809 9854
+call(
+  stack
+)
+type(
+  Formulap.fppf
+)
+type(
+  out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 302 9873 9879 "smtexec.ml" 302 9873 9896
+type(
+  Formulap.stream_fppf
+)
+ident(
+  def streaming_printer "smtexec.ml" 302 9873 9953 "smtexec.ml" 303 9954 9957
+)
+"smtexec.ml" 302 9873 9901 "smtexec.ml" 302 9873 9918
+type(
+  ?opts:Smtlib2.option list -> out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 302 9873 9925 "smtexec.ml" 302 9873 9927
+type(
+  Smtlib2.option list
+)
+"smtexec.ml" 302 9873 9900 "smtexec.ml" 302 9873 9928
+call(
+  stack
+)
+type(
+  Formulap.stream_fppf
+)
+type(
+  out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 305 9959 9978 "smtexec.ml" 305 9959 9998
+call(
+  stack
+)
+"smtexec.ml" 309 10026 10032 "smtexec.ml" 309 10026 10042
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 310 10052 10054 "smtexec.ml" 315 10288 10291
+)
+"smtexec.ml" 309 10026 10045 "smtexec.ml" 309 10026 10051
+type(
+  string
+)
+"smtexec.ml" 310 10052 10058 "smtexec.ml" 310 10052 10066
+type(
+  string
+)
+ident(
+  def progname "smtexec.ml" 311 10076 10078 "smtexec.ml" 315 10288 10291
+)
+"smtexec.ml" 310 10052 10069 "smtexec.ml" 310 10052 10075
+type(
+  string
+)
+"smtexec.ml" 311 10076 10082 "smtexec.ml" 311 10076 10088
+type(
+  string -> string
+)
+ident(
+  def cmdstr "smtexec.ml" 312 10107 10109 "smtexec.ml" 315 10288 10291
+)
+"smtexec.ml" 311 10076 10089 "smtexec.ml" 311 10076 10090
+type(
+  string
+)
+ident(
+  def f "smtexec.ml" 311 10076 10093 "smtexec.ml" 311 10076 10106
+)
+"smtexec.ml" 311 10076 10093 "smtexec.ml" 311 10076 10102
+type(
+  string
+)
+"smtexec.ml" 311 10076 10103 "smtexec.ml" 311 10076 10104
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 311 10076 10105 "smtexec.ml" 311 10076 10106
+type(
+  string
+)
+ident(
+  int_ref f "smtexec.ml" 311 10076 10089 "smtexec.ml" 311 10076 10090
+)
+"smtexec.ml" 311 10076 10093 "smtexec.ml" 311 10076 10106
+call(
+  tail
+)
+type(
+  string
+)
+"smtexec.ml" 312 10107 10113 "smtexec.ml" 312 10107 10125
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result "smtexec.ml" 313 10169 10171 "smtexec.ml" 315 10288 10291
+)
+"smtexec.ml" 312 10107 10128 "smtexec.ml" 312 10107 10157
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  ext_ref STP_INFO.parse_result_builder
+)
+"smtexec.ml" 312 10107 10158 "smtexec.ml" 312 10107 10168
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 309 10026 10032 "smtexec.ml" 309 10026 10042
+)
+"smtexec.ml" 312 10107 10128 "smtexec.ml" 312 10107 10168
+call(
+  stack
+)
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+"smtexec.ml" 313 10169 10175 "smtexec.ml" 313 10169 10182
+type(
+  Formulap.fppf
+)
+ident(
+  def printer "smtexec.ml" 314 10220 10222 "smtexec.ml" 315 10288 10291
+)
+"smtexec.ml" 313 10169 10186 "smtexec.ml" 313 10169 10201
+type(
+  Formulap.fppf
+)
+type(
+  out_channel -> Stp.pp_oc
+)
+"smtexec.ml" 314 10220 10226 "smtexec.ml" 314 10220 10243
+type(
+  Formulap.stream_fppf
+)
+ident(
+  def streaming_printer "smtexec.ml" 314 10220 10287 "smtexec.ml" 315 10288 10291
+)
+"smtexec.ml" 314 10220 10247 "smtexec.ml" 314 10220 10262
+type(
+  Formulap.stream_fppf
+)
+type(
+  out_channel -> Stp.pp_oc
+)
+"smtexec.ml" 317 10293 10307 "smtexec.ml" 317 10293 10322
+call(
+  stack
+)
+"smtexec.ml" 321 10356 10362 "smtexec.ml" 321 10356 10372
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 322 10389 10391 "smtexec.ml" 327 10645 10648
+)
+"smtexec.ml" 321 10356 10375 "smtexec.ml" 321 10356 10388
+type(
+  string
+)
+"smtexec.ml" 322 10389 10395 "smtexec.ml" 322 10389 10403
+type(
+  string
+)
+ident(
+  def progname "smtexec.ml" 323 10413 10415 "smtexec.ml" 327 10645 10648
+)
+"smtexec.ml" 322 10389 10406 "smtexec.ml" 322 10389 10412
+type(
+  string
+)
+"smtexec.ml" 323 10413 10419 "smtexec.ml" 323 10413 10425
+type(
+  string -> string
+)
+ident(
+  def cmdstr "smtexec.ml" 324 10450 10452 "smtexec.ml" 327 10645 10648
+)
+"smtexec.ml" 323 10413 10426 "smtexec.ml" 323 10413 10427
+type(
+  string
+)
+ident(
+  def f "smtexec.ml" 323 10413 10430 "smtexec.ml" 323 10413 10449
+)
+"smtexec.ml" 323 10413 10430 "smtexec.ml" 323 10413 10445
+type(
+  string
+)
+"smtexec.ml" 323 10413 10446 "smtexec.ml" 323 10413 10447
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 323 10413 10448 "smtexec.ml" 323 10413 10449
+type(
+  string
+)
+ident(
+  int_ref f "smtexec.ml" 323 10413 10426 "smtexec.ml" 323 10413 10427
+)
+"smtexec.ml" 323 10413 10430 "smtexec.ml" 323 10413 10449
+call(
+  tail
+)
+type(
+  string
+)
+"smtexec.ml" 324 10450 10456 "smtexec.ml" 324 10450 10468
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result "smtexec.ml" 325 10518 10520 "smtexec.ml" 327 10645 10648
+)
+"smtexec.ml" 324 10450 10471 "smtexec.ml" 324 10450 10506
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  ext_ref STPSMTLIB_INFO.parse_result_builder
+)
+"smtexec.ml" 324 10450 10507 "smtexec.ml" 324 10450 10517
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 321 10356 10362 "smtexec.ml" 321 10356 10372
+)
+"smtexec.ml" 324 10450 10471 "smtexec.ml" 324 10450 10517
+call(
+  stack
+)
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+"smtexec.ml" 325 10518 10524 "smtexec.ml" 325 10518 10531
+type(
+  Formulap.fppf
+)
+ident(
+  def printer "smtexec.ml" 326 10573 10575 "smtexec.ml" 327 10645 10648
+)
+"smtexec.ml" 325 10518 10535 "smtexec.ml" 325 10518 10554
+type(
+  Formulap.fppf
+)
+type(
+  out_channel -> Smtlib1.pp_oc
+)
+"smtexec.ml" 326 10573 10579 "smtexec.ml" 326 10573 10596
+type(
+  Formulap.stream_fppf
+)
+ident(
+  def streaming_printer "smtexec.ml" 326 10573 10644 "smtexec.ml" 327 10645 10648
+)
+"smtexec.ml" 326 10573 10600 "smtexec.ml" 326 10573 10619
+type(
+  Formulap.stream_fppf
+)
+type(
+  out_channel -> Smtlib1.pp_oc
+)
+"smtexec.ml" 329 10650 10670 "smtexec.ml" 329 10650 10691
+call(
+  stack
+)
+"smtexec.ml" 333 10720 10726 "smtexec.ml" 333 10720 10736
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 334 10747 10749 "smtexec.ml" 339 10990 10993
+)
+"smtexec.ml" 333 10720 10739 "smtexec.ml" 333 10720 10746
+type(
+  string
+)
+"smtexec.ml" 334 10747 10753 "smtexec.ml" 334 10747 10761
+type(
+  string
+)
+ident(
+  def progname "smtexec.ml" 335 10776 10778 "smtexec.ml" 339 10990 10993
+)
+"smtexec.ml" 334 10747 10764 "smtexec.ml" 334 10747 10775
+type(
+  string
+)
+"smtexec.ml" 335 10776 10782 "smtexec.ml" 335 10776 10788
+type(
+  'a -> 'a
+)
+ident(
+  def cmdstr "smtexec.ml" 336 10795 10797 "smtexec.ml" 339 10990 10993
+)
+"smtexec.ml" 335 10776 10789 "smtexec.ml" 335 10776 10790
+type(
+  'a
+)
+ident(
+  def f "smtexec.ml" 335 10776 10793 "smtexec.ml" 335 10776 10794
+)
+"smtexec.ml" 335 10776 10793 "smtexec.ml" 335 10776 10794
+type(
+  'a
+)
+ident(
+  int_ref f "smtexec.ml" 335 10776 10789 "smtexec.ml" 335 10776 10790
+)
+"smtexec.ml" 336 10795 10801 "smtexec.ml" 336 10795 10813
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result "smtexec.ml" 337 10863 10865 "smtexec.ml" 339 10990 10993
+)
+"smtexec.ml" 336 10795 10816 "smtexec.ml" 336 10795 10851
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  ext_ref STPSMTLIB_INFO.parse_result_builder
+)
+"smtexec.ml" 336 10795 10852 "smtexec.ml" 336 10795 10862
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 333 10720 10726 "smtexec.ml" 333 10720 10736
+)
+"smtexec.ml" 336 10795 10816 "smtexec.ml" 336 10795 10862
+call(
+  stack
+)
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+"smtexec.ml" 337 10863 10869 "smtexec.ml" 337 10863 10876
+type(
+  Formulap.fppf
+)
+ident(
+  def printer "smtexec.ml" 338 10918 10920 "smtexec.ml" 339 10990 10993
+)
+"smtexec.ml" 337 10863 10880 "smtexec.ml" 337 10863 10899
+type(
+  Formulap.fppf
+)
+type(
+  out_channel -> Smtlib1.pp_oc
+)
+"smtexec.ml" 338 10918 10924 "smtexec.ml" 338 10918 10941
+type(
+  Formulap.stream_fppf
+)
+ident(
+  def streaming_printer "smtexec.ml" 338 10918 10989 "smtexec.ml" 339 10990 10993
+)
+"smtexec.ml" 338 10918 10945 "smtexec.ml" 338 10918 10964
+type(
+  Formulap.stream_fppf
+)
+type(
+  out_channel -> Smtlib1.pp_oc
+)
+"smtexec.ml" 341 10995 11010 "smtexec.ml" 341 10995 11026
+call(
+  stack
+)
+"smtexec.ml" 345 11052 11058 "smtexec.ml" 345 11052 11068
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 346 11076 11078 "smtexec.ml" 351 11411 11414
+)
+"smtexec.ml" 345 11052 11071 "smtexec.ml" 345 11052 11075
+type(
+  string
+)
+"smtexec.ml" 346 11076 11082 "smtexec.ml" 346 11076 11090
+type(
+  string
+)
+ident(
+  def progname "smtexec.ml" 347 11098 11100 "smtexec.ml" 351 11411 11414
+)
+"smtexec.ml" 346 11076 11093 "smtexec.ml" 346 11076 11097
+type(
+  string
+)
+"smtexec.ml" 347 11098 11104 "smtexec.ml" 347 11098 11110
+type(
+  string -> string
+)
+ident(
+  def cmdstr "smtexec.ml" 348 11128 11130 "smtexec.ml" 351 11411 11414
+)
+"smtexec.ml" 347 11098 11111 "smtexec.ml" 347 11098 11112
+type(
+  string
+)
+ident(
+  def f "smtexec.ml" 347 11098 11115 "smtexec.ml" 347 11098 11127
+)
+"smtexec.ml" 347 11098 11115 "smtexec.ml" 347 11098 11123
+type(
+  string
+)
+"smtexec.ml" 347 11098 11124 "smtexec.ml" 347 11098 11125
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 347 11098 11126 "smtexec.ml" 347 11098 11127
+type(
+  string
+)
+ident(
+  int_ref f "smtexec.ml" 347 11098 11111 "smtexec.ml" 347 11098 11112
+)
+"smtexec.ml" 347 11098 11115 "smtexec.ml" 347 11098 11127
+call(
+  tail
+)
+type(
+  string
+)
+"smtexec.ml" 348 11128 11134 "smtexec.ml" 348 11128 11146
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result "smtexec.ml" 349 11196 11198 "smtexec.ml" 351 11411 11414
+)
+"smtexec.ml" 348 11128 11149 "smtexec.ml" 348 11128 11184
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  ext_ref STPSMTLIB_INFO.parse_result_builder
+)
+"smtexec.ml" 348 11128 11185 "smtexec.ml" 348 11128 11195
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 345 11052 11058 "smtexec.ml" 345 11052 11068
+)
+"smtexec.ml" 348 11128 11149 "smtexec.ml" 348 11128 11195
+call(
+  stack
+)
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+"smtexec.ml" 349 11196 11202 "smtexec.ml" 349 11196 11209
+type(
+  Formulap.fppf
+)
+ident(
+  def printer "smtexec.ml" 350 11295 11297 "smtexec.ml" 351 11411 11414
+)
+"smtexec.ml" 349 11196 11214 "smtexec.ml" 349 11196 11231
+type(
+  ?opts:Smtlib2.option list -> out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 349 11196 11239 "smtexec.ml" 349 11196 11274
+type(
+  Smtlib2.option
+)
+"smtexec.ml" 349 11196 11238 "smtexec.ml" 349 11196 11275
+type(
+  Smtlib2.option list
+)
+"smtexec.ml" 349 11196 11213 "smtexec.ml" 349 11196 11276
+call(
+  stack
+)
+type(
+  Formulap.fppf
+)
+type(
+  out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 350 11295 11301 "smtexec.ml" 350 11295 11318
+type(
+  Formulap.stream_fppf
+)
+ident(
+  def streaming_printer "smtexec.ml" 350 11295 11410 "smtexec.ml" 351 11411 11414
+)
+"smtexec.ml" 350 11295 11323 "smtexec.ml" 350 11295 11340
+type(
+  ?opts:Smtlib2.option list -> out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 350 11295 11348 "smtexec.ml" 350 11295 11383
+type(
+  Smtlib2.option
+)
+"smtexec.ml" 350 11295 11347 "smtexec.ml" 350 11295 11384
+type(
+  Smtlib2.option list
+)
+"smtexec.ml" 350 11295 11322 "smtexec.ml" 350 11295 11385
+call(
+  stack
+)
+type(
+  Formulap.stream_fppf
+)
+type(
+  out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 353 11416 11428 "smtexec.ml" 353 11416 11441
+call(
+  stack
+)
+"smtexec.ml" 357 11474 11480 "smtexec.ml" 357 11474 11490
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 358 11505 11507 "smtexec.ml" 384 12555 12558
+)
+"smtexec.ml" 357 11474 11493 "smtexec.ml" 357 11474 11504
+type(
+  string
+)
+"smtexec.ml" 358 11505 11511 "smtexec.ml" 358 11505 11519
+type(
+  string
+)
+ident(
+  def progname "smtexec.ml" 359 11534 11536 "smtexec.ml" 384 12555 12558
+)
+"smtexec.ml" 358 11505 11522 "smtexec.ml" 358 11505 11533
+type(
+  string
+)
+"smtexec.ml" 359 11534 11540 "smtexec.ml" 359 11534 11546
+type(
+  string -> string
+)
+ident(
+  def cmdstr "smtexec.ml" 360 11565 11567 "smtexec.ml" 384 12555 12558
+)
+"smtexec.ml" 359 11534 11547 "smtexec.ml" 359 11534 11548
+type(
+  string
+)
+ident(
+  def f "smtexec.ml" 359 11534 11551 "smtexec.ml" 359 11534 11564
+)
+"smtexec.ml" 359 11534 11551 "smtexec.ml" 359 11534 11560
+type(
+  string
+)
+"smtexec.ml" 359 11534 11561 "smtexec.ml" 359 11534 11562
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 359 11534 11563 "smtexec.ml" 359 11534 11564
+type(
+  string
+)
+ident(
+  int_ref f "smtexec.ml" 359 11534 11547 "smtexec.ml" 359 11534 11548
+)
+"smtexec.ml" 359 11534 11551 "smtexec.ml" 359 11534 11564
+call(
+  tail
+)
+type(
+  string
+)
+"smtexec.ml" 360 11565 11571 "smtexec.ml" 360 11565 11591
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result_builder "smtexec.ml" 381 12357 12359 "smtexec.ml" 384 12555 12558
+)
+"smtexec.ml" 360 11565 11592 "smtexec.ml" 360 11565 11602
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 360 11565 11603 "smtexec.ml" 380 12312 12356
+)
+"smtexec.ml" 360 11565 11605 "smtexec.ml" 360 11565 11613
+type(
+  bool
+)
+"smtexec.ml" 360 11565 11614 "smtexec.ml" 360 11565 11619
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "smtexec.ml" 360 11565 11614 "smtexec.ml" 360 11565 11619
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "smtexec.ml" 360 11565 11614 "smtexec.ml" 360 11565 11619
+)
+"smtexec.ml" 360 11565 11621 "smtexec.ml" 360 11565 11627
+type(
+  string
+)
+ident(
+  def stdout "smtexec.ml" 360 11565 11628 "smtexec.ml" 380 12312 12356
+)
+"smtexec.ml" 360 11565 11628 "smtexec.ml" 360 11565 11634
+type(
+  string
+)
+ident(
+  def stderr "smtexec.ml" 360 11565 11635 "smtexec.ml" 380 12312 12356
+)
+"smtexec.ml" 360 11565 11635 "smtexec.ml" 360 11565 11642
+type(
+  Unix.process_status
+)
+ident(
+  def pstatus "smtexec.ml" 361 11645 11649 "smtexec.ml" 380 12312 12356
+)
+"smtexec.ml" 361 11645 11653 "smtexec.ml" 361 11645 11661
+type(
+  bool
+)
+"smtexec.ml" 361 11645 11670 "smtexec.ml" 361 11645 11677
+type(
+  Unix.process_status
+)
+ident(
+  int_ref pstatus "smtexec.ml" 360 11565 11635 "smtexec.ml" 360 11565 11642
+)
+"smtexec.ml" 362 11683 11698 "smtexec.ml" 362 11683 11701
+type(
+  int
+)
+ident(
+  def c "smtexec.ml" 362 11683 11705 "smtexec.ml" 362 11683 11711
+)
+"smtexec.ml" 362 11683 11691 "smtexec.ml" 362 11683 11701
+type(
+  Unix.process_status
+)
+"smtexec.ml" 362 11683 11705 "smtexec.ml" 362 11683 11706
+type(
+  int
+)
+ident(
+  int_ref c "smtexec.ml" 362 11683 11698 "smtexec.ml" 362 11683 11701
+)
+"smtexec.ml" 362 11683 11707 "smtexec.ml" 362 11683 11709
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"smtexec.ml" 362 11683 11710 "smtexec.ml" 362 11683 11711
+type(
+  int
+)
+"smtexec.ml" 362 11683 11705 "smtexec.ml" 362 11683 11711
+type(
+  bool
+)
+"smtexec.ml" 363 11712 11720 "smtexec.ml" 363 11712 11721
+type(
+  Unix.process_status
+)
+"smtexec.ml" 363 11712 11725 "smtexec.ml" 363 11712 11729
+type(
+  bool
+)
+"smtexec.ml" 361 11645 11664 "smtexec.ml" 363 11712 11729
+type(
+  bool
+)
+"smtexec.ml" 366 11796 11804 "smtexec.ml" 366 11796 11808
+type(
+  bool
+)
+"smtexec.ml" 366 11796 11811 "smtexec.ml" 366 11796 11819
+type(
+  bool
+)
+ident(
+  int_ref failstat "smtexec.ml" 361 11645 11653 "smtexec.ml" 361 11645 11661
+)
+"smtexec.ml" 366 11796 11820 "smtexec.ml" 366 11796 11822
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"smtexec.ml" 366 11796 11823 "smtexec.ml" 366 11796 11839
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.exists
+)
+"smtexec.ml" 366 11796 11840 "smtexec.ml" 366 11796 11846
+type(
+  string
+)
+ident(
+  int_ref stderr "smtexec.ml" 360 11565 11628 "smtexec.ml" 360 11565 11634
+)
+"smtexec.ml" 366 11796 11847 "smtexec.ml" 366 11796 11854
+type(
+  string
+)
+"smtexec.ml" 366 11796 11823 "smtexec.ml" 366 11796 11854
+call(
+  stack
+)
+type(
+  bool
+)
+"smtexec.ml" 366 11796 11811 "smtexec.ml" 366 11796 11854
+type(
+  bool
+)
+"smtexec.ml" 367 11858 11866 "smtexec.ml" 367 11858 11871
+type(
+  bool
+)
+"smtexec.ml" 367 11858 11874 "smtexec.ml" 367 11858 11890
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.exists
+)
+"smtexec.ml" 367 11858 11891 "smtexec.ml" 367 11858 11897
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 360 11565 11621 "smtexec.ml" 360 11565 11627
+)
+"smtexec.ml" 367 11858 11898 "smtexec.ml" 367 11858 11903
+type(
+  string
+)
+"smtexec.ml" 367 11858 11874 "smtexec.ml" 367 11858 11903
+call(
+  stack
+)
+type(
+  bool
+)
+"smtexec.ml" 368 11907 11915 "smtexec.ml" 368 11907 11922
+type(
+  bool
+)
+"smtexec.ml" 368 11907 11925 "smtexec.ml" 368 11907 11941
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref BatString.exists
+)
+"smtexec.ml" 368 11907 11942 "smtexec.ml" 368 11907 11948
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 360 11565 11621 "smtexec.ml" 360 11565 11627
+)
+"smtexec.ml" 368 11907 11949 "smtexec.ml" 368 11907 11956
+type(
+  string
+)
+"smtexec.ml" 368 11907 11925 "smtexec.ml" 368 11907 11956
+call(
+  stack
+)
+type(
+  bool
+)
+"smtexec.ml" 372 12027 12034 "smtexec.ml" 372 12027 12038
+type(
+  bool
+)
+ident(
+  int_ref fail "smtexec.ml" 366 11796 11804 "smtexec.ml" 366 11796 11808
+)
+"smtexec.ml" 373 12046 12052 "smtexec.ml" 373 12046 12059
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"smtexec.ml" 373 12046 12060 "smtexec.ml" 373 12046 12083
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"smtexec.ml" 373 12046 12084 "smtexec.ml" 373 12046 12090
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 360 11565 11621 "smtexec.ml" 360 11565 11627
+)
+"smtexec.ml" 373 12046 12091 "smtexec.ml" 373 12046 12097
+type(
+  string
+)
+ident(
+  int_ref stderr "smtexec.ml" 360 11565 11628 "smtexec.ml" 360 11565 11634
+)
+"smtexec.ml" 373 12046 12052 "smtexec.ml" 373 12046 12097
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 374 12099 12115 "smtexec.ml" 374 12099 12136
+type(
+  string
+)
+"smtexec.ml" 374 12099 12137 "smtexec.ml" 374 12099 12138
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 374 12099 12140 "smtexec.ml" 374 12099 12146
+type(
+  string
+)
+ident(
+  int_ref stderr "smtexec.ml" 360 11565 11628 "smtexec.ml" 360 11565 11634
+)
+"smtexec.ml" 374 12099 12146 "smtexec.ml" 374 12099 12147
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 374 12099 12147 "smtexec.ml" 374 12099 12153
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 360 11565 11621 "smtexec.ml" 360 11565 11627
+)
+"smtexec.ml" 374 12099 12139 "smtexec.ml" 374 12099 12154
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 374 12099 12114 "smtexec.ml" 374 12099 12155
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 374 12099 12105 "smtexec.ml" 374 12099 12155
+type(
+  result
+)
+"smtexec.ml" 372 12027 12044 "smtexec.ml" 375 12156 12161
+type(
+  result
+)
+"smtexec.ml" 375 12156 12170 "smtexec.ml" 375 12156 12177
+type(
+  bool
+)
+ident(
+  int_ref isunsat "smtexec.ml" 368 11907 11915 "smtexec.ml" 368 11907 11922
+)
+"smtexec.ml" 376 12183 12191 "smtexec.ml" 376 12183 12196
+type(
+  result
+)
+"smtexec.ml" 377 12197 12211 "smtexec.ml" 377 12197 12216
+type(
+  bool
+)
+ident(
+  int_ref issat "smtexec.ml" 367 11858 11866 "smtexec.ml" 367 11858 11871
+)
+"smtexec.ml" 378 12224 12244 "smtexec.ml" 378 12224 12252
+type(
+  bool
+)
+ident(
+  int_ref getmodel "smtexec.ml" 360 11565 11605 "smtexec.ml" 360 11565 11613
+)
+"smtexec.ml" 378 12224 12258 "smtexec.ml" 378 12224 12269
+type(
+  string -> string -> model
+)
+ident(
+  int_ref parse_model "smtexec.ml" 227 7382 7386 "smtexec.ml" 227 7382 7397
+)
+"smtexec.ml" 378 12224 12270 "smtexec.ml" 378 12224 12280
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 360 11565 11592 "smtexec.ml" 360 11565 11602
+)
+"smtexec.ml" 378 12224 12281 "smtexec.ml" 378 12224 12287
+type(
+  string
+)
+ident(
+  int_ref stdout "smtexec.ml" 360 11565 11621 "smtexec.ml" 360 11565 11627
+)
+"smtexec.ml" 378 12224 12258 "smtexec.ml" 378 12224 12287
+call(
+  stack
+)
+type(
+  model
+)
+"smtexec.ml" 378 12224 12293 "smtexec.ml" 378 12224 12297
+type(
+  model
+)
+"smtexec.ml" 378 12224 12240 "smtexec.ml" 378 12224 12298
+type(
+  model
+)
+"smtexec.ml" 377 12197 12222 "smtexec.ml" 379 12299 12306
+type(
+  result
+)
+"smtexec.ml" 380 12312 12320 "smtexec.ml" 380 12312 12328
+type(
+  string -> result
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"smtexec.ml" 380 12312 12329 "smtexec.ml" 380 12312 12356
+type(
+  string
+)
+"smtexec.ml" 380 12312 12320 "smtexec.ml" 380 12312 12356
+call(
+  tail
+)
+type(
+  result
+)
+"smtexec.ml" 377 12197 12208 "smtexec.ml" 380 12312 12356
+type(
+  result
+)
+"smtexec.ml" 375 12156 12167 "smtexec.ml" 380 12312 12356
+type(
+  result
+)
+"smtexec.ml" 372 12027 12031 "smtexec.ml" 380 12312 12356
+type(
+  result
+)
+"smtexec.ml" 368 11907 11911 "smtexec.ml" 380 12312 12356
+type(
+  result
+)
+"smtexec.ml" 367 11858 11862 "smtexec.ml" 380 12312 12356
+type(
+  result
+)
+"smtexec.ml" 366 11796 11800 "smtexec.ml" 380 12312 12356
+type(
+  result
+)
+"smtexec.ml" 361 11645 11649 "smtexec.ml" 380 12312 12356
+type(
+  result
+)
+"smtexec.ml" 381 12357 12363 "smtexec.ml" 381 12357 12375
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result "smtexec.ml" 382 12410 12412 "smtexec.ml" 384 12555 12558
+)
+"smtexec.ml" 381 12357 12378 "smtexec.ml" 381 12357 12398
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  int_ref parse_result_builder "smtexec.ml" 360 11565 11571 "smtexec.ml" 360 11565 11591
+)
+"smtexec.ml" 381 12357 12399 "smtexec.ml" 381 12357 12409
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 357 11474 11480 "smtexec.ml" 357 11474 11490
+)
+"smtexec.ml" 381 12357 12378 "smtexec.ml" 381 12357 12409
+call(
+  stack
+)
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+"smtexec.ml" 382 12410 12416 "smtexec.ml" 382 12410 12423
+type(
+  Formulap.fppf
+)
+ident(
+  def printer "smtexec.ml" 383 12474 12476 "smtexec.ml" 384 12555 12558
+)
+"smtexec.ml" 382 12410 12428 "smtexec.ml" 382 12410 12445
+type(
+  ?opts:Smtlib2.option list -> out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 382 12410 12452 "smtexec.ml" 382 12410 12454
+type(
+  Smtlib2.option list
+)
+"smtexec.ml" 382 12410 12427 "smtexec.ml" 382 12410 12455
+call(
+  stack
+)
+type(
+  Formulap.fppf
+)
+type(
+  out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 383 12474 12480 "smtexec.ml" 383 12474 12497
+type(
+  Formulap.stream_fppf
+)
+ident(
+  def streaming_printer "smtexec.ml" 383 12474 12554 "smtexec.ml" 384 12555 12558
+)
+"smtexec.ml" 383 12474 12502 "smtexec.ml" 383 12474 12519
+type(
+  ?opts:Smtlib2.option list -> out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 383 12474 12526 "smtexec.ml" 383 12474 12528
+type(
+  Smtlib2.option list
+)
+"smtexec.ml" 383 12474 12501 "smtexec.ml" 383 12474 12529
+call(
+  stack
+)
+type(
+  Formulap.stream_fppf
+)
+type(
+  out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 386 12560 12579 "smtexec.ml" 386 12560 12599
+call(
+  stack
+)
+"smtexec.ml" 390 12627 12633 "smtexec.ml" 390 12627 12643
+type(
+  string
+)
+ident(
+  def solvername "smtexec.ml" 391 12653 12655 "smtexec.ml" 396 12929 12932
+)
+"smtexec.ml" 390 12627 12646 "smtexec.ml" 390 12627 12652
+type(
+  string
+)
+"smtexec.ml" 391 12653 12659 "smtexec.ml" 391 12653 12667
+type(
+  string
+)
+ident(
+  def progname "smtexec.ml" 392 12677 12679 "smtexec.ml" 396 12929 12932
+)
+"smtexec.ml" 391 12653 12670 "smtexec.ml" 391 12653 12676
+type(
+  string
+)
+"smtexec.ml" 392 12677 12683 "smtexec.ml" 392 12677 12689
+type(
+  string -> string
+)
+ident(
+  def cmdstr "smtexec.ml" 393 12716 12718 "smtexec.ml" 396 12929 12932
+)
+"smtexec.ml" 392 12677 12690 "smtexec.ml" 392 12677 12691
+type(
+  string
+)
+ident(
+  def f "smtexec.ml" 392 12677 12694 "smtexec.ml" 392 12677 12715
+)
+"smtexec.ml" 392 12677 12694 "smtexec.ml" 392 12677 12711
+type(
+  string
+)
+"smtexec.ml" 392 12677 12712 "smtexec.ml" 392 12677 12713
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smtexec.ml" 392 12677 12714 "smtexec.ml" 392 12677 12715
+type(
+  string
+)
+ident(
+  int_ref f "smtexec.ml" 392 12677 12690 "smtexec.ml" 392 12677 12691
+)
+"smtexec.ml" 392 12677 12694 "smtexec.ml" 392 12677 12715
+call(
+  tail
+)
+type(
+  string
+)
+"smtexec.ml" 393 12716 12722 "smtexec.ml" 393 12716 12734
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  def parse_result "smtexec.ml" 394 12784 12786 "smtexec.ml" 396 12929 12932
+)
+"smtexec.ml" 393 12716 12737 "smtexec.ml" 393 12716 12772
+type(
+  string ->
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+ident(
+  ext_ref BOOLECTOR_INFO.parse_result_builder
+)
+"smtexec.ml" 393 12716 12773 "smtexec.ml" 393 12716 12783
+type(
+  string
+)
+ident(
+  int_ref solvername "smtexec.ml" 390 12627 12633 "smtexec.ml" 390 12627 12643
+)
+"smtexec.ml" 393 12716 12737 "smtexec.ml" 393 12716 12783
+call(
+  stack
+)
+type(
+  ?getmodel:bool -> string -> string -> Unix.process_status -> result
+)
+"smtexec.ml" 394 12784 12790 "smtexec.ml" 394 12784 12797
+type(
+  Formulap.fppf
+)
+ident(
+  def printer "smtexec.ml" 395 12848 12850 "smtexec.ml" 396 12929 12932
+)
+"smtexec.ml" 394 12784 12802 "smtexec.ml" 394 12784 12819
+type(
+  ?opts:Smtlib2.option list -> out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 394 12784 12826 "smtexec.ml" 394 12784 12828
+type(
+  Smtlib2.option list
+)
+"smtexec.ml" 394 12784 12801 "smtexec.ml" 394 12784 12829
+call(
+  stack
+)
+type(
+  Formulap.fppf
+)
+type(
+  out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 395 12848 12854 "smtexec.ml" 395 12848 12871
+type(
+  Formulap.stream_fppf
+)
+ident(
+  def streaming_printer "smtexec.ml" 395 12848 12928 "smtexec.ml" 396 12929 12932
+)
+"smtexec.ml" 395 12848 12876 "smtexec.ml" 395 12848 12893
+type(
+  ?opts:Smtlib2.option list -> out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 395 12848 12900 "smtexec.ml" 395 12848 12902
+type(
+  Smtlib2.option list
+)
+"smtexec.ml" 395 12848 12875 "smtexec.ml" 395 12848 12903
+call(
+  stack
+)
+type(
+  Formulap.stream_fppf
+)
+type(
+  out_channel -> Smtlib2.pp_oc
+)
+"smtexec.ml" 398 12934 12948 "smtexec.ml" 398 12934 12963
+call(
+  stack
+)
+"smtexec.ml" 400 12965 12969 "smtexec.ml" 400 12965 12976
+type(
+  (string, STP.c) Hashtbl.t
+)
+ident(
+  def solvers "smtexec.ml" 401 12999 12999 --
+)
+"smtexec.ml" 400 12965 12979 "smtexec.ml" 400 12965 12993
+type(
+  int -> (string, STP.c) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"smtexec.ml" 400 12965 12994 "smtexec.ml" 400 12965 12996
+type(
+  int
+)
+"smtexec.ml" 400 12965 12979 "smtexec.ml" 400 12965 12996
+call(
+  stack
+)
+type(
+  (string, STP.c) Hashtbl.t
+)
+"smtexec.ml" 401 12999 12999 "smtexec.ml" 401 12999 13008
+type(
+  (STP.c -> unit) -> STP.c list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"smtexec.ml" 401 12999 13014 "smtexec.ml" 401 12999 13015
+type(
+  STP.c
+)
+ident(
+  def s "smtexec.ml" 401 12999 13019 "smtexec.ml" 401 12999 13053
+)
+"smtexec.ml" 401 12999 13019 "smtexec.ml" 401 12999 13030
+type(
+  (string, STP.c) Hashtbl.t -> string -> STP.c -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"smtexec.ml" 401 12999 13031 "smtexec.ml" 401 12999 13038
+type(
+  (string, STP.c) Hashtbl.t
+)
+ident(
+  int_ref solvers "smtexec.ml" 400 12965 12969 "smtexec.ml" 400 12965 12976
+)
+"smtexec.ml" 401 12999 13039 "smtexec.ml" 401 12999 13040
+type(
+  STP.c
+)
+ident(
+  int_ref s "smtexec.ml" 401 12999 13014 "smtexec.ml" 401 12999 13015
+)
+"smtexec.ml" 401 12999 13039 "smtexec.ml" 401 12999 13051
+call(
+  stack
+)
+type(
+  string
+)
+"smtexec.ml" 401 12999 13052 "smtexec.ml" 401 12999 13053
+type(
+  STP.c
+)
+ident(
+  int_ref s "smtexec.ml" 401 12999 13014 "smtexec.ml" 401 12999 13015
+)
+"smtexec.ml" 401 12999 13019 "smtexec.ml" 401 12999 13053
+call(
+  tail
+)
+type(
+  unit
+)
+"smtexec.ml" 401 12999 13009 "smtexec.ml" 401 12999 13054
+type(
+  STP.c -> unit
+)
+"smtexec.ml" 403 13059 13063 "smtexec.ml" 403 13059 13069
+type(
+  STP.c
+)
+ident(
+  ext_ref STP.si
+)
+"smtexec.ml" 404 13070 13077 "smtexec.ml" 404 13070 13089
+type(
+  STPSMTLIB.c
+)
+ident(
+  ext_ref STPSMTLIB.si
+)
+"smtexec.ml" 405 13090 13097 "smtexec.ml" 405 13090 13104
+type(
+  CVC3.c
+)
+ident(
+  ext_ref CVC3.si
+)
+"smtexec.ml" 406 13105 13112 "smtexec.ml" 406 13105 13125
+type(
+  CVC3SMTLIB.c
+)
+ident(
+  ext_ref CVC3SMTLIB.si
+)
+"smtexec.ml" 407 13126 13133 "smtexec.ml" 407 13126 13140
+type(
+  CVC4.c
+)
+ident(
+  ext_ref CVC4.si
+)
+"smtexec.ml" 408 13141 13148 "smtexec.ml" 408 13141 13156
+type(
+  YICES.c
+)
+ident(
+  ext_ref YICES.si
+)
+"smtexec.ml" 409 13157 13164 "smtexec.ml" 409 13157 13169
+type(
+  Z3.c
+)
+ident(
+  ext_ref Z3.si
+)
+"smtexec.ml" 410 13170 13177 "smtexec.ml" 410 13170 13189
+type(
+  BOOLECTOR.c
+)
+ident(
+  ext_ref BOOLECTOR.si
+)
+"smtexec.ml" 411 13190 13196 "smtexec.ml" 411 13190 13198
+type(
+  STP.c list
+)
+"smtexec.ml" 410 13170 13177 "smtexec.ml" 411 13190 13198
+type(
+  STP.c list
+)
+"smtexec.ml" 409 13157 13164 "smtexec.ml" 411 13190 13198
+type(
+  STP.c list
+)
+"smtexec.ml" 408 13141 13148 "smtexec.ml" 411 13190 13198
+type(
+  STP.c list
+)
+"smtexec.ml" 407 13126 13133 "smtexec.ml" 411 13190 13198
+type(
+  STP.c list
+)
+"smtexec.ml" 406 13105 13112 "smtexec.ml" 411 13190 13198
+type(
+  STP.c list
+)
+"smtexec.ml" 405 13090 13097 "smtexec.ml" 411 13190 13198
+type(
+  STP.c list
+)
+"smtexec.ml" 404 13070 13077 "smtexec.ml" 411 13190 13198
+type(
+  STP.c list
+)
+"smtexec.ml" 402 13055 13057 "smtexec.ml" 412 13199 13202
+type(
+  STP.c list
+)
+"smtexec.ml" 401 12999 12999 "smtexec.ml" 412 13199 13202
+call(
+  stack
+)
+type(
+  unit
+)
+"smtexec.ml" 414 13204 13208 "smtexec.ml" 414 13204 13214
+type(
+  ?timeout:int -> ?remove:bool -> ?getmodel:bool -> string -> result
+)
+ident(
+  def runstp "smtexec.ml" 415 13240 13240 --
+)
+"smtexec.ml" 414 13204 13217 "smtexec.ml" 414 13204 13239
+type(
+  ?timeout:int -> ?remove:bool -> ?getmodel:bool -> string -> result
+)
+ident(
+  ext_ref STP.solve_formula_file
+)
+"smtexec.ml" 415 13240 13244 "smtexec.ml" 415 13240 13257
+type(
+  ?timeout:int ->
+  ?remove:bool ->
+  ?exists:Ast.var list -> ?foralls:Ast.var list -> Ast.exp -> result
+)
+ident(
+  def query_formula "smtexec.ml" 415 13240 13282 --
+)
+"smtexec.ml" 415 13240 13260 "smtexec.ml" 415 13240 13282
+type(
+  ?timeout:int ->
+  ?remove:bool ->
+  ?exists:Ast.var list -> ?foralls:Ast.var list -> Ast.exp -> result
+)
+ident(
+  ext_ref STP.check_exp_validity
+)

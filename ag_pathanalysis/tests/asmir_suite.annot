@@ -1,0 +1,935 @@
+"asmir_suite.ml" 3 12 16 "asmir_suite.ml" 3 12 33
+type(
+  unit -> unit
+)
+ident(
+  def open_program_test "asmir_suite.ml" 6 82 82 --
+)
+"asmir_suite.ml" 3 12 34 "asmir_suite.ml" 3 12 36
+type(
+  unit
+)
+"asmir_suite.ml" 4 39 41 "asmir_suite.ml" 4 39 47
+type(
+  Asmir.asmprogram -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"asmir_suite.ml" 4 39 49 "asmir_suite.ml" 4 39 67
+type(
+  ?base:Type.addr -> ?target:string -> string -> Asmir.asmprogram
+)
+ident(
+  ext_ref Asmir.open_program
+)
+"asmir_suite.ml" 4 39 68 "asmir_suite.ml" 4 39 77
+type(
+  string
+)
+"asmir_suite.ml" 4 39 48 "asmir_suite.ml" 4 39 78
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"asmir_suite.ml" 4 39 41 "asmir_suite.ml" 4 39 78
+type(
+  unit
+)
+"asmir_suite.ml" 6 82 86 "asmir_suite.ml" 6 82 93
+type(
+  Asmir.asmprogram -> 'a * Type.addr * 'b -> unit
+)
+ident(
+  def recover "asmir_suite.ml" 8 145 145 --
+)
+"asmir_suite.ml" 6 82 94 "asmir_suite.ml" 6 82 98
+type(
+  Asmir.asmprogram
+)
+ident(
+  def asmp "asmir_suite.ml" 6 82 99 "asmir_suite.ml" 6 82 143
+)
+"asmir_suite.ml" 6 82 100 "asmir_suite.ml" 6 82 101
+type(
+  'a
+)
+ident(
+  def n "asmir_suite.ml" 6 82 109 "asmir_suite.ml" 6 82 143
+)
+"asmir_suite.ml" 6 82 102 "asmir_suite.ml" 6 82 103
+type(
+  Type.addr
+)
+ident(
+  def s "asmir_suite.ml" 6 82 109 "asmir_suite.ml" 6 82 143
+)
+"asmir_suite.ml" 6 82 104 "asmir_suite.ml" 6 82 105
+type(
+  'b
+)
+ident(
+  def e "asmir_suite.ml" 6 82 109 "asmir_suite.ml" 6 82 143
+)
+"asmir_suite.ml" 6 82 99 "asmir_suite.ml" 6 82 106
+type(
+  'a * Type.addr * 'b
+)
+"asmir_suite.ml" 6 82 109 "asmir_suite.ml" 6 82 115
+type(
+  Cfg.AST.G.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"asmir_suite.ml" 6 82 116 "asmir_suite.ml" 6 82 135
+type(
+  ?callsig:Var.defuse -> Asmir.asmprogram -> Type.addr -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Asmir_disasm.vsa_at
+)
+"asmir_suite.ml" 6 82 136 "asmir_suite.ml" 6 82 140
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "asmir_suite.ml" 6 82 94 "asmir_suite.ml" 6 82 98
+)
+"asmir_suite.ml" 6 82 141 "asmir_suite.ml" 6 82 142
+type(
+  Type.addr
+)
+ident(
+  int_ref s "asmir_suite.ml" 6 82 102 "asmir_suite.ml" 6 82 103
+)
+"asmir_suite.ml" 6 82 115 "asmir_suite.ml" 6 82 143
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"asmir_suite.ml" 6 82 109 "asmir_suite.ml" 6 82 143
+type(
+  unit
+)
+"asmir_suite.ml" 8 145 149 "asmir_suite.ml" 8 145 163
+type(
+  Asmir.asmprogram -> 'a * Type.addr * 'b -> unit
+)
+ident(
+  def recover_switch "asmir_suite.ml" 20 769 769 --
+)
+"asmir_suite.ml" 8 145 164 "asmir_suite.ml" 8 145 168
+type(
+  Asmir.asmprogram
+)
+ident(
+  def asmp "asmir_suite.ml" 8 145 169 "asmir_suite.ml" 18 678 767
+)
+"asmir_suite.ml" 8 145 170 "asmir_suite.ml" 8 145 171
+type(
+  'a
+)
+ident(
+  def n "asmir_suite.ml" 9 179 181 "asmir_suite.ml" 18 678 767
+)
+"asmir_suite.ml" 8 145 172 "asmir_suite.ml" 8 145 173
+type(
+  Type.addr
+)
+ident(
+  def s "asmir_suite.ml" 9 179 181 "asmir_suite.ml" 18 678 767
+)
+"asmir_suite.ml" 8 145 174 "asmir_suite.ml" 8 145 175
+type(
+  'b
+)
+ident(
+  def e "asmir_suite.ml" 9 179 181 "asmir_suite.ml" 18 678 767
+)
+"asmir_suite.ml" 8 145 169 "asmir_suite.ml" 8 145 176
+type(
+  'a * Type.addr * 'b
+)
+"asmir_suite.ml" 9 179 185 "asmir_suite.ml" 9 179 191
+type(
+  Cfg.AST.G.t
+)
+"asmir_suite.ml" 9 179 193 "asmir_suite.ml" 9 179 202
+type(
+  Asmir_disasm.vsaresult option
+)
+"asmir_suite.ml" 9 179 185 "asmir_suite.ml" 9 179 202
+type(
+  Cfg.AST.G.t * Asmir_disasm.vsaresult option
+)
+"asmir_suite.ml" 9 179 205 "asmir_suite.ml" 9 179 229
+type(
+  ?callsig:Var.defuse ->
+  Asmir.asmprogram ->
+  Type.addr -> Cfg.AST.G.t * Asmir_disasm.vsaresult option
+)
+ident(
+  ext_ref Asmir_disasm.vsa_at_full
+)
+"asmir_suite.ml" 9 179 230 "asmir_suite.ml" 9 179 234
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "asmir_suite.ml" 8 145 164 "asmir_suite.ml" 8 145 168
+)
+"asmir_suite.ml" 9 179 235 "asmir_suite.ml" 9 179 236
+type(
+  Type.addr
+)
+ident(
+  int_ref s "asmir_suite.ml" 8 145 172 "asmir_suite.ml" 8 145 173
+)
+"asmir_suite.ml" 9 179 205 "asmir_suite.ml" 9 179 236
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t * Asmir_disasm.vsaresult option
+)
+"asmir_suite.ml" 10 240 248 "asmir_suite.ml" 10 240 257
+type(
+  Asmir_disasm.vsaresult option
+)
+ident(
+  int_ref vsaresult "asmir_suite.ml" 9 179 193 "asmir_suite.ml" 9 179 202
+)
+"asmir_suite.ml" 11 263 267 "asmir_suite.ml" 11 263 271
+type(
+  Asmir_disasm.vsaresult option
+)
+"asmir_suite.ml" 11 263 275 "asmir_suite.ml" 11 263 277
+type(
+  unit
+)
+"asmir_suite.ml" 12 278 287 "asmir_suite.ml" 12 278 296
+type(
+  Asmir_disasm.vsaresult
+)
+ident(
+  def vsaresult "asmir_suite.ml" 13 300 304 "asmir_suite.ml" 18 678 767
+)
+"asmir_suite.ml" 12 278 282 "asmir_suite.ml" 12 278 296
+type(
+  Asmir_disasm.vsaresult option
+)
+"asmir_suite.ml" 13 300 308 "asmir_suite.ml" 13 300 314
+type(
+  Cfg.SSA.G.t
+)
+"asmir_suite.ml" 13 300 316 "asmir_suite.ml" 13 300 323
+type(
+  bool
+)
+"asmir_suite.ml" 13 300 308 "asmir_suite.ml" 13 300 323
+type(
+  Cfg.SSA.G.t * bool
+)
+"asmir_suite.ml" 13 300 326 "asmir_suite.ml" 13 300 371
+type(
+  Asmir_disasm.vsaresult -> Cfg.SSA.G.t * bool
+)
+ident(
+  ext_ref Switch_condition.add_switch_conditions_disasm
+)
+"asmir_suite.ml" 13 300 372 "asmir_suite.ml" 13 300 381
+type(
+  Asmir_disasm.vsaresult
+)
+ident(
+  int_ref vsaresult "asmir_suite.ml" 12 278 287 "asmir_suite.ml" 12 278 296
+)
+"asmir_suite.ml" 13 300 326 "asmir_suite.ml" 13 300 381
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.t * bool
+)
+"asmir_suite.ml" 14 385 389 "asmir_suite.ml" 14 385 400
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref OUnit.assert_bool
+)
+"asmir_suite.ml" 14 385 401 "asmir_suite.ml" 14 385 466
+type(
+  string
+)
+"asmir_suite.ml" 14 385 467 "asmir_suite.ml" 14 385 474
+type(
+  bool
+)
+ident(
+  int_ref allgood "asmir_suite.ml" 13 300 316 "asmir_suite.ml" 13 300 323
+)
+"asmir_suite.ml" 14 385 389 "asmir_suite.ml" 14 385 474
+call(
+  stack
+)
+type(
+  unit
+)
+"asmir_suite.ml" 16 521 529 "asmir_suite.ml" 16 521 535
+type(
+  Cfg.AST.G.t
+)
+"asmir_suite.ml" 16 521 538 "asmir_suite.ml" 16 521 560
+type(
+  Cfg.AST.G.t -> Cfg.AST.G.t
+)
+ident(
+  ext_ref Hacks.filter_calls_cfg
+)
+"asmir_suite.ml" 16 521 561 "asmir_suite.ml" 16 521 567
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref astcfg "asmir_suite.ml" 9 179 185 "asmir_suite.ml" 9 179 191
+)
+"asmir_suite.ml" 16 521 538 "asmir_suite.ml" 16 521 567
+call(
+  stack
+)
+type(
+  Cfg.AST.G.t
+)
+"asmir_suite.ml" 17 571 579 "asmir_suite.ml" 17 571 585
+type(
+  Cfg.SSA.G.t
+)
+"asmir_suite.ml" 17 571 587 "asmir_suite.ml" 17 571 594
+type(
+  bool
+)
+"asmir_suite.ml" 17 571 579 "asmir_suite.ml" 17 571 594
+type(
+  Cfg.SSA.G.t * bool
+)
+"asmir_suite.ml" 17 571 597 "asmir_suite.ml" 17 571 642
+type(
+  Asmir.asmprogram -> Cfg.SSA.G.t -> Cfg.SSA.G.t * bool
+)
+ident(
+  ext_ref Switch_condition.add_switch_conditions_ssacfg
+)
+"asmir_suite.ml" 17 571 643 "asmir_suite.ml" 17 571 647
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "asmir_suite.ml" 8 145 164 "asmir_suite.ml" 8 145 168
+)
+"asmir_suite.ml" 17 571 649 "asmir_suite.ml" 17 571 666
+type(
+  ?tac:bool -> Cfg.AST.G.t -> Cfg.SSA.G.t
+)
+ident(
+  ext_ref Cfg_ssa.of_astcfg
+)
+"asmir_suite.ml" 17 571 667 "asmir_suite.ml" 17 571 673
+type(
+  Cfg.AST.G.t
+)
+ident(
+  int_ref astcfg "asmir_suite.ml" 16 521 529 "asmir_suite.ml" 16 521 535
+)
+"asmir_suite.ml" 17 571 648 "asmir_suite.ml" 17 571 674
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.t
+)
+"asmir_suite.ml" 17 571 597 "asmir_suite.ml" 17 571 674
+call(
+  stack
+)
+type(
+  Cfg.SSA.G.t * bool
+)
+"asmir_suite.ml" 18 678 682 "asmir_suite.ml" 18 678 693
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref OUnit.assert_bool
+)
+"asmir_suite.ml" 18 678 694 "asmir_suite.ml" 18 678 759
+type(
+  string
+)
+"asmir_suite.ml" 18 678 760 "asmir_suite.ml" 18 678 767
+type(
+  bool
+)
+ident(
+  int_ref allgood "asmir_suite.ml" 17 571 587 "asmir_suite.ml" 17 571 594
+)
+"asmir_suite.ml" 18 678 682 "asmir_suite.ml" 18 678 767
+call(
+  tail
+)
+type(
+  unit
+)
+"asmir_suite.ml" 17 571 575 "asmir_suite.ml" 18 678 767
+type(
+  unit
+)
+"asmir_suite.ml" 16 521 525 "asmir_suite.ml" 18 678 767
+type(
+  unit
+)
+"asmir_suite.ml" 14 385 389 "asmir_suite.ml" 18 678 767
+type(
+  unit
+)
+"asmir_suite.ml" 13 300 304 "asmir_suite.ml" 18 678 767
+type(
+  unit
+)
+"asmir_suite.ml" 10 240 242 "asmir_suite.ml" 18 678 767
+type(
+  unit
+)
+"asmir_suite.ml" 9 179 181 "asmir_suite.ml" 18 678 767
+type(
+  unit
+)
+"asmir_suite.ml" 20 769 773 "asmir_suite.ml" 20 769 793
+type(
+  (Asmir.asmprogram -> string * Type.addr * Type.addr -> unit) ->
+  string -> unit
+)
+ident(
+  def resolve_program_test "asmir_suite.ml" 25 921 921 --
+)
+"asmir_suite.ml" 20 769 794 "asmir_suite.ml" 20 769 795
+type(
+  Asmir.asmprogram -> string * Type.addr * Type.addr -> unit
+)
+ident(
+  def f "asmir_suite.ml" 20 769 796 "asmir_suite.ml" 23 893 919
+)
+"asmir_suite.ml" 20 769 796 "asmir_suite.ml" 20 769 797
+type(
+  string
+)
+ident(
+  def p "asmir_suite.ml" 21 800 802 "asmir_suite.ml" 23 893 919
+)
+"asmir_suite.ml" 21 800 806 "asmir_suite.ml" 21 800 810
+type(
+  Asmir.asmprogram
+)
+"asmir_suite.ml" 21 800 813 "asmir_suite.ml" 21 800 831
+type(
+  ?base:Type.addr -> ?target:string -> string -> Asmir.asmprogram
+)
+ident(
+  ext_ref Asmir.open_program
+)
+"asmir_suite.ml" 21 800 832 "asmir_suite.ml" 21 800 833
+type(
+  string
+)
+ident(
+  int_ref p "asmir_suite.ml" 20 769 796 "asmir_suite.ml" 20 769 797
+)
+"asmir_suite.ml" 21 800 813 "asmir_suite.ml" 21 800 833
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"asmir_suite.ml" 22 837 843 "asmir_suite.ml" 22 837 848
+type(
+  (string * Type.addr * Type.addr) list
+)
+"asmir_suite.ml" 22 837 851 "asmir_suite.ml" 22 837 884
+type(
+  Asmir.asmprogram -> (string * Type.addr * Type.addr) list
+)
+ident(
+  ext_ref Func_boundary.get_function_ranges
+)
+"asmir_suite.ml" 22 837 885 "asmir_suite.ml" 22 837 889
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "asmir_suite.ml" 21 800 806 "asmir_suite.ml" 21 800 810
+)
+"asmir_suite.ml" 22 837 851 "asmir_suite.ml" 22 837 889
+call(
+  stack
+)
+type(
+  (string * Type.addr * Type.addr) list
+)
+"asmir_suite.ml" 23 893 895 "asmir_suite.ml" 23 893 904
+type(
+  (string * Type.addr * Type.addr -> unit) ->
+  (string * Type.addr * Type.addr) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"asmir_suite.ml" 23 893 906 "asmir_suite.ml" 23 893 907
+type(
+  Asmir.asmprogram -> string * Type.addr * Type.addr -> unit
+)
+ident(
+  int_ref f "asmir_suite.ml" 20 769 794 "asmir_suite.ml" 20 769 795
+)
+"asmir_suite.ml" 23 893 908 "asmir_suite.ml" 23 893 912
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref asmp "asmir_suite.ml" 21 800 806 "asmir_suite.ml" 21 800 810
+)
+"asmir_suite.ml" 23 893 905 "asmir_suite.ml" 23 893 913
+call(
+  stack
+)
+type(
+  string * Type.addr * Type.addr -> unit
+)
+"asmir_suite.ml" 23 893 914 "asmir_suite.ml" 23 893 919
+type(
+  (string * Type.addr * Type.addr) list
+)
+ident(
+  int_ref funcs "asmir_suite.ml" 22 837 843 "asmir_suite.ml" 22 837 848
+)
+"asmir_suite.ml" 23 893 895 "asmir_suite.ml" 23 893 919
+call(
+  tail
+)
+type(
+  unit
+)
+"asmir_suite.ml" 22 837 839 "asmir_suite.ml" 23 893 919
+type(
+  unit
+)
+"asmir_suite.ml" 21 800 802 "asmir_suite.ml" 23 893 919
+type(
+  unit
+)
+"asmir_suite.ml" 25 921 925 "asmir_suite.ml" 25 921 941
+type(
+  string -> unit -> unit
+)
+ident(
+  def run_resolve_test "asmir_suite.ml" 28 983 983 --
+)
+"asmir_suite.ml" 25 921 942 "asmir_suite.ml" 25 921 943
+type(
+  string
+)
+ident(
+  def s "asmir_suite.ml" 25 921 944 "asmir_suite.ml" 26 949 981
+)
+"asmir_suite.ml" 25 921 944 "asmir_suite.ml" 25 921 946
+type(
+  unit
+)
+"asmir_suite.ml" 26 949 951 "asmir_suite.ml" 26 949 971
+type(
+  (Asmir.asmprogram -> string * Type.addr * Type.addr -> unit) ->
+  string -> unit
+)
+ident(
+  int_ref resolve_program_test "asmir_suite.ml" 20 769 773 "asmir_suite.ml" 20 769 793
+)
+"asmir_suite.ml" 26 949 972 "asmir_suite.ml" 26 949 979
+type(
+  Asmir.asmprogram -> string * Type.addr * Type.addr -> unit
+)
+ident(
+  int_ref recover "asmir_suite.ml" 6 82 86 "asmir_suite.ml" 6 82 93
+)
+"asmir_suite.ml" 26 949 980 "asmir_suite.ml" 26 949 981
+type(
+  string
+)
+ident(
+  int_ref s "asmir_suite.ml" 25 921 942 "asmir_suite.ml" 25 921 943
+)
+"asmir_suite.ml" 26 949 951 "asmir_suite.ml" 26 949 981
+call(
+  tail
+)
+type(
+  unit
+)
+"asmir_suite.ml" 28 983 987 "asmir_suite.ml" 28 983 1010
+type(
+  string -> unit -> unit
+)
+ident(
+  def run_resolve_switch_test "asmir_suite.ml" 31 1059 1059 --
+)
+"asmir_suite.ml" 28 983 1011 "asmir_suite.ml" 28 983 1012
+type(
+  string
+)
+ident(
+  def s "asmir_suite.ml" 28 983 1013 "asmir_suite.ml" 29 1018 1057
+)
+"asmir_suite.ml" 28 983 1013 "asmir_suite.ml" 28 983 1015
+type(
+  unit
+)
+"asmir_suite.ml" 29 1018 1020 "asmir_suite.ml" 29 1018 1040
+type(
+  (Asmir.asmprogram -> string * Type.addr * Type.addr -> unit) ->
+  string -> unit
+)
+ident(
+  int_ref resolve_program_test "asmir_suite.ml" 20 769 773 "asmir_suite.ml" 20 769 793
+)
+"asmir_suite.ml" 29 1018 1041 "asmir_suite.ml" 29 1018 1055
+type(
+  Asmir.asmprogram -> string * Type.addr * Type.addr -> unit
+)
+ident(
+  int_ref recover_switch "asmir_suite.ml" 8 145 149 "asmir_suite.ml" 8 145 163
+)
+"asmir_suite.ml" 29 1018 1056 "asmir_suite.ml" 29 1018 1057
+type(
+  string
+)
+ident(
+  int_ref s "asmir_suite.ml" 28 983 1011 "asmir_suite.ml" 28 983 1012
+)
+"asmir_suite.ml" 29 1018 1020 "asmir_suite.ml" 29 1018 1057
+call(
+  tail
+)
+type(
+  unit
+)
+"asmir_suite.ml" 31 1059 1063 "asmir_suite.ml" 31 1059 1080
+type(
+  string -> string -> OUnit.test list
+)
+ident(
+  def make_recover_test "asmir_suite.ml" 37 1205 1205 --
+)
+"asmir_suite.ml" 31 1059 1081 "asmir_suite.ml" 31 1059 1085
+type(
+  string
+)
+ident(
+  def name "asmir_suite.ml" 31 1059 1086 "asmir_suite.ml" 35 1200 1203
+)
+"asmir_suite.ml" 31 1059 1086 "asmir_suite.ml" 31 1059 1091
+type(
+  string
+)
+ident(
+  def fname "asmir_suite.ml" 32 1094 1096 "asmir_suite.ml" 35 1200 1203
+)
+"asmir_suite.ml" 33 1098 1102 "asmir_suite.ml" 33 1098 1106
+type(
+  string
+)
+ident(
+  int_ref name "asmir_suite.ml" 31 1059 1081 "asmir_suite.ml" 31 1059 1085
+)
+"asmir_suite.ml" 33 1098 1106 "asmir_suite.ml" 33 1098 1107
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"asmir_suite.ml" 33 1098 1107 "asmir_suite.ml" 33 1098 1117
+type(
+  string
+)
+"asmir_suite.ml" 33 1098 1102 "asmir_suite.ml" 33 1098 1117
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_suite.ml" 33 1098 1118 "asmir_suite.ml" 33 1098 1121
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"asmir_suite.ml" 33 1098 1122 "asmir_suite.ml" 33 1098 1138
+type(
+  string -> OUnit.test_fun
+)
+ident(
+  int_ref run_resolve_test "asmir_suite.ml" 25 921 925 "asmir_suite.ml" 25 921 941
+)
+"asmir_suite.ml" 33 1098 1139 "asmir_suite.ml" 33 1098 1144
+type(
+  string
+)
+ident(
+  int_ref fname "asmir_suite.ml" 31 1059 1086 "asmir_suite.ml" 31 1059 1091
+)
+"asmir_suite.ml" 33 1098 1122 "asmir_suite.ml" 33 1098 1144
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"asmir_suite.ml" 33 1098 1102 "asmir_suite.ml" 33 1098 1144
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"asmir_suite.ml" 34 1146 1150 "asmir_suite.ml" 34 1146 1154
+type(
+  string
+)
+ident(
+  int_ref name "asmir_suite.ml" 31 1059 1081 "asmir_suite.ml" 31 1059 1085
+)
+"asmir_suite.ml" 34 1146 1154 "asmir_suite.ml" 34 1146 1155
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"asmir_suite.ml" 34 1146 1155 "asmir_suite.ml" 34 1146 1164
+type(
+  string
+)
+"asmir_suite.ml" 34 1146 1150 "asmir_suite.ml" 34 1146 1164
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_suite.ml" 34 1146 1165 "asmir_suite.ml" 34 1146 1168
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"asmir_suite.ml" 34 1146 1169 "asmir_suite.ml" 34 1146 1192
+type(
+  string -> OUnit.test_fun
+)
+ident(
+  int_ref run_resolve_switch_test "asmir_suite.ml" 28 983 987 "asmir_suite.ml" 28 983 1010
+)
+"asmir_suite.ml" 34 1146 1193 "asmir_suite.ml" 34 1146 1198
+type(
+  string
+)
+ident(
+  int_ref fname "asmir_suite.ml" 31 1059 1086 "asmir_suite.ml" 31 1059 1091
+)
+"asmir_suite.ml" 34 1146 1169 "asmir_suite.ml" 34 1146 1198
+call(
+  stack
+)
+type(
+  OUnit.test_fun
+)
+"asmir_suite.ml" 34 1146 1150 "asmir_suite.ml" 34 1146 1198
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"asmir_suite.ml" 32 1094 1096 "asmir_suite.ml" 35 1200 1203
+type(
+  OUnit.test list
+)
+"asmir_suite.ml" 37 1205 1209 "asmir_suite.ml" 37 1205 1214
+type(
+  OUnit.test
+)
+ident(
+  def suite "asmir_suite.ml" 43 1401 1470 --
+)
+"asmir_suite.ml" 37 1205 1217 "asmir_suite.ml" 37 1205 1224
+type(
+  string
+)
+"asmir_suite.ml" 37 1205 1225 "asmir_suite.ml" 37 1205 1229
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"asmir_suite.ml" 39 1234 1238 "asmir_suite.ml" 39 1234 1257
+type(
+  string
+)
+"asmir_suite.ml" 39 1234 1258 "asmir_suite.ml" 39 1234 1261
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"asmir_suite.ml" 39 1234 1262 "asmir_suite.ml" 39 1234 1279
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref open_program_test "asmir_suite.ml" 3 12 16 "asmir_suite.ml" 3 12 33
+)
+"asmir_suite.ml" 39 1234 1238 "asmir_suite.ml" 39 1234 1279
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"asmir_suite.ml" 38 1230 1232 "asmir_suite.ml" 40 1281 1284
+type(
+  OUnit.test list
+)
+"asmir_suite.ml" 41 1285 1287 "asmir_suite.ml" 41 1285 1288
+type(
+  OUnit.test list -> OUnit.test list -> OUnit.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"asmir_suite.ml" 41 1285 1289 "asmir_suite.ml" 41 1285 1306
+type(
+  string -> string -> OUnit.test list
+)
+ident(
+  int_ref make_recover_test "asmir_suite.ml" 31 1059 1063 "asmir_suite.ml" 31 1059 1080
+)
+"asmir_suite.ml" 41 1285 1307 "asmir_suite.ml" 41 1285 1321
+type(
+  string
+)
+"asmir_suite.ml" 41 1285 1322 "asmir_suite.ml" 41 1285 1338
+type(
+  string
+)
+"asmir_suite.ml" 41 1285 1289 "asmir_suite.ml" 41 1285 1338
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"asmir_suite.ml" 42 1339 1341 "asmir_suite.ml" 42 1339 1342
+type(
+  OUnit.test list -> OUnit.test list -> OUnit.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"asmir_suite.ml" 42 1339 1343 "asmir_suite.ml" 42 1339 1360
+type(
+  string -> string -> OUnit.test list
+)
+ident(
+  int_ref make_recover_test "asmir_suite.ml" 31 1059 1063 "asmir_suite.ml" 31 1059 1080
+)
+"asmir_suite.ml" 42 1339 1361 "asmir_suite.ml" 42 1339 1379
+type(
+  string
+)
+"asmir_suite.ml" 42 1339 1380 "asmir_suite.ml" 42 1339 1400
+type(
+  string
+)
+"asmir_suite.ml" 42 1339 1343 "asmir_suite.ml" 42 1339 1400
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"asmir_suite.ml" 43 1401 1403 "asmir_suite.ml" 43 1401 1404
+type(
+  OUnit.test list -> OUnit.test list -> OUnit.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"asmir_suite.ml" 43 1401 1405 "asmir_suite.ml" 43 1401 1422
+type(
+  string -> string -> OUnit.test list
+)
+ident(
+  int_ref make_recover_test "asmir_suite.ml" 31 1059 1063 "asmir_suite.ml" 31 1059 1080
+)
+"asmir_suite.ml" 43 1401 1423 "asmir_suite.ml" 43 1401 1445
+type(
+  string
+)
+"asmir_suite.ml" 43 1401 1446 "asmir_suite.ml" 43 1401 1470
+type(
+  string
+)
+"asmir_suite.ml" 43 1401 1405 "asmir_suite.ml" 43 1401 1470
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"asmir_suite.ml" 42 1339 1343 "asmir_suite.ml" 43 1401 1470
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"asmir_suite.ml" 41 1285 1289 "asmir_suite.ml" 43 1401 1470
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"asmir_suite.ml" 38 1230 1232 "asmir_suite.ml" 43 1401 1470
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"asmir_suite.ml" 37 1205 1217 "asmir_suite.ml" 43 1401 1470
+call(
+  stack
+)
+type(
+  OUnit.test
+)

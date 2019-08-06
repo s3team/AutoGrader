@@ -1,0 +1,5964 @@
+"lnf_reduced_havlak.ml" 1 0 33 "lnf_reduced_havlak.ml" 1 0 37
+type(
+  string
+)
+ident(
+  def name "lnf_reduced_havlak.ml" 1 0 79 "lnf_reduced_havlak.ml" 1 0 83
+)
+"lnf_reduced_havlak.ml" 1 0 40 "lnf_reduced_havlak.ml" 1 0 58
+type(
+  string
+)
+"lnf_reduced_havlak.ml" 1 0 63 "lnf_reduced_havlak.ml" 1 0 70
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "lnf_reduced_havlak.ml" 1 0 79 "lnf_reduced_havlak.ml" 1 0 83
+)
+"lnf_reduced_havlak.ml" 1 0 71 "lnf_reduced_havlak.ml" 1 0 79
+type(
+  [> `NoDebug ] as 'a
+)
+"lnf_reduced_havlak.ml" 1 0 11 "lnf_reduced_havlak.ml" 1 0 84
+call(
+  stack
+)
+"lnf_reduced_havlak.ml" 6 144 157 "lnf_reduced_havlak.ml" 6 144 172
+call(
+  stack
+)
+"lnf_reduced_havlak.ml" 18 593 599 "lnf_reduced_havlak.ml" 18 593 605
+type(
+  int -> 'a H.t
+)
+ident(
+  def create "lnf_reduced_havlak.ml" 21 700 702 "lnf_reduced_havlak.ml" 74 2453 2456
+)
+"lnf_reduced_havlak.ml" 18 593 606 "lnf_reduced_havlak.ml" 18 593 607
+type(
+  int
+)
+ident(
+  def n "lnf_reduced_havlak.ml" 18 593 610 "lnf_reduced_havlak.ml" 18 593 620
+)
+"lnf_reduced_havlak.ml" 18 593 610 "lnf_reduced_havlak.ml" 18 593 618
+type(
+  int -> 'a H.t
+)
+ident(
+  ext_ref H.create
+)
+"lnf_reduced_havlak.ml" 18 593 619 "lnf_reduced_havlak.ml" 18 593 620
+type(
+  int
+)
+ident(
+  int_ref n "lnf_reduced_havlak.ml" 18 593 606 "lnf_reduced_havlak.ml" 18 593 607
+)
+"lnf_reduced_havlak.ml" 18 593 610 "lnf_reduced_havlak.ml" 18 593 620
+call(
+  tail
+)
+type(
+  'a H.t
+)
+"lnf_reduced_havlak.ml" 21 700 706 "lnf_reduced_havlak.ml" 21 700 709
+type(
+  ufnode H.t -> H.key -> unit
+)
+ident(
+  def add "lnf_reduced_havlak.ml" 23 738 740 "lnf_reduced_havlak.ml" 74 2453 2456
+)
+"lnf_reduced_havlak.ml" 21 700 710 "lnf_reduced_havlak.ml" 21 700 711
+type(
+  ufnode H.t
+)
+ident(
+  def h "lnf_reduced_havlak.ml" 21 700 712 "lnf_reduced_havlak.ml" 21 700 736
+)
+"lnf_reduced_havlak.ml" 21 700 712 "lnf_reduced_havlak.ml" 21 700 713
+type(
+  H.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 21 700 716 "lnf_reduced_havlak.ml" 21 700 736
+)
+"lnf_reduced_havlak.ml" 21 700 716 "lnf_reduced_havlak.ml" 21 700 721
+type(
+  ufnode H.t -> H.key -> ufnode -> unit
+)
+ident(
+  ext_ref H.add
+)
+"lnf_reduced_havlak.ml" 21 700 722 "lnf_reduced_havlak.ml" 21 700 723
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 21 700 710 "lnf_reduced_havlak.ml" 21 700 711
+)
+"lnf_reduced_havlak.ml" 21 700 724 "lnf_reduced_havlak.ml" 21 700 725
+type(
+  H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 21 700 712 "lnf_reduced_havlak.ml" 21 700 713
+)
+"lnf_reduced_havlak.ml" 21 700 734 "lnf_reduced_havlak.ml" 21 700 735
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 21 700 726 "lnf_reduced_havlak.ml" 21 700 736
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 21 700 716 "lnf_reduced_havlak.ml" 21 700 736
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 23 738 744 "lnf_reduced_havlak.ml" 23 738 752
+type(
+  'b H.t -> H.key -> bool
+)
+ident(
+  def contains "lnf_reduced_havlak.ml" 34 1055 1057 "lnf_reduced_havlak.ml" 74 2453 2456
+)
+"lnf_reduced_havlak.ml" 23 738 753 "lnf_reduced_havlak.ml" 23 738 754
+type(
+  'b H.t
+)
+ident(
+  def h "lnf_reduced_havlak.ml" 23 738 755 "lnf_reduced_havlak.ml" 23 738 768
+)
+"lnf_reduced_havlak.ml" 23 738 755 "lnf_reduced_havlak.ml" 23 738 756
+type(
+  H.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 23 738 759 "lnf_reduced_havlak.ml" 23 738 768
+)
+"lnf_reduced_havlak.ml" 23 738 759 "lnf_reduced_havlak.ml" 23 738 764
+type(
+  'b H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"lnf_reduced_havlak.ml" 23 738 765 "lnf_reduced_havlak.ml" 23 738 766
+type(
+  'b H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 23 738 753 "lnf_reduced_havlak.ml" 23 738 754
+)
+"lnf_reduced_havlak.ml" 23 738 767 "lnf_reduced_havlak.ml" 23 738 768
+type(
+  H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 23 738 755 "lnf_reduced_havlak.ml" 23 738 756
+)
+"lnf_reduced_havlak.ml" 23 738 759 "lnf_reduced_havlak.ml" 23 738 768
+call(
+  tail
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 34 1055 1065 "lnf_reduced_havlak.ml" 34 1055 1069
+type(
+  ufnode H.t -> H.key -> H.key
+)
+ident(
+  def find "lnf_reduced_havlak.ml" 34 1055 1057 "lnf_reduced_havlak.ml" 74 2453 2456
+)
+"lnf_reduced_havlak.ml" 34 1055 1070 "lnf_reduced_havlak.ml" 34 1055 1071
+type(
+  ufnode H.t
+)
+ident(
+  def h "lnf_reduced_havlak.ml" 34 1055 1072 "lnf_reduced_havlak.ml" 38 1184 1252
+)
+"lnf_reduced_havlak.ml" 34 1055 1072 "lnf_reduced_havlak.ml" 34 1055 1073
+type(
+  H.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 35 1076 1081 "lnf_reduced_havlak.ml" 38 1184 1252
+)
+"lnf_reduced_havlak.ml" 35 1076 1087 "lnf_reduced_havlak.ml" 35 1076 1093
+type(
+  ufnode H.t -> H.key -> ufnode
+)
+ident(
+  ext_ref H.find
+)
+"lnf_reduced_havlak.ml" 35 1076 1094 "lnf_reduced_havlak.ml" 35 1076 1095
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 34 1055 1070 "lnf_reduced_havlak.ml" 34 1055 1071
+)
+"lnf_reduced_havlak.ml" 35 1076 1096 "lnf_reduced_havlak.ml" 35 1076 1097
+type(
+  H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 34 1055 1072 "lnf_reduced_havlak.ml" 34 1055 1073
+)
+"lnf_reduced_havlak.ml" 35 1076 1087 "lnf_reduced_havlak.ml" 35 1076 1097
+call(
+  stack
+)
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 36 1104 1117 "lnf_reduced_havlak.ml" 36 1104 1120
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 36 1104 1111 "lnf_reduced_havlak.ml" 36 1104 1120
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 36 1104 1124 "lnf_reduced_havlak.ml" 36 1104 1125
+type(
+  H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 34 1055 1072 "lnf_reduced_havlak.ml" 34 1055 1073
+)
+"lnf_reduced_havlak.ml" 37 1126 1138 "lnf_reduced_havlak.ml" 37 1126 1146
+type(
+  H.key
+)
+ident(
+  def parent "lnf_reduced_havlak.ml" 37 1126 1150 "lnf_reduced_havlak.ml" 38 1184 1252
+)
+"lnf_reduced_havlak.ml" 37 1126 1133 "lnf_reduced_havlak.ml" 37 1126 1146
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 37 1126 1154 "lnf_reduced_havlak.ml" 37 1126 1164
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 37 1126 1167 "lnf_reduced_havlak.ml" 37 1126 1171
+type(
+  ufnode H.t -> H.key -> H.key
+)
+ident(
+  int_ref find "lnf_reduced_havlak.ml" 34 1055 1065 "lnf_reduced_havlak.ml" 34 1055 1069
+)
+"lnf_reduced_havlak.ml" 37 1126 1172 "lnf_reduced_havlak.ml" 37 1126 1173
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 34 1055 1070 "lnf_reduced_havlak.ml" 34 1055 1071
+)
+"lnf_reduced_havlak.ml" 37 1126 1174 "lnf_reduced_havlak.ml" 37 1126 1180
+type(
+  H.key
+)
+ident(
+  int_ref parent "lnf_reduced_havlak.ml" 37 1126 1138 "lnf_reduced_havlak.ml" 37 1126 1146
+)
+"lnf_reduced_havlak.ml" 37 1126 1167 "lnf_reduced_havlak.ml" 37 1126 1180
+call(
+  stack
+)
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 38 1184 1208 "lnf_reduced_havlak.ml" 38 1184 1217
+type(
+  ufnode H.t -> H.key -> ufnode -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"lnf_reduced_havlak.ml" 38 1184 1218 "lnf_reduced_havlak.ml" 38 1184 1219
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 34 1055 1070 "lnf_reduced_havlak.ml" 34 1055 1071
+)
+"lnf_reduced_havlak.ml" 38 1184 1220 "lnf_reduced_havlak.ml" 38 1184 1221
+type(
+  H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 34 1055 1072 "lnf_reduced_havlak.ml" 34 1055 1073
+)
+"lnf_reduced_havlak.ml" 38 1184 1229 "lnf_reduced_havlak.ml" 38 1184 1239
+type(
+  H.key
+)
+ident(
+  int_ref new_parent "lnf_reduced_havlak.ml" 37 1126 1154 "lnf_reduced_havlak.ml" 37 1126 1164
+)
+"lnf_reduced_havlak.ml" 38 1184 1222 "lnf_reduced_havlak.ml" 38 1184 1240
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 38 1184 1208 "lnf_reduced_havlak.ml" 38 1184 1240
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 38 1184 1242 "lnf_reduced_havlak.ml" 38 1184 1252
+type(
+  H.key
+)
+ident(
+  int_ref new_parent "lnf_reduced_havlak.ml" 37 1126 1154 "lnf_reduced_havlak.ml" 37 1126 1164
+)
+"lnf_reduced_havlak.ml" 38 1184 1208 "lnf_reduced_havlak.ml" 38 1184 1252
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 37 1126 1150 "lnf_reduced_havlak.ml" 38 1184 1252
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 35 1076 1081 "lnf_reduced_havlak.ml" 38 1184 1252
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 46 1437 1443 "lnf_reduced_havlak.ml" 46 1437 1448
+type(
+  ufnode H.t -> H.key -> H.key -> unit
+)
+ident(
+  def union "lnf_reduced_havlak.ml" 69 2312 2314 "lnf_reduced_havlak.ml" 74 2453 2456
+)
+"lnf_reduced_havlak.ml" 46 1437 1449 "lnf_reduced_havlak.ml" 46 1437 1450
+type(
+  ufnode H.t
+)
+ident(
+  def h "lnf_reduced_havlak.ml" 46 1437 1451 "lnf_reduced_havlak.ml" 67 2237 2310
+)
+"lnf_reduced_havlak.ml" 46 1437 1451 "lnf_reduced_havlak.ml" 46 1437 1452
+type(
+  H.key
+)
+ident(
+  def u "lnf_reduced_havlak.ml" 46 1437 1453 "lnf_reduced_havlak.ml" 67 2237 2310
+)
+"lnf_reduced_havlak.ml" 46 1437 1453 "lnf_reduced_havlak.ml" 46 1437 1454
+type(
+  H.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 51 1602 1606 "lnf_reduced_havlak.ml" 67 2237 2310
+)
+"lnf_reduced_havlak.ml" 51 1602 1610 "lnf_reduced_havlak.ml" 51 1602 1617
+type(
+  ufnode H.t -> H.key -> int
+)
+"lnf_reduced_havlak.ml" 51 1602 1618 "lnf_reduced_havlak.ml" 51 1602 1619
+type(
+  ufnode H.t
+)
+ident(
+  def h "lnf_reduced_havlak.ml" 51 1602 1620 "lnf_reduced_havlak.ml" 53 1685 1726
+)
+"lnf_reduced_havlak.ml" 51 1602 1620 "lnf_reduced_havlak.ml" 51 1602 1621
+type(
+  H.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 51 1602 1624 "lnf_reduced_havlak.ml" 53 1685 1726
+)
+"lnf_reduced_havlak.ml" 51 1602 1630 "lnf_reduced_havlak.ml" 51 1602 1636
+type(
+  ufnode H.t -> H.key -> ufnode
+)
+ident(
+  ext_ref H.find
+)
+"lnf_reduced_havlak.ml" 51 1602 1637 "lnf_reduced_havlak.ml" 51 1602 1638
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 51 1602 1618 "lnf_reduced_havlak.ml" 51 1602 1619
+)
+"lnf_reduced_havlak.ml" 51 1602 1639 "lnf_reduced_havlak.ml" 51 1602 1640
+type(
+  H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 51 1602 1620 "lnf_reduced_havlak.ml" 51 1602 1621
+)
+"lnf_reduced_havlak.ml" 51 1602 1630 "lnf_reduced_havlak.ml" 51 1602 1640
+call(
+  stack
+)
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 52 1646 1676 "lnf_reduced_havlak.ml" 52 1646 1679
+type(
+  int
+)
+ident(
+  def r "lnf_reduced_havlak.ml" 52 1646 1683 "lnf_reduced_havlak.ml" 52 1646 1684
+)
+"lnf_reduced_havlak.ml" 52 1646 1670 "lnf_reduced_havlak.ml" 52 1646 1679
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 52 1646 1683 "lnf_reduced_havlak.ml" 52 1646 1684
+type(
+  int
+)
+ident(
+  int_ref r "lnf_reduced_havlak.ml" 52 1646 1676 "lnf_reduced_havlak.ml" 52 1646 1679
+)
+"lnf_reduced_havlak.ml" 53 1685 1709 "lnf_reduced_havlak.ml" 53 1685 1710
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 53 1685 1714 "lnf_reduced_havlak.ml" 53 1685 1726
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 51 1602 1624 "lnf_reduced_havlak.ml" 53 1685 1726
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 54 1731 1739 "lnf_reduced_havlak.ml" 54 1731 1741
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 54 1731 1744 "lnf_reduced_havlak.ml" 54 1731 1748
+type(
+  ufnode H.t -> H.key -> H.key
+)
+ident(
+  int_ref find "lnf_reduced_havlak.ml" 34 1055 1065 "lnf_reduced_havlak.ml" 34 1055 1069
+)
+"lnf_reduced_havlak.ml" 54 1731 1749 "lnf_reduced_havlak.ml" 54 1731 1750
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 46 1437 1449 "lnf_reduced_havlak.ml" 46 1437 1450
+)
+"lnf_reduced_havlak.ml" 54 1731 1751 "lnf_reduced_havlak.ml" 54 1731 1752
+type(
+  H.key
+)
+ident(
+  int_ref u "lnf_reduced_havlak.ml" 46 1437 1451 "lnf_reduced_havlak.ml" 46 1437 1452
+)
+"lnf_reduced_havlak.ml" 54 1731 1744 "lnf_reduced_havlak.ml" 54 1731 1752
+call(
+  stack
+)
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 55 1756 1764 "lnf_reduced_havlak.ml" 55 1756 1766
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 55 1756 1769 "lnf_reduced_havlak.ml" 55 1756 1773
+type(
+  ufnode H.t -> H.key -> H.key
+)
+ident(
+  int_ref find "lnf_reduced_havlak.ml" 34 1055 1065 "lnf_reduced_havlak.ml" 34 1055 1069
+)
+"lnf_reduced_havlak.ml" 55 1756 1774 "lnf_reduced_havlak.ml" 55 1756 1775
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 46 1437 1449 "lnf_reduced_havlak.ml" 46 1437 1450
+)
+"lnf_reduced_havlak.ml" 55 1756 1776 "lnf_reduced_havlak.ml" 55 1756 1777
+type(
+  H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 46 1437 1453 "lnf_reduced_havlak.ml" 46 1437 1454
+)
+"lnf_reduced_havlak.ml" 55 1756 1769 "lnf_reduced_havlak.ml" 55 1756 1777
+call(
+  stack
+)
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 57 1840 1847 "lnf_reduced_havlak.ml" 57 1840 1854
+type(
+  H.key -> H.key -> bool
+)
+ident(
+  ext_ref T.equal
+)
+"lnf_reduced_havlak.ml" 57 1840 1855 "lnf_reduced_havlak.ml" 57 1840 1857
+type(
+  H.key
+)
+ident(
+  int_ref pu "lnf_reduced_havlak.ml" 54 1731 1739 "lnf_reduced_havlak.ml" 54 1731 1741
+)
+"lnf_reduced_havlak.ml" 57 1840 1858 "lnf_reduced_havlak.ml" 57 1840 1860
+type(
+  H.key
+)
+ident(
+  int_ref pv "lnf_reduced_havlak.ml" 55 1756 1764 "lnf_reduced_havlak.ml" 55 1756 1766
+)
+"lnf_reduced_havlak.ml" 57 1840 1847 "lnf_reduced_havlak.ml" 57 1840 1860
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 57 1840 1866 "lnf_reduced_havlak.ml" 57 1840 1868
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 58 1869 1882 "lnf_reduced_havlak.ml" 58 1869 1884
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 58 1869 1887 "lnf_reduced_havlak.ml" 58 1869 1894
+type(
+  ufnode H.t -> H.key -> int
+)
+ident(
+  int_ref getrank "lnf_reduced_havlak.ml" 51 1602 1610 "lnf_reduced_havlak.ml" 51 1602 1617
+)
+"lnf_reduced_havlak.ml" 58 1869 1895 "lnf_reduced_havlak.ml" 58 1869 1896
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 46 1437 1449 "lnf_reduced_havlak.ml" 46 1437 1450
+)
+"lnf_reduced_havlak.ml" 58 1869 1897 "lnf_reduced_havlak.ml" 58 1869 1899
+type(
+  H.key
+)
+ident(
+  int_ref pu "lnf_reduced_havlak.ml" 54 1731 1739 "lnf_reduced_havlak.ml" 54 1731 1741
+)
+"lnf_reduced_havlak.ml" 58 1869 1887 "lnf_reduced_havlak.ml" 58 1869 1899
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 59 1903 1916 "lnf_reduced_havlak.ml" 59 1903 1918
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 59 1903 1921 "lnf_reduced_havlak.ml" 59 1903 1928
+type(
+  ufnode H.t -> H.key -> int
+)
+ident(
+  int_ref getrank "lnf_reduced_havlak.ml" 51 1602 1610 "lnf_reduced_havlak.ml" 51 1602 1617
+)
+"lnf_reduced_havlak.ml" 59 1903 1929 "lnf_reduced_havlak.ml" 59 1903 1930
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 46 1437 1449 "lnf_reduced_havlak.ml" 46 1437 1450
+)
+"lnf_reduced_havlak.ml" 59 1903 1931 "lnf_reduced_havlak.ml" 59 1903 1933
+type(
+  H.key
+)
+ident(
+  int_ref pv "lnf_reduced_havlak.ml" 55 1756 1764 "lnf_reduced_havlak.ml" 55 1756 1766
+)
+"lnf_reduced_havlak.ml" 59 1903 1921 "lnf_reduced_havlak.ml" 59 1903 1933
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 61 1999 2012 "lnf_reduced_havlak.ml" 61 1999 2014
+type(
+  int
+)
+ident(
+  int_ref ur "lnf_reduced_havlak.ml" 58 1869 1882 "lnf_reduced_havlak.ml" 58 1869 1884
+)
+"lnf_reduced_havlak.ml" 61 1999 2015 "lnf_reduced_havlak.ml" 61 1999 2016
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"lnf_reduced_havlak.ml" 61 1999 2017 "lnf_reduced_havlak.ml" 61 1999 2019
+type(
+  int
+)
+ident(
+  int_ref vr "lnf_reduced_havlak.ml" 59 1903 1916 "lnf_reduced_havlak.ml" 59 1903 1918
+)
+"lnf_reduced_havlak.ml" 61 1999 2011 "lnf_reduced_havlak.ml" 61 1999 2020
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 61 1999 2026 "lnf_reduced_havlak.ml" 61 1999 2035
+type(
+  ufnode H.t -> H.key -> ufnode -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"lnf_reduced_havlak.ml" 61 1999 2036 "lnf_reduced_havlak.ml" 61 1999 2037
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 46 1437 1449 "lnf_reduced_havlak.ml" 46 1437 1450
+)
+"lnf_reduced_havlak.ml" 61 1999 2038 "lnf_reduced_havlak.ml" 61 1999 2040
+type(
+  H.key
+)
+ident(
+  int_ref pu "lnf_reduced_havlak.ml" 54 1731 1739 "lnf_reduced_havlak.ml" 54 1731 1741
+)
+"lnf_reduced_havlak.ml" 61 1999 2048 "lnf_reduced_havlak.ml" 61 1999 2050
+type(
+  H.key
+)
+ident(
+  int_ref pv "lnf_reduced_havlak.ml" 55 1756 1764 "lnf_reduced_havlak.ml" 55 1756 1766
+)
+"lnf_reduced_havlak.ml" 61 1999 2041 "lnf_reduced_havlak.ml" 61 1999 2051
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 61 1999 2026 "lnf_reduced_havlak.ml" 61 1999 2051
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 62 2052 2070 "lnf_reduced_havlak.ml" 62 2052 2072
+type(
+  int
+)
+ident(
+  int_ref ur "lnf_reduced_havlak.ml" 58 1869 1882 "lnf_reduced_havlak.ml" 58 1869 1884
+)
+"lnf_reduced_havlak.ml" 62 2052 2073 "lnf_reduced_havlak.ml" 62 2052 2074
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"lnf_reduced_havlak.ml" 62 2052 2075 "lnf_reduced_havlak.ml" 62 2052 2077
+type(
+  int
+)
+ident(
+  int_ref vr "lnf_reduced_havlak.ml" 59 1903 1916 "lnf_reduced_havlak.ml" 59 1903 1918
+)
+"lnf_reduced_havlak.ml" 62 2052 2069 "lnf_reduced_havlak.ml" 62 2052 2078
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 62 2052 2084 "lnf_reduced_havlak.ml" 62 2052 2093
+type(
+  ufnode H.t -> H.key -> ufnode -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"lnf_reduced_havlak.ml" 62 2052 2094 "lnf_reduced_havlak.ml" 62 2052 2095
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 46 1437 1449 "lnf_reduced_havlak.ml" 46 1437 1450
+)
+"lnf_reduced_havlak.ml" 62 2052 2096 "lnf_reduced_havlak.ml" 62 2052 2098
+type(
+  H.key
+)
+ident(
+  int_ref pv "lnf_reduced_havlak.ml" 55 1756 1764 "lnf_reduced_havlak.ml" 55 1756 1766
+)
+"lnf_reduced_havlak.ml" 62 2052 2106 "lnf_reduced_havlak.ml" 62 2052 2108
+type(
+  H.key
+)
+ident(
+  int_ref pu "lnf_reduced_havlak.ml" 54 1731 1739 "lnf_reduced_havlak.ml" 54 1731 1741
+)
+"lnf_reduced_havlak.ml" 62 2052 2099 "lnf_reduced_havlak.ml" 62 2052 2109
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 62 2052 2084 "lnf_reduced_havlak.ml" 62 2052 2109
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 67 2237 2252 "lnf_reduced_havlak.ml" 67 2237 2261
+type(
+  ufnode H.t -> H.key -> ufnode -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"lnf_reduced_havlak.ml" 67 2237 2262 "lnf_reduced_havlak.ml" 67 2237 2263
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 46 1437 1449 "lnf_reduced_havlak.ml" 46 1437 1450
+)
+"lnf_reduced_havlak.ml" 67 2237 2264 "lnf_reduced_havlak.ml" 67 2237 2266
+type(
+  H.key
+)
+ident(
+  int_ref pu "lnf_reduced_havlak.ml" 54 1731 1739 "lnf_reduced_havlak.ml" 54 1731 1741
+)
+"lnf_reduced_havlak.ml" 67 2237 2276 "lnf_reduced_havlak.ml" 67 2237 2278
+type(
+  int
+)
+ident(
+  int_ref ur "lnf_reduced_havlak.ml" 58 1869 1882 "lnf_reduced_havlak.ml" 58 1869 1884
+)
+"lnf_reduced_havlak.ml" 67 2237 2278 "lnf_reduced_havlak.ml" 67 2237 2279
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lnf_reduced_havlak.ml" 67 2237 2279 "lnf_reduced_havlak.ml" 67 2237 2280
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 67 2237 2275 "lnf_reduced_havlak.ml" 67 2237 2281
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 67 2237 2267 "lnf_reduced_havlak.ml" 67 2237 2282
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 67 2237 2252 "lnf_reduced_havlak.ml" 67 2237 2282
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 67 2237 2284 "lnf_reduced_havlak.ml" 67 2237 2293
+type(
+  ufnode H.t -> H.key -> ufnode -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"lnf_reduced_havlak.ml" 67 2237 2294 "lnf_reduced_havlak.ml" 67 2237 2295
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 46 1437 1449 "lnf_reduced_havlak.ml" 46 1437 1450
+)
+"lnf_reduced_havlak.ml" 67 2237 2296 "lnf_reduced_havlak.ml" 67 2237 2298
+type(
+  H.key
+)
+ident(
+  int_ref pv "lnf_reduced_havlak.ml" 55 1756 1764 "lnf_reduced_havlak.ml" 55 1756 1766
+)
+"lnf_reduced_havlak.ml" 67 2237 2306 "lnf_reduced_havlak.ml" 67 2237 2308
+type(
+  H.key
+)
+ident(
+  int_ref pu "lnf_reduced_havlak.ml" 54 1731 1739 "lnf_reduced_havlak.ml" 54 1731 1741
+)
+"lnf_reduced_havlak.ml" 67 2237 2299 "lnf_reduced_havlak.ml" 67 2237 2309
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 67 2237 2284 "lnf_reduced_havlak.ml" 67 2237 2309
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 67 2237 2251 "lnf_reduced_havlak.ml" 67 2237 2310
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 62 2052 2066 "lnf_reduced_havlak.ml" 67 2237 2310
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 61 1999 2008 "lnf_reduced_havlak.ml" 67 2237 2310
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 59 1903 1912 "lnf_reduced_havlak.ml" 67 2237 2310
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 58 1869 1878 "lnf_reduced_havlak.ml" 67 2237 2310
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 57 1840 1844 "lnf_reduced_havlak.ml" 67 2237 2310
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 55 1756 1760 "lnf_reduced_havlak.ml" 67 2237 2310
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 54 1731 1735 "lnf_reduced_havlak.ml" 67 2237 2310
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 51 1602 1606 "lnf_reduced_havlak.ml" 67 2237 2310
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 69 2312 2318 "lnf_reduced_havlak.ml" 69 2312 2322
+type(
+  ufnode H.t -> (H.key -> unit) -> H.key -> unit
+)
+ident(
+  def iter "lnf_reduced_havlak.ml" 73 2427 2429 "lnf_reduced_havlak.ml" 74 2453 2456
+)
+"lnf_reduced_havlak.ml" 69 2312 2323 "lnf_reduced_havlak.ml" 69 2312 2324
+type(
+  ufnode H.t
+)
+ident(
+  def h "lnf_reduced_havlak.ml" 69 2312 2325 "lnf_reduced_havlak.ml" 71 2357 2425
+)
+"lnf_reduced_havlak.ml" 69 2312 2325 "lnf_reduced_havlak.ml" 69 2312 2326
+type(
+  H.key -> unit
+)
+ident(
+  def f "lnf_reduced_havlak.ml" 69 2312 2327 "lnf_reduced_havlak.ml" 71 2357 2425
+)
+"lnf_reduced_havlak.ml" 69 2312 2327 "lnf_reduced_havlak.ml" 69 2312 2328
+type(
+  H.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 70 2331 2335 "lnf_reduced_havlak.ml" 71 2357 2425
+)
+"lnf_reduced_havlak.ml" 70 2331 2339 "lnf_reduced_havlak.ml" 70 2331 2342
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 70 2331 2345 "lnf_reduced_havlak.ml" 70 2331 2349
+type(
+  ufnode H.t -> H.key -> H.key
+)
+ident(
+  int_ref find "lnf_reduced_havlak.ml" 34 1055 1065 "lnf_reduced_havlak.ml" 34 1055 1069
+)
+"lnf_reduced_havlak.ml" 70 2331 2350 "lnf_reduced_havlak.ml" 70 2331 2351
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 69 2312 2323 "lnf_reduced_havlak.ml" 69 2312 2324
+)
+"lnf_reduced_havlak.ml" 70 2331 2352 "lnf_reduced_havlak.ml" 70 2331 2353
+type(
+  H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 69 2312 2327 "lnf_reduced_havlak.ml" 69 2312 2328
+)
+"lnf_reduced_havlak.ml" 70 2331 2345 "lnf_reduced_havlak.ml" 70 2331 2353
+call(
+  stack
+)
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 71 2357 2361 "lnf_reduced_havlak.ml" 71 2357 2367
+type(
+  (H.key -> ufnode -> unit) -> ufnode H.t -> unit
+)
+ident(
+  ext_ref H.iter
+)
+"lnf_reduced_havlak.ml" 71 2357 2373 "lnf_reduced_havlak.ml" 71 2357 2374
+type(
+  H.key
+)
+ident(
+  def k "lnf_reduced_havlak.ml" 71 2357 2375 "lnf_reduced_havlak.ml" 71 2357 2422
+)
+"lnf_reduced_havlak.ml" 71 2357 2375 "lnf_reduced_havlak.ml" 71 2357 2376
+type(
+  ufnode
+)
+"lnf_reduced_havlak.ml" 71 2357 2383 "lnf_reduced_havlak.ml" 71 2357 2390
+type(
+  H.key -> H.key -> bool
+)
+ident(
+  ext_ref T.equal
+)
+"lnf_reduced_havlak.ml" 71 2357 2392 "lnf_reduced_havlak.ml" 71 2357 2396
+type(
+  ufnode H.t -> H.key -> H.key
+)
+ident(
+  int_ref find "lnf_reduced_havlak.ml" 34 1055 1065 "lnf_reduced_havlak.ml" 34 1055 1069
+)
+"lnf_reduced_havlak.ml" 71 2357 2397 "lnf_reduced_havlak.ml" 71 2357 2398
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 69 2312 2323 "lnf_reduced_havlak.ml" 69 2312 2324
+)
+"lnf_reduced_havlak.ml" 71 2357 2399 "lnf_reduced_havlak.ml" 71 2357 2400
+type(
+  H.key
+)
+ident(
+  int_ref k "lnf_reduced_havlak.ml" 71 2357 2373 "lnf_reduced_havlak.ml" 71 2357 2374
+)
+"lnf_reduced_havlak.ml" 71 2357 2391 "lnf_reduced_havlak.ml" 71 2357 2401
+call(
+  stack
+)
+type(
+  H.key
+)
+"lnf_reduced_havlak.ml" 71 2357 2402 "lnf_reduced_havlak.ml" 71 2357 2405
+type(
+  H.key
+)
+ident(
+  int_ref rep "lnf_reduced_havlak.ml" 70 2331 2339 "lnf_reduced_havlak.ml" 70 2331 2342
+)
+"lnf_reduced_havlak.ml" 71 2357 2383 "lnf_reduced_havlak.ml" 71 2357 2405
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 71 2357 2411 "lnf_reduced_havlak.ml" 71 2357 2412
+type(
+  H.key -> unit
+)
+ident(
+  int_ref f "lnf_reduced_havlak.ml" 69 2312 2325 "lnf_reduced_havlak.ml" 69 2312 2326
+)
+"lnf_reduced_havlak.ml" 71 2357 2413 "lnf_reduced_havlak.ml" 71 2357 2414
+type(
+  H.key
+)
+ident(
+  int_ref k "lnf_reduced_havlak.ml" 71 2357 2373 "lnf_reduced_havlak.ml" 71 2357 2374
+)
+"lnf_reduced_havlak.ml" 71 2357 2411 "lnf_reduced_havlak.ml" 71 2357 2414
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 71 2357 2420 "lnf_reduced_havlak.ml" 71 2357 2422
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 71 2357 2380 "lnf_reduced_havlak.ml" 71 2357 2422
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 71 2357 2368 "lnf_reduced_havlak.ml" 71 2357 2423
+type(
+  H.key -> ufnode -> unit
+)
+"lnf_reduced_havlak.ml" 71 2357 2424 "lnf_reduced_havlak.ml" 71 2357 2425
+type(
+  ufnode H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 69 2312 2323 "lnf_reduced_havlak.ml" 69 2312 2324
+)
+"lnf_reduced_havlak.ml" 71 2357 2361 "lnf_reduced_havlak.ml" 71 2357 2425
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 70 2331 2335 "lnf_reduced_havlak.ml" 71 2357 2425
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 73 2427 2433 "lnf_reduced_havlak.ml" 73 2427 2436
+type(
+  'c H.t -> H.key -> bool
+)
+ident(
+  def mem "lnf_reduced_havlak.ml" 73 2427 2452 "lnf_reduced_havlak.ml" 74 2453 2456
+)
+"lnf_reduced_havlak.ml" 73 2427 2437 "lnf_reduced_havlak.ml" 73 2427 2438
+type(
+  'c H.t
+)
+ident(
+  def h "lnf_reduced_havlak.ml" 73 2427 2439 "lnf_reduced_havlak.ml" 73 2427 2452
+)
+"lnf_reduced_havlak.ml" 73 2427 2439 "lnf_reduced_havlak.ml" 73 2427 2440
+type(
+  H.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 73 2427 2443 "lnf_reduced_havlak.ml" 73 2427 2452
+)
+"lnf_reduced_havlak.ml" 73 2427 2443 "lnf_reduced_havlak.ml" 73 2427 2448
+type(
+  'c H.t -> H.key -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"lnf_reduced_havlak.ml" 73 2427 2449 "lnf_reduced_havlak.ml" 73 2427 2450
+type(
+  'c H.t
+)
+ident(
+  int_ref h "lnf_reduced_havlak.ml" 73 2427 2437 "lnf_reduced_havlak.ml" 73 2427 2438
+)
+"lnf_reduced_havlak.ml" 73 2427 2451 "lnf_reduced_havlak.ml" 73 2427 2452
+type(
+  H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 73 2427 2439 "lnf_reduced_havlak.ml" 73 2427 2440
+)
+"lnf_reduced_havlak.ml" 73 2427 2443 "lnf_reduced_havlak.ml" 73 2427 2452
+call(
+  tail
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 80 2487 2501 "lnf_reduced_havlak.ml" 80 2487 2520
+call(
+  stack
+)
+"lnf_reduced_havlak.ml" 81 2521 2535 "lnf_reduced_havlak.ml" 81 2521 2550
+call(
+  stack
+)
+"lnf_reduced_havlak.ml" 83 2552 2567 "lnf_reduced_havlak.ml" 83 2552 2576
+call(
+  stack
+)
+"lnf_reduced_havlak.ml" 85 2578 2593 "lnf_reduced_havlak.ml" 85 2578 2612
+call(
+  stack
+)
+"lnf_reduced_havlak.ml" 87 2614 2629 "lnf_reduced_havlak.ml" 87 2614 2652
+call(
+  stack
+)
+"lnf_reduced_havlak.ml" 92 2758 2764 "lnf_reduced_havlak.ml" 92 2758 2767
+type(
+  C.G.t -> VH.key -> VUF.H.key Lnf.lnt list
+)
+ident(
+  def lnf "lnf_reduced_havlak.ml" 273 9724 9757 "lnf_reduced_havlak.ml" 274 9758 9761
+)
+"lnf_reduced_havlak.ml" 92 2758 2768 "lnf_reduced_havlak.ml" 92 2758 2771
+type(
+  C.G.t
+)
+ident(
+  def cfg "lnf_reduced_havlak.ml" 92 2758 2772 "lnf_reduced_havlak.ml" 273 9724 9757
+)
+"lnf_reduced_havlak.ml" 92 2758 2772 "lnf_reduced_havlak.ml" 92 2758 2774
+type(
+  VH.key
+)
+ident(
+  def v0 "lnf_reduced_havlak.ml" 93 2777 2781 "lnf_reduced_havlak.ml" 273 9724 9757
+)
+"lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+type(
+  C.G.t ref
+)
+"lnf_reduced_havlak.ml" 93 2777 2791 "lnf_reduced_havlak.ml" 93 2777 2794
+type(
+  C.G.t -> C.G.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"lnf_reduced_havlak.ml" 93 2777 2795 "lnf_reduced_havlak.ml" 93 2777 2798
+type(
+  C.G.t
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 92 2758 2768 "lnf_reduced_havlak.ml" 92 2758 2771
+)
+"lnf_reduced_havlak.ml" 93 2777 2791 "lnf_reduced_havlak.ml" 93 2777 2798
+type(
+  C.G.t ref
+)
+"lnf_reduced_havlak.ml" 95 2803 2811 "lnf_reduced_havlak.ml" 95 2803 2822
+type(
+  VUF.H.key VH.t
+)
+"lnf_reduced_havlak.ml" 95 2803 2825 "lnf_reduced_havlak.ml" 95 2803 2834
+type(
+  int -> VUF.H.key VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"lnf_reduced_havlak.ml" 95 2803 2836 "lnf_reduced_havlak.ml" 95 2803 2849
+type(
+  C.G.t -> int
+)
+ident(
+  ext_ref C.G.nb_vertex
+)
+"lnf_reduced_havlak.ml" 95 2803 2850 "lnf_reduced_havlak.ml" 95 2803 2851
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 95 2803 2851 "lnf_reduced_havlak.ml" 95 2803 2854
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 95 2803 2850 "lnf_reduced_havlak.ml" 95 2803 2854
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 95 2803 2835 "lnf_reduced_havlak.ml" 95 2803 2855
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 95 2803 2825 "lnf_reduced_havlak.ml" 95 2803 2855
+call(
+  stack
+)
+type(
+  VUF.H.key VH.t
+)
+"lnf_reduced_havlak.ml" 96 2859 2867 "lnf_reduced_havlak.ml" 96 2859 2875
+type(
+  VUF.ufnode VUF.H.t
+)
+"lnf_reduced_havlak.ml" 96 2859 2878 "lnf_reduced_havlak.ml" 96 2859 2888
+type(
+  int -> VUF.ufnode VUF.H.t
+)
+ident(
+  ext_ref VUF.create
+)
+"lnf_reduced_havlak.ml" 96 2859 2890 "lnf_reduced_havlak.ml" 96 2859 2903
+type(
+  C.G.t -> int
+)
+ident(
+  ext_ref C.G.nb_vertex
+)
+"lnf_reduced_havlak.ml" 96 2859 2904 "lnf_reduced_havlak.ml" 96 2859 2905
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 96 2859 2905 "lnf_reduced_havlak.ml" 96 2859 2908
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 96 2859 2904 "lnf_reduced_havlak.ml" 96 2859 2908
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 96 2859 2889 "lnf_reduced_havlak.ml" 96 2859 2909
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 96 2859 2878 "lnf_reduced_havlak.ml" 96 2859 2909
+call(
+  stack
+)
+type(
+  VUF.ufnode VUF.H.t
+)
+"lnf_reduced_havlak.ml" 97 2913 2921 "lnf_reduced_havlak.ml" 97 2913 2932
+type(
+  VUF.ufnode VUF.H.t
+)
+"lnf_reduced_havlak.ml" 97 2913 2935 "lnf_reduced_havlak.ml" 97 2913 2945
+type(
+  int -> VUF.ufnode VUF.H.t
+)
+ident(
+  ext_ref VUF.create
+)
+"lnf_reduced_havlak.ml" 97 2913 2947 "lnf_reduced_havlak.ml" 97 2913 2960
+type(
+  C.G.t -> int
+)
+ident(
+  ext_ref C.G.nb_vertex
+)
+"lnf_reduced_havlak.ml" 97 2913 2961 "lnf_reduced_havlak.ml" 97 2913 2962
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 97 2913 2962 "lnf_reduced_havlak.ml" 97 2913 2965
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 97 2913 2961 "lnf_reduced_havlak.ml" 97 2913 2965
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 97 2913 2946 "lnf_reduced_havlak.ml" 97 2913 2966
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 97 2913 2935 "lnf_reduced_havlak.ml" 97 2913 2966
+call(
+  stack
+)
+type(
+  VUF.ufnode VUF.H.t
+)
+"lnf_reduced_havlak.ml" 98 2970 2978 "lnf_reduced_havlak.ml" 98 2970 2991
+type(
+  (C.G.vertex * C.G.vertex) list VH.t
+)
+"lnf_reduced_havlak.ml" 98 2970 2994 "lnf_reduced_havlak.ml" 98 2970 3003
+type(
+  int -> (C.G.vertex * C.G.vertex) list VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"lnf_reduced_havlak.ml" 98 2970 3005 "lnf_reduced_havlak.ml" 98 2970 3018
+type(
+  C.G.t -> int
+)
+ident(
+  ext_ref C.G.nb_vertex
+)
+"lnf_reduced_havlak.ml" 98 2970 3019 "lnf_reduced_havlak.ml" 98 2970 3020
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 98 2970 3020 "lnf_reduced_havlak.ml" 98 2970 3023
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 98 2970 3019 "lnf_reduced_havlak.ml" 98 2970 3023
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 98 2970 3004 "lnf_reduced_havlak.ml" 98 2970 3024
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 98 2970 2994 "lnf_reduced_havlak.ml" 98 2970 3024
+call(
+  stack
+)
+type(
+  (C.G.vertex * C.G.vertex) list VH.t
+)
+"lnf_reduced_havlak.ml" 100 3029 3037 "lnf_reduced_havlak.ml" 100 3029 3047
+type(
+  VH.key VH.t
+)
+"lnf_reduced_havlak.ml" 100 3029 3050 "lnf_reduced_havlak.ml" 100 3029 3059
+type(
+  int -> VH.key VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"lnf_reduced_havlak.ml" 100 3029 3061 "lnf_reduced_havlak.ml" 100 3029 3074
+type(
+  C.G.t -> int
+)
+ident(
+  ext_ref C.G.nb_vertex
+)
+"lnf_reduced_havlak.ml" 100 3029 3075 "lnf_reduced_havlak.ml" 100 3029 3076
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 100 3029 3076 "lnf_reduced_havlak.ml" 100 3029 3079
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 100 3029 3075 "lnf_reduced_havlak.ml" 100 3029 3079
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 100 3029 3060 "lnf_reduced_havlak.ml" 100 3029 3080
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 100 3029 3050 "lnf_reduced_havlak.ml" 100 3029 3080
+call(
+  stack
+)
+type(
+  VH.key VH.t
+)
+"lnf_reduced_havlak.ml" 101 3084 3096 "lnf_reduced_havlak.ml" 101 3084 3109
+type(
+  VUF.H.key list ref
+)
+"lnf_reduced_havlak.ml" 101 3084 3112 "lnf_reduced_havlak.ml" 101 3084 3115
+type(
+  VUF.H.key list -> VUF.H.key list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"lnf_reduced_havlak.ml" 101 3084 3116 "lnf_reduced_havlak.ml" 101 3084 3118
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 101 3084 3112 "lnf_reduced_havlak.ml" 101 3084 3118
+type(
+  VUF.H.key list ref
+)
+"lnf_reduced_havlak.ml" 102 3122 3130 "lnf_reduced_havlak.ml" 102 3122 3134
+type(
+  VH.key Stack.t
+)
+"lnf_reduced_havlak.ml" 102 3122 3137 "lnf_reduced_havlak.ml" 102 3122 3149
+type(
+  unit -> VH.key Stack.t
+)
+ident(
+  ext_ref Stack.create
+)
+"lnf_reduced_havlak.ml" 102 3122 3150 "lnf_reduced_havlak.ml" 102 3122 3152
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 102 3122 3137 "lnf_reduced_havlak.ml" 102 3122 3152
+call(
+  stack
+)
+type(
+  VH.key Stack.t
+)
+"lnf_reduced_havlak.ml" 103 3156 3164 "lnf_reduced_havlak.ml" 103 3156 3166
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 103 3156 3169 "lnf_reduced_havlak.ml" 103 3156 3179
+type(
+  VH.key -> VH.key Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"lnf_reduced_havlak.ml" 103 3156 3180 "lnf_reduced_havlak.ml" 103 3156 3182
+type(
+  VH.key
+)
+ident(
+  int_ref v0 "lnf_reduced_havlak.ml" 92 2758 2772 "lnf_reduced_havlak.ml" 92 2758 2774
+)
+"lnf_reduced_havlak.ml" 103 3156 3183 "lnf_reduced_havlak.ml" 103 3156 3187
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref prev "lnf_reduced_havlak.ml" 102 3122 3130 "lnf_reduced_havlak.ml" 102 3122 3134
+)
+"lnf_reduced_havlak.ml" 103 3156 3169 "lnf_reduced_havlak.ml" 103 3156 3187
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 104 3191 3199 "lnf_reduced_havlak.ml" 104 3191 3201
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 104 3191 3204 "lnf_reduced_havlak.ml" 104 3191 3222
+type(
+  ?pre:(VH.key -> unit) -> ?post:(C.G.V.t -> unit) -> C.G.t -> VH.key -> unit
+)
+ident(
+  ext_ref Dfs.iter_component
+)
+"lnf_reduced_havlak.ml" 104 3191 3233 "lnf_reduced_havlak.ml" 104 3191 3234
+type(
+  VH.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 105 3238 3278 "lnf_reduced_havlak.ml" 109 3519 3576
+)
+"lnf_reduced_havlak.ml" 105 3238 3278 "lnf_reduced_havlak.ml" 105 3238 3291
+type(
+  VUF.H.key list ref
+)
+ident(
+  int_ref rev_dfs_order "lnf_reduced_havlak.ml" 101 3084 3096 "lnf_reduced_havlak.ml" 101 3084 3109
+)
+"lnf_reduced_havlak.ml" 105 3238 3292 "lnf_reduced_havlak.ml" 105 3238 3294
+type(
+  VUF.H.key list ref -> VUF.H.key list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lnf_reduced_havlak.ml" 105 3238 3295 "lnf_reduced_havlak.ml" 105 3238 3296
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 104 3191 3233 "lnf_reduced_havlak.ml" 104 3191 3234
+)
+"lnf_reduced_havlak.ml" 105 3238 3298 "lnf_reduced_havlak.ml" 105 3238 3299
+type(
+  VUF.H.key list ref -> VUF.H.key list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 105 3238 3299 "lnf_reduced_havlak.ml" 105 3238 3312
+type(
+  VUF.H.key list ref
+)
+ident(
+  int_ref rev_dfs_order "lnf_reduced_havlak.ml" 101 3084 3096 "lnf_reduced_havlak.ml" 101 3084 3109
+)
+"lnf_reduced_havlak.ml" 105 3238 3298 "lnf_reduced_havlak.ml" 105 3238 3312
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 105 3238 3295 "lnf_reduced_havlak.ml" 105 3238 3312
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 105 3238 3278 "lnf_reduced_havlak.ml" 105 3238 3312
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 106 3314 3354 "lnf_reduced_havlak.ml" 106 3314 3360
+type(
+  VH.key VH.t -> VH.key -> VH.key -> unit
+)
+ident(
+  ext_ref VH.add
+)
+"lnf_reduced_havlak.ml" 106 3314 3361 "lnf_reduced_havlak.ml" 106 3314 3371
+type(
+  VH.key VH.t
+)
+ident(
+  int_ref dfs_parent "lnf_reduced_havlak.ml" 100 3029 3037 "lnf_reduced_havlak.ml" 100 3029 3047
+)
+"lnf_reduced_havlak.ml" 106 3314 3372 "lnf_reduced_havlak.ml" 106 3314 3373
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 104 3191 3233 "lnf_reduced_havlak.ml" 104 3191 3234
+)
+"lnf_reduced_havlak.ml" 106 3314 3375 "lnf_reduced_havlak.ml" 106 3314 3384
+type(
+  VH.key Stack.t -> VH.key
+)
+ident(
+  ext_ref Stack.top
+)
+"lnf_reduced_havlak.ml" 106 3314 3385 "lnf_reduced_havlak.ml" 106 3314 3389
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref prev "lnf_reduced_havlak.ml" 102 3122 3130 "lnf_reduced_havlak.ml" 102 3122 3134
+)
+"lnf_reduced_havlak.ml" 106 3314 3374 "lnf_reduced_havlak.ml" 106 3314 3390
+call(
+  stack
+)
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 106 3314 3354 "lnf_reduced_havlak.ml" 106 3314 3390
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 107 3392 3432 "lnf_reduced_havlak.ml" 107 3392 3438
+type(
+  (C.G.vertex * C.G.vertex) list VH.t ->
+  VH.key -> (C.G.vertex * C.G.vertex) list -> unit
+)
+ident(
+  ext_ref VH.add
+)
+"lnf_reduced_havlak.ml" 107 3392 3439 "lnf_reduced_havlak.ml" 107 3392 3452
+type(
+  (C.G.vertex * C.G.vertex) list VH.t
+)
+ident(
+  int_ref crossFwdEdges "lnf_reduced_havlak.ml" 98 2970 2978 "lnf_reduced_havlak.ml" 98 2970 2991
+)
+"lnf_reduced_havlak.ml" 107 3392 3453 "lnf_reduced_havlak.ml" 107 3392 3454
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 104 3191 3233 "lnf_reduced_havlak.ml" 104 3191 3234
+)
+"lnf_reduced_havlak.ml" 107 3392 3455 "lnf_reduced_havlak.ml" 107 3392 3457
+type(
+  (C.G.vertex * C.G.vertex) list
+)
+"lnf_reduced_havlak.ml" 107 3392 3432 "lnf_reduced_havlak.ml" 107 3392 3457
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 108 3459 3499 "lnf_reduced_havlak.ml" 108 3459 3506
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> unit
+)
+ident(
+  ext_ref VUF.add
+)
+"lnf_reduced_havlak.ml" 108 3459 3507 "lnf_reduced_havlak.ml" 108 3459 3515
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref loopTree "lnf_reduced_havlak.ml" 96 2859 2867 "lnf_reduced_havlak.ml" 96 2859 2875
+)
+"lnf_reduced_havlak.ml" 108 3459 3516 "lnf_reduced_havlak.ml" 108 3459 3517
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 104 3191 3233 "lnf_reduced_havlak.ml" 104 3191 3234
+)
+"lnf_reduced_havlak.ml" 108 3459 3499 "lnf_reduced_havlak.ml" 108 3459 3517
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 109 3519 3559 "lnf_reduced_havlak.ml" 109 3519 3569
+type(
+  VH.key -> VH.key Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"lnf_reduced_havlak.ml" 109 3519 3570 "lnf_reduced_havlak.ml" 109 3519 3571
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 104 3191 3233 "lnf_reduced_havlak.ml" 104 3191 3234
+)
+"lnf_reduced_havlak.ml" 109 3519 3572 "lnf_reduced_havlak.ml" 109 3519 3576
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref prev "lnf_reduced_havlak.ml" 102 3122 3130 "lnf_reduced_havlak.ml" 102 3122 3134
+)
+"lnf_reduced_havlak.ml" 109 3519 3559 "lnf_reduced_havlak.ml" 109 3519 3576
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 108 3459 3499 "lnf_reduced_havlak.ml" 109 3519 3576
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 107 3392 3432 "lnf_reduced_havlak.ml" 109 3519 3576
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 106 3314 3354 "lnf_reduced_havlak.ml" 109 3519 3576
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 105 3238 3278 "lnf_reduced_havlak.ml" 109 3519 3576
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 104 3191 3228 "lnf_reduced_havlak.ml" 110 3577 3615
+type(
+  VH.key -> unit
+)
+"lnf_reduced_havlak.ml" 111 3616 3659 "lnf_reduced_havlak.ml" 111 3616 3660
+type(
+  C.G.V.t
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 112 3664 3704 "lnf_reduced_havlak.ml" 112 3664 3728
+)
+"lnf_reduced_havlak.ml" 112 3664 3704 "lnf_reduced_havlak.ml" 112 3664 3710
+type(
+  VH.key -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"lnf_reduced_havlak.ml" 112 3664 3712 "lnf_reduced_havlak.ml" 112 3664 3721
+type(
+  VH.key Stack.t -> VH.key
+)
+ident(
+  ext_ref Stack.pop
+)
+"lnf_reduced_havlak.ml" 112 3664 3722 "lnf_reduced_havlak.ml" 112 3664 3726
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref prev "lnf_reduced_havlak.ml" 102 3122 3130 "lnf_reduced_havlak.ml" 102 3122 3134
+)
+"lnf_reduced_havlak.ml" 112 3664 3711 "lnf_reduced_havlak.ml" 112 3664 3727
+call(
+  stack
+)
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 112 3664 3704 "lnf_reduced_havlak.ml" 112 3664 3728
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 111 3616 3654 "lnf_reduced_havlak.ml" 113 3729 3768
+type(
+  C.G.V.t -> unit
+)
+"lnf_reduced_havlak.ml" 114 3769 3801 "lnf_reduced_havlak.ml" 114 3769 3802
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 114 3769 3802 "lnf_reduced_havlak.ml" 114 3769 3805
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 114 3769 3801 "lnf_reduced_havlak.ml" 114 3769 3805
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 114 3769 3806 "lnf_reduced_havlak.ml" 114 3769 3808
+type(
+  VH.key
+)
+ident(
+  int_ref v0 "lnf_reduced_havlak.ml" 92 2758 2772 "lnf_reduced_havlak.ml" 92 2758 2774
+)
+"lnf_reduced_havlak.ml" 104 3191 3204 "lnf_reduced_havlak.ml" 114 3769 3808
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 115 3812 3820 "lnf_reduced_havlak.ml" 115 3812 3822
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 115 3812 3825 "lnf_reduced_havlak.ml" 115 3812 3834
+type(
+  VH.key VH.t -> VH.key -> unit
+)
+ident(
+  ext_ref VH.remove
+)
+"lnf_reduced_havlak.ml" 115 3812 3835 "lnf_reduced_havlak.ml" 115 3812 3845
+type(
+  VH.key VH.t
+)
+ident(
+  int_ref dfs_parent "lnf_reduced_havlak.ml" 100 3029 3037 "lnf_reduced_havlak.ml" 100 3029 3047
+)
+"lnf_reduced_havlak.ml" 115 3812 3846 "lnf_reduced_havlak.ml" 115 3812 3848
+type(
+  VH.key
+)
+ident(
+  int_ref v0 "lnf_reduced_havlak.ml" 92 2758 2772 "lnf_reduced_havlak.ml" 92 2758 2774
+)
+"lnf_reduced_havlak.ml" 115 3812 3825 "lnf_reduced_havlak.ml" 115 3812 3848
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 118 3854 3862 "lnf_reduced_havlak.ml" 118 3854 3875
+type(
+  VH.key -> VH.key -> dfs_edge
+)
+"lnf_reduced_havlak.ml" 118 3854 3876 "lnf_reduced_havlak.ml" 118 3854 3877
+type(
+  VH.key
+)
+ident(
+  def u "lnf_reduced_havlak.ml" 118 3854 3878 "lnf_reduced_havlak.ml" 128 4271 4287
+)
+"lnf_reduced_havlak.ml" 118 3854 3878 "lnf_reduced_havlak.ml" 118 3854 3879
+type(
+  VH.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 119 3882 3888 "lnf_reduced_havlak.ml" 128 4271 4287
+)
+"lnf_reduced_havlak.ml" 119 3882 3896 "lnf_reduced_havlak.ml" 119 3882 3907
+type(
+  C.G.V.t -> VH.key -> bool
+)
+"lnf_reduced_havlak.ml" 119 3882 3908 "lnf_reduced_havlak.ml" 119 3882 3909
+type(
+  C.G.V.t
+)
+ident(
+  def u "lnf_reduced_havlak.ml" 119 3882 3910 "lnf_reduced_havlak.ml" 122 4029 4047
+)
+"lnf_reduced_havlak.ml" 119 3882 3910 "lnf_reduced_havlak.ml" 119 3882 3911
+type(
+  VH.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 120 3914 3922 "lnf_reduced_havlak.ml" 122 4029 4047
+)
+"lnf_reduced_havlak.ml" 120 3914 3925 "lnf_reduced_havlak.ml" 120 3914 3936
+type(
+  C.G.V.t -> VH.key -> bool
+)
+ident(
+  ext_ref C.G.V.equal
+)
+"lnf_reduced_havlak.ml" 120 3914 3937 "lnf_reduced_havlak.ml" 120 3914 3938
+type(
+  C.G.V.t
+)
+ident(
+  int_ref u "lnf_reduced_havlak.ml" 119 3882 3908 "lnf_reduced_havlak.ml" 119 3882 3909
+)
+"lnf_reduced_havlak.ml" 120 3914 3939 "lnf_reduced_havlak.ml" 120 3914 3940
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 119 3882 3910 "lnf_reduced_havlak.ml" 119 3882 3911
+)
+"lnf_reduced_havlak.ml" 120 3914 3925 "lnf_reduced_havlak.ml" 120 3914 3940
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 120 3914 3946 "lnf_reduced_havlak.ml" 120 3914 3950
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 121 3951 3967 "lnf_reduced_havlak.ml" 121 3951 3973
+type(
+  VH.key VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"lnf_reduced_havlak.ml" 121 3951 3974 "lnf_reduced_havlak.ml" 121 3951 3984
+type(
+  VH.key VH.t
+)
+ident(
+  int_ref dfs_parent "lnf_reduced_havlak.ml" 100 3029 3037 "lnf_reduced_havlak.ml" 100 3029 3047
+)
+"lnf_reduced_havlak.ml" 121 3951 3985 "lnf_reduced_havlak.ml" 121 3951 3986
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 119 3882 3910 "lnf_reduced_havlak.ml" 119 3882 3911
+)
+"lnf_reduced_havlak.ml" 121 3951 3967 "lnf_reduced_havlak.ml" 121 3951 3986
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 121 3951 3992 "lnf_reduced_havlak.ml" 121 3951 4003
+type(
+  C.G.V.t -> VH.key -> bool
+)
+ident(
+  int_ref is_ancestor "lnf_reduced_havlak.ml" 119 3882 3896 "lnf_reduced_havlak.ml" 119 3882 3907
+)
+"lnf_reduced_havlak.ml" 121 3951 4004 "lnf_reduced_havlak.ml" 121 3951 4005
+type(
+  C.G.V.t
+)
+ident(
+  int_ref u "lnf_reduced_havlak.ml" 119 3882 3908 "lnf_reduced_havlak.ml" 119 3882 3909
+)
+"lnf_reduced_havlak.ml" 121 3951 4007 "lnf_reduced_havlak.ml" 121 3951 4014
+type(
+  VH.key VH.t -> VH.key -> VH.key
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 121 3951 4015 "lnf_reduced_havlak.ml" 121 3951 4025
+type(
+  VH.key VH.t
+)
+ident(
+  int_ref dfs_parent "lnf_reduced_havlak.ml" 100 3029 3037 "lnf_reduced_havlak.ml" 100 3029 3047
+)
+"lnf_reduced_havlak.ml" 121 3951 4026 "lnf_reduced_havlak.ml" 121 3951 4027
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 119 3882 3910 "lnf_reduced_havlak.ml" 119 3882 3911
+)
+"lnf_reduced_havlak.ml" 121 3951 4006 "lnf_reduced_havlak.ml" 121 3951 4028
+call(
+  stack
+)
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 121 3951 3992 "lnf_reduced_havlak.ml" 121 3951 4028
+call(
+  tail
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 122 4029 4042 "lnf_reduced_havlak.ml" 122 4029 4047
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 121 3951 3964 "lnf_reduced_havlak.ml" 122 4029 4047
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 120 3914 3922 "lnf_reduced_havlak.ml" 122 4029 4047
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 125 4132 4141 "lnf_reduced_havlak.ml" 125 4132 4152
+type(
+  VH.key -> VH.key -> bool
+)
+ident(
+  ext_ref C.G.V.equal
+)
+"lnf_reduced_havlak.ml" 125 4132 4153 "lnf_reduced_havlak.ml" 125 4132 4154
+type(
+  VH.key
+)
+ident(
+  int_ref u "lnf_reduced_havlak.ml" 118 3854 3876 "lnf_reduced_havlak.ml" 118 3854 3877
+)
+"lnf_reduced_havlak.ml" 125 4132 4156 "lnf_reduced_havlak.ml" 125 4132 4163
+type(
+  VH.key VH.t -> VH.key -> VH.key
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 125 4132 4164 "lnf_reduced_havlak.ml" 125 4132 4174
+type(
+  VH.key VH.t
+)
+ident(
+  int_ref dfs_parent "lnf_reduced_havlak.ml" 100 3029 3037 "lnf_reduced_havlak.ml" 100 3029 3047
+)
+"lnf_reduced_havlak.ml" 125 4132 4175 "lnf_reduced_havlak.ml" 125 4132 4176
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 118 3854 3878 "lnf_reduced_havlak.ml" 118 3854 3879
+)
+"lnf_reduced_havlak.ml" 125 4132 4155 "lnf_reduced_havlak.ml" 125 4132 4177
+call(
+  stack
+)
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 125 4132 4141 "lnf_reduced_havlak.ml" 125 4132 4177
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 125 4132 4183 "lnf_reduced_havlak.ml" 125 4132 4187
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 126 4188 4202 "lnf_reduced_havlak.ml" 126 4188 4213
+type(
+  VH.key -> VH.key -> bool
+)
+ident(
+  int_ref is_ancestor "lnf_reduced_havlak.ml" 119 3882 3896 "lnf_reduced_havlak.ml" 119 3882 3907
+)
+"lnf_reduced_havlak.ml" 126 4188 4214 "lnf_reduced_havlak.ml" 126 4188 4215
+type(
+  VH.key
+)
+ident(
+  int_ref u "lnf_reduced_havlak.ml" 118 3854 3876 "lnf_reduced_havlak.ml" 118 3854 3877
+)
+"lnf_reduced_havlak.ml" 126 4188 4216 "lnf_reduced_havlak.ml" 126 4188 4217
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 118 3854 3878 "lnf_reduced_havlak.ml" 118 3854 3879
+)
+"lnf_reduced_havlak.ml" 126 4188 4202 "lnf_reduced_havlak.ml" 126 4188 4217
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 126 4188 4223 "lnf_reduced_havlak.ml" 126 4188 4230
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 127 4231 4245 "lnf_reduced_havlak.ml" 127 4231 4256
+type(
+  VH.key -> VH.key -> bool
+)
+ident(
+  int_ref is_ancestor "lnf_reduced_havlak.ml" 119 3882 3896 "lnf_reduced_havlak.ml" 119 3882 3907
+)
+"lnf_reduced_havlak.ml" 127 4231 4257 "lnf_reduced_havlak.ml" 127 4231 4258
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 118 3854 3878 "lnf_reduced_havlak.ml" 118 3854 3879
+)
+"lnf_reduced_havlak.ml" 127 4231 4259 "lnf_reduced_havlak.ml" 127 4231 4260
+type(
+  VH.key
+)
+ident(
+  int_ref u "lnf_reduced_havlak.ml" 118 3854 3876 "lnf_reduced_havlak.ml" 118 3854 3877
+)
+"lnf_reduced_havlak.ml" 127 4231 4245 "lnf_reduced_havlak.ml" 127 4231 4260
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 127 4231 4266 "lnf_reduced_havlak.ml" 127 4231 4270
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 128 4271 4282 "lnf_reduced_havlak.ml" 128 4271 4287
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 127 4231 4242 "lnf_reduced_havlak.ml" 128 4271 4287
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 126 4188 4199 "lnf_reduced_havlak.ml" 128 4271 4287
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 125 4132 4138 "lnf_reduced_havlak.ml" 128 4271 4287
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 119 3882 3888 "lnf_reduced_havlak.ml" 128 4271 4287
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 130 4292 4300 "lnf_reduced_havlak.ml" 130 4292 4308
+type(
+  VH.key list -> VUF.H.key -> unit
+)
+"lnf_reduced_havlak.ml" 130 4292 4309 "lnf_reduced_havlak.ml" 130 4292 4317
+type(
+  VH.key list
+)
+ident(
+  def loopBody "lnf_reduced_havlak.ml" 130 4292 4318 "lnf_reduced_havlak.ml" 133 4452 4478
+)
+"lnf_reduced_havlak.ml" 130 4292 4318 "lnf_reduced_havlak.ml" 130 4292 4328
+type(
+  VUF.H.key
+)
+ident(
+  def loopHeader "lnf_reduced_havlak.ml" 131 4331 4337 "lnf_reduced_havlak.ml" 133 4452 4478
+)
+"lnf_reduced_havlak.ml" 131 4331 4337 "lnf_reduced_havlak.ml" 131 4331 4346
+type(
+  (VH.key -> unit) -> VH.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"lnf_reduced_havlak.ml" 131 4331 4352 "lnf_reduced_havlak.ml" 131 4331 4353
+type(
+  VH.key
+)
+ident(
+  def z "lnf_reduced_havlak.ml" 131 4331 4357 "lnf_reduced_havlak.ml" 132 4394 4451
+)
+"lnf_reduced_havlak.ml" 131 4331 4357 "lnf_reduced_havlak.ml" 131 4331 4367
+type(
+  VUF.H.key VH.t -> VH.key -> VUF.H.key -> unit
+)
+ident(
+  ext_ref VH.replace
+)
+"lnf_reduced_havlak.ml" 131 4331 4368 "lnf_reduced_havlak.ml" 131 4331 4379
+type(
+  VUF.H.key VH.t
+)
+ident(
+  int_ref loop_parent "lnf_reduced_havlak.ml" 95 2803 2811 "lnf_reduced_havlak.ml" 95 2803 2822
+)
+"lnf_reduced_havlak.ml" 131 4331 4380 "lnf_reduced_havlak.ml" 131 4331 4381
+type(
+  VH.key
+)
+ident(
+  int_ref z "lnf_reduced_havlak.ml" 131 4331 4352 "lnf_reduced_havlak.ml" 131 4331 4353
+)
+"lnf_reduced_havlak.ml" 131 4331 4382 "lnf_reduced_havlak.ml" 131 4331 4392
+type(
+  VUF.H.key
+)
+ident(
+  int_ref loopHeader "lnf_reduced_havlak.ml" 130 4292 4318 "lnf_reduced_havlak.ml" 130 4292 4328
+)
+"lnf_reduced_havlak.ml" 131 4331 4357 "lnf_reduced_havlak.ml" 131 4331 4392
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 132 4394 4420 "lnf_reduced_havlak.ml" 132 4394 4429
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> VUF.H.key -> unit
+)
+ident(
+  ext_ref VUF.union
+)
+"lnf_reduced_havlak.ml" 132 4394 4430 "lnf_reduced_havlak.ml" 132 4394 4438
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref loopTree "lnf_reduced_havlak.ml" 96 2859 2867 "lnf_reduced_havlak.ml" 96 2859 2875
+)
+"lnf_reduced_havlak.ml" 132 4394 4439 "lnf_reduced_havlak.ml" 132 4394 4449
+type(
+  VUF.H.key
+)
+ident(
+  int_ref loopHeader "lnf_reduced_havlak.ml" 130 4292 4318 "lnf_reduced_havlak.ml" 130 4292 4328
+)
+"lnf_reduced_havlak.ml" 132 4394 4450 "lnf_reduced_havlak.ml" 132 4394 4451
+type(
+  VH.key
+)
+ident(
+  int_ref z "lnf_reduced_havlak.ml" 131 4331 4352 "lnf_reduced_havlak.ml" 131 4331 4353
+)
+"lnf_reduced_havlak.ml" 132 4394 4420 "lnf_reduced_havlak.ml" 132 4394 4451
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 131 4331 4357 "lnf_reduced_havlak.ml" 132 4394 4451
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 131 4331 4347 "lnf_reduced_havlak.ml" 133 4452 4469
+type(
+  VH.key -> unit
+)
+"lnf_reduced_havlak.ml" 133 4452 4470 "lnf_reduced_havlak.ml" 133 4452 4478
+type(
+  VH.key list
+)
+ident(
+  int_ref loopBody "lnf_reduced_havlak.ml" 130 4292 4309 "lnf_reduced_havlak.ml" 130 4292 4317
+)
+"lnf_reduced_havlak.ml" 131 4331 4337 "lnf_reduced_havlak.ml" 133 4452 4478
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 135 4483 4491 "lnf_reduced_havlak.ml" 135 4483 4499
+type(
+  C.G.vertex -> unit
+)
+"lnf_reduced_havlak.ml" 135 4483 4500 "lnf_reduced_havlak.ml" 135 4483 4515
+type(
+  C.G.vertex
+)
+ident(
+  def potentialHeader "lnf_reduced_havlak.ml" 140 4653 4659 "lnf_reduced_havlak.ml" 172 5830 5843
+)
+"lnf_reduced_havlak.ml" 140 4653 4663 "lnf_reduced_havlak.ml" 140 4653 4671
+type(
+  VUF.H.key Queue.t
+)
+"lnf_reduced_havlak.ml" 140 4653 4674 "lnf_reduced_havlak.ml" 140 4653 4686
+type(
+  unit -> VUF.H.key Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"lnf_reduced_havlak.ml" 140 4653 4687 "lnf_reduced_havlak.ml" 140 4653 4689
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 140 4653 4674 "lnf_reduced_havlak.ml" 140 4653 4689
+call(
+  stack
+)
+type(
+  VUF.H.key Queue.t
+)
+"lnf_reduced_havlak.ml" 143 4776 4786 "lnf_reduced_havlak.ml" 143 4776 4789
+type(
+  Dom.dom
+)
+"lnf_reduced_havlak.ml" 143 4776 4793 "lnf_reduced_havlak.ml" 143 4776 4808
+type(
+  C.G.t -> Dom.H.key -> Dom.dom_functions
+)
+ident(
+  ext_ref Dom.compute_all
+)
+"lnf_reduced_havlak.ml" 143 4776 4809 "lnf_reduced_havlak.ml" 143 4776 4810
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 143 4776 4810 "lnf_reduced_havlak.ml" 143 4776 4813
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 143 4776 4809 "lnf_reduced_havlak.ml" 143 4776 4813
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 143 4776 4814 "lnf_reduced_havlak.ml" 143 4776 4816
+type(
+  VH.key
+)
+ident(
+  int_ref v0 "lnf_reduced_havlak.ml" 92 2758 2772 "lnf_reduced_havlak.ml" 92 2758 2774
+)
+"lnf_reduced_havlak.ml" 143 4776 4792 "lnf_reduced_havlak.ml" 143 4776 4817
+call(
+  stack
+)
+type(
+  Dom.dom_functions
+)
+"lnf_reduced_havlak.ml" 143 4776 4792 "lnf_reduced_havlak.ml" 143 4776 4825
+type(
+  Dom.dom
+)
+"lnf_reduced_havlak.ml" 145 4830 4840 "lnf_reduced_havlak.ml" 145 4830 4842
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 145 4830 4845 "lnf_reduced_havlak.ml" 145 4830 4858
+type(
+  (C.G.vertex -> unit) -> C.G.t -> C.G.vertex -> unit
+)
+ident(
+  ext_ref C.G.iter_pred
+)
+"lnf_reduced_havlak.ml" 145 4830 4864 "lnf_reduced_havlak.ml" 145 4830 4865
+type(
+  C.G.vertex
+)
+ident(
+  def y "lnf_reduced_havlak.ml" 146 4869 4877 "lnf_reduced_havlak.ml" 152 5115 5130
+)
+"lnf_reduced_havlak.ml" 146 4869 4880 "lnf_reduced_havlak.ml" 146 4869 4883
+type(
+  Dom.dom
+)
+ident(
+  int_ref dom "lnf_reduced_havlak.ml" 143 4776 4786 "lnf_reduced_havlak.ml" 143 4776 4789
+)
+"lnf_reduced_havlak.ml" 146 4869 4884 "lnf_reduced_havlak.ml" 146 4869 4899
+type(
+  C.G.vertex
+)
+ident(
+  int_ref potentialHeader "lnf_reduced_havlak.ml" 135 4483 4500 "lnf_reduced_havlak.ml" 135 4483 4515
+)
+"lnf_reduced_havlak.ml" 146 4869 4900 "lnf_reduced_havlak.ml" 146 4869 4901
+type(
+  C.G.vertex
+)
+ident(
+  int_ref y "lnf_reduced_havlak.ml" 145 4830 4864 "lnf_reduced_havlak.ml" 145 4830 4865
+)
+"lnf_reduced_havlak.ml" 146 4869 4880 "lnf_reduced_havlak.ml" 146 4869 4901
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 148 4961 4975 "lnf_reduced_havlak.ml" 148 4961 4979
+type(
+  VUF.H.key
+)
+ident(
+  def ltfy "lnf_reduced_havlak.ml" 149 5005 5015 "lnf_reduced_havlak.ml" 151 5097 5114
+)
+"lnf_reduced_havlak.ml" 148 4961 4982 "lnf_reduced_havlak.ml" 148 4961 4990
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> VUF.H.key
+)
+ident(
+  ext_ref VUF.find
+)
+"lnf_reduced_havlak.ml" 148 4961 4991 "lnf_reduced_havlak.ml" 148 4961 4999
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref loopTree "lnf_reduced_havlak.ml" 96 2859 2867 "lnf_reduced_havlak.ml" 96 2859 2875
+)
+"lnf_reduced_havlak.ml" 148 4961 5000 "lnf_reduced_havlak.ml" 148 4961 5001
+type(
+  C.G.vertex
+)
+ident(
+  int_ref y "lnf_reduced_havlak.ml" 145 4830 4864 "lnf_reduced_havlak.ml" 145 4830 4865
+)
+"lnf_reduced_havlak.ml" 148 4961 4982 "lnf_reduced_havlak.ml" 148 4961 5001
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 149 5005 5018 "lnf_reduced_havlak.ml" 149 5005 5021
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"lnf_reduced_havlak.ml" 149 5005 5023 "lnf_reduced_havlak.ml" 149 5005 5034
+type(
+  VUF.H.key -> C.G.vertex -> bool
+)
+ident(
+  ext_ref C.G.V.equal
+)
+"lnf_reduced_havlak.ml" 149 5005 5035 "lnf_reduced_havlak.ml" 149 5005 5039
+type(
+  VUF.H.key
+)
+ident(
+  int_ref ltfy "lnf_reduced_havlak.ml" 148 4961 4975 "lnf_reduced_havlak.ml" 148 4961 4979
+)
+"lnf_reduced_havlak.ml" 149 5005 5040 "lnf_reduced_havlak.ml" 149 5005 5055
+type(
+  C.G.vertex
+)
+ident(
+  int_ref potentialHeader "lnf_reduced_havlak.ml" 135 4483 4500 "lnf_reduced_havlak.ml" 135 4483 4515
+)
+"lnf_reduced_havlak.ml" 149 5005 5022 "lnf_reduced_havlak.ml" 149 5005 5056
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 149 5005 5018 "lnf_reduced_havlak.ml" 149 5005 5056
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 150 5057 5072 "lnf_reduced_havlak.ml" 150 5057 5082
+type(
+  VUF.H.key -> VUF.H.key Queue.t -> unit
+)
+ident(
+  ext_ref Queue.push
+)
+"lnf_reduced_havlak.ml" 150 5057 5083 "lnf_reduced_havlak.ml" 150 5057 5087
+type(
+  VUF.H.key
+)
+ident(
+  int_ref ltfy "lnf_reduced_havlak.ml" 148 4961 4975 "lnf_reduced_havlak.ml" 148 4961 4979
+)
+"lnf_reduced_havlak.ml" 150 5057 5088 "lnf_reduced_havlak.ml" 150 5057 5096
+type(
+  VUF.H.key Queue.t
+)
+ident(
+  int_ref workList "lnf_reduced_havlak.ml" 140 4653 4663 "lnf_reduced_havlak.ml" 140 4653 4671
+)
+"lnf_reduced_havlak.ml" 150 5057 5072 "lnf_reduced_havlak.ml" 150 5057 5096
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 151 5097 5112 "lnf_reduced_havlak.ml" 151 5097 5114
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 149 5005 5015 "lnf_reduced_havlak.ml" 151 5097 5114
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 148 4961 4971 "lnf_reduced_havlak.ml" 151 5097 5114
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 152 5115 5128 "lnf_reduced_havlak.ml" 152 5115 5130
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 146 4869 4877 "lnf_reduced_havlak.ml" 152 5115 5130
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 145 4830 4859 "lnf_reduced_havlak.ml" 153 5131 5138
+type(
+  C.G.vertex -> unit
+)
+"lnf_reduced_havlak.ml" 153 5131 5139 "lnf_reduced_havlak.ml" 153 5131 5140
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 153 5131 5140 "lnf_reduced_havlak.ml" 153 5131 5143
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 153 5131 5139 "lnf_reduced_havlak.ml" 153 5131 5143
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 153 5131 5144 "lnf_reduced_havlak.ml" 153 5131 5159
+type(
+  C.G.vertex
+)
+ident(
+  int_ref potentialHeader "lnf_reduced_havlak.ml" 135 4483 4500 "lnf_reduced_havlak.ml" 135 4483 4515
+)
+"lnf_reduced_havlak.ml" 145 4830 4845 "lnf_reduced_havlak.ml" 153 5131 5159
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 155 5164 5174 "lnf_reduced_havlak.ml" 155 5164 5182
+type(
+  VH.key list ref
+)
+"lnf_reduced_havlak.ml" 155 5164 5185 "lnf_reduced_havlak.ml" 155 5164 5188
+type(
+  VH.key list -> VH.key list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"lnf_reduced_havlak.ml" 155 5164 5189 "lnf_reduced_havlak.ml" 155 5164 5191
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 155 5164 5185 "lnf_reduced_havlak.ml" 155 5164 5191
+type(
+  VH.key list ref
+)
+"lnf_reduced_havlak.ml" 157 5196 5208 "lnf_reduced_havlak.ml" 157 5196 5211
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"lnf_reduced_havlak.ml" 157 5196 5213 "lnf_reduced_havlak.ml" 157 5196 5227
+type(
+  VUF.H.key Queue.t -> bool
+)
+ident(
+  ext_ref Queue.is_empty
+)
+"lnf_reduced_havlak.ml" 157 5196 5228 "lnf_reduced_havlak.ml" 157 5196 5236
+type(
+  VUF.H.key Queue.t
+)
+ident(
+  int_ref workList "lnf_reduced_havlak.ml" 140 4653 4663 "lnf_reduced_havlak.ml" 140 4653 4671
+)
+"lnf_reduced_havlak.ml" 157 5196 5212 "lnf_reduced_havlak.ml" 157 5196 5237
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 157 5196 5208 "lnf_reduced_havlak.ml" 157 5196 5237
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 158 5241 5253 "lnf_reduced_havlak.ml" 158 5241 5254
+type(
+  VUF.H.key
+)
+ident(
+  def y "lnf_reduced_havlak.ml" 159 5279 5287 "lnf_reduced_havlak.ml" 167 5660 5678
+)
+"lnf_reduced_havlak.ml" 158 5241 5257 "lnf_reduced_havlak.ml" 158 5241 5266
+type(
+  VUF.H.key Queue.t -> VUF.H.key
+)
+ident(
+  ext_ref Queue.pop
+)
+"lnf_reduced_havlak.ml" 158 5241 5267 "lnf_reduced_havlak.ml" 158 5241 5275
+type(
+  VUF.H.key Queue.t
+)
+ident(
+  int_ref workList "lnf_reduced_havlak.ml" 140 4653 4663 "lnf_reduced_havlak.ml" 140 4653 4671
+)
+"lnf_reduced_havlak.ml" 158 5241 5257 "lnf_reduced_havlak.ml" 158 5241 5275
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 159 5279 5291 "lnf_reduced_havlak.ml" 159 5279 5293
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 159 5279 5296 "lnf_reduced_havlak.ml" 159 5279 5304
+type(
+  VH.key list ref
+)
+ident(
+  int_ref loopBody "lnf_reduced_havlak.ml" 155 5164 5174 "lnf_reduced_havlak.ml" 155 5164 5182
+)
+"lnf_reduced_havlak.ml" 159 5279 5305 "lnf_reduced_havlak.ml" 159 5279 5307
+type(
+  VH.key list ref -> VH.key list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lnf_reduced_havlak.ml" 159 5279 5308 "lnf_reduced_havlak.ml" 159 5279 5309
+type(
+  VUF.H.key
+)
+ident(
+  int_ref y "lnf_reduced_havlak.ml" 158 5241 5253 "lnf_reduced_havlak.ml" 158 5241 5254
+)
+"lnf_reduced_havlak.ml" 159 5279 5311 "lnf_reduced_havlak.ml" 159 5279 5312
+type(
+  VH.key list ref -> VH.key list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 159 5279 5312 "lnf_reduced_havlak.ml" 159 5279 5320
+type(
+  VH.key list ref
+)
+ident(
+  int_ref loopBody "lnf_reduced_havlak.ml" 155 5164 5174 "lnf_reduced_havlak.ml" 155 5164 5182
+)
+"lnf_reduced_havlak.ml" 159 5279 5311 "lnf_reduced_havlak.ml" 159 5279 5320
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 159 5279 5308 "lnf_reduced_havlak.ml" 159 5279 5320
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 159 5279 5296 "lnf_reduced_havlak.ml" 159 5279 5320
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 160 5324 5332 "lnf_reduced_havlak.ml" 160 5324 5345
+type(
+  (C.G.vertex -> unit) -> C.G.t -> C.G.vertex -> unit
+)
+ident(
+  ext_ref C.G.iter_pred
+)
+"lnf_reduced_havlak.ml" 160 5324 5351 "lnf_reduced_havlak.ml" 160 5324 5352
+type(
+  C.G.vertex
+)
+ident(
+  def z "lnf_reduced_havlak.ml" 161 5356 5366 "lnf_reduced_havlak.ml" 166 5642 5659
+)
+"lnf_reduced_havlak.ml" 161 5356 5370 "lnf_reduced_havlak.ml" 161 5356 5374
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 161 5356 5377 "lnf_reduced_havlak.ml" 161 5356 5385
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> VUF.H.key
+)
+ident(
+  ext_ref VUF.find
+)
+"lnf_reduced_havlak.ml" 161 5356 5386 "lnf_reduced_havlak.ml" 161 5356 5394
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref loopTree "lnf_reduced_havlak.ml" 96 2859 2867 "lnf_reduced_havlak.ml" 96 2859 2875
+)
+"lnf_reduced_havlak.ml" 161 5356 5395 "lnf_reduced_havlak.ml" 161 5356 5396
+type(
+  C.G.vertex
+)
+ident(
+  int_ref z "lnf_reduced_havlak.ml" 160 5324 5351 "lnf_reduced_havlak.ml" 160 5324 5352
+)
+"lnf_reduced_havlak.ml" 161 5356 5377 "lnf_reduced_havlak.ml" 161 5356 5396
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 162 5400 5413 "lnf_reduced_havlak.ml" 162 5400 5416
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"lnf_reduced_havlak.ml" 162 5400 5418 "lnf_reduced_havlak.ml" 162 5400 5429
+type(
+  (VUF.H.key -> bool) -> VH.key list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"lnf_reduced_havlak.ml" 162 5400 5431 "lnf_reduced_havlak.ml" 162 5400 5442
+type(
+  VUF.H.key -> VUF.H.key -> bool
+)
+ident(
+  ext_ref C.G.V.equal
+)
+"lnf_reduced_havlak.ml" 162 5400 5443 "lnf_reduced_havlak.ml" 162 5400 5447
+type(
+  VUF.H.key
+)
+ident(
+  int_ref ltfz "lnf_reduced_havlak.ml" 161 5356 5370 "lnf_reduced_havlak.ml" 161 5356 5374
+)
+"lnf_reduced_havlak.ml" 162 5400 5430 "lnf_reduced_havlak.ml" 162 5400 5448
+call(
+  stack
+)
+type(
+  VUF.H.key -> bool
+)
+"lnf_reduced_havlak.ml" 162 5400 5449 "lnf_reduced_havlak.ml" 162 5400 5450
+type(
+  VH.key list ref -> VH.key list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 162 5400 5450 "lnf_reduced_havlak.ml" 162 5400 5458
+type(
+  VH.key list ref
+)
+ident(
+  int_ref loopBody "lnf_reduced_havlak.ml" 155 5164 5174 "lnf_reduced_havlak.ml" 155 5164 5182
+)
+"lnf_reduced_havlak.ml" 162 5400 5449 "lnf_reduced_havlak.ml" 162 5400 5458
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 162 5400 5417 "lnf_reduced_havlak.ml" 162 5400 5459
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 162 5400 5413 "lnf_reduced_havlak.ml" 162 5400 5459
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 162 5400 5460 "lnf_reduced_havlak.ml" 162 5400 5462
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"lnf_reduced_havlak.ml" 163 5463 5476 "lnf_reduced_havlak.ml" 163 5463 5479
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"lnf_reduced_havlak.ml" 163 5463 5481 "lnf_reduced_havlak.ml" 163 5463 5492
+type(
+  VUF.H.key -> C.G.vertex -> bool
+)
+ident(
+  ext_ref C.G.V.equal
+)
+"lnf_reduced_havlak.ml" 163 5463 5493 "lnf_reduced_havlak.ml" 163 5463 5497
+type(
+  VUF.H.key
+)
+ident(
+  int_ref ltfz "lnf_reduced_havlak.ml" 161 5356 5370 "lnf_reduced_havlak.ml" 161 5356 5374
+)
+"lnf_reduced_havlak.ml" 163 5463 5498 "lnf_reduced_havlak.ml" 163 5463 5513
+type(
+  C.G.vertex
+)
+ident(
+  int_ref potentialHeader "lnf_reduced_havlak.ml" 135 4483 4500 "lnf_reduced_havlak.ml" 135 4483 4515
+)
+"lnf_reduced_havlak.ml" 163 5463 5480 "lnf_reduced_havlak.ml" 163 5463 5514
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 163 5463 5476 "lnf_reduced_havlak.ml" 163 5463 5514
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 163 5463 5515 "lnf_reduced_havlak.ml" 163 5463 5517
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"lnf_reduced_havlak.ml" 164 5518 5531 "lnf_reduced_havlak.ml" 164 5518 5534
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"lnf_reduced_havlak.ml" 164 5518 5536 "lnf_reduced_havlak.ml" 164 5518 5546
+type(
+  (bool -> VUF.H.key -> bool) -> bool -> VUF.H.key Queue.t -> bool
+)
+ident(
+  ext_ref Queue.fold
+)
+"lnf_reduced_havlak.ml" 164 5518 5552 "lnf_reduced_havlak.ml" 164 5518 5553
+type(
+  bool
+)
+ident(
+  def p "lnf_reduced_havlak.ml" 164 5518 5554 "lnf_reduced_havlak.ml" 164 5518 5584
+)
+"lnf_reduced_havlak.ml" 164 5518 5554 "lnf_reduced_havlak.ml" 164 5518 5555
+type(
+  VUF.H.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 164 5518 5559 "lnf_reduced_havlak.ml" 164 5518 5584
+)
+"lnf_reduced_havlak.ml" 164 5518 5559 "lnf_reduced_havlak.ml" 164 5518 5560
+type(
+  bool
+)
+ident(
+  int_ref p "lnf_reduced_havlak.ml" 164 5518 5552 "lnf_reduced_havlak.ml" 164 5518 5553
+)
+"lnf_reduced_havlak.ml" 164 5518 5561 "lnf_reduced_havlak.ml" 164 5518 5563
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"lnf_reduced_havlak.ml" 164 5518 5565 "lnf_reduced_havlak.ml" 164 5518 5576
+type(
+  VUF.H.key -> VUF.H.key -> bool
+)
+ident(
+  ext_ref C.G.V.equal
+)
+"lnf_reduced_havlak.ml" 164 5518 5577 "lnf_reduced_havlak.ml" 164 5518 5581
+type(
+  VUF.H.key
+)
+ident(
+  int_ref ltfz "lnf_reduced_havlak.ml" 161 5356 5370 "lnf_reduced_havlak.ml" 161 5356 5374
+)
+"lnf_reduced_havlak.ml" 164 5518 5582 "lnf_reduced_havlak.ml" 164 5518 5583
+type(
+  VUF.H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 164 5518 5554 "lnf_reduced_havlak.ml" 164 5518 5555
+)
+"lnf_reduced_havlak.ml" 164 5518 5564 "lnf_reduced_havlak.ml" 164 5518 5584
+call(
+  tail
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 164 5518 5559 "lnf_reduced_havlak.ml" 164 5518 5584
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 164 5518 5547 "lnf_reduced_havlak.ml" 164 5518 5585
+type(
+  bool -> VUF.H.key -> bool
+)
+"lnf_reduced_havlak.ml" 164 5518 5586 "lnf_reduced_havlak.ml" 164 5518 5591
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 164 5518 5592 "lnf_reduced_havlak.ml" 164 5518 5600
+type(
+  VUF.H.key Queue.t
+)
+ident(
+  int_ref workList "lnf_reduced_havlak.ml" 140 4653 4663 "lnf_reduced_havlak.ml" 140 4653 4671
+)
+"lnf_reduced_havlak.ml" 164 5518 5535 "lnf_reduced_havlak.ml" 164 5518 5601
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 164 5518 5531 "lnf_reduced_havlak.ml" 164 5518 5601
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 163 5463 5476 "lnf_reduced_havlak.ml" 164 5518 5601
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 162 5400 5413 "lnf_reduced_havlak.ml" 164 5518 5601
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 165 5602 5617 "lnf_reduced_havlak.ml" 165 5602 5627
+type(
+  VUF.H.key -> VUF.H.key Queue.t -> unit
+)
+ident(
+  ext_ref Queue.push
+)
+"lnf_reduced_havlak.ml" 165 5602 5628 "lnf_reduced_havlak.ml" 165 5602 5632
+type(
+  VUF.H.key
+)
+ident(
+  int_ref ltfz "lnf_reduced_havlak.ml" 161 5356 5370 "lnf_reduced_havlak.ml" 161 5356 5374
+)
+"lnf_reduced_havlak.ml" 165 5602 5633 "lnf_reduced_havlak.ml" 165 5602 5641
+type(
+  VUF.H.key Queue.t
+)
+ident(
+  int_ref workList "lnf_reduced_havlak.ml" 140 4653 4663 "lnf_reduced_havlak.ml" 140 4653 4671
+)
+"lnf_reduced_havlak.ml" 165 5602 5617 "lnf_reduced_havlak.ml" 165 5602 5641
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 166 5642 5657 "lnf_reduced_havlak.ml" 166 5642 5659
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 162 5400 5410 "lnf_reduced_havlak.ml" 166 5642 5659
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 161 5356 5366 "lnf_reduced_havlak.ml" 166 5642 5659
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 160 5324 5346 "lnf_reduced_havlak.ml" 167 5660 5671
+type(
+  C.G.vertex -> unit
+)
+"lnf_reduced_havlak.ml" 167 5660 5672 "lnf_reduced_havlak.ml" 167 5660 5673
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 167 5660 5673 "lnf_reduced_havlak.ml" 167 5660 5676
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 167 5660 5672 "lnf_reduced_havlak.ml" 167 5660 5676
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 167 5660 5677 "lnf_reduced_havlak.ml" 167 5660 5678
+type(
+  VUF.H.key
+)
+ident(
+  int_ref y "lnf_reduced_havlak.ml" 158 5241 5253 "lnf_reduced_havlak.ml" 158 5241 5254
+)
+"lnf_reduced_havlak.ml" 160 5324 5332 "lnf_reduced_havlak.ml" 167 5660 5678
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 159 5279 5287 "lnf_reduced_havlak.ml" 167 5660 5678
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 158 5241 5249 "lnf_reduced_havlak.ml" 167 5660 5678
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 157 5196 5202 "lnf_reduced_havlak.ml" 168 5679 5689
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 169 5691 5700 "lnf_reduced_havlak.ml" 169 5691 5703
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"lnf_reduced_havlak.ml" 169 5691 5705 "lnf_reduced_havlak.ml" 169 5691 5721
+type(
+  VH.key list -> bool
+)
+ident(
+  ext_ref BatList.is_empty
+)
+"lnf_reduced_havlak.ml" 169 5691 5722 "lnf_reduced_havlak.ml" 169 5691 5723
+type(
+  VH.key list ref -> VH.key list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 169 5691 5723 "lnf_reduced_havlak.ml" 169 5691 5731
+type(
+  VH.key list ref
+)
+ident(
+  int_ref loopBody "lnf_reduced_havlak.ml" 155 5164 5174 "lnf_reduced_havlak.ml" 155 5164 5182
+)
+"lnf_reduced_havlak.ml" 169 5691 5722 "lnf_reduced_havlak.ml" 169 5691 5731
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 169 5691 5704 "lnf_reduced_havlak.ml" 169 5691 5732
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 169 5691 5700 "lnf_reduced_havlak.ml" 169 5691 5732
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 170 5733 5745 "lnf_reduced_havlak.ml" 170 5733 5753
+type(
+  VH.key list -> VUF.H.key -> unit
+)
+ident(
+  int_ref collapse "lnf_reduced_havlak.ml" 130 4292 4300 "lnf_reduced_havlak.ml" 130 4292 4308
+)
+"lnf_reduced_havlak.ml" 170 5733 5754 "lnf_reduced_havlak.ml" 170 5733 5755
+type(
+  VH.key list ref -> VH.key list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 170 5733 5755 "lnf_reduced_havlak.ml" 170 5733 5763
+type(
+  VH.key list ref
+)
+ident(
+  int_ref loopBody "lnf_reduced_havlak.ml" 155 5164 5174 "lnf_reduced_havlak.ml" 155 5164 5182
+)
+"lnf_reduced_havlak.ml" 170 5733 5754 "lnf_reduced_havlak.ml" 170 5733 5763
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 170 5733 5764 "lnf_reduced_havlak.ml" 170 5733 5779
+type(
+  C.G.vertex
+)
+ident(
+  int_ref potentialHeader "lnf_reduced_havlak.ml" 135 4483 4500 "lnf_reduced_havlak.ml" 135 4483 4515
+)
+"lnf_reduced_havlak.ml" 170 5733 5745 "lnf_reduced_havlak.ml" 170 5733 5779
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 171 5781 5793 "lnf_reduced_havlak.ml" 171 5781 5800
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> unit
+)
+ident(
+  ext_ref VUF.add
+)
+"lnf_reduced_havlak.ml" 171 5781 5801 "lnf_reduced_havlak.ml" 171 5781 5812
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref mergedLoops "lnf_reduced_havlak.ml" 97 2913 2921 "lnf_reduced_havlak.ml" 97 2913 2932
+)
+"lnf_reduced_havlak.ml" 171 5781 5813 "lnf_reduced_havlak.ml" 171 5781 5828
+type(
+  C.G.vertex
+)
+ident(
+  int_ref potentialHeader "lnf_reduced_havlak.ml" 135 4483 4500 "lnf_reduced_havlak.ml" 135 4483 4515
+)
+"lnf_reduced_havlak.ml" 171 5781 5793 "lnf_reduced_havlak.ml" 171 5781 5828
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 170 5733 5744 "lnf_reduced_havlak.ml" 171 5781 5829
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 172 5830 5841 "lnf_reduced_havlak.ml" 172 5830 5843
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 169 5691 5697 "lnf_reduced_havlak.ml" 172 5830 5843
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 157 5196 5202 "lnf_reduced_havlak.ml" 172 5830 5843
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 155 5164 5170 "lnf_reduced_havlak.ml" 172 5830 5843
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 145 4830 4836 "lnf_reduced_havlak.ml" 172 5830 5843
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 143 4776 4782 "lnf_reduced_havlak.ml" 172 5830 5843
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 140 4653 4659 "lnf_reduced_havlak.ml" 172 5830 5843
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 174 5848 5856 "lnf_reduced_havlak.ml" 174 5848 5881
+type(
+  VUF.H.key -> unit
+)
+"lnf_reduced_havlak.ml" 174 5848 5882 "lnf_reduced_havlak.ml" 174 5848 5883
+type(
+  VUF.H.key
+)
+ident(
+  def z "lnf_reduced_havlak.ml" 175 5886 5892 "lnf_reduced_havlak.ml" 186 6278 6288
+)
+"lnf_reduced_havlak.ml" 175 5886 5896 "lnf_reduced_havlak.ml" 175 5886 5898
+type(
+  VUF.H.key ref
+)
+"lnf_reduced_havlak.ml" 175 5886 5901 "lnf_reduced_havlak.ml" 175 5886 5904
+type(
+  VUF.H.key -> VUF.H.key ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"lnf_reduced_havlak.ml" 175 5886 5909 "lnf_reduced_havlak.ml" 175 5886 5921
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> bool
+)
+ident(
+  ext_ref VUF.contains
+)
+"lnf_reduced_havlak.ml" 175 5886 5922 "lnf_reduced_havlak.ml" 175 5886 5933
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref mergedLoops "lnf_reduced_havlak.ml" 97 2913 2921 "lnf_reduced_havlak.ml" 97 2913 2932
+)
+"lnf_reduced_havlak.ml" 175 5886 5934 "lnf_reduced_havlak.ml" 175 5886 5935
+type(
+  VUF.H.key
+)
+ident(
+  int_ref z "lnf_reduced_havlak.ml" 174 5848 5882 "lnf_reduced_havlak.ml" 174 5848 5883
+)
+"lnf_reduced_havlak.ml" 175 5886 5909 "lnf_reduced_havlak.ml" 175 5886 5935
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 176 5936 5960 "lnf_reduced_havlak.ml" 176 5936 5968
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> VUF.H.key
+)
+ident(
+  ext_ref VUF.find
+)
+"lnf_reduced_havlak.ml" 176 5936 5969 "lnf_reduced_havlak.ml" 176 5936 5980
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref mergedLoops "lnf_reduced_havlak.ml" 97 2913 2921 "lnf_reduced_havlak.ml" 97 2913 2932
+)
+"lnf_reduced_havlak.ml" 176 5936 5981 "lnf_reduced_havlak.ml" 176 5936 5982
+type(
+  VUF.H.key
+)
+ident(
+  int_ref z "lnf_reduced_havlak.ml" 174 5848 5882 "lnf_reduced_havlak.ml" 174 5848 5883
+)
+"lnf_reduced_havlak.ml" 176 5936 5960 "lnf_reduced_havlak.ml" 176 5936 5982
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 177 5983 6007 "lnf_reduced_havlak.ml" 177 5983 6008
+type(
+  VUF.H.key
+)
+ident(
+  int_ref z "lnf_reduced_havlak.ml" 174 5848 5882 "lnf_reduced_havlak.ml" 174 5848 5883
+)
+"lnf_reduced_havlak.ml" 175 5886 5905 "lnf_reduced_havlak.ml" 177 5983 6009
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 175 5886 5901 "lnf_reduced_havlak.ml" 177 5983 6009
+type(
+  VUF.H.key ref
+)
+"lnf_reduced_havlak.ml" 178 6013 6025 "lnf_reduced_havlak.ml" 178 6013 6031
+type(
+  VUF.H.key VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"lnf_reduced_havlak.ml" 178 6013 6032 "lnf_reduced_havlak.ml" 178 6013 6043
+type(
+  VUF.H.key VH.t
+)
+ident(
+  int_ref loop_parent "lnf_reduced_havlak.ml" 95 2803 2811 "lnf_reduced_havlak.ml" 95 2803 2822
+)
+"lnf_reduced_havlak.ml" 178 6013 6044 "lnf_reduced_havlak.ml" 178 6013 6045
+type(
+  VUF.H.key ref -> VUF.H.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 178 6013 6045 "lnf_reduced_havlak.ml" 178 6013 6047
+type(
+  VUF.H.key ref
+)
+ident(
+  int_ref bt "lnf_reduced_havlak.ml" 175 5886 5896 "lnf_reduced_havlak.ml" 175 5886 5898
+)
+"lnf_reduced_havlak.ml" 178 6013 6044 "lnf_reduced_havlak.ml" 178 6013 6047
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 178 6013 6025 "lnf_reduced_havlak.ml" 178 6013 6047
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 179 6051 6063 "lnf_reduced_havlak.ml" 179 6051 6064
+type(
+  VUF.H.key
+)
+ident(
+  def t "lnf_reduced_havlak.ml" 180 6094 6102 "lnf_reduced_havlak.ml" 185 6262 6277
+)
+"lnf_reduced_havlak.ml" 179 6051 6067 "lnf_reduced_havlak.ml" 179 6051 6074
+type(
+  VUF.H.key VH.t -> VH.key -> VUF.H.key
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 179 6051 6075 "lnf_reduced_havlak.ml" 179 6051 6086
+type(
+  VUF.H.key VH.t
+)
+ident(
+  int_ref loop_parent "lnf_reduced_havlak.ml" 95 2803 2811 "lnf_reduced_havlak.ml" 95 2803 2822
+)
+"lnf_reduced_havlak.ml" 179 6051 6087 "lnf_reduced_havlak.ml" 179 6051 6088
+type(
+  VUF.H.key ref -> VUF.H.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 179 6051 6088 "lnf_reduced_havlak.ml" 179 6051 6090
+type(
+  VUF.H.key ref
+)
+ident(
+  int_ref bt "lnf_reduced_havlak.ml" 175 5886 5896 "lnf_reduced_havlak.ml" 175 5886 5898
+)
+"lnf_reduced_havlak.ml" 179 6051 6087 "lnf_reduced_havlak.ml" 179 6051 6090
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 179 6051 6067 "lnf_reduced_havlak.ml" 179 6051 6090
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 180 6094 6106 "lnf_reduced_havlak.ml" 180 6094 6107
+type(
+  VUF.H.key
+)
+ident(
+  def u "lnf_reduced_havlak.ml" 181 6136 6144 "lnf_reduced_havlak.ml" 185 6262 6277
+)
+"lnf_reduced_havlak.ml" 180 6094 6110 "lnf_reduced_havlak.ml" 180 6094 6118
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> VUF.H.key
+)
+ident(
+  ext_ref VUF.find
+)
+"lnf_reduced_havlak.ml" 180 6094 6119 "lnf_reduced_havlak.ml" 180 6094 6130
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref mergedLoops "lnf_reduced_havlak.ml" 97 2913 2921 "lnf_reduced_havlak.ml" 97 2913 2932
+)
+"lnf_reduced_havlak.ml" 180 6094 6131 "lnf_reduced_havlak.ml" 180 6094 6132
+type(
+  VUF.H.key
+)
+ident(
+  int_ref t "lnf_reduced_havlak.ml" 179 6051 6063 "lnf_reduced_havlak.ml" 179 6051 6064
+)
+"lnf_reduced_havlak.ml" 180 6094 6110 "lnf_reduced_havlak.ml" 180 6094 6132
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 181 6136 6148 "lnf_reduced_havlak.ml" 181 6136 6150
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 181 6136 6153 "lnf_reduced_havlak.ml" 181 6136 6155
+type(
+  VUF.H.key ref
+)
+ident(
+  int_ref bt "lnf_reduced_havlak.ml" 175 5886 5896 "lnf_reduced_havlak.ml" 175 5886 5898
+)
+"lnf_reduced_havlak.ml" 181 6136 6156 "lnf_reduced_havlak.ml" 181 6136 6158
+type(
+  VUF.H.key ref -> VUF.H.key -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lnf_reduced_havlak.ml" 181 6136 6159 "lnf_reduced_havlak.ml" 181 6136 6160
+type(
+  VUF.H.key
+)
+ident(
+  int_ref u "lnf_reduced_havlak.ml" 180 6094 6106 "lnf_reduced_havlak.ml" 180 6094 6107
+)
+"lnf_reduced_havlak.ml" 181 6136 6153 "lnf_reduced_havlak.ml" 181 6136 6160
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 183 6165 6176 "lnf_reduced_havlak.ml" 183 6165 6182
+type(
+  VUF.H.key VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"lnf_reduced_havlak.ml" 183 6165 6183 "lnf_reduced_havlak.ml" 183 6165 6194
+type(
+  VUF.H.key VH.t
+)
+ident(
+  int_ref loop_parent "lnf_reduced_havlak.ml" 95 2803 2811 "lnf_reduced_havlak.ml" 95 2803 2822
+)
+"lnf_reduced_havlak.ml" 183 6165 6195 "lnf_reduced_havlak.ml" 183 6165 6196
+type(
+  VUF.H.key ref -> VUF.H.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 183 6165 6196 "lnf_reduced_havlak.ml" 183 6165 6198
+type(
+  VUF.H.key ref
+)
+ident(
+  int_ref bt "lnf_reduced_havlak.ml" 175 5886 5896 "lnf_reduced_havlak.ml" 175 5886 5898
+)
+"lnf_reduced_havlak.ml" 183 6165 6195 "lnf_reduced_havlak.ml" 183 6165 6198
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 183 6165 6176 "lnf_reduced_havlak.ml" 183 6165 6198
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 184 6199 6212 "lnf_reduced_havlak.ml" 184 6199 6221
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> VUF.H.key -> unit
+)
+ident(
+  ext_ref VUF.union
+)
+"lnf_reduced_havlak.ml" 184 6199 6222 "lnf_reduced_havlak.ml" 184 6199 6233
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref mergedLoops "lnf_reduced_havlak.ml" 97 2913 2921 "lnf_reduced_havlak.ml" 97 2913 2932
+)
+"lnf_reduced_havlak.ml" 184 6199 6234 "lnf_reduced_havlak.ml" 184 6199 6235
+type(
+  VUF.H.key
+)
+ident(
+  int_ref u "lnf_reduced_havlak.ml" 180 6094 6106 "lnf_reduced_havlak.ml" 180 6094 6107
+)
+"lnf_reduced_havlak.ml" 184 6199 6237 "lnf_reduced_havlak.ml" 184 6199 6244
+type(
+  VUF.H.key VH.t -> VH.key -> VUF.H.key
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 184 6199 6245 "lnf_reduced_havlak.ml" 184 6199 6256
+type(
+  VUF.H.key VH.t
+)
+ident(
+  int_ref loop_parent "lnf_reduced_havlak.ml" 95 2803 2811 "lnf_reduced_havlak.ml" 95 2803 2822
+)
+"lnf_reduced_havlak.ml" 184 6199 6257 "lnf_reduced_havlak.ml" 184 6199 6258
+type(
+  VUF.H.key ref -> VUF.H.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 184 6199 6258 "lnf_reduced_havlak.ml" 184 6199 6260
+type(
+  VUF.H.key ref
+)
+ident(
+  int_ref bt "lnf_reduced_havlak.ml" 175 5886 5896 "lnf_reduced_havlak.ml" 175 5886 5898
+)
+"lnf_reduced_havlak.ml" 184 6199 6257 "lnf_reduced_havlak.ml" 184 6199 6260
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 184 6199 6236 "lnf_reduced_havlak.ml" 184 6199 6261
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 184 6199 6212 "lnf_reduced_havlak.ml" 184 6199 6261
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 185 6262 6275 "lnf_reduced_havlak.ml" 185 6262 6277
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 183 6165 6173 "lnf_reduced_havlak.ml" 185 6262 6277
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 181 6136 6144 "lnf_reduced_havlak.ml" 185 6262 6277
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 180 6094 6102 "lnf_reduced_havlak.ml" 185 6262 6277
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 179 6051 6059 "lnf_reduced_havlak.ml" 185 6262 6277
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 178 6013 6019 "lnf_reduced_havlak.ml" 186 6278 6288
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 175 5886 5892 "lnf_reduced_havlak.ml" 186 6278 6288
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 188 6293 6301 "lnf_reduced_havlak.ml" 188 6293 6321
+type(
+  VH.key -> unit
+)
+"lnf_reduced_havlak.ml" 188 6293 6322 "lnf_reduced_havlak.ml" 188 6293 6323
+type(
+  VH.key
+)
+ident(
+  def x "lnf_reduced_havlak.ml" 189 6326 6332 "lnf_reduced_havlak.ml" 193 6544 6577
+)
+"lnf_reduced_havlak.ml" 189 6326 6332 "lnf_reduced_havlak.ml" 189 6326 6341
+type(
+  (C.G.vertex * C.G.vertex -> unit) -> (C.G.vertex * C.G.vertex) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"lnf_reduced_havlak.ml" 189 6326 6348 "lnf_reduced_havlak.ml" 189 6326 6349
+type(
+  VUF.H.key
+)
+ident(
+  def y "lnf_reduced_havlak.ml" 191 6432 6440 "lnf_reduced_havlak.ml" 192 6508 6543
+)
+"lnf_reduced_havlak.ml" 189 6326 6350 "lnf_reduced_havlak.ml" 189 6326 6351
+type(
+  VUF.H.key
+)
+ident(
+  def z "lnf_reduced_havlak.ml" 191 6432 6440 "lnf_reduced_havlak.ml" 192 6508 6543
+)
+"lnf_reduced_havlak.ml" 189 6326 6347 "lnf_reduced_havlak.ml" 189 6326 6352
+type(
+  C.G.vertex * C.G.vertex
+)
+"lnf_reduced_havlak.ml" 191 6432 6440 "lnf_reduced_havlak.ml" 191 6432 6443
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 191 6432 6444 "lnf_reduced_havlak.ml" 191 6432 6446
+type(
+  C.G.t ref -> C.G.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lnf_reduced_havlak.ml" 191 6432 6447 "lnf_reduced_havlak.ml" 191 6432 6457
+type(
+  C.G.t -> VUF.H.key -> VUF.H.key -> C.G.t
+)
+ident(
+  ext_ref C.add_edge
+)
+"lnf_reduced_havlak.ml" 191 6432 6458 "lnf_reduced_havlak.ml" 191 6432 6459
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 191 6432 6459 "lnf_reduced_havlak.ml" 191 6432 6462
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 191 6432 6458 "lnf_reduced_havlak.ml" 191 6432 6462
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 191 6432 6464 "lnf_reduced_havlak.ml" 191 6432 6472
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> VUF.H.key
+)
+ident(
+  ext_ref VUF.find
+)
+"lnf_reduced_havlak.ml" 191 6432 6473 "lnf_reduced_havlak.ml" 191 6432 6481
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref loopTree "lnf_reduced_havlak.ml" 96 2859 2867 "lnf_reduced_havlak.ml" 96 2859 2875
+)
+"lnf_reduced_havlak.ml" 191 6432 6482 "lnf_reduced_havlak.ml" 191 6432 6483
+type(
+  VUF.H.key
+)
+ident(
+  int_ref y "lnf_reduced_havlak.ml" 189 6326 6348 "lnf_reduced_havlak.ml" 189 6326 6349
+)
+"lnf_reduced_havlak.ml" 191 6432 6463 "lnf_reduced_havlak.ml" 191 6432 6484
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 191 6432 6486 "lnf_reduced_havlak.ml" 191 6432 6494
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> VUF.H.key
+)
+ident(
+  ext_ref VUF.find
+)
+"lnf_reduced_havlak.ml" 191 6432 6495 "lnf_reduced_havlak.ml" 191 6432 6503
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref loopTree "lnf_reduced_havlak.ml" 96 2859 2867 "lnf_reduced_havlak.ml" 96 2859 2875
+)
+"lnf_reduced_havlak.ml" 191 6432 6504 "lnf_reduced_havlak.ml" 191 6432 6505
+type(
+  VUF.H.key
+)
+ident(
+  int_ref z "lnf_reduced_havlak.ml" 189 6326 6350 "lnf_reduced_havlak.ml" 189 6326 6351
+)
+"lnf_reduced_havlak.ml" 191 6432 6485 "lnf_reduced_havlak.ml" 191 6432 6506
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 191 6432 6447 "lnf_reduced_havlak.ml" 191 6432 6506
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 191 6432 6440 "lnf_reduced_havlak.ml" 191 6432 6506
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 192 6508 6516 "lnf_reduced_havlak.ml" 192 6508 6541
+type(
+  VUF.H.key -> unit
+)
+ident(
+  int_ref mergeLoopsWithEntryVertex "lnf_reduced_havlak.ml" 174 5848 5856 "lnf_reduced_havlak.ml" 174 5848 5881
+)
+"lnf_reduced_havlak.ml" 192 6508 6542 "lnf_reduced_havlak.ml" 192 6508 6543
+type(
+  VUF.H.key
+)
+ident(
+  int_ref z "lnf_reduced_havlak.ml" 189 6326 6350 "lnf_reduced_havlak.ml" 189 6326 6351
+)
+"lnf_reduced_havlak.ml" 192 6508 6516 "lnf_reduced_havlak.ml" 192 6508 6543
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 191 6432 6440 "lnf_reduced_havlak.ml" 192 6508 6543
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 189 6326 6342 "lnf_reduced_havlak.ml" 193 6544 6551
+type(
+  C.G.vertex * C.G.vertex -> unit
+)
+"lnf_reduced_havlak.ml" 193 6544 6553 "lnf_reduced_havlak.ml" 193 6544 6560
+type(
+  (C.G.vertex * C.G.vertex) list VH.t ->
+  VH.key -> (C.G.vertex * C.G.vertex) list
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 193 6544 6561 "lnf_reduced_havlak.ml" 193 6544 6574
+type(
+  (C.G.vertex * C.G.vertex) list VH.t
+)
+ident(
+  int_ref crossFwdEdges "lnf_reduced_havlak.ml" 98 2970 2978 "lnf_reduced_havlak.ml" 98 2970 2991
+)
+"lnf_reduced_havlak.ml" 193 6544 6575 "lnf_reduced_havlak.ml" 193 6544 6576
+type(
+  VH.key
+)
+ident(
+  int_ref x "lnf_reduced_havlak.ml" 188 6293 6322 "lnf_reduced_havlak.ml" 188 6293 6323
+)
+"lnf_reduced_havlak.ml" 193 6544 6552 "lnf_reduced_havlak.ml" 193 6544 6577
+call(
+  stack
+)
+type(
+  (C.G.vertex * C.G.vertex) list
+)
+"lnf_reduced_havlak.ml" 189 6326 6332 "lnf_reduced_havlak.ml" 193 6544 6577
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 195 6582 6590 "lnf_reduced_havlak.ml" 195 6582 6593
+type(
+  VH.key -> VH.key -> VH.key
+)
+"lnf_reduced_havlak.ml" 195 6582 6594 "lnf_reduced_havlak.ml" 195 6582 6595
+type(
+  VH.key
+)
+ident(
+  def x "lnf_reduced_havlak.ml" 195 6582 6596 "lnf_reduced_havlak.ml" 215 7271 7314
+)
+"lnf_reduced_havlak.ml" 195 6582 6596 "lnf_reduced_havlak.ml" 195 6582 6597
+type(
+  VH.key
+)
+ident(
+  def y "lnf_reduced_havlak.ml" 196 6600 6606 "lnf_reduced_havlak.ml" 215 7271 7314
+)
+"lnf_reduced_havlak.ml" 196 6600 6614 "lnf_reduced_havlak.ml" 196 6600 6621
+type(
+  VH.key Stack.t -> VH.key -> unit
+)
+"lnf_reduced_havlak.ml" 196 6600 6622 "lnf_reduced_havlak.ml" 196 6600 6627
+type(
+  VH.key Stack.t
+)
+ident(
+  def stack "lnf_reduced_havlak.ml" 196 6600 6628 "lnf_reduced_havlak.ml" 199 6747 6762
+)
+"lnf_reduced_havlak.ml" 196 6600 6628 "lnf_reduced_havlak.ml" 196 6600 6632
+type(
+  VH.key
+)
+ident(
+  def node "lnf_reduced_havlak.ml" 197 6635 6643 "lnf_reduced_havlak.ml" 199 6747 6762
+)
+"lnf_reduced_havlak.ml" 197 6635 6646 "lnf_reduced_havlak.ml" 197 6635 6652
+type(
+  VH.key VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"lnf_reduced_havlak.ml" 197 6635 6653 "lnf_reduced_havlak.ml" 197 6635 6663
+type(
+  VH.key VH.t
+)
+ident(
+  int_ref dfs_parent "lnf_reduced_havlak.ml" 100 3029 3037 "lnf_reduced_havlak.ml" 100 3029 3047
+)
+"lnf_reduced_havlak.ml" 197 6635 6664 "lnf_reduced_havlak.ml" 197 6635 6668
+type(
+  VH.key
+)
+ident(
+  int_ref node "lnf_reduced_havlak.ml" 196 6600 6628 "lnf_reduced_havlak.ml" 196 6600 6632
+)
+"lnf_reduced_havlak.ml" 197 6635 6646 "lnf_reduced_havlak.ml" 197 6635 6668
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 198 6669 6683 "lnf_reduced_havlak.ml" 198 6669 6693
+type(
+  VH.key -> VH.key Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"lnf_reduced_havlak.ml" 198 6669 6694 "lnf_reduced_havlak.ml" 198 6669 6698
+type(
+  VH.key
+)
+ident(
+  int_ref node "lnf_reduced_havlak.ml" 196 6600 6628 "lnf_reduced_havlak.ml" 196 6600 6632
+)
+"lnf_reduced_havlak.ml" 198 6669 6699 "lnf_reduced_havlak.ml" 198 6669 6704
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref stack "lnf_reduced_havlak.ml" 196 6600 6622 "lnf_reduced_havlak.ml" 196 6600 6627
+)
+"lnf_reduced_havlak.ml" 198 6669 6683 "lnf_reduced_havlak.ml" 198 6669 6704
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 198 6669 6706 "lnf_reduced_havlak.ml" 198 6669 6713
+type(
+  VH.key Stack.t -> VH.key -> unit
+)
+ident(
+  int_ref add_all "lnf_reduced_havlak.ml" 196 6600 6614 "lnf_reduced_havlak.ml" 196 6600 6621
+)
+"lnf_reduced_havlak.ml" 198 6669 6714 "lnf_reduced_havlak.ml" 198 6669 6719
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref stack "lnf_reduced_havlak.ml" 196 6600 6622 "lnf_reduced_havlak.ml" 196 6600 6627
+)
+"lnf_reduced_havlak.ml" 198 6669 6721 "lnf_reduced_havlak.ml" 198 6669 6728
+type(
+  VH.key VH.t -> VH.key -> VH.key
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 198 6669 6729 "lnf_reduced_havlak.ml" 198 6669 6739
+type(
+  VH.key VH.t
+)
+ident(
+  int_ref dfs_parent "lnf_reduced_havlak.ml" 100 3029 3037 "lnf_reduced_havlak.ml" 100 3029 3047
+)
+"lnf_reduced_havlak.ml" 198 6669 6740 "lnf_reduced_havlak.ml" 198 6669 6744
+type(
+  VH.key
+)
+ident(
+  int_ref node "lnf_reduced_havlak.ml" 196 6600 6628 "lnf_reduced_havlak.ml" 196 6600 6632
+)
+"lnf_reduced_havlak.ml" 198 6669 6720 "lnf_reduced_havlak.ml" 198 6669 6745
+call(
+  stack
+)
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 198 6669 6706 "lnf_reduced_havlak.ml" 198 6669 6745
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 198 6669 6682 "lnf_reduced_havlak.ml" 198 6669 6746
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 199 6747 6760 "lnf_reduced_havlak.ml" 199 6747 6762
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 197 6635 6643 "lnf_reduced_havlak.ml" 199 6747 6762
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 201 6767 6781 "lnf_reduced_havlak.ml" 201 6767 6799
+type(
+  C.G.V.t Stack.t -> C.G.V.t Stack.t -> C.G.V.t -> C.G.V.t
+)
+"lnf_reduced_havlak.ml" 201 6767 6800 "lnf_reduced_havlak.ml" 201 6767 6806
+type(
+  C.G.V.t Stack.t
+)
+ident(
+  def stack1 "lnf_reduced_havlak.ml" 201 6767 6807 "lnf_reduced_havlak.ml" 208 7090 7115
+)
+"lnf_reduced_havlak.ml" 201 6767 6807 "lnf_reduced_havlak.ml" 201 6767 6813
+type(
+  C.G.V.t Stack.t
+)
+ident(
+  def stack2 "lnf_reduced_havlak.ml" 201 6767 6814 "lnf_reduced_havlak.ml" 208 7090 7115
+)
+"lnf_reduced_havlak.ml" 201 6767 6814 "lnf_reduced_havlak.ml" 201 6767 6821
+type(
+  C.G.V.t
+)
+ident(
+  def oldNode "lnf_reduced_havlak.ml" 202 6824 6832 "lnf_reduced_havlak.ml" 208 7090 7115
+)
+"lnf_reduced_havlak.ml" 202 6824 6835 "lnf_reduced_havlak.ml" 202 6824 6849
+type(
+  C.G.V.t Stack.t -> bool
+)
+ident(
+  ext_ref Stack.is_empty
+)
+"lnf_reduced_havlak.ml" 202 6824 6850 "lnf_reduced_havlak.ml" 202 6824 6856
+type(
+  C.G.V.t Stack.t
+)
+ident(
+  int_ref stack1 "lnf_reduced_havlak.ml" 201 6767 6800 "lnf_reduced_havlak.ml" 201 6767 6806
+)
+"lnf_reduced_havlak.ml" 202 6824 6835 "lnf_reduced_havlak.ml" 202 6824 6856
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 202 6824 6857 "lnf_reduced_havlak.ml" 202 6824 6859
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"lnf_reduced_havlak.ml" 202 6824 6860 "lnf_reduced_havlak.ml" 202 6824 6874
+type(
+  C.G.V.t Stack.t -> bool
+)
+ident(
+  ext_ref Stack.is_empty
+)
+"lnf_reduced_havlak.ml" 202 6824 6875 "lnf_reduced_havlak.ml" 202 6824 6881
+type(
+  C.G.V.t Stack.t
+)
+ident(
+  int_ref stack2 "lnf_reduced_havlak.ml" 201 6767 6807 "lnf_reduced_havlak.ml" 201 6767 6813
+)
+"lnf_reduced_havlak.ml" 202 6824 6860 "lnf_reduced_havlak.ml" 202 6824 6881
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 202 6824 6835 "lnf_reduced_havlak.ml" 202 6824 6881
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 203 6882 6895 "lnf_reduced_havlak.ml" 203 6882 6902
+type(
+  C.G.V.t
+)
+ident(
+  int_ref oldNode "lnf_reduced_havlak.ml" 201 6767 6814 "lnf_reduced_havlak.ml" 201 6767 6821
+)
+"lnf_reduced_havlak.ml" 204 6903 6920 "lnf_reduced_havlak.ml" 204 6903 6925
+type(
+  C.G.V.t
+)
+"lnf_reduced_havlak.ml" 204 6903 6928 "lnf_reduced_havlak.ml" 204 6903 6937
+type(
+  C.G.V.t Stack.t -> C.G.V.t
+)
+ident(
+  ext_ref Stack.pop
+)
+"lnf_reduced_havlak.ml" 204 6903 6938 "lnf_reduced_havlak.ml" 204 6903 6944
+type(
+  C.G.V.t Stack.t
+)
+ident(
+  int_ref stack1 "lnf_reduced_havlak.ml" 201 6767 6800 "lnf_reduced_havlak.ml" 201 6767 6806
+)
+"lnf_reduced_havlak.ml" 204 6903 6928 "lnf_reduced_havlak.ml" 204 6903 6944
+call(
+  stack
+)
+type(
+  C.G.V.t
+)
+"lnf_reduced_havlak.ml" 205 6948 6965 "lnf_reduced_havlak.ml" 205 6948 6970
+type(
+  C.G.V.t
+)
+"lnf_reduced_havlak.ml" 205 6948 6973 "lnf_reduced_havlak.ml" 205 6948 6982
+type(
+  C.G.V.t Stack.t -> C.G.V.t
+)
+ident(
+  ext_ref Stack.pop
+)
+"lnf_reduced_havlak.ml" 205 6948 6983 "lnf_reduced_havlak.ml" 205 6948 6989
+type(
+  C.G.V.t Stack.t
+)
+ident(
+  int_ref stack2 "lnf_reduced_havlak.ml" 201 6767 6807 "lnf_reduced_havlak.ml" 201 6767 6813
+)
+"lnf_reduced_havlak.ml" 205 6948 6973 "lnf_reduced_havlak.ml" 205 6948 6989
+call(
+  stack
+)
+type(
+  C.G.V.t
+)
+"lnf_reduced_havlak.ml" 206 6993 7009 "lnf_reduced_havlak.ml" 206 6993 7020
+type(
+  C.G.V.t -> C.G.V.t -> bool
+)
+ident(
+  ext_ref C.G.V.equal
+)
+"lnf_reduced_havlak.ml" 206 6993 7021 "lnf_reduced_havlak.ml" 206 6993 7026
+type(
+  C.G.V.t
+)
+ident(
+  int_ref node1 "lnf_reduced_havlak.ml" 204 6903 6920 "lnf_reduced_havlak.ml" 204 6903 6925
+)
+"lnf_reduced_havlak.ml" 206 6993 7027 "lnf_reduced_havlak.ml" 206 6993 7032
+type(
+  C.G.V.t
+)
+ident(
+  int_ref node2 "lnf_reduced_havlak.ml" 205 6948 6965 "lnf_reduced_havlak.ml" 205 6948 6970
+)
+"lnf_reduced_havlak.ml" 206 6993 7009 "lnf_reduced_havlak.ml" 206 6993 7032
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 207 7033 7051 "lnf_reduced_havlak.ml" 207 7033 7069
+type(
+  C.G.V.t Stack.t -> C.G.V.t Stack.t -> C.G.V.t -> C.G.V.t
+)
+ident(
+  int_ref findFirstDifferent "lnf_reduced_havlak.ml" 201 6767 6781 "lnf_reduced_havlak.ml" 201 6767 6799
+)
+"lnf_reduced_havlak.ml" 207 7033 7070 "lnf_reduced_havlak.ml" 207 7033 7076
+type(
+  C.G.V.t Stack.t
+)
+ident(
+  int_ref stack1 "lnf_reduced_havlak.ml" 201 6767 6800 "lnf_reduced_havlak.ml" 201 6767 6806
+)
+"lnf_reduced_havlak.ml" 207 7033 7077 "lnf_reduced_havlak.ml" 207 7033 7083
+type(
+  C.G.V.t Stack.t
+)
+ident(
+  int_ref stack2 "lnf_reduced_havlak.ml" 201 6767 6807 "lnf_reduced_havlak.ml" 201 6767 6813
+)
+"lnf_reduced_havlak.ml" 207 7033 7084 "lnf_reduced_havlak.ml" 207 7033 7089
+type(
+  C.G.V.t
+)
+ident(
+  int_ref node1 "lnf_reduced_havlak.ml" 204 6903 6920 "lnf_reduced_havlak.ml" 204 6903 6925
+)
+"lnf_reduced_havlak.ml" 207 7033 7051 "lnf_reduced_havlak.ml" 207 7033 7089
+call(
+  tail
+)
+type(
+  C.G.V.t
+)
+"lnf_reduced_havlak.ml" 208 7090 7108 "lnf_reduced_havlak.ml" 208 7090 7115
+type(
+  C.G.V.t
+)
+ident(
+  int_ref oldNode "lnf_reduced_havlak.ml" 201 6767 6814 "lnf_reduced_havlak.ml" 201 6767 6821
+)
+"lnf_reduced_havlak.ml" 206 6993 7006 "lnf_reduced_havlak.ml" 208 7090 7115
+type(
+  C.G.V.t
+)
+"lnf_reduced_havlak.ml" 205 6948 6961 "lnf_reduced_havlak.ml" 208 7090 7115
+type(
+  C.G.V.t
+)
+"lnf_reduced_havlak.ml" 204 6903 6916 "lnf_reduced_havlak.ml" 208 7090 7115
+type(
+  C.G.V.t
+)
+"lnf_reduced_havlak.ml" 202 6824 6832 "lnf_reduced_havlak.ml" 208 7090 7115
+type(
+  C.G.V.t
+)
+"lnf_reduced_havlak.ml" 210 7120 7130 "lnf_reduced_havlak.ml" 210 7120 7137
+type(
+  VH.key Stack.t
+)
+"lnf_reduced_havlak.ml" 210 7120 7140 "lnf_reduced_havlak.ml" 210 7120 7152
+type(
+  unit -> VH.key Stack.t
+)
+ident(
+  ext_ref Stack.create
+)
+"lnf_reduced_havlak.ml" 210 7120 7153 "lnf_reduced_havlak.ml" 210 7120 7155
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 210 7120 7140 "lnf_reduced_havlak.ml" 210 7120 7155
+call(
+  stack
+)
+type(
+  VH.key Stack.t
+)
+"lnf_reduced_havlak.ml" 211 7159 7169 "lnf_reduced_havlak.ml" 211 7159 7176
+type(
+  VH.key Stack.t
+)
+"lnf_reduced_havlak.ml" 211 7159 7179 "lnf_reduced_havlak.ml" 211 7159 7191
+type(
+  unit -> VH.key Stack.t
+)
+ident(
+  ext_ref Stack.create
+)
+"lnf_reduced_havlak.ml" 211 7159 7192 "lnf_reduced_havlak.ml" 211 7159 7194
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 211 7159 7179 "lnf_reduced_havlak.ml" 211 7159 7194
+call(
+  stack
+)
+type(
+  VH.key Stack.t
+)
+"lnf_reduced_havlak.ml" 212 7198 7208 "lnf_reduced_havlak.ml" 212 7198 7210
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 212 7198 7213 "lnf_reduced_havlak.ml" 212 7198 7220
+type(
+  VH.key Stack.t -> VH.key -> unit
+)
+ident(
+  int_ref add_all "lnf_reduced_havlak.ml" 196 6600 6614 "lnf_reduced_havlak.ml" 196 6600 6621
+)
+"lnf_reduced_havlak.ml" 212 7198 7221 "lnf_reduced_havlak.ml" 212 7198 7228
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref parentX "lnf_reduced_havlak.ml" 210 7120 7130 "lnf_reduced_havlak.ml" 210 7120 7137
+)
+"lnf_reduced_havlak.ml" 212 7198 7229 "lnf_reduced_havlak.ml" 212 7198 7230
+type(
+  VH.key
+)
+ident(
+  int_ref x "lnf_reduced_havlak.ml" 195 6582 6594 "lnf_reduced_havlak.ml" 195 6582 6595
+)
+"lnf_reduced_havlak.ml" 212 7198 7213 "lnf_reduced_havlak.ml" 212 7198 7230
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 213 7234 7244 "lnf_reduced_havlak.ml" 213 7234 7246
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 213 7234 7249 "lnf_reduced_havlak.ml" 213 7234 7256
+type(
+  VH.key Stack.t -> VH.key -> unit
+)
+ident(
+  int_ref add_all "lnf_reduced_havlak.ml" 196 6600 6614 "lnf_reduced_havlak.ml" 196 6600 6621
+)
+"lnf_reduced_havlak.ml" 213 7234 7257 "lnf_reduced_havlak.ml" 213 7234 7264
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref parentY "lnf_reduced_havlak.ml" 211 7159 7169 "lnf_reduced_havlak.ml" 211 7159 7176
+)
+"lnf_reduced_havlak.ml" 213 7234 7265 "lnf_reduced_havlak.ml" 213 7234 7266
+type(
+  VH.key
+)
+ident(
+  int_ref y "lnf_reduced_havlak.ml" 195 6582 6596 "lnf_reduced_havlak.ml" 195 6582 6597
+)
+"lnf_reduced_havlak.ml" 213 7234 7249 "lnf_reduced_havlak.ml" 213 7234 7266
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 215 7271 7277 "lnf_reduced_havlak.ml" 215 7271 7295
+type(
+  VH.key Stack.t -> VH.key Stack.t -> VH.key -> VH.key
+)
+ident(
+  int_ref findFirstDifferent "lnf_reduced_havlak.ml" 201 6767 6781 "lnf_reduced_havlak.ml" 201 6767 6799
+)
+"lnf_reduced_havlak.ml" 215 7271 7296 "lnf_reduced_havlak.ml" 215 7271 7303
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref parentX "lnf_reduced_havlak.ml" 210 7120 7130 "lnf_reduced_havlak.ml" 210 7120 7137
+)
+"lnf_reduced_havlak.ml" 215 7271 7304 "lnf_reduced_havlak.ml" 215 7271 7311
+type(
+  VH.key Stack.t
+)
+ident(
+  int_ref parentY "lnf_reduced_havlak.ml" 211 7159 7169 "lnf_reduced_havlak.ml" 211 7159 7176
+)
+"lnf_reduced_havlak.ml" 215 7271 7312 "lnf_reduced_havlak.ml" 215 7271 7314
+type(
+  VH.key
+)
+ident(
+  int_ref v0 "lnf_reduced_havlak.ml" 92 2758 2772 "lnf_reduced_havlak.ml" 92 2758 2774
+)
+"lnf_reduced_havlak.ml" 215 7271 7277 "lnf_reduced_havlak.ml" 215 7271 7314
+call(
+  tail
+)
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 213 7234 7240 "lnf_reduced_havlak.ml" 215 7271 7314
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 212 7198 7204 "lnf_reduced_havlak.ml" 215 7271 7314
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 211 7159 7165 "lnf_reduced_havlak.ml" 215 7271 7314
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 210 7120 7126 "lnf_reduced_havlak.ml" 215 7271 7314
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 201 6767 6773 "lnf_reduced_havlak.ml" 215 7271 7314
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 196 6600 6606 "lnf_reduced_havlak.ml" 215 7271 7314
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 217 7319 7327 "lnf_reduced_havlak.ml" 217 7319 7355
+type(
+  unit -> unit
+)
+"lnf_reduced_havlak.ml" 217 7319 7356 "lnf_reduced_havlak.ml" 217 7319 7358
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 218 7361 7371 "lnf_reduced_havlak.ml" 218 7361 7373
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 218 7361 7376 "lnf_reduced_havlak.ml" 218 7361 7390
+type(
+  (C.G.vertex -> C.G.vertex -> unit) -> C.G.t -> unit
+)
+ident(
+  ext_ref C.G.iter_edges
+)
+"lnf_reduced_havlak.ml" 218 7361 7396 "lnf_reduced_havlak.ml" 218 7361 7397
+type(
+  C.G.vertex
+)
+ident(
+  def y "lnf_reduced_havlak.ml" 218 7361 7398 "lnf_reduced_havlak.ml" 225 7684 7701
+)
+"lnf_reduced_havlak.ml" 218 7361 7398 "lnf_reduced_havlak.ml" 218 7361 7399
+type(
+  C.G.vertex
+)
+ident(
+  def x "lnf_reduced_havlak.ml" 219 7403 7411 "lnf_reduced_havlak.ml" 225 7684 7701
+)
+"lnf_reduced_havlak.ml" 219 7403 7417 "lnf_reduced_havlak.ml" 219 7403 7430
+type(
+  VH.key -> VH.key -> dfs_edge
+)
+ident(
+  int_ref classify_edge "lnf_reduced_havlak.ml" 118 3854 3862 "lnf_reduced_havlak.ml" 118 3854 3875
+)
+"lnf_reduced_havlak.ml" 219 7403 7431 "lnf_reduced_havlak.ml" 219 7403 7432
+type(
+  C.G.vertex
+)
+ident(
+  int_ref y "lnf_reduced_havlak.ml" 218 7361 7396 "lnf_reduced_havlak.ml" 218 7361 7397
+)
+"lnf_reduced_havlak.ml" 219 7403 7433 "lnf_reduced_havlak.ml" 219 7403 7434
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "lnf_reduced_havlak.ml" 218 7361 7398 "lnf_reduced_havlak.ml" 218 7361 7399
+)
+"lnf_reduced_havlak.ml" 219 7403 7417 "lnf_reduced_havlak.ml" 219 7403 7434
+call(
+  stack
+)
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 220 7440 7450 "lnf_reduced_havlak.ml" 220 7440 7455
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 220 7440 7458 "lnf_reduced_havlak.ml" 220 7440 7465
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 220 7440 7450 "lnf_reduced_havlak.ml" 220 7440 7465
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 221 7469 7485 "lnf_reduced_havlak.ml" 221 7469 7493
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 221 7469 7496 "lnf_reduced_havlak.ml" 221 7469 7499
+type(
+  VH.key -> VH.key -> VH.key
+)
+ident(
+  int_ref lca "lnf_reduced_havlak.ml" 195 6582 6590 "lnf_reduced_havlak.ml" 195 6582 6593
+)
+"lnf_reduced_havlak.ml" 221 7469 7500 "lnf_reduced_havlak.ml" 221 7469 7501
+type(
+  C.G.vertex
+)
+ident(
+  int_ref y "lnf_reduced_havlak.ml" 218 7361 7396 "lnf_reduced_havlak.ml" 218 7361 7397
+)
+"lnf_reduced_havlak.ml" 221 7469 7502 "lnf_reduced_havlak.ml" 221 7469 7503
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "lnf_reduced_havlak.ml" 218 7361 7398 "lnf_reduced_havlak.ml" 218 7361 7399
+)
+"lnf_reduced_havlak.ml" 221 7469 7496 "lnf_reduced_havlak.ml" 221 7469 7503
+call(
+  stack
+)
+type(
+  VH.key
+)
+"lnf_reduced_havlak.ml" 222 7507 7523 "lnf_reduced_havlak.ml" 222 7507 7530
+type(
+  (C.G.vertex * C.G.vertex) list
+)
+"lnf_reduced_havlak.ml" 222 7507 7534 "lnf_reduced_havlak.ml" 222 7507 7535
+type(
+  C.G.vertex
+)
+ident(
+  int_ref y "lnf_reduced_havlak.ml" 218 7361 7396 "lnf_reduced_havlak.ml" 218 7361 7397
+)
+"lnf_reduced_havlak.ml" 222 7507 7536 "lnf_reduced_havlak.ml" 222 7507 7537
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "lnf_reduced_havlak.ml" 218 7361 7398 "lnf_reduced_havlak.ml" 218 7361 7399
+)
+"lnf_reduced_havlak.ml" 222 7507 7533 "lnf_reduced_havlak.ml" 222 7507 7538
+type(
+  C.G.vertex * C.G.vertex
+)
+"lnf_reduced_havlak.ml" 222 7507 7541 "lnf_reduced_havlak.ml" 222 7507 7548
+type(
+  (C.G.vertex * C.G.vertex) list VH.t ->
+  VH.key -> (C.G.vertex * C.G.vertex) list
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 222 7507 7549 "lnf_reduced_havlak.ml" 222 7507 7562
+type(
+  (C.G.vertex * C.G.vertex) list VH.t
+)
+ident(
+  int_ref crossFwdEdges "lnf_reduced_havlak.ml" 98 2970 2978 "lnf_reduced_havlak.ml" 98 2970 2991
+)
+"lnf_reduced_havlak.ml" 222 7507 7563 "lnf_reduced_havlak.ml" 222 7507 7571
+type(
+  VH.key
+)
+ident(
+  int_ref ancestor "lnf_reduced_havlak.ml" 221 7469 7485 "lnf_reduced_havlak.ml" 221 7469 7493
+)
+"lnf_reduced_havlak.ml" 222 7507 7540 "lnf_reduced_havlak.ml" 222 7507 7572
+call(
+  stack
+)
+type(
+  (C.G.vertex * C.G.vertex) list
+)
+"lnf_reduced_havlak.ml" 222 7507 7533 "lnf_reduced_havlak.ml" 222 7507 7572
+type(
+  (C.G.vertex * C.G.vertex) list
+)
+"lnf_reduced_havlak.ml" 223 7576 7592 "lnf_reduced_havlak.ml" 223 7576 7594
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 223 7576 7597 "lnf_reduced_havlak.ml" 223 7576 7600
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 223 7576 7601 "lnf_reduced_havlak.ml" 223 7576 7603
+type(
+  C.G.t ref -> C.G.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lnf_reduced_havlak.ml" 223 7576 7604 "lnf_reduced_havlak.ml" 223 7576 7617
+type(
+  C.G.t -> C.G.vertex -> C.G.vertex -> C.G.t
+)
+ident(
+  ext_ref C.remove_edge
+)
+"lnf_reduced_havlak.ml" 223 7576 7618 "lnf_reduced_havlak.ml" 223 7576 7619
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 223 7576 7619 "lnf_reduced_havlak.ml" 223 7576 7622
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 223 7576 7618 "lnf_reduced_havlak.ml" 223 7576 7622
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 223 7576 7623 "lnf_reduced_havlak.ml" 223 7576 7624
+type(
+  C.G.vertex
+)
+ident(
+  int_ref y "lnf_reduced_havlak.ml" 218 7361 7396 "lnf_reduced_havlak.ml" 218 7361 7397
+)
+"lnf_reduced_havlak.ml" 223 7576 7625 "lnf_reduced_havlak.ml" 223 7576 7626
+type(
+  C.G.vertex
+)
+ident(
+  int_ref x "lnf_reduced_havlak.ml" 218 7361 7398 "lnf_reduced_havlak.ml" 218 7361 7399
+)
+"lnf_reduced_havlak.ml" 223 7576 7604 "lnf_reduced_havlak.ml" 223 7576 7626
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 223 7576 7597 "lnf_reduced_havlak.ml" 223 7576 7626
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 224 7630 7642 "lnf_reduced_havlak.ml" 224 7630 7652
+type(
+  (C.G.vertex * C.G.vertex) list VH.t ->
+  VH.key -> (C.G.vertex * C.G.vertex) list -> unit
+)
+ident(
+  ext_ref VH.replace
+)
+"lnf_reduced_havlak.ml" 224 7630 7653 "lnf_reduced_havlak.ml" 224 7630 7666
+type(
+  (C.G.vertex * C.G.vertex) list VH.t
+)
+ident(
+  int_ref crossFwdEdges "lnf_reduced_havlak.ml" 98 2970 2978 "lnf_reduced_havlak.ml" 98 2970 2991
+)
+"lnf_reduced_havlak.ml" 224 7630 7667 "lnf_reduced_havlak.ml" 224 7630 7675
+type(
+  VH.key
+)
+ident(
+  int_ref ancestor "lnf_reduced_havlak.ml" 221 7469 7485 "lnf_reduced_havlak.ml" 221 7469 7493
+)
+"lnf_reduced_havlak.ml" 224 7630 7676 "lnf_reduced_havlak.ml" 224 7630 7683
+type(
+  (C.G.vertex * C.G.vertex) list
+)
+ident(
+  int_ref newList "lnf_reduced_havlak.ml" 222 7507 7523 "lnf_reduced_havlak.ml" 222 7507 7530
+)
+"lnf_reduced_havlak.ml" 224 7630 7642 "lnf_reduced_havlak.ml" 224 7630 7683
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 223 7576 7588 "lnf_reduced_havlak.ml" 224 7630 7683
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 222 7507 7519 "lnf_reduced_havlak.ml" 224 7630 7683
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 221 7469 7481 "lnf_reduced_havlak.ml" 224 7630 7683
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 225 7684 7694 "lnf_reduced_havlak.ml" 225 7684 7695
+type(
+  dfs_edge
+)
+"lnf_reduced_havlak.ml" 225 7684 7699 "lnf_reduced_havlak.ml" 225 7684 7701
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 219 7403 7411 "lnf_reduced_havlak.ml" 225 7684 7701
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 218 7361 7391 "lnf_reduced_havlak.ml" 226 7702 7709
+type(
+  C.G.vertex -> C.G.vertex -> unit
+)
+"lnf_reduced_havlak.ml" 226 7702 7710 "lnf_reduced_havlak.ml" 226 7702 7711
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 226 7702 7711 "lnf_reduced_havlak.ml" 226 7702 7714
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 226 7702 7710 "lnf_reduced_havlak.ml" 226 7702 7714
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 218 7361 7376 "lnf_reduced_havlak.ml" 226 7702 7714
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 227 7718 7724 "lnf_reduced_havlak.ml" 227 7718 7733
+type(
+  (VH.key -> unit) -> VUF.H.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"lnf_reduced_havlak.ml" 227 7718 7739 "lnf_reduced_havlak.ml" 227 7718 7740
+type(
+  VH.key
+)
+ident(
+  def x "lnf_reduced_havlak.ml" 228 7744 7752 "lnf_reduced_havlak.ml" 229 7776 7794
+)
+"lnf_reduced_havlak.ml" 228 7744 7752 "lnf_reduced_havlak.ml" 228 7744 7772
+type(
+  VH.key -> unit
+)
+ident(
+  int_ref processCrossFwdEdges "lnf_reduced_havlak.ml" 188 6293 6301 "lnf_reduced_havlak.ml" 188 6293 6321
+)
+"lnf_reduced_havlak.ml" 228 7744 7773 "lnf_reduced_havlak.ml" 228 7744 7774
+type(
+  VH.key
+)
+ident(
+  int_ref x "lnf_reduced_havlak.ml" 227 7718 7739 "lnf_reduced_havlak.ml" 227 7718 7740
+)
+"lnf_reduced_havlak.ml" 228 7744 7752 "lnf_reduced_havlak.ml" 228 7744 7774
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 229 7776 7784 "lnf_reduced_havlak.ml" 229 7776 7792
+type(
+  C.G.vertex -> unit
+)
+ident(
+  int_ref findloop "lnf_reduced_havlak.ml" 135 4483 4491 "lnf_reduced_havlak.ml" 135 4483 4499
+)
+"lnf_reduced_havlak.ml" 229 7776 7793 "lnf_reduced_havlak.ml" 229 7776 7794
+type(
+  VH.key
+)
+ident(
+  int_ref x "lnf_reduced_havlak.ml" 227 7718 7739 "lnf_reduced_havlak.ml" 227 7718 7740
+)
+"lnf_reduced_havlak.ml" 229 7776 7784 "lnf_reduced_havlak.ml" 229 7776 7794
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 228 7744 7752 "lnf_reduced_havlak.ml" 229 7776 7794
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 227 7718 7734 "lnf_reduced_havlak.ml" 230 7795 7802
+type(
+  VH.key -> unit
+)
+"lnf_reduced_havlak.ml" 230 7795 7803 "lnf_reduced_havlak.ml" 230 7795 7804
+type(
+  VUF.H.key list ref -> VUF.H.key list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 230 7795 7804 "lnf_reduced_havlak.ml" 230 7795 7817
+type(
+  VUF.H.key list ref
+)
+ident(
+  int_ref rev_dfs_order "lnf_reduced_havlak.ml" 101 3084 3096 "lnf_reduced_havlak.ml" 101 3084 3109
+)
+"lnf_reduced_havlak.ml" 230 7795 7803 "lnf_reduced_havlak.ml" 230 7795 7817
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 227 7718 7724 "lnf_reduced_havlak.ml" 230 7795 7817
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 218 7361 7367 "lnf_reduced_havlak.ml" 230 7795 7817
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 232 7822 7830 "lnf_reduced_havlak.ml" 232 7822 7856
+type(
+  unit -> VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 232 7822 7857 "lnf_reduced_havlak.ml" 232 7822 7859
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 233 7862 7872 "lnf_reduced_havlak.ml" 233 7862 7880
+type(
+  VUF.H.key Lnf.lnt VH.t
+)
+"lnf_reduced_havlak.ml" 233 7862 7883 "lnf_reduced_havlak.ml" 233 7862 7892
+type(
+  int -> VUF.H.key Lnf.lnt VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"lnf_reduced_havlak.ml" 233 7862 7894 "lnf_reduced_havlak.ml" 233 7862 7907
+type(
+  C.G.t -> int
+)
+ident(
+  ext_ref C.G.nb_vertex
+)
+"lnf_reduced_havlak.ml" 233 7862 7908 "lnf_reduced_havlak.ml" 233 7862 7909
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 233 7862 7909 "lnf_reduced_havlak.ml" 233 7862 7912
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 233 7862 7908 "lnf_reduced_havlak.ml" 233 7862 7912
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 233 7862 7893 "lnf_reduced_havlak.ml" 233 7862 7913
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 233 7862 7883 "lnf_reduced_havlak.ml" 233 7862 7913
+call(
+  stack
+)
+type(
+  VUF.H.key Lnf.lnt VH.t
+)
+"lnf_reduced_havlak.ml" 234 7917 7927 "lnf_reduced_havlak.ml" 234 7917 7940
+type(
+  VS.t ref
+)
+"lnf_reduced_havlak.ml" 234 7917 7943 "lnf_reduced_havlak.ml" 234 7917 7946
+type(
+  VS.t -> VS.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"lnf_reduced_havlak.ml" 234 7917 7947 "lnf_reduced_havlak.ml" 234 7917 7955
+type(
+  VS.t
+)
+ident(
+  ext_ref VS.empty
+)
+"lnf_reduced_havlak.ml" 234 7917 7943 "lnf_reduced_havlak.ml" 234 7917 7955
+type(
+  VS.t ref
+)
+"lnf_reduced_havlak.ml" 235 7959 7969 "lnf_reduced_havlak.ml" 235 7959 7982
+type(
+  VH.key list VH.t
+)
+"lnf_reduced_havlak.ml" 235 7959 7985 "lnf_reduced_havlak.ml" 235 7959 7994
+type(
+  int -> VH.key list VH.t
+)
+ident(
+  ext_ref VH.create
+)
+"lnf_reduced_havlak.ml" 235 7959 7996 "lnf_reduced_havlak.ml" 235 7959 8009
+type(
+  C.G.t -> int
+)
+ident(
+  ext_ref C.G.nb_vertex
+)
+"lnf_reduced_havlak.ml" 235 7959 8010 "lnf_reduced_havlak.ml" 235 7959 8011
+type(
+  C.G.t ref -> C.G.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 235 7959 8011 "lnf_reduced_havlak.ml" 235 7959 8014
+type(
+  C.G.t ref
+)
+ident(
+  int_ref cfg "lnf_reduced_havlak.ml" 93 2777 2785 "lnf_reduced_havlak.ml" 93 2777 2788
+)
+"lnf_reduced_havlak.ml" 235 7959 8010 "lnf_reduced_havlak.ml" 235 7959 8014
+type(
+  C.G.t
+)
+"lnf_reduced_havlak.ml" 235 7959 7995 "lnf_reduced_havlak.ml" 235 7959 8015
+call(
+  stack
+)
+type(
+  int
+)
+"lnf_reduced_havlak.ml" 235 7959 7985 "lnf_reduced_havlak.ml" 235 7959 8015
+call(
+  stack
+)
+type(
+  VH.key list VH.t
+)
+"lnf_reduced_havlak.ml" 237 8020 8030 "lnf_reduced_havlak.ml" 237 8020 8040
+type(
+  VH.key -> VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 237 8020 8041 "lnf_reduced_havlak.ml" 237 8020 8050
+type(
+  VH.key
+)
+ident(
+  def repHeader "lnf_reduced_havlak.ml" 237 8020 8053 "lnf_reduced_havlak.ml" 239 8147 8219
+)
+"lnf_reduced_havlak.ml" 237 8020 8056 "lnf_reduced_havlak.ml" 237 8020 8062
+type(
+  VUF.H.key Lnf.lnt VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"lnf_reduced_havlak.ml" 237 8020 8063 "lnf_reduced_havlak.ml" 237 8020 8071
+type(
+  VUF.H.key Lnf.lnt VH.t
+)
+ident(
+  int_ref lnfNodes "lnf_reduced_havlak.ml" 233 7862 7872 "lnf_reduced_havlak.ml" 233 7862 7880
+)
+"lnf_reduced_havlak.ml" 237 8020 8072 "lnf_reduced_havlak.ml" 237 8020 8081
+type(
+  VH.key
+)
+ident(
+  int_ref repHeader "lnf_reduced_havlak.ml" 237 8020 8041 "lnf_reduced_havlak.ml" 237 8020 8050
+)
+"lnf_reduced_havlak.ml" 237 8020 8056 "lnf_reduced_havlak.ml" 237 8020 8081
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 238 8082 8120 "lnf_reduced_havlak.ml" 238 8082 8127
+type(
+  VUF.H.key Lnf.lnt VH.t -> VH.key -> VUF.H.key Lnf.lnt
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 238 8082 8128 "lnf_reduced_havlak.ml" 238 8082 8136
+type(
+  VUF.H.key Lnf.lnt VH.t
+)
+ident(
+  int_ref lnfNodes "lnf_reduced_havlak.ml" 233 7862 7872 "lnf_reduced_havlak.ml" 233 7862 7880
+)
+"lnf_reduced_havlak.ml" 238 8082 8137 "lnf_reduced_havlak.ml" 238 8082 8146
+type(
+  VH.key
+)
+ident(
+  int_ref repHeader "lnf_reduced_havlak.ml" 237 8020 8041 "lnf_reduced_havlak.ml" 237 8020 8050
+)
+"lnf_reduced_havlak.ml" 238 8082 8120 "lnf_reduced_havlak.ml" 238 8082 8146
+call(
+  tail
+)
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 239 8147 8194 "lnf_reduced_havlak.ml" 239 8147 8196
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 239 8147 8203 "lnf_reduced_havlak.ml" 239 8147 8205
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 239 8147 8216 "lnf_reduced_havlak.ml" 239 8147 8218
+type(
+  VUF.H.key Lnf.lnf
+)
+"lnf_reduced_havlak.ml" 239 8147 8185 "lnf_reduced_havlak.ml" 239 8147 8219
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 237 8020 8053 "lnf_reduced_havlak.ml" 239 8147 8219
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 241 8224 8234 "lnf_reduced_havlak.ml" 241 8224 8245
+type(
+  VH.key -> VH.key list
+)
+"lnf_reduced_havlak.ml" 241 8224 8246 "lnf_reduced_havlak.ml" 241 8224 8250
+type(
+  VH.key
+)
+ident(
+  def node "lnf_reduced_havlak.ml" 241 8224 8253 "lnf_reduced_havlak.ml" 243 8343 8379
+)
+"lnf_reduced_havlak.ml" 241 8224 8256 "lnf_reduced_havlak.ml" 241 8224 8262
+type(
+  VH.key list VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"lnf_reduced_havlak.ml" 241 8224 8263 "lnf_reduced_havlak.ml" 241 8224 8276
+type(
+  VH.key list VH.t
+)
+ident(
+  int_ref repToChildren "lnf_reduced_havlak.ml" 235 7959 7969 "lnf_reduced_havlak.ml" 235 7959 7982
+)
+"lnf_reduced_havlak.ml" 241 8224 8277 "lnf_reduced_havlak.ml" 241 8224 8281
+type(
+  VH.key
+)
+ident(
+  int_ref node "lnf_reduced_havlak.ml" 241 8224 8246 "lnf_reduced_havlak.ml" 241 8224 8250
+)
+"lnf_reduced_havlak.ml" 241 8224 8256 "lnf_reduced_havlak.ml" 241 8224 8281
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 242 8282 8316 "lnf_reduced_havlak.ml" 242 8282 8323
+type(
+  VH.key list VH.t -> VH.key -> VH.key list
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 242 8282 8324 "lnf_reduced_havlak.ml" 242 8282 8337
+type(
+  VH.key list VH.t
+)
+ident(
+  int_ref repToChildren "lnf_reduced_havlak.ml" 235 7959 7969 "lnf_reduced_havlak.ml" 235 7959 7982
+)
+"lnf_reduced_havlak.ml" 242 8282 8338 "lnf_reduced_havlak.ml" 242 8282 8342
+type(
+  VH.key
+)
+ident(
+  int_ref node "lnf_reduced_havlak.ml" 241 8224 8246 "lnf_reduced_havlak.ml" 241 8224 8250
+)
+"lnf_reduced_havlak.ml" 242 8282 8316 "lnf_reduced_havlak.ml" 242 8282 8342
+call(
+  tail
+)
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 243 8343 8377 "lnf_reduced_havlak.ml" 243 8343 8379
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 241 8224 8253 "lnf_reduced_havlak.ml" 243 8343 8379
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 245 8384 8394 "lnf_reduced_havlak.ml" 245 8384 8408
+type(
+  VUF.H.key -> unit
+)
+"lnf_reduced_havlak.ml" 245 8384 8409 "lnf_reduced_havlak.ml" 245 8384 8410
+type(
+  VUF.H.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 246 8413 8421 "lnf_reduced_havlak.ml" 259 9122 9193
+)
+"lnf_reduced_havlak.ml" 246 8413 8424 "lnf_reduced_havlak.ml" 246 8413 8431
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> bool
+)
+ident(
+  ext_ref VUF.mem
+)
+"lnf_reduced_havlak.ml" 246 8413 8432 "lnf_reduced_havlak.ml" 246 8413 8443
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref mergedLoops "lnf_reduced_havlak.ml" 97 2913 2921 "lnf_reduced_havlak.ml" 97 2913 2932
+)
+"lnf_reduced_havlak.ml" 246 8413 8444 "lnf_reduced_havlak.ml" 246 8413 8445
+type(
+  VUF.H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 245 8384 8409 "lnf_reduced_havlak.ml" 245 8384 8410
+)
+"lnf_reduced_havlak.ml" 246 8413 8424 "lnf_reduced_havlak.ml" 246 8413 8445
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 247 8486 8503 "lnf_reduced_havlak.ml" 247 8486 8506
+type(
+  VUF.H.key
+)
+ident(
+  def rep "lnf_reduced_havlak.ml" 248 8535 8548 "lnf_reduced_havlak.ml" 256 8967 9024
+)
+"lnf_reduced_havlak.ml" 247 8486 8509 "lnf_reduced_havlak.ml" 247 8486 8517
+type(
+  VUF.ufnode VUF.H.t -> VUF.H.key -> VUF.H.key
+)
+ident(
+  ext_ref VUF.find
+)
+"lnf_reduced_havlak.ml" 247 8486 8518 "lnf_reduced_havlak.ml" 247 8486 8529
+type(
+  VUF.ufnode VUF.H.t
+)
+ident(
+  int_ref mergedLoops "lnf_reduced_havlak.ml" 97 2913 2921 "lnf_reduced_havlak.ml" 97 2913 2932
+)
+"lnf_reduced_havlak.ml" 247 8486 8530 "lnf_reduced_havlak.ml" 247 8486 8531
+type(
+  VUF.H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 245 8384 8409 "lnf_reduced_havlak.ml" 245 8384 8410
+)
+"lnf_reduced_havlak.ml" 247 8486 8509 "lnf_reduced_havlak.ml" 247 8486 8531
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 248 8535 8552 "lnf_reduced_havlak.ml" 248 8535 8554
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 248 8535 8560 "lnf_reduced_havlak.ml" 248 8535 8566
+type(
+  VUF.H.key VH.t -> VH.key -> bool
+)
+ident(
+  ext_ref VH.mem
+)
+"lnf_reduced_havlak.ml" 248 8535 8567 "lnf_reduced_havlak.ml" 248 8535 8578
+type(
+  VUF.H.key VH.t
+)
+ident(
+  int_ref loop_parent "lnf_reduced_havlak.ml" 95 2803 2811 "lnf_reduced_havlak.ml" 95 2803 2822
+)
+"lnf_reduced_havlak.ml" 248 8535 8579 "lnf_reduced_havlak.ml" 248 8535 8582
+type(
+  VUF.H.key
+)
+ident(
+  int_ref rep "lnf_reduced_havlak.ml" 247 8486 8503 "lnf_reduced_havlak.ml" 247 8486 8506
+)
+"lnf_reduced_havlak.ml" 248 8535 8560 "lnf_reduced_havlak.ml" 248 8535 8582
+call(
+  stack
+)
+type(
+  bool
+)
+"lnf_reduced_havlak.ml" 249 8583 8614 "lnf_reduced_havlak.ml" 249 8583 8620
+type(
+  VUF.H.key
+)
+ident(
+  def parent "lnf_reduced_havlak.ml" 250 8650 8677 "lnf_reduced_havlak.ml" 250 8650 8736
+)
+"lnf_reduced_havlak.ml" 249 8583 8623 "lnf_reduced_havlak.ml" 249 8583 8630
+type(
+  VUF.H.key VH.t -> VH.key -> VUF.H.key
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 249 8583 8631 "lnf_reduced_havlak.ml" 249 8583 8642
+type(
+  VUF.H.key VH.t
+)
+ident(
+  int_ref loop_parent "lnf_reduced_havlak.ml" 95 2803 2811 "lnf_reduced_havlak.ml" 95 2803 2822
+)
+"lnf_reduced_havlak.ml" 249 8583 8643 "lnf_reduced_havlak.ml" 249 8583 8646
+type(
+  VUF.H.key
+)
+ident(
+  int_ref rep "lnf_reduced_havlak.ml" 247 8486 8503 "lnf_reduced_havlak.ml" 247 8486 8506
+)
+"lnf_reduced_havlak.ml" 249 8583 8623 "lnf_reduced_havlak.ml" 249 8583 8646
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 250 8650 8677 "lnf_reduced_havlak.ml" 250 8650 8687
+type(
+  VH.key list VH.t -> VH.key -> VH.key list -> unit
+)
+ident(
+  ext_ref VH.replace
+)
+"lnf_reduced_havlak.ml" 250 8650 8688 "lnf_reduced_havlak.ml" 250 8650 8701
+type(
+  VH.key list VH.t
+)
+ident(
+  int_ref repToChildren "lnf_reduced_havlak.ml" 235 7959 7969 "lnf_reduced_havlak.ml" 235 7959 7982
+)
+"lnf_reduced_havlak.ml" 250 8650 8702 "lnf_reduced_havlak.ml" 250 8650 8708
+type(
+  VUF.H.key
+)
+ident(
+  int_ref parent "lnf_reduced_havlak.ml" 249 8583 8614 "lnf_reduced_havlak.ml" 249 8583 8620
+)
+"lnf_reduced_havlak.ml" 250 8650 8710 "lnf_reduced_havlak.ml" 250 8650 8713
+type(
+  VUF.H.key
+)
+ident(
+  int_ref rep "lnf_reduced_havlak.ml" 247 8486 8503 "lnf_reduced_havlak.ml" 247 8486 8506
+)
+"lnf_reduced_havlak.ml" 250 8650 8716 "lnf_reduced_havlak.ml" 250 8650 8727
+type(
+  VH.key -> VH.key list
+)
+ident(
+  int_ref getChildren "lnf_reduced_havlak.ml" 241 8224 8234 "lnf_reduced_havlak.ml" 241 8224 8245
+)
+"lnf_reduced_havlak.ml" 250 8650 8728 "lnf_reduced_havlak.ml" 250 8650 8734
+type(
+  VUF.H.key
+)
+ident(
+  int_ref parent "lnf_reduced_havlak.ml" 249 8583 8614 "lnf_reduced_havlak.ml" 249 8583 8620
+)
+"lnf_reduced_havlak.ml" 250 8650 8715 "lnf_reduced_havlak.ml" 250 8650 8735
+call(
+  stack
+)
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 250 8650 8709 "lnf_reduced_havlak.ml" 250 8650 8736
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 250 8650 8677 "lnf_reduced_havlak.ml" 250 8650 8736
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 249 8583 8610 "lnf_reduced_havlak.ml" 250 8650 8736
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 251 8737 8764 "lnf_reduced_havlak.ml" 251 8737 8777
+type(
+  VS.t ref
+)
+ident(
+  int_ref topLevelLoops "lnf_reduced_havlak.ml" 234 7917 7927 "lnf_reduced_havlak.ml" 234 7917 7940
+)
+"lnf_reduced_havlak.ml" 251 8737 8778 "lnf_reduced_havlak.ml" 251 8737 8780
+type(
+  VS.t ref -> VS.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lnf_reduced_havlak.ml" 251 8737 8781 "lnf_reduced_havlak.ml" 251 8737 8787
+type(
+  VS.elt -> VS.t -> VS.t
+)
+ident(
+  ext_ref VS.add
+)
+"lnf_reduced_havlak.ml" 251 8737 8788 "lnf_reduced_havlak.ml" 251 8737 8791
+type(
+  VUF.H.key
+)
+ident(
+  int_ref rep "lnf_reduced_havlak.ml" 247 8486 8503 "lnf_reduced_havlak.ml" 247 8486 8506
+)
+"lnf_reduced_havlak.ml" 251 8737 8792 "lnf_reduced_havlak.ml" 251 8737 8793
+type(
+  VS.t ref -> VS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 251 8737 8793 "lnf_reduced_havlak.ml" 251 8737 8806
+type(
+  VS.t ref
+)
+ident(
+  int_ref topLevelLoops "lnf_reduced_havlak.ml" 234 7917 7927 "lnf_reduced_havlak.ml" 234 7917 7940
+)
+"lnf_reduced_havlak.ml" 251 8737 8792 "lnf_reduced_havlak.ml" 251 8737 8806
+type(
+  VS.t
+)
+"lnf_reduced_havlak.ml" 251 8737 8781 "lnf_reduced_havlak.ml" 251 8737 8806
+call(
+  stack
+)
+type(
+  VS.t
+)
+"lnf_reduced_havlak.ml" 251 8737 8764 "lnf_reduced_havlak.ml" 251 8737 8806
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 248 8535 8557 "lnf_reduced_havlak.ml" 251 8737 8806
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 253 8811 8828 "lnf_reduced_havlak.ml" 253 8811 8833
+type(
+  VUF.H.key Lnf.lnt
+)
+ident(
+  def pnode "lnf_reduced_havlak.ml" 254 8854 8867 "lnf_reduced_havlak.ml" 256 8967 9024
+)
+"lnf_reduced_havlak.ml" 253 8811 8836 "lnf_reduced_havlak.ml" 253 8811 8846
+type(
+  VH.key -> VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref getLnfNode "lnf_reduced_havlak.ml" 237 8020 8030 "lnf_reduced_havlak.ml" 237 8020 8040
+)
+"lnf_reduced_havlak.ml" 253 8811 8847 "lnf_reduced_havlak.ml" 253 8811 8850
+type(
+  VUF.H.key
+)
+ident(
+  int_ref rep "lnf_reduced_havlak.ml" 247 8486 8503 "lnf_reduced_havlak.ml" 247 8486 8506
+)
+"lnf_reduced_havlak.ml" 253 8811 8836 "lnf_reduced_havlak.ml" 253 8811 8850
+call(
+  stack
+)
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 254 8854 8867 "lnf_reduced_havlak.ml" 254 8854 8877
+type(
+  VUF.H.key Lnf.lnt VH.t -> VH.key -> VUF.H.key Lnf.lnt -> unit
+)
+ident(
+  ext_ref VH.replace
+)
+"lnf_reduced_havlak.ml" 254 8854 8878 "lnf_reduced_havlak.ml" 254 8854 8886
+type(
+  VUF.H.key Lnf.lnt VH.t
+)
+ident(
+  int_ref lnfNodes "lnf_reduced_havlak.ml" 233 7862 7872 "lnf_reduced_havlak.ml" 233 7862 7880
+)
+"lnf_reduced_havlak.ml" 254 8854 8887 "lnf_reduced_havlak.ml" 254 8854 8890
+type(
+  VUF.H.key
+)
+ident(
+  int_ref rep "lnf_reduced_havlak.ml" 247 8486 8503 "lnf_reduced_havlak.ml" 247 8486 8506
+)
+"lnf_reduced_havlak.ml" 254 8854 8892 "lnf_reduced_havlak.ml" 254 8854 8897
+type(
+  VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref pnode "lnf_reduced_havlak.ml" 253 8811 8828 "lnf_reduced_havlak.ml" 253 8811 8833
+)
+"lnf_reduced_havlak.ml" 255 8903 8949 "lnf_reduced_havlak.ml" 255 8903 8950
+type(
+  VUF.H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 245 8384 8409 "lnf_reduced_havlak.ml" 245 8384 8410
+)
+"lnf_reduced_havlak.ml" 255 8903 8952 "lnf_reduced_havlak.ml" 255 8903 8957
+type(
+  VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref pnode "lnf_reduced_havlak.ml" 253 8811 8828 "lnf_reduced_havlak.ml" 253 8811 8833
+)
+"lnf_reduced_havlak.ml" 255 8903 8952 "lnf_reduced_havlak.ml" 255 8903 8965
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 255 8903 8949 "lnf_reduced_havlak.ml" 255 8903 8965
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 256 8967 9010 "lnf_reduced_havlak.ml" 256 8967 9011
+type(
+  VUF.H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 245 8384 8409 "lnf_reduced_havlak.ml" 245 8384 8410
+)
+"lnf_reduced_havlak.ml" 256 8967 9013 "lnf_reduced_havlak.ml" 256 8967 9018
+type(
+  VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref pnode "lnf_reduced_havlak.ml" 253 8811 8828 "lnf_reduced_havlak.ml" 253 8811 8833
+)
+"lnf_reduced_havlak.ml" 256 8967 9013 "lnf_reduced_havlak.ml" 256 8967 9023
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 256 8967 9010 "lnf_reduced_havlak.ml" 256 8967 9023
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 254 8854 8891 "lnf_reduced_havlak.ml" 256 8967 9024
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 254 8854 8867 "lnf_reduced_havlak.ml" 256 8967 9024
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 253 8811 8824 "lnf_reduced_havlak.ml" 256 8967 9024
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 248 8535 8548 "lnf_reduced_havlak.ml" 256 8967 9024
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 247 8486 8499 "lnf_reduced_havlak.ml" 256 8967 9024
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 257 9025 9042 "lnf_reduced_havlak.ml" 257 9025 9048
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 257 9025 9051 "lnf_reduced_havlak.ml" 257 9025 9058
+type(
+  VUF.H.key VH.t -> VH.key -> VUF.H.key
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 257 9025 9059 "lnf_reduced_havlak.ml" 257 9025 9070
+type(
+  VUF.H.key VH.t
+)
+ident(
+  int_ref loop_parent "lnf_reduced_havlak.ml" 95 2803 2811 "lnf_reduced_havlak.ml" 95 2803 2822
+)
+"lnf_reduced_havlak.ml" 257 9025 9071 "lnf_reduced_havlak.ml" 257 9025 9072
+type(
+  VUF.H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 245 8384 8409 "lnf_reduced_havlak.ml" 245 8384 8410
+)
+"lnf_reduced_havlak.ml" 257 9025 9051 "lnf_reduced_havlak.ml" 257 9025 9072
+call(
+  stack
+)
+type(
+  VUF.H.key
+)
+"lnf_reduced_havlak.ml" 258 9076 9093 "lnf_reduced_havlak.ml" 258 9076 9098
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 258 9076 9101 "lnf_reduced_havlak.ml" 258 9076 9111
+type(
+  VH.key -> VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref getLnfNode "lnf_reduced_havlak.ml" 237 8020 8030 "lnf_reduced_havlak.ml" 237 8020 8040
+)
+"lnf_reduced_havlak.ml" 258 9076 9112 "lnf_reduced_havlak.ml" 258 9076 9118
+type(
+  VUF.H.key
+)
+ident(
+  int_ref parent "lnf_reduced_havlak.ml" 257 9025 9042 "lnf_reduced_havlak.ml" 257 9025 9048
+)
+"lnf_reduced_havlak.ml" 258 9076 9101 "lnf_reduced_havlak.ml" 258 9076 9118
+call(
+  stack
+)
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 259 9122 9135 "lnf_reduced_havlak.ml" 259 9122 9145
+type(
+  VUF.H.key Lnf.lnt VH.t -> VH.key -> VUF.H.key Lnf.lnt -> unit
+)
+ident(
+  ext_ref VH.replace
+)
+"lnf_reduced_havlak.ml" 259 9122 9146 "lnf_reduced_havlak.ml" 259 9122 9154
+type(
+  VUF.H.key Lnf.lnt VH.t
+)
+ident(
+  int_ref lnfNodes "lnf_reduced_havlak.ml" 233 7862 7872 "lnf_reduced_havlak.ml" 233 7862 7880
+)
+"lnf_reduced_havlak.ml" 259 9122 9155 "lnf_reduced_havlak.ml" 259 9122 9161
+type(
+  VUF.H.key
+)
+ident(
+  int_ref parent "lnf_reduced_havlak.ml" 257 9025 9042 "lnf_reduced_havlak.ml" 257 9025 9048
+)
+"lnf_reduced_havlak.ml" 259 9122 9163 "lnf_reduced_havlak.ml" 259 9122 9168
+type(
+  VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref pnode "lnf_reduced_havlak.ml" 258 9076 9093 "lnf_reduced_havlak.ml" 258 9076 9098
+)
+"lnf_reduced_havlak.ml" 259 9122 9179 "lnf_reduced_havlak.ml" 259 9122 9180
+type(
+  VUF.H.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 245 8384 8409 "lnf_reduced_havlak.ml" 245 8384 8410
+)
+"lnf_reduced_havlak.ml" 259 9122 9182 "lnf_reduced_havlak.ml" 259 9122 9187
+type(
+  VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref pnode "lnf_reduced_havlak.ml" 258 9076 9093 "lnf_reduced_havlak.ml" 258 9076 9098
+)
+"lnf_reduced_havlak.ml" 259 9122 9182 "lnf_reduced_havlak.ml" 259 9122 9192
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 259 9122 9179 "lnf_reduced_havlak.ml" 259 9122 9192
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 259 9122 9162 "lnf_reduced_havlak.ml" 259 9122 9193
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 259 9122 9135 "lnf_reduced_havlak.ml" 259 9122 9193
+call(
+  tail
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 258 9076 9089 "lnf_reduced_havlak.ml" 259 9122 9193
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 257 9025 9038 "lnf_reduced_havlak.ml" 259 9122 9193
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 246 8413 8421 "lnf_reduced_havlak.ml" 259 9122 9193
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 261 9198 9212 "lnf_reduced_havlak.ml" 261 9198 9224
+type(
+  VH.key -> VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 261 9198 9225 "lnf_reduced_havlak.ml" 261 9198 9226
+type(
+  VH.key
+)
+ident(
+  def v "lnf_reduced_havlak.ml" 262 9229 9237 "lnf_reduced_havlak.ml" 267 9479 9532
+)
+"lnf_reduced_havlak.ml" 262 9229 9241 "lnf_reduced_havlak.ml" 262 9229 9245
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 262 9229 9248 "lnf_reduced_havlak.ml" 262 9229 9255
+type(
+  VUF.H.key Lnf.lnt VH.t -> VH.key -> VUF.H.key Lnf.lnt
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 262 9229 9256 "lnf_reduced_havlak.ml" 262 9229 9264
+type(
+  VUF.H.key Lnf.lnt VH.t
+)
+ident(
+  int_ref lnfNodes "lnf_reduced_havlak.ml" 233 7862 7872 "lnf_reduced_havlak.ml" 233 7862 7880
+)
+"lnf_reduced_havlak.ml" 262 9229 9265 "lnf_reduced_havlak.ml" 262 9229 9266
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 261 9198 9225 "lnf_reduced_havlak.ml" 261 9198 9226
+)
+"lnf_reduced_havlak.ml" 262 9229 9248 "lnf_reduced_havlak.ml" 262 9229 9266
+call(
+  stack
+)
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 263 9270 9282 "lnf_reduced_havlak.ml" 263 9270 9290
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 263 9270 9293 "lnf_reduced_havlak.ml" 263 9270 9300
+type(
+  VH.key list VH.t -> VH.key -> VH.key list
+)
+ident(
+  ext_ref VH.find
+)
+"lnf_reduced_havlak.ml" 263 9270 9301 "lnf_reduced_havlak.ml" 263 9270 9314
+type(
+  VH.key list VH.t
+)
+ident(
+  int_ref repToChildren "lnf_reduced_havlak.ml" 235 7959 7969 "lnf_reduced_havlak.ml" 235 7959 7982
+)
+"lnf_reduced_havlak.ml" 263 9270 9315 "lnf_reduced_havlak.ml" 263 9270 9316
+type(
+  VH.key
+)
+ident(
+  int_ref v "lnf_reduced_havlak.ml" 261 9198 9225 "lnf_reduced_havlak.ml" 261 9198 9226
+)
+"lnf_reduced_havlak.ml" 263 9270 9293 "lnf_reduced_havlak.ml" 263 9270 9316
+call(
+  stack
+)
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 264 9320 9332 "lnf_reduced_havlak.ml" 264 9320 9346
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 264 9320 9349 "lnf_reduced_havlak.ml" 264 9320 9357
+type(
+  (VH.key -> VUF.H.key Lnf.lnt) -> VH.key list -> VUF.H.key Lnf.lnt list
+)
+ident(
+  ext_ref List.map
+)
+"lnf_reduced_havlak.ml" 264 9320 9358 "lnf_reduced_havlak.ml" 264 9320 9370
+type(
+  VH.key -> VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref cleanLnfNode "lnf_reduced_havlak.ml" 261 9198 9212 "lnf_reduced_havlak.ml" 261 9198 9224
+)
+"lnf_reduced_havlak.ml" 264 9320 9371 "lnf_reduced_havlak.ml" 264 9320 9379
+type(
+  VH.key list
+)
+ident(
+  int_ref children "lnf_reduced_havlak.ml" 263 9270 9282 "lnf_reduced_havlak.ml" 263 9270 9290
+)
+"lnf_reduced_havlak.ml" 264 9320 9349 "lnf_reduced_havlak.ml" 264 9320 9379
+call(
+  stack
+)
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 265 9383 9401 "lnf_reduced_havlak.ml" 265 9383 9410
+type(
+  (VUF.H.key -> VUF.H.key -> int) -> VUF.H.key list -> VUF.H.key list
+)
+ident(
+  ext_ref List.sort
+)
+"lnf_reduced_havlak.ml" 265 9383 9411 "lnf_reduced_havlak.ml" 265 9383 9418
+type(
+  VUF.H.key -> VUF.H.key -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lnf_reduced_havlak.ml" 265 9383 9419 "lnf_reduced_havlak.ml" 265 9383 9423
+type(
+  VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref node "lnf_reduced_havlak.ml" 262 9229 9241 "lnf_reduced_havlak.ml" 262 9229 9245
+)
+"lnf_reduced_havlak.ml" 265 9383 9419 "lnf_reduced_havlak.ml" 265 9383 9431
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 265 9383 9400 "lnf_reduced_havlak.ml" 265 9383 9432
+call(
+  stack
+)
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 266 9434 9449 "lnf_reduced_havlak.ml" 266 9434 9458
+type(
+  (VUF.H.key -> VUF.H.key -> int) -> VUF.H.key list -> VUF.H.key list
+)
+ident(
+  ext_ref List.sort
+)
+"lnf_reduced_havlak.ml" 266 9434 9459 "lnf_reduced_havlak.ml" 266 9434 9466
+type(
+  VUF.H.key -> VUF.H.key -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lnf_reduced_havlak.ml" 266 9434 9467 "lnf_reduced_havlak.ml" 266 9434 9471
+type(
+  VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref node "lnf_reduced_havlak.ml" 262 9229 9241 "lnf_reduced_havlak.ml" 262 9229 9245
+)
+"lnf_reduced_havlak.ml" 266 9434 9467 "lnf_reduced_havlak.ml" 266 9434 9476
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 266 9434 9448 "lnf_reduced_havlak.ml" 266 9434 9477
+call(
+  stack
+)
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 267 9479 9498 "lnf_reduced_havlak.ml" 267 9479 9507
+type(
+  (VUF.H.key Lnf.lnt -> VUF.H.key Lnf.lnt -> int) ->
+  VUF.H.key Lnf.lnt list -> VUF.H.key Lnf.lnf
+)
+ident(
+  ext_ref List.sort
+)
+"lnf_reduced_havlak.ml" 267 9479 9508 "lnf_reduced_havlak.ml" 267 9479 9515
+type(
+  VUF.H.key Lnf.lnt -> VUF.H.key Lnf.lnt -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lnf_reduced_havlak.ml" 267 9479 9516 "lnf_reduced_havlak.ml" 267 9479 9530
+type(
+  VUF.H.key Lnf.lnt list
+)
+ident(
+  int_ref children_nodes "lnf_reduced_havlak.ml" 264 9320 9332 "lnf_reduced_havlak.ml" 264 9320 9346
+)
+"lnf_reduced_havlak.ml" 267 9479 9497 "lnf_reduced_havlak.ml" 267 9479 9531
+call(
+  stack
+)
+type(
+  VUF.H.key Lnf.lnf
+)
+"lnf_reduced_havlak.ml" 265 9383 9391 "lnf_reduced_havlak.ml" 267 9479 9532
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 264 9320 9328 "lnf_reduced_havlak.ml" 267 9479 9532
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 263 9270 9278 "lnf_reduced_havlak.ml" 267 9479 9532
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 262 9229 9237 "lnf_reduced_havlak.ml" 267 9479 9532
+type(
+  VUF.H.key Lnf.lnt
+)
+"lnf_reduced_havlak.ml" 269 9537 9547 "lnf_reduced_havlak.ml" 269 9537 9549
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 269 9537 9552 "lnf_reduced_havlak.ml" 269 9537 9561
+type(
+  (VUF.H.key -> unit) -> VUF.H.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"lnf_reduced_havlak.ml" 269 9537 9562 "lnf_reduced_havlak.ml" 269 9537 9576
+type(
+  VUF.H.key -> unit
+)
+ident(
+  int_ref process_vertex "lnf_reduced_havlak.ml" 245 8384 8394 "lnf_reduced_havlak.ml" 245 8384 8408
+)
+"lnf_reduced_havlak.ml" 269 9537 9577 "lnf_reduced_havlak.ml" 269 9537 9578
+type(
+  VUF.H.key list ref -> VUF.H.key list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 269 9537 9578 "lnf_reduced_havlak.ml" 269 9537 9591
+type(
+  VUF.H.key list ref
+)
+ident(
+  int_ref rev_dfs_order "lnf_reduced_havlak.ml" 101 3084 3096 "lnf_reduced_havlak.ml" 101 3084 3109
+)
+"lnf_reduced_havlak.ml" 269 9537 9577 "lnf_reduced_havlak.ml" 269 9537 9591
+type(
+  VUF.H.key list
+)
+"lnf_reduced_havlak.ml" 269 9537 9552 "lnf_reduced_havlak.ml" 269 9537 9591
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 270 9595 9601 "lnf_reduced_havlak.ml" 270 9595 9610
+type(
+  (VUF.H.key Lnf.lnt -> VUF.H.key Lnf.lnt -> int) ->
+  VUF.H.key Lnf.lnt list -> VUF.H.key Lnf.lnt list
+)
+ident(
+  ext_ref List.sort
+)
+"lnf_reduced_havlak.ml" 270 9595 9611 "lnf_reduced_havlak.ml" 270 9595 9618
+type(
+  VUF.H.key Lnf.lnt -> VUF.H.key Lnf.lnt -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lnf_reduced_havlak.ml" 270 9595 9620 "lnf_reduced_havlak.ml" 270 9595 9628
+type(
+  (VH.key -> VUF.H.key Lnf.lnt) -> VH.key list -> VUF.H.key Lnf.lnt list
+)
+ident(
+  ext_ref List.map
+)
+"lnf_reduced_havlak.ml" 270 9595 9629 "lnf_reduced_havlak.ml" 270 9595 9641
+type(
+  VH.key -> VUF.H.key Lnf.lnt
+)
+ident(
+  int_ref cleanLnfNode "lnf_reduced_havlak.ml" 261 9198 9212 "lnf_reduced_havlak.ml" 261 9198 9224
+)
+"lnf_reduced_havlak.ml" 270 9595 9643 "lnf_reduced_havlak.ml" 270 9595 9654
+type(
+  VS.t -> VH.key list
+)
+ident(
+  ext_ref VS.elements
+)
+"lnf_reduced_havlak.ml" 270 9595 9655 "lnf_reduced_havlak.ml" 270 9595 9656
+type(
+  VS.t ref -> VS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lnf_reduced_havlak.ml" 270 9595 9656 "lnf_reduced_havlak.ml" 270 9595 9669
+type(
+  VS.t ref
+)
+ident(
+  int_ref topLevelLoops "lnf_reduced_havlak.ml" 234 7917 7927 "lnf_reduced_havlak.ml" 234 7917 7940
+)
+"lnf_reduced_havlak.ml" 270 9595 9655 "lnf_reduced_havlak.ml" 270 9595 9669
+type(
+  VS.t
+)
+"lnf_reduced_havlak.ml" 270 9595 9642 "lnf_reduced_havlak.ml" 270 9595 9670
+call(
+  stack
+)
+type(
+  VH.key list
+)
+"lnf_reduced_havlak.ml" 270 9595 9619 "lnf_reduced_havlak.ml" 270 9595 9671
+call(
+  stack
+)
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 270 9595 9601 "lnf_reduced_havlak.ml" 270 9595 9671
+call(
+  tail
+)
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 269 9537 9543 "lnf_reduced_havlak.ml" 270 9595 9671
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 261 9198 9204 "lnf_reduced_havlak.ml" 270 9595 9671
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 245 8384 8390 "lnf_reduced_havlak.ml" 270 9595 9671
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 241 8224 8230 "lnf_reduced_havlak.ml" 270 9595 9671
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 237 8020 8026 "lnf_reduced_havlak.ml" 270 9595 9671
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 235 7959 7965 "lnf_reduced_havlak.ml" 270 9595 9671
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 234 7917 7923 "lnf_reduced_havlak.ml" 270 9595 9671
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 233 7862 7868 "lnf_reduced_havlak.ml" 270 9595 9671
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 272 9676 9684 "lnf_reduced_havlak.ml" 272 9676 9686
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 272 9676 9689 "lnf_reduced_havlak.ml" 272 9676 9717
+type(
+  unit -> unit
+)
+ident(
+  int_ref constructReducedHavlakForest "lnf_reduced_havlak.ml" 217 7319 7327 "lnf_reduced_havlak.ml" 217 7319 7355
+)
+"lnf_reduced_havlak.ml" 272 9676 9718 "lnf_reduced_havlak.ml" 272 9676 9720
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 272 9676 9689 "lnf_reduced_havlak.ml" 272 9676 9720
+call(
+  stack
+)
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 273 9724 9728 "lnf_reduced_havlak.ml" 273 9724 9754
+type(
+  unit -> VUF.H.key Lnf.lnt list
+)
+ident(
+  int_ref makeExplicitRepresentation "lnf_reduced_havlak.ml" 232 7822 7830 "lnf_reduced_havlak.ml" 232 7822 7856
+)
+"lnf_reduced_havlak.ml" 273 9724 9755 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  unit
+)
+"lnf_reduced_havlak.ml" 273 9724 9728 "lnf_reduced_havlak.ml" 273 9724 9757
+call(
+  tail
+)
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 272 9676 9680 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 232 7822 7826 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 217 7319 7323 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 195 6582 6586 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 188 6293 6297 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 174 5848 5852 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 135 4483 4487 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 130 4292 4296 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 118 3854 3858 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 115 3812 3816 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 104 3191 3195 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 103 3156 3160 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 102 3122 3126 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 101 3084 3092 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 100 3029 3033 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 98 2970 2974 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 97 2913 2917 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 96 2859 2863 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 95 2803 2807 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)
+"lnf_reduced_havlak.ml" 93 2777 2781 "lnf_reduced_havlak.ml" 273 9724 9757
+type(
+  VUF.H.key Lnf.lnt list
+)

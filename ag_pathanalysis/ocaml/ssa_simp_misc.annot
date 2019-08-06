@@ -1,0 +1,1087 @@
+"ssa_simp_misc.ml" 5 55 88 "ssa_simp_misc.ml" 5 55 92
+type(
+  string
+)
+ident(
+  def name "ssa_simp_misc.ml" 5 55 129 "ssa_simp_misc.ml" 5 55 133
+)
+"ssa_simp_misc.ml" 5 55 95 "ssa_simp_misc.ml" 5 55 110
+type(
+  string
+)
+"ssa_simp_misc.ml" 5 55 115 "ssa_simp_misc.ml" 5 55 122
+type(
+  [> `Debug ]
+)
+ident(
+  def default "ssa_simp_misc.ml" 5 55 129 "ssa_simp_misc.ml" 5 55 133
+)
+"ssa_simp_misc.ml" 5 55 123 "ssa_simp_misc.ml" 5 55 129
+type(
+  [> `Debug ] as 'a
+)
+"ssa_simp_misc.ml" 5 55 66 "ssa_simp_misc.ml" 5 55 134
+call(
+  stack
+)
+"ssa_simp_misc.ml" 10 284 288 "ssa_simp_misc.ml" 10 284 300
+type(
+  C.G.t -> C.G.t * bool
+)
+ident(
+  def cfg_jumpelim "ssa_simp_misc.ml" 47 1758 1771 --
+)
+"ssa_simp_misc.ml" 10 284 301 "ssa_simp_misc.ml" 10 284 306
+type(
+  C.G.t
+)
+ident(
+  def graph "ssa_simp_misc.ml" 11 309 311 "ssa_simp_misc.ml" 47 1758 1771
+)
+"ssa_simp_misc.ml" 11 309 315 "ssa_simp_misc.ml" 11 309 322
+type(
+  bool ref
+)
+"ssa_simp_misc.ml" 11 309 325 "ssa_simp_misc.ml" 11 309 328
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ssa_simp_misc.ml" 11 309 329 "ssa_simp_misc.ml" 11 309 334
+type(
+  bool
+)
+"ssa_simp_misc.ml" 11 309 325 "ssa_simp_misc.ml" 11 309 334
+type(
+  bool ref
+)
+"ssa_simp_misc.ml" 12 338 344 "ssa_simp_misc.ml" 12 338 345
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 12 338 348 "ssa_simp_misc.ml" 12 338 363
+type(
+  (C.G.vertex -> C.G.t -> C.G.t) -> C.G.t -> C.G.t -> C.G.t
+)
+ident(
+  ext_ref C.G.fold_vertex
+)
+"ssa_simp_misc.ml" 13 364 373 "ssa_simp_misc.ml" 13 364 375
+type(
+  C.G.vertex
+)
+ident(
+  def bb "ssa_simp_misc.ml" 13 364 376 "ssa_simp_misc.ml" 44 1716 1732
+)
+"ssa_simp_misc.ml" 13 364 376 "ssa_simp_misc.ml" 13 364 381
+type(
+  C.G.t
+)
+ident(
+  def graph "ssa_simp_misc.ml" 14 385 391 "ssa_simp_misc.ml" 44 1716 1732
+)
+"ssa_simp_misc.ml" 14 385 395 "ssa_simp_misc.ml" 14 385 400
+type(
+  C.lang
+)
+"ssa_simp_misc.ml" 14 385 403 "ssa_simp_misc.ml" 14 385 414
+type(
+  C.G.t -> C.G.V.t -> C.lang
+)
+ident(
+  ext_ref C.get_stmts
+)
+"ssa_simp_misc.ml" 14 385 415 "ssa_simp_misc.ml" 14 385 420
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 13 364 376 "ssa_simp_misc.ml" 13 364 381
+)
+"ssa_simp_misc.ml" 14 385 421 "ssa_simp_misc.ml" 14 385 423
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "ssa_simp_misc.ml" 13 364 373 "ssa_simp_misc.ml" 13 364 375
+)
+"ssa_simp_misc.ml" 14 385 403 "ssa_simp_misc.ml" 14 385 423
+call(
+  stack
+)
+type(
+  C.lang
+)
+"ssa_simp_misc.ml" 15 427 436 "ssa_simp_misc.ml" 15 427 447
+type(
+  C.lang -> int
+)
+ident(
+  ext_ref List.length
+)
+"ssa_simp_misc.ml" 15 427 448 "ssa_simp_misc.ml" 15 427 453
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "ssa_simp_misc.ml" 14 385 395 "ssa_simp_misc.ml" 14 385 400
+)
+"ssa_simp_misc.ml" 15 427 436 "ssa_simp_misc.ml" 15 427 453
+call(
+  stack
+)
+type(
+  int
+)
+"ssa_simp_misc.ml" 15 427 454 "ssa_simp_misc.ml" 15 427 455
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ssa_simp_misc.ml" 15 427 456 "ssa_simp_misc.ml" 15 427 457
+type(
+  int
+)
+"ssa_simp_misc.ml" 15 427 436 "ssa_simp_misc.ml" 15 427 457
+type(
+  bool
+)
+"ssa_simp_misc.ml" 16 465 477 "ssa_simp_misc.ml" 16 465 485
+type(
+  C.stmt list
+)
+ident(
+  def revstmts "ssa_simp_misc.ml" 17 506 514 "ssa_simp_misc.ml" 43 1694 1714
+)
+"ssa_simp_misc.ml" 16 465 488 "ssa_simp_misc.ml" 16 465 496
+type(
+  C.lang -> C.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"ssa_simp_misc.ml" 16 465 497 "ssa_simp_misc.ml" 16 465 502
+type(
+  C.lang
+)
+ident(
+  int_ref stmts "ssa_simp_misc.ml" 14 385 395 "ssa_simp_misc.ml" 14 385 400
+)
+"ssa_simp_misc.ml" 16 465 488 "ssa_simp_misc.ml" 16 465 502
+call(
+  stack
+)
+type(
+  C.stmt list
+)
+"ssa_simp_misc.ml" 17 506 518 "ssa_simp_misc.ml" 17 506 526
+type(
+  C.stmt
+)
+ident(
+  def laststmt "ssa_simp_misc.ml" 18 549 557 "ssa_simp_misc.ml" 43 1694 1714
+)
+"ssa_simp_misc.ml" 17 506 529 "ssa_simp_misc.ml" 17 506 536
+type(
+  C.stmt list -> C.stmt
+)
+ident(
+  ext_ref List.hd
+)
+"ssa_simp_misc.ml" 17 506 537 "ssa_simp_misc.ml" 17 506 545
+type(
+  C.stmt list
+)
+ident(
+  int_ref revstmts "ssa_simp_misc.ml" 16 465 477 "ssa_simp_misc.ml" 16 465 485
+)
+"ssa_simp_misc.ml" 17 506 529 "ssa_simp_misc.ml" 17 506 545
+call(
+  stack
+)
+type(
+  C.stmt
+)
+"ssa_simp_misc.ml" 18 549 563 "ssa_simp_misc.ml" 18 549 571
+type(
+  C.stmt
+)
+ident(
+  int_ref laststmt "ssa_simp_misc.ml" 17 506 518 "ssa_simp_misc.ml" 17 506 526
+)
+"ssa_simp_misc.ml" 19 577 592 "ssa_simp_misc.ml" 19 577 596
+type(
+  Ssa.exp
+)
+ident(
+  def cond "ssa_simp_misc.ml" 20 612 624 "ssa_simp_misc.ml" 42 1658 1693
+)
+"ssa_simp_misc.ml" 19 577 598 "ssa_simp_misc.ml" 19 577 600
+type(
+  Ssa.exp
+)
+ident(
+  def l1 "ssa_simp_misc.ml" 20 612 624 "ssa_simp_misc.ml" 42 1658 1693
+)
+"ssa_simp_misc.ml" 19 577 602 "ssa_simp_misc.ml" 19 577 604
+type(
+  Ssa.exp
+)
+ident(
+  def l2 "ssa_simp_misc.ml" 20 612 624 "ssa_simp_misc.ml" 42 1658 1693
+)
+"ssa_simp_misc.ml" 19 577 606 "ssa_simp_misc.ml" 19 577 610
+type(
+  Ssa.attrs
+)
+ident(
+  def attr "ssa_simp_misc.ml" 20 612 624 "ssa_simp_misc.ml" 42 1658 1693
+)
+"ssa_simp_misc.ml" 19 577 587 "ssa_simp_misc.ml" 19 577 611
+type(
+  C.stmt
+)
+"ssa_simp_misc.ml" 20 612 629 "ssa_simp_misc.ml" 20 612 642
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Ssa.full_value_eq
+)
+"ssa_simp_misc.ml" 20 612 643 "ssa_simp_misc.ml" 20 612 647
+type(
+  Ssa.exp
+)
+ident(
+  int_ref cond "ssa_simp_misc.ml" 19 577 592 "ssa_simp_misc.ml" 19 577 596
+)
+"ssa_simp_misc.ml" 20 612 648 "ssa_simp_misc.ml" 20 612 656
+type(
+  Ssa.exp
+)
+ident(
+  ext_ref Ssa.val_true
+)
+"ssa_simp_misc.ml" 20 612 629 "ssa_simp_misc.ml" 20 612 656
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_simp_misc.ml" 20 612 657 "ssa_simp_misc.ml" 20 612 659
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ssa_simp_misc.ml" 20 612 660 "ssa_simp_misc.ml" 20 612 673
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Ssa.full_value_eq
+)
+"ssa_simp_misc.ml" 20 612 674 "ssa_simp_misc.ml" 20 612 678
+type(
+  Ssa.exp
+)
+ident(
+  int_ref cond "ssa_simp_misc.ml" 19 577 592 "ssa_simp_misc.ml" 19 577 596
+)
+"ssa_simp_misc.ml" 20 612 679 "ssa_simp_misc.ml" 20 612 688
+type(
+  Ssa.exp
+)
+ident(
+  ext_ref Ssa.val_false
+)
+"ssa_simp_misc.ml" 20 612 660 "ssa_simp_misc.ml" 20 612 688
+call(
+  stack
+)
+type(
+  bool
+)
+"ssa_simp_misc.ml" 20 612 629 "ssa_simp_misc.ml" 20 612 688
+type(
+  bool
+)
+"ssa_simp_misc.ml" 22 707 724 "ssa_simp_misc.ml" 22 707 728
+type(
+  bool
+)
+ident(
+  def bool "ssa_simp_misc.ml" 23 750 763 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 22 707 731 "ssa_simp_misc.ml" 22 707 735
+type(
+  Ssa.exp
+)
+ident(
+  int_ref cond "ssa_simp_misc.ml" 19 577 592 "ssa_simp_misc.ml" 19 577 596
+)
+"ssa_simp_misc.ml" 22 707 736 "ssa_simp_misc.ml" 22 707 737
+type(
+  Ssa.exp -> Ssa.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_simp_misc.ml" 22 707 738 "ssa_simp_misc.ml" 22 707 746
+type(
+  Ssa.exp
+)
+ident(
+  ext_ref Ssa.val_true
+)
+"ssa_simp_misc.ml" 22 707 731 "ssa_simp_misc.ml" 22 707 746
+type(
+  bool
+)
+"ssa_simp_misc.ml" 23 750 767 "ssa_simp_misc.ml" 23 750 772
+type(
+  C.G.edge list
+)
+ident(
+  def edges "ssa_simp_misc.ml" 24 798 811 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 23 750 775 "ssa_simp_misc.ml" 23 750 785
+type(
+  C.G.t -> C.G.vertex -> C.G.edge list
+)
+ident(
+  ext_ref C.G.succ_e
+)
+"ssa_simp_misc.ml" 23 750 786 "ssa_simp_misc.ml" 23 750 791
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 13 364 376 "ssa_simp_misc.ml" 13 364 381
+)
+"ssa_simp_misc.ml" 23 750 792 "ssa_simp_misc.ml" 23 750 794
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "ssa_simp_misc.ml" 13 364 373 "ssa_simp_misc.ml" 13 364 375
+)
+"ssa_simp_misc.ml" 23 750 775 "ssa_simp_misc.ml" 23 750 794
+call(
+  stack
+)
+type(
+  C.G.edge list
+)
+"ssa_simp_misc.ml" 24 798 815 "ssa_simp_misc.ml" 24 798 823
+type(
+  C.G.E.t
+)
+ident(
+  def toremove "ssa_simp_misc.ml" 27 982 995 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 24 798 826 "ssa_simp_misc.ml" 24 798 835
+type(
+  (C.G.E.t -> bool) -> C.G.E.t list -> C.G.E.t
+)
+ident(
+  ext_ref List.find
+)
+"ssa_simp_misc.ml" 24 798 841 "ssa_simp_misc.ml" 24 798 842
+type(
+  C.G.E.t
+)
+ident(
+  def e "ssa_simp_misc.ml" 24 798 846 "ssa_simp_misc.ml" 26 916 971
+)
+"ssa_simp_misc.ml" 24 798 852 "ssa_simp_misc.ml" 24 798 863
+type(
+  C.G.E.t -> C.G.E.label
+)
+ident(
+  ext_ref C.G.E.label
+)
+"ssa_simp_misc.ml" 24 798 864 "ssa_simp_misc.ml" 24 798 865
+type(
+  C.G.E.t
+)
+ident(
+  int_ref e "ssa_simp_misc.ml" 24 798 841 "ssa_simp_misc.ml" 24 798 842
+)
+"ssa_simp_misc.ml" 24 798 852 "ssa_simp_misc.ml" 24 798 865
+call(
+  stack
+)
+type(
+  C.G.E.label
+)
+"ssa_simp_misc.ml" 25 871 898 "ssa_simp_misc.ml" 25 871 899
+type(
+  bool
+)
+ident(
+  def b "ssa_simp_misc.ml" 25 871 907 "ssa_simp_misc.ml" 25 871 915
+)
+"ssa_simp_misc.ml" 25 871 893 "ssa_simp_misc.ml" 25 871 899
+type(
+  bool option
+)
+"ssa_simp_misc.ml" 25 871 901 "ssa_simp_misc.ml" 25 871 902
+type(
+  C.exp
+)
+"ssa_simp_misc.ml" 25 871 892 "ssa_simp_misc.ml" 25 871 903
+type(
+  bool option * C.exp
+)
+"ssa_simp_misc.ml" 25 871 888 "ssa_simp_misc.ml" 25 871 903
+type(
+  C.G.E.label
+)
+"ssa_simp_misc.ml" 25 871 907 "ssa_simp_misc.ml" 25 871 908
+type(
+  bool
+)
+ident(
+  int_ref b "ssa_simp_misc.ml" 25 871 898 "ssa_simp_misc.ml" 25 871 899
+)
+"ssa_simp_misc.ml" 25 871 909 "ssa_simp_misc.ml" 25 871 910
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ssa_simp_misc.ml" 25 871 911 "ssa_simp_misc.ml" 25 871 915
+type(
+  bool
+)
+ident(
+  int_ref bool "ssa_simp_misc.ml" 22 707 724 "ssa_simp_misc.ml" 22 707 728
+)
+"ssa_simp_misc.ml" 25 871 907 "ssa_simp_misc.ml" 25 871 915
+type(
+  bool
+)
+"ssa_simp_misc.ml" 26 916 933 "ssa_simp_misc.ml" 26 916 934
+type(
+  C.G.E.label
+)
+"ssa_simp_misc.ml" 26 916 938 "ssa_simp_misc.ml" 26 916 946
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ssa_simp_misc.ml" 26 916 947 "ssa_simp_misc.ml" 26 916 971
+type(
+  string
+)
+"ssa_simp_misc.ml" 26 916 938 "ssa_simp_misc.ml" 26 916 971
+call(
+  tail
+)
+type(
+  bool
+)
+"ssa_simp_misc.ml" 24 798 846 "ssa_simp_misc.ml" 26 916 971
+type(
+  bool
+)
+"ssa_simp_misc.ml" 24 798 836 "ssa_simp_misc.ml" 26 916 972
+type(
+  C.G.E.t -> bool
+)
+"ssa_simp_misc.ml" 26 916 973 "ssa_simp_misc.ml" 26 916 978
+type(
+  C.G.E.t list
+)
+ident(
+  int_ref edges "ssa_simp_misc.ml" 23 750 767 "ssa_simp_misc.ml" 23 750 772
+)
+"ssa_simp_misc.ml" 24 798 826 "ssa_simp_misc.ml" 26 916 978
+call(
+  stack
+)
+type(
+  C.G.E.t
+)
+"ssa_simp_misc.ml" 27 982 999 "ssa_simp_misc.ml" 27 982 1004
+type(
+  C.G.E.t list
+)
+ident(
+  def edges "ssa_simp_misc.ml" 30 1112 1125 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 27 982 1007 "ssa_simp_misc.ml" 27 982 1018
+type(
+  (C.G.E.t -> bool) -> C.G.E.t list -> C.G.E.t list
+)
+ident(
+  ext_ref List.filter
+)
+"ssa_simp_misc.ml" 27 982 1024 "ssa_simp_misc.ml" 27 982 1025
+type(
+  C.G.E.t
+)
+ident(
+  def e "ssa_simp_misc.ml" 27 982 1029 "ssa_simp_misc.ml" 27 982 1042
+)
+"ssa_simp_misc.ml" 27 982 1029 "ssa_simp_misc.ml" 27 982 1030
+type(
+  C.G.E.t
+)
+ident(
+  int_ref e "ssa_simp_misc.ml" 27 982 1024 "ssa_simp_misc.ml" 27 982 1025
+)
+"ssa_simp_misc.ml" 27 982 1031 "ssa_simp_misc.ml" 27 982 1033
+type(
+  C.G.E.t -> C.G.E.t -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"ssa_simp_misc.ml" 27 982 1034 "ssa_simp_misc.ml" 27 982 1042
+type(
+  C.G.E.t
+)
+ident(
+  int_ref toremove "ssa_simp_misc.ml" 24 798 815 "ssa_simp_misc.ml" 24 798 823
+)
+"ssa_simp_misc.ml" 27 982 1029 "ssa_simp_misc.ml" 27 982 1042
+type(
+  bool
+)
+"ssa_simp_misc.ml" 27 982 1019 "ssa_simp_misc.ml" 27 982 1043
+type(
+  C.G.E.t -> bool
+)
+"ssa_simp_misc.ml" 27 982 1044 "ssa_simp_misc.ml" 27 982 1049
+type(
+  C.G.E.t list
+)
+ident(
+  int_ref edges "ssa_simp_misc.ml" 23 750 767 "ssa_simp_misc.ml" 23 750 772
+)
+"ssa_simp_misc.ml" 27 982 1007 "ssa_simp_misc.ml" 27 982 1049
+call(
+  stack
+)
+type(
+  C.G.E.t list
+)
+"ssa_simp_misc.ml" 30 1112 1129 "ssa_simp_misc.ml" 30 1112 1132
+type(
+  C.G.E.vertex
+)
+ident(
+  def dst "ssa_simp_misc.ml" 35 1295 1308 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 30 1112 1134 "ssa_simp_misc.ml" 30 1112 1142
+type(
+  C.G.E.t
+)
+ident(
+  def lastedge "ssa_simp_misc.ml" 35 1295 1308 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 30 1112 1129 "ssa_simp_misc.ml" 30 1112 1142
+type(
+  C.G.E.vertex * C.G.E.t
+)
+"ssa_simp_misc.ml" 30 1112 1151 "ssa_simp_misc.ml" 30 1112 1156
+type(
+  C.G.E.t list
+)
+ident(
+  int_ref edges "ssa_simp_misc.ml" 27 982 999 "ssa_simp_misc.ml" 27 982 1004
+)
+"ssa_simp_misc.ml" 31 1162 1179 "ssa_simp_misc.ml" 31 1162 1180
+type(
+  C.G.E.t
+)
+ident(
+  def e "ssa_simp_misc.ml" 31 1162 1187 "ssa_simp_misc.ml" 31 1162 1201
+)
+"ssa_simp_misc.ml" 31 1162 1182 "ssa_simp_misc.ml" 31 1162 1183
+type(
+  C.G.E.t list
+)
+"ssa_simp_misc.ml" 31 1162 1179 "ssa_simp_misc.ml" 31 1162 1183
+type(
+  C.G.E.t list
+)
+"ssa_simp_misc.ml" 31 1162 1187 "ssa_simp_misc.ml" 31 1162 1196
+type(
+  C.G.E.t -> C.G.E.vertex
+)
+ident(
+  ext_ref C.G.E.dst
+)
+"ssa_simp_misc.ml" 31 1162 1197 "ssa_simp_misc.ml" 31 1162 1198
+type(
+  C.G.E.t
+)
+ident(
+  int_ref e "ssa_simp_misc.ml" 31 1162 1179 "ssa_simp_misc.ml" 31 1162 1180
+)
+"ssa_simp_misc.ml" 31 1162 1187 "ssa_simp_misc.ml" 31 1162 1198
+call(
+  stack
+)
+type(
+  C.G.E.vertex
+)
+"ssa_simp_misc.ml" 31 1162 1200 "ssa_simp_misc.ml" 31 1162 1201
+type(
+  C.G.E.t
+)
+ident(
+  int_ref e "ssa_simp_misc.ml" 31 1162 1179 "ssa_simp_misc.ml" 31 1162 1180
+)
+"ssa_simp_misc.ml" 31 1162 1187 "ssa_simp_misc.ml" 31 1162 1201
+type(
+  C.G.E.vertex * C.G.E.t
+)
+"ssa_simp_misc.ml" 32 1202 1219 "ssa_simp_misc.ml" 32 1202 1220
+type(
+  C.G.E.t list
+)
+"ssa_simp_misc.ml" 32 1202 1224 "ssa_simp_misc.ml" 32 1202 1232
+type(
+  string -> C.G.E.vertex * C.G.E.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ssa_simp_misc.ml" 32 1202 1233 "ssa_simp_misc.ml" 32 1202 1277
+type(
+  string
+)
+"ssa_simp_misc.ml" 32 1202 1224 "ssa_simp_misc.ml" 32 1202 1277
+call(
+  stack
+)
+type(
+  C.G.E.vertex * C.G.E.t
+)
+"ssa_simp_misc.ml" 30 1112 1145 "ssa_simp_misc.ml" 32 1202 1277
+type(
+  C.G.E.vertex * C.G.E.t
+)
+"ssa_simp_misc.ml" 35 1295 1312 "ssa_simp_misc.ml" 35 1295 1317
+type(
+  C.G.t
+)
+ident(
+  def graph "ssa_simp_misc.ml" 36 1354 1367 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 35 1295 1320 "ssa_simp_misc.ml" 35 1295 1335
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  ext_ref C.remove_edge_e
+)
+"ssa_simp_misc.ml" 35 1295 1336 "ssa_simp_misc.ml" 35 1295 1341
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 13 364 376 "ssa_simp_misc.ml" 13 364 381
+)
+"ssa_simp_misc.ml" 35 1295 1342 "ssa_simp_misc.ml" 35 1295 1350
+type(
+  C.G.E.t
+)
+ident(
+  int_ref toremove "ssa_simp_misc.ml" 24 798 815 "ssa_simp_misc.ml" 24 798 823
+)
+"ssa_simp_misc.ml" 35 1295 1320 "ssa_simp_misc.ml" 35 1295 1350
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 36 1354 1371 "ssa_simp_misc.ml" 36 1354 1376
+type(
+  C.G.t
+)
+ident(
+  def graph "ssa_simp_misc.ml" 37 1413 1426 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 36 1354 1379 "ssa_simp_misc.ml" 36 1354 1394
+type(
+  C.G.t -> C.G.E.t -> C.G.t
+)
+ident(
+  ext_ref C.remove_edge_e
+)
+"ssa_simp_misc.ml" 36 1354 1395 "ssa_simp_misc.ml" 36 1354 1400
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 35 1295 1312 "ssa_simp_misc.ml" 35 1295 1317
+)
+"ssa_simp_misc.ml" 36 1354 1401 "ssa_simp_misc.ml" 36 1354 1409
+type(
+  C.G.E.t
+)
+ident(
+  int_ref lastedge "ssa_simp_misc.ml" 30 1112 1134 "ssa_simp_misc.ml" 30 1112 1142
+)
+"ssa_simp_misc.ml" 36 1354 1379 "ssa_simp_misc.ml" 36 1354 1409
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 37 1413 1430 "ssa_simp_misc.ml" 37 1413 1435
+type(
+  C.G.t
+)
+ident(
+  def graph "ssa_simp_misc.ml" 38 1465 1478 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 37 1413 1438 "ssa_simp_misc.ml" 37 1413 1448
+type(
+  C.G.t -> C.G.V.t -> C.G.V.t -> C.G.t
+)
+ident(
+  ext_ref C.add_edge
+)
+"ssa_simp_misc.ml" 37 1413 1449 "ssa_simp_misc.ml" 37 1413 1454
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 36 1354 1371 "ssa_simp_misc.ml" 36 1354 1376
+)
+"ssa_simp_misc.ml" 37 1413 1455 "ssa_simp_misc.ml" 37 1413 1457
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "ssa_simp_misc.ml" 13 364 373 "ssa_simp_misc.ml" 13 364 375
+)
+"ssa_simp_misc.ml" 37 1413 1458 "ssa_simp_misc.ml" 37 1413 1461
+type(
+  C.G.E.vertex
+)
+ident(
+  int_ref dst "ssa_simp_misc.ml" 30 1112 1129 "ssa_simp_misc.ml" 30 1112 1132
+)
+"ssa_simp_misc.ml" 37 1413 1438 "ssa_simp_misc.ml" 37 1413 1461
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 38 1465 1482 "ssa_simp_misc.ml" 38 1465 1493
+type(
+  C.stmt list
+)
+ident(
+  def revnewstmts "ssa_simp_misc.ml" 39 1533 1546 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 38 1465 1500 "ssa_simp_misc.ml" 38 1465 1502
+type(
+  Ssa.exp
+)
+ident(
+  int_ref l1 "ssa_simp_misc.ml" 19 577 598 "ssa_simp_misc.ml" 19 577 600
+)
+"ssa_simp_misc.ml" 38 1465 1504 "ssa_simp_misc.ml" 38 1465 1508
+type(
+  Ssa.attrs
+)
+ident(
+  int_ref attr "ssa_simp_misc.ml" 19 577 606 "ssa_simp_misc.ml" 19 577 610
+)
+"ssa_simp_misc.ml" 38 1465 1496 "ssa_simp_misc.ml" 38 1465 1509
+type(
+  C.stmt
+)
+"ssa_simp_misc.ml" 38 1465 1512 "ssa_simp_misc.ml" 38 1465 1519
+type(
+  C.stmt list -> C.stmt list
+)
+ident(
+  ext_ref List.tl
+)
+"ssa_simp_misc.ml" 38 1465 1520 "ssa_simp_misc.ml" 38 1465 1528
+type(
+  C.stmt list
+)
+ident(
+  int_ref revstmts "ssa_simp_misc.ml" 16 465 477 "ssa_simp_misc.ml" 16 465 485
+)
+"ssa_simp_misc.ml" 38 1465 1511 "ssa_simp_misc.ml" 38 1465 1529
+call(
+  stack
+)
+type(
+  C.stmt list
+)
+"ssa_simp_misc.ml" 38 1465 1496 "ssa_simp_misc.ml" 38 1465 1529
+type(
+  C.stmt list
+)
+"ssa_simp_misc.ml" 39 1533 1550 "ssa_simp_misc.ml" 39 1533 1558
+type(
+  C.stmt list
+)
+ident(
+  def newstmts "ssa_simp_misc.ml" 40 1585 1598 "ssa_simp_misc.ml" 41 1615 1657
+)
+"ssa_simp_misc.ml" 39 1533 1561 "ssa_simp_misc.ml" 39 1533 1569
+type(
+  C.stmt list -> C.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"ssa_simp_misc.ml" 39 1533 1570 "ssa_simp_misc.ml" 39 1533 1581
+type(
+  C.stmt list
+)
+ident(
+  int_ref revnewstmts "ssa_simp_misc.ml" 38 1465 1482 "ssa_simp_misc.ml" 38 1465 1493
+)
+"ssa_simp_misc.ml" 39 1533 1561 "ssa_simp_misc.ml" 39 1533 1581
+call(
+  stack
+)
+type(
+  C.stmt list
+)
+"ssa_simp_misc.ml" 40 1585 1598 "ssa_simp_misc.ml" 40 1585 1605
+type(
+  bool ref
+)
+ident(
+  int_ref changed "ssa_simp_misc.ml" 11 309 315 "ssa_simp_misc.ml" 11 309 322
+)
+"ssa_simp_misc.ml" 40 1585 1606 "ssa_simp_misc.ml" 40 1585 1608
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ssa_simp_misc.ml" 40 1585 1609 "ssa_simp_misc.ml" 40 1585 1613
+type(
+  bool
+)
+"ssa_simp_misc.ml" 40 1585 1598 "ssa_simp_misc.ml" 40 1585 1613
+type(
+  unit
+)
+"ssa_simp_misc.ml" 41 1615 1628 "ssa_simp_misc.ml" 41 1615 1639
+type(
+  C.G.t -> C.G.V.t -> C.lang -> C.G.t
+)
+ident(
+  ext_ref C.set_stmts
+)
+"ssa_simp_misc.ml" 41 1615 1640 "ssa_simp_misc.ml" 41 1615 1645
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 37 1413 1430 "ssa_simp_misc.ml" 37 1413 1435
+)
+"ssa_simp_misc.ml" 41 1615 1646 "ssa_simp_misc.ml" 41 1615 1648
+type(
+  C.G.vertex
+)
+ident(
+  int_ref bb "ssa_simp_misc.ml" 13 364 373 "ssa_simp_misc.ml" 13 364 375
+)
+"ssa_simp_misc.ml" 41 1615 1649 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.lang
+)
+ident(
+  int_ref newstmts "ssa_simp_misc.ml" 39 1533 1550 "ssa_simp_misc.ml" 39 1533 1558
+)
+"ssa_simp_misc.ml" 41 1615 1628 "ssa_simp_misc.ml" 41 1615 1657
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 40 1585 1598 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 39 1533 1546 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 38 1465 1478 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 37 1413 1426 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 36 1354 1367 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 35 1295 1308 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 30 1112 1125 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 27 982 995 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 24 798 811 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 23 750 763 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 22 707 720 "ssa_simp_misc.ml" 41 1615 1657
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 42 1658 1674 "ssa_simp_misc.ml" 42 1658 1683
+type(
+  exn
+)
+"ssa_simp_misc.ml" 42 1658 1687 "ssa_simp_misc.ml" 42 1658 1692
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 13 364 376 "ssa_simp_misc.ml" 13 364 381
+)
+"ssa_simp_misc.ml" 21 692 702 "ssa_simp_misc.ml" 42 1658 1693
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 20 612 624 "ssa_simp_misc.ml" 42 1658 1693
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 43 1694 1704 "ssa_simp_misc.ml" 43 1694 1705
+type(
+  C.stmt
+)
+"ssa_simp_misc.ml" 43 1694 1709 "ssa_simp_misc.ml" 43 1694 1714
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 13 364 376 "ssa_simp_misc.ml" 13 364 381
+)
+"ssa_simp_misc.ml" 18 549 557 "ssa_simp_misc.ml" 43 1694 1714
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 17 506 514 "ssa_simp_misc.ml" 43 1694 1714
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 15 427 463 "ssa_simp_misc.ml" 43 1694 1715
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 44 1716 1727 "ssa_simp_misc.ml" 44 1716 1732
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 13 364 376 "ssa_simp_misc.ml" 13 364 381
+)
+"ssa_simp_misc.ml" 15 427 433 "ssa_simp_misc.ml" 44 1716 1732
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 14 385 391 "ssa_simp_misc.ml" 44 1716 1732
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 13 364 368 "ssa_simp_misc.ml" 45 1733 1738
+type(
+  C.G.vertex -> C.G.t -> C.G.t
+)
+"ssa_simp_misc.ml" 46 1739 1743 "ssa_simp_misc.ml" 46 1739 1748
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 10 284 301 "ssa_simp_misc.ml" 10 284 306
+)
+"ssa_simp_misc.ml" 46 1739 1749 "ssa_simp_misc.ml" 46 1739 1754
+type(
+  C.G.t
+)
+ident(
+  int_ref graph "ssa_simp_misc.ml" 10 284 301 "ssa_simp_misc.ml" 10 284 306
+)
+"ssa_simp_misc.ml" 12 338 348 "ssa_simp_misc.ml" 46 1739 1754
+call(
+  stack
+)
+type(
+  C.G.t
+)
+"ssa_simp_misc.ml" 47 1758 1760 "ssa_simp_misc.ml" 47 1758 1761
+type(
+  C.G.t
+)
+ident(
+  int_ref g "ssa_simp_misc.ml" 12 338 344 "ssa_simp_misc.ml" 12 338 345
+)
+"ssa_simp_misc.ml" 47 1758 1763 "ssa_simp_misc.ml" 47 1758 1764
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ssa_simp_misc.ml" 47 1758 1764 "ssa_simp_misc.ml" 47 1758 1771
+type(
+  bool ref
+)
+ident(
+  int_ref changed "ssa_simp_misc.ml" 11 309 315 "ssa_simp_misc.ml" 11 309 322
+)
+"ssa_simp_misc.ml" 47 1758 1763 "ssa_simp_misc.ml" 47 1758 1771
+type(
+  bool
+)
+"ssa_simp_misc.ml" 47 1758 1760 "ssa_simp_misc.ml" 47 1758 1771
+type(
+  C.G.t * bool
+)
+"ssa_simp_misc.ml" 12 338 340 "ssa_simp_misc.ml" 47 1758 1771
+type(
+  C.G.t * bool
+)
+"ssa_simp_misc.ml" 11 309 311 "ssa_simp_misc.ml" 47 1758 1771
+type(
+  C.G.t * bool
+)

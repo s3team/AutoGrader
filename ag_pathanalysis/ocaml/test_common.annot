@@ -1,0 +1,5551 @@
+"test_common.ml" 14 206 210 "test_common.ml" 14 206 221
+type(
+  bool ref
+)
+ident(
+  def leave_files "test_common.ml" 15 236 236 --
+)
+"test_common.ml" 14 206 224 "test_common.ml" 14 206 227
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"test_common.ml" 14 206 228 "test_common.ml" 14 206 233
+type(
+  bool
+)
+"test_common.ml" 14 206 224 "test_common.ml" 14 206 233
+type(
+  bool ref
+)
+"test_common.ml" 15 236 240 "test_common.ml" 15 236 248
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def speclist "test_common.ml" 20 377 377 --
+)
+"test_common.ml" 15 236 252 "test_common.ml" 15 236 266
+type(
+  string
+)
+"test_common.ml" 15 236 276 "test_common.ml" 15 236 287
+type(
+  bool ref
+)
+ident(
+  int_ref leave_files "test_common.ml" 14 206 210 "test_common.ml" 14 206 221
+)
+"test_common.ml" 15 236 268 "test_common.ml" 15 236 287
+type(
+  Arg.spec
+)
+"test_common.ml" 16 290 306 "test_common.ml" 16 290 337
+type(
+  string
+)
+"test_common.ml" 15 236 252 "test_common.ml" 16 290 337
+type(
+  string * Arg.spec * string
+)
+"test_common.ml" 15 236 251 "test_common.ml" 16 290 339
+type(
+  (string * Arg.spec * string) list
+)
+"test_common.ml" 20 377 381 "test_common.ml" 20 377 391
+type(
+  string -> unit
+)
+ident(
+  def check_file "test_common.ml" 25 510 510 --
+)
+"test_common.ml" 20 377 392 "test_common.ml" 20 377 396
+type(
+  string
+)
+ident(
+  def file "test_common.ml" 21 399 401 "test_common.ml" 22 448 505
+)
+"test_common.ml" 21 399 404 "test_common.ml" 21 399 407
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"test_common.ml" 21 399 408 "test_common.ml" 21 399 423
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"test_common.ml" 21 399 424 "test_common.ml" 21 399 428
+type(
+  string
+)
+ident(
+  int_ref file "test_common.ml" 20 377 392 "test_common.ml" 20 377 396
+)
+"test_common.ml" 21 399 407 "test_common.ml" 21 399 429
+type(
+  bool
+)
+"test_common.ml" 21 399 404 "test_common.ml" 21 399 429
+type(
+  bool
+)
+"test_common.ml" 21 399 435 "test_common.ml" 21 399 442
+type(
+  bool -> string -> unit
+)
+ident(
+  ext_ref OUnit.skip_if
+)
+"test_common.ml" 21 399 443 "test_common.ml" 21 399 447
+type(
+  bool
+)
+"test_common.ml" 22 448 453 "test_common.ml" 22 448 460
+type(
+  string
+)
+"test_common.ml" 22 448 460 "test_common.ml" 22 448 461
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 22 448 461 "test_common.ml" 22 448 465
+type(
+  string
+)
+ident(
+  int_ref file "test_common.ml" 20 377 392 "test_common.ml" 20 377 396
+)
+"test_common.ml" 22 448 465 "test_common.ml" 22 448 466
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 22 448 466 "test_common.ml" 22 448 504
+type(
+  string
+)
+"test_common.ml" 22 448 461 "test_common.ml" 22 448 504
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 22 448 452 "test_common.ml" 22 448 505
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 21 399 435 "test_common.ml" 22 448 505
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 21 399 401 "test_common.ml" 22 448 505
+type(
+  unit
+)
+"test_common.ml" 25 510 514 "test_common.ml" 25 510 530
+type(
+  string -> unit
+)
+ident(
+  def mkdir_and_ignore "test_common.ml" 28 581 581 --
+)
+"test_common.ml" 25 510 531 "test_common.ml" 25 510 535
+type(
+  string
+)
+ident(
+  def path "test_common.ml" 25 510 538 "test_common.ml" 25 510 576
+)
+"test_common.ml" 25 510 542 "test_common.ml" 25 510 552
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  ext_ref Unix.mkdir
+)
+"test_common.ml" 25 510 553 "test_common.ml" 25 510 557
+type(
+  string
+)
+ident(
+  int_ref path "test_common.ml" 25 510 531 "test_common.ml" 25 510 535
+)
+"test_common.ml" 25 510 558 "test_common.ml" 25 510 563
+type(
+  Unix.file_perm
+)
+"test_common.ml" 25 510 542 "test_common.ml" 25 510 563
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 25 510 569 "test_common.ml" 25 510 570
+type(
+  exn
+)
+"test_common.ml" 25 510 574 "test_common.ml" 25 510 576
+type(
+  unit
+)
+"test_common.ml" 25 510 538 "test_common.ml" 25 510 576
+type(
+  unit
+)
+"test_common.ml" 28 581 585 "test_common.ml" 28 581 598
+type(
+  string -> unit
+)
+ident(
+  def rm_and_ignore "test_common.ml" 34 757 757 --
+)
+"test_common.ml" 28 581 599 "test_common.ml" 28 581 603
+type(
+  string
+)
+ident(
+  def path "test_common.ml" 29 606 608 "test_common.ml" 31 711 752
+)
+"test_common.ml" 29 606 611 "test_common.ml" 29 606 612
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"test_common.ml" 29 606 612 "test_common.ml" 29 606 623
+type(
+  bool ref
+)
+ident(
+  int_ref leave_files "test_common.ml" 14 206 210 "test_common.ml" 14 206 221
+)
+"test_common.ml" 29 606 610 "test_common.ml" 29 606 624
+type(
+  bool
+)
+"test_common.ml" 29 606 630 "test_common.ml" 29 606 632
+type(
+  unit
+)
+"test_common.ml" 30 634 651 "test_common.ml" 30 634 667
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.is_directory
+)
+"test_common.ml" 30 634 667 "test_common.ml" 30 634 673
+type(
+  string
+)
+ident(
+  int_ref path "test_common.ml" 28 581 599 "test_common.ml" 28 581 603
+)
+"test_common.ml" 30 634 650 "test_common.ml" 30 634 674
+type(
+  bool
+)
+"test_common.ml" 30 634 680 "test_common.ml" 30 634 690
+type(
+  string -> unit
+)
+ident(
+  ext_ref Unix.rmdir
+)
+"test_common.ml" 30 634 691 "test_common.ml" 30 634 695
+type(
+  string
+)
+ident(
+  int_ref path "test_common.ml" 28 581 599 "test_common.ml" 28 581 603
+)
+"test_common.ml" 30 634 680 "test_common.ml" 30 634 695
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 30 634 647 "test_common.ml" 30 634 695
+type(
+  unit
+)
+"test_common.ml" 30 634 701 "test_common.ml" 30 634 702
+type(
+  exn
+)
+"test_common.ml" 30 634 706 "test_common.ml" 30 634 708
+type(
+  unit
+)
+"test_common.ml" 30 634 642 "test_common.ml" 30 634 709
+type(
+  unit
+)
+"test_common.ml" 31 711 723 "test_common.ml" 31 711 733
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"test_common.ml" 31 711 734 "test_common.ml" 31 711 738
+type(
+  string
+)
+ident(
+  int_ref path "test_common.ml" 28 581 599 "test_common.ml" 28 581 603
+)
+"test_common.ml" 31 711 723 "test_common.ml" 31 711 738
+type(
+  unit
+)
+"test_common.ml" 31 711 744 "test_common.ml" 31 711 745
+type(
+  exn
+)
+"test_common.ml" 31 711 749 "test_common.ml" 31 711 751
+type(
+  unit
+)
+"test_common.ml" 31 711 719 "test_common.ml" 31 711 751
+type(
+  unit
+)
+"test_common.ml" 30 634 641 "test_common.ml" 31 711 752
+type(
+  unit
+)
+"test_common.ml" 29 606 608 "test_common.ml" 31 711 752
+type(
+  unit
+)
+"test_common.ml" 34 757 765 "test_common.ml" 34 757 783
+type(
+  string list -> unit
+)
+ident(
+  def rm_and_ignore_list "test_common.ml" 34 757 757 --
+)
+"test_common.ml" 34 757 784 "test_common.ml" 34 757 789
+type(
+  string list
+)
+ident(
+  def paths "test_common.ml" 35 792 794 "test_common.ml" 37 824 875
+)
+"test_common.ml" 35 792 800 "test_common.ml" 35 792 805
+type(
+  string list
+)
+ident(
+  int_ref paths "test_common.ml" 34 757 784 "test_common.ml" 34 757 789
+)
+"test_common.ml" 36 811 815 "test_common.ml" 36 811 817
+type(
+  string list
+)
+"test_common.ml" 36 811 821 "test_common.ml" 36 811 823
+type(
+  unit
+)
+"test_common.ml" 37 824 828 "test_common.ml" 37 824 829
+type(
+  string
+)
+ident(
+  def p "test_common.ml" 37 824 837 "test_common.ml" 37 824 875
+)
+"test_common.ml" 37 824 831 "test_common.ml" 37 824 833
+type(
+  string list
+)
+ident(
+  def ps "test_common.ml" 37 824 837 "test_common.ml" 37 824 875
+)
+"test_common.ml" 37 824 828 "test_common.ml" 37 824 833
+type(
+  string list
+)
+"test_common.ml" 37 824 837 "test_common.ml" 37 824 850
+type(
+  string -> unit
+)
+ident(
+  int_ref rm_and_ignore "test_common.ml" 28 581 585 "test_common.ml" 28 581 598
+)
+"test_common.ml" 37 824 851 "test_common.ml" 37 824 852
+type(
+  string
+)
+ident(
+  int_ref p "test_common.ml" 37 824 828 "test_common.ml" 37 824 829
+)
+"test_common.ml" 37 824 837 "test_common.ml" 37 824 852
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 37 824 854 "test_common.ml" 37 824 872
+type(
+  string list -> unit
+)
+ident(
+  int_ref rm_and_ignore_list "test_common.ml" 34 757 765 "test_common.ml" 34 757 783
+)
+"test_common.ml" 37 824 873 "test_common.ml" 37 824 875
+type(
+  string list
+)
+ident(
+  int_ref ps "test_common.ml" 37 824 831 "test_common.ml" 37 824 833
+)
+"test_common.ml" 37 824 854 "test_common.ml" 37 824 875
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 37 824 837 "test_common.ml" 37 824 875
+type(
+  unit
+)
+"test_common.ml" 35 792 794 "test_common.ml" 37 824 875
+type(
+  unit
+)
+"test_common.ml" 41 900 904 "test_common.ml" 41 900 907
+type(
+  string
+)
+ident(
+  def stp "test_common.ml" 43 919 919 --
+)
+"test_common.ml" 41 900 910 "test_common.ml" 41 900 915
+type(
+  string
+)
+"test_common.ml" 43 919 923 "test_common.ml" 43 919 936
+type(
+  unit -> bool
+)
+ident(
+  def does_stp_work "test_common.ml" 48 1033 1033 --
+)
+"test_common.ml" 43 919 937 "test_common.ml" 43 919 939
+type(
+  unit
+)
+"test_common.ml" 44 942 948 "test_common.ml" 44 942 978
+type(
+  ?timeout:int ->
+  ?remove:bool ->
+  ?exists:Ast.var list -> ?foralls:Ast.var list -> Ast.exp -> Smtexec.result
+)
+ident(
+  ext_ref Smtexec.STP.check_exp_validity
+)
+"test_common.ml" 44 942 979 "test_common.ml" 44 942 987
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_true
+)
+"test_common.ml" 44 942 947 "test_common.ml" 44 942 988
+call(
+  stack
+)
+type(
+  Smtexec.result
+)
+"test_common.ml" 44 942 989 "test_common.ml" 44 942 990
+type(
+  Smtexec.result -> Smtexec.result -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"test_common.ml" 44 942 991 "test_common.ml" 44 942 1004
+type(
+  Smtexec.result
+)
+"test_common.ml" 44 942 947 "test_common.ml" 44 942 1004
+type(
+  bool
+)
+"test_common.ml" 45 1010 1014 "test_common.ml" 45 1010 1018
+type(
+  bool
+)
+"test_common.ml" 46 1019 1026 "test_common.ml" 46 1019 1031
+type(
+  bool
+)
+"test_common.ml" 44 942 944 "test_common.ml" 46 1019 1031
+type(
+  bool
+)
+"test_common.ml" 49 1079 1085 "test_common.ml" 49 1079 1102
+type(
+  unit -> unit
+)
+ident(
+  def check_solver_path "test_common.ml" 51 1140 1209 "test_common.ml" 52 1212 1215
+)
+"test_common.ml" 49 1079 1103 "test_common.ml" 49 1079 1105
+type(
+  unit
+)
+"test_common.ml" 50 1108 1115 "test_common.ml" 50 1108 1124
+type(
+  unit -> bool
+)
+ident(
+  ext_ref S.in_path
+)
+"test_common.ml" 50 1108 1124 "test_common.ml" 50 1108 1126
+type(
+  unit
+)
+"test_common.ml" 50 1108 1115 "test_common.ml" 50 1108 1126
+call(
+  stack
+)
+type(
+  bool
+)
+"test_common.ml" 50 1108 1127 "test_common.ml" 50 1108 1128
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"test_common.ml" 50 1108 1129 "test_common.ml" 50 1108 1134
+type(
+  bool
+)
+"test_common.ml" 50 1108 1115 "test_common.ml" 50 1108 1134
+type(
+  bool
+)
+"test_common.ml" 51 1140 1146 "test_common.ml" 51 1140 1153
+type(
+  bool -> string -> unit
+)
+ident(
+  ext_ref OUnit.skip_if
+)
+"test_common.ml" 51 1140 1154 "test_common.ml" 51 1140 1158
+type(
+  bool
+)
+"test_common.ml" 51 1140 1160 "test_common.ml" 51 1140 1177
+type(
+  string
+)
+"test_common.ml" 51 1140 1177 "test_common.ml" 51 1140 1178
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 51 1140 1178 "test_common.ml" 51 1140 1190
+type(
+  string
+)
+ident(
+  ext_ref S.solvername
+)
+"test_common.ml" 51 1140 1190 "test_common.ml" 51 1140 1191
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 51 1140 1191 "test_common.ml" 51 1140 1208
+type(
+  string
+)
+"test_common.ml" 51 1140 1178 "test_common.ml" 51 1140 1208
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 51 1140 1159 "test_common.ml" 51 1140 1209
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 51 1140 1146 "test_common.ml" 51 1140 1209
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 50 1108 1112 "test_common.ml" 51 1140 1209
+type(
+  unit
+)
+"test_common.ml" 53 1216 1220 "test_common.ml" 53 1216 1234
+type(
+  unit -> unit
+)
+ident(
+  def check_stp_path "test_common.ml" 57 1325 1325 --
+)
+"test_common.ml" 54 1237 1255 "test_common.ml" 54 1237 1279
+call(
+  stack
+)
+"test_common.ml" 54 1237 1283 "test_common.ml" 54 1237 1303
+type(
+  unit -> unit
+)
+ident(
+  ext_ref SC.check_solver_path
+)
+"test_common.ml" 54 1237 1239 "test_common.ml" 54 1237 1303
+type(
+  unit -> unit
+)
+"test_common.ml" 57 1325 1329 "test_common.ml" 57 1325 1337
+type(
+  string ref
+)
+ident(
+  def pin_path "test_common.ml" 60 1459 1459 --
+)
+"test_common.ml" 58 1360 1366 "test_common.ml" 58 1360 1370
+type(
+  string
+)
+"test_common.ml" 58 1360 1377 "test_common.ml" 58 1360 1387
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"test_common.ml" 58 1360 1387 "test_common.ml" 58 1360 1399
+type(
+  string
+)
+"test_common.ml" 58 1360 1377 "test_common.ml" 58 1360 1399
+type(
+  string
+)
+"test_common.ml" 58 1360 1405 "test_common.ml" 58 1360 1414
+type(
+  exn
+)
+"test_common.ml" 58 1360 1418 "test_common.ml" 58 1360 1428
+type(
+  unit -> string
+)
+ident(
+  ext_ref Sys.getcwd
+)
+"test_common.ml" 58 1360 1429 "test_common.ml" 58 1360 1431
+type(
+  unit
+)
+"test_common.ml" 58 1360 1418 "test_common.ml" 58 1360 1431
+type(
+  string
+)
+"test_common.ml" 58 1360 1431 "test_common.ml" 58 1360 1432
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 58 1360 1432 "test_common.ml" 58 1360 1442
+type(
+  string
+)
+"test_common.ml" 58 1360 1418 "test_common.ml" 58 1360 1442
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 58 1360 1373 "test_common.ml" 58 1360 1442
+type(
+  string
+)
+"test_common.ml" 59 1446 1448 "test_common.ml" 59 1446 1451
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"test_common.ml" 59 1446 1452 "test_common.ml" 59 1446 1456
+type(
+  string
+)
+ident(
+  int_ref path "test_common.ml" 58 1360 1366 "test_common.ml" 58 1360 1370
+)
+"test_common.ml" 59 1446 1448 "test_common.ml" 59 1446 1456
+type(
+  string ref
+)
+"test_common.ml" 58 1360 1362 "test_common.ml" 59 1446 1456
+type(
+  string ref
+)
+"test_common.ml" 60 1459 1463 "test_common.ml" 60 1459 1466
+type(
+  string
+)
+ident(
+  def pin "test_common.ml" 61 1477 1477 --
+)
+"test_common.ml" 60 1459 1469 "test_common.ml" 60 1459 1474
+type(
+  string
+)
+"test_common.ml" 61 1477 1481 "test_common.ml" 61 1477 1497
+type(
+  string
+)
+ident(
+  def gentrace_path_64 "test_common.ml" 62 1530 1530 --
+)
+"test_common.ml" 61 1477 1500 "test_common.ml" 61 1477 1527
+type(
+  string
+)
+"test_common.ml" 62 1530 1534 "test_common.ml" 62 1530 1550
+type(
+  string
+)
+ident(
+  def gentrace_path_32 "test_common.ml" 63 1580 1580 --
+)
+"test_common.ml" 62 1530 1553 "test_common.ml" 62 1530 1577
+type(
+  string
+)
+"test_common.ml" 63 1580 1584 "test_common.ml" 63 1580 1605
+type(
+  Arch.arch -> string
+)
+ident(
+  def gentrace_path_of_arch "test_common.ml" 66 1679 1679 --
+)
+"test_common.ml" 64 1617 1621 "test_common.ml" 64 1617 1627
+type(
+  Arch.arch
+)
+"test_common.ml" 64 1617 1631 "test_common.ml" 64 1617 1647
+type(
+  string
+)
+ident(
+  int_ref gentrace_path_32 "test_common.ml" 62 1530 1534 "test_common.ml" 62 1530 1550
+)
+"test_common.ml" 65 1648 1652 "test_common.ml" 65 1648 1658
+type(
+  Arch.arch
+)
+"test_common.ml" 65 1648 1662 "test_common.ml" 65 1648 1678
+type(
+  string
+)
+ident(
+  int_ref gentrace_path_64 "test_common.ml" 61 1477 1481 "test_common.ml" 61 1477 1497
+)
+"test_common.ml" 63 1580 1608 "test_common.ml" 65 1648 1678
+type(
+  Arch.arch -> string
+)
+"test_common.ml" 66 1679 1683 "test_common.ml" 66 1679 1691
+type(
+  string
+)
+ident(
+  def gentrace "test_common.ml" 67 1710 1710 --
+)
+"test_common.ml" 66 1679 1694 "test_common.ml" 66 1679 1707
+type(
+  string
+)
+"test_common.ml" 67 1710 1714 "test_common.ml" 67 1710 1728
+type(
+  string
+)
+ident(
+  def pin_out_suffix "test_common.ml" 70 1755 1755 --
+)
+"test_common.ml" 67 1710 1731 "test_common.ml" 67 1710 1750
+type(
+  string
+)
+"test_common.ml" 70 1755 1763 "test_common.ml" 70 1755 1775
+type(
+  string list -> string -> string
+)
+ident(
+  def find_pin_out "test_common.ml" 70 1755 1755 --
+)
+"test_common.ml" 70 1755 1776 "test_common.ml" 70 1755 1781
+type(
+  string list
+)
+ident(
+  def files "test_common.ml" 70 1755 1782 "test_common.ml" 74 1912 1996
+)
+"test_common.ml" 70 1755 1782 "test_common.ml" 70 1755 1785
+type(
+  string
+)
+ident(
+  def tag "test_common.ml" 71 1788 1790 "test_common.ml" 74 1912 1996
+)
+"test_common.ml" 71 1788 1796 "test_common.ml" 71 1788 1801
+type(
+  string list
+)
+ident(
+  int_ref files "test_common.ml" 70 1755 1776 "test_common.ml" 70 1755 1781
+)
+"test_common.ml" 72 1807 1811 "test_common.ml" 72 1807 1813
+type(
+  string list
+)
+"test_common.ml" 72 1807 1817 "test_common.ml" 72 1807 1831
+type(
+  string -> string
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"test_common.ml" 73 1833 1838 "test_common.ml" 73 1833 1874
+type(
+  string
+)
+"test_common.ml" 73 1833 1874 "test_common.ml" 73 1833 1875
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 73 1833 1875 "test_common.ml" 73 1833 1878
+type(
+  string
+)
+ident(
+  int_ref tag "test_common.ml" 70 1755 1782 "test_common.ml" 70 1755 1785
+)
+"test_common.ml" 73 1833 1878 "test_common.ml" 73 1833 1879
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 73 1833 1879 "test_common.ml" 73 1833 1893
+type(
+  string
+)
+ident(
+  int_ref pin_out_suffix "test_common.ml" 67 1710 1714 "test_common.ml" 67 1710 1728
+)
+"test_common.ml" 73 1833 1893 "test_common.ml" 73 1833 1894
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 73 1833 1894 "test_common.ml" 73 1833 1910
+type(
+  string
+)
+"test_common.ml" 73 1833 1879 "test_common.ml" 73 1833 1910
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 73 1833 1875 "test_common.ml" 73 1833 1910
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 73 1833 1837 "test_common.ml" 73 1833 1911
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 72 1807 1817 "test_common.ml" 73 1833 1911
+call(
+  tail
+)
+type(
+  string
+)
+"test_common.ml" 74 1912 1916 "test_common.ml" 74 1912 1917
+type(
+  string
+)
+ident(
+  def f "test_common.ml" 74 1912 1925 "test_common.ml" 74 1912 1996
+)
+"test_common.ml" 74 1912 1919 "test_common.ml" 74 1912 1921
+type(
+  string list
+)
+ident(
+  def fs "test_common.ml" 74 1912 1925 "test_common.ml" 74 1912 1996
+)
+"test_common.ml" 74 1912 1916 "test_common.ml" 74 1912 1921
+type(
+  string list
+)
+"test_common.ml" 74 1912 1929 "test_common.ml" 74 1912 1935
+type(
+  ?iflags:Pcre.irflag ->
+  ?flags:Pcre.rflag list ->
+  ?rex:Pcre.regexp ->
+  ?pat:string -> ?pos:int -> ?callout:Pcre.callout -> string -> bool
+)
+ident(
+  ext_ref Pcre.pmatch
+)
+"test_common.ml" 74 1912 1942 "test_common.ml" 74 1912 1945
+type(
+  string
+)
+ident(
+  int_ref tag "test_common.ml" 70 1755 1782 "test_common.ml" 70 1755 1785
+)
+"test_common.ml" 74 1912 1945 "test_common.ml" 74 1912 1946
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 74 1912 1946 "test_common.ml" 74 1912 1960
+type(
+  string
+)
+ident(
+  int_ref pin_out_suffix "test_common.ml" 67 1710 1714 "test_common.ml" 67 1710 1728
+)
+"test_common.ml" 74 1912 1941 "test_common.ml" 74 1912 1961
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 74 1912 1962 "test_common.ml" 74 1912 1963
+type(
+  string
+)
+ident(
+  int_ref f "test_common.ml" 74 1912 1916 "test_common.ml" 74 1912 1917
+)
+"test_common.ml" 74 1912 1928 "test_common.ml" 74 1912 1964
+call(
+  stack
+)
+type(
+  bool
+)
+"test_common.ml" 74 1912 1970 "test_common.ml" 74 1912 1971
+type(
+  string
+)
+ident(
+  int_ref f "test_common.ml" 74 1912 1916 "test_common.ml" 74 1912 1917
+)
+"test_common.ml" 74 1912 1977 "test_common.ml" 74 1912 1989
+type(
+  string list -> string -> string
+)
+ident(
+  int_ref find_pin_out "test_common.ml" 70 1755 1763 "test_common.ml" 70 1755 1775
+)
+"test_common.ml" 74 1912 1990 "test_common.ml" 74 1912 1992
+type(
+  string list
+)
+ident(
+  int_ref fs "test_common.ml" 74 1912 1919 "test_common.ml" 74 1912 1921
+)
+"test_common.ml" 74 1912 1993 "test_common.ml" 74 1912 1996
+type(
+  string
+)
+ident(
+  int_ref tag "test_common.ml" 70 1755 1782 "test_common.ml" 70 1755 1785
+)
+"test_common.ml" 74 1912 1977 "test_common.ml" 74 1912 1996
+call(
+  tail
+)
+type(
+  string
+)
+"test_common.ml" 74 1912 1925 "test_common.ml" 74 1912 1996
+type(
+  string
+)
+"test_common.ml" 71 1788 1790 "test_common.ml" 74 1912 1996
+type(
+  string
+)
+"test_common.ml" 77 2001 2005 "test_common.ml" 77 2001 2020
+type(
+  Arch.arch -> unit
+)
+ident(
+  def check_pin_setup "test_common.ml" 96 2633 2633 --
+)
+"test_common.ml" 77 2001 2021 "test_common.ml" 77 2001 2025
+type(
+  Arch.arch
+)
+ident(
+  def arch "test_common.ml" 78 2028 2030 "test_common.ml" 92 2548 2594
+)
+"test_common.ml" 78 2028 2034 "test_common.ml" 78 2028 2041
+type(
+  string
+)
+"test_common.ml" 78 2028 2044 "test_common.ml" 78 2028 2080
+type(
+  string
+)
+"test_common.ml" 79 2084 2090 "test_common.ml" 79 2084 2097
+type(
+  char Stream.t -> unit
+)
+"test_common.ml" 79 2084 2098 "test_common.ml" 79 2084 2109
+type(
+  char Stream.t
+)
+ident(
+  def char_stream "test_common.ml" 80 2113 2117 "test_common.ml" 85 2292 2309
+)
+"test_common.ml" 80 2113 2125 "test_common.ml" 80 2113 2136
+type(
+  char Stream.t -> char
+)
+ident(
+  ext_ref Stream.next
+)
+"test_common.ml" 80 2113 2137 "test_common.ml" 80 2113 2148
+type(
+  char Stream.t
+)
+ident(
+  int_ref char_stream "test_common.ml" 79 2084 2098 "test_common.ml" 79 2084 2109
+)
+"test_common.ml" 80 2113 2124 "test_common.ml" 80 2113 2149
+call(
+  stack
+)
+type(
+  char
+)
+"test_common.ml" 81 2155 2161 "test_common.ml" 81 2155 2164
+type(
+  char
+)
+"test_common.ml" 81 2155 2168 "test_common.ml" 81 2155 2170
+type(
+  unit
+)
+"test_common.ml" 82 2171 2177 "test_common.ml" 82 2171 2178
+type(
+  char
+)
+"test_common.ml" 82 2171 2182 "test_common.ml" 82 2171 2189
+type(
+  bool -> string -> unit
+)
+ident(
+  ext_ref OUnit.skip_if
+)
+"test_common.ml" 82 2171 2190 "test_common.ml" 82 2171 2194
+type(
+  bool
+)
+"test_common.ml" 83 2195 2202 "test_common.ml" 83 2195 2209
+type(
+  string
+)
+ident(
+  int_ref cat_arg "test_common.ml" 78 2028 2034 "test_common.ml" 78 2028 2041
+)
+"test_common.ml" 83 2195 2209 "test_common.ml" 83 2195 2210
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 84 2211 2220 "test_common.ml" 84 2211 2291
+type(
+  string
+)
+"test_common.ml" 85 2292 2299 "test_common.ml" 85 2292 2300
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 85 2292 2300 "test_common.ml" 85 2292 2307
+type(
+  string
+)
+ident(
+  int_ref cat_arg "test_common.ml" 78 2028 2034 "test_common.ml" 78 2028 2041
+)
+"test_common.ml" 84 2211 2220 "test_common.ml" 85 2292 2307
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 83 2195 2201 "test_common.ml" 85 2292 2308
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 82 2171 2182 "test_common.ml" 85 2292 2308
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 80 2113 2117 "test_common.ml" 85 2292 2309
+type(
+  unit
+)
+"test_common.ml" 88 2365 2371 "test_common.ml" 88 2365 2386
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"test_common.ml" 88 2365 2387 "test_common.ml" 88 2365 2394
+type(
+  string
+)
+ident(
+  int_ref cat_arg "test_common.ml" 78 2028 2034 "test_common.ml" 78 2028 2041
+)
+"test_common.ml" 88 2365 2370 "test_common.ml" 88 2365 2395
+type(
+  bool
+)
+"test_common.ml" 89 2397 2404 "test_common.ml" 89 2397 2418
+type(
+  ?exit_code:Unix.process_status ->
+  ?sinput:char Stream.t ->
+  ?foutput:(char Stream.t -> unit) ->
+  ?use_stderr:bool ->
+  ?env:string array -> ?verbose:bool -> string -> string list -> unit
+)
+ident(
+  ext_ref OUnit.assert_command
+)
+"test_common.ml" 89 2397 2420 "test_common.ml" 89 2397 2427
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref foutput "test_common.ml" 79 2084 2090 "test_common.ml" 79 2084 2097
+)
+"test_common.ml" 89 2397 2437 "test_common.ml" 89 2397 2441
+type(
+  bool
+)
+"test_common.ml" 89 2397 2442 "test_common.ml" 89 2397 2447
+type(
+  string
+)
+"test_common.ml" 89 2397 2449 "test_common.ml" 89 2397 2456
+type(
+  string
+)
+ident(
+  int_ref cat_arg "test_common.ml" 78 2028 2034 "test_common.ml" 78 2028 2041
+)
+"test_common.ml" 89 2397 2448 "test_common.ml" 89 2397 2457
+type(
+  string list
+)
+"test_common.ml" 89 2397 2404 "test_common.ml" 89 2397 2457
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 89 2397 2463 "test_common.ml" 89 2397 2465
+type(
+  unit
+)
+"test_common.ml" 88 2365 2367 "test_common.ml" 89 2397 2465
+type(
+  unit
+)
+"test_common.ml" 90 2467 2469 "test_common.ml" 90 2467 2479
+type(
+  string -> unit
+)
+ident(
+  int_ref check_file "test_common.ml" 20 377 381 "test_common.ml" 20 377 391
+)
+"test_common.ml" 90 2467 2480 "test_common.ml" 90 2467 2481
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"test_common.ml" 90 2467 2481 "test_common.ml" 90 2467 2489
+type(
+  string ref
+)
+ident(
+  int_ref pin_path "test_common.ml" 57 1325 1329 "test_common.ml" 57 1325 1337
+)
+"test_common.ml" 90 2467 2480 "test_common.ml" 90 2467 2489
+type(
+  string
+)
+"test_common.ml" 90 2467 2489 "test_common.ml" 90 2467 2490
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 90 2467 2490 "test_common.ml" 90 2467 2493
+type(
+  string
+)
+ident(
+  int_ref pin "test_common.ml" 60 1459 1463 "test_common.ml" 60 1459 1466
+)
+"test_common.ml" 90 2467 2479 "test_common.ml" 90 2467 2494
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 90 2467 2469 "test_common.ml" 90 2467 2494
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 91 2496 2502 "test_common.ml" 91 2496 2515
+type(
+  string
+)
+"test_common.ml" 91 2496 2518 "test_common.ml" 91 2496 2539
+type(
+  Arch.arch -> string
+)
+ident(
+  int_ref gentrace_path_of_arch "test_common.ml" 63 1580 1584 "test_common.ml" 63 1580 1605
+)
+"test_common.ml" 91 2496 2540 "test_common.ml" 91 2496 2544
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "test_common.ml" 77 2001 2021 "test_common.ml" 77 2001 2025
+)
+"test_common.ml" 91 2496 2518 "test_common.ml" 91 2496 2544
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 92 2548 2550 "test_common.ml" 92 2548 2560
+type(
+  string -> unit
+)
+ident(
+  int_ref check_file "test_common.ml" 20 377 381 "test_common.ml" 20 377 391
+)
+"test_common.ml" 92 2548 2561 "test_common.ml" 92 2548 2562
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"test_common.ml" 92 2548 2562 "test_common.ml" 92 2548 2570
+type(
+  string ref
+)
+ident(
+  int_ref pin_path "test_common.ml" 57 1325 1329 "test_common.ml" 57 1325 1337
+)
+"test_common.ml" 92 2548 2561 "test_common.ml" 92 2548 2570
+type(
+  string
+)
+"test_common.ml" 92 2548 2570 "test_common.ml" 92 2548 2571
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 92 2548 2571 "test_common.ml" 92 2548 2584
+type(
+  string
+)
+ident(
+  int_ref gentrace_path "test_common.ml" 91 2496 2502 "test_common.ml" 91 2496 2515
+)
+"test_common.ml" 92 2548 2584 "test_common.ml" 92 2548 2585
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 92 2548 2585 "test_common.ml" 92 2548 2593
+type(
+  string
+)
+ident(
+  int_ref gentrace "test_common.ml" 66 1679 1683 "test_common.ml" 66 1679 1691
+)
+"test_common.ml" 92 2548 2571 "test_common.ml" 92 2548 2593
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 92 2548 2560 "test_common.ml" 92 2548 2594
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 92 2548 2550 "test_common.ml" 92 2548 2594
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 91 2496 2498 "test_common.ml" 92 2548 2594
+type(
+  unit
+)
+"test_common.ml" 90 2467 2469 "test_common.ml" 92 2548 2594
+type(
+  unit
+)
+"test_common.ml" 88 2365 2367 "test_common.ml" 92 2548 2594
+type(
+  unit
+)
+"test_common.ml" 79 2084 2086 "test_common.ml" 92 2548 2594
+type(
+  unit
+)
+"test_common.ml" 78 2028 2030 "test_common.ml" 92 2548 2594
+type(
+  unit
+)
+"test_common.ml" 96 2633 2637 "test_common.ml" 96 2633 2645
+type(
+  string -> Arch.arch
+)
+ident(
+  def get_arch "test_common.ml" 100 2715 2715 --
+)
+"test_common.ml" 96 2633 2646 "test_common.ml" 96 2633 2647
+type(
+  string
+)
+ident(
+  def b "test_common.ml" 97 2650 2652 "test_common.ml" 98 2684 2713
+)
+"test_common.ml" 97 2650 2656 "test_common.ml" 97 2650 2657
+type(
+  Asmir.asmprogram
+)
+"test_common.ml" 97 2650 2660 "test_common.ml" 97 2650 2678
+type(
+  ?base:Type.addr -> ?target:string -> string -> Asmir.asmprogram
+)
+ident(
+  ext_ref Asmir.open_program
+)
+"test_common.ml" 97 2650 2679 "test_common.ml" 97 2650 2680
+type(
+  string
+)
+ident(
+  int_ref b "test_common.ml" 96 2633 2646 "test_common.ml" 96 2633 2647
+)
+"test_common.ml" 97 2650 2660 "test_common.ml" 97 2650 2680
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"test_common.ml" 98 2684 2686 "test_common.ml" 98 2684 2711
+type(
+  Asmir.asmprogram -> Arch.arch
+)
+ident(
+  ext_ref Asmir.get_asmprogram_arch
+)
+"test_common.ml" 98 2684 2712 "test_common.ml" 98 2684 2713
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "test_common.ml" 97 2650 2656 "test_common.ml" 97 2650 2657
+)
+"test_common.ml" 98 2684 2686 "test_common.ml" 98 2684 2713
+call(
+  tail
+)
+type(
+  Arch.arch
+)
+"test_common.ml" 97 2650 2652 "test_common.ml" 98 2684 2713
+type(
+  Arch.arch
+)
+"test_common.ml" 100 2715 2719 "test_common.ml" 100 2715 2728
+type(
+  ?arch:Arch.arch ->
+  ?tag:string ->
+  ?pin_args:string list ->
+  ?pintool_args:string list -> string -> string list -> string
+)
+ident(
+  def run_trace "test_common.ml" 126 3602 3602 --
+)
+"test_common.ml" 100 2715 2730 "test_common.ml" 100 2715 2734
+type(
+  Arch.arch option
+)
+ident(
+  def arch "test_common.ml" 100 2715 2735 "test_common.ml" 122 3497 3550
+)
+"test_common.ml" 100 2715 2737 "test_common.ml" 100 2715 2740
+type(
+  string
+)
+"test_common.ml" 100 2715 2741 "test_common.ml" 100 2715 2750
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "test_common.ml" 100 2715 2741 "test_common.ml" 100 2715 2750
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "test_common.ml" 100 2715 2741 "test_common.ml" 100 2715 2750
+)
+"test_common.ml" 100 2715 2754 "test_common.ml" 100 2715 2762
+type(
+  string list
+)
+"test_common.ml" 100 2715 2763 "test_common.ml" 100 2715 2765
+type(
+  string list
+)
+type(
+  string list
+)
+ident(
+  int_ref *sth* "test_common.ml" 100 2715 2763 "test_common.ml" 100 2715 2765
+)
+type(
+  string list option
+)
+type(
+  string list option
+)
+type(
+  string list
+)
+ident(
+  def *sth* "test_common.ml" 100 2715 2763 "test_common.ml" 100 2715 2765
+)
+"test_common.ml" 100 2715 2769 "test_common.ml" 100 2715 2781
+type(
+  string list
+)
+"test_common.ml" 100 2715 2782 "test_common.ml" 100 2715 2784
+type(
+  string list
+)
+type(
+  string list
+)
+ident(
+  int_ref *sth* "test_common.ml" 100 2715 2782 "test_common.ml" 100 2715 2784
+)
+type(
+  string list option
+)
+type(
+  string list option
+)
+type(
+  string list
+)
+ident(
+  def *sth* "test_common.ml" 100 2715 2782 "test_common.ml" 100 2715 2784
+)
+"test_common.ml" 100 2715 2786 "test_common.ml" 100 2715 2789
+type(
+  string
+)
+ident(
+  def bin "test_common.ml" 100 2715 2790 "test_common.ml" 122 3497 3550
+)
+"test_common.ml" 100 2715 2790 "test_common.ml" 100 2715 2794
+type(
+  string list
+)
+ident(
+  def args "test_common.ml" 101 2797 2799 "test_common.ml" 122 3497 3550
+)
+"test_common.ml" 101 2797 2799 "test_common.ml" 101 2797 2809
+type(
+  string -> unit
+)
+ident(
+  int_ref check_file "test_common.ml" 20 377 381 "test_common.ml" 20 377 391
+)
+"test_common.ml" 101 2797 2810 "test_common.ml" 101 2797 2813
+type(
+  string
+)
+ident(
+  int_ref bin "test_common.ml" 100 2715 2786 "test_common.ml" 100 2715 2789
+)
+"test_common.ml" 101 2797 2799 "test_common.ml" 101 2797 2813
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 102 2815 2821 "test_common.ml" 102 2815 2825
+type(
+  Arch.arch
+)
+"test_common.ml" 102 2815 2834 "test_common.ml" 102 2815 2838
+type(
+  Arch.arch option
+)
+ident(
+  int_ref arch "test_common.ml" 100 2715 2730 "test_common.ml" 100 2715 2734
+)
+"test_common.ml" 103 2844 2850 "test_common.ml" 103 2844 2854
+type(
+  Arch.arch option
+)
+"test_common.ml" 103 2844 2858 "test_common.ml" 103 2844 2866
+type(
+  string -> Arch.arch
+)
+ident(
+  int_ref get_arch "test_common.ml" 96 2633 2637 "test_common.ml" 96 2633 2645
+)
+"test_common.ml" 103 2844 2867 "test_common.ml" 103 2844 2870
+type(
+  string
+)
+ident(
+  int_ref bin "test_common.ml" 100 2715 2786 "test_common.ml" 100 2715 2789
+)
+"test_common.ml" 103 2844 2858 "test_common.ml" 103 2844 2870
+call(
+  stack
+)
+type(
+  Arch.arch
+)
+"test_common.ml" 104 2871 2882 "test_common.ml" 104 2871 2886
+type(
+  Arch.arch
+)
+ident(
+  def arch "test_common.ml" 104 2871 2890 "test_common.ml" 104 2871 2894
+)
+"test_common.ml" 104 2871 2877 "test_common.ml" 104 2871 2886
+type(
+  Arch.arch option
+)
+"test_common.ml" 104 2871 2890 "test_common.ml" 104 2871 2894
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "test_common.ml" 104 2871 2882 "test_common.ml" 104 2871 2886
+)
+"test_common.ml" 102 2815 2828 "test_common.ml" 104 2871 2894
+type(
+  Arch.arch
+)
+"test_common.ml" 106 2900 2906 "test_common.ml" 106 2900 2919
+type(
+  string
+)
+"test_common.ml" 106 2900 2922 "test_common.ml" 106 2900 2943
+type(
+  Arch.arch -> string
+)
+ident(
+  int_ref gentrace_path_of_arch "test_common.ml" 63 1580 1584 "test_common.ml" 63 1580 1605
+)
+"test_common.ml" 106 2900 2944 "test_common.ml" 106 2900 2948
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "test_common.ml" 102 2815 2821 "test_common.ml" 102 2815 2825
+)
+"test_common.ml" 106 2900 2922 "test_common.ml" 106 2900 2948
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 108 3026 3032 "test_common.ml" 108 3026 3042
+type(
+  string -> string -> string
+)
+"test_common.ml" 108 3026 3043 "test_common.ml" 108 3026 3044
+type(
+  string
+)
+ident(
+  def a "test_common.ml" 108 3026 3045 "test_common.ml" 108 3026 3060
+)
+"test_common.ml" 108 3026 3045 "test_common.ml" 108 3026 3046
+type(
+  string
+)
+ident(
+  def b "test_common.ml" 108 3026 3049 "test_common.ml" 108 3026 3060
+)
+"test_common.ml" 108 3026 3049 "test_common.ml" 108 3026 3050
+type(
+  string
+)
+ident(
+  int_ref a "test_common.ml" 108 3026 3043 "test_common.ml" 108 3026 3044
+)
+"test_common.ml" 108 3026 3051 "test_common.ml" 108 3026 3052
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 108 3026 3053 "test_common.ml" 108 3026 3056
+type(
+  string
+)
+"test_common.ml" 108 3026 3057 "test_common.ml" 108 3026 3058
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 108 3026 3059 "test_common.ml" 108 3026 3060
+type(
+  string
+)
+ident(
+  int_ref b "test_common.ml" 108 3026 3045 "test_common.ml" 108 3026 3046
+)
+"test_common.ml" 108 3026 3053 "test_common.ml" 108 3026 3060
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 108 3026 3049 "test_common.ml" 108 3026 3060
+call(
+  tail
+)
+type(
+  string
+)
+"test_common.ml" 109 3064 3070 "test_common.ml" 109 3064 3074
+type(
+  string list
+)
+"test_common.ml" 110 3077 3081 "test_common.ml" 110 3077 3089
+type(
+  string list
+)
+ident(
+  int_ref pin_args "test_common.ml" 100 2715 2754 "test_common.ml" 100 2715 2762
+)
+"test_common.ml" 111 3090 3094 "test_common.ml" 111 3090 3095
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"test_common.ml" 111 3090 3097 "test_common.ml" 111 3090 3101
+type(
+  string
+)
+"test_common.ml" 111 3090 3104 "test_common.ml" 111 3090 3105
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"test_common.ml" 111 3090 3105 "test_common.ml" 111 3090 3113
+type(
+  string ref
+)
+ident(
+  int_ref pin_path "test_common.ml" 57 1325 1329 "test_common.ml" 57 1325 1337
+)
+"test_common.ml" 111 3090 3104 "test_common.ml" 111 3090 3113
+type(
+  string
+)
+"test_common.ml" 111 3090 3113 "test_common.ml" 111 3090 3114
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 111 3090 3114 "test_common.ml" 111 3090 3127
+type(
+  string
+)
+ident(
+  int_ref gentrace_path "test_common.ml" 106 2900 2906 "test_common.ml" 106 2900 2919
+)
+"test_common.ml" 111 3090 3127 "test_common.ml" 111 3090 3128
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 111 3090 3128 "test_common.ml" 111 3090 3136
+type(
+  string
+)
+ident(
+  int_ref gentrace "test_common.ml" 66 1679 1683 "test_common.ml" 66 1679 1691
+)
+"test_common.ml" 111 3090 3114 "test_common.ml" 111 3090 3136
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 111 3090 3103 "test_common.ml" 111 3090 3137
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 112 3139 3146 "test_common.ml" 112 3139 3150
+type(
+  string
+)
+"test_common.ml" 112 3139 3152 "test_common.ml" 112 3139 3155
+type(
+  string
+)
+ident(
+  int_ref tag "test_common.ml" 100 2715 2737 "test_common.ml" 100 2715 2740
+)
+"test_common.ml" 112 3139 3155 "test_common.ml" 112 3139 3156
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 112 3139 3156 "test_common.ml" 112 3139 3170
+type(
+  string
+)
+ident(
+  int_ref pin_out_suffix "test_common.ml" 67 1710 1714 "test_common.ml" 67 1710 1728
+)
+"test_common.ml" 112 3139 3152 "test_common.ml" 112 3139 3170
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 111 3090 3096 "test_common.ml" 112 3139 3171
+type(
+  string list
+)
+"test_common.ml" 113 3172 3176 "test_common.ml" 113 3172 3177
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"test_common.ml" 113 3172 3178 "test_common.ml" 113 3172 3190
+type(
+  string list
+)
+ident(
+  int_ref pintool_args "test_common.ml" 100 2715 2769 "test_common.ml" 100 2715 2781
+)
+"test_common.ml" 114 3191 3195 "test_common.ml" 114 3191 3196
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"test_common.ml" 114 3191 3198 "test_common.ml" 114 3191 3202
+type(
+  string
+)
+"test_common.ml" 114 3191 3204 "test_common.ml" 114 3191 3207
+type(
+  string
+)
+ident(
+  int_ref bin "test_common.ml" 100 2715 2786 "test_common.ml" 100 2715 2789
+)
+"test_common.ml" 114 3191 3197 "test_common.ml" 114 3191 3208
+type(
+  string list
+)
+"test_common.ml" 115 3209 3213 "test_common.ml" 115 3209 3214
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"test_common.ml" 115 3209 3215 "test_common.ml" 115 3209 3219
+type(
+  string list
+)
+ident(
+  int_ref args "test_common.ml" 100 2715 2790 "test_common.ml" 100 2715 2794
+)
+"test_common.ml" 114 3191 3197 "test_common.ml" 115 3209 3219
+call(
+  stack
+)
+type(
+  string list
+)
+"test_common.ml" 113 3172 3178 "test_common.ml" 115 3209 3219
+call(
+  stack
+)
+type(
+  string list
+)
+"test_common.ml" 111 3090 3096 "test_common.ml" 115 3209 3219
+call(
+  stack
+)
+type(
+  string list
+)
+"test_common.ml" 110 3077 3081 "test_common.ml" 115 3209 3219
+call(
+  stack
+)
+type(
+  string list
+)
+"test_common.ml" 116 3223 3229 "test_common.ml" 116 3223 3236
+type(
+  string list
+)
+"test_common.ml" 116 3223 3240 "test_common.ml" 116 3223 3244
+type(
+  string
+)
+"test_common.ml" 116 3223 3247 "test_common.ml" 116 3223 3248
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"test_common.ml" 116 3223 3248 "test_common.ml" 116 3223 3256
+type(
+  string ref
+)
+ident(
+  int_ref pin_path "test_common.ml" 57 1325 1329 "test_common.ml" 57 1325 1337
+)
+"test_common.ml" 116 3223 3247 "test_common.ml" 116 3223 3256
+type(
+  string
+)
+"test_common.ml" 116 3223 3257 "test_common.ml" 116 3223 3258
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 116 3223 3259 "test_common.ml" 116 3223 3262
+type(
+  string
+)
+ident(
+  int_ref pin "test_common.ml" 60 1459 1463 "test_common.ml" 60 1459 1466
+)
+"test_common.ml" 116 3223 3263 "test_common.ml" 116 3223 3264
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 116 3223 3266 "test_common.ml" 116 3223 3280
+type(
+  (string -> string -> string) -> string -> string list -> string
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"test_common.ml" 116 3223 3281 "test_common.ml" 116 3223 3291
+type(
+  string -> string -> string
+)
+ident(
+  int_ref concatargs "test_common.ml" 108 3026 3032 "test_common.ml" 108 3026 3042
+)
+"test_common.ml" 116 3223 3292 "test_common.ml" 116 3223 3294
+type(
+  string
+)
+"test_common.ml" 116 3223 3295 "test_common.ml" 116 3223 3299
+type(
+  string list
+)
+ident(
+  int_ref args "test_common.ml" 109 3064 3070 "test_common.ml" 109 3064 3074
+)
+"test_common.ml" 116 3223 3265 "test_common.ml" 116 3223 3300
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 116 3223 3259 "test_common.ml" 116 3223 3300
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 116 3223 3247 "test_common.ml" 116 3223 3300
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 116 3223 3239 "test_common.ml" 116 3223 3301
+type(
+  string list
+)
+"test_common.ml" 117 3305 3307 "test_common.ml" 117 3305 3321
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"test_common.ml" 117 3305 3322 "test_common.ml" 117 3305 3337
+type(
+  (string -> unit, out_channel, unit) format
+)
+"test_common.ml" 117 3305 3339 "test_common.ml" 117 3305 3347
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref BatListFull.List.nth
+)
+"test_common.ml" 117 3305 3348 "test_common.ml" 117 3305 3355
+type(
+  string list
+)
+ident(
+  int_ref sh_args "test_common.ml" 116 3223 3229 "test_common.ml" 116 3223 3236
+)
+"test_common.ml" 117 3305 3356 "test_common.ml" 117 3305 3357
+type(
+  int
+)
+"test_common.ml" 117 3305 3338 "test_common.ml" 117 3305 3358
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 117 3305 3307 "test_common.ml" 117 3305 3358
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 117 3305 3360 "test_common.ml" 117 3305 3365
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"test_common.ml" 117 3305 3366 "test_common.ml" 117 3305 3372
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"test_common.ml" 117 3305 3360 "test_common.ml" 117 3305 3372
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 118 3374 3380 "test_common.ml" 118 3374 3389
+type(
+  Unix.process_status
+)
+"test_common.ml" 118 3374 3404 "test_common.ml" 118 3374 3407
+type(
+  int
+)
+"test_common.ml" 118 3374 3392 "test_common.ml" 118 3374 3407
+type(
+  Unix.process_status
+)
+"test_common.ml" 119 3411 3413 "test_common.ml" 119 3411 3427
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Traces.cleanup
+)
+"test_common.ml" 119 3411 3427 "test_common.ml" 119 3411 3429
+type(
+  unit
+)
+"test_common.ml" 119 3411 3413 "test_common.ml" 119 3411 3429
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 120 3431 3433 "test_common.ml" 120 3431 3448
+type(
+  Arch.arch -> unit
+)
+ident(
+  int_ref check_pin_setup "test_common.ml" 77 2001 2005 "test_common.ml" 77 2001 2020
+)
+"test_common.ml" 120 3431 3449 "test_common.ml" 120 3431 3453
+type(
+  Arch.arch
+)
+ident(
+  int_ref arch "test_common.ml" 102 2815 2821 "test_common.ml" 102 2815 2825
+)
+"test_common.ml" 120 3431 3433 "test_common.ml" 120 3431 3453
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 121 3455 3457 "test_common.ml" 121 3455 3471
+type(
+  ?exit_code:Unix.process_status ->
+  ?sinput:char Stream.t ->
+  ?foutput:(char Stream.t -> unit) ->
+  ?use_stderr:bool ->
+  ?env:string array -> ?verbose:bool -> string -> string list -> unit
+)
+ident(
+  ext_ref OUnit.assert_command
+)
+"test_common.ml" 121 3455 3473 "test_common.ml" 121 3455 3482
+type(
+  Unix.process_status
+)
+ident(
+  int_ref exit_code "test_common.ml" 118 3374 3380 "test_common.ml" 118 3374 3389
+)
+"test_common.ml" 121 3455 3483 "test_common.ml" 121 3455 3487
+type(
+  string
+)
+"test_common.ml" 121 3455 3488 "test_common.ml" 121 3455 3495
+type(
+  string list
+)
+ident(
+  int_ref sh_args "test_common.ml" 116 3223 3229 "test_common.ml" 116 3223 3236
+)
+"test_common.ml" 121 3455 3457 "test_common.ml" 121 3455 3495
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 122 3497 3499 "test_common.ml" 122 3497 3511
+type(
+  string list -> string -> string
+)
+ident(
+  int_ref find_pin_out "test_common.ml" 70 1755 1763 "test_common.ml" 70 1755 1775
+)
+"test_common.ml" 122 3497 3513 "test_common.ml" 122 3497 3526
+type(
+  string array -> string list
+)
+ident(
+  ext_ref Array.to_list
+)
+"test_common.ml" 122 3497 3528 "test_common.ml" 122 3497 3539
+type(
+  string -> string array
+)
+ident(
+  ext_ref Sys.readdir
+)
+"test_common.ml" 122 3497 3540 "test_common.ml" 122 3497 3544
+type(
+  string
+)
+"test_common.ml" 122 3497 3527 "test_common.ml" 122 3497 3545
+type(
+  string array
+)
+"test_common.ml" 122 3497 3512 "test_common.ml" 122 3497 3546
+call(
+  stack
+)
+type(
+  string list
+)
+"test_common.ml" 122 3497 3547 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+ident(
+  int_ref tag "test_common.ml" 100 2715 2737 "test_common.ml" 100 2715 2740
+)
+"test_common.ml" 122 3497 3499 "test_common.ml" 122 3497 3550
+call(
+  tail
+)
+type(
+  string
+)
+"test_common.ml" 121 3455 3457 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 120 3431 3433 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 119 3411 3413 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 118 3374 3376 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 117 3305 3360 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 117 3305 3307 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 116 3223 3225 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 109 3064 3066 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 108 3026 3028 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 106 2900 2902 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 102 2815 2817 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 101 2797 2799 "test_common.ml" 122 3497 3550
+type(
+  string
+)
+"test_common.ml" 126 3602 3610 "test_common.ml" 126 3602 3619
+type(
+  ?msg:string -> ('a * 'b * 'c) list -> 'a list -> 'b * 'c
+)
+ident(
+  def find_funs "test_common.ml" 126 3602 3602 --
+)
+"test_common.ml" 126 3602 3622 "test_common.ml" 126 3602 3625
+type(
+  string
+)
+"test_common.ml" 126 3602 3626 "test_common.ml" 126 3602 3628
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "test_common.ml" 126 3602 3626 "test_common.ml" 126 3602 3628
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "test_common.ml" 126 3602 3626 "test_common.ml" 126 3602 3628
+)
+"test_common.ml" 126 3602 3630 "test_common.ml" 126 3602 3636
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  def ranges "test_common.ml" 126 3602 3637 "test_common.ml" 128 3722 3802
+)
+"test_common.ml" 126 3602 3637 "test_common.ml" 126 3602 3642
+type(
+  'a list
+)
+ident(
+  def names "test_common.ml" 126 3602 3645 "test_common.ml" 128 3722 3802
+)
+"test_common.ml" 126 3602 3651 "test_common.ml" 126 3602 3657
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  int_ref ranges "test_common.ml" 126 3602 3630 "test_common.ml" 126 3602 3636
+)
+"test_common.ml" 127 3663 3667 "test_common.ml" 127 3663 3669
+type(
+  ('a * 'b * 'c) list
+)
+"test_common.ml" 127 3663 3673 "test_common.ml" 127 3663 3687
+type(
+  string -> 'b * 'c
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"test_common.ml" 127 3663 3689 "test_common.ml" 127 3663 3716
+type(
+  string
+)
+"test_common.ml" 127 3663 3716 "test_common.ml" 127 3663 3717
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 127 3663 3717 "test_common.ml" 127 3663 3720
+type(
+  string
+)
+ident(
+  int_ref msg "test_common.ml" 126 3602 3622 "test_common.ml" 126 3602 3625
+)
+"test_common.ml" 127 3663 3688 "test_common.ml" 127 3663 3721
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 127 3663 3673 "test_common.ml" 127 3663 3721
+call(
+  tail
+)
+type(
+  'b * 'c
+)
+"test_common.ml" 128 3722 3727 "test_common.ml" 128 3722 3728
+type(
+  'a
+)
+ident(
+  def n "test_common.ml" 128 3722 3741 "test_common.ml" 128 3722 3802
+)
+"test_common.ml" 128 3722 3729 "test_common.ml" 128 3722 3730
+type(
+  'b
+)
+ident(
+  def s "test_common.ml" 128 3722 3741 "test_common.ml" 128 3722 3802
+)
+"test_common.ml" 128 3722 3731 "test_common.ml" 128 3722 3732
+type(
+  'c
+)
+ident(
+  def e "test_common.ml" 128 3722 3741 "test_common.ml" 128 3722 3802
+)
+"test_common.ml" 128 3722 3726 "test_common.ml" 128 3722 3733
+type(
+  'a * 'b * 'c
+)
+"test_common.ml" 128 3722 3735 "test_common.ml" 128 3722 3737
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  def rs "test_common.ml" 128 3722 3741 "test_common.ml" 128 3722 3802
+)
+"test_common.ml" 128 3722 3726 "test_common.ml" 128 3722 3737
+type(
+  ('a * 'b * 'c) list
+)
+"test_common.ml" 128 3722 3745 "test_common.ml" 128 3722 3753
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"test_common.ml" 128 3722 3754 "test_common.ml" 128 3722 3755
+type(
+  'a
+)
+ident(
+  int_ref n "test_common.ml" 128 3722 3727 "test_common.ml" 128 3722 3728
+)
+"test_common.ml" 128 3722 3756 "test_common.ml" 128 3722 3761
+type(
+  'a list
+)
+ident(
+  int_ref names "test_common.ml" 126 3602 3637 "test_common.ml" 126 3602 3642
+)
+"test_common.ml" 128 3722 3744 "test_common.ml" 128 3722 3762
+call(
+  stack
+)
+type(
+  bool
+)
+"test_common.ml" 128 3722 3769 "test_common.ml" 128 3722 3770
+type(
+  'b
+)
+ident(
+  int_ref s "test_common.ml" 128 3722 3729 "test_common.ml" 128 3722 3730
+)
+"test_common.ml" 128 3722 3771 "test_common.ml" 128 3722 3772
+type(
+  'c
+)
+ident(
+  int_ref e "test_common.ml" 128 3722 3731 "test_common.ml" 128 3722 3732
+)
+"test_common.ml" 128 3722 3768 "test_common.ml" 128 3722 3773
+type(
+  'b * 'c
+)
+"test_common.ml" 128 3722 3779 "test_common.ml" 128 3722 3788
+type(
+  ?msg:string -> ('a * 'b * 'c) list -> 'a list -> 'b * 'c
+)
+ident(
+  int_ref find_funs "test_common.ml" 126 3602 3610 "test_common.ml" 126 3602 3619
+)
+"test_common.ml" 128 3722 3790 "test_common.ml" 128 3722 3793
+type(
+  string
+)
+ident(
+  int_ref msg "test_common.ml" 126 3602 3622 "test_common.ml" 126 3602 3625
+)
+"test_common.ml" 128 3722 3794 "test_common.ml" 128 3722 3796
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  int_ref rs "test_common.ml" 128 3722 3735 "test_common.ml" 128 3722 3737
+)
+"test_common.ml" 128 3722 3797 "test_common.ml" 128 3722 3802
+type(
+  'a list
+)
+ident(
+  int_ref names "test_common.ml" 126 3602 3637 "test_common.ml" 126 3602 3642
+)
+"test_common.ml" 128 3722 3779 "test_common.ml" 128 3722 3802
+call(
+  tail
+)
+type(
+  'b * 'c
+)
+"test_common.ml" 128 3722 3741 "test_common.ml" 128 3722 3802
+type(
+  'b * 'c
+)
+"test_common.ml" 126 3602 3645 "test_common.ml" 128 3722 3802
+type(
+  'b * 'c
+)
+"test_common.ml" 130 3806 3814 "test_common.ml" 130 3806 3822
+type(
+  ?msg:string -> ('a * 'b * 'c) list -> 'a -> 'b * 'c
+)
+ident(
+  def find_fun "test_common.ml" 130 3806 3806 --
+)
+"test_common.ml" 130 3806 3825 "test_common.ml" 130 3806 3828
+type(
+  string
+)
+"test_common.ml" 130 3806 3829 "test_common.ml" 130 3806 3831
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "test_common.ml" 130 3806 3829 "test_common.ml" 130 3806 3831
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "test_common.ml" 130 3806 3829 "test_common.ml" 130 3806 3831
+)
+"test_common.ml" 130 3806 3833 "test_common.ml" 130 3806 3839
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  def ranges "test_common.ml" 130 3806 3840 "test_common.ml" 130 3806 3875
+)
+"test_common.ml" 130 3806 3840 "test_common.ml" 130 3806 3844
+type(
+  'a
+)
+ident(
+  def name "test_common.ml" 130 3806 3847 "test_common.ml" 130 3806 3875
+)
+"test_common.ml" 130 3806 3847 "test_common.ml" 130 3806 3856
+type(
+  ?msg:string -> ('a * 'b * 'c) list -> 'a list -> 'b * 'c
+)
+ident(
+  int_ref find_funs "test_common.ml" 126 3602 3610 "test_common.ml" 126 3602 3619
+)
+"test_common.ml" 130 3806 3858 "test_common.ml" 130 3806 3861
+type(
+  string
+)
+ident(
+  int_ref msg "test_common.ml" 130 3806 3825 "test_common.ml" 130 3806 3828
+)
+"test_common.ml" 130 3806 3862 "test_common.ml" 130 3806 3868
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  int_ref ranges "test_common.ml" 130 3806 3833 "test_common.ml" 130 3806 3839
+)
+"test_common.ml" 130 3806 3870 "test_common.ml" 130 3806 3874
+type(
+  'a
+)
+ident(
+  int_ref name "test_common.ml" 130 3806 3840 "test_common.ml" 130 3806 3844
+)
+"test_common.ml" 130 3806 3869 "test_common.ml" 130 3806 3875
+type(
+  'a list
+)
+"test_common.ml" 130 3806 3847 "test_common.ml" 130 3806 3875
+call(
+  tail
+)
+type(
+  'b * 'c
+)
+"test_common.ml" 132 3877 3885 "test_common.ml" 132 3877 3894
+type(
+  Ast.stmt list -> Type.addr
+)
+ident(
+  def find_call "test_common.ml" 132 3877 3877 --
+)
+"test_common.ml" 132 3877 3895 "test_common.ml" 132 3877 3899
+type(
+  Ast.stmt list
+)
+ident(
+  def prog "test_common.ml" 133 3903 3905 "test_common.ml" 139 4122 4145
+)
+"test_common.ml" 133 3903 3911 "test_common.ml" 133 3903 3915
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref prog "test_common.ml" 132 3877 3895 "test_common.ml" 132 3877 3899
+)
+"test_common.ml" 134 3921 3925 "test_common.ml" 134 3921 3927
+type(
+  Ast.stmt list
+)
+"test_common.ml" 134 3921 3931 "test_common.ml" 134 3921 3945
+type(
+  string -> Type.addr
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"test_common.ml" 134 3921 3946 "test_common.ml" 134 3921 3991
+type(
+  string
+)
+"test_common.ml" 134 3921 3931 "test_common.ml" 134 3921 3991
+call(
+  tail
+)
+type(
+  Type.addr
+)
+"test_common.ml" 135 3992 3996 "test_common.ml" 135 3992 3997
+type(
+  Ast.stmt
+)
+ident(
+  def p "test_common.ml" 136 4005 4009 "test_common.ml" 139 4122 4145
+)
+"test_common.ml" 135 3992 3999 "test_common.ml" 135 3992 4001
+type(
+  Ast.stmt list
+)
+ident(
+  def ps "test_common.ml" 136 4005 4009 "test_common.ml" 139 4122 4145
+)
+"test_common.ml" 135 3992 3996 "test_common.ml" 135 3992 4001
+type(
+  Ast.stmt list
+)
+"test_common.ml" 136 4005 4015 "test_common.ml" 136 4005 4016
+type(
+  Ast.stmt
+)
+ident(
+  int_ref p "test_common.ml" 135 3992 3996 "test_common.ml" 135 3992 3997
+)
+"test_common.ml" 137 4022 4042 "test_common.ml" 137 4022 4045
+type(
+  Type.addr
+)
+ident(
+  def a "test_common.ml" 138 4063 4069 "test_common.ml" 138 4063 4121
+)
+"test_common.ml" 137 4022 4038 "test_common.ml" 137 4022 4045
+type(
+  Type.label
+)
+"test_common.ml" 137 4022 4051 "test_common.ml" 137 4022 4056
+type(
+  string
+)
+ident(
+  def asm "test_common.ml" 138 4063 4069 "test_common.ml" 138 4063 4121
+)
+"test_common.ml" 137 4022 4048 "test_common.ml" 137 4022 4056
+type(
+  Type.attribute
+)
+"test_common.ml" 137 4022 4047 "test_common.ml" 137 4022 4057
+type(
+  Ast.attrs
+)
+"test_common.ml" 137 4022 4037 "test_common.ml" 137 4022 4058
+type(
+  Type.label * Ast.attrs
+)
+"test_common.ml" 137 4022 4028 "test_common.ml" 137 4022 4058
+type(
+  Ast.stmt
+)
+"test_common.ml" 138 4063 4073 "test_common.ml" 138 4063 4079
+type(
+  ?iflags:Pcre.irflag ->
+  ?flags:Pcre.rflag list ->
+  ?rex:Pcre.regexp ->
+  ?pat:string -> ?pos:int -> ?callout:Pcre.callout -> string -> bool
+)
+ident(
+  ext_ref Pcre.pmatch
+)
+"test_common.ml" 138 4063 4085 "test_common.ml" 138 4063 4091
+type(
+  string
+)
+"test_common.ml" 138 4063 4092 "test_common.ml" 138 4063 4095
+type(
+  string
+)
+ident(
+  int_ref asm "test_common.ml" 137 4022 4051 "test_common.ml" 137 4022 4056
+)
+"test_common.ml" 138 4063 4072 "test_common.ml" 138 4063 4096
+call(
+  stack
+)
+type(
+  bool
+)
+"test_common.ml" 138 4063 4102 "test_common.ml" 138 4063 4103
+type(
+  Type.addr
+)
+ident(
+  int_ref a "test_common.ml" 137 4022 4042 "test_common.ml" 137 4022 4045
+)
+"test_common.ml" 138 4063 4109 "test_common.ml" 138 4063 4118
+type(
+  Ast.stmt list -> Type.addr
+)
+ident(
+  int_ref find_call "test_common.ml" 132 3877 3885 "test_common.ml" 132 3877 3894
+)
+"test_common.ml" 138 4063 4119 "test_common.ml" 138 4063 4121
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ps "test_common.ml" 135 3992 3999 "test_common.ml" 135 3992 4001
+)
+"test_common.ml" 138 4063 4109 "test_common.ml" 138 4063 4121
+call(
+  tail
+)
+type(
+  Type.addr
+)
+"test_common.ml" 138 4063 4069 "test_common.ml" 138 4063 4121
+type(
+  Type.addr
+)
+"test_common.ml" 139 4122 4128 "test_common.ml" 139 4122 4129
+type(
+  Ast.stmt
+)
+"test_common.ml" 139 4122 4133 "test_common.ml" 139 4122 4142
+type(
+  Ast.stmt list -> Type.addr
+)
+ident(
+  int_ref find_call "test_common.ml" 132 3877 3885 "test_common.ml" 132 3877 3894
+)
+"test_common.ml" 139 4122 4143 "test_common.ml" 139 4122 4145
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ps "test_common.ml" 135 3992 3999 "test_common.ml" 135 3992 4001
+)
+"test_common.ml" 139 4122 4133 "test_common.ml" 139 4122 4145
+call(
+  tail
+)
+type(
+  Type.addr
+)
+"test_common.ml" 136 4005 4009 "test_common.ml" 139 4122 4145
+type(
+  Type.addr
+)
+"test_common.ml" 133 3903 3905 "test_common.ml" 139 4122 4145
+type(
+  Type.addr
+)
+"test_common.ml" 142 4150 4154 "test_common.ml" 142 4150 4165
+type(
+  Ast.stmt list -> Type.addr -> string -> Ast.stmt -> Ast.stmt list
+)
+ident(
+  def inject_stmt "test_common.ml" 173 5446 5446 --
+)
+"test_common.ml" 142 4150 4166 "test_common.ml" 142 4150 4170
+type(
+  Ast.stmt list
+)
+ident(
+  def prog "test_common.ml" 142 4150 4171 "test_common.ml" 170 5390 5441
+)
+"test_common.ml" 142 4150 4171 "test_common.ml" 142 4150 4181
+type(
+  Type.addr
+)
+ident(
+  def start_addr "test_common.ml" 142 4150 4182 "test_common.ml" 170 5390 5441
+)
+"test_common.ml" 142 4150 4182 "test_common.ml" 142 4150 4185
+type(
+  string
+)
+ident(
+  def asm "test_common.ml" 142 4150 4186 "test_common.ml" 170 5390 5441
+)
+"test_common.ml" 142 4150 4186 "test_common.ml" 142 4150 4190
+type(
+  Ast.stmt
+)
+ident(
+  def stmt "test_common.ml" 143 4194 4196 "test_common.ml" 170 5390 5441
+)
+"test_common.ml" 143 4194 4204 "test_common.ml" 143 4194 4217
+type(
+  Ast.stmt list ->
+  Type.addr option -> string -> Ast.stmt -> Ast.stmt list -> Ast.stmt list
+)
+"test_common.ml" 143 4194 4218 "test_common.ml" 143 4194 4223
+type(
+  Ast.stmt list
+)
+ident(
+  def stmts "test_common.ml" 143 4194 4224 "test_common.ml" 168 5377 5384
+)
+"test_common.ml" 143 4194 4224 "test_common.ml" 143 4194 4230
+type(
+  Type.addr option
+)
+ident(
+  def starta "test_common.ml" 143 4194 4231 "test_common.ml" 168 5377 5384
+)
+"test_common.ml" 143 4194 4231 "test_common.ml" 143 4194 4238
+type(
+  string
+)
+ident(
+  def asm_str "test_common.ml" 143 4194 4239 "test_common.ml" 168 5377 5384
+)
+"test_common.ml" 143 4194 4239 "test_common.ml" 143 4194 4247
+type(
+  Ast.stmt
+)
+ident(
+  def inj_stmt "test_common.ml" 143 4194 4248 "test_common.ml" 168 5377 5384
+)
+"test_common.ml" 143 4194 4248 "test_common.ml" 143 4194 4249
+type(
+  Ast.stmt list
+)
+ident(
+  def k "test_common.ml" 144 4252 4256 "test_common.ml" 168 5377 5384
+)
+"test_common.ml" 144 4252 4262 "test_common.ml" 144 4252 4267
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref stmts "test_common.ml" 143 4194 4218 "test_common.ml" 143 4194 4223
+)
+"test_common.ml" 145 4273 4279 "test_common.ml" 145 4273 4281
+type(
+  Ast.stmt list
+)
+"test_common.ml" 146 4286 4292 "test_common.ml" 146 4286 4306
+type(
+  string -> Ast.stmt list
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"test_common.ml" 146 4286 4308 "test_common.ml" 146 4286 4346
+type(
+  string
+)
+"test_common.ml" 146 4286 4346 "test_common.ml" 146 4286 4347
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 146 4286 4347 "test_common.ml" 146 4286 4354
+type(
+  string
+)
+ident(
+  int_ref asm_str "test_common.ml" 143 4194 4231 "test_common.ml" 143 4194 4238
+)
+"test_common.ml" 146 4286 4354 "test_common.ml" 146 4286 4355
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 146 4286 4355 "test_common.ml" 146 4286 4365
+type(
+  string
+)
+"test_common.ml" 146 4286 4347 "test_common.ml" 146 4286 4365
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 146 4286 4307 "test_common.ml" 146 4286 4366
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 146 4286 4292 "test_common.ml" 146 4286 4366
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 147 4367 4373 "test_common.ml" 147 4367 4374
+type(
+  Ast.stmt
+)
+ident(
+  def s "test_common.ml" 148 4383 4389 "test_common.ml" 148 4383 4463
+)
+"test_common.ml" 147 4367 4376 "test_common.ml" 147 4367 4378
+type(
+  Ast.stmt list
+)
+"test_common.ml" 147 4367 4373 "test_common.ml" 147 4367 4378
+type(
+  Ast.stmt list
+)
+"test_common.ml" 148 4383 4389 "test_common.ml" 148 4383 4403
+type(
+  string -> Ast.stmt list
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"test_common.ml" 148 4383 4405 "test_common.ml" 148 4383 4443
+type(
+  string
+)
+"test_common.ml" 148 4383 4443 "test_common.ml" 148 4383 4444
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 148 4383 4444 "test_common.ml" 148 4383 4451
+type(
+  string
+)
+ident(
+  int_ref asm_str "test_common.ml" 143 4194 4231 "test_common.ml" 143 4194 4238
+)
+"test_common.ml" 148 4383 4451 "test_common.ml" 148 4383 4452
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 148 4383 4452 "test_common.ml" 148 4383 4462
+type(
+  string
+)
+"test_common.ml" 148 4383 4444 "test_common.ml" 148 4383 4462
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 148 4383 4404 "test_common.ml" 148 4383 4463
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 148 4383 4389 "test_common.ml" 148 4383 4463
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4527
+type(
+  Ast.stmt
+)
+ident(
+  def s "test_common.ml" 151 4539 4545 "test_common.ml" 168 5377 5384
+)
+"test_common.ml" 150 4520 4529 "test_common.ml" 150 4520 4530
+type(
+  Ast.stmt
+)
+ident(
+  def l "test_common.ml" 151 4539 4545 "test_common.ml" 168 5377 5384
+)
+"test_common.ml" 150 4520 4532 "test_common.ml" 150 4520 4534
+type(
+  Ast.stmt list
+)
+ident(
+  def ss "test_common.ml" 151 4539 4545 "test_common.ml" 168 5377 5384
+)
+"test_common.ml" 150 4520 4529 "test_common.ml" 150 4520 4534
+type(
+  Ast.stmt list
+)
+"test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4534
+type(
+  Ast.stmt list
+)
+"test_common.ml" 151 4539 4551 "test_common.ml" 151 4539 4557
+type(
+  Type.addr option
+)
+ident(
+  int_ref starta "test_common.ml" 143 4194 4224 "test_common.ml" 143 4194 4230
+)
+"test_common.ml" 152 4563 4575 "test_common.ml" 152 4563 4578
+type(
+  Type.addr
+)
+ident(
+  def a "test_common.ml" 152 4563 4582 "test_common.ml" 157 4855 4862
+)
+"test_common.ml" 152 4563 4571 "test_common.ml" 152 4563 4578
+type(
+  Type.addr option
+)
+"test_common.ml" 152 4563 4589 "test_common.ml" 152 4563 4590
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4527
+)
+"test_common.ml" 153 4596 4625 "test_common.ml" 153 4596 4631
+type(
+  Type.addr
+)
+ident(
+  def addr "test_common.ml" 154 4643 4653 "test_common.ml" 155 4721 4786
+)
+"test_common.ml" 153 4596 4616 "test_common.ml" 153 4596 4631
+type(
+  Type.label
+)
+"test_common.ml" 153 4596 4632 "test_common.ml" 153 4596 4637
+type(
+  Ast.attrs
+)
+ident(
+  def attrs "test_common.ml" 154 4643 4653 "test_common.ml" 155 4721 4786
+)
+"test_common.ml" 153 4596 4615 "test_common.ml" 153 4596 4638
+type(
+  Type.label * Ast.attrs
+)
+"test_common.ml" 153 4596 4606 "test_common.ml" 153 4596 4638
+type(
+  Ast.stmt
+)
+"test_common.ml" 154 4643 4657 "test_common.ml" 154 4643 4661
+type(
+  Type.addr
+)
+ident(
+  int_ref addr "test_common.ml" 153 4596 4625 "test_common.ml" 153 4596 4631
+)
+"test_common.ml" 154 4643 4662 "test_common.ml" 154 4643 4663
+type(
+  Type.addr -> Type.addr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"test_common.ml" 154 4643 4664 "test_common.ml" 154 4643 4665
+type(
+  Type.addr
+)
+ident(
+  int_ref a "test_common.ml" 152 4563 4575 "test_common.ml" 152 4563 4578
+)
+"test_common.ml" 154 4643 4656 "test_common.ml" 154 4643 4666
+type(
+  bool
+)
+"test_common.ml" 154 4643 4672 "test_common.ml" 154 4643 4685
+type(
+  Ast.stmt list ->
+  Type.addr option -> string -> Ast.stmt -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref inject_stmt_k "test_common.ml" 143 4194 4204 "test_common.ml" 143 4194 4217
+)
+"test_common.ml" 154 4643 4686 "test_common.ml" 154 4643 4688
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ss "test_common.ml" 150 4520 4532 "test_common.ml" 150 4520 4534
+)
+"test_common.ml" 154 4643 4689 "test_common.ml" 154 4643 4693
+type(
+  Type.addr option
+)
+"test_common.ml" 154 4643 4694 "test_common.ml" 154 4643 4701
+type(
+  string
+)
+ident(
+  int_ref asm_str "test_common.ml" 143 4194 4231 "test_common.ml" 143 4194 4238
+)
+"test_common.ml" 154 4643 4702 "test_common.ml" 154 4643 4710
+type(
+  Ast.stmt
+)
+ident(
+  int_ref inj_stmt "test_common.ml" 143 4194 4239 "test_common.ml" 143 4194 4247
+)
+"test_common.ml" 154 4643 4712 "test_common.ml" 154 4643 4713
+type(
+  Ast.stmt
+)
+ident(
+  int_ref l "test_common.ml" 150 4520 4529 "test_common.ml" 150 4520 4530
+)
+"test_common.ml" 154 4643 4715 "test_common.ml" 154 4643 4716
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4527
+)
+"test_common.ml" 154 4643 4718 "test_common.ml" 154 4643 4719
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 143 4194 4248 "test_common.ml" 143 4194 4249
+)
+"test_common.ml" 154 4643 4715 "test_common.ml" 154 4643 4719
+type(
+  Ast.stmt list
+)
+"test_common.ml" 154 4643 4711 "test_common.ml" 154 4643 4720
+type(
+  Ast.stmt list
+)
+"test_common.ml" 154 4643 4672 "test_common.ml" 154 4643 4720
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 155 4721 4736 "test_common.ml" 155 4721 4749
+type(
+  Ast.stmt list ->
+  Type.addr option -> string -> Ast.stmt -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref inject_stmt_k "test_common.ml" 143 4194 4204 "test_common.ml" 143 4194 4217
+)
+"test_common.ml" 155 4721 4750 "test_common.ml" 155 4721 4752
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ss "test_common.ml" 150 4520 4532 "test_common.ml" 150 4520 4534
+)
+"test_common.ml" 155 4721 4753 "test_common.ml" 155 4721 4759
+type(
+  Type.addr option
+)
+ident(
+  int_ref starta "test_common.ml" 143 4194 4224 "test_common.ml" 143 4194 4230
+)
+"test_common.ml" 155 4721 4760 "test_common.ml" 155 4721 4767
+type(
+  string
+)
+ident(
+  int_ref asm_str "test_common.ml" 143 4194 4231 "test_common.ml" 143 4194 4238
+)
+"test_common.ml" 155 4721 4768 "test_common.ml" 155 4721 4776
+type(
+  Ast.stmt
+)
+ident(
+  int_ref inj_stmt "test_common.ml" 143 4194 4239 "test_common.ml" 143 4194 4247
+)
+"test_common.ml" 155 4721 4778 "test_common.ml" 155 4721 4779
+type(
+  Ast.stmt
+)
+ident(
+  int_ref l "test_common.ml" 150 4520 4529 "test_common.ml" 150 4520 4530
+)
+"test_common.ml" 155 4721 4781 "test_common.ml" 155 4721 4782
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4527
+)
+"test_common.ml" 155 4721 4784 "test_common.ml" 155 4721 4785
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 143 4194 4248 "test_common.ml" 143 4194 4249
+)
+"test_common.ml" 155 4721 4781 "test_common.ml" 155 4721 4785
+type(
+  Ast.stmt list
+)
+"test_common.ml" 155 4721 4777 "test_common.ml" 155 4721 4786
+type(
+  Ast.stmt list
+)
+"test_common.ml" 155 4721 4736 "test_common.ml" 155 4721 4786
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 154 4643 4653 "test_common.ml" 155 4721 4786
+type(
+  Ast.stmt list
+)
+"test_common.ml" 156 4787 4797 "test_common.ml" 156 4787 4798
+type(
+  Ast.stmt
+)
+"test_common.ml" 156 4787 4802 "test_common.ml" 156 4787 4815
+type(
+  Ast.stmt list ->
+  Type.addr option -> string -> Ast.stmt -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref inject_stmt_k "test_common.ml" 143 4194 4204 "test_common.ml" 143 4194 4217
+)
+"test_common.ml" 156 4787 4817 "test_common.ml" 156 4787 4818
+type(
+  Ast.stmt
+)
+ident(
+  int_ref l "test_common.ml" 150 4520 4529 "test_common.ml" 150 4520 4530
+)
+"test_common.ml" 156 4787 4820 "test_common.ml" 156 4787 4822
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ss "test_common.ml" 150 4520 4532 "test_common.ml" 150 4520 4534
+)
+"test_common.ml" 156 4787 4816 "test_common.ml" 156 4787 4823
+type(
+  Ast.stmt list
+)
+"test_common.ml" 156 4787 4824 "test_common.ml" 156 4787 4830
+type(
+  Type.addr option
+)
+ident(
+  int_ref starta "test_common.ml" 143 4194 4224 "test_common.ml" 143 4194 4230
+)
+"test_common.ml" 156 4787 4831 "test_common.ml" 156 4787 4838
+type(
+  string
+)
+ident(
+  int_ref asm_str "test_common.ml" 143 4194 4231 "test_common.ml" 143 4194 4238
+)
+"test_common.ml" 156 4787 4839 "test_common.ml" 156 4787 4847
+type(
+  Ast.stmt
+)
+ident(
+  int_ref inj_stmt "test_common.ml" 143 4194 4239 "test_common.ml" 143 4194 4247
+)
+"test_common.ml" 156 4787 4849 "test_common.ml" 156 4787 4850
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4527
+)
+"test_common.ml" 156 4787 4852 "test_common.ml" 156 4787 4853
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 143 4194 4248 "test_common.ml" 143 4194 4249
+)
+"test_common.ml" 156 4787 4848 "test_common.ml" 156 4787 4854
+type(
+  Ast.stmt list
+)
+"test_common.ml" 156 4787 4802 "test_common.ml" 156 4787 4854
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 152 4563 4582 "test_common.ml" 157 4855 4862
+type(
+  Ast.stmt list
+)
+"test_common.ml" 159 4945 4953 "test_common.ml" 159 4945 4957
+type(
+  Type.addr option
+)
+"test_common.ml" 159 4945 4968 "test_common.ml" 159 4945 4969
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4527
+)
+"test_common.ml" 160 4975 5004 "test_common.ml" 160 4975 5010
+type(
+  Type.addr
+)
+ident(
+  def addr "test_common.ml" 161 5022 5032 "test_common.ml" 166 5297 5308
+)
+"test_common.ml" 160 4975 4995 "test_common.ml" 160 4975 5010
+type(
+  Type.label
+)
+"test_common.ml" 160 4975 5011 "test_common.ml" 160 4975 5016
+type(
+  Ast.attrs
+)
+ident(
+  def attrs "test_common.ml" 161 5022 5032 "test_common.ml" 166 5297 5308
+)
+"test_common.ml" 160 4975 4994 "test_common.ml" 160 4975 5017
+type(
+  Type.label * Ast.attrs
+)
+"test_common.ml" 160 4975 4985 "test_common.ml" 160 4975 5017
+type(
+  Ast.stmt
+)
+"test_common.ml" 161 5022 5039 "test_common.ml" 161 5022 5044
+type(
+  Ast.attrs
+)
+ident(
+  int_ref attrs "test_common.ml" 160 4975 5011 "test_common.ml" 160 4975 5016
+)
+"test_common.ml" 162 5050 5071 "test_common.ml" 162 5050 5076
+type(
+  string
+)
+ident(
+  def asm "test_common.ml" 163 5081 5093 "test_common.ml" 164 5161 5228
+)
+"test_common.ml" 162 5050 5063 "test_common.ml" 162 5050 5076
+type(
+  Type.attribute
+)
+"test_common.ml" 162 5050 5062 "test_common.ml" 162 5050 5077
+type(
+  Ast.attrs
+)
+"test_common.ml" 163 5081 5097 "test_common.ml" 163 5081 5103
+type(
+  ?iflags:Pcre.irflag ->
+  ?flags:Pcre.rflag list ->
+  ?rex:Pcre.regexp ->
+  ?pat:string -> ?pos:int -> ?callout:Pcre.callout -> string -> bool
+)
+ident(
+  ext_ref Pcre.pmatch
+)
+"test_common.ml" 163 5081 5109 "test_common.ml" 163 5081 5116
+type(
+  string
+)
+ident(
+  int_ref asm_str "test_common.ml" 143 4194 4231 "test_common.ml" 143 4194 4238
+)
+"test_common.ml" 163 5081 5117 "test_common.ml" 163 5081 5120
+type(
+  string
+)
+ident(
+  int_ref asm "test_common.ml" 162 5050 5071 "test_common.ml" 162 5050 5076
+)
+"test_common.ml" 163 5081 5096 "test_common.ml" 163 5081 5121
+call(
+  stack
+)
+type(
+  bool
+)
+"test_common.ml" 163 5081 5128 "test_common.ml" 163 5081 5136
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"test_common.ml" 163 5081 5137 "test_common.ml" 163 5081 5138
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 143 4194 4248 "test_common.ml" 143 4194 4249
+)
+"test_common.ml" 163 5081 5127 "test_common.ml" 163 5081 5139
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 163 5081 5139 "test_common.ml" 163 5081 5140
+type(
+  Ast.stmt list -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"test_common.ml" 163 5081 5141 "test_common.ml" 163 5081 5142
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4527
+)
+"test_common.ml" 163 5081 5144 "test_common.ml" 163 5081 5145
+type(
+  Ast.stmt
+)
+ident(
+  int_ref l "test_common.ml" 150 4520 4529 "test_common.ml" 150 4520 4530
+)
+"test_common.ml" 163 5081 5147 "test_common.ml" 163 5081 5155
+type(
+  Ast.stmt
+)
+ident(
+  int_ref inj_stmt "test_common.ml" 143 4194 4239 "test_common.ml" 143 4194 4247
+)
+"test_common.ml" 163 5081 5157 "test_common.ml" 163 5081 5159
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ss "test_common.ml" 150 4520 4532 "test_common.ml" 150 4520 4534
+)
+"test_common.ml" 163 5081 5147 "test_common.ml" 163 5081 5159
+type(
+  Ast.stmt list
+)
+"test_common.ml" 163 5081 5144 "test_common.ml" 163 5081 5159
+type(
+  Ast.stmt list
+)
+"test_common.ml" 163 5081 5140 "test_common.ml" 163 5081 5160
+type(
+  Ast.stmt list
+)
+"test_common.ml" 163 5081 5127 "test_common.ml" 163 5081 5160
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 164 5161 5178 "test_common.ml" 164 5161 5191
+type(
+  Ast.stmt list ->
+  Type.addr option -> string -> Ast.stmt -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref inject_stmt_k "test_common.ml" 143 4194 4204 "test_common.ml" 143 4194 4217
+)
+"test_common.ml" 164 5161 5192 "test_common.ml" 164 5161 5194
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ss "test_common.ml" 150 4520 4532 "test_common.ml" 150 4520 4534
+)
+"test_common.ml" 164 5161 5195 "test_common.ml" 164 5161 5201
+type(
+  Type.addr option
+)
+ident(
+  int_ref starta "test_common.ml" 143 4194 4224 "test_common.ml" 143 4194 4230
+)
+"test_common.ml" 164 5161 5202 "test_common.ml" 164 5161 5209
+type(
+  string
+)
+ident(
+  int_ref asm_str "test_common.ml" 143 4194 4231 "test_common.ml" 143 4194 4238
+)
+"test_common.ml" 164 5161 5210 "test_common.ml" 164 5161 5218
+type(
+  Ast.stmt
+)
+ident(
+  int_ref inj_stmt "test_common.ml" 143 4194 4239 "test_common.ml" 143 4194 4247
+)
+"test_common.ml" 164 5161 5220 "test_common.ml" 164 5161 5221
+type(
+  Ast.stmt
+)
+ident(
+  int_ref l "test_common.ml" 150 4520 4529 "test_common.ml" 150 4520 4530
+)
+"test_common.ml" 164 5161 5223 "test_common.ml" 164 5161 5224
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4527
+)
+"test_common.ml" 164 5161 5226 "test_common.ml" 164 5161 5227
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 143 4194 4248 "test_common.ml" 143 4194 4249
+)
+"test_common.ml" 164 5161 5223 "test_common.ml" 164 5161 5227
+type(
+  Ast.stmt list
+)
+"test_common.ml" 164 5161 5219 "test_common.ml" 164 5161 5228
+type(
+  Ast.stmt list
+)
+"test_common.ml" 164 5161 5178 "test_common.ml" 164 5161 5228
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 163 5081 5093 "test_common.ml" 164 5161 5228
+type(
+  Ast.stmt list
+)
+"test_common.ml" 165 5229 5241 "test_common.ml" 165 5229 5242
+type(
+  Ast.attrs
+)
+"test_common.ml" 165 5229 5246 "test_common.ml" 165 5229 5259
+type(
+  Ast.stmt list ->
+  Type.addr option -> string -> Ast.stmt -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref inject_stmt_k "test_common.ml" 143 4194 4204 "test_common.ml" 143 4194 4217
+)
+"test_common.ml" 165 5229 5260 "test_common.ml" 165 5229 5262
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ss "test_common.ml" 150 4520 4532 "test_common.ml" 150 4520 4534
+)
+"test_common.ml" 165 5229 5263 "test_common.ml" 165 5229 5269
+type(
+  Type.addr option
+)
+ident(
+  int_ref starta "test_common.ml" 143 4194 4224 "test_common.ml" 143 4194 4230
+)
+"test_common.ml" 165 5229 5270 "test_common.ml" 165 5229 5277
+type(
+  string
+)
+ident(
+  int_ref asm_str "test_common.ml" 143 4194 4231 "test_common.ml" 143 4194 4238
+)
+"test_common.ml" 165 5229 5278 "test_common.ml" 165 5229 5286
+type(
+  Ast.stmt
+)
+ident(
+  int_ref inj_stmt "test_common.ml" 143 4194 4239 "test_common.ml" 143 4194 4247
+)
+"test_common.ml" 165 5229 5288 "test_common.ml" 165 5229 5289
+type(
+  Ast.stmt
+)
+ident(
+  int_ref l "test_common.ml" 150 4520 4529 "test_common.ml" 150 4520 4530
+)
+"test_common.ml" 165 5229 5291 "test_common.ml" 165 5229 5292
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4527
+)
+"test_common.ml" 165 5229 5294 "test_common.ml" 165 5229 5295
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 143 4194 4248 "test_common.ml" 143 4194 4249
+)
+"test_common.ml" 165 5229 5291 "test_common.ml" 165 5229 5295
+type(
+  Ast.stmt list
+)
+"test_common.ml" 165 5229 5287 "test_common.ml" 165 5229 5296
+type(
+  Ast.stmt list
+)
+"test_common.ml" 165 5229 5246 "test_common.ml" 165 5229 5296
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 161 5022 5032 "test_common.ml" 166 5297 5308
+type(
+  Ast.stmt list
+)
+"test_common.ml" 167 5309 5319 "test_common.ml" 167 5309 5320
+type(
+  Ast.stmt
+)
+"test_common.ml" 167 5309 5324 "test_common.ml" 167 5309 5337
+type(
+  Ast.stmt list ->
+  Type.addr option -> string -> Ast.stmt -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref inject_stmt_k "test_common.ml" 143 4194 4204 "test_common.ml" 143 4194 4217
+)
+"test_common.ml" 167 5309 5339 "test_common.ml" 167 5309 5340
+type(
+  Ast.stmt
+)
+ident(
+  int_ref l "test_common.ml" 150 4520 4529 "test_common.ml" 150 4520 4530
+)
+"test_common.ml" 167 5309 5342 "test_common.ml" 167 5309 5344
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ss "test_common.ml" 150 4520 4532 "test_common.ml" 150 4520 4534
+)
+"test_common.ml" 167 5309 5338 "test_common.ml" 167 5309 5345
+type(
+  Ast.stmt list
+)
+"test_common.ml" 167 5309 5346 "test_common.ml" 167 5309 5352
+type(
+  Type.addr option
+)
+ident(
+  int_ref starta "test_common.ml" 143 4194 4224 "test_common.ml" 143 4194 4230
+)
+"test_common.ml" 167 5309 5353 "test_common.ml" 167 5309 5360
+type(
+  string
+)
+ident(
+  int_ref asm_str "test_common.ml" 143 4194 4231 "test_common.ml" 143 4194 4238
+)
+"test_common.ml" 167 5309 5361 "test_common.ml" 167 5309 5369
+type(
+  Ast.stmt
+)
+ident(
+  int_ref inj_stmt "test_common.ml" 143 4194 4239 "test_common.ml" 143 4194 4247
+)
+"test_common.ml" 167 5309 5371 "test_common.ml" 167 5309 5372
+type(
+  Ast.stmt
+)
+ident(
+  int_ref s "test_common.ml" 150 4520 4526 "test_common.ml" 150 4520 4527
+)
+"test_common.ml" 167 5309 5374 "test_common.ml" 167 5309 5375
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 143 4194 4248 "test_common.ml" 143 4194 4249
+)
+"test_common.ml" 167 5309 5370 "test_common.ml" 167 5309 5376
+type(
+  Ast.stmt list
+)
+"test_common.ml" 167 5309 5324 "test_common.ml" 167 5309 5376
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 159 4945 4961 "test_common.ml" 168 5377 5384
+type(
+  Ast.stmt list
+)
+"test_common.ml" 151 4539 4545 "test_common.ml" 168 5377 5384
+type(
+  Ast.stmt list
+)
+"test_common.ml" 144 4252 4256 "test_common.ml" 168 5377 5384
+type(
+  Ast.stmt list
+)
+"test_common.ml" 170 5390 5392 "test_common.ml" 170 5390 5405
+type(
+  Ast.stmt list ->
+  Type.addr option -> string -> Ast.stmt -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref inject_stmt_k "test_common.ml" 143 4194 4204 "test_common.ml" 143 4194 4217
+)
+"test_common.ml" 170 5390 5406 "test_common.ml" 170 5390 5410
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref prog "test_common.ml" 142 4150 4166 "test_common.ml" 142 4150 4170
+)
+"test_common.ml" 170 5390 5416 "test_common.ml" 170 5390 5428
+type(
+  Type.addr
+)
+ident(
+  int_ref start_addr "test_common.ml" 142 4150 4171 "test_common.ml" 142 4150 4181
+)
+"test_common.ml" 170 5390 5411 "test_common.ml" 170 5390 5429
+type(
+  Type.addr option
+)
+"test_common.ml" 170 5390 5430 "test_common.ml" 170 5390 5433
+type(
+  string
+)
+ident(
+  int_ref asm "test_common.ml" 142 4150 4182 "test_common.ml" 142 4150 4185
+)
+"test_common.ml" 170 5390 5434 "test_common.ml" 170 5390 5438
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "test_common.ml" 142 4150 4186 "test_common.ml" 142 4150 4190
+)
+"test_common.ml" 170 5390 5439 "test_common.ml" 170 5390 5441
+type(
+  Ast.stmt list
+)
+"test_common.ml" 170 5390 5392 "test_common.ml" 170 5390 5441
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 143 4194 4196 "test_common.ml" 170 5390 5441
+type(
+  Ast.stmt list
+)
+"test_common.ml" 173 5446 5450 "test_common.ml" 173 5446 5459
+type(
+  Ast.stmt
+)
+ident(
+  def halt_stmt "test_common.ml" 176 5484 5484 --
+)
+"test_common.ml" 173 5446 5467 "test_common.ml" 173 5446 5475
+type(
+  Ast.exp
+)
+ident(
+  ext_ref Ast.exp_true
+)
+"test_common.ml" 173 5446 5476 "test_common.ml" 173 5446 5478
+type(
+  Ast.attrs
+)
+"test_common.ml" 173 5446 5466 "test_common.ml" 173 5446 5479
+type(
+  Ast.exp * Ast.attrs
+)
+"test_common.ml" 173 5446 5462 "test_common.ml" 173 5446 5479
+type(
+  Ast.stmt
+)
+"test_common.ml" 176 5484 5488 "test_common.ml" 176 5484 5507
+type(
+  Ast.exp -> Z.t -> unit
+)
+ident(
+  def check_bigint_answer "test_common.ml" 188 5831 5831 --
+)
+"test_common.ml" 176 5484 5508 "test_common.ml" 176 5484 5509
+type(
+  Ast.exp
+)
+ident(
+  def e "test_common.ml" 176 5484 5510 "test_common.ml" 185 5761 5826
+)
+"test_common.ml" 176 5484 5510 "test_common.ml" 176 5484 5517
+type(
+  Z.t
+)
+ident(
+  def correct "test_common.ml" 177 5521 5523 "test_common.ml" 185 5761 5826
+)
+"test_common.ml" 177 5521 5529 "test_common.ml" 177 5521 5530
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "test_common.ml" 176 5484 5508 "test_common.ml" 176 5484 5509
+)
+"test_common.ml" 178 5536 5544 "test_common.ml" 178 5536 5547
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def int "test_common.ml" 178 5536 5554 "test_common.ml" 184 5749 5760
+)
+"test_common.ml" 178 5536 5548 "test_common.ml" 178 5536 5549
+type(
+  Type.typ
+)
+"test_common.ml" 178 5536 5543 "test_common.ml" 178 5536 5550
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"test_common.ml" 178 5536 5540 "test_common.ml" 178 5536 5550
+type(
+  Ast.exp
+)
+"test_common.ml" 178 5536 5558 "test_common.ml" 178 5536 5561
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref int "test_common.ml" 178 5536 5544 "test_common.ml" 178 5536 5547
+)
+"test_common.ml" 178 5536 5562 "test_common.ml" 178 5536 5565
+type(
+  Big_int_Z.big_int -> Z.t -> bool
+)
+ident(
+  ext_ref Big_int_convenience.( <>% )
+)
+"test_common.ml" 178 5536 5566 "test_common.ml" 178 5536 5573
+type(
+  Z.t
+)
+ident(
+  int_ref correct "test_common.ml" 176 5484 5510 "test_common.ml" 176 5484 5517
+)
+"test_common.ml" 178 5536 5557 "test_common.ml" 178 5536 5574
+call(
+  stack
+)
+type(
+  bool
+)
+"test_common.ml" 180 5585 5591 "test_common.ml" 180 5585 5605
+type(
+  string -> unit
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"test_common.ml" 181 5607 5616 "test_common.ml" 181 5607 5637
+type(
+  string
+)
+"test_common.ml" 181 5607 5638 "test_common.ml" 181 5607 5639
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 181 5607 5641 "test_common.ml" 181 5607 5658
+type(
+  Big_int_Z.big_int -> string
+)
+ident(
+  ext_ref Big_int_Z.string_of_big_int
+)
+"test_common.ml" 181 5607 5659 "test_common.ml" 181 5607 5662
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref int "test_common.ml" 178 5536 5544 "test_common.ml" 178 5536 5547
+)
+"test_common.ml" 181 5607 5640 "test_common.ml" 181 5607 5663
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 182 5665 5674 "test_common.ml" 182 5665 5675
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 182 5665 5676 "test_common.ml" 182 5665 5708
+type(
+  string
+)
+"test_common.ml" 183 5709 5718 "test_common.ml" 183 5709 5719
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 183 5709 5721 "test_common.ml" 183 5709 5738
+type(
+  Z.t -> string
+)
+ident(
+  ext_ref Big_int_Z.string_of_big_int
+)
+"test_common.ml" 183 5709 5739 "test_common.ml" 183 5709 5746
+type(
+  Z.t
+)
+ident(
+  int_ref correct "test_common.ml" 176 5484 5510 "test_common.ml" 176 5484 5517
+)
+"test_common.ml" 183 5709 5720 "test_common.ml" 183 5709 5747
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 182 5665 5676 "test_common.ml" 183 5709 5747
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 181 5607 5640 "test_common.ml" 183 5709 5747
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 181 5607 5615 "test_common.ml" 183 5709 5748
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 180 5585 5591 "test_common.ml" 183 5709 5748
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 184 5749 5758 "test_common.ml" 184 5749 5760
+type(
+  unit
+)
+"test_common.ml" 178 5536 5554 "test_common.ml" 184 5749 5760
+type(
+  unit
+)
+"test_common.ml" 185 5761 5765 "test_common.ml" 185 5761 5766
+type(
+  Ast.exp
+)
+"test_common.ml" 185 5761 5770 "test_common.ml" 185 5761 5784
+type(
+  string -> unit
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"test_common.ml" 185 5761 5785 "test_common.ml" 185 5761 5826
+type(
+  string
+)
+"test_common.ml" 185 5761 5770 "test_common.ml" 185 5761 5826
+type(
+  unit
+)
+"test_common.ml" 177 5521 5523 "test_common.ml" 185 5761 5826
+type(
+  unit
+)
+"test_common.ml" 188 5831 5835 "test_common.ml" 188 5831 5844
+type(
+  (Symbeval.varval Var.VarHash.t, 'a) Symbeval.ctx -> Z.t -> unit
+)
+ident(
+  def check_eax "test_common.ml" 198 6049 6049 --
+)
+"test_common.ml" 188 5831 5845 "test_common.ml" 188 5831 5848
+type(
+  (Symbeval.varval Var.VarHash.t, 'a) Symbeval.ctx
+)
+ident(
+  def ctx "test_common.ml" 188 5831 5849 "test_common.ml" 195 6020 6044
+)
+"test_common.ml" 188 5831 5849 "test_common.ml" 188 5831 5852
+type(
+  Z.t
+)
+ident(
+  def eax "test_common.ml" 189 5855 5857 "test_common.ml" 195 6020 6044
+)
+"test_common.ml" 189 5855 5857 "test_common.ml" 189 5855 5873
+type(
+  (Var.VarHash.key -> Symbeval.varval -> unit) ->
+  Symbeval.varval Var.VarHash.t -> unit
+)
+ident(
+  ext_ref Var.VarHash.iter
+)
+"test_common.ml" 190 5875 5884 "test_common.ml" 190 5875 5885
+type(
+  Var.VarHash.key
+)
+ident(
+  def k "test_common.ml" 190 5875 5886 "test_common.ml" 194 6004 6019
+)
+"test_common.ml" 190 5875 5886 "test_common.ml" 190 5875 5887
+type(
+  Symbeval.varval
+)
+ident(
+  def v "test_common.ml" 191 5891 5897 "test_common.ml" 194 6004 6019
+)
+"test_common.ml" 191 5891 5903 "test_common.ml" 191 5891 5904
+type(
+  Symbeval.varval
+)
+ident(
+  int_ref v "test_common.ml" 190 5875 5886 "test_common.ml" 190 5875 5887
+)
+"test_common.ml" 192 5910 5936 "test_common.ml" 192 5910 5937
+type(
+  Ast.exp
+)
+ident(
+  def e "test_common.ml" 192 5910 5938 "test_common.ml" 193 5970 6003
+)
+"test_common.ml" 192 5910 5918 "test_common.ml" 192 5910 5937
+type(
+  Symbeval.varval
+)
+"test_common.ml" 192 5910 5943 "test_common.ml" 192 5910 5944
+type(
+  Var.VarHash.key
+)
+ident(
+  int_ref k "test_common.ml" 190 5875 5884 "test_common.ml" 190 5875 5885
+)
+"test_common.ml" 192 5910 5945 "test_common.ml" 192 5910 5946
+type(
+  Var.VarHash.key -> Var.VarHash.key -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"test_common.ml" 192 5910 5947 "test_common.ml" 192 5910 5966
+type(
+  Var.VarHash.key
+)
+ident(
+  ext_ref Disasm_i386.R32.eax
+)
+"test_common.ml" 192 5910 5943 "test_common.ml" 192 5910 5966
+type(
+  bool
+)
+"test_common.ml" 193 5970 5978 "test_common.ml" 193 5970 5997
+type(
+  Ast.exp -> Z.t -> unit
+)
+ident(
+  int_ref check_bigint_answer "test_common.ml" 176 5484 5488 "test_common.ml" 176 5484 5507
+)
+"test_common.ml" 193 5970 5998 "test_common.ml" 193 5970 5999
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "test_common.ml" 192 5910 5936 "test_common.ml" 192 5910 5937
+)
+"test_common.ml" 193 5970 6000 "test_common.ml" 193 5970 6003
+type(
+  Z.t
+)
+ident(
+  int_ref eax "test_common.ml" 188 5831 5849 "test_common.ml" 188 5831 5852
+)
+"test_common.ml" 193 5970 5978 "test_common.ml" 193 5970 6003
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 192 5910 5938 "test_common.ml" 193 5970 6003
+type(
+  unit
+)
+"test_common.ml" 194 6004 6012 "test_common.ml" 194 6004 6013
+type(
+  Symbeval.varval
+)
+"test_common.ml" 194 6004 6017 "test_common.ml" 194 6004 6019
+type(
+  unit
+)
+"test_common.ml" 191 5891 5897 "test_common.ml" 194 6004 6019
+type(
+  unit
+)
+"test_common.ml" 190 5875 5879 "test_common.ml" 195 6020 6025
+type(
+  Var.VarHash.key -> Symbeval.varval -> unit
+)
+"test_common.ml" 195 6020 6026 "test_common.ml" 195 6020 6029
+type(
+  (Symbeval.varval Var.VarHash.t, 'a) Symbeval.ctx
+)
+ident(
+  int_ref ctx "test_common.ml" 188 5831 5845 "test_common.ml" 188 5831 5848
+)
+"test_common.ml" 195 6020 6026 "test_common.ml" 195 6020 6044
+type(
+  Symbeval.varval Var.VarHash.t
+)
+"test_common.ml" 189 5855 5857 "test_common.ml" 195 6020 6044
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 198 6049 6053 "test_common.ml" 198 6049 6068
+type(
+  string -> ('a * 'b * 'c) list -> 'a list -> unit
+)
+ident(
+  def check_functions "test_common.ml" 201 6139 6139 --
+)
+"test_common.ml" 198 6049 6069 "test_common.ml" 198 6049 6072
+type(
+  string
+)
+ident(
+  def msg "test_common.ml" 198 6049 6073 "test_common.ml" 199 6088 6135
+)
+"test_common.ml" 198 6049 6073 "test_common.ml" 198 6049 6079
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  def ranges "test_common.ml" 198 6049 6080 "test_common.ml" 199 6088 6135
+)
+"test_common.ml" 198 6049 6080 "test_common.ml" 198 6049 6085
+type(
+  'a list
+)
+ident(
+  def names "test_common.ml" 199 6088 6090 "test_common.ml" 199 6088 6135
+)
+"test_common.ml" 199 6088 6090 "test_common.ml" 199 6088 6096
+type(
+  ('b * 'c) list -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"test_common.ml" 199 6088 6097 "test_common.ml" 199 6088 6105
+type(
+  ('a -> 'b * 'c) -> 'a list -> ('b * 'c) list
+)
+ident(
+  ext_ref BatListFull.List.map
+)
+"test_common.ml" 199 6088 6107 "test_common.ml" 199 6088 6115
+type(
+  ?msg:string -> ('a * 'b * 'c) list -> 'a -> 'b * 'c
+)
+ident(
+  int_ref find_fun "test_common.ml" 130 3806 3814 "test_common.ml" 130 3806 3822
+)
+"test_common.ml" 199 6088 6117 "test_common.ml" 199 6088 6120
+type(
+  string
+)
+ident(
+  int_ref msg "test_common.ml" 198 6049 6069 "test_common.ml" 198 6049 6072
+)
+"test_common.ml" 199 6088 6121 "test_common.ml" 199 6088 6127
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  int_ref ranges "test_common.ml" 198 6049 6073 "test_common.ml" 198 6049 6079
+)
+"test_common.ml" 199 6088 6106 "test_common.ml" 199 6088 6128
+call(
+  stack
+)
+type(
+  'a -> 'b * 'c
+)
+"test_common.ml" 199 6088 6129 "test_common.ml" 199 6088 6134
+type(
+  'a list
+)
+ident(
+  int_ref names "test_common.ml" 198 6049 6080 "test_common.ml" 198 6049 6085
+)
+"test_common.ml" 199 6088 6096 "test_common.ml" 199 6088 6135
+call(
+  stack
+)
+type(
+  ('b * 'c) list
+)
+"test_common.ml" 199 6088 6090 "test_common.ml" 199 6088 6135
+type(
+  unit
+)
+"test_common.ml" 201 6139 6143 "test_common.ml" 201 6139 6152
+type(
+  Ast.stmt list -> unit
+)
+ident(
+  def typecheck "test_common.ml" 204 6251 6251 --
+)
+"test_common.ml" 201 6139 6153 "test_common.ml" 201 6139 6154
+type(
+  Ast.stmt list
+)
+ident(
+  def p "test_common.ml" 201 6139 6157 "test_common.ml" 201 6139 6183
+)
+"test_common.ml" 201 6139 6157 "test_common.ml" 201 6139 6181
+type(
+  Ast.stmt list -> unit
+)
+ident(
+  ext_ref Typecheck.typecheck_prog
+)
+"test_common.ml" 201 6139 6182 "test_common.ml" 201 6139 6183
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref p "test_common.ml" 201 6139 6153 "test_common.ml" 201 6139 6154
+)
+"test_common.ml" 201 6139 6157 "test_common.ml" 201 6139 6183
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 204 6251 6255 "test_common.ml" 204 6251 6270
+type(
+  Ast.stmt list -> Type.addr -> Type.addr -> Ast.stmt list
+)
+ident(
+  def find_prog_chunk "test_common.ml" 227 7216 7216 --
+)
+"test_common.ml" 204 6251 6271 "test_common.ml" 204 6251 6275
+type(
+  Ast.stmt list
+)
+ident(
+  def prog "test_common.ml" 204 6251 6276 "test_common.ml" 225 7149 7214
+)
+"test_common.ml" 204 6251 6276 "test_common.ml" 204 6251 6286
+type(
+  Type.addr
+)
+ident(
+  def start_addr "test_common.ml" 204 6251 6287 "test_common.ml" 225 7149 7214
+)
+"test_common.ml" 204 6251 6287 "test_common.ml" 204 6251 6295
+type(
+  Type.addr
+)
+ident(
+  def end_addr "test_common.ml" 205 6299 6301 "test_common.ml" 225 7149 7214
+)
+"test_common.ml" 205 6299 6309 "test_common.ml" 205 6299 6326
+type(
+  Ast.stmt list ->
+  Type.addr option -> Type.addr -> Ast.stmt list -> Ast.stmt list
+)
+"test_common.ml" 205 6299 6327 "test_common.ml" 205 6299 6331
+type(
+  Ast.stmt list
+)
+ident(
+  def prog "test_common.ml" 205 6299 6332 "test_common.ml" 223 7090 7143
+)
+"test_common.ml" 205 6299 6332 "test_common.ml" 205 6299 6338
+type(
+  Type.addr option
+)
+ident(
+  def starta "test_common.ml" 205 6299 6339 "test_common.ml" 223 7090 7143
+)
+"test_common.ml" 205 6299 6339 "test_common.ml" 205 6299 6343
+type(
+  Type.addr
+)
+ident(
+  def enda "test_common.ml" 205 6299 6344 "test_common.ml" 223 7090 7143
+)
+"test_common.ml" 205 6299 6344 "test_common.ml" 205 6299 6345
+type(
+  Ast.stmt list
+)
+ident(
+  def k "test_common.ml" 206 6348 6352 "test_common.ml" 223 7090 7143
+)
+"test_common.ml" 206 6348 6358 "test_common.ml" 206 6348 6362
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref prog "test_common.ml" 205 6299 6327 "test_common.ml" 205 6299 6331
+)
+"test_common.ml" 206 6348 6364 "test_common.ml" 206 6348 6370
+type(
+  Type.addr option
+)
+ident(
+  int_ref starta "test_common.ml" 205 6299 6332 "test_common.ml" 205 6299 6338
+)
+"test_common.ml" 206 6348 6358 "test_common.ml" 206 6348 6370
+type(
+  Ast.stmt list * Type.addr option
+)
+"test_common.ml" 208 6450 6456 "test_common.ml" 208 6450 6458
+type(
+  Ast.stmt list
+)
+"test_common.ml" 208 6450 6460 "test_common.ml" 208 6450 6464
+type(
+  Type.addr option
+)
+"test_common.ml" 208 6450 6456 "test_common.ml" 208 6450 6464
+type(
+  Ast.stmt list * Type.addr option
+)
+"test_common.ml" 208 6450 6468 "test_common.ml" 208 6450 6469
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 205 6299 6344 "test_common.ml" 205 6299 6345
+)
+"test_common.ml" 209 6470 6476 "test_common.ml" 209 6470 6478
+type(
+  Ast.stmt list
+)
+"test_common.ml" 209 6470 6480 "test_common.ml" 209 6470 6481
+type(
+  Type.addr option
+)
+"test_common.ml" 209 6470 6476 "test_common.ml" 209 6470 6481
+type(
+  Ast.stmt list * Type.addr option
+)
+"test_common.ml" 209 6470 6485 "test_common.ml" 209 6470 6490
+type(
+  exn -> Ast.stmt list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"test_common.ml" 209 6470 6507 "test_common.ml" 209 6470 6517
+type(
+  Type.addr
+)
+ident(
+  int_ref start_addr "test_common.ml" 204 6251 6276 "test_common.ml" 204 6251 6286
+)
+"test_common.ml" 209 6470 6519 "test_common.ml" 209 6470 6527
+type(
+  Type.addr
+)
+ident(
+  int_ref end_addr "test_common.ml" 204 6251 6287 "test_common.ml" 204 6251 6295
+)
+"test_common.ml" 209 6470 6491 "test_common.ml" 209 6470 6529
+type(
+  exn
+)
+"test_common.ml" 209 6470 6485 "test_common.ml" 209 6470 6529
+type(
+  Ast.stmt list
+)
+"test_common.ml" 210 6530 6536 "test_common.ml" 210 6530 6537
+type(
+  Ast.stmt
+)
+ident(
+  def p "test_common.ml" 211 6553 6559 "test_common.ml" 217 6858 6906
+)
+"test_common.ml" 210 6530 6539 "test_common.ml" 210 6530 6541
+type(
+  Ast.stmt list
+)
+ident(
+  def ps "test_common.ml" 211 6553 6559 "test_common.ml" 217 6858 6906
+)
+"test_common.ml" 210 6530 6536 "test_common.ml" 210 6530 6541
+type(
+  Ast.stmt list
+)
+"test_common.ml" 210 6530 6548 "test_common.ml" 210 6530 6549
+type(
+  Type.addr
+)
+ident(
+  def a "test_common.ml" 211 6553 6559 "test_common.ml" 217 6858 6906
+)
+"test_common.ml" 210 6530 6543 "test_common.ml" 210 6530 6549
+type(
+  Type.addr option
+)
+"test_common.ml" 210 6530 6536 "test_common.ml" 210 6530 6549
+type(
+  Ast.stmt list * Type.addr option
+)
+"test_common.ml" 211 6553 6566 "test_common.ml" 211 6553 6567
+type(
+  Ast.stmt
+)
+ident(
+  int_ref p "test_common.ml" 210 6530 6536 "test_common.ml" 210 6530 6537
+)
+"test_common.ml" 212 6573 6595 "test_common.ml" 212 6573 6601
+type(
+  Type.addr
+)
+ident(
+  def addr "test_common.ml" 212 6573 6609 "test_common.ml" 216 6812 6857
+)
+"test_common.ml" 212 6573 6591 "test_common.ml" 212 6573 6601
+type(
+  Type.label
+)
+"test_common.ml" 212 6573 6602 "test_common.ml" 212 6573 6607
+type(
+  Ast.attrs
+)
+ident(
+  def attrs "test_common.ml" 212 6573 6609 "test_common.ml" 216 6812 6857
+)
+"test_common.ml" 212 6573 6590 "test_common.ml" 212 6573 6608
+type(
+  Type.label * Ast.attrs
+)
+"test_common.ml" 212 6573 6581 "test_common.ml" 212 6573 6608
+type(
+  Ast.stmt
+)
+"test_common.ml" 212 6573 6614 "test_common.ml" 212 6573 6618
+type(
+  Type.addr
+)
+ident(
+  int_ref addr "test_common.ml" 212 6573 6595 "test_common.ml" 212 6573 6601
+)
+"test_common.ml" 212 6573 6619 "test_common.ml" 212 6573 6620
+type(
+  Type.addr -> Type.addr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"test_common.ml" 212 6573 6621 "test_common.ml" 212 6573 6622
+type(
+  Type.addr
+)
+ident(
+  int_ref a "test_common.ml" 210 6530 6548 "test_common.ml" 210 6530 6549
+)
+"test_common.ml" 212 6573 6614 "test_common.ml" 212 6573 6622
+type(
+  bool
+)
+"test_common.ml" 216 6812 6820 "test_common.ml" 216 6812 6837
+type(
+  Ast.stmt list ->
+  Type.addr option -> Type.addr -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref find_prog_chunk_k "test_common.ml" 205 6299 6309 "test_common.ml" 205 6299 6326
+)
+"test_common.ml" 216 6812 6838 "test_common.ml" 216 6812 6840
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ps "test_common.ml" 210 6530 6539 "test_common.ml" 210 6530 6541
+)
+"test_common.ml" 216 6812 6841 "test_common.ml" 216 6812 6845
+type(
+  Type.addr option
+)
+"test_common.ml" 216 6812 6846 "test_common.ml" 216 6812 6850
+type(
+  Type.addr
+)
+ident(
+  int_ref enda "test_common.ml" 205 6299 6339 "test_common.ml" 205 6299 6343
+)
+"test_common.ml" 216 6812 6852 "test_common.ml" 216 6812 6853
+type(
+  Ast.stmt
+)
+ident(
+  int_ref p "test_common.ml" 210 6530 6536 "test_common.ml" 210 6530 6537
+)
+"test_common.ml" 216 6812 6855 "test_common.ml" 216 6812 6856
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 205 6299 6344 "test_common.ml" 205 6299 6345
+)
+"test_common.ml" 216 6812 6851 "test_common.ml" 216 6812 6857
+type(
+  Ast.stmt list
+)
+"test_common.ml" 216 6812 6820 "test_common.ml" 216 6812 6857
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 212 6573 6609 "test_common.ml" 216 6812 6857
+type(
+  Ast.stmt list
+)
+"test_common.ml" 217 6858 6866 "test_common.ml" 217 6858 6867
+type(
+  Ast.stmt
+)
+"test_common.ml" 217 6858 6871 "test_common.ml" 217 6858 6888
+type(
+  Ast.stmt list ->
+  Type.addr option -> Type.addr -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref find_prog_chunk_k "test_common.ml" 205 6299 6309 "test_common.ml" 205 6299 6326
+)
+"test_common.ml" 217 6858 6889 "test_common.ml" 217 6858 6891
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ps "test_common.ml" 210 6530 6539 "test_common.ml" 210 6530 6541
+)
+"test_common.ml" 217 6858 6892 "test_common.ml" 217 6858 6898
+type(
+  Type.addr option
+)
+ident(
+  int_ref starta "test_common.ml" 205 6299 6332 "test_common.ml" 205 6299 6338
+)
+"test_common.ml" 217 6858 6899 "test_common.ml" 217 6858 6903
+type(
+  Type.addr
+)
+ident(
+  int_ref enda "test_common.ml" 205 6299 6339 "test_common.ml" 205 6299 6343
+)
+"test_common.ml" 217 6858 6904 "test_common.ml" 217 6858 6905
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 205 6299 6344 "test_common.ml" 205 6299 6345
+)
+"test_common.ml" 217 6858 6871 "test_common.ml" 217 6858 6905
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 211 6553 6559 "test_common.ml" 217 6858 6906
+type(
+  Ast.stmt list
+)
+"test_common.ml" 218 6907 6913 "test_common.ml" 218 6907 6914
+type(
+  Ast.stmt
+)
+ident(
+  def p "test_common.ml" 220 7003 7009 "test_common.ml" 223 7090 7143
+)
+"test_common.ml" 218 6907 6916 "test_common.ml" 218 6907 6918
+type(
+  Ast.stmt list
+)
+ident(
+  def ps "test_common.ml" 220 7003 7009 "test_common.ml" 223 7090 7143
+)
+"test_common.ml" 218 6907 6913 "test_common.ml" 218 6907 6918
+type(
+  Ast.stmt list
+)
+"test_common.ml" 218 6907 6920 "test_common.ml" 218 6907 6924
+type(
+  Type.addr option
+)
+"test_common.ml" 218 6907 6913 "test_common.ml" 218 6907 6924
+type(
+  Ast.stmt list * Type.addr option
+)
+"test_common.ml" 220 7003 7016 "test_common.ml" 220 7003 7017
+type(
+  Ast.stmt
+)
+ident(
+  int_ref p "test_common.ml" 218 6907 6913 "test_common.ml" 218 6907 6914
+)
+"test_common.ml" 221 7023 7045 "test_common.ml" 221 7023 7051
+type(
+  Type.addr
+)
+ident(
+  def addr "test_common.ml" 221 7023 7059 "test_common.ml" 222 7080 7089
+)
+"test_common.ml" 221 7023 7041 "test_common.ml" 221 7023 7051
+type(
+  Type.label
+)
+"test_common.ml" 221 7023 7052 "test_common.ml" 221 7023 7057
+type(
+  Ast.attrs
+)
+ident(
+  def attrs "test_common.ml" 221 7023 7059 "test_common.ml" 222 7080 7089
+)
+"test_common.ml" 221 7023 7040 "test_common.ml" 221 7023 7058
+type(
+  Type.label * Ast.attrs
+)
+"test_common.ml" 221 7023 7031 "test_common.ml" 221 7023 7058
+type(
+  Ast.stmt
+)
+"test_common.ml" 221 7023 7064 "test_common.ml" 221 7023 7068
+type(
+  Type.addr
+)
+ident(
+  int_ref addr "test_common.ml" 221 7023 7045 "test_common.ml" 221 7023 7051
+)
+"test_common.ml" 221 7023 7069 "test_common.ml" 221 7023 7070
+type(
+  Type.addr -> Type.addr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"test_common.ml" 221 7023 7071 "test_common.ml" 221 7023 7075
+type(
+  Type.addr
+)
+ident(
+  int_ref enda "test_common.ml" 205 6299 6339 "test_common.ml" 205 6299 6343
+)
+"test_common.ml" 221 7023 7064 "test_common.ml" 221 7023 7075
+type(
+  bool
+)
+"test_common.ml" 222 7080 7088 "test_common.ml" 222 7080 7089
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 205 6299 6344 "test_common.ml" 205 6299 6345
+)
+"test_common.ml" 221 7023 7059 "test_common.ml" 222 7080 7089
+type(
+  Ast.stmt list
+)
+"test_common.ml" 223 7090 7098 "test_common.ml" 223 7090 7099
+type(
+  Ast.stmt
+)
+"test_common.ml" 223 7090 7103 "test_common.ml" 223 7090 7120
+type(
+  Ast.stmt list ->
+  Type.addr option -> Type.addr -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref find_prog_chunk_k "test_common.ml" 205 6299 6309 "test_common.ml" 205 6299 6326
+)
+"test_common.ml" 223 7090 7121 "test_common.ml" 223 7090 7123
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref ps "test_common.ml" 218 6907 6916 "test_common.ml" 218 6907 6918
+)
+"test_common.ml" 223 7090 7124 "test_common.ml" 223 7090 7130
+type(
+  Type.addr option
+)
+ident(
+  int_ref starta "test_common.ml" 205 6299 6332 "test_common.ml" 205 6299 6338
+)
+"test_common.ml" 223 7090 7131 "test_common.ml" 223 7090 7135
+type(
+  Type.addr
+)
+ident(
+  int_ref enda "test_common.ml" 205 6299 6339 "test_common.ml" 205 6299 6343
+)
+"test_common.ml" 223 7090 7137 "test_common.ml" 223 7090 7138
+type(
+  Ast.stmt
+)
+ident(
+  int_ref p "test_common.ml" 218 6907 6913 "test_common.ml" 218 6907 6914
+)
+"test_common.ml" 223 7090 7140 "test_common.ml" 223 7090 7141
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref k "test_common.ml" 205 6299 6344 "test_common.ml" 205 6299 6345
+)
+"test_common.ml" 223 7090 7136 "test_common.ml" 223 7090 7142
+type(
+  Ast.stmt list
+)
+"test_common.ml" 223 7090 7103 "test_common.ml" 223 7090 7142
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 220 7003 7009 "test_common.ml" 223 7090 7143
+type(
+  Ast.stmt list
+)
+"test_common.ml" 206 6348 6352 "test_common.ml" 223 7090 7143
+type(
+  Ast.stmt list
+)
+"test_common.ml" 225 7149 7151 "test_common.ml" 225 7149 7159
+type(
+  Ast.stmt list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"test_common.ml" 225 7149 7161 "test_common.ml" 225 7149 7178
+type(
+  Ast.stmt list ->
+  Type.addr option -> Type.addr -> Ast.stmt list -> Ast.stmt list
+)
+ident(
+  int_ref find_prog_chunk_k "test_common.ml" 205 6299 6309 "test_common.ml" 205 6299 6326
+)
+"test_common.ml" 225 7149 7179 "test_common.ml" 225 7149 7183
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref prog "test_common.ml" 204 6251 6271 "test_common.ml" 204 6251 6275
+)
+"test_common.ml" 225 7149 7190 "test_common.ml" 225 7149 7200
+type(
+  Type.addr
+)
+ident(
+  int_ref start_addr "test_common.ml" 204 6251 6276 "test_common.ml" 204 6251 6286
+)
+"test_common.ml" 225 7149 7184 "test_common.ml" 225 7149 7201
+type(
+  Type.addr option
+)
+"test_common.ml" 225 7149 7202 "test_common.ml" 225 7149 7210
+type(
+  Type.addr
+)
+ident(
+  int_ref end_addr "test_common.ml" 204 6251 6287 "test_common.ml" 204 6251 6295
+)
+"test_common.ml" 225 7149 7211 "test_common.ml" 225 7149 7213
+type(
+  Ast.stmt list
+)
+"test_common.ml" 225 7149 7160 "test_common.ml" 225 7149 7214
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 225 7149 7151 "test_common.ml" 225 7149 7214
+call(
+  tail
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 205 6299 6301 "test_common.ml" 225 7149 7214
+type(
+  Ast.stmt list
+)
+"test_common.ml" 227 7216 7220 "test_common.ml" 227 7216 7229
+type(
+  OUnit.test_result -> unit
+)
+ident(
+  def summarize "test_common.ml" 239 7637 7637 --
+)
+"test_common.ml" 227 7216 7230 "test_common.ml" 227 7216 7231
+type(
+  OUnit.test_result
+)
+ident(
+  def r "test_common.ml" 228 7234 7236 "test_common.ml" 237 7613 7633
+)
+"test_common.ml" 228 7234 7242 "test_common.ml" 228 7234 7243
+type(
+  OUnit.test_result
+)
+ident(
+  int_ref r "test_common.ml" 227 7216 7230 "test_common.ml" 227 7216 7231
+)
+"test_common.ml" 229 7250 7261 "test_common.ml" 229 7250 7262
+type(
+  OUnit.path
+)
+ident(
+  def p "test_common.ml" 230 7269 7277 "test_common.ml" 230 7269 7338
+)
+"test_common.ml" 229 7250 7263 "test_common.ml" 229 7250 7264
+type(
+  string
+)
+ident(
+  def s "test_common.ml" 230 7269 7277 "test_common.ml" 230 7269 7338
+)
+"test_common.ml" 229 7250 7254 "test_common.ml" 229 7250 7265
+type(
+  OUnit.test_result
+)
+"test_common.ml" 230 7269 7277 "test_common.ml" 230 7269 7290
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"test_common.ml" 230 7269 7291 "test_common.ml" 230 7269 7304
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"test_common.ml" 230 7269 7307 "test_common.ml" 230 7269 7321
+type(
+  OUnit.path -> string
+)
+ident(
+  ext_ref OUnit.string_of_path
+)
+"test_common.ml" 230 7269 7322 "test_common.ml" 230 7269 7323
+type(
+  OUnit.path
+)
+ident(
+  int_ref p "test_common.ml" 229 7250 7261 "test_common.ml" 229 7250 7262
+)
+"test_common.ml" 230 7269 7306 "test_common.ml" 230 7269 7324
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 230 7269 7325 "test_common.ml" 230 7269 7326
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 230 7269 7327 "test_common.ml" 230 7269 7333
+type(
+  string
+)
+"test_common.ml" 230 7269 7334 "test_common.ml" 230 7269 7335
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 230 7269 7336 "test_common.ml" 230 7269 7337
+type(
+  string
+)
+ident(
+  int_ref s "test_common.ml" 229 7250 7263 "test_common.ml" 229 7250 7264
+)
+"test_common.ml" 230 7269 7327 "test_common.ml" 230 7269 7337
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 230 7269 7305 "test_common.ml" 230 7269 7338
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 230 7269 7277 "test_common.ml" 230 7269 7338
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 231 7339 7353 "test_common.ml" 231 7339 7354
+type(
+  OUnit.path
+)
+ident(
+  def p "test_common.ml" 232 7361 7369 "test_common.ml" 232 7361 7432
+)
+"test_common.ml" 231 7339 7355 "test_common.ml" 231 7339 7356
+type(
+  string
+)
+ident(
+  def s "test_common.ml" 232 7361 7369 "test_common.ml" 232 7361 7432
+)
+"test_common.ml" 231 7339 7343 "test_common.ml" 231 7339 7357
+type(
+  OUnit.test_result
+)
+"test_common.ml" 232 7361 7369 "test_common.ml" 232 7361 7382
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"test_common.ml" 232 7361 7383 "test_common.ml" 232 7361 7398
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"test_common.ml" 232 7361 7401 "test_common.ml" 232 7361 7415
+type(
+  OUnit.path -> string
+)
+ident(
+  ext_ref OUnit.string_of_path
+)
+"test_common.ml" 232 7361 7416 "test_common.ml" 232 7361 7417
+type(
+  OUnit.path
+)
+ident(
+  int_ref p "test_common.ml" 231 7339 7353 "test_common.ml" 231 7339 7354
+)
+"test_common.ml" 232 7361 7400 "test_common.ml" 232 7361 7418
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 232 7361 7419 "test_common.ml" 232 7361 7420
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 232 7361 7421 "test_common.ml" 232 7361 7427
+type(
+  string
+)
+"test_common.ml" 232 7361 7428 "test_common.ml" 232 7361 7429
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 232 7361 7430 "test_common.ml" 232 7361 7431
+type(
+  string
+)
+ident(
+  int_ref s "test_common.ml" 231 7339 7355 "test_common.ml" 231 7339 7356
+)
+"test_common.ml" 232 7361 7421 "test_common.ml" 232 7361 7431
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 232 7361 7399 "test_common.ml" 232 7361 7432
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 232 7361 7369 "test_common.ml" 232 7361 7432
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 233 7433 7444 "test_common.ml" 233 7433 7445
+type(
+  OUnit.path
+)
+ident(
+  def p "test_common.ml" 234 7453 7461 "test_common.ml" 234 7453 7523
+)
+"test_common.ml" 233 7433 7446 "test_common.ml" 233 7433 7447
+type(
+  string
+)
+ident(
+  def s "test_common.ml" 234 7453 7461 "test_common.ml" 234 7453 7523
+)
+"test_common.ml" 233 7433 7437 "test_common.ml" 233 7433 7448
+type(
+  OUnit.test_result
+)
+"test_common.ml" 234 7453 7461 "test_common.ml" 234 7453 7474
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"test_common.ml" 234 7453 7475 "test_common.ml" 234 7453 7489
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"test_common.ml" 234 7453 7492 "test_common.ml" 234 7453 7506
+type(
+  OUnit.path -> string
+)
+ident(
+  ext_ref OUnit.string_of_path
+)
+"test_common.ml" 234 7453 7507 "test_common.ml" 234 7453 7508
+type(
+  OUnit.path
+)
+ident(
+  int_ref p "test_common.ml" 233 7433 7444 "test_common.ml" 233 7433 7445
+)
+"test_common.ml" 234 7453 7491 "test_common.ml" 234 7453 7509
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 234 7453 7510 "test_common.ml" 234 7453 7511
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 234 7453 7512 "test_common.ml" 234 7453 7518
+type(
+  string
+)
+"test_common.ml" 234 7453 7519 "test_common.ml" 234 7453 7520
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 234 7453 7521 "test_common.ml" 234 7453 7522
+type(
+  string
+)
+ident(
+  int_ref s "test_common.ml" 233 7433 7446 "test_common.ml" 233 7433 7447
+)
+"test_common.ml" 234 7453 7512 "test_common.ml" 234 7453 7522
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 234 7453 7490 "test_common.ml" 234 7453 7523
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 234 7453 7461 "test_common.ml" 234 7453 7523
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 235 7524 7535 "test_common.ml" 235 7524 7536
+type(
+  OUnit.path
+)
+ident(
+  def p "test_common.ml" 236 7544 7552 "test_common.ml" 236 7544 7612
+)
+"test_common.ml" 235 7524 7537 "test_common.ml" 235 7524 7538
+type(
+  string
+)
+ident(
+  def s "test_common.ml" 236 7544 7552 "test_common.ml" 236 7544 7612
+)
+"test_common.ml" 235 7524 7528 "test_common.ml" 235 7524 7539
+type(
+  OUnit.test_result
+)
+"test_common.ml" 236 7544 7552 "test_common.ml" 236 7544 7565
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"test_common.ml" 236 7544 7566 "test_common.ml" 236 7544 7578
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"test_common.ml" 236 7544 7581 "test_common.ml" 236 7544 7595
+type(
+  OUnit.path -> string
+)
+ident(
+  ext_ref OUnit.string_of_path
+)
+"test_common.ml" 236 7544 7596 "test_common.ml" 236 7544 7597
+type(
+  OUnit.path
+)
+ident(
+  int_ref p "test_common.ml" 235 7524 7535 "test_common.ml" 235 7524 7536
+)
+"test_common.ml" 236 7544 7580 "test_common.ml" 236 7544 7598
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 236 7544 7599 "test_common.ml" 236 7544 7600
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 236 7544 7601 "test_common.ml" 236 7544 7607
+type(
+  string
+)
+"test_common.ml" 236 7544 7608 "test_common.ml" 236 7544 7609
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test_common.ml" 236 7544 7610 "test_common.ml" 236 7544 7611
+type(
+  string
+)
+ident(
+  int_ref s "test_common.ml" 235 7524 7537 "test_common.ml" 235 7524 7538
+)
+"test_common.ml" 236 7544 7601 "test_common.ml" 236 7544 7611
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 236 7544 7579 "test_common.ml" 236 7544 7612
+call(
+  stack
+)
+type(
+  string
+)
+"test_common.ml" 236 7544 7552 "test_common.ml" 236 7544 7612
+call(
+  tail
+)
+type(
+  unit
+)
+"test_common.ml" 237 7613 7626 "test_common.ml" 237 7613 7627
+type(
+  OUnit.path
+)
+ident(
+  def p "test_common.ml" 237 7613 7631 "test_common.ml" 237 7613 7633
+)
+"test_common.ml" 237 7613 7617 "test_common.ml" 237 7613 7627
+type(
+  OUnit.test_result
+)
+"test_common.ml" 237 7613 7631 "test_common.ml" 237 7613 7633
+type(
+  unit
+)
+"test_common.ml" 228 7234 7236 "test_common.ml" 237 7613 7633
+type(
+  unit
+)
+"test_common.ml" 239 7637 7645 "test_common.ml" 239 7637 7662
+type(
+  OUnit.test_result list -> 'a option
+)
+ident(
+  def summarize_results "test_common.ml" 239 7637 7637 --
+)
+"test_common.ml" 239 7637 7663 "test_common.ml" 239 7637 7666
+type(
+  OUnit.test_result list
+)
+ident(
+  def res "test_common.ml" 240 7669 7671 "test_common.ml" 242 7701 7747
+)
+"test_common.ml" 240 7669 7677 "test_common.ml" 240 7669 7680
+type(
+  OUnit.test_result list
+)
+ident(
+  int_ref res "test_common.ml" 239 7637 7663 "test_common.ml" 239 7637 7666
+)
+"test_common.ml" 241 7686 7690 "test_common.ml" 241 7686 7692
+type(
+  OUnit.test_result list
+)
+"test_common.ml" 241 7686 7696 "test_common.ml" 241 7686 7700
+type(
+  'a option
+)
+"test_common.ml" 242 7701 7705 "test_common.ml" 242 7701 7706
+type(
+  OUnit.test_result
+)
+ident(
+  def r "test_common.ml" 242 7701 7714 "test_common.ml" 242 7701 7747
+)
+"test_common.ml" 242 7701 7708 "test_common.ml" 242 7701 7710
+type(
+  OUnit.test_result list
+)
+ident(
+  def rs "test_common.ml" 242 7701 7714 "test_common.ml" 242 7701 7747
+)
+"test_common.ml" 242 7701 7705 "test_common.ml" 242 7701 7710
+type(
+  OUnit.test_result list
+)
+"test_common.ml" 242 7701 7714 "test_common.ml" 242 7701 7723
+type(
+  OUnit.test_result -> unit
+)
+ident(
+  int_ref summarize "test_common.ml" 227 7216 7220 "test_common.ml" 227 7216 7229
+)
+"test_common.ml" 242 7701 7724 "test_common.ml" 242 7701 7725
+type(
+  OUnit.test_result
+)
+ident(
+  int_ref r "test_common.ml" 242 7701 7705 "test_common.ml" 242 7701 7706
+)
+"test_common.ml" 242 7701 7714 "test_common.ml" 242 7701 7725
+call(
+  stack
+)
+type(
+  unit
+)
+"test_common.ml" 242 7701 7727 "test_common.ml" 242 7701 7744
+type(
+  OUnit.test_result list -> 'a option
+)
+ident(
+  int_ref summarize_results "test_common.ml" 239 7637 7645 "test_common.ml" 239 7637 7662
+)
+"test_common.ml" 242 7701 7745 "test_common.ml" 242 7701 7747
+type(
+  OUnit.test_result list
+)
+ident(
+  int_ref rs "test_common.ml" 242 7701 7708 "test_common.ml" 242 7701 7710
+)
+"test_common.ml" 242 7701 7727 "test_common.ml" 242 7701 7747
+call(
+  tail
+)
+type(
+  'a option
+)
+"test_common.ml" 242 7701 7714 "test_common.ml" 242 7701 7747
+type(
+  'a option
+)
+"test_common.ml" 240 7669 7671 "test_common.ml" 242 7701 7747
+type(
+  'a option
+)
+"test_common.ml" 244 7751 7755 "test_common.ml" 244 7751 7770
+type(
+  Arch.arch -> Ast.program -> Traces_backtaint.LocSet.t
+)
+ident(
+  def backwards_taint "test_common.ml" 252 8005 8059 --
+)
+"test_common.ml" 244 7751 7771 "test_common.ml" 244 7751 7775
+type(
+  Arch.arch
+)
+ident(
+  def mode "test_common.ml" 244 7751 7776 "test_common.ml" 252 8005 8059
+)
+"test_common.ml" 244 7751 7776 "test_common.ml" 244 7751 7780
+type(
+  Ast.program
+)
+ident(
+  def prog "test_common.ml" 245 7783 7785 "test_common.ml" 252 8005 8059
+)
+"test_common.ml" 245 7783 7789 "test_common.ml" 245 7783 7793
+type(
+  Ast.stmt list
+)
+"test_common.ml" 245 7783 7796 "test_common.ml" 245 7783 7811
+type(
+  Arch.arch -> Ast.program -> Ast.stmt list
+)
+ident(
+  ext_ref Traces.concrete
+)
+"test_common.ml" 245 7783 7812 "test_common.ml" 245 7783 7816
+type(
+  Arch.arch
+)
+ident(
+  int_ref mode "test_common.ml" 244 7751 7771 "test_common.ml" 244 7751 7775
+)
+"test_common.ml" 245 7783 7817 "test_common.ml" 245 7783 7821
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "test_common.ml" 244 7751 7776 "test_common.ml" 244 7751 7780
+)
+"test_common.ml" 245 7783 7796 "test_common.ml" 245 7783 7821
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"test_common.ml" 248 7849 7855 "test_common.ml" 248 7849 7859
+type(
+  Ast.program
+)
+"test_common.ml" 248 7849 7862 "test_common.ml" 248 7849 7893
+type(
+  Ast.program -> Ast.program
+)
+ident(
+  ext_ref Flatten_mem.flatten_mem_program
+)
+"test_common.ml" 248 7849 7894 "test_common.ml" 248 7849 7898
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "test_common.ml" 245 7783 7789 "test_common.ml" 245 7783 7793
+)
+"test_common.ml" 248 7849 7862 "test_common.ml" 248 7849 7898
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"test_common.ml" 251 7933 7939 "test_common.ml" 251 7933 7953
+type(
+  Traces_backtaint.LocSet.t
+)
+"test_common.ml" 251 7933 7956 "test_common.ml" 251 7933 7996
+type(
+  Ast.program -> Traces_backtaint.LocSet.t
+)
+ident(
+  ext_ref Traces_backtaint.identify_fault_location
+)
+"test_common.ml" 251 7933 7997 "test_common.ml" 251 7933 8001
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "test_common.ml" 248 7849 7855 "test_common.ml" 248 7849 7859
+)
+"test_common.ml" 251 7933 7956 "test_common.ml" 251 7933 8001
+call(
+  stack
+)
+type(
+  Traces_backtaint.LocSet.t
+)
+"test_common.ml" 252 8005 8007 "test_common.ml" 252 8005 8039
+type(
+  Ast.program -> Traces_backtaint.LocSet.t -> Traces_backtaint.LocSet.t
+)
+ident(
+  ext_ref Traces_backtaint.backwards_taint
+)
+"test_common.ml" 252 8005 8040 "test_common.ml" 252 8005 8044
+type(
+  Ast.program
+)
+ident(
+  int_ref prog "test_common.ml" 248 7849 7855 "test_common.ml" 248 7849 7859
+)
+"test_common.ml" 252 8005 8045 "test_common.ml" 252 8005 8059
+type(
+  Traces_backtaint.LocSet.t
+)
+ident(
+  int_ref fault_location "test_common.ml" 251 7933 7939 "test_common.ml" 251 7933 7953
+)
+"test_common.ml" 252 8005 8007 "test_common.ml" 252 8005 8059
+call(
+  tail
+)
+type(
+  Traces_backtaint.LocSet.t
+)
+"test_common.ml" 251 7933 7935 "test_common.ml" 252 8005 8059
+type(
+  Traces_backtaint.LocSet.t
+)
+"test_common.ml" 248 7849 7851 "test_common.ml" 252 8005 8059
+type(
+  Traces_backtaint.LocSet.t
+)
+"test_common.ml" 245 7783 7785 "test_common.ml" 252 8005 8059
+type(
+  Traces_backtaint.LocSet.t
+)

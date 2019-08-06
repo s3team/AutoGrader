@@ -1,0 +1,76 @@
+
+llvm.cpp,352
+typedef uint64_t addr_t;13,186
+typedef uint8_t value_t;14,211
+typedef std::map<addr_t,addr_t15,236
+typedef std::map<addr_t,value_t> memory;15,236
+static memory m;17,278
+  void fake_assert(21,310
+  memory create_memory(25,363
+  void set_memory(29,414
+  void set_memory_multi(34,521
+  value_t get_memory(43,721
+  void get_memory_multi(49,897
+
+ocaml_helpers.c,289
+asection* bfd_sections(8,123
+asection* bfd_next_section(12,188
+bfd* asmir_get_bfd(16,252
+enum bfd_flavour bfd_flavour(20,312
+address_t bfd_section_get_vma(24,391
+bfd_size_type bfd_section_get_size(28,456
+const char* bfd_section_get_name(32,527
+int64_t bfd_section_get_flags(36,596
+
+asm_program.c,1621
+#define SHT_PROGBITS 16,274
+#define PT_GNU_STACK 17,352
+struct elf_internal_phdr 19,386
+  unsigned long p_type;20,413
+  unsigned long p_flags;21,491
+  bfd_vma       p_offset;22,551
+  bfd_vma       p_vaddr;23,617
+  bfd_vma       p_paddr;24,687
+  bfd_vma       p_filesz;25,758
+  bfd_vma       p_memsz;26,825
+  bfd_vma       p_align;27,894
+typedef struct elf_internal_phdr Elf_Internal_Phdr;30,977
+static section_t* get_section_of(39,1348
+bfd_byte *asmir_get_ptr_to_instr(asmir_get_ptr_to_instr53,1640
+asmir_open_file(65,1956
+void asmir_close(82,2291
+static int ignore(89,2399
+int asmir_get_instr_length(93,2436
+my_read_memory 106,2824
+static void init_disasm_info2(129,3394
+static void init_disasm_info(148,4106
+static uint8_t trace_instruction_bytes[trace_instruction_bytes157,4384
+static size_t trace_instruction_size;158,4440
+static bfd_vma trace_instruction_addr;159,4478
+void set_trace_bytes(161,4518
+trace_read_memory 168,4706
+bfd_vma asmir_get_base_address(185,5342
+initialize_sections(241,7481
+initialize_bfd(291,8814
+struct bprintf_buffer 327,9730
+  char *str;str328,9754
+  char *end;end329,9794
+  size_t size;330,9864
+int bprintf(333,9902
+char* asmir_string_of_insn(360,10756
+enum bfd_architecture asmir_get_asmp_arch(381,11317
+unsigned long asmir_get_asmp_mach(385,11420
+asm_program_t* asmir_new_asmp_for_arch(391,11640
+asm_program_t* asmir_trace_asmp_for_arch(413,12241
+bfd_vma asmir_get_sec_startaddr(441,12987
+bfd_vma asmir_get_sec_endaddr(472,13690
+bfd_vma asmir_get_start_addr(503,14377
+asection** asmir_get_all_sections(512,14542
+byte_insn_to_asmp(552,15416
+
+symbols.c,196
+static void make_assertions(11,178
+remove_useless_symbols_local 25,467
+asymbol ** asmir_get_all_symbols(48,1031
+asymbol ** asmir_get_symbols(112,2889
+asymbol ** asmir_get_dynsymbols(141,3455

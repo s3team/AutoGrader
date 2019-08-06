@@ -1,0 +1,882 @@
+"worklist.ml" 5 42 46 "worklist.ml" 5 42 52
+type(
+  unit -> 'a list ref
+)
+ident(
+  def create "worklist.ml" 7 66 66 --
+)
+"worklist.ml" 5 42 53 "worklist.ml" 5 42 55
+type(
+  unit
+)
+"worklist.ml" 5 42 58 "worklist.ml" 5 42 61
+type(
+  'a list -> 'a list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"worklist.ml" 5 42 62 "worklist.ml" 5 42 64
+type(
+  'a list
+)
+"worklist.ml" 5 42 58 "worklist.ml" 5 42 64
+type(
+  'a list ref
+)
+"worklist.ml" 7 66 70 "worklist.ml" 7 66 73
+type(
+  'a -> 'a list ref -> unit
+)
+ident(
+  def add "worklist.ml" 14 218 218 --
+)
+"worklist.ml" 7 66 74 "worklist.ml" 7 66 75
+type(
+  'a
+)
+ident(
+  def x "worklist.ml" 7 66 76 "worklist.ml" 12 199 216
+)
+"worklist.ml" 7 66 76 "worklist.ml" 7 66 77
+type(
+  'a list ref
+)
+ident(
+  def w "worklist.ml" 8 80 82 "worklist.ml" 12 199 216
+)
+"worklist.ml" 9 86 90 "worklist.ml" 9 86 99
+type(
+  ('a -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"worklist.ml" 9 86 105 "worklist.ml" 9 86 107
+type(
+  'a
+)
+ident(
+  def x' "worklist.ml" 9 86 111 "worklist.ml" 9 86 136
+)
+"worklist.ml" 9 86 114 "worklist.ml" 9 86 115
+type(
+  'a
+)
+ident(
+  int_ref x "worklist.ml" 7 66 74 "worklist.ml" 7 66 75
+)
+"worklist.ml" 9 86 116 "worklist.ml" 9 86 117
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"worklist.ml" 9 86 118 "worklist.ml" 9 86 120
+type(
+  'a
+)
+ident(
+  int_ref x' "worklist.ml" 9 86 105 "worklist.ml" 9 86 107
+)
+"worklist.ml" 9 86 114 "worklist.ml" 9 86 120
+type(
+  bool
+)
+"worklist.ml" 9 86 126 "worklist.ml" 9 86 131
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"worklist.ml" 9 86 132 "worklist.ml" 9 86 136
+type(
+  exn
+)
+"worklist.ml" 9 86 126 "worklist.ml" 9 86 136
+type(
+  unit
+)
+"worklist.ml" 9 86 111 "worklist.ml" 9 86 136
+type(
+  unit
+)
+"worklist.ml" 9 86 100 "worklist.ml" 9 86 137
+type(
+  'a -> unit
+)
+"worklist.ml" 9 86 138 "worklist.ml" 9 86 139
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"worklist.ml" 9 86 139 "worklist.ml" 9 86 140
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 7 66 76 "worklist.ml" 7 66 77
+)
+"worklist.ml" 9 86 138 "worklist.ml" 9 86 140
+type(
+  'a list
+)
+"worklist.ml" 9 86 90 "worklist.ml" 9 86 140
+call(
+  stack
+)
+type(
+  unit
+)
+"worklist.ml" 11 182 186 "worklist.ml" 11 182 187
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 7 66 76 "worklist.ml" 7 66 77
+)
+"worklist.ml" 11 182 188 "worklist.ml" 11 182 190
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"worklist.ml" 11 182 191 "worklist.ml" 11 182 192
+type(
+  'a
+)
+ident(
+  int_ref x "worklist.ml" 7 66 74 "worklist.ml" 7 66 75
+)
+"worklist.ml" 11 182 196 "worklist.ml" 11 182 197
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"worklist.ml" 11 182 197 "worklist.ml" 11 182 198
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 7 66 76 "worklist.ml" 7 66 77
+)
+"worklist.ml" 11 182 196 "worklist.ml" 11 182 198
+type(
+  'a list
+)
+"worklist.ml" 11 182 191 "worklist.ml" 11 182 198
+type(
+  'a list
+)
+"worklist.ml" 11 182 186 "worklist.ml" 11 182 198
+type(
+  unit
+)
+"worklist.ml" 9 86 90 "worklist.ml" 11 182 198
+type(
+  unit
+)
+"worklist.ml" 12 199 206 "worklist.ml" 12 199 210
+type(
+  exn
+)
+"worklist.ml" 12 199 214 "worklist.ml" 12 199 216
+type(
+  unit
+)
+"worklist.ml" 8 80 82 "worklist.ml" 12 199 216
+type(
+  unit
+)
+"worklist.ml" 14 218 222 "worklist.ml" 14 218 226
+type(
+  'a -> 'a list ref -> unit
+)
+ident(
+  def push "worklist.ml" 16 234 234 --
+)
+"worklist.ml" 14 218 229 "worklist.ml" 14 218 232
+type(
+  'a -> 'a list ref -> unit
+)
+ident(
+  int_ref add "worklist.ml" 7 66 70 "worklist.ml" 7 66 73
+)
+"worklist.ml" 16 234 238 "worklist.ml" 16 234 246
+type(
+  'a list -> 'a list ref -> unit
+)
+ident(
+  def add_list "worklist.ml" 19 287 287 --
+)
+"worklist.ml" 16 234 247 "worklist.ml" 16 234 248
+type(
+  'a list
+)
+ident(
+  def l "worklist.ml" 16 234 249 "worklist.ml" 17 253 285
+)
+"worklist.ml" 16 234 249 "worklist.ml" 16 234 250
+type(
+  'a list ref
+)
+ident(
+  def w "worklist.ml" 17 253 255 "worklist.ml" 17 253 285
+)
+"worklist.ml" 17 253 255 "worklist.ml" 17 253 264
+type(
+  ('a -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"worklist.ml" 17 253 270 "worklist.ml" 17 253 271
+type(
+  'a
+)
+ident(
+  def e "worklist.ml" 17 253 275 "worklist.ml" 17 253 282
+)
+"worklist.ml" 17 253 275 "worklist.ml" 17 253 278
+type(
+  'a -> 'a list ref -> unit
+)
+ident(
+  int_ref add "worklist.ml" 7 66 70 "worklist.ml" 7 66 73
+)
+"worklist.ml" 17 253 279 "worklist.ml" 17 253 280
+type(
+  'a
+)
+ident(
+  int_ref e "worklist.ml" 17 253 270 "worklist.ml" 17 253 271
+)
+"worklist.ml" 17 253 281 "worklist.ml" 17 253 282
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 16 234 249 "worklist.ml" 16 234 250
+)
+"worklist.ml" 17 253 275 "worklist.ml" 17 253 282
+call(
+  tail
+)
+type(
+  unit
+)
+"worklist.ml" 17 253 265 "worklist.ml" 17 253 283
+type(
+  'a -> unit
+)
+"worklist.ml" 17 253 284 "worklist.ml" 17 253 285
+type(
+  'a list
+)
+ident(
+  int_ref l "worklist.ml" 16 234 247 "worklist.ml" 16 234 248
+)
+"worklist.ml" 17 253 255 "worklist.ml" 17 253 285
+call(
+  tail
+)
+type(
+  unit
+)
+"worklist.ml" 19 287 291 "worklist.ml" 19 287 295
+type(
+  'a list ref -> 'a
+)
+ident(
+  def take "worklist.ml" 23 361 361 --
+)
+"worklist.ml" 19 287 296 "worklist.ml" 19 287 297
+type(
+  'a list ref
+)
+ident(
+  def w "worklist.ml" 19 287 300 "worklist.ml" 21 338 359
+)
+"worklist.ml" 19 287 306 "worklist.ml" 19 287 307
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"worklist.ml" 19 287 307 "worklist.ml" 19 287 308
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 19 287 296 "worklist.ml" 19 287 297
+)
+"worklist.ml" 19 287 306 "worklist.ml" 19 287 308
+type(
+  'a list
+)
+"worklist.ml" 20 314 318 "worklist.ml" 20 314 319
+type(
+  'a
+)
+ident(
+  def h "worklist.ml" 20 314 327 "worklist.ml" 20 314 337
+)
+"worklist.ml" 20 314 321 "worklist.ml" 20 314 323
+type(
+  'a list
+)
+ident(
+  def tl "worklist.ml" 20 314 327 "worklist.ml" 20 314 337
+)
+"worklist.ml" 20 314 318 "worklist.ml" 20 314 323
+type(
+  'a list
+)
+"worklist.ml" 20 314 327 "worklist.ml" 20 314 328
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 19 287 296 "worklist.ml" 19 287 297
+)
+"worklist.ml" 20 314 329 "worklist.ml" 20 314 331
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"worklist.ml" 20 314 332 "worklist.ml" 20 314 334
+type(
+  'a list
+)
+ident(
+  int_ref tl "worklist.ml" 20 314 321 "worklist.ml" 20 314 323
+)
+"worklist.ml" 20 314 327 "worklist.ml" 20 314 334
+type(
+  unit
+)
+"worklist.ml" 20 314 336 "worklist.ml" 20 314 337
+type(
+  'a
+)
+ident(
+  int_ref h "worklist.ml" 20 314 318 "worklist.ml" 20 314 319
+)
+"worklist.ml" 20 314 327 "worklist.ml" 20 314 337
+type(
+  'a
+)
+"worklist.ml" 21 338 342 "worklist.ml" 21 338 344
+type(
+  'a list
+)
+"worklist.ml" 21 338 348 "worklist.ml" 21 338 353
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"worklist.ml" 21 338 354 "worklist.ml" 21 338 359
+type(
+  exn
+)
+"worklist.ml" 21 338 348 "worklist.ml" 21 338 359
+type(
+  'a
+)
+"worklist.ml" 19 287 300 "worklist.ml" 21 338 359
+type(
+  'a
+)
+"worklist.ml" 23 361 365 "worklist.ml" 23 361 371
+type(
+  ('a -> bool) -> 'a list ref -> unit
+)
+ident(
+  def filter "worklist.ml" 26 403 403 --
+)
+"worklist.ml" 23 361 372 "worklist.ml" 23 361 373
+type(
+  'a -> bool
+)
+ident(
+  def f "worklist.ml" 23 361 374 "worklist.ml" 24 378 401
+)
+"worklist.ml" 23 361 374 "worklist.ml" 23 361 375
+type(
+  'a list ref
+)
+ident(
+  def w "worklist.ml" 24 378 380 "worklist.ml" 24 378 401
+)
+"worklist.ml" 24 378 380 "worklist.ml" 24 378 381
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 23 361 374 "worklist.ml" 23 361 375
+)
+"worklist.ml" 24 378 382 "worklist.ml" 24 378 384
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"worklist.ml" 24 378 385 "worklist.ml" 24 378 396
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.filter
+)
+"worklist.ml" 24 378 397 "worklist.ml" 24 378 398
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "worklist.ml" 23 361 372 "worklist.ml" 23 361 373
+)
+"worklist.ml" 24 378 399 "worklist.ml" 24 378 400
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"worklist.ml" 24 378 400 "worklist.ml" 24 378 401
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 23 361 374 "worklist.ml" 23 361 375
+)
+"worklist.ml" 24 378 399 "worklist.ml" 24 378 401
+type(
+  'a list
+)
+"worklist.ml" 24 378 385 "worklist.ml" 24 378 401
+call(
+  stack
+)
+type(
+  'a list
+)
+"worklist.ml" 24 378 380 "worklist.ml" 24 378 401
+type(
+  unit
+)
+"worklist.ml" 26 403 407 "worklist.ml" 26 403 410
+type(
+  'a list ref -> 'a
+)
+ident(
+  def pop "worklist.ml" 28 419 419 --
+)
+"worklist.ml" 26 403 413 "worklist.ml" 26 403 417
+type(
+  'a list ref -> 'a
+)
+ident(
+  int_ref take "worklist.ml" 19 287 291 "worklist.ml" 19 287 295
+)
+"worklist.ml" 28 419 423 "worklist.ml" 28 419 427
+type(
+  'a list ref -> 'a
+)
+ident(
+  def peek "worklist.ml" 32 484 484 --
+)
+"worklist.ml" 28 419 428 "worklist.ml" 28 419 429
+type(
+  'a list ref
+)
+ident(
+  def w "worklist.ml" 28 419 432 "worklist.ml" 30 461 482
+)
+"worklist.ml" 28 419 438 "worklist.ml" 28 419 439
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"worklist.ml" 28 419 439 "worklist.ml" 28 419 440
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 28 419 428 "worklist.ml" 28 419 429
+)
+"worklist.ml" 28 419 438 "worklist.ml" 28 419 440
+type(
+  'a list
+)
+"worklist.ml" 29 446 450 "worklist.ml" 29 446 451
+type(
+  'a
+)
+ident(
+  def h "worklist.ml" 29 446 459 "worklist.ml" 29 446 460
+)
+"worklist.ml" 29 446 453 "worklist.ml" 29 446 455
+type(
+  'a list
+)
+ident(
+  def tl "worklist.ml" 29 446 459 "worklist.ml" 29 446 460
+)
+"worklist.ml" 29 446 450 "worklist.ml" 29 446 455
+type(
+  'a list
+)
+"worklist.ml" 29 446 459 "worklist.ml" 29 446 460
+type(
+  'a
+)
+ident(
+  int_ref h "worklist.ml" 29 446 450 "worklist.ml" 29 446 451
+)
+"worklist.ml" 30 461 465 "worklist.ml" 30 461 467
+type(
+  'a list
+)
+"worklist.ml" 30 461 471 "worklist.ml" 30 461 476
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"worklist.ml" 30 461 477 "worklist.ml" 30 461 482
+type(
+  exn
+)
+"worklist.ml" 30 461 471 "worklist.ml" 30 461 482
+type(
+  'a
+)
+"worklist.ml" 28 419 432 "worklist.ml" 30 461 482
+type(
+  'a
+)
+"worklist.ml" 32 484 488 "worklist.ml" 32 484 491
+type(
+  'a list ref -> 'a
+)
+ident(
+  def top "worklist.ml" 34 500 500 --
+)
+"worklist.ml" 32 484 494 "worklist.ml" 32 484 498
+type(
+  'a list ref -> 'a
+)
+ident(
+  int_ref peek "worklist.ml" 28 419 423 "worklist.ml" 28 419 427
+)
+"worklist.ml" 34 500 504 "worklist.ml" 34 500 507
+type(
+  'a ref -> 'a
+)
+ident(
+  def all "worklist.ml" 36 516 516 --
+)
+"worklist.ml" 34 500 508 "worklist.ml" 34 500 509
+type(
+  'a ref
+)
+ident(
+  def w "worklist.ml" 34 500 512 "worklist.ml" 34 500 514
+)
+"worklist.ml" 34 500 512 "worklist.ml" 34 500 513
+type(
+  'a ref -> 'a
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"worklist.ml" 34 500 513 "worklist.ml" 34 500 514
+type(
+  'a ref
+)
+ident(
+  int_ref w "worklist.ml" 34 500 508 "worklist.ml" 34 500 509
+)
+"worklist.ml" 34 500 512 "worklist.ml" 34 500 514
+type(
+  'a
+)
+"worklist.ml" 36 516 520 "worklist.ml" 36 516 525
+type(
+  'a list ref -> unit
+)
+ident(
+  def clear "worklist.ml" 38 539 539 --
+)
+"worklist.ml" 36 516 526 "worklist.ml" 36 516 527
+type(
+  'a list ref
+)
+ident(
+  def w "worklist.ml" 36 516 530 "worklist.ml" 36 516 537
+)
+"worklist.ml" 36 516 530 "worklist.ml" 36 516 531
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 36 516 526 "worklist.ml" 36 516 527
+)
+"worklist.ml" 36 516 532 "worklist.ml" 36 516 534
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"worklist.ml" 36 516 535 "worklist.ml" 36 516 537
+type(
+  'a list
+)
+"worklist.ml" 36 516 530 "worklist.ml" 36 516 537
+type(
+  unit
+)
+"worklist.ml" 38 539 543 "worklist.ml" 38 539 551
+type(
+  'a list ref -> bool
+)
+ident(
+  def is_empty "worklist.ml" 40 565 565 --
+)
+"worklist.ml" 38 539 552 "worklist.ml" 38 539 553
+type(
+  'a list ref
+)
+ident(
+  def w "worklist.ml" 38 539 556 "worklist.ml" 38 539 563
+)
+"worklist.ml" 38 539 556 "worklist.ml" 38 539 557
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"worklist.ml" 38 539 557 "worklist.ml" 38 539 558
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 38 539 552 "worklist.ml" 38 539 553
+)
+"worklist.ml" 38 539 556 "worklist.ml" 38 539 558
+type(
+  'a list
+)
+"worklist.ml" 38 539 559 "worklist.ml" 38 539 560
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"worklist.ml" 38 539 561 "worklist.ml" 38 539 563
+type(
+  'a list
+)
+"worklist.ml" 38 539 556 "worklist.ml" 38 539 563
+type(
+  bool
+)
+"worklist.ml" 40 565 569 "worklist.ml" 40 565 575
+type(
+  'a list ref -> int
+)
+ident(
+  def length "worklist.ml" 42 596 596 --
+)
+"worklist.ml" 40 565 576 "worklist.ml" 40 565 577
+type(
+  'a list ref
+)
+ident(
+  def w "worklist.ml" 40 565 580 "worklist.ml" 40 565 594
+)
+"worklist.ml" 40 565 580 "worklist.ml" 40 565 591
+type(
+  'a list -> int
+)
+ident(
+  ext_ref List.length
+)
+"worklist.ml" 40 565 592 "worklist.ml" 40 565 593
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"worklist.ml" 40 565 593 "worklist.ml" 40 565 594
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 40 565 576 "worklist.ml" 40 565 577
+)
+"worklist.ml" 40 565 592 "worklist.ml" 40 565 594
+type(
+  'a list
+)
+"worklist.ml" 40 565 580 "worklist.ml" 40 565 594
+call(
+  tail
+)
+type(
+  int
+)
+"worklist.ml" 42 596 600 "worklist.ml" 42 596 604
+type(
+  ('a -> unit) -> 'a list ref -> unit
+)
+ident(
+  def iter "worklist.ml" 44 627 627 --
+)
+"worklist.ml" 42 596 605 "worklist.ml" 42 596 606
+type(
+  'a -> unit
+)
+ident(
+  def f "worklist.ml" 42 596 607 "worklist.ml" 42 596 625
+)
+"worklist.ml" 42 596 607 "worklist.ml" 42 596 608
+type(
+  'a list ref
+)
+ident(
+  def w "worklist.ml" 42 596 611 "worklist.ml" 42 596 625
+)
+"worklist.ml" 42 596 611 "worklist.ml" 42 596 620
+type(
+  ('a -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"worklist.ml" 42 596 621 "worklist.ml" 42 596 622
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "worklist.ml" 42 596 605 "worklist.ml" 42 596 606
+)
+"worklist.ml" 42 596 623 "worklist.ml" 42 596 624
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"worklist.ml" 42 596 624 "worklist.ml" 42 596 625
+type(
+  'a list ref
+)
+ident(
+  int_ref w "worklist.ml" 42 596 607 "worklist.ml" 42 596 608
+)
+"worklist.ml" 42 596 623 "worklist.ml" 42 596 625
+type(
+  'a list
+)
+"worklist.ml" 42 596 611 "worklist.ml" 42 596 625
+call(
+  tail
+)
+type(
+  unit
+)
+"worklist.ml" 44 627 631 "worklist.ml" 44 627 635
+type(
+  ('a -> 'b -> 'a) -> 'a -> 'b list ref -> 'a
+)
+ident(
+  def fold "worklist.ml" 44 627 665 --
+)
+"worklist.ml" 44 627 636 "worklist.ml" 44 627 637
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  def f "worklist.ml" 44 627 638 "worklist.ml" 44 627 665
+)
+"worklist.ml" 44 627 638 "worklist.ml" 44 627 639
+type(
+  'a
+)
+ident(
+  def a "worklist.ml" 44 627 640 "worklist.ml" 44 627 665
+)
+"worklist.ml" 44 627 640 "worklist.ml" 44 627 641
+type(
+  'b list ref
+)
+ident(
+  def w "worklist.ml" 44 627 644 "worklist.ml" 44 627 665
+)
+"worklist.ml" 44 627 644 "worklist.ml" 44 627 658
+type(
+  ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
+)
+ident(
+  ext_ref List.fold_left
+)
+"worklist.ml" 44 627 659 "worklist.ml" 44 627 660
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  int_ref f "worklist.ml" 44 627 636 "worklist.ml" 44 627 637
+)
+"worklist.ml" 44 627 661 "worklist.ml" 44 627 662
+type(
+  'a
+)
+ident(
+  int_ref a "worklist.ml" 44 627 638 "worklist.ml" 44 627 639
+)
+"worklist.ml" 44 627 663 "worklist.ml" 44 627 664
+type(
+  'b list ref -> 'b list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"worklist.ml" 44 627 664 "worklist.ml" 44 627 665
+type(
+  'b list ref
+)
+ident(
+  int_ref w "worklist.ml" 44 627 640 "worklist.ml" 44 627 641
+)
+"worklist.ml" 44 627 663 "worklist.ml" 44 627 665
+type(
+  'b list
+)
+"worklist.ml" 44 627 644 "worklist.ml" 44 627 665
+call(
+  tail
+)
+type(
+  'a
+)

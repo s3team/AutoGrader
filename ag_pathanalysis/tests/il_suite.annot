@@ -1,0 +1,304 @@
+"il_suite.ml" 4 13 17 "il_suite.ml" 4 13 33
+type(
+  'a -> unit
+)
+ident(
+  def test_input_fails "il_suite.ml" 7 119 119 --
+)
+"il_suite.ml" 4 13 34 "il_suite.ml" 4 13 35
+type(
+  'a
+)
+"il_suite.ml" 5 38 40 "il_suite.ml" 5 38 53
+type(
+  ?msg:string ->
+  exn ->
+  (unit -> Ast.program * Grammar_scope.Scope.t * Arch.arch option) -> unit
+)
+ident(
+  ext_ref OUnit.assert_raises
+)
+"il_suite.ml" 5 38 63 "il_suite.ml" 5 38 83
+type(
+  string
+)
+"il_suite.ml" 5 38 54 "il_suite.ml" 5 38 84
+type(
+  exn
+)
+"il_suite.ml" 5 38 90 "il_suite.ml" 5 38 91
+type(
+  unit
+)
+"il_suite.ml" 5 38 95 "il_suite.ml" 5 38 112
+type(
+  unit -> Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+ident(
+  ext_ref Input.get_program
+)
+"il_suite.ml" 5 38 112 "il_suite.ml" 5 38 114
+type(
+  unit
+)
+"il_suite.ml" 5 38 95 "il_suite.ml" 5 38 114
+call(
+  tail
+)
+type(
+  Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"il_suite.ml" 5 38 85 "il_suite.ml" 5 38 115
+type(
+  unit -> Ast.program * Grammar_scope.Scope.t * Arch.arch option
+)
+"il_suite.ml" 5 38 40 "il_suite.ml" 5 38 115
+call(
+  tail
+)
+type(
+  unit
+)
+"il_suite.ml" 7 119 123 "il_suite.ml" 7 119 137
+type(
+  unit -> unit
+)
+ident(
+  def test_input_nop "il_suite.ml" 24 618 618 --
+)
+"il_suite.ml" 7 119 138 "il_suite.ml" 7 119 140
+type(
+  unit
+)
+"il_suite.ml" 8 144 150 "il_suite.ml" 8 144 151
+type(
+  Asmir.asmprogram
+)
+"il_suite.ml" 8 144 154 "il_suite.ml" 8 144 172
+type(
+  ?base:Type.addr -> ?target:string -> string -> Asmir.asmprogram
+)
+ident(
+  ext_ref Asmir.open_program
+)
+"il_suite.ml" 8 144 173 "il_suite.ml" 8 144 184
+type(
+  string
+)
+"il_suite.ml" 8 144 154 "il_suite.ml" 8 144 184
+call(
+  stack
+)
+type(
+  Asmir.asmprogram
+)
+"il_suite.ml" 9 188 194 "il_suite.ml" 9 188 199
+type(
+  Ast.program
+)
+"il_suite.ml" 9 188 202 "il_suite.ml" 9 188 225
+type(
+  ?init_ro:bool -> Asmir.asmprogram -> Ast.program
+)
+ident(
+  ext_ref Asmir.asmprogram_to_bap
+)
+"il_suite.ml" 9 188 226 "il_suite.ml" 9 188 227
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "il_suite.ml" 8 144 150 "il_suite.ml" 8 144 151
+)
+"il_suite.ml" 9 188 202 "il_suite.ml" 9 188 227
+call(
+  stack
+)
+type(
+  Ast.program
+)
+"il_suite.ml" 10 231 239 "il_suite.ml" 10 231 244
+type(
+  Ast.program
+)
+ident(
+  int_ref stmts "il_suite.ml" 9 188 194 "il_suite.ml" 9 188 199
+)
+"il_suite.ml" 11 250 253 "il_suite.ml" 11 250 255
+type(
+  Ast.program
+)
+"il_suite.ml" 12 260 267 "il_suite.ml" 12 260 268
+type(
+  string
+)
+"il_suite.ml" 13 272 274 "il_suite.ml" 14 346 370
+type(
+  string
+)
+"il_suite.ml" 15 374 377 "il_suite.ml" 15 374 391
+type(
+  string -> unit
+)
+ident(
+  ext_ref OUnit.assert_failure
+)
+"il_suite.ml" 15 374 392 "il_suite.ml" 15 374 393
+type(
+  string
+)
+ident(
+  int_ref s "il_suite.ml" 12 260 267 "il_suite.ml" 12 260 268
+)
+"il_suite.ml" 15 374 377 "il_suite.ml" 15 374 393
+call(
+  tail
+)
+type(
+  unit
+)
+"il_suite.ml" 12 260 263 "il_suite.ml" 15 374 393
+type(
+  unit
+)
+"il_suite.ml" 16 394 397 "il_suite.ml" 16 394 401
+type(
+  Ast.stmt
+)
+ident(
+  def stmt "il_suite.ml" 19 526 529 "il_suite.ml" 21 545 615
+)
+"il_suite.ml" 16 394 403 "il_suite.ml" 16 394 408
+type(
+  Ast.stmt list
+)
+ident(
+  def stmts "il_suite.ml" 19 526 529 "il_suite.ml" 21 545 615
+)
+"il_suite.ml" 16 394 397 "il_suite.ml" 16 394 408
+type(
+  Ast.program
+)
+"il_suite.ml" 19 526 529 "il_suite.ml" 19 526 536
+type(
+  bool -> string -> unit
+)
+ident(
+  ext_ref OUnit.skip_if
+)
+"il_suite.ml" 20 538 540 "il_suite.ml" 20 538 544
+type(
+  bool
+)
+"il_suite.ml" 21 545 548 "il_suite.ml" 21 545 585
+type(
+  string
+)
+"il_suite.ml" 21 545 585 "il_suite.ml" 21 545 586
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"il_suite.ml" 21 545 587 "il_suite.ml" 21 545 608
+type(
+  Ast.stmt -> string
+)
+ident(
+  ext_ref Pp.ast_stmt_to_string
+)
+"il_suite.ml" 21 545 609 "il_suite.ml" 21 545 613
+type(
+  Ast.stmt
+)
+ident(
+  int_ref stmt "il_suite.ml" 16 394 397 "il_suite.ml" 16 394 401
+)
+"il_suite.ml" 21 545 586 "il_suite.ml" 21 545 614
+call(
+  stack
+)
+type(
+  string
+)
+"il_suite.ml" 21 545 547 "il_suite.ml" 21 545 615
+call(
+  stack
+)
+type(
+  string
+)
+"il_suite.ml" 19 526 529 "il_suite.ml" 21 545 615
+call(
+  tail
+)
+type(
+  unit
+)
+"il_suite.ml" 10 231 233 "il_suite.ml" 21 545 615
+type(
+  unit
+)
+"il_suite.ml" 9 188 190 "il_suite.ml" 21 545 615
+type(
+  unit
+)
+"il_suite.ml" 8 144 146 "il_suite.ml" 21 545 615
+type(
+  unit
+)
+"il_suite.ml" 24 618 622 "il_suite.ml" 24 618 627
+type(
+  OUnit.test
+)
+ident(
+  def suite "il_suite.ml" 28 731 734 --
+)
+"il_suite.ml" 24 618 630 "il_suite.ml" 24 618 634
+type(
+  string
+)
+"il_suite.ml" 24 618 635 "il_suite.ml" 24 618 639
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"il_suite.ml" 26 645 646 "il_suite.ml" 26 645 664
+type(
+  string
+)
+"il_suite.ml" 26 645 665 "il_suite.ml" 26 645 668
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"il_suite.ml" 26 645 669 "il_suite.ml" 26 645 685
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test_input_fails "il_suite.ml" 4 13 17 "il_suite.ml" 4 13 33
+)
+"il_suite.ml" 26 645 646 "il_suite.ml" 26 645 685
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"il_suite.ml" 25 641 643 "il_suite.ml" 28 731 734
+type(
+  OUnit.test list
+)
+"il_suite.ml" 24 618 630 "il_suite.ml" 28 731 734
+call(
+  stack
+)
+type(
+  OUnit.test
+)

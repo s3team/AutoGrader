@@ -1,0 +1,2254 @@
+"asmir_rdisasm.ml" 6 87 120 "asmir_rdisasm.ml" 6 87 124
+type(
+  string
+)
+ident(
+  def name "asmir_rdisasm.ml" 6 87 163 "asmir_rdisasm.ml" 6 87 167
+)
+"asmir_rdisasm.ml" 6 87 127 "asmir_rdisasm.ml" 6 87 142
+type(
+  string
+)
+"asmir_rdisasm.ml" 6 87 147 "asmir_rdisasm.ml" 6 87 154
+type(
+  [> `NoDebug ]
+)
+ident(
+  def default "asmir_rdisasm.ml" 6 87 163 "asmir_rdisasm.ml" 6 87 167
+)
+"asmir_rdisasm.ml" 6 87 155 "asmir_rdisasm.ml" 6 87 163
+type(
+  [> `NoDebug ] as 'a
+)
+"asmir_rdisasm.ml" 6 87 98 "asmir_rdisasm.ml" 6 87 168
+call(
+  stack
+)
+"asmir_rdisasm.ml" 10 187 191 "asmir_rdisasm.ml" 10 187 199
+type(
+  Ast.exp -> Big_int_Z.big_int option
+)
+ident(
+  def get_addr "asmir_rdisasm.ml" 15 269 269 --
+)
+"asmir_rdisasm.ml" 10 187 200 "asmir_rdisasm.ml" 10 187 204
+type(
+  Ast.exp
+)
+ident(
+  def expr "asmir_rdisasm.ml" 11 207 209 "asmir_rdisasm.ml" 13 254 267
+)
+"asmir_rdisasm.ml" 11 207 215 "asmir_rdisasm.ml" 11 207 219
+type(
+  Ast.exp
+)
+ident(
+  int_ref expr "asmir_rdisasm.ml" 10 187 200 "asmir_rdisasm.ml" 10 187 204
+)
+"asmir_rdisasm.ml" 12 225 238 "asmir_rdisasm.ml" 12 225 239
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def i "asmir_rdisasm.ml" 12 225 247 "asmir_rdisasm.ml" 12 225 253
+)
+"asmir_rdisasm.ml" 12 225 241 "asmir_rdisasm.ml" 12 225 242
+type(
+  Type.typ
+)
+"asmir_rdisasm.ml" 12 225 237 "asmir_rdisasm.ml" 12 225 243
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"asmir_rdisasm.ml" 12 225 229 "asmir_rdisasm.ml" 12 225 243
+type(
+  Ast.exp
+)
+"asmir_rdisasm.ml" 12 225 252 "asmir_rdisasm.ml" 12 225 253
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref i "asmir_rdisasm.ml" 12 225 238 "asmir_rdisasm.ml" 12 225 239
+)
+"asmir_rdisasm.ml" 12 225 247 "asmir_rdisasm.ml" 12 225 253
+type(
+  Big_int_Z.big_int option
+)
+"asmir_rdisasm.ml" 13 254 258 "asmir_rdisasm.ml" 13 254 259
+type(
+  Ast.exp
+)
+"asmir_rdisasm.ml" 13 254 263 "asmir_rdisasm.ml" 13 254 267
+type(
+  Big_int_Z.big_int option
+)
+"asmir_rdisasm.ml" 11 207 209 "asmir_rdisasm.ml" 13 254 267
+type(
+  Big_int_Z.big_int option
+)
+"asmir_rdisasm.ml" 15 269 273 "asmir_rdisasm.ml" 15 269 285
+type(
+  ('a -> 'b option) -> 'b list -> 'a -> 'b list
+)
+ident(
+  def collect_some "asmir_rdisasm.ml" 20 347 347 --
+)
+"asmir_rdisasm.ml" 15 269 286 "asmir_rdisasm.ml" 15 269 287
+type(
+  'a -> 'b option
+)
+ident(
+  def f "asmir_rdisasm.ml" 15 269 288 "asmir_rdisasm.ml" 18 332 345
+)
+"asmir_rdisasm.ml" 15 269 288 "asmir_rdisasm.ml" 15 269 289
+type(
+  'b list
+)
+ident(
+  def l "asmir_rdisasm.ml" 15 269 290 "asmir_rdisasm.ml" 18 332 345
+)
+"asmir_rdisasm.ml" 15 269 290 "asmir_rdisasm.ml" 15 269 291
+type(
+  'a
+)
+ident(
+  def x "asmir_rdisasm.ml" 16 294 296 "asmir_rdisasm.ml" 18 332 345
+)
+"asmir_rdisasm.ml" 16 294 302 "asmir_rdisasm.ml" 16 294 303
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref f "asmir_rdisasm.ml" 15 269 286 "asmir_rdisasm.ml" 15 269 287
+)
+"asmir_rdisasm.ml" 16 294 304 "asmir_rdisasm.ml" 16 294 305
+type(
+  'a
+)
+ident(
+  int_ref x "asmir_rdisasm.ml" 15 269 290 "asmir_rdisasm.ml" 15 269 291
+)
+"asmir_rdisasm.ml" 16 294 302 "asmir_rdisasm.ml" 16 294 305
+call(
+  stack
+)
+type(
+  'b option
+)
+"asmir_rdisasm.ml" 17 311 320 "asmir_rdisasm.ml" 17 311 321
+type(
+  'b
+)
+ident(
+  def i "asmir_rdisasm.ml" 17 311 325 "asmir_rdisasm.ml" 17 311 331
+)
+"asmir_rdisasm.ml" 17 311 315 "asmir_rdisasm.ml" 17 311 321
+type(
+  'b option
+)
+"asmir_rdisasm.ml" 17 311 325 "asmir_rdisasm.ml" 17 311 326
+type(
+  'b
+)
+ident(
+  int_ref i "asmir_rdisasm.ml" 17 311 320 "asmir_rdisasm.ml" 17 311 321
+)
+"asmir_rdisasm.ml" 17 311 330 "asmir_rdisasm.ml" 17 311 331
+type(
+  'b list
+)
+ident(
+  int_ref l "asmir_rdisasm.ml" 15 269 288 "asmir_rdisasm.ml" 15 269 289
+)
+"asmir_rdisasm.ml" 17 311 325 "asmir_rdisasm.ml" 17 311 331
+type(
+  'b list
+)
+"asmir_rdisasm.ml" 18 332 336 "asmir_rdisasm.ml" 18 332 340
+type(
+  'b option
+)
+"asmir_rdisasm.ml" 18 332 344 "asmir_rdisasm.ml" 18 332 345
+type(
+  'b list
+)
+ident(
+  int_ref l "asmir_rdisasm.ml" 15 269 288 "asmir_rdisasm.ml" 15 269 289
+)
+"asmir_rdisasm.ml" 16 294 296 "asmir_rdisasm.ml" 18 332 345
+type(
+  'b list
+)
+"asmir_rdisasm.ml" 20 347 351 "asmir_rdisasm.ml" 20 347 356
+type(
+  Type.typ
+)
+ident(
+  def addrt "asmir_rdisasm.ml" 26 511 511 --
+)
+"asmir_rdisasm.ml" 20 347 363 "asmir_rdisasm.ml" 20 347 365
+type(
+  int
+)
+"asmir_rdisasm.ml" 20 347 359 "asmir_rdisasm.ml" 20 347 365
+type(
+  Type.typ
+)
+"asmir_rdisasm.ml" 26 511 515 "asmir_rdisasm.ml" 26 511 529
+type(
+  Ast.stmt list -> Big_int_Z.big_int -> Big_int_Z.big_int list
+)
+ident(
+  def get_code_addrs "asmir_rdisasm.ml" 72 2290 2290 --
+)
+"asmir_rdisasm.ml" 26 511 530 "asmir_rdisasm.ml" 26 511 535
+type(
+  Ast.stmt list
+)
+ident(
+  def stmts "asmir_rdisasm.ml" 26 511 536 "asmir_rdisasm.ml" 70 2251 2288
+)
+"asmir_rdisasm.ml" 26 511 536 "asmir_rdisasm.ml" 26 511 540
+type(
+  Big_int_Z.big_int
+)
+ident(
+  def next "asmir_rdisasm.ml" 27 543 545 "asmir_rdisasm.ml" 70 2251 2288
+)
+"asmir_rdisasm.ml" 28 553 557 "asmir_rdisasm.ml" 28 553 572
+type(
+  Ast.stmt list -> Big_int_Z.big_int list -> Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 28 553 573 "asmir_rdisasm.ml" 28 553 578
+type(
+  Ast.stmt list
+)
+ident(
+  def stmts "asmir_rdisasm.ml" 28 553 579 "asmir_rdisasm.ml" 66 2091 2134
+)
+"asmir_rdisasm.ml" 28 553 579 "asmir_rdisasm.ml" 28 553 580
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  def l "asmir_rdisasm.ml" 29 583 589 "asmir_rdisasm.ml" 66 2091 2134
+)
+"asmir_rdisasm.ml" 29 583 595 "asmir_rdisasm.ml" 29 583 600
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref stmts "asmir_rdisasm.ml" 28 553 573 "asmir_rdisasm.ml" 28 553 578
+)
+"asmir_rdisasm.ml" 48 1352 1360 "asmir_rdisasm.ml" 48 1352 1362
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 48 1352 1366 "asmir_rdisasm.ml" 48 1352 1370
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref next "asmir_rdisasm.ml" 26 511 536 "asmir_rdisasm.ml" 26 511 540
+)
+"asmir_rdisasm.ml" 48 1352 1374 "asmir_rdisasm.ml" 48 1352 1375
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  int_ref l "asmir_rdisasm.ml" 28 553 579 "asmir_rdisasm.ml" 28 553 580
+)
+"asmir_rdisasm.ml" 48 1352 1366 "asmir_rdisasm.ml" 48 1352 1375
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 49 1376 1394 "asmir_rdisasm.ml" 49 1376 1395
+type(
+  Ast.exp
+)
+ident(
+  def e "asmir_rdisasm.ml" 50 1413 1421 "asmir_rdisasm.ml" 54 1617 1637
+)
+"asmir_rdisasm.ml" 49 1376 1397 "asmir_rdisasm.ml" 49 1376 1402
+type(
+  Ast.attrs
+)
+ident(
+  def attrs "asmir_rdisasm.ml" 50 1413 1421 "asmir_rdisasm.ml" 54 1617 1637
+)
+"asmir_rdisasm.ml" 49 1376 1393 "asmir_rdisasm.ml" 49 1376 1403
+type(
+  Ast.exp * Ast.attrs
+)
+"asmir_rdisasm.ml" 49 1376 1384 "asmir_rdisasm.ml" 49 1376 1404
+type(
+  Ast.stmt
+)
+"asmir_rdisasm.ml" 49 1376 1408 "asmir_rdisasm.ml" 49 1376 1409
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 49 1376 1384 "asmir_rdisasm.ml" 49 1376 1409
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 50 1413 1425 "asmir_rdisasm.ml" 50 1413 1430
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 50 1413 1433 "asmir_rdisasm.ml" 50 1413 1445
+type(
+  (Ast.exp -> Big_int_Z.big_int option) ->
+  Big_int_Z.big_int list -> Ast.exp -> Big_int_Z.big_int list
+)
+ident(
+  int_ref collect_some "asmir_rdisasm.ml" 15 269 273 "asmir_rdisasm.ml" 15 269 285
+)
+"asmir_rdisasm.ml" 50 1413 1446 "asmir_rdisasm.ml" 50 1413 1454
+type(
+  Ast.exp -> Big_int_Z.big_int option
+)
+ident(
+  int_ref get_addr "asmir_rdisasm.ml" 10 187 191 "asmir_rdisasm.ml" 10 187 199
+)
+"asmir_rdisasm.ml" 50 1413 1455 "asmir_rdisasm.ml" 50 1413 1456
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  int_ref l "asmir_rdisasm.ml" 28 553 579 "asmir_rdisasm.ml" 28 553 580
+)
+"asmir_rdisasm.ml" 50 1413 1457 "asmir_rdisasm.ml" 50 1413 1458
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "asmir_rdisasm.ml" 49 1376 1394 "asmir_rdisasm.ml" 49 1376 1395
+)
+"asmir_rdisasm.ml" 50 1413 1433 "asmir_rdisasm.ml" 50 1413 1458
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 52 1538 1551 "asmir_rdisasm.ml" 52 1538 1559
+type(
+  Type.attribute -> Ast.attrs -> bool
+)
+ident(
+  ext_ref BatListFull.List.mem
+)
+"asmir_rdisasm.ml" 52 1538 1574 "asmir_rdisasm.ml" 52 1538 1580
+type(
+  string
+)
+"asmir_rdisasm.ml" 52 1538 1560 "asmir_rdisasm.ml" 52 1538 1581
+type(
+  Type.attribute
+)
+"asmir_rdisasm.ml" 52 1538 1582 "asmir_rdisasm.ml" 52 1538 1587
+type(
+  Ast.attrs
+)
+ident(
+  int_ref attrs "asmir_rdisasm.ml" 49 1376 1397 "asmir_rdisasm.ml" 49 1376 1402
+)
+"asmir_rdisasm.ml" 52 1538 1551 "asmir_rdisasm.ml" 52 1538 1587
+call(
+  stack
+)
+type(
+  bool
+)
+"asmir_rdisasm.ml" 53 1588 1603 "asmir_rdisasm.ml" 53 1588 1607
+type(
+  Big_int_Z.big_int
+)
+ident(
+  int_ref next "asmir_rdisasm.ml" 26 511 536 "asmir_rdisasm.ml" 26 511 540
+)
+"asmir_rdisasm.ml" 53 1588 1611 "asmir_rdisasm.ml" 53 1588 1616
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  int_ref addrs "asmir_rdisasm.ml" 50 1413 1425 "asmir_rdisasm.ml" 50 1413 1430
+)
+"asmir_rdisasm.ml" 53 1588 1603 "asmir_rdisasm.ml" 53 1588 1616
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 54 1617 1632 "asmir_rdisasm.ml" 54 1617 1637
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  int_ref addrs "asmir_rdisasm.ml" 50 1413 1425 "asmir_rdisasm.ml" 50 1413 1430
+)
+"asmir_rdisasm.ml" 52 1538 1548 "asmir_rdisasm.ml" 54 1617 1637
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 50 1413 1421 "asmir_rdisasm.ml" 54 1617 1637
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 55 1638 1657 "asmir_rdisasm.ml" 55 1638 1658
+type(
+  Ast.exp
+)
+"asmir_rdisasm.ml" 55 1638 1660 "asmir_rdisasm.ml" 55 1638 1662
+type(
+  Ast.exp
+)
+ident(
+  def e1 "asmir_rdisasm.ml" 56 1683 1693 "asmir_rdisasm.ml" 65 2041 2090
+)
+"asmir_rdisasm.ml" 55 1638 1664 "asmir_rdisasm.ml" 55 1638 1666
+type(
+  Ast.exp
+)
+ident(
+  def e2 "asmir_rdisasm.ml" 56 1683 1693 "asmir_rdisasm.ml" 65 2041 2090
+)
+"asmir_rdisasm.ml" 55 1638 1668 "asmir_rdisasm.ml" 55 1638 1669
+type(
+  Ast.attrs
+)
+"asmir_rdisasm.ml" 55 1638 1656 "asmir_rdisasm.ml" 55 1638 1670
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"asmir_rdisasm.ml" 55 1638 1646 "asmir_rdisasm.ml" 55 1638 1671
+type(
+  Ast.stmt
+)
+"asmir_rdisasm.ml" 55 1638 1675 "asmir_rdisasm.ml" 55 1638 1679
+type(
+  Ast.stmt list
+)
+ident(
+  def rest "asmir_rdisasm.ml" 56 1683 1693 "asmir_rdisasm.ml" 65 2041 2090
+)
+"asmir_rdisasm.ml" 55 1638 1646 "asmir_rdisasm.ml" 55 1638 1679
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 56 1683 1697 "asmir_rdisasm.ml" 56 1683 1702
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 56 1683 1705 "asmir_rdisasm.ml" 56 1683 1719
+type(
+  (Big_int_Z.big_int list -> Ast.exp -> Big_int_Z.big_int list) ->
+  Big_int_Z.big_int list -> Ast.exp list -> Big_int_Z.big_int list
+)
+ident(
+  ext_ref BatListFull.List.fold_left
+)
+"asmir_rdisasm.ml" 56 1683 1721 "asmir_rdisasm.ml" 56 1683 1733
+type(
+  (Ast.exp -> Big_int_Z.big_int option) ->
+  Big_int_Z.big_int list -> Ast.exp -> Big_int_Z.big_int list
+)
+ident(
+  int_ref collect_some "asmir_rdisasm.ml" 15 269 273 "asmir_rdisasm.ml" 15 269 285
+)
+"asmir_rdisasm.ml" 56 1683 1734 "asmir_rdisasm.ml" 56 1683 1742
+type(
+  Ast.exp -> Big_int_Z.big_int option
+)
+ident(
+  int_ref get_addr "asmir_rdisasm.ml" 10 187 191 "asmir_rdisasm.ml" 10 187 199
+)
+"asmir_rdisasm.ml" 56 1683 1720 "asmir_rdisasm.ml" 56 1683 1743
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int list -> Ast.exp -> Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 56 1683 1744 "asmir_rdisasm.ml" 56 1683 1746
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 56 1683 1748 "asmir_rdisasm.ml" 56 1683 1750
+type(
+  Ast.exp
+)
+ident(
+  int_ref e1 "asmir_rdisasm.ml" 55 1638 1660 "asmir_rdisasm.ml" 55 1638 1662
+)
+"asmir_rdisasm.ml" 56 1683 1752 "asmir_rdisasm.ml" 56 1683 1754
+type(
+  Ast.exp
+)
+ident(
+  int_ref e2 "asmir_rdisasm.ml" 55 1638 1664 "asmir_rdisasm.ml" 55 1638 1666
+)
+"asmir_rdisasm.ml" 56 1683 1747 "asmir_rdisasm.ml" 56 1683 1755
+type(
+  Ast.exp list
+)
+"asmir_rdisasm.ml" 56 1683 1705 "asmir_rdisasm.ml" 56 1683 1755
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 63 1980 1995 "asmir_rdisasm.ml" 63 1980 2006
+type(
+  Big_int_Z.big_int list -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"asmir_rdisasm.ml" 63 1980 2007 "asmir_rdisasm.ml" 63 1980 2012
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  int_ref addrs "asmir_rdisasm.ml" 56 1683 1697 "asmir_rdisasm.ml" 56 1683 1702
+)
+"asmir_rdisasm.ml" 63 1980 1995 "asmir_rdisasm.ml" 63 1980 2012
+call(
+  stack
+)
+type(
+  int
+)
+"asmir_rdisasm.ml" 63 1980 2013 "asmir_rdisasm.ml" 63 1980 2015
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"asmir_rdisasm.ml" 63 1980 2016 "asmir_rdisasm.ml" 63 1980 2017
+type(
+  int
+)
+"asmir_rdisasm.ml" 63 1980 1995 "asmir_rdisasm.ml" 63 1980 2017
+type(
+  bool
+)
+"asmir_rdisasm.ml" 64 2018 2035 "asmir_rdisasm.ml" 64 2018 2040
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  int_ref addrs "asmir_rdisasm.ml" 56 1683 1697 "asmir_rdisasm.ml" 56 1683 1702
+)
+"asmir_rdisasm.ml" 65 2041 2058 "asmir_rdisasm.ml" 65 2041 2073
+type(
+  Ast.stmt list -> Big_int_Z.big_int list -> Big_int_Z.big_int list
+)
+ident(
+  int_ref get_code_addrs' "asmir_rdisasm.ml" 28 553 557 "asmir_rdisasm.ml" 28 553 572
+)
+"asmir_rdisasm.ml" 65 2041 2074 "asmir_rdisasm.ml" 65 2041 2078
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref rest "asmir_rdisasm.ml" 55 1638 1675 "asmir_rdisasm.ml" 55 1638 1679
+)
+"asmir_rdisasm.ml" 65 2041 2080 "asmir_rdisasm.ml" 65 2041 2085
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  int_ref addrs "asmir_rdisasm.ml" 56 1683 1697 "asmir_rdisasm.ml" 56 1683 1702
+)
+"asmir_rdisasm.ml" 65 2041 2086 "asmir_rdisasm.ml" 65 2041 2087
+type(
+  Big_int_Z.big_int list -> Big_int_Z.big_int list -> Big_int_Z.big_int list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"asmir_rdisasm.ml" 65 2041 2088 "asmir_rdisasm.ml" 65 2041 2089
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  int_ref l "asmir_rdisasm.ml" 28 553 579 "asmir_rdisasm.ml" 28 553 580
+)
+"asmir_rdisasm.ml" 65 2041 2079 "asmir_rdisasm.ml" 65 2041 2090
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 65 2041 2058 "asmir_rdisasm.ml" 65 2041 2090
+call(
+  tail
+)
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 63 1980 1992 "asmir_rdisasm.ml" 65 2041 2090
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 56 1683 1693 "asmir_rdisasm.ml" 65 2041 2090
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 66 2091 2099 "asmir_rdisasm.ml" 66 2091 2100
+type(
+  Ast.stmt
+)
+"asmir_rdisasm.ml" 66 2091 2104 "asmir_rdisasm.ml" 66 2091 2108
+type(
+  Ast.stmt list
+)
+ident(
+  def rest "asmir_rdisasm.ml" 66 2091 2112 "asmir_rdisasm.ml" 66 2091 2134
+)
+"asmir_rdisasm.ml" 66 2091 2099 "asmir_rdisasm.ml" 66 2091 2108
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 66 2091 2112 "asmir_rdisasm.ml" 66 2091 2127
+type(
+  Ast.stmt list -> Big_int_Z.big_int list -> Big_int_Z.big_int list
+)
+ident(
+  int_ref get_code_addrs' "asmir_rdisasm.ml" 28 553 557 "asmir_rdisasm.ml" 28 553 572
+)
+"asmir_rdisasm.ml" 66 2091 2128 "asmir_rdisasm.ml" 66 2091 2132
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref rest "asmir_rdisasm.ml" 66 2091 2104 "asmir_rdisasm.ml" 66 2091 2108
+)
+"asmir_rdisasm.ml" 66 2091 2133 "asmir_rdisasm.ml" 66 2091 2134
+type(
+  Big_int_Z.big_int list
+)
+ident(
+  int_ref l "asmir_rdisasm.ml" 28 553 579 "asmir_rdisasm.ml" 28 553 580
+)
+"asmir_rdisasm.ml" 66 2091 2112 "asmir_rdisasm.ml" 66 2091 2134
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 29 583 589 "asmir_rdisasm.ml" 66 2091 2134
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 70 2251 2253 "asmir_rdisasm.ml" 70 2251 2261
+type(
+  Big_int_Z.big_int list -> Big_int_Z.big_int list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"asmir_rdisasm.ml" 70 2251 2263 "asmir_rdisasm.ml" 70 2251 2278
+type(
+  Ast.stmt list -> Big_int_Z.big_int list -> Big_int_Z.big_int list
+)
+ident(
+  int_ref get_code_addrs' "asmir_rdisasm.ml" 28 553 557 "asmir_rdisasm.ml" 28 553 572
+)
+"asmir_rdisasm.ml" 70 2251 2279 "asmir_rdisasm.ml" 70 2251 2284
+type(
+  Ast.stmt list
+)
+ident(
+  int_ref stmts "asmir_rdisasm.ml" 26 511 530 "asmir_rdisasm.ml" 26 511 535
+)
+"asmir_rdisasm.ml" 70 2251 2285 "asmir_rdisasm.ml" 70 2251 2287
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 70 2251 2262 "asmir_rdisasm.ml" 70 2251 2288
+call(
+  stack
+)
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 70 2251 2253 "asmir_rdisasm.ml" 70 2251 2288
+call(
+  tail
+)
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 27 543 545 "asmir_rdisasm.ml" 70 2251 2288
+type(
+  Big_int_Z.big_int list
+)
+"asmir_rdisasm.ml" 72 2290 2309 "asmir_rdisasm.ml" 72 2290 2350
+call(
+  stack
+)
+"asmir_rdisasm.ml" 75 2402 2406 "asmir_rdisasm.ml" 75 2402 2413
+type(
+  'a -> 'b -> 'c -> bool
+)
+ident(
+  def default "asmir_rdisasm.ml" 77 2428 2428 --
+)
+"asmir_rdisasm.ml" 75 2402 2414 "asmir_rdisasm.ml" 75 2402 2415
+type(
+  'a
+)
+"asmir_rdisasm.ml" 75 2402 2416 "asmir_rdisasm.ml" 75 2402 2417
+type(
+  'b
+)
+"asmir_rdisasm.ml" 75 2402 2418 "asmir_rdisasm.ml" 75 2402 2419
+type(
+  'c
+)
+"asmir_rdisasm.ml" 75 2402 2422 "asmir_rdisasm.ml" 75 2402 2426
+type(
+  bool
+)
+"asmir_rdisasm.ml" 77 2428 2432 "asmir_rdisasm.ml" 77 2428 2442
+type(
+  ?f:(BigIntSet.elt -> Type.addr -> Ast.program -> bool) ->
+  Asmir.asmprogram -> BigIntSet.elt list -> Ast.stmt list * string
+)
+ident(
+  def rdisasm_at "asmir_rdisasm.ml" 130 4201 4201 --
+)
+"asmir_rdisasm.ml" 77 2428 2445 "asmir_rdisasm.ml" 77 2428 2446
+type(
+  BigIntSet.elt -> Type.addr -> Ast.program -> bool
+)
+"asmir_rdisasm.ml" 77 2428 2447 "asmir_rdisasm.ml" 77 2428 2454
+type(
+  BigIntSet.elt -> Type.addr -> Ast.program -> bool
+)
+ident(
+  int_ref default "asmir_rdisasm.ml" 75 2402 2406 "asmir_rdisasm.ml" 75 2402 2413
+)
+type(
+  BigIntSet.elt -> Type.addr -> Ast.program -> bool
+)
+ident(
+  int_ref *sth* "asmir_rdisasm.ml" 77 2428 2447 "asmir_rdisasm.ml" 77 2428 2454
+)
+type(
+  (BigIntSet.elt -> Type.addr -> Ast.program -> bool) option
+)
+type(
+  (BigIntSet.elt -> Type.addr -> Ast.program -> bool) option
+)
+type(
+  BigIntSet.elt -> Type.addr -> Ast.program -> bool
+)
+ident(
+  def *sth* "asmir_rdisasm.ml" 77 2428 2447 "asmir_rdisasm.ml" 77 2428 2454
+)
+"asmir_rdisasm.ml" 77 2428 2456 "asmir_rdisasm.ml" 77 2428 2457
+type(
+  Asmir.asmprogram
+)
+ident(
+  def p "asmir_rdisasm.ml" 77 2428 2458 "asmir_rdisasm.ml" 128 4161 4199
+)
+"asmir_rdisasm.ml" 77 2428 2458 "asmir_rdisasm.ml" 77 2428 2468
+type(
+  BigIntSet.elt list
+)
+ident(
+  def startaddrs "asmir_rdisasm.ml" 78 2471 2473 "asmir_rdisasm.ml" 128 4161 4199
+)
+"asmir_rdisasm.ml" 78 2471 2477 "asmir_rdisasm.ml" 78 2471 2481
+type(
+  BigIntSet.t ref
+)
+"asmir_rdisasm.ml" 78 2471 2484 "asmir_rdisasm.ml" 78 2471 2487
+type(
+  BigIntSet.t -> BigIntSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"asmir_rdisasm.ml" 78 2471 2488 "asmir_rdisasm.ml" 78 2471 2503
+type(
+  BigIntSet.t
+)
+ident(
+  ext_ref BigIntSet.empty
+)
+"asmir_rdisasm.ml" 78 2471 2484 "asmir_rdisasm.ml" 78 2471 2503
+type(
+  BigIntSet.t ref
+)
+"asmir_rdisasm.ml" 79 2507 2513 "asmir_rdisasm.ml" 79 2507 2516
+type(
+  Ast.program list ref
+)
+"asmir_rdisasm.ml" 79 2507 2519 "asmir_rdisasm.ml" 79 2507 2522
+type(
+  Ast.program list -> Ast.program list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"asmir_rdisasm.ml" 79 2507 2523 "asmir_rdisasm.ml" 79 2507 2525
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 79 2507 2519 "asmir_rdisasm.ml" 79 2507 2525
+type(
+  Ast.program list ref
+)
+"asmir_rdisasm.ml" 80 2529 2535 "asmir_rdisasm.ml" 80 2529 2541
+type(
+  string ref
+)
+"asmir_rdisasm.ml" 80 2529 2544 "asmir_rdisasm.ml" 80 2529 2547
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"asmir_rdisasm.ml" 80 2529 2548 "asmir_rdisasm.ml" 80 2529 2550
+type(
+  string
+)
+"asmir_rdisasm.ml" 80 2529 2544 "asmir_rdisasm.ml" 80 2529 2550
+type(
+  string ref
+)
+"asmir_rdisasm.ml" 81 2554 2560 "asmir_rdisasm.ml" 81 2554 2565
+type(
+  BigIntSet.elt Stack.t
+)
+"asmir_rdisasm.ml" 81 2554 2568 "asmir_rdisasm.ml" 81 2554 2580
+type(
+  unit -> BigIntSet.elt Stack.t
+)
+ident(
+  ext_ref Stack.create
+)
+"asmir_rdisasm.ml" 81 2554 2581 "asmir_rdisasm.ml" 81 2554 2583
+type(
+  unit
+)
+"asmir_rdisasm.ml" 81 2554 2568 "asmir_rdisasm.ml" 81 2554 2583
+call(
+  stack
+)
+type(
+  BigIntSet.elt Stack.t
+)
+"asmir_rdisasm.ml" 82 2587 2593 "asmir_rdisasm.ml" 82 2587 2601
+type(
+  int ref
+)
+"asmir_rdisasm.ml" 82 2587 2604 "asmir_rdisasm.ml" 82 2587 2607
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"asmir_rdisasm.ml" 82 2587 2608 "asmir_rdisasm.ml" 82 2587 2609
+type(
+  int
+)
+"asmir_rdisasm.ml" 82 2587 2604 "asmir_rdisasm.ml" 82 2587 2609
+type(
+  int ref
+)
+"asmir_rdisasm.ml" 85 2670 2676 "asmir_rdisasm.ml" 85 2670 2686
+type(
+  BigIntSet.elt list
+)
+"asmir_rdisasm.ml" 85 2670 2689 "asmir_rdisasm.ml" 85 2670 2705
+type(
+  BigIntSet.elt list -> BigIntSet.elt list
+)
+ident(
+  ext_ref Util.list_unique
+)
+"asmir_rdisasm.ml" 85 2670 2706 "asmir_rdisasm.ml" 85 2670 2716
+type(
+  BigIntSet.elt list
+)
+ident(
+  int_ref startaddrs "asmir_rdisasm.ml" 77 2428 2458 "asmir_rdisasm.ml" 77 2428 2468
+)
+"asmir_rdisasm.ml" 85 2670 2689 "asmir_rdisasm.ml" 85 2670 2716
+call(
+  stack
+)
+type(
+  BigIntSet.elt list
+)
+"asmir_rdisasm.ml" 88 2760 2762 "asmir_rdisasm.ml" 88 2760 2771
+type(
+  (BigIntSet.elt -> unit) -> BigIntSet.elt list -> unit
+)
+ident(
+  ext_ref BatListFull.List.iter
+)
+"asmir_rdisasm.ml" 88 2760 2777 "asmir_rdisasm.ml" 88 2760 2786
+type(
+  BigIntSet.elt
+)
+ident(
+  def startaddr "asmir_rdisasm.ml" 89 2790 2794 "asmir_rdisasm.ml" 89 2790 2821
+)
+"asmir_rdisasm.ml" 89 2790 2794 "asmir_rdisasm.ml" 89 2790 2804
+type(
+  BigIntSet.elt -> BigIntSet.elt Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"asmir_rdisasm.ml" 89 2790 2805 "asmir_rdisasm.ml" 89 2790 2814
+type(
+  BigIntSet.elt
+)
+ident(
+  int_ref startaddr "asmir_rdisasm.ml" 88 2760 2777 "asmir_rdisasm.ml" 88 2760 2786
+)
+"asmir_rdisasm.ml" 89 2790 2815 "asmir_rdisasm.ml" 89 2790 2820
+type(
+  BigIntSet.elt Stack.t
+)
+ident(
+  int_ref stack "asmir_rdisasm.ml" 81 2554 2560 "asmir_rdisasm.ml" 81 2554 2565
+)
+"asmir_rdisasm.ml" 89 2790 2794 "asmir_rdisasm.ml" 89 2790 2821
+call(
+  tail
+)
+type(
+  unit
+)
+"asmir_rdisasm.ml" 88 2760 2772 "asmir_rdisasm.ml" 90 2822 2825
+type(
+  BigIntSet.elt -> unit
+)
+"asmir_rdisasm.ml" 90 2822 2826 "asmir_rdisasm.ml" 90 2822 2836
+type(
+  BigIntSet.elt list
+)
+ident(
+  int_ref startaddrs "asmir_rdisasm.ml" 85 2670 2676 "asmir_rdisasm.ml" 85 2670 2686
+)
+"asmir_rdisasm.ml" 88 2760 2762 "asmir_rdisasm.ml" 90 2822 2836
+call(
+  stack
+)
+type(
+  unit
+)
+"asmir_rdisasm.ml" 92 2839 2847 "asmir_rdisasm.ml" 92 2839 2850
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"asmir_rdisasm.ml" 92 2839 2852 "asmir_rdisasm.ml" 92 2839 2866
+type(
+  BigIntSet.elt Stack.t -> bool
+)
+ident(
+  ext_ref Stack.is_empty
+)
+"asmir_rdisasm.ml" 92 2839 2867 "asmir_rdisasm.ml" 92 2839 2872
+type(
+  BigIntSet.elt Stack.t
+)
+ident(
+  int_ref stack "asmir_rdisasm.ml" 81 2554 2560 "asmir_rdisasm.ml" 81 2554 2565
+)
+"asmir_rdisasm.ml" 92 2839 2851 "asmir_rdisasm.ml" 92 2839 2873
+call(
+  stack
+)
+type(
+  bool
+)
+"asmir_rdisasm.ml" 92 2839 2847 "asmir_rdisasm.ml" 92 2839 2873
+type(
+  bool
+)
+"asmir_rdisasm.ml" 93 2877 2885 "asmir_rdisasm.ml" 93 2877 2889
+type(
+  BigIntSet.elt
+)
+ident(
+  def addr "asmir_rdisasm.ml" 94 2911 2915 "asmir_rdisasm.ml" 126 4119 4152
+)
+"asmir_rdisasm.ml" 93 2877 2892 "asmir_rdisasm.ml" 93 2877 2901
+type(
+  BigIntSet.elt Stack.t -> BigIntSet.elt
+)
+ident(
+  ext_ref Stack.pop
+)
+"asmir_rdisasm.ml" 93 2877 2902 "asmir_rdisasm.ml" 93 2877 2907
+type(
+  BigIntSet.elt Stack.t
+)
+ident(
+  int_ref stack "asmir_rdisasm.ml" 81 2554 2560 "asmir_rdisasm.ml" 81 2554 2565
+)
+"asmir_rdisasm.ml" 93 2877 2892 "asmir_rdisasm.ml" 93 2877 2907
+call(
+  stack
+)
+type(
+  BigIntSet.elt
+)
+"asmir_rdisasm.ml" 95 2919 2928 "asmir_rdisasm.ml" 95 2919 2941
+type(
+  BigIntSet.elt -> BigIntSet.t -> bool
+)
+ident(
+  ext_ref BigIntSet.mem
+)
+"asmir_rdisasm.ml" 95 2919 2942 "asmir_rdisasm.ml" 95 2919 2946
+type(
+  BigIntSet.elt
+)
+ident(
+  int_ref addr "asmir_rdisasm.ml" 93 2877 2885 "asmir_rdisasm.ml" 93 2877 2889
+)
+"asmir_rdisasm.ml" 95 2919 2947 "asmir_rdisasm.ml" 95 2919 2948
+type(
+  BigIntSet.t ref -> BigIntSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"asmir_rdisasm.ml" 95 2919 2948 "asmir_rdisasm.ml" 95 2919 2952
+type(
+  BigIntSet.t ref
+)
+ident(
+  int_ref seen "asmir_rdisasm.ml" 78 2471 2477 "asmir_rdisasm.ml" 78 2471 2481
+)
+"asmir_rdisasm.ml" 95 2919 2947 "asmir_rdisasm.ml" 95 2919 2952
+type(
+  BigIntSet.t
+)
+"asmir_rdisasm.ml" 95 2919 2928 "asmir_rdisasm.ml" 95 2919 2952
+call(
+  stack
+)
+type(
+  bool
+)
+"asmir_rdisasm.ml" 99 3156 3168 "asmir_rdisasm.ml" 99 3156 3176
+type(
+  bool
+)
+ident(
+  def add_jump "asmir_rdisasm.ml" 106 3352 3360 "asmir_rdisasm.ml" 107 3377 3446
+)
+"asmir_rdisasm.ml" 99 3156 3185 "asmir_rdisasm.ml" 99 3156 3186
+type(
+  Ast.program list ref -> Ast.program list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"asmir_rdisasm.ml" 99 3156 3186 "asmir_rdisasm.ml" 99 3156 3189
+type(
+  Ast.program list ref
+)
+ident(
+  int_ref out "asmir_rdisasm.ml" 79 2507 2513 "asmir_rdisasm.ml" 79 2507 2516
+)
+"asmir_rdisasm.ml" 99 3156 3185 "asmir_rdisasm.ml" 99 3156 3189
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 100 3195 3207 "asmir_rdisasm.ml" 100 3195 3208
+type(
+  Ast.program
+)
+ident(
+  def b "asmir_rdisasm.ml" 101 3215 3227 "asmir_rdisasm.ml" 103 3294 3318
+)
+"asmir_rdisasm.ml" 100 3195 3210 "asmir_rdisasm.ml" 100 3195 3211
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 100 3195 3207 "asmir_rdisasm.ml" 100 3195 3211
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 101 3215 3234 "asmir_rdisasm.ml" 101 3215 3242
+type(
+  Ast.program -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"asmir_rdisasm.ml" 101 3215 3243 "asmir_rdisasm.ml" 101 3215 3244
+type(
+  Ast.program
+)
+ident(
+  int_ref b "asmir_rdisasm.ml" 100 3195 3207 "asmir_rdisasm.ml" 100 3195 3208
+)
+"asmir_rdisasm.ml" 101 3215 3234 "asmir_rdisasm.ml" 101 3215 3244
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 102 3250 3268 "asmir_rdisasm.ml" 102 3250 3269
+type(
+  Ast.exp * Ast.attrs
+)
+"asmir_rdisasm.ml" 102 3250 3264 "asmir_rdisasm.ml" 102 3250 3269
+type(
+  Ast.stmt
+)
+"asmir_rdisasm.ml" 102 3250 3271 "asmir_rdisasm.ml" 102 3250 3272
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 102 3250 3264 "asmir_rdisasm.ml" 102 3250 3272
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 102 3250 3280 "asmir_rdisasm.ml" 102 3250 3281
+type(
+  Ast.exp * Ast.exp * Ast.exp * Ast.attrs
+)
+"asmir_rdisasm.ml" 102 3250 3275 "asmir_rdisasm.ml" 102 3250 3281
+type(
+  Ast.stmt
+)
+"asmir_rdisasm.ml" 102 3250 3283 "asmir_rdisasm.ml" 102 3250 3284
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 102 3250 3275 "asmir_rdisasm.ml" 102 3250 3284
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 102 3250 3264 "asmir_rdisasm.ml" 102 3250 3284
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 102 3250 3288 "asmir_rdisasm.ml" 102 3250 3293
+type(
+  bool
+)
+"asmir_rdisasm.ml" 103 3294 3308 "asmir_rdisasm.ml" 103 3294 3309
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 103 3294 3313 "asmir_rdisasm.ml" 103 3294 3317
+type(
+  bool
+)
+"asmir_rdisasm.ml" 101 3215 3227 "asmir_rdisasm.ml" 103 3294 3318
+type(
+  bool
+)
+"asmir_rdisasm.ml" 104 3319 3331 "asmir_rdisasm.ml" 104 3319 3332
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 104 3319 3336 "asmir_rdisasm.ml" 104 3319 3340
+type(
+  bool
+)
+"asmir_rdisasm.ml" 99 3156 3179 "asmir_rdisasm.ml" 104 3319 3340
+type(
+  bool
+)
+"asmir_rdisasm.ml" 106 3352 3363 "asmir_rdisasm.ml" 106 3352 3371
+type(
+  bool
+)
+ident(
+  int_ref add_jump "asmir_rdisasm.ml" 99 3156 3168 "asmir_rdisasm.ml" 99 3156 3176
+)
+"asmir_rdisasm.ml" 107 3377 3387 "asmir_rdisasm.ml" 107 3377 3390
+type(
+  Ast.program list ref
+)
+ident(
+  int_ref out "asmir_rdisasm.ml" 79 2507 2513 "asmir_rdisasm.ml" 79 2507 2516
+)
+"asmir_rdisasm.ml" 107 3377 3391 "asmir_rdisasm.ml" 107 3377 3393
+type(
+  Ast.program list ref -> Ast.program list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"asmir_rdisasm.ml" 107 3377 3403 "asmir_rdisasm.ml" 107 3377 3407
+type(
+  BigIntSet.elt
+)
+ident(
+  int_ref addr "asmir_rdisasm.ml" 93 2877 2885 "asmir_rdisasm.ml" 93 2877 2889
+)
+"asmir_rdisasm.ml" 107 3377 3409 "asmir_rdisasm.ml" 107 3377 3414
+type(
+  Type.typ
+)
+ident(
+  int_ref addrt "asmir_rdisasm.ml" 20 347 351 "asmir_rdisasm.ml" 20 347 356
+)
+"asmir_rdisasm.ml" 107 3377 3402 "asmir_rdisasm.ml" 107 3377 3415
+type(
+  Big_int_Z.big_int * Type.typ
+)
+"asmir_rdisasm.ml" 107 3377 3399 "asmir_rdisasm.ml" 107 3377 3415
+type(
+  Ast.exp
+)
+"asmir_rdisasm.ml" 107 3377 3426 "asmir_rdisasm.ml" 107 3377 3435
+type(
+  string
+)
+"asmir_rdisasm.ml" 107 3377 3418 "asmir_rdisasm.ml" 107 3377 3435
+type(
+  Type.attribute
+)
+"asmir_rdisasm.ml" 107 3377 3417 "asmir_rdisasm.ml" 107 3377 3436
+type(
+  Ast.attrs
+)
+"asmir_rdisasm.ml" 107 3377 3398 "asmir_rdisasm.ml" 107 3377 3437
+type(
+  Ast.exp * Ast.attrs
+)
+"asmir_rdisasm.ml" 107 3377 3395 "asmir_rdisasm.ml" 107 3377 3437
+type(
+  Ast.stmt
+)
+"asmir_rdisasm.ml" 107 3377 3394 "asmir_rdisasm.ml" 107 3377 3438
+type(
+  Ast.program
+)
+"asmir_rdisasm.ml" 107 3377 3442 "asmir_rdisasm.ml" 107 3377 3443
+type(
+  Ast.program list ref -> Ast.program list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"asmir_rdisasm.ml" 107 3377 3443 "asmir_rdisasm.ml" 107 3377 3446
+type(
+  Ast.program list ref
+)
+ident(
+  int_ref out "asmir_rdisasm.ml" 79 2507 2513 "asmir_rdisasm.ml" 79 2507 2516
+)
+"asmir_rdisasm.ml" 107 3377 3442 "asmir_rdisasm.ml" 107 3377 3446
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 107 3377 3394 "asmir_rdisasm.ml" 107 3377 3446
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 107 3377 3387 "asmir_rdisasm.ml" 107 3377 3446
+type(
+  unit
+)
+"asmir_rdisasm.ml" 106 3352 3360 "asmir_rdisasm.ml" 107 3377 3446
+type(
+  unit
+)
+"asmir_rdisasm.ml" 95 2919 2958 "asmir_rdisasm.ml" 107 3377 3447
+type(
+  unit
+)
+"asmir_rdisasm.ml" 109 3461 3474 "asmir_rdisasm.ml" 109 3461 3484
+type(
+  Ast.program
+)
+"asmir_rdisasm.ml" 109 3461 3486 "asmir_rdisasm.ml" 109 3461 3490
+type(
+  Type.addr
+)
+"asmir_rdisasm.ml" 109 3461 3473 "asmir_rdisasm.ml" 109 3461 3491
+type(
+  Ast.program * Type.addr
+)
+"asmir_rdisasm.ml" 109 3461 3494 "asmir_rdisasm.ml" 109 3461 3515
+type(
+  Asmir.asmprogram -> Type.addr -> Ast.program * Type.addr
+)
+ident(
+  ext_ref Asmir.asm_addr_to_bap
+)
+"asmir_rdisasm.ml" 109 3461 3516 "asmir_rdisasm.ml" 109 3461 3517
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "asmir_rdisasm.ml" 77 2428 2456 "asmir_rdisasm.ml" 77 2428 2457
+)
+"asmir_rdisasm.ml" 109 3461 3518 "asmir_rdisasm.ml" 109 3461 3522
+type(
+  BigIntSet.elt
+)
+ident(
+  int_ref addr "asmir_rdisasm.ml" 93 2877 2885 "asmir_rdisasm.ml" 93 2877 2889
+)
+"asmir_rdisasm.ml" 109 3461 3494 "asmir_rdisasm.ml" 109 3461 3522
+call(
+  stack
+)
+type(
+  Ast.program * Type.addr
+)
+"asmir_rdisasm.ml" 110 3526 3538 "asmir_rdisasm.ml" 110 3526 3541
+type(
+  string
+)
+"asmir_rdisasm.ml" 110 3526 3544 "asmir_rdisasm.ml" 110 3526 3570
+type(
+  Asmir.asmprogram -> Type.addr -> string
+)
+ident(
+  ext_ref Asmir.get_asm_instr_string
+)
+"asmir_rdisasm.ml" 110 3526 3571 "asmir_rdisasm.ml" 110 3526 3572
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "asmir_rdisasm.ml" 77 2428 2456 "asmir_rdisasm.ml" 77 2428 2457
+)
+"asmir_rdisasm.ml" 110 3526 3573 "asmir_rdisasm.ml" 110 3526 3577
+type(
+  BigIntSet.elt
+)
+ident(
+  int_ref addr "asmir_rdisasm.ml" 93 2877 2885 "asmir_rdisasm.ml" 93 2877 2889
+)
+"asmir_rdisasm.ml" 110 3526 3544 "asmir_rdisasm.ml" 110 3526 3577
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_rdisasm.ml" 111 3581 3589 "asmir_rdisasm.ml" 111 3581 3593
+type(
+  BigIntSet.t ref
+)
+ident(
+  int_ref seen "asmir_rdisasm.ml" 78 2471 2477 "asmir_rdisasm.ml" 78 2471 2481
+)
+"asmir_rdisasm.ml" 111 3581 3594 "asmir_rdisasm.ml" 111 3581 3596
+type(
+  BigIntSet.t ref -> BigIntSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"asmir_rdisasm.ml" 111 3581 3597 "asmir_rdisasm.ml" 111 3581 3610
+type(
+  BigIntSet.elt -> BigIntSet.t -> BigIntSet.t
+)
+ident(
+  ext_ref BigIntSet.add
+)
+"asmir_rdisasm.ml" 111 3581 3611 "asmir_rdisasm.ml" 111 3581 3615
+type(
+  BigIntSet.elt
+)
+ident(
+  int_ref addr "asmir_rdisasm.ml" 93 2877 2885 "asmir_rdisasm.ml" 93 2877 2889
+)
+"asmir_rdisasm.ml" 111 3581 3616 "asmir_rdisasm.ml" 111 3581 3617
+type(
+  BigIntSet.t ref -> BigIntSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"asmir_rdisasm.ml" 111 3581 3617 "asmir_rdisasm.ml" 111 3581 3621
+type(
+  BigIntSet.t ref
+)
+ident(
+  int_ref seen "asmir_rdisasm.ml" 78 2471 2477 "asmir_rdisasm.ml" 78 2471 2481
+)
+"asmir_rdisasm.ml" 111 3581 3616 "asmir_rdisasm.ml" 111 3581 3621
+type(
+  BigIntSet.t
+)
+"asmir_rdisasm.ml" 111 3581 3597 "asmir_rdisasm.ml" 111 3581 3621
+call(
+  stack
+)
+type(
+  BigIntSet.t
+)
+"asmir_rdisasm.ml" 111 3581 3589 "asmir_rdisasm.ml" 111 3581 3621
+type(
+  unit
+)
+"asmir_rdisasm.ml" 112 3623 3631 "asmir_rdisasm.ml" 112 3623 3634
+type(
+  Ast.program list ref
+)
+ident(
+  int_ref out "asmir_rdisasm.ml" 79 2507 2513 "asmir_rdisasm.ml" 79 2507 2516
+)
+"asmir_rdisasm.ml" 112 3623 3635 "asmir_rdisasm.ml" 112 3623 3637
+type(
+  Ast.program list ref -> Ast.program list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"asmir_rdisasm.ml" 112 3623 3638 "asmir_rdisasm.ml" 112 3623 3648
+type(
+  Ast.program
+)
+ident(
+  int_ref statements "asmir_rdisasm.ml" 109 3461 3474 "asmir_rdisasm.ml" 109 3461 3484
+)
+"asmir_rdisasm.ml" 112 3623 3652 "asmir_rdisasm.ml" 112 3623 3653
+type(
+  Ast.program list ref -> Ast.program list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"asmir_rdisasm.ml" 112 3623 3653 "asmir_rdisasm.ml" 112 3623 3656
+type(
+  Ast.program list ref
+)
+ident(
+  int_ref out "asmir_rdisasm.ml" 79 2507 2513 "asmir_rdisasm.ml" 79 2507 2516
+)
+"asmir_rdisasm.ml" 112 3623 3652 "asmir_rdisasm.ml" 112 3623 3656
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 112 3623 3638 "asmir_rdisasm.ml" 112 3623 3656
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 112 3623 3631 "asmir_rdisasm.ml" 112 3623 3656
+type(
+  unit
+)
+"asmir_rdisasm.ml" 113 3658 3666 "asmir_rdisasm.ml" 113 3658 3672
+type(
+  string ref
+)
+ident(
+  int_ref outasm "asmir_rdisasm.ml" 80 2529 2535 "asmir_rdisasm.ml" 80 2529 2541
+)
+"asmir_rdisasm.ml" 113 3658 3673 "asmir_rdisasm.ml" 113 3658 3675
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"asmir_rdisasm.ml" 113 3658 3676 "asmir_rdisasm.ml" 113 3658 3677
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"asmir_rdisasm.ml" 113 3658 3677 "asmir_rdisasm.ml" 113 3658 3683
+type(
+  string ref
+)
+ident(
+  int_ref outasm "asmir_rdisasm.ml" 80 2529 2535 "asmir_rdisasm.ml" 80 2529 2541
+)
+"asmir_rdisasm.ml" 113 3658 3676 "asmir_rdisasm.ml" 113 3658 3683
+type(
+  string
+)
+"asmir_rdisasm.ml" 113 3658 3684 "asmir_rdisasm.ml" 113 3658 3685
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"asmir_rdisasm.ml" 113 3658 3686 "asmir_rdisasm.ml" 113 3658 3690
+type(
+  string
+)
+"asmir_rdisasm.ml" 113 3658 3691 "asmir_rdisasm.ml" 113 3658 3692
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"asmir_rdisasm.ml" 113 3658 3693 "asmir_rdisasm.ml" 113 3658 3696
+type(
+  string
+)
+ident(
+  int_ref asm "asmir_rdisasm.ml" 110 3526 3538 "asmir_rdisasm.ml" 110 3526 3541
+)
+"asmir_rdisasm.ml" 113 3658 3686 "asmir_rdisasm.ml" 113 3658 3696
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_rdisasm.ml" 113 3658 3676 "asmir_rdisasm.ml" 113 3658 3696
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_rdisasm.ml" 113 3658 3666 "asmir_rdisasm.ml" 113 3658 3696
+type(
+  unit
+)
+"asmir_rdisasm.ml" 114 3698 3706 "asmir_rdisasm.ml" 114 3698 3714
+type(
+  int ref
+)
+ident(
+  int_ref numstmts "asmir_rdisasm.ml" 82 2587 2593 "asmir_rdisasm.ml" 82 2587 2601
+)
+"asmir_rdisasm.ml" 114 3698 3715 "asmir_rdisasm.ml" 114 3698 3717
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"asmir_rdisasm.ml" 114 3698 3718 "asmir_rdisasm.ml" 114 3698 3719
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"asmir_rdisasm.ml" 114 3698 3719 "asmir_rdisasm.ml" 114 3698 3727
+type(
+  int ref
+)
+ident(
+  int_ref numstmts "asmir_rdisasm.ml" 82 2587 2593 "asmir_rdisasm.ml" 82 2587 2601
+)
+"asmir_rdisasm.ml" 114 3698 3718 "asmir_rdisasm.ml" 114 3698 3727
+type(
+  int
+)
+"asmir_rdisasm.ml" 114 3698 3728 "asmir_rdisasm.ml" 114 3698 3729
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"asmir_rdisasm.ml" 114 3698 3731 "asmir_rdisasm.ml" 114 3698 3742
+type(
+  Ast.program -> int
+)
+ident(
+  ext_ref BatListFull.List.length
+)
+"asmir_rdisasm.ml" 114 3698 3743 "asmir_rdisasm.ml" 114 3698 3753
+type(
+  Ast.program
+)
+ident(
+  int_ref statements "asmir_rdisasm.ml" 109 3461 3474 "asmir_rdisasm.ml" 109 3461 3484
+)
+"asmir_rdisasm.ml" 114 3698 3730 "asmir_rdisasm.ml" 114 3698 3754
+call(
+  stack
+)
+type(
+  int
+)
+"asmir_rdisasm.ml" 114 3698 3718 "asmir_rdisasm.ml" 114 3698 3754
+type(
+  int
+)
+"asmir_rdisasm.ml" 114 3698 3706 "asmir_rdisasm.ml" 114 3698 3754
+type(
+  unit
+)
+"asmir_rdisasm.ml" 115 3756 3767 "asmir_rdisasm.ml" 115 3756 3770
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"asmir_rdisasm.ml" 115 3756 3772 "asmir_rdisasm.ml" 115 3756 3773
+type(
+  BigIntSet.elt -> Type.addr -> Ast.program -> bool
+)
+ident(
+  int_ref f "asmir_rdisasm.ml" 77 2428 2445 "asmir_rdisasm.ml" 77 2428 2446
+)
+"asmir_rdisasm.ml" 115 3756 3774 "asmir_rdisasm.ml" 115 3756 3778
+type(
+  BigIntSet.elt
+)
+ident(
+  int_ref addr "asmir_rdisasm.ml" 93 2877 2885 "asmir_rdisasm.ml" 93 2877 2889
+)
+"asmir_rdisasm.ml" 115 3756 3779 "asmir_rdisasm.ml" 115 3756 3783
+type(
+  Type.addr
+)
+ident(
+  int_ref next "asmir_rdisasm.ml" 109 3461 3486 "asmir_rdisasm.ml" 109 3461 3490
+)
+"asmir_rdisasm.ml" 115 3756 3784 "asmir_rdisasm.ml" 115 3756 3794
+type(
+  Ast.program
+)
+ident(
+  int_ref statements "asmir_rdisasm.ml" 109 3461 3474 "asmir_rdisasm.ml" 109 3461 3484
+)
+"asmir_rdisasm.ml" 115 3756 3771 "asmir_rdisasm.ml" 115 3756 3795
+call(
+  stack
+)
+type(
+  bool
+)
+"asmir_rdisasm.ml" 115 3756 3767 "asmir_rdisasm.ml" 115 3756 3795
+type(
+  bool
+)
+"asmir_rdisasm.ml" 115 3756 3801 "asmir_rdisasm.ml" 115 3756 3806
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"asmir_rdisasm.ml" 115 3756 3807 "asmir_rdisasm.ml" 115 3756 3830
+type(
+  exn
+)
+"asmir_rdisasm.ml" 115 3756 3801 "asmir_rdisasm.ml" 115 3756 3830
+type(
+  unit
+)
+"asmir_rdisasm.ml" 115 3756 3764 "asmir_rdisasm.ml" 115 3756 3830
+type(
+  unit
+)
+"asmir_rdisasm.ml" 116 3832 3840 "asmir_rdisasm.ml" 116 3832 3849
+type(
+  (BigIntSet.elt -> unit) -> BigIntSet.elt list -> unit
+)
+ident(
+  ext_ref BatListFull.List.iter
+)
+"asmir_rdisasm.ml" 117 3850 3865 "asmir_rdisasm.ml" 117 3850 3866
+type(
+  BigIntSet.elt
+)
+ident(
+  def x "asmir_rdisasm.ml" 118 3870 3882 "asmir_rdisasm.ml" 119 3902 3961
+)
+"asmir_rdisasm.ml" 118 3870 3882 "asmir_rdisasm.ml" 118 3870 3892
+type(
+  BigIntSet.elt -> BigIntSet.elt Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"asmir_rdisasm.ml" 118 3870 3893 "asmir_rdisasm.ml" 118 3870 3894
+type(
+  BigIntSet.elt
+)
+ident(
+  int_ref x "asmir_rdisasm.ml" 117 3850 3865 "asmir_rdisasm.ml" 117 3850 3866
+)
+"asmir_rdisasm.ml" 118 3870 3895 "asmir_rdisasm.ml" 118 3870 3900
+type(
+  BigIntSet.elt Stack.t
+)
+ident(
+  int_ref stack "asmir_rdisasm.ml" 81 2554 2560 "asmir_rdisasm.ml" 81 2554 2565
+)
+"asmir_rdisasm.ml" 118 3870 3882 "asmir_rdisasm.ml" 118 3870 3900
+call(
+  stack
+)
+type(
+  unit
+)
+"asmir_rdisasm.ml" 119 3902 3914 "asmir_rdisasm.ml" 119 3902 3921
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref D.dprintf
+)
+"asmir_rdisasm.ml" 119 3902 3922 "asmir_rdisasm.ml" 119 3902 3954
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"asmir_rdisasm.ml" 119 3902 3956 "asmir_rdisasm.ml" 119 3902 3958
+type(
+  BigIntSet.elt -> string
+)
+ident(
+  ext_ref Big_int_convenience.( ~% )
+)
+"asmir_rdisasm.ml" 119 3902 3958 "asmir_rdisasm.ml" 119 3902 3959
+type(
+  BigIntSet.elt
+)
+ident(
+  int_ref x "asmir_rdisasm.ml" 117 3850 3865 "asmir_rdisasm.ml" 117 3850 3866
+)
+"asmir_rdisasm.ml" 119 3902 3955 "asmir_rdisasm.ml" 119 3902 3960
+call(
+  stack
+)
+type(
+  string
+)
+"asmir_rdisasm.ml" 119 3902 3914 "asmir_rdisasm.ml" 119 3902 3961
+call(
+  tail
+)
+type(
+  unit
+)
+"asmir_rdisasm.ml" 118 3870 3882 "asmir_rdisasm.ml" 119 3902 3961
+type(
+  unit
+)
+"asmir_rdisasm.ml" 117 3850 3860 "asmir_rdisasm.ml" 120 3962 3973
+type(
+  BigIntSet.elt -> unit
+)
+"asmir_rdisasm.ml" 121 3974 3985 "asmir_rdisasm.ml" 121 3974 3999
+type(
+  Ast.program -> Big_int_Z.big_int -> BigIntSet.elt list
+)
+ident(
+  int_ref get_code_addrs "asmir_rdisasm.ml" 26 511 515 "asmir_rdisasm.ml" 26 511 529
+)
+"asmir_rdisasm.ml" 121 3974 4000 "asmir_rdisasm.ml" 121 3974 4010
+type(
+  Ast.program
+)
+ident(
+  int_ref statements "asmir_rdisasm.ml" 109 3461 3474 "asmir_rdisasm.ml" 109 3461 3484
+)
+"asmir_rdisasm.ml" 121 3974 4011 "asmir_rdisasm.ml" 121 3974 4015
+type(
+  Type.addr
+)
+ident(
+  int_ref next "asmir_rdisasm.ml" 109 3461 3486 "asmir_rdisasm.ml" 109 3461 3490
+)
+"asmir_rdisasm.ml" 121 3974 3984 "asmir_rdisasm.ml" 121 3974 4016
+call(
+  stack
+)
+type(
+  BigIntSet.elt list
+)
+"asmir_rdisasm.ml" 116 3832 3840 "asmir_rdisasm.ml" 121 3974 4016
+call(
+  stack
+)
+type(
+  unit
+)
+"asmir_rdisasm.ml" 115 3756 3764 "asmir_rdisasm.ml" 121 3974 4016
+type(
+  unit
+)
+"asmir_rdisasm.ml" 114 3698 3706 "asmir_rdisasm.ml" 121 3974 4016
+type(
+  unit
+)
+"asmir_rdisasm.ml" 113 3658 3666 "asmir_rdisasm.ml" 121 3974 4016
+type(
+  unit
+)
+"asmir_rdisasm.ml" 112 3623 3631 "asmir_rdisasm.ml" 121 3974 4016
+type(
+  unit
+)
+"asmir_rdisasm.ml" 111 3581 3589 "asmir_rdisasm.ml" 121 3974 4016
+type(
+  unit
+)
+"asmir_rdisasm.ml" 110 3526 3534 "asmir_rdisasm.ml" 121 3974 4016
+type(
+  unit
+)
+"asmir_rdisasm.ml" 108 3448 3459 "asmir_rdisasm.ml" 121 3974 4017
+type(
+  unit
+)
+"asmir_rdisasm.ml" 95 2919 2925 "asmir_rdisasm.ml" 121 3974 4017
+type(
+  unit
+)
+"asmir_rdisasm.ml" 126 4119 4128 "asmir_rdisasm.ml" 126 4119 4146
+type(
+  exn
+)
+"asmir_rdisasm.ml" 126 4119 4150 "asmir_rdisasm.ml" 126 4119 4152
+type(
+  unit
+)
+"asmir_rdisasm.ml" 94 2911 2915 "asmir_rdisasm.ml" 126 4119 4152
+type(
+  unit
+)
+"asmir_rdisasm.ml" 93 2877 2881 "asmir_rdisasm.ml" 126 4119 4152
+type(
+  unit
+)
+"asmir_rdisasm.ml" 92 2839 2841 "asmir_rdisasm.ml" 127 4153 4159
+type(
+  unit
+)
+"asmir_rdisasm.ml" 128 4161 4163 "asmir_rdisasm.ml" 128 4161 4174
+type(
+  Ast.program list -> Ast.stmt list
+)
+ident(
+  ext_ref BatListFull.List.concat
+)
+"asmir_rdisasm.ml" 128 4161 4176 "asmir_rdisasm.ml" 128 4161 4184
+type(
+  Ast.program list -> Ast.program list
+)
+ident(
+  ext_ref BatListFull.List.rev
+)
+"asmir_rdisasm.ml" 128 4161 4185 "asmir_rdisasm.ml" 128 4161 4186
+type(
+  Ast.program list ref -> Ast.program list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"asmir_rdisasm.ml" 128 4161 4186 "asmir_rdisasm.ml" 128 4161 4189
+type(
+  Ast.program list ref
+)
+ident(
+  int_ref out "asmir_rdisasm.ml" 79 2507 2513 "asmir_rdisasm.ml" 79 2507 2516
+)
+"asmir_rdisasm.ml" 128 4161 4185 "asmir_rdisasm.ml" 128 4161 4189
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 128 4161 4175 "asmir_rdisasm.ml" 128 4161 4190
+call(
+  stack
+)
+type(
+  Ast.program list
+)
+"asmir_rdisasm.ml" 128 4161 4163 "asmir_rdisasm.ml" 128 4161 4190
+call(
+  stack
+)
+type(
+  Ast.stmt list
+)
+"asmir_rdisasm.ml" 128 4161 4192 "asmir_rdisasm.ml" 128 4161 4193
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"asmir_rdisasm.ml" 128 4161 4193 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  string ref
+)
+ident(
+  int_ref outasm "asmir_rdisasm.ml" 80 2529 2535 "asmir_rdisasm.ml" 80 2529 2541
+)
+"asmir_rdisasm.ml" 128 4161 4192 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  string
+)
+"asmir_rdisasm.ml" 128 4161 4163 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 92 2839 2841 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 88 2760 2762 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 85 2670 2672 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 82 2587 2589 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 81 2554 2556 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 80 2529 2531 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 79 2507 2509 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 78 2471 2473 "asmir_rdisasm.ml" 128 4161 4199
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 130 4201 4205 "asmir_rdisasm.ml" 130 4201 4212
+type(
+  ?f:(BigIntSet.elt -> Type.addr -> Ast.program -> bool) ->
+  Asmir.asmprogram -> Ast.stmt list * string
+)
+ident(
+  def rdisasm "asmir_rdisasm.ml" 135 4416 4416 --
+)
+"asmir_rdisasm.ml" 130 4201 4215 "asmir_rdisasm.ml" 130 4201 4216
+type(
+  BigIntSet.elt -> Type.addr -> Ast.program -> bool
+)
+"asmir_rdisasm.ml" 130 4201 4217 "asmir_rdisasm.ml" 130 4201 4224
+type(
+  BigIntSet.elt -> Type.addr -> Ast.program -> bool
+)
+ident(
+  int_ref default "asmir_rdisasm.ml" 75 2402 2406 "asmir_rdisasm.ml" 75 2402 2413
+)
+type(
+  BigIntSet.elt -> Type.addr -> Ast.program -> bool
+)
+ident(
+  int_ref *sth* "asmir_rdisasm.ml" 130 4201 4217 "asmir_rdisasm.ml" 130 4201 4224
+)
+type(
+  (BigIntSet.elt -> Type.addr -> Ast.program -> bool) option
+)
+type(
+  (BigIntSet.elt -> Type.addr -> Ast.program -> bool) option
+)
+type(
+  BigIntSet.elt -> Type.addr -> Ast.program -> bool
+)
+ident(
+  def *sth* "asmir_rdisasm.ml" 130 4201 4217 "asmir_rdisasm.ml" 130 4201 4224
+)
+"asmir_rdisasm.ml" 130 4201 4226 "asmir_rdisasm.ml" 130 4201 4227
+type(
+  Asmir.asmprogram
+)
+ident(
+  def p "asmir_rdisasm.ml" 131 4230 4232 "asmir_rdisasm.ml" 133 4386 4414
+)
+"asmir_rdisasm.ml" 131 4230 4236 "asmir_rdisasm.ml" 131 4230 4247
+type(
+  Type.addr list
+)
+"asmir_rdisasm.ml" 131 4230 4250 "asmir_rdisasm.ml" 131 4230 4258
+type(
+  (string * Type.addr * Type.addr -> Type.addr) ->
+  (string * Type.addr * Type.addr) list -> Type.addr list
+)
+ident(
+  ext_ref BatListFull.List.map
+)
+"asmir_rdisasm.ml" 131 4230 4270 "asmir_rdisasm.ml" 131 4230 4271
+type(
+  string
+)
+"asmir_rdisasm.ml" 131 4230 4273 "asmir_rdisasm.ml" 131 4230 4274
+type(
+  Type.addr
+)
+ident(
+  def s "asmir_rdisasm.ml" 131 4230 4282 "asmir_rdisasm.ml" 131 4230 4283
+)
+"asmir_rdisasm.ml" 131 4230 4276 "asmir_rdisasm.ml" 131 4230 4277
+type(
+  Type.addr
+)
+"asmir_rdisasm.ml" 131 4230 4269 "asmir_rdisasm.ml" 131 4230 4278
+type(
+  string * Type.addr * Type.addr
+)
+"asmir_rdisasm.ml" 131 4230 4282 "asmir_rdisasm.ml" 131 4230 4283
+type(
+  Type.addr
+)
+ident(
+  int_ref s "asmir_rdisasm.ml" 131 4230 4273 "asmir_rdisasm.ml" 131 4230 4274
+)
+"asmir_rdisasm.ml" 131 4230 4259 "asmir_rdisasm.ml" 131 4230 4284
+type(
+  string * Type.addr * Type.addr -> Type.addr
+)
+"asmir_rdisasm.ml" 131 4230 4286 "asmir_rdisasm.ml" 131 4230 4319
+type(
+  Asmir.asmprogram -> (string * Type.addr * Type.addr) list
+)
+ident(
+  ext_ref Func_boundary.get_function_ranges
+)
+"asmir_rdisasm.ml" 131 4230 4320 "asmir_rdisasm.ml" 131 4230 4321
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "asmir_rdisasm.ml" 130 4201 4226 "asmir_rdisasm.ml" 130 4201 4227
+)
+"asmir_rdisasm.ml" 131 4230 4285 "asmir_rdisasm.ml" 131 4230 4322
+call(
+  stack
+)
+type(
+  (string * Type.addr * Type.addr) list
+)
+"asmir_rdisasm.ml" 131 4230 4250 "asmir_rdisasm.ml" 131 4230 4322
+call(
+  stack
+)
+type(
+  Type.addr list
+)
+"asmir_rdisasm.ml" 132 4326 4332 "asmir_rdisasm.ml" 132 4326 4342
+type(
+  Type.addr list
+)
+"asmir_rdisasm.ml" 132 4326 4345 "asmir_rdisasm.ml" 132 4326 4365
+type(
+  Asmir.asmprogram -> Type.addr
+)
+ident(
+  ext_ref Asmir.get_start_addr
+)
+"asmir_rdisasm.ml" 132 4326 4366 "asmir_rdisasm.ml" 132 4326 4367
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "asmir_rdisasm.ml" 130 4201 4226 "asmir_rdisasm.ml" 130 4201 4227
+)
+"asmir_rdisasm.ml" 132 4326 4345 "asmir_rdisasm.ml" 132 4326 4367
+call(
+  stack
+)
+type(
+  Type.addr
+)
+"asmir_rdisasm.ml" 132 4326 4371 "asmir_rdisasm.ml" 132 4326 4382
+type(
+  Type.addr list
+)
+ident(
+  int_ref func_starts "asmir_rdisasm.ml" 131 4230 4236 "asmir_rdisasm.ml" 131 4230 4247
+)
+"asmir_rdisasm.ml" 132 4326 4345 "asmir_rdisasm.ml" 132 4326 4382
+type(
+  Type.addr list
+)
+"asmir_rdisasm.ml" 133 4386 4388 "asmir_rdisasm.ml" 133 4386 4398
+type(
+  ?f:(BigIntSet.elt -> Type.addr -> Ast.program -> bool) ->
+  Asmir.asmprogram -> BigIntSet.elt list -> Ast.stmt list * string
+)
+ident(
+  int_ref rdisasm_at "asmir_rdisasm.ml" 77 2428 2432 "asmir_rdisasm.ml" 77 2428 2442
+)
+"asmir_rdisasm.ml" 133 4386 4400 "asmir_rdisasm.ml" 133 4386 4401
+type(
+  BigIntSet.elt -> Type.addr -> Ast.program -> bool
+)
+ident(
+  int_ref f "asmir_rdisasm.ml" 130 4201 4215 "asmir_rdisasm.ml" 130 4201 4216
+)
+"asmir_rdisasm.ml" 133 4386 4402 "asmir_rdisasm.ml" 133 4386 4403
+type(
+  Asmir.asmprogram
+)
+ident(
+  int_ref p "asmir_rdisasm.ml" 130 4201 4226 "asmir_rdisasm.ml" 130 4201 4227
+)
+"asmir_rdisasm.ml" 133 4386 4404 "asmir_rdisasm.ml" 133 4386 4414
+type(
+  BigIntSet.elt list
+)
+ident(
+  int_ref startaddrs "asmir_rdisasm.ml" 132 4326 4332 "asmir_rdisasm.ml" 132 4326 4342
+)
+"asmir_rdisasm.ml" 133 4386 4388 "asmir_rdisasm.ml" 133 4386 4414
+call(
+  tail
+)
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 132 4326 4328 "asmir_rdisasm.ml" 133 4386 4414
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 131 4230 4232 "asmir_rdisasm.ml" 133 4386 4414
+type(
+  Ast.stmt list * string
+)
+"asmir_rdisasm.ml" 135 4416 4420 "asmir_rdisasm.ml" 135 4416 4432
+type(
+  int -> 'a -> 'b -> 'c -> bool
+)
+ident(
+  def max_callback "asmir_rdisasm.ml" 139 4488 4525 --
+)
+"asmir_rdisasm.ml" 135 4416 4433 "asmir_rdisasm.ml" 135 4416 4434
+type(
+  int
+)
+ident(
+  def n "asmir_rdisasm.ml" 136 4437 4439 "asmir_rdisasm.ml" 139 4488 4525
+)
+"asmir_rdisasm.ml" 136 4437 4443 "asmir_rdisasm.ml" 136 4437 4446
+type(
+  int ref
+)
+"asmir_rdisasm.ml" 136 4437 4449 "asmir_rdisasm.ml" 136 4437 4452
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"asmir_rdisasm.ml" 136 4437 4453 "asmir_rdisasm.ml" 136 4437 4454
+type(
+  int
+)
+"asmir_rdisasm.ml" 136 4437 4449 "asmir_rdisasm.ml" 136 4437 4454
+type(
+  int ref
+)
+"asmir_rdisasm.ml" 137 4458 4465 "asmir_rdisasm.ml" 137 4458 4466
+type(
+  'a
+)
+"asmir_rdisasm.ml" 137 4458 4467 "asmir_rdisasm.ml" 137 4458 4468
+type(
+  'b
+)
+"asmir_rdisasm.ml" 137 4458 4469 "asmir_rdisasm.ml" 137 4458 4470
+type(
+  'c
+)
+"asmir_rdisasm.ml" 138 4474 4478 "asmir_rdisasm.ml" 138 4474 4482
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"asmir_rdisasm.ml" 138 4474 4483 "asmir_rdisasm.ml" 138 4474 4486
+type(
+  int ref
+)
+ident(
+  int_ref ctr "asmir_rdisasm.ml" 136 4437 4443 "asmir_rdisasm.ml" 136 4437 4446
+)
+"asmir_rdisasm.ml" 138 4474 4478 "asmir_rdisasm.ml" 138 4474 4486
+type(
+  unit
+)
+"asmir_rdisasm.ml" 139 4488 4495 "asmir_rdisasm.ml" 139 4488 4496
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"asmir_rdisasm.ml" 139 4488 4496 "asmir_rdisasm.ml" 139 4488 4499
+type(
+  int ref
+)
+ident(
+  int_ref ctr "asmir_rdisasm.ml" 136 4437 4443 "asmir_rdisasm.ml" 136 4437 4446
+)
+"asmir_rdisasm.ml" 139 4488 4495 "asmir_rdisasm.ml" 139 4488 4499
+type(
+  int
+)
+"asmir_rdisasm.ml" 139 4488 4500 "asmir_rdisasm.ml" 139 4488 4501
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"asmir_rdisasm.ml" 139 4488 4502 "asmir_rdisasm.ml" 139 4488 4503
+type(
+  int
+)
+ident(
+  int_ref n "asmir_rdisasm.ml" 135 4416 4433 "asmir_rdisasm.ml" 135 4416 4434
+)
+"asmir_rdisasm.ml" 139 4488 4495 "asmir_rdisasm.ml" 139 4488 4503
+type(
+  bool
+)
+"asmir_rdisasm.ml" 139 4488 4509 "asmir_rdisasm.ml" 139 4488 4514
+type(
+  bool
+)
+"asmir_rdisasm.ml" 139 4488 4520 "asmir_rdisasm.ml" 139 4488 4524
+type(
+  bool
+)
+"asmir_rdisasm.ml" 139 4488 4492 "asmir_rdisasm.ml" 139 4488 4524
+type(
+  bool
+)
+"asmir_rdisasm.ml" 138 4474 4478 "asmir_rdisasm.ml" 139 4488 4524
+type(
+  bool
+)
+"asmir_rdisasm.ml" 137 4458 4460 "asmir_rdisasm.ml" 139 4488 4525
+type(
+  'a -> 'b -> 'c -> bool
+)
+"asmir_rdisasm.ml" 136 4437 4439 "asmir_rdisasm.ml" 139 4488 4525
+type(
+  'a -> 'b -> 'c -> bool
+)
